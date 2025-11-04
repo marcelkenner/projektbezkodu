@@ -1,0 +1,1180 @@
+{
+  "updated": "2025-02-15",
+  "categories": [
+    {
+      "id": "site-builders",
+      "name": "Site buildery (no-code) i ekosystem",
+      "description": "Buildery stron, biblioteki komponentów i rozszerzenia dedykowane Webflow/Framer.",
+      "programs": [
+        {
+          "slug": "webflow",
+          "name": "Webflow Affiliate Program",
+          "url": "https://webflow.com/solutions/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "50% prowizji od pierwszej subskrypcji przez 12 miesięcy",
+            "model": "revshare",
+            "recurring": true,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "Miesięcznie przez panel Webflow",
+          "notes": "Oficjalny program z wysokim HFM+R; Webflow udostępnia materiały promocyjne i dashboard statystyk.",
+          "sources": [
+            "https://webflow.com/solutions/affiliates"
+          ],
+          "idealContent": [
+            "Porównania builderów",
+            "Tutoriale live-build",
+            "Lead magnet – szablony"
+          ]
+        },
+        {
+          "slug": "framer",
+          "name": "Framer Creators",
+          "url": "https://www.framer.com/creators/",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "Do 50% prowizji za referencje (płatności miesięczne)",
+            "model": "revshare",
+            "recurring": true,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "60 dni (wg komunikacji twórców)",
+          "payout": "Wypłaty miesięczne, próg min. 200 USD",
+          "notes": "Świetny do treści wideo i live-build – warto proponować pakiety Framer+Relume.",
+          "sources": [
+            "https://www.framer.com/creators/"
+          ]
+        },
+        {
+          "slug": "wix",
+          "name": "Wix Affiliate Program",
+          "url": "https://www.wix.com/about/affiliates",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "CPA za każdy plan Premium (stawki zależne od regionu)",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Minimalna wypłata 300 USD",
+          "notes": "Dobre uzupełnienie artykułów typu 'Wix vs Webflow vs Framer'.",
+          "sources": [
+            "https://www.wix.com/about/affiliates/faq"
+          ]
+        },
+        {
+          "slug": "squarespace",
+          "name": "Squarespace (Impact)",
+          "url": "https://impact.com/advertisers/squarespace/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "CPA (stawki negocjowane w Impact)",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "45 dni (typowe dla Impact)",
+          "payout": "Przez Impact",
+          "notes": "Poza klasycznym programem warto rozważyć Circle dla studiów projektowych.",
+          "sources": [
+            "https://www.wix.com/blog/what-is-affiliate-marketing"
+          ]
+        },
+        {
+          "slug": "dorik",
+          "name": "Dorik Partnership Program",
+          "url": "https://dorik.com/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "40% pierwsza płatność + 10% recurring lifetime",
+            "model": "hybrid",
+            "recurring": true,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "Rewardful",
+          "notes": "Świetny do segmentu 'one page dla mikrofirm'; program 2-tier.",
+          "sources": [
+            "https://dorik.com/affiliates",
+            "https://www.postaffiliatepro.com/affiliate-program-directory/dorik-affiliate-program/"
+          ]
+        },
+        {
+          "slug": "carrd",
+          "name": "Carrd Affiliate",
+          "url": "https://carrd.co/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Około 30% od planów Pro (informacje od partnerów)",
+            "model": "revshare",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Rewardful",
+          "notes": "Idealne do contentu o landingach/link-in-bio i szybkich wizytówkach.",
+          "sources": [
+            "https://elfsight.com/carrd-affiliate-program/"
+          ]
+        },
+        {
+          "slug": "webnode",
+          "name": "Webnode Affiliate",
+          "url": "https://www.webnode.com/affiliate/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Prowizja za pierwszy zakup planu Premium",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "90 dni",
+          "payout": "Minimalna wypłata 300 USD",
+          "notes": "Dobra opcja dla prostych stron w języku polskim.",
+          "sources": [
+            "https://www.webnode.com/affiliate/"
+          ]
+        },
+        {
+          "slug": "relume",
+          "name": "Relume Partner Program",
+          "url": "https://community.relume.io/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Stawki ustalane indywidualnie (Rewardful)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "Zależna od konfiguracji",
+          "payout": "Rewardful",
+          "notes": "Świetny cross-sell do bibliotek komponentów i AI layout assistant.",
+          "sources": [
+            "https://community.relume.io/x/general/ccm94cfe5qds/does-relume-have-a-referral-or-affiliate-program"
+          ]
+        },
+        {
+          "slug": "jetboost",
+          "name": "Jetboost Affiliate",
+          "url": "https://www.jetboost.io/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "20% prowizji lifetime (alternatywny plan dostępny)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "Rewardful",
+          "notes": "Idealny upsell do tutoriali Webflow CMS (filtry, sortowanie, wyszukiwarki)."
+        },
+        {
+          "slug": "flowbase",
+          "name": "Flowbase Affiliates",
+          "url": "https://www.flowbase.co/affiliates",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "20% przez 12 miesięcy",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "45 dni",
+          "payout": "Rewardful",
+          "notes": "Dobrze łączy się z sekcją Szablony & Komponenty.",
+          "sources": [
+            "https://www.flowbase.co/affiliates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative-tools",
+      "name": "Kreatywne narzędzia i wideo",
+      "description": "Pakiety Adobe, montaż audio/wideo oraz alternatywy dla Canvy.",
+      "programs": [
+        {
+          "slug": "adobe-creative-cloud",
+          "name": "Adobe Affiliate (CC / Document Cloud / Stock)",
+          "url": "https://www.adobe.com/affiliates.html",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "Wysokie payouty za 1. miesiąc (np. US$43 dla Stock) + specjalne stawki",
+            "model": "hybrid",
+            "recurring": false,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Impact / PartnerStack (w zależności od produktu)",
+          "notes": "Najsilniejszy zamiennik Canvy; świetny do tutoriali Photoshop/Illustrator/Express.",
+          "sources": [
+            "https://www.adobe.com/affiliates.html"
+          ]
+        },
+        {
+          "slug": "canva-empower",
+          "name": "Canva Empower Canvassador",
+          "url": "https://www.canva.com/help/canva-affiliate-marketing-program/",
+          "status": "invitation-only",
+          "priority": "low",
+          "commission": {
+            "headline": "Program ambasadorski (brak klasycznego CPA)",
+            "model": "ambassador",
+            "recurring": false
+          },
+          "cookieWindow": null,
+          "payout": "Ustalane indywidualnie",
+          "notes": "Standardowy program afiliacyjny zakończono 31.01.2024 – traktuj jako kanał community.",
+          "alternatives": [
+            "adobe-creative-cloud",
+            "envato-elements",
+            "creative-market"
+          ],
+          "sources": [
+            "https://www.canva.com/help/canva-affiliate-marketing-program/"
+          ]
+        },
+        {
+          "slug": "descript",
+          "name": "Descript Affiliate",
+          "url": "https://www.descript.com/affiliate",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "$25 za nową subskrypcję",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Perfekcyjny do materiałów 'przed/po', transkrypcji i repurposingu audio/wideo.",
+          "sources": [
+            "https://www.descript.com/affiliate"
+          ]
+        },
+        {
+          "slug": "kapwing",
+          "name": "Kapwing Affiliate",
+          "url": "https://www.kapwing.com/help/kapwing-affiliate-program/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "25% recurring (30-dniowy cookie)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetne do contentu o shortform (Pinterest/YouTube Shorts).",
+          "sources": [
+            "https://www.kapwing.com/help/kapwing-affiliate-program/"
+          ]
+        },
+        {
+          "slug": "veed",
+          "name": "VEED Affiliate",
+          "url": "https://www.veed.io/affiliate",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Do 25–30% (recurring przez 12 mies.)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Warto łączyć z poradnikami o social video i repurposingu.",
+          "sources": [
+            "https://www.veed.io/affiliate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stock-media",
+      "name": "Banki zdjęć, grafika, ikony",
+      "description": "Stocki, biblioteki ilustracji oraz marketplace'y kreatywne.",
+      "programs": [
+        {
+          "slug": "shutterstock",
+          "name": "Shutterstock Affiliate",
+          "url": "https://www.shutterstock.com/explore/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "20% dla nowych klientów",
+            "model": "revshare",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Miesięczny payout",
+          "notes": "Stabilny program – idealny do checklist zasobów graficznych.",
+          "sources": [
+            "https://www.shutterstock.com/explore/affiliates"
+          ]
+        },
+        {
+          "slug": "envato-elements",
+          "name": "Envato Elements Affiliates",
+          "url": "https://www.envato.com/affiliates/",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "50% pierwszej płatności",
+            "model": "cpa",
+            "recurring": false,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Przez Envato Market",
+          "notes": "Świetny upsell do lead magnetów i bibliotek komponentów.",
+          "sources": [
+            "https://www.envato.com/affiliates/"
+          ]
+        },
+        {
+          "slug": "creative-market",
+          "name": "Creative Market Affiliate",
+          "url": "https://creativemarket.com/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "20% nowych / 10% powracających / 30% membership",
+            "model": "hybrid",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Impact",
+          "notes": "Idealne dla bibliotek UI/UX oraz fontów.",
+          "sources": [
+            "https://creativemarket.com/affiliates"
+          ]
+        },
+        {
+          "slug": "depositphotos",
+          "name": "Depositphotos Partner Program",
+          "url": "https://depositphotos.com/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Do 40% – 40% pierwsza transakcja, 15% przez 3 lata",
+            "model": "hybrid",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "Rakuten / własna platforma",
+          "notes": "Dobre do contentu o fotografiach stockowych.",
+          "sources": [
+            "https://www.affiliateprogramdb.com/brands/depositphotos-partner-program/"
+          ]
+        },
+        {
+          "slug": "storyblocks",
+          "name": "Storyblocks Affiliate",
+          "url": "https://www.storyblocks.com/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Około 30% za subskrypcje",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Commission Junction / Impact (wg kampanii)",
+          "notes": "Warto przy materiałach o stock video i animacjach.",
+          "sources": [
+            "https://affiliatewaitlist.com/partner/storyblocks-affiliate-program/"
+          ]
+        },
+        {
+          "slug": "icons8",
+          "name": "Icons8 Affiliate",
+          "url": "https://icons8.com/l/affiliate/",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "70% miesięczne / 25% roczne",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "45 dni",
+          "payout": "PartnerStack",
+          "notes": "Rewelacyjne do zestawień bibliotek ikon i ilustracji.",
+          "sources": [
+            "https://icons8.com/l/affiliate/"
+          ]
+        },
+        {
+          "slug": "freepik",
+          "name": "Freepik Referral",
+          "url": "https://support.freepik.com/s/article/Referral-program",
+          "status": "active",
+          "priority": "low",
+          "commission": {
+            "headline": "15% subskrypcji lub 10% od zarobków poleconego twórcy",
+            "model": "hybrid",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Wewnętrzny system Freepik",
+          "notes": "Warunki zmienne – dobre jako bonus, nie core monetization.",
+          "sources": [
+            "https://support.freepik.com/s/article/Referral-program"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image-cdn",
+      "name": "Hosting obrazów / CDN / optymalizacja",
+      "description": "CDN-y obrazów, transformacje i cache do poprawy wydajności.",
+      "programs": [
+        {
+          "slug": "uploadcare",
+          "name": "Uploadcare Partnership",
+          "url": "https://uploadcare.com/partners/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "10% przez 12 miesięcy",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetny fit do poradników Core Web Vitals i e-commerce.",
+          "sources": [
+            "https://uploadcare.com/partners/"
+          ]
+        },
+        {
+          "slug": "cloudimage",
+          "name": "Cloudimage (Scaleflex) Affiliate",
+          "url": "https://www.cloudimage.io/affiliate",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "10% ARR, cookie 90 dni",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Przydatne w case'ach wydajności i migracji do CDN.",
+          "sources": [
+            "https://www.cloudimage.io/affiliate"
+          ]
+        },
+        {
+          "slug": "imageengine",
+          "name": "ImageEngine Affiliate",
+          "url": "https://www.imgix.com/blog/introducing-imgix-partners",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "10% przez 12 miesięcy",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "imgix Partners",
+          "notes": "Dla contentu o optymalizacji grafiki i API transformacji.",
+          "sources": [
+            "https://www.imgix.com/blog/introducing-imgix-partners"
+          ]
+        },
+        {
+          "slug": "bunny-net",
+          "name": "bunny.net Affiliate",
+          "url": "https://bunny.net/affiliates",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "$20 za nowego płacącego klienta",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Miesięczne wypłaty",
+          "notes": "Świetny przykład w poradnikach 'Szybsza strona na statycznym hostingu'.",
+          "sources": [
+            "https://bunny.net/affiliates",
+            "https://www.imgix.com/partners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "name": "Formularze i mikrousługi no-code",
+      "description": "Narzędzia do generowania leadów, ankiet i formularzy.",
+      "programs": [
+        {
+          "slug": "jotform",
+          "name": "Jotform Affiliate",
+          "url": "https://www.jotform.com/partnership/affiliate/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "30% za nowych płacących",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "PartnerStack",
+          "notes": "Idealne do lead magnetów i automatyzacji zapisów.",
+          "sources": [
+            "https://www.jotform.com/partnership/affiliate/"
+          ]
+        },
+        {
+          "slug": "typeform",
+          "name": "Typeform Affiliate",
+          "url": "https://www.typeform.com/affiliates/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Około 20% recurring (po akceptacji)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetne do UX research i ankiet.",
+          "sources": [
+            "https://www.affiliateprogramdb.com/brands/typeform-affiliate-program/"
+          ]
+        },
+        {
+          "slug": "tally",
+          "name": "Tally Referral",
+          "url": "https://tally.so/help/referral-program",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "20% (do 150 USD na użytkownika) + 3 miesiące zniżki dla poleceń",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "45 dni",
+          "payout": "Rewardful",
+          "notes": "Win-win – daj kod zniżkowy w lead magnetach.",
+          "sources": [
+            "https://tally.so/help/referral-program"
+          ]
+        },
+        {
+          "slug": "paperform",
+          "name": "Paperform Affiliate",
+          "url": "https://paperform.co/affiliate",
+          "status": "active",
+          "priority": "low",
+          "commission": {
+            "headline": "20–30% recurring (wg agregatów)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Elastyczne use-case'y – formularze zamówień, płatności.",
+          "sources": [
+            "https://saasaffiliate.com/partner/paperform-affiliate-program/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "name": "E-mail / newsletter",
+      "description": "Platformy mailingowe i narzędzia do automatyzacji marketingu.",
+      "programs": [
+        {
+          "slug": "mailerlite",
+          "name": "MailerLite Affiliate",
+          "url": "https://www.mailerlite.com/affiliate",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "30% recurring lifetime",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetne dla polskich twórców – interfejs PL.",
+          "sources": [
+            "https://www.mailerlite.com/affiliate"
+          ]
+        },
+        {
+          "slug": "getresponse",
+          "name": "GetResponse Affiliate",
+          "url": "https://www.getresponse.com/affiliate-programs",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "33% recurring lub $100 CPA",
+            "model": "hybrid",
+            "recurring": true,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "120 dni",
+          "payout": "Rakuten / wewnętrzny panel",
+          "notes": "Polska marka – dobry argument w case'ach PL.",
+          "sources": [
+            "https://www.beehiiv.com/partners"
+          ]
+        },
+        {
+          "slug": "convertkit",
+          "name": "ConvertKit Affiliate",
+          "url": "https://convertkit.com/affiliates",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "30% recurring",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetny do segmentu twórców kursów i newsletterów.",
+          "sources": [
+            "https://www.mailerlite.com/blog/best-affiliate-marketing-programs-to-make-money"
+          ]
+        },
+        {
+          "slug": "aweber",
+          "name": "AWeber Affiliate",
+          "url": "https://www.aweber.com/affiliates.htm",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Start 30% – do 50% przy wolumenie",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "365 dni",
+          "payout": "ShareASale / wewnętrzny",
+          "notes": "Klasyczna platforma – warto przy materiałach historycznych o e-mail marketingu.",
+          "sources": [
+            "https://www.shopify.com/blog/best-affiliate-programs"
+          ]
+        },
+        {
+          "slug": "beehiiv",
+          "name": "beehiiv Partner Program",
+          "url": "https://www.beehiiv.com/partners",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "Do 60% przez 12 miesięcy (recurring)",
+            "model": "revshare",
+            "recurring": true,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Idealne do newslettera 'WebDesignPoPolsku' i lead magnetów.",
+          "sources": [
+            "https://www.beehiiv.com/partners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seo-performance",
+      "name": "SEO / research / performance",
+      "description": "Narzędzia SEO, analityka bez cookies i optymalizacja wydajności.",
+      "programs": [
+        {
+          "slug": "semrush",
+          "name": "Semrush (BeRush)",
+          "url": "https://www.semrush.com/partners/affiliate-program/",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "$200 za sprzedaż / $10 za trial / $0.01 za darmową rejestrację",
+            "model": "hybrid",
+            "recurring": false,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "120 dni",
+          "payout": "BeRush",
+          "notes": "Bardzo wysokie CPA – idealne do treści o researchu słów kluczowych.",
+          "sources": [
+            "https://www.semrush.com/blog/earn-money-affiliate-marketer/"
+          ]
+        },
+        {
+          "slug": "surfer",
+          "name": "Surfer SEO",
+          "url": "https://surferseo.com/partners/",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "$80 CPA (miesięczny) / $160 CPA (roczny) + % od odnowień",
+            "model": "hybrid",
+            "recurring": true,
+            "firstMonthBoost": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "PartnerStack",
+          "notes": "Polska marka – świetny fit do polskich case study.",
+          "sources": []
+        },
+        {
+          "slug": "fathom",
+          "name": "Fathom Analytics",
+          "url": "https://usefathom.com/affiliates",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "25% recurring lifetime",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "45 dni",
+          "payout": "PartnerStack",
+          "notes": "Privacy-first – genialne w treściach o analityce zgodnej z RODO.",
+          "sources": [
+            "https://usefathom.com/affiliates"
+          ]
+        },
+        {
+          "slug": "plausible",
+          "name": "Plausible Analytics",
+          "url": "https://github.com/plausible/analytics/discussions/120",
+          "status": "no-program",
+          "priority": "low",
+          "commission": null,
+          "cookieWindow": null,
+          "payout": null,
+          "notes": "Brak programu afiliacyjnego – warto wspomnieć w treści, ale bez monetizacji.",
+          "sources": [
+            "https://github.com/plausible/analytics/discussions/120"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ux-cro",
+      "name": "UX / CRO / heatmapy",
+      "description": "Narzędzia do badań zachowań użytkowników, heatmap i testów A/B.",
+      "programs": [
+        {
+          "slug": "hotjar",
+          "name": "Hotjar Partner Program",
+          "url": "https://www.hotjar.com/partners/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Recurrying wg tieru (np. 15–25%)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetne do case study 'mapy kliknięć, nagrania sesji'.",
+          "sources": [
+            "https://www.hotjar.com/hotjar-partner-program-terms-of-service/"
+          ]
+        },
+        {
+          "slug": "vwo",
+          "name": "VWO Affiliate",
+          "url": "https://vwo.com/blog/how-to-become-a-vwo-affiliate-in-easy-steps-a-quick-guide/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Recurrying (stawki zależne od tieru)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Idealne do treści o testach A/B i optymalizacji konwersji.",
+          "sources": [
+            "https://vwo.com/blog/how-to-become-a-vwo-affiliate-in-easy-steps-a-quick-guide/"
+          ]
+        },
+        {
+          "slug": "convert-com",
+          "name": "Convert.com Partnerships",
+          "url": "https://www.convert.com/partnerships/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "15% w 1. roku + 10% w 2. roku (90-dniowy cookie)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Ambasadorskie podejście – świetne do zaawansowanych case'ów CRO.",
+          "sources": [
+            "https://www.convert.com/partnerships/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "Automatyzacje / app builders",
+      "description": "Narzędzia do automatyzacji procesów, integracji i budowy aplikacji bez kodu.",
+      "programs": [
+        {
+          "slug": "make",
+          "name": "Make (Integromat) Affiliate",
+          "url": "https://www.make.com/en/affiliate",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "35% przez 12 miesięcy",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Perfekcyjne do tutoriali 'automation dla stron bez kodu'.",
+          "sources": [
+            "https://www.make.com/en/affiliate"
+          ]
+        },
+        {
+          "slug": "zapier",
+          "name": "Zapier Solution Partner",
+          "url": "https://zapier.com/l/solution-partner",
+          "status": "partner-program",
+          "priority": "medium",
+          "commission": {
+            "headline": "Program konsultingowy (brak klasycznego CPA)",
+            "model": "partner",
+            "recurring": true
+          },
+          "cookieWindow": null,
+          "payout": "Ustalane indywidualnie",
+          "notes": "Dobre dla agencji oferujących wdrożenia automatyzacji.",
+          "sources": [
+            "https://zapier.com/l/solution-partner"
+          ]
+        },
+        {
+          "slug": "softr",
+          "name": "Softr Affiliate",
+          "url": "https://www.softr.io/affiliate",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "25% przez 12 miesięcy",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetne do portali na Airtable/Notion.",
+          "sources": [
+            "https://www.softr.io/affiliate"
+          ]
+        },
+        {
+          "slug": "bubble",
+          "name": "Bubble Affiliate",
+          "url": "https://affiliate.watch/affiliate/bubble",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Raportowane ~30–35%",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack / Rewardful (wg regionu)",
+          "notes": "Dobry do case'ów aplikacji webowych.",
+          "sources": [
+            "https://affiliate.watch/affiliate/bubble"
+          ]
+        },
+        {
+          "slug": "glide",
+          "name": "Glide Experts / Affiliate",
+          "url": "https://www.glideapps.com/experts-program",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Około 20% (PartnerStack)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "45 dni",
+          "payout": "PartnerStack",
+          "notes": "Skup się na aplikacjach dla freelancerów i biznesów lokalnych.",
+          "sources": [
+            "https://www.glideapps.com/experts-program"
+          ]
+        },
+        {
+          "slug": "outseta",
+          "name": "Outseta Partner",
+          "url": "https://www.outseta.com/partners",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "25% recurring forever (także od revenue share)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "Rewardful",
+          "notes": "Świetny dla członkostw i płatnych społeczności na Webflow.",
+          "sources": [
+            "https://www.outseta.com/partners"
+          ]
+        },
+        {
+          "slug": "memberstack",
+          "name": "Memberstack Affiliate (Rewardful)",
+          "url": "https://docs.memberstack.com/hc/en-us/articles/11400793421595-Rewardful-Integration",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Prowizja konfigurowana w Rewardful (typowo 25%+)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "Rewardful",
+          "notes": "Dokumentacja pokazuje jak ustawić linki – idealne do kursów membership.",
+          "sources": [
+            "https://docs.memberstack.com/hc/en-us/articles/11400793421595-Rewardful-Integration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce / platformy",
+      "description": "Platformy sprzedażowe i narzędzia do sklepów internetowych.",
+      "programs": [
+        {
+          "slug": "shopify",
+          "name": "Shopify Affiliate",
+          "url": "https://www.shopify.com/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "Prowizja za merchantów po trialu (wysokie CPA)",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "Impact",
+          "notes": "Najlepsza alternatywa po zamknięciu programu BigCommerce.",
+          "sources": [
+            "https://www.shopify.com/affiliates"
+          ]
+        },
+        {
+          "slug": "bigcommerce",
+          "name": "BigCommerce Affiliate (zamknięty)",
+          "url": "https://www.bigcommerce.com/partners/affiliate-program-closure/",
+          "status": "closed",
+          "priority": "deprecated",
+          "commission": null,
+          "cookieWindow": null,
+          "payout": null,
+          "notes": "Program zakończony 17.05.2025 – informacja dla historycznych treści. Polecane alternatywy: Shopify, Shoplazza.",
+          "alternatives": [
+            "shopify"
+          ],
+          "sources": [
+            "https://www.bigcommerce.com/partners/affiliate-program-closure/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hosting-pl",
+      "name": "Hosting i domeny (PL + global)",
+      "description": "Programy partnerskie firm hostingowych oraz dostawców domen.",
+      "programs": [
+        {
+          "slug": "home-pl",
+          "name": "home.pl Program partnerski",
+          "url": "https://home.pl/program-partnerski/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Prowizje za hosting, domeny, SSL (stawki wg produktu)",
+            "model": "hybrid",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "home.pl panel",
+          "notes": "Dobry dla treści skierowanych do mikrofirm w Polsce.",
+          "sources": [
+            "https://home.pl/program-partnerski/"
+          ]
+        },
+        {
+          "slug": "nazwa-pl",
+          "name": "nazwa.pl Program partnerski",
+          "url": "https://www.nazwa.pl/program-partnerski/",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "Prowizja od wszystkich płatności przez 24 mies. + zniżka -20%",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "nazwa.pl panel",
+          "notes": "Świetny 'deal sweetener' w kursach i warsztatach.",
+          "sources": [
+            "https://www.nazwa.pl/program-partnerski/"
+          ]
+        },
+        {
+          "slug": "cyber-folks",
+          "name": "cyber_Folks cyber_Profit",
+          "url": "https://cyberfolks.pl/program-partnerski/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Bezterminowa prowizja za klienta",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "cyber_Folks panel",
+          "notes": "Umożliwia kody rabatowe – dobry element warsztatów.",
+          "sources": [
+            "https://cyberfolks.pl/program-partnerski/"
+          ]
+        },
+        {
+          "slug": "ovhcloud",
+          "name": "OVHcloud Referral/Advisory",
+          "url": "https://partner.ovhcloud.com/en/referral-advisory-path/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Tierowane prowizje za leady/deale",
+            "model": "partner",
+            "recurring": true
+          },
+          "cookieWindow": null,
+          "payout": "OVHcloud Partner Portal",
+          "notes": "Dobre dla większych implementacji i klientów enterprise.",
+          "sources": [
+            "https://partner.ovhcloud.com/en/referral-advisory-path/"
+          ]
+        },
+        {
+          "slug": "hostinger",
+          "name": "Hostinger Affiliate",
+          "url": "https://www.hostinger.com/affiliates",
+          "status": "active",
+          "priority": "high",
+          "commission": {
+            "headline": "Od 40% w górę (rosną wraz z wolumenem)",
+            "model": "revshare",
+            "recurring": false
+          },
+          "cookieWindow": "45 dni",
+          "payout": "Impact",
+          "notes": "PL-friendly support, wysoka konwersja.",
+          "sources": [
+            "https://www.hostinger.com/affiliates"
+          ]
+        },
+        {
+          "slug": "kinsta",
+          "name": "Kinsta Affiliate",
+          "url": "https://kinsta.com/affiliates/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Do $500 one-time + 10% lifetime recurring",
+            "model": "hybrid",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "Impact",
+          "notes": "Świetny przykład premium hostingu WP dla case'ów performance.",
+          "sources": [
+            "https://kinsta.com/affiliates/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landing-builders",
+      "name": "Landing page builders",
+      "description": "Specjalistyczne narzędzia do kampanii landing page i A/B testów.",
+      "programs": [
+        {
+          "slug": "unbounce",
+          "name": "Unbounce Partner",
+          "url": "https://unbounce.com/partner-program/",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "20–35% recurring (wg tieru)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "90 dni",
+          "payout": "PartnerStack",
+          "notes": "Świetny przykład w warsztatach o landingach i testach A/B.",
+          "sources": [
+            "https://unbounce.com/partner-program/"
+          ]
+        },
+        {
+          "slug": "leadpages",
+          "name": "Leadpages Affiliate",
+          "url": "https://www.leadpages.com/affiliates",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Do ~400 USD za referral (CPA)",
+            "model": "cpa",
+            "recurring": false
+          },
+          "cookieWindow": "30 dni",
+          "payout": "PartnerStack",
+          "notes": "Łatwy onboarding – dobry do kursów lead-gen.",
+          "sources": [
+            "https://www.creator-hero.com/blog/unbounce-affiliate-program-in-depth-review-pros-and-cons"
+          ]
+        },
+        {
+          "slug": "instapage",
+          "name": "Instapage Affiliate",
+          "url": "https://instapage.com/affiliate",
+          "status": "active",
+          "priority": "medium",
+          "commission": {
+            "headline": "Stawki negocjowane (enterprise)",
+            "model": "revshare",
+            "recurring": true
+          },
+          "cookieWindow": "60 dni",
+          "payout": "PartnerStack",
+          "notes": "Enterprise-grade – warto do contentu o landingach premium.",
+          "sources": [
+            "https://instapage.com/affiliate"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -43,3 +43,4 @@ Guide future growth, multi-site rollout, performance tuning, and product enhance
 - `Playbook/step_by_step.md`
 - `Playbook/docker.md`
 - `Playbook/terraform.md`
+- `Playbook/aws_cli.md`

@@ -46,3 +46,4 @@ Define how code moves from commit to production across applications and infrastr
 - `Playbook/step_by_step.md`
 - `Playbook/docker.md`
 - `Playbook/terraform.md`
+- `Playbook/aws_cli.md`

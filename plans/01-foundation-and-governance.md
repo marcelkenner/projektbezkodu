@@ -18,7 +18,7 @@ Establish the base capabilities required to run the affiliate stack project succ
 - [ ] Confirm AWS account ownership, billing alerts, and MFA coverage.
 - [ ] Finalize region strategy (e.g., `us-east-1` for stack + `us-east-1` for CloudFront certs).
 - [ ] Collect IAM users/roles requiring access and map least-privilege policies.
-- [ ] Validate local workstation setup (Node 22, Python 3.12, Terraform ≥1.6, AWS CLI v2, Docker, `aws configure`).
+- [ ] Validate local workstation setup (Node 22, Python 3.12, Terraform ≥1.6, AWS CLI v2, Docker, `aws configure`); follow `Playbook/aws_cli.md` for scripted AWS CLI/SSO bootstrap.
 - [ ] Document `.env`/secret handling rules and repository contribution guidelines.
 
 ### Near Term (Weeks 1-4)
@@ -45,3 +45,4 @@ Establish the base capabilities required to run the affiliate stack project succ
 - `Playbook/step_by_step.md`
 - `Playbook/docker.md`
 - `Playbook/terraform.md`
+- `Playbook/aws_cli.md`

@@ -1,6 +1,7 @@
 If you want to run commands, please include source ~/.nvm/nvm.sh &&  in front first.
 always use context7 mcp
 always use serena mcp
+always reference playbook folder
 
 <file_length_and_structure>
 – Never allow a file to exceed 500 lines.

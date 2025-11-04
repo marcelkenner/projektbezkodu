@@ -17,6 +17,7 @@ Deliver and maintain the AWS/Terraform infrastructure required for each affiliat
 ### Immediate (Week 0-1)
 - [ ] Configure Terraform backend bucket + DynamoDB lock table (document names/regions).
 - [ ] Populate `terraform.tfvars` and `backend.hcl` for `infra/sites/projektbezkodu-dev`.
+- [ ] Ensure AWS CLI profile/SSO access is ready; reuse scripts in `Playbook/aws_cli.md` before Terraform work.
 - [ ] Run targeted `terraform apply` for ECR repositories to unblock image pushes.
 - [ ] Capture outputs (RDS endpoint, ECS cluster/service ARNs) for downstream teams.
 
@@ -47,3 +48,4 @@ Deliver and maintain the AWS/Terraform infrastructure required for each affiliat
 - `Playbook/step_by_step.md`
 - `Playbook/docker.md`
 - `Playbook/terraform.md`
+- `Playbook/aws_cli.md`

@@ -52,3 +52,4 @@ Ensure the running stack remains healthy, secure, and cost-effective through mon
 - `Playbook/step_by_step.md`
 - `Playbook/docker.md`
 - `Playbook/terraform.md`
+- `Playbook/aws_cli.md`

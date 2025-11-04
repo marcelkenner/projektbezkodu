@@ -45,3 +45,4 @@ Coordinate work across the three application components—Next.js frontend, Djan
 - `Playbook/step_by_step.md`
 - `Playbook/docker.md`
 - `Playbook/terraform.md`
+- `Playbook/aws_cli.md`
