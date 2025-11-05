@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Nowe artykuły",
-    "heading": "Rzetelne artykuły o stronach bez kodu.",
+    "heading": "Rzetelne artykuły o stronach no-code.",
     "subheading": "Porównania narzędzi i szczegółowe tutoriale pisane krok po kroku.",
     "trustLine": "Zaufali nam twórcy stron dla:",
     "trustLogos": ["Webflow", "Framer", "Relume"]
@@ -14,7 +14,7 @@
         {
           "title": "Artykuły eksperckie",
           "meta": "Strategia · SEO · Wydajność",
-          "description": "Dogłębne analizy i wskazówki, które pomagają budować lepsze strony bez kodu.",
+          "description": "Dogłębne analizy i wskazówki, które pomagają budować lepsze strony no-code.",
           "ctaLabel": "Czytaj artykuły",
           "href": "/artykuly"
         },
@@ -40,7 +40,7 @@
       "items": [
         {
           "title": "Poznaj podstawy",
-          "description": "Zacznij od artykułów o strategii, SEO i wydajności stron bez kodu."
+          "description": "Zacznij od artykułów o strategii, SEO i wydajności stron no-code."
         },
         {
           "title": "Porównaj narzędzia",

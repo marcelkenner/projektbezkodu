@@ -667,7 +667,7 @@ Here’s a **big batch of evergreen, non‑affiliate pillars** tailored for Proj
 - **/biblioteka/sekcje/formularze/** – [Template] lead forms + microcopy (krótkie/rozszerzone).
 - **/biblioteka/sekcje/stopka/** – [Template] typowe bloki PL (NIP, polityki, social).
 - **/biblioteka/sekcje/nawigacja/** – [Template] menu mega/mini, sticky, mobile patterns.
-- **/biblioteka/sekcje/blog-list/** – [Template] karty, filtry, paginacja bez kodu.
+- **/biblioteka/sekcje/blog-list/** – [Template] karty, filtry, paginacja no-code.
 - **/biblioteka/sekcje/above-the-fold-checklist/** – [Checklist] co musi być w pierwszym ekranie.
 
 ---

@@ -1,6 +1,6 @@
 # AWS Static Site Hosting Plan
 
-> Tracking document for the AWS infrastructure that serves the Projekt Bez Kodu static front-end. Update status checkboxes as work progresses.
+> Tracking document for the AWS infrastructure that serves the Projekt No-code static front-end. Update status checkboxes as work progresses.
 
 ---
 

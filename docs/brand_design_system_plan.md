@@ -42,7 +42,7 @@
 - [x] Convert palette table into token definitions (`tokens.json`, `tokens.css`, `tokens.ts`) covering:
   - Core colors (`--indigo-500/600/700`, `--mint-600/700`, `--orange-600/700`, neutrals, semantic variants).
   - Gradients (`--brand-hero-gradient`).
-  - Spacing scale using fluid unit clamps (`spacing.1`–`spacing.20` matching the u = 8px rhythm).
+  - Spacing scale using fluid unit clamps (`spacing.1`–`spacing.9` matching the u = 8px rhythm).
   - Radii (`--radius-sm 4px`, `--radius-md 8px`, `--radius-lg 16px`, `--radius-pill 999px`).
   - Shadow elevations (xs, sm, md, lg per doc).
   - Typography (font families, size tokens, line heights, letter spacing).
@@ -79,7 +79,7 @@
 
 - [x] Implement container utility (`.container`) with max widths 640–1440px responsive.
 - [x] Configure CSS grid helpers (12/6/4 columns) with standardized gaps (24px desktop/tablet, 16px mobile).
-- [x] Create spacing utilities tied to the fluid unit scale (`--space-1..--space-12` clamp between mobile and desktop targets).
+- [x] Create spacing utilities tied to the fluid unit scale (`--space-1..--space-9` clamp between mobile and desktop targets).
 - [x] Define global border radius tokens (`.rounded-sm`, `.rounded-md`) and ensure components reference tokens.
 - [x] Implement box-shadow token classes (xs to xl) with documented usage.
 - [x] Document layout templates: marketing page stack, two-column split, feature grid, cards deck.

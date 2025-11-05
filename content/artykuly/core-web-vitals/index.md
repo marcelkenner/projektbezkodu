@@ -6,7 +6,7 @@ draft: false
 template: "article"
 hero:
   heading: "Core Web Vitals w praktyce"
-  subheading: "Jak poprawić LCP, FID i CLS na stronie zbudowanej bez kodu."
+  subheading: "Jak poprawić LCP, FID i CLS na stronie zbudowanej no-code."
 seo:
   title: "Core Web Vitals w praktyce"
   description: "Instrukcja optymalizacji kluczowych metryk wydajności dla stron no-code."

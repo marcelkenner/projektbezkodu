@@ -9,7 +9,7 @@ hero:
   subheading: "Techniczne i contentowe podstawy optymalizacji w Webflow, Framerze i innych kreatorach."
 seo:
   title: "SEO dla stron no-code"
-  description: "Praktyczne wskazówki, jak zadbać o SEO mając stronę zbudowaną w Webflow, Framerze lub innym narzędziu bez kodu."
+  description: "Praktyczne wskazówki, jak zadbać o SEO mając stronę zbudowaną w Webflow, Framerze lub innym narzędziu no-code."
   keywords:
     - "seo"
     - "webflow"
@@ -33,7 +33,7 @@ taxonomy:
 
 ## Od czego zacząć
 
-Strony tworzone bez kodu wciąż potrzebują czystej struktury HTML, poprawnych nagłówków i metadata. W artykule rozpiszemy proces audytu technicznego, dodawania schema oraz sposobu na optymalizację prędkości.
+Strony tworzone no-code wciąż potrzebują czystej struktury HTML, poprawnych nagłówków i metadata. W artykule rozpiszemy proces audytu technicznego, dodawania schema oraz sposobu na optymalizację prędkości.
 
 ## Lista kontrolna
 

@@ -6,7 +6,7 @@ draft: true
 date: "2025-11-05"
 ---
 
-# Webflow - zbudujesz stronę szybciej, bez kodu. Co z tego **masz**?
+# Webflow - zbudujesz stronę szybciej, no-code. Co z tego **masz**?
 
 Chcesz postawić stronę w kilka dni, a nie w tygodnie. W Webflow układasz ją jak z klocków. Publikujesz jednym kliknięciem. Treści trzymasz w porządku. Nie bawisz się we wtyczki i serwery. Oszczędzasz czas, pieniądze i nerwy.
 Masz gotowe materiały? **Pierwszą wersję zrobisz w 60 minut.** Pełną stronę dopniesz w **około 2 godziny**.
@@ -131,7 +131,7 @@ Nie gonisz efektów specjalnych. Najpierw szybkość i czytelność. Potem ozdob
 
 ## FAQ - szybkie wsparcie
 
-**Czy poradzę sobie bez kodu?**
+**Czy poradzę sobie no-code?**
 Tak. Start zrobisz wizualnie. Kod przyda się później do detali.
 
 **Mam WordPressa. Co dalej?**

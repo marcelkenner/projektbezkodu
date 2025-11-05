@@ -13,7 +13,7 @@
 
 ## Vertical Rhythm
 
-- `.pbk-stack`, `.pbk-stack--tight`, `.pbk-stack--loose` manage columnar spacing using the fluid unit scale (`--space-1..--space-12`).
+- `.pbk-stack`, `.pbk-stack--tight`, `.pbk-stack--loose` manage columnar spacing using the fluid unit scale (`--space-1..--space-9`).
 - Flowing content uses margin-top only: headings get more space before than after, `p + p` drops to `--space-2`.
 - Heavy blocks (blockquote, pre, figure, callout) sit on `--space-4` top margins with `--space-3` inner padding to keep pages airy on all breakpoints.
 

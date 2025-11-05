@@ -42,7 +42,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 3. Update `package.json` scripts with `"tokens:build": "node brand/tokens/scripts/build.mjs"`.
 4. Run `npm run tokens:build` whenever tokens change; commit `tokens.json`, `tokens.css`, `tokens.ts`.
 5. Import tokens in `app/globals.css` (`@import "../brand/tokens/tokens.css";`).
-6. Keep the spacing scale fluid: tokens `spacing.1` through `spacing.20` must match the mobile-first clamp scale (unit `u = 8px`) so every layout pulls from the shared rhythm.
+6. Keep the spacing scale fluid: tokens `spacing.1` through `spacing.9` must match the mobile-first clamp scale (unit `u = 8px`) so every layout pulls from the shared rhythm.
 
 ## 6. Global Styling
 

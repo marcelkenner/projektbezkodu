@@ -1,14 +1,14 @@
 ---
-title: "Strategia wdrożenia strony bez kodu"
+title: "Strategia wdrożenia strony no-code"
 slug: "strategia-wdrozenia"
 path: "/artykuly/strategia-wdrozenia/"
 draft: false
 template: "article"
 hero:
-  heading: "Strategia wdrożenia strony bez kodu"
+  heading: "Strategia wdrożenia strony no-code"
   subheading: "Jak zaplanować architekturę informacji, treści i przepływy pracy zanim klikniesz pierwszą sekcję w kreatorze."
 seo:
-  title: "Strategia wdrożenia strony bez kodu"
+  title: "Strategia wdrożenia strony no-code"
   description: "Przewodnik po planowaniu architektury informacji, treści i procesów przed startem projektu no-code."
   keywords:
     - "strategia"

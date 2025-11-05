@@ -24,7 +24,7 @@ Helpful · Clear · Practical · Quick · Polish‑first · Trustworthy
 
 **Tagline options (PL)**
 
-- „Profesjonalne strony **bez kodu** – po polsku.”
+- „Profesjonalne strony **no-code** – po polsku.”
 - „Szablony. Tutoriale. **Gotowa strona w 1 dzień**.”
 
 ---
@@ -121,7 +121,7 @@ Use `clamp` for responsive sizes; example defaults:
 
 **Spacing rhythm (fluid u = 8px)**
 
-Tokens `--space-1..--space-12` clamp between mobile and desktop targets:
+Tokens `--space-1..--space-9` clamp between mobile and desktop targets:
 
 - `--space-1`: 0.25–0.5rem (light adjacency)
 - `--space-2`: 0.5–1rem (default flow)
@@ -130,21 +130,21 @@ Tokens `--space-1..--space-12` clamp between mobile and desktop targets:
 - `--space-5`: 1.5–2rem (component padding)
 - `--space-6`: 2–3rem (section joints)
 - `--space-7`: 3–4rem (major section prelude)
-- `--space-8`: 4–5rem (hero padding)
-- Larger tokens (`--space-10`, `--space-12`, `--space-16`, `--space-20`) continue the same unit rhythm for campaign or hero layouts.
+- `--space-8`: 4–6rem (hero padding)
+- `--space-9`: 6–9rem (campaign and hero breathing room)
 
 Apply margin-top for content flow (headings receive more space before than after); heavy blocks (quotes, code, figures, callouts) use `--space-4` above and `--space-3` internal padding.
 
 **Radii**
 
-- `-radius-1: 4px` · `-radius-2: 8px` · `-radius-3: 12px` · `-radius-round: 999px`.
-- **Default UI**: 8 px; **pills/buttons**: round.
+- `-radius-1: 6px` · `-radius-2: 12px` · `-radius-3: 20px` · `-radius-round: 999px`.
+- **Default UI**: 12 px; **pills/buttons**: round.
 
 **Shadows (elevation)**
 
-- `-elev-1`: subtle card `0 1px 2px rgba(17,24,39,.06), 0 1px 1px rgba(17,24,39,.04)`
-- `-elev-2`: raised `0 6px 12px rgba(17,24,39,.08), 0 2px 4px rgba(17,24,39,.06)`
-- `-elev-3`: popover `0 14px 32px rgba(17,24,39,.12)`
+- `-elev-1`: subtle card `0 1px 2px rgba(2,6,23,.06)`
+- `-elev-2`: raised `0 1px 2px rgba(2,6,23,.06), 0 2px 6px rgba(2,6,23,.06)`
+- `-elev-3`: popover `0 12px 24px -12px rgba(2,6,23,.18)`
 
 ---
 
@@ -305,38 +305,35 @@ Apply margin-top for content flow (headings receive more space before than after
     "Noto Sans", Arial;
 
   --fs-display: clamp(2.125rem, 1.2rem + 2.3vw, 3rem);
-  --fs-h1: clamp(1.75rem, 1.1rem + 1.8vw, 2.5rem);
-  --fs-h2: clamp(1.5rem, 1rem + 1.5vw, 2rem);
-  --fs-h3: clamp(1.25rem, 0.9rem + 1.2vw, 1.5rem);
-  --fs-body: 1rem;
+  --fs-h1: clamp(2rem, 1.2rem + 3vw, 3rem);
+  --fs-h2: clamp(1.5rem, 1rem + 2vw, 2.25rem);
+  --fs-h3: clamp(1.25rem, 0.9rem + 1.2vw, 1.75rem);
+  --fs-body: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
   --fs-small: 0.875rem;
   --lh-body: 1.6;
 
-  /* Spacing (px) */
-  --space-1: 2px;
-  --space-2: 4px;
-  --space-3: 8px;
-  --space-4: 12px;
-  --space-5: 16px;
-  --space-6: 24px;
-  --space-7: 32px;
-  --space-8: 40px;
-  --space-9: 48px;
-  --space-10: 64px;
-  --space-11: 80px;
-  --space-12: 96px;
+  /* Spacing (fluid clamps) */
+  --space-1: clamp(0.25rem, 0.18rem + 0.3vw, 0.5rem);
+  --space-2: clamp(0.5rem, 0.35rem + 0.6vw, 1rem);
+  --space-3: clamp(0.75rem, 0.6rem + 0.6vw, 1.25rem);
+  --space-4: clamp(1rem, 0.7rem + 1vw, 1.5rem);
+  --space-5: clamp(1.5rem, 1.1rem + 1.5vw, 2rem);
+  --space-6: clamp(2rem, 1.6rem + 2vw, 3rem);
+  --space-7: clamp(3rem, 2.4rem + 3vw, 4rem);
+  --space-8: clamp(4rem, 3.2rem + 4vw, 6rem);
+  --space-9: clamp(6rem, 4.8rem + 6vw, 9rem);
 
   /* Radius & elevation */
-  --radius-1: 4px;
-  --radius-2: 8px;
-  --radius-3: 12px;
+  --radius-1: 6px;
+  --radius-2: 12px;
+  --radius-3: 20px;
   --radius-round: 999px;
-  --elev-1: 0 1px 2px rgba(17, 24, 39, 0.06), 0 1px 1px rgba(17, 24, 39, 0.04);
-  --elev-2: 0 6px 12px rgba(17, 24, 39, 0.08), 0 2px 4px rgba(17, 24, 39, 0.06);
-  --elev-3: 0 14px 32px rgba(17, 24, 39, 0.12);
+  --elev-1: 0 1px 2px rgba(2, 6, 23, 0.06);
+  --elev-2: 0 1px 2px rgba(2, 6, 23, 0.06), 0 2px 6px rgba(2, 6, 23, 0.06);
+  --elev-3: 0 12px 24px -12px rgba(2, 6, 23, 0.18);
 
   /* Focus & motion */
-  --focus: 0 0 0 2px #059669, 0 0 0 4px rgba(5, 150, 105, 0.2);
+  --focus: 0 0 0 2px #0369A1, 0 0 0 4px rgba(3, 105, 161, 0.2);
   --ease-out: cubic-bezier(0.2, 0, 0, 1);
   --t-quick: 120ms;
   --t-ui: 180ms;
@@ -681,7 +678,7 @@ a:hover {
 
 **Homepage H1**
 
-„Zbuduj **profesjonalną stronę bez kodu** – krok po kroku po polsku.”
+„Zbuduj **profesjonalną stronę no-code** – krok po kroku po polsku.”
 
 **Support**
 

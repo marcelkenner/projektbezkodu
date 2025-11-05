@@ -30,10 +30,7 @@
   --space-6: var(--spacing-6);
   --space-7: var(--spacing-7);
   --space-8: var(--spacing-8);
-  --space-10: var(--spacing-10);
-  --space-12: var(--spacing-12);
-  --space-16: var(--spacing-16);
-  --space-20: var(--spacing-20);
+  --space-9: var(--spacing-9);
   --font-size: var(--typography-fontSize-body);
   --line: var(--typography-lineHeight-body);
   --measure: 72ch;
@@ -97,21 +94,26 @@ a:hover {
 }
 
 :focus-visible {
-  outline: none;
-  box-shadow: var(--color-focus-ring);
-  border-radius: var(--radii-sm);
+  outline: 2px solid var(--color-primary-700);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+a,
+button {
+  touch-action: manipulation;
 }
 
 .container {
-  width: min(100%, 72rem);
+  max-width: 1200px;
   margin-inline: auto;
-  padding-inline: var(--space-6);
+  padding-inline: clamp(1rem, 2vw, 2.5rem);
 }
 
 .pbk-container {
-  width: min(100%, 72rem);
+  max-width: 1200px;
   margin-inline: auto;
-  padding-inline: var(--space-6);
+  padding-inline: clamp(1rem, 2vw, 2.5rem);
 }
 
 .pbk-stack {
@@ -125,7 +127,7 @@ a:hover {
 }
 
 .pbk-stack--loose {
-  gap: var(--space-10);
+  gap: var(--space-8);
 }
 
 .pbk-inline-list {
@@ -238,6 +240,8 @@ a:hover {
   padding-inline: var(--space-4);
   font-size: var(--font-size);
   line-height: var(--line);
+  font-family: var(--font-body);
+  color: var(--color-ink);
 }
 
 .prose > :first-child {
@@ -246,19 +250,19 @@ a:hover {
 
 .prose h1 {
   margin-block: 0 var(--space-6);
-  font-size: clamp(2rem, 1.2rem + 3vw, 3rem);
+  font-size: var(--typography-fontSize-h1);
   line-height: 1.15;
 }
 
 .prose h2 {
   margin-block: var(--space-7) var(--space-3);
-  font-size: clamp(1.5rem, 1rem + 2vw, 2.25rem);
+  font-size: var(--typography-fontSize-h2);
   line-height: 1.2;
 }
 
 .prose h3 {
   margin-block: var(--space-5) var(--space-2);
-  font-size: clamp(1.25rem, 0.9rem + 1.2vw, 1.75rem);
+  font-size: var(--typography-fontSize-h3);
   line-height: 1.25;
 }
 

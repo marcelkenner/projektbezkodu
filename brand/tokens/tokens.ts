@@ -42,18 +42,17 @@ export const tokens = {
       "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
     },
     "fontSize": {
-      "display": "clamp(2.125rem, 3vw + 1rem, 3rem)",
-      "h1": "clamp(1.75rem, 2.2vw + 1rem, 2.5rem)",
-      "h2": "clamp(1.5rem, 1.8vw + 1rem, 2rem)",
-      "h3": "clamp(1.25rem, 1.2vw + 1rem, 1.5rem)",
-      "body": "clamp(1rem, 0.6vw + 0.9rem, 1.125rem)",
+      "h1": "clamp(2rem, 1.2rem + 3vw, 3rem)",
+      "h2": "clamp(1.5rem, 1rem + 2vw, 2.25rem)",
+      "h3": "clamp(1.25rem, 0.9rem + 1.2vw, 1.75rem)",
+      "body": "clamp(1rem, 0.95rem + 0.3vw, 1.125rem)",
       "small": "0.875rem",
       "mono": "0.875rem"
     },
     "lineHeight": {
       "display": "1.15",
       "heading": "1.25",
-      "body": "1.55"
+      "body": "1.6"
     },
     "fontWeight": {
       "regular": "400",
@@ -75,23 +74,20 @@ export const tokens = {
     "5": "clamp(1.5rem, 1.1rem + 1.5vw, 2rem)",
     "6": "clamp(2rem, 1.6rem + 2vw, 3rem)",
     "7": "clamp(3rem, 2.4rem + 3vw, 4rem)",
-    "8": "clamp(4rem, 3rem + 3vw, 5rem)",
-    "10": "clamp(5rem, 3.75rem + 4vw, 6rem)",
-    "12": "clamp(6rem, 4.5rem + 4.5vw, 8rem)",
-    "16": "clamp(8rem, 6rem + 6vw, 10rem)",
-    "20": "clamp(10rem, 7.5rem + 8vw, 12.5rem)"
+    "8": "clamp(4rem, 3.2rem + 4vw, 6rem)",
+    "9": "clamp(6rem, 4.8rem + 6vw, 9rem)"
   },
   "radii": {
-    "sm": "4px",
-    "md": "8px",
-    "lg": "16px",
+    "sm": "6px",
+    "md": "12px",
+    "lg": "20px",
     "pill": "999px"
   },
   "elevation": {
-    "xs": "0 1px 2px 0 rgba(17, 24, 39, 0.06)",
-    "sm": "0 1px 3px 0 rgba(17, 24, 39, 0.1), 0 1px 2px -1px rgba(17, 24, 39, 0.1)",
-    "md": "0 10px 25px -10px rgba(15, 23, 42, 0.25)",
-    "lg": "0 20px 45px -20px rgba(15, 23, 42, 0.3)"
+    "xs": "0 1px 2px rgba(2, 6, 23, 0.06)",
+    "sm": "0 1px 2px rgba(2, 6, 23, 0.06), 0 2px 6px rgba(2, 6, 23, 0.06)",
+    "md": "0 12px 24px -12px rgba(2, 6, 23, 0.18)",
+    "lg": "0 20px 40px -20px rgba(2, 6, 23, 0.22)"
   },
   "breakpoint": {
     "sm": "640px",

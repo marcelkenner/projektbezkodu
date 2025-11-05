@@ -2,13 +2,15 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-3);
-  padding: 0.75rem 1.5rem;
-  border-radius: var(--radii-pill);
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radii-md);
+  border: 1px solid transparent;
   font-family: var(--font-heading);
   font-weight: var(--typography-fontWeight-semibold);
-  font-size: var(--typography-fontSize-small);
-  line-height: 1.2;
+  font-size: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  line-height: 1;
   transition:
     background var(--motion-duration-base) var(--motion-easing-standard),
     color var(--motion-duration-base) var(--motion-easing-standard),
@@ -20,35 +22,31 @@
 .pbk-button--primary {
   background: var(--color-primary);
   color: #fff;
-  border: 1px solid transparent;
   box-shadow: var(--shadow-md);
 }
 
 .pbk-button--primary:hover {
-  background: #fff;
-  color: var(--color-ink);
-  border-color: var(--color-primary);
+  background: var(--color-primary-strong);
+  color: #fff;
 }
 
 .pbk-button--secondary {
   background: transparent;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  border-color: var(--color-primary-strong);
+  color: var(--color-primary-strong);
 }
 
 .pbk-button--secondary:hover {
-  background: rgba(79, 70, 229, 0.12);
-  color: var(--color-ink);
+  background: rgba(67, 56, 202, 0.08);
 }
 
 .pbk-button--tertiary {
   background: transparent;
   color: var(--color-primary);
-  border: 1px solid transparent;
 }
 
 .pbk-button--tertiary:hover {
-  color: var(--color-ink);
+  color: var(--color-primary-strong);
 }
 
 .pbk-input {
@@ -65,7 +63,7 @@
 .pbk-input__control {
   border: 1px solid var(--color-border);
   border-radius: var(--radii-md);
-  padding: 0.75rem 1rem;
+  padding: var(--space-3) var(--space-4);
   font-family: var(--font-body);
   font-size: var(--typography-fontSize-body);
   background: #fff;
@@ -76,8 +74,7 @@
 }
 
 .pbk-input__control:focus-visible {
-  border-color: var(--color-primary);
-  box-shadow: var(--color-focus-ring);
+  border-color: var(--color-primary-strong);
 }
 
 .pbk-input__control--error {
@@ -141,7 +138,7 @@
   background: #fff;
   border: 1px solid var(--color-border);
   border-radius: var(--radii-lg);
-  padding: var(--space-6);
+  padding: var(--space-5);
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
@@ -315,7 +312,7 @@
 .pbk-footer {
   background: var(--color-neutral-50);
   border-top: 1px solid var(--color-border);
-  padding-block: var(--space-10);
+  padding-block: var(--space-8);
 }
 
 .pbk-footer__content {

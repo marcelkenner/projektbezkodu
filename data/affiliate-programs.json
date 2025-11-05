@@ -772,7 +772,7 @@
     {
       "id": "automation",
       "name": "Automatyzacje / app builders",
-      "description": "Narzędzia do automatyzacji procesów, integracji i budowy aplikacji bez kodu.",
+      "description": "Narzędzia do automatyzacji procesów, integracji i budowy aplikacji no-code.",
       "programs": [
         {
           "slug": "make",
@@ -787,7 +787,7 @@
           },
           "cookieWindow": "90 dni",
           "payout": "PartnerStack",
-          "notes": "Perfekcyjne do tutoriali 'automation dla stron bez kodu'.",
+          "notes": "Perfekcyjne do tutoriali 'automation dla stron no-code'.",
           "sources": ["https://www.make.com/en/affiliate"]
         },
         {

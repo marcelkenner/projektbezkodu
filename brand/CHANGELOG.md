@@ -14,7 +14,7 @@ All notable changes to the ProjektBezKodu brand system will be documented here. 
 
 - Shared section layout utilities promoted to `app/globals.css` for reuse across marketing pages.
 - Footer and navigation updated with Search entry and refreshed copy structure.
-- Adopted fluid spacing scale and markdown rhythm aligned with the blog spacing specification.
+- Adopted the updated spacing clamp scale (`spacing.1`–`spacing.9`) and markdown rhythm aligned with the latest blog specification.
 
 ### Fixed
 

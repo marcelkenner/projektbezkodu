@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://projektbezkodu.pl"),
   applicationName: "ProjektBezKodu",
   title: {
-    default: "ProjektBezKodu – Profesjonalne strony bez kodu",
+    default: "ProjektBezKodu – Profesjonalne strony no-code",
     template: "%s | ProjektBezKodu",
   },
   description:
-    "Polska biblioteka no-code: szablony, komponenty i tutoriale, dzięki którym uruchomisz profesjonalną stronę bez kodu – szybko i wydajnie.",
+    "Polska biblioteka no-code: szablony, komponenty i tutoriale, dzięki którym uruchomisz profesjonalną stronę no-code – szybko i wydajnie.",
   keywords: [
     "no-code",
-    "projekt bez kodu",
+    "projekt no-code",
     "webflow",
     "framer",
     "strony internetowe",
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pl_PL",
     siteName: "ProjektBezKodu",
-    title: "ProjektBezKodu – Profesjonalne strony bez kodu",
+    title: "ProjektBezKodu – Profesjonalne strony no-code",
     description:
-      "Szablony, komponenty i poradniki po polsku. Zbuduj szybkie, dostępne strony bez kodu.",
+      "Szablony, komponenty i poradniki po polsku. Zbuduj szybkie, dostępne strony no-code.",
     url: "https://projektbezkodu.pl",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ProjektBezKodu – Profesjonalne strony bez kodu",
+    title: "ProjektBezKodu – Profesjonalne strony no-code",
     description:
       "Polskie tutoriale i komponenty no-code, które pomagają wystartować w weekend.",
   },

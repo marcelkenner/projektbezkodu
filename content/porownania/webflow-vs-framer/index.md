@@ -6,7 +6,7 @@ draft: false
 template: "comparison"
 hero:
   heading: "Webflow vs Framer"
-  subheading: "Dwa najpopularniejsze narzędzia do landingów bez kodu – co wybrać?"
+  subheading: "Dwa najpopularniejsze narzędzia do landingów no-code – co wybrać?"
 seo:
   title: "Webflow vs Framer"
   description: "Porównanie Webflow i Framera pod kątem projektowania, CMS-u, wydajności i kosztów."

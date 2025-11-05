@@ -42,7 +42,7 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
 
 - Ensure summary text (first paragraph) clearly differentiates the tools; it becomes the listing excerpt.
 - Populate `meta.tools` for cross-linking in search results.
-- Double-check hero subheading for clarity—it feeds the search keyword list.
+- Double-check hero subheading for clarity-it feeds the search keyword list.
 - Dodaj `taxonomy.categories` / `taxonomy.tags` zgodnie z `data/copy/comparisons.json`; wykorzystuj te same slug-i narzędzi co w `data/tools.json`.
 
 ## 6. Glossary (`content/glossary/**`)
