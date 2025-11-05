@@ -2,7 +2,7 @@
 title: "Core Web Vitals w praktyce"
 slug: "core-web-vitals"
 path: "/artykuly/core-web-vitals/"
-draft: true
+draft: false
 template: "article"
 hero:
   heading: "Core Web Vitals w praktyce"
@@ -21,6 +21,14 @@ meta:
     - webflow
     - framer
     - bunny-net
+taxonomy:
+  categories:
+    - wydajnosc
+  tags:
+    - core-web-vitals
+    - lighthouse
+    - cdn
+    - statyczny-hosting
 ---
 
 ## Co mierzymy

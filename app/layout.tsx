@@ -1,24 +1,10 @@
-import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, Manrope } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { inter, manrope, jetBrainsMono } from "./ui/fonts";
 
-const bodyFont = Inter({
-  subsets: ["latin"],
-  variable: "--font-body",
-  display: "swap",
-});
-
-const headingFont = Manrope({
-  subsets: ["latin"],
-  variable: "--font-heading",
-  display: "swap",
-});
-
-const monoFont = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-  display: "swap",
-});
+export const viewport: Viewport = {
+  themeColor: "#4338CA",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://projektbezkodu.pl"),
@@ -41,7 +27,6 @@ export const metadata: Metadata = {
     "performance",
   ],
   authors: [{ name: "ProjektBezKodu" }],
-  themeColor: "#4338CA",
   openGraph: {
     type: "website",
     locale: "pl_PL",
@@ -67,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${bodyFont.variable} ${headingFont.variable} ${monoFont.variable} antialiased`}
+        className={`${inter.variable} ${manrope.variable} ${jetBrainsMono.variable} antialiased`}
       >
         {children}
       </body>

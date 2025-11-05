@@ -4,6 +4,14 @@ slug: "unbounce-vs-instapage-vs-leadpages"
 path: "/porownania/unbounce-vs-instapage-vs-leadpages/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - unbounce
+    - instapage
+    - leadpages
 ---
 
 # Unbounce Vs Instapage Vs Leadpages

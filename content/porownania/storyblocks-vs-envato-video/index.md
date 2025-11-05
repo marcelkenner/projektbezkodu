@@ -4,6 +4,13 @@ slug: "storyblocks-vs-envato-video"
 path: "/porownania/storyblocks-vs-envato-video/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - media
+  tags:
+    - storyblocks
+    - envato-elements
 ---
 
 # Storyblocks Vs Envato Video

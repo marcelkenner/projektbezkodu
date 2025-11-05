@@ -4,6 +4,13 @@ slug: "mailerlite-vs-convertkit"
 path: "/porownania/mailerlite-vs-convertkit/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - email
+  tags:
+    - mailerlite
+    - convertkit
 ---
 
 # Mailerlite Vs Convertkit

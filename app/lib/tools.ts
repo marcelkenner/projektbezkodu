@@ -1,6 +1,6 @@
 import tools from "../../data/tools.json";
 
-type Tool = (typeof tools)[number];
+export type Tool = (typeof tools)[number];
 
 export function getToolBySlug(slug: string): Tool | undefined {
   return tools.find((tool) => tool.slug === slug);

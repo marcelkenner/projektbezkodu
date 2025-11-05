@@ -1,11 +1,10 @@
 ---
-title: "Schema"
+title: "Schema.org"
 slug: "schema"
 path: "/glossary/schema/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "glossary"
+date: "2024-11-20"
 ---
 
-# Schema
-
-> Placeholder page for **Schema** at $pathForFm.
+Schema.org to standard opisywania treści strukturalnych na stronach internetowych. Dzięki znacznikom schema wyszukiwarki lepiej rozumieją zawartość i mogą wyświetlać rozszerzone wyniki (np. oceny, wydarzenia, FAQ).

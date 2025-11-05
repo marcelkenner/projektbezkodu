@@ -1,5 +1,16 @@
 {
   "title": "Słownik pojęć",
   "intro": "Najważniejsze skróty i definicje związane z budową stron bez kodu.",
-  "emptyState": "Dodajemy kolejne hasła – jeśli brakuje jakiegoś terminu, daj znać."
+  "emptyState": "Dodajemy kolejne hasła – jeśli brakuje jakiegoś terminu, daj znać.",
+  "search": {
+    "label": "Znajdź hasło",
+    "placeholder": "Wpisz termin, np. “CMS”",
+    "submitLabel": "Szukaj",
+    "resetLabel": "Wyczyść",
+    "noResults": "Brak haseł pasujących do wpisanej frazy."
+  },
+  "navigation": {
+    "label": "Nawigacja alfabetyczna"
+  },
+  "readMoreLabel": "Przeczytaj definicję"
 }

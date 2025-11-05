@@ -2,7 +2,7 @@
 title: "Webflow vs WordPress"
 slug: "webflow-vs-wordpress"
 path: "/porownania/webflow-vs-wordpress/"
-draft: true
+draft: false
 template: "comparison"
 hero:
   heading: "Webflow vs WordPress"
@@ -19,6 +19,12 @@ meta:
   duration: null
   tools:
     - webflow
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - webflow
+    - wordpress
 ---
 
 ## Główne różnice

@@ -8,23 +8,29 @@
     "start": "next start",
     "lint": "eslint",
     "tokens:build": "node brand/tokens/scripts/build.mjs",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "svg:optimize": "npm exec -- svgo --config=brand/logo/svgo.config.json brand/logo/source/*.svg --output=brand/logo"
   },
   "dependencies": {
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/manrope": "^5.2.8",
+    "@phosphor-icons/react": "^2.1.10",
+    "gray-matter": "^4.0.3",
     "next": "16.0.1",
-    "gray-matter": "^4.0.3"
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "svgo": "^4.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

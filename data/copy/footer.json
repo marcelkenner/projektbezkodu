@@ -3,56 +3,27 @@
     {
       "heading": "Nawigacja",
       "links": [
-        {
-          "label": "Strona główna",
-          "href": "/"
-        },
-        {
-          "label": "Artykuły",
-          "href": "/artykuly"
-        },
-        {
-          "label": "Porównania",
-          "href": "/porownania"
-        },
-        {
-          "label": "Tutoriale",
-          "href": "/poradniki"
-        },
-        {
-          "label": "Słownik",
-          "href": "/glossary"
-        }
+        { "label": "Strona główna", "href": "/" },
+        { "label": "Artykuły", "href": "/artykuly" },
+        { "label": "Porównania", "href": "/porownania" },
+        { "label": "Tutoriale", "href": "/poradniki" },
+        { "label": "Słownik", "href": "/glossary" },
+        { "label": "Szukaj", "href": "/szukaj" }
       ]
     },
     {
       "heading": "Zasoby",
       "links": [
-        {
-          "label": "Newsletter",
-          "href": "/newsletter"
-        },
-        {
-          "label": "Do pobrania",
-          "href": "/do-pobrania"
-        },
-        {
-          "label": "Mapa strony",
-          "href": "/mapa-strony"
-        }
+        { "label": "Newsletter", "href": "/newsletter" },
+        { "label": "Do pobrania", "href": "/do-pobrania" },
+        { "label": "Mapa strony", "href": "/mapa-strony" }
       ]
     },
     {
       "heading": "Legal",
       "links": [
-        {
-          "label": "Polityka prywatności",
-          "href": "/polityka-prywatnosci"
-        },
-        {
-          "label": "Regulamin",
-          "href": "/regulamin"
-        }
+        { "label": "Polityka prywatności", "href": "/polityka-prywatnosci" },
+        { "label": "Regulamin", "href": "/regulamin" }
       ]
     }
   ],

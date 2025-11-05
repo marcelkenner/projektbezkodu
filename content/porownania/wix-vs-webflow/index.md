@@ -4,6 +4,13 @@ slug: "wix-vs-webflow"
 path: "/porownania/wix-vs-webflow/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - wix
+    - webflow
 ---
 
 # Wix Vs Webflow

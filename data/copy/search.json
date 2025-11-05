@@ -1,0 +1,36 @@
+{
+  "title": "Szukaj w ProjekcieBezKodu",
+  "intro": "Przeszukaj artykuły, tutoriale, porównania oraz słownik haseł w jednym miejscu.",
+  "placeholder": "Wpisz temat, np. “Webflow onboarding”",
+  "form": {
+    "label": "Wyszukaj frazę",
+    "submitLabel": "Szukaj",
+    "resetLabel": "Wyczyść"
+  },
+  "results": {
+    "prompt": "Wpisz wyszukiwaną frazę, aby zobaczyć dopasowane treści.",
+    "header": "Znaleziono {count} wyników",
+    "empty": "Nie znaleźliśmy żadnych treści pasujących do wpisanej frazy.",
+    "readMoreLabel": "Zobacz szczegóły"
+  },
+  "typeLabels": {
+    "article": "Artykuł",
+    "tutorial": "Tutorial",
+    "comparison": "Porównanie",
+    "glossary": "Słownik"
+  },
+  "tips": [
+    {
+      "title": "Szukaj po tematach",
+      "body": "Używaj słów kluczowych opisujących konkretny problem, np. „Core Web Vitals” albo „framer animacje”."
+    },
+    {
+      "title": "Filtruj dalej",
+      "body": "Wyniki prowadzą do stron z dodatkowymi filtrami (np. tutoriale), dzięki czemu szybciej znajdziesz dokładny materiał."
+    },
+    {
+      "title": "Brakuje treści?",
+      "body": "Jeśli nie znajdujesz potrzebnego tematu, napisz na kontakt@projektbezkodu.pl — dodamy go do planu aktualizacji."
+    }
+  ]
+}

@@ -15,6 +15,11 @@ export interface FrontmatterMetadata {
   tools?: string[];
 }
 
+export interface FrontmatterTaxonomy {
+  categories?: string[];
+  tags?: string[];
+}
+
 export interface HeroContent {
   heading: string;
   subheading?: string;
@@ -29,9 +34,11 @@ export interface Frontmatter {
   path: string;
   draft: boolean;
   template: string;
+  date?: string;
   hero?: HeroContent;
   seo?: FrontmatterSEO;
   meta?: FrontmatterMetadata;
+  taxonomy?: FrontmatterTaxonomy;
 }
 
 export interface ContentEntry {

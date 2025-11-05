@@ -1,11 +1,10 @@
 ---
-title: "Cwv"
+title: "CWV"
 slug: "cwv"
 path: "/glossary/cwv/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "glossary"
+date: "2024-11-20"
 ---
 
-# Cwv
-
-> Placeholder page for **Cwv** at $pathForFm.
+Core Web Vitals – zestaw metryk wydajnościowych Google, które mierzą komfort użytkownika podczas ładowania strony. Obejmuje LCP (Largest Contentful Paint), FID/INP (czas reakcji) oraz CLS (stabilność układu).

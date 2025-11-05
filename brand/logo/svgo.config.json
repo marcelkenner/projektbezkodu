@@ -1,0 +1,22 @@
+{
+  "multipass": true,
+  "plugins": [
+    {
+      "name": "preset-default",
+      "params": {
+        "overrides": {
+          "removeViewBox": false,
+          "removeUnknownsAndDefaults": false,
+          "cleanupIDs": {
+            "remove": false
+          }
+        }
+      }
+    },
+    "sortAttrs",
+    {
+      "name": "removeDimensions",
+      "active": false
+    }
+  ]
+}

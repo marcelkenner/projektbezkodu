@@ -105,7 +105,7 @@ Use `clamp` for responsive sizes; example defaults:
 
 **Line length**: 45–75 characters.
 
-**Line height**: 1.45 (body), 1.2–1.3 (headings).
+**Line height**: 1.6 default body (range 1.5–1.7 for longer copy), 1.2–1.3 for headings.
 
 **Link style**: indigo‑600 default → indigo‑700 hover → underline on hover or always in body copy.
 
@@ -119,9 +119,21 @@ Use `clamp` for responsive sizes; example defaults:
 - **Columns**: 12‑col (desktop), 6‑col (tablet), 4‑col (mobile).
 - **Gutters**: 24 px desktop/tablet, 16 px mobile.
 
-**Spacing scale (4‑pt)**
+**Spacing rhythm (fluid u = 8px)**
 
-`2, 4, 8, 12, 16, 24, 32, 40, 48, 64, 80, 96, 128` → map to `--space-1..--space-12`.
+Tokens `--space-1..--space-12` clamp between mobile and desktop targets:
+
+- `--space-1`: 0.25–0.5rem (light adjacency)
+- `--space-2`: 0.5–1rem (default flow)
+- `--space-3`: 0.75–1.25rem (paragraph separation)
+- `--space-4`: 1–1.5rem (heading adjacency)
+- `--space-5`: 1.5–2rem (component padding)
+- `--space-6`: 2–3rem (section joints)
+- `--space-7`: 3–4rem (major section prelude)
+- `--space-8`: 4–5rem (hero padding)
+- Larger tokens (`--space-10`, `--space-12`, `--space-16`, `--space-20`) continue the same unit rhythm for campaign or hero layouts.
+
+Apply margin-top for content flow (headings receive more space before than after); heavy blocks (quotes, code, figures, callouts) use `--space-4` above and `--space-3` internal padding.
 
 **Radii**
 

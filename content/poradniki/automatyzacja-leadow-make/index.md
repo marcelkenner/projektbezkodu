@@ -2,7 +2,7 @@
 title: "Automatyzacja leadów w Make"
 slug: "automatyzacja-leadow-make"
 path: "/poradniki/automatyzacja-leadow-make/"
-draft: true
+draft: false
 template: "tutorial"
 hero:
   heading: "Automatyzacja leadów w Make"
@@ -20,6 +20,12 @@ meta:
   tools:
     - make
     - mailerlite
+taxonomy:
+  categories:
+    - automation
+  tags:
+    - make
+    - lead-generation
 ---
 
 ## Co przygotujemy

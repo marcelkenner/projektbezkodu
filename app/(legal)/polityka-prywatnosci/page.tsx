@@ -1,7 +1,15 @@
+import { MarkdownPageLoader } from "@/app/lib/content/pageLoader";
+import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { getCopy } from "../../lib/copy";
+
+const privacyPageLoader = new MarkdownPageLoader(
+  "content/polityka-prywatnosci/index.md",
+);
 
 export default function PrivacyPolicyPage() {
   const copy = getCopy("privacy");
+  const page = privacyPageLoader.load();
+  const renderer = new MarkdownRenderer(page.content);
 
   return (
     <section className="section section--surface">
@@ -9,25 +17,7 @@ export default function PrivacyPolicyPage() {
         <h1>{copy.title}</h1>
         <p>{copy.lead}</p>
         <p className="pbk-input__description">{copy.lastUpdated}</p>
-        <div className="pbk-stack pbk-stack--tight">
-          <h2>1. Administrator danych</h2>
-          <p>Opis administratora danych i danych kontaktowych.</p>
-          <h2>2. Zakres przetwarzanych danych</h2>
-          <p>
-            Informacje o zebranych danych (np. newsletter, formularze
-            kontaktowe).
-          </p>
-          <h2>3. Cele i podstawa prawna</h2>
-          <p>
-            Opis celów przetwarzania oraz podstaw prawnych (zgoda, uzasadniony
-            interes).
-          </p>
-          <h2>4. Okres przechowywania</h2>
-          <p>
-            Dane przechowujemy zgodnie z obowiązującymi przepisami – szczegóły w
-            pełnej polityce.
-          </p>
-        </div>
+        <article className="prose">{renderer.render()}</article>
       </div>
     </section>
   );

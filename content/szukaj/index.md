@@ -1,11 +1,11 @@
 ---
-title: "J"
-slug: "j"
+title: "Szukaj w ProjekcieBezKodu"
+slug: "szukaj"
 path: "/szukaj/"
-draft: true
-date: "2025-11-05"
----
+draft: false
+template: "search"
+date: "2024-12-01"
 
-# J
+## Wyszukiwarka ProjektBezKodu
 
-> Placeholder page for **J** at $pathForFm.
+Strona łączy artykuły, tutoriale, porównania oraz hasła słownika w jednym indeksie. Wpisz frazę w polu wyszukiwania, aby zobaczyć pasujące materiały.

@@ -1,11 +1,10 @@
 ---
-title: "Cms"
+title: "CMS"
 slug: "cms"
 path: "/glossary/cms/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "glossary"
+date: "2024-11-20"
 ---
 
-# Cms
-
-> Placeholder page for **Cms** at $pathForFm.
+Content Management System – system zarządzania treścią, który umożliwia edycję stron internetowych bez konieczności pisania kodu. CMS pozwala tworzyć, aktualizować i publikować treści, a także zarządzać użytkownikami i strukturą witryny.

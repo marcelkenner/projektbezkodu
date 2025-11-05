@@ -2,7 +2,7 @@
 title: "Strategia wdrożenia strony bez kodu"
 slug: "strategia-wdrozenia"
 path: "/artykuly/strategia-wdrozenia/"
-draft: true
+draft: false
 template: "article"
 hero:
   heading: "Strategia wdrożenia strony bez kodu"
@@ -20,6 +20,14 @@ meta:
   tools:
     - webflow
     - framer
+taxonomy:
+  categories:
+    - strategia
+  tags:
+    - architektura-informacji
+    - planowanie
+    - procesy
+    - mapa-tresci
 ---
 
 ## Dlaczego potrzebujesz strategii

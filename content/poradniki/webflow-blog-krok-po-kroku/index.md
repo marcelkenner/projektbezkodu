@@ -2,7 +2,7 @@
 title: "Webflow – blog krok po kroku"
 slug: "webflow-blog-krok-po-kroku"
 path: "/poradniki/webflow-blog-krok-po-kroku/"
-draft: true
+draft: false
 template: "tutorial"
 hero:
   heading: "Webflow – blog krok po kroku"
@@ -19,6 +19,12 @@ meta:
   duration: "2 dni"
   tools:
     - webflow
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - webflow
+    - cms
 ---
 
 ## Plan działania

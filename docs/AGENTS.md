@@ -5,3 +5,4 @@
 - Use present tense and keep instructions self-contained so newcomers can follow them without context.
 - When adding new plans, register them in `docs/brand/index.md` or other relevant indices.
 - Avoid duplicating copy; instead reference the authoritative plan or spec.
+- Every process update must also be reflected in `docs/website_repro_playbook.md` to keep the reproduction guide current.

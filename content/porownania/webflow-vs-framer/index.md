@@ -2,7 +2,7 @@
 title: "Webflow vs Framer"
 slug: "webflow-vs-framer"
 path: "/porownania/webflow-vs-framer/"
-draft: true
+draft: false
 template: "comparison"
 hero:
   heading: "Webflow vs Framer"
@@ -18,6 +18,12 @@ meta:
   difficulty: null
   duration: null
   tools:
+    - webflow
+    - framer
+taxonomy:
+  categories:
+    - site-builder
+  tags:
     - webflow
     - framer
 ---

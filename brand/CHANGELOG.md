@@ -6,15 +6,19 @@ All notable changes to the ProjektBezKodu brand system will be documented here. 
 
 ### Added
 
-- _TBD_
+- Markdown repositories for articles, comparisons, tutorials, and glossary entries rendered via the App Router.
+- Search page scaffold with centralized copy and placeholder UI wired to the design system.
+- Legal markdown sources (privacy policy, terms) consumed through the design system renderer.
 
 ### Changed
 
-- _TBD_
+- Shared section layout utilities promoted to `app/globals.css` for reuse across marketing pages.
+- Footer and navigation updated with Search entry and refreshed copy structure.
+- Adopted fluid spacing scale and markdown rhythm aligned with the blog spacing specification.
 
 ### Fixed
 
-- _TBD_
+- Placeholder legal copy replaced with structured Markdown content rendered in app pages.
 
 ## [v1.0.0] - YYYY-MM-DD
 

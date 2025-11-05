@@ -2,7 +2,7 @@
 title: "SEO dla stron no-code"
 slug: "seo-no-code"
 path: "/artykuly/seo-no-code/"
-draft: true
+draft: false
 template: "article"
 hero:
   heading: "SEO dla stron no-code"
@@ -21,6 +21,14 @@ meta:
     - webflow
     - framer
     - plausible
+taxonomy:
+  categories:
+    - seo
+  tags:
+    - seo-podstawy
+    - schema
+    - audyt-techniczny
+    - mierzenie-ruchu
 ---
 
 ## Od czego zacząć

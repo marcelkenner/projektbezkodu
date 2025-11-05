@@ -7,6 +7,8 @@ import tutorialsCopy from "@/data/copy/tutorials.json";
 import glossaryCopy from "@/data/copy/glossary.json";
 import privacyCopy from "@/data/copy/privacy.json";
 import termsCopy from "@/data/copy/terms.json";
+import searchCopy from "@/data/copy/search.json";
+import footerCopy from "@/data/copy/footer.json";
 
 type CopyMap = {
   global: typeof globalCopy;
@@ -18,6 +20,8 @@ type CopyMap = {
   glossary: typeof glossaryCopy;
   privacy: typeof privacyCopy;
   terms: typeof termsCopy;
+  search: typeof searchCopy;
+  footer: typeof footerCopy;
 };
 
 const copies: CopyMap = {
@@ -30,6 +34,8 @@ const copies: CopyMap = {
   glossary: glossaryCopy,
   privacy: privacyCopy,
   terms: termsCopy,
+  search: searchCopy,
+  footer: footerCopy,
 };
 
 export function getCopy<K extends keyof CopyMap>(section: K): CopyMap[K] {

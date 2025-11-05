@@ -2,7 +2,7 @@
 title: "Framer – landing w 2 godziny"
 slug: "framer-landing-2h"
 path: "/poradniki/framer-landing-2h/"
-draft: true
+draft: false
 template: "tutorial"
 hero:
   heading: "Framer – landing w 2 godziny"
@@ -19,6 +19,12 @@ meta:
   duration: "2 godziny"
   tools:
     - framer
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - framer
+    - landing-page
 ---
 
 ## O czym będzie tutorial

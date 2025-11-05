@@ -1,27 +1,41 @@
 {
   "title": "Tutoriale krok po kroku",
   "intro": "Przewodniki wdrożeniowe z checklistami i estymowanym czasem realizacji.",
-  "items": [
-    {
-      "title": "Webflow – blog krok po kroku",
-      "difficulty": "Średni",
-      "href": "/poradniki/webflow-blog-krok-po-kroku",
-      "ctaLabel": "Zobacz instrukcję",
-      "description": "Od struktury kolekcji po wdrożenie na produkcję."
-    },
-    {
-      "title": "Framer – landing page w 2 godziny",
-      "difficulty": "Łatwy",
-      "href": "/poradniki/framer-landing-2h",
-      "ctaLabel": "Stwórz landing",
-      "description": "Szybki landing w Framerze wraz z checklistą optymalizacji."
-    },
-    {
-      "title": "Automatyzacja leadów w Make",
-      "difficulty": "Zaawansowany",
-      "href": "/poradniki/automatyzacja-leadow-make",
-      "ctaLabel": "Automatyzuj proces",
-      "description": "Scenariusz Make do przechwytywania i kwalifikacji leadów."
-    }
-  ]
+  "emptyState": "Jeszcze nie opublikowaliśmy tutoriali. Pracujemy nad szczegółowymi instrukcjami i poinformujemy Cię o starcie.",
+  "filters": {
+    "allOption": "Wszystkie",
+    "difficultyLabel": "Poziom trudności",
+    "toolLabel": "Narzędzie",
+    "submitLabel": "Zastosuj filtry",
+    "resetLabel": "Wyczyść",
+    "resultLabel": "Znaleziono {count} wyników",
+    "noMatches": "Brak tutoriali spełniających podane kryteria."
+  },
+  "taxonomy": {
+    "categories": [
+      {
+        "slug": "site-builder",
+        "label": "Site buildery i komponenty",
+        "description": "Przewodniki dotyczące Webflow, Framera i bibliotek komponentów."
+      },
+      {
+        "slug": "automation",
+        "label": "Automatyzacje i integracje",
+        "description": "Scenariusze Make/Zapier i przepływy, które oszczędzają manualną pracę."
+      },
+      {
+        "slug": "analytics",
+        "label": "Analityka i pomiar",
+        "description": "Konfiguracja narzędzi analitycznych, mierzenie celów i dashboardy."
+      }
+    ],
+    "tags": [
+      { "slug": "webflow", "label": "Webflow" },
+      { "slug": "framer", "label": "Framer" },
+      { "slug": "make", "label": "Make" },
+      { "slug": "cms", "label": "CMS" },
+      { "slug": "landing-page", "label": "Landing page" },
+      { "slug": "lead-generation", "label": "Generowanie leadów" }
+    ]
+  }
 }

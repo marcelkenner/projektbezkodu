@@ -4,6 +4,13 @@ slug: "getresponse-vs-mailerlite"
 path: "/porownania/getresponse-vs-mailerlite/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - email
+  tags:
+    - getresponse
+    - mailerlite
 ---
 
 # Getresponse Vs Mailerlite

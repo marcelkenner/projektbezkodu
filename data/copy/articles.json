@@ -1,27 +1,49 @@
 {
   "title": "Artykuły eksperckie",
   "intro": "Pogłębione analizy i praktyczne wskazówki dotyczące stron bez kodu.",
-  "categories": [
-    {
-      "title": "Strategia",
-      "description": "Budowanie architektury informacji, planowanie treści i procesów publikacji.",
-      "href": "/artykuly/strategia-wdrozenia",
-      "ctaLabel": "Czytaj przewodniki",
-      "meta": "Strategia i architektura"
-    },
-    {
-      "title": "SEO",
-      "description": "Techniki on-page i techniczne dla stron Webflow, Framer i innych narzędzi no-code.",
-      "href": "/artykuly/seo-no-code",
-      "ctaLabel": "Optymalizuj SEO",
-      "meta": "SEO techniczne"
-    },
-    {
-      "title": "Wydajność",
-      "description": "Praktyczne kroki do lepszych wyników Lighthouse i szybszego ładowania.",
-      "href": "/artykuly/core-web-vitals",
-      "ctaLabel": "Popraw wydajność",
-      "meta": "Performance"
-    }
-  ]
+  "emptyState": "Pracujemy nad publikacją pierwszych artykułów. Zapisz się do newslettera, aby otrzymać aktualizację, gdy będą dostępne.",
+  "taxonomy": {
+    "categories": [
+      {
+        "slug": "strategia",
+        "label": "Strategia wdrożenia",
+        "description": "Planowanie architektury informacji, procesów i współpracy zespołu zanim powstanie pierwszy ekran."
+      },
+      {
+        "slug": "seo",
+        "label": "SEO i widoczność",
+        "description": "Praktyki techniczne i contentowe, które wzmacniają ruch organiczny oraz widoczność marki."
+      },
+      {
+        "slug": "wydajnosc",
+        "label": "Wydajność i Core Web Vitals",
+        "description": "Techniki poprawiające szybkość działania, stabilność layoutu i doświadczenie użytkownika."
+      }
+    ],
+    "tags": [
+      { "slug": "architektura-informacji", "label": "Architektura informacji" },
+      { "slug": "planowanie", "label": "Planowanie wdrożenia" },
+      { "slug": "procesy", "label": "Procesy zespołowe" },
+      { "slug": "mapa-tresci", "label": "Mapa treści" },
+      { "slug": "seo-podstawy", "label": "SEO – podstawy" },
+      { "slug": "schema", "label": "Schema i dane strukturalne" },
+      { "slug": "audyt-techniczny", "label": "Audyt techniczny" },
+      { "slug": "mierzenie-ruchu", "label": "Mierzenie ruchu" },
+      { "slug": "core-web-vitals", "label": "Core Web Vitals" },
+      { "slug": "lighthouse", "label": "Lighthouse" },
+      { "slug": "cdn", "label": "CDN i caching" },
+      { "slug": "statyczny-hosting", "label": "Statyczny hosting" }
+    ]
+  },
+  "navigation": {
+    "menuLabel": "Artykuły",
+    "featuredCategories": [
+      { "slug": "strategia", "label": "Strategia wdrożenia" },
+      { "slug": "seo", "label": "SEO i widoczność" },
+      { "slug": "wydajnosc", "label": "Wydajność i Core Web Vitals" }
+    ],
+    "seeAllLabel": "Wszystkie artykuły",
+    "seeAllHref": "/artykuly/",
+    "footerHeading": "Kategorie artykułów"
+  }
 }

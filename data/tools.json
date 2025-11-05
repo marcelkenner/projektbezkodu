@@ -1,7 +1,28 @@
 [
-  { "slug": "webflow", "label": "Webflow", "category": "site-builder" },
-  { "slug": "framer", "label": "Framer", "category": "site-builder" },
-  { "slug": "relume", "label": "Relume", "category": "component-library" },
+  {
+    "slug": "webflow",
+    "label": "Webflow",
+    "category": "site-builder",
+    "description": "Projektuję jak w Figmie, publikuję jednym kliknięciem. Hosting, CMS i SEO mam w jednym miejscu.",
+    "readMorePath": "/narzedzia/webflow/",
+    "image": "/images/tools/webflow.svg"
+  },
+  {
+    "slug": "framer",
+    "label": "Framer",
+    "category": "site-builder",
+    "description": "Animowane landingi w kilka godzin – prototyp i produkcja w jednym narzędziu.",
+    "readMorePath": "/narzedzia/framer/",
+    "image": "/images/tools/framer.svg"
+  },
+  {
+    "slug": "relume",
+    "label": "Relume",
+    "category": "component-library",
+    "description": "Biblioteka komponentów i sitemap AI – przyspiesza start projektu Webflow.",
+    "readMorePath": "/narzedzia/relume/",
+    "image": "/images/tools/relume.svg"
+  },
   { "slug": "make", "label": "Make (Integromat)", "category": "automation" },
   { "slug": "zapier", "label": "Zapier", "category": "automation" },
   { "slug": "mailerlite", "label": "MailerLite", "category": "email" },

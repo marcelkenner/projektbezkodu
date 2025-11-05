@@ -2,7 +2,7 @@
 title: "Framer vs WordPress"
 slug: "framer-vs-wordpress"
 path: "/porownania/framer-vs-wordpress/"
-draft: true
+draft: false
 template: "comparison"
 hero:
   heading: "Framer vs WordPress"
@@ -19,6 +19,12 @@ meta:
   duration: null
   tools:
     - framer
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - framer
+    - wordpress
 ---
 
 ## Na czym polega różnica

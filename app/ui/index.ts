@@ -10,5 +10,8 @@ export { PricingCard } from "./PricingCard";
 export { ComparisonTable } from "./ComparisonTable";
 export { Modal } from "./Modal";
 export { Toast } from "./Toast";
+export { TableOfContents } from "./TableOfContents";
+export { ToolOfWeekToast } from "./ToolOfWeekToast";
+export { ToolOfWeekToastContainer } from "./ToolOfWeekToastContainer";
 
 export { Footer } from "./Footer";

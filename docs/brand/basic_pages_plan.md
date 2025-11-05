@@ -8,23 +8,24 @@ Goal: finalize base marketing/legal pages (homepage, articles index, comparisons
 
 - Homepage _(done)_ – continue adjusting hero/sections via centralized copy.
 - Articles index `/artykuly`
-  - [ ] Define content taxonomy (categories, tags).
-  - [ ] Replace placeholder links with dynamic routes once markdown exists.
+  - [x] Define content taxonomy (categories, tags).
+  - [x] Replace placeholder links with dynamic routes once markdown exists.
+  - [x] Surface featured categories in primary nav/footer per `docs/brand/article_taxonomy_navigation.md`.
 - Comparisons `/porownania`
-  - [ ] Establish comparison data structure (frontmatter fields such as `summary`, `bestFor`).
-  - [ ] Wire to dynamic listing using `getStaticProps` equivalent (Next App Router fetch).
+  - [x] Establish comparison data structure (frontmatter fields such as `summary`, `bestFor`).
+  - [x] Wire to dynamic listing using `getStaticProps` equivalent (Next App Router fetch).
 - Tutorials `/poradniki`
-  - [ ] Design metadata badges (difficulty, duration) sourced from markdown.
-  - [ ] Provide listing with filters (tool, skill level).
+  - [x] Design metadata badges (difficulty, duration) sourced from markdown.
+  - [x] Provide listing with filters (tool, skill level).
 - Glossary `/glossary`
-  - [ ] Parse `content/glossary/**` entries; sort alphabetically.
-  - [ ] Add search/anchor navigation.
+  - [x] Parse `content/glossary/**` entries; sort alphabetically.
+  - [x] Add search/anchor navigation.
 - Search `/szukaj`
-  - [ ] Placeholder page to render search UI once indexing service ready.
-  - [ ] Determine search provider (Algolia, Meili, self-build) and integration timeline.
+  - [x] Replace placeholder UI with working search backed przez lokalny indeks treści.
+  - [x] Ustalić dostawcę wyszukiwania (wybrano własny indeks build-time) i zintegrować UI.
 - 404 `/not-found` _(placeholder implemented)_ – enrich with popular links once article data is live.
 - Privacy `/polityka-prywatnosci` & Terms `/regulamin`
-  - [ ] Replace placeholders with legal copy (external source or markdown include).
+  - [x] Replace placeholders with legal copy (external source or markdown include).
   - [ ] Coordinate with legal team.
 
 ## 3. Copy Centralization Plan
@@ -42,6 +43,7 @@ data/copy/
   tutorials.json
   glossary.json
   not-found.json
+  search.json
   privacy.json
   terms.json
 ```

@@ -4,6 +4,13 @@ slug: "kapwing-vs-veed"
 path: "/porownania/kapwing-vs-veed/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - media
+  tags:
+    - kapwing
+    - veed
 ---
 
 # Kapwing Vs Veed

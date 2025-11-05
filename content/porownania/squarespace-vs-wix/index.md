@@ -4,6 +4,13 @@ slug: "squarespace-vs-wix"
 path: "/porownania/squarespace-vs-wix/"
 draft: true
 date: "2025-11-05"
+template: "comparison"
+taxonomy:
+  categories:
+    - site-builder
+  tags:
+    - squarespace
+    - wix
 ---
 
 # Squarespace Vs Wix

@@ -1,7 +1,13 @@
+import { MarkdownPageLoader } from "@/app/lib/content/pageLoader";
+import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { getCopy } from "../../lib/copy";
+
+const termsPageLoader = new MarkdownPageLoader("content/regulamin/index.md");
 
 export default function TermsPage() {
   const copy = getCopy("terms");
+  const page = termsPageLoader.load();
+  const renderer = new MarkdownRenderer(page.content);
 
   return (
     <section className="section section--surface">
@@ -9,16 +15,7 @@ export default function TermsPage() {
         <h1>{copy.title}</h1>
         <p>{copy.lead}</p>
         <p className="pbk-input__description">{copy.lastUpdated}</p>
-        <div className="pbk-stack pbk-stack--tight">
-          <h2>1. Postanowienia ogólne</h2>
-          <p>Wprowadzenie do zasad korzystania z serwisu.</p>
-          <h2>2. Definicje</h2>
-          <p>Lista pojęć używanych w regulaminie.</p>
-          <h2>3. Zasady korzystania</h2>
-          <p>Prawa i obowiązki użytkowników.</p>
-          <h2>4. Postanowienia końcowe</h2>
-          <p>Informacje o zmianach regulaminu i kontakcie.</p>
-        </div>
+        <article className="prose">{renderer.render()}</article>
       </div>
     </section>
   );

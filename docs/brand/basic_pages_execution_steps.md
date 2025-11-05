@@ -33,6 +33,7 @@ This checklist walks through turning the current placeholders into production-re
 5. Add pagination or load-more strategy (document in copy if not immediate).
 6. Hook up copy from `data/copy/articles.json` (page title, intro text).
 7. Update plan checklist and run lint/tests.
+8. Utrzymuj konfigurację nawigacji w `data/copy/articles.json` (`navigation.featuredCategories`, `seeAllHref`) – PrimaryNav/Footer już korzystają z tych danych.
 
 ## Phase 3 – Comparisons (`/porownania`)
 
@@ -49,21 +50,21 @@ This checklist walks through turning the current placeholders into production-re
 2. Build markdown under `content/poradniki/**` with structured steps/sections.
 3. Write loader `app/lib/tutorials.ts` returning metadata, excerpt, slug.
 4. Render listing with difficulty badge (use tokens) and links to slug pages.
-5. Add filters (tool, difficulty) once data volume justifies (log in backlog).
+5. Dodaj filtry (narzędzie, trudność) oparte na `TutorialDirectory` i parametrach zapytania (`difficulty`,`tool`).
 6. Copy integration via `data/copy/tutorials.json`.
 
 ## Phase 5 – Glossary (`/glossary`)
 
 1. Ensure glossary entries exist in `content/glossary/**` (term, definition, aliases).
 2. Build `app/lib/glossary.ts` to aggregate entries.
-3. Render alphabetical list with jump navigation and search field (defer search implementation if necessary).
+3. Render alphabetical list with jump navigation and inline search (`GlossaryDirectory` steruje grupowaniem).
 4. Pull heading/intro copy from `data/copy/glossary.json`.
 
 ## Phase 6 – Search Page (`/szukaj`)
 
-1. Select search solution (Algolia, Meilisearch, custom) – create ticket if decision pending.
-2. Implement placeholder UI with form and results container.
-3. Once provider chosen, integrate client, index markdown content, and render results.
+1. Wybrać rozwiązanie wyszukiwania (finalnie: build-time `ContentSearchEngine` działający offline).
+2. Zaimplementować formularz z parametrem `q`, zasilany `data/copy/search.json`.
+3. Zindeksować artykuły, tutoriale, porównania i słownik (`ContentSearchEngine.search`) i renderować wyniki wraz z typami.
 4. Document setup in `docs/brand/tooling.md` and update copy file `data/copy/search.json` (create if needed).
 
 ## Phase 7 – Legal Pages

@@ -3,6 +3,7 @@ always use context7 mcp
 always use serena mcp
 always docs folder
 all pages must be mobile-first approach
+always update `docs/website_repro_playbook.md` whenever processes change
 
 <file_length_and_structure>
 – Never allow a file to exceed 500 lines.

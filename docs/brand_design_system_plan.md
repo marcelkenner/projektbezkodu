@@ -42,7 +42,7 @@
 - [x] Convert palette table into token definitions (`tokens.json`, `tokens.css`, `tokens.ts`) covering:
   - Core colors (`--indigo-500/600/700`, `--mint-600/700`, `--orange-600/700`, neutrals, semantic variants).
   - Gradients (`--brand-hero-gradient`).
-  - Spacing scale (4-pt increments up to 128).
+  - Spacing scale using fluid unit clamps (`spacing.1`–`spacing.20` matching the u = 8px rhythm).
   - Radii (`--radius-sm 4px`, `--radius-md 8px`, `--radius-lg 16px`, `--radius-pill 999px`).
   - Shadow elevations (xs, sm, md, lg per doc).
   - Typography (font families, size tokens, line heights, letter spacing).
@@ -69,7 +69,7 @@
 - [x] Preload critical font weights (400, 500, 600, 700).
 - [x] Configure fallback stack and unicode-range if self-hosting.
 - [x] Create CSS utility classes (or Tailwind config) for size tokens (`fs-display`, `fs-h1`, etc.) with `clamp` values.
-- [x] Set global body typography (line-height 1.45, color `--gray-900`, letter-spacing defaults).
+- [x] Set global body typography (line-height 1.6 default with 1.5–1.7 range, color `--gray-900`, letter-spacing defaults).
 - [x] Define heading scale (H1–H6) mapping to tokens with margins tied to spacing scale.
 - [ ] Add style lint rule or ESLint custom rule ensuring `<strong>` not used for headings (per clarity principle).
 
@@ -79,7 +79,7 @@
 
 - [x] Implement container utility (`.container`) with max widths 640–1440px responsive.
 - [x] Configure CSS grid helpers (12/6/4 columns) with standardized gaps (24px desktop/tablet, 16px mobile).
-- [x] Create spacing utilities or Tailwind scale aligned to 4-pt increments (4, 8, 12, 16, 20, etc., note 20 & 28 as exceptions).
+- [x] Create spacing utilities tied to the fluid unit scale (`--space-1..--space-12` clamp between mobile and desktop targets).
 - [x] Define global border radius tokens (`.rounded-sm`, `.rounded-md`) and ensure components reference tokens.
 - [x] Implement box-shadow token classes (xs to xl) with documented usage.
 - [x] Document layout templates: marketing page stack, two-column split, feature grid, cards deck.
@@ -88,11 +88,11 @@
 
 ## 6. Iconography & Illustration
 
-- [x] Audit icons required (navigation, CTA arrows, social) — documented in `docs/brand/iconography.md`.
-- [x] Create consistent 24x24 and 20x20 icon set aligning with color rules (primary indigo or neutral) — guidelines captured.
-- [x] Ensure icons support stroke width 1.5px, rounded caps per style — design spec recorded.
+- [x] Audit icons required (navigation, CTA arrows, social) - documented in `docs/brand/iconography.md`.
+- [x] Create consistent 24x24 and 20x20 icon set aligning with color rules (primary indigo or neutral) - guidelines captured.
+- [x] Ensure icons support stroke width 1.5px, rounded caps per style - design spec recorded.
 - [x] Prepare OG/social templates mentioned in doc (Pinterest, YT, OG) – export targets defined under `/brand/docs/`.
-- [x] Validate performance (SVG optimized via SVGO, reuse via sprite or React components) — workflow documented.
+- [x] Validate performance (SVG optimized via SVGO, reuse via sprite or React components) - workflow documented.
 
 ---
 
@@ -124,15 +124,15 @@
 
 - [x] Translate section P requirements into Next.js page templates:
   - Homepage hero with trust bar + gradient (implemented in `app/page.tsx`).
-  - Template detail page (CTA buttons, sections) — structure documented for build-out.
-  - Tutorial page (sticky TOC, meta info) — structure documented in `docs/brand/page_templates.md`.
-  - Comparison page (feature table, price ladder) — base components prepared.
+  - Template detail page (CTA buttons, sections) - structure documented for build-out.
+  - Tutorial page (sticky TOC, meta info) - structure documented in `docs/brand/page_templates.md`.
+  - Comparison page (feature table, price ladder) - base components prepared.
 - [x] Create MD content frontmatter schema matching `content/` structure produced by scaffold script.
 - [x] Add components for FAQ accordion, CTA banners, lead magnet downloads.
 - [x] Ensure each template includes SEO meta (title, description, structured data if applicable).
 - [x] Provide sample MDX/markdown with placeholders to validate layout.
 - [x] Document layout + component mapping in `/docs/page_templates.md`.
-- [ ] Implement articles/comparisons/tutorials/glossary listing pages with real content and copy per `docs/brand/basic_pages_execution_steps.md`.
+- [x] Implement articles/comparisons/tutorials/glossary listing pages with real content and copy per `docs/brand/basic_pages_execution_steps.md`.
 
 ---
 
@@ -179,8 +179,8 @@
 - [x] Create CTA component with copy tokens (primary, secondary). _(Button variants implemented.)_
 - [x] Align article metadata (difficulty, time) with tutorial template design.
 - [x] Document copy deck for essential sections (hero, pricing, comparison intros).
-- [ ] Centralize copy for core pages via `data/copy/` structure (see `docs/brand/copy_system_plan.md`).
-- [ ] Execute migration checklist in `docs/brand/basic_pages_execution_steps.md` so homepage and section indexes consume the shared copy helper.
+- [x] Centralize copy for core pages via `data/copy/` structure (see `docs/brand/copy_system_plan.md`).
+- [x] Execute migration checklist in `docs/brand/basic_pages_execution_steps.md` so homepage and section indexes consume the shared copy helper.
 
 ---
 
