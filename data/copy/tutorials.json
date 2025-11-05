@@ -1,0 +1,27 @@
+{
+  "title": "Tutoriale krok po kroku",
+  "intro": "Przewodniki wdrożeniowe z checklistami i estymowanym czasem realizacji.",
+  "items": [
+    {
+      "title": "Webflow – blog krok po kroku",
+      "difficulty": "Średni",
+      "href": "/poradniki/webflow-blog-krok-po-kroku",
+      "ctaLabel": "Zobacz instrukcję",
+      "description": "Od struktury kolekcji po wdrożenie na produkcję."
+    },
+    {
+      "title": "Framer – landing page w 2 godziny",
+      "difficulty": "Łatwy",
+      "href": "/poradniki/framer-landing-2h",
+      "ctaLabel": "Stwórz landing",
+      "description": "Szybki landing w Framerze wraz z checklistą optymalizacji."
+    },
+    {
+      "title": "Automatyzacja leadów w Make",
+      "difficulty": "Zaawansowany",
+      "href": "/poradniki/automatyzacja-leadow-make",
+      "ctaLabel": "Automatyzuj proces",
+      "description": "Scenariusz Make do przechwytywania i kwalifikacji leadów."
+    }
+  ]
+}

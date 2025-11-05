@@ -21,9 +21,7 @@
           "cookieWindow": "90 dni",
           "payout": "Miesięcznie przez panel Webflow",
           "notes": "Oficjalny program z wysokim HFM+R; Webflow udostępnia materiały promocyjne i dashboard statystyk.",
-          "sources": [
-            "https://webflow.com/solutions/affiliates"
-          ],
+          "sources": ["https://webflow.com/solutions/affiliates"],
           "idealContent": [
             "Porównania builderów",
             "Tutoriale live-build",
@@ -45,9 +43,7 @@
           "cookieWindow": "60 dni (wg komunikacji twórców)",
           "payout": "Wypłaty miesięczne, próg min. 200 USD",
           "notes": "Świetny do treści wideo i live-build – warto proponować pakiety Framer+Relume.",
-          "sources": [
-            "https://www.framer.com/creators/"
-          ]
+          "sources": ["https://www.framer.com/creators/"]
         },
         {
           "slug": "wix",
@@ -63,9 +59,7 @@
           "cookieWindow": "30 dni",
           "payout": "Minimalna wypłata 300 USD",
           "notes": "Dobre uzupełnienie artykułów typu 'Wix vs Webflow vs Framer'.",
-          "sources": [
-            "https://www.wix.com/about/affiliates/faq"
-          ]
+          "sources": ["https://www.wix.com/about/affiliates/faq"]
         },
         {
           "slug": "squarespace",
@@ -81,9 +75,7 @@
           "cookieWindow": "45 dni (typowe dla Impact)",
           "payout": "Przez Impact",
           "notes": "Poza klasycznym programem warto rozważyć Circle dla studiów projektowych.",
-          "sources": [
-            "https://www.wix.com/blog/what-is-affiliate-marketing"
-          ]
+          "sources": ["https://www.wix.com/blog/what-is-affiliate-marketing"]
         },
         {
           "slug": "dorik",
@@ -119,9 +111,7 @@
           "cookieWindow": "30 dni",
           "payout": "Rewardful",
           "notes": "Idealne do contentu o landingach/link-in-bio i szybkich wizytówkach.",
-          "sources": [
-            "https://elfsight.com/carrd-affiliate-program/"
-          ]
+          "sources": ["https://elfsight.com/carrd-affiliate-program/"]
         },
         {
           "slug": "webnode",
@@ -137,9 +127,7 @@
           "cookieWindow": "90 dni",
           "payout": "Minimalna wypłata 300 USD",
           "notes": "Dobra opcja dla prostych stron w języku polskim.",
-          "sources": [
-            "https://www.webnode.com/affiliate/"
-          ]
+          "sources": ["https://www.webnode.com/affiliate/"]
         },
         {
           "slug": "relume",
@@ -188,9 +176,7 @@
           "cookieWindow": "45 dni",
           "payout": "Rewardful",
           "notes": "Dobrze łączy się z sekcją Szablony & Komponenty.",
-          "sources": [
-            "https://www.flowbase.co/affiliates"
-          ]
+          "sources": ["https://www.flowbase.co/affiliates"]
         }
       ]
     },
@@ -214,9 +200,7 @@
           "cookieWindow": "30 dni",
           "payout": "Impact / PartnerStack (w zależności od produktu)",
           "notes": "Najsilniejszy zamiennik Canvy; świetny do tutoriali Photoshop/Illustrator/Express.",
-          "sources": [
-            "https://www.adobe.com/affiliates.html"
-          ]
+          "sources": ["https://www.adobe.com/affiliates.html"]
         },
         {
           "slug": "canva-empower",
@@ -255,9 +239,7 @@
           "cookieWindow": "30 dni",
           "payout": "PartnerStack",
           "notes": "Perfekcyjny do materiałów 'przed/po', transkrypcji i repurposingu audio/wideo.",
-          "sources": [
-            "https://www.descript.com/affiliate"
-          ]
+          "sources": ["https://www.descript.com/affiliate"]
         },
         {
           "slug": "kapwing",
@@ -273,9 +255,7 @@
           "cookieWindow": "30 dni",
           "payout": "PartnerStack",
           "notes": "Świetne do contentu o shortform (Pinterest/YouTube Shorts).",
-          "sources": [
-            "https://www.kapwing.com/help/kapwing-affiliate-program/"
-          ]
+          "sources": ["https://www.kapwing.com/help/kapwing-affiliate-program/"]
         },
         {
           "slug": "veed",
@@ -291,9 +271,7 @@
           "cookieWindow": "30 dni",
           "payout": "PartnerStack",
           "notes": "Warto łączyć z poradnikami o social video i repurposingu.",
-          "sources": [
-            "https://www.veed.io/affiliate"
-          ]
+          "sources": ["https://www.veed.io/affiliate"]
         }
       ]
     },
@@ -316,9 +294,7 @@
           "cookieWindow": "30 dni",
           "payout": "Miesięczny payout",
           "notes": "Stabilny program – idealny do checklist zasobów graficznych.",
-          "sources": [
-            "https://www.shutterstock.com/explore/affiliates"
-          ]
+          "sources": ["https://www.shutterstock.com/explore/affiliates"]
         },
         {
           "slug": "envato-elements",
@@ -335,9 +311,7 @@
           "cookieWindow": "30 dni",
           "payout": "Przez Envato Market",
           "notes": "Świetny upsell do lead magnetów i bibliotek komponentów.",
-          "sources": [
-            "https://www.envato.com/affiliates/"
-          ]
+          "sources": ["https://www.envato.com/affiliates/"]
         },
         {
           "slug": "creative-market",
@@ -353,9 +327,7 @@
           "cookieWindow": "30 dni",
           "payout": "Impact",
           "notes": "Idealne dla bibliotek UI/UX oraz fontów.",
-          "sources": [
-            "https://creativemarket.com/affiliates"
-          ]
+          "sources": ["https://creativemarket.com/affiliates"]
         },
         {
           "slug": "depositphotos",
@@ -407,9 +379,7 @@
           "cookieWindow": "45 dni",
           "payout": "PartnerStack",
           "notes": "Rewelacyjne do zestawień bibliotek ikon i ilustracji.",
-          "sources": [
-            "https://icons8.com/l/affiliate/"
-          ]
+          "sources": ["https://icons8.com/l/affiliate/"]
         },
         {
           "slug": "freepik",
@@ -425,9 +395,7 @@
           "cookieWindow": "30 dni",
           "payout": "Wewnętrzny system Freepik",
           "notes": "Warunki zmienne – dobre jako bonus, nie core monetization.",
-          "sources": [
-            "https://support.freepik.com/s/article/Referral-program"
-          ]
+          "sources": ["https://support.freepik.com/s/article/Referral-program"]
         }
       ]
     },
@@ -450,9 +418,7 @@
           "cookieWindow": "60 dni",
           "payout": "PartnerStack",
           "notes": "Świetny fit do poradników Core Web Vitals i e-commerce.",
-          "sources": [
-            "https://uploadcare.com/partners/"
-          ]
+          "sources": ["https://uploadcare.com/partners/"]
         },
         {
           "slug": "cloudimage",
@@ -468,9 +434,7 @@
           "cookieWindow": "90 dni",
           "payout": "PartnerStack",
           "notes": "Przydatne w case'ach wydajności i migracji do CDN.",
-          "sources": [
-            "https://www.cloudimage.io/affiliate"
-          ]
+          "sources": ["https://www.cloudimage.io/affiliate"]
         },
         {
           "slug": "imageengine",
@@ -486,9 +450,7 @@
           "cookieWindow": "60 dni",
           "payout": "imgix Partners",
           "notes": "Dla contentu o optymalizacji grafiki i API transformacji.",
-          "sources": [
-            "https://www.imgix.com/blog/introducing-imgix-partners"
-          ]
+          "sources": ["https://www.imgix.com/blog/introducing-imgix-partners"]
         },
         {
           "slug": "bunny-net",
@@ -530,9 +492,7 @@
           "cookieWindow": "60 dni",
           "payout": "PartnerStack",
           "notes": "Idealne do lead magnetów i automatyzacji zapisów.",
-          "sources": [
-            "https://www.jotform.com/partnership/affiliate/"
-          ]
+          "sources": ["https://www.jotform.com/partnership/affiliate/"]
         },
         {
           "slug": "typeform",
@@ -566,9 +526,7 @@
           "cookieWindow": "45 dni",
           "payout": "Rewardful",
           "notes": "Win-win – daj kod zniżkowy w lead magnetach.",
-          "sources": [
-            "https://tally.so/help/referral-program"
-          ]
+          "sources": ["https://tally.so/help/referral-program"]
         },
         {
           "slug": "paperform",
@@ -609,9 +567,7 @@
           "cookieWindow": "30 dni",
           "payout": "PartnerStack",
           "notes": "Świetne dla polskich twórców – interfejs PL.",
-          "sources": [
-            "https://www.mailerlite.com/affiliate"
-          ]
+          "sources": ["https://www.mailerlite.com/affiliate"]
         },
         {
           "slug": "getresponse",
@@ -628,9 +584,7 @@
           "cookieWindow": "120 dni",
           "payout": "Rakuten / wewnętrzny panel",
           "notes": "Polska marka – dobry argument w case'ach PL.",
-          "sources": [
-            "https://www.beehiiv.com/partners"
-          ]
+          "sources": ["https://www.beehiiv.com/partners"]
         },
         {
           "slug": "convertkit",
@@ -664,9 +618,7 @@
           "cookieWindow": "365 dni",
           "payout": "ShareASale / wewnętrzny",
           "notes": "Klasyczna platforma – warto przy materiałach historycznych o e-mail marketingu.",
-          "sources": [
-            "https://www.shopify.com/blog/best-affiliate-programs"
-          ]
+          "sources": ["https://www.shopify.com/blog/best-affiliate-programs"]
         },
         {
           "slug": "beehiiv",
@@ -683,9 +635,7 @@
           "cookieWindow": "90 dni",
           "payout": "PartnerStack",
           "notes": "Idealne do newslettera 'WebDesignPoPolsku' i lead magnetów.",
-          "sources": [
-            "https://www.beehiiv.com/partners"
-          ]
+          "sources": ["https://www.beehiiv.com/partners"]
         }
       ]
     },
@@ -744,9 +694,7 @@
           "cookieWindow": "45 dni",
           "payout": "PartnerStack",
           "notes": "Privacy-first – genialne w treściach o analityce zgodnej z RODO.",
-          "sources": [
-            "https://usefathom.com/affiliates"
-          ]
+          "sources": ["https://usefathom.com/affiliates"]
         },
         {
           "slug": "plausible",
@@ -758,9 +706,7 @@
           "cookieWindow": null,
           "payout": null,
           "notes": "Brak programu afiliacyjnego – warto wspomnieć w treści, ale bez monetizacji.",
-          "sources": [
-            "https://github.com/plausible/analytics/discussions/120"
-          ]
+          "sources": ["https://github.com/plausible/analytics/discussions/120"]
         }
       ]
     },
@@ -819,9 +765,7 @@
           "cookieWindow": "90 dni",
           "payout": "PartnerStack",
           "notes": "Ambasadorskie podejście – świetne do zaawansowanych case'ów CRO.",
-          "sources": [
-            "https://www.convert.com/partnerships/"
-          ]
+          "sources": ["https://www.convert.com/partnerships/"]
         }
       ]
     },
@@ -844,9 +788,7 @@
           "cookieWindow": "90 dni",
           "payout": "PartnerStack",
           "notes": "Perfekcyjne do tutoriali 'automation dla stron bez kodu'.",
-          "sources": [
-            "https://www.make.com/en/affiliate"
-          ]
+          "sources": ["https://www.make.com/en/affiliate"]
         },
         {
           "slug": "zapier",
@@ -862,9 +804,7 @@
           "cookieWindow": null,
           "payout": "Ustalane indywidualnie",
           "notes": "Dobre dla agencji oferujących wdrożenia automatyzacji.",
-          "sources": [
-            "https://zapier.com/l/solution-partner"
-          ]
+          "sources": ["https://zapier.com/l/solution-partner"]
         },
         {
           "slug": "softr",
@@ -880,9 +820,7 @@
           "cookieWindow": "60 dni",
           "payout": "PartnerStack",
           "notes": "Świetne do portali na Airtable/Notion.",
-          "sources": [
-            "https://www.softr.io/affiliate"
-          ]
+          "sources": ["https://www.softr.io/affiliate"]
         },
         {
           "slug": "bubble",
@@ -898,9 +836,7 @@
           "cookieWindow": "30 dni",
           "payout": "PartnerStack / Rewardful (wg regionu)",
           "notes": "Dobry do case'ów aplikacji webowych.",
-          "sources": [
-            "https://affiliate.watch/affiliate/bubble"
-          ]
+          "sources": ["https://affiliate.watch/affiliate/bubble"]
         },
         {
           "slug": "glide",
@@ -916,9 +852,7 @@
           "cookieWindow": "45 dni",
           "payout": "PartnerStack",
           "notes": "Skup się na aplikacjach dla freelancerów i biznesów lokalnych.",
-          "sources": [
-            "https://www.glideapps.com/experts-program"
-          ]
+          "sources": ["https://www.glideapps.com/experts-program"]
         },
         {
           "slug": "outseta",
@@ -934,9 +868,7 @@
           "cookieWindow": "90 dni",
           "payout": "Rewardful",
           "notes": "Świetny dla członkostw i płatnych społeczności na Webflow.",
-          "sources": [
-            "https://www.outseta.com/partners"
-          ]
+          "sources": ["https://www.outseta.com/partners"]
         },
         {
           "slug": "memberstack",
@@ -977,9 +909,7 @@
           "cookieWindow": "30 dni",
           "payout": "Impact",
           "notes": "Najlepsza alternatywa po zamknięciu programu BigCommerce.",
-          "sources": [
-            "https://www.shopify.com/affiliates"
-          ]
+          "sources": ["https://www.shopify.com/affiliates"]
         },
         {
           "slug": "bigcommerce",
@@ -991,9 +921,7 @@
           "cookieWindow": null,
           "payout": null,
           "notes": "Program zakończony 17.05.2025 – informacja dla historycznych treści. Polecane alternatywy: Shopify, Shoplazza.",
-          "alternatives": [
-            "shopify"
-          ],
+          "alternatives": ["shopify"],
           "sources": [
             "https://www.bigcommerce.com/partners/affiliate-program-closure/"
           ]
@@ -1019,9 +947,7 @@
           "cookieWindow": "30 dni",
           "payout": "home.pl panel",
           "notes": "Dobry dla treści skierowanych do mikrofirm w Polsce.",
-          "sources": [
-            "https://home.pl/program-partnerski/"
-          ]
+          "sources": ["https://home.pl/program-partnerski/"]
         },
         {
           "slug": "nazwa-pl",
@@ -1037,9 +963,7 @@
           "cookieWindow": "60 dni",
           "payout": "nazwa.pl panel",
           "notes": "Świetny 'deal sweetener' w kursach i warsztatach.",
-          "sources": [
-            "https://www.nazwa.pl/program-partnerski/"
-          ]
+          "sources": ["https://www.nazwa.pl/program-partnerski/"]
         },
         {
           "slug": "cyber-folks",
@@ -1055,9 +979,7 @@
           "cookieWindow": "90 dni",
           "payout": "cyber_Folks panel",
           "notes": "Umożliwia kody rabatowe – dobry element warsztatów.",
-          "sources": [
-            "https://cyberfolks.pl/program-partnerski/"
-          ]
+          "sources": ["https://cyberfolks.pl/program-partnerski/"]
         },
         {
           "slug": "ovhcloud",
@@ -1073,9 +995,7 @@
           "cookieWindow": null,
           "payout": "OVHcloud Partner Portal",
           "notes": "Dobre dla większych implementacji i klientów enterprise.",
-          "sources": [
-            "https://partner.ovhcloud.com/en/referral-advisory-path/"
-          ]
+          "sources": ["https://partner.ovhcloud.com/en/referral-advisory-path/"]
         },
         {
           "slug": "hostinger",
@@ -1091,9 +1011,7 @@
           "cookieWindow": "45 dni",
           "payout": "Impact",
           "notes": "PL-friendly support, wysoka konwersja.",
-          "sources": [
-            "https://www.hostinger.com/affiliates"
-          ]
+          "sources": ["https://www.hostinger.com/affiliates"]
         },
         {
           "slug": "kinsta",
@@ -1109,9 +1027,7 @@
           "cookieWindow": "60 dni",
           "payout": "Impact",
           "notes": "Świetny przykład premium hostingu WP dla case'ów performance.",
-          "sources": [
-            "https://kinsta.com/affiliates/"
-          ]
+          "sources": ["https://kinsta.com/affiliates/"]
         }
       ]
     },
@@ -1134,9 +1050,7 @@
           "cookieWindow": "90 dni",
           "payout": "PartnerStack",
           "notes": "Świetny przykład w warsztatach o landingach i testach A/B.",
-          "sources": [
-            "https://unbounce.com/partner-program/"
-          ]
+          "sources": ["https://unbounce.com/partner-program/"]
         },
         {
           "slug": "leadpages",
@@ -1170,9 +1084,7 @@
           "cookieWindow": "60 dni",
           "payout": "PartnerStack",
           "notes": "Enterprise-grade – warto do contentu o landingach premium.",
-          "sources": [
-            "https://instapage.com/affiliate"
-          ]
+          "sources": ["https://instapage.com/affiliate"]
         }
       ]
     }

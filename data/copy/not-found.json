@@ -1,0 +1,12 @@
+{
+  "title": "Nie znaleziono strony",
+  "body": "Szukana strona została przeniesiona lub nie istnieje. Sprawdź nasze najnowsze artykuły lub wróć na stronę główną.",
+  "primaryCta": {
+    "label": "Przejdź na stronę główną",
+    "href": "/"
+  },
+  "secondaryCta": {
+    "label": "Przeglądaj artykuły",
+    "href": "/artykuly"
+  }
+}

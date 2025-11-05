@@ -1,0 +1,24 @@
+[
+  { "slug": "webflow", "label": "Webflow", "category": "site-builder" },
+  { "slug": "framer", "label": "Framer", "category": "site-builder" },
+  { "slug": "relume", "label": "Relume", "category": "component-library" },
+  { "slug": "make", "label": "Make (Integromat)", "category": "automation" },
+  { "slug": "zapier", "label": "Zapier", "category": "automation" },
+  { "slug": "mailerlite", "label": "MailerLite", "category": "email" },
+  { "slug": "convertkit", "label": "ConvertKit", "category": "email" },
+  {
+    "slug": "plausible",
+    "label": "Plausible Analytics",
+    "category": "analytics"
+  },
+  { "slug": "fathom", "label": "Fathom Analytics", "category": "analytics" },
+  { "slug": "semrush", "label": "Semrush", "category": "seo" },
+  { "slug": "surfer", "label": "Surfer", "category": "seo" },
+  { "slug": "hotjar", "label": "Hotjar", "category": "ux" },
+  { "slug": "typeform", "label": "Typeform", "category": "forms" },
+  { "slug": "tally", "label": "Tally", "category": "forms" },
+  { "slug": "shopify", "label": "Shopify", "category": "ecommerce" },
+  { "slug": "bigcommerce", "label": "BigCommerce", "category": "ecommerce" },
+  { "slug": "hostinger", "label": "Hostinger", "category": "hosting" },
+  { "slug": "kinsta", "label": "Kinsta", "category": "hosting" }
+]

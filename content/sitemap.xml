@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-static.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-kategorie.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-narzedzia.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-porownania.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-case-studies.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-szablony.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-downloads.xml</loc></sitemap>
+  <sitemap><loc>https://projektbezkodu.pl/sitemaps/sitemap-glossary.xml</loc></sitemap>
+</sitemapindex>

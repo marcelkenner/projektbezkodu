@@ -1,0 +1,24 @@
+{
+  "title": "Porównania narzędzi",
+  "intro": "Rzetelne zestawienia pomagające wybrać najlepsze narzędzie no-code.",
+  "items": [
+    {
+      "title": "Webflow vs Framer",
+      "summary": "Które narzędzie lepiej sprawdzi się przy landingach i storytellingu?",
+      "href": "/porownania/webflow-vs-framer",
+      "ctaLabel": "Zobacz porównanie"
+    },
+    {
+      "title": "Webflow vs WordPress",
+      "summary": "Jak wypada Webflow na tle WordPressa pod kątem kosztów, wydajności i edycji treści.",
+      "href": "/porownania/webflow-vs-wordpress",
+      "ctaLabel": "Poznaj wady i zalety"
+    },
+    {
+      "title": "Framer vs WordPress",
+      "summary": "Kiedy wybrać Framera, a kiedy pozostać przy klasycznym CMS-ie?",
+      "href": "/porownania/framer-vs-wordpress",
+      "ctaLabel": "Dowiedz się więcej"
+    }
+  ]
+}

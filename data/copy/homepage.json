@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "badge": "Nowe artykuły",
+    "heading": "Rzetelne artykuły o stronach bez kodu.",
+    "subheading": "Porównania narzędzi i szczegółowe tutoriale pisane krok po kroku.",
+    "trustLine": "Zaufali nam twórcy stron dla:",
+    "trustLogos": ["Webflow", "Framer", "Relume"]
+  },
+  "sections": {
+    "content": {
+      "heading": "Co znajdziesz na blogu?",
+      "body": "Jakość ponad wszystko: artykuły eksperckie, porównania narzędzi i pisane tutoriale.",
+      "cards": [
+        {
+          "title": "Artykuły eksperckie",
+          "meta": "Strategia · SEO · Wydajność",
+          "description": "Dogłębne analizy i wskazówki, które pomagają budować lepsze strony bez kodu.",
+          "ctaLabel": "Czytaj artykuły",
+          "href": "/artykuly"
+        },
+        {
+          "title": "Porównania narzędzi",
+          "meta": "Webflow · Framer · WordPress",
+          "description": "Rzetelne zestawienia funkcji, cen i zastosowań popularnych narzędzi no-code.",
+          "ctaLabel": "Przeglądaj porównania",
+          "href": "/porownania"
+        },
+        {
+          "title": "Tutoriale krok po kroku",
+          "meta": "Praktyczne przewodniki",
+          "description": "Scenariusze wdrożeniowe i checklisty, które przeprowadzą Cię od planu do publikacji.",
+          "ctaLabel": "Zobacz tutoriale",
+          "href": "/poradniki"
+        }
+      ]
+    },
+    "steps": {
+      "heading": "Jak korzystać z treści?",
+      "body": "Trzy kroki, które pomagają przełożyć wiedzę na działające projekty.",
+      "items": [
+        {
+          "title": "Poznaj podstawy",
+          "description": "Zacznij od artykułów o strategii, SEO i wydajności stron bez kodu."
+        },
+        {
+          "title": "Porównaj narzędzia",
+          "description": "Sprawdź nasze analizy Webflow, Framera i alternatyw, aby wybrać najlepsze rozwiązanie."
+        },
+        {
+          "title": "Zastosuj w praktyce",
+          "description": "Korzystaj z pisanych tutoriali krok po kroku i checklist do wdrożenia."
+        }
+      ]
+    },
+    "comparison": {
+      "heading": "Porównanie narzędzi",
+      "body": "Nie wiesz, które narzędzie wybrać? Nasze zestawienia pokazują mocne i słabe strony popularnych platform."
+    },
+    "tools": {
+      "heading": "Narzędzia, o których piszemy",
+      "intro": "Skupiamy się na sprawdzonych platformach:"
+    },
+    "newsletter": {
+      "heading": "Dołącz do newslettera",
+      "body": "Otrzymasz comiesięczny przegląd nowych artykułów, porównań i tutoriali.",
+      "form": {
+        "emailLabel": "Adres e-mail",
+        "emailPlaceholder": "ola@twojafirma.pl",
+        "description": "Wysyłamy maksymalnie 2 wiadomości w miesiącu."
+      }
+    },
+    "faq": {
+      "heading": "Najczęściej zadawane pytania",
+      "intro": "Masz inne pytanie? Napisz na kontakt@projektbezkodu.pl.",
+      "items": [
+        {
+          "question": "Czy materiały są po polsku?",
+          "answer": "Tak – wszystkie artykuły, porównania i tutoriale piszemy po polsku, dodając wyjaśnienia kluczowych pojęć."
+        },
+        {
+          "question": "Czy potrzebuję płatnego planu narzędzi?",
+          "answer": "Możesz zacząć na darmowych planach – w tekstach wskazujemy moment, w którym opłaca się przejść na wersje premium."
+        },
+        {
+          "question": "Czy otrzymam aktualizacje?",
+          "answer": "Newsletter evergreen co miesiąc podsumowuje nowe artykuły, porównania i tutoriale."
+        }
+      ],
+      "cta": "Masz pomysł na temat? Daj znać, a rozważymy przygotowanie artykułu na blog."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+export default function Head() {
+  return (
+    <>
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <meta name="theme-color" content="#4338CA" />
+    </>
+  );
+}

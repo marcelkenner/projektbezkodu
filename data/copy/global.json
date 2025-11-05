@@ -1,0 +1,11 @@
+{
+  "ctas": {
+    "primary": "Czytaj najnowsze artykuły",
+    "secondary": "Przeglądaj porównania",
+    "suggestTopic": "Zaproponuj temat"
+  },
+  "newsletter": {
+    "submitLabel": "Zapisz się",
+    "privacyNote": "Dołączając akceptujesz politykę prywatności."
+  }
+}

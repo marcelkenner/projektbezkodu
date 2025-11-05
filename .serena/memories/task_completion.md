@@ -1,6 +1,7 @@
 # Task Completion Checklist
-- Validate relevant Terraform plans/applies complete without errors when infrastructure changes are involved.
-- Build and push updated Docker images to ECR, then trigger ECS service redeploy if app changes affect runtime.
-- Run smoke tests against `/healthz/`, `/_health`, and frontend endpoints after deployments.
-- Update plan documents under `plans/` and associated playbooks when scope/process changes.
-- Document any manual AWS console actions so they can be back-ported into Terraform.
+
+1. Ensure files adhere to size/OOP constraints from `AGENTS.md` and follow mobile-first styling.
+2. Run relevant validation commands (`npm run lint`, forthcoming `npm run tokens:build`, etc.) when code changes touch frontend or tokens.
+3. Update accompanying documentation (e.g., `docs/brand_design_system_plan.md`, changelog entries) to reflect changes.
+4. Verify assets/tokens reside under `/brand/` with correct naming and update `brand/CHANGELOG.md` when brand elements change.
+5. Summarise changes for the user, referencing file paths and suggesting next actions or tests.

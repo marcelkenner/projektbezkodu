@@ -1,7 +1,8 @@
-If you want to run commands, please include source ~/.nvm/nvm.sh &&  in front first.
+If you want to run commands, please include source ~/.nvm/nvm.sh && in front first.
 always use context7 mcp
 always use serena mcp
-always reference playbook folder
+always docs folder
+all pages must be mobile-first approach
 
 <file_length_and_structure>
 – Never allow a file to exceed 500 lines.
@@ -23,7 +24,7 @@ always reference playbook folder
 </single_responsibility_principle>
 
 <modular_design>
-– Code should connect like Lego — interchangeable, testable, and isolated.
+– Code should connect like Lego - interchangeable, testable, and isolated.
 – Ask: “Can I reuse this class in a different screen or project?” If not, refactor it.
 – Reduce tight coupling between components. Favor dependency injection or protocols.
 </modular_design>

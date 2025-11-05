@@ -1,0 +1,29 @@
+{
+  "name": "@projektbezkodu/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Design tokens for the ProjektBezKodu brand system.",
+  "files": [
+    "tokens.json",
+    "tokens.css",
+    "tokens.ts",
+    "scripts/build.mjs",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.mjs"
+  },
+  "exports": {
+    "./tokens.json": "./tokens.json",
+    "./tokens.css": "./tokens.css",
+    "./tokens.ts": "./tokens.ts"
+  },
+  "keywords": [
+    "design-tokens",
+    "projektbezkodu",
+    "brand"
+  ],
+  "author": "ProjektBezKodu",
+  "license": "UNLICENSED"
+}

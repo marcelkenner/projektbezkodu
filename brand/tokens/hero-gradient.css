@@ -1,0 +1,12 @@
+:root {
+  /**
+   * Hero gradient used for marketing bands per brand spec.
+   * Apply via background: var(--brand-hero-gradient);
+   */
+  --brand-hero-gradient: linear-gradient(
+    135deg,
+    #4f46e5 0%,
+    #2563eb 45%,
+    #059669 100%
+  );
+}

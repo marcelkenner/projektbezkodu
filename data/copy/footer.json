@@ -1,0 +1,69 @@
+{
+  "columns": [
+    {
+      "heading": "Nawigacja",
+      "links": [
+        {
+          "label": "Strona główna",
+          "href": "/"
+        },
+        {
+          "label": "Artykuły",
+          "href": "/artykuly"
+        },
+        {
+          "label": "Porównania",
+          "href": "/porownania"
+        },
+        {
+          "label": "Tutoriale",
+          "href": "/poradniki"
+        },
+        {
+          "label": "Słownik",
+          "href": "/glossary"
+        }
+      ]
+    },
+    {
+      "heading": "Zasoby",
+      "links": [
+        {
+          "label": "Newsletter",
+          "href": "/newsletter"
+        },
+        {
+          "label": "Do pobrania",
+          "href": "/do-pobrania"
+        },
+        {
+          "label": "Mapa strony",
+          "href": "/mapa-strony"
+        }
+      ]
+    },
+    {
+      "heading": "Legal",
+      "links": [
+        {
+          "label": "Polityka prywatności",
+          "href": "/polityka-prywatnosci"
+        },
+        {
+          "label": "Regulamin",
+          "href": "/regulamin"
+        }
+      ]
+    }
+  ],
+  "newsletter": {
+    "heading": "Dołącz do newslettera",
+    "body": "Co miesiąc wysyłamy przegląd nowych artykułów, porównań i tutoriali.",
+    "emailPlaceholder": "Twój adres e-mail",
+    "ctaLabel": "Zapisz mnie"
+  },
+  "copyright": {
+    "text": "© {year} ProjektBezKodu. Wszystkie prawa zastrzeżone.",
+    "tagline": "Blog o stronach bez kodu tworzony w Polsce."
+  }
+}
