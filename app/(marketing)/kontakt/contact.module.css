@@ -4,33 +4,10 @@
   gap: var(--space-6);
 }
 
-:global(.contact-page__form) {
+:global(.contact-page__notice) {
   display: grid;
   gap: var(--space-4);
-  max-width: 720px;
-}
-
-:global(.contact-page__textarea) {
-  min-height: 160px;
-  resize: vertical;
-}
-
-:global(.contact-page__consent) {
-  display: grid;
-  gap: var(--space-2);
-  font-size: var(--typography-fontSize-small);
-  color: var(--color-ink-muted);
-}
-
-:global(.contact-page__cta) {
-  display: inline-flex;
-  gap: var(--space-3);
-  align-items: center;
-}
-
-:global(.contact-page__info) {
-  font-size: var(--typography-fontSize-small);
-  color: var(--color-ink-muted);
+  max-width: 560px;
 }
 
 :global(.contact-page__thankyouGrid) {

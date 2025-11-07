@@ -163,7 +163,14 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 4. Statusy HTTP (`/410`, `/451`, `/503`): współdzielony `StatusPage` z copy w `system-status.json`; pamiętaj o aktualizacji `retryTime` dla 503.
 5. Case study (`/przypadki-uzycia/[slug]`): `CaseStudyRepository` plus layout z sekcjami metryk, stacku i lekcji; CTA domknięte copy `case-studies.json`.
 
-## 19. Newsletter + Listmonk
+## 19. Contact Page (Mailto)
+
+1. Formularz został zastąpiony statyczną sekcją z instrukcją kontaktu – wszystkie zapytania trafiają bezpośrednio na `kontakt@projektbezkodu.pl`.
+2. Copy znajduje się w `data/copy/contact.json.notice` (tekst, etykieta przycisku, adres e-mail). Zmiany robić w JSON, nie w komponencie.
+3. `app/(marketing)/kontakt/page.tsx` renderuje przycisk `mailto:` i blok tekstu – nie dodawaj ponownie formularza bez uzgodnienia.
+4. `/kontakt/dziekujemy` istnieje tylko jako legacy fallback (informacja o wyłączeniu formularza); nie linkuj do niego nigdzie indziej.
+
+## 20. Newsletter + Listmonk
 
 1. **Railway stack** – Provision Listmonk + PostgreSQL inside a single Railway project. Authenticate via `railway login`, then `railway use` the environment before running migrations (`railway run listmonk -- install --config config.toml`). Confirm the HTTP endpoint and credentials from the Railway dashboard.
 2. **Environment variables** – Mirror production settings in `.env.production` (copy to `.env.local` for dev):
