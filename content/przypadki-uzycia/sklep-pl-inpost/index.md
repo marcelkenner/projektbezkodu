@@ -38,12 +38,14 @@ meta:
     - "Automatyzacje Make najlepiej dokumentować od razu – wprowadziliśmy konwencję namingową i diagramy."
     - "Segmentowanie leadów według typu przesyłki ujawniło nowe insighty do kampanii remarketingowych."
   primaryCta:
-    label: "Umów konsultację"
-    href: "/kontakt"
-  secondaryCta:
     label: "Zobacz poradnik Webflow"
     href: "/poradniki/webflow-blog-krok-po-kroku/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Problem
 

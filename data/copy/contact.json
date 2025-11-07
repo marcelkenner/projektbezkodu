@@ -1,17 +1,17 @@
 {
   "seo": {
     "title": "Kontakt | ProjektBezKodu",
-    "description": "Napisz do ProjektBezKodu. Odpowiadamy w ciągu 24 godzin i pomagamy zaplanować kolejne kroki we wdrożeniu no-code.",
+    "description": "Masz pytanie do artykułu albo chcesz zgłosić nowy temat? Napisz do ProjektBezKodu – odpowiadamy w 24 godziny robocze.",
     "canonical": "https://projektbezkodu.pl/kontakt/"
   },
   "hero": {
     "title": "Kontakt",
-    "intro": "Masz pytanie o wdrożenie, playbook albo automatyzacje? Zostaw wiadomość – odezwiemy się najpóźniej następnego dnia roboczego."
+    "intro": "Zbieramy pytania do naszych publikacji, zgłoszenia poprawek i propozycje tematów. Nie przyjmujemy zleceń usługowych."
   },
   "notice": {
-    "body": "Aktualnie przyjmujemy zgłoszenia wyłącznie przez e-mail. Opisz swój projekt lub pytanie – odpowiadamy w 24 godziny robocze.",
-    "buttonLabel": "Napisz do nas",
+    "body": "Piszemy tylko przez e-mail. Dołącz link do artykułu lub krótki opis potrzeby, a wrócimy z odpowiedzią redakcyjną w ciągu jednego dnia roboczego.",
+    "buttonLabel": "Wyślij maila",
     "email": "kontakt@projektbezkodu.pl",
-    "footer": "Możesz też napisać bezpośrednio na kontakt@projektbezkodu.pl"
+    "footer": "Wszystkie wiadomości trafiają na kontakt@projektbezkodu.pl – prosimy o pytania redakcyjne, nie briefy projektowe."
   }
 }

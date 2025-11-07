@@ -39,12 +39,14 @@ meta:
     - "Cross-sell w koszyku (bundle) musi mieć jasne reguły – inaczej rośnie support."
     - "Raporty sprzedażowe najlepiej wysyłać tygodniowo – autorzy wiedzą, co promować."
   primaryCta:
-    label: "Porozmawiaj o marketplace"
-    href: "/kontakt"
-  secondaryCta:
     label: "Zobacz katalog zasobów"
     href: "/zasoby/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Wyzwanie
 

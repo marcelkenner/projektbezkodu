@@ -9,7 +9,7 @@
 │ • Wykresy/wykres (alt: „Wzrost o 37% miesiąc do miesiąca”) │
 │ • Stack narzędzi (ikony 24px aria-hidden, podpisy tekstowe) │
 │ • Lekcje i rekomendacje (lista) │
-│ CTA: [Umów konsultację] [Zobacz podobny projekt] │
+│ CTA: [Przejdź do przewodnika] [Zobacz bibliotekę artykułów] │
 └────────────────────────────────────────────────────────────────────────────┘
 SEO: Article/Report (JSON‑LD), image, datePublished/dateModified, author.
 A11y: opisy wykresów, dane liczbowe także w tekście (nie tylko obraz).

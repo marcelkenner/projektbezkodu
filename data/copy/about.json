@@ -6,7 +6,7 @@
   },
   "hero": {
     "title": "O nas",
-    "lead": "Pomagamy zespołom marketingu uruchamiać i skalować strony no-code bez czekania na development."
+    "lead": "Publikujemy procesy no-code, checklisty i biblioteki, żeby marketing mógł działać samodzielnie."
   },
   "purpose": {
     "heading": "Po co istniejemy",
@@ -63,38 +63,38 @@
     ]
   },
   "services": {
-    "heading": "Jak możemy pomóc",
+    "heading": "Co znajdziesz na ProjektBezKodu",
     "cards": [
       {
-        "title": "Konsultacja wdrożeniowa",
-        "description": "Przegląd strony, mapy treści i procesów. Dajemy plan na 30 dni wraz z miernikami.",
-        "href": "/kontakt/",
-        "ctaLabel": "Umów konsultację"
+        "title": "Poradniki krok po kroku",
+        "description": "Artykuły o Webflow, Framerze, SEO i automatyzacjach opisujące cały proces wdrożenia.",
+        "href": "/artykuly/",
+        "ctaLabel": "Czytaj artykuły"
       },
       {
         "title": "Biblioteka szablonów",
-        "description": "Gotowe sekcje, checklisty i automatyzacje do pobrania i wdrożenia w zespole.",
+        "description": "Sekcje, checklisty i tokeny, które od razu kopiujesz do własnych projektów.",
         "href": "/szablony/",
         "ctaLabel": "Zobacz szablony"
       },
       {
-        "title": "Poradniki krok po kroku",
-        "description": "Przewodniki po Webflow, Framerze, automatyzacjach i SEO tworzone w duchu 80/20.",
-        "href": "/artykuly/",
-        "ctaLabel": "Czytaj poradniki"
+        "title": "Newsletter 80/20",
+        "description": "Raz w tygodniu wysyłamy najnowsze instrukcje, listy kontrolne i aktualizacje narzędzi.",
+        "href": "/newsletter/",
+        "ctaLabel": "Dołącz do listy"
       }
     ]
   },
   "cta": {
     "primary": {
-      "label": "Umów konsultację",
-      "href": "/kontakt/"
+      "label": "Przeglądaj artykuły",
+      "href": "/artykuly/"
     },
     "secondary": {
-      "label": "Napisz do nas",
+      "label": "Zaproponuj temat",
       "href": "mailto:team@projektbezkodu.pl"
     },
-    "disclaimer": "Odpowiadamy w 24 godziny robocze."
+    "disclaimer": "Odpowiadamy na pytania redakcyjne w 24 godziny robocze."
   },
   "organization": {
     "name": "ProjektBezKodu",

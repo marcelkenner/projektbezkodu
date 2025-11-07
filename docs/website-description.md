@@ -23,6 +23,6 @@ Articles, Tutorials, Tool review/comparison, SEO/Performance, Case studies, Reso
 
 Key supporting flows:
 
-- Case studies opisują pełne procesy (problem → rozwiązanie → rezultat) i kierują do konsultacji.
+- Case studies opisują pełne procesy (problem → rozwiązanie → rezultat) i kierują do poradników wdrożeniowych – bez ofert usług.
 - Zasoby posiadają listing z filtrami (format/temat/czas) oraz strony szczegółowe z CTA do pobrania.
 - Offline fallback i strony statusowe (410/451/503) utrzymują doświadczenie w warunkach awarii.

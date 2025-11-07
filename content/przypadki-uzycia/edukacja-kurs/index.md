@@ -39,12 +39,14 @@ meta:
     - "Dynamiczne listy modułów w Webflow oszczędzają czas przy aktualizacji programu."
     - "Integracja Memberstack webhook → Make → Airtable zapewnia single source of truth."
   primaryCta:
-    label: "Zleć platformę kursową"
-    href: "/kontakt"
-  secondaryCta:
     label: "Pobierz listę kontrolną kursu"
     href: "/zasoby/prawne-wzory/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Wyzwanie
 

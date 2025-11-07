@@ -6,38 +6,38 @@
   },
   "hero": {
     "title": "Najczęstsze pytania",
-    "intro": "Rozwijamy strony no-code w modelu 80/20 – tu znajdziesz odpowiedzi na pytania, które dostajemy najczęściej."
+    "intro": "Publikujemy przewodniki o no-code, automatyzacjach i SEO – tutaj odpowiadamy na najczęstsze wiadomości od czytelników."
   },
   "entries": [
     {
       "id": "proces-start",
-      "question": "Jak wygląda start współpracy z ProjektemBezKodu?",
-      "answer": "Zaczynamy od warsztatu online, w którym definiujemy cel strony, mapę treści i wskaźniki. Po warsztacie dostajesz plan na 30 dni wraz z backlogiem zadań i szablonami."
+      "question": "Czy świadczycie konsultacje lub warsztaty?",
+      "answer": "Nie. ProjektBezKodu to biblioteka artykułów, checklist i szablonów do samodzielnego wdrożenia. Jeśli masz pytanie do konkretnego materiału, napisz – pomożemy doprecyzować kolejne kroki, ale nie prowadzimy usług 1:1."
     },
     {
       "id": "technologie",
-      "question": "Jakie narzędzia no-code wspieracie?",
-      "answer": "Najczęściej pracujemy w Webflow, Framerze i Make. Wdrażamy też automatyzacje w Zapierze i Outseta, a content publikujemy przez Airtable lub Notion, jeśli zespół tego potrzebuje."
+      "question": "O jakich narzędziach piszecie najczęściej?",
+      "answer": "W przewodnikach opisujemy Webflow, Framera, Make, Zapiera i Airtable/Notion. Każdy materiał zawiera listę kroków i gotowe checklisty, które możesz skopiować do własnego procesu."
     },
     {
       "id": "seo-cwv",
-      "question": "Czy dbacie o SEO i Core Web Vitals?",
-      "answer": "Tak. Każda strona przechodzi checklistę SEO i wydajności, a w pakiecie dostarczamy konfigurację analityki, raporty Core Web Vitals oraz listę rekomendacji optymalizacyjnych."
+      "question": "Czy znajdę materiały o SEO i Core Web Vitals?",
+      "answer": "Tak – przygotowujemy checklisty SEO, schematy danych i instrukcje poprawy LCP/CLS. Wszystkie artykuły mają sekcje z metrykami i wzorami raportów, więc możesz je wdrożyć samodzielnie."
     },
     {
       "id": "czas-realizacji",
-      "question": "Ile trwa wdrożenie strony no-code?",
-      "answer": "Pierwsze iteracje publikujemy zwykle w 10–14 dni. To możliwe dzięki gotowym sekcjom, bibliotece komponentów i procesowi, który skupia zespół na decyzjach, a nie narzędziach."
+      "question": "Jak szybko mogę wdrożyć opisane procesy?",
+      "answer": "Większość playbooków jest rozpisana na sprint 7–14 dni. Podajemy kolejność zadań, listy kontrolne i gotowe sekcje, więc możesz działać tempem swojego zespołu."
     },
     {
       "id": "dostepnosc",
-      "question": "Jak zapewniacie dostępność stron?",
-      "answer": "Budujemy mobile-first, dobieramy kontrasty zgodnie z WCAG 2.2 AA, pilnujemy kolejności nagłówków, focus states i sterowania z klawiatury. W razie potrzeby robimy audyt dostępności."
+      "question": "Czy materiały uwzględniają dostępność?",
+      "answer": "Tak. Mobile-first, kontrasty AA, kolejność nagłówków i stany focus to stałe elementy checklist, które opisujemy przy komponentach i szablonach."
     }
   ],
   "footer": {
     "prompt": "Nie znalazłeś odpowiedzi?",
-    "ctaLabel": "Napisz do nas",
+    "ctaLabel": "Zgłoś temat redakcyjny",
     "ctaHref": "/kontakt/"
   }
 }

@@ -38,12 +38,14 @@ meta:
     - "Szybkie testy microcopy (A/B w Typeform) potrafią podnieść konwersję o kilka p.p. przy minimalnym nakładzie."
     - "Checklisty QA warto prowadzić na żywo podczas calla z klientem – zdejmuje to presję z zespołu agencji."
   primaryCta:
-    label: "Umów sprint szybkiego launchu"
-    href: "/kontakt"
-  secondaryCta:
     label: "Przejdź do komponentów Framer"
     href: "/poradniki/framer-landing-2h/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Kontekst
 

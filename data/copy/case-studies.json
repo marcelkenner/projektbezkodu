@@ -21,9 +21,9 @@
     "lessons": "Lekcje i rekomendacje"
   },
   "cta": {
-    "primaryLabel": "Umów konsultację",
-    "primaryHref": "/kontakt",
-    "secondaryLabel": "Zobacz podobny projekt",
-    "secondaryHref": "/poradniki"
+    "primaryLabel": "Przejdź do przewodnika",
+    "primaryHref": "/poradniki/",
+    "secondaryLabel": "Zobacz bibliotekę artykułów",
+    "secondaryHref": "/artykuly/"
   }
 }

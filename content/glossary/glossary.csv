@@ -50,3 +50,180 @@ Title,Description,Date
 "Debugowanie","Szukanie przyczyn problemów krok po kroku; pomaga podgląd wejść/wyjść każdego etapu.",2025-11-06
 "Integracja","Połączenie dwóch narzędzi tak, by same wymieniały dane bez ręcznej pracy.",2025-11-06
 "Konektor","Gotowa wtyczka do integracji z konkretną usługą — podpinasz i działa od ręki.",2025-11-06
+"Marketplace","Sklep z dodatkami, szablonami i konektorami do rozszerzenia funkcji platformy no-code.",2025-11-06
+"Automatyzacja end-to-end","Kompletny proces od początku do końca, bez potrzeby ręcznej ingerencji.",2025-11-06
+"Citizen developer","Osoba nietechniczna tworząca aplikacje i automatyzacje za pomocą narzędzi no-code/low-code.",2025-11-06
+"Digitalizacja","Przenoszenie procesów papierowych lub manualnych do formy cyfrowej.",2025-11-06
+"Optymalizacja procesów","Usprawnianie i automatyzacja działań biznesowych w celu zwiększenia efektywności.",2025-11-06
+"RPA (Robotic Process Automation)","Technologia umożliwiająca automatyzację rutynowych zadań poprzez symulowanie działań użytkownika w interfejsie.",2025-11-06
+"AI (Sztuczna Inteligencja)","Systemy komputerowe zdolne do wykonywania zadań wymagających inteligencji ludzkiej, takich jak rozumienie języka naturalnego czy rozpoznawanie obrazów.",2025-11-06
+"Machine Learning (Uczenie Maszynowe)","Poddziedzina sztucznej inteligencji, w której systemy uczą się na podstawie danych i poprawiają swoje działanie bez bezpośredniego programowania.",2025-11-06
+"Big Data","Zbiory danych o dużej objętości, różnorodności i szybkości, które wymagają specjalistycznych narzędzi do analizy i przetwarzania.",2025-11-06
+"Chmura obliczeniowa","Model dostarczania usług IT przez internet, umożliwiający elastyczne skalowanie zasobów i dostęp do nich z dowolnego miejsca.",2025-11-06
+"DevOps","Zestaw praktyk łączących rozwój oprogramowania (Development) i operacje IT (Operations) w celu szybszego dostarczania aplikacji i usług.",2025-11-06
+"CI/CD (Continuous Integration/Continuous Deployment)","Metodyka rozwoju oprogramowania, która polega na ciągłej integracji kodu i automatycznym wdrażaniu zmian na produkcję.",2025-11-06
+"Microservices (Mikrousługi)","Architektura oprogramowania, w której aplikacja jest podzielona na małe, niezależne usługi, które komunikują się ze sobą.",2025-11-06
+"Konteneryzacja","Technologia umożliwiająca uruchamianie aplikacji w izolowanych środowiskach zwanych kontenerami, co ułatwia ich wdrażanie i skalowanie.",2025-11-06
+"Orkiestracja","Automatyzacja zarządzania, skalowania i wdrażania aplikacji kontenerowych przy użyciu narzędzi takich jak Kubernetes.",2025-11-06
+"Kubernetes","Platforma open-source do automatyzacji wdrażania, skalowania i zarządzania aplikacjami kontenerowymi.",2025-11-06
+"Serverless","Model przetwarzania w chmurze, w którym dostawca zarządza infrastrukturą, a użytkownik płaci tylko za faktyczne użycie zasobów.",2025-11-06
+"Edge Computing","Przetwarzanie danych bliżej miejsca ich powstania (na krawędzi sieci), co zmniejsza opóźnienia i obciążenie centralnych serwerów.",2025-11-06
+"Blockchain","Rozproszona baza danych, która przechowuje informacje w sposób bezpieczny i niezmienny, często wykorzystywana w kryptowalutach.",2025-11-06
+"Smart Contracts (Inteligentne Kontrakty)","Programy działające na blockchainie, które automatycznie wykonują warunki umowy po spełnieniu określonych kryteriów.",2025-11-06
+"Internet of Things (IoT)","Sieć fizycznych urządzeń wyposażonych w czujniki i oprogramowanie, które umożliwiają im komunikację i wymianę danych przez internet.",2025-11-06
+"5G","Piąta generacja technologii sieci komórkowej, oferująca wyższe prędkości transmisji danych i niższe opóźnienia w porównaniu do poprzednich generacji.",2025-11-06
+"Cybersecurity (Cyberbezpieczeństwo)","Praktyki i technologie mające na celu ochronę systemów komputerowych i danych przed atakami, kradzieżą i uszkodzeniami.",2025-11-06
+"Data Privacy (Prywatność Danych)","Zasady i praktyki dotyczące ochrony danych osobowych i zapewnienia ich poufności zgodnie z przepisami prawa.",2025-11-06
+"GDPR (Ogólne Rozporządzenie o Ochronie Danych)","Regulacja Unii Europejskiej dotycząca ochrony danych osobowych i prywatności obywateli UE.",2025-11-06
+"AI Ethics (Etyka Sztucznej Inteligencji)","Zasady i wytyczne dotyczące odpowiedzialnego rozwoju i stosowania technologii sztucznej inteligencji.",2025-11-06
+"Digital Twin (Cyfrowy Bliźniak)","Wirtualna replika fizycznego obiektu lub systemu, używana do symulacji, analizy i optymalizacji.",2025-11-06
+"Flow builder","Graficzny edytor przepływów — układasz kroki jak klocki i łączysz je strzałkami.",2025-11-06
+"Blueprint","Zapisany wzorzec procesu do wielokrotnego użycia; startujesz od gotowej konfiguracji.",2025-11-06
+"Recipe","Gotowy przepis na automatyzację: zestaw triggerów, akcji i reguł do importu jednym kliknięciem.",2025-11-06
+"Szablon procesu","Prekonfigurowany workflow z polami i integracjami, który dostosowujesz do swojego przypadku.",2025-11-06
+"Biblioteka komponentów","Zbiór gotowych elementów UI i bloków logiki do ponownego użycia w wielu projektach.",2025-11-06
+"Powiązanie danych (data binding)","Automatyczne wiązanie pól formularza i komponentów z danymi z bazy lub API.",2025-11-06
+"Dwukierunkowe powiązanie","Zmiana w interfejsie aktualizuje dane i odwrotnie — wartości pozostają zsynchronizowane.",2025-11-06
+"Stan (state)","Aktualny zestaw wartości w aplikacji; decyduje, co widać i co się dzieje.",2025-11-06
+"Stan globalny","Wspólny stan dostępny w wielu ekranach/komponentach, np. informacje o zalogowanym użytkowniku.",2025-11-06
+"Stan lokalny","Dane tymczasowe tylko w ramach jednego komponentu, np. rozwinięcie akordeonu.",2025-11-06
+"Pole wyliczane","Wartość liczonej „w locie” na podstawie innych pól, np. suma lub format tekstu.",2025-11-06
+"Pole formuły","Kolumna w bazie obliczana z formuły, bez trwałego przechowywania wyniku.",2025-11-06
+"Lookup","Pole odwołujące się do powiązanego rekordu — pobiera z niego wybrane wartości.",2025-11-06
+"Rollup","Agreguje wartości z wielu powiązanych rekordów (liczba, suma, średnia itp.).",2025-11-06
+"Klucz główny","Unikalny identyfikator rekordu w tabeli; nie może się powtarzać.",2025-11-06
+"Klucz obcy","Pole odwołujące się do innej tabeli — tworzy relację między rekordami.",2025-11-06
+"UUID","Uniwersalny losowy identyfikator, wygodny w integracjach i replikacji danych.",2025-11-06
+"Slug","Przyjazny dla adresów URL identyfikator tekstowy, np. „regulamin-sklepu”.",2025-11-06
+"Handle","Krótka, unikalna nazwa obiektu lub użytkownika, często używana w linkach i API.",2025-11-06
+"Paginacja","Dzielenie wyników na strony; zmniejsza obciążenie i przyspiesza interfejs.",2025-11-06
+"Paginacja kursorowa","Nawigacja po wynikach wskaźnikiem „następny/ostatni” — stabilniejsza niż offset.",2025-11-06
+"Paginacja offsetowa","Stronicowanie liczbą i offsetem; proste, ale wrażliwe na zmiany danych.",2025-11-06
+"Wsadowo (batch)","Przetwarzanie wielu elementów w jednej operacji dla wydajności.",2025-11-06
+"Dzielenie na paczki (chunking)","Rozbijanie dużej listy na mniejsze porcje, by nie przekroczyć limitów.",2025-11-06
+"Okienkowanie (windowing)","Grupowanie zdarzeń w oknach czasu, np. co 5 minut.",2025-11-06
+"Debounce","Opóźnia reakcję do czasu ustania serii zdarzeń; redukuje „spam” akcji.",2025-11-06
+"Dławienie (throttling)","Ogranicza częstotliwość uruchomień do ustalonego tempa.",2025-11-06
+"Presja zwrotna (backpressure)","Kontrola napływu zadań, gdy przetwarzanie nie nadąża.",2025-11-06
+"Exponential backoff","Każda kolejna próba następuje po coraz dłuższej przerwie.",2025-11-06
+"Timeout","Max czas na wykonanie kroku; po przekroczeniu zgłaszany jest błąd.",2025-11-06
+"Wyłącznik obwodu (circuit breaker)","Tymczasowo blokuje wywołania do zawodnej usługi, by chronić system.",2025-11-06
+"Kolejka porzuconych (dead-letter queue)","Miejsce dla zadań, których nie udało się przetworzyć po wielu próbach.",2025-11-06
+"Odtworzenie zdarzeń (replay)","Ponowne przetworzenie zapisanych zdarzeń/wiadomości, np. po awarii.",2025-11-06
+"Podpis webhooka","Weryfikacja źródła webhooka (np. HMAC), by odrzucić fałszywe zgłoszenia.",2025-11-06
+"HMAC","Skrót kryptograficzny z tajemnicą; służy do podpisywania żądań.",2025-11-06
+"JWT","Samoopisywalny token z podpisem; przenosi tożsamość i uprawnienia.",2025-11-06
+"SAML","Standard SSO dla firm — federacyjne logowanie między systemami.",2025-11-06
+"SSO","Jednokrotne logowanie do wielu aplikacji z jednego dostawcy tożsamości.",2025-11-06
+"SCIM","Automatyczne zakładanie i odbieranie kont użytkownikom w aplikacjach.",2025-11-06
+"RBAC","Dostępy przydzielane rolami (np. admin, edytor, viewer).",2025-11-06
+"ABAC","Uprawnienia z warunkami (atrybuty użytkownika, kontekst, zasób).",2025-11-06
+"Zasada najmniejszych uprawnień","Daj tylko dostęp niezbędny do zadania — nic więcej.",2025-11-06
+"Biała lista IP","Dostęp tylko z dozwolonych adresów; ogranicza powierzchnię ataku.",2025-11-06
+"CORS","Reguły, które decydują, czy przeglądarka może wywołać obce API.",2025-11-06
+"CSRF token","Losowy znacznik chroniący formularze przed podszytymi żądaniami.",2025-11-06
+"Szyfrowanie w spoczynku","Zaszyfrowane dyski/bazy; dane bezpieczne, gdy ktoś skopiuje nośnik.",2025-11-06
+"Szyfrowanie w tranzycie","TLS/HTTPS chronią dane podczas przesyłania w sieci.",2025-11-06
+"Hashowanie","Jednokierunkowe przekształcenie danych (np. haseł) do weryfikacji bez odszyfrowania.",2025-11-06
+"Pseudonimizacja","Zastąpienie danych osobowych identyfikatorami, z możliwością odtworzenia.",2025-11-06
+"Anonimizacja","Nieodwracalne usunięcie identyfikatorów — brak powiązania z osobą.",2025-11-06
+"Retencja danych","Jak długo przechowujesz dane i kiedy je automatycznie kasujesz.",2025-11-06
+"DPA","Umowa powierzenia przetwarzania danych między firmą a dostawcą.",2025-11-06
+"DPIA","Ocena ryzyka dla prywatności przed uruchomieniem procesu.",2025-11-06
+"Rezydencja danych","Wybór regionu przechowywania (np. UE), istotny dla zgodności.",2025-11-06
+"Wielodzierżawność (multi-tenant)","Wspólna infrastruktura dla wielu klientów z izolacją logiczną.",2025-11-06
+"Dzierżawca (tenant)","Wydzielony kontekst organizacji: użytkownicy, dane, konfiguracje.",2025-11-06
+"Przestrzeń nazw","Prefiks/obszar odróżniający zasoby między środowiskami i zespołami.",2025-11-06
+"Workspace","Wspólny obszar pracy zespołu z projektami i uprawnieniami.",2025-11-06
+"Projekt","Zestaw powiązanych zasobów: bazy, ekrany, automatyzacje, integracje.",2025-11-06
+"Środowisko deweloperskie","Bezpieczne miejsce do pracy nad zmianami przed testami.",2025-11-06
+"Staging","Środowisko przedprodukcyjne do realistycznych testów end-to-end.",2025-11-06
+"Parzystość środowisk","Staging jak produkcja — mniej niespodzianek po wdrożeniu.",2025-11-06
+"Flaga funkcji","Włącz/wyłącz funkcję bez wdrożenia; przydatne do eksperymentów.",2025-11-06
+"A/B test","Porównanie dwóch wariantów, by wybrać skuteczniejszy.",2025-11-06
+"Wydanie kanarkowe","Mały procent ruchu na nowej wersji; obserwujesz, zanim rozszerzysz.",2025-11-06
+"Blue/Green","Dwie równoległe wersje; przełączasz ruch bez przestoju.",2025-11-06
+"Wycofanie (rollback)","Szybki powrót do stabilnej wersji po problemach.",2025-11-06
+"Kontrola zdrowia","Szybkie sprawdzenie, czy usługa żyje i odpowiada poprawnie.",2025-11-06
+"Heartbeat","Regularny sygnał „żyję”; wykrywa zawieszenia i przerwy.",2025-11-06
+"Obserwowalność","Holistyczny wgląd: logi, metryki i śledzenie w jednym obrazie.",2025-11-06
+"Logowanie aplikacyjne","Rejestrowanie zdarzeń i błędów dla analizy i audytu.",2025-11-06
+"Metryki","Liczby opisujące system (opóźnienie, błędy, przepustowość).",2025-11-06
+"Śledzenie rozproszone","Identyfikator śladu przechodzi przez usługi, by zobaczyć cały przepływ.",2025-11-06
+"Strona statusu","Publiczny podgląd awarii i prac serwisowych.",2025-11-06
+"SLA","Deklarowany poziom dostępności/usługi uzgodniony z klientem.",2025-11-06
+"SLO","Wewnętrzny cel jakości usługi (np. 99,9% uptime).",2025-11-06
+"SLI","Miernik jakości (np. procent żądań < 300 ms).",2025-11-06
+"Alertowanie","Powiadomienia, gdy wskaźniki lub logi sygnalizują problem.",2025-11-06
+"Runbook","Kroki „co robić”, gdy pojawia się konkretny alert lub awaria.",2025-11-06
+"Playbook","Szablon działań operacyjnych; ujednolica reakcję zespołu.",2025-11-06
+"Post‑mortem","Nauka po incydencie: co poszło źle i jak zapobiec powtórce.",2025-11-06
+"RCA","Analiza pierwotnej przyczyny, by naprawić problem u źródła.",2025-11-06
+"Zarządzanie zmianą","Proces bezpiecznego planowania i wdrażania modyfikacji.",2025-11-06
+"CAB","Komitet oceniający ryzyka zmian w krytycznych systemach.",2025-11-06
+"Drift konfiguracji","Rozjeżdżanie się ustawień między środowiskami w czasie.",2025-11-06
+"Menedżer sekretów","Bezpieczne przechowywanie kluczy, haseł i tokenów z kontrolą dostępu.",2025-11-06
+"Zmienne środowiskowe","Konfiguracja przekazywana do aplikacji per środowisko.",2025-11-06
+"OpenAPI","Specyfikacja opisująca API; generuje klienty i dokumentację.",2025-11-06
+"JSON Schema","Definicja struktury danych JSON do walidacji i kontraktów.",2025-11-06
+"REST","Styl API oparty o zasoby i metody HTTP.",2025-11-06
+"GraphQL","API, w którym klient sam składa zapytanie o potrzebne pola.",2025-11-06
+"gRPC","Szybka komunikacja binarna oparta o protokół Protobuf.",2025-11-06
+"Parametry zapytania","Wartości w URL (np. ?page=2), które filtrują i sterują odpowiedzią.",2025-11-06
+"Nagłówek HTTP","Meta‑informacje żądania/odpowiedzi, np. autoryzacja i cache.",2025-11-06
+"Treść żądania (body)","Właściwe dane wysyłane do API (JSON, form-data, itp.).",2025-11-06
+"ETag","Znacznik wersji odpowiedzi HTTP; ułatwia cache i walidację.",2025-11-06
+"Cache","Pamięć podręczna przyspieszająca odczyty i zmniejszająca koszty.",2025-11-06
+"TTL","Czas życia wpisu w cache; po nim wpis jest odświeżany.",2025-11-06
+"Upsert","„Wstaw lub zaktualizuj” — brak duplikatów przy ponownym imporcie.",2025-11-06
+"Scalanie (merge)","Łączenie zmian z dwóch źródeł w spójny rekord.",2025-11-06
+"Deduplikacja","Wykrywanie i usuwanie powtórek w danych.",2025-11-06
+"Normalizacja danych","Rozbicie na tabele/relacje dla porządku i spójności.",2025-11-06
+"Denormalizacja","Powielenie danych dla szybkości odczytu w aplikacjach.",2025-11-06
+"ETL","Wyodrębnij, przekształć, załaduj — klasyczny przepływ danych.",2025-11-06
+"ELT","Najpierw ładujesz, potem transformujesz już w magazynie danych.",2025-11-06
+"Potok danych","Łańcuch etapów przetwarzania danych od źródła do celu.",2025-11-06
+"Magazyn danych","Scalona baza do raportów (hurtownia/analityka).",2025-11-06
+"Jezioro danych","Przechowywanie surowych danych w dużej skali.",2025-11-06
+"Reverse ETL","Wypychanie danych analitycznych z powrotem do narzędzi operacyjnych.",2025-11-06
+"CDP","Platforma łącząca dane o klientach w jeden profil 360°.",2025-11-06
+"CRM","System do zarządzania kontaktami, sprzedażą i relacjami.",2025-11-06
+"iPaaS","Chmurowa platforma do budowania integracji i przepływów między aplikacjami.",2025-11-06
+"BPM","Zarządzanie procesami: modelowanie, wykonywanie i optymalizacja.",2025-11-06
+"BPMN","Graficzna notacja do rysowania procesów biznesowych.",2025-11-06
+"Orkiestrator","Narzędzie koordynujące wiele zadań/usług w jedną całość.",2025-11-06
+"Szyna zdarzeń (event bus)","Kanał, którym rozchodzą się zdarzenia do wielu odbiorców.",2025-11-06
+"Broker wiadomości","System kolejkowy (np. Kafka/RabbitMQ) do wymiany komunikatów.",2025-11-06
+"Wzorzec outbox","Zapisywanie zdarzeń obok transakcji, by nie zgubić komunikatów.",2025-11-06
+"Wzorzec sagi","Długie transakcje jako sekwencja kroków z kompensacją.",2025-11-06
+"Źródło zdarzeń","Stan systemu pochodzi z historii zdarzeń, nie tylko z bieżącej bazy.",2025-11-06
+"Spójność ostateczna","Dane zbiegną się do poprawnego stanu z niewielkim opóźnieniem.",2025-11-06
+"ACID","Właściwości transakcji: atomowość, spójność, izolacja, trwałość.",2025-11-06
+"BASE","Inne podejście: dostępne, miękkie; akceptuje opóźnioną spójność.",2025-11-06
+"Transakcja","Zbiór operacji, który wykonuje się w całości albo wcale.",2025-11-06
+"Atomiczność","Niepodzielność działania; częściowy efekt jest niemożliwy.",2025-11-06
+"Priorytety zadań","Ważniejsze zadania idą pierwsze; reszta czeka w kolejce.",2025-11-06
+"Równoległość","Wykonanie wielu kroków jednocześnie, by skrócić czas.",2025-11-06
+"Limit współbieżności","Maksymalna liczba zadań na raz, by nie przydusić API.",2025-11-06
+"Worker","Proces/instancja, która bierze zadania z kolejki i je wykonuje.",2025-11-06
+"Skalowanie poziome","Więcej instancji zamiast większego serwera.",2025-11-06
+"Skalowanie pionowe","Mocniejsza maszyna zamiast większej liczby instancji.",2025-11-06
+"Autoskalowanie","Automatyczna zmiana liczby workerów względem obciążenia.",2025-11-06
+"Zimny start","Pierwsze uruchomienie po przerwie; może potrwać dłużej.",2025-11-06
+"Ciepły start","Szybki rozruch dzięki gotowej instancji w pamięci.",2025-11-06
+"Klucz idempotencji","Unikalny znacznik żądania — chroni przed duplikatami.",2025-11-06
+"Opóźnione kolejki","Zadania, które mają uruchomić się dopiero po czasie.",2025-11-06
+"Plan cenowy","Pakiet funkcji i limitów; określa koszty platformy.",2025-11-06
+"Limit planu (quota)","Twarde limity użycia na użytkownika lub zespół.",2025-11-06
+"Polityka fair use","Miękkie limity; proszenie o ograniczenie nadmiernego ruchu.",2025-11-06
+"Rozliczanie według użycia","Płacisz za realne wykonania/rekordy/minuty działania.",2025-11-06
+"Ślad audytowy","Niezmienna lista „kto, co, kiedy” dla zgodności i dochodzeń.",2025-11-06
+"Zgodność (compliance)","Spełnianie wymogów prawnych i branżowych w przetwarzaniu danych.",2025-11-06
+"ISO 27001","Norma zarządzania bezpieczeństwem informacji.",2025-11-06
+"SOC 2","Raport audytowy o kontrolach bezpieczeństwa dostawcy.",2025-11-06
+"HIPAA","Amerykańskie wymogi ochrony danych medycznych.",2025-11-06
+"Klasyfikacja danych","Etykiety wrażliwości: publiczne, wewnętrzne, tajne.",2025-11-06
+"PII","Dane identyfikujące osobę; wymagają szczególnej ochrony.",2025-11-06
+"Zarządzanie zgodami","Rejestrowanie i respektowanie zgód użytkowników.",2025-11-06
+"Baner cookies","Ustalanie zgód na śledzące pliki cookie i skrypty.",2025-11-06
+"CMP","Platforma do zbierania i egzekwowania zgód (Consent).",2025-11-06

@@ -35,8 +35,8 @@
     }
   ],
   "contact": {
-    "intro": "Masz pytania dotyczące współpracy lub chcesz zgłosić błąd w opisie programu partnerskiego?",
-    "ctaLabel": "Napisz do nas",
+    "intro": "Masz pytania dotyczące współpracy afiliacyjnej lub chcesz zgłosić błąd w opisie programu? Daj znać – odpowiadamy wyłącznie na wiadomości redakcyjne.",
+    "ctaLabel": "Zgłoś uwagę",
     "ctaHref": "/kontakt"
   }
 }

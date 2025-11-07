@@ -39,12 +39,14 @@ meta:
     - "Self-service (pauza, zmiana częstotliwości) zmniejsza churn i liczbę ticketów."
     - "Segmentacja Klaviyo na bazie danych z Recharge pozwala reagować przed rezygnacją."
   primaryCta:
-    label: "Zaprojektuj plan subskrypcyjny"
-    href: "/kontakt"
-  secondaryCta:
     label: "Pobierz check-listę wdrożenia"
     href: "/zasoby/banery-og/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Cel projektu
 

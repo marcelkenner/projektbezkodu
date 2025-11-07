@@ -38,12 +38,14 @@ meta:
     - "Rozdzielenie bazy wolontariuszy od bazy ofert upraszcza RODO (osobne dostępny i role)."
     - "Dwustronna komunikacja SMS/e-mail zwiększa frekwencję na wydarzeniach o 18 p.p."
   primaryCta:
-    label: "Umów warsztat discovery"
-    href: "/kontakt"
-  secondaryCta:
     label: "Zobacz automatyzacje Make"
     href: "/poradniki/automatyzacja-leadow-make/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Problem
 

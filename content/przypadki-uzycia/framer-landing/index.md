@@ -38,12 +38,14 @@ meta:
     - "Przekazanie struktur danych (naming) do analityki od początku oszczędza debugowania."
     - "Automatyczne raporty w Slacku pomagają zespołowi growth reagować w czasie rzeczywistym."
   primaryCta:
-    label: "Zbuduj landing kampanijny"
-    href: "/kontakt"
-  secondaryCta:
     label: "Sprawdź komponenty Framer"
     href: "/poradniki/framer-landing-2h/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Cel
 

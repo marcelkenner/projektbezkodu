@@ -38,12 +38,14 @@ meta:
     - "QA musi być częścią procesu – wprowadziliśmy checklistę A11y, SEO i legal."
     - "Storybook + Zeroheight to dobre combo dla onboardingów w korporacji."
   primaryCta:
-    label: "Zbuduj bibliotekę komponentów"
-    href: "/kontakt"
-  secondaryCta:
     label: "Pobierz pakiet ikon PL"
     href: "/zasoby/polskie-ikony-i-znaki/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Wyzwanie
 

@@ -38,12 +38,14 @@ meta:
     - "Warto mieć dedykowany komponent 'Proof bar' – referencje i logotypy w jednym module."
     - "Marketing potrzebuje guidelines: naming klas, zagnieżdżanie kolekcji, workflow draft → review."
   primaryCta:
-    label: "Porozmawiaj o migracji"
-    href: "/kontakt"
-  secondaryCta:
     label: "Sprawdź checklistę SEO"
     href: "/poradniki/webflow-blog-krok-po-kroku/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Problem
 

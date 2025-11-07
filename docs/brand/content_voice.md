@@ -8,8 +8,8 @@
 
 ## CTAs
 
-- Podstawowe: "Pobierz darmową paczkę", "Zobacz jak to działa", "Dołącz teraz".
-- Warianty dla konsultacji: "Umów konsultację", "Zobacz terminy".
+- Podstawowe: "Pobierz darmową paczkę", "Zobacz jak to działa", "Dołącz teraz", "Przeglądaj artykuły".
+- Nie używamy CTA o konsultacjach ani usługach – wszystkie wezwania kierują do treści i zasobów.
 
 ## SEO Essentials
 

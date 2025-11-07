@@ -39,12 +39,14 @@ meta:
     - "Landing center w Webflow redukuje potrzebę wysyłania PDF-ów i decków."
     - "Integracja Segment → HubSpot musi mieć guardy – inaczej CRM zalałyby eventy."
   primaryCta:
-    label: "Zautomatyzuj onboarding"
-    href: "/kontakt"
-  secondaryCta:
     label: "Przeczytaj poradnik automatyzacji"
     href: "/poradniki/automatyzacja-leadow-make/"
+  secondaryCta:
+    label: "Zobacz wszystkie artykuły"
+    href: "/artykuly/"
 ---
+
+> **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.
 
 ## Cel
 

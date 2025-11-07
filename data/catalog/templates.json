@@ -33,13 +33,13 @@
       },
       {
         "question": "Czy wspieracie wdrożenie?",
-        "answer": "Możemy przeprowadzić warsztat wdrożeniowy i skonfigurować automatyzacje w Make."
+        "answer": "Nie prowadzimy wdrożeń na zamówienie. W sekcji poradników znajdziesz instrukcję konfiguracji Webflow + Make krok po kroku."
       }
     ],
     "pricing": [
       { "plan": "Standard", "amount": "49$", "period": "jednorazowo" },
       {
-        "plan": "Plus (z konsultacją)",
+        "plan": "Plus (rozszerzone materiały)",
         "amount": "149$",
         "period": "jednorazowo"
       }

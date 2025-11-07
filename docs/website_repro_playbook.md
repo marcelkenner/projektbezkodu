@@ -71,6 +71,13 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 3. Keep JSON keys descriptive and align with view requirements (e.g., `hero`, `sections`, `emptyState`).
 4. Document editing workflow in `docs/brand/content_voice.md`.
 
+## 8.1 Content-only CTA Policy
+
+1. ProjektBezKodu nie oferuje konsultacji, warsztatów ani prac wdrożeniowych – publikujemy wyłącznie artykuły, checklisty, szablony i newsletter.
+2. Wszystkie CTA muszą kierować do treści lub zasobów (np. `/artykuly/`, `/poradniki/`, `/szablony/`, `/newsletter/`). Niedozwolone są wezwania typu „Umów konsultację”.
+3. Jeśli cytujesz stronę kontaktową, opisuj ją jako kanał pytań redakcyjnych („Zaproponuj temat”, „Wyślij poprawkę”), nigdy jako formularz sprzedażowy.
+4. Case studies i landing pages muszą kończyć się odnośnikami do przewodników lub bibliotek treści – sprawdzaj `data/copy/case-studies.json` i `content/przypadki-uzycia/**` pod kątem języka usług.
+
 ## 9. Markdown Content Pipeline
 
 1. Adopt frontmatter schema in `docs/brand/frontmatter_schema.md`.
