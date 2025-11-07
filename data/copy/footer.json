@@ -3,36 +3,47 @@
     {
       "heading": "Nawigacja",
       "links": [
-        { "label": "Strona główna", "href": "/" },
+        { "label": "O nas", "href": "/o-nas" },
         { "label": "Artykuły", "href": "/artykuly" },
-        { "label": "Porównania", "href": "/porownania" },
-        { "label": "Tutoriale", "href": "/poradniki" },
-        { "label": "Słownik", "href": "/glossary" },
-        { "label": "Szukaj", "href": "/szukaj" }
+        { "label": "Narzędzia", "href": "/narzedzia" },
+        { "label": "Szablony", "href": "/szablony" },
+        { "label": "Kontakt", "href": "/kontakt" }
       ]
+    },
+    {
+      "heading": "Kategorie",
+      "links": []
     },
     {
       "heading": "Zasoby",
       "links": [
-        { "label": "Newsletter", "href": "/newsletter" },
-        { "label": "Do pobrania", "href": "/do-pobrania" },
-        { "label": "Mapa strony", "href": "/mapa-strony" }
+        { "label": "Regulamin", "href": "/regulamin" },
+        { "label": "Polityka prywatności", "href": "/polityka-prywatnosci" },
+        { "label": "Zasady afiliacji", "href": "/zasady-afiliacji" },
+        {
+          "label": "Deklaracja dostępności",
+          "href": "/deklaracja-dostepnosci"
+        },
+        { "label": "Zasoby i materiały", "href": "/zasoby" },
+        { "label": "Mapa strony", "href": "/mapa-strony" },
+        { "label": "Ustawienia cookies", "href": "/cookies" }
       ]
     },
     {
-      "heading": "Legal",
+      "heading": "Social",
       "links": [
-        { "label": "Polityka prywatności", "href": "/polityka-prywatnosci" },
-        { "label": "Regulamin", "href": "/regulamin" }
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/projektbezkodu/"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@ProjektBezKodu"
+        }
       ]
     }
   ],
-  "newsletter": {
-    "heading": "Dołącz do newslettera",
-    "body": "Co miesiąc wysyłamy przegląd nowych artykułów, porównań i tutoriali.",
-    "emailPlaceholder": "Twój adres e-mail",
-    "ctaLabel": "Zapisz mnie"
-  },
+  "microcopy": "Linki do narzędzi mogą być afiliacyjne.",
   "copyright": {
     "text": "© {year} ProjektBezKodu. Wszystkie prawa zastrzeżone.",
     "tagline": "Blog o stronach no-code tworzony w Polsce."

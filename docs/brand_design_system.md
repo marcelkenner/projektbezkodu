@@ -96,7 +96,7 @@ Use `clamp` for responsive sizes; example defaults:
 | `--fs-display` | 48/56   | 34/40  | Landing hero   |
 | `--fs-h1`      | 40/48   | 28/36  | Page titles    |
 | `--fs-h2`      | 32/40   | 24/32  | Section titles |
-| `--fs-h3`      | 24/32   | 20/28  | Subheads       |
+| `--fs-h3`      | 24/30   | 18/24  | Subheads       |
 | `--fs-body`    | 18/28   | 16/26  | Paragraphs     |
 | `--fs-small`   | 14/22   | 14/22  | Meta, captions |
 | `--fs-mono`    | 14/22   | 14/22  | Code/labels    |
@@ -307,7 +307,7 @@ Apply margin-top for content flow (headings receive more space before than after
   --fs-display: clamp(2.125rem, 1.2rem + 2.3vw, 3rem);
   --fs-h1: clamp(2rem, 1.2rem + 3vw, 3rem);
   --fs-h2: clamp(1.5rem, 1rem + 2vw, 2.25rem);
-  --fs-h3: clamp(1.25rem, 0.9rem + 1.2vw, 1.75rem);
+  --fs-h3: clamp(1.125rem, 0.95rem + 0.6vw, 1.5rem);
   --fs-body: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
   --fs-small: 0.875rem;
   --lh-body: 1.6;
@@ -333,7 +333,7 @@ Apply margin-top for content flow (headings receive more space before than after
   --elev-3: 0 12px 24px -12px rgba(2, 6, 23, 0.18);
 
   /* Focus & motion */
-  --focus: 0 0 0 2px #0369A1, 0 0 0 4px rgba(3, 105, 161, 0.2);
+  --focus: 0 0 0 2px #0369a1, 0 0 0 4px rgba(3, 105, 161, 0.2);
   --ease-out: cubic-bezier(0.2, 0, 0, 1);
   --t-quick: 120ms;
   --t-ui: 180ms;
@@ -466,7 +466,7 @@ h3 {
       "display": "clamp(2.125rem,1.2rem+2.3vw,3rem)",
       "h1": "clamp(1.75rem,1.1rem+1.8vw,2.5rem)",
       "h2": "clamp(1.5rem,1rem+1.5vw,2rem)",
-      "h3": "clamp(1.25rem,.9rem+1.2vw,1.5rem)",
+      "h3": "clamp(1.125rem,.95rem+0.6vw,1.5rem)",
       "body": "1rem",
       "small": "0.875rem"
     },

@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "title": "Szablony no-code | ProjektBezKodu",
+    "description": "Wybierz szablony Webflow i Framera przygotowane pod szybkie wdrożenia. Każdy zawiera checklistę i instrukcję konfiguracji.",
+    "canonical": "https://projektbezkodu.pl/szablony/"
+  },
+  "hero": {
+    "title": "Szablony",
+    "intro": "Gotowe układy i komponenty, które możesz wdrożyć w Webflow lub Framerze w kilka godzin. Każdy szablon zawiera instrukcję, checklistę i dostęp do aktualizacji."
+  },
+  "filters": {
+    "formLabel": "Filtry szablonów",
+    "platform": {
+      "label": "Platforma",
+      "options": [
+        { "value": "", "label": "Wszystkie" },
+        { "value": "webflow", "label": "Webflow" },
+        { "value": "framer", "label": "Framer" }
+      ]
+    },
+    "type": {
+      "label": "Typ strony",
+      "options": [
+        { "value": "", "label": "Dowolny" },
+        { "value": "landing", "label": "Landing" },
+        { "value": "blog", "label": "Blog" },
+        { "value": "portfolio", "label": "Portfolio" }
+      ]
+    },
+    "price": {
+      "label": "Cena",
+      "options": [
+        { "value": "", "label": "Dowolna" },
+        { "value": "free", "label": "Darmowe" },
+        { "value": "paid", "label": "Płatne" }
+      ]
+    },
+    "submit": "Filtruj"
+  },
+  "cards": {
+    "ctaPreview": "Podgląd →",
+    "ctaPrimary": "Pobierz",
+    "badgeFree": "Free",
+    "badgePaid": "Paid"
+  },
+  "detail": {
+    "seoDescriptionFallback": "Poznaj szczegóły szablonu przygotowanego przez ProjektBezKodu.",
+    "forWhomHeading": "Dla kogo i po co",
+    "sectionsHeading": "Co znajdziesz w środku",
+    "requirementsHeading": "Wymagania techniczne",
+    "stepsHeading": "Jak wdrożyć w 60 minut",
+    "faqHeading": "Najczęstsze pytania",
+    "ctaPrimaryLabel": "Pobierz szablon",
+    "ctaSecondaryLabel": "Podgląd live",
+    "pricingHeading": "Plany cenowe",
+    "metadata": {
+      "categoryLabel": "Kategoria",
+      "platformLabel": "Platforma",
+      "priceLabel": "Cena"
+    }
+  }
+}

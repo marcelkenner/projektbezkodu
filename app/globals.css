@@ -21,6 +21,7 @@
   --font-mono: var(--typography-fontFamily-mono);
   --radius-md: var(--radii-md);
   --shadow-md: var(--elevation-md);
+  --shadow-sm: var(--elevation-sm);
   --shadow-lg: var(--elevation-lg);
   --space-1: var(--spacing-1);
   --space-2: var(--spacing-2);

@@ -1,4 +1,5 @@
 ---
+
 title: "Szukaj w ProjekcieBezKodu"
 slug: "szukaj"
 path: "/szukaj/"

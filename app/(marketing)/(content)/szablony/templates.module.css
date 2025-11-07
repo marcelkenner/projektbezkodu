@@ -1,0 +1,114 @@
+:global(.templates-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+:global(.templates-page__intro) {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 72ch;
+}
+
+:global(.templates-page__filters) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.templates-page__grid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.templates-page__card) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  padding: var(--space-4);
+  background: #fff;
+  display: grid;
+  gap: var(--space-3);
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.templates-page__badge) {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-primary-strong);
+}
+
+:global(.templates-page__actions) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+:global(.templates-detail__meta) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+:global(.templates-detail__section) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.templates-detail__list) {
+  padding-left: 1.25rem;
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.templates-detail__steps) {
+  display: grid;
+  gap: var(--space-2);
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+:global(.templates-detail__faq) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.templates-detail__pricing) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  overflow: hidden;
+}
+
+:global(.templates-detail__pricing table) {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+:global(.templates-detail__pricing th),
+:global(.templates-detail__pricing td) {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+:global(.templates-detail__pricing thead) {
+  background: rgba(67, 56, 202, 0.08);
+}
+
+:global(.templates-detail__cta) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+@media (min-width: 48rem) {
+  :global(.templates-page__grid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  :global(.templates-page__filters) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

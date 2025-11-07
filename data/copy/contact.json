@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Kontakt | ProjektBezKodu",
+    "description": "Napisz do ProjektBezKodu. Odpowiadamy w ciągu 24 godzin i pomagamy zaplanować kolejne kroki we wdrożeniu no-code.",
+    "canonical": "https://projektbezkodu.pl/kontakt/"
+  },
+  "hero": {
+    "title": "Kontakt",
+    "intro": "Masz pytanie o wdrożenie, playbook albo automatyzacje? Zostaw wiadomość – odezwiemy się najpóźniej następnego dnia roboczego."
+  },
+  "form": {
+    "action": "/kontakt/dziekujemy/",
+    "method": "get",
+    "fields": {
+      "name": {
+        "id": "contact-name",
+        "label": "Imię i nazwisko",
+        "placeholder": "Jan Kowalski"
+      },
+      "email": {
+        "id": "contact-email",
+        "label": "E-mail",
+        "placeholder": "jan@firma.pl"
+      },
+      "tel": {
+        "id": "contact-phone",
+        "label": "Telefon (opcjonalnie)",
+        "placeholder": "+48 600 000 000"
+      },
+      "message": {
+        "id": "contact-message",
+        "label": "Wiadomość",
+        "placeholder": "Opisz krótko swój projekt lub pytanie."
+      },
+      "consent": {
+        "id": "contact-consent",
+        "label": "Zgadzam się na przetwarzanie danych w celu kontaktu zwrotnego. Znam zasady opisane w polityce prywatności.",
+        "privacyLabel": "Polityka prywatności",
+        "privacyHref": "/polityka-prywatnosci/"
+      }
+    },
+    "submitLabel": "Wyślij",
+    "info": "Odpowiadamy w 24h.",
+    "aria": {
+      "formLabel": "Formularz kontaktowy ProjektBezKodu",
+      "consentDescriptionId": "contact-consent-description"
+    }
+  },
+  "thankYou": {
+    "seo": {
+      "title": "Dziękujemy — wiadomość wysłana | ProjektBezKodu",
+      "description": "Twoja wiadomość trafiła do zespołu ProjektBezKodu. Odpowiemy w 24 godziny.",
+      "canonical": "https://projektbezkodu.pl/kontakt/dziekujemy/"
+    },
+    "hero": {
+      "title": "Dziękujemy — wiadomość wysłana",
+      "intro": "Odpowiemy w ciągu 24 godzin roboczych. Sprawdź w międzyczasie te materiały:"
+    },
+    "cta": {
+      "label": "Powrót na stronę główną",
+      "href": "/"
+    }
+  }
+}

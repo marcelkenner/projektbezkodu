@@ -62,6 +62,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 3. Ensure each component imports `./ui.css`.
 4. Preface complex logic with brief comments only when necessary.
 5. Maintain component files <200 lines; split helpers if over.
+6. Homepage composition lives in `HeroSection.tsx` and `HomepageSections.tsx` – reuse these instead of duplicating hero/social proof/newsletter logic.
 
 ## 8. Copy System
 
@@ -123,7 +124,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 1. Ensure `.env.local` derived from production settings (copy `.env.production`).
 2. Verify design tokens committed.
 3. Update `brand/CHANGELOG.md` with notable changes.
-4. Regenerate sitemap/robots if new routes added (future automation).
+4. XML sitemap (`app/sitemap.ts`) and HTML map (`/mapa-strony/`) read from `SitemapComposer`; extend this builder when introducing new sections so feeds stay accurate.
 
 ## 14. Adaptation Guidelines
 
@@ -137,3 +138,85 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 1. Confirm open tasks in `docs/brand/basic_pages_plan.md` and `docs/brand_design_system_plan.md` are addressed or ticketed.
 2. Record remaining action items in `docs/next_steps.md`.
 3. Seek sign-off from design, content, and stakeholder leads before deployment.
+
+## 16. Homepage Blueprint
+
+1. Implement skip link + header search via `app/(marketing)/layout.tsx` and `PrimaryNav` (search action `/szukaj/`, 44px controls).
+2. Hero (`HeroSection.tsx`): headline, supporting copy, dual CTA (Webflow + plan) with microcopy disclosure, responsive hero image (`/img/hero-3x2*.webp`).
+3. Social proof (`HomepageSections`): `data/copy/homepage.json.socialProof` drives logo strip; assets in `public/images/logos/`.
+4. Pillars, workflow, latest articles, newsletter all render through `HomepageSections` using repository data + copy JSON; keep responsibilities isolated per component.
+5. Footer uses dark theme (`Footer.tsx`), four columns + microcopy, mirroring the ASCII brief in `docs/asci-designs/homepage.md`.
+
+## 17. Blog & Content Pages
+
+1. Blog listing (`/artykuly`): użyj `ArticlesFilterBar.tsx`, `ArticleCard.tsx`, `ArticlesPagination.tsx` oraz JSON-LD CollectionPage/ItemList.
+2. Artykuł (`/artykuly/[slug]`): breadcrumbs, meta (czas, publikacja, aktualizacja, autor), disclosure afiliacyjny, sticky TOC, sekcja „Następny krok”, box autora i powiązane artykuły.
+3. Kategoria (`/kategoria/[slug]`): konfiguracja w `data/copy/category-hubs.json`, skróty, featured cards, sekcja download i lista artykułów z ikoną.
+4. Strona 404: ikona ostrzegawcza, CTA primary/secondary, formularz wyszukiwania i skróty kontekstowe (`not-found.tsx`).
+5. Legal: `app/(legal)/legal.css` + `MarkdownPageLoader` – pokaż `<time>` z aktualizacją, blok kontaktowy, zachowaj tabelę RODO i definicje.
+
+## 18. Utility & Support Pages
+
+1. Zasoby (`/zasoby`, `/zasoby/[slug]`): `ResourceRepository` + `ResourceDirectory` z filtrami format/temat/czas; szczegóły renderowane przez `resource-detail` z kartą pliku i CTA download.
+2. Zasady afiliacji (`/zasady-afiliacji`) i Deklaracja dostępności (`/deklaracja-dostepnosci`): copy w `data/copy/affiliate.json` i `data/copy/accessibility.json`; każde ma dedykowaną kartę kontaktową/formularz.
+3. Offline fallback (`/offline`): klientowy `RefreshButton` wywołujący `window.location.reload`, lista cache’owanych stron z `data/copy/offline.json`.
+4. Statusy HTTP (`/410`, `/451`, `/503`): współdzielony `StatusPage` z copy w `system-status.json`; pamiętaj o aktualizacji `retryTime` dla 503.
+5. Case study (`/przypadki-uzycia/[slug]`): `CaseStudyRepository` plus layout z sekcjami metryk, stacku i lekcji; CTA domknięte copy `case-studies.json`.
+
+## 19. Newsletter + Listmonk
+
+1. **Railway stack** – Provision Listmonk + PostgreSQL inside a single Railway project. Authenticate via `railway login`, then `railway use` the environment before running migrations (`railway run listmonk -- install --config config.toml`). Confirm the HTTP endpoint and credentials from the Railway dashboard.
+2. **Environment variables** – Mirror production settings in `.env.production` (copy to `.env.local` for dev):
+   - `LISTMONK_BASE_URL=https://<railway-subdomain>.railway.app`
+   - `LISTMONK_API_TOKEN=api_user:token` (the “token” string created under Admin → Users → API access)
+   - `LISTMONK_LIST_ID=<numeric ID of the primary public list>`
+   - `LISTMONK_LIST_UUID=<UUID of the same list>` (needed for templates and public APIs)
+   - Optional: `LISTMONK_TIMEOUT_MS=10000` for slower tunnels.
+     Keep the `.env.production` file untracked and share values via the secure onboarding channel.
+3. **Listmonk bootstrap** – After linking the repo (`railway link -p <project-id>`), switch between services with `railway service <name>`. Useful commands:
+   - Inspect Postgres creds: `railway variables --service Postgres`.
+   - Tail Listmonk logs: `railway logs --service listmonk --lines 200`.
+   - SSH into Listmonk for config/debug: `railway ssh --service listmonk -- ./listmonk --help`.
+   - Update allowed origins: `railway variables --service listmonk --set "LISTMONK_ORIGIN_0=https://example.com" ...`.
+   - Install schema (first boot auto-runs `./listmonk --install --yes` as seen in logs).
+   - Verify the local HTTP server responds: `railway ssh --service listmonk -- wget -qO- http://127.0.0.1:9000`.
+4. **List creation + API token**
+   - Use the bootstrap credentials (from `LISTMONK_app__admin_*`) only once to sign in at `https://<public-listmonk-domain>/admin`, then immediately create your real superuser (Admin → Settings → Users). After confirming you can log in with the new account, blank the bootstrap env vars:
+     ```
+     railway variables --service listmonk \
+       --set "LISTMONK_app__admin_username=" \
+       --set "LISTMONK_app__admin_password="
+     ```
+   - Create the primary public list (double opt-in). Example curl for reference:
+     ```
+     curl -u "$ADMIN_USER:$ADMIN_PASS" \
+       -H "Content-Type: application/json" \
+       -d '{"name":"ProjektBezKodu Newsletter","type":"public","slug":"projektbezkodu-newsletter","optin":"double","sender_name":"ProjektBezKodu","sender_email":"news@projektbezkodu.pl"}' \
+       https://<listmonk-domain>/api/lists
+     ```
+   - Capture `id` + `uuid` from the response; these feed the Next.js service env vars.
+   - Generate a dedicated API user/token (e.g. `projektbezkodu-marcel-api:M9Tx...`) and rotate the frontend env var:
+     ```
+     railway variables --service projektbezkodu \
+       --set "LISTMONK_API_TOKEN=projektbezkodu-marcel-api:M9TxLskzYytmo38kP4f9GOJ3rs64A3LK"
+     ```
+5. **App service configuration** – Set the env vars on the Next.js service (and redeploy) so the server actions can reach Listmonk:
+   ```
+   railway variables --service projektbezkodu \
+     --set "LISTMONK_BASE_URL=https://<listmonk-domain>" \
+     --set "LISTMONK_API_TOKEN=<api_user:token>" \
+     --set "LISTMONK_LIST_ID=<numeric ID>" \
+     --set "LISTMONK_LIST_UUID=<uuid>" \
+     --set "LISTMONK_TIMEOUT_MS=15000"
+   ```
+   Repeat per project. For previews hosted elsewhere update `LISTMONK_ORIGIN_*` accordingly; if everything lives on Railway just clear the unused slots.
+6. **Backend flow** – `app/lib/newsletter/NewsletterManager.ts` orchestrates everything through the `ListmonkClient`. All forms target API route handlers so marketing pages stay static:
+   - `POST /api/newsletter/subscribe` subscribes or re-subscribes, stores cookie context, and fires the double opt-in via `POST /api/subscribers/{id}/optin`, then redirects to `/newsletter/potwierdz/`.
+   - `POST /api/newsletter/resend` reuses the cookie context, rate-limited by `NEWSLETTER_RESEND_COOKIE`, then redirects back to `/newsletter/potwierdz/`.
+   - `POST /api/newsletter/preferences` and `POST /api/newsletter/unsubscribe` require `?subscriber=<uuid>` in the query string; forms inject that UUID as a hidden input before calling the manager, then redirect to their respective pages with status/error params.
+7. **Front-end behaviour** – All newsletter pages now surface aria-live feedback states. The homepage CTA posts directly to `/newsletter/potwierdz/`, so users always land on the confirm screen while the server handles Listmonk side effects. `ResendButton` keeps a 15 s cooldown locally and restores it from the resend cookie when the page reloads.
+8. **Testing checklist**
+   - `railway connect listmonk` to forward the admin port locally if the CLI-managed URL is firewalled.
+   - Run `npm run dev`, submit `/newsletter` and `/newsletter` (homepage module) forms with a test email; confirm the double opt-in email arrives.
+   - Append `?subscriber=<uuid>` from a Listmonk export to `/newsletter/preferencje` and `/newsletter/wypisz` to verify the happy path plus error states when the UUID is missing or expired.
+   - Monitor Listmonk logs (`railway logs listmonk`) for 4xx/5xx responses whenever you adjust copy or consent requirements.

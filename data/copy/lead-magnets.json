@@ -1,0 +1,77 @@
+{
+  "items": {
+    "start-checklista": {
+      "seo": {
+        "title": "Checklista startu — opublikuj dziś | ProjektBezKodu",
+        "description": "Pobierz checklistę startu, która prowadzi krok po kroku przez przygotowanie strony no-code do publikacji.",
+        "canonical": "https://projektbezkodu.pl/do-pobrania/start-checklista/"
+      },
+      "hero": {
+        "title": "Checklista startu — opublikuj dziś",
+        "bullets": [
+          "25 kroków od briefu do publikacji strony no-code",
+          "Checklisty CWV, SEO i automatyzacji formularzy",
+          "Szablony komunikacji z zespołem i wykonawcami"
+        ],
+        "image": {
+          "src": "/images/placeholders/article-3x2.webp",
+          "alt": "Podgląd checklisty startu ProjektBezKodu z zaznaczonymi krokami publikacji.",
+          "width": 1120,
+          "height": 747
+        }
+      },
+      "form": {
+        "action": "/do-pobrania/dziekujemy/start-checklista/",
+        "method": "get",
+        "title": "Wyślij mi PDF",
+        "emailField": {
+          "id": "lead-email",
+          "label": "E-mail",
+          "placeholder": "mój@adres.pl"
+        },
+        "consentField": {
+          "id": "lead-consent",
+          "label": "Zgadzam się na kontakt w sprawie checklisty i kolejnych materiałów ProjektBezKodu.",
+          "privacyLabel": "Polityka prywatności",
+          "privacyHref": "/polityka-prywatnosci/"
+        },
+        "submitLabel": "Wyślij mi PDF",
+        "disclaimer": "To bezpłatne. Wysyłamy e-maile 1–2 razy w tygodniu."
+      },
+      "thankYou": {
+        "seo": {
+          "title": "Prawie gotowe — sprawdź e-mail | ProjektBezKodu",
+          "description": "Sprawdź skrzynkę, żeby pobrać checklistę startu ProjektBezKodu.",
+          "canonical": "https://projektbezkodu.pl/do-pobrania/dziekujemy/start-checklista/"
+        },
+        "hero": {
+          "title": "Prawie gotowe — sprawdź e-mail z linkiem do pliku",
+          "intro": "Jeśli wiadomość nie dotarła, sprawdź folder spam albo poczekaj kilka minut. Możesz też pobrać plik bezpośrednio poniżej."
+        },
+        "directDownload": {
+          "label": "Pobierz checklistę",
+          "href": "/files/checklista-startu.pdf"
+        },
+        "nextSteps": {
+          "heading": "Co dalej?",
+          "articleSlugs": [
+            "strategia-wdrozenia",
+            "seo-no-code",
+            "core-web-vitals"
+          ]
+        }
+      }
+    }
+  },
+  "fallback": {
+    "seo": {
+      "title": "Materiały do pobrania | ProjektBezKodu",
+      "description": "Zapisz się po checklisty, playbooki i narzędzia no-code przygotowane przez ProjektBezKodu.",
+      "canonical": "https://projektbezkodu.pl/do-pobrania/"
+    },
+    "hero": {
+      "title": "Materiały do pobrania",
+      "intro": "Playbooki, checklisty i automatyzacje, które pomagają publikuje szybciej. Wybierz materiał, który rozwiązuje Twój problem."
+    }
+  }
+}

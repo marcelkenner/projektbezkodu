@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Najczęstsze pytania | ProjektBezKodu",
+    "description": "Zebraliśmy odpowiedzi na najczęstsze pytania o wdrożenia no-code, automatyzacje i ofertę ProjektBezKodu.",
+    "canonical": "https://projektbezkodu.pl/faq/"
+  },
+  "hero": {
+    "title": "Najczęstsze pytania",
+    "intro": "Rozwijamy strony no-code w modelu 80/20 – tu znajdziesz odpowiedzi na pytania, które dostajemy najczęściej."
+  },
+  "entries": [
+    {
+      "id": "proces-start",
+      "question": "Jak wygląda start współpracy z ProjektemBezKodu?",
+      "answer": "Zaczynamy od warsztatu online, w którym definiujemy cel strony, mapę treści i wskaźniki. Po warsztacie dostajesz plan na 30 dni wraz z backlogiem zadań i szablonami."
+    },
+    {
+      "id": "technologie",
+      "question": "Jakie narzędzia no-code wspieracie?",
+      "answer": "Najczęściej pracujemy w Webflow, Framerze i Make. Wdrażamy też automatyzacje w Zapierze i Outseta, a content publikujemy przez Airtable lub Notion, jeśli zespół tego potrzebuje."
+    },
+    {
+      "id": "seo-cwv",
+      "question": "Czy dbacie o SEO i Core Web Vitals?",
+      "answer": "Tak. Każda strona przechodzi checklistę SEO i wydajności, a w pakiecie dostarczamy konfigurację analityki, raporty Core Web Vitals oraz listę rekomendacji optymalizacyjnych."
+    },
+    {
+      "id": "czas-realizacji",
+      "question": "Ile trwa wdrożenie strony no-code?",
+      "answer": "Pierwsze iteracje publikujemy zwykle w 10–14 dni. To możliwe dzięki gotowym sekcjom, bibliotece komponentów i procesowi, który skupia zespół na decyzjach, a nie narzędziach."
+    },
+    {
+      "id": "dostepnosc",
+      "question": "Jak zapewniacie dostępność stron?",
+      "answer": "Budujemy mobile-first, dobieramy kontrasty zgodnie z WCAG 2.2 AA, pilnujemy kolejności nagłówków, focus states i sterowania z klawiatury. W razie potrzeby robimy audyt dostępności."
+    }
+  ],
+  "footer": {
+    "prompt": "Nie znalazłeś odpowiedzi?",
+    "ctaLabel": "Napisz do nas",
+    "ctaHref": "/kontakt/"
+  }
+}

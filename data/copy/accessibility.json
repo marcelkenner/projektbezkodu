@@ -1,0 +1,59 @@
+{
+  "seo": {
+    "title": "Deklaracja dostępności ProjektBezKodu",
+    "description": "Opis zgodności serwisu z WCAG 2.2 AA, zastosowane środki oraz sposób zgłaszania uwag.",
+    "canonical": "https://projektbezkodu.pl/deklaracja-dostepnosci"
+  },
+  "hero": {
+    "title": "Deklaracja dostępności",
+    "intro": "Dbamy o to, by serwis ProjektBezKodu był dostępny dla jak najszerszego grona użytkowników. Poniżej znajdziesz szczegóły naszych działań."
+  },
+  "sections": {
+    "measures": {
+      "heading": "Środki zapewniania dostępności",
+      "items": [
+        "System design oparty na WCAG 2.2 AA i testowany na urządzeniach mobilnych.",
+        "Regularne audyty komponentów UI z użyciem narzędzi Lighthouse i Axe.",
+        "Manualne testy czytników ekranu (NVDA, VoiceOver) przy publikacji nowych funkcji.",
+        "Dokumentacja komponentów z opisem zachowań klawiaturowych i stanów fokus."
+      ]
+    },
+    "limitations": {
+      "heading": "Znane ograniczenia",
+      "items": [
+        {
+          "label": "Materiały osadzone zewnętrznie",
+          "description": "Część treści pochodzi z narzędzi firm trzecich (np. formularze). Pracujemy nad alternatywami tekstowymi."
+        },
+        {
+          "label": "Nagrania wideo",
+          "description": "Starsze filmy nie posiadają napisów. Aktualizujemy je sukcesywnie — plan ukończenia: IV kwartał 2025."
+        }
+      ]
+    },
+    "feedback": {
+      "heading": "Informacje zwrotne i kontakt",
+      "intro": "Zgłoś problemy z dostępnością, a odpowiemy w ciągu 7 dni roboczych.",
+      "contact": {
+        "email": "kontakt@projektbezkodu.pl",
+        "phone": "+48 123 456 789"
+      }
+    },
+    "form": {
+      "heading": "Formularz kontaktowy",
+      "labels": {
+        "name": "Imię i nazwisko",
+        "email": "Adres e-mail",
+        "message": "Opisz problem z dostępnością",
+        "submit": "Wyślij zgłoszenie"
+      },
+      "privacyDisclaimer": "Przesyłając formularz akceptujesz politykę prywatności. Dane wykorzystamy tylko do odpowiedzi na zgłoszenie."
+    },
+    "meta": {
+      "heading": "Informacje formalne",
+      "publication": "Data publikacji deklaracji: 1 stycznia 2025",
+      "update": "Ostatnia aktualizacja: 8 stycznia 2025",
+      "owner": "Podmiot odpowiedzialny: ProjektBezKodu Sp. z o.o."
+    }
+  }
+}

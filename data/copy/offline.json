@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Jesteś offline — ProjektBezKodu",
+    "description": "Połącz się z internetem, żeby zobaczyć najnowsze treści ProjektBezKodu.",
+    "canonical": "https://projektbezkodu.pl/offline"
+  },
+  "hero": {
+    "iconLabel": "Ikona braku połączenia",
+    "title": "Jesteś offline",
+    "description": "Połącz się z internetem, aby pobrać najnowsze treści. Zobacz ostatnio zapisane strony lub spróbuj ponownie później."
+  },
+  "actions": {
+    "refresh": "Odśwież stronę"
+  },
+  "cachedLinks": {
+    "heading": "Ostatnio zapisane strony",
+    "links": [
+      {
+        "label": "Strona główna",
+        "href": "/"
+      },
+      {
+        "label": "Blog",
+        "href": "/artykuly"
+      },
+      {
+        "label": "O nas",
+        "href": "/o-nas"
+      }
+    ],
+    "empty": "Service worker jeszcze nie zapisał stron do trybu offline."
+  }
+}

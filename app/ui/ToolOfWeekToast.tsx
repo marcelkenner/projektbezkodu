@@ -25,12 +25,7 @@ export function ToolOfWeekToast({ tool, onClose }: ToolOfWeekToastProps) {
       </div>
       <div className="pbk-floating-toast__body">
         <div className="pbk-floating-toast__image">
-          <Image
-            src={tool.image}
-            alt={tool.label}
-            width={64}
-            height={64}
-          />
+          <Image src={tool.image} alt={tool.label} width={45} height={45} />
         </div>
         <p>{tool.description}</p>
       </div>
@@ -41,12 +36,16 @@ export function ToolOfWeekToast({ tool, onClose }: ToolOfWeekToastProps) {
         >
           Sprawdź narzędzie
         </Link>
-        <Link className="pbk-button pbk-button--tertiary" href={tool.readMorePath}>
+        <Link
+          className="pbk-button pbk-button--tertiary"
+          href={tool.readMorePath}
+        >
           Czytaj więcej
         </Link>
       </div>
       <p className="pbk-floating-toast__disclosure">
-        Link partnerski – korzystając, wspierasz nowe poradniki bez dodatkowych kosztów.
+        Link partnerski – korzystając, wspierasz nowe poradniki bez dodatkowych
+        kosztów.
       </p>
     </aside>
   );

@@ -126,7 +126,7 @@ Each token is defined with:
         "description": "Section titles"
       },
       "h3": {
-        "value": "clamp(1.25rem, 1.2vw + 1rem, 1.5rem)",
+        "value": "clamp(1.125rem, 0.6vw + 0.95rem, 1.5rem)",
         "description": "Subheads"
       },
       "body": {

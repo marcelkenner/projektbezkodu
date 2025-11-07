@@ -76,22 +76,25 @@ Język strony: <html lang="pl">
 
 📦 DODATKI, KTÓRE „USZCZELNIAJĄ” MAKiety
 
-1) Tytuły i meta (konkretne przykłady)
+1. Tytuły i meta (konkretne przykłady)
 
 Home
-<title>Strony bez kodu, które sprzedają — ProjektBezKodu</title>
-<meta name="description" content="Zbuduj stronę w dni: Webflow, Framer, SEO i automatyzacje. Leady, porządek w CMS i szybkość — bez czekania na developera.">
+
+<title>Strony bez kodu, które sprzedają - ProjektBezKodu</title>
+<meta name="description" content="Zbuduj stronę w dni: Webflow, Framer, SEO i automatyzacje. Leady, porządek w CMS i szybkość - bez czekania na developera.">
 
 Blog listing
-<title>Blog — poradniki no‑code, SEO i automatyzacje | PBK</title>
+
+<title>Blog - poradniki no‑code, SEO i automatyzacje | PBK</title>
 <link rel="canonical" href="https://projektbezkodu.pl/blog/">
 
 Artykuł
-<title>Szybki landing w Webflow w 60 minut — poradnik | PBK</title>
+
+<title>Szybki landing w Webflow w 60 minut - poradnik | PBK</title>
 <meta name="description" content="Krok po kroku: landing w Webflow w godzinę. Sekcje, CMS, publikacja i checklista 80/20.">
 <link rel="canonical" href="https://projektbezkodu.pl/artykuly/webflow-landing-60-min/">
 
-2) JSON‑LD (skrót — gdzie i co)
+2. JSON‑LD (skrót - gdzie i co)
 
 Home: WebSite (z SearchAction) + Organization
 
@@ -99,7 +102,7 @@ Blog/Pillar: CollectionPage + ItemList (pozycje kart)
 
 Artykuł: BlogPosting + BreadcrumbList (dates, author, image, wordCount)
 
-3) Interakcje i stany (jednoznacznie)
+3. Interakcje i stany (jednoznacznie)
 
 Hover linków: podkreślenie + kolor → --brand-700
 
@@ -109,7 +112,7 @@ Focus wszystkie elementy interaktywne: outline 2px --brand-700, offset 2px
 
 Chipy filtrów: checkbox ukryty, etykieta 44×44, aria-pressed dla button‑chips lub <input type="checkbox"> dla semantyki
 
-4) Core Web Vitals
+4. Core Web Vitals
 
 LCP = obraz hero (atrybuty w makiecie)
 

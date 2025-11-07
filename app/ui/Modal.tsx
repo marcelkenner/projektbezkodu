@@ -6,9 +6,10 @@ interface ModalProps {
   onClose: () => void;
   title: string;
   children: ReactNode;
+  actions?: ReactNode;
 }
 
-export function Modal({ open, onClose, title, children }: ModalProps) {
+export function Modal({ open, onClose, title, children, actions }: ModalProps) {
   if (!open) return null;
 
   return (
@@ -22,13 +23,17 @@ export function Modal({ open, onClose, title, children }: ModalProps) {
         <div className="pbk-stack pbk-stack--tight">
           <h3>{title}</h3>
           <div>{children}</div>
-          <button
-            type="button"
-            className="pbk-button pbk-button--tertiary"
-            onClick={onClose}
-          >
-            Zamknij
-          </button>
+          <div className="pbk-modal__actions">
+            {actions ?? (
+              <button
+                type="button"
+                className="pbk-button pbk-button--tertiary"
+                onClick={onClose}
+              >
+                Zamknij
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>

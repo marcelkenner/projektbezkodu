@@ -1,0 +1,108 @@
+{
+  "seo": {
+    "title": "O nas | ProjektBezKodu",
+    "description": "Poznaj zespół ProjektBezKodu. Łączymy strategię, SEO i automatyzacje, żeby strony no-code dawały wyniki biznesowe.",
+    "canonical": "https://projektbezkodu.pl/o-nas/"
+  },
+  "hero": {
+    "title": "O nas",
+    "lead": "Pomagamy zespołom marketingu uruchamiać i skalować strony no-code bez czekania na development."
+  },
+  "purpose": {
+    "heading": "Po co istniejemy",
+    "paragraphs": [
+      "ProjektBezKodu powstał, by skrócić drogę od pomysłu na stronę do pierwszych leadów. Łączymy procesy operacyjne z narzędziami no-code i dajemy zespołom gotowe check-listy, żeby iterować szybciej.",
+      "Bazujemy na praktycznych wdrożeniach dla B2B, SaaS i marek eksperckich. Każdy komponent w bibliotece przetestowaliśmy produkcyjnie."
+    ]
+  },
+  "team": {
+    "heading": "Kim jesteśmy",
+    "members": [
+      {
+        "slug": "marcel-nowak",
+        "name": "Marcel Nowak",
+        "role": "Strateg no-code, autor playbooków",
+        "bio": "Projektuje procesy lead generation i architekturę treści. Łączy marketing z operacjami, aby każda iteracja była mierzalna.",
+        "avatar": "/img/authors/marcel-nowak.webp",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/marcel-nowak/",
+            "rel": "me noopener"
+          },
+          {
+            "label": "Strona",
+            "href": "https://projektbezkodu.pl/",
+            "rel": "noopener"
+          }
+        ]
+      },
+      {
+        "slug": "ola-kowalska",
+        "name": "Ola Kowalska",
+        "role": "SEO & Content Strategist",
+        "bio": "Optymalizuje Webflow i Framera pod Core Web Vitals, prowadzi audyty treści i mapy słów kluczowych.",
+        "avatar": "/img/authors/ola-kowalska.webp",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/olakowalska/",
+            "rel": "me noopener"
+          }
+        ]
+      }
+    ]
+  },
+  "principles": {
+    "heading": "W co wierzymy (zasady 80/20)",
+    "items": [
+      "Proces przed narzędziem – każda strona zaczyna się od jasno opisanej mapy treści.",
+      "Raporty tygodniowe zamiast kwartalnych – mierzymy, iterujemy i uczymy się szybciej.",
+      "Dostępność to nie opcja – projektujemy pod mobile first, kontrasty AA i klawiaturę.",
+      "Automatyzacje służą zespołowi – skracają powtarzalne zadania, nie zastępują strategii."
+    ]
+  },
+  "services": {
+    "heading": "Jak możemy pomóc",
+    "cards": [
+      {
+        "title": "Konsultacja wdrożeniowa",
+        "description": "Przegląd strony, mapy treści i procesów. Dajemy plan na 30 dni wraz z miernikami.",
+        "href": "/kontakt/",
+        "ctaLabel": "Umów konsultację"
+      },
+      {
+        "title": "Biblioteka szablonów",
+        "description": "Gotowe sekcje, checklisty i automatyzacje do pobrania i wdrożenia w zespole.",
+        "href": "/szablony/",
+        "ctaLabel": "Zobacz szablony"
+      },
+      {
+        "title": "Poradniki krok po kroku",
+        "description": "Przewodniki po Webflow, Framerze, automatyzacjach i SEO tworzone w duchu 80/20.",
+        "href": "/artykuly/",
+        "ctaLabel": "Czytaj poradniki"
+      }
+    ]
+  },
+  "cta": {
+    "primary": {
+      "label": "Umów konsultację",
+      "href": "/kontakt/"
+    },
+    "secondary": {
+      "label": "Napisz do nas",
+      "href": "mailto:team@projektbezkodu.pl"
+    },
+    "disclaimer": "Odpowiadamy w 24 godziny robocze."
+  },
+  "organization": {
+    "name": "ProjektBezKodu",
+    "url": "https://projektbezkodu.pl/",
+    "logo": "/img/logo.svg",
+    "sameAs": [
+      "https://www.linkedin.com/company/projektbezkodu/",
+      "https://www.instagram.com/projektbezkodu/"
+    ]
+  }
+}

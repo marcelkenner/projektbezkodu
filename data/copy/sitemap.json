@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Mapa strony | ProjektBezKodu",
+    "description": "Znajdź wszystkie artykuły, narzędzia i przewodniki ProjektBezKodu w jednym miejscu.",
+    "canonical": "https://projektbezkodu.pl/mapa-strony/"
+  },
+  "hero": {
+    "title": "Mapa strony",
+    "intro": "Pełna lista podstron ProjektBezKodu – od artykułów i przewodników, przez narzędzia, po legalne dokumenty."
+  },
+  "sections": {
+    "primaryPages": {
+      "heading": "Najważniejsze strony",
+      "links": [
+        { "label": "Strona główna", "href": "/" },
+        { "label": "O nas", "href": "/o-nas/" },
+        { "label": "Artykuły", "href": "/artykuly/" },
+        { "label": "Narzędzia", "href": "/narzedzia/" },
+        { "label": "Szablony", "href": "/szablony/" },
+        { "label": "Kontakt", "href": "/kontakt/" },
+        { "label": "FAQ", "href": "/faq/" },
+        { "label": "Newsletter", "href": "/newsletter/" }
+      ]
+    },
+    "legal": {
+      "heading": "Dokumenty prawne",
+      "links": [
+        { "label": "Polityka prywatności", "href": "/polityka-prywatnosci/" },
+        { "label": "Regulamin", "href": "/regulamin/" }
+      ]
+    }
+  }
+}

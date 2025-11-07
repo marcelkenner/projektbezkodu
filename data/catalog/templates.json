@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "webflow-saas",
+    "name": "Webflow SaaS Launch",
+    "platform": "webflow",
+    "type": "landing",
+    "price": "paid",
+    "badge": "Paid",
+    "summary": "Landing dla SaaS z sekcjami pricingu, integracji i automatyzacją leadów.",
+    "previewHref": "https://webflow.com/templates/html/saas-launch-website-template",
+    "primaryHref": "/do-pobrania/start-checklista/",
+    "features": [
+      "Sekcja hero z obietnicą i mocnym CTA",
+      "Prezentacja funkcji w układzie 3×3",
+      "Integracja formularzy z Make"
+    ],
+    "requirements": [
+      "Konto Webflow CMS",
+      "Domena z SSL",
+      "Integracja Make (opcjonalnie)"
+    ],
+    "steps": [
+      "Skopiuj projekt do swojego konta Webflow.",
+      "Ustaw style globalne i brand kit.",
+      "Podmień treści i integracje.",
+      "Przetestuj formularze i automatyzacje.",
+      "Opublikuj na domenę produkcyjną."
+    ],
+    "faq": [
+      {
+        "question": "Czy mogę użyć szablonu w wielu projektach?",
+        "answer": "Tak, szablon możesz wykorzystać w kilku projektach w obrębie jednej organizacji."
+      },
+      {
+        "question": "Czy wspieracie wdrożenie?",
+        "answer": "Możemy przeprowadzić warsztat wdrożeniowy i skonfigurować automatyzacje w Make."
+      }
+    ],
+    "pricing": [
+      { "plan": "Standard", "amount": "49$", "period": "jednorazowo" },
+      {
+        "plan": "Plus (z konsultacją)",
+        "amount": "149$",
+        "period": "jednorazowo"
+      }
+    ]
+  },
+  {
+    "slug": "framer-agencja",
+    "name": "Framer Agency Starter",
+    "platform": "framer",
+    "type": "portfolio",
+    "price": "free",
+    "badge": "Free",
+    "summary": "Lekki szablon agencji w Framerze z biblioteką komponentów i animacjami.",
+    "previewHref": "https://framer.com/templates/agency-starter",
+    "primaryHref": "https://framer.com/templates/agency-starter/download",
+    "features": [
+      "Sekcje portfolio i studiów przypadków",
+      "Gotowe animacje wejść i CTA",
+      "Biblioteka ikon i stylów"
+    ],
+    "requirements": [
+      "Konto Framer (plan darmowy)",
+      "Access do biblioteki ikon",
+      "Pary kolorów i typografia marki"
+    ],
+    "steps": [
+      "Skopiuj projekt do swojego workspace.",
+      "Ustaw globalne style i fonty.",
+      "Dodaj referencje i case studies.",
+      "Podłącz domenę i analitykę.",
+      "Opublikuj i przetestuj mobilnie."
+    ],
+    "faq": [
+      {
+        "question": "Czy szablon jest kompatybilny z wariantami ciemnymi?",
+        "answer": "Tak, zawiera przełącznik trybu jasnego i ciemnego oraz style komponentów."
+      }
+    ],
+    "pricing": [{ "plan": "Free", "amount": "0 zł", "period": "na zawsze" }]
+  },
+  {
+    "slug": "relume-design-system",
+    "name": "Relume Design System Starter",
+    "platform": "webflow",
+    "type": "landing",
+    "price": "paid",
+    "badge": "Paid",
+    "summary": "System komponentów Relume zintegrowany z tokensami ProjektBezKodu.",
+    "previewHref": "https://library.relume.io/",
+    "primaryHref": "https://library.relume.io/signup",
+    "features": [
+      "900+ sekcji gotowych do kopiowania",
+      "Tokeny i style zgodne z ProjektBezKodu",
+      "Instrukcja migracji do Webflow"
+    ],
+    "requirements": [
+      "Licencja Relume Library",
+      "Projekt Webflow do importu",
+      "Dostęp do Figma (opcjonalnie)"
+    ],
+    "steps": [
+      "Zaimportuj komponenty z Relume.",
+      "Ustaw tokeny kolorów i typografii.",
+      "Skonfiguruj kolekcje CMS.",
+      "Zbuduj landing i podłącz automatyzacje.",
+      "Opublikuj i monitoruj Core Web Vitals."
+    ],
+    "faq": [
+      {
+        "question": "Czy mogę użyć bibliotek w projektach klientów?",
+        "answer": "Tak, zgodnie z licencją Relume możesz wykorzystywać komponenty w wielu projektach."
+      }
+    ],
+    "pricing": [
+      { "plan": "Indywidualny", "amount": "32$", "period": "miesięcznie" },
+      { "plan": "Zespół", "amount": "79$", "period": "miesięcznie" }
+    ]
+  }
+]

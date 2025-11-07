@@ -56,22 +56,13 @@ export class ContentSearchEngine {
 
   private collectDocuments(): SearchDocument[] {
     return [
-      ...this.mapSummaries(
-        this.articleRepository.listSummaries(),
-        "article",
-      ),
-      ...this.mapSummaries(
-        this.tutorialRepository.listSummaries(),
-        "tutorial",
-      ),
+      ...this.mapSummaries(this.articleRepository.listSummaries(), "article"),
+      ...this.mapSummaries(this.tutorialRepository.listSummaries(), "tutorial"),
       ...this.mapSummaries(
         this.comparisonRepository.listSummaries(),
         "comparison",
       ),
-      ...this.mapSummaries(
-        this.glossaryRepository.listSummaries(),
-        "glossary",
-      ),
+      ...this.mapSummaries(this.glossaryRepository.listSummaries(), "glossary"),
     ];
   }
 

@@ -1,0 +1,94 @@
+:global(.about-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+:global(.about-page__lead) {
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  max-width: 70ch;
+  color: var(--color-ink-muted);
+}
+
+:global(.about-page__section) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.about-page__teamGrid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.about-page__member) {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.about-page__memberHeader) {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+:global(.about-page__avatar) {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+:global(.about-page__memberLinks) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  font-size: var(--typography-fontSize-small);
+}
+
+:global(.about-page__principlesList) {
+  display: grid;
+  gap: var(--space-3);
+  padding-left: 1.25rem;
+}
+
+:global(.about-page__servicesGrid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.about-page__serviceCard) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  padding: var(--space-4);
+  display: grid;
+  gap: var(--space-3);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.about-page__cta) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+:global(.about-page__ctaText) {
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+@media (min-width: 40rem) {
+  :global(.about-page__teamGrid) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  :global(.about-page__servicesGrid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

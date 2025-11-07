@@ -1,0 +1,106 @@
+{
+  "base": {
+    "seo": {
+      "title": "Newsletter ProjektBezKodu",
+      "description": "Dołącz do newslettera ProjektBezKodu. Raz w tygodniu wysyłamy checklisty, case studies i automatyzacje do wdrożenia.",
+      "canonical": "https://projektbezkodu.pl/newsletter/"
+    },
+    "hero": {
+      "title": "Dołącz do newslettera ProjektBezKodu",
+      "intro": "Raz w tygodniu dostaniesz checklistę, 3 sekcje do przeniesienia 1:1 i automatyzację, która oszczędza godziny.",
+      "formCta": "Zapisz się"
+    }
+  },
+  "confirm": {
+    "seo": {
+      "title": "Sprawdź e-mail i potwierdź subskrypcję | ProjektBezKodu",
+      "description": "Kliknij link w wiadomości, aby potwierdzić subskrypcję newslettera ProjektBezKodu.",
+      "canonical": "https://projektbezkodu.pl/newsletter/potwierdz/"
+    },
+    "hero": {
+      "title": "Sprawdź e-mail i potwierdź subskrypcję",
+      "intro": "Kliknij link w wiadomości. Jeśli jej nie widzisz, zajrzyj do folderu spam lub poczekaj kilka minut."
+    },
+    "resend": {
+      "label": "Wyślij ponownie",
+      "waitingLabel": "Wyślij ponownie (15 s)",
+      "description": "Możesz poprosić o ponowne wysłanie po krótkim czasie."
+    }
+  },
+  "thanks": {
+    "seo": {
+      "title": "Jesteś na liście! | ProjektBezKodu",
+      "description": "Dziękujemy za dołączenie do newslettera. Pobierz checklistę i zobacz najlepsze poradniki na start.",
+      "canonical": "https://projektbezkodu.pl/newsletter/dziekujemy/"
+    },
+    "hero": {
+      "title": "Jesteś na liście!",
+      "intro": "Na start wysyłamy checklistę i trzy najlepsze poradniki, żeby zacząć działać od razu."
+    },
+    "download": {
+      "label": "Pobierz checklistę",
+      "href": "/files/checklista-startu.pdf"
+    },
+    "articles": {
+      "heading": "Zobacz też",
+      "slugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"]
+    }
+  },
+  "preferences": {
+    "seo": {
+      "title": "Zarządzaj preferencjami | ProjektBezKodu",
+      "description": "Dostosuj tematy newslettera ProjektBezKodu. Wybierz obszary, które chcesz otrzymywać.",
+      "canonical": "https://projektbezkodu.pl/newsletter/preferencje/"
+    },
+    "hero": {
+      "title": "Zarządzaj preferencjami",
+      "intro": "Otrzymuj tylko te materiały, które Cię interesują. Zapisz zmiany, by zaktualizować profil."
+    },
+    "topics": [
+      {
+        "id": "pref-seo",
+        "label": "SEO i widoczność",
+        "description": "Checklisty SEO, dane strukturalne i content briefs."
+      },
+      {
+        "id": "pref-webflow",
+        "label": "Webflow",
+        "description": "Nowe komponenty, struktury CMS i automatyzacje publikacji."
+      },
+      {
+        "id": "pref-framer",
+        "label": "Framer",
+        "description": "Sekcje do skopiowania i optymalizacje Core Web Vitals."
+      },
+      {
+        "id": "pref-automation",
+        "label": "Automatyzacje",
+        "description": "Scenariusze Make, Zapiera i gotowe integracje CRM."
+      }
+    ],
+    "submitLabel": "Zapisz preferencje"
+  },
+  "unsubscribe": {
+    "seo": {
+      "title": "Wypisz się | ProjektBezKodu",
+      "description": "Jeśli chcesz zakończyć subskrypcję, możesz zrobić to na tej stronie i zostawić opinię.",
+      "canonical": "https://projektbezkodu.pl/newsletter/wypisz/"
+    },
+    "hero": {
+      "title": "Szkoda, że się rozstajemy",
+      "intro": "Zanim zakończysz subskrypcję, daj znać co możemy poprawić. Twoja opinia pomoże nam tworzyć lepsze materiały."
+    },
+    "feedbackField": {
+      "id": "unsubscribe-feedback",
+      "label": "Podziel się feedbackiem (opcjonalnie)",
+      "placeholder": "Już nie potrzebuję materiałów o..."
+    },
+    "submitLabel": "Wypisz mnie",
+    "confirmation": {
+      "title": "Potwierdź wypisanie",
+      "message": "Czy na pewno chcesz zakończyć subskrypcję newslettera ProjektBezKodu?",
+      "confirm": "Tak, wypisz mnie",
+      "cancel": "Anuluj"
+    }
+  }
+}

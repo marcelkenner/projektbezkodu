@@ -16,11 +16,21 @@ seo:
     - "no-code"
 meta:
   difficulty: null
-  duration: null
+  duration: "7 min"
   tools:
-    - webflow
-    - framer
-    - bunny-net
+    - Webflow
+    - Framer
+    - Bunny.net
+  author: "marcel-nowak"
+  updatedAt: "2025-01-12"
+  hasAffiliateLinks: true
+  primaryCta:
+    label: "Sprawdź hosting Bunny.net"
+    href: "/narzedzia/bunny-net/"
+    rel: "sponsored"
+  secondaryCta:
+    label: "Pobierz checklistę CWV"
+    href: "/do-pobrania/checklisty/core-web-vitals/"
 taxonomy:
   categories:
     - wydajnosc

@@ -38,7 +38,9 @@ export default function ComparisonPage({ params }: ComparisonPageProps) {
   const categories = comparisonTaxonomyCatalog.resolveCategories(
     frontmatter.taxonomy?.categories,
   );
-  const tags = comparisonTaxonomyCatalog.resolveTags(frontmatter.taxonomy?.tags);
+  const tags = comparisonTaxonomyCatalog.resolveTags(
+    frontmatter.taxonomy?.tags,
+  );
 
   return (
     <section className="section section--surface">
@@ -67,9 +69,7 @@ export default function ComparisonPage({ params }: ComparisonPageProps) {
             </div>
           ) : null}
         </header>
-        <article className="prose">
-          {renderer.render()}
-        </article>
+        <article className="prose">{renderer.render()}</article>
       </div>
     </section>
   );

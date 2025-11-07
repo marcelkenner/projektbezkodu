@@ -16,10 +16,19 @@ seo:
     - "no-code"
 meta:
   difficulty: null
-  duration: null
+  duration: "8 min"
   tools:
-    - webflow
-    - framer
+    - Webflow
+    - FigJam
+  author: "marcel-nowak"
+  updatedAt: "2025-01-05"
+  hasAffiliateLinks: false
+  primaryCta:
+    label: "Pobierz szkielet briefu"
+    href: "/do-pobrania/brief-startowy/"
+  secondaryCta:
+    label: "Zapisz mapę wdrożenia"
+    href: "/napisac-kolejne?utm=wdrozenie"
 taxonomy:
   categories:
     - strategia

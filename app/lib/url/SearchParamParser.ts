@@ -15,4 +15,15 @@ export class SearchParamParser {
     }
     return value || undefined;
   }
+
+  getAll(key: string): string[] {
+    if (!this.params) {
+      return [];
+    }
+    const value = this.params[key];
+    if (Array.isArray(value)) {
+      return value.filter((item): item is string => Boolean(item));
+    }
+    return value ? [value] : [];
+  }
 }

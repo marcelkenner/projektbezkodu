@@ -1,0 +1,115 @@
+{
+  "default": {
+    "heading": "Buildery stron bez kodu - co z tego masz",
+    "subheading": "Wybierasz cel, składasz 5 sekcji, publikujesz. Tu masz skróty.",
+    "quickLinks": [
+      {
+        "label": "Start z Webflow",
+        "href": "/narzedzia/webflow/"
+      },
+      {
+        "label": "Framer",
+        "href": "/narzedzia/framer/"
+      },
+      {
+        "label": "Porównania",
+        "href": "/porownania"
+      },
+      {
+        "label": "SEO",
+        "href": "/kategoria/seo/"
+      },
+      {
+        "label": "Wydajność",
+        "href": "/kategoria/wydajnosc/"
+      },
+      {
+        "label": "Automatyzacje",
+        "href": "/kategoria/automation/"
+      },
+      {
+        "label": "Szablony",
+        "href": "/szablony"
+      }
+    ],
+    "featuredSlugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"],
+    "download": {
+      "title": "Checklista startu (PDF)",
+      "description": "Odhacz i opublikuj dziś.",
+      "ctaLabel": "Pobierz checklistę",
+      "ctaHref": "/do-pobrania/checklisty/start-checklista/",
+      "privacyLabel": "Polityka prywatności",
+      "privacyHref": "/polityka-prywatnosci/"
+    },
+    "listHeading": "Wszystkie artykuły w kategorii"
+  },
+  "strategia": {
+    "heading": "Strategia wdrożenia - przewodnik po podstawach",
+    "subheading": "Mapy treści, procesy i warsztaty, które przyspieszają start projektu.",
+    "quickLinks": [
+      {
+        "label": "Warsztat kickoff",
+        "href": "/proces/kickoff-workshop/"
+      },
+      {
+        "label": "Mapa treści",
+        "href": "/architektura/sitemap-szablony/"
+      },
+      {
+        "label": "Brief kreatywny",
+        "href": "/architektura/brief-kreatywny/"
+      },
+      {
+        "label": "Proces 7 kroków",
+        "href": "/proces/7-krokow-wdrozenia/"
+      }
+    ],
+    "featuredSlugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"]
+  },
+  "seo": {
+    "heading": "SEO dla stron no-code",
+    "subheading": "Techniczne i contentowe podstawy optymalizacji Webflow i Framera.",
+    "quickLinks": [
+      {
+        "label": "Checklisty SEO",
+        "href": "/lead-gen/przewodnik/"
+      },
+      {
+        "label": "Schema krok po kroku",
+        "href": "/seo/przewodnik/"
+      },
+      {
+        "label": "Analiza fraz",
+        "href": "/badania/copy-strony-glowne/"
+      },
+      {
+        "label": "Monitorowanie wyników",
+        "href": "/analityka/plan-pomiaru/"
+      }
+    ],
+    "featuredSlugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"]
+  },
+  "wydajnosc": {
+    "heading": "Wydajność i Core Web Vitals",
+    "subheading": "Narzędzia i checklisty, które trzymają LCP poniżej 2,5 sekundy.",
+    "quickLinks": [
+      {
+        "label": "Optymalizacja obrazów",
+        "href": "/wydajnosc/obrazy-abc/"
+      },
+      {
+        "label": "Budżet wagowy",
+        "href": "/wydajnosc/budzet-wagowy/"
+      },
+      {
+        "label": "Monitoring CWV",
+        "href": "/wydajnosc/cwv-audyt/"
+      },
+      {
+        "label": "CDN i cache",
+        "href": "/wydajnosc/antywzorce/"
+      }
+    ],
+    "featuredSlugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"]
+  }
+}

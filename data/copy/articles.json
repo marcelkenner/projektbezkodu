@@ -1,6 +1,42 @@
 {
   "title": "Artykuły eksperckie",
   "intro": "Pogłębione analizy i praktyczne wskazówki dotyczące stron no-code.",
+  "listing": {
+    "heading": "Artykuły, które prowadzą do działania.",
+    "subheading": "Wybierz temat i zrób kolejny krok w 15 minut.",
+    "filters": {
+      "formLabel": "Filtry artykułów",
+      "search": {
+        "label": "Wyszukaj artykuły",
+        "placeholder": "Szukaj po temacie"
+      },
+      "category": {
+        "label": "Kategoria",
+        "placeholder": "Wybierz kategorię"
+      },
+      "readingTime": {
+        "label": "Czas czytania",
+        "options": [
+          { "value": "", "label": "Dowolny" },
+          { "value": "5", "label": "Do 5 minut" },
+          { "value": "10", "label": "Do 10 minut" },
+          { "value": "15", "label": "15 minut +" }
+        ]
+      },
+      "tags": {
+        "label": "Tematy",
+        "chips": ["seo", "webflow", "framer", "automatyzacje"]
+      },
+      "submit": "Filtruj"
+    },
+    "articleCta": "Czytaj →",
+    "noResults": "Nie znaleziono artykułów spełniających kryteria.",
+    "pagination": {
+      "ariaLabel": "Paginacja",
+      "previous": "« Poprzednia",
+      "next": "Następna »"
+    }
+  },
   "emptyState": "Pracujemy nad publikacją pierwszych artykułów. Zapisz się do newslettera, aby otrzymać aktualizację, gdy będą dostępne.",
   "taxonomy": {
     "categories": [
@@ -25,6 +61,9 @@
       { "slug": "planowanie", "label": "Planowanie wdrożenia" },
       { "slug": "procesy", "label": "Procesy zespołowe" },
       { "slug": "mapa-tresci", "label": "Mapa treści" },
+      { "slug": "webflow", "label": "Webflow" },
+      { "slug": "framer", "label": "Framer" },
+      { "slug": "seo", "label": "SEO" },
       { "slug": "seo-podstawy", "label": "SEO – podstawy" },
       { "slug": "schema", "label": "Schema i dane strukturalne" },
       { "slug": "audyt-techniczny", "label": "Audyt techniczny" },
@@ -32,9 +71,43 @@
       { "slug": "core-web-vitals", "label": "Core Web Vitals" },
       { "slug": "lighthouse", "label": "Lighthouse" },
       { "slug": "cdn", "label": "CDN i caching" },
-      { "slug": "statyczny-hosting", "label": "Statyczny hosting" }
+      { "slug": "statyczny-hosting", "label": "Statyczny hosting" },
+      { "slug": "automatyzacje", "label": "Automatyzacje" }
     ]
   },
+  "authors": [
+    {
+      "slug": "marcel-nowak",
+      "name": "Marcel Nowak",
+      "bio": "Strateg i konsultant no-code. Łączy zespoły marketingu, sprzedaży i operacji, budując procesy lead generation bez kodu.",
+      "avatar": "/img/authors/marcel-nowak.webp",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/marcel-nowak/",
+          "rel": "me noopener"
+        },
+        {
+          "label": "Strona",
+          "href": "https://projektbezkodu.pl/",
+          "rel": "noopener"
+        }
+      ]
+    },
+    {
+      "slug": "ola-kowalska",
+      "name": "Ola Kowalska",
+      "bio": "Specjalistka SEO i contentu. Optymalizuje strony Webflow i Framer tak, by łączyły wysoki wynik CWV z konwersją.",
+      "avatar": "/img/authors/ola-kowalska.webp",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/olakowalska/",
+          "rel": "me noopener"
+        }
+      ]
+    }
+  ],
   "navigation": {
     "menuLabel": "Artykuły",
     "featuredCategories": [

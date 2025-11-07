@@ -8,5 +8,19 @@
   "secondaryCta": {
     "label": "Przeglądaj artykuły",
     "href": "/artykuly"
-  }
+  },
+  "search": {
+    "label": "Szukaj w serwisie",
+    "placeholder": "Czego szukasz?",
+    "buttonLabel": "Szukaj",
+    "action": "/szukaj/"
+  },
+  "shortcuts": [
+    { "label": "Webflow dla początkujących", "href": "/narzedzia/webflow/" },
+    {
+      "label": "5-sekcyjny landing",
+      "href": "/poradniki/webflow-blog-krok-po-kroku/"
+    },
+    { "label": "Checklista SEO", "href": "/artykuly/seo-no-code/" }
+  ]
 }

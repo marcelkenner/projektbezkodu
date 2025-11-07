@@ -30,6 +30,18 @@ export class ArticleTaxonomyCatalog {
     return this.tags.get(slug);
   }
 
+  listCategories(): TaxonomyTerm[] {
+    return Array.from(this.categories.values()).sort((a, b) =>
+      a.label.localeCompare(b.label, "pl"),
+    );
+  }
+
+  listTags(): TaxonomyTerm[] {
+    return Array.from(this.tags.values()).sort((a, b) =>
+      a.label.localeCompare(b.label, "pl"),
+    );
+  }
+
   resolveCategories(slugs: string[] = []): TaxonomyTerm[] {
     return slugs
       .map((slug) => this.getCategory(slug))
@@ -53,4 +65,6 @@ function loadTaxonomy(): ArticleTaxonomyConfig {
   };
 }
 
-export const articleTaxonomyCatalog = new ArticleTaxonomyCatalog(loadTaxonomy());
+export const articleTaxonomyCatalog = new ArticleTaxonomyCatalog(
+  loadTaxonomy(),
+);

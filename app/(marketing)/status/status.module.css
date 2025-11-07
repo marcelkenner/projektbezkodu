@@ -1,0 +1,40 @@
+:global(.status-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  justify-items: center;
+}
+
+:global(.status-page__card) {
+  max-width: 32rem;
+  background: #fff;
+  border-radius: var(--radii-md);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-5);
+  display: grid;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+:global(.status-page__icon) {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  background: rgba(79, 70, 229, 0.12);
+  color: var(--color-primary-strong);
+}
+
+:global(.status-page__actions) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+:global(.status-page__code) {
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}

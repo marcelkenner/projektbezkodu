@@ -44,9 +44,7 @@ export default function GlossaryTermPage({ params }: GlossaryPageProps) {
             <p>{frontmatter.hero.subheading}</p>
           ) : null}
         </header>
-        <article className="prose">
-          {renderer.render()}
-        </article>
+        <article className="prose">{renderer.render()}</article>
       </div>
     </section>
   );

@@ -1,0 +1,52 @@
+Title,Description,Date
+"No-code","Tworzenie aplikacji i automatyzacji bez pisania kodu — wszystko klikasz w kreatorach i łączysz gotowe klocki.",2025-11-06
+"Low-code","Podejście pośrednie: większość robisz wizualnie, ale czasem dopisujesz drobny skrypt lub formułę.",2025-11-06
+"Workflow","Sekwencja kroków, która dzieje się automatycznie po wyzwoleniu zdarzenia — od „jeśli” do „zrób to”.",2025-11-06
+"Trigger","Moment startowy automatyzacji, np. nowy wpis w arkuszu, wysłany formularz albo przychodzący webhook.",2025-11-06
+"Akcja","Czynność wykonywana w ramach automatyzacji, np. utwórz rekord, wyślij e-mail, przekaż dane dalej.",2025-11-06
+"Warunek","Sprawdzenie „jeśli/potem” w przepływie — pozwala rozgałęzić scenariusz w zależności od danych.",2025-11-06
+"Gałąź","Odnogi procesu dla różnych przypadków, np. „nowy klient” idzie jedną ścieżką, „powracający” inną.",2025-11-06
+"Pętla","Powtarzanie tych samych kroków dla listy elementów, np. wyślij powiadomienie każdemu uczestnikowi.",2025-11-06
+"Mapa pól","Dopasowanie „co do czego” — z którego pola źródła trafia do jakiego pola w aplikacji docelowej.",2025-11-06
+"Transformacja danych","Szybkie przeróbki w locie: łączenie, przycinanie, format daty, zamiana liter, liczenie wartości.",2025-11-06
+"Szablon wiadomości","Gotowy wzór treści z wstawkami typu {{imię}} — wygląda jak personalizowany, a robi się sam.",2025-11-06
+"Placeholder","Tymczasowa wstawka w tekście, która podczas wykonania zastąpi się prawdziwą wartością.",2025-11-06
+"Webhook","Mechanizm powiadamiania w czasie rzeczywistym — jedna aplikacja uderza HTTP do drugiej, gdy coś się wydarzy.",2025-11-06
+"Webhook catcher","Adres, który „łapie” webhooki do testów i debugowania, zanim podłączysz prawdziwy system.",2025-11-06
+"API","Sposób, w jaki aplikacje rozmawiają ze sobą — wysyłasz żądanie i dostajesz dane bez klikania w UI.",2025-11-06
+"Endpoint","Konkretny adres API, pod który wysyłasz zapytanie, np. do pobrania listy kontaktów.",2025-11-06
+"Klucz API","Sekret do uwierzytelnienia w API — traktuj jak hasło i nie publikuj go publicznie.",2025-11-06
+"OAuth","Logowanie aplikacji do aplikacji bez zdradzania hasła — użytkownik autoryzuje dostęp i tyle.",2025-11-06
+"Rate limit","Limit zapytań w danym czasie; gdy go przekroczysz, musisz zwolnić lub chwilę odczekać.",2025-11-06
+"Retry","Ponowna próba po błędzie tymczasowym — automatyzacja sama spróbuje „jeszcze raz”.",2025-11-06
+"Idempotencja","Wielokrotne wywołanie daje ten sam efekt — nie powstają duplikaty, choć żądanie poszło kilka razy.",2025-11-06
+"Kolejka zadań","Bufor zadań do wykonania po kolei — pomaga, gdy ruch jest duży albo system chwilowo wolny.",2025-11-06
+"Scheduler","Harmonogram uruchamiania procesów o określonych godzinach lub interwałach.",2025-11-06
+"Cron","Zapis reguł czasu (np. „co poniedziałek 8:00”) używany do cyklicznych zadań.",2025-11-06
+"Formularz","Prosty sposób zbierania danych od użytkowników — odpowiedzi zasilają automatyzacje i bazy.",2025-11-06
+"Baza danych (no-code)","Tabela jak w arkuszu, ale z relacjami i widokami; dobre do lekkich aplikacji wewnętrznych.",2025-11-06
+"Rekord","Pojedynczy wiersz/obiekt w bazie — np. jeden klient, jedno zamówienie, jeden ticket.",2025-11-06
+"Widok","Filtr lub układ danych pod konkretny cel, np. „dzisiejsze zadania” albo „otwarte leady”.",2025-11-06
+"Relacja","Powiązanie między tabelami, np. klient ↔ zamówienia; ułatwia łączenie informacji.",2025-11-06
+"CMS","Panel do zarządzania treściami na stronie: wpisy, autorzy, kategorie, media i ich pola.",2025-11-06
+"UI builder","Wizualny kreator ekranów — przeciągasz komponenty, łączysz z danymi i masz działający interfejs.",2025-11-06
+"Komponent","Gotowy element interfejsu (lista, karta, formularz), który możesz wielokrotnie wykorzystać.",2025-11-06
+"Zmienna","Miejsce na tymczasową wartość w automatyzacji; przydaje się przy warunkach i szablonach.",2025-11-06
+"Wyrażenie","Prosty „wzór” do policzenia wartości na bieżąco, np. zsumowanie kwot albo ułożenie tekstu.",2025-11-06
+"Walidacja","Sprawdzanie poprawności danych zanim polecą dalej — np. czy jest e-mail i czy wygląda sensownie.",2025-11-06
+"Wzbogacanie danych","Automatyczne dodanie kontekstu, np. firmowe dane po domenie lub geolokalizacja po IP.",2025-11-06
+"Parser","Narzędzie, które wyciąga uporządkowane dane z nieuporządkowanej treści, np. z e-maila lub PDF.",2025-11-06
+"Web scraper","Robot, który pobiera dane ze stron www, gdy API nie ma lub jest ograniczone.",2025-11-06
+"Środowisko testowe","Bezpieczne miejsce do prób — ryzyko mniejsze, bo nie dotykasz prawdziwych danych.",2025-11-06
+"Produkcja","Prawdziwi użytkownicy i prawdziwe dane — tu dbasz o stabilność, logi i limity.",2025-11-06
+"Migracja","Przeniesienie danych lub procesu do nowego narzędzia — najlepiej etapami i z backupem.",2025-11-06
+"Wersjonowanie","Oznaczanie zmian w konfiguracji lub schemacie — łatwiej wrócić do poprzedniej wersji.",2025-11-06
+"Deprecjacja","Wycofywanie funkcji lub endpointu; dostawca zwykle daje czas na przejście na nowe API.",2025-11-06
+"WebSocket","Połączenie „na żywo” między przeglądarką a serwerem — dobre do czatów i live’owych paneli.",2025-11-06
+"Pub/Sub","Wzorzec „opublikuj/subskrybuj”: wiele odbiorców dostaje powiadomienie o jednym zdarzeniu.",2025-11-06
+"Sekret","Poufna wartość (np. klucz API) przechowywana w sejfie narzędzia, dostępna tylko w runtime.",2025-11-06
+"Monitorowanie","Podgląd zdrowia automatyzacji: wykresy, alerty i logi błędów, żeby szybko reagować.",2025-11-06
+"Log zdarzeń","Historia tego, co, kiedy i z jakimi danymi się wykonało — niezastąpione przy debugowaniu.",2025-11-06
+"Debugowanie","Szukanie przyczyn problemów krok po kroku; pomaga podgląd wejść/wyjść każdego etapu.",2025-11-06
+"Integracja","Połączenie dwóch narzędzi tak, by same wymieniały dane bez ręcznej pracy.",2025-11-06
+"Konektor","Gotowa wtyczka do integracji z konkretną usługą — podpinasz i działa od ręki.",2025-11-06

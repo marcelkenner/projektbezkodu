@@ -39,5 +39,7 @@ export function getToolOfWeek(): ToolShowcase | undefined {
 }
 
 export function listShowcaseTools(): ToolShowcase[] {
-  return tools.map(toToolShowcase).filter((tool): tool is ToolShowcase => Boolean(tool));
+  return tools
+    .map(toToolShowcase)
+    .filter((tool): tool is ToolShowcase => Boolean(tool));
 }

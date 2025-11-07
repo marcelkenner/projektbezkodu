@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { MagnifyingGlass } from "@phosphor-icons/react/dist/ssr";
 import "./ui.css";
 
 export interface NavLink {
@@ -7,97 +8,74 @@ export interface NavLink {
   href: string;
 }
 
-interface ArticleNavLink {
-  slug: string;
+export interface SearchConfig {
+  action: string;
   label: string;
-  description?: string;
-  href: string;
-}
-
-interface ArticlesNavConfig {
-  label: string;
-  categories: ArticleNavLink[];
-  seeAll?: {
-    label: string;
-    href: string;
-  };
+  placeholder: string;
+  buttonLabel: string;
 }
 
 interface PrimaryNavProps {
   logo: ReactNode;
   links: NavLink[];
-  articlesNav?: ArticlesNavConfig;
-  cta?: {
-    label: string;
-    href: string;
-  };
+  search: SearchConfig;
 }
 
-export function PrimaryNav({ logo, links, articlesNav, cta }: PrimaryNavProps) {
+export function PrimaryNav({ logo, links, search }: PrimaryNavProps) {
   return (
-    <header className="pbk-container">
-      <nav className="pbk-nav" aria-label="Główna nawigacja">
-        <div className="pbk-nav__logo">{logo}</div>
-        <div className="pbk-nav__links">
-          {articlesNav ? <ArticlesDropdown config={articlesNav} /> : null}
+    <header className="site-header" role="banner">
+      <div className="pbk-container site-header__inner">
+        <Link
+          href="/"
+          className="site-header__logo"
+          aria-label="Strona główna ProjektBezKodu"
+        >
+          {logo}
+        </Link>
+        <nav className="site-header__nav" aria-label="Główna nawigacja">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className="pbk-nav__link">
+            <Link
+              key={link.href}
+              href={link.href}
+              className="site-header__navLink"
+            >
               {link.label}
             </Link>
           ))}
-        </div>
-        {cta ? (
-          <div className="pbk-nav__cta">
-            <Link href={cta.href} className="pbk-button pbk-button--primary">
-              {cta.label}
-            </Link>
-          </div>
-        ) : null}
-      </nav>
+        </nav>
+        <SearchForm config={search} />
+      </div>
     </header>
   );
 }
 
-interface ArticlesDropdownProps {
-  config: ArticlesNavConfig;
+interface SearchFormProps {
+  config: SearchConfig;
 }
 
-function ArticlesDropdown({ config }: ArticlesDropdownProps) {
-  if (!config.categories.length) {
-    const href = config.seeAll?.href ?? "/artykuly/";
-    return (
-      <Link href={href} className="pbk-nav__link">
-        {config.label}
-      </Link>
-    );
-  }
-
+function SearchForm({ config }: SearchFormProps) {
   return (
-    <details className="pbk-nav__dropdown">
-      <summary className="pbk-nav__dropdown-trigger">
-        <span>{config.label}</span>
-      </summary>
-      <div className="pbk-nav__dropdown-panel" role="menu">
-        <ul className="pbk-nav__dropdown-list">
-          {config.categories.map((category) => (
-            <li key={category.slug} className="pbk-nav__dropdown-item">
-              <Link href={category.href} role="menuitem">
-                <span className="pbk-nav__dropdown-itemLabel">{category.label}</span>
-                {category.description ? (
-                  <span className="pbk-nav__dropdown-itemDescription">
-                    {category.description}
-                  </span>
-                ) : null}
-              </Link>
-            </li>
-          ))}
-        </ul>
-        {config.seeAll ? (
-          <div className="pbk-nav__dropdown-footer">
-            <Link href={config.seeAll.href}>{config.seeAll.label}</Link>
-          </div>
-        ) : null}
-      </div>
-    </details>
+    <form
+      className="site-header__search"
+      action={config.action}
+      role="search"
+      aria-label={config.label}
+    >
+      <label htmlFor="global-search" className="sr-only">
+        {config.label}
+      </label>
+      <input
+        id="global-search"
+        name="q"
+        type="search"
+        required
+        placeholder={config.placeholder}
+        autoComplete="off"
+      />
+      <button type="submit" className="site-header__searchButton">
+        <MagnifyingGlass aria-hidden="true" size={20} weight="bold" />
+        <span className="sr-only">{config.buttonLabel}</span>
+      </button>
+    </form>
   );
 }

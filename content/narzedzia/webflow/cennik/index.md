@@ -5,14 +5,15 @@ draft: false
 template: "article"
 date: "2024-12-09"
 seo:
-  title: "Webflow – jaki plan wybrać pod mój cel"
-  description: "Poznaj sposób na wybór planu Webflow w 30 sekund, bez przepłacania i z jasnym procesem upgrade’u."
+title: "Webflow – jaki plan wybrać pod mój cel"
+description: "Poznaj sposób na wybór planu Webflow w 30 sekund, bez przepłacania i z jasnym procesem upgrade’u."
+
 ---
 
 # Webflow – jaki plan wybrać w 30 sekund (pod **mój** cel)
 
 [**Sprawdź Webflow i dobierz plan (link partnerski)**](https://webflow.com/?utm_source=projektbezkodu&utm_medium=affiliate&utm_campaign=webflow&ref=projektbezkodu)  
-*Link partnerski: wesprzesz nasze treści, nie dopłacając ani grosza.*
+_Link partnerski: wesprzesz nasze treści, nie dopłacając ani grosza._
 
 > **Zasada 80/20:** wybieram plan **pod to, co robię dziś**. Upgrade jest łatwy, ale przepłacone miesiące – nie wrócą.
 

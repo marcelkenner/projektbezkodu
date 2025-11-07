@@ -5,11 +5,12 @@ draft: false
 template: "article"
 date: "2024-12-09"
 hero:
-  heading: "Webflow – recenzja w stylu „co mam z tego ja”"
-  subheading: "Układam stronę jak w Figmie, publikuję jednym kliknięciem i nie dotykam serwera."
+heading: "Webflow – recenzja w stylu „co mam z tego ja”"
+subheading: "Układam stronę jak w Figmie, publikuję jednym kliknięciem i nie dotykam serwera."
 seo:
-  title: "Webflow – recenzja skupiona na moich efektach"
-  description: "Sprawdź, co realnie zyskujesz, pracując w Webflow: szybkie wdrożenia, CMS, SEO i hosting bez serwerologii."
+title: "Webflow – recenzja skupiona na moich efektach"
+description: "Sprawdź, co realnie zyskujesz, pracując w Webflow: szybkie wdrożenia, CMS, SEO i hosting bez serwerologii."
+
 ---
 
 # Webflow – recenzja z perspektywy „co **ja** z tego mam”
@@ -17,7 +18,7 @@ seo:
 Webflow daje mi proces bez ciężkiego kodowania. Widzę efekt na żywo, poprawiam sekcje jak klocki i nie martwię się o hosting. Jednym kliknięciem publikuję i mam spokój.
 
 [**Wypróbuj Webflow (link partnerski)**](https://webflow.com/?utm_source=projektbezkodu&utm_medium=affiliate&utm_campaign=webflow&ref=projektbezkodu)  
-*Link partnerski. Jeśli kupisz plan, możemy dostać prowizję. Cena dla Ciebie bez zmian.*
+_Link partnerski. Jeśli kupisz plan, możemy dostać prowizję. Cena dla Ciebie bez zmian._
 
 ## Co dostaję
 

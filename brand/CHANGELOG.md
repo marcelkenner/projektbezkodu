@@ -15,6 +15,8 @@ All notable changes to the ProjektBezKodu brand system will be documented here. 
 - Shared section layout utilities promoted to `app/globals.css` for reuse across marketing pages.
 - Footer and navigation updated with Search entry and refreshed copy structure.
 - Adopted the updated spacing clamp scale (`spacing.1`–`spacing.9`) and markdown rhythm aligned with the latest blog specification.
+- Blog listing, article detail, category hub, and legal pages rebuilt from ASCII designs.
+- Homepage rebuilt per new ASCII brief (hero, social proof, pillars, workflow, latest articles, newsletter) with refreshed navigation/header.
 
 ### Fixed
 

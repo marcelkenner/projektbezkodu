@@ -19,4 +19,10 @@ Social media (Pinterest, Facebook, Instagram)
 Lead magnets like checklists, business plans, marketing checklists etc.
 
 Structure:
-Articles, Tutorials, Tool review/comparison, SEO/Performance, Case studies
+Articles, Tutorials, Tool review/comparison, SEO/Performance, Case studies, Resources hub (downloads, templates), Newsletter funnels
+
+Key supporting flows:
+
+- Case studies opisują pełne procesy (problem → rozwiązanie → rezultat) i kierują do konsultacji.
+- Zasoby posiadają listing z filtrami (format/temat/czas) oraz strony szczegółowe z CTA do pobrania.
+- Offline fallback i strony statusowe (410/451/503) utrzymują doświadczenie w warunkach awarii.

@@ -24,9 +24,7 @@ export class GlossaryDirectory {
     );
   }
 
-  group(
-    entries: ContentSummary[],
-  ): GlossaryGroup[] {
+  group(entries: ContentSummary[]): GlossaryGroup[] {
     const groups = new Map<string, GlossaryGroup>();
 
     entries.forEach((entry) => {
@@ -50,9 +48,7 @@ export class GlossaryDirectory {
   }
 
   private sortEntries(entries: ContentSummary[]): ContentSummary[] {
-    return [...entries].sort((a, b) =>
-      a.title.localeCompare(b.title, "pl"),
-    );
+    return [...entries].sort((a, b) => a.title.localeCompare(b.title, "pl"));
   }
 
   private matches(entry: ContentSummary, query: string): boolean {

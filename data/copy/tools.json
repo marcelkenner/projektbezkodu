@@ -1,0 +1,66 @@
+{
+  "seo": {
+    "title": "Narzędzia no-code | ProjektBezKodu",
+    "description": "Przewodnik po narzędziach no-code: Webflow, Framer, automatyzacje i analityka. Filtruj, porównuj i przechodź do przewodników.",
+    "canonical": "https://projektbezkodu.pl/narzedzia/"
+  },
+  "hero": {
+    "title": "Narzędzia no-code",
+    "intro": "Przetestowaliśmy narzędzia, które pomagają startować szybciej. Filtruj po potrzebach i znajdź przewodnik do wdrożenia."
+  },
+  "filters": {
+    "formLabel": "Filtry narzędzi",
+    "category": {
+      "label": "Kategoria",
+      "options": [
+        { "value": "", "label": "Dowolna" },
+        { "value": "site-builders", "label": "Budowa stron" },
+        { "value": "automation", "label": "Automatyzacje" },
+        { "value": "analytics", "label": "Analityka" },
+        { "value": "marketing", "label": "Marketing" }
+      ]
+    },
+    "pricing": {
+      "label": "Cena",
+      "options": [
+        { "value": "", "label": "Wszystkie" },
+        { "value": "free", "label": "Free" },
+        { "value": "freemium", "label": "Freemium" },
+        { "value": "paid", "label": "Płatne" }
+      ]
+    },
+    "system": {
+      "label": "System",
+      "options": [
+        { "value": "", "label": "Dowolny" },
+        { "value": "web", "label": "Web" },
+        { "value": "desktop", "label": "Desktop" }
+      ]
+    },
+    "submit": "Filtruj"
+  },
+  "cards": {
+    "badgeFree": "Free",
+    "badgePaid": "Paid",
+    "primaryCta": "Przewodnik →",
+    "secondaryCta": "Strona narzędzia →",
+    "disclosure": "Część linków to afiliacja."
+  },
+  "detail": {
+    "seoDescriptionFallback": "Poznaj narzędzie no-code rekomendowane przez ProjektBezKodu.",
+    "meta": {
+      "categoryLabel": "Kategoria",
+      "platformLabel": "Platforma",
+      "pricingLabel": "Plan cenowy"
+    },
+    "strengthsHeading": "Mocne strony (80/20)",
+    "limitationsHeading": "Ograniczenia",
+    "gettingStartedHeading": "Jak zacząć w 60 minut",
+    "pricingHeading": "Cennik",
+    "ctaLabel": "Idź do narzędzia",
+    "ctaAria": "Otwórz stronę narzędzia {name}",
+    "relatedHeading": "Przyda Ci się też",
+    "compareHeading": "Porównania",
+    "caseStudiesHeading": "Case studies"
+  }
+}

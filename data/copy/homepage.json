@@ -1,92 +1,142 @@
 {
-  "hero": {
-    "badge": "Nowe artykuły",
-    "heading": "Rzetelne artykuły o stronach no-code.",
-    "subheading": "Porównania narzędzi i szczegółowe tutoriale pisane krok po kroku.",
-    "trustLine": "Zaufali nam twórcy stron dla:",
-    "trustLogos": ["Webflow", "Framer", "Relume"]
+  "header": {
+    "skipLink": {
+      "label": "Pomiń do treści",
+      "target": "#content"
+    },
+    "nav": [
+      { "label": "O nas", "href": "/o-nas" },
+      { "label": "Artykuły", "href": "/artykuly" },
+      { "label": "Narzędzia", "href": "/narzedzia" },
+      { "label": "Szablony", "href": "/szablony" },
+      { "label": "Kontakt", "href": "/kontakt" }
+    ],
+    "search": {
+      "label": "Szukaj w serwisie",
+      "placeholder": "Czego szukasz dziś?",
+      "buttonLabel": "Szukaj",
+      "action": "/szukaj/"
+    }
   },
-  "sections": {
-    "content": {
-      "heading": "Co znajdziesz na blogu?",
-      "body": "Jakość ponad wszystko: artykuły eksperckie, porównania narzędzi i pisane tutoriale.",
-      "cards": [
-        {
-          "title": "Artykuły eksperckie",
-          "meta": "Strategia · SEO · Wydajność",
-          "description": "Dogłębne analizy i wskazówki, które pomagają budować lepsze strony no-code.",
-          "ctaLabel": "Czytaj artykuły",
-          "href": "/artykuly"
-        },
-        {
-          "title": "Porównania narzędzi",
-          "meta": "Webflow · Framer · WordPress",
-          "description": "Rzetelne zestawienia funkcji, cen i zastosowań popularnych narzędzi no-code.",
-          "ctaLabel": "Przeglądaj porównania",
-          "href": "/porownania"
-        },
-        {
-          "title": "Tutoriale krok po kroku",
-          "meta": "Praktyczne przewodniki",
-          "description": "Scenariusze wdrożeniowe i checklisty, które przeprowadzą Cię od planu do publikacji.",
-          "ctaLabel": "Zobacz tutoriale",
-          "href": "/poradniki"
-        }
+  "hero": {
+    "heading": "Zbuduj stronę no-code i zacznij zbierać leady w tym tygodniu.",
+    "subheading": "Oferta widoczna, leady w skrzynce i pełna kontrola treści – bez czekania na developera.",
+    "primaryCta": {
+      "label": "Zacznij w Webflow",
+      "href": "/narzedzia/webflow/",
+      "ariaLabel": "Przejdź do narzędzia Webflow"
+    },
+    "secondaryCta": {
+      "label": "Plan na 7 dni",
+      "href": "/sciezki/webflow-7-dni/"
+    },
+    "microcopy": "Link do Webflow może być afiliacyjny.",
+    "image": {
+      "src": "/img/hero-3x2.webp",
+      "alt": "Zrzut układu 5 sekcji w Webflow: nagłówek, podtytuł, CTA",
+      "width": 1120,
+      "height": 747,
+      "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1120px",
+      "sources": [
+        { "src": "/img/hero-3x2-560.webp", "width": 560 },
+        { "src": "/img/hero-3x2-840.webp", "width": 840 },
+        { "src": "/img/hero-3x2.webp", "width": 1120 }
       ]
-    },
-    "steps": {
-      "heading": "Jak korzystać z treści?",
-      "body": "Trzy kroki, które pomagają przełożyć wiedzę na działające projekty.",
-      "items": [
-        {
-          "title": "Poznaj podstawy",
-          "description": "Zacznij od artykułów o strategii, SEO i wydajności stron no-code."
-        },
-        {
-          "title": "Porównaj narzędzia",
-          "description": "Sprawdź nasze analizy Webflow, Framera i alternatyw, aby wybrać najlepsze rozwiązanie."
-        },
-        {
-          "title": "Zastosuj w praktyce",
-          "description": "Korzystaj z pisanych tutoriali krok po kroku i checklist do wdrożenia."
-        }
-      ]
-    },
-    "comparison": {
-      "heading": "Porównanie narzędzi",
-      "body": "Nie wiesz, które narzędzie wybrać? Nasze zestawienia pokazują mocne i słabe strony popularnych platform."
-    },
-    "tools": {
-      "heading": "Narzędzia, o których piszemy",
-      "intro": "Skupiamy się na sprawdzonych platformach:"
-    },
-    "newsletter": {
-      "heading": "Dołącz do newslettera",
-      "body": "Otrzymasz comiesięczny przegląd nowych artykułów, porównań i tutoriali.",
-      "form": {
-        "emailLabel": "Adres e-mail",
-        "emailPlaceholder": "ola@twojafirma.pl",
-        "description": "Wysyłamy maksymalnie 2 wiadomości w miesiącu."
+    }
+  },
+  "socialProof": {
+    "heading": "Zaufali nam:",
+    "logos": [
+      { "src": "/images/logos/akademia.svg", "alt": "Logo Akademia No-Code" },
+      { "src": "/images/logos/produkty.svg", "alt": "Logo Produkty Dla SaaS" },
+      { "src": "/images/logos/marketing.svg", "alt": "Logo Marketing Growth" },
+      { "src": "/images/logos/studio.svg", "alt": "Logo Studio 404" },
+      { "src": "/images/logos/freelance.svg", "alt": "Logo Freelance Hub" },
+      { "src": "/images/logos/relume.svg", "alt": "Logo Relume Polska" }
+    ]
+  },
+  "pillars": {
+    "heading": "Co zbudujesz z no-code?",
+    "items": [
+      {
+        "title": "Webflow",
+        "description": "Publikujesz w dni, nie tygodnie. Z checklistą CMS i gotowymi komponentami.",
+        "href": "/narzedzia/webflow/",
+        "icon": "bolt"
+      },
+      {
+        "title": "Framer",
+        "description": "Animacje i mikrointerakcje z eksportem do produkcji bez ręcznego kodu.",
+        "href": "/narzedzia/framer/",
+        "icon": "spark"
+      },
+      {
+        "title": "Automatyzacje",
+        "description": "Łączymy Make, Zapier i Slack tak, by lead trafiał tam, gdzie działa zespół.",
+        "href": "/poradniki/automatyzacje/",
+        "icon": "workflow"
+      },
+      {
+        "title": "SEO",
+        "description": "Checklisty Core Web Vitals, schematy i struktury treści do kopiowania.",
+        "href": "/artykuly/seo/",
+        "icon": "target"
+      },
+      {
+        "title": "Szablony",
+        "description": "Sekcje, które od razu wklejasz do projektu – hero, pricing, porównania.",
+        "href": "/szablony/",
+        "icon": "layers"
+      },
+      {
+        "title": "Wydajność",
+        "description": "Monitoring LCP i TTFB bez wtyczek, z konfiguracją CDN krok po kroku.",
+        "href": "/artykuly/core-web-vitals/",
+        "icon": "speed"
       }
-    },
-    "faq": {
-      "heading": "Najczęściej zadawane pytania",
-      "intro": "Masz inne pytanie? Napisz na kontakt@projektbezkodu.pl.",
-      "items": [
-        {
-          "question": "Czy materiały są po polsku?",
-          "answer": "Tak – wszystkie artykuły, porównania i tutoriale piszemy po polsku, dodając wyjaśnienia kluczowych pojęć."
-        },
-        {
-          "question": "Czy potrzebuję płatnego planu narzędzi?",
-          "answer": "Możesz zacząć na darmowych planach – w tekstach wskazujemy moment, w którym opłaca się przejść na wersje premium."
-        },
-        {
-          "question": "Czy otrzymam aktualizacje?",
-          "answer": "Newsletter evergreen co miesiąc podsumowuje nowe artykuły, porównania i tutoriale."
-        }
-      ],
-      "cta": "Masz pomysł na temat? Daj znać, a rozważymy przygotowanie artykułu na blog."
+    ]
+  },
+  "workflow": {
+    "heading": "Jak działa no-code",
+    "steps": [
+      {
+        "title": "Ustalasz cel",
+        "description": "Definiujesz wynik kampanii, grupę odbiorców i KPI, żeby dobrać właściwe sekcje oraz narzędzia."
+      },
+      {
+        "title": "Składasz 5 sekcji",
+        "description": "Wybierasz sprawdzone bloki i łączysz je jak klocki, tworząc kompletną stronę w kilkanaście minut."
+      },
+      {
+        "title": "Publikujesz",
+        "description": "Udostępniasz landing w bezpiecznej infrastrukturze no-code, bez czekania na wsparcie deweloperów."
+      },
+      {
+        "title": "Zbierasz leady",
+        "description": "Formularze i automaty dbają o przekazanie kontaktów do CRM oraz zespołu sprzedaży."
+      },
+      {
+        "title": "Mierzysz i poprawiasz",
+        "description": "Porównujesz wyniki, uruchamiasz testy A/B i iterujesz sekcje na podstawie realnych danych."
+      }
+    ]
+  },
+  "articles": {
+    "heading": "Najnowsze artykuły",
+    "ctaLabel": "Czytaj →",
+    "loading": "Ładujemy najnowsze treści…",
+    "empty": "Brak artykułów do wyświetlenia."
+  },
+  "newsletter": {
+    "heading": "Chcę checklistę i gotowe sekcje",
+    "body": "Wejdź na listę, a w tygodniu dostaniesz checklistę publikacji, sekcje hero i listę narzędzi.",
+    "form": {
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "mój@adres.pl",
+      "consentLabel": "Wyrażam zgodę na kontakt",
+      "submitLabel": "Wyślij",
+      "privacyLabel": "Polityka prywatności",
+      "privacyHref": "/polityka-prywatnosci/"
     }
   }
 }

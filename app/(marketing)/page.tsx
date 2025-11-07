@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { readMarkdownFile } from "../lib/frontmatter";
-import { Hero } from "./homepage/Hero";
-import { ContentSections } from "./homepage/ContentSections";
+import {
+  ArticleRepository,
+  type ContentSummary,
+} from "../lib/content/repositories";
+import { HeroSection } from "./homepage/HeroSection";
+import { HomepageSections } from "./homepage/HomepageSections";
 
 const HOMEPAGE_PATH = "content/_examples/homepage.md";
 
@@ -17,11 +21,32 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function Homepage() {
-  const { frontmatter } = readMarkdownFile(HOMEPAGE_PATH);
+  const articleRepository = new ArticleRepository();
+  const latestArticles = selectLatestArticles(
+    articleRepository.listSummaries(),
+  );
+
   return (
     <div>
-      <Hero hero={frontmatter.hero} />
-      <ContentSections frontmatter={frontmatter} />
+      <HeroSection />
+      <HomepageSections articles={latestArticles} />
     </div>
   );
+}
+
+function selectLatestArticles(
+  summaries: ContentSummary[],
+  limit = 3,
+): ContentSummary[] {
+  return summaries
+    .slice()
+    .sort((a, b) => {
+      const timeA = a.date ? Date.parse(a.date) : 0;
+      const timeB = b.date ? Date.parse(b.date) : 0;
+      if (timeA === timeB) {
+        return a.title.localeCompare(b.title, "pl");
+      }
+      return timeB - timeA;
+    })
+    .slice(0, limit);
 }

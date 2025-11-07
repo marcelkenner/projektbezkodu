@@ -38,33 +38,48 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
 - If you need new difficulty labels, sync with the content team and update copy examples in `data/copy/tutorials.json`.
 - Uzupełniaj `taxonomy.categories` i `taxonomy.tags` – korzystaj z definicji w `data/copy/tutorials.json`; tagi narzędzi mogą reuse slugów z `data/tools.json`.
 
-## 5. Comparisons (`content/porownania/**`)
+## 5. Resources (`content/zasoby/**`)
+
+- Używaj `template: "resource"`. Wymagane pola w `meta`: `format`, `duration` lub `time`, `topics`, `license`, `downloadHref`, `fileSize`, `checksum`. Bez nich listing nie pokaże kompletu metadanych.
+- Treść sekcji trzymaj zgodnie z ASCII: „Co zawiera”, „Dla kogo”, „Jak korzystać”, „Licencja”, „Wersje”.
+- Jeśli zasób posiada grafikę hero, uzupełnij `hero.image` lub meta (`heroImageSrc`, `heroImageAlt`).
+- Po dodaniu nowego zasobu sprawdź `/zasoby` (filtry) oraz `/zasoby/<slug>` (CTA i sekcje).
+
+## 6. Case studies (`content/przypadki-uzycia/**`)
+
+- `template: "case-study"` + `meta` z polami: `industry`, `period`, `stack`, `summaryBullets`, `metrics` (min. jedna para `label/value`), `lessons`.
+- Dodaj CTA (`meta.primaryCta`, `meta.secondaryCta`) i upewnij się, że wskazują na istniejące strony.
+- Każdy case powinien zawierać sekcje: Problem, Rozwiązanie, Rezultat, Proces, Lekcje, Co dalej.
+- Hero image: preferuj `hero.image` (z alt), fallback `meta.heroImageSrc`.
+- Po publikacji zweryfikuj `/przypadki-uzycia` oraz sitemapę (kompozytor dodaje link automatycznie).
+
+## 7. Comparisons (`content/porownania/**`)
 
 - Ensure summary text (first paragraph) clearly differentiates the tools; it becomes the listing excerpt.
 - Populate `meta.tools` for cross-linking in search results.
-- Double-check hero subheading for clarity-it feeds the search keyword list.
+- Double-check hero subheading for clarity – trafia do keyword listy wyszukiwarki.
 - Dodaj `taxonomy.categories` / `taxonomy.tags` zgodnie z `data/copy/comparisons.json`; wykorzystuj te same slug-i narzędzi co w `data/tools.json`.
 
-## 6. Glossary (`content/glossary/**`)
+## 8. Glossary (`content/glossary/**`)
 
 - Each entry needs `title`, `slug`, `path`, `hero.heading`.
 - Keep definitions concise; the first paragraph becomes the list description.
 - The alphabetical navigation derives from the first letter of `title`. Avoid leading punctuation.
 - To verify search: visit `/glossary?q=<term>` and confirm results.
 
-## 7. Search Page Content
+## 9. Search Page Content
 
 - `content/szukaj/index.md` stores metadata and page copy. Update hero text here; avoid editing the React page directly.
 - Search results combine markdown summaries. When you add new content types, confirm their frontmatter includes descriptive hero subheadings and `meta` fields for better matching.
 
-## 8. Copy JSON (`data/copy/**`)
+## 10. Copy JSON (`data/copy/**`)
 
 - One file per section. Keys should be intention-revealing (`title`, `intro`, `emptyState`, etc.).
 - JSON updates require `npm run lint` to ensure TypeScript types still align.
 - For dynamic lists (tips, filters), use arrays of objects with explicit keys (e.g., `{ "title": "", "body": "" }`).
 - When adjusting copy for filters or search, coordinate with developers to ensure UI components expect the same structure.
 
-## 9. Narzędzie tygodnia (toast)
+## 11. Narzędzie tygodnia (toast)
 
 - Dane narzędzi trzymamy w `data/tools.json`. Uzupełnij pola `description`, `affiliateUrl`, `readMorePath`, `image` dla narzędzi, które chcesz promować.
 - Aktualne „narzędzie tygodnia” ustawiamy, zmieniając `slug` w `data/tool-of-week.json`.
@@ -72,7 +87,7 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
 - Po zmianach uruchom `npm run lint` i sprawdź, czy toast wyświetla się na stronie (prawy dolny róg, na desktopie).
 - Dodaj wzmiankę w kanale contentowym, jeśli planujesz rotację narzędzia – toast jest widoczny na każdej stronie marketingowej.
 
-## 10. Preview & QA Checklist
+## 12. Preview & QA Checklist
 
 1. Run `source ~/.nvm/nvm.sh && npm run lint`.
 2. Optionally `npm run build` to confirm the search index picks up new entries.
@@ -83,7 +98,7 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
    - `/szukaj` – query returns new content with correct type labels.
 4. Capture any QA findings in `docs/operations/audit_checklist.md`.
 
-## 11. Publishing Process
+## 13. Publishing Process
 
 1. Set `draft: false` when ready to publish (content stays hidden while true).
 2. Commit Markdown/JSON changes and request review from dev + content lead.

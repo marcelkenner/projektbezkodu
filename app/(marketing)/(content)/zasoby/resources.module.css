@@ -1,0 +1,120 @@
+:global(.resources-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+:global(.resources-page__header) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.resources-page__filters) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.resources-page__grid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.resources-page__empty) {
+  display: grid;
+  place-items: center;
+  min-height: 12rem;
+  text-align: center;
+  color: var(--color-ink-muted);
+}
+
+:global(.resources-card) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  padding: var(--space-4);
+  background: #fff;
+  display: grid;
+  gap: var(--space-4);
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.resources-card__header) {
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.resources-card__icon) {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(79, 70, 229, 0.12);
+  color: var(--color-primary-strong);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+:global(.resources-card__meta) {
+  display: grid;
+  gap: var(--space-2);
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+:global(.resources-card__metaItem) {
+  display: inline-flex;
+  gap: var(--space-1);
+}
+
+:global(.resources-card__metaItem dt) {
+  font-weight: 600;
+}
+
+:global(.resources-card__metaItem dd) {
+  margin: 0;
+}
+
+:global(.resources-card__tags) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: 0;
+  list-style: none;
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-primary-strong);
+}
+
+:global(.resources-card__actions) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+:global(.resources-page__disclosure) {
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+@media (min-width: 48rem) {
+  :global(.resources-page__header) {
+    grid-template-columns: 1fr auto;
+    align-items: start;
+  }
+
+  :global(.resources-page__filters) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-3);
+    align-items: end;
+  }
+
+  :global(.resources-page__grid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  :global(.resources-page__filters) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

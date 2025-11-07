@@ -44,7 +44,9 @@ abstract class MarkdownRepository {
   }
 
   findBySlug(slug: string): MarkdownDocument | undefined {
-    return this.listVisibleDocuments().find((document) => document.slug === slug);
+    return this.listVisibleDocuments().find(
+      (document) => document.slug === slug,
+    );
   }
 
   protected createSummary(document: MarkdownDocument): ContentSummary {
@@ -64,31 +66,47 @@ abstract class MarkdownRepository {
 
   private listVisibleDocuments(): MarkdownDocument[] {
     const documents = this.loadDocuments();
-    const published = documents.filter((document) => !document.frontmatter.draft);
+    const published = documents.filter(
+      (document) => !document.frontmatter.draft,
+    );
     return published.length ? published : documents;
   }
 
   private loadDocuments(): MarkdownDocument[] {
-    return this.collectEntryPaths().map((entryPath) => this.readDocument(entryPath));
+    return this.collectEntryPaths().map((entryPath) =>
+      this.readDocument(entryPath),
+    );
   }
 
   private collectEntryPaths(): string[] {
     if (!fs.existsSync(this.absoluteBasePath)) {
       return [];
     }
-    const entries = fs.readdirSync(this.absoluteBasePath, { withFileTypes: true });
+    const entries = fs.readdirSync(this.absoluteBasePath, {
+      withFileTypes: true,
+    });
     const resolved: string[] = [];
 
     entries.forEach((entry) => {
       if (entry.isDirectory()) {
-        const directoryPath = path.join(this.absoluteBasePath, entry.name, "index.md");
+        const directoryPath = path.join(
+          this.absoluteBasePath,
+          entry.name,
+          "index.md",
+        );
         if (fs.existsSync(directoryPath)) {
           resolved.push(this.toRelativePath(directoryPath));
         }
         return;
       }
-      if (entry.isFile() && entry.name.endsWith(".md") && entry.name !== "index.md") {
-        resolved.push(this.toRelativePath(path.join(this.absoluteBasePath, entry.name)));
+      if (
+        entry.isFile() &&
+        entry.name.endsWith(".md") &&
+        entry.name !== "index.md"
+      ) {
+        resolved.push(
+          this.toRelativePath(path.join(this.absoluteBasePath, entry.name)),
+        );
       }
     });
 
@@ -118,7 +136,12 @@ abstract class MarkdownRepository {
   private createExcerpt(content: string, limit = 180): string {
     const firstParagraph = content
       .split(/\r?\n\s*\r?\n/)
-      .map((paragraph) => paragraph.replace(/[#>*`]/g, "").replace(/\[(.*?)\]\((.*?)\)/g, "$1").trim())
+      .map((paragraph) =>
+        paragraph
+          .replace(/[#>*`]/g, "")
+          .replace(/\[(.*?)\]\((.*?)\)/g, "$1")
+          .trim(),
+      )
       .filter(Boolean)
       .shift();
 
@@ -199,9 +222,7 @@ export class ArticleRepository extends MarkdownRepository {
       return related;
     }
 
-    return allArticles
-      .sort((a, b) => this.compareByDate(a, b))
-      .slice(0, limit);
+    return allArticles.sort((a, b) => this.compareByDate(a, b)).slice(0, limit);
   }
 
   private compareByDate(a: ContentSummary, b: ContentSummary): number {
@@ -260,6 +281,38 @@ export class GlossaryRepository extends MarkdownRepository {
   }
 
   getTerm(slug: string): MarkdownDocument | undefined {
+    return this.findBySlug(slug);
+  }
+}
+
+export class ResourceRepository extends MarkdownRepository {
+  constructor() {
+    super("content/zasoby");
+  }
+
+  override listSummaries(): ContentSummary[] {
+    return super
+      .listSummaries()
+      .sort((a, b) => a.title.localeCompare(b.title, "pl"));
+  }
+
+  getResource(slug: string): MarkdownDocument | undefined {
+    return this.findBySlug(slug);
+  }
+}
+
+export class CaseStudyRepository extends MarkdownRepository {
+  constructor() {
+    super("content/przypadki-uzycia");
+  }
+
+  override listSummaries(): ContentSummary[] {
+    return super
+      .listSummaries()
+      .sort((a, b) => a.title.localeCompare(b.title, "pl"));
+  }
+
+  getCaseStudy(slug: string): MarkdownDocument | undefined {
     return this.findBySlug(slug);
   }
 }

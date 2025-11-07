@@ -2,9 +2,9 @@
 
 ## Homepage
 
-- Hero section with gradient background, primary/secondary CTA, trust bar (`app/(marketing)/homepage/Hero.tsx`).
-- Sections: content categories (cards), stepper, comparison table, newsletter CTA, FAQ (`app/(marketing)/homepage/ContentSections.tsx`).
-- Reads hero/meta data from markdown via `app/(marketing)/page.tsx` using `readMarkdownFile` helper.
+- Hero section with primary/secondary CTA, microcopy disclosure, and responsive hero media (`app/(marketing)/homepage/HeroSection.tsx`).
+- Sections: social proof logos, pillars grid, workflow steps, latest articles, newsletter CTA (`app/(marketing)/homepage/HomepageSections.tsx`).
+- Reads SEO data from markdown via `app/(marketing)/page.tsx`, with copy sourced from `data/copy/homepage.json`.
 
 ## Template Detail Page
 
@@ -31,3 +31,33 @@
 - FAQ pattern: collapsible or static blocks using `pbk-stack` spacing.
 
 Document template-specific content in the `content/` directory using frontmatter that maps to these sections.
+
+## Blog Listing
+
+- Hero copy + sticky filter bar (`ArticlesFilterBar.tsx`) obejmujące wyszukiwarkę, kategorię, czas czytania i chipy tagów.
+- Lista kart artykułów (`ArticleCard.tsx`) z miniaturą 3:2, metadanymi, kategorią i CTA "Czytaj →".
+- Paginacja z rel="prev/next" i noindex od strony 2 (`ArticlesPagination.tsx`).
+- JSON-LD: CollectionPage + ItemList generowane w `app/(marketing)/(content)/artykuly/page.tsx`.
+
+## Artykuł (detail)
+
+- Breadcrumbs + meta (czas czytania, publikacja, aktualizacja, autor).
+- Ostrzeżenie o afiliacji (jeśli `meta.hasAffiliateLinks=true`).
+- Layout z kolumną artykułu i sticky TOC (`TableOfContents`).
+- Sekcja "Następny krok" z podwójnym CTA (primary + secondary).
+- Box autora z awatarem, bio i gridem powiązanych artykułów.
+- Nawigacja poprzedni/następny artykuł z rel="prev/next".
+
+## Kategoria (pillar hub)
+
+- Hubs korzystają z konfiguracji `data/copy/category-hubs.json`.
+- Skróty w formie `nav[aria-label="Skróty"]`, karty wyróżnionych treści + sekcja download CTA.
+- Lista wszystkich artykułów w kategorii, każda pozycja z ikoną i czasem czytania.
+- JSON-LD: CollectionPage + ItemList w `app/(marketing)/(content)/kategoria/[slug]/page.tsx`.
+
+## Legal pages
+
+- Wspólny layout (`app/(legal)/legal.css`) z nagłówkiem, małą datą `<time>` i blokiem kontaktowym.
+- Treść ładowana z Markdowna przez `MarkdownPageLoader` + `MarkdownRenderer`.
+- Polityka prywatności: sekcja tabelaryczna celów/podstaw prawnych, kontakt RODO.
+- Regulamin: definicje jako `<dl>`, sekcje newsletter, afiliacja, prawa autorskie, kontakt.

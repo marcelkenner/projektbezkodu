@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "category": "site-builders",
+    "pricing": "freemium",
+    "platform": "web",
+    "summary": "Builder stron no-code z CMS i hostingiem klasy enterprise.",
+    "guideHref": "/narzedzia/webflow/",
+    "siteHref": "https://webflow.com/?utm_source=projektbezkodu&utm_medium=affiliate&utm_campaign=webflow",
+    "affiliate": true,
+    "strengths": [
+      "Publikacja strony w kilka minut z hostingiem i SSL w cenie",
+      "Pełna kontrola nad strukturą HTML i dostępem do CMS",
+      "Bogata społeczność i biblioteka komponentów"
+    ],
+    "limitations": [
+      "Brak natywnego wsparcia dla wielu języków (wymaga integracji)",
+      "Plan CMS potrzebny przy większej ilości wpisów"
+    ],
+    "gettingStarted": [
+      "Załóż konto i wybierz plan Essentials lub CMS.",
+      "Skopiuj szablon lub zbuduj layout z biblioteką komponentów.",
+      "Podłącz domenę i skonfiguruj formularze oraz automatyzacje."
+    ],
+    "pricingTable": [
+      { "plan": "Starter", "amount": "0 zł", "period": "miesięcznie" },
+      { "plan": "CMS", "amount": "23$", "period": "miesięcznie" },
+      { "plan": "Business", "amount": "39$", "period": "miesięcznie" }
+    ],
+    "related": {
+      "compare": [
+        "/porownania/webflow-vs-wordpress/",
+        "/porownania/webflow-vs-framer/"
+      ],
+      "caseStudies": [
+        "/przypadki-uzycia/webflow-b2b/",
+        "/przypadki-uzycia/saas-b2b/"
+      ]
+    }
+  },
+  {
+    "slug": "framer",
+    "name": "Framer",
+    "category": "site-builders",
+    "pricing": "freemium",
+    "platform": "web",
+    "summary": "Framer to builder stron z naciskiem na animacje i szybkość wdrożeń.",
+    "guideHref": "/narzedzia/framer/",
+    "siteHref": "https://www.framer.com/?ref=projektbezkodu",
+    "affiliate": false,
+    "strengths": [
+      "Szybki edytor z gotowymi komponentami i trybem responsywnym",
+      "Wbudowane animacje i interakcje bez kodu",
+      "Świetne Core Web Vitals out-of-the-box"
+    ],
+    "limitations": [
+      "Ograniczone funkcje CMS w porównaniu do Webflow",
+      "Mniejszy ekosystem integracji"
+    ],
+    "gettingStarted": [
+      "Zarejestruj konto i wybierz darmowy plan.",
+      "Skopiuj szablon lub stwórz layout od zera.",
+      "Podłącz domenę i skonfiguruj analitykę."
+    ],
+    "pricingTable": [
+      { "plan": "Free", "amount": "0 zł", "period": "miesięcznie" },
+      { "plan": "Mini", "amount": "5$", "period": "miesięcznie" },
+      { "plan": "Pro", "amount": "20$", "period": "miesięcznie" }
+    ],
+    "related": {
+      "compare": ["/porownania/framer-vs-wordpress/"],
+      "caseStudies": ["/przypadki-uzycia/framer-landing/"]
+    }
+  },
+  {
+    "slug": "make",
+    "name": "Make",
+    "category": "automation",
+    "pricing": "freemium",
+    "platform": "web",
+    "summary": "Automatyzacje procesów marketingowych i sprzedażowych z wykorzystaniem Make.",
+    "guideHref": "/narzedzia/make/",
+    "siteHref": "https://www.make.com/en/register?pc=projektbezkodu",
+    "affiliate": true,
+    "strengths": [
+      "Interfejs wizualny z setkami integracji i modułów",
+      "Elastyczne scenariusze z filtrowaniem i iteracją",
+      "Konkurencyjne ceny przy wyższym zużyciu operacji"
+    ],
+    "limitations": [
+      "Wymaga zadbania o obsługę błędów i scenariusze awaryjne",
+      "Brak natywnych komponentów interfejsu użytkownika"
+    ],
+    "gettingStarted": [
+      "Załóż konto i wybierz plan Free lub Core.",
+      "Zbuduj pierwszy scenariusz na podstawie szablonu.",
+      "Przetestuj i włącz monitorowanie błędów."
+    ],
+    "pricingTable": [
+      { "plan": "Free", "amount": "0 zł", "period": "miesięcznie" },
+      { "plan": "Core", "amount": "9$", "period": "miesięcznie" },
+      { "plan": "Pro", "amount": "16$", "period": "miesięcznie" }
+    ],
+    "related": {
+      "compare": ["/porownania/softr-vs-glide-vs-bubble/"],
+      "caseStudies": ["/przypadki-uzycia/ngo/"]
+    }
+  }
+]

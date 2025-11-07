@@ -8,13 +8,20 @@ interface AffiliateProgram {
 }
 
 function flattenPrograms(): AffiliateProgram[] {
-  const categories = (affiliatePrograms as { categories?: Array<{ programs?: AffiliateProgram[] }> }).categories ?? [];
+  const categories =
+    (
+      affiliatePrograms as {
+        categories?: Array<{ programs?: AffiliateProgram[] }>;
+      }
+    ).categories ?? [];
   return categories.flatMap((category) => category.programs ?? []);
 }
 
 const PROGRAMS = flattenPrograms();
 
-export function getAffiliateProgram(slug: string): AffiliateProgram | undefined {
+export function getAffiliateProgram(
+  slug: string,
+): AffiliateProgram | undefined {
   return PROGRAMS.find((program) => program.slug === slug);
 }
 
@@ -26,7 +33,9 @@ export function getAffiliateLink(slug: string): string | undefined {
   if (program.trackingUrl) {
     return program.trackingUrl;
   }
-  const deeplink = program.links?.find((link) => link.type === "tracking" || link.type === "deeplink");
+  const deeplink = program.links?.find(
+    (link) => link.type === "tracking" || link.type === "deeplink",
+  );
   if (deeplink?.url) {
     return deeplink.url;
   }

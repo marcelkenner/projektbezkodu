@@ -1,0 +1,62 @@
+{
+  "fallback": {
+    "tocTitle": "Skróty",
+    "featuredHeading": "Zacznij od tych sekcji",
+    "featuredCtaLabel": "Czytaj →",
+    "download": {
+      "heading": "Checklista startu (PDF)",
+      "description": "Pobierz listę kontrolną, która pomoże Ci wdrożyć materiał w praktyce.",
+      "ctaLabel": "Pobierz PDF",
+      "ctaHref": "/do-pobrania",
+      "privacyLabel": "Polityka prywatności",
+      "privacyHref": "/polityka-prywatnosci"
+    }
+  },
+  "entries": {
+    "webflow-blog-krok-po-kroku": {
+      "tocTitle": "Sekcje tutorialu",
+      "featuredHeading": "Z czym połączyć",
+      "featuredCtaLabel": "Czytaj poradnik",
+      "featuredSlugs": ["automatyzacja-leadow-make", "framer-landing-2h"],
+      "download": {
+        "heading": "Checklisty publikacji bloga",
+        "description": "PDF z listą kontrolną SEO, dostępności i procesów publikacji.",
+        "ctaLabel": "Pobierz checklistę",
+        "ctaHref": "/zasoby/prawne-wzory/",
+        "privacyLabel": "Polityka prywatności",
+        "privacyHref": "/polityka-prywatnosci"
+      }
+    },
+    "framer-landing-2h": {
+      "tocTitle": "Skocz do sekcji",
+      "featuredHeading": "Co jeszcze warto wdrożyć",
+      "featuredCtaLabel": "Rozwiń umiejętność",
+      "featuredSlugs": [
+        "webflow-blog-krok-po-kroku",
+        "automatyzacja-leadow-make"
+      ],
+      "download": {
+        "heading": "Pakiet banerów kampanii",
+        "description": "Banery OG i miniatury do social mediów w stylu landingów kampanijnych.",
+        "ctaLabel": "Pobierz pakiet",
+        "ctaHref": "/zasoby/banery-og/",
+        "privacyLabel": "Polityka prywatności",
+        "privacyHref": "/polityka-prywatnosci"
+      }
+    },
+    "automatyzacja-leadow-make": {
+      "tocTitle": "Moduły scenariusza",
+      "featuredHeading": "Powiązane materiały",
+      "featuredCtaLabel": "Sprawdź",
+      "featuredSlugs": ["webflow-blog-krok-po-kroku", "framer-landing-2h"],
+      "download": {
+        "heading": "Szablon scenariusza Make",
+        "description": "Gotowy do importu blueprint scenariusza z enrichmentem i notyfikacjami.",
+        "ctaLabel": "Pobierz blueprint",
+        "ctaHref": "https://files.projektbezkodu.pl/resources/make-lead-automation.blueprint",
+        "privacyLabel": "Polityka prywatności",
+        "privacyHref": "/polityka-prywatnosci"
+      }
+    }
+  }
+}

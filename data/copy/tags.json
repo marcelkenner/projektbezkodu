@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "Tagi treści | ProjektBezKodu",
+    "description": "Przeglądaj artykuły ProjektBezKodu według tagów i tematów.",
+    "canonical": "https://projektbezkodu.pl/tagi/"
+  },
+  "hero": {
+    "title": "Tagi treści",
+    "intro": "Wybierz temat, który chcesz zgłębić. Każdy tag prowadzi do zestawu poradników i checklist."
+  },
+  "descriptions": {
+    "seo": "Artykuły o SEO i content marketingu dla stron no-code.",
+    "seo-podstawy": "Podstawy SEO, które możesz wdrożyć bez developera.",
+    "schema": "Dane strukturalne i schema.org dla Webflow i Framera.",
+    "audyt-techniczny": "Checklisty audytu technicznego i narzędzia pomiarowe.",
+    "mierzenie-ruchu": "Analityka, raporty i automatyzacje danych.",
+    "webflow": "Przewodniki po Webflow – CMS, komponenty, publikacja.",
+    "framer": "Szablony i best practices w Framerze.",
+    "automatyzacje": "Przepływy w Make i Zapierze, które przyspieszają marketing.",
+    "architektura-informacji": "Metody mapowania treści i struktury serwisu.",
+    "planowanie": "Procesy przygotowania wdrożenia i planowania backlogu.",
+    "procesy": "Operacje i współpraca zespołów w projektach no-code.",
+    "mapa-tresci": "Budowa i iteracja mapy treści dla stron i hubów.",
+    "core-web-vitals": "Wydajność i CWV dla projektów no-code.",
+    "lighthouse": "Analiza raportów Lighthouse i poprawa wyników.",
+    "cdn": "CDN, cache i konfiguracja obrazów.",
+    "statyczny-hosting": "Hostingi statyczne i konfiguracja domen."
+  }
+}

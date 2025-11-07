@@ -1,0 +1,53 @@
+{
+  "pages": {
+    "410": {
+      "seo": {
+        "title": "Treść została usunięta (410)",
+        "description": "Szukana treść została usunięta z serwisu ProjektBezKodu."
+      },
+      "hero": {
+        "title": "Ta treść została usunięta (410)",
+        "message": "Artykuł nie jest już dostępny. Sprawdź inne zasoby, które mogą Cię zainteresować."
+      },
+      "actions": [
+        {
+          "label": "Wróć na stronę główną",
+          "href": "/"
+        },
+        {
+          "label": "Przejdź do artykułów",
+          "href": "/artykuly"
+        }
+      ]
+    },
+    "451": {
+      "seo": {
+        "title": "Treść niedostępna z powodów prawnych (451)",
+        "description": "Wybrana treść nie może zostać pokazana ze względu na ograniczenia prawne."
+      },
+      "hero": {
+        "title": "Treść niedostępna z powodów prawnych (451)",
+        "message": "Ze względu na ograniczenia prawne nie możemy pokazać tej strony."
+      },
+      "actions": [
+        {
+          "label": "Skontaktuj się z nami",
+          "href": "/kontakt"
+        }
+      ]
+    },
+    "503": {
+      "seo": {
+        "title": "Przerwa techniczna (503)",
+        "description": "Serwis ProjektBezKodu jest chwilowo niedostępny. Spróbuj ponownie później."
+      },
+      "hero": {
+        "title": "Przerwa techniczna",
+        "message": "Wracamy około {time}. Spróbuj ponownie za chwilę."
+      },
+      "meta": {
+        "code": "503 • Spróbuj ponownie później."
+      }
+    }
+  }
+}

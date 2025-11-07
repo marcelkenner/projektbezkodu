@@ -1,0 +1,41 @@
+:global(.affiliate-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+:global(.affiliate-page__hero) {
+  max-width: 72ch;
+}
+
+:global(.affiliate-page__grid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.affiliate-page__card) {
+  background: #fff;
+  border-radius: var(--radii-md);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.affiliate-page__card ul) {
+  padding-left: 1.25rem;
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.affiliate-page__contact) {
+  background: rgba(79, 70, 229, 0.08);
+  border: none;
+}
+
+@media (min-width: 48rem) {
+  :global(.affiliate-page__grid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

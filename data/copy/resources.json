@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Zasoby i materiały do pracy bez kodu",
+    "description": "Checklisty, arkusze i szablony, które pomagają wdrażać projekty no-code szybciej i bez niespodzianek.",
+    "canonical": "https://projektbezkodu.pl/zasoby"
+  },
+  "hero": {
+    "title": "Zasoby i materiały",
+    "intro": "Pobierz gotowe checklisty, arkusze i katalogi. Filtruj po formacie, temacie lub czasie potrzebnym na wdrożenie."
+  },
+  "filters": {
+    "format": {
+      "label": "Format",
+      "allLabel": "Wszystkie formaty"
+    },
+    "topic": {
+      "label": "Temat",
+      "allLabel": "Wszystkie tematy"
+    },
+    "duration": {
+      "label": "Czas",
+      "allLabel": "Dowolny czas"
+    },
+    "submit": "Filtruj"
+  },
+  "cards": {
+    "downloadCta": "Pobierz",
+    "detailsCta": "Szczegóły",
+    "metaSeparator": "•",
+    "licensePrefix": "Licencja"
+  },
+  "emptyState": {
+    "noResources": "Biblioteka zasobów jest w przygotowaniu — zapisz się do newslettera, aby otrzymać powiadomienie.",
+    "noMatches": "Nie znaleziono zasobów dla wybranych filtrów. Zresetuj filtry lub sprawdź inny temat."
+  },
+  "detail": {
+    "file": {
+      "heading": "Informacje o pliku",
+      "sizeLabel": "Rozmiar",
+      "formatLabel": "Format",
+      "checksumLabel": "Checksum (SHA256)"
+    },
+    "sections": {
+      "contents": "Co zawiera",
+      "audience": "Dla kogo",
+      "usage": "Jak używać",
+      "license": "Licencja",
+      "versions": "Wersje"
+    },
+    "ctaLabel": "Pobierz zasób",
+    "topicsHeading": "Tematy"
+  },
+  "disclosure": "Ikony są dekoracyjne. Linki do zewnętrznych plików otwierają się w nowej karcie i są oznaczone rel=\"noopener\"."
+}

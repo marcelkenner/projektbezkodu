@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import type { ToolShowcase } from "@/app/lib/toolShowcase";
@@ -9,7 +9,9 @@ interface ToolOfWeekToastContainerProps {
   tool: ToolShowcase;
 }
 
-export function ToolOfWeekToastContainer({ tool }: ToolOfWeekToastContainerProps) {
+export function ToolOfWeekToastContainer({
+  tool,
+}: ToolOfWeekToastContainerProps) {
   const [open, setOpen] = useState(true);
 
   return open ? (
@@ -18,9 +20,13 @@ export function ToolOfWeekToastContainer({ tool }: ToolOfWeekToastContainerProps
     <button
       type="button"
       className="pbk-floating-toast__mini"
+      aria-label={`Otwórz narzędzie tygodnia: ${tool.label}`}
       onClick={() => setOpen(true)}
     >
-      Narzędzie tygodnia
+      <span className="pbk-floating-toast__miniEyebrow">
+        Narzędzie tygodnia
+      </span>
+      <span className="pbk-floating-toast__miniLabel">{tool.label}</span>
     </button>
   );
 }

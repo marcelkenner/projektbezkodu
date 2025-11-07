@@ -1,0 +1,62 @@
+:global(.newsletter-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+:global(.newsletter-page__card) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-lg);
+  padding: var(--space-5);
+  background: #fff;
+  box-shadow: var(--shadow-md);
+  display: grid;
+  gap: var(--space-4);
+  max-width: 640px;
+}
+
+:global(.newsletter-page__form) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.newsletter-page__topics) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.newsletter-page__topic) {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii-md);
+  padding: var(--space-3);
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.newsletter-page__actions) {
+  display: inline-flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+:global(.newsletter-page__info) {
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+:global(.newsletter-page__textarea) {
+  min-height: 160px;
+  resize: vertical;
+}
+
+:global(.newsletter-page__list) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+@media (min-width: 48rem) {
+  :global(.newsletter-page__list) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "seo": {
+    "title": "Ustawienia cookies | ProjektBezKodu",
+    "description": "Zarządzaj zgodami na pliki cookies w ProjekcieBezKodu. Wybierz, które kategorie chcesz aktywować.",
+    "canonical": "https://projektbezkodu.pl/cookies/"
+  },
+  "hero": {
+    "title": "Ustawienia cookies",
+    "intro": "Tu możesz zarządzać zgodami. W każdej chwili wrócisz do tego panelu z poziomu stopki."
+  },
+  "categories": {
+    "necessary": {
+      "label": "Niezbędne",
+      "description": "Zapewniają podstawowe działanie serwisu i zapis Twoich decyzji dotyczących prywatności."
+    },
+    "preferences": {
+      "label": "Preferencje",
+      "description": "Zapamiętują dodatkowe ustawienia (np. język), aby poprawić wygodę korzystania z serwisu."
+    },
+    "analytics": {
+      "label": "Analityczne",
+      "description": "Pozwalają nam anonimowo mierzyć ruch na stronie i rozwijać treści na podstawie zagregowanych danych."
+    },
+    "marketing": {
+      "label": "Marketingowe",
+      "description": "Ułatwiają dopasowanie komunikacji marketingowej i informowanie Cię o nowych materiałach."
+    }
+  },
+  "actions": {
+    "save": "Zapisz preferencje",
+    "acceptAll": "Akceptuj wszystkie",
+    "statusSaved": "Zapisano ustawienia.",
+    "statusError": "Nie udało się zapisać preferencji. Spróbuj ponownie."
+  },
+  "privacyLink": {
+    "label": "Polityka cookies i szczegóły dostawców",
+    "href": "/polityka-prywatnosci/"
+  }
+}

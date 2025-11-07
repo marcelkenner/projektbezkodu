@@ -3,7 +3,13 @@ import { Fragment } from "react";
 import type { JSX } from "react";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 
-type BlockType = "heading2" | "heading3" | "paragraph" | "unordered-list" | "ordered-list" | "blockquote";
+type BlockType =
+  | "heading2"
+  | "heading3"
+  | "paragraph"
+  | "unordered-list"
+  | "ordered-list"
+  | "blockquote";
 
 interface MarkdownBlock {
   type: BlockType;
@@ -50,7 +56,10 @@ export class MarkdownRenderer {
       .map((block) => this.parseBlock(block, slugCounts));
   }
 
-  private parseBlock(block: string, slugCounts: Map<string, number>): MarkdownBlock {
+  private parseBlock(
+    block: string,
+    slugCounts: Map<string, number>,
+  ): MarkdownBlock {
     if (block.startsWith("### ")) {
       const text = block.replace(/^###\s+/, "");
       return this.createHeadingBlock(text, "heading3", slugCounts);
@@ -124,7 +133,9 @@ export class MarkdownRenderer {
         return (
           <ul key={`ul-${key}`} className="pbk-stack pbk-stack--tight">
             {block.lines.map((line, index) => (
-              <li key={`ul-${key}-${index}`}>{this.renderInline(line, index)}</li>
+              <li key={`ul-${key}-${index}`}>
+                {this.renderInline(line, index)}
+              </li>
             ))}
           </ul>
         );
@@ -132,7 +143,9 @@ export class MarkdownRenderer {
         return (
           <ol key={`ol-${key}`} className="pbk-stack pbk-stack--tight">
             {block.lines.map((line, index) => (
-              <li key={`ol-${key}-${index}`}>{this.renderInline(line, index)}</li>
+              <li key={`ol-${key}-${index}`}>
+                {this.renderInline(line, index)}
+              </li>
             ))}
           </ol>
         );
@@ -140,43 +153,41 @@ export class MarkdownRenderer {
         return (
           <blockquote key={`quote-${key}`} className="pbk-card">
             {block.lines.map((line, index) => (
-              <p key={`quote-${key}-${index}`}>{this.renderInline(line, index)}</p>
+              <p key={`quote-${key}-${index}`}>
+                {this.renderInline(line, index)}
+              </p>
             ))}
           </blockquote>
         );
       default:
-        return (
-          <p key={`p-${key}`}>
-            {this.renderInline(block.lines[0], key)}
-          </p>
-        );
+        return <p key={`p-${key}`}>{this.renderInline(block.lines[0], key)}</p>;
     }
   }
 
   private renderInline(text: string, key: number): (JSX.Element | string)[] {
-    const tokens = text.split(/(\*\*[^*]+\*\*|_[^_]+_|`[^`]+`|\[[^\]]+\]\([^)]+\))/g);
+    const tokens = text.split(
+      /(\*\*[^*]+\*\*|_[^_]+_|`[^`]+`|\[[^\]]+\]\([^)]+\))/g,
+    );
     return tokens.filter(Boolean).map((token, index) => {
       if (token.startsWith("**") && token.endsWith("**")) {
         return (
-          <strong key={`strong-${key}-${index}`}>
-            {token.slice(2, -2)}
-          </strong>
+          <strong key={`strong-${key}-${index}`}>{token.slice(2, -2)}</strong>
         );
       }
 
       if (token.startsWith("_") && token.endsWith("_")) {
-        return (
-          <em key={`em-${key}-${index}`}>{token.slice(1, -1)}</em>
-        );
+        return <em key={`em-${key}-${index}`}>{token.slice(1, -1)}</em>;
       }
 
       if (token.startsWith("`") && token.endsWith("`")) {
-        return (
-          <code key={`code-${key}-${index}`}>{token.slice(1, -1)}</code>
-        );
+        return <code key={`code-${key}-${index}`}>{token.slice(1, -1)}</code>;
       }
 
-      if (token.startsWith("[") && token.includes("](") && token.endsWith(")")) {
+      if (
+        token.startsWith("[") &&
+        token.includes("](") &&
+        token.endsWith(")")
+      ) {
         const match = token.match(/^\[(.+?)\]\((.+?)\)$/);
         if (match) {
           const [, label, href] = match;

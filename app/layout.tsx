@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { KlaroConsentManager } from "./ui/KlaroConsentManager";
+import { ServiceWorkerRegistration } from "./ui/ServiceWorkerRegistration";
 import { inter, manrope, jetBrainsMono } from "./ui/fonts";
 
 export const viewport: Viewport = {
@@ -55,6 +57,8 @@ export default function RootLayout({
         className={`${inter.variable} ${manrope.variable} ${jetBrainsMono.variable} antialiased`}
       >
         {children}
+        <KlaroConsentManager />
+        <ServiceWorkerRegistration />
       </body>
     </html>
   );

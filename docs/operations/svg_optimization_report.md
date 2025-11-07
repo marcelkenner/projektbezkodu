@@ -4,11 +4,11 @@ Status: awaiting final artwork from design. Current SVG files in `brand/logo/` a
 
 ## 1. Current Inventory
 
-| File | Size | Notes |
-| ---- | ---- | ----- |
+| File                                    | Size    | Notes                          |
+| --------------------------------------- | ------- | ------------------------------ |
 | `brand/logo/logo-lockup-horizontal.svg` | 0 bytes | Placeholder – no vector paths. |
-| `brand/logo/logo-lockup-stacked.svg` | 0 bytes | Placeholder – no vector paths. |
-| `brand/logo/logo-wordmark-white.svg` | 0 bytes | Placeholder – no vector paths. |
+| `brand/logo/logo-lockup-stacked.svg`    | 0 bytes | Placeholder – no vector paths. |
+| `brand/logo/logo-wordmark-white.svg`    | 0 bytes | Placeholder – no vector paths. |
 
 ## 2. Required Inputs
 

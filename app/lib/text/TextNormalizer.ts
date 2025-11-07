@@ -5,9 +5,7 @@ export class TextNormalizer {
 
   static slugify(value: string): string {
     const normalized = TextNormalizer.normalize(value);
-    return normalized
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "");
+    return normalized.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
   }
 
   static toInitial(value: string): string {

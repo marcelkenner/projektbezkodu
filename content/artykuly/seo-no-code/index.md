@@ -16,11 +16,21 @@ seo:
     - "framer"
 meta:
   difficulty: null
-  duration: null
+  duration: "9 min"
   tools:
-    - webflow
-    - framer
-    - plausible
+    - Webflow
+    - Framer
+    - Plausible
+  author: "ola-kowalska"
+  updatedAt: "2025-01-08"
+  hasAffiliateLinks: true
+  primaryCta:
+    label: "Zobacz pakiet Surfer"
+    href: "/narzedzia/surfer/"
+    rel: "sponsored"
+  secondaryCta:
+    label: "Pobierz checklistę SEO"
+    href: "/do-pobrania/checklisty/seo-landing/"
 taxonomy:
   categories:
     - seo

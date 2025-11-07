@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "fallbackTitle": "Case study ProjektBezKodu",
+    "fallbackDescription": "Zobacz, jak projekty no-code dowożą wyniki dla firm w Polsce.",
+    "canonicalPrefix": "https://projektbezkodu.pl/przypadki-uzycia"
+  },
+  "hero": {
+    "breadcrumbs": {
+      "homeLabel": "Strona główna",
+      "listLabel": "Case studies",
+      "listHref": "/przypadki-uzycia"
+    }
+  },
+  "sections": {
+    "summary": "Streszczenie",
+    "problem": "Problem",
+    "solution": "Rozwiązanie",
+    "result": "Rezultat",
+    "metrics": "Wyniki w liczbach",
+    "stack": "Stack narzędzi",
+    "lessons": "Lekcje i rekomendacje"
+  },
+  "cta": {
+    "primaryLabel": "Umów konsultację",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Zobacz podobny projekt",
+    "secondaryHref": "/poradniki"
+  }
+}

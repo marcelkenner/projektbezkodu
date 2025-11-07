@@ -1,0 +1,119 @@
+:global(.tools-page) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+:global(.tools-page__intro) {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 72ch;
+}
+
+:global(.tools-page__filters) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.tools-page__grid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.tools-page__card) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  padding: var(--space-4);
+  background: #fff;
+  display: grid;
+  gap: var(--space-3);
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.tools-page__badge) {
+  display: inline-flex;
+  gap: var(--space-1);
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-primary-strong);
+}
+
+:global(.tools-page__actions) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+:global(.tools-detail__meta) {
+  display: inline-flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+:global(.tools-detail__section) {
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.tools-detail__list) {
+  padding-left: 1.25rem;
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.tools-detail__steps) {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.tools-detail__pricing) {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: var(--radii-md);
+  overflow: hidden;
+}
+
+:global(.tools-detail__pricing table) {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+:global(.tools-detail__pricing th),
+:global(.tools-detail__pricing td) {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+:global(.tools-detail__pricing thead) {
+  background: rgba(79, 70, 229, 0.08);
+}
+
+:global(.tools-detail__links) {
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.tools-detail__cta) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+:global(.tools-page__disclosure) {
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+@media (min-width: 48rem) {
+  :global(.tools-page__filters) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  :global(.tools-page__grid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

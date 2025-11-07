@@ -7,40 +7,57 @@ template: "legal"
 date: "2024-12-01"
 ---
 
-## 1. Postanowienia ogólne
+## Definicje
 
-1. Regulamin określa zasady korzystania z serwisu ProjektBezKodu dostępnego pod adresem projektbezkodu.pl.
-2. Korzystając z serwisu, akceptujesz postanowienia regulaminu oraz polityki prywatności.
-3. Operatorem serwisu jest ProjektBezKodu prowadzony przez Marcela Nowaka.
+<dl>
+  <dt>Serwis</dt>
+  <dd>Serwis internetowy ProjektBezKodu dostępny pod adresem projektbezkodu.pl.</dd>
+  <dt>Użytkownik</dt>
+  <dd>Osoba korzystająca z treści, narzędzi i zasobów udostępnionych w Serwisie.</dd>
+  <dt>Materiały</dt>
+  <dd>Artykuły, checklisty, szablony, kursy oraz inne publikacje dostępne w Serwisie.</dd>
+  <dt>Newsletter</dt>
+  <dd>List mailingowy wysyłany przez Administratora do osób zapisanych na listę adresową.</dd>
+  <dt>Linki partnerskie</dt>
+  <dd>Oznaczone odnośniki prowadzące do ofert partnerów, które mogą skutkować prowizją dla Administratora.</dd>
+</dl>
 
-## 2. Warunki korzystania
+## Postanowienia ogólne
 
-1. Treści dostępne w serwisie służą celom edukacyjnym i informacyjnym. Nie stanowią porad prawnych ani finansowych.
-2. Użytkownik zobowiązuje się korzystać z serwisu w sposób zgodny z prawem, dobrymi obyczajami oraz niniejszym regulaminem.
-3. Zabronione jest dostarczanie treści bezprawnych lub zakłócających funkcjonowanie serwisu.
+1. Regulamin określa zasady korzystania z Serwisu ProjektBezKodu.
+2. Korzystając z Serwisu, Użytkownik akceptuje Regulamin oraz Politykę prywatności.
+3. Operatorem Serwisu jest ProjektBezKodu prowadzony przez Marcela Nowaka.
 
-## 3. Newsletter i komunikacja
+## Korzystanie z serwisu
 
-1. Zapis do newslettera jest dobrowolny i wymaga podania adresu e-mail.
-2. Użytkownik może w każdej chwili zrezygnować z newslettera, korzystając z linku w wiadomości lub kontaktując się z administratorem.
+1. Serwis udostępnia treści edukacyjne oraz materiały do samodzielnego wykorzystania.
+2. Zabronione jest dostarczanie treści bezprawnych oraz działań zakłócających działanie Serwisu.
+3. Administrator może wstrzymać dostęp do Serwisu w przypadku naruszenia Regulaminu.
 
-## 4. Własność intelektualna
+## Newsletter
 
-1. Wszystkie materiały tekstowe, graficzne i multimedialne publikowane w serwisie stanowią własność ProjektBezKodu lub licencjodawców.
-2. Kopiowanie, udostępnianie i wykorzystywanie treści bez zgody jest zabronione, z wyjątkiem dozwolonego użytku osobistego.
+1. Zapis do Newslettera wymaga podania adresu e-mail oraz potwierdzenia zgody.
+2. Użytkownik może wypisać się z Newslettera w dowolnym momencie, korzystając z linku rezygnacji lub kontaktując się z Administratorem.
+3. Newsletter zawiera informacje o nowych materiałach, wydarzeniach oraz ofertach partnerów.
 
-## 5. Odpowiedzialność
+## Linki partnerskie i afiliacja
 
-1. Dokładamy starań, aby treści były aktualne i rzetelne, jednak nie ponosimy odpowiedzialności za skutki ich wykorzystania.
-2. Serwis może zawierać linki zewnętrzne. Nie odpowiadamy za treści publikowane na stronach zewnętrznych.
+1. W treściach Serwisu mogą pojawiać się linki partnerskie oznaczone jako "link sponsorowany" lub `rel="sponsored"`.
+2. Skorzystanie z linków partnerskich nie wpływa na cenę produktów lub usług po stronie Użytkownika.
+3. Środki z afiliacji przeznaczamy na rozwój treści edukacyjnych.
 
-## 6. Reklamacje
+## Prawa autorskie
 
-1. Uwagi i reklamacje dotyczące działania serwisu można zgłaszać na adres kontakt@projektbezkodu.pl.
-2. Reklamacje rozpatrujemy w terminie 14 dni roboczych od dnia ich otrzymania.
+1. Materiały opublikowane w Serwisie podlegają ochronie prawnej.
+2. Użytkownik może korzystać z Materiałów na własny użytek, z poszanowaniem praw autorskich.
+3. Cytowanie Materiałów wymaga wskazania źródła oraz linku do Serwisu.
 
-## 7. Postanowienia końcowe
+## Odpowiedzialność
 
-1. Regulamin podlega prawu polskiemu.
-2. Zastrzegamy sobie prawo do wprowadzania zmian w regulaminie. Informacje o zmianach będą publikowane na stronie.
-3. Regulamin wchodzi w życie z dniem 1 grudnia 2024 r.
+1. Administrator dokłada starań, aby Materiały były aktualne i rzetelne, jednak nie gwarantuje osiągnięcia określonych rezultatów.
+2. Serwis może zawierać odnośniki do zewnętrznych witryn, za których treść Administrator nie odpowiada.
+
+## Kontakt
+
+1. W sprawach dotyczących korzystania z Serwisu można kontaktować się pod adresem kontakt@projektbezkodu.pl.
+2. Korespondencję tradycyjną prosimy kierować na adres: ProjektBezKodu, ul. No-Code 10, 00-000 Warszawa.

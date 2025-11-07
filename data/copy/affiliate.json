@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "Zasady afiliacji ProjektBezKodu",
+    "description": "Zobacz, jak oznaczamy linki partnerskie, według jakich kryteriów dobieramy programy i gdzie zgłosić uwagi.",
+    "canonical": "https://projektbezkodu.pl/zasady-afiliacji"
+  },
+  "hero": {
+    "title": "Zasady afiliacji",
+    "intro": "Część naszych materiałów zawiera linki partnerskie. Nigdy nie wpływa to na cenę produktu ani na niezależność recenzji."
+  },
+  "sections": [
+    {
+      "heading": "Jak rozpoznasz link afiliacyjny",
+      "bullets": [
+        "Oznaczamy przyciski i linki etykietą „(sponsored)” lub opisem w tekście.",
+        "Każdy link partnerski otrzymuje rel=\"sponsored\" oraz rel=\"nofollow\".",
+        "Przy porównaniach i rankingach dołączamy notatkę o afiliacji."
+      ]
+    },
+    {
+      "heading": "Jak dobieramy partnerów",
+      "bullets": [
+        "Sprawdzamy stabilność firmy i plan cenowy dla polskiego rynku.",
+        "Testujemy produkt w realnych projektach — minimum 30 dni.",
+        "Weryfikujemy obsługę klienta i transparentność komunikacji."
+      ]
+    },
+    {
+      "heading": "Polityka recenzji",
+      "bullets": [
+        "Opinie są niezależne. Partnerzy nie mogą edytować treści.",
+        "Jeżeli materiał jest sponsorowany, oznaczamy to w pierwszym akapicie.",
+        "Negatywne doświadczenia dokumentujemy i aktualizujemy wpisy."
+      ]
+    }
+  ],
+  "contact": {
+    "intro": "Masz pytania dotyczące współpracy lub chcesz zgłosić błąd w opisie programu partnerskiego?",
+    "ctaLabel": "Napisz do nas",
+    "ctaHref": "/kontakt"
+  }
+}

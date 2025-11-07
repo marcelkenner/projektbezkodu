@@ -21,9 +21,11 @@ Przetwarzamy:
 
 ## 3. Cele i podstawy prawne przetwarzania
 
-- **Newsletter** – zgoda osoby zapisującej się (art. 6 ust. 1 lit. a RODO).
-- **Odpowiedź na zapytania** – uzasadniony interes administratora polegający na obsłudze korespondencji (art. 6 ust. 1 lit. f RODO).
-- **Analityka serwisu** – uzasadniony interes administratora związany z ulepszaniem treści i bezpieczeństwem (art. 6 ust. 1 lit. f RODO).
+| Cel przetwarzania                            | Podstawa prawna                                                                                                |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Newsletter i wysyłka materiałów edukacyjnych | zgoda osoby zapisującej się (art. 6 ust. 1 lit. a RODO)                                                        |
+| Odpowiedź na zapytania z formularzy          | uzasadniony interes administratora polegający na obsłudze korespondencji (art. 6 ust. 1 lit. f RODO)           |
+| Anonimowa analityka serwisu i bezpieczeństwo | uzasadniony interes administratora związany z ulepszaniem treści i ochroną serwisu (art. 6 ust. 1 lit. f RODO) |
 
 ## 4. Okres przechowywania danych
 

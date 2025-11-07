@@ -30,14 +30,22 @@ Last updated: 2024-12-09 by Codex.
 - [ ] Lighthouse performance run (desktop) – `npx --yes lighthouse http://localhost:3000 --preset=desktop --output=json --output-path=./docs/operations/reports/lighthouse-desktop.json`.
 - [ ] Record Core Web Vitals (LCP, CLS, INP) targets in dashboard.
 
-| Audit | Status | Date | Notes / Report |
-| ----- | ------ | ---- | -------------- |
-| Lighthouse (mobile) | ☐ | – | `docs/operations/reports/lighthouse-mobile.json` |
-| Lighthouse (desktop) | ☐ | – | `docs/operations/reports/lighthouse-desktop.json` |
-| Core Web Vitals log | ☐ | – | Link to dashboard / screenshot |
+| Audit                | Status | Date | Notes / Report                                    |
+| -------------------- | ------ | ---- | ------------------------------------------------- |
+| Lighthouse (mobile)  | ☐      | –    | `docs/operations/reports/lighthouse-mobile.json`  |
+| Lighthouse (desktop) | ☐      | –    | `docs/operations/reports/lighthouse-desktop.json` |
+| Core Web Vitals log  | ☐      | –    | Link to dashboard / screenshot                    |
 
 ## 5. Follow-up Actions
 
 1. Capture screenshots or recordings for any failing scenarios.
 2. File issues in the tracking board, referencing this checklist.
 3. Update this document with dates/results once audits are completed.
+
+## 6. New Surfaces (2024-12 rollout)
+
+- [ ] Resources hub (`/zasoby`) – sprawdź filtry (format/temat/czas), CTA pobierania i dane pliku (rozmiar, checksum).
+- [ ] Strony zasobów (`/zasoby/[slug]`) – verify Table of Contents, download CTA, sekcje „Licencja” i „Wersje”.
+- [ ] Case studies (`/przypadki-uzycia/[slug]`) – potwierdź breadcrumbs, metryki, CTA końcowe i hero image alt.
+- [ ] Offline fallback (`/offline`) – włącz tryb offline w devtools, upewnij się, że lista cache pobiera prerenderowane linki.
+- [ ] Strony statusowe (`/410`, `/451`, `/503`) – sprawdź copy, CTA i prawidłowe meta robots (noindex).

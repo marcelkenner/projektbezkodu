@@ -123,9 +123,7 @@ export default function TutorialsIndex({ searchParams }: TutorialsIndexProps) {
                     </div>
                   ) : null}
                   <h2>{tutorial.title}</h2>
-                  {tutorial.description ? (
-                    <p>{tutorial.description}</p>
-                  ) : null}
+                  {tutorial.description ? <p>{tutorial.description}</p> : null}
                   <div className="pbk-inline-list">
                     {tutorial.meta?.difficulty ? (
                       <Badge variant="accent">{tutorial.meta.difficulty}</Badge>
