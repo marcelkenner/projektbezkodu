@@ -1,11 +1,14 @@
 ---
-title: "Jotform Integracje"
+title: "Jotform – integracje"
 slug: "integracje"
 path: "/narzedzia/jotform/integracje/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Jotform – integracje z CRM-ami, newsletterami i automatyzacją"
+  subheading: "Łączę formularze z MailerLite, Zapier, Google Sheets czy CRM-em i ograniczam ręczne przepisywanie danych."
+seo:
+  title: "Jotform – integracje i przepływy automatyzacji"
+  description: "Przegląd integracji Jotform z popularnymi narzędziami marketingowymi i biznesowymi, plus przykładowe automatyzacje."
 ---
-
-# Jotform Integracje
-
-> Placeholder page for **Jotform Integracje** at $pathForFm.

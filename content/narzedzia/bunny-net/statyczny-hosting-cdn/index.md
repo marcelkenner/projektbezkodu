@@ -1,11 +1,14 @@
 ---
-title: "Bunny Net Statyczny Hosting Cdn"
+title: "Bunny.net – statyczny hosting na CDN-ie"
 slug: "statyczny-hosting-cdn"
 path: "/narzedzia/bunny-net/statyczny-hosting-cdn/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Bunny.net – statyczny hosting + CDN dla frontendu"
+  subheading: "Buduję statyczny front, wrzucam go do Bunny.net i mam szybki hosting z edge’owym CDN-em bez DevOps-u."
+seo:
+  title: "Bunny.net – statyczny hosting na edge CDN"
+  description: "Zobacz, jak użyć Bunny.net do hostowania statycznych stron i aplikacji SPA, z automatycznym cache i globalnym CDN."
 ---
-
-# Bunny Net Statyczny Hosting Cdn
-
-> Placeholder page for **Bunny Net Statyczny Hosting Cdn** at $pathForFm.

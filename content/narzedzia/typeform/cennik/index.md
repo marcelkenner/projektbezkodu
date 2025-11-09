@@ -1,11 +1,14 @@
 ---
-title: "Typeform Cennik"
+title: "Typeform – cennik"
 slug: "cennik"
 path: "/narzedzia/typeform/cennik/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Typeform – cennik przełożony na liczbę odpowiedzi"
+  subheading: "Rozkładam plany na limity odpowiedzi, zespoły i funkcje, żeby zobaczyć, kiedy Typeform się opłaca."
+seo:
+  title: "Typeform – cennik i opłacalność formularzy premium"
+  description: "Pokazuję, ile realnie kosztuje Typeform przy różnych wolumenach odpowiedzi i czy da się zejść z kosztami na niższy plan."
 ---
-
-# Typeform Cennik
-
-> Placeholder page for **Typeform Cennik** at $pathForFm.

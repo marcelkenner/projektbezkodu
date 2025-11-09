@@ -1,11 +1,14 @@
 ---
-title: "Aweber Recenzja"
+title: "AWeber – recenzja"
 slug: "recenzja"
 path: "/narzedzia/aweber/recenzja/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "AWeber – recenzja z perspektywy małej firmy i blogera"
+  subheading: "Sprawdzam, czy „klasyk” rynku email marketingu wciąż dowozi pod kątem deliverability, prostoty i ceny."
+seo:
+  title: "AWeber – recenzja w praktycznym użyciu"
+  description: "Analizuję AWeber: wygodę edytora, jakość szablonów, automatyzacje oraz czy opłaca się w porównaniu z młodszą konkurencją."
 ---
-
-# Aweber Recenzja
-
-> Placeholder page for **Aweber Recenzja** at $pathForFm.

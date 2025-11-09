@@ -1,11 +1,14 @@
 ---
-title: "Beehiiv Faq"
+title: "beehiiv – FAQ"
 slug: "faq"
 path: "/narzedzia/beehiiv/faq/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "beehiiv – najczęstsze pytania o start i migrację"
+  subheading: "Jak przenieść listę, co z płatnymi subskrypcjami, własną domeną, RODO i integracjami."
+seo:
+  title: "beehiiv – FAQ dla osób przenoszących newsletter"
+  description: "Zbieram odpowiedzi na praktyczne pytania o beehiiv: migracja, konfiguracja domeny, rozliczenia, limity i współpraca z reklamodawcami."
 ---
-
-# Beehiiv Faq
-
-> Placeholder page for **Beehiiv Faq** at $pathForFm.

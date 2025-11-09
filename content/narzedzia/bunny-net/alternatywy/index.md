@@ -1,11 +1,14 @@
 ---
-title: "Bunny Net Alternatywy"
+title: "Bunny.net – alternatywy"
 slug: "alternatywy"
 path: "/narzedzia/bunny-net/alternatywy/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Alternatywy dla Bunny.net – kiedy warto wybrać inny CDN"
+  subheading: "Porównuję Bunny.net z większymi i mniejszymi CDN-ami pod kątem ceny, panelu, edge locations i dodatkowych usług."
+seo:
+  title: "Bunny.net – przegląd alternatyw CDN"
+  description: "Zobacz, kiedy Bunny.net jest najlepszą opcją, a kiedy lepiej postawić na inny CDN lub cloudowe rozwiązanie operatora."
 ---
-
-# Bunny Net Alternatywy
-
-> Placeholder page for **Bunny Net Alternatywy** at $pathForFm.

@@ -1,11 +1,14 @@
 ---
-title: "Aweber Cennik"
+title: "AWeber – cennik"
 slug: "cennik"
 path: "/narzedzia/aweber/cennik/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "AWeber – cennik i realne koszty newslettera"
+  subheading: "Rozpisuję darmowy i płatne plany na liczbę subskrybentów oraz funkcje, które odblokowują."
+seo:
+  title: "AWeber – cennik i opłacalność dla małych firm"
+  description: "Jak AWeber wypada cenowo na tle innych narzędzi, gdzie zaczynają się limity i kiedy dopłata do wyższego planu ma sens."
 ---
-
-# Aweber Cennik
-
-> Placeholder page for **Aweber Cennik** at $pathForFm.

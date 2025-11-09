@@ -1,11 +1,14 @@
 ---
-title: "Getresponse Faq"
+title: "GetResponse – FAQ"
 slug: "faq"
 path: "/narzedzia/getresponse/faq/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "GetResponse – odpowiedzi na najczęstsze pytania"
+  subheading: "Jak działa rozliczanie za kontakty, co z RODO, integracjami i przeniesieniem automatyzacji z innego systemu."
+seo:
+  title: "GetResponse – FAQ dla osób testujących platformę"
+  description: "Zbieram praktyczne odpowiedzi o GetResponse: od pierwszej konfiguracji, przez import listy, po wsparcie techniczne i anulowanie planu."
 ---
-
-# Getresponse Faq
-
-> Placeholder page for **Getresponse Faq** at $pathForFm.
