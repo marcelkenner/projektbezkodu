@@ -12,6 +12,7 @@ seo:
   title: "Unbounce – cennik i opłacalność"
   description: "Analizuję ceny Unbounce: które plany mają sens przy Twoim ruchu, budżecie i liczbie kampanii."
 ---
+
 # Unbounce – cennik i realne koszty
 
 Ceny Unbounce na pierwszy rzut oka wyglądają wysoko, ale ważniejsze jest pytanie:
@@ -33,4 +34,3 @@ Przy większym ruchu i stałych kampaniach nawet niewielki wzrost konwersji moż
 Przy pojedynczym projekcie rocznie – często lepiej sięgnąć po tańszą alternatywę.
 
 W dalszej części strony rozpisuję konkretne scenariusze (budżety, wolumen ruchu), dla których Unbounce ma lub nie ma sensu.
-

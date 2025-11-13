@@ -25,15 +25,15 @@ Ten playbook to szkic strony sprzedażowej, który możesz użyć dla kursów z 
 
 **H1:**
 
-> *Kurs online: {nazwa efektu} – dla {konkretna grupa}*
+> _Kurs online: {nazwa efektu} – dla {konkretna grupa}_
 
 Przykład:
 
-> *Kurs online: Analityka dla twórców – dla newsletterów, blogów i małych SaaS-ów*
+> _Kurs online: Analityka dla twórców – dla newsletterów, blogów i małych SaaS-ów_
 
 **Podtytuł:**
 
-> *Ułożysz prosty system mierzenia wyników swoich działań, bez doktoratu z GA4. Od „ile mam wejść” do „co mam zmienić, żeby zarabiać więcej”.*
+> _Ułożysz prosty system mierzenia wyników swoich działań, bez doktoratu z GA4. Od „ile mam wejść” do „co mam zmienić, żeby zarabiać więcej”._
 
 CTA:
 
@@ -57,12 +57,12 @@ Jeden z najważniejszych bloków.
 
 Przykład:
 
-> *Dla kogo jest ten kurs?*  
+> _Dla kogo jest ten kurs?_  
 > – prowadzisz newsletter / mały SaaS i chcesz wiedzieć, co działa, a co nie,  
 > – masz dość wpatrywania się w GA4 bez wniosków,  
 > – lubisz działać samodzielnie, ale potrzebujesz ścieżki.
 
-> *Dla kogo to NIE jest?*  
+> _Dla kogo to NIE jest?_  
 > – jeśli szukasz kogoś, kto „zrobi analitykę za Ciebie”,  
 > – jeśli działasz w dużym enterprise z własnym działem BI.
 
@@ -80,12 +80,13 @@ Przykład:
 
 > **Moduł 2: Ustalenie celów i KPI**  
 > Po tym module będziesz wiedzieć, jakie 3 liczby są dla Ciebie kluczowe i jak je mierzyć.
-> 
+>
 > Lekcje:
+>
 > - Jak przełożyć cele biznesowe na liczby.
 > - Dobór KPI dla newslettera / SaaS / kursu.
 > - Checklista: co musisz mierzyć, żeby mieć sensowny dashboard.
-> 
+>
 > Rezultat:  
 > Gotowa lista KPI i wskaźników pomocniczych dla Twojego biznesu.
 
@@ -102,7 +103,7 @@ Sekcja „Jak to działa”:
 
 Przykład microcopy:
 
-> *Lekcje są krótkie (5–20 minut), tak żebyś mógł/mogła przerobić je między innymi obowiązkami. Do każdej lekcji dostajesz checklistę lub szablon do użycia u siebie.*
+> _Lekcje są krótkie (5–20 minut), tak żebyś mógł/mogła przerobić je między innymi obowiązkami. Do każdej lekcji dostajesz checklistę lub szablon do użycia u siebie._
 
 ---
 
@@ -114,7 +115,7 @@ Przykład microcopy:
 
 Przykład:
 
-> *„Zanim kupiłam kurs, miałam Excela z 20 wierszami danych. Po kursie mam prosty dashboard, który co tydzień mówi mi, co poprawić. Po 3 miesiącach przychody z newslettera wzrosły o 40%.”* – Kasia, kursy online
+> _„Zanim kupiłam kurs, miałam Excela z 20 wierszami danych. Po kursie mam prosty dashboard, który co tydzień mówi mi, co poprawić. Po 3 miesiącach przychody z newslettera wzrosły o 40%.”_ – Kasia, kursy online
 
 ---
 
@@ -130,7 +131,7 @@ Sekcja Q&A / FAQ:
 
 Przykład microcopy:
 
-> *„Nie musisz być technicznym ninja. Jeśli potrafisz korzystać z przeglądarki i podstawowych narzędzi (Gmail, Google Sheets), dasz radę.”*
+> _„Nie musisz być technicznym ninja. Jeśli potrafisz korzystać z przeglądarki i podstawowych narzędzi (Gmail, Google Sheets), dasz radę.”_
 
 ---
 
@@ -169,6 +170,6 @@ Nawet jeśli kurs jest 100% online, możesz grać lokalnie:
 
 Dodaj sekcję:
 
-> *„Dla kogo jest ten kurs lokalnie?”* – i opisz, że choć wszystko jest online, to np. pracujesz głównie z osobami z Polski, strefy czasowej itd.
+> _„Dla kogo jest ten kurs lokalnie?”_ – i opisz, że choć wszystko jest online, to np. pracujesz głównie z osobami z Polski, strefy czasowej itd.
 
 Dzięki temu strona może długo zbierać ruch z długiego ogona i ciągle sprzedawać kurs – niezależnie od kolejnych launchy.

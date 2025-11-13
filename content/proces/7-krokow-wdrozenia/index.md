@@ -11,7 +11,7 @@ date: "2025-11-05"
 # 7 kroków wdrożenia – od briefu do deploy'u
 
 Większość projektów nie rozjeżdża się przez „technologię”, tylko przez brak prostego, wspólnego procesu.  
-Ten przewodnik układa wdrożenie strony / produktu w **7 czytelnych kroków** – od pierwszego briefu po pierwsze deploye na produkcję. :contentReference[oaicite:0]{index=0}  
+Ten przewodnik układa wdrożenie strony / produktu w **7 czytelnych kroków** – od pierwszego briefu po pierwsze deploye na produkcję. :contentReference[oaicite:0]{index=0}
 
 Możesz traktować to jako:
 
@@ -146,7 +146,7 @@ Bez tego projekt zamienia się w „ładny layout, ale nie wiadomo, co tam ma by
 
 **Cel:** upewnić się, że to, co działa „u devów”, działa realnie w przeglądarce użytkownika.
 
-Porządny QA obejmuje kilka warstw: :contentReference[oaicite:1]{index=1}  
+Porządny QA obejmuje kilka warstw: :contentReference[oaicite:1]{index=1}
 
 - **Treść i UI**
   - spójność nagłówków, fontów, spacingu,

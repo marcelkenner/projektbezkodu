@@ -16,7 +16,7 @@ Ta strona to **katalog** szkieletów briefów, które możesz rozwijać jako oso
 - osobne briefy dla usług, SaaS, e-commerce, kursów, NGO, marek osobistych,
 - wspólny trzon + pytania specyficzne dla danej branży.
 
-Większość frameworków projektowych zaczyna się od porządnego briefu – to Twój fundament pod proces discovery i projekt. :contentReference[oaicite:8]{index=8}  
+Większość frameworków projektowych zaczyna się od porządnego briefu – to Twój fundament pod proces discovery i projekt. :contentReference[oaicite:8]{index=8}
 
 ---
 
@@ -50,7 +50,7 @@ Większość frameworków projektowych zaczyna się od porządnego briefu – to
 
 **Sekcja 4 – Oferta / produkt**
 
-- Co konkretnie sprzedajecie (usługa, produkt, subskrypcja, kurs…)?  
+- Co konkretnie sprzedajecie (usługa, produkt, subskrypcja, kurs…)?
 - Czym różnicie się od 2–3 największych konkurentów?
 - Jak wygląda typowa ścieżka od pierwszego kontaktu do zakupu?
 
@@ -149,7 +149,7 @@ Dodatkowe sekcje:
 **B. Uczestnicy**
 
 - Co robią zawodowo?
-- Jakie mają doświadczenie i bariery („nie znam się na analityce”, „boję się technikaliów”…)?  
+- Jakie mają doświadczenie i bariery („nie znam się na analityce”, „boję się technikaliów”…)?
 - Jakie efekty chcą osiągnąć po kursie?
 
 **C. Sprzedaż i kampanie**

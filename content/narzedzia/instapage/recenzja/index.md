@@ -12,6 +12,7 @@ seo:
   title: "Instapage – recenzja pod kątem performance'u"
   description: "Oceniam Instapage z perspektywy wyników: szybkość działania, testy, analityka i komfort pracy przy większych projektach."
 ---
+
 # Instapage – recenzja
 
 W przypadku Instapage interesuje mnie jedno:  
@@ -30,4 +31,3 @@ czy narzędzie pomaga wycisnąć **więcej z tego samego budżetu reklamowego**.
 - funkcje przydatne w pracy zespołowej.
 
 W recenzji rozpisuję, kiedy ta cięższa artyleria naprawdę się przydaje, a kiedy przepłacasz za funkcje, których nie wykorzystasz.
-

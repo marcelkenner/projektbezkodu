@@ -1,0 +1,17 @@
+.contentPagePath {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.contentPageLead {
+  font-size: 1.125rem;
+  color: var(--color-ink-muted);
+  max-width: var(--measure);
+}
+
+.contentPageMeta {
+  color: var(--color-ink-muted);
+  font-size: 0.875rem;
+}

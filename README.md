@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProjektBezKodu
 
-## Getting Started
+Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 design tokens with a markdown-first content pipeline so non-devs can ship pages without touching React.
 
-First, run the development server:
+## Quick Start
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. `source ~/.nvm/nvm.sh && npm install`
+2. `npm run dev` – starts the site on `http://localhost:3000`
+3. `npm run content:lint` – validates every `content/**/*.md` front matter. This now runs automatically before `npm run build`.
+4. `npm run build && npm run start` – production preview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> **Note:** run all shell commands with `source ~/.nvm/nvm.sh && …` per repository policy.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project self-hosts Manrope, Inter, and JetBrains Mono via [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with locally stored `.woff2` files under `public/fonts/`.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Next.js dev server with mobile-first layout defaults |
+| `npm run build` | Production build (runs `content:lint` first) |
+| `npm run start` | Serve the production build |
+| `npm run lint` | ESLint |
+| `npm run content:lint` | Scans every markdown file via `gray-matter` to catch invalid YAML before runtime |
+| `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`) |
+| `npm run svg:optimize` | Optimises brand SVGs via SVGO |
 
-## Learn More
+## Content Workflow
 
-To learn more about Next.js, take a look at the following resources:
+All markdown lives under `content/**`. Each file **must**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Start with a single front-matter block wrapped by `---` and `---`.
+2. Use unique top-level keys; nest alternatives under `hero.*`, `seo.*`, `taxonomy.*`, etc.
+3. Indent nested maps (YAML is whitespace-sensitive).
+4. Quote strings that contain `:` or special characters.
+5. Reference taxonomy slugs that exist in `data/copy/articles.json`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Because the generic renderer preloads every markdown file, a single malformed front matter block can break the site. Run `npm run content:lint` locally (it executes automatically on `npm run build`) to catch errors early. The script lists each offending file plus the YAML parser message so you know what to fix.
 
-## Deploy on Vercel
+## Articles Copy & Taxonomy (`data/copy/articles.json`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This JSON file drives:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Articles listing copy (hero text, filters, empty states, pagination).
+- Allowed taxonomy categories/tags (and labels/descriptions) resolved by `ArticleTaxonomyCatalog`.
+- Ancillary UIs such as article cards in `app/(marketing)/(content)/artykuly` and author/tag routes.
+
+You can expand the file with new UI copy or taxonomy terms as needed:
+
+- Slugs must stay unique and become the authoritative values for markdown `taxonomy.categories` and `taxonomy.tags`.
+- Keep the structure documented in `docs/brand/frontmatter_schema.md`; add new keys only when components/readers consume them.
+- If the file approaches ~400 lines, split large sections (e.g., taxonomy, authors) into dedicated JSON files and update `getCopy` accordingly.
+
+## Documentation
+
+- `docs/website_repro_playbook.md` – canonical process manual (update whenever workflows change).
+- `docs/glossary_todo.md` – open plan for the glossary refactor.
+- `content/AGENTS.md`, `data/AGENTS.md`, etc. – directory-level guardrails.
+
+All documentation must stay under 500 lines per repo policy and follow the mobile-first mindset outlined in `AGENTS.md`.

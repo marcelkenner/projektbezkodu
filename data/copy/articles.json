@@ -77,33 +77,20 @@
   },
   "authors": [
     {
-      "slug": "marcel-nowak",
-      "name": "Marcel Nowak",
+      "slug": "marcel-kenner",
+      "name": "Marcel Kenner",
       "bio": "Strateg i konsultant no-code. Łączy zespoły marketingu, sprzedaży i operacji, budując procesy lead generation bez kodu.",
       "avatar": "/img/authors/marcel-nowak.webp",
       "links": [
         {
           "label": "LinkedIn",
-          "href": "https://www.linkedin.com/in/marcel-nowak/",
+          "href": "https://www.linkedin.com/in/marcel-kenner/",
           "rel": "me noopener"
         },
         {
           "label": "Strona",
           "href": "https://projektbezkodu.pl/",
           "rel": "noopener"
-        }
-      ]
-    },
-    {
-      "slug": "ola-kowalska",
-      "name": "Ola Kowalska",
-      "bio": "Specjalistka SEO i contentu. Optymalizuje strony Webflow i Framer tak, by łączyły wysoki wynik CWV z konwersją.",
-      "avatar": "/img/authors/ola-kowalska.webp",
-      "links": [
-        {
-          "label": "LinkedIn",
-          "href": "https://www.linkedin.com/in/olakowalska/",
-          "rel": "me noopener"
         }
       ]
     }

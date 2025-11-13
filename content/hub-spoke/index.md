@@ -1,5 +1,5 @@
-<!-- /content/hub-spoke/index.md -->
----
+## <!-- /content/hub-spoke/index.md -->
+
 title: "Strategia hub & spoke – jak budować klastry tematyczne"
 slug: "hub-spoke"
 path: "/content/hub-spoke/"
@@ -7,6 +7,7 @@ type: "guide"
 tags: ["evergreen", "content", "seo"]
 draft: true
 date: "2025-11-05"
+
 ---
 
 # Strategia hub & spoke – jak budować klastry tematyczne
@@ -14,7 +15,7 @@ date: "2025-11-05"
 „Napiszmy więcej artykułów” to nie jest strategia contentowa.  
 Lepsze pytanie: **„Z jakiego tematu chcemy być znani?”** – i tu wchodzi podejście **hub & spoke**.
 
-W skrócie: tworzysz **stronę-hub** (pillar) na szeroki temat, a wokół niej **sieć artykułów-spokes**, które wgryzają się w węższe frazy i problemy. Wszystko jest logicznie połączone linkami i buduje autorytet wokół jednego obszaru. :contentReference[oaicite:1]{index=1}  
+W skrócie: tworzysz **stronę-hub** (pillar) na szeroki temat, a wokół niej **sieć artykułów-spokes**, które wgryzają się w węższe frazy i problemy. Wszystko jest logicznie połączone linkami i buduje autorytet wokół jednego obszaru. :contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -42,12 +43,11 @@ Kilka realnych korzyści:
 
 2. **Spokes (artykuły satelitarne)**  
    Każdy spoke bierze **węższy temat** i robi go porządnie:
-
    - „Jak ustawić eventy w GA4 w SaaS B2B”,
    - „Sekwencja powitalna w MailerLite – przykład z komentarzem”,
    - „Kalendarz 12-tyg. dla kursów online”.
 
-3. **Linkowanie wewnętrzne**  
+3. **Linkowanie wewnętrzne**
    - hub → wszystkie spokes,
    - spokes → hub,
    - spokes między sobą, jeśli są mocno powiązane.
@@ -133,7 +133,7 @@ Zaznacz priorytety: **P1** – od razu, **P2** – jak ogarniesz fundament.
 
 - linków typu „kliknij tutaj” bez kontekstu,
 - 30 linków obok siebie w jednym akapicie,
-- sytuacji, w której **hub nie ma żadnej wartości sam w sobie** (jest tylko spisem linków) – Google i użytkownicy tego nie lubią. :contentReference[oaicite:2]{index=2}  
+- sytuacji, w której **hub nie ma żadnej wartości sam w sobie** (jest tylko spisem linków) – Google i użytkownicy tego nie lubią. :contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -180,18 +180,19 @@ Możesz użyć tego układu jako „karty projektu” dla każdego klastra:
 **Hub (URL + główna teza):**  
 …
 
-**Sekcje na hubie (H2):**  
-1. …  
-2. …  
+**Sekcje na hubie (H2):**
+
+1. …
+2. …
 3. …
 
 **Lista spokes:**
 
-| Priorytet | Tytuł roboczy                        | Docelowy URL                     | Status  |
-|-----------|--------------------------------------|----------------------------------|---------|
-| P1        |                                      |                                  | idea    |
-| P1        |                                      |                                  | idea    |
-| P2        |                                      |                                  | idea    |
+| Priorytet | Tytuł roboczy | Docelowy URL | Status |
+| --------- | ------------- | ------------ | ------ |
+| P1        |               |              | idea   |
+| P1        |               |              | idea   |
+| P2        |               |              | idea   |
 
 **Linkowanie i CTA:**
 

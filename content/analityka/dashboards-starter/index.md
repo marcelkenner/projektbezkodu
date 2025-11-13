@@ -128,12 +128,12 @@ Minimum:
 
 - tabela „Kanały”:
 
-| Kanał        | Sesje | Konwersje (cel) | Konwersja % | Przychód / wartość | CAC / koszt (jeśli dotyczy) |
-|--------------|-------|-----------------|-------------|--------------------|-----------------------------|
-| organic      | …     | …               | …           | …                  | …                           |
-| paid_search  | …     | …               | …           | …                  | …                           |
-| paid_social  | …     | …               | …           | …                  | …                           |
-| email        | …     | …               | …           | …                  | …                           |
+| Kanał       | Sesje | Konwersje (cel) | Konwersja % | Przychód / wartość | CAC / koszt (jeśli dotyczy) |
+| ----------- | ----- | --------------- | ----------- | ------------------ | --------------------------- |
+| organic     | …     | …               | …           | …                  | …                           |
+| paid_search | …     | …               | …           | …                  | …                           |
+| paid_social | …     | …               | …           | …                  | …                           |
+| email       | …     | …               | …           | …                  | …                           |
 
 - segmenty:
   - nowe vs powracające,

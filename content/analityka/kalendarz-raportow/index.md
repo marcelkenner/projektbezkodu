@@ -53,11 +53,11 @@ Wychwycić problemy zanim rozleją się po miesiącu i zdecydować o szybkich ko
 
 **Template:**
 
-| Pytanie                                                | Dane / raport                 | Notatki / decyzje                             |
-|--------------------------------------------------------|-------------------------------|-----------------------------------------------|
-| Czy któryś kanał nagle „umarł” lub wystrzelił?         | performance kanałów           | …                                             |
-| Czy kampanie płatne dowożą konwersje po sensownym koszcie? | dashboard paid                | …                                             |
-| Czy są „dziury” w lejku (np. spadek CTR, gorsza konwersja)? | funnel WWW / produkt          | …                                             |
+| Pytanie                                                     | Dane / raport        | Notatki / decyzje |
+| ----------------------------------------------------------- | -------------------- | ----------------- |
+| Czy któryś kanał nagle „umarł” lub wystrzelił?              | performance kanałów  | …                 |
+| Czy kampanie płatne dowożą konwersje po sensownym koszcie?  | dashboard paid       | …                 |
+| Czy są „dziury” w lejku (np. spadek CTR, gorsza konwersja)? | funnel WWW / produkt | …                 |
 
 ---
 
@@ -94,12 +94,12 @@ Zrozumieć, **dlaczego** wyniki są takie, jakie są i zaplanować kolejne ekspe
 
 **Template:**
 
-| Sekcja           | 2–3 kluczowe liczby       | Wnioski                           | Decyzje / działania na kolejny miesiąc        |
-|------------------|---------------------------|-----------------------------------|-----------------------------------------------|
-| KPI biznesowe    | …                         | …                                 | …                                             |
-| Kanały pozyskania| …                         | …                                 | …                                             |
-| Lejek / produkt  | …                         | …                                 | …                                             |
-| Eksperymenty     | …                         | …                                 | …                                             |
+| Sekcja            | 2–3 kluczowe liczby | Wnioski | Decyzje / działania na kolejny miesiąc |
+| ----------------- | ------------------- | ------- | -------------------------------------- |
+| KPI biznesowe     | …                   | …       | …                                      |
+| Kanały pozyskania | …                   | …       | …                                      |
+| Lejek / produkt   | …                   | …       | …                                      |
+| Eksperymenty      | …                   | …       | …                                      |
 
 ---
 
@@ -126,11 +126,11 @@ Wyjść poza bieżączkę i zdecydować **co przestajemy robić, a co robimy moc
 
 **Template:**
 
-| Obszar        | Co działało w tym kwartale?             | Co nie zadziałało?                    | Co robimy w następnym kwartale?           |
-|---------------|------------------------------------------|---------------------------------------|-------------------------------------------|
-| Marketing     | …                                        | …                                     | …                                         |
-| Produkt       | …                                        | …                                     | …                                         |
-| Sprzedaż      | …                                        | …                                     | …                                         |
+| Obszar    | Co działało w tym kwartale? | Co nie zadziałało? | Co robimy w następnym kwartale? |
+| --------- | --------------------------- | ------------------ | ------------------------------- |
+| Marketing | …                           | …                  | …                               |
+| Produkt   | …                           | …                  | …                               |
+| Sprzedaż  | …                           | …                  | …                               |
 
 ---
 
@@ -138,13 +138,13 @@ Wyjść poza bieżączkę i zdecydować **co przestajemy robić, a co robimy moc
 
 Do skopiowania jako jedna tabela (np. do Notion):
 
-| Częstotliwość | Nazwa spotkania / raportu        | Odbiorcy                         | Główne pytania                                  | Dane wejściowe                     | Właściciel |
-|---------------|-----------------------------------|----------------------------------|-------------------------------------------------|------------------------------------|-----------|
-| Tygodniowa    | Weekly performance marketingu     | Growth, Founder                  | Czy coś się „psuje”? Co optymalizujemy?        | dashboard kanałów, lejki, GA4     | Growth    |
-| Tygodniowa    | Szybki przegląd produktu (opcjonalnie) | Product, Tech               | Czy są anomalie w aktywacji / błędach?         | eventy produktowe, bug tracker    | Product   |
-| Miesięczna    | Raport KPI biznesowych           | Founder, marketing, produkt      | Czy dowozimy plan? Co nas zaskoczyło?          | KPI z różnych systemów            | Analityk  |
-| Miesięczna    | Przegląd eksperymentów           | Growth, produkt                  | Czego się nauczyliśmy? Co testujemy dalej?     | log eksperymentów                 | Growth    |
-| Kwartalna     | Przegląd strategiczny            | Zarząd / właściciel, key leads   | Co zmieniamy w planach? Co ucinamy / wzmacniamy?| agregaty 3-mies., notatki z miesięcznych | Founder   |
+| Częstotliwość | Nazwa spotkania / raportu              | Odbiorcy                       | Główne pytania                                   | Dane wejściowe                           | Właściciel |
+| ------------- | -------------------------------------- | ------------------------------ | ------------------------------------------------ | ---------------------------------------- | ---------- |
+| Tygodniowa    | Weekly performance marketingu          | Growth, Founder                | Czy coś się „psuje”? Co optymalizujemy?          | dashboard kanałów, lejki, GA4            | Growth     |
+| Tygodniowa    | Szybki przegląd produktu (opcjonalnie) | Product, Tech                  | Czy są anomalie w aktywacji / błędach?           | eventy produktowe, bug tracker           | Product    |
+| Miesięczna    | Raport KPI biznesowych                 | Founder, marketing, produkt    | Czy dowozimy plan? Co nas zaskoczyło?            | KPI z różnych systemów                   | Analityk   |
+| Miesięczna    | Przegląd eksperymentów                 | Growth, produkt                | Czego się nauczyliśmy? Co testujemy dalej?       | log eksperymentów                        | Growth     |
+| Kwartalna     | Przegląd strategiczny                  | Zarząd / właściciel, key leads | Co zmieniamy w planach? Co ucinamy / wzmacniamy? | agregaty 3-mies., notatki z miesięcznych | Founder    |
 
 ---
 

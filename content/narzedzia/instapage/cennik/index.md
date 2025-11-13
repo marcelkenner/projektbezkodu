@@ -12,6 +12,7 @@ seo:
   title: "Instapage – cennik i dla kogo to się opłaca"
   description: "Przegląd planów Instapage: ile to kosztuje, co dokładnie dostajesz oraz kiedy budżet na to narzędzie ma sens."
 ---
+
 # Instapage – cennik
 
 Instapage nie konkuruje ceną z prostymi kreatorami typu "postaw landing w 5 minut".  
@@ -35,4 +36,3 @@ Jeśli jedna dobrze zoptymalizowana kampania:
 to Instapage może być kosztem, który po prostu wkalkulowujesz w performance marketing.
 
 W treści tej strony rozbijam przykładowe scenariusze (budżety, wolumen ruchu, liczba kampanii w miesiącu).
-

@@ -12,6 +12,7 @@ seo:
   title: "Instapage – narzędzie do landing page'y dla większych kampanii"
   description: "Zobacz, kiedy opłaca się sięgnąć po Instapage: precyzyjne testy, personalizacja treści i integracje z ekosystemem reklamowym."
 ---
+
 # Instapage – wprowadzenie
 
 Instapage to narzędzie z kategorii "cięższy kaliber" – bardziej pod **większe budżety i większy ruch** niż pojedyncze, okazjonalne kampanie.
@@ -28,4 +29,3 @@ Na tej stronie znajdziesz linki do recenzji, cennika, alternatyw i FAQ – żeby
 - [Cennik Instapage](/narzedzia/instapage/cennik/)
 - [Alternatywy dla Instapage](/narzedzia/instapage/alternatywy/)
 - [Instapage – FAQ](/narzedzia/instapage/faq/)
-

@@ -18,7 +18,7 @@ Najważniejsze elementy:
 - rezerwacje,
 - mapy i dojazd,
 - opinie,
-- zdjęcia, które oddają klimat. :contentReference[oaicite:5]{index=5}  
+- zdjęcia, które oddają klimat. :contentReference[oaicite:5]{index=5}
 
 ---
 
@@ -26,7 +26,7 @@ Najważniejsze elementy:
 
 Dla hotelu:
 
-> *Hotel butikowy w {Miasto} – 5 minut od centrum, śniadania w cenie, parking*
+> _Hotel butikowy w {Miasto} – 5 minut od centrum, śniadania w cenie, parking_
 
 CTA:
 
@@ -35,7 +35,7 @@ CTA:
 
 Dla restauracji:
 
-> *Restauracja w {Miasto} – kuchnia {typu} z sezonowych produktów*
+> _Restauracja w {Miasto} – kuchnia {typu} z sezonowych produktów_
 
 CTA:
 
@@ -71,7 +71,7 @@ Dla każdego typu pokoju (single, double, suite) stwórz blok:
 
 Microcopy:
 
-> *„Pokoje sprzątamy codziennie. Jeśli potrzebujesz pracować – masz biurko, wygodne krzesło i gniazdka w zasięgu ręki.”*
+> _„Pokoje sprzątamy codziennie. Jeśli potrzebujesz pracować – masz biurko, wygodne krzesło i gniazdka w zasięgu ręki.”_
 
 ---
 
@@ -110,7 +110,7 @@ Dla restauracji:
 
 Microcopy:
 
-> *„Jeśli nie widzisz wolnego stolika o wybranej godzinie – zadzwoń, spróbujemy coś wymyślić.”*
+> _„Jeśli nie widzisz wolnego stolika o wybranej godzinie – zadzwoń, spróbujemy coś wymyślić.”_
 
 ---
 
@@ -121,12 +121,11 @@ Sekcja „Jak do nas trafić”:
 - mapa (Google),
 - adres,
 - opis „z punktu widzenia gościa”:
-
   - odległość od dworca, lotniska,
   - dojazd komunikacją miejską,
   - gdzie zaparkować (płatny / bezpłatny).
 
-> *„Jesteśmy 7 minut pieszo od dworca głównego. Jeśli przyjeżdżasz samochodem, możesz zaparkować na naszym parkingu (X miejsc, Y zł/doba) lub na bezpłatnych miejscach wzdłuż ulicy Z.”*
+> _„Jesteśmy 7 minut pieszo od dworca głównego. Jeśli przyjeżdżasz samochodem, możesz zaparkować na naszym parkingu (X miejsc, Y zł/doba) lub na bezpłatnych miejscach wzdłuż ulicy Z.”_
 
 ---
 
@@ -139,7 +138,7 @@ Sekcja „Jak do nas trafić”:
 Przykład:
 
 > ⭐⭐⭐⭐⭐  
-> *„Idealne miejsce na weekend w {Miasto}. Blisko centrum, ale cicho. Śniadania petarda, a obsługa ogarnia wszystko z uśmiechem.”*
+> _„Idealne miejsce na weekend w {Miasto}. Blisko centrum, ale cicho. Śniadania petarda, a obsługa ogarnia wszystko z uśmiechem.”_
 
 ---
 

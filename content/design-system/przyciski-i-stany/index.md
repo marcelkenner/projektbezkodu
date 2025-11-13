@@ -55,14 +55,14 @@ Do dokumentacji warto dodać mini-tabelę.
 
 ### 2.1. Przykład: Button Primary
 
-| Stan            | Tło                          | Obramowanie                      | Tekst                         | Inne                       |
-|-----------------|-----------------------------|----------------------------------|-------------------------------|----------------------------|
-| default         | `color.button.primary.bg`    | `none` lub `color.transparent`   | `color.button.primary.text`   | cień lekki opcjonalnie    |
-| hover           | `color.button.primary.bg.hover` | jak wyżej                      | jak wyżej                     | ciemniejszy odcień tła    |
-| pressed         | `color.button.primary.bg.pressed` | jak wyżej                   | jak wyżej                     | mniejszy cień/brak        |
-| focus-visible   | `color.button.primary.bg`    | `color.focus.ring`               | jak wyżej                     | outline 2px, radius = btn |
-| disabled        | `color.button.primary.bg.disabled` | none                          | `color.text.disabled`         | kursor default            |
-| loading         | jak `default`                | jak wyżej                        | tekst 0% opacity, spinner    | blokada wielokrotnego kliknięcia |
+| Stan          | Tło                                | Obramowanie                    | Tekst                       | Inne                             |
+| ------------- | ---------------------------------- | ------------------------------ | --------------------------- | -------------------------------- |
+| default       | `color.button.primary.bg`          | `none` lub `color.transparent` | `color.button.primary.text` | cień lekki opcjonalnie           |
+| hover         | `color.button.primary.bg.hover`    | jak wyżej                      | jak wyżej                   | ciemniejszy odcień tła           |
+| pressed       | `color.button.primary.bg.pressed`  | jak wyżej                      | jak wyżej                   | mniejszy cień/brak               |
+| focus-visible | `color.button.primary.bg`          | `color.focus.ring`             | jak wyżej                   | outline 2px, radius = btn        |
+| disabled      | `color.button.primary.bg.disabled` | none                           | `color.text.disabled`       | kursor default                   |
+| loading       | jak `default`                      | jak wyżej                      | tekst 0% opacity, spinner   | blokada wielokrotnego kliknięcia |
 
 ---
 
@@ -102,7 +102,7 @@ Jeśli dopuszczasz ikony:
 
 - zdefiniuj ich rozmiar (np. 16×16),
 - ustal, że ikona zawsze siedzi:
-  - z lewej (np. „Dodaj”),  
+  - z lewej (np. „Dodaj”),
   - albo z prawej (np. „Dalej” z ikoną strzałki),
 - ustal spójny odstęp między ikoną a tekstem (`space.2` albo `space.3`).
 

@@ -12,6 +12,7 @@ seo:
   title: "Unbounce – narzędzie do tworzenia landing page'y"
   description: "Sprawdź, jak Unbounce pomaga mi szybko stawiać strony docelowe nastawione na konwersję: szablony, testy A/B i integracje marketingowe."
 ---
+
 # Unbounce – landing page'e nastawione na konwersję
 
 Unbounce to wyspecjalizowane narzędzie do budowania landing page'y pod kampanie reklamowe.  
@@ -28,4 +29,3 @@ Na tej stronie zbieram wszystko, co dotyczy Unbounce w jednym miejscu.
 
 Jeśli dopiero oglądasz narzędzie z daleka, zacznij od recenzji.  
 Jeśli jesteś bliżej decyzji zakupowej – przejdź od razu do cennika i alternatyw.
-

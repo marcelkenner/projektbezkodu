@@ -11,8 +11,9 @@ date: "2025-11-05"
 # Plan pomiaru (measurement plan)
 
 Plan pomiaru to brakujące ogniwo między:
+
 - „chcemy poprawić sprzedaż / retencję / leady”  
-a
+  a
 - „dodajmy 15 eventów do GA4 i zobaczymy co wyjdzie”.
 
 Ten template możesz potraktować jako **gotowy szkielet dokumentu w Notion / GDoc / Excelu**, który spina biznes, produkt, marketing i devów.
@@ -33,11 +34,11 @@ Ten template możesz potraktować jako **gotowy szkielet dokumentu w Notion / GD
 
 Przykładowa tabela:
 
-| Cel biznesowy                     | Opis / komentarz                         | Priorytet (H/M/L) | Horyzont czasowy |
-|-----------------------------------|------------------------------------------|-------------------|------------------|
-| Zwiększyć liczbę projektów / msc  | usługi B2B, min. 20k zł projekt         | H                 | 6 mies.          |
-| Podnieść MRR o 30%                | SaaS, nowe płatne konta + upselle       | H                 | 12 mies.         |
-| Zwiększyć przychód z kursów o 50% | mix launchy + evergreen                  | M                 | 12 mies.         |
+| Cel biznesowy                     | Opis / komentarz                  | Priorytet (H/M/L) | Horyzont czasowy |
+| --------------------------------- | --------------------------------- | ----------------- | ---------------- |
+| Zwiększyć liczbę projektów / msc  | usługi B2B, min. 20k zł projekt   | H                 | 6 mies.          |
+| Podnieść MRR o 30%                | SaaS, nowe płatne konta + upselle | H                 | 12 mies.         |
+| Zwiększyć przychód z kursów o 50% | mix launchy + evergreen           | M                 | 12 mies.         |
 
 Nie ruszaj dalej, dopóki nie masz **2–4 konkretnych celów**.
 
@@ -53,8 +54,8 @@ Zamiast „chcemy mieć dane”, wpisz konkretne pytania typu:
 
 Tabela:
 
-| Pytanie biznesowe                                               | Cel biznesowy, którego dotyczy | Priorytet |
-|------------------------------------------------------------------|--------------------------------|-----------|
+| Pytanie biznesowe                                                | Cel biznesowy, którego dotyczy | Priorytet |
+| ---------------------------------------------------------------- | ------------------------------ | --------- |
 | Które źródła dają leady z najwyższą wartością dealu?             | projekty / MRR                 | H         |
 | Po ilu dniach nowi użytkownicy SaaS zwykle „odklejają się”?      | MRR / churn                    | H         |
 | Które maile w sekwencji sprzedażowej kursu faktycznie sprzedają? | przychód z kursów              | M         |
@@ -66,12 +67,12 @@ Tabela:
 Teraz dopiero spinasz cele i pytania z KPI.  
 Warto od razu wskazać **właściciela** i częstotliwość raportowania.
 
-| KPI / metryka                       | Typ (KPI / pomocnicza) | Związany cel | Właściciel | Częstotliwość | Źródło danych             |
-|-------------------------------------|-------------------------|-------------|-----------|---------------|---------------------------|
-| kwalifikowane leady / miesiąc      | KPI                     | projekty    | Growth    | tyg./mies.    | CRM + eventy `lead_*`    |
-| trial → płatny (konwersja)         | KPI                     | MRR         | Product   | tyg.          | produkt, billing          |
-| czas do aktywacji (mediana, dni)   | pomocnicza              | MRR         | Product   | mies.         | eventy `activation_*`    |
-| konwersja listy na zakup kursu     | KPI                     | kursy       | Marketing | kampania      | system płatności + email |
+| KPI / metryka                    | Typ (KPI / pomocnicza) | Związany cel | Właściciel | Częstotliwość | Źródło danych            |
+| -------------------------------- | ---------------------- | ------------ | ---------- | ------------- | ------------------------ |
+| kwalifikowane leady / miesiąc    | KPI                    | projekty     | Growth     | tyg./mies.    | CRM + eventy `lead_*`    |
+| trial → płatny (konwersja)       | KPI                    | MRR          | Product    | tyg.          | produkt, billing         |
+| czas do aktywacji (mediana, dni) | pomocnicza             | MRR          | Product    | mies.         | eventy `activation_*`    |
+| konwersja listy na zakup kursu   | KPI                    | kursy        | Marketing  | kampania      | system płatności + email |
 
 ---
 
@@ -79,13 +80,13 @@ Warto od razu wskazać **właściciela** i częstotliwość raportowania.
 
 Tu podłączasz **słownik eventów** (z osobnej strony) do konkretnych pytań i KPI.
 
-| Event / dane            | Po co to mierzymy (pytanie / KPI)                      | Parametry kluczowe                     | Dodatkowe segmenty              |
-|-------------------------|---------------------------------------------------------|----------------------------------------|---------------------------------|
-| `form_submit` (kontakt) | Skąd przychodzą leady?                                  | `form_id`, `source`, `medium`          | `campaign`, `landing_page`      |
-| `lead_created`          | Jaką wartość reprezentują leady z różnych kanałów?      | `deal_value`, `lead_type`              | `industry`, `company_size`      |
-| `signup_complete`       | Które kanały dają najwięcej rejestracji?                | `plan`, `source`                       | `utm_campaign`, `device`        |
-| `activation_event`      | Ile osób się aktywuje i jak szybko?                     | `activation_type`, `time_to_activation`| `plan`, `cohort_signup_month`   |
-| `checkout_complete`     | Jaka jest konwersja na zakup kursu wg kampanii?         | `order_value`, `product_type`          | `utm_campaign`, `discount_used` |
+| Event / dane            | Po co to mierzymy (pytanie / KPI)                  | Parametry kluczowe                      | Dodatkowe segmenty              |
+| ----------------------- | -------------------------------------------------- | --------------------------------------- | ------------------------------- |
+| `form_submit` (kontakt) | Skąd przychodzą leady?                             | `form_id`, `source`, `medium`           | `campaign`, `landing_page`      |
+| `lead_created`          | Jaką wartość reprezentują leady z różnych kanałów? | `deal_value`, `lead_type`               | `industry`, `company_size`      |
+| `signup_complete`       | Które kanały dają najwięcej rejestracji?           | `plan`, `source`                        | `utm_campaign`, `device`        |
+| `activation_event`      | Ile osób się aktywuje i jak szybko?                | `activation_type`, `time_to_activation` | `plan`, `cohort_signup_month`   |
+| `checkout_complete`     | Jaka jest konwersja na zakup kursu wg kampanii?    | `order_value`, `product_type`           | `utm_campaign`, `discount_used` |
 
 To jest miejsce, gdzie decydujesz o **parametrach obowiązkowych vs. „nice to have”**.  
 Jeśli każdy event ma 15 parametrów, nikt nie będzie ich poprawnie wdrażał.
@@ -106,11 +107,11 @@ Przykładowa lista segmentów, które warto mieć:
 
 Tabela:
 
-| Segment / wymiar | Definicja praktyczna                        | Wpływa na jakie KPI         |
-|------------------|---------------------------------------------|-----------------------------|
-| channel_group    | grupowanie źródeł (paid, organic, email…)  | wszystkie pozyskaniowe      |
-| user_type        | new / returning (def. 30 dni)               | aktywacja, retencja         |
-| plan_type        | free / trial / paid (Pro/Business/…)        | MRR, aktywacja, churn       |
+| Segment / wymiar | Definicja praktyczna                      | Wpływa na jakie KPI    |
+| ---------------- | ----------------------------------------- | ---------------------- |
+| channel_group    | grupowanie źródeł (paid, organic, email…) | wszystkie pozyskaniowe |
+| user_type        | new / returning (def. 30 dni)             | aktywacja, retencja    |
+| plan_type        | free / trial / paid (Pro/Business/…)      | MRR, aktywacja, churn  |
 
 ---
 
@@ -118,11 +119,11 @@ Tabela:
 
 Tutaj deklarujesz, **jakie widoki danych** mają powstać i do kogo trafią.
 
-| Raport / dashboard                 | Poziom (operacyjny / strategiczny) | Odbiorcy                | Częstotliwość | Najważniejsze pytania                          |
-|------------------------------------|-------------------------------------|-------------------------|---------------|-----------------------------------------------|
-| Tygodniowy performance marketingu | operacyjny                          | Growth, Founder         | tyg.          | co działa, co wyłączyć / doinwestować         |
-| Miesięczny raport produktu        | operacyjny / strategiczny           | Product, Tech, Founder  | mies.         | aktywacja, retencja, kierunki rozwoju         |
-| Kwartalne KPI biznesu             | strategiczny                        | Zarząd, właściciele     | kw.           | czy dowozimy cele MRR / projekty / kursy      |
+| Raport / dashboard                | Poziom (operacyjny / strategiczny) | Odbiorcy               | Częstotliwość | Najważniejsze pytania                    |
+| --------------------------------- | ---------------------------------- | ---------------------- | ------------- | ---------------------------------------- |
+| Tygodniowy performance marketingu | operacyjny                         | Growth, Founder        | tyg.          | co działa, co wyłączyć / doinwestować    |
+| Miesięczny raport produktu        | operacyjny / strategiczny          | Product, Tech, Founder | mies.         | aktywacja, retencja, kierunki rozwoju    |
+| Kwartalne KPI biznesu             | strategiczny                       | Zarząd, właściciele    | kw.           | czy dowozimy cele MRR / projekty / kursy |
 
 ---
 
@@ -136,11 +137,11 @@ Na końcu – **dopiero tutaj** – zapisujesz:
 
 Tabela:
 
-| Obszar          | Narzędzie / stack             | Właściciel        | Notatki                                |
-|-----------------|------------------------------|-------------------|----------------------------------------|
-| WWW             | GA4 + eventy przez GTM       | Analityk + Dev    | implementacja wg słownika zdarzeń      |
-| Produkt (SaaS)  | Eventy aplikacyjne → DB      | Tech Lead         | eksport do BI raz dziennie             |
-| Marketing       | UTM + CRM / MA               | Marketing Ops     | obowiązkowy template UTM                |
+| Obszar         | Narzędzie / stack       | Właściciel     | Notatki                           |
+| -------------- | ----------------------- | -------------- | --------------------------------- |
+| WWW            | GA4 + eventy przez GTM  | Analityk + Dev | implementacja wg słownika zdarzeń |
+| Produkt (SaaS) | Eventy aplikacyjne → DB | Tech Lead      | eksport do BI raz dziennie        |
+| Marketing      | UTM + CRM / MA          | Marketing Ops  | obowiązkowy template UTM          |
 
 Ten dokument powinien być na tyle prosty, żeby właściciel biznesu przeczytał go w 15 minut,  
 i na tyle konkretny, żeby dev na jego podstawie od razu wiedział, jakie eventy ma wdrożyć.

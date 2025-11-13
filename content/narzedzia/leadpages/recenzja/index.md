@@ -12,6 +12,7 @@ seo:
   title: "Leadpages – recenzja oczami twórcy landing page'y"
   description: "Sprawdzam, kiedy Leadpages jest wystarczający, a kiedy zaczyna brakować funkcji: szablony, integracje, konwersje i ograniczenia."
 ---
+
 # Leadpages – recenzja
 
 Leadpages nie próbuje być wszystkim naraz. To jego wada i zaleta jednocześnie.
@@ -34,4 +35,3 @@ W tej recenzji patrzę na Leadpages z perspektywy:
 - kiedy potrzebujesz rozbudowanego CMS-a.
 
 W dalszej części recenzji pokazuję konkretne przykłady stron zrobionych w Leadpages i opisuję, w jakich scenariuszach to narzędzie mi nie wystarczyło.
-

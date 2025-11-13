@@ -24,11 +24,11 @@ Ten playbook prowadzi przez strukturę, microcopy i sekcje, które pomagają wyp
 
 **H1:**
 
-> *Salon fryzjersko-kosmetyczny w {Miasto} – włosy, paznokcie i pielęgnacja w jednym miejscu*
+> _Salon fryzjersko-kosmetyczny w {Miasto} – włosy, paznokcie i pielęgnacja w jednym miejscu_
 
 **Podtytuł:**
 
-> *Tworzymy fryzury, które pasują do Ciebie na co dzień, i zabiegi, po których po prostu czujesz się lepiej. Rezerwacja online w 30 sekund.*
+> _Tworzymy fryzury, które pasują do Ciebie na co dzień, i zabiegi, po których po prostu czujesz się lepiej. Rezerwacja online w 30 sekund._
 
 **CTA:**
 
@@ -73,11 +73,11 @@ Zamiast ściany cen w jednym bloku – **pogrupuj usługi**:
 
 Microcopy:
 
-> *Przy każdej kategorii dodaj: „dla kogo”, ile trwa zabieg, jak często warto go powtarzać.*
+> _Przy każdej kategorii dodaj: „dla kogo”, ile trwa zabieg, jak często warto go powtarzać._
 
 Przykład:
 
-> *Manicure hybrydowy – dla osób, które chcą mieć zadbane paznokcie przez 2–3 tygodnie bez malowania w domu. Czas trwania: ok. 60–75 min.*
+> _Manicure hybrydowy – dla osób, które chcą mieć zadbane paznokcie przez 2–3 tygodnie bez malowania w domu. Czas trwania: ok. 60–75 min._
 
 ---
 
@@ -97,7 +97,7 @@ Najlepiej w formie prostych filtrów:
 
 Możesz też dodać mini historie:
 
-> *Kasia przyszła do nas z mocno zniszczonym blondem. W 2 wizyty zeszliśmy z żółtego koloru na chłodny, naturalny blond i odbudowaliśmy włosy zabiegami regenerującymi.*
+> _Kasia przyszła do nas z mocno zniszczonym blondem. W 2 wizyty zeszliśmy z żółtego koloru na chłodny, naturalny blond i odbudowaliśmy włosy zabiegami regenerującymi._
 
 ---
 
@@ -111,8 +111,8 @@ Sekcja „Jak zarezerwować wizytę”:
 
 Microcopy przy rezerwacji:
 
-> *„Jeśli nie widzisz dogodnego terminu, zadzwoń – czasem możemy coś poprzesuwać.”*  
-> *„Aby potwierdzić dłuższe wizyty (np. koloryzacje, pakiety ślubne), prosimy o zadatek X zł.”*
+> _„Jeśli nie widzisz dogodnego terminu, zadzwoń – czasem możemy coś poprzesuwać.”_  
+> _„Aby potwierdzić dłuższe wizyty (np. koloryzacje, pakiety ślubne), prosimy o zadatek X zł.”_
 
 ---
 
@@ -127,7 +127,7 @@ Zaciągnij opinie z:
 Przykład sekcji:
 
 > ⭐⭐⭐⭐⭐  
-> *„Pierwszy raz ktoś wytłumaczył mi, co będzie robić z moimi włosami i dlaczego. Wyszłam dokładnie z takim kolorem, o jaki mi chodziło.”* – Marta
+> _„Pierwszy raz ktoś wytłumaczył mi, co będzie robić z moimi włosami i dlaczego. Wyszłam dokładnie z takim kolorem, o jaki mi chodziło.”_ – Marta
 
 Dodaj też sekcję „Widziani na Instagramie” – kilka kafelków z Insta (jeśli aktywnie prowadzisz profil).
 
@@ -155,7 +155,6 @@ W branży beauty long-tail jest super wdzięczny:
 Dlatego warto:
 
 - mieć osobne podstrony / sekcje dla:
-
   - `koloryzacja {miasto}`,
   - `manicure hybrydowy {miasto}`,
   - `makijaż ślubny {miasto}`,

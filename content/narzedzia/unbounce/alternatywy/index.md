@@ -12,6 +12,7 @@ seo:
   title: "Alternatywy dla Unbounce – przegląd narzędzi"
   description: "Zestawiam Unbounce z innymi narzędziami: tańsze, prostsze i bardziej rozbudowane alternatywy do tworzenia landing page'y."
 ---
+
 # Alternatywy dla Unbounce
 
 Unbounce jest mocny, ale:
@@ -38,4 +39,3 @@ Zamiast suchych tabel opisuję:
 - jaka jest krzywa uczenia się i komfort pracy.
 
 Dzięki temu możesz dobrać narzędzie pod **swój use case**, a nie pod jakąś abstrakcyjną "średnią rynkową".
-

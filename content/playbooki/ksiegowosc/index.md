@@ -26,11 +26,11 @@ Ten playbook koncentruje się na:
 
 **H1:**
 
-> *Księgowość dla małych firm w {Miasto} – stały abonament, bez niespodzianek*
+> _Księgowość dla małych firm w {Miasto} – stały abonament, bez niespodzianek_
 
 **Podtytuł:**
 
-> *Prowadzimy księgowość jednoosobowych działalności i małych spółek. Od rejestracji firmy po bieżącą obsługę i kontakt z urzędem skarbowym.*
+> _Prowadzimy księgowość jednoosobowych działalności i małych spółek. Od rejestracji firmy po bieżącą obsługę i kontakt z urzędem skarbowym._
 
 **CTA:**
 
@@ -50,16 +50,16 @@ Zamiast listy usług, **3–4 pakiety** dla typowych profili klienta:
 
 Przykładowy układ tabeli:
 
-| Pakiet         | Dla kogo                         | Cena od (netto) | Zakres kluczowy                                  |
-|----------------|-----------------------------------|-----------------|--------------------------------------------------|
-| Start          | nowa JDG do X dokumentów/mies.   | 250 zł          | KPiR, ZUS, PIT, wsparcie przy pierwszych rozliczeniach |
-| Standard       | usługi B2B / B2C                 | 400 zł          | KPiR, JPK, ZUS, wsparcie mailowe, proste analizy |
-| e-commerce     | sklepy, Allegro, marketplace’y   | 550 zł          | księgowanie sprzedaży z platform, integracje     |
-| Spółka         | spółki z o.o.                    | od 900 zł       | pełna księgowość, sprawozdania, reprezentacja    |
+| Pakiet     | Dla kogo                       | Cena od (netto) | Zakres kluczowy                                        |
+| ---------- | ------------------------------ | --------------- | ------------------------------------------------------ |
+| Start      | nowa JDG do X dokumentów/mies. | 250 zł          | KPiR, ZUS, PIT, wsparcie przy pierwszych rozliczeniach |
+| Standard   | usługi B2B / B2C               | 400 zł          | KPiR, JPK, ZUS, wsparcie mailowe, proste analizy       |
+| e-commerce | sklepy, Allegro, marketplace’y | 550 zł          | księgowanie sprzedaży z platform, integracje           |
+| Spółka     | spółki z o.o.                  | od 900 zł       | pełna księgowość, sprawozdania, reprezentacja          |
 
 Pod tabelą:
 
-> *Ceny zależą od liczby dokumentów i specyfiki branży. Na rozmowie startowej policzymy dokładną wycenę.*
+> _Ceny zależą od liczby dokumentów i specyfiki branży. Na rozmowie startowej policzymy dokładną wycenę._
 
 ---
 
@@ -79,10 +79,10 @@ Pod tabelą:
 
 Zamiast suchych opisów:
 
-> *Zamiast: „Sporządzanie deklaracji i wysyłka plików JPK”*  
+> _Zamiast: „Sporządzanie deklaracji i wysyłka plików JPK”_  
 > `Pilnujemy terminów deklaracji i wysyłamy je elektronicznie do urzędu. Ty dostajesz podsumowanie, co i kiedy zostało zrobione.`
 
-> *Zamiast: „Reprezentacja przed urzędem skarbowym”*  
+> _Zamiast: „Reprezentacja przed urzędem skarbowym”_  
 > `Gdy pojawia się pismo z urzędu, to my je najpierw czytamy i tłumaczymy, o co chodzi. Odpowiadamy w Twoim imieniu, a Ty wiesz, co się dzieje – bez prawniczego i urzędowego żargonu.`
 
 ---
@@ -93,11 +93,11 @@ Sekcja „Najczęstsze obawy właścicieli firm”:
 
 **„Bo boję się zmieniać księgową w trakcie roku.”**
 
-> *Pomagamy przejść przez zmianę – kontaktujemy się z poprzednim biurem (za Twoją zgodą), przejmujemy dokumenty, robimy audyt i ustawiamy procesy na nowo. Zmiana zwykle trwa 2–4 tygodnie, w trakcie których na bieżąco prowadzimy księgowość.*
+> _Pomagamy przejść przez zmianę – kontaktujemy się z poprzednim biurem (za Twoją zgodą), przejmujemy dokumenty, robimy audyt i ustawiamy procesy na nowo. Zmiana zwykle trwa 2–4 tygodnie, w trakcie których na bieżąco prowadzimy księgowość._
 
 **„Kto odpowiada za błędy?”**
 
-> *Posiadamy ubezpieczenie OC biura rachunkowego. Za błędy po naszej stronie odpowiadamy my – w razie potrzeby wchodzimy w kontakt z urzędami, przygotowujemy korekty, pomagamy przejść przez proces.*
+> _Posiadamy ubezpieczenie OC biura rachunkowego. Za błędy po naszej stronie odpowiadamy my – w razie potrzeby wchodzimy w kontakt z urzędami, przygotowujemy korekty, pomagamy przejść przez proces._
 
 ---
 

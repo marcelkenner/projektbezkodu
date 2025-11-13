@@ -18,7 +18,7 @@ Ten przewodnik pomoże Ci zbudować:
 - sensowny **plan opieki po wdrożeniu**,
 - ofertę **retainerów**, które są uczciwe dla klienta i opłacalne dla Ciebie.
 
-Praktyki opierają się na typowych checklistach utrzymaniowych: stałe aktualizacje, monitoring, backupy, performance, security, przeglądy treści. :contentReference[oaicite:7]{index=7}  
+Praktyki opierają się na typowych checklistach utrzymaniowych: stałe aktualizacje, monitoring, backupy, performance, security, przeglądy treści. :contentReference[oaicite:7]{index=7}
 
 ---
 

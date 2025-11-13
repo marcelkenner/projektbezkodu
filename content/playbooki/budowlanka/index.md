@@ -2,10 +2,21 @@
 title: "Playbook: strona internetowa dla firmy budowlanej"
 slug: "budowlanka"
 path: "/playbooki/budowlanka/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "budownictwo"]
+template: "playbook"
 draft: true
 date: "2025-11-05"
+taxonomy:
+  categories:
+    - strategia
+  tags:
+    - planowanie
+    - procesy
+hero:
+  heading: "Strona dla firmy budowlanej – playbook krok po kroku"
+  subheading: "Układ sekcji, CTA i treści, które odpowiadają na trzy największe obawy klientów: realizacje, bezpieczeństwo i proces."
+seo:
+  title: "Playbook www dla firmy budowlanej: struktura i argumenty"
+  description: "Gotowy układ strony internetowej dla firmy budowlanej. Pokazujemy, jakie sekcje, dowody i CTA przekonują klientów do współpracy."
 ---
 
 # Playbook: strona internetowa dla firmy budowlanej
@@ -24,11 +35,11 @@ Ten playbook układa stronę tak, żeby klient zrozumiał, **czemu ma zaufać w�
 
 **H1:**
 
-> *Firma budowlana {Miasto + okolice} – budowy i generalne remonty od A do Z*
+> _Firma budowlana {Miasto + okolice} – budowy i generalne remonty od A do Z_
 
 **Podtytuł:**
 
-> *Budujemy domy jednorodzinne, robimy generalne remonty mieszkań i lokali usługowych. Dajemy pisemne harmonogramy, protokoły odbioru i gwarancję.*
+> _Budujemy domy jednorodzinne, robimy generalne remonty mieszkań i lokali usługowych. Dajemy pisemne harmonogramy, protokoły odbioru i gwarancję._
 
 CTA:
 
@@ -84,7 +95,7 @@ Dla każdej realizacji:
 
 Przykład opisu:
 
-> *Generalny remont mieszkania 68 m² w kamienicy – {Miasto}*  
+> _Generalny remont mieszkania 68 m² w kamienicy – {Miasto}_  
 > **Zakres:** wymiana instalacji elektrycznej i wod-kan, nowe tynki, podłogi, łazienka, kuchnia na wymiar, malowanie.  
 > **Czas realizacji:** 12 tygodni.  
 > **Największe wyzwanie:** praca w zamieszkałym budynku + dostosowanie do wymagań konserwatora.
@@ -102,7 +113,7 @@ To sekcja, która robi ogromną różnicę w wiarygodności:
 
 Microcopy:
 
-> *Pracujemy na atestowanych materiałach i trzymamy dokumentację z każdej budowy (protokoły, zdjęcia). W razie potrzeby udostępniamy ją inwestorowi lub nadzorowi.*
+> _Pracujemy na atestowanych materiałach i trzymamy dokumentację z każdej budowy (protokoły, zdjęcia). W razie potrzeby udostępniamy ją inwestorowi lub nadzorowi._
 
 ---
 

@@ -72,7 +72,7 @@ W systemie warto zapisać:
 Przykłady:
 
 - „kosz”, „lupa”, „x”, „hamburger menu” – często rozpoznawalne, ale w wielu kontekstach i tak warto dodać label,
-- bardziej abstrakcyjne ikony („workflow”, „automatyzacje”, „integracje”) *zawsze* z tekstem.
+- bardziej abstrakcyjne ikony („workflow”, „automatyzacje”, „integracje”) _zawsze_ z tekstem.
 
 Dobra reguła:
 
@@ -116,7 +116,6 @@ Kilka konkretnych zasad, które warto wpisać do dokumentacji:
 3. Ilustracje w hero i sekcjach mają **stałe proporcje** (np. 3:2, 16:9) i max szerokość (np. 480 px).
 
 4. W dark mode:
-
    - ikony outline automatycznie zmieniają kolor na `color.text.inverse`,
    - ilustracje mają osobne wersje lub są na neutralnym tle, które nie znika na ciemnym tle.
 

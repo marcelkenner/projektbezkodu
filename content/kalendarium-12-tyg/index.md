@@ -11,7 +11,7 @@ date: "2025-11-05"
 # 12-tygodniowy plan publikacji (kalendarium)
 
 Roczny plan contentu brzmi ambitnie, ale w praktyce biznes żyje w krótszych cyklach: kwartał, kampania, launch.  
-Dlatego zamiast „planu na rok” lepiej podejść do tematu jak do **12-tygodniowego sprintu**: jasny cel, konkretne formaty, domknięte eksperymenty. :contentReference[oaicite:0]{index=0}  
+Dlatego zamiast „planu na rok” lepiej podejść do tematu jak do **12-tygodniowego sprintu**: jasny cel, konkretne formaty, domknięte eksperymenty. :contentReference[oaicite:0]{index=0}
 
 Ten template pomoże Ci:
 
@@ -59,11 +59,11 @@ Przykłady celów:
 Podstawowy widok planu możesz zrobić w Notion / Sheets:
 
 | Tydzień | Data (od–do) | Motyw przewodni / kampania | Główne treści (blog/podcast/live) | Wsparcie (social, newsletter, paid) | Cel / KPI | Status |
-|--------:|--------------|---------------------------|------------------------------------|-------------------------------------|-----------|--------|
-| 1       | …            | …                         | …                                  | …                                   | …         | plan   |
-| 2       | …            | …                         | …                                  | …                                   | …         | plan   |
-| …       | …            | …                         | …                                  | …                                   | …         | …      |
-| 12      | …            | …                         | …                                  | …                                   | …         | …      |
+| ------: | ------------ | -------------------------- | --------------------------------- | ----------------------------------- | --------- | ------ |
+|       1 | …            | …                          | …                                 | …                                   | …         | plan   |
+|       2 | …            | …                          | …                                 | …                                   | …         | plan   |
+|       … | …            | …                          | …                                 | …                                   | …         | …      |
+|      12 | …            | …                          | …                                 | …                                   | …         | …      |
 
 Do tego warto mieć **widok „backlog tematów”** z priorytetami i tagami (SEO, leadgen, edukacja, case).
 
@@ -182,11 +182,11 @@ Możesz wziąć to jako bazę pod własne kalendarium (np. w Notion):
 
 ### Sekcja 2 – motywy / kampanie
 
-| Blok | Tygodnie | Motyw / kampania         | Główna oferta / CTA              |
-|------|----------|--------------------------|----------------------------------|
-| 1    | 1–4      |                          |                                  |
-| 2    | 5–8      |                          |                                  |
-| 3    | 9–12     |                          |                                  |
+| Blok | Tygodnie | Motyw / kampania | Główna oferta / CTA |
+| ---- | -------- | ---------------- | ------------------- |
+| 1    | 1–4      |                  |                     |
+| 2    | 5–8      |                  |                     |
+| 3    | 9–12     |                  |                     |
 
 ### Sekcja 3 – kalendarium tygodniowe
 

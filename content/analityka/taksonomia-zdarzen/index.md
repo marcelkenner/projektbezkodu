@@ -15,10 +15,10 @@ To jest Twój słownik – punkt odniesienia dla devów, marketerów i productu.
 
 ## Po co Ci taksonomia zdarzeń
 
-* wszyscy mówią tym samym językiem („lead_qualified” znaczy to samo dla sales i marketingu),
-* łatwiej migrować między narzędziami (GA4, Amplitude, Mixpanel, własne eventy w DB),
-* można szybko dodać nowe eventy bez wymyślania nazwy za każdym razem,
-* mniej śmieci w raportach („Button Click”, „btn_click”, „klik_przycisku” – to dalej jedno zachowanie, nie trzy).
+- wszyscy mówią tym samym językiem („lead_qualified” znaczy to samo dla sales i marketingu),
+- łatwiej migrować między narzędziami (GA4, Amplitude, Mixpanel, własne eventy w DB),
+- można szybko dodać nowe eventy bez wymyślania nazwy za każdym razem,
+- mniej śmieci w raportach („Button Click”, „btn_click”, „klik_przycisku” – to dalej jedno zachowanie, nie trzy).
 
 Myślenie jest proste: **jedno zachowanie = jeden event biznesowy + parametry**, zamiast tysiąca lekko innych nazw.
 
@@ -55,25 +55,25 @@ Proponowany format:
 
 Poniżej baza, na której zbudujesz własny słownik.
 
-| Event                     | Opis                                                      | Przykładowe parametry                                 |
-|---------------------------|-----------------------------------------------------------|-------------------------------------------------------|
-| `page_view`               | Wyświetlenie strony                                       | `path`, `title`, `template_type`                      |
-| `scroll_depth`            | Osiągnięcie progu scrolla                                 | `percent`, `path`                                     |
-| `cta_click`               | Klik w kluczowe CTA                                       | `label`, `position`, `path`, `variant`                |
-| `nav_click`               | Klik w nawigację                                          | `label`, `nav_type` (top/footer/mobile)               |
-| `form_start`              | Użytkownik zaczął wypełniać formularz                     | `form_id`, `path`                                     |
-| `form_submit`             | Wysłanie formularza                                       | `form_id`, `path`, `status` (success/error)           |
-| `lead_created`            | Powstał lead (kontakt w CRM / marketing automation)       | `source`, `medium`, `campaign`, `lead_type`           |
-| `lead_qualified`          | Lead zakwalifikowany (SQL/MQL)                            | `qualification_stage`, `deal_value`                   |
-| `signup_start`            | Start rejestracji                                         | `plan_selected`, `source`                             |
-| `signup_complete`         | Rejestracja zakończona                                    | `plan`, `source`, `referrer`                          |
-| `checkout_start`          | Start procesu zakupu                                      | `cart_value`, `items_count`, `product_type`           |
-| `checkout_complete`       | Ukończony zakup                                           | `order_value`, `items_count`, `product_type`          |
-| `subscription_started`    | Subskrypcja włączona                                      | `plan`, `billing_cycle`                               |
-| `subscription_cancelled`  | Subskrypcja anulowana                                     | `plan`, `tenure_days`, `reason`                       |
-| `feature_used`            | Użycie kluczowej funkcji (SaaS)                           | `feature_name`, `intensity`, `plan`                   |
-| `lesson_complete`         | Ukończenie lekcji (kurs)                                  | `course_id`, `lesson_id`, `progress_percent`          |
-| `course_complete`         | Ukończenie kursu                                          | `course_id`, `completion_time_days`                   |
+| Event                    | Opis                                                | Przykładowe parametry                        |
+| ------------------------ | --------------------------------------------------- | -------------------------------------------- |
+| `page_view`              | Wyświetlenie strony                                 | `path`, `title`, `template_type`             |
+| `scroll_depth`           | Osiągnięcie progu scrolla                           | `percent`, `path`                            |
+| `cta_click`              | Klik w kluczowe CTA                                 | `label`, `position`, `path`, `variant`       |
+| `nav_click`              | Klik w nawigację                                    | `label`, `nav_type` (top/footer/mobile)      |
+| `form_start`             | Użytkownik zaczął wypełniać formularz               | `form_id`, `path`                            |
+| `form_submit`            | Wysłanie formularza                                 | `form_id`, `path`, `status` (success/error)  |
+| `lead_created`           | Powstał lead (kontakt w CRM / marketing automation) | `source`, `medium`, `campaign`, `lead_type`  |
+| `lead_qualified`         | Lead zakwalifikowany (SQL/MQL)                      | `qualification_stage`, `deal_value`          |
+| `signup_start`           | Start rejestracji                                   | `plan_selected`, `source`                    |
+| `signup_complete`        | Rejestracja zakończona                              | `plan`, `source`, `referrer`                 |
+| `checkout_start`         | Start procesu zakupu                                | `cart_value`, `items_count`, `product_type`  |
+| `checkout_complete`      | Ukończony zakup                                     | `order_value`, `items_count`, `product_type` |
+| `subscription_started`   | Subskrypcja włączona                                | `plan`, `billing_cycle`                      |
+| `subscription_cancelled` | Subskrypcja anulowana                               | `plan`, `tenure_days`, `reason`              |
+| `feature_used`           | Użycie kluczowej funkcji (SaaS)                     | `feature_name`, `intensity`, `plan`          |
+| `lesson_complete`        | Ukończenie lekcji (kurs)                            | `course_id`, `lesson_id`, `progress_percent` |
+| `course_complete`        | Ukończenie kursu                                    | `course_id`, `completion_time_days`          |
 
 ---
 
@@ -129,16 +129,16 @@ To pozwala zbudować raport: **które kampanie sprzedają**, ale też **które k
 
 Możesz skopiować ten układ jako „source of truth”:
 
-| ID / Kod | Nazwa eventu          | Opis biznesowy                                          | Parametry wymagane                          | Parametry opcjonalne                         | Gdzie używany (typ strony/produktu) |
-|---------|------------------------|---------------------------------------------------------|---------------------------------------------|----------------------------------------------|-------------------------------------|
-| EV001   | `page_view`            | Wejście na stronę                                       | `path`, `title`                             | `template_type`                              | wszystkie                           |
-| EV010   | `cta_click`            | Klik w główne wezwanie do działania                     | `label`, `position`, `path`                 | `variant`, `experiment_id`                   | usługi, SaaS, kursy                |
-| EV020   | `form_submit`          | Wysłanie formularza                                     | `form_id`, `path`, `status`                 | `lead_type`, `source`                        | usługi, leadgen                    |
-| EV030   | `lead_created`         | Nowy lead w CRM / MA                                    | `lead_id`, `source`, `medium`, `campaign`   | `lead_score`, `pipeline_stage`               | usługi, B2B SaaS                   |
-| EV040   | `signup_complete`      | Ukończenie rejestracji w aplikacji                      | `user_id`, `plan`, `source`                 | `referrer`, `utm_campaign`                   | SaaS                               |
-| EV050   | `activation_event`     | Użytkownik osiągnął stan „aktywny”                      | `user_id`, `activation_type`                | `time_to_activation_days`                    | SaaS                               |
-| EV060   | `checkout_complete`    | Zakończony zakup                                        | `order_id`, `order_value`, `product_type`   | `coupon`, `items_count`                      | kursy, SaaS, produkty cyfrowe      |
-| EV070   | `lesson_complete`      | Ukończona lekcja                                        | `course_id`, `lesson_id`, `user_id`         | `progress_percent`                           | kursy                               |
+| ID / Kod | Nazwa eventu        | Opis biznesowy                      | Parametry wymagane                        | Parametry opcjonalne           | Gdzie używany (typ strony/produktu) |
+| -------- | ------------------- | ----------------------------------- | ----------------------------------------- | ------------------------------ | ----------------------------------- |
+| EV001    | `page_view`         | Wejście na stronę                   | `path`, `title`                           | `template_type`                | wszystkie                           |
+| EV010    | `cta_click`         | Klik w główne wezwanie do działania | `label`, `position`, `path`               | `variant`, `experiment_id`     | usługi, SaaS, kursy                 |
+| EV020    | `form_submit`       | Wysłanie formularza                 | `form_id`, `path`, `status`               | `lead_type`, `source`          | usługi, leadgen                     |
+| EV030    | `lead_created`      | Nowy lead w CRM / MA                | `lead_id`, `source`, `medium`, `campaign` | `lead_score`, `pipeline_stage` | usługi, B2B SaaS                    |
+| EV040    | `signup_complete`   | Ukończenie rejestracji w aplikacji  | `user_id`, `plan`, `source`               | `referrer`, `utm_campaign`     | SaaS                                |
+| EV050    | `activation_event`  | Użytkownik osiągnął stan „aktywny”  | `user_id`, `activation_type`              | `time_to_activation_days`      | SaaS                                |
+| EV060    | `checkout_complete` | Zakończony zakup                    | `order_id`, `order_value`, `product_type` | `coupon`, `items_count`        | kursy, SaaS, produkty cyfrowe       |
+| EV070    | `lesson_complete`   | Ukończona lekcja                    | `course_id`, `lesson_id`, `user_id`       | `progress_percent`             | kursy                               |
 
 Dopisz kolejne wiersze zamiast tworzyć kolejne „kreacje” eventów w kodzie „na czuja”.  
 Ten słownik to dokument, który powinien przeżyć kilka redesignów i kilka zmian narzędzi analitycznych.

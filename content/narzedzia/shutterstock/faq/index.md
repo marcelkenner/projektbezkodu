@@ -10,7 +10,7 @@ hero:
   subheading: "Zbieram najczęstsze pytania o licencje, wykorzystanie komercyjne, social media i projekty dla klientów, żebyś nie musiał przekopywać się przez dokumenty prawne."
 seo:
   title: "Shutterstock – najczęstsze pytania (FAQ) o licencje i wykorzystanie"
-  desc
+  description: "Sprawdź odpowiedzi na praktyczne pytania o licencje Shutterstock, zasady komercyjnego wykorzystania i koszty planów."
 ---
 
 # Shutterstock Faq

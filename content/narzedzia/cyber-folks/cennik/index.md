@@ -1,15 +1,14 @@
 ---
-title: 'cyber_Folks – cennik'
-slug: 'cennik'
-path: '/narzedzia/cyber-folks/cennik/'
+title: "cyber_Folks – cennik"
+slug: "cennik"
+path: "/narzedzia/cyber-folks/cennik/"
 draft: false
-template: 'article'
-date: '2025-11-09'
+template: "article"
+date: "2025-11-09"
 hero:
-  heading: 'cyber_Folks – cennik planów hostingowych rozpisany na scenariusze'
-  subheading: 'Zamiast tabelki z parametrami pokazuję, ile płacę za utrzymanie konkretnych typów stron w cyber_Folks i jak wyglądają odnowienia.'
+  heading: "cyber_Folks – cennik planów hostingowych rozpisany na scenariusze"
+  subheading: "Zamiast tabelki z parametrami pokazuję, ile płacę za utrzymanie konkretnych typów stron w cyber_Folks i jak wyglądają odnowienia."
 seo:
-  title: 'cyber_Folks – cennik i opłacalność w praktyce'
-  description: 'Analizuję ceny cyber_Folks pod kątem małych stron, kilku projektów na jednym koncie oraz bardziej wymagających serwisów.'
+  title: "cyber_Folks – cennik i opłacalność w praktyce"
+  description: "Analizuję ceny cyber_Folks pod kątem małych stron, kilku projektów na jednym koncie oraz bardziej wymagających serwisów."
 ---
-

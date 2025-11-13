@@ -19,7 +19,7 @@ Dobra strona software house’u:
 - prezentuje **proces i skład zespołów**,
 - wspiera **rekrutację**.
 
-:contentReference[oaicite:3]{index=3}  
+:contentReference[oaicite:3]{index=3}
 
 ---
 
@@ -27,15 +27,15 @@ Dobra strona software house’u:
 
 **H1:**
 
-> *Software house dla {typ klienta} – aplikacje web i mobile od discovery do wdrożenia*
+> _Software house dla {typ klienta} – aplikacje web i mobile od discovery do wdrożenia_
 
 Przykład:
 
-> *Software house dla startupów i MŚP – web i mobile, którym dowozimy MVP w 3–4 miesiące*
+> _Software house dla startupów i MŚP – web i mobile, którym dowozimy MVP w 3–4 miesiące_
 
 **Podtytuł:**
 
-> *Pomagamy od doprecyzowania pomysłu, przez product discovery i design, po development, testy i utrzymanie. Transparentnie, z jasnym zakresem i komunikacją.*
+> _Pomagamy od doprecyzowania pomysłu, przez product discovery i design, po development, testy i utrzymanie. Transparentnie, z jasnym zakresem i komunikacją._
 
 CTA:
 
@@ -69,7 +69,7 @@ Każdy case powinien zawierać:
 
 Przykład struktury:
 
-> *Klient: platforma edukacyjna dla dzieci (Edtech, UK)*  
+> _Klient: platforma edukacyjna dla dzieci (Edtech, UK)_  
 > Problem: dzieci i rodzice rzadko wracali na platformę po pierwszym logowaniu.  
 > Rozwiązanie: gamifikacja (punkty, levele), aplikacja mobilna, powiadomienia push.  
 > Rezultat: +35% retencji w 30 dni, +20% czasu spędzanego w aplikacji.
@@ -95,7 +95,7 @@ Pogrupuj:
 
 Microcopy:
 
-> *„Nie zaczynamy developmentu bez etapu discovery. To pozwala ograniczyć ryzyko przepalenia budżetu na funkcje, których nikt nie użyje.”*
+> _„Nie zaczynamy developmentu bez etapu discovery. To pozwala ograniczyć ryzyko przepalenia budżetu na funkcje, których nikt nie użyje.”_
 
 ---
 
@@ -105,13 +105,13 @@ Nie tylko listuj logotypy (`React, Node.js, AWS`), ale:
 
 - krótkie uzasadnienie: do jakich typów projektów używacie danego stacku,
 - info o praktykach (testy, code review, CI/CD),
-- podejście do dokumentacji (ważne przy przekazywaniu projektu). :contentReference[oaicite:4]{index=4}  
+- podejście do dokumentacji (ważne przy przekazywaniu projektu). :contentReference[oaicite:4]{index=4}
 
 Przykład:
 
-> *Frontend: React / Next.js – budujemy szybkie aplikacje SPA/SSR, z naciskiem na Core Web Vitals i SEO.  
+> _Frontend: React / Next.js – budujemy szybkie aplikacje SPA/SSR, z naciskiem na Core Web Vitals i SEO.  
 > Backend: Node.js / NestJS, czasem .NET w rozwiązaniach enterprise.  
-> Infrastrukturę opieramy głównie na AWS / GCP, z IaC (Terraform) i CI/CD.*
+> Infrastrukturę opieramy głównie na AWS / GCP, z IaC (Terraform) i CI/CD._
 
 ---
 
@@ -127,7 +127,7 @@ Sekcja „Jak pracujemy”:
 
 Microcopy:
 
-> *„Co 2 tygodnie widzisz działające demo, nie tylko prezentację w PowerPoincie.”*
+> _„Co 2 tygodnie widzisz działające demo, nie tylko prezentację w PowerPoincie.”_
 
 ---
 
@@ -159,6 +159,7 @@ Możesz tworzyć:
 - strony lokalne: `/software-house-{miasto}/`.
 
 Każda powinna mieć:
+
 - 1–2 case’y z danej branży / regionu,
 - opis specyfiki (np. wymogi prawne w fintechu, RODO).
 
@@ -175,6 +176,6 @@ Zamiast gołego maila – prosty formularz:
 
 Microcopy:
 
-> *„Jeśli w tym momencie nie jesteśmy dobrym partnerem (np. z uwagi na etap projektu/budżet), powiemy Ci to wprost i ewentualnie polecimy inne rozwiązanie.”*
+> _„Jeśli w tym momencie nie jesteśmy dobrym partnerem (np. z uwagi na etap projektu/budżet), powiemy Ci to wprost i ewentualnie polecimy inne rozwiązanie.”_
 
 Dobrze poukładana strona software house’u zmniejsza liczbę „zimnych” leadów i przyciąga tych, którzy wiedzą, po co przychodzą.

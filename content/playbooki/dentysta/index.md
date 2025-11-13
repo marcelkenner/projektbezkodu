@@ -18,7 +18,7 @@ Ten playbook pokazuje, jak poukładać:
 - **sekcje i microcopy**,
 - **FAQ**,
 - **zdjęcia i elementy zaufania**,
-- oraz jak myśleć o lokalnym SEO: *„dentysta {miasto}”*. :contentReference[oaicite:0]{index=0}  
+- oraz jak myśleć o lokalnym SEO: _„dentysta {miasto}”_. :contentReference[oaicite:0]{index=0}
 
 ---
 
@@ -28,11 +28,11 @@ Ludzie przychodzą z lękiem i prokrastynacją. Hero powinno to adresować.
 
 **Przykład H1 (lokalne SEO):**
 
-> *Dentysta {Miasto} – nowoczesny gabinet bez stresu dla całej rodziny*
+> _Dentysta {Miasto} – nowoczesny gabinet bez stresu dla całej rodziny_
 
 **Podtytuł:**
 
-> *Leczymy bez pośpiechu i tłumaczymy wszystko po ludzku. Od przeglądów po leczenie kanałowe, implanty i stomatologię dziecięcą.*
+> _Leczymy bez pośpiechu i tłumaczymy wszystko po ludzku. Od przeglądów po leczenie kanałowe, implanty i stomatologię dziecięcą._
 
 **CTA w hero:**
 
@@ -65,9 +65,9 @@ Dodatkowy element: **„Najbliższe wolne terminy”** – nawet jeśli to tylko
 
 Krótko, konkretnie, bez medycznego żargonu.
 
-> *Jeśli od kilku lat odkładasz wizytę, bo boisz się bólu albo oceniania – jesteś w dobrym miejscu. Specjalizujemy się w pacjentach „po przerwie”.*
+> _Jeśli od kilku lat odkładasz wizytę, bo boisz się bólu albo oceniania – jesteś w dobrym miejscu. Specjalizujemy się w pacjentach „po przerwie”._
 
-> *Pracujemy z dziećmi od 3. roku życia, z nastolatkami w trakcie leczenia ortodontycznego i dorosłymi, którzy chcą zrobić porządki „od A do Z” przed ważnym momentem (ślub, zmiana pracy, ciąża).*
+> _Pracujemy z dziećmi od 3. roku życia, z nastolatkami w trakcie leczenia ortodontycznego i dorosłymi, którzy chcą zrobić porządki „od A do Z” przed ważnym momentem (ślub, zmiana pracy, ciąża)._
 
 ### „Nasze usługi” – język korzyści
 
@@ -104,7 +104,7 @@ Strona dentysty bez ludzi wygląda jak sklep ze sprzętem medycznym.
 
 To można spiąć w blok:
 
-> *Bezpieczeństwo i komfort: sterylizacja wg standardów X, jednorazowe materiały, znieczulenie „na życzenie”, możliwość przerwy na każdym etapie.*
+> _Bezpieczeństwo i komfort: sterylizacja wg standardów X, jednorazowe materiały, znieczulenie „na życzenie”, możliwość przerwy na każdym etapie._
 
 ---
 
@@ -121,7 +121,7 @@ Przykładowe pytania do sekcji FAQ:
 
 **Przykładowa odpowiedź (bez lania wody):**
 
-> *Czy leczenie będzie bolało?*  
+> _Czy leczenie będzie bolało?_  
 > Zawsze zaczynamy od znieczulenia – dobieramy jego rodzaj do zabiegu i Twojej wrażliwości. Przed podaniem znieczulenia znieczulamy też powierzchnię dziąsła specjalnym żelem, żeby samo wkłucie było jak najmniej odczuwalne. Jeśli w trakcie cokolwiek Cię boli – przerywamy i dokładamy znieczulenia.
 
 ---
@@ -146,7 +146,7 @@ Jeśli masz możliwość – **krótkie wideo**:
 Kilka prostych zasad:
 
 - H1, title i description z `{Dentysta w {Miasto}}` lub `{Stomatolog {Miasto}}` – naturalnie, bez upychania.
-- Osobna podstrona / sekcje dla dzielnic, jeśli usługujesz większe miasto (np. *„Dentysta {Miasto} – {Dzielnica}”*).
+- Osobna podstrona / sekcje dla dzielnic, jeśli usługujesz większe miasto (np. _„Dentysta {Miasto} – {Dzielnica}”_).
 - Dane NAP (nazwa, adres, telefon) spójne z wizytówką Google.
 - Opinie z Google / ZnanyLekarz wplecione w stronę (widgety / cytaty).
 

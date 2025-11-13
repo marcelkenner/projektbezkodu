@@ -28,13 +28,13 @@ Celem jest prosty system UTM, który:
    Raz ustalone, niezmienne. Np.:
    - `cpc`, `paid_social`, `email`, `affiliate`, `display`, `social`, `referral`.
 
-3. **`utm_source` = konkretna platforma / partner**  
+3. **`utm_source` = konkretna platforma / partner**
    - `google`, `meta`, `linkedin`, `newsletter`, `partner_xyz`.
 
-4. **`utm_campaign` = cel + produkt + okres**  
+4. **`utm_campaign` = cel + produkt + okres**
    - `leadgen_audit_2025q1`, `saas_pro_trial_2025`, `kurs_ga4_launch_kwiecien`.
 
-5. **`utm_content` i `utm_term` – tylko gdy faktycznie używasz**  
+5. **`utm_content` i `utm_term` – tylko gdy faktycznie używasz**
    - `utm_content`: wariant kreacji (`hero_a`, `video_ugly`, `copy_benefit`),
    - `utm_term`: fraza (głównie dla searcha) lub segment (np. `remarketing`).
 
@@ -44,17 +44,17 @@ Celem jest prosty system UTM, który:
 
 Minimalny, ale stabilny zestaw:
 
-| Medium          | Kiedy używać                                               |
-|-----------------|------------------------------------------------------------|
-| `cpc`           | płatne wyszukiwanie (Google Ads Search, Bing Ads)          |
-| `paid_social`   | płatne social (Meta Ads, LinkedIn Ads, TikTok Ads)        |
-| `display`       | banery, programmatic, GDN bez search                       |
-| `email`         | newslettery, kampanie mailowe                              |
-| `social`        | organiczne social (posty, bio linki)                       |
-| `affiliate`     | program partnerski, ref linki                             |
-| `influencer`    | kampanie z twórcami, indywidualne linki                    |
-| `referral`      | ręczne linki z innych stron/artykułów, gdzie masz kontrolę|
-| `offline`       | QR kody, druk, prezentacje                                 |
+| Medium        | Kiedy używać                                               |
+| ------------- | ---------------------------------------------------------- |
+| `cpc`         | płatne wyszukiwanie (Google Ads Search, Bing Ads)          |
+| `paid_social` | płatne social (Meta Ads, LinkedIn Ads, TikTok Ads)         |
+| `display`     | banery, programmatic, GDN bez search                       |
+| `email`       | newslettery, kampanie mailowe                              |
+| `social`      | organiczne social (posty, bio linki)                       |
+| `affiliate`   | program partnerski, ref linki                              |
+| `influencer`  | kampanie z twórcami, indywidualne linki                    |
+| `referral`    | ręczne linki z innych stron/artykułów, gdzie masz kontrolę |
+| `offline`     | QR kody, druk, prezentacje                                 |
 
 ---
 
@@ -62,13 +62,13 @@ Minimalny, ale stabilny zestaw:
 
 Standardowe źródła:
 
-| Source        | Opis                        |
-|--------------|-----------------------------|
+| Source       | Opis                        |
+| ------------ | --------------------------- |
 | `google`     | Google (search / display)   |
 | `meta`       | Facebook + Instagram        |
-| `linkedin`   | LinkedIn                     |
-| `tiktok`     | TikTok                       |
-| `newsletter` | Twój główny newsletter       |
+| `linkedin`   | LinkedIn                    |
+| `tiktok`     | TikTok                      |
+| `newsletter` | Twój główny newsletter      |
 | `beehiiv`    | jeśli masz osobną platformę |
 | `youtube`    | linki z YouTube             |
 | `partner_x`  | konkretni partnerzy         |
@@ -122,12 +122,12 @@ Jeśli nie masz procesu raportowania po `utm_content` i `utm_term` – lepiej u�
 
 Proste, ale skuteczne: jeden arkusz, w którym **każda kampania ma swój wiersz**.
 
-| Kanał         | utm_source | utm_medium   | utm_campaign                        | utm_content              | utm_term         | Landing page                 | Właściciel | Status  |
-|---------------|-----------|-------------|--------------------------------------|--------------------------|------------------|------------------------------|-----------|---------|
-| Google Ads    | google    | cpc         | acquisition-saaspro-2025            | headline_benefits        | crm_software     | /saas/                       | Growth    | live    |
-| Meta Ads      | meta      | paid_social | launch-kurs-analityka-2025-PL       | creative-video-testimonials | kurs_analityka_online | /kurs/analityka/         | Marketing | paused  |
-| Newsletter    | newsletter| email       | launch-kurs-analityka-2025-PL       | newsletter-1-announcement|                  | /kurs/analityka/            | Marketing | planned |
-| Partner X     | partner_x | affiliate   | acquisition-audit-2025q1            | partner-landing          |                  | /audyt/                      | BizDev    | live    |
+| Kanał      | utm_source | utm_medium  | utm_campaign                  | utm_content                 | utm_term              | Landing page     | Właściciel | Status  |
+| ---------- | ---------- | ----------- | ----------------------------- | --------------------------- | --------------------- | ---------------- | ---------- | ------- |
+| Google Ads | google     | cpc         | acquisition-saaspro-2025      | headline_benefits           | crm_software          | /saas/           | Growth     | live    |
+| Meta Ads   | meta       | paid_social | launch-kurs-analityka-2025-PL | creative-video-testimonials | kurs_analityka_online | /kurs/analityka/ | Marketing  | paused  |
+| Newsletter | newsletter | email       | launch-kurs-analityka-2025-PL | newsletter-1-announcement   |                       | /kurs/analityka/ | Marketing  | planned |
+| Partner X  | partner_x  | affiliate   | acquisition-audit-2025q1      | partner-landing             |                       | /audyt/          | BizDev     | live    |
 
 Arkusz pełni rolę:
 

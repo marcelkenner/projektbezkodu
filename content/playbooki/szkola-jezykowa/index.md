@@ -29,11 +29,11 @@ Ten playbook skupia się na:
 
 **H1:**
 
-> *Szkoła językowa w {Miasto} – angielski, niemiecki i hiszpański dla dorosłych i młodzieży*
+> _Szkoła językowa w {Miasto} – angielski, niemiecki i hiszpański dla dorosłych i młodzieży_
 
 **Podtytuł:**
 
-> *Uczymy w małych grupach, online i stacjonarnie. Od poziomu A0 do C1, z naciskiem na realne mówienie (nie tylko testy).*
+> _Uczymy w małych grupach, online i stacjonarnie. Od poziomu A0 do C1, z naciskiem na realne mówienie (nie tylko testy)._
 
 CTA:
 
@@ -59,17 +59,17 @@ CTA:
 
 Zrób prostą tabelę lub infografikę:
 
-| Poziom | Opis po ludzku                                        | Typowe cele                                 |
-|--------|--------------------------------------------------------|---------------------------------------------|
-| A1     | „umiem się przedstawić, powiedzieć skąd jestem”       | start od zera                               |
-| A2     | „zamówię w restauracji, dogadam się na urlopie”       | swobodne podróże                            |
-| B1     | „poradzę sobie w pracy, ale czasem brakuje słów”      | praca, studia, wymiany                      |
-| B2     | „swobodnie prowadzę rozmowę, czytam artykuły”         | zmiana pracy, studia za granicą             |
-| C1     | „komfortowo działam w 100% po angielsku”              | prezentacje, negocjacje, studia zagraniczne |
+| Poziom | Opis po ludzku                                   | Typowe cele                                 |
+| ------ | ------------------------------------------------ | ------------------------------------------- |
+| A1     | „umiem się przedstawić, powiedzieć skąd jestem”  | start od zera                               |
+| A2     | „zamówię w restauracji, dogadam się na urlopie”  | swobodne podróże                            |
+| B1     | „poradzę sobie w pracy, ale czasem brakuje słów” | praca, studia, wymiany                      |
+| B2     | „swobodnie prowadzę rozmowę, czytam artykuły”    | zmiana pracy, studia za granicą             |
+| C1     | „komfortowo działam w 100% po angielsku”         | prezentacje, negocjacje, studia zagraniczne |
 
 Microcopy przy grafice:
 
-> *Jeśli nie wiesz, na jakim poziomie jesteś – zrób darmowy test online. Na jego podstawie doradzimy Ci konkretną grupę.*
+> _Jeśli nie wiesz, na jakim poziomie jesteś – zrób darmowy test online. Na jego podstawie doradzimy Ci konkretną grupę._
 
 ---
 
@@ -105,11 +105,11 @@ Sekcja „Plan zajęć”:
 
 Przykład tabeli:
 
-| Kurs                     | Poziom | Dni           | Godziny       | Forma        |
-|--------------------------|--------|---------------|---------------|--------------|
-| Angielski dla dorosłych  | B1     | pn + śr       | 18:00–19:30   | stacjonarnie |
-| Angielski dla młodzieży  | B2     | wt + czw      | 17:00–18:30   | online       |
-| Matura rozszerzona       | B1–B2  | sobota        | 10:00–13:00   | stacjonarnie |
+| Kurs                    | Poziom | Dni      | Godziny     | Forma        |
+| ----------------------- | ------ | -------- | ----------- | ------------ |
+| Angielski dla dorosłych | B1     | pn + śr  | 18:00–19:30 | stacjonarnie |
+| Angielski dla młodzieży | B2     | wt + czw | 17:00–18:30 | online       |
+| Matura rozszerzona      | B1–B2  | sobota   | 10:00–13:00 | stacjonarnie |
 
 ---
 
@@ -117,8 +117,8 @@ Przykład tabeli:
 
 Zamiast „innowacyjna metoda komunikacyjna”:
 
-> *80% zajęć to mówienie w parach i małych grupach. Gramatykę tłumaczymy na prostych przykładach, a nie na definicjach z podręcznika.  
-> Każdy kursant ma dostęp do platformy z nagraniami i zadaniami, żeby móc powtórzyć materiał, jeśli opuści zajęcia.*
+> _80% zajęć to mówienie w parach i małych grupach. Gramatykę tłumaczymy na prostych przykładach, a nie na definicjach z podręcznika.  
+> Każdy kursant ma dostęp do platformy z nagraniami i zadaniami, żeby móc powtórzyć materiał, jeśli opuści zajęcia._
 
 Dodaj:
 

@@ -12,6 +12,7 @@ seo:
   title: "Unbounce – FAQ i odpowiedzi"
   description: "Krótko i konkretnie odpowiadam na najczęstsze pytania o Unbounce: funkcje, ograniczenia, rozliczenia oraz dla kogo to narzędzie ma sens."
 ---
+
 # Unbounce – FAQ
 
 Tutaj lądują odpowiedzi na pytania, które pojawiają się najczęściej przy rozmowach o Unbounce.
@@ -39,4 +40,3 @@ Landing page'e z Unbounce zwykle ładują się szybko, ale i tak warto pilnować
 - liczby skryptów zewnętrznych.
 
 W dalszej części FAQ dokładam kolejne pytania, które pojawiają się w komentarzach i mailach.
-

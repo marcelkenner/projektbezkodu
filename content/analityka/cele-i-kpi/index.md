@@ -151,11 +151,11 @@ Weź kartkę / Notion i zrób trzy małe tabelki – osobno dla:
 
 Każda tabelka:
 
-| Obszar      | KPI główny                    | Właściciel | Częstotliwość | Dane z…        |
-|-------------|-------------------------------|-----------|---------------|----------------|
-| Marketing   | kwalifikowane leady / miesiąc | Growth    | tyg./mies.    | CRM, analityka |
-| Produkt     | aktywacja w 7 dni             | Product   | tyg.          | produkt, db    |
-| Sprzedaż    | MRR netto                     | Founder   | mies./kw.     | billing        |
+| Obszar    | KPI główny                    | Właściciel | Częstotliwość | Dane z…        |
+| --------- | ----------------------------- | ---------- | ------------- | -------------- |
+| Marketing | kwalifikowane leady / miesiąc | Growth     | tyg./mies.    | CRM, analityka |
+| Produkt   | aktywacja w 7 dni             | Product    | tyg.          | produkt, db    |
+| Sprzedaż  | MRR netto                     | Founder    | mies./kw.     | billing        |
 
 Jeśli **którejś liczby nie da się policzyć**, to nie jest problem z KPI – to sygnał, że trzeba poprawić tracking lub proces raportowania.  
 KPI bez liczb to tylko życzenia.

@@ -13,9 +13,9 @@ date: "2025-11-05"
 Większość tekstów nie psuje się na etapie pisania, tylko na etapie **„dobra, wrzucamy”**.  
 Checklista redakcyjna to prosty sposób, żeby:
 
-- nie publikować rzeczy, do których *sam/a* nie jesteś przekonany,
+- nie publikować rzeczy, do których _sam/a_ nie jesteś przekonany,
 - łapać literówki, logiczne dziury i SEO-babole,
-- utrzymać stały poziom jakości, nawet jeśli tekstów jest dużo. :contentReference[oaicite:9]{index=9}  
+- utrzymać stały poziom jakości, nawet jeśli tekstów jest dużo. :contentReference[oaicite:9]{index=9}
 
 Poniżej masz gotową checklistę w wersji „single post” – idealną pod blog, landing, case czy dłuższy opis.
 
@@ -24,37 +24,37 @@ Poniżej masz gotową checklistę w wersji „single post” – idealną pod bl
 ## 1. Treść i struktura
 
 - [ ] **Tekst odpowiada na jasno zdefiniowane pytanie / problem.**  
-      Potrafisz jednym zdaniem powiedzieć: „Ten artykuł jest o…”.
+       Potrafisz jednym zdaniem powiedzieć: „Ten artykuł jest o…”.
 
 - [ ] **Wstęp wyjaśnia, dla kogo jest tekst i po co ma to czytać.**
 
 - [ ] **Nagłówki H2/H3 tworzą logiczny spis treści.**  
-      Po samych nagłówkach widać, co czytelnik dostanie.
+       Po samych nagłówkach widać, co czytelnik dostanie.
 
 - [ ] **Każda sekcja ma swój mini-cel.**  
-      Nie ma akapitów, które są tam „bo tak wyszło”.
+       Nie ma akapitów, które są tam „bo tak wyszło”.
 
 - [ ] **Jest konkretna teza / wniosek.**  
-      Tekst nie kończy się w stylu „temat jest szeroki, można o nim mówić godzinami”.
+       Tekst nie kończy się w stylu „temat jest szeroki, można o nim mówić godzinami”.
 
 ---
 
 ## 2. Język i styl
 
 - [ ] **Jeden punkt widzenia (ja / my / Ty) na cały tekst.**  
-      Nie przeskakujesz z „ja” na „my” albo „firma”.
+       Nie przeskakujesz z „ja” na „my” albo „firma”.
 
 - [ ] **Zdania są zrozumiałe przy pierwszym czytaniu.**  
-      Jeśli musisz je przeczytać 3 razy – przeredaguj.
+       Jeśli musisz je przeczytać 3 razy – przeredaguj.
 
 - [ ] **Unikasz żargonu bez wyjaśnienia.**  
-      Jeśli musisz użyć terminu, dodaj jedno zdanie „po ludzku”.
+       Jeśli musisz użyć terminu, dodaj jedno zdanie „po ludzku”.
 
 - [ ] **Ton zgadza się z brand voice.**  
-      Bez przypadkowych „hejka” w tekście marki, która zwykle jest poważna.
+       Bez przypadkowych „hejka” w tekście marki, która zwykle jest poważna.
 
 - [ ] **Tekst brzmi jak rozmowa, nie referat.**  
-      Szczególnie w blogu / newsletterze – możesz czytać na głos i sprawdzić, czy nie brzmi sztucznie.
+       Szczególnie w blogu / newsletterze – możesz czytać na głos i sprawdzić, czy nie brzmi sztucznie.
 
 ---
 
@@ -101,7 +101,7 @@ Poniżej masz gotową checklistę w wersji „single post” – idealną pod bl
 ## 6. Zgodność z brandem i celem
 
 - [ ] **CTA jest dopasowane do etapu ścieżki.**  
-      Edukacyjny wpis → raczej newsletter / lead magnet, nie od razu „Kup drogi program”.
+       Edukacyjny wpis → raczej newsletter / lead magnet, nie od razu „Kup drogi program”.
 
 - [ ] **Tekst nie gryzie się z brand voice** (patrz: osobny przewodnik o tonie marki).
 
@@ -140,3 +140,4 @@ Na końcu pliku roboczego możesz trzymać skróconą wersję, którą odhaczasz
 - [ ] Czy CTA jest jasne i adekwatne?
 - [ ] Czy ustawiono tracking / UTM, jeśli trzeba?
 - [ ] Czy mam plan, gdzie i jak to wypchnę (dystrybucja)?
+```

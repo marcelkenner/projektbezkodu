@@ -9,7 +9,9 @@
     "lint": "eslint",
     "tokens:build": "node brand/tokens/scripts/build.mjs",
     "format": "prettier --write .",
-    "svg:optimize": "npm exec -- svgo --config=brand/logo/svgo.config.json brand/logo/source/*.svg --output=brand/logo"
+    "svg:optimize": "npm exec -- svgo --config=brand/logo/svgo.config.json brand/logo/source/*.svg --output=brand/logo",
+    "content:lint": "node scripts/validate-content.mjs",
+    "prebuild": "npm run content:lint"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

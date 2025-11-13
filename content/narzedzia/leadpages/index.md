@@ -12,6 +12,7 @@ seo:
   title: "Leadpages – narzędzie do prostych landing page'y"
   description: "Zobacz, jak Leadpages pomaga mi szybko zbudować strony pod lead magnety, newsletter i kampanie reklamowe bez udziału programisty."
 ---
+
 # Leadpages – wprowadzenie
 
 Leadpages to narzędzie dla osób, które chcą **po prostu postawić stronę** i ruszyć z kampanią, zamiast spędzać godziny na dopieszczaniu detali.
@@ -30,4 +31,3 @@ Leadpages to narzędzie dla osób, które chcą **po prostu postawić stronę** 
 - [Leadpages – FAQ](/narzedzia/leadpages/faq/) – odpowiedzi na typowe pytania.
 
 Ta strona jest centrum dowodzenia dla całego mini-poradnika o Leadpages.
-

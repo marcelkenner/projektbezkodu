@@ -48,7 +48,7 @@ To ułatwia później rebranding, tryb ciemny i poprawki dostępności.
 
 ## 2. Kontrast według WCAG – co naprawdę musisz wiedzieć
 
-Standard WCAG 2.1 określa minimalne kontrasty między tekstem a tłem, żeby osoby ze słabszym wzrokiem były w stanie tekst odczytać.:contentReference[oaicite:1]{index=1}  
+Standard WCAG 2.1 określa minimalne kontrasty między tekstem a tłem, żeby osoby ze słabszym wzrokiem były w stanie tekst odczytać.:contentReference[oaicite:1]{index=1}
 
 W praktyce dla produktów webowych i mobilnych:
 
@@ -82,12 +82,12 @@ Każdą z tych par raz sprawdzasz (narzędziem do kontrastu), zapisujesz wynik i
 
 W dokumentacji możesz dodać tabelkę:
 
-| Token tekstu               | Token tła                    | Kontrast | Poziom |
-|----------------------------|------------------------------|---------:|--------|
-| `color.text.primary`       | `color.bg.surface`           | 7.2:1    | AAA    |
-| `color.text.muted`         | `color.bg.surface`           | 4.6:1    | AA     |
-| `color.button.primary.text`| `color.button.primary.bg`    | 4.8:1    | AA     |
-| `color.text.inverse`       | `color.bg.inverse`           | 5.1:1    | AA     |
+| Token tekstu                | Token tła                 | Kontrast | Poziom |
+| --------------------------- | ------------------------- | -------: | ------ |
+| `color.text.primary`        | `color.bg.surface`        |    7.2:1 | AAA    |
+| `color.text.muted`          | `color.bg.surface`        |    4.6:1 | AA     |
+| `color.button.primary.text` | `color.button.primary.bg` |    4.8:1 | AA     |
+| `color.text.inverse`        | `color.bg.inverse`        |    5.1:1 | AA     |
 
 ### 3.2. Kolory „tylko dekoracyjne”
 
@@ -110,7 +110,6 @@ Największy błąd przy dark mode to „odwracamy kolory w devtoolsach i gotowe�
 Lepiej myśleć tak:
 
 1. Definiujesz **osobne tokeny** dla tła i tekstu w dark mode:
-
    - `color.bg.surface.dark`
    - `color.bg.elevated.dark`
    - `color.text.primary.dark`
@@ -119,7 +118,6 @@ Lepiej myśleć tak:
 2. Brandowe kolory często muszą być **rozjaśnione** w trybie ciemnym, żeby zachować kontrast.
 
 3. W dark mode kluczowe jest:
-
    - tło rzadko jest idealnie czarne (#000) – lepiej ciemnoszary,
    - powierzchnie „kart” są trochę jaśniejsze od głównego tła,
    - odcienie neutralne zmieniają się bardziej niż brand (zachowujesz charakter marki, ale dopasowujesz wartości).
@@ -143,7 +141,7 @@ Pamiętaj, że **focus** nie może być tylko kolorem tła – potrzebuje wyraź
 
 ### 5.2. Kolor to nie jedyny nośnik informacji
 
-WCAG wymaga, żeby **nie polegać wyłącznie na kolorze** przy przekazywaniu informacji.:contentReference[oaicite:2]{index=2}  
+WCAG wymaga, żeby **nie polegać wyłącznie na kolorze** przy przekazywaniu informacji.:contentReference[oaicite:2]{index=2}
 
 Praktycznie:
 

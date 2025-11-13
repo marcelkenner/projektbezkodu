@@ -18,7 +18,7 @@ Ten playbook układa:
 - kluczowe sekcje i microcopy,
 - typowe obiekcje i CTA,
 - FAQ,
-- pomysł na lokalne SEO: *„prawnik {miasto} + {typ sprawy}”*. :contentReference[oaicite:1]{index=1}  
+- pomysł na lokalne SEO: _„prawnik {miasto} + {typ sprawy}”_. :contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -26,11 +26,11 @@ Ten playbook układa:
 
 **Przykład H1 (lokal + specjalizacja):**
 
-> *Adwokat {Miasto} – sprawy karne i rodzinne bez prawniczego żargonu*
+> _Adwokat {Miasto} – sprawy karne i rodzinne bez prawniczego żargonu_
 
 **Podtytuł:**
 
-> *Pomagamy osobom, które pierwszy raz stykają się z sądem: rozwody, alimenty, sprawy karne. Wyjaśniamy, jakie masz opcje – zanim podejmiesz decyzję.*
+> _Pomagamy osobom, które pierwszy raz stykają się z sądem: rozwody, alimenty, sprawy karne. Wyjaśniamy, jakie masz opcje – zanim podejmiesz decyzję._
 
 **CTA:**
 
@@ -75,9 +75,9 @@ Przykład układu:
 
 Przy każdej specjalizacji:
 
-> *Dla kogo jest ta usługa?*  
-> *Jak zazwyczaj wygląda sprawa?*  
-> *Jakie są możliwe scenariusze?*
+> _Dla kogo jest ta usługa?_  
+> _Jak zazwyczaj wygląda sprawa?_  
+> _Jakie są możliwe scenariusze?_
 
 ---
 
@@ -85,15 +85,15 @@ Przy każdej specjalizacji:
 
 ### „Nie wiem, czy w ogóle potrzebuję prawnika.”
 
-> *Nie w każdej sytuacji musisz od razu wszczynać postępowanie sądowe. Na konsultacji 30-minutowej oceniamy, czy sprawa wymaga naszej dalszej pomocy, czy wystarczy np. doprecyzować pismo lub odpowiedzieć na korespondencję.*
+> _Nie w każdej sytuacji musisz od razu wszczynać postępowanie sądowe. Na konsultacji 30-minutowej oceniamy, czy sprawa wymaga naszej dalszej pomocy, czy wystarczy np. doprecyzować pismo lub odpowiedzieć na korespondencję._
 
 ### „Boję się kosztów.”
 
-> *Przed podjęciem współpracy dostajesz jasną propozycję: zakres działań, orientacyjny czas trwania oraz sposób rozliczenia (ryczałt, stawka godzinowa, ewentualne dodatkowe koszty). Nie zaczynamy pracy, dopóki nie zaakceptujesz warunków.*
+> _Przed podjęciem współpracy dostajesz jasną propozycję: zakres działań, orientacyjny czas trwania oraz sposób rozliczenia (ryczałt, stawka godzinowa, ewentualne dodatkowe koszty). Nie zaczynamy pracy, dopóki nie zaakceptujesz warunków._
 
 ### „Nie rozumiem prawniczego języka.”
 
-> *Na spotkaniach i w korespondencji używamy normalnego, zrozumiałego języka. Jeśli pojawia się konieczność użycia specjalistycznych pojęć – tłumaczymy, co dokładnie oznaczają i co z nich wynika.*
+> _Na spotkaniach i w korespondencji używamy normalnego, zrozumiałego języka. Jeśli pojawia się konieczność użycia specjalistycznych pojęć – tłumaczymy, co dokładnie oznaczają i co z nich wynika._
 
 ---
 
@@ -107,7 +107,7 @@ Zamiast „Skontaktuj się”:
 
 Przy formularzu:
 
-> *Im więcej szczegółów podasz, tym lepiej przygotujemy się do rozmowy. Dane z formularza są objęte tajemnicą zawodową – traktujemy je jak informacje przekazane podczas spotkania w kancelarii.*
+> _Im więcej szczegółów podasz, tym lepiej przygotujemy się do rozmowy. Dane z formularza są objęte tajemnicą zawodową – traktujemy je jak informacje przekazane podczas spotkania w kancelarii._
 
 ---
 
@@ -152,7 +152,7 @@ Zamiast ogólników typu „indywidualne podejście”:
 
 **Microcopy:**
 
-> *Nie piszemy „gwarantujemy wygraną”. Zamiast tego jasno mówimy, jakie widzimy szanse i jakie są alternatywy – także pozasądowe (ugodowe).*
+> _Nie piszemy „gwarantujemy wygraną”. Zamiast tego jasno mówimy, jakie widzimy szanse i jakie są alternatywy – także pozasądowe (ugodowe)._
 
 ---
 
@@ -165,9 +165,9 @@ Lepiej:
 - widełki za typową sprawę (np. „rozwód bez orzekania o winie”),
 - możliwość rozliczenia etapowego.
 
-> *Przykład:  
+> _Przykład:  
 > Konsultacja jednorazowa (60 minut): 350–450 zł.  
-> Reprezentacja w sprawie o rozwód bez orzekania o winie: od 3 500 zł + opłaty sądowe.*
+> Reprezentacja w sprawie o rozwód bez orzekania o winie: od 3 500 zł + opłaty sądowe._
 
 ---
 

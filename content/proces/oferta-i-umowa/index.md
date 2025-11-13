@@ -26,7 +26,7 @@ Celem tego template’u jest uporządkowanie:
 Oferta powinna być na tyle konkretna, by:
 
 - klient wiedział, za co płaci,
-- Ty nie musiał_ ciągle „dopowiadać” zakresu.
+- Ty nie musiał\_ ciągle „dopowiadać” zakresu.
 
 ### 1.1. Sekcje oferty
 
@@ -49,13 +49,13 @@ Oferta powinna być na tyle konkretna, by:
 
 ### 1.2. Przykładowa tabela etapów i kosztów
 
-| Etap                 | Zakres skrócony                         | Szac. czas | Koszt netto |
-|----------------------|------------------------------------------|------------|------------:|
-| Discovery & UX       | warsztat, sitemap, user flow, makiety    | 2 tyg.     | 8 000 zł    |
-| UI & design system   | layouty, komponenty, design system       | 2 tyg.     | 9 000 zł    |
-| Development          | wdrożenie, integracje                   | 3 tyg.     | 14 000 zł   |
-| QA & launch          | testy, poprawki, wdrożenie na produkcję | 1–2 tyg.   | 6 000 zł    |
-| Razem                |                                          |            | 37 000 zł   |
+| Etap               | Zakres skrócony                         | Szac. czas | Koszt netto |
+| ------------------ | --------------------------------------- | ---------- | ----------: |
+| Discovery & UX     | warsztat, sitemap, user flow, makiety   | 2 tyg.     |    8 000 zł |
+| UI & design system | layouty, komponenty, design system      | 2 tyg.     |    9 000 zł |
+| Development        | wdrożenie, integracje                   | 3 tyg.     |   14 000 zł |
+| QA & launch        | testy, poprawki, wdrożenie na produkcję | 1–2 tyg.   |    6 000 zł |
+| Razem              |                                         |            |   37 000 zł |
 
 ---
 

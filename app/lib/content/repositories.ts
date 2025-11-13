@@ -25,28 +25,45 @@ export interface ContentSummary {
   date?: string;
 }
 
+interface MarkdownRepositoryOptions {
+  excludedDirectories?: string[];
+}
+
 abstract class MarkdownRepository {
   private readonly absoluteBasePath: string;
+  private readonly excludedDirectories: Set<string>;
 
-  protected constructor(private readonly relativeBasePath: string) {
+  protected constructor(
+    private readonly relativeBasePath: string,
+    options: MarkdownRepositoryOptions = {},
+  ) {
     this.absoluteBasePath = path.join(process.cwd(), relativeBasePath);
+    this.excludedDirectories = new Set(options.excludedDirectories ?? []);
   }
 
   listSummaries(): ContentSummary[] {
-    const documents = this.listVisibleDocuments();
+    const documents = this.getVisibleDocuments();
     return documents.map((document) => this.createSummary(document));
   }
 
   listSlugs(): string[] {
-    return this.listVisibleDocuments()
+    return this.getVisibleDocuments()
       .map((document) => document.slug)
       .filter(Boolean);
   }
 
   findBySlug(slug: string): MarkdownDocument | undefined {
-    return this.listVisibleDocuments().find(
+    return this.getVisibleDocuments().find(
       (document) => document.slug === slug,
     );
+  }
+
+  protected getVisibleDocuments(): MarkdownDocument[] {
+    const documents = this.loadDocuments();
+    const published = documents.filter(
+      (document) => !document.frontmatter.draft,
+    );
+    return published.length ? published : documents;
   }
 
   protected createSummary(document: MarkdownDocument): ContentSummary {
@@ -64,14 +81,6 @@ abstract class MarkdownRepository {
     };
   }
 
-  private listVisibleDocuments(): MarkdownDocument[] {
-    const documents = this.loadDocuments();
-    const published = documents.filter(
-      (document) => !document.frontmatter.draft,
-    );
-    return published.length ? published : documents;
-  }
-
   private loadDocuments(): MarkdownDocument[] {
     return this.collectEntryPaths().map((entryPath) =>
       this.readDocument(entryPath),
@@ -82,35 +91,47 @@ abstract class MarkdownRepository {
     if (!fs.existsSync(this.absoluteBasePath)) {
       return [];
     }
-    const entries = fs.readdirSync(this.absoluteBasePath, {
-      withFileTypes: true,
-    });
+    return this.collectFromDirectory(this.absoluteBasePath);
+  }
+
+  private collectFromDirectory(currentPath: string): string[] {
     const resolved: string[] = [];
+    const entries = fs.readdirSync(currentPath, { withFileTypes: true });
 
     entries.forEach((entry) => {
+      const entryPath = path.join(currentPath, entry.name);
+
       if (entry.isDirectory()) {
-        const directoryPath = path.join(
-          this.absoluteBasePath,
-          entry.name,
-          "index.md",
-        );
-        if (fs.existsSync(directoryPath)) {
-          resolved.push(this.toRelativePath(directoryPath));
+        if (this.shouldExcludeDirectory(entry.name)) {
+          return;
         }
+
+        const indexPath = path.join(entryPath, "index.md");
+        if (fs.existsSync(indexPath)) {
+          resolved.push(this.toRelativePath(indexPath));
+        }
+
+        resolved.push(...this.collectFromDirectory(entryPath));
         return;
       }
+
       if (
         entry.isFile() &&
         entry.name.endsWith(".md") &&
         entry.name !== "index.md"
       ) {
-        resolved.push(
-          this.toRelativePath(path.join(this.absoluteBasePath, entry.name)),
-        );
+        resolved.push(this.toRelativePath(entryPath));
       }
     });
 
     return resolved;
+  }
+
+  private shouldExcludeDirectory(name: string): boolean {
+    if (name.startsWith(".")) {
+      return true;
+    }
+    return this.excludedDirectories.has(name);
   }
 
   private readDocument(relativePath: string): MarkdownDocument {
@@ -298,6 +319,22 @@ export class ResourceRepository extends MarkdownRepository {
 
   getResource(slug: string): MarkdownDocument | undefined {
     return this.findBySlug(slug);
+  }
+}
+
+interface ContentRepositoryOptions {
+  excludedDirectories?: string[];
+}
+
+export class ContentRepository extends MarkdownRepository {
+  constructor(options: ContentRepositoryOptions = {}) {
+    super("content", {
+      excludedDirectories: options.excludedDirectories,
+    });
+  }
+
+  listDocuments(): MarkdownDocument[] {
+    return this.getVisibleDocuments();
   }
 }
 

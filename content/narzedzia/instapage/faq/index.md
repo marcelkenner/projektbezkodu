@@ -12,6 +12,7 @@ seo:
   title: "Instapage – FAQ po polsku"
   description: "Zebrałem odpowiedzi na popularne pytania o Instapage: wymagania, integracje, cennik i codzienną pracę z narzędziem."
 ---
+
 # Instapage – FAQ
 
 Zanim ktoś zacznie na serio rozważać Instapage, zwykle pada kilka tych samych pytań.  
@@ -44,4 +45,3 @@ W FAQ opisuję typowy proces wdrożenia:
 - co warto przygotować przed startem.
 
 W miarę pojawiania się nowych pytań dokładam kolejne odpowiedzi.
-

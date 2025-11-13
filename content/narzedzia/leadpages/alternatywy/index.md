@@ -12,6 +12,7 @@ seo:
   title: "Alternatywy dla Leadpages – lista narzędzi"
   description: "Sprawdź, czym różnią się od Leadpages inne kreatory: Unbounce, Instapage, Webflow i tańsze narzędzia do landing page'y."
 ---
+
 # Alternatywy dla Leadpages
 
 Jeśli Leadpages wydaje Ci się:
@@ -30,4 +31,3 @@ to na tej stronie znajdziesz zestaw **konkretnych zamienników**.
 - inne, prostsze narzędzia, gdy potrzebujesz tylko kilku stron na krzyż.
 
 Zamiast suchego rankingu skupiam się na tym, kto skorzysta na zmianie z Leadpages na inne narzędzie.
-

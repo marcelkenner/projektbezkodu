@@ -151,3 +151,4 @@ Czy zdefiniowano stany hover, selected i focus dla kart/wierszy?
 Czy istnieją komponenty empty state i loading dla list?
 
 Dzięki temu widoki list i kart przestają być „ręczną rzeźbą”, a stają się powtarzalnym, łatwym do rozwijania wzorcem.
+```

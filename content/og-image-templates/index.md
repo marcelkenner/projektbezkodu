@@ -14,7 +14,7 @@ OG-image (Open Graph image) to ta grafika, która:
 
 - pojawia się, gdy ktoś udostępnia Twój link na Facebooku, LinkedInie czy X,
 - często jest też używana przez komunikatory (Messenger, Slack),
-- bywa pierwszą rzeczą, którą człowiek widzi *zanim* przeczyta tytuł.
+- bywa pierwszą rzeczą, którą człowiek widzi _zanim_ przeczyta tytuł.
 
 Dobrze zrobione OG-image:
 
@@ -156,20 +156,21 @@ Dzięki temu użytkownik od razu widzi, że to **coś większego** niż pojedync
 **Font etykiet / dopisków:**  
 …
 
-**Kolory:**  
-- tło podstawowe:  
-- tło alternatywne:  
-- akcent:  
+**Kolory:**
+
+- tło podstawowe:
+- tło alternatywne:
+- akcent:
 - kolor tekstu:
 
 **Kategorie OG:**
 
-| Kategoria | Label     | Główne elementy              |
-|-----------|-----------|------------------------------|
-| blog      | brak      | skrócony tytuł + ilustracja  |
-| template  | TEMPLATE  | nazwa narzędzia + ikona      |
-| case      | CASE STUDY| typ klienta + wynik          |
-| oferta    | brak      | benefit + typ oferty         |
-| hub       | HUB/SERIA | nazwa serii + moduły         |
+| Kategoria | Label      | Główne elementy             |
+| --------- | ---------- | --------------------------- |
+| blog      | brak       | skrócony tytuł + ilustracja |
+| template  | TEMPLATE   | nazwa narzędzia + ikona     |
+| case      | CASE STUDY | typ klienta + wynik         |
+| oferta    | brak       | benefit + typ oferty        |
+| hub       | HUB/SERIA  | nazwa serii + moduły        |
 
 Z takim zestawem Twoje OG-image przestaną być losowymi obrazkami, a zaczną pracować jak małe billboardy Twojej marki.

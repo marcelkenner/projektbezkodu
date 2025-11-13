@@ -12,6 +12,7 @@ seo:
   title: "Unbounce – recenzja skupiona na efektach"
   description: "Dowiedz się, kiedy Unbounce dowozi wyniki: więcej leadów, wyższe konwersje i wygodniejsza praca nad kampaniami."
 ---
+
 # Unbounce – recenzja z perspektywy efektów
 
 W tej recenzji traktuję Unbounce jak narzędzie do **dowożenia wyników**, a nie kolejny kreator stron.
@@ -37,4 +38,3 @@ W skrócie:
 - gorzej, jeśli szukasz taniego narzędzia do jednej strony raz na rok.
 
 Dalej w tekście rozbijam plusy, minusy i konkretne case'y, w których Unbounce naprawdę błyszczy – i takie, gdzie lepiej sięgnąć po alternatywę.
-

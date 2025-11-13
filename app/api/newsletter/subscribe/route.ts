@@ -38,11 +38,9 @@ export async function POST(request: Request) {
       consentSource: "projektbezkodu.pl",
     });
 
-    const response = redirectWithParams(
-      request.url,
-      "/newsletter/potwierdz/",
-      { status: "success" },
-    );
+    const response = redirectWithParams(request.url, "/newsletter/potwierdz/", {
+      status: "success",
+    });
 
     const cookie = buildSubscriberCookieOptions();
     response.cookies.set(

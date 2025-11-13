@@ -13,7 +13,7 @@ date: "2025-11-05"
 Dobry kickoff to często różnica między projektem, który idzie „sam”, a takim, który od początku trzeba ratować.  
 Ten template to **agenda + materiały**, które możesz wykorzystać przy starcie projektu www / produktu.
 
-Bazuje na praktykach z projektów UX/webowych i klasycznych kick-offów projektowych. :contentReference[oaicite:5]{index=5}  
+Bazuje na praktykach z projektów UX/webowych i klasycznych kick-offów projektowych. :contentReference[oaicite:5]{index=5}
 
 ---
 
@@ -173,10 +173,10 @@ Możesz wkleić to w Notion jako strukturę notatek:
 
 **Sekcja 6 – Ryzyka**
 
-| Ryzyko                                      | Prawdopodobieństwo | Plan reakcji                       |
-|--------------------------------------------|--------------------|------------------------------------|
-| np. brak treści w terminie                 | średnie            | wcześniej zaczynamy content plan   |
-| np. decydent zmienia zdanie w połowie prac | wysokie            | 1 osoba jako finalny decydent      |
+| Ryzyko                                     | Prawdopodobieństwo | Plan reakcji                     |
+| ------------------------------------------ | ------------------ | -------------------------------- |
+| np. brak treści w terminie                 | średnie            | wcześniej zaczynamy content plan |
+| np. decydent zmienia zdanie w połowie prac | wysokie            | 1 osoba jako finalny decydent    |
 
 **Sekcja 7 – Następne kroki**
 

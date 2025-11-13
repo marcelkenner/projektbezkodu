@@ -12,6 +12,7 @@ seo:
   title: "Leadpages – FAQ po polsku"
   description: "Krótkie odpowiedzi na częste pytania o Leadpages: czy nadaje się na stronę główną, jak działa integracja z mailingiem i co z SEO."
 ---
+
 # Leadpages – FAQ
 
 Ta strona to skrótowiec – zamiast długiej teorii, szybkie odpowiedzi.
@@ -45,4 +46,3 @@ Na start wystarczy:
 3. podpiąć domenę i mailing.
 
 W dalszej części FAQ dokładam kolejne pytania, które pojawiają się najczęściej przy wdrożeniach.
-

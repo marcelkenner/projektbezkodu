@@ -122,7 +122,7 @@ Dobre praktyki:
 
 W CSS:
 
-```css
+````css
 body {
   font-variant-ligatures: common-ligatures;
 }
@@ -197,7 +197,7 @@ date: "2025-11-05"
 
 # Siatka i spacing: 8-pt grid i skala odstępów w design systemie
 
-Największy upgrade wizualny, jaki możesz zrobić w produkcie, to nie „nowy gradient”, tylko **porządek w odstępach**.  
+Największy upgrade wizualny, jaki możesz zrobić w produkcie, to nie „nowy gradient”, tylko **porządek w odstępach**.
 8-pt grid i spójna skala spacingu sprawiają, że:
 
 - interfejs „się trzyma” – nieważne, kto robi ekran,
@@ -208,7 +208,7 @@ Największy upgrade wizualny, jaki możesz zrobić w produkcie, to nie „nowy g
 
 ## 1. O co chodzi w 8-pt gridzie
 
-8-pt grid to zasada, że **większość odległości i rozmiarów** w UI to wielokrotności 8 (czasem 4).:contentReference[oaicite:0]{index=0}  
+8-pt grid to zasada, że **większość odległości i rozmiarów** w UI to wielokrotności 8 (czasem 4).:contentReference[oaicite:0]{index=0}
 
 Czyli:
 
@@ -243,10 +243,10 @@ Przykład:
 
 Dwa triki:
 
-1. **W środku skali** możesz mieć kroki co 4 px (4, 8, 12, 16, 20, 24…),  
+1. **W środku skali** możesz mieć kroki co 4 px (4, 8, 12, 16, 20, 24…),
    ale wszystko i tak „wpina się” w 8-pt grid.
 
-2. Dla **wewnętrznego paddingu** używaj mniejszych kroków (4, 8, 12, 16),  
+2. Dla **wewnętrznego paddingu** używaj mniejszych kroków (4, 8, 12, 16),
    dla **odstępów między sekcjami** – większych (24, 32, 40, 48).
 
 W dokumentacji wypisz:
@@ -298,7 +298,7 @@ Typowe układy:
 - 6–8 na tablet,
 - 4 na mobile (często ukryte w narzędziu, ale trzymasz logikę).
 
-Kolumny pomagają „dokować” większe elementy: karty, sekcje, obrazy.  
+Kolumny pomagają „dokować” większe elementy: karty, sekcje, obrazy.
 8-pt grid rozwiązuje **szczegóły** – marginesy, paddingi, wysokości komponentów.
 
 ### 4.2. Baseline grid (tekst)
@@ -337,3 +337,4 @@ Możesz dosłownie wkleić coś takiego do wiki design systemu:
 5. Czy devowie znają ten system i nie proszą o „pixel perfect” specy do każdego ekranu?
 
 Jeśli większość odpowiedzi to „tak” – 8-pt grid żyje, a nie jest tylko hasłem w prezentacji.
+````

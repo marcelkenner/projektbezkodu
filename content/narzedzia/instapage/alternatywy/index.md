@@ -12,6 +12,7 @@ seo:
   title: "Alternatywy dla Instapage – co w zamian?"
   description: "Lista narzędzi, które mogą zastąpić Instapage przy mniejszych kampaniach: Unbounce, Leadpages, Webflow i inne rozwiązania no-code."
 ---
+
 # Alternatywy dla Instapage
 
 Instapage jest świetne, ale nie zawsze pasuje do:
@@ -29,4 +30,3 @@ Dlatego warto znać narzędzia, które mogą zrobić "wystarczająco dobrą robo
 - **Webflow** – kiedy landing jest częścią większego serwisu i zależy Ci na pełnej kontroli wizualnej.
 
 Opisuję, w jakich scenariuszach każde z nich lepiej sprawdzi się niż Instapage.
-

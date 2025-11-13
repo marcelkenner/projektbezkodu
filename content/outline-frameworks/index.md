@@ -15,7 +15,7 @@ Bez niego łatwo skończyć z tekstem, który:
 
 - jest długi, ale nic z niego nie wynika,
 - skacze po wątkach,
-- nie odpowiada na intencję wyszukiwania. :contentReference[oaicite:4]{index=4}  
+- nie odpowiada na intencję wyszukiwania. :contentReference[oaicite:4]{index=4}
 
 Ten template to zestaw praktycznych szkieletów po polsku, które możesz stosować w:
 
@@ -83,7 +83,7 @@ Dobre do: procesów, które da się rozpisać na kolejne etapy.
    - co trzeba przygotować,
    - krótkie przykłady.
 
-3. **Krok 2 – …**  
+3. **Krok 2 – …**
 4. **Krok 3 – …**  
    itd., aż do kroku N.
 
@@ -227,9 +227,9 @@ Przed startem nowego artykułu wklej to w docu:
 3. **Teza / główny wniosek:**  
    (jedno zdanie)
 
-4. **Nagłówki H2 / sekcje:**  
-   - …  
-   - …  
+4. **Nagłówki H2 / sekcje:**
+   - …
+   - …
    - …
 
 5. **Jaki CTA ma sens na końcu?**  

@@ -86,7 +86,13 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 4. Build `app/lib/content/repositories.ts` with abstract `MarkdownRepository` and concrete repositories for articles, comparisons, tutorials, glossary.
 5. Provide `MarkdownPageLoader` helper for singleton pages (privacy, terms).
 6. Implement `app/ui/MarkdownRenderer.tsx` to render headings, lists, blockquotes, inline emphasis without external libraries.
-7. Define article taxonomy (categories, tags) in `data/copy/articles.json` and reference those slugs from markdown `taxonomy` blocks; resolve labels via `ArticleTaxonomyCatalog`.
+7. Handle everything else with the generic pipeline:
+   - `ContentRepository` now crawls nested `content/**/index.md`, excluding `_examples` and `glossary`.
+   - `ContentLibrary` normalises routes (prefers `frontmatter.path`, falls back to folder structure) and exposes `{ path, segments, document }` tuples.
+   - `ContentPageCoordinator` + `ContentPageViewModel` pair injects `MarkdownRenderer` output and SEO metadata for any arbitrary markdown page.
+   - Catch-all route `app/(marketing)/(content)/[...segments]/page.tsx` renders those entries with mobile-first typography; existing bespoke routes keep priority automatically.
+8. Run `npm run content:lint` (automatically executed before `npm run build`) to validate every markdown file with `gray-matter`. Fix YAML errors before committing so the global content crawl never fails.
+9. Define article taxonomy (categories, tags) in `data/copy/articles.json` and reference those slugs from markdown `taxonomy` blocks; resolve labels via `ArticleTaxonomyCatalog`.
 
 ## 10. Routing & Pages
 
@@ -105,6 +111,11 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - Render body with `MarkdownRenderer`.
 7. Point legal pages to markdown via `MarkdownPageLoader`.
 8. Keep `not-found.tsx` using copy helper.
+9. Generic fallback route: `/app/(marketing)/(content)/[...segments]/page.tsx`:
+   - Uses `ContentPageCoordinator` to locate any markdown path under `content/**`.
+   - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure.
+   - Applies `ContentPageViewModel` metadata so SEO + OG tags inherit from frontmatter.
+   - Excludes `_examples` and `glossary` (handled elsewhere) to avoid duplicate flows.
 
 ## 11. Content Management Workflow
 

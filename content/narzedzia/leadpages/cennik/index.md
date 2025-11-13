@@ -12,6 +12,7 @@ seo:
   title: "Leadpages – cennik i który plan wybrać"
   description: "Pomagam wybrać plan Leadpages: omawiam ceny, limity, różnice między pakietami i to, co dostajesz w zamian."
 ---
+
 # Leadpages – cennik
 
 Cennik Leadpages wydaje się prostszy niż w wielu konkurencyjnych narzędziach, ale diabeł jak zwykle siedzi w szczegółach.
@@ -34,4 +35,3 @@ Na stronie rozbijam konkretne scenariusze:
 - agencja, która stawia strony klientom.
 
 Celem jest to, żebyś po przeczytaniu miał(a) jasność, czy Leadpages da się dopasować do Twojego budżetu i planów.
-

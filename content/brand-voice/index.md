@@ -11,7 +11,7 @@ date: "2025-11-05"
 # Ton marki (brand voice) – praktyczny przewodnik z ćwiczeniami
 
 Logo można zmienić w weekend.  
-Ton marki – to, *jak* mówisz w tekstach, prezentacjach, mailach – wchodzi ludziom w głowę dużo głębiej i na dłużej. :contentReference[oaicite:5]{index=5}  
+Ton marki – to, _jak_ mówisz w tekstach, prezentacjach, mailach – wchodzi ludziom w głowę dużo głębiej i na dłużej. :contentReference[oaicite:5]{index=5}
 
 Ten przewodnik pomoże Ci:
 
@@ -23,13 +23,13 @@ Ten przewodnik pomoże Ci:
 
 ## 1. Voice vs tone – proste rozróżnienie
 
-- **Voice (głos)** – to, *kim* jesteś jako marka. Raczej stały.
+- **Voice (głos)** – to, _kim_ jesteś jako marka. Raczej stały.
   - np. „bezpośredni, konkretny, nie udajemy korpo”.
 
-- **Tone (ton)** – to, *jak* brzmisz w danej sytuacji.
+- **Tone (ton)** – to, _jak_ brzmisz w danej sytuacji.
   - ta sama osoba inaczej mówi na scenie, inaczej 1:1 z klientem.
 
-Przykład: Mailchimp ma spójny, rozmowny voice, ale ton zmienia w zależności od tego, czy gratuluje kampanii, czy tłumaczy błąd w systemie. :contentReference[oaicite:6]{index=6}  
+Przykład: Mailchimp ma spójny, rozmowny voice, ale ton zmienia w zależności od tego, czy gratuluje kampanii, czy tłumaczy błąd w systemie. :contentReference[oaicite:6]{index=6}
 
 ---
 
@@ -44,7 +44,7 @@ Weź kartkę / Notion i odpowiedz:
 
 2. **3 marki / osoby, które lubisz za sposób komunikacji**
    - co dokładnie Cię w nich kręci (konkretne cechy),
-   - co byś *nie* chciał kopiować.
+   - co byś _nie_ chciał kopiować.
 
 3. **Czego na pewno NIE chcesz w swoim voice**
    - np. „marketingowe lanie wody”, „żarty na siłę”, „motywacyjne gadki”.
@@ -55,7 +55,7 @@ To ćwiczenie nie zastąpi całego style guide’u, ale daje dobry start do rozm
 
 ## 3. 4 wymiary tonu (spektrum)
 
-Uproszczony model NNG dzieli ton na cztery wymiary: formalny–nieformalny, poważny–zabawny, respektujący–zadziorny, suchy–entuzjastyczny. :contentReference[oaicite:7]{index=7}  
+Uproszczony model NNG dzieli ton na cztery wymiary: formalny–nieformalny, poważny–zabawny, respektujący–zadziorny, suchy–entuzjastyczny. :contentReference[oaicite:7]{index=7}
 
 Dla każdego wymiaru zaznacz, gdzie chcesz być:
 
@@ -92,17 +92,17 @@ Np.:
 
 Przykład:
 
-- **Szczerość** → mówimy, kiedy coś *nie* jest dla klienta, nie obiecujemy „10x w miesiąc”.
+- **Szczerość** → mówimy, kiedy coś _nie_ jest dla klienta, nie obiecujemy „10x w miesiąc”.
 - **Praktyczność** → każdy tekst ma wskazówki do zastosowania od razu, nie tylko „inspiracje”.
 - **Szacunek do czasu** → krótkie leady, zero lania wody, jasno oznaczone podsumowania.
 
 Spisz to w formie:
 
-| Wartość       | Co to znaczy w tekstach                                    |
-|---------------|------------------------------------------------------------|
-| szczerość     | mówimy wprost o ograniczeniach, nie obiecujemy cudów       |
-| praktyczność  | w każdym tekście przynajmniej 1 przykład lub template      |
-| szacunek czasu| nie piszemy „esejów” bez struktury, dbamy o czytelność     |
+| Wartość        | Co to znaczy w tekstach                                |
+| -------------- | ------------------------------------------------------ |
+| szczerość      | mówimy wprost o ograniczeniach, nie obiecujemy cudów   |
+| praktyczność   | w każdym tekście przynajmniej 1 przykład lub template  |
+| szacunek czasu | nie piszemy „esejów” bez struktury, dbamy o czytelność |
 
 ---
 
@@ -112,12 +112,12 @@ To najbardziej przyziemna, ale przydatna część.
 
 Zrób tabelę:
 
-| Aspekt          | Tak piszemy                                      | Tak NIE piszemy                                   |
-|-----------------|--------------------------------------------------|---------------------------------------------------|
-| Zwrot do czytelnika | „Ty”, „Wy”, w 2. osobie                      | bezosobowe „należy”, „trzeba”                     |
-| O naszym produkcie | konkretnie: „kurs analityki”, „audyt”         | „innowacyjne rozwiązania transformujące biznes”   |
-| O błędach        | „to normalne, że…”, „większość firm…”          | „robisz to źle”, „to fatalny błąd”                |
-| Call to action   | „Zobacz, czy to dla Ciebie”                     | „Kup teraz, zanim będzie za późno”                |
+| Aspekt              | Tak piszemy                           | Tak NIE piszemy                                 |
+| ------------------- | ------------------------------------- | ----------------------------------------------- |
+| Zwrot do czytelnika | „Ty”, „Wy”, w 2. osobie               | bezosobowe „należy”, „trzeba”                   |
+| O naszym produkcie  | konkretnie: „kurs analityki”, „audyt” | „innowacyjne rozwiązania transformujące biznes” |
+| O błędach           | „to normalne, że…”, „większość firm…” | „robisz to źle”, „to fatalny błąd”              |
+| Call to action      | „Zobacz, czy to dla Ciebie”           | „Kup teraz, zanim będzie za późno”              |
 
 Dodaj przykłady zdań „przed / po” – najlepiej z własnych tekstów.
 
@@ -129,14 +129,14 @@ Twój voice jest stały, ale **ton** różni się w zależności od sytuacji.
 
 Zrób prostą tabelę z kontekstami i wskazówkami:
 
-| Kontekst                 | Ton                         | Przykład                              |
-|-------------------------|-----------------------------|----------------------------------------|
-| strona główna           | klarowny, trochę entuzjasty | „Pomagamy Ci widzieć, co działa”      |
-| blog ekspercki          | spokojny, rzeczowy          | „Pokażę Ci, jak to ogarnąć w praktyce”|
-| maile sprzedażowe       | bezpośredni, konkretny      | „Jeśli chcesz X, zobacz tę ofertę”    |
-| maile z błędami / support | empatyczny, uspokajający  | „To nasza wina, naprawiamy to tak…”   |
+| Kontekst                  | Ton                         | Przykład                               |
+| ------------------------- | --------------------------- | -------------------------------------- |
+| strona główna             | klarowny, trochę entuzjasty | „Pomagamy Ci widzieć, co działa”       |
+| blog ekspercki            | spokojny, rzeczowy          | „Pokażę Ci, jak to ogarnąć w praktyce” |
+| maile sprzedażowe         | bezpośredni, konkretny      | „Jeśli chcesz X, zobacz tę ofertę”     |
+| maile z błędami / support | empatyczny, uspokajający    | „To nasza wina, naprawiamy to tak…”    |
 
-Możesz się inspirować tym, jak robią to duże marki (np. Duolingo adaptuje ton w zależności od kontekstu w aplikacji). :contentReference[oaicite:8]{index=8}  
+Możesz się inspirować tym, jak robią to duże marki (np. Duolingo adaptuje ton w zależności od kontekstu w aplikacji). :contentReference[oaicite:8]{index=8}
 
 ---
 

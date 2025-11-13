@@ -18,7 +18,7 @@ Dobra wycena to nie „na oko” i porównanie z konkurencją, tylko policzona s
 
 Ten tekst pokaże Ci, jak zbudować prosty **arkusz-kalkulator** do wyceny projektów.
 
-Opiera się na podejściu: **zacznij od celu finansowego i realnych godzin pracy, a potem z tego wyprowadź stawkę i wyceny etapów**. :contentReference[oaicite:6]{index=6}  
+Opiera się na podejściu: **zacznij od celu finansowego i realnych godzin pracy, a potem z tego wyprowadź stawkę i wyceny etapów**. :contentReference[oaicite:6]{index=6}
 
 ---
 
@@ -57,12 +57,12 @@ Dodaj sobie jeszcze mnożnik na **bufor / zysk** (np. 1,2) i otrzymasz **stawka_
 Jeżeli jesteś agencją lub masz różne typy zadań, możesz dodać:
 
 | Typ pracy              | Stawka bazowa (z kalkulatora) | Mnożnik | Stawka końcowa |
-|------------------------|-------------------------------:|--------:|---------------:|
-| Strategia / konsulting | 200 zł                        | 1,4     | 280 zł         |
-| UX / product           | 200 zł                        | 1,3     | 260 zł         |
-| UI / design            | 200 zł                        | 1,2     | 240 zł         |
-| Dev                    | 200 zł                        | 1,1     | 220 zł         |
-| Junior / asysta        | 200 zł                        | 0,7     | 140 zł         |
+| ---------------------- | ----------------------------: | ------: | -------------: |
+| Strategia / konsulting |                        200 zł |     1,4 |         280 zł |
+| UX / product           |                        200 zł |     1,3 |         260 zł |
+| UI / design            |                        200 zł |     1,2 |         240 zł |
+| Dev                    |                        200 zł |     1,1 |         220 zł |
+| Junior / asysta        |                        200 zł |     0,7 |         140 zł |
 
 To pozwala wyceniać etapy bardziej realistycznie: discovery robi senior, rollout elementów – ktoś tańszy.
 
@@ -74,15 +74,15 @@ Drugi arkusz (lub sekcja) to lista etapów i zadań.
 
 ### 3.1. Struktura tabeli
 
-| Etap / zadanie                    | Typ pracy | Osoba / rola | Szac. godziny | Stawka [z tabeli] | Koszt        | Bufor (%) | Koszt z buforem |
-|-----------------------------------|-----------|--------------|---------------|-------------------|-------------:|----------:|----------------:|
-| Warsztat kickoff                  | Strategia | Senior       | 6             | 280 zł            | 1 680 zł     | 20%       | 2 016 zł        |
-| Przygotowanie briefu / discovery  | Strategia | Mid          | 8             | 260 zł            | 2 080 zł     | 15%       | 2 392 zł        |
-| Sitemap + user flow               | UX        | Mid          | 8             | 260 zł            | 2 080 zł     | 15%       | 2 392 zł        |
-| Makiety kluczowych widoków        | UX        | Mid          | 20            | 260 zł            | 5 200 zł     | 10%       | 5 720 zł        |
-| UI (system + layouty)             | UI        | Mid          | 22            | 240 zł            | 5 280 zł     | 10%       | 5 808 zł        |
-| Frontend + CMS                    | Dev       | Mid/Senior   | 40            | 220 zł            | 8 800 zł     | 15%       | 10 120 zł       |
-| QA + poprawki                     | Mix       | zespół       | 16            | średnia ~230 zł   | 3 680 zł     | 15%       | 4 232 zł        |
+| Etap / zadanie                   | Typ pracy | Osoba / rola | Szac. godziny | Stawka [z tabeli] |    Koszt | Bufor (%) | Koszt z buforem |
+| -------------------------------- | --------- | ------------ | ------------- | ----------------- | -------: | --------: | --------------: |
+| Warsztat kickoff                 | Strategia | Senior       | 6             | 280 zł            | 1 680 zł |       20% |        2 016 zł |
+| Przygotowanie briefu / discovery | Strategia | Mid          | 8             | 260 zł            | 2 080 zł |       15% |        2 392 zł |
+| Sitemap + user flow              | UX        | Mid          | 8             | 260 zł            | 2 080 zł |       15% |        2 392 zł |
+| Makiety kluczowych widoków       | UX        | Mid          | 20            | 260 zł            | 5 200 zł |       10% |        5 720 zł |
+| UI (system + layouty)            | UI        | Mid          | 22            | 240 zł            | 5 280 zł |       10% |        5 808 zł |
+| Frontend + CMS                   | Dev       | Mid/Senior   | 40            | 220 zł            | 8 800 zł |       15% |       10 120 zł |
+| QA + poprawki                    | Mix       | zespół       | 16            | średnia ~230 zł   | 3 680 zł |       15% |        4 232 zł |
 
 Na koniec sumujesz **koszt z buforem** i decydujesz, czy:
 

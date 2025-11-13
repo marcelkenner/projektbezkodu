@@ -1,5 +1,5 @@
-<!-- /content/repurposing/index.md -->
----
+## <!-- /content/repurposing/index.md -->
+
 title: "Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts"
 slug: "repurposing"
 path: "/content/repurposing/"
@@ -7,12 +7,13 @@ type: "guide"
 tags: ["evergreen", "content", "recykling"]
 draft: true
 date: "2025-11-05"
+
 ---
 
 # Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts
 
 Tworzenie treści od zera za każdym razem to droga do wypalenia.  
-Strategiczny recykling (repurposing) zakłada coś innego: **raz robisz solidny materiał, potem wyciągasz z niego maksimum, dopasowując format do kanału**. :contentReference[oaicite:3]{index=3}  
+Strategiczny recykling (repurposing) zakłada coś innego: **raz robisz solidny materiał, potem wyciągasz z niego maksimum, dopasowując format do kanału**. :contentReference[oaicite:3]{index=3}
 
 Tu skupimy się na scenariuszu:
 
@@ -107,7 +108,7 @@ Przykład:
 - Shorts:
   - „Jeden event vs 10 pseudo-eventów – co jest lepsze?”
   - „Dlaczego `klik_przycisku` to słaba nazwa eventu”
-  - „Jak uratować bałagan w GA4”  
+  - „Jak uratować bałagan w GA4”
 - Pinterest:
   - pin „Checklista: czy Twoje eventy są do wyrzucenia?”
   - idea pin „3 kroki do nowej taksonomii”.
@@ -207,23 +208,24 @@ Najczęstsze wtopy:
 Do skopiowania:
 
 **Materiał bazowy:**  
-URL / tytuł: …  
+URL / tytuł: …
 
-**Główne tezy (max 3):**  
-1. …  
-2. …  
+**Główne tezy (max 3):**
+
+1. …
+2. …
 3. …
 
 **Listek pomysłów na formaty:**
 
-| Kanał     | Format        | Tytuł roboczy                               | Status      |
-|-----------|---------------|---------------------------------------------|-------------|
-| Blog      | —             | (materiał bazowy)                           | opublikowane|
-| IG        | karuzela      | …                                           | do zrobienia|
-| IG        | reels         | …                                           | do zrobienia|
-| Pinterest | static pin    | …                                           | do zrobienia|
-| Pinterest | idea pin      | …                                           | do zrobienia|
-| Shorts    | vertical video| …                                           | do zrobienia|
-| Newsletter| mail z esencją| …                                           | do zrobienia|
+| Kanał      | Format         | Tytuł roboczy     | Status       |
+| ---------- | -------------- | ----------------- | ------------ |
+| Blog       | —              | (materiał bazowy) | opublikowane |
+| IG         | karuzela       | …                 | do zrobienia |
+| IG         | reels          | …                 | do zrobienia |
+| Pinterest  | static pin     | …                 | do zrobienia |
+| Pinterest  | idea pin       | …                 | do zrobienia |
+| Shorts     | vertical video | …                 | do zrobienia |
+| Newsletter | mail z esencją | …                 | do zrobienia |
 
 Jeśli przy każdym nowym artykule wypełnisz taki template, przestaniesz się zastanawiać „co wrzucić na social”, bo wszystko będzie już policzone z góry.
