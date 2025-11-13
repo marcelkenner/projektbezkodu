@@ -1,11 +1,14 @@
 ---
-title: "Bunny Net Recenzja"
+title: "Bunny.net – recenzja"
 slug: "recenzja"
 path: "/narzedzia/bunny-net/recenzja/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Bunny.net – recenzja w stylu „co mam z tego ja”"
+  subheading: "Kieruję ruch przez Bunny.net i dostaję szybsze strony, prostszy storage i lepszą kontrolę nad kosztami transferu."
+seo:
+  title: "Bunny.net – recenzja z perspektywy wydajności i kosztów"
+  description: "Sprawdzam, jak Bunny.net wypada jako CDN w codziennej pracy: szybkość, panel, support i realne rachunki za transfer."
 ---
-
-# Bunny Net Recenzja
-
-> Placeholder page for **Bunny Net Recenzja** at $pathForFm.

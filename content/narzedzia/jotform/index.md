@@ -1,11 +1,14 @@
 ---
-title: "Jotform"
+title: "Jotform – formularze online dla biznesu"
 slug: "jotform"
 path: "/narzedzia/jotform/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Jotform – formularze, ankiety i zgłoszenia bez kodowania"
+  subheading: "Układam pola jak klocki, wysyłki lecą na maila lub do CRM-a, a dane zbierają się w jednym miejscu."
+seo:
+  title: "Jotform – czym jest i kiedy warto go użyć"
+  description: "Zobacz, jak Jotform pomaga szybko zbudować formularze, ankiety i zgłoszenia bez programisty, z integracjami i automatyzacją."
 ---
-
-# Jotform
-
-> Placeholder page for **Jotform** at $pathForFm.

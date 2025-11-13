@@ -1,11 +1,14 @@
 ---
-title: "Bunny Net"
+title: "Bunny.net – CDN, storage i video w jednym ekosystemie"
 slug: "bunny-net"
 path: "/narzedzia/bunny-net/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Bunny.net – prosty CDN z dodatkami dla devów i twórców"
+  subheading: "Wrzucam pliki do Bunny.net i mam CDN, storage, a nawet video delivery bez stawiania własnych serwerów."
+seo:
+  title: "Bunny.net – czym jest i kiedy warto go użyć"
+  description: "Zobacz, jak Bunny.net łączy CDN, storage i dodatkowe usługi, ułatwiając przyspieszanie stron, aplikacji i contentu video."
 ---
-
-# Bunny Net
-
-> Placeholder page for **Bunny Net** at $pathForFm.

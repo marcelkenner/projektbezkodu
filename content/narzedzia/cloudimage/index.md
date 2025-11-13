@@ -1,11 +1,14 @@
 ---
-title: "Cloudimage"
+title: "Cloudimage – optymalizacja obrazów przez CDN"
 slug: "cloudimage"
 path: "/narzedzia/cloudimage/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Cloudimage – automatyczna kompresja, skalowanie i CDN dla obrazów"
+  subheading: "Podmieniam zwykłe URL-e obrazków na endpoint Cloudimage i nagle mam WebP/AVIF, mniejsze payloady i szybsze strony."
+seo:
+  title: "Cloudimage – czym jest i jak pomaga stronom z dużą liczbą grafik"
+  description: "Zobacz, jak Cloudimage optymalizuje obrazy w locie i serwuje je przez CDN, poprawiając szybkość ładowania bez przebudowy aplikacji."
 ---
-
-# Cloudimage
-
-> Placeholder page for **Cloudimage** at $pathForFm.

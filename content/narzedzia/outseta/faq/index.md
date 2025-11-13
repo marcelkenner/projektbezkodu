@@ -1,11 +1,16 @@
 ---
-title: "Outseta Faq"
+title: "Outseta – FAQ"
 slug: "faq"
 path: "/narzedzia/outseta/faq/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Outseta – odpowiedzi na najczęstsze pytania przed wyborem platformy"
+  subheading: "Rozjaśniam kwestie podatków, walut, migracji z innych systemów i integracji z narzędziami no-code."
+seo:
+  title: "Outseta – FAQ o rozliczeniach, integracjach i migracjach"
+  description: "Najczęstsze pytania o Outseta: obsługa wielu walut, integracje z builderami, migracja subskrypcji i bezpieczeństwo danych."
 ---
 
-# Outseta Faq
-
-> Placeholder page for **Outseta Faq** at $pathForFm.
+Tu będzie treść artykułu.

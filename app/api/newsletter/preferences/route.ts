@@ -2,9 +2,9 @@ import { NextResponse } from "next/server";
 import { NewsletterManager } from "@/app/lib/newsletter/NewsletterManager";
 import { ListmonkError } from "@/app/lib/newsletter/ListmonkClient";
 
-const manager = new NewsletterManager();
-
 export async function POST(request: Request) {
+  // instantiate lazily inside the handler to avoid env validation at import time
+  const manager = new NewsletterManager();
   const formData = await request.formData();
   const subscriberUuid = formData.get("subscriberUuid");
   const topics = formData

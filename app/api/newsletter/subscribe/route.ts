@@ -9,9 +9,12 @@ import {
   serializeSubscriberCookie,
 } from "@/app/lib/newsletter/cookies";
 
-const manager = new NewsletterManager();
-
 export async function POST(request: Request) {
+  // instantiate manager lazily inside the handler to avoid importing
+  // and validating env at module initialization time (which breaks
+  // Next.js build / page-data collection when env isn't set)
+  const manager = new NewsletterManager();
+
   const formData = await request.formData();
   const email = formData.get("email");
   const consent = formData.get("consent");

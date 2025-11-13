@@ -1,11 +1,16 @@
 ---
-title: "Make"
+title: "Make – automatyzacje no-code w praktyce"
 slug: "make"
 path: "/narzedzia/make/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Make – centrum automatyzacji dla rozsypanych narzędzi"
+  subheading: "Łączę CRM-y, maile i arkusze w jeden sensowny proces, bez dotykania API czy kodu."
+seo:
+  title: "Make – jak używam go do automatyzacji procesów"
+  description: "Zobacz, jak Make pomaga mi ogarniać powtarzalne zadania: integracje, scenariusze i automatyzacje w małym i większym biznesie."
 ---
 
-# Make
-
-> Placeholder page for **Make** at $pathForFm.
+Tu będzie treść artykułu.

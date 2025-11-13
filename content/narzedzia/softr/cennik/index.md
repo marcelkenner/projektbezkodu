@@ -1,11 +1,16 @@
 ---
-title: "Softr Cennik"
+title: "Softr – cennik"
 slug: "cennik"
 path: "/narzedzia/softr/cennik/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Softr – cennik przeliczony na realne projekty"
+  subheading: "Sprawdzam, ile kosztuje portal klienta, mały intranet czy MVP SaaS, a nie tylko plan Starter kontra Professional."
+seo:
+  title: "Softr – cennik i koszty utrzymania aplikacji"
+  description: "Zobacz, jak kształtują się koszty Softr przy różnych liczbach użytkowników, widoków, integracji i środowisk."
 ---
 
-# Softr Cennik
-
-> Placeholder page for **Softr Cennik** at $pathForFm.
+Tu będzie treść artykułu.

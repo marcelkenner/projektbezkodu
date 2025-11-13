@@ -1,11 +1,14 @@
 ---
-title: "Mailerlite Alternatywy"
+title: "MailerLite – alternatywy"
 slug: "alternatywy"
 path: "/narzedzia/mailerlite/alternatywy/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Alternatywy dla MailerLite – co wybrać, gdy rośniesz lub potrzebujesz więcej"
+  subheading: "Porównuję MailerLite z innymi narzędziami email marketingowymi pod kątem ceny, automatyzacji i integracji."
+seo:
+  title: "MailerLite – najlepsze alternatywy dla newsletterów i automatyzacji"
+  description: "Przegląd narzędzi podobnych do MailerLite, które lepiej sprawdzą się w e-commerce, zaawansowanej analityce albo dużych bazach."
 ---
-
-# Mailerlite Alternatywy
-
-> Placeholder page for **Mailerlite Alternatywy** at $pathForFm.

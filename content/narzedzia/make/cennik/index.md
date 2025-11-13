@@ -1,11 +1,16 @@
 ---
-title: "Make Cennik"
+title: "Make – cennik"
 slug: "cennik"
 path: "/narzedzia/make/cennik/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Make – cennik i limity policzone na scenariusze"
+  subheading: "Przeliczam operacje i kredyty na konkretne przepływy, zamiast zgadywać, czy plan będzie wystarczający do końca miesiąca."
+seo:
+  title: "Make – cennik i koszty utrzymania automatyzacji"
+  description: "Dowiedz się, ile naprawdę kosztuje Make przy różnych wolumenach zadań, integracjach i środowiskach testowych."
 ---
 
-# Make Cennik
-
-> Placeholder page for **Make Cennik** at $pathForFm.
+Tu będzie treść artykułu.

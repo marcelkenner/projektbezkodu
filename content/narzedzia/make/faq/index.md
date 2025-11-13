@@ -1,11 +1,16 @@
 ---
-title: "Make Faq"
+title: "Make – FAQ"
 slug: "faq"
 path: "/narzedzia/make/faq/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Make – odpowiedzi na najczęstsze pytania przed startem"
+  subheading: "Wyjaśniam limity, bezpieczeństwo i typowe pułapki zanim zaczniesz podłączać pierwsze aplikacje."
+seo:
+  title: "Make – FAQ, ograniczenia i dobre praktyki"
+  description: "Najczęstsze pytania o Make: jak liczone są operacje, co z danymi wrażliwymi i jak projektować stabilne scenariusze."
 ---
 
-# Make Faq
-
-> Placeholder page for **Make Faq** at $pathForFm.
+Tu będzie treść artykułu.

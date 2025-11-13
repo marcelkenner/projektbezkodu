@@ -9,9 +9,10 @@ import {
   serializeResendCookie,
 } from "@/app/lib/newsletter/cookies";
 
-const manager = new NewsletterManager();
-
 export async function POST(request: Request) {
+  // instantiate lazily to avoid evaluating env at module import time
+  const manager = new NewsletterManager();
+
   const store = await cookies();
   const subscriberCookie = buildSubscriberCookieOptions();
   const subscriber = parseSubscriberCookie(

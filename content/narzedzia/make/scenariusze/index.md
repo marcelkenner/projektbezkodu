@@ -1,11 +1,16 @@
 ---
-title: "Make Scenariusze"
+title: "Make – scenariusze"
 slug: "scenariusze"
 path: "/narzedzia/make/scenariusze/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Make – gotowe scenariusze, które możesz skopiować do swojego konta"
+  subheading: "Pokazuję przepływy, które faktycznie pracują w tle – od leadów z formularzy po automatyczne raporty i powiadomienia."
+seo:
+  title: "Make – przykładowe scenariusze automatyzacji"
+  description: "Zainspiruj się konkretnymi scenariuszami Make do marketingu, sprzedaży, obsługi klienta i operacji w firmie."
 ---
 
-# Make Scenariusze
-
-> Placeholder page for **Make Scenariusze** at $pathForFm.
+Tu będzie treść artykułu.

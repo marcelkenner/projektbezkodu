@@ -1,11 +1,16 @@
 ---
-title: "Zapier Alternatywy"
+title: "Zapier – alternatywy"
 slug: "alternatywy"
 path: "/narzedzia/zapier/alternatywy/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Co zamiast Zapiera, gdy ceny lub limity przestają się spinać"
+  subheading: "Zestawiam narzędzia, które lepiej radzą sobie z dużym ruchem, złożonymi flow lub niższym budżetem."
+seo:
+  title: "Zapier – alternatywy no-code do integracji"
+  description: "Porównanie kluczowych alternatyw dla Zapiera: różnice w cenie, funkcjach, modelu rozliczeń i poziomie trudności."
 ---
 
-# Zapier Alternatywy
-
-> Placeholder page for **Zapier Alternatywy** at $pathForFm.
+Tu będzie treść artykułu.

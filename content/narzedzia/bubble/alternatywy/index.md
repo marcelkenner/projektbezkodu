@@ -1,11 +1,16 @@
 ---
-title: "Bubble Alternatywy"
+title: "Bubble – alternatywy"
 slug: "alternatywy"
 path: "/narzedzia/bubble/alternatywy/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Alternatywy dla Bubble, gdy nie potrzebujesz aż tyle mocy"
+  subheading: "Pokazuję narzędzia, które lepiej sprawdzą się przy prostszych portalach, marketplace-ach lub aplikacjach wewnętrznych."
+seo:
+  title: "Bubble – alternatywy no-code i low-code"
+  description: "Przegląd platform, które mogą zastąpić Bubble, jeśli ważniejsze są prostota, niższy koszt lub szybkie wdrożenie."
 ---
 
-# Bubble Alternatywy
-
-> Placeholder page for **Bubble Alternatywy** at $pathForFm.
+Tu będzie treść artykułu.

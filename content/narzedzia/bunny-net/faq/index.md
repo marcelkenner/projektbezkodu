@@ -1,11 +1,14 @@
 ---
-title: "Bunny Net Faq"
+title: "Bunny.net – FAQ"
 slug: "faq"
 path: "/narzedzia/bunny-net/faq/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Bunny.net – najczęstsze pytania o CDN i storage"
+  subheading: "Regiony, purge cache, SSL, RODO, faktury i migracja z innego dostawcy – w jednym miejscu."
+seo:
+  title: "Bunny.net – FAQ dla osób wdrażających CDN"
+  description: "Odpowiadam na praktyczne pytania o Bunny.net: konfigurację, bezpieczeństwo, wsparcie i rozliczenia."
 ---
-
-# Bunny Net Faq
-
-> Placeholder page for **Bunny Net Faq** at $pathForFm.

@@ -1,11 +1,14 @@
 ---
-title: "Tally Alternatywy"
+title: "Tally – alternatywy"
 slug: "alternatywy"
 path: "/narzedzia/tally/alternatywy/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Alternatywy dla Tally – kiedy potrzebujesz czegoś innego"
+  subheading: "Porównuję Tally z Jotform, Typeform, Paperform i innymi narzędziami pod kątem funkcji i ograniczeń."
+seo:
+  title: "Tally – alternatywy i inne rozwiązania do formularzy"
+  description: "Zestawiam Tally z konkurencją, żebyś łatwiej dobrał narzędzie do ankiet, zapisów i sprzedaży."
 ---
-
-# Tally Alternatywy
-
-> Placeholder page for **Tally Alternatywy** at $pathForFm.

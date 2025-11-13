@@ -8,7 +8,10 @@ export interface NewsletterConfig {
   timeoutMs: number;
 }
 
-const NEWSLETTER_CONFIG: NewsletterConfig = (() => {
+// Build the config lazily to avoid throwing during module import / static build
+let _cachedNewsletterConfig: NewsletterConfig | null = null;
+
+function buildNewsletterConfig(): NewsletterConfig {
   const baseUrl = process.env.LISTMONK_BASE_URL;
   const apiToken = process.env.LISTMONK_API_TOKEN;
   const listId = Number(process.env.LISTMONK_LIST_ID);
@@ -35,10 +38,13 @@ const NEWSLETTER_CONFIG: NewsletterConfig = (() => {
     listUuid,
     timeoutMs,
   };
-})();
+}
 
 export function getNewsletterConfig(): NewsletterConfig {
-  return NEWSLETTER_CONFIG;
+  if (!_cachedNewsletterConfig) {
+    _cachedNewsletterConfig = buildNewsletterConfig();
+  }
+  return _cachedNewsletterConfig;
 }
 
 export const NEWSLETTER_SUBSCRIBER_COOKIE = "pbk-newsletter-subscriber";

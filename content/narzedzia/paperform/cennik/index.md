@@ -1,11 +1,14 @@
 ---
-title: "Paperform Cennik"
+title: "Paperform – cennik"
 slug: "cennik"
 path: "/narzedzia/paperform/cennik/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Paperform – cennik przeliczony na projekty i zespoły"
+  subheading: "Pokazuję, ile realnie zapłacisz za formularze, płatności i strony w Paperform przy różnych scenariuszach."
+seo:
+  title: "Paperform – cennik i opłacalność planów"
+  description: "Rozkładam cennik Paperform na konkretne zastosowania: strony zapisów, sprzedaż produktów, formularze zgłoszeniowe."
 ---
-
-# Paperform Cennik
-
-> Placeholder page for **Paperform Cennik** at $pathForFm.
