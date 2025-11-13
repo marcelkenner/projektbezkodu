@@ -1,11 +1,16 @@
 ---
-title: "Softr Recenzja"
+title: "Softr – recenzja"
 slug: "recenzja"
 path: "/narzedzia/softr/recenzja/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Softr – recenzja z perspektywy osoby od procesów, nie od pikseli"
+  subheading: "Interesuje mnie, czy klienci szybciej załatwią swoje sprawy, a zespół przestanie żyć w excelach."
+seo:
+  title: "Softr – recenzja po kilku wdrożeniach produkcyjnych"
+  description: "Moje wrażenia z pracy w Softr: gdzie błyszczy, gdzie brakuje elastyczności i jak wypada w porównaniu z innymi builderami."
 ---
 
-# Softr Recenzja
-
-> Placeholder page for **Softr Recenzja** at $pathForFm.
+Tu będzie treść artykułu.

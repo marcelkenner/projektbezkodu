@@ -1,11 +1,14 @@
 ---
-title: "Surfer"
+title: "Surfer – optymalizacja treści pod SEO i AI"
 slug: "surfer"
 path: "/narzedzia/surfer/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Surfer – edytor treści, który wie, co lubi Google"
+  subheading: "Piszę artykuł, a Surfer podpowiada nagłówki, słowa kluczowe i długość na podstawie stron z TOP10."
+seo:
+  title: "Surfer – czym jest i jak pomaga w content SEO"
+  description: "Opisuję, jak Surfer analizuje wyniki wyszukiwania i podpowiada optymalizacje treści, żeby zwiększyć szanse na widoczność w Google i AI czatach."
 ---
-
-# Surfer
-
-> Placeholder page for **Surfer** at $pathForFm.

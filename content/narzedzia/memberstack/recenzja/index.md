@@ -1,11 +1,16 @@
 ---
-title: "Memberstack Recenzja"
+title: "Memberstack – recenzja"
 slug: "recenzja"
 path: "/narzedzia/memberstack/recenzja/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Memberstack – recenzja z perspektywy twórcy produktów cyfrowych"
+  subheading: "Dla mnie ważne jest to, czy mogę szybko sprzedawać dostęp zamiast miesiącami dopieszczać backend logowania."
+seo:
+  title: "Memberstack – recenzja po wdrożeniach na żywych projektach"
+  description: "Plusy i minusy Memberstack: elastyczność planów, UX logowania, integracje z builderami i wrażenia użytkowników."
 ---
 
-# Memberstack Recenzja
-
-> Placeholder page for **Memberstack Recenzja** at $pathForFm.
+Tu będzie treść artykułu.

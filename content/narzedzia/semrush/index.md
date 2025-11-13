@@ -1,11 +1,14 @@
 ---
-title: "Semrush"
+title: "Semrush – zestaw narzędzi SEO i marketingowych"
 slug: "semrush"
 path: "/narzedzia/semrush/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Semrush – jedno konto do SEO, contentu i reklam"
+  subheading: "Sprawdzam słowa kluczowe, konkurencję, linki i kondycję techniczną serwisu bez ręcznego przeklikiwania się przez dziesiątki raportów."
+seo:
+  title: "Semrush – czym jest i jak pomaga w SEO"
+  description: "Opisuję, jak Semrush łączy keyword research, analizę konkurencji, audyty techniczne, link building, rank tracking i kampanie płatne w jednym panelu."
 ---
-
-# Semrush
-
-> Placeholder page for **Semrush** at $pathForFm.

@@ -1,559 +1,465 @@
-# Ustaw katalog bazowy projektu
-$basePath = "C:\Projects\projektbezkodu\content"
+# generate-index.ps1
+# Uruchom z katalogu "content" (np. C:\Projects\projektbezkodu\content)
 
+$ErrorActionPreference = 'Stop'
+
+# Domyślna data publikacji
+$date = '2024-12-09'
+
+$basePath = Get-Location
+
+function New-ContentPage {
+    param(
+        [string]$BasePath,
+        [string]$RelativeDir,
+        [string]$Title,
+        [string]$Slug,
+        [string]$UrlPath,
+        [string]$HeroHeading,
+        [string]$HeroSubheading,
+        [string]$SeoTitle,
+        [string]$SeoDescription,
+        [string]$Template = 'article',
+        [bool]$Draft = $false
+    )
+
+    $dirPath = Join-Path $BasePath $RelativeDir
+
+    if (-not (Test-Path $dirPath)) {
+        New-Item -ItemType Directory -Path $dirPath -Force | Out-Null
+    }
+
+    $filePath = Join-Path $dirPath 'index.md'
+    $draftText = $Draft.ToString().ToLower()
+
+    $frontMatterLines = @(
+        '---'
+        "title: ""$Title"""
+        "slug: ""$Slug"""
+        "path: ""$UrlPath"""
+        "draft: $draftText"
+        "template: ""$Template"""
+        "date: ""$date"""
+        'hero:'
+        "  heading: ""$HeroHeading"""
+        "  subheading: ""$HeroSubheading"""
+        'seo:'
+        "  title: ""$SeoTitle"""
+        "  description: ""$SeoDescription"""
+        '---'
+        ''
+        'Tu będzie treść artykułu.'
+    )
+
+    $frontMatter = $frontMatterLines -join "`r`n"
+
+    Set-Content -Path $filePath -Value $frontMatter -Encoding UTF8
+    Write-Host "Utworzono: $filePath"
+}
+
+# Każdy wpis to jedna konkretna strona z unikalnymi tekstami
 $pages = @(
-    # MAILERLITE
-    @{
-        RelativePath = "narzedzia\mailerlite"
-        Markdown = @'
----
-title: "MailerLite – email marketing z automatyzacją i landing page’ami"
-slug: "mailerlite"
-path: "/narzedzia/mailerlite/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "MailerLite – prosty start z newsletterem i automatyzacją"
-  subheading: "Zakładam konto, importuję listę, ustawiam pierwsze automaty i kampanie, a platforma pilnuje wysyłek i statystyk."
-seo:
-  title: "MailerLite – czym jest i kiedy warto go użyć"
-  description: "Przegląd funkcji MailerLite: kreator newsletterów, automatyzacje, strony docelowe, formularze i prosty cennik oparty o liczbę subskrybentów."
----
-'@
-    },
-    @{
-        RelativePath = "narzedzia\mailerlite\recenzja"
-        Markdown = @'
----
-title: "MailerLite – recenzja"
-slug: "recenzja"
-path: "/narzedzia/mailerlite/recenzja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "MailerLite – recenzja w stylu „co mam z tego ja”"
-  subheading: "Sprawdzam, jak w praktyce działają kampanie, automaty, segmentacja i kreator landing page’y, gdy ogarniasz email marketing samodzielnie."
-seo:
-  title: "MailerLite – recenzja z perspektywy małych biznesów i twórców"
-  description: "Plusy i minusy MailerLite: deliverability, wygoda edytora, ograniczenia automatyzacji i to, kiedy lepiej rozejrzeć się za czymś cięższym kalibrem."
----
-'@
-    },
-    @{
-        RelativePath = "narzedzia\mailerlite\cennik"
-        Markdown = @'
----
-title: "MailerLite – cennik"
-slug: "cennik"
-path: "/narzedzia/mailerlite/cennik/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "MailerLite – cennik rozpisany na realne listy i scenariusze"
-  subheading: "Patrzę, jak zmienia się koszt przy rosnącej liczbie subskrybentów i jakie funkcje dostajesz w darmowym oraz płatnych planach."
-seo:
-  title: "MailerLite – cennik i opłacalność przy różnych wielkościach listy"
-  description: "Tłumaczę model cenowy MailerLite: darmowy plan, skoki cenowe przy wzroście bazy oraz kiedy wyjdzie taniej niż u konkurencji."
----
-'@
-    },
-    @{
-        RelativePath = "narzedzia\mailerlite\alternatywy"
-        Markdown = @'
----
-title: "MailerLite – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/mailerlite/alternatywy/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Alternatywy dla MailerLite – co wybrać, gdy rośniesz lub potrzebujesz więcej"
-  subheading: "Porównuję MailerLite z innymi narzędziami email marketingowymi pod kątem ceny, automatyzacji i integracji."
-seo:
-  title: "MailerLite – najlepsze alternatywy dla newsletterów i automatyzacji"
-  description: "Przegląd narzędzi podobnych do MailerLite, które lepiej sprawdzą się w e-commerce, zaawansowanej analityce albo dużych bazach."
----
-'@
-    },
-    @{
-        RelativePath = "narzedzia\mailerlite\faq"
-        Markdown = @'
----
-title: "MailerLite – FAQ"
-slug: "faq"
-path: "/narzedzia/mailerlite/faq/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "MailerLite – najczęstsze pytania przed startem z newsletterem"
-  subheading: "Od migracji kontaktów, przez limity, po RODO i integracje z innymi narzędziami."
-seo:
-  title: "MailerLite – FAQ dla osób przechodzących na tę platformę"
-  description: "Zbieram odpowiedzi na powtarzające się pytania o MailerLite: bezpieczeństwo, wsparcie, deliverability i codzienną pracę z systemem."
----
-'@
-    },
-    @{
-        RelativePath = "narzedzia\mailerlite\migracja"
-        Markdown = @'
----
-title: "MailerLite – migracja z innych systemów"
-slug: "migracja"
-path: "/narzedzia/mailerlite/migracja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Migracja do MailerLite – jak przenieść listę, szablony i automaty"
-  subheading: "Przerabiam scenariusze przejścia z Mailchimp, GetResponse, ConvertKit i innych narzędzi bez blokowania wysyłek."
-seo:
-  title: "MailerLite – poradnik migracji krok po kroku"
-  description: "Jak przygotować eksport, oczyścić bazę, odwzorować segmenty i automaty, żeby zmiana na MailerLite była możliwie bezbolesna."
----
-'@
-    },
-    @{
-        RelativePath = "narzedzia\mailerlite\automatyzacje"
-        Markdown = @'
----
-title: "MailerLite – automatyzacje"
-slug: "automatyzacje"
-path: "/narzedzia/mailerlite/automatyzacje/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Automatyzacje w MailerLite – co da się zautomatyzować bez developera"
-  subheading: "Buduję sekwencje powitalne, lead nurturing i kampanie sprzedażowe na wizualnym edytorze workflow."
-seo:
-  title: "MailerLite – przykłady automatyzacji i dobre praktyki"
-  description: "Przegląd najważniejszych typów automatyzacji w MailerLite, gotowe scenariusze i wskazówki, jak nie utonąć w zbyt skomplikowanych ścieżkach."
----
-'@
-    },
 
-    # GETRESPONSE
+    # =======================
+    # MAKE
+    # =======================
     @{
-        RelativePath = "narzedzia\getresponse"
-        Markdown = @'
----
-title: "GetResponse – platforma marketing automation z emailami i webinarami"
-slug: "getresponse"
-path: "/narzedzia/getresponse/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "GetResponse – email, automatyzacje, lejki i webinary w jednym miejscu"
-  subheading: "Zamiast sklejać kilka narzędzi, buduję kampanie, lejki sprzedażowe i webinary w jednym panelu."
-seo:
-  title: "GetResponse – czym jest i komu się opłaca"
-  description: "Opisuję kluczowe możliwości GetResponse: zaawansowane automatyzacje, lejki, webinary, landing page’e i integracje z e-commerce."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\make'
+        Title          = 'Make – automatyzacje no-code w praktyce'
+        Slug           = 'make'
+        UrlPath        = '/narzedzia/make/'
+        HeroHeading    = 'Make – centrum automatyzacji dla rozsypanych narzędzi'
+        HeroSubheading = 'Łączę CRM-y, maile i arkusze w jeden sensowny proces, bez dotykania API czy kodu.'
+        SeoTitle       = 'Make – jak używam go do automatyzacji procesów'
+        SeoDescription = 'Zobacz, jak Make pomaga mi ogarniać powtarzalne zadania: integracje, scenariusze i automatyzacje w małym i większym biznesie.'
+    }
     @{
-        RelativePath = "narzedzia\getresponse\recenzja"
-        Markdown = @'
----
-title: "GetResponse – recenzja"
-slug: "recenzja"
-path: "/narzedzia/getresponse/recenzja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "GetResponse – recenzja z punktu widzenia małego biznesu online"
-  subheading: "Sprawdzam, jak faktycznie pracuje się na automatyzacjach, webinarach i lejku konwersji, gdy masz ograniczony czas i zespół."
-seo:
-  title: "GetResponse – recenzja z naciskiem na automatyzacje i lejki"
-  description: "Plusy i minusy GetResponse: elastyczność automatyzacji, jakość szablonów, intuicyjność panelu i gdzie pojawia się „bloat” funkcji."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\make\recenzja'
+        Title          = 'Make – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/make/recenzja/'
+        HeroHeading    = 'Make – recenzja z perspektywy codziennej pracy'
+        HeroSubheading = 'Liczy się to, ile kliknięć oszczędzam dziennie, a nie to, ile kolorowych konektorów jest w katalogu.'
+        SeoTitle       = 'Make – recenzja oparta na realnych wdrożeniach'
+        SeoDescription = 'Moje doświadczenia z Make: co automatyzuje dobrze, gdzie potrafi zaskoczyć i kiedy lepiej wybrać inne narzędzie.'
+    }
     @{
-        RelativePath = "narzedzia\getresponse\cennik"
-        Markdown = @'
----
-title: "GetResponse – cennik"
-slug: "cennik"
-path: "/narzedzia/getresponse/cennik/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "GetResponse – cennik rozbity na plany i funkcje"
-  subheading: "Pokazuję, co realnie dostajesz w tańszych planach, a za co dopłacasz, gdy potrzebujesz webinarów czy mocnych automatyzacji."
-seo:
-  title: "GetResponse – cennik i ukryte koszty w praktyce"
-  description: "Analizuję ceny GetResponse, dodatki (np. webinary) i progi kontaktów, żeby łatwiej było policzyć, kiedy ta platforma ma sens finansowo."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\make\cennik'
+        Title          = 'Make – cennik'
+        Slug           = 'cennik'
+        UrlPath        = '/narzedzia/make/cennik/'
+        HeroHeading    = 'Make – cennik i limity policzone na scenariusze'
+        HeroSubheading = 'Przeliczam operacje i kredyty na konkretne przepływy, zamiast zgadywać, czy plan będzie wystarczający do końca miesiąca.'
+        SeoTitle       = 'Make – cennik i koszty utrzymania automatyzacji'
+        SeoDescription = 'Dowiedz się, ile naprawdę kosztuje Make przy różnych wolumenach zadań, integracjach i środowiskach testowych.'
+    }
     @{
-        RelativePath = "narzedzia\getresponse\alternatywy"
-        Markdown = @'
----
-title: "GetResponse – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/getresponse/alternatywy/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Alternatywy dla GetResponse – gdy lejek to za dużo lub za mało"
-  subheading: "Porównuję GetResponse z prostszymi narzędziami do newslettera oraz cięższymi kombajnami marketing automation."
-seo:
-  title: "GetResponse – przegląd alternatyw dla różnych typów biznesów"
-  description: "Kiedy zamiast GetResponse wybrać lżejsze narzędzie typu MailerLite, a kiedy rozważyć system klasy enterprise lub rozwiązanie stricte e-commerce."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\make\alternatywy'
+        Title          = 'Make – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/make/alternatywy/'
+        HeroHeading    = 'Alternatywy dla Make, gdy potrzebujesz czegoś prostszego lub mocniejszego'
+        HeroSubheading = 'Porównuję inne platformy automatyzacji, żeby dobrać narzędzie do skali projektu, zespołu i budżetu.'
+        SeoTitle       = 'Make – alternatywy dla różnych typów projektów'
+        SeoDescription = 'Przegląd narzędzi, które mogą zastąpić Make w małych automatyzacjach, integracjach korporacyjnych i projektach no-code.'
+    }
     @{
-        RelativePath = "narzedzia\getresponse\faq"
-        Markdown = @'
----
-title: "GetResponse – FAQ"
-slug: "faq"
-path: "/narzedzia/getresponse/faq/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "GetResponse – odpowiedzi na najczęstsze pytania"
-  subheading: "Jak działa rozliczanie za kontakty, co z RODO, integracjami i przeniesieniem automatyzacji z innego systemu."
-seo:
-  title: "GetResponse – FAQ dla osób testujących platformę"
-  description: "Zbieram praktyczne odpowiedzi o GetResponse: od pierwszej konfiguracji, przez import listy, po wsparcie techniczne i anulowanie planu."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\make\faq'
+        Title          = 'Make – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/make/faq/'
+        HeroHeading    = 'Make – odpowiedzi na najczęstsze pytania przed startem'
+        HeroSubheading = 'Wyjaśniam limity, bezpieczeństwo i typowe pułapki zanim zaczniesz podłączać pierwsze aplikacje.'
+        SeoTitle       = 'Make – FAQ, ograniczenia i dobre praktyki'
+        SeoDescription = 'Najczęstsze pytania o Make: jak liczone są operacje, co z danymi wrażliwymi i jak projektować stabilne scenariusze.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\make\scenariusze'
+        Title          = 'Make – scenariusze'
+        Slug           = 'scenariusze'
+        UrlPath        = '/narzedzia/make/scenariusze/'
+        HeroHeading    = 'Make – gotowe scenariusze, które możesz skopiować do swojego konta'
+        HeroSubheading = 'Pokazuję przepływy, które faktycznie pracują w tle – od leadów z formularzy po automatyczne raporty i powiadomienia.'
+        SeoTitle       = 'Make – przykładowe scenariusze automatyzacji'
+        SeoDescription = 'Zainspiruj się konkretnymi scenariuszami Make do marketingu, sprzedaży, obsługi klienta i operacji w firmie.'
+    }
 
-    # CONVERTKIT / KIT
+    # =======================
+    # ZAPIER
+    # =======================
     @{
-        RelativePath = "narzedzia\convertkit"
-        Markdown = @'
----
-title: "ConvertKit (Kit) – email marketing dla twórców"
-slug: "convertkit"
-path: "/narzedzia/convertkit/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "ConvertKit / Kit – newsletter i automaty dla twórców treści"
-  subheading: "Buduję proste lejki, sprzedaję produkty cyfrowe i prowadzę newsletter bez rozpraszacza w postaci zbędnych funkcji."
-seo:
-  title: "ConvertKit (Kit) – czym różni się od klasycznych narzędzi do newslettera"
-  description: "Przegląd funkcji ConvertKit / Kit: wizualne automatyzacje, tagowanie, sprzedaż produktów i subskrypcji, nacisk na twórców i soloprzedsiębiorców."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\zapier'
+        Title          = 'Zapier – klasyk automatyzacji dla biznesu'
+        Slug           = 'zapier'
+        UrlPath        = '/narzedzia/zapier/'
+        HeroHeading    = 'Zapier – klej, który spina Twoje aplikacje'
+        HeroSubheading = 'Łączę Slacka, CRM i skrzynkę mailową w prostych automatyzacjach, które pracują za mnie także po godzinach.'
+        SeoTitle       = 'Zapier – jak wykorzystuję go w codziennej pracy'
+        SeoDescription = 'Opisuję, do czego realnie używam Zapiera: szybkie integracje, automatyzacje marketingu i ogarnianie powtarzalnych zadań.'
+    }
     @{
-        RelativePath = "narzedzia\convertkit\recenzja"
-        Markdown = @'
----
-title: "ConvertKit (Kit) – recenzja"
-slug: "recenzja"
-path: "/narzedzia/convertkit/recenzja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "ConvertKit – recenzja pod kątem pracy twórcy, nie korporacji"
-  subheading: "Sprawdzam, jak wygodnie da się ogarniać newsletter, sprzedaż produktów i automaty, kiedy działasz solo lub z małym zespołem."
-seo:
-  title: "ConvertKit – recenzja z perspektywy twórców i newsletterów premium"
-  description: "Plusy i minusy ConvertKit: tagowanie zamiast list, prostota edytora, ograniczenia w raportach oraz jak wypada przy bardziej złożonych lejkach."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\zapier\recenzja'
+        Title          = 'Zapier – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/zapier/recenzja/'
+        HeroHeading    = 'Zapier – recenzja z punktu widzenia małej firmy'
+        HeroSubheading = 'Patrzę, ile czasu i błędów oszczędza mi Zapier w prostych, ale krytycznych procesach.'
+        SeoTitle       = 'Zapier – recenzja po latach używania'
+        SeoDescription = 'Plusy i minusy korzystania z Zapiera: wygoda, ograniczenia, stabilność i moment, w którym warto szukać czegoś innego.'
+    }
     @{
-        RelativePath = "narzedzia\convertkit\cennik"
-        Markdown = @'
----
-title: "ConvertKit – cennik"
-slug: "cennik"
-path: "/narzedzia/convertkit/cennik/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "ConvertKit – cennik w kontekście przychodów z newslettera"
-  subheading: "Patrzę, ile kosztuje trzymanie rosnącej bazy, gdy zarabiasz na produktach, subskrypcjach lub sponsoringach."
-seo:
-  title: "ConvertKit – cennik i opłacalność dla twórców"
-  description: "Analizuję, jak ConvertKit skaluje się cenowo wraz z liczbą subskrybentów i przychodami z listy, oraz kiedy plan wyżej ma sens."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\zapier\alternatywy'
+        Title          = 'Zapier – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/zapier/alternatywy/'
+        HeroHeading    = 'Co zamiast Zapiera, gdy ceny lub limity przestają się spinać'
+        HeroSubheading = 'Zestawiam narzędzia, które lepiej radzą sobie z dużym ruchem, złożonymi flow lub niższym budżetem.'
+        SeoTitle       = 'Zapier – alternatywy no-code do integracji'
+        SeoDescription = 'Porównanie kluczowych alternatyw dla Zapiera: różnice w cenie, funkcjach, modelu rozliczeń i poziomie trudności.'
+    }
     @{
-        RelativePath = "narzedzia\convertkit\alternatywy"
-        Markdown = @'
----
-title: "ConvertKit – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/convertkit/alternatywy/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Alternatywy dla ConvertKit – gdy potrzebujesz taniej lub bardziej „all-in-one”"
-  subheading: "Porównuję ConvertKit z narzędziami nastawionymi na e-commerce, „all-in-one” i darmowe newslettery."
-seo:
-  title: "ConvertKit – przegląd alternatyw dla różnych typów newsletterów"
-  description: "Kiedy lepiej wybrać MailerLite, beehiiv, Substack czy klasyczne narzędzie email marketingowe zamiast ConvertKit."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\zapier\faq'
+        Title          = 'Zapier – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/zapier/faq/'
+        HeroHeading    = 'Zapier – odpowiedzi na pytania, które pojawiają się przy pierwszych automatyzacjach'
+        HeroSubheading = 'Wyjaśniam, co liczy się jako zadanie, jak działają triggery i ile sensownie da się zrobić na darmowym planie.'
+        SeoTitle       = 'Zapier – FAQ dla początkujących i zaawansowanych'
+        SeoDescription = 'Najczęstsze pytania o Zapiera: bezpieczeństwo, integracje, limity, wersjonowanie scenariuszy i współpraca w zespole.'
+    }
     @{
-        RelativePath = "narzedzia\convertkit\faq"
-        Markdown = @'
----
-title: "ConvertKit – FAQ"
-slug: "faq"
-path: "/narzedzia/convertkit/faq/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "ConvertKit – odpowiedzi na pytania twórców newsletterów"
-  subheading: "Jak działa tagowanie, płatne newslettery, sprzedaż produktów i integracje z platformami dla twórców."
-seo:
-  title: "ConvertKit – FAQ dla osób przenoszących newsletter"
-  description: "Przegląd najczęstszych pytań o ConvertKit: migracja z innych narzędzi, płatności, RODO, deliverability i obsługa wielu projektów."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\zapier\oferta-uslug'
+        Title          = 'Zapier – oferta usług wdrożeniowych'
+        Slug           = 'oferta-uslug'
+        UrlPath        = '/narzedzia/zapier/oferta-uslug/'
+        HeroHeading    = 'Pomagam poukładać automatyzacje w Zapier tak, żeby naprawdę odciążyły zespół'
+        HeroSubheading = 'Mapuję procesy, projektuję Zapy, wdrażam je na produkcję i zostawiam dokumentację zamiast chaosu.'
+        SeoTitle       = 'Usługi wdrożenia Zapiera – projektowanie automatyzacji dla Twojej firmy'
+        SeoDescription = 'Zobacz, jak mogę pomóc Ci poukładać automatyzacje w Zapier: od audytu procesów po stałe wsparcie i rozwój integracji.'
+    }
 
-    # AWEBER
+    # =======================
+    # SOFTR
+    # =======================
     @{
-        RelativePath = "narzedzia\aweber"
-        Markdown = @'
----
-title: "AWeber – klasyczny email marketing dla małych firm"
-slug: "aweber"
-path: "/narzedzia/aweber/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "AWeber – newsletter, szablony i automaty dla małego biznesu"
-  subheading: "Stawiam pierwsze kampanie na gotowych szablonach i prostych automatach bez zagłębiania się w kombajny marketing automation."
-seo:
-  title: "AWeber – czym jest i komu nadal się opłaca"
-  description: "Przegląd możliwości AWeber: tworzenie kampanii, landing page’y, proste automatyzacje, web push i podstawowe funkcje e-commerce."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\softr'
+        Title          = 'Softr – budowanie aplikacji na Airtable bez kodu'
+        Slug           = 'softr'
+        UrlPath        = '/narzedzia/softr/'
+        HeroHeading    = 'Softr – najszybsza droga od tabelki do aplikacji webowej'
+        HeroSubheading = 'Zamiast briefować developerów, składam portal klienta albo panel wewnętrzny prosto z Airtable.'
+        SeoTitle       = 'Softr – do czego używam go w projektach'
+        SeoDescription = 'Pokazuję, kiedy Softr jest idealny: portale klientów, panele dla zespołu, katalogi i MVP aplikacji opartych na danych.'
+    }
     @{
-        RelativePath = "narzedzia\aweber\recenzja"
-        Markdown = @'
----
-title: "AWeber – recenzja"
-slug: "recenzja"
-path: "/narzedzia/aweber/recenzja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "AWeber – recenzja z perspektywy małej firmy i blogera"
-  subheading: "Sprawdzam, czy „klasyk” rynku email marketingu wciąż dowozi pod kątem deliverability, prostoty i ceny."
-seo:
-  title: "AWeber – recenzja w praktycznym użyciu"
-  description: "Analizuję AWeber: wygodę edytora, jakość szablonów, automatyzacje oraz czy opłaca się w porównaniu z młodszą konkurencją."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\softr\recenzja'
+        Title          = 'Softr – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/softr/recenzja/'
+        HeroHeading    = 'Softr – recenzja z perspektywy osoby od procesów, nie od pikseli'
+        HeroSubheading = 'Interesuje mnie, czy klienci szybciej załatwią swoje sprawy, a zespół przestanie żyć w excelach.'
+        SeoTitle       = 'Softr – recenzja po kilku wdrożeniach produkcyjnych'
+        SeoDescription = 'Moje wrażenia z pracy w Softr: gdzie błyszczy, gdzie brakuje elastyczności i jak wypada w porównaniu z innymi builderami.'
+    }
     @{
-        RelativePath = "narzedzia\aweber\cennik"
-        Markdown = @'
----
-title: "AWeber – cennik"
-slug: "cennik"
-path: "/narzedzia/aweber/cennik/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "AWeber – cennik i realne koszty newslettera"
-  subheading: "Rozpisuję darmowy i płatne plany na liczbę subskrybentów oraz funkcje, które odblokowują."
-seo:
-  title: "AWeber – cennik i opłacalność dla małych firm"
-  description: "Jak AWeber wypada cenowo na tle innych narzędzi, gdzie zaczynają się limity i kiedy dopłata do wyższego planu ma sens."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\softr\cennik'
+        Title          = 'Softr – cennik'
+        Slug           = 'cennik'
+        UrlPath        = '/narzedzia/softr/cennik/'
+        HeroHeading    = 'Softr – cennik przeliczony na realne projekty'
+        HeroSubheading = 'Sprawdzam, ile kosztuje portal klienta, mały intranet czy MVP SaaS, a nie tylko plan Starter kontra Professional.'
+        SeoTitle       = 'Softr – cennik i koszty utrzymania aplikacji'
+        SeoDescription = 'Zobacz, jak kształtują się koszty Softr przy różnych liczbach użytkowników, widoków, integracji i środowisk.'
+    }
     @{
-        RelativePath = "narzedzia\aweber\alternatywy"
-        Markdown = @'
----
-title: "AWeber – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/aweber/alternatywy/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Alternatywy dla AWeber – kiedy warto się przenieść"
-  subheading: "Porównuję AWeber z nowszymi narzędziami, które lepiej ogarniają automatyzacje, ecommerce lub treści dla twórców."
-seo:
-  title: "AWeber – przegląd alternatyw i konkurencji"
-  description: "Pomagam wybrać narzędzie zamiast AWeber w zależności od tego, czy ważniejsze są ceny, automaty, ecommerce czy monetyzacja newslettera."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\softr\alternatywy'
+        Title          = 'Softr – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/softr/alternatywy/'
+        HeroHeading    = 'Alternatywy dla Softr, gdy potrzebujesz więcej swobody albo innych baz danych'
+        HeroSubheading = 'Porównuję buildery, które lepiej wspierają złożoną logikę, inne źródła danych lub pełne dopasowanie interfejsu.'
+        SeoTitle       = 'Softr – alternatywy do budowy aplikacji bez kodu'
+        SeoDescription = 'Przegląd narzędzi, które mogą zastąpić Softr przy budowaniu portali, aplikacji wewnętrznych i MVP produktów cyfrowych.'
+    }
     @{
-        RelativePath = "narzedzia\aweber\faq"
-        Markdown = @'
----
-title: "AWeber – FAQ"
-slug: "faq"
-path: "/narzedzia/aweber/faq/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "AWeber – odpowiedzi na najczęstsze pytania"
-  subheading: "Limity kontaktów, migracja, RODO, integracje z CMS-ami i platformami sklepów – wszystko w jednym miejscu."
-seo:
-  title: "AWeber – FAQ dla osób startujących z narzędziem"
-  description: "Najważniejsze pytania o AWeber: jak zacząć, jak importować kontakty, jak działają automaty i na co uważać przy rezygnacji."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\softr\faq'
+        Title          = 'Softr – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/softr/faq/'
+        HeroHeading    = 'Softr – odpowiedzi na pytania, które zwykle słyszę od klientów'
+        HeroSubheading = 'Od pytania o wydajność po migrację danych z Airtable – zbieram wszystko w jednym miejscu.'
+        SeoTitle       = 'Softr – FAQ o wydajności, ograniczeniach i integracjach'
+        SeoDescription = 'Najczęstsze pytania o Softr: limity, role użytkowników, bezpieczeństwo danych i scenariusze, w których lepiej wybrać inne narzędzie.'
+    }
 
-    # BEEHIIV
+    # =======================
+    # BUBBLE
+    # =======================
     @{
-        RelativePath = "narzedzia\beehiiv"
-        Markdown = @'
----
-title: "beehiiv – platforma newsletterowa z naciskiem na wzrost i monetyzację"
-slug: "beehiiv"
-path: "/narzedzia/beehiiv/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "beehiiv – newsletter, strona i monetyzacja w jednym"
-  subheading: "Prowadzę newsletter, mam od razu stronę www, system poleceń i wbudowane opcje zarabiania na treściach."
-seo:
-  title: "beehiiv – czym jest i dla kogo jest ta platforma"
-  description: "Opisuję możliwości beehiiv: edytor newslettera, blog na subdomenie lub własnej domenie, system poleceń, analitykę i narzędzia wzrostu."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\bubble'
+        Title          = 'Bubble – budowa aplikacji webowych bez klasycznego developmentu'
+        Slug           = 'bubble'
+        UrlPath        = '/narzedzia/bubble/'
+        HeroHeading    = 'Bubble – gdy Excel i prosty builder to już za mało'
+        HeroSubheading = 'Projektuję pełnoprawne aplikacje webowe z logiką, workflowami i bazą danych, nadal bez pisania backendu.'
+        SeoTitle       = 'Bubble – kiedy ma sens w projekcie'
+        SeoDescription = 'Opisuję, w jakich projektach Bubble sprawdza się najlepiej: MVP SaaS, narzędzia wewnętrzne i produkty, które szybko ewoluują.'
+    }
     @{
-        RelativePath = "narzedzia\beehiiv\recenzja"
-        Markdown = @'
----
-title: "beehiiv – recenzja"
-slug: "recenzja"
-path: "/narzedzia/beehiiv/recenzja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "beehiiv – recenzja z perspektywy twórcy newslettera"
-  subheading: "Sprawdzam, jak w praktyce działają migracja z innej platformy, edytor, rekomendacje innych newsletterów i wbudowana sieć reklamowa."
-seo:
-  title: "beehiiv – recenzja skoncentrowana na wzroście listy i zarabianiu"
-  description: "Plusy i minusy beehiiv: narzędzia wzrostu, monetyzacja, ograniczenia w automatyzacjach i dla kogo platforma jest za prosta lub za rozbudowana."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\bubble\recenzja'
+        Title          = 'Bubble – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/bubble/recenzja/'
+        HeroHeading    = 'Bubble – recenzja oczami osoby, która musi dowieźć produkt, nie tylko prototyp'
+        HeroSubheading = 'Interesuje mnie, czy aplikacja zbudowana w Bubble da się utrzymać, rozwijać i przekazać innemu zespołowi.'
+        SeoTitle       = 'Bubble – recenzja po budowie realnych aplikacji'
+        SeoDescription = 'Moje doświadczenia z Bubble: krzywa uczenia, wydajność, wąskie gardła i sytuacje, w których no-code styka się z klasycznym developmentem.'
+    }
     @{
-        RelativePath = "narzedzia\beehiiv\cennik"
-        Markdown = @'
----
-title: "beehiiv – cennik"
-slug: "cennik"
-path: "/narzedzia/beehiiv/cennik/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "beehiiv – cennik w kontekście przychodów z newslettera"
-  subheading: "Patrzę, jak rośnie koszt wraz z bazą subskrybentów i jakie możliwości monetyzacji pomagają ten koszt zrównoważyć."
-seo:
-  title: "beehiiv – cennik i model biznesowy newslettera"
-  description: "Tłumaczę, jak działają plany beehiiv, na co uważać przy skokach cenowych i jak wliczyć w to przychody z reklam, poleceń i subskrypcji."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\bubble\cennik'
+        Title          = 'Bubble – cennik'
+        Slug           = 'cennik'
+        UrlPath        = '/narzedzia/bubble/cennik/'
+        HeroHeading    = 'Bubble – cennik i koszty rosnącego produktu'
+        HeroSubheading = 'Sprawdzam, jak zmienia się cena wraz z liczbą użytkowników, wersji środowisk i dodatkowymi wtyczkami.'
+        SeoTitle       = 'Bubble – cennik planów i ukryte koszty'
+        SeoDescription = 'Dowiedz się, ile kosztuje uruchomienie aplikacji w Bubble i z czym trzeba się liczyć, gdy produkt zaczyna rosnąć.'
+    }
     @{
-        RelativePath = "narzedzia\beehiiv\alternatywy"
-        Markdown = @'
----
-title: "beehiiv – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/beehiiv/alternatywy/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Alternatywy dla beehiiv – co wybrać, jeśli newsletter to nie wszystko"
-  subheading: "Porównuję beehiiv z ConvertKit, MailerLite, Substackiem i klasycznymi narzędziami email marketingowymi."
-seo:
-  title: "beehiiv – przegląd alternatyw dla różnych modeli newslettera"
-  description: "Kiedy beehiiv ma sens, a kiedy lepiej postawić na platformę twórców, mocne automatyzacje albo prosty system do darmowego newslettera."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\bubble\alternatywy'
+        Title          = 'Bubble – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/bubble/alternatywy/'
+        HeroHeading    = 'Alternatywy dla Bubble, gdy nie potrzebujesz aż tyle mocy'
+        HeroSubheading = 'Pokazuję narzędzia, które lepiej sprawdzą się przy prostszych portalach, marketplace-ach lub aplikacjach wewnętrznych.'
+        SeoTitle       = 'Bubble – alternatywy no-code i low-code'
+        SeoDescription = 'Przegląd platform, które mogą zastąpić Bubble, jeśli ważniejsze są prostota, niższy koszt lub szybkie wdrożenie.'
+    }
     @{
-        RelativePath = "narzedzia\beehiiv\faq"
-        Markdown = @'
----
-title: "beehiiv – FAQ"
-slug: "faq"
-path: "/narzedzia/beehiiv/faq/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "beehiiv – najczęstsze pytania o start i migrację"
-  subheading: "Jak przenieść listę, co z płatnymi subskrypcjami, własną domeną, RODO i integracjami."
-seo:
-  title: "beehiiv – FAQ dla osób przenoszących newsletter"
-  description: "Zbieram odpowiedzi na praktyczne pytania o beehiiv: migracja, konfiguracja domeny, rozliczenia, limity i współpraca z reklamodawcami."
----
-'@
-    },
+        RelativeDir    = 'narzedzia\bubble\faq'
+        Title          = 'Bubble – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/bubble/faq/'
+        HeroHeading    = 'Bubble – odpowiedzi na pytania przed pierwszym dużym projektem'
+        HeroSubheading = 'Rozjaśniam kwestie wydajności, skalowania, backupów i pracy zespołowej w jednym workspace.'
+        SeoTitle       = 'Bubble – FAQ o skalowaniu, wydajności i ograniczeniach'
+        SeoDescription = 'Najczęstsze pytania o Bubble: szybkość aplikacji, vendor lock-in, integracje z zewnętrznym backendem i migrację kodu.'
+    }
+
+    # =======================
+    # GLIDE
+    # =======================
     @{
-        RelativePath = "narzedzia\beehiiv\monetyzacja"
-        Markdown = @'
----
-title: "beehiiv – monetyzacja newslettera"
-slug: "monetyzacja"
-path: "/narzedzia/beehiiv/monetyzacja/"
-draft: false
-template: "article"
-date: "2024-12-09"
-hero:
-  heading: "Monetyzacja w beehiiv – reklamy, polecenia i płatne subskrypcje"
-  subheading: "Rozkładam na czynniki pierwsze sieć reklamową, program referencyjny i płatne newslettery, żeby zobaczyć, co realnie może zarobić twórca."
-seo:
-  title: "beehiiv – jak zarabiać na newsletterze"
-  description: "Przegląd sposobów monetyzacji w beehiiv: ad network, sponsoring, polecenia innych newsletterów i modele płatnych treści."
----
-'@
+        RelativeDir    = 'narzedzia\glide'
+        Title          = 'Glide – aplikacje z arkusza kalkulacyjnego'
+        Slug           = 'glide'
+        UrlPath        = '/narzedzia/glide/'
+        HeroHeading    = 'Glide – najszybszy sposób na mobilną aplikację z danych w arkuszu'
+        HeroSubheading = 'Buduję proste aplikacje dla zespołu i klientów, startując od Google Sheets lub Airtable zamiast od repozytorium.'
+        SeoTitle       = 'Glide – kiedy używam go w projektach'
+        SeoDescription = 'Pokazuję, w jakich sytuacjach Glide sprawdza się najlepiej: proste CRM-y, katalogi, checklisty i aplikacje wewnętrzne.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\glide\recenzja'
+        Title          = 'Glide – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/glide/recenzja/'
+        HeroHeading    = 'Glide – recenzja z perspektywy szybkich MVP i narzędzi wewnętrznych'
+        HeroSubheading = 'Sprawdzam, czy aplikacja z Glide jest wystarczająco wygodna w użyciu, żeby zespół naprawdę z niej korzystał.'
+        SeoTitle       = 'Glide – recenzja po wdrożeniach w prawdziwych projektach'
+        SeoDescription = 'Plusy i minusy Glide: prostota, ograniczenia layoutu, praca na danych i sytuacje, w których warto postawić na coś innego.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\glide\cennik'
+        Title          = 'Glide – cennik'
+        Slug           = 'cennik'
+        UrlPath        = '/narzedzia/glide/cennik/'
+        HeroHeading    = 'Glide – cennik widziany oczami małego zespołu'
+        HeroSubheading = 'Porównuję koszty per użytkownik, per aplikacja i per projekt, zamiast skupiać się na nazwach planów.'
+        SeoTitle       = 'Glide – cennik i koszty utrzymania aplikacji'
+        SeoDescription = 'Dowiedz się, ile naprawdę kosztuje Glide przy rosnącej liczbie użytkowników, źródeł danych i tworzonych aplikacjach.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\glide\alternatywy'
+        Title          = 'Glide – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/glide/alternatywy/'
+        HeroHeading    = 'Alternatywy dla Glide, gdy potrzebujesz innego podejścia do aplikacji'
+        HeroSubheading = 'Zestawiam buildery, które lepiej ogarniają customowy interfejs, zaawansowaną logikę lub inne typy baz danych.'
+        SeoTitle       = 'Glide – alternatywy do budowy prostych aplikacji'
+        SeoDescription = 'Przegląd narzędzi, które mogą zastąpić Glide w projektach mobilnych, wewnętrznych panelach i prostych CRM-ach.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\glide\faq'
+        Title          = 'Glide – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/glide/faq/'
+        HeroHeading    = 'Glide – odpowiedzi na pytania, które padają przed pierwszym wdrożeniem'
+        HeroSubheading = 'Wyjaśniam limity wierszy, kwestie wydajności i to, co dzieje się z danymi, gdy projekt wychodzi poza MVP.'
+        SeoTitle       = 'Glide – FAQ o limitach, danych i integracjach'
+        SeoDescription = 'Najczęstsze pytania o Glide: jak działają limity, jakie źródła danych obsługuje i jak łączyć go z innymi narzędziami.'
+    }
+
+    # =======================
+    # OUTSETA
+    # =======================
+    @{
+        RelativeDir    = 'narzedzia\outseta'
+        Title          = 'Outseta – zaplecze SaaS w jednym narzędziu'
+        Slug           = 'outseta'
+        UrlPath        = '/narzedzia/outseta/'
+        HeroHeading    = 'Outseta – logowanie, subskrypcje i CRM w jednym miejscu'
+        HeroSubheading = 'Zamiast kleić wiele usług, ogarniam płatności, konta użytkowników i wsparcie klienta w jednym panelu.'
+        SeoTitle       = 'Outseta – do czego wykorzystuję ją w projektach SaaS'
+        SeoDescription = 'Opisuję, kiedy Outseta ma największy sens: produkty subskrypcyjne, społeczności, aplikacje SaaS i projekty członkowskie.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\outseta\recenzja'
+        Title          = 'Outseta – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/outseta/recenzja/'
+        HeroHeading    = 'Outseta – recenzja z perspektywy twórcy produktów, a nie tylko marketera'
+        HeroSubheading = 'Liczy się dla mnie to, czy mogę odpalić produkt szybciej, bez rezygnowania z porządku w danych o klientach.'
+        SeoTitle       = 'Outseta – recenzja po wdrożeniach w realnych projektach'
+        SeoDescription = 'Plusy i minusy Outseta: onboarding użytkowników, rozliczenia, wsparcie klienta i integracje z no-code builderami.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\outseta\cennik'
+        Title          = 'Outseta – cennik'
+        Slug           = 'cennik'
+        UrlPath        = '/narzedzia/outseta/cennik/'
+        HeroHeading    = 'Outseta – cennik w kontekście rosnącej bazy klientów'
+        HeroSubheading = 'Sprawdzam, kiedy bardziej opłaca się pakiet all-in-one niż stos usług płatności, CRM i helpdesku.'
+        SeoTitle       = 'Outseta – cennik i koszty utrzymania zaplecza SaaS'
+        SeoDescription = 'Zobacz, ile kosztuje Outseta na start i jak zmienia się cena wraz ze wzrostem liczby użytkowników i przychodu.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\outseta\alternatywy'
+        Title          = 'Outseta – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/outseta/alternatywy/'
+        HeroHeading    = 'Alternatywy dla Outseta, gdy chcesz większą kontrolę nad stackiem'
+        HeroSubheading = 'Porównuję rozwiązania, które pozwalają samodzielnie dobrać moduły płatności, CRM i wsparcia zamiast brać pakiet w całości.'
+        SeoTitle       = 'Outseta – alternatywy dla zaplecza SaaS'
+        SeoDescription = 'Przegląd narzędzi, które mogą zastąpić Outseta przy produktach subskrypcyjnych, społecznościach i aplikacjach webowych.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\outseta\faq'
+        Title          = 'Outseta – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/outseta/faq/'
+        HeroHeading    = 'Outseta – odpowiedzi na najczęstsze pytania przed wyborem platformy'
+        HeroSubheading = 'Rozjaśniam kwestie podatków, walut, migracji z innych systemów i integracji z narzędziami no-code.'
+        SeoTitle       = 'Outseta – FAQ o rozliczeniach, integracjach i migracjach'
+        SeoDescription = 'Najczęstsze pytania o Outseta: obsługa wielu walut, integracje z builderami, migracja subskrypcji i bezpieczeństwo danych.'
+    }
+
+    # =======================
+    # MEMBERSTACK
+    # =======================
+    @{
+        RelativeDir    = 'narzedzia\memberstack'
+        Title          = 'Memberstack – logowanie i subskrypcje dla stron no-code'
+        Slug           = 'memberstack'
+        UrlPath        = '/narzedzia/memberstack/'
+        HeroHeading    = 'Memberstack – szybko dodaję logowanie i płatne treści do istniejącej strony'
+        HeroSubheading = 'Buduję strefy członkowskie, kursy i społeczności na Webflow i innych builderach, bez własnego backendu.'
+        SeoTitle       = 'Memberstack – w jakich projektach go używam'
+        SeoDescription = 'Pokazuję, kiedy Memberstack ma sens: płatne treści, społeczności, proste SaaS-y i programy członkowskie.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\memberstack\recenzja'
+        Title          = 'Memberstack – recenzja'
+        Slug           = 'recenzja'
+        UrlPath        = '/narzedzia/memberstack/recenzja/'
+        HeroHeading    = 'Memberstack – recenzja z perspektywy twórcy produktów cyfrowych'
+        HeroSubheading = 'Dla mnie ważne jest to, czy mogę szybko sprzedawać dostęp zamiast miesiącami dopieszczać backend logowania.'
+        SeoTitle       = 'Memberstack – recenzja po wdrożeniach na żywych projektach'
+        SeoDescription = 'Plusy i minusy Memberstack: elastyczność planów, UX logowania, integracje z builderami i wrażenia użytkowników.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\memberstack\cennik'
+        Title          = 'Memberstack – cennik'
+        Slug           = 'cennik'
+        UrlPath        = '/narzedzia/memberstack/cennik/'
+        HeroHeading    = 'Memberstack – cennik rozpisany na małe i większe społeczności'
+        HeroSubheading = 'Przeliczam koszty na liczbę członków i przychód z subskrypcji, zamiast patrzeć tylko na limit projektów.'
+        SeoTitle       = 'Memberstack – cennik i opłacalność przy różnych skalach'
+        SeoDescription = 'Dowiedz się, jak działa cennik Memberstack i kiedy prowizje oraz limity zaczynają mocno wpływać na marżę.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\memberstack\alternatywy'
+        Title          = 'Memberstack – alternatywy'
+        Slug           = 'alternatywy'
+        UrlPath        = '/narzedzia/memberstack/alternatywy/'
+        HeroHeading    = 'Co zamiast Memberstack, gdy potrzebujesz innych płatności lub większej elastyczności'
+        HeroSubheading = 'Porównuję narzędzia do stref członkowskich, które lepiej dogadują się z Twoim builderem lub modelem biznesowym.'
+        SeoTitle       = 'Memberstack – alternatywy do budowy stref członkowskich'
+        SeoDescription = 'Przegląd alternatywnych rozwiązań dla Memberstack: od prostych paywalli po rozbudowane platformy społecznościowe.'
+    }
+    @{
+        RelativeDir    = 'narzedzia\memberstack\faq'
+        Title          = 'Memberstack – FAQ'
+        Slug           = 'faq'
+        UrlPath        = '/narzedzia/memberstack/faq/'
+        HeroHeading    = 'Memberstack – odpowiedzi na pytania przed startem społeczności'
+        HeroSubheading = 'Wyjaśniam, jak działa logowanie, płatności, migracja użytkowników i integracje z istniejącą stroną.'
+        SeoTitle       = 'Memberstack – FAQ o logowaniu, płatnościach i integracjach'
+        SeoDescription = 'Najczęstsze pytania o Memberstack: obsługa planów, bezpieczeństwo danych, zgodność z RODO i współpraca z różnymi builderami.'
     }
 )
 
 foreach ($page in $pages) {
-    $targetDir = Join-Path $basePath $page.RelativePath
-
-    if (-not (Test-Path $targetDir)) {
-        New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
-    }
-
-    $filePath = Join-Path $targetDir "index.md"
-
-    # Nadpisze istniejący index.md – jeśli chcesz tego uniknąć, dodaj warunek Test-Path tutaj.
-    $page.Markdown | Set-Content -LiteralPath $filePath -Encoding UTF8
+    New-ContentPage `
+        -BasePath $basePath `
+        -RelativeDir $page.RelativeDir `
+        -Title $page.Title `
+        -Slug $page.Slug `
+        -UrlPath $page.UrlPath `
+        -HeroHeading $page.HeroHeading `
+        -HeroSubheading $page.HeroSubheading `
+        -SeoTitle $page.SeoTitle `
+        -SeoDescription $page.SeoDescription `
+        -Template 'article' `
+        -Draft:$false
 }

@@ -1,11 +1,16 @@
 ---
-title: "Bubble Recenzja"
+title: "Bubble – recenzja"
 slug: "recenzja"
 path: "/narzedzia/bubble/recenzja/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Bubble – recenzja oczami osoby, która musi dowieźć produkt, nie tylko prototyp"
+  subheading: "Interesuje mnie, czy aplikacja zbudowana w Bubble da się utrzymać, rozwijać i przekazać innemu zespołowi."
+seo:
+  title: "Bubble – recenzja po budowie realnych aplikacji"
+  description: "Moje doświadczenia z Bubble: krzywa uczenia, wydajność, wąskie gardła i sytuacje, w których no-code styka się z klasycznym developmentem."
 ---
 
-# Bubble Recenzja
-
-> Placeholder page for **Bubble Recenzja** at $pathForFm.
+Tu będzie treść artykułu.

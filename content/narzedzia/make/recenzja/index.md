@@ -1,11 +1,16 @@
 ---
-title: "Make Recenzja"
+title: "Make – recenzja"
 slug: "recenzja"
 path: "/narzedzia/make/recenzja/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Make – recenzja z perspektywy codziennej pracy"
+  subheading: "Liczy się to, ile kliknięć oszczędzam dziennie, a nie to, ile kolorowych konektorów jest w katalogu."
+seo:
+  title: "Make – recenzja oparta na realnych wdrożeniach"
+  description: "Moje doświadczenia z Make: co automatyzuje dobrze, gdzie potrafi zaskoczyć i kiedy lepiej wybrać inne narzędzie."
 ---
 
-# Make Recenzja
-
-> Placeholder page for **Make Recenzja** at $pathForFm.
+Tu będzie treść artykułu.

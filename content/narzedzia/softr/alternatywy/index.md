@@ -1,11 +1,16 @@
 ---
-title: "Softr Alternatywy"
+title: "Softr – alternatywy"
 slug: "alternatywy"
 path: "/narzedzia/softr/alternatywy/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Alternatywy dla Softr, gdy potrzebujesz więcej swobody albo innych baz danych"
+  subheading: "Porównuję buildery, które lepiej wspierają złożoną logikę, inne źródła danych lub pełne dopasowanie interfejsu."
+seo:
+  title: "Softr – alternatywy do budowy aplikacji bez kodu"
+  description: "Przegląd narzędzi, które mogą zastąpić Softr przy budowaniu portali, aplikacji wewnętrznych i MVP produktów cyfrowych."
 ---
 
-# Softr Alternatywy
-
-> Placeholder page for **Softr Alternatywy** at $pathForFm.
+Tu będzie treść artykułu.

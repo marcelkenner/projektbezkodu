@@ -1,11 +1,14 @@
 ---
-title: "Surfer Faq"
+title: "Surfer – FAQ"
 slug: "faq"
 path: "/narzedzia/surfer/faq/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Surfer – odpowiedzi na najczęstsze pytania"
+  subheading: "Content Score, integracje, limity, języki, współpraca z copywriterami i migracja z innych procesów SEO."
+seo:
+  title: "Surfer – FAQ dla osób testujących narzędzie"
+  description: "Odpowiadam na powtarzające się pytania o Surfer: jak działa Content Editor, jak interpretować sugestie, jak dzielić dostęp w zespole i jak nie przepłacać."
 ---
-
-# Surfer Faq
-
-> Placeholder page for **Surfer Faq** at $pathForFm.

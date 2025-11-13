@@ -1,11 +1,16 @@
 ---
-title: "Softr"
+title: "Softr – budowanie aplikacji na Airtable bez kodu"
 slug: "softr"
 path: "/narzedzia/softr/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Softr – najszybsza droga od tabelki do aplikacji webowej"
+  subheading: "Zamiast briefować developerów, składam portal klienta albo panel wewnętrzny prosto z Airtable."
+seo:
+  title: "Softr – do czego używam go w projektach"
+  description: "Pokazuję, kiedy Softr jest idealny: portale klientów, panele dla zespołu, katalogi i MVP aplikacji opartych na danych."
 ---
 
-# Softr
-
-> Placeholder page for **Softr** at $pathForFm.
+Tu będzie treść artykułu.

@@ -1,11 +1,16 @@
 ---
-title: "Outseta"
+title: "Outseta – zaplecze SaaS w jednym narzędziu"
 slug: "outseta"
 path: "/narzedzia/outseta/"
-draft: true
-date: "2025-11-05"
+draft: false
+template: "article"
+date: "2024-12-09"
+hero:
+  heading: "Outseta – logowanie, subskrypcje i CRM w jednym miejscu"
+  subheading: "Zamiast kleić wiele usług, ogarniam płatności, konta użytkowników i wsparcie klienta w jednym panelu."
+seo:
+  title: "Outseta – do czego wykorzystuję ją w projektach SaaS"
+  description: "Opisuję, kiedy Outseta ma największy sens: produkty subskrypcyjne, społeczności, aplikacje SaaS i projekty członkowskie."
 ---
 
-# Outseta
-
-> Placeholder page for **Outseta** at $pathForFm.
+Tu będzie treść artykułu.
