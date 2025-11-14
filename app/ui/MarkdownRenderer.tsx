@@ -19,55 +19,69 @@ import type {
   FootnoteReference,
   FootnoteDefinition,
 } from "mdast";
-
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
-
-type Align = "left" | "center" | "right" | null;
-
-export interface MarkdownHeading {
-  id: string;
-  text: string;
-  level: 2 | 3;
-}
-
+import {
+  isAnchorUrl,
+  isExternalUrl,
+  isMailOrTel,
+  isSafeUrl,
+} from "./markdown/safety";
+import { renderTocNav } from "./markdown/toc";
+import type {
+  Align,
+  MarkdownHeading,
+  MarkdownHeadingLevel,
+  MarkdownRendererOptions,
+} from "./markdown/types";
 export class MarkdownRenderer {
   private readonly tree: Root;
   private readonly headings: MarkdownHeading[];
   private readonly headingIdMap = new WeakMap<Heading, string>();
   private readonly slugCounts = new Map<string, number>();
-
-  constructor(private readonly source: string) {
+  private readonly headingLevels: Set<MarkdownHeadingLevel>;
+  constructor(
+    private readonly source: string,
+    private readonly options: MarkdownRendererOptions = {},
+  ) {
+    this.headingLevels = new Set(
+      (this.options.headingLevelsForToc ?? [2, 3]) as MarkdownHeadingLevel[],
+    );
     this.tree = unified().use(remarkParse).use(remarkGfm).parse(source) as Root;
     this.headings = [];
     this.collectHeadings();
   }
-
   render(): ReactNode[] {
     return this.renderNodes(this.tree.children, "block");
   }
-
-  getHeadings(): MarkdownHeading[] {
-    return this.headings;
+  renderToc(): ReactNode {
+    return renderTocNav(this.headings);
   }
-
+  getHeadings(): MarkdownHeading[] {
+    return [...this.headings];
+  }
   private collectHeadings(): void {
     visit(this.tree, "heading", (node: Heading) => {
-      if (node.depth !== 2 && node.depth !== 3) {
+      if (!this.headingLevels.has(node.depth as MarkdownHeadingLevel)) {
         return;
       }
       const text = this.extractText(node);
+      if (!text) {
+        return;
+      }
       const id = this.createSlug(text);
       this.headingIdMap.set(node, id);
-      this.headings.push({ id, text, level: node.depth });
+      this.headings.push({
+        id,
+        text,
+        level: node.depth as MarkdownHeadingLevel,
+      });
     });
   }
-
   private renderNodes(nodes: Content[], keyPrefix: string): ReactNode[] {
     return nodes
       .map((node, index) => this.renderNode(node, `${keyPrefix}-${index}`))
       .filter((node): node is ReactNode => node !== null);
   }
-
   private renderNode(node: Content, key: string): ReactNode {
     switch (node.type) {
       case "heading":
@@ -80,18 +94,22 @@ export class MarkdownRenderer {
         return this.renderListItem(node, key);
       case "blockquote":
         return (
-          <blockquote key={key}>
+          <blockquote key={key} className="pbk-blockquote">
             {this.renderNodes(node.children as Content[], `${key}-blockquote`)}
           </blockquote>
         );
       case "code":
         return this.renderCodeBlock(node as Code, key);
       case "inlineCode":
-        return <code key={key}>{(node as { value: string }).value}</code>;
+        return (
+          <code key={key} className="pbk-inline-code">
+            {(node as { value: string }).value}
+          </code>
+        );
       case "break":
         return <br key={key} />;
       case "thematicBreak":
-        return <hr key={key} />;
+        return <hr key={key} className="pbk-divider" />;
       case "table":
         return this.renderTable(node as Table, key);
       case "tableRow":
@@ -121,19 +139,18 @@ export class MarkdownRenderer {
         return null;
     }
   }
-
   private renderHeading(node: Heading, key: string): ReactNode {
     const id = this.getHeadingId(node);
     const children = this.renderInlineNodes(node.children, `${key}-heading`);
     const Tag =
       `h${Math.min(Math.max(node.depth, 1), 6)}` as keyof JSX.IntrinsicElements;
+    const className = `pbk-heading pbk-heading-h${Tag.replace("h", "")}`;
     return (
       <Tag key={key} id={id}>
-        {children}
+        <span className={className}>{children}</span>
       </Tag>
     );
   }
-
   private renderParagraph(
     node: Extract<Content, { type: "paragraph" }>,
     key: string,
@@ -144,54 +161,61 @@ export class MarkdownRenderer {
       return this.renderImage(node.children[0], key, true);
     }
     return (
-      <p key={key}>
+      <p key={key} className="pbk-paragraph">
         {this.renderInlineNodes(node.children, `${key}-paragraph`)}
       </p>
     );
   }
-
   private renderList(node: List, key: string): ReactNode {
     const Tag = (node.ordered ? "ol" : "ul") as "ol" | "ul";
     const attrs = node.ordered && node.start ? { start: node.start } : {};
     return (
-      <Tag key={key} {...attrs}>
+      <Tag
+        key={key}
+        {...attrs}
+        className={`pbk-list pbk-list-${
+          node.ordered ? "ordered" : "unordered"
+        }`}
+      >
         {node.children.map((child, index) =>
           this.renderNode(child, `${key}-item-${index}`),
         )}
       </Tag>
     );
   }
-
   private renderListItem(node: ListItem, key: string): ReactNode {
     const isTask = typeof node.checked === "boolean";
     return (
-      <li key={key}>
+      <li key={key} className="pbk-list__item">
         {isTask ? (
-          <span className="pbk-task">
-            <input
-              type="checkbox"
-              checked={node.checked ?? false}
-              readOnly
-              aria-hidden="true"
-            />
+          <span className="pbk-task" aria-hidden="true">
+            <input type="checkbox" checked={node.checked ?? false} readOnly />
           </span>
         ) : null}
-        <div>
+        <div className="pbk-list__content">
           {this.renderNodes(node.children as Content[], `${key}-content`)}
         </div>
       </li>
     );
   }
-
   private renderCodeBlock(node: Code, key: string): ReactNode {
     const language = node.lang ? `language-${node.lang}` : undefined;
+    const CustomCode = this.options.components?.CodeBlock;
+    if (CustomCode) {
+      return (
+        <CustomCode
+          key={key}
+          language={node.lang ?? undefined}
+          value={node.value}
+        />
+      );
+    }
     return (
-      <pre key={key}>
+      <pre key={key} className="pbk-code-block">
         <code className={language}>{node.value}</code>
       </pre>
     );
   }
-
   private renderTable(node: Table, key: string): ReactNode {
     const [headRow, ...bodyRows] = node.children;
     return (
@@ -218,7 +242,6 @@ export class MarkdownRenderer {
       </div>
     );
   }
-
   private renderTableRow(
     row: TableRow,
     key: string,
@@ -238,7 +261,6 @@ export class MarkdownRenderer {
       </tr>
     );
   }
-
   private renderTableCell(
     cell: TableCell,
     key: string,
@@ -256,7 +278,6 @@ export class MarkdownRenderer {
       </Tag>
     );
   }
-
   private renderImage(
     node: PhrasingContent,
     key: string,
@@ -265,25 +286,42 @@ export class MarkdownRenderer {
     if (node.type !== "image") {
       return null;
     }
-    const img = (
+    if (!isSafeUrl(node.url)) {
+      return null;
+    }
+    const CustomImage = this.options.components?.Image;
+    const imageProps = {
+      src: node.url ?? "",
+      alt: node.alt ?? "",
+      title: node.title ?? undefined,
+    };
+    const imageContent = CustomImage ? (
+      <CustomImage {...imageProps} />
+    ) : (
       <img
-        key={`${key}-img`}
-        src={node.url ?? ""}
-        alt={node.alt ?? ""}
-        title={node.title ?? undefined}
+        src={imageProps.src}
+        alt={imageProps.alt ?? ""}
+        title={imageProps.title}
+        loading="lazy"
+        decoding="async"
       />
     );
     if (!wrapFigure) {
-      return img;
+      return (
+        <span key={key} className="pbk-image">
+          {imageContent}
+        </span>
+      );
     }
     return (
-      <figure key={key}>
-        {img}
-        {node.alt ? <figcaption>{node.alt}</figcaption> : null}
+      <figure key={key} className="pbk-figure">
+        {imageContent}
+        {node.alt ? (
+          <figcaption className="pbk-figure__caption">{node.alt}</figcaption>
+        ) : null}
       </figure>
     );
   }
-
   private renderFootnoteReference(
     node: FootnoteReference,
     key: string,
@@ -295,19 +333,23 @@ export class MarkdownRenderer {
       </sup>
     );
   }
-
   private renderFootnoteDefinition(
     node: FootnoteDefinition,
     key: string,
   ): ReactNode {
     return (
-      <section key={key} id={`fn-${node.identifier}`}>
-        {" "}
+      <section key={key} id={`fn-${node.identifier}`} className="pbk-footnote">
         {this.renderNodes(node.children as Content[], `${key}-footnote`)}
+        <a
+          href={`#fnref-${node.identifier}`}
+          aria-label="Back to content"
+          className="pbk-link pbk-footnote__backlink"
+        >
+          ↩
+        </a>
       </section>
     );
   }
-
   private renderInlineNodes(
     nodes: PhrasingContent[],
     keyPrefix: string,
@@ -318,7 +360,6 @@ export class MarkdownRenderer {
       )
       .filter((node): node is ReactNode => node !== null);
   }
-
   private renderInlineNode(node: PhrasingContent, key: string): ReactNode {
     switch (node.type) {
       case "text":
@@ -338,11 +379,7 @@ export class MarkdownRenderer {
       case "inlineCode":
         return <code key={key}>{node.value}</code>;
       case "link":
-        return (
-          <Link key={key} href={node.url} rel="noopener">
-            {this.renderInlineNodes(node.children, `${key}-link`)}
-          </Link>
-        );
+        return this.renderLink(node, key);
       case "delete":
         return (
           <del key={key}>
@@ -358,7 +395,7 @@ export class MarkdownRenderer {
       default:
         if ("children" in node && Array.isArray(node.children)) {
           return (
-            <span key={key}>
+            <span key={key} className="pbk-inline">
               {this.renderInlineNodes(node.children, `${key}-span`)}
             </span>
           );
@@ -369,7 +406,6 @@ export class MarkdownRenderer {
         return null;
     }
   }
-
   private getHeadingId(node: Heading): string | undefined {
     const existing = this.headingIdMap.get(node);
     if (existing) {
@@ -383,7 +419,6 @@ export class MarkdownRenderer {
     this.headingIdMap.set(node, id);
     return id;
   }
-
   private createSlug(text: string): string {
     const base = TextNormalizer.slugify(text);
     const current = this.slugCounts.get(base) ?? 0;
@@ -391,7 +426,6 @@ export class MarkdownRenderer {
     this.slugCounts.set(base, next);
     return current === 0 ? base : `${base}-${current}`;
   }
-
   private extractText(node: Content | PhrasingContent): string {
     if ("value" in node && typeof node.value === "string") {
       return node.value;
@@ -401,4 +435,63 @@ export class MarkdownRenderer {
     }
     return "";
   }
+  private renderLink(
+    node: Extract<PhrasingContent, { type: "link" }>,
+    key: string,
+  ): ReactNode {
+    const href = node.url ?? "";
+    const children = this.renderInlineNodes(node.children, `${key}-link`);
+    if (!isSafeUrl(href)) {
+      return (
+        <span key={key}>
+          {this.renderInlineNodes(node.children, `${key}-unsafe-link`)}
+        </span>
+      );
+    }
+    const CustomLink = this.options.components?.Link;
+    if (CustomLink) {
+      return (
+        <span key={key} className="pbk-link">
+          <CustomLink href={href}>{children}</CustomLink>
+        </span>
+      );
+    }
+    if (isAnchorUrl(href)) {
+      return (
+        <a key={key} href={href} className="pbk-link">
+          {children}
+        </a>
+      );
+    }
+    if (isMailOrTel(href)) {
+      return (
+        <a key={key} href={href} className="pbk-link">
+          {children}
+        </a>
+      );
+    }
+    if (isExternalUrl(href)) {
+      return (
+        <a
+          key={key}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pbk-link"
+        >
+          {children}
+        </a>
+      );
+    }
+    return (
+      <Link key={key} href={href} className="pbk-link">
+        {children}
+      </Link>
+    );
+  }
 }
+export type {
+  MarkdownRendererOptions,
+  MarkdownRendererComponents,
+  MarkdownHeading,
+} from "./markdown/types";

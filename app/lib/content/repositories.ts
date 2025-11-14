@@ -122,7 +122,8 @@ abstract class MarkdownRepository {
       if (
         entry.isFile() &&
         entry.name.endsWith(".md") &&
-        entry.name !== "index.md"
+        entry.name !== "index.md" &&
+        entry.name.toLowerCase() !== "agents.md"
       ) {
         resolved.push(this.toRelativePath(entryPath));
       }

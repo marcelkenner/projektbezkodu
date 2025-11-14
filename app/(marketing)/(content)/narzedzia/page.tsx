@@ -24,7 +24,7 @@ export default function ToolsPage() {
   return (
     <section className="tools-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <div className="pbk-readable">
+        <div className="pbk-readable pbk-readable--start">
           <div className="tools-page__intro">
             <h1>{copy.hero.title}</h1>
             <p>{copy.hero.intro}</p>

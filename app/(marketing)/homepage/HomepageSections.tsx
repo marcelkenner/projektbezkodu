@@ -62,16 +62,18 @@ function SocialProofSection({ heading, logos }: SocialProofProps) {
         <p id="social-proof-heading" className="homepage-socialProof__heading">
           {heading}
         </p>
-        <div className="homepage-socialProof__logos">
+        <div className="homepage-socialProof__logos" role="list">
           {logos.map((logo) => (
             <img
               key={logo.alt}
               src={logo.src}
               alt={logo.alt}
-              width={120}
-              height={48}
+              className="homepage-socialProof__logo"
+              width={96}
+              height={32}
               loading="lazy"
               decoding="async"
+              role="listitem"
             />
           ))}
         </div>

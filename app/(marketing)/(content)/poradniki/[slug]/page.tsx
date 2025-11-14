@@ -38,9 +38,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function TutorialPage({
-  params,
-}: TutorialPageProps) {
+export default async function TutorialPage({ params }: TutorialPageProps) {
   const resolvedParams = await params;
   const coordinator = new PillarPageCoordinator(resolvedParams.slug);
   const viewModel = coordinator.build();

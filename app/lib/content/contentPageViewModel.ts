@@ -3,14 +3,18 @@ import type { Metadata } from "next";
 import type { FrontmatterSEO } from "@/app/lib/frontmatter";
 
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
+import type { MarkdownHeading } from "@/app/ui/markdown/types";
 
 import type { ContentRouteEntry } from "./contentLibrary";
 
 export class ContentPageViewModel {
   private readonly renderer: MarkdownRenderer;
+  private static readonly ARTICLE_TYPES = new Set(["article", "guide", "playbook"]);
 
   constructor(private readonly entry: ContentRouteEntry) {
-    this.renderer = new MarkdownRenderer(entry.document.content);
+    this.renderer = new MarkdownRenderer(entry.document.content, {
+      headingLevelsForToc: [2],
+    });
   }
 
   getTitle(): string {
@@ -35,6 +39,17 @@ export class ContentPageViewModel {
 
   getBody() {
     return this.renderer.render();
+  }
+  getHeadings(): MarkdownHeading[] {
+    return this.renderer.getHeadings();
+  }
+
+  shouldUseArticleLayout(): boolean {
+    const type = this.entry.document.frontmatter?.type;
+    if (typeof type !== "string") {
+      return false;
+    }
+    return ContentPageViewModel.ARTICLE_TYPES.has(type.toLowerCase());
   }
 
   getMetadata(): Metadata {

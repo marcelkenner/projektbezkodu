@@ -39,9 +39,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function CategoryHubPage({
-  params,
-}: CategoryPageProps) {
+export default async function CategoryHubPage({ params }: CategoryPageProps) {
   const resolvedParams = await params;
   const category = articleTaxonomyCatalog.getCategory(resolvedParams.slug);
   if (!category) {

@@ -30,9 +30,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function ComparisonPage({
-  params,
-}: ComparisonPageProps) {
+export default async function ComparisonPage({ params }: ComparisonPageProps) {
   const resolvedParams = await params;
   const comparison = comparisonRepository.getComparison(resolvedParams.slug);
   if (!comparison) {

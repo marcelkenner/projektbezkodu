@@ -32,8 +32,7 @@ export async function generateMetadata({
   }
   const { frontmatter, excerpt } = article;
   const summary = allSummaries.find((entry) => entry.slug === slug);
-  const canonical =
-    summary?.path ?? frontmatter.path ?? `/artykuly/${slug}/`;
+  const canonical = summary?.path ?? frontmatter.path ?? `/artykuly/${slug}/`;
   return {
     title: frontmatter.seo?.title ?? frontmatter.title,
     description: frontmatter.seo?.description ?? excerpt,
@@ -41,9 +40,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function ArticlePage({
-  params,
-}: ArticlePageProps) {
+export default async function ArticlePage({ params }: ArticlePageProps) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
   const article = articleRepository.getArticle(slug);
@@ -73,6 +70,10 @@ export default async function ArticlePage({
   const hasAffiliateLinks = Boolean(frontmatter.meta?.hasAffiliateLinks);
   const primaryCta = frontmatter.meta?.primaryCta;
   const secondaryCta = frontmatter.meta?.secondaryCta;
+  const hasToc = headings.length > 0;
+  const layoutClassName = hasToc
+    ? "article-page__layout article-page__layout--with-toc"
+    : "article-page__layout";
 
   return (
     <section className="article-page" id="content">
@@ -148,7 +149,12 @@ export default async function ArticlePage({
           ) : null}
         </header>
 
-        <div className="article-page__layout">
+        <div className={layoutClassName}>
+          {hasToc ? (
+            <div className="article-page__toc">
+              <TableOfContents items={headings} />
+            </div>
+          ) : null}
           <article className="prose">
             {renderer.render()}
             {(primaryCta || secondaryCta) && (
@@ -176,9 +182,6 @@ export default async function ArticlePage({
               </>
             )}
           </article>
-          <div className="article-page__toc">
-            <TableOfContents items={headings} />
-          </div>
         </div>
 
         <section className="article-page__author">

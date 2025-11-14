@@ -18,3 +18,4 @@ export { Footer } from "./Footer";
 export { TextareaField } from "./TextareaField";
 export { CheckboxField } from "./CheckboxField";
 export { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
+export { Markdown } from "./Markdown";

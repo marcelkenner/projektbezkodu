@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { PrimaryNav, Footer, ToolOfWeekToastContainer } from "../ui";
 import { getCopy } from "../lib/copy";
 import { getToolOfWeek } from "../lib/toolShowcase";
+import "./legal.module.css";
 
 interface LegalLayoutProps {
   children: ReactNode;
@@ -32,7 +33,10 @@ export default function LegalLayout({ children }: LegalLayoutProps) {
           links={navigationLinks}
           search={searchConfig}
         />
-        <main id={skipLinkTarget.replace("#", "")} data-readable="true">
+        <main
+          id={skipLinkTarget.replace("#", "")}
+          className="legal-shell"
+        >
           {children}
         </main>
         <Footer />

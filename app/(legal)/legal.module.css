@@ -1,3 +1,7 @@
+:global(.legal-shell) {
+  padding-block: var(--space-7);
+}
+
 :global(.legal-page) {
   padding-block: var(--space-7);
 }
@@ -14,10 +18,14 @@
 }
 
 :global(.legal-page__content) {
-  max-width: var(--measure);
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
   display: grid;
   gap: var(--space-4);
+}
+
+:global(.legal-page__content .prose) {
+  max-width: 100%;
 }
 
 :global(.legal-page__contact) {

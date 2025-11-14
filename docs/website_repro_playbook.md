@@ -50,12 +50,13 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 2. Define `inter`, `spaceGrotesk`, and `jetBrainsMono` via `next/font/local` in `app/ui/fonts.ts`, pointing at those `.woff2` files with `display: "swap"` and weight ranges `400 600` / `500 700`.
 3. Reference these variables in `app/layout.tsx`, keep `<html lang="pl">`, and ensure the `<body>` class concatenates all typography variables.
 4. Split readability helpers into `app/globals.readability.css` (houses `main[data-readable="true"]`, `.pbk-readable`, nav/button typography, helper text, and metric styles) so `app/globals.css` stays under 400 lines.
-5. Wrap any text-heavy block (hero intros, disclaimers, summaries, marketing copy without cards) with `.pbk-readable` or add `data-readable="true"` on `<main>` so paragraphs inherit the 68 ch clamp automatically.
-6. Define `@theme inline { ... }` section inside `app/globals.css` mapping CSS variables to token values.
-7. Add utility classes (`.pbk-container`, `.pbk-stack`, `.section`, `.section__grid`, `.pbk-inline-list`, `.prose`, etc.).
-8. Keep each CSS utility descriptive and token-driven; no magic numbers.
-9. Rebuild shared hero styles into a dedicated module (`app/(marketing)/homepage/section.css`) and ensure only hero-specific rules remain there.
-10. Apply the blog spacing spec: `.prose` should use top-only margins, more space before headings than after, `max-width: 68ch`, and elevated spacing for blockquotes, code, figures, and callouts per the unit scale.
+5. Wrap any text-heavy block (hero intros, disclaimers, summaries, marketing copy without cards) with `.pbk-readable` or add `data-readable="true"` on `<main>` so paragraphs inherit the 68 ch clamp automatically. When a readable block must stay left-aligned (e.g., listings like `/narzedzia` or `/szablony`), append the modifier `.pbk-readable--start` to drop the auto-centering margin while keeping the 68 ch measure.
+6. Article detail pages use `.article-page__layout .prose` and clamp to 85 ch starting at the 64rem breakpoint; mobile stays fluid. Keep long-form guidance inside that class so we don’t have to tweak individual articles later.
+7. Define `@theme inline { ... }` section inside `app/globals.css` mapping CSS variables to token values.
+8. Add utility classes (`.pbk-container`, `.pbk-stack`, `.section`, `.section__grid`, `.pbk-inline-list`, `.prose`, etc.).
+9. Keep each CSS utility descriptive and token-driven; no magic numbers.
+10. Rebuild shared hero styles into a dedicated module (`app/(marketing)/homepage/section.css`) and ensure only hero-specific rules remain there.
+11. Apply the blog spacing spec: `.prose` should use top-only margins, more space before headings than after, `max-width: 68ch`, and elevated spacing for blockquotes, code, figures, and callouts per the unit scale.
 
 ## 7. UI Component Library
 
@@ -270,3 +271,16 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 1. Treat `next/font` as the single source of truth for typography. The root layout must apply every font’s `.variable` class to `<body>`, which hydrates `--font-heading`, `--font-body`, and `--font-mono` with the actual font stacks (including latin-ext subsets).
 2. Mirror those values into the shared tokens by assigning `--typography-fontFamily-heading`, `--typography-fontFamily-body`, and `--typography-fontFamily-mono` directly from the `--font-*` variables in `app/globals.css`. Always provide the original design-token string as the fallback inside `var()` so emails/docs rendered without `next/font` still have a sane stack.
 3. Components must reference the typography variables, not the raw `--font-*` names. Example: `.pbk-button { font-family: var(--typography-fontFamily-heading); line-height: 1.1; }` ensures headings, CTAs, and Polish diacritics all draw Space Grotesk instead of falling back to OS defaults.
+
+## 23. Mobile Navigation
+
+1. The primary navigation (`app/ui/PrimaryNav.tsx`) is a client component that drives one source of truth for links + search. On mobile it collapses into a burger button that opens a drawer; desktop keeps the inline nav and search form visible.
+2. When adding links or search behavior, keep both desktop and drawer variants in sync—`SearchForm` now accepts `className`/`inputId` so the same component can render in each context without duplicated markup.
+3. Any new header styles belong alongside the existing `.site-header__*` rules (mobile button, drawer, overlay). Drawer interactions must trap scroll (`body { overflow: hidden; }`) and close via Esc, overlay tap, or link selection so Lighthouse mobile checks stay green.
+
+## 24. Markdown Rendering
+
+1. `MarkdownRenderer` validates every link/image URL, blocking `javascript:` (or invalid schemes) and marking external URLs with `target="_blank"` + `rel="noopener noreferrer"`. Images default to `loading="lazy"`/`decoding="async"`.
+2. Consumers can extend behavior through `MarkdownRendererOptions` (`components.CodeBlock`, `components.Image`, `components.Link`, and `headingLevelsForToc`). Use these overrides instead of forking the renderer when you need syntax highlighting or custom image/link wrappers.
+3. The renderer now exposes `renderToc()` plus class names (`pbk-heading-*`, `pbk-paragraph`, `pbk-code-block`, `pbk-list-*`, etc.) so you can build consistent TOCs and theme markdown without touching the parser.
+4. Footnotes include a ↩ back-link, and inline links default to the sanitized Next.js/anchor variants unless you supply your own `Link` component in the options. Wrap markdown content via the exported `Markdown` component to memoize parsing per source string.

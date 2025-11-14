@@ -190,6 +190,25 @@
   flex-wrap: wrap;
   gap: var(--space-5);
   align-items: center;
+  justify-content: flex-start;
+}
+
+:global(.homepage-socialProof__logo) {
+  height: 1.75rem;
+  width: auto;
+  filter: brightness(0) saturate(100%);
+  opacity: 0.85;
+  transition: opacity var(--motion-duration-base) var(--motion-easing-standard);
+}
+
+:global(.homepage-socialProof__logo:hover) {
+  opacity: 1;
+}
+
+@media (min-width: 48rem) {
+  :global(.homepage-socialProof__logo) {
+    height: 3rem;
+  }
 }
 
 :global(.homepage-pillars__grid) {
