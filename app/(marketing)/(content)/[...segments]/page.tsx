@@ -10,25 +10,29 @@ const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
 
 interface ContentPageProps {
-  params: {
+  params: Promise<{
     segments: string[];
-  };
+  }>;
 }
 
 export function generateStaticParams() {
   return coordinator.listStaticParams();
 }
 
-export function generateMetadata({ params }: ContentPageProps): Metadata {
-  const viewModel = coordinator.build(params.segments);
+export async function generateMetadata({
+  params,
+}: ContentPageProps): Promise<Metadata> {
+  const { segments } = await params;
+  const viewModel = coordinator.build(segments);
   if (!viewModel) {
     return {};
   }
   return viewModel.getMetadata();
 }
 
-export default function ContentPage({ params }: ContentPageProps) {
-  const viewModel = coordinator.build(params.segments);
+export default async function ContentPage({ params }: ContentPageProps) {
+  const { segments } = await params;
+  const viewModel = coordinator.build(segments);
   if (!viewModel) {
     notFound();
   }

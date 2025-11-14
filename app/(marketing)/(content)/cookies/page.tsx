@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function CookiesSettingsPage() {
   return (
     <section className="cookies-page" id="content">
-      <div className="pbk-container pbk-stack pbk-stack--tight">
+      <div className="pbk-container pbk-stack pbk-stack--tight pbk-readable">
         <header className="cookies-page__intro">
           <h1>{copy.hero.title}</h1>
           <p>{copy.hero.intro}</p>

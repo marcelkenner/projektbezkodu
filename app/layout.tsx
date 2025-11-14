@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { KlaroConsentManager } from "./ui/KlaroConsentManager";
 import { ServiceWorkerRegistration } from "./ui/ServiceWorkerRegistration";
-import { inter, manrope, jetBrainsMono } from "./ui/fonts";
+import { inter, spaceGrotesk, jetBrainsMono } from "./ui/fonts";
 
 export const viewport: Viewport = {
   themeColor: "#4338CA",
@@ -54,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${inter.variable} ${manrope.variable} ${jetBrainsMono.variable} antialiased`}
+        className={`${inter.variable} ${spaceGrotesk.variable} ${jetBrainsMono.variable} antialiased`}
       >
         {children}
         <KlaroConsentManager />

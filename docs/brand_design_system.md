@@ -83,9 +83,15 @@ Helpful · Clear · Practical · Quick · Polish‑first · Trustworthy
 
 **Option 2 – Expressive (still light)**
 
-- **Headings/UI:** **Manrope Variable** (Google Fonts)
-- **Body:** **Inter Variable**
-  Both support Polish and hint well.
+- **Headings/UI:** **Space Grotesk** 500/700 (self-hosted `.woff2` from `/public/fonts/SpaceGrotesk-LatinExt-500-700.woff2`) – geometric/tech tone that matches automation, hero stats, pricing tiles.
+- **Body/UI copy:** **Inter** 400/500/600 (self-hosted `.woff2` from `/public/fonts/Inter-LatinExt-roman.woff2`) – tall x-height built for dense UI, forms, and paragraphs.
+  Both ship under the SIL Open Font License, keep latin-ext coverage for Polish diacritics, and are loaded with `next/font/local` using `display: "swap"` so no Google Fonts round-trips remain on critical paths.
+
+**Polish readability defaults**
+
+- Global body styles enable `text-rendering: optimizeLegibility`, `hyphens: auto`, `word-wrap: break-word`, and `-webkit-font-smoothing: antialiased` so Polish diacritics render crisply.
+- Use `main[data-readable="true"]` or the `.pbk-readable` helper (see `app/globals.readability.css`) to clamp copy-heavy layouts to 68 ch with responsive padding while keeping marketing sections full width.
+- Navigation links, CTA buttons, helper text, and metric stats inherit dedicated typography helpers in `app/globals.readability.css` so UI text sticks to Inter 500 semantics and headings stay in Space Grotesk 700.
 
 **Type scale (fluid, major third ~1.25)**
 
@@ -298,8 +304,8 @@ Apply margin-top for content flow (headings receive more space before than after
 
   /* Typography */
   --ff-sans:
-    "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter,
-    Roboto, "Noto Sans", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Inter, Roboto, "Noto Sans", Arial, "Apple Color Emoji", "Segoe UI Emoji";
   --ff-body:
     "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
     "Noto Sans", Arial;
@@ -458,7 +464,7 @@ h3 {
     }
   },
   "font": {
-    "sans": "Manrope, ui-sans-serif, system-ui",
+    "sans": "Space Grotesk, system-ui, -apple-system, BlinkMacSystemFont",
     "body": "Inter, ui-sans-serif, system-ui"
   },
   "size": {
@@ -518,8 +524,13 @@ module.exports = {
         "brand-2": "0 6px 12px rgba(17,24,39,.08),0 2px 4px rgba(17,24,39,.06)",
       },
       fontFamily: {
-        sans: ["Manrope", "ui-sans-serif", "system-ui"],
-        body: ["Inter", "ui-sans-serif", "system-ui"],
+        sans: [
+          "Space Grotesk",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+        ],
+        body: ["Inter", "system-ui", "-apple-system"],
       },
     },
   },
@@ -622,17 +633,37 @@ module.exports = {
 
 ## T. Launch‑ready snippets
 
-**Head includes** (preconnect + fonts)
+**Fonts via `next/font/local`**
 
-```html
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link
-  href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
-  rel="stylesheet"
-/>
-<meta name="theme-color" content="#4338CA" />
+```ts
+import localFont from "next/font/local";
+
+export const inter = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Inter-LatinExt-roman.woff2",
+      weight: "400 600",
+      style: "normal",
+    },
+  ],
+  variable: "--font-body",
+  display: "swap",
+});
+
+export const spaceGrotesk = localFont({
+  src: [
+    {
+      path: "../../public/fonts/SpaceGrotesk-LatinExt-500-700.woff2",
+      weight: "500 700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-heading",
+  display: "swap",
+});
 ```
+
+Keep `<html lang="pl">` in `app/layout.tsx` and `<meta name="theme-color" content="#4338CA" />` inside the exported `viewport` for correct PWA theming and Polish hyphenation defaults.
 
 **Accessible link & focus**
 

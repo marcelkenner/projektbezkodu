@@ -64,9 +64,10 @@
 
 ## 4. Typography Implementation
 
-- [x] Decide between Option 1 (system stack) vs Option 2 (Manrope + Inter). Default to Option 2 unless performance constraints block.
-- [x] Implement `<Head>` font includes (per section T) in Next.js `_app.tsx` or `app/layout.tsx`.
+- [x] Decide between Option 1 (system stack) vs Option 2 (Space Grotesk + Inter with latin-ext subsets). Default to Option 2 unless performance constraints block.
+- [x] Implement font loading via `next/font/local` in `app/layout.tsx` (see section T for snippet).
 - [x] Preload critical font weights (400, 500, 600, 700).
+- [x] Self-host Inter (400–600) and Space Grotesk (500–700) as `.woff2` under `/public/fonts` and load them via `next/font/local` so no Google Fonts calls hit the critical path.
 - [x] Configure fallback stack and unicode-range if self-hosting.
 - [x] Create CSS utility classes (or Tailwind config) for size tokens (`fs-display`, `fs-h1`, etc.) with `clamp` values.
 - [x] Set global body typography (line-height 1.6 default with 1.5–1.7 range, color `--gray-900`, letter-spacing defaults).

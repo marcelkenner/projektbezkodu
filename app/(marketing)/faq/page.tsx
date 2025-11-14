@@ -18,17 +18,21 @@ export default function FaqPage() {
   return (
     <section className="faq-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <div className="faq-page__intro">
-          <h1>{copy.hero.title}</h1>
-          <p>{copy.hero.intro}</p>
+        <div className="pbk-readable">
+          <div className="faq-page__intro">
+            <h1>{copy.hero.title}</h1>
+            <p>{copy.hero.intro}</p>
+          </div>
         </div>
         <FaqAccordion entries={copy.entries} />
-        <p className="faq-page__summary">
-          {copy.footer.prompt}{" "}
-          <Link className="faq-page__cta" href={copy.footer.ctaHref}>
-            {copy.footer.ctaLabel}
-          </Link>
-        </p>
+        <div className="pbk-readable">
+          <p className="faq-page__summary">
+            {copy.footer.prompt}{" "}
+            <Link className="faq-page__cta" href={copy.footer.ctaHref}>
+              {copy.footer.ctaLabel}
+            </Link>
+          </p>
+        </div>
       </div>
     </section>
   );

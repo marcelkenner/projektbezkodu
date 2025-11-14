@@ -23,7 +23,7 @@ export function ArticlesPagination({
     return null;
   }
 
-  const items = Array.from({ length: totalPages }, (_, index) => index + 1);
+  const items = buildPageItems(currentPage, totalPages);
 
   return (
     <div className="articles-pagination">
@@ -36,15 +36,24 @@ export function ArticlesPagination({
             {copy.previous}
           </PaginationLink>
         ) : null}
-        {items.map((page) => (
-          <PaginationLink
-            key={page}
-            href={buildHref(baseSearchParams, page)}
-            aria-current={page === currentPage ? "page" : undefined}
-          >
-            {page}
-          </PaginationLink>
-        ))}
+        {items.map((item, index) =>
+          item === "ellipsis" ? (
+            <span
+              key={`ellipsis-${index}`}
+              className="articles-pagination__ellipsis"
+            >
+              …
+            </span>
+          ) : (
+            <PaginationLink
+              key={item}
+              href={buildHref(baseSearchParams, item)}
+              aria-current={item === currentPage ? "page" : undefined}
+            >
+              {item}
+            </PaginationLink>
+          ),
+        )}
         {currentPage < totalPages ? (
           <PaginationLink
             href={buildHref(baseSearchParams, currentPage + 1)}
@@ -87,4 +96,45 @@ function buildHref(params: URLSearchParams, page: number): string {
   }
   const query = nextParams.toString();
   return query ? `/artykuly?${query}` : "/artykuly";
+}
+
+function buildPageItems(
+  current: number,
+  total: number,
+): Array<number | "ellipsis"> {
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, index) => index + 1);
+  }
+
+  const pages: Array<number | "ellipsis"> = [];
+  const siblings = 1;
+
+  const addPage = (page: number) => {
+    if (!pages.includes(page)) {
+      pages.push(page);
+    }
+  };
+
+  addPage(1);
+
+  let start = Math.max(2, current - siblings);
+  const end = Math.min(total - 1, current + siblings);
+
+  if (start > 2) {
+    pages.push("ellipsis");
+  } else {
+    start = 2;
+  }
+
+  for (let page = start; page <= end; page += 1) {
+    addPage(page);
+  }
+
+  if (end < total - 1) {
+    pages.push("ellipsis");
+  }
+
+  addPage(total);
+
+  return pages;
 }

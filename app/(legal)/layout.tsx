@@ -32,7 +32,9 @@ export default function LegalLayout({ children }: LegalLayoutProps) {
           links={navigationLinks}
           search={searchConfig}
         />
-        <main id={skipLinkTarget.replace("#", "")}>{children}</main>
+        <main id={skipLinkTarget.replace("#", "")} data-readable="true">
+          {children}
+        </main>
         <Footer />
       </div>
       {toolOfWeek ? <ToolOfWeekToastContainer tool={toolOfWeek} /> : null}

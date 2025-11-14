@@ -46,14 +46,16 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 
 ## 6. Global Styling
 
-1. Download required `.woff2` font weights (Manrope, Inter, JetBrains Mono) via `@fontsource` or other licensing-compliant source and place them under `public/fonts/`.
-2. Define local fonts with `next/font/local` in `app/ui/fonts.ts`, exporting body, heading, and mono variants aligned to token families.
-3. Reference these variables in `app/layout.tsx` to self-host fonts for offline-friendly builds.
-4. Define `@theme inline { ... }` section inside `app/globals.css` mapping CSS variables to token values.
-5. Add utility classes (`.pbk-container`, `.pbk-stack`, `.section`, `.section__grid`, `.pbk-inline-list`, `.prose`, etc.).
-6. Keep each CSS utility descriptive and token-driven; no magic numbers.
-7. Rebuild shared hero styles into a dedicated module (`app/(marketing)/homepage/section.css`) and ensure only hero-specific rules remain there.
-8. Apply the blog spacing spec: `.prose` should use top-only margins, more space before headings than after, `max-width: 72ch`, and elevated spacing for blockquotes, code, figures, and callouts per the unit scale.
+1. Download `Inter-LatinExt-roman.woff2` and `SpaceGrotesk-LatinExt-500-700.woff2` (plus JetBrains Mono weights) into `public/fonts/` so all typography is self-hosted.
+2. Define `inter`, `spaceGrotesk`, and `jetBrainsMono` via `next/font/local` in `app/ui/fonts.ts`, pointing at those `.woff2` files with `display: "swap"` and weight ranges `400 600` / `500 700`.
+3. Reference these variables in `app/layout.tsx`, keep `<html lang="pl">`, and ensure the `<body>` class concatenates all typography variables.
+4. Split readability helpers into `app/globals.readability.css` (houses `main[data-readable="true"]`, `.pbk-readable`, nav/button typography, helper text, and metric styles) so `app/globals.css` stays under 400 lines.
+5. Wrap any text-heavy block (hero intros, disclaimers, summaries, marketing copy without cards) with `.pbk-readable` or add `data-readable="true"` on `<main>` so paragraphs inherit the 68 ch clamp automatically.
+6. Define `@theme inline { ... }` section inside `app/globals.css` mapping CSS variables to token values.
+7. Add utility classes (`.pbk-container`, `.pbk-stack`, `.section`, `.section__grid`, `.pbk-inline-list`, `.prose`, etc.).
+8. Keep each CSS utility descriptive and token-driven; no magic numbers.
+9. Rebuild shared hero styles into a dedicated module (`app/(marketing)/homepage/section.css`) and ensure only hero-specific rules remain there.
+10. Apply the blog spacing spec: `.prose` should use top-only margins, more space before headings than after, `max-width: 68ch`, and elevated spacing for blockquotes, code, figures, and callouts per the unit scale.
 
 ## 7. UI Component Library
 
@@ -91,8 +93,10 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - `ContentLibrary` normalises routes (prefers `frontmatter.path`, falls back to folder structure) and exposes `{ path, segments, document }` tuples.
    - `ContentPageCoordinator` + `ContentPageViewModel` pair injects `MarkdownRenderer` output and SEO metadata for any arbitrary markdown page.
    - Catch-all route `app/(marketing)/(content)/[...segments]/page.tsx` renders those entries with mobile-first typography; existing bespoke routes keep priority automatically.
-8. Run `npm run content:lint` (automatically executed before `npm run build`) to validate every markdown file with `gray-matter`. Fix YAML errors before committing so the global content crawl never fails.
-9. Define article taxonomy (categories, tags) in `data/copy/articles.json` and reference those slugs from markdown `taxonomy` blocks; resolve labels via `ArticleTaxonomyCatalog`.
+8. Store all content-specific media under `public/media/`, mirroring the markdown path. Example: `content/narzedzia/webflow/recenzja/index.md` → `public/media/narzedzia/webflow/recenzja/hero.webp`. React-only pages follow the same rule under `public/media/pages/{app subpath}/`. Reference assets as `/media/...` so CDN caching works consistently.
+9. Run `npm run content:lint` (automatically executed before `npm run build`) to validate every markdown file with `gray-matter`. Fix YAML errors before committing so the global content crawl never fails.
+10. Define article taxonomy (categories, tags) in `data/copy/articles.json` and reference those slugs from markdown `taxonomy` blocks; resolve labels via `ArticleTaxonomyCatalog`.
+11. `/artykuly` agreguje wszystkie wpisy markdown z `template: "article"` (i `draft: false`) niezależnie od folderu. Dbaj o poprawny `template` i `path`, bo na nich bazują listing, breadcrumbs i sitemap.
 
 ## 10. Routing & Pages
 

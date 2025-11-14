@@ -24,10 +24,12 @@ export default function SitemapPage() {
   return (
     <section className="sitemap-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <header className="sitemap-page__intro">
-          <h1>{copy.hero.title}</h1>
-          <p>{copy.hero.intro}</p>
-        </header>
+        <div className="pbk-readable">
+          <header className="sitemap-page__intro">
+            <h1>{copy.hero.title}</h1>
+            <p>{copy.hero.intro}</p>
+          </header>
+        </div>
         <div className="sitemap-page__grid">
           {sections.map((section) => (
             <SitemapSectionCard key={section.getHeading()} section={section} />

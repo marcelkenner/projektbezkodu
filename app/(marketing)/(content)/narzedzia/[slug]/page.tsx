@@ -1,6 +1,7 @@
 import Link from "next/link";
-import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+
 import { getCopy } from "@/app/lib/copy";
 import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import "./../tools.module.css";
@@ -8,16 +9,19 @@ import "./../tools.module.css";
 const copy = getCopy("tools");
 const catalog = new ToolCatalog();
 
+interface ToolPageProps {
+  params: Promise<{ slug: string }>;
+}
+
 export function generateStaticParams() {
   return catalog.list().map((tool) => ({ slug: tool.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
-}: {
-  params: { slug: string };
-}): Metadata {
-  const tool = catalog.find(params.slug);
+}: ToolPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const tool = catalog.find(slug);
   if (!tool) {
     return {};
   }
@@ -31,12 +35,9 @@ export function generateMetadata({
   };
 }
 
-export default function ToolDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const tool = catalog.find(params.slug);
+export default async function ToolPage({ params }: ToolPageProps) {
+  const { slug } = await params;
+  const tool = catalog.find(slug);
   if (!tool) {
     notFound();
   }
@@ -59,35 +60,31 @@ export default function ToolDetailPage({
           </div>
         </header>
 
-        <div className="tools-detail__section">
-          <h2>{copy.detail.strengthsHeading}</h2>
+        <Section heading={copy.detail.strengthsHeading}>
           <ul className="tools-detail__list">
             {tool.strengths.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
-        </div>
+        </Section>
 
-        <div className="tools-detail__section">
-          <h2>{copy.detail.limitationsHeading}</h2>
+        <Section heading={copy.detail.limitationsHeading}>
           <ul className="tools-detail__list">
             {tool.limitations.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
-        </div>
+        </Section>
 
-        <div className="tools-detail__section">
-          <h2>{copy.detail.gettingStartedHeading}</h2>
+        <Section heading={copy.detail.gettingStartedHeading}>
           <ol className="tools-detail__steps">
             {tool.gettingStarted.map((step) => (
               <li key={step}>{step}</li>
             ))}
           </ol>
-        </div>
+        </Section>
 
-        <div className="tools-detail__section">
-          <h2>{copy.detail.pricingHeading}</h2>
+        <Section heading={copy.detail.pricingHeading}>
           <div className="tools-detail__pricing">
             <table>
               <thead>
@@ -108,7 +105,7 @@ export default function ToolDetailPage({
               </tbody>
             </table>
           </div>
-        </div>
+        </Section>
 
         <div className="tools-detail__cta">
           <Link
@@ -126,31 +123,22 @@ export default function ToolDetailPage({
             {copy.cards.primaryCta}
           </Link>
         </div>
-
-        {renderRelated(tool.related?.compare, copy.detail.compareHeading)}
-        {renderRelated(
-          tool.related?.caseStudies,
-          copy.detail.caseStudiesHeading,
-        )}
       </div>
     </section>
   );
 }
 
-function renderRelated(links: string[] | undefined, heading: string) {
-  if (!links?.length) {
-    return null;
-  }
+function Section({
+  heading,
+  children,
+}: {
+  heading: string;
+  children: React.ReactNode;
+}) {
   return (
     <div className="tools-detail__section">
       <h2>{heading}</h2>
-      <div className="tools-detail__links">
-        {links.map((href) => (
-          <Link key={href} href={href}>
-            {href}
-          </Link>
-        ))}
-      </div>
+      {children}
     </div>
   );
 }

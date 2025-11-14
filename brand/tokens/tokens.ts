@@ -38,7 +38,7 @@ export const tokens = {
   typography: {
     fontFamily: {
       heading:
-        '"Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif',
+        '"Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
       body: '"Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif',
       mono: '"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
     },

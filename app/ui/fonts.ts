@@ -3,18 +3,8 @@ import localFont from "next/font/local";
 export const inter = localFont({
   src: [
     {
-      path: "../../public/fonts/Inter-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Inter-Semibold.woff2",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Inter-Bold.woff2",
-      weight: "700",
+      path: "../../public/fonts/Inter-LatinExt-roman.woff2",
+      weight: "400 600",
       style: "normal",
     },
   ],
@@ -22,16 +12,11 @@ export const inter = localFont({
   display: "swap",
 });
 
-export const manrope = localFont({
+export const spaceGrotesk = localFont({
   src: [
     {
-      path: "../../public/fonts/Manrope-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/Manrope-Bold.woff2",
-      weight: "700",
+      path: "../../public/fonts/SpaceGrotesk-LatinExt-500-700.woff2",
+      weight: "500 700",
       style: "normal",
     },
   ],

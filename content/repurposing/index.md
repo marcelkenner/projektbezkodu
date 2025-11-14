@@ -1,16 +1,12 @@
-## <!-- /content/repurposing/index.md -->
-
+---
 title: "Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts"
 slug: "repurposing"
-path: "/content/repurposing/"
+path: "/repurposing/"
 type: "guide"
 tags: ["evergreen", "content", "recykling"]
-draft: true
+draft: false
 date: "2025-11-05"
-
 ---
-
-# Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts
 
 Tworzenie treści od zera za każdym razem to droga do wypalenia.  
 Strategiczny recykling (repurposing) zakłada coś innego: **raz robisz solidny materiał, potem wyciągasz z niego maksimum, dopasowując format do kanału**. :contentReference[oaicite:3]{index=3}

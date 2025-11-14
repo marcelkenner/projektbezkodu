@@ -5,7 +5,7 @@
 }
 
 :global(.accessibility-page__hero) {
-  max-width: 72ch;
+  max-width: var(--measure);
 }
 
 :global(.accessibility-page__grid) {

@@ -1,5 +1,4 @@
 ---
-
 title: "Webflow – szablony i start szybciej niż od zera"
 slug: "szablony"
 path: "/narzedzia/webflow/szablony/"
@@ -7,13 +6,11 @@ draft: false
 template: "article"
 date: "2024-12-09"
 hero:
-heading: "Szablony Webflow – które są warte uwagi, a które lepiej pominąć?"
-subheading: "Zamiast przewijać setki kart – polecam konkretne szablony i pokazuję, jak je przerobić pod swoją markę."
+  heading: "Szablony Webflow – które są warte uwagi, a które lepiej pominąć?"
+  subheading: "Zamiast przewijać setki kart – polecam konkretne szablony i pokazuję, jak je przerobić pod swoją markę."
 seo:
-title: "Webflow – najlepsze szablony do stron, bloga i sklepu"
-description: "Przegląd sensownych szablonów Webflow z komentarzem: do jakich projektów pasują, ile wymagają przeróbek i kiedy lepiej zbudować layout samemu."
----
-
+  title: "Webflow – najlepsze szablony do stron, bloga i sklepu"
+  description: "Przegląd sensownych szablonów Webflow z komentarzem: do jakich projektów pasują, ile wymagają przeróbek i kiedy lepiej zbudować layout samemu."
 ---
 
 # Szablony Webflow – jak wybrać mądrze (i nie utknąć z kiepskim projektem)

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "../brand/tokens/tokens.css";
+@import "./globals.readability.css";
 
 :root {
   color-scheme: light;
@@ -16,9 +17,6 @@
   --color-support-success: var(--color-semantic-success-700);
   --color-support-warning: var(--color-semantic-warning-600);
   --color-support-danger: var(--color-semantic-danger-600);
-  --font-body: var(--typography-fontFamily-body);
-  --font-heading: var(--typography-fontFamily-heading);
-  --font-mono: var(--typography-fontFamily-mono);
   --radius-md: var(--radii-md);
   --shadow-md: var(--elevation-md);
   --shadow-sm: var(--elevation-sm);
@@ -34,7 +32,7 @@
   --space-9: var(--spacing-9);
   --font-size: var(--typography-fontSize-body);
   --line: var(--typography-lineHeight-body);
-  --measure: 72ch;
+  --measure: 68ch;
 }
 
 html {
@@ -47,10 +45,15 @@ body {
   min-height: 100vh;
   background: var(--color-background);
   color: var(--color-ink);
-  font-family: var(--font-body);
+  font-family: var(--font-body, var(--typography-fontFamily-body));
   font-size: var(--typography-fontSize-body);
   line-height: var(--typography-lineHeight-body);
   letter-spacing: var(--typography-letterSpacing-normal);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 h1,
@@ -59,9 +62,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
+  font-family: var(--font-heading, var(--typography-fontFamily-heading));
   color: var(--color-ink);
   margin: 0;
+  letter-spacing: -0.01em;
+  font-weight: var(--typography-fontWeight-bold);
 }
 
 h1 {
@@ -80,8 +85,9 @@ h3 {
 }
 
 p {
-  margin: 0;
+  margin-block: 0 1rem;
   color: var(--color-ink);
+  text-align: left;
 }
 
 a {
@@ -243,6 +249,7 @@ button {
   line-height: var(--line);
   font-family: var(--font-body);
   color: var(--color-ink);
+  text-align: left;
 }
 
 .prose > :first-child {
@@ -328,6 +335,47 @@ button {
 .prose ul,
 .prose ol {
   padding-left: 1.5rem;
+  list-style-position: outside;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose .pbk-table {
+  width: 100%;
+  overflow-x: auto;
+  margin-block: var(--space-4);
+  border-radius: var(--radii-md);
+  border: 1px solid var(--color-border);
+}
+
+.prose .pbk-table table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: min(100%, 48rem);
+}
+
+.prose .pbk-table th,
+.prose .pbk-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  font-size: var(--typography-fontSize-small);
+}
+
+.prose .pbk-table thead {
+  background: rgba(15, 23, 42, 0.04);
+  font-weight: var(--typography-fontWeight-semibold);
+}
+
+.prose .pbk-table tbody tr:last-child th,
+.prose .pbk-table tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .prose li + li {

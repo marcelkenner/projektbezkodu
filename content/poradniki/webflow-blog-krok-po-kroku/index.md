@@ -45,7 +45,7 @@ taxonomy:
 
 - Przygotuj style globalne (`Body`, `Heading`, `Paragraph`, `Link block`) zgodnie z tokenami spacingu.
 - Zbuduj komponenty hero, post grid, CTA i newsletter. Użyj klas bazowych + modyfikatora typu `is-featured`.
-- Ustal max width 72ch dla bloków tekstowych, a spacing kontroluj tokenami (np. `pbk-space-6`).
+- Ustal max width 68ch dla bloków tekstowych, a spacing kontroluj tokenami (np. `pbk-space-6`).
 
 ## Krok 3. CMS w praktyce
 

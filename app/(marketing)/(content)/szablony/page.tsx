@@ -33,9 +33,11 @@ export default function TemplatesPage({ searchParams }: TemplatesPageProps) {
   return (
     <section className="templates-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <div className="templates-page__intro">
-          <h1>{copy.hero.title}</h1>
-          <p>{copy.hero.intro}</p>
+        <div className="pbk-readable">
+          <div className="templates-page__intro">
+            <h1>{copy.hero.title}</h1>
+            <p>{copy.hero.intro}</p>
+          </div>
         </div>
         <form className="templates-page__filters" method="get">
           <SelectField

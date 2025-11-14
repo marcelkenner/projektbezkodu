@@ -13,15 +13,15 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 
 ## Scripts
 
-| Command | Description |
-| --- | --- |
-| `npm run dev` | Next.js dev server with mobile-first layout defaults |
-| `npm run build` | Production build (runs `content:lint` first) |
-| `npm run start` | Serve the production build |
-| `npm run lint` | ESLint |
+| Command                | Description                                                                      |
+| ---------------------- | -------------------------------------------------------------------------------- |
+| `npm run dev`          | Next.js dev server with mobile-first layout defaults                             |
+| `npm run build`        | Production build (runs `content:lint` first)                                     |
+| `npm run start`        | Serve the production build                                                       |
+| `npm run lint`         | ESLint                                                                           |
 | `npm run content:lint` | Scans every markdown file via `gray-matter` to catch invalid YAML before runtime |
-| `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`) |
-| `npm run svg:optimize` | Optimises brand SVGs via SVGO |
+| `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`)                                        |
+| `npm run svg:optimize` | Optimises brand SVGs via SVGO                                                    |
 
 ## Content Workflow
 
@@ -32,6 +32,10 @@ All markdown lives under `content/**`. Each file **must**:
 3. Indent nested maps (YAML is whitespace-sensitive).
 4. Quote strings that contain `:` or special characters.
 5. Reference taxonomy slugs that exist in `data/copy/articles.json`.
+6. Store hero/inline images under `public/media/{same path as markdown}/`. Example: `content/narzedzia/webflow/recenzja/index.md` ↔ `public/media/narzedzia/webflow/recenzja/hero.webp`. Reference assets as `/media/narzedzia/webflow/recenzja/hero.webp`.
+7. React-managed pages (homepage, o-nas, kontakt, etc.) follow the same mirroring pattern: `app/(marketing)/o-nas/page.tsx` uses assets in `public/media/pages/(marketing)/o-nas/`.
+
+The `/artykuly` listing now aggregates every markdown file with `template: "article"` (and `draft: false`) no matter where it lives under `content/**`. Keep `template` + `path` accurate whenever you expect a piece to appear in that listing.
 
 Because the generic renderer preloads every markdown file, a single malformed front matter block can break the site. Run `npm run content:lint` locally (it executes automatically on `npm run build`) to catch errors early. The script lists each offending file plus the YAML parser message so you know what to fix.
 

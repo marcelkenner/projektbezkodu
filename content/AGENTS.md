@@ -11,3 +11,5 @@
   - Unique top-level keys; nest hero/SEO/taxonomy data.
   - Indent nested maps and quote strings containing colons.
   - Reference only the category/tag slugs defined in `data/copy/articles.json`; add new slugs there first.
+- Chcesz, by wpis pojawił się na `/artykuly`? Ustaw `template: "article"` oraz poprawny `path`. Lokalizacja katalogu nie ma znaczenia.
+- Store media assets in `public/media/` using the same directory structure as the markdown file. Example: `content/playbooki/budowlanka/index.md` pairs with `/media/playbooki/budowlanka/hero.webp`. Reference images via absolute `/media/...` paths.

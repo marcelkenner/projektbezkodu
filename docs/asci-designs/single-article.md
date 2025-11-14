@@ -17,7 +17,7 @@
 │ └────────────────────────────────────────────────────────────────────────┘ │
 │ │
 │ ┌ LAYOUT: 2 kolumny desktop (TOC sticky) / 1 kol. mobile ────────────────┐ │
-│ │ LEFT: ARTICLE BODY (prose, max 72ch) │ │
+│ │ LEFT: ARTICLE BODY (prose, max 68ch) │ │
 │ │ H2 (mt:s7 mb:s3): "Po co mi to" │ │
 │ │ P (mt:s3): "Robię X, aby dostać Y. Bez Z. Oto najkrótsza droga." │ │
 │ │ H2 "Kroki" │ │

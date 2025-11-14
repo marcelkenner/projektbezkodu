@@ -6,7 +6,7 @@ container: max‑width 1200px, padding‑x: 24px (≤640px), 32px (641–1024px)
 
 Kolumny: 12 (desktop ≥1025px), 6 (tablet 641–1024px), 1 (mobile ≤640px)
 
-prose (treść artykułów): max‑width 72ch
+prose (treść artykułów): max‑width 68ch
 
 Skala odstępów (sN) - oś 8‑pt z pół‑krokami
 s0=0, s1=4, s2=8, s3=12, s4=16, s5=24, s6=32, s7=48, s8=64, s9=96 (px)

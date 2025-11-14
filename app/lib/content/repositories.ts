@@ -6,6 +6,10 @@ import type {
   FrontmatterTaxonomy,
 } from "../frontmatter";
 import { readMarkdownFile } from "../frontmatter";
+import {
+  ContentLibrary,
+  type ContentRouteEntry,
+} from "@/app/lib/content/contentLibrary";
 
 export interface MarkdownDocument extends ContentEntry {
   slug: string;
@@ -180,36 +184,51 @@ abstract class MarkdownRepository {
   }
 }
 
-export class ArticleRepository extends MarkdownRepository {
-  constructor() {
-    super("content/artykuly");
+interface ArticleEntry {
+  route: ContentRouteEntry;
+  summary: ContentSummary;
+}
+
+export class ArticleRepository {
+  private readonly library: ContentLibrary;
+  private cache: ArticleEntry[] | null = null;
+
+  constructor(library = new ContentLibrary()) {
+    this.library = library;
   }
 
-  override listSummaries(): ContentSummary[] {
-    return super
-      .listSummaries()
-      .sort((a, b) => a.title.localeCompare(b.title, "pl"));
+  listSummaries(): ContentSummary[] {
+    return this.getEntries().map((entry) => entry.summary);
+  }
+
+  listSlugs(): string[] {
+    return this.getEntries().map((entry) => entry.route.document.slug);
   }
 
   getArticle(slug: string): MarkdownDocument | undefined {
-    return this.findBySlug(slug);
+    return this.getEntries().find((entry) => entry.route.document.slug === slug)
+      ?.route.document;
   }
 
   getRelatedArticles(slug: string, limit = 3): ContentSummary[] {
-    const article = this.getArticle(slug);
-    if (!article) {
+    const target = this.getEntries().find(
+      (entry) => entry.route.document.slug === slug,
+    );
+    if (!target) {
       return [];
     }
 
-    const categories = new Set(article.frontmatter.taxonomy?.categories ?? []);
-    const tags = new Set(article.frontmatter.taxonomy?.tags ?? []);
+    const categories = new Set(
+      target.route.document.frontmatter.taxonomy?.categories ?? [],
+    );
+    const tags = new Set(
+      target.route.document.frontmatter.taxonomy?.tags ?? [],
+    );
 
-    const allArticles = super
-      .listSummaries()
-      .filter((summary) => summary.slug !== slug);
-
-    const related = allArticles
-      .map((summary) => {
+    const related = this.getEntries()
+      .filter((entry) => entry.route.document.slug !== slug)
+      .map((entry) => {
+        const summary = entry.summary;
         const summaryCategories = summary.taxonomy?.categories ?? [];
         const summaryTags = summary.taxonomy?.tags ?? [];
 
@@ -239,11 +258,52 @@ export class ArticleRepository extends MarkdownRepository {
       .slice(0, limit)
       .map(({ summary }) => summary);
 
-    if (related.length > 0) {
-      return related;
+    return related;
+  }
+
+  refresh(): void {
+    this.cache = null;
+    this.library.refresh();
+  }
+
+  private getEntries(): ArticleEntry[] {
+    if (this.cache) {
+      return this.cache;
     }
 
-    return allArticles.sort((a, b) => this.compareByDate(a, b)).slice(0, limit);
+    const entries = this.library
+      .listRoutes()
+      .filter(({ document }) => this.isArticle(document))
+      .map((route) => ({
+        route,
+        summary: this.createSummary(route),
+      }))
+      .sort((a, b) => a.summary.title.localeCompare(b.summary.title, "pl"));
+
+    this.cache = entries;
+    return entries;
+  }
+
+  private isArticle(document: MarkdownDocument): boolean {
+    const template = document.frontmatter.template;
+    const draft = document.frontmatter.draft;
+    return template === "article" && !draft;
+  }
+
+  private createSummary(route: ContentRouteEntry): ContentSummary {
+    const { document } = route;
+    const { frontmatter, excerpt, slug } = document;
+    return {
+      slug,
+      title: frontmatter.title,
+      path: frontmatter.path ?? route.path,
+      description: frontmatter.hero?.subheading ?? excerpt,
+      hero: frontmatter.hero,
+      meta: frontmatter.meta,
+      taxonomy: frontmatter.taxonomy,
+      draft: Boolean(frontmatter.draft),
+      date: frontmatter.date,
+    };
   }
 
   private compareByDate(a: ContentSummary, b: ContentSummary): number {

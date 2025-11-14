@@ -48,10 +48,12 @@ export default function AccessibilityStatementPage() {
       id="content"
     >
       <div className="pbk-container pbk-stack">
-        <header className="accessibility-page__hero pbk-stack pbk-stack--tight">
-          <h1>{viewModel.getHero().title}</h1>
-          <p>{viewModel.getHero().intro}</p>
-        </header>
+        <div className="pbk-readable">
+          <header className="accessibility-page__hero pbk-stack pbk-stack--tight">
+            <h1>{viewModel.getHero().title}</h1>
+            <p>{viewModel.getHero().intro}</p>
+          </header>
+        </div>
         <div className="accessibility-page__grid">
           <article className="accessibility-page__card">
             <h2>{viewModel.getMeasures().heading}</h2>
@@ -142,12 +144,14 @@ export default function AccessibilityStatementPage() {
           </form>
         </section>
 
-        <section className="accessibility-page__meta pbk-card pbk-stack pbk-stack--tight">
-          <h2>{viewModel.getMeta().heading}</h2>
-          <p>{viewModel.getMeta().publication}</p>
-          <p>{viewModel.getMeta().update}</p>
-          <p>{viewModel.getMeta().owner}</p>
-        </section>
+        <div className="pbk-readable">
+          <section className="accessibility-page__meta pbk-card pbk-stack pbk-stack--tight">
+            <h2>{viewModel.getMeta().heading}</h2>
+            <p>{viewModel.getMeta().publication}</p>
+            <p>{viewModel.getMeta().update}</p>
+            <p>{viewModel.getMeta().owner}</p>
+          </section>
+        </div>
       </div>
     </section>
   );

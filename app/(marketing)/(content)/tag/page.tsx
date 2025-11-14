@@ -21,9 +21,11 @@ export default function TagIndexPage() {
   return (
     <section className="tag-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <div className="tag-page__intro">
-          <h1>{copy.hero.title}</h1>
-          <p>{copy.hero.intro}</p>
+        <div className="pbk-readable">
+          <div className="tag-page__intro">
+            <h1>{copy.hero.title}</h1>
+            <p>{copy.hero.intro}</p>
+          </div>
         </div>
         <div className="tag-page__list">
           {tags.map((tag) => (

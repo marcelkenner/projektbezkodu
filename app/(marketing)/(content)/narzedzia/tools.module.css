@@ -7,7 +7,33 @@
 :global(.tools-page__intro) {
   display: grid;
   gap: var(--space-3);
-  max-width: 72ch;
+  max-width: var(--measure);
+}
+
+:global(.tools-search) {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: center;
+}
+
+:global(.tools-search input),
+:global(.tools-search select) {
+  min-height: 44px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii-md);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size);
+}
+
+:global(.tools-search__select) {
+  position: relative;
+}
+
+:global(.tools-search__actions) {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
 }
 
 :global(.tools-page__filters) {

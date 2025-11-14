@@ -7,7 +7,7 @@
 :global(.cookies-page__intro) {
   display: grid;
   gap: var(--space-3);
-  max-width: 72ch;
+  max-width: var(--measure);
 }
 
 :global(.cookies-panel) {

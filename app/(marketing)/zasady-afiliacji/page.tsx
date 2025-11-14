@@ -36,10 +36,12 @@ export default function AffiliatePolicyPage() {
   return (
     <section className="affiliate-page section section--surface" id="content">
       <div className="pbk-container pbk-stack">
-        <header className="affiliate-page__hero pbk-stack pbk-stack--tight">
-          <h1>{viewModel.getHero().title}</h1>
-          <p>{viewModel.getHero().intro}</p>
-        </header>
+        <div className="pbk-readable">
+          <header className="affiliate-page__hero pbk-stack pbk-stack--tight">
+            <h1>{viewModel.getHero().title}</h1>
+            <p>{viewModel.getHero().intro}</p>
+          </header>
+        </div>
         <div className="affiliate-page__grid">
           {viewModel.getSections().map((section) => (
             <article key={section.heading} className="affiliate-page__card">
@@ -52,15 +54,17 @@ export default function AffiliatePolicyPage() {
             </article>
           ))}
         </div>
-        <footer className="affiliate-page__contact pbk-card pbk-stack pbk-stack--tight">
-          <p>{viewModel.getContact().intro}</p>
-          <Link
-            className="pbk-button pbk-button--primary"
-            href={viewModel.getContact().ctaHref}
-          >
-            {viewModel.getContact().ctaLabel}
-          </Link>
-        </footer>
+        <div className="pbk-readable">
+          <footer className="affiliate-page__contact pbk-card pbk-stack pbk-stack--tight">
+            <p>{viewModel.getContact().intro}</p>
+            <Link
+              className="pbk-button pbk-button--primary"
+              href={viewModel.getContact().ctaHref}
+            >
+              {viewModel.getContact().ctaLabel}
+            </Link>
+          </footer>
+        </div>
       </div>
     </section>
   );

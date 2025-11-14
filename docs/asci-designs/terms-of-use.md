@@ -1,5 +1,5 @@
 ┌────────────────────────────────────────────────────────────────────────────┐
-│ container (prose 72ch) │
+│ container (prose 68ch) │
 │ H1 "Regulamin serwisu ProjektBezKodu.pl" │
 │ Small (mt:s2): "Ostatnia aktualizacja: <time datetime='YYYY-MM-DD'>…" │
 │ │

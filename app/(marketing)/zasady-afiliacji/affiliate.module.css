@@ -5,7 +5,7 @@
 }
 
 :global(.affiliate-page__hero) {
-  max-width: 72ch;
+  max-width: var(--measure);
 }
 
 :global(.affiliate-page__grid) {

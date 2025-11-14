@@ -9,7 +9,7 @@
 │ │ │ • O nas • Artykuły • Narzędzia • Szablony • Kontakt │ │
 │ │ └─ SEARCH <form role="search" action="/szukaj/"> │ │
 │ │ <label for="q">Szukaj w serwisie</label> │ │
-│ │ [input#q placeholder="Czego szukasz dziś?" (min 44px wysokość)] │ │
+│ │ [input#q placeholder="Czego dziś szukasz?" (min 44px wysokość)] │ │
 │ │ [button (44x44) aria-label="Szukaj"] [Ik.: magnifying-glass] │ │
 │ └────────────────────────────────────────────────────────────────────────┘ │
 │ │
@@ -54,7 +54,7 @@
 │ └────────────────────────────────────────────────────────────────────────┘ │
 │ │
 │ ┌ HOW IT WORKS (py:s7) ──────────────────────────────────────────────────┐ │
-│ │ container; H2 (mt:s7 mb:s3): "Jak działamy (no-code)" │ │
+│ │ container; H2 (mt:s7 mb:s3): "Jak działam (no-code)" │ │
 │ │ <ol start=1> gap:s4 │ │
 │ │ 1) Ustalasz cel → 2) Składasz 5 sekcji → 3) Publikujesz → │ │
 │ │ 4) Zbierasz leady → 5) Mierzysz i poprawiasz │ │

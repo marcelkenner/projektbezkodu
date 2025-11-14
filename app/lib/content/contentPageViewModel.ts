@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import type { FrontmatterSEO } from "@/app/lib/frontmatter";
+
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 
 import type { ContentRouteEntry } from "./contentLibrary";
@@ -36,13 +38,14 @@ export class ContentPageViewModel {
   }
 
   getMetadata(): Metadata {
-    const seo = this.entry.document.frontmatter.seo ?? {};
+    const seo = (this.entry.document.frontmatter.seo ??
+      {}) as Partial<FrontmatterSEO>;
     const description =
       seo.description ??
       this.entry.document.frontmatter.hero?.subheading ??
       this.entry.document.excerpt;
 
-    return {
+    const metadata: Metadata = {
       title: seo.title ?? this.getTitle(),
       description,
       alternates: {
@@ -53,8 +56,9 @@ export class ContentPageViewModel {
         description,
         url: this.entry.path,
       },
-      robots: seo.robots,
     };
+
+    return metadata;
   }
 
   getPath(): string {

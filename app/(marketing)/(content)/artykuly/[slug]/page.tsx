@@ -27,7 +27,9 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
     return {};
   }
   const { frontmatter, excerpt } = article;
-  const canonical = `/artykuly/${params.slug}/`;
+  const summary = allSummaries.find((entry) => entry.slug === params.slug);
+  const canonical =
+    summary?.path ?? frontmatter.path ?? `/artykuly/${params.slug}/`;
   return {
     title: frontmatter.seo?.title ?? frontmatter.title,
     description: frontmatter.seo?.description ?? excerpt,

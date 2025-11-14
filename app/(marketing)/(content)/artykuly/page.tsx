@@ -4,6 +4,7 @@ import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { ArticleDirectory } from "@/app/lib/content/articleDirectory";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { getCopy } from "@/app/lib/copy";
+import { listContentCategories } from "@/app/lib/content/categoryDirectory";
 import { ArticlesFilterBar } from "./ArticlesFilterBar";
 import { ArticleCard } from "./ArticleCard";
 import { ArticlesPagination } from "./ArticlesPagination";
@@ -75,8 +76,7 @@ export default function ArticlesPage({ searchParams }: ArticlesPageProps) {
   const end = start + PAGE_SIZE;
   const pagedArticles = filteredArticles.slice(start, end);
 
-  const taxonomyCategories = articleTaxonomyCatalog.listCategories();
-  const taxonomyTags = articleTaxonomyCatalog.listTags();
+  const contentCategories = listContentCategories();
 
   const baseParams = new URLSearchParams();
   if (query) baseParams.set("q", query);
@@ -105,9 +105,8 @@ export default function ArticlesPage({ searchParams }: ArticlesPageProps) {
         <div className="pbk-container">
           <ArticlesFilterBar
             copy={copy.listing.filters}
-            categories={taxonomyCategories}
-            tags={taxonomyTags}
-            selected={{ query, category, readingTime, tags }}
+            categories={contentCategories}
+            selected={{ query, category }}
           />
         </div>
       )}
@@ -132,7 +131,7 @@ export default function ArticlesPage({ searchParams }: ArticlesPageProps) {
                   : undefined;
                 return (
                   <ArticleCard
-                    key={article.slug}
+                    key={article.path}
                     article={article}
                     ctaLabel={copy.listing.articleCta}
                     category={categoryTerm}

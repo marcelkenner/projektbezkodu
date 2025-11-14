@@ -100,8 +100,8 @@ Each token is defined with:
   "typography": {
     "fontFamily": {
       "heading": {
-        "value": "\"Manrope\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", sans-serif",
-        "description": "Primary heading font"
+        "value": "\"Space Grotesk\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+        "description": "Primary heading font with tech-forward shapes"
       },
       "body": {
         "value": "\"Inter\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", sans-serif",

@@ -1,5 +1,5 @@
 ┌────────────────────────────────────────────────────────────────────────────┐
-│ container (prose 72ch) │
+│ container (prose 68ch) │
 │ H1: Najczęstsze pytania │
 │ Akordeon (przyjazny klawiaturze): │
 │ • <button aria-expanded="false" aria-controls="a1" id="q1">Pytanie 1</...│

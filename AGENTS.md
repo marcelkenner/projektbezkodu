@@ -81,4 +81,6 @@ always update `docs/website_repro_playbook.md` whenever processes change
 – Backend business logic belongs in Manager classes; views coordinate and serializers define contracts.
 – Frontend state belongs in ViewModels, orchestration in Coordinators, and rendering in components.
 – Keep files under 500 lines and refactor classes over 200 lines; break functions exceeding 40 lines.
-</workflow_expectations>
+
+- When an icon is needed in React/Next components, default to `@phosphor-icons/react` (SSR bundle) to stay consistent with the design system. Add missing icons to the copy/components rather than using ad-hoc SVGs.
+  </workflow_expectations>

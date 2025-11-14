@@ -1,18 +1,14 @@
+import fs from "fs";
+import path from "path";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Button, SelectField } from "@/app/ui";
+
 import { getCopy } from "@/app/lib/copy";
-import {
-  ToolCatalog,
-  type ToolFilter,
-  type ToolCategory,
-  type ToolPricing,
-  type ToolPlatform,
-} from "@/app/lib/content/toolCatalog";
 import "./tools.module.css";
+import { ToolsJumpSelect } from "./ToolsJumpSelect";
 
 const copy = getCopy("tools");
-const catalog = new ToolCatalog();
+const CONTENT_ROOT = path.join(process.cwd(), "content/narzedzia");
 
 export const metadata: Metadata = {
   title: copy.seo.title,
@@ -22,125 +18,137 @@ export const metadata: Metadata = {
   },
 };
 
-interface ToolsPageProps {
-  searchParams?: Record<string, string | string[] | undefined>;
-}
-
-export default function ToolsPage({ searchParams }: ToolsPageProps) {
-  const filter = parseFilter(searchParams);
-  const tools = catalog.list(filter);
+export default function ToolsPage() {
+  const overview = loadToolsFromContent();
 
   return (
     <section className="tools-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <div className="tools-page__intro">
-          <h1>{copy.hero.title}</h1>
-          <p>{copy.hero.intro}</p>
+        <div className="pbk-readable">
+          <div className="tools-page__intro">
+            <h1>{copy.hero.title}</h1>
+            <p>{copy.hero.intro}</p>
+          </div>
         </div>
-        <form className="tools-page__filters" method="get">
-          <SelectField
-            id="category"
-            name="category"
-            label={copy.filters.category.label}
-            defaultValue={filter.category ?? ""}
-            options={copy.filters.category.options}
-          />
-          <SelectField
-            id="pricing"
-            name="pricing"
-            label={copy.filters.pricing.label}
-            defaultValue={filter.pricing ?? ""}
-            options={copy.filters.pricing.options}
-          />
-          <SelectField
-            id="system"
-            name="platform"
-            label={copy.filters.system.label}
-            defaultValue={filter.platform ?? ""}
-            options={copy.filters.system.options}
-          />
-          <Button type="submit" variant="secondary">
-            {copy.filters.submit}
-          </Button>
-        </form>
+        <ToolsJumpSelect tools={overview} />
         <div className="tools-page__grid">
-          {tools.map((tool) => (
+          {overview.map((tool) => (
             <article key={tool.slug} className="tools-page__card">
               <div className="pbk-stack pbk-stack--tight">
-                <h2>{tool.name}</h2>
-                <span className="tools-page__badge">
-                  {tool.pricing === "free"
-                    ? copy.cards.badgeFree
-                    : copy.cards.badgePaid}
-                </span>
-                <p>{tool.summary}</p>
+                <span className="tools-page__badge">{tool.folderName}</span>
+                <h2>{tool.heading ?? tool.title ?? tool.folderName}</h2>
+                {tool.subheading ? <p>{tool.subheading}</p> : null}
               </div>
-              <div className="tools-page__actions">
-                <Link
-                  className="pbk-button pbk-button--primary"
-                  href={tool.guideHref}
-                >
-                  {copy.cards.primaryCta}
-                </Link>
+              <div className="tools-detail__cta">
                 <Link
                   className="pbk-button pbk-button--secondary"
-                  href={tool.siteHref}
-                  rel={tool.affiliate ? "sponsored noopener" : "noopener"}
+                  href={tool.path}
                 >
-                  {copy.cards.secondaryCta}
+                  Przewodnik
                 </Link>
               </div>
             </article>
           ))}
         </div>
-        <p className="tools-page__disclosure">{copy.cards.disclosure}</p>
       </div>
     </section>
   );
 }
 
-function parseFilter(
-  searchParams?: Record<string, string | string[] | undefined>,
-): ToolFilter {
-  const category = toToolCategory(getFirst(searchParams?.category));
-  const pricing = toToolPricing(getFirst(searchParams?.pricing));
-  const platform = toToolPlatform(getFirst(searchParams?.platform));
-  return { category, pricing, platform };
+interface ToolOverviewEntry {
+  folderName: string;
+  slug: string;
+  path: string;
+  title: string;
+  heading?: string;
+  subheading?: string;
 }
 
-function getFirst(value?: string | string[]) {
-  if (Array.isArray(value)) {
-    return value[0];
+function loadToolsFromContent(): ToolOverviewEntry[] {
+  if (!fs.existsSync(CONTENT_ROOT)) {
+    return [];
   }
-  return value;
+
+  const entries = fs
+    .readdirSync(CONTENT_ROOT, { withFileTypes: true })
+    .filter(
+      (entry) =>
+        entry.isDirectory() &&
+        !entry.name.startsWith(".") &&
+        entry.name !== "_examples",
+    );
+
+  const tools: ToolOverviewEntry[] = [];
+
+  entries.forEach((entry) => {
+    const indexPath = path.join(CONTENT_ROOT, entry.name, "index.md");
+    if (!fs.existsSync(indexPath)) {
+      return;
+    }
+
+    const file = fs.readFileSync(indexPath, "utf8");
+    const frontmatter = parseFrontmatter(file);
+    const slug = toNonEmptyString(frontmatter.slug);
+    const pathValue = toNonEmptyString(frontmatter.path);
+    if (!pathValue) {
+      return;
+    }
+    const title = toNonEmptyString(frontmatter.title) ?? entry.name;
+    const hero = isRecord(frontmatter.hero) ? frontmatter.hero : undefined;
+    const heroHeading = toNonEmptyString(hero?.heading);
+    const heroSubheading = toNonEmptyString(hero?.subheading);
+
+    tools.push({
+      folderName: entry.name,
+      slug: slug ?? entry.name,
+      path: pathValue,
+      title,
+      heading: heroHeading,
+      subheading: heroSubheading,
+    });
+  });
+
+  return tools.sort((a, b) =>
+    a.title.toLowerCase().localeCompare(b.title.toLowerCase(), "pl"),
+  );
 }
 
-function toToolCategory(value?: string | null): ToolCategory | undefined {
-  if (!value) return undefined;
-  const allowed: ToolCategory[] = [
-    "site-builders",
-    "automation",
-    "analytics",
-    "marketing",
-    "",
-  ];
-  return allowed.includes(value as ToolCategory)
-    ? (value as ToolCategory)
-    : undefined;
+function parseFrontmatter(file: string): Record<string, unknown> {
+  const match = /^---\n([\s\S]*?)\n---/.exec(file);
+  if (!match) {
+    return {};
+  }
+  const yaml = match[1];
+  const entries = yaml.split("\n").filter(Boolean);
+  const data: Record<string, unknown> = {};
+  entries.forEach((line) => {
+    const [key, ...rest] = line.split(":");
+    const value = rest
+      .join(":")
+      .trim()
+      .replace(/^"|"$|^'|'$/g, "");
+    const keys = key.trim().split(".");
+    let target = data as Record<string, unknown>;
+    keys.forEach((k, index) => {
+      if (index === keys.length - 1) {
+        target[k] = value;
+      } else {
+        target[k] = target[k] ?? {};
+        target = target[k] as Record<string, unknown>;
+      }
+    });
+  });
+  return data;
 }
 
-function toToolPricing(value?: string | null): ToolPricing | undefined {
-  if (!value) return undefined;
-  const allowed: ToolPricing[] = ["free", "freemium", "paid", ""];
-  return allowed.includes(value as ToolPricing)
-    ? (value as ToolPricing)
-    : undefined;
+function toNonEmptyString(value: unknown): string | undefined {
+  if (typeof value !== "string") {
+    return undefined;
+  }
+  const normalized = value.trim();
+  return normalized.length > 0 ? normalized : undefined;
 }
 
-function toToolPlatform(value?: string | null): ToolPlatform | undefined {
-  if (!value) return undefined;
-  const allowed: ToolPlatform[] = ["web", "desktop", ""];
-  return allowed.includes(value as ToolPlatform)
-    ? (value as ToolPlatform)
-    : undefined;
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null;
 }

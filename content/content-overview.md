@@ -807,7 +807,7 @@ _(Każdy playbook linkuje do `/biblioteka/sekcje/_`i`/microcopy/_`.)_
 
 - **/content/kalendarium-12-tyg/** – [Template] 12‑tygodniowy plan publikacji.
 - **/content/hub-spoke/** – [Guide] jak budować klastry tematyczne.
-- **/content/repurposing/** – [Guide] recykling treści (blog → IG/Pinterest/Shorts).
+- **/repurposing/** – [Guide] recykling treści (blog → IG/Pinterest/Shorts).
 - **/content/outline-frameworks/** – [Template] szablony outline’ów artykułów (PL).
 - **/content/og-image-templates/** – [Template] paczka wzorów OG‑image (Canva/Figma‑agnost.).
 - **/content/brand-voice/** – [Guide] przewodnik tonu komunikacji (z ćwiczeniami).

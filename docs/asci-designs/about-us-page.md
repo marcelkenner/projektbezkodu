@@ -1,5 +1,5 @@
 ┌────────────────────────────────────────────────────────────────────────────┐
-│ container (prose 72ch) │
+│ container (prose 68ch) │
 │ H1 (mt:0 mb:s6): O nas │
 │ H2 "Po co istniejemy" (mt:s7 mb:s3) • akapit │
 │ H2 "Kim jesteśmy" • zdjęcia zespołu (alt: „Zdjęcie: Imię Nazwisko”) │
