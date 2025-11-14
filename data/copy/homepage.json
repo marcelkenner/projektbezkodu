@@ -13,7 +13,7 @@
     ],
     "search": {
       "label": "Szukaj w serwisie",
-      "placeholder": "Czego szukasz dziś?",
+      "placeholder": "Czego dziś szukasz?",
       "buttonLabel": "Szukaj",
       "action": "/szukaj/"
     }
@@ -45,14 +45,14 @@
     }
   },
   "socialProof": {
-    "heading": "Zaufali nam:",
+    "heading": "Buduj z:",
     "logos": [
-      { "src": "/images/logos/akademia.svg", "alt": "Logo Akademia No-Code" },
-      { "src": "/images/logos/produkty.svg", "alt": "Logo Produkty Dla SaaS" },
-      { "src": "/images/logos/marketing.svg", "alt": "Logo Marketing Growth" },
-      { "src": "/images/logos/studio.svg", "alt": "Logo Studio 404" },
-      { "src": "/images/logos/freelance.svg", "alt": "Logo Freelance Hub" },
-      { "src": "/images/logos/relume.svg", "alt": "Logo Relume Polska" }
+      { "src": "/images/logos/webflow.svg", "alt": "Logo Webflow" },
+      { "src": "/images/logos/framer.svg", "alt": "Logo Framer" },
+      { "src": "/images/logos/wix.svg", "alt": "Logo Wix" },
+      { "src": "/images/logos/squarespace.svg", "alt": "Logo Squarespace" },
+      { "src": "/images/logos/relume.svg", "alt": "Logo Relume" },
+      { "src": "/images/logos/flowbase.svg", "alt": "Logo Flowbase" }
     ]
   },
   "pillars": {
