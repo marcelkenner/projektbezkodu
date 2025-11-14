@@ -1,11 +1,14 @@
 ---
-title: "Kickoff workshop – agenda i materiały na start projektu"
-slug: "kickoff-workshop"
-path: "/proces/kickoff-workshop/"
-type: "template"
-tags: ["evergreen", "proces", "warsztat"]
+title: Kickoff workshop – agenda i materiały na start projektu
+slug: kickoff-workshop
+path: /proces/kickoff-workshop/
+type: template
+tags:
+  - evergreen
+  - proces
+  - warsztat
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kickoff workshop – agenda i materiały na start projektu

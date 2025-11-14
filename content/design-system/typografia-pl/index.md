@@ -1,11 +1,14 @@
 ---
-title: "Typografia PL w design systemie: fonty z ogonkami i ligatury"
-slug: "typografia-pl"
-path: "/design-system/typografia-pl/"
-type: "guide"
-tags: ["evergreen", "design-system", "typografia"]
+title: 'Typografia PL w design systemie: fonty z ogonkami i ligatury'
+slug: typografia-pl
+path: /design-system/typografia-pl/
+type: guide
+tags:
+  - evergreen
+  - design-system
+  - typografia
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Typografia PL w design systemie: fonty z ogonkami i ligatury

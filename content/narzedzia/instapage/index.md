@@ -1,16 +1,20 @@
 ---
-title: "Instapage – landing page'e klasy premium"
-slug: "instapage"
-path: "/narzedzia/instapage/"
+title: Instapage – landing page'e klasy premium
+slug: instapage
+path: /narzedzia/instapage/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Instapage – landing page'e dla kampanii, które muszą się spinać"
-  subheading: "Buduję strony pod duży ruch i wymagające kampanie, korzystając z zaawansowanych testów i personalizacji."
+  heading: Instapage – landing page'e dla kampanii, które muszą się spinać
+  subheading: >-
+    Buduję strony pod duży ruch i wymagające kampanie, korzystając z
+    zaawansowanych testów i personalizacji.
 seo:
-  title: "Instapage – narzędzie do landing page'y dla większych kampanii"
-  description: "Zobacz, kiedy opłaca się sięgnąć po Instapage: precyzyjne testy, personalizacja treści i integracje z ekosystemem reklamowym."
+  title: Instapage – narzędzie do landing page'y dla większych kampanii
+  description: >-
+    Zobacz, kiedy opłaca się sięgnąć po Instapage: precyzyjne testy,
+    personalizacja treści i integracje z ekosystemem reklamowym.
 ---
 
 # Instapage – wprowadzenie

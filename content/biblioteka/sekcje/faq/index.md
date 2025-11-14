@@ -1,11 +1,13 @@
 ---
-title: "Sekcje: FAQ"
-slug: "faq"
-path: "/biblioteka/sekcje/faq/"
-type: "template"
-tags: ["evergreen", "biblioteka"]
+title: 'Sekcje: FAQ'
+slug: faq
+path: /biblioteka/sekcje/faq/
+type: template
+tags:
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: FAQ

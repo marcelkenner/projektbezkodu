@@ -1,48 +1,58 @@
 ---
-title: "Landing w Framerze dla kampanii produktowej"
-slug: "framer-landing"
-path: "/przypadki-uzycia/framer-landing/"
+title: Landing w Framerze dla kampanii produktowej
+slug: framer-landing
+path: /przypadki-uzycia/framer-landing/
 draft: false
-template: "case-study"
-date: "2024-04-16"
+template: case-study
+date: '2024-04-16'
 hero:
-  heading: "Framer landing – kampania produktowa w tydzień"
-  subheading: "Dostarczyliśmy landing z animacjami i integracjami analitycznymi, który wsparł premierę funkcji AI."
+  heading: Framer landing – kampania produktowa w tydzień
+  subheading: >-
+    Dostarczyliśmy landing z animacjami i integracjami analitycznymi, który
+    wsparł premierę funkcji AI.
 seo:
-  title: "Case study: Landing Framer dla kampanii produktowej"
-  description: "Jak w 7 dni przygotowaliśmy landing Framer z interaktywnymi animacjami i integracjami growth."
+  title: 'Case study: Landing Framer dla kampanii produktowej'
+  description: >-
+    Jak w 7 dni przygotowaliśmy landing Framer z interaktywnymi animacjami i
+    integracjami growth.
 meta:
-  industry: "SaaS AI"
-  period: "Q2 2024"
+  industry: SaaS AI
+  period: Q2 2024
   stack:
     - Framer
     - Vercel Analytics
     - HubSpot
     - Make
   summaryBullets:
-    - "Interaktywne demo funkcji AI i animacje w Framerze."
-    - "Integracja formularza z HubSpot i scoringiem leadów."
-    - "Automatyczne raporty kampanii wysyłane do Slacka."
+    - Interaktywne demo funkcji AI i animacje w Framerze.
+    - Integracja formularza z HubSpot i scoringiem leadów.
+    - Automatyczne raporty kampanii wysyłane do Slacka.
   metrics:
-    - label: "Czas produkcji"
-      value: "7 dni"
-      description: "Od kick-off do publikacji."
-    - label: "Współczynnik kliknięć CTA"
-      value: "28%"
-      description: "Dzięki interaktywnej sekcji demo."
-    - label: "SQL z kampanii"
-      value: "+96"
-      description: "W ciągu pierwszych 14 dni."
+    - label: Czas produkcji
+      value: 7 dni
+      description: Od kick-off do publikacji.
+    - label: Współczynnik kliknięć CTA
+      value: 28%
+      description: Dzięki interaktywnej sekcji demo.
+    - label: SQL z kampanii
+      value: '+96'
+      description: W ciągu pierwszych 14 dni.
   lessons:
-    - "Microinteraction w Framerze zwiększa zaangażowanie, ale trzeba pamiętać o fallbackach."
-    - "Przekazanie struktur danych (naming) do analityki od początku oszczędza debugowania."
-    - "Automatyczne raporty w Slacku pomagają zespołowi growth reagować w czasie rzeczywistym."
+    - >-
+      Microinteraction w Framerze zwiększa zaangażowanie, ale trzeba pamiętać o
+      fallbackach.
+    - >-
+      Przekazanie struktur danych (naming) do analityki od początku oszczędza
+      debugowania.
+    - >-
+      Automatyczne raporty w Slacku pomagają zespołowi growth reagować w czasie
+      rzeczywistym.
   primaryCta:
-    label: "Sprawdź komponenty Framer"
-    href: "/poradniki/framer-landing-2h/"
+    label: Sprawdź komponenty Framer
+    href: /poradniki/framer-landing-2h/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

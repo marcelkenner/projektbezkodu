@@ -1,10 +1,10 @@
 ---
-title: "Regulamin serwisu ProjektBezKodu"
-slug: "regulamin"
-path: "/regulamin/"
+title: Regulamin serwisu ProjektBezKodu
+slug: regulamin
+path: /regulamin/
 draft: false
-template: "legal"
-date: "2024-12-01"
+template: legal
+date: '2024-12-01'
 ---
 
 ## Definicje

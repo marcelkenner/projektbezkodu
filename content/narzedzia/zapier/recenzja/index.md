@@ -1,16 +1,20 @@
 ---
-title: "Zapier – recenzja"
-slug: "recenzja"
-path: "/narzedzia/zapier/recenzja/"
+title: Zapier – recenzja
+slug: recenzja
+path: /narzedzia/zapier/recenzja/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Zapier – recenzja z punktu widzenia małej firmy"
-  subheading: "Patrzę, ile czasu i błędów oszczędza mi Zapier w prostych, ale krytycznych procesach."
+  heading: Zapier – recenzja z punktu widzenia małej firmy
+  subheading: >-
+    Patrzę, ile czasu i błędów oszczędza mi Zapier w prostych, ale krytycznych
+    procesach.
 seo:
-  title: "Zapier – recenzja po latach używania"
-  description: "Plusy i minusy korzystania z Zapiera: wygoda, ograniczenia, stabilność i moment, w którym warto szukać czegoś innego."
+  title: Zapier – recenzja po latach używania
+  description: >-
+    Plusy i minusy korzystania z Zapiera: wygoda, ograniczenia, stabilność i
+    moment, w którym warto szukać czegoś innego.
 ---
 
 Tu będzie treść artykułu.

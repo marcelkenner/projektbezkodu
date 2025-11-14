@@ -1,16 +1,20 @@
 ---
-title: "Unbounce – FAQ"
-slug: "faq"
-path: "/narzedzia/unbounce/faq/"
+title: Unbounce – FAQ
+slug: faq
+path: /narzedzia/unbounce/faq/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Unbounce – najczęstsze pytania po polsku"
-  subheading: "Zebrałem odpowiedzi na pytania, które sam miałem: o limity, integracje, szybkość działania i rozliczenia."
+  heading: Unbounce – najczęstsze pytania po polsku
+  subheading: >-
+    Zebrałem odpowiedzi na pytania, które sam miałem: o limity, integracje,
+    szybkość działania i rozliczenia.
 seo:
-  title: "Unbounce – FAQ i odpowiedzi"
-  description: "Krótko i konkretnie odpowiadam na najczęstsze pytania o Unbounce: funkcje, ograniczenia, rozliczenia oraz dla kogo to narzędzie ma sens."
+  title: Unbounce – FAQ i odpowiedzi
+  description: >-
+    Krótko i konkretnie odpowiadam na najczęstsze pytania o Unbounce: funkcje,
+    ograniczenia, rozliczenia oraz dla kogo to narzędzie ma sens.
 ---
 
 # Unbounce – FAQ

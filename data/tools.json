@@ -3,7 +3,7 @@
     "slug": "webflow",
     "label": "Webflow",
     "category": "site-builder",
-    "description": "Projektuję jak w Figmie, publikuję jednym kliknięciem. Hosting, CMS i SEO mam w jednym miejscu.",
+    "description": "Buduję strony wizualnie jak w Figmie, a potem jednym kliknięciem wypycham je na produkcję – z wbudowanym CMS, hostingiem i podstawowym SEO.",
     "readMorePath": "/narzedzia/webflow/",
     "image": "/images/tools/webflow.svg"
   },
@@ -11,7 +11,7 @@
     "slug": "framer",
     "label": "Framer",
     "category": "site-builder",
-    "description": "Animowane landingi w kilka godzin – prototyp i produkcja w jednym narzędziu.",
+    "description": "Tworzę animowane landingi w kilka godzin – od pierwszego szkicu do gotowej wersji produkcyjnej w jednym narzędziu.",
     "readMorePath": "/narzedzia/framer/",
     "image": "/images/tools/framer.svg"
   },
@@ -19,27 +19,98 @@
     "slug": "relume",
     "label": "Relume",
     "category": "component-library",
-    "description": "Biblioteka komponentów i sitemap AI – przyspiesza start projektu Webflow.",
+    "description": "Korzystam z gotowych komponentów i sitemap AI, żeby szybciej ułożyć strukturę strony i wystartować z projektem.",
     "readMorePath": "/narzedzia/relume/",
     "image": "/images/tools/relume.svg"
   },
-  { "slug": "make", "label": "Make (Integromat)", "category": "automation" },
-  { "slug": "zapier", "label": "Zapier", "category": "automation" },
-  { "slug": "mailerlite", "label": "MailerLite", "category": "email" },
-  { "slug": "convertkit", "label": "ConvertKit", "category": "email" },
+  {
+    "slug": "make",
+    "label": "Make (Integromat)",
+    "category": "automation",
+    "description": "Łączę aplikacje w wizualnym edytorze i automatyzuję powtarzalne zadania – od leadów po faktury, bez pisania skryptów."
+  },
+  {
+    "slug": "zapier",
+    "label": "Zapier",
+    "category": "automation",
+    "description": "Tworzę proste automaty „jeśli to, to tamto”, które łączą moje narzędzia i oszczędzają godziny ręcznego klikania."
+  },
+  {
+    "slug": "mailerlite",
+    "label": "MailerLite",
+    "category": "email",
+    "description": "Wysyłam kampanie, buduję proste landing page i automatyczne sekwencje maili na jednym, nieskomplikowanym panelu."
+  },
+  {
+    "slug": "convertkit",
+    "label": "ConvertKit",
+    "category": "email",
+    "description": "Prowadzę newsletter, taguję subskrybentów i odpalam sekwencje sprzedażowe z myślą o twórcach i małych biznesach online."
+  },
   {
     "slug": "plausible",
     "label": "Plausible Analytics",
-    "category": "analytics"
+    "category": "analytics",
+    "description": "Śledzę ruch na stronie prostym, lekkim panelem bez ciasteczek i banerów – zgodnie z RODO i bez śledzenia użytkowników."
   },
-  { "slug": "fathom", "label": "Fathom Analytics", "category": "analytics" },
-  { "slug": "semrush", "label": "Semrush", "category": "seo" },
-  { "slug": "surfer", "label": "Surfer", "category": "seo" },
-  { "slug": "hotjar", "label": "Hotjar", "category": "ux" },
-  { "slug": "typeform", "label": "Typeform", "category": "forms" },
-  { "slug": "tally", "label": "Tally", "category": "forms" },
-  { "slug": "shopify", "label": "Shopify", "category": "ecommerce" },
-  { "slug": "bigcommerce", "label": "BigCommerce", "category": "ecommerce" },
-  { "slug": "hostinger", "label": "Hostinger", "category": "hosting" },
-  { "slug": "kinsta", "label": "Kinsta", "category": "hosting" }
+  {
+    "slug": "fathom",
+    "label": "Fathom Analytics",
+    "category": "analytics",
+    "description": "Dostaję kluczowe statystyki odwiedzin w przejrzystym panelu, bez zbędnych wodotrysków i skomplikowanych raportów jak w Google Analytics."
+  },
+  {
+    "slug": "semrush",
+    "label": "Semrush",
+    "category": "seo",
+    "description": "Badam słowa kluczowe, sprawdzam konkurencję i robię techniczne audyty SEO w jednym narzędziu."
+  },
+  {
+    "slug": "surfer",
+    "label": "Surfer",
+    "category": "seo",
+    "description": "Piszę i optymalizuję treści pod SEO w edytorze, który podpowiada nagłówki, długość tekstu i słowa kluczowe."
+  },
+  {
+    "slug": "hotjar",
+    "label": "Hotjar",
+    "category": "ux",
+    "description": "Widzę, jak ludzie faktycznie korzystają ze strony – na mapach cieplnych, nagraniach sesji i w krótkich ankietach."
+  },
+  {
+    "slug": "typeform",
+    "label": "Typeform",
+    "category": "forms",
+    "description": "Tworzę interaktywne formularze i ankiety, które bardziej przypominają rozmowę niż klasyczny formularz i zbierają więcej odpowiedzi."
+  },
+  {
+    "slug": "tally",
+    "label": "Tally",
+    "category": "forms",
+    "description": "Robię formularze tak łatwo, jak pisanie w dokumencie – z logiką warunkową, płatnościami i bez limitu odpowiedzi w darmowym planie."
+  },
+  {
+    "slug": "shopify",
+    "label": "Shopify",
+    "category": "ecommerce",
+    "description": "Stawiam sklep online bez kodowania, podpinam płatności i sprzedaję równocześnie na stronie, marketplace’ach i w social media."
+  },
+  {
+    "slug": "bigcommerce",
+    "label": "BigCommerce",
+    "category": "ecommerce",
+    "description": "Buduję skalowalny sklep z mocnym B2B, wieloma kanałami sprzedaży i otwartym API, gdy prostsze platformy zaczynają mnie ograniczać."
+  },
+  {
+    "slug": "hostinger",
+    "label": "Hostinger",
+    "category": "hosting",
+    "description": "Uruchamiam stronę i pocztę na tanim, szybkim hostingu z prostym panelem i wsparciem 24/7 – idealnie na start projektu."
+  },
+  {
+    "slug": "kinsta",
+    "label": "Kinsta",
+    "category": "hosting",
+    "description": "Oddaję WordPressa w ręce managed hostingu – z automatycznymi backupami, bezpieczeństwem i wydajnością dla ruchliwych serwisów."
+  }
 ]

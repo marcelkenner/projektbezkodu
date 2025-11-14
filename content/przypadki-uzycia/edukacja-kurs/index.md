@@ -1,19 +1,23 @@
 ---
-title: "Akademia Produktu – kurs online w 30 dni"
-slug: "edukacja-kurs"
-path: "/przypadki-uzycia/edukacja-kurs/"
+title: Akademia Produktu – kurs online w 30 dni
+slug: edukacja-kurs
+path: /przypadki-uzycia/edukacja-kurs/
 draft: false
-template: "case-study"
-date: "2024-06-10"
+template: case-study
+date: '2024-06-10'
 hero:
-  heading: "Akademia Produktu – platforma kursowa na Webflow + Memberstack"
-  subheading: "Zbudowaliśmy stronę sprzedażową, strefę kursanta i automatyzacje płatności w 30 dni."
+  heading: Akademia Produktu – platforma kursowa na Webflow + Memberstack
+  subheading: >-
+    Zbudowaliśmy stronę sprzedażową, strefę kursanta i automatyzacje płatności w
+    30 dni.
 seo:
-  title: "Case study: kurs online na Webflow + Memberstack"
-  description: "Kurs produktowy z paywallem, płatnościami Stripe i automatyzacją e-mail. 54% konwersji z listy oczekujących."
+  title: 'Case study: kurs online na Webflow + Memberstack'
+  description: >-
+    Kurs produktowy z paywallem, płatnościami Stripe i automatyzacją e-mail. 54%
+    konwersji z listy oczekujących.
 meta:
-  industry: "Edukacja online"
-  period: "Q2 2024"
+  industry: Edukacja online
+  period: Q2 2024
   stack:
     - Webflow
     - Memberstack
@@ -21,29 +25,35 @@ meta:
     - Make
     - MailerLite
   summaryBullets:
-    - "Landing sprzedażowy z modułem FAQ i planami płatności."
-    - "Strefa kursanta w Memberstack z dostępem warunkowym."
-    - "Automatyzacje płatności, faktur i onboardingowych sekwencji e-mail."
+    - Landing sprzedażowy z modułem FAQ i planami płatności.
+    - Strefa kursanta w Memberstack z dostępem warunkowym.
+    - Automatyzacje płatności, faktur i onboardingowych sekwencji e-mail.
   metrics:
-    - label: "Konwersja listy oczekujących"
-      value: "54%"
-      description: "Zapisy na pierwszą edycję kursu."
-    - label: "Zwroty manualne"
-      value: "−90%"
-      description: "Automatyczne faktury i potwierdzenia w Stripe."
-    - label: "Czas obsługi kursanta"
-      value: "−60%"
-      description: "Onboarding w MailerLite + self-service FAQ."
+    - label: Konwersja listy oczekujących
+      value: 54%
+      description: Zapisy na pierwszą edycję kursu.
+    - label: Zwroty manualne
+      value: −90%
+      description: Automatyczne faktury i potwierdzenia w Stripe.
+    - label: Czas obsługi kursanta
+      value: −60%
+      description: Onboarding w MailerLite + self-service FAQ.
   lessons:
-    - "Warto projektować onboarding jako flow – wideo, checklista, link do społeczności."
-    - "Dynamiczne listy modułów w Webflow oszczędzają czas przy aktualizacji programu."
-    - "Integracja Memberstack webhook → Make → Airtable zapewnia single source of truth."
+    - >-
+      Warto projektować onboarding jako flow – wideo, checklista, link do
+      społeczności.
+    - >-
+      Dynamiczne listy modułów w Webflow oszczędzają czas przy aktualizacji
+      programu.
+    - >-
+      Integracja Memberstack webhook → Make → Airtable zapewnia single source of
+      truth.
   primaryCta:
-    label: "Pobierz listę kontrolną kursu"
-    href: "/zasoby/prawne-wzory/"
+    label: Pobierz listę kontrolną kursu
+    href: /zasoby/prawne-wzory/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

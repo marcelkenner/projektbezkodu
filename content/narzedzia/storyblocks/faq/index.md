@@ -1,9 +1,9 @@
 ---
-title: "Storyblocks Faq"
-slug: "faq"
-path: "/narzedzia/storyblocks/faq/"
+title: Storyblocks Faq
+slug: faq
+path: /narzedzia/storyblocks/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Storyblocks Faq

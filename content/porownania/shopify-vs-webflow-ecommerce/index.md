@@ -1,10 +1,10 @@
 ---
-title: "Shopify Vs Webflow Ecommerce"
-slug: "shopify-vs-webflow-ecommerce"
-path: "/porownania/shopify-vs-webflow-ecommerce/"
+title: Shopify Vs Webflow Ecommerce
+slug: shopify-vs-webflow-ecommerce
+path: /porownania/shopify-vs-webflow-ecommerce/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - commerce

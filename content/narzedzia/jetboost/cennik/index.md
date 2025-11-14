@@ -1,9 +1,9 @@
 ---
-title: "Jetboost Cennik"
-slug: "cennik"
-path: "/narzedzia/jetboost/cennik/"
+title: Jetboost Cennik
+slug: cennik
+path: /narzedzia/jetboost/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Jetboost Cennik

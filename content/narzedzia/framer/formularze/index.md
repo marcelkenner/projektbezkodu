@@ -1,9 +1,9 @@
 ---
-title: "Framer Formularze"
-slug: "formularze"
-path: "/narzedzia/framer/formularze/"
+title: Framer Formularze
+slug: formularze
+path: /narzedzia/framer/formularze/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Framer Formularze

@@ -1,9 +1,9 @@
 ---
-title: "Kapwing Recenzja"
-slug: "recenzja"
-path: "/narzedzia/kapwing/recenzja/"
+title: Kapwing Recenzja
+slug: recenzja
+path: /narzedzia/kapwing/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kapwing Recenzja

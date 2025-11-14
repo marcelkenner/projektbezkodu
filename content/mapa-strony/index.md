@@ -1,9 +1,9 @@
 ---
-title: "Y"
-slug: "y"
-path: "/mapa-strony/"
+title: 'Y'
+slug: 'y'
+path: /mapa-strony/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Y

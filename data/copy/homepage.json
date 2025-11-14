@@ -1,7 +1,7 @@
 {
   "header": {
     "skipLink": {
-      "label": "Pomiń do treści",
+      "label": "Przejdź do treści",
       "target": "#content"
     },
     "nav": [
@@ -13,27 +13,27 @@
     ],
     "search": {
       "label": "Szukaj w serwisie",
-      "placeholder": "Czego dziś szukasz?",
+      "placeholder": "Czego dziś potrzebujesz?",
       "buttonLabel": "Szukaj",
       "action": "/szukaj/"
     }
   },
   "hero": {
-    "heading": "Zbuduj stronę no-code i zacznij zbierać leady w tym tygodniu.",
-    "subheading": "Oferta widoczna, leady w skrzynce i pełna kontrola treści – bez czekania na developera.",
+    "heading": "Postaw stronę no-code i zacznij zbierać leady jeszcze w tym tygodniu",
+    "subheading": "Oferta widoczna, leady w skrzynce, a ty samodzielnie ogarniasz treści – bez proszenia developera o każdą zmianę.",
     "primaryCta": {
-      "label": "Zacznij w Webflow",
+      "label": "Start z Webflow",
       "href": "/narzedzia/webflow/",
-      "ariaLabel": "Przejdź do narzędzia Webflow"
+      "ariaLabel": "Przejdź do opisu narzędzia Webflow"
     },
     "secondaryCta": {
-      "label": "Plan na 7 dni",
-      "href": "/sciezki/webflow-7-dni/"
+      "label": "Plan na 30 dni z Webflow",
+      "href": "/sciezki/webflow-30-dni/"
     },
-    "microcopy": "Link do Webflow może być afiliacyjny.",
+    "microcopy": "Niektóre linki do Webflow mogą być afiliacyjne.",
     "image": {
       "src": "/img/hero-3x2.webp",
-      "alt": "Zrzut układu 5 sekcji w Webflow: nagłówek, podtytuł, CTA",
+      "alt": "Układ bloków strony internetowej z nagłówkiem, sekcją ofertową i formularzem kontaktowym, układanych jak klocki przez ludzi.",
       "width": 1120,
       "height": 747,
       "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1120px",
@@ -45,7 +45,7 @@
     }
   },
   "socialProof": {
-    "heading": "Buduj z:",
+    "heading": "Twórz na:",
     "logos": [
       { "src": "/images/logos/webflow.svg", "alt": "Logo Webflow" },
       { "src": "/images/logos/framer.svg", "alt": "Logo Framer" },
@@ -56,85 +56,97 @@
     ]
   },
   "pillars": {
-    "heading": "Co zbudujesz z no-code?",
+    "heading": "Co realnie zrobisz z no-code?",
     "items": [
       {
-        "title": "Webflow",
-        "description": "Publikujesz w dni, nie tygodnie. Z checklistą CMS i gotowymi komponentami.",
-        "href": "/narzedzia/webflow/",
+        "title": "Landing page pod kampanię",
+        "description": "Stworzysz kompletną stronę kampanii w kilka dni zamiast tygodni – z gotowymi sekcjami, formularzami i integracją z CRM.",
+        "href": "/narzedzia/landing-page/",
         "icon": "bolt"
       },
       {
-        "title": "Framer",
-        "description": "Animacje i mikrointerakcje z eksportem do produkcji bez ręcznego kodu.",
-        "href": "/narzedzia/framer/",
+        "title": "Animacje i mikrointerakcje",
+        "description": "Dodasz ruch, przejścia i efekty hover, które podnoszą konwersję – bez pisania ani jednej linijki kodu.",
+        "href": "/narzedzia/animacje/",
         "icon": "spark"
       },
       {
-        "title": "Automatyzacje",
-        "description": "Łączymy Make, Zapier i Slack tak, by lead trafiał tam, gdzie działa zespół.",
+        "title": "Automatyczne procesy",
+        "description": "Połączysz formularze, maile i komunikatory tak, żeby każdy nowy lead wpadał we właściwy proces sprzedażowy.",
         "href": "/poradniki/automatyzacje/",
         "icon": "workflow"
       },
       {
-        "title": "SEO",
-        "description": "Checklisty Core Web Vitals, schematy i struktury treści do kopiowania.",
+        "title": "SEO i widoczność w Google",
+        "description": "Ustawisz meta dane, struktury nagłówków, przekierowania i podstawowe Core Web Vitals, żeby strona miała szansę rankować.",
         "href": "/artykuly/seo/",
         "icon": "target"
       },
       {
-        "title": "Szablony",
-        "description": "Sekcje, które od razu wklejasz do projektu – hero, pricing, porównania.",
+        "title": "Gotowe sekcje i układy",
+        "description": "Wkleisz sprawdzone sekcje hero, pricing, porównania czy FAQ i szybko złożysz z nich cały layout.",
         "href": "/szablony/",
         "icon": "layers"
       },
       {
-        "title": "Wydajność",
-        "description": "Monitoring LCP i TTFB bez wtyczek, z konfiguracją CDN krok po kroku.",
+        "title": "Wydajność i stabilność",
+        "description": "Skorzystasz z hostingu w chmurze, CDN i monitoringu szybkości, żeby strona działała sprawnie nawet przy dużym ruchu.",
         "href": "/artykuly/core-web-vitals/",
         "icon": "speed"
+      },
+      {
+        "title": "CMS dla zespołu",
+        "description": "Oddzielisz warstwę treści od layoutu, dzięki czemu marketing wrzuca nowe wpisy i case studies bez dotykania projektu strony.",
+        "href": "/narzedzia/cms/",
+        "icon": "database"
+      },
+      {
+        "title": "Testy i eksperymenty",
+        "description": "Szybko stworzysz warianty sekcji, podepniesz narzędzia do testów A/B i sprawdzisz, który wariant lepiej dowozi wyniki.",
+        "href": "/narzedzia/testy-a-b/",
+        "icon": "experiment"
       }
     ]
   },
   "workflow": {
-    "heading": "Jak działa no-code",
+    "heading": "Jak to działa krok po kroku?",
     "steps": [
       {
-        "title": "Ustalasz cel",
-        "description": "Definiujesz wynik kampanii, grupę odbiorców i KPI, żeby dobrać właściwe sekcje oraz narzędzia."
+        "title": "Określasz cel i ofertę",
+        "description": "Decydujesz, po co stawiasz stronę: zbierasz leady, zapisujesz na webinar, sprzedajesz produkt? Ustalasz grupę docelową i główną obietnicę, którą zobaczą na stronie."
       },
       {
-        "title": "Składasz 5 sekcji",
-        "description": "Wybierasz sprawdzone bloki i łączysz je jak klocki, tworząc kompletną stronę w kilkanaście minut."
+        "title": "Układasz strukturę strony",
+        "description": "Wybierasz sekcje: hero, oferta, social proof, FAQ, formularz. Z checklistą łatwo sprawdzasz, czy odpowiadasz na najczęstsze pytania i nie gubisz kluczowych elementów."
       },
       {
-        "title": "Publikujesz",
-        "description": "Udostępniasz landing w bezpiecznej infrastrukturze no-code, bez czekania na wsparcie deweloperów."
+        "title": "Budujesz layout w no-code",
+        "description": "Składasz stronę z gotowych bloków jak z klocków: zmieniasz teksty, zdjęcia i kolory, dopasowujesz wersję mobilną i od razu widzisz, jak wszystko wygląda w podglądzie."
       },
       {
-        "title": "Zbierasz leady",
-        "description": "Formularze i automaty dbają o przekazanie kontaktów do CRM oraz zespołu sprzedaży."
+        "title": "Podpinasz formularze i automatyzacje",
+        "description": "Dodajesz formularz kontaktowy lub zapis na newsletter, łączysz go z CRM i narzędziami do mailingu, żeby każdy nowy kontakt trafiał we właściwe miejsce bez ręcznej pracy."
       },
       {
-        "title": "Mierzysz i poprawiasz",
-        "description": "Porównujesz wyniki, uruchamiasz testy A/B i iterujesz sekcje na podstawie realnych danych."
+        "title": "Publikujesz i optymalizujesz",
+        "description": "Podłączasz domenę, odpalasz analitykę i testy A/B. Patrzysz, skąd przychodzą użytkownicy, które sekcje działają najlepiej i na tej podstawie wprowadzasz kolejne poprawki."
       }
     ]
   },
   "articles": {
-    "heading": "Najnowsze artykuły",
+    "heading": "Najnowsze materiały",
     "ctaLabel": "Czytaj →",
-    "loading": "Ładujemy najnowsze treści…",
-    "empty": "Brak artykułów do wyświetlenia."
+    "loading": "Ładujemy dla ciebie najnowsze treści…",
+    "empty": "Na razie nie ma tu jeszcze artykułów."
   },
   "newsletter": {
     "heading": "Chcę checklistę i gotowe sekcje",
-    "body": "Wejdź na listę, a w tygodniu dostaniesz checklistę publikacji, sekcje hero i listę narzędzi.",
+    "body": "Zapisz się na listę – w tygodniu dostaniesz checklistę publikacji, gotowe sekcje hero i listę narzędzi, które przyspieszą start.",
     "form": {
       "emailLabel": "E-mail",
       "emailPlaceholder": "mój@adres.pl",
-      "consentLabel": "Wyrażam zgodę na kontakt",
-      "submitLabel": "Wyślij",
+      "consentLabel": "Zgadzam się na kontakt mailowy",
+      "submitLabel": "Dołącz",
       "privacyLabel": "Polityka prywatności",
       "privacyHref": "/polityka-prywatnosci/"
     }

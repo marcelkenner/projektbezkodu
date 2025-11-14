@@ -1,9 +1,9 @@
 ---
-title: "Webnode Cennik"
-slug: "cennik"
-path: "/narzedzia/webnode/cennik/"
+title: Webnode Cennik
+slug: cennik
+path: /narzedzia/webnode/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Webnode Cennik

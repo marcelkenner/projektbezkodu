@@ -1,9 +1,9 @@
 ---
-title: "Freepik Faq"
-slug: "faq"
-path: "/narzedzia/freepik/faq/"
+title: Freepik Faq
+slug: faq
+path: /narzedzia/freepik/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Freepik Faq

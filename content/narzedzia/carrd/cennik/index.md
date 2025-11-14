@@ -1,9 +1,9 @@
 ---
-title: "Carrd Cennik"
-slug: "cennik"
-path: "/narzedzia/carrd/cennik/"
+title: Carrd Cennik
+slug: cennik
+path: /narzedzia/carrd/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Carrd Cennik

@@ -1,11 +1,15 @@
 ---
-title: "Playbook: strona dla salonu fryzjerskiego i kosmetycznego"
-slug: "fryzjer-kosmetyka"
-path: "/playbooki/fryzjer-kosmetyka/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "beauty"]
+title: 'Playbook: strona dla salonu fryzjerskiego i kosmetycznego'
+slug: fryzjer-kosmetyka
+path: /playbooki/fryzjer-kosmetyka/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - beauty
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona dla salonu fryzjerskiego i kosmetycznego

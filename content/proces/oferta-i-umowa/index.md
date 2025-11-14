@@ -1,11 +1,15 @@
 ---
-title: "Oferta i umowa – kosztorys, zakres, SLA (szablon PL)"
-slug: "oferta-i-umowa"
-path: "/proces/oferta-i-umowa/"
-type: "template"
-tags: ["evergreen", "proces", "oferta", "umowa"]
+title: Oferta i umowa – kosztorys, zakres, SLA (szablon PL)
+slug: oferta-i-umowa
+path: /proces/oferta-i-umowa/
+type: template
+tags:
+  - evergreen
+  - proces
+  - oferta
+  - umowa
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Oferta i umowa – kosztorys, zakres, SLA (szablon PL)

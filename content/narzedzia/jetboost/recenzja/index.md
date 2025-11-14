@@ -1,9 +1,9 @@
 ---
-title: "Jetboost Recenzja"
-slug: "recenzja"
-path: "/narzedzia/jetboost/recenzja/"
+title: Jetboost Recenzja
+slug: recenzja
+path: /narzedzia/jetboost/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Jetboost Recenzja

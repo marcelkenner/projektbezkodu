@@ -1,16 +1,20 @@
 ---
-title: "Leadpages – proste landing page'e i strony"
-slug: "leadpages"
-path: "/narzedzia/leadpages/"
+title: Leadpages – proste landing page'e i strony
+slug: leadpages
+path: /narzedzia/leadpages/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Leadpages – strony lądowania bez kombinowania"
-  subheading: "Stawiam proste, szybkie strony pod kampanie i lead magnety, korzystając z gotowych bloków zamiast dłubania w motywach."
+  heading: Leadpages – strony lądowania bez kombinowania
+  subheading: >-
+    Stawiam proste, szybkie strony pod kampanie i lead magnety, korzystając z
+    gotowych bloków zamiast dłubania w motywach.
 seo:
-  title: "Leadpages – narzędzie do prostych landing page'y"
-  description: "Zobacz, jak Leadpages pomaga mi szybko zbudować strony pod lead magnety, newsletter i kampanie reklamowe bez udziału programisty."
+  title: Leadpages – narzędzie do prostych landing page'y
+  description: >-
+    Zobacz, jak Leadpages pomaga mi szybko zbudować strony pod lead magnety,
+    newsletter i kampanie reklamowe bez udziału programisty.
 ---
 
 # Leadpages – wprowadzenie

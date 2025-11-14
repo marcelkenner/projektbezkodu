@@ -284,3 +284,15 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 2. Consumers can extend behavior through `MarkdownRendererOptions` (`components.CodeBlock`, `components.Image`, `components.Link`, and `headingLevelsForToc`). Use these overrides instead of forking the renderer when you need syntax highlighting or custom image/link wrappers.
 3. The renderer now exposes `renderToc()` plus class names (`pbk-heading-*`, `pbk-paragraph`, `pbk-code-block`, `pbk-list-*`, etc.) so you can build consistent TOCs and theme markdown without touching the parser.
 4. Footnotes include a ↩ back-link, and inline links default to the sanitized Next.js/anchor variants unless you supply your own `Link` component in the options. Wrap markdown content via the exported `Markdown` component to memoize parsing per source string.
+
+## 25. Component Performance Guard
+
+1. Next.js 16 + React 19 occasionally crash dev navigations with `Failed to execute 'measure' on 'Performance': '<Component>' cannot have a negative time stamp.` (seen on `/narzedzia/webflow`). The issue comes from upstream component-performance instrumentation rather than our page code.
+2. The fix lives in `app/ui/performance/PerformanceMeasureGuard.tsx`. It instantiates a `PerformanceMeasureSanitizer` class that overrides `performance.measure`, clamps invalid `{ start, end }` pairs, and quietly swallows the DOMException whenever the upstream profiler still passes inconsistent data.
+3. `app/layout.tsx` must render `<PerformanceMeasureGuard />` before other UI so every client component benefits from the override. The guard no-ops in production builds to keep real metrics untouched; remove the component (and update this section) once the upstream bug is resolved in a future Next.js release.
+
+## 26. Front Matter Formatting
+
+1. Run `npm run content:format` whenever you edit markdown. The script (`scripts/format-frontmatter.mjs`) walks every file under `content/`, parses the YAML front matter via `gray-matter`, and rewrites it with consistent indentation, canonical URLs, and a single trailing newline. Arrays such as `topics`, `summaryBullets`, `tags`, etc. are automatically nested under the correct parent (`meta`, `taxonomy`, ...).
+2. `content:format` executes automatically as the first step of `npm run build` (via `prebuild`). If the formatter can’t parse a file (e.g., missing indentation or duplicated keys), it prints the offending path and exits with a non-zero status so the failure happens before Next.js starts building.
+3. Follow up formatting with `npm run content:lint` to ensure our schema constraints still pass. Both commands are idempotent—rerunning them on a clean tree makes zero changes—so you can wire them into pre-commit hooks without side effects.

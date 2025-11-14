@@ -1,9 +1,9 @@
 ---
-title: "Shutterstock Cennik"
-slug: "cennik"
-path: "/narzedzia/shutterstock/cennik/"
+title: Shutterstock Cennik
+slug: cennik
+path: /narzedzia/shutterstock/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Shutterstock Cennik

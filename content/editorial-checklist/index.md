@@ -1,11 +1,14 @@
 ---
-title: "Editorial checklist – czy Twój tekst jest gotowy do publikacji?"
-slug: "editorial-checklist"
-path: "/content/editorial-checklist/"
-type: "checklist"
-tags: ["evergreen", "content", "quality"]
+title: Editorial checklist – czy Twój tekst jest gotowy do publikacji?
+slug: editorial-checklist
+path: /content/editorial-checklist/
+type: checklist
+tags:
+  - evergreen
+  - content
+  - quality
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Editorial checklist – czy Twój tekst jest gotowy do publikacji?

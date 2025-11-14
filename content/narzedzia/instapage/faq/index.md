@@ -1,16 +1,20 @@
 ---
-title: "Instapage – FAQ"
-slug: "faq"
-path: "/narzedzia/instapage/faq/"
+title: Instapage – FAQ
+slug: faq
+path: /narzedzia/instapage/faq/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Instapage – najczęstsze pytania i praktyczne odpowiedzi"
-  subheading: "Wyjaśniam, dla kogo jest Instapage, jak wygląda wdrożenie i co trzeba wiedzieć przed zakupem licencji."
+  heading: Instapage – najczęstsze pytania i praktyczne odpowiedzi
+  subheading: >-
+    Wyjaśniam, dla kogo jest Instapage, jak wygląda wdrożenie i co trzeba
+    wiedzieć przed zakupem licencji.
 seo:
-  title: "Instapage – FAQ po polsku"
-  description: "Zebrałem odpowiedzi na popularne pytania o Instapage: wymagania, integracje, cennik i codzienną pracę z narzędziem."
+  title: Instapage – FAQ po polsku
+  description: >-
+    Zebrałem odpowiedzi na popularne pytania o Instapage: wymagania, integracje,
+    cennik i codzienną pracę z narzędziem.
 ---
 
 # Instapage – FAQ

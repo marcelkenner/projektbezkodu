@@ -1,11 +1,14 @@
 ---
-title: "Ton marki (brand voice) – praktyczny przewodnik z ćwiczeniami"
-slug: "brand-voice"
-path: "/content/brand-voice/"
-type: "guide"
-tags: ["evergreen", "content", "brand"]
+title: Ton marki (brand voice) – praktyczny przewodnik z ćwiczeniami
+slug: brand-voice
+path: /content/brand-voice/
+type: guide
+tags:
+  - evergreen
+  - content
+  - brand
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Ton marki (brand voice) – praktyczny przewodnik z ćwiczeniami

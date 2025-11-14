@@ -1,9 +1,9 @@
 ---
-title: "Metodyka: Benchmark Szybkosci Pl"
-path: "/badania/benchmark-szybkosci-pl/metodyka/"
-type: "research-methods"
+title: 'Metodyka: Benchmark Szybkosci Pl'
+path: /badania/benchmark-szybkosci-pl/metodyka/
+type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 ## Cel

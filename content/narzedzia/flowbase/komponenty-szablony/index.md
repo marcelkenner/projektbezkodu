@@ -1,9 +1,9 @@
 ---
-title: "Flowbase Komponenty Szablony"
-slug: "komponenty-szablony"
-path: "/narzedzia/flowbase/komponenty-szablony/"
+title: Flowbase Komponenty Szablony
+slug: komponenty-szablony
+path: /narzedzia/flowbase/komponenty-szablony/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Flowbase Komponenty Szablony

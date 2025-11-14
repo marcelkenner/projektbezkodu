@@ -1,10 +1,10 @@
 ---
-title: "Wix Vs Webflow"
-slug: "wix-vs-webflow"
-path: "/porownania/wix-vs-webflow/"
+title: Wix Vs Webflow
+slug: wix-vs-webflow
+path: /porownania/wix-vs-webflow/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - site-builder

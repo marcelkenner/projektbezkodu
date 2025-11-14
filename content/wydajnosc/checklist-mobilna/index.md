@@ -1,11 +1,15 @@
 ---
-title: "Checklist mobilna – wydajność mobile-first"
-slug: "checklist-mobilna"
-path: "/wydajnosc/checklist-mobilna/"
-type: "checklist"
-tags: ["evergreen", "wydajnosc", "mobile", "core-web-vitals"]
+title: Checklist mobilna – wydajność mobile-first
+slug: checklist-mobilna
+path: /wydajnosc/checklist-mobilna/
+type: checklist
+tags:
+  - evergreen
+  - wydajnosc
+  - mobile
+  - core-web-vitals
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Mobile-first wydajność – checklista

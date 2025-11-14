@@ -1,11 +1,15 @@
 ---
-title: "Przyciski i stany – szablon do design systemu"
-slug: "przyciski-i-stany"
-path: "/design-system/przyciski-i-stany/"
-type: "template"
-tags: ["evergreen", "design-system", "buttons", "template"]
+title: Przyciski i stany – szablon do design systemu
+slug: przyciski-i-stany
+path: /design-system/przyciski-i-stany/
+type: template
+tags:
+  - evergreen
+  - design-system
+  - buttons
+  - template
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Przyciski i stany – szablon do design systemu

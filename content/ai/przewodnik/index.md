@@ -1,9 +1,9 @@
 ---
-title: "Przewodnik"
-slug: "przewodnik"
-path: "/ai/przewodnik/"
+title: Przewodnik
+slug: przewodnik
+path: /ai/przewodnik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Przewodnik

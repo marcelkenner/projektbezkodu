@@ -1,9 +1,9 @@
 ---
-title: "Wix"
-slug: "wix"
-path: "/narzedzia/wix/"
+title: Wix
+slug: wix
+path: /narzedzia/wix/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Wix

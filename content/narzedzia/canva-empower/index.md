@@ -1,9 +1,9 @@
 ---
-title: "Canva Empower"
-slug: "canva-empower"
-path: "/narzedzia/canva-empower/"
+title: Canva Empower
+slug: canva-empower
+path: /narzedzia/canva-empower/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Canva Empower

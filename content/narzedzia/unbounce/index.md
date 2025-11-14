@@ -1,16 +1,20 @@
 ---
-title: "Unbounce – landing page'e nastawione na konwersję"
-slug: "unbounce"
-path: "/narzedzia/unbounce/"
+title: Unbounce – landing page'e nastawione na konwersję
+slug: unbounce
+path: /narzedzia/unbounce/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Unbounce – landing page'e nastawione na konwersję"
-  subheading: "Buduję landing page'e pod kampanie, testuję warianty i spinam je z lejkiem marketingowym – bez kodu i bez WordPressa."
+  heading: Unbounce – landing page'e nastawione na konwersję
+  subheading: >-
+    Buduję landing page'e pod kampanie, testuję warianty i spinam je z lejkiem
+    marketingowym – bez kodu i bez WordPressa.
 seo:
-  title: "Unbounce – narzędzie do tworzenia landing page'y"
-  description: "Sprawdź, jak Unbounce pomaga mi szybko stawiać strony docelowe nastawione na konwersję: szablony, testy A/B i integracje marketingowe."
+  title: Unbounce – narzędzie do tworzenia landing page'y
+  description: >-
+    Sprawdź, jak Unbounce pomaga mi szybko stawiać strony docelowe nastawione na
+    konwersję: szablony, testy A/B i integracje marketingowe.
 ---
 
 # Unbounce – landing page'e nastawione na konwersję

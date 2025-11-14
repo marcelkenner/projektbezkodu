@@ -61,7 +61,9 @@ export default async function ContentPage({ params }: ContentPageProps) {
             ) : null}
             {publishedDate ? (
               <small className={styles.contentPageMeta}>
-                <time dateTime={publishedDate}>{formatDate(publishedDate)}</time>
+                <time dateTime={publishedDate}>
+                  {formatDate(publishedDate)}
+                </time>
               </small>
             ) : null}
           </header>

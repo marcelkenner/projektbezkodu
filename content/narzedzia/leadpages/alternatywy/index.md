@@ -1,16 +1,20 @@
 ---
-title: "Leadpages – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/leadpages/alternatywy/"
+title: Leadpages – alternatywy
+slug: alternatywy
+path: /narzedzia/leadpages/alternatywy/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Alternatywy dla Leadpages, jeśli szukasz czegoś więcej (albo taniej)"
-  subheading: "Porównuję Leadpages z innymi narzędziami – od prostych kreatorów po rozbudowane platformy marketingowe."
+  heading: Alternatywy dla Leadpages, jeśli szukasz czegoś więcej (albo taniej)
+  subheading: >-
+    Porównuję Leadpages z innymi narzędziami – od prostych kreatorów po
+    rozbudowane platformy marketingowe.
 seo:
-  title: "Alternatywy dla Leadpages – lista narzędzi"
-  description: "Sprawdź, czym różnią się od Leadpages inne kreatory: Unbounce, Instapage, Webflow i tańsze narzędzia do landing page'y."
+  title: Alternatywy dla Leadpages – lista narzędzi
+  description: >-
+    Sprawdź, czym różnią się od Leadpages inne kreatory: Unbounce, Instapage,
+    Webflow i tańsze narzędzia do landing page'y.
 ---
 
 # Alternatywy dla Leadpages

@@ -1,9 +1,9 @@
 ---
-title: "Adobe Creative Cloud"
-slug: "adobe-creative-cloud"
-path: "/narzedzia/adobe-creative-cloud/"
+title: Adobe Creative Cloud
+slug: adobe-creative-cloud
+path: /narzedzia/adobe-creative-cloud/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Adobe Creative Cloud

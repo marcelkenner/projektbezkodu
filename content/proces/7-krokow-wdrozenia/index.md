@@ -1,11 +1,14 @@
 ---
-title: "7 kroków wdrożenia – od briefu do deploy'u"
-slug: "7-krokow-wdrozenia"
-path: "/proces/7-krokow-wdrozenia/"
-type: "guide"
-tags: ["evergreen", "proces", "wdrozenie"]
+title: 7 kroków wdrożenia – od briefu do deploy'u
+slug: 7-krokow-wdrozenia
+path: /proces/7-krokow-wdrozenia/
+type: guide
+tags:
+  - evergreen
+  - proces
+  - wdrozenie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # 7 kroków wdrożenia – od briefu do deploy'u

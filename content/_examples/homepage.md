@@ -1,25 +1,25 @@
 ---
-title: "ProjektBezKodu – Strona główna"
-slug: ""
-path: "/"
+title: ProjektBezKodu – Strona główna
+slug: ''
+path: /
 draft: true
-template: "homepage"
+template: homepage
 hero:
-  heading: "Rzetelne artykuły o stronach no-code."
-  subheading: "Porównania narzędzi i szczegółowe tutoriale pisane krok po kroku."
-  primaryCta: "copy.cta_primary"
-  secondaryCta: "copy.cta_secondary"
+  heading: Rzetelne artykuły o stronach no-code.
+  subheading: Porównania narzędzi i szczegółowe tutoriale pisane krok po kroku.
+  primaryCta: copy.cta_primary
+  secondaryCta: copy.cta_secondary
   trustLogos:
-    - "Webflow"
-    - "Framer"
-    - "Relume"
+    - Webflow
+    - Framer
+    - Relume
 seo:
-  title: "ProjektBezKodu – Profesjonalne strony no-code"
-  description: "Szablony, komponenty i checklisty, które pomagają wystartować w weekend."
+  title: ProjektBezKodu – Profesjonalne strony no-code
+  description: Szablony, komponenty i checklisty, które pomagają wystartować w weekend.
   keywords:
-    - "no-code"
-    - "webflow"
-    - "framer"
+    - no-code
+    - webflow
+    - framer
 meta:
   difficulty: null
   duration: null

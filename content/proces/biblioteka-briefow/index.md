@@ -1,11 +1,14 @@
 ---
-title: "Biblioteka briefów – gotowe szkielety dla różnych branż"
-slug: "biblioteka-briefow"
-path: "/proces/biblioteka-briefow/"
-type: "directory"
-tags: ["evergreen", "proces", "briefy"]
+title: Biblioteka briefów – gotowe szkielety dla różnych branż
+slug: biblioteka-briefow
+path: /proces/biblioteka-briefow/
+type: directory
+tags:
+  - evergreen
+  - proces
+  - briefy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Biblioteka briefów – gotowe szkielety dla różnych branż

@@ -1,9 +1,9 @@
 ---
-title: "I"
-slug: "i"
-path: "/sciezki/"
+title: I
+slug: i
+path: /sciezki/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # I

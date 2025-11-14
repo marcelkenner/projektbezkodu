@@ -1,9 +1,9 @@
 ---
-title: "Shopify Faq"
-slug: "faq"
-path: "/narzedzia/shopify/faq/"
+title: Shopify Faq
+slug: faq
+path: /narzedzia/shopify/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Shopify Faq

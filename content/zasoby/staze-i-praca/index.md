@@ -1,26 +1,30 @@
 ---
-title: "Mapa staży i pracy w no-code"
-slug: "staze-i-praca"
-path: "/zasoby/staze-i-praca/"
+title: Mapa staży i pracy w no-code
+slug: staze-i-praca
+path: /zasoby/staze-i-praca/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Oferty staży i pracy dla specjalistów no-code"
-  subheading: "Aktualizowana lista firm poszukujących twórców Webflow, Framera i automatyzacji."
+  heading: Oferty staży i pracy dla specjalistów no-code
+  subheading: >-
+    Aktualizowana lista firm poszukujących twórców Webflow, Framera i
+    automatyzacji.
 seo:
-  title: "Staże i praca w no-code – aktualne oferty"
-  description: "Zbiór ofert i formularzy polecających dla osób rozwijających się w no-code. Podzielone według typów projektów i narzędzi."
+  title: Staże i praca w no-code – aktualne oferty
+  description: >-
+    Zbiór ofert i formularzy polecających dla osób rozwijających się w no-code.
+    Podzielone według typów projektów i narzędzi.
 meta:
-  format: "Arkusz Google + RSS"
-  duration: "5 min na filtrację"
+  format: Arkusz Google + RSS
+  duration: 5 min na filtrację
   topics:
     - kariera
     - społeczność
     - edukacja
-  license: "CC BY-NC 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-job-board.csv"
-  fileSize: "120 KB"
-  checksum: "d0c0e3905b4c4a06ddcefec52b2a1cf264c4a4d592f0d9c3f97bd33f55857d66"
+  license: CC BY-NC 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-job-board.csv
+  fileSize: 120 KB
+  checksum: d0c0e3905b4c4a06ddcefec52b2a1cf264c4a4d592f0d9c3f97bd33f55857d66
 ---
 
 ## Co zawiera katalog

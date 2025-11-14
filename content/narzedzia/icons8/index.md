@@ -1,9 +1,9 @@
 ---
-title: "Icons8"
-slug: "icons8"
-path: "/narzedzia/icons8/"
+title: Icons8
+slug: icons8
+path: /narzedzia/icons8/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Icons8

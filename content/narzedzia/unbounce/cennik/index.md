@@ -1,16 +1,20 @@
 ---
-title: "Unbounce – cennik"
-slug: "cennik"
-path: "/narzedzia/unbounce/cennik/"
+title: Unbounce – cennik
+slug: cennik
+path: /narzedzia/unbounce/cennik/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Unbounce – cennik po ludzku"
-  subheading: "Rozbijam plany Unbounce na konkret: limity odwiedzin, strony, testy A/B i funkcje, za które faktycznie płacę."
+  heading: Unbounce – cennik po ludzku
+  subheading: >-
+    Rozbijam plany Unbounce na konkret: limity odwiedzin, strony, testy A/B i
+    funkcje, za które faktycznie płacę.
 seo:
-  title: "Unbounce – cennik i opłacalność"
-  description: "Analizuję ceny Unbounce: które plany mają sens przy Twoim ruchu, budżecie i liczbie kampanii."
+  title: Unbounce – cennik i opłacalność
+  description: >-
+    Analizuję ceny Unbounce: które plany mają sens przy Twoim ruchu, budżecie i
+    liczbie kampanii.
 ---
 
 # Unbounce – cennik i realne koszty

@@ -1,11 +1,13 @@
 ---
-title: "Plan pomiaru (measurement plan)"
-slug: "plan-pomiaru"
-path: "/analityka/plan-pomiaru/"
-type: "template"
-tags: ["evergreen", "analityka"]
+title: Plan pomiaru (measurement plan)
+slug: plan-pomiaru
+path: /analityka/plan-pomiaru/
+type: template
+tags:
+  - evergreen
+  - analityka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Plan pomiaru (measurement plan)

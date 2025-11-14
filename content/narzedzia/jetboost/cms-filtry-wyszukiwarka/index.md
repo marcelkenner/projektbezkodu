@@ -1,9 +1,9 @@
 ---
-title: "Jetboost Cms Filtry Wyszukiwarka"
-slug: "cms-filtry-wyszukiwarka"
-path: "/narzedzia/jetboost/cms-filtry-wyszukiwarka/"
+title: Jetboost Cms Filtry Wyszukiwarka
+slug: cms-filtry-wyszukiwarka
+path: /narzedzia/jetboost/cms-filtry-wyszukiwarka/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Jetboost Cms Filtry Wyszukiwarka

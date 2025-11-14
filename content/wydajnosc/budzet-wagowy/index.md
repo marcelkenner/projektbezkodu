@@ -1,11 +1,13 @@
 ---
-title: "Budżet wagowy strony (kalkulator)"
-slug: "budzet-wagowy"
-path: "/wydajnosc/budzet-wagowy/"
-type: "calculator"
-tags: ["evergreen", "wydajnosc"]
+title: Budżet wagowy strony (kalkulator)
+slug: budzet-wagowy
+path: /wydajnosc/budzet-wagowy/
+type: calculator
+tags:
+  - evergreen
+  - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Budżet wagowy strony (kalkulator)

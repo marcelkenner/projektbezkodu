@@ -1,9 +1,9 @@
 ---
-title: "T"
-slug: "t"
-path: "/kontakt/"
+title: T
+slug: t
+path: /kontakt/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # T

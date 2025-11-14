@@ -1,16 +1,20 @@
 ---
-title: "Bubble – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/bubble/alternatywy/"
+title: Bubble – alternatywy
+slug: alternatywy
+path: /narzedzia/bubble/alternatywy/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Alternatywy dla Bubble, gdy nie potrzebujesz aż tyle mocy"
-  subheading: "Pokazuję narzędzia, które lepiej sprawdzą się przy prostszych portalach, marketplace-ach lub aplikacjach wewnętrznych."
+  heading: Alternatywy dla Bubble, gdy nie potrzebujesz aż tyle mocy
+  subheading: >-
+    Pokazuję narzędzia, które lepiej sprawdzą się przy prostszych portalach,
+    marketplace-ach lub aplikacjach wewnętrznych.
 seo:
-  title: "Bubble – alternatywy no-code i low-code"
-  description: "Przegląd platform, które mogą zastąpić Bubble, jeśli ważniejsze są prostota, niższy koszt lub szybkie wdrożenie."
+  title: Bubble – alternatywy no-code i low-code
+  description: >-
+    Przegląd platform, które mogą zastąpić Bubble, jeśli ważniejsze są prostota,
+    niższy koszt lub szybkie wdrożenie.
 ---
 
 Tu będzie treść artykułu.

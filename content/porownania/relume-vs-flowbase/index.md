@@ -1,10 +1,10 @@
 ---
-title: "Relume Vs Flowbase"
-slug: "relume-vs-flowbase"
-path: "/porownania/relume-vs-flowbase/"
+title: Relume Vs Flowbase
+slug: relume-vs-flowbase
+path: /porownania/relume-vs-flowbase/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - component-library

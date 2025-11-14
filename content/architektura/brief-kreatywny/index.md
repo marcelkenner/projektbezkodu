@@ -1,11 +1,13 @@
 ---
-title: "Brief kreatywny (PL)"
-slug: "brief-kreatywny"
-path: "/architektura/brief-kreatywny/"
-type: "template"
-tags: ["evergreen", "architektura"]
+title: Brief kreatywny (PL)
+slug: brief-kreatywny
+path: /architektura/brief-kreatywny/
+type: template
+tags:
+  - evergreen
+  - architektura
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Brief kreatywny (PL)

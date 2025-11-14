@@ -1,26 +1,30 @@
 ---
-title: "Banery OG i podglądy społecznościowe"
-slug: "banery-og"
-path: "/zasoby/banery-og/"
+title: Banery OG i podglądy społecznościowe
+slug: banery-og
+path: /zasoby/banery-og/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Pakiet banerów OG w Figma"
-  subheading: "Trzy style dla artykułów, case studies i landingów – gotowe do automatyzacji eksportu."
+  heading: Pakiet banerów OG w Figma
+  subheading: >-
+    Trzy style dla artykułów, case studies i landingów – gotowe do automatyzacji
+    eksportu.
 seo:
-  title: "Banery OG – szablony Figma do szybkiego eksportu"
-  description: "Spójne grafiki Open Graph i miniatury social. Komponenty Figma + automatyzacja Make do hurtowego generowania banerów."
+  title: Banery OG – szablony Figma do szybkiego eksportu
+  description: >-
+    Spójne grafiki Open Graph i miniatury social. Komponenty Figma +
+    automatyzacja Make do hurtowego generowania banerów.
 meta:
-  format: "Figma + PNG"
-  duration: "10 min adaptacji"
+  format: Figma + PNG
+  duration: 10 min adaptacji
   topics:
     - brand
     - social-media
     - automatyzacja
-  license: "CC BY 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-og-templates.fig"
-  fileSize: "4.6 MB"
-  checksum: "e2cf6b5a18f2d00ef5a9b1d34d104dc6f6bf69a345dbefac5b1c82b3c5d70f9c"
+  license: CC BY 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-og-templates.fig
+  fileSize: 4.6 MB
+  checksum: e2cf6b5a18f2d00ef5a9b1d34d104dc6f6bf69a345dbefac5b1c82b3c5d70f9c
 ---
 
 ## Co zawiera paczka

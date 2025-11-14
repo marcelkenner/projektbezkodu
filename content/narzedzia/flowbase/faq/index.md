@@ -1,9 +1,9 @@
 ---
-title: "Flowbase Faq"
-slug: "faq"
-path: "/narzedzia/flowbase/faq/"
+title: Flowbase Faq
+slug: faq
+path: /narzedzia/flowbase/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Flowbase Faq

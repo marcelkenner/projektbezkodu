@@ -1,11 +1,16 @@
 ---
-title: "Playbook: strona dla hotelu i gastronomii"
-slug: "hotel-gastro"
-path: "/playbooki/hotel-gastro/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "hotel", "gastro"]
+title: 'Playbook: strona dla hotelu i gastronomii'
+slug: hotel-gastro
+path: /playbooki/hotel-gastro/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - hotel
+  - gastro
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona dla hotelu i gastronomii

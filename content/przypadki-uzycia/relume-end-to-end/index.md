@@ -1,48 +1,54 @@
 ---
-title: "Relume end-to-end – biblioteka komponentów dla enterprise"
-slug: "relume-end-to-end"
-path: "/przypadki-uzycia/relume-end-to-end/"
+title: Relume end-to-end – biblioteka komponentów dla enterprise
+slug: relume-end-to-end
+path: /przypadki-uzycia/relume-end-to-end/
 draft: false
-template: "case-study"
-date: "2024-10-19"
+template: case-study
+date: '2024-10-19'
 hero:
-  heading: "Enterprise Design System na Relume i Webflow"
-  subheading: "Standaryzowaliśmy komponenty dla globalnej marki, skracając czas produkcji landingów o 60%."
+  heading: Enterprise Design System na Relume i Webflow
+  subheading: >-
+    Standaryzowaliśmy komponenty dla globalnej marki, skracając czas produkcji
+    landingów o 60%.
 seo:
-  title: "Case study: Design system na Relume i Webflow"
-  description: "Jak w 6 tygodni zbudowaliśmy bibliotekę komponentów w Relume, wdrożyliśmy je w Webflow i opisaliśmy procesy QA."
+  title: 'Case study: Design system na Relume i Webflow'
+  description: >-
+    Jak w 6 tygodni zbudowaliśmy bibliotekę komponentów w Relume, wdrożyliśmy je
+    w Webflow i opisaliśmy procesy QA.
 meta:
-  industry: "Enterprise marketing"
-  period: "Q4 2024"
+  industry: Enterprise marketing
+  period: Q4 2024
   stack:
     - Relume
     - Webflow
     - Storybook
     - Zeroheight
   summaryBullets:
-    - "Zdefiniowaliśmy 42 komponenty marketingowe z wariantami dostępności."
-    - "Workflow publikacji landingów skrócony o 60%."
-    - "Dokumentacja w Zeroheight + Storybook synchronizowana z Relume."
+    - Zdefiniowaliśmy 42 komponenty marketingowe z wariantami dostępności.
+    - Workflow publikacji landingów skrócony o 60%.
+    - Dokumentacja w Zeroheight + Storybook synchronizowana z Relume.
   metrics:
-    - label: "Czas przygotowania strony"
-      value: "−60%"
-      description: "Porównanie przed i po wdrożeniu biblioteki."
-    - label: "Spójność komponentów"
-      value: "100%"
-      description: "Automatyczny linting klas + checklisty QA."
-    - label: "Liczba błędów dostępności"
-      value: "−85%"
-      description: "Dzięki testom Axe i definicji zasad w komponentach."
+    - label: Czas przygotowania strony
+      value: −60%
+      description: Porównanie przed i po wdrożeniu biblioteki.
+    - label: Spójność komponentów
+      value: 100%
+      description: Automatyczny linting klas + checklisty QA.
+    - label: Liczba błędów dostępności
+      value: −85%
+      description: Dzięki testom Axe i definicji zasad w komponentach.
   lessons:
-    - "Relume świetnie sprawdza się jako źródło, ale potrzebuje jasnych konwencji namingowych."
-    - "QA musi być częścią procesu – wprowadziliśmy checklistę A11y, SEO i legal."
-    - "Storybook + Zeroheight to dobre combo dla onboardingów w korporacji."
+    - >-
+      Relume świetnie sprawdza się jako źródło, ale potrzebuje jasnych konwencji
+      namingowych.
+    - QA musi być częścią procesu – wprowadziliśmy checklistę A11y, SEO i legal.
+    - Storybook + Zeroheight to dobre combo dla onboardingów w korporacji.
   primaryCta:
-    label: "Pobierz pakiet ikon PL"
-    href: "/zasoby/polskie-ikony-i-znaki/"
+    label: Pobierz pakiet ikon PL
+    href: /zasoby/polskie-ikony-i-znaki/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

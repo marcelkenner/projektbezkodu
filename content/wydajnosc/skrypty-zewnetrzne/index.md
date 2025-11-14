@@ -1,11 +1,13 @@
 ---
-title: "Minimalizowanie skryptów zewnętrznych"
-slug: "skrypty-zewnetrzne"
-path: "/wydajnosc/skrypty-zewnetrzne/"
-type: "guide"
-tags: ["evergreen", "wydajnosc"]
+title: Minimalizowanie skryptów zewnętrznych
+slug: skrypty-zewnetrzne
+path: /wydajnosc/skrypty-zewnetrzne/
+type: guide
+tags:
+  - evergreen
+  - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Minimalizowanie skryptów zewnętrznych

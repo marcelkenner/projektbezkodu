@@ -1,10 +1,10 @@
 ---
-title: "Kapwing Vs Veed"
-slug: "kapwing-vs-veed"
-path: "/porownania/kapwing-vs-veed/"
+title: Kapwing Vs Veed
+slug: kapwing-vs-veed
+path: /porownania/kapwing-vs-veed/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - media

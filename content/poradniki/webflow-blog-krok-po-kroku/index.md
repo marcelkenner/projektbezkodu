@@ -1,22 +1,24 @@
 ---
-title: "Webflow – blog krok po kroku"
-slug: "webflow-blog-krok-po-kroku"
-path: "/poradniki/webflow-blog-krok-po-kroku/"
+title: Webflow – blog krok po kroku
+slug: webflow-blog-krok-po-kroku
+path: /poradniki/webflow-blog-krok-po-kroku/
 draft: false
-template: "tutorial"
+template: tutorial
 hero:
-  heading: "Webflow – blog krok po kroku"
-  subheading: "Jak przygotować struktury CMS, layouty i publikację w jeden weekend."
+  heading: Webflow – blog krok po kroku
+  subheading: Jak przygotować struktury CMS, layouty i publikację w jeden weekend.
 seo:
-  title: "Webflow – blog krok po kroku"
-  description: "Instrukcja budowy bloga w Webflow: CMS, layouty, SEO i przygotowanie do publikacji."
+  title: Webflow – blog krok po kroku
+  description: >-
+    Instrukcja budowy bloga w Webflow: CMS, layouty, SEO i przygotowanie do
+    publikacji.
   keywords:
     - webflow
     - blog
     - tutorial
 meta:
-  difficulty: "Średni"
-  duration: "2 dni"
+  difficulty: Średni
+  duration: 2 dni
   tools:
     - webflow
 taxonomy:

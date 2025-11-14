@@ -33,10 +33,7 @@ export default function LegalLayout({ children }: LegalLayoutProps) {
           links={navigationLinks}
           search={searchConfig}
         />
-        <main
-          id={skipLinkTarget.replace("#", "")}
-          className="legal-shell"
-        >
+        <main id={skipLinkTarget.replace("#", "")} className="legal-shell">
           {children}
         </main>
         <Footer />

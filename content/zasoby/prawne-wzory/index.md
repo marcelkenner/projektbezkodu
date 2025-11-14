@@ -1,27 +1,31 @@
 ---
-title: "Pakiet wzorów dokumentów dla projektów no-code"
-slug: "prawne-wzory"
-path: "/zasoby/prawne-wzory/"
+title: Pakiet wzorów dokumentów dla projektów no-code
+slug: prawne-wzory
+path: /zasoby/prawne-wzory/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Wzory dokumentów dla zespołów no-code"
-  subheading: "Umowy, regulaminy i polityki gotowe do adaptacji dla projektów Webflow i Framer."
+  heading: Wzory dokumentów dla zespołów no-code
+  subheading: >-
+    Umowy, regulaminy i polityki gotowe do adaptacji dla projektów Webflow i
+    Framer.
 seo:
-  title: "Wzory dokumentów – umowy i polityki dla projektów no-code"
-  description: "Pobierz pakiet edytowalnych wzorów: umowa na wykonanie strony, polityka prywatności, zgody marketingowe i klauzule RODO."
+  title: Wzory dokumentów – umowy i polityki dla projektów no-code
+  description: >-
+    Pobierz pakiet edytowalnych wzorów: umowa na wykonanie strony, polityka
+    prywatności, zgody marketingowe i klauzule RODO.
 meta:
-  format: "Dokumenty (DOCX & Google Docs)"
-  duration: "15 min konfiguracji"
+  format: Dokumenty (DOCX & Google Docs)
+  duration: 15 min konfiguracji
   topics:
     - prawne
     - rodo
     - onboarding-klienta
-  license: "CC BY-SA 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-wzory-dokumentow.zip"
-  fileSize: "2.8 MB"
-  checksum: "b894bc2f1d0d1314a6d26f3117f5f58d1f6db5cd5735f6b1c3f0bef9a713d28b"
-  detailsHref: "/zasoby/prawne-wzory/"
+  license: CC BY-SA 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-wzory-dokumentow.zip
+  fileSize: 2.8 MB
+  checksum: b894bc2f1d0d1314a6d26f3117f5f58d1f6db5cd5735f6b1c3f0bef9a713d28b
+  detailsHref: /zasoby/prawne-wzory/
 ---
 
 ## Co zawiera pakiet

@@ -1,11 +1,13 @@
 ---
-title: "Antywzorce wydajności"
-slug: "antywzorce"
-path: "/wydajnosc/antywzorce/"
-type: "guide"
-tags: ["evergreen", "wydajnosc"]
+title: Antywzorce wydajności
+slug: antywzorce
+path: /wydajnosc/antywzorce/
+type: guide
+tags:
+  - evergreen
+  - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Antywzorce wydajności

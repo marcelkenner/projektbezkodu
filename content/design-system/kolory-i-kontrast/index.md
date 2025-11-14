@@ -1,11 +1,15 @@
 ---
-title: "Kolory i kontrast: palety, tryb ciemny i dostępność"
-slug: "kolory-i-kontrast"
-path: "/design-system/kolory-i-kontrast/"
-type: "guide"
-tags: ["evergreen", "design-system", "kolory", "accessibility"]
+title: 'Kolory i kontrast: palety, tryb ciemny i dostępność'
+slug: kolory-i-kontrast
+path: /design-system/kolory-i-kontrast/
+type: guide
+tags:
+  - evergreen
+  - design-system
+  - kolory
+  - accessibility
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kolory i kontrast: palety, tryb ciemny i dostępność

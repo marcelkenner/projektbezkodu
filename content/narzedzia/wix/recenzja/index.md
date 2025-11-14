@@ -1,9 +1,9 @@
 ---
-title: "Wix Recenzja"
-slug: "recenzja"
-path: "/narzedzia/wix/recenzja/"
+title: Wix Recenzja
+slug: recenzja
+path: /narzedzia/wix/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Wix Recenzja

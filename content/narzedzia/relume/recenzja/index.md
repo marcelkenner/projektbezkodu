@@ -1,9 +1,9 @@
 ---
-title: "Relume Recenzja"
-slug: "recenzja"
-path: "/narzedzia/relume/recenzja/"
+title: Relume Recenzja
+slug: recenzja
+path: /narzedzia/relume/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Relume Recenzja

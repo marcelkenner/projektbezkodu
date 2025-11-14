@@ -1,9 +1,9 @@
 ---
-title: "Shutterstock Recenzja"
-slug: "recenzja"
-path: "/narzedzia/shutterstock/recenzja/"
+title: Shutterstock Recenzja
+slug: recenzja
+path: /narzedzia/shutterstock/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Shutterstock Recenzja

@@ -1,9 +1,9 @@
 ---
-title: "Framer Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/framer/alternatywy/"
+title: Framer Alternatywy
+slug: alternatywy
+path: /narzedzia/framer/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Framer Alternatywy

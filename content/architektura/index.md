@@ -1,11 +1,13 @@
 ---
-title: "Architektura informacji i nawigacja"
-slug: "a"
-path: "/architektura/"
-type: "hub"
-tags: ["evergreen", "ia"]
+title: Architektura informacji i nawigacja
+slug: a
+path: /architektura/
+type: hub
+tags:
+  - evergreen
+  - ia
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Architektura informacji i nawigacja

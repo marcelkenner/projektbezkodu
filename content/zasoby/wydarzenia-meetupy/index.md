@@ -1,26 +1,30 @@
 ---
-title: "Kalendarz wydarzeń i meetupów no-code"
-slug: "wydarzenia-meetupy"
-path: "/zasoby/wydarzenia-meetupy/"
+title: Kalendarz wydarzeń i meetupów no-code
+slug: wydarzenia-meetupy
+path: /zasoby/wydarzenia-meetupy/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Wydarzenia i meetupy ProjektBezKodu"
-  subheading: "Lista polskich i europejskich wydarzeń dla twórców no-code z możliwością eksportu do kalendarza."
+  heading: Wydarzenia i meetupy ProjektBezKodu
+  subheading: >-
+    Lista polskich i europejskich wydarzeń dla twórców no-code z możliwością
+    eksportu do kalendarza.
 seo:
-  title: "Kalendarz wydarzeń no-code – meetupy, webinary, konferencje"
-  description: "Zsynchronizuj kalendarz z meetupami Webflow, Framer, Make i automatyzacją. Otrzymuj powiadomienia o nowych terminach."
+  title: Kalendarz wydarzeń no-code – meetupy, webinary, konferencje
+  description: >-
+    Zsynchronizuj kalendarz z meetupami Webflow, Framer, Make i automatyzacją.
+    Otrzymuj powiadomienia o nowych terminach.
 meta:
-  format: "ICS + Notion Database"
-  duration: "2 min konfiguracji"
+  format: ICS + Notion Database
+  duration: 2 min konfiguracji
   topics:
     - społeczność
     - wydarzenia
     - edukacja
-  license: "CC BY 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-events.ics"
-  fileSize: "32 KB"
-  checksum: "5a7a1e4b3d1647e9d8351a12c84cb7a8f74df46b8de4a3bd5348f7953f1d1ed0"
+  license: CC BY 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-events.ics
+  fileSize: 32 KB
+  checksum: 5a7a1e4b3d1647e9d8351a12c84cb7a8f74df46b8de4a3bd5348f7953f1d1ed0
 ---
 
 ## Co zawiera kalendarz

@@ -1,9 +1,9 @@
 ---
-title: "Freepik Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/freepik/alternatywy/"
+title: Freepik Alternatywy
+slug: alternatywy
+path: /narzedzia/freepik/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Freepik Alternatywy

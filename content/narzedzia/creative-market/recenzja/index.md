@@ -1,9 +1,9 @@
 ---
-title: "Creative Market Recenzja"
-slug: "recenzja"
-path: "/narzedzia/creative-market/recenzja/"
+title: Creative Market Recenzja
+slug: recenzja
+path: /narzedzia/creative-market/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Creative Market Recenzja

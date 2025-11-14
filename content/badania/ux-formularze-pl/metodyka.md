@@ -1,9 +1,9 @@
 ---
-title: "Metodyka: Ux Formularze Pl"
-path: "/badania/ux-formularze-pl/metodyka/"
-type: "research-methods"
+title: 'Metodyka: Ux Formularze Pl'
+path: /badania/ux-formularze-pl/metodyka/
+type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 ## Cel

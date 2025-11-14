@@ -1,11 +1,14 @@
 ---
-title: "Szablony OG-image – paczka wzorów pod blog, oferty i kampanie"
-slug: "og-image-templates"
-path: "/content/og-image-templates/"
-type: "template"
-tags: ["evergreen", "content", "design"]
+title: Szablony OG-image – paczka wzorów pod blog, oferty i kampanie
+slug: og-image-templates
+path: /content/og-image-templates/
+type: template
+tags:
+  - evergreen
+  - content
+  - design
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Szablony OG-image – paczka wzorów pod blog, oferty i kampanie

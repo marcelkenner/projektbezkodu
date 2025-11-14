@@ -1,9 +1,9 @@
 ---
-title: "Envato Elements Cennik"
-slug: "cennik"
-path: "/narzedzia/envato-elements/cennik/"
+title: Envato Elements Cennik
+slug: cennik
+path: /narzedzia/envato-elements/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Envato Elements Cennik

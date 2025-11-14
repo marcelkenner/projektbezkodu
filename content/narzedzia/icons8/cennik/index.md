@@ -1,9 +1,9 @@
 ---
-title: "Icons8 Cennik"
-slug: "cennik"
-path: "/narzedzia/icons8/cennik/"
+title: Icons8 Cennik
+slug: cennik
+path: /narzedzia/icons8/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Icons8 Cennik

@@ -1,11 +1,13 @@
 ---
-title: "Sekcje: Stopka"
-slug: "stopka"
-path: "/biblioteka/sekcje/stopka/"
-type: "template"
-tags: ["evergreen", "biblioteka"]
+title: 'Sekcje: Stopka'
+slug: stopka
+path: /biblioteka/sekcje/stopka/
+type: template
+tags:
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: Stopka

@@ -1,11 +1,13 @@
 ---
-title: "Warsztat ze stakeholderami: agenda"
-slug: "warsztat-stakeholderow"
-path: "/architektura/warsztat-stakeholderow/"
-type: "guide"
-tags: ["evergreen", "architektura"]
+title: 'Warsztat ze stakeholderami: agenda'
+slug: warsztat-stakeholderow
+path: /architektura/warsztat-stakeholderow/
+type: guide
+tags:
+  - evergreen
+  - architektura
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Warsztat ze stakeholderami: agenda

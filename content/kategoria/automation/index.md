@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Automation"
-slug: "automation"
-path: "/kategoria/automation/"
+title: 'Kategoria: Automation'
+slug: automation
+path: /kategoria/automation/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Automation

@@ -1,9 +1,9 @@
 ---
-title: "Kalkulator Wyceny"
-slug: "kalkulator-wyceny"
-path: "/do-pobrania/kalkulator-wyceny/"
+title: Kalkulator Wyceny
+slug: kalkulator-wyceny
+path: /do-pobrania/kalkulator-wyceny/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kalkulator Wyceny

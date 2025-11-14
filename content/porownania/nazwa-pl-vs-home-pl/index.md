@@ -1,10 +1,10 @@
 ---
-title: "Nazwa Pl Vs Home Pl"
-slug: "nazwa-pl-vs-home-pl"
-path: "/porownania/nazwa-pl-vs-home-pl/"
+title: Nazwa Pl Vs Home Pl
+slug: nazwa-pl-vs-home-pl
+path: /porownania/nazwa-pl-vs-home-pl/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - hosting

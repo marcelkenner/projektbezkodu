@@ -1,9 +1,9 @@
 ---
-title: "Metodyka: Stan Nocode W Polsce"
-path: "/badania/stan-nocode-w-polsce/metodyka/"
-type: "research-methods"
+title: 'Metodyka: Stan Nocode W Polsce'
+path: /badania/stan-nocode-w-polsce/metodyka/
+type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 ## Cel

@@ -1,11 +1,13 @@
 ---
-title: "Formularze i walidacja"
-slug: "formularze"
-path: "/design-system/formularze/"
-type: "template"
-tags: ["evergreen", "design-system"]
+title: Formularze i walidacja
+slug: formularze
+path: /design-system/formularze/
+type: template
+tags:
+  - evergreen
+  - design-system
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Formularze i walidacja

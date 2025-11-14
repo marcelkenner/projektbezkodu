@@ -1,10 +1,10 @@
 ---
-title: "Typeform Vs Tally Vs Jotform"
-slug: "typeform-vs-tally-vs-jotform"
-path: "/porownania/typeform-vs-tally-vs-jotform/"
+title: Typeform Vs Tally Vs Jotform
+slug: typeform-vs-tally-vs-jotform
+path: /porownania/typeform-vs-tally-vs-jotform/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - forms

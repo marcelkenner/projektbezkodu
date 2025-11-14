@@ -1,11 +1,15 @@
 ---
-title: "Playbook: strona internetowa dla biura rachunkowego"
-slug: "ksiegowosc"
-path: "/playbooki/ksiegowosc/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "księgowość"]
+title: 'Playbook: strona internetowa dla biura rachunkowego'
+slug: ksiegowosc
+path: /playbooki/ksiegowosc/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - księgowość
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona internetowa dla biura rachunkowego

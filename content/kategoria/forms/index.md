@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Forms"
-slug: "forms"
-path: "/kategoria/forms/"
+title: 'Kategoria: Forms'
+slug: forms
+path: /kategoria/forms/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Forms

@@ -1,16 +1,20 @@
 ---
-title: "Zapier – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/zapier/alternatywy/"
+title: Zapier – alternatywy
+slug: alternatywy
+path: /narzedzia/zapier/alternatywy/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Co zamiast Zapiera, gdy ceny lub limity przestają się spinać"
-  subheading: "Zestawiam narzędzia, które lepiej radzą sobie z dużym ruchem, złożonymi flow lub niższym budżetem."
+  heading: Co zamiast Zapiera, gdy ceny lub limity przestają się spinać
+  subheading: >-
+    Zestawiam narzędzia, które lepiej radzą sobie z dużym ruchem, złożonymi flow
+    lub niższym budżetem.
 seo:
-  title: "Zapier – alternatywy no-code do integracji"
-  description: "Porównanie kluczowych alternatyw dla Zapiera: różnice w cenie, funkcjach, modelu rozliczeń i poziomie trudności."
+  title: Zapier – alternatywy no-code do integracji
+  description: >-
+    Porównanie kluczowych alternatyw dla Zapiera: różnice w cenie, funkcjach,
+    modelu rozliczeń i poziomie trudności.
 ---
 
 Tu będzie treść artykułu.

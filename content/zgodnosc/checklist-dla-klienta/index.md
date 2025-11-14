@@ -1,11 +1,15 @@
 ---
-title: "Checklist dla klienta – obowiązki właściciela strony"
-slug: "checklist-dla-klienta"
-path: "/zgodnosc/checklist-dla-klienta/"
-type: "checklist"
-tags: ["evergreen", "zgodnosc", "rodo", "dla-klienta"]
+title: Checklist dla klienta – obowiązki właściciela strony
+slug: checklist-dla-klienta
+path: /zgodnosc/checklist-dla-klienta/
+type: checklist
+tags:
+  - evergreen
+  - zgodnosc
+  - rodo
+  - dla-klienta
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Checklist dla klienta: co MUSI ogarnąć właściciel strony

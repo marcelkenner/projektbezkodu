@@ -1,11 +1,13 @@
 ---
-title: "Badania i raporty (PL)"
-slug: "a"
-path: "/badania/"
-type: "hub"
-tags: ["evergreen", "research"]
+title: Badania i raporty (PL)
+slug: a
+path: /badania/
+type: hub
+tags:
+  - evergreen
+  - research
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Badania i raporty (PL)

@@ -1,11 +1,13 @@
 ---
-title: "Struktura wizytówki / kontaktu"
-slug: "struktura-wizytowki"
-path: "/lokalne-seo/struktura-wizytowki/"
-type: "guide"
-tags: ["evergreen", "lokalne-seo"]
+title: Struktura wizytówki / kontaktu
+slug: struktura-wizytowki
+path: /lokalne-seo/struktura-wizytowki/
+type: guide
+tags:
+  - evergreen
+  - lokalne-seo
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Struktura wizytówki / kontaktu

@@ -1,11 +1,13 @@
 ---
-title: "Sekcje: Formularze"
-slug: "formularze"
-path: "/biblioteka/sekcje/formularze/"
-type: "template"
-tags: ["evergreen", "biblioteka"]
+title: 'Sekcje: Formularze'
+slug: formularze
+path: /biblioteka/sekcje/formularze/
+type: template
+tags:
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: Formularze

@@ -1,9 +1,9 @@
 ---
-title: "Kapwing Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/kapwing/alternatywy/"
+title: Kapwing Alternatywy
+slug: alternatywy
+path: /narzedzia/kapwing/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kapwing Alternatywy

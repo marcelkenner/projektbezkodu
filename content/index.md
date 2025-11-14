@@ -1,11 +1,13 @@
 ---
-title: "Strategia treści i dystrybucja"
-slug: "t"
-path: "/content/"
-type: "hub"
-tags: ["evergreen", "content"]
+title: Strategia treści i dystrybucja
+slug: t
+path: /content/
+type: hub
+tags:
+  - evergreen
+  - content
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Strategia treści i dystrybucja

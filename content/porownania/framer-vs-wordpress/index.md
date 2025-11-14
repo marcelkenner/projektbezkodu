@@ -1,15 +1,17 @@
 ---
-title: "Framer vs WordPress"
-slug: "framer-vs-wordpress"
-path: "/porownania/framer-vs-wordpress/"
+title: Framer vs WordPress
+slug: framer-vs-wordpress
+path: /porownania/framer-vs-wordpress/
 draft: false
-template: "comparison"
+template: comparison
 hero:
-  heading: "Framer vs WordPress"
-  subheading: "Lekki edytor do landingów kontra klasyczny CMS – kiedy postawić na Framera?"
+  heading: Framer vs WordPress
+  subheading: Lekki edytor do landingów kontra klasyczny CMS – kiedy postawić na Framera?
 seo:
-  title: "Framer vs WordPress"
-  description: "Zestawienie Framera i WordPressa: szybkość, edycja, elastyczność oraz koszty."
+  title: Framer vs WordPress
+  description: >-
+    Zestawienie Framera i WordPressa: szybkość, edycja, elastyczność oraz
+    koszty.
   keywords:
     - framer
     - wordpress

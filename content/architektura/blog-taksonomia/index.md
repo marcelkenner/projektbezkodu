@@ -1,11 +1,13 @@
 ---
-title: "Taksonomia bloga: kategorie i tagi"
-slug: "blog-taksonomia"
-path: "/architektura/blog-taksonomia/"
-type: "guide"
-tags: ["evergreen", "architektura"]
+title: 'Taksonomia bloga: kategorie i tagi'
+slug: blog-taksonomia
+path: /architektura/blog-taksonomia/
+type: guide
+tags:
+  - evergreen
+  - architektura
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Taksonomia bloga: kategorie i tagi

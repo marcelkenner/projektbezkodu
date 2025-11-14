@@ -1,16 +1,20 @@
 ---
-title: "Webflow – integracje i automatyzacje"
-slug: "integracje"
-path: "/narzedzia/webflow/integracje/"
+title: Webflow – integracje i automatyzacje
+slug: integracje
+path: /narzedzia/webflow/integracje/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Integracje Webflow – jak pożenić stronę z resztą Twoich narzędzi?"
-  subheading: "CRM, newsletter, formularze, automatyzacje – pokazuję, jak spiąć Webflow z resztą ekosystemu bez pisania backendu."
+  heading: Integracje Webflow – jak pożenić stronę z resztą Twoich narzędzi?
+  subheading: >-
+    CRM, newsletter, formularze, automatyzacje – pokazuję, jak spiąć Webflow z
+    resztą ekosystemu bez pisania backendu.
 seo:
-  title: "Webflow – integracje z CRM, newsletterem i automatyzacjami"
-  description: "Zobacz, jak podłączyć do Webflow narzędzia typu HubSpot, MailerLite, Zapier czy Make i zautomatyzować powtarzalne zadania."
+  title: Webflow – integracje z CRM, newsletterem i automatyzacjami
+  description: >-
+    Zobacz, jak podłączyć do Webflow narzędzia typu HubSpot, MailerLite, Zapier
+    czy Make i zautomatyzować powtarzalne zadania.
 ---
 
 # Integracje Webflow – jak spiąć stronę z resztą Twoich narzędzi?

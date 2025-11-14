@@ -1,11 +1,16 @@
 ---
-title: "Karty i listy – szablon dla treści, produktów i widoków listowych"
-slug: "karty-i-listy"
-path: "/design-system/karty-i-listy/"
-type: "template"
-tags: ["evergreen", "design-system", "cards", "lists", "template"]
+title: Karty i listy – szablon dla treści, produktów i widoków listowych
+slug: karty-i-listy
+path: /design-system/karty-i-listy/
+type: template
+tags:
+  - evergreen
+  - design-system
+  - cards
+  - lists
+  - template
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Karty i listy – szablon dla treści, produktów i widoków listowych

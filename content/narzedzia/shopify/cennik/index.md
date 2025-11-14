@@ -1,9 +1,9 @@
 ---
-title: "Shopify Cennik"
-slug: "cennik"
-path: "/narzedzia/shopify/cennik/"
+title: Shopify Cennik
+slug: cennik
+path: /narzedzia/shopify/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Shopify Cennik

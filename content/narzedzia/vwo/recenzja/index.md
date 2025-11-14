@@ -1,9 +1,9 @@
 ---
-title: "Vwo Recenzja"
-slug: "recenzja"
-path: "/narzedzia/vwo/recenzja/"
+title: Vwo Recenzja
+slug: recenzja
+path: /narzedzia/vwo/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Vwo Recenzja

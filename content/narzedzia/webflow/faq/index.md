@@ -1,16 +1,20 @@
 ---
-title: "Webflow – FAQ po polsku"
-slug: "faq"
-path: "/narzedzia/webflow/faq/"
+title: Webflow – FAQ po polsku
+slug: faq
+path: /narzedzia/webflow/faq/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Webflow – najczęstsze pytania, konkretne odpowiedzi"
-  subheading: "Migracje, hosting, bezpieczeństwo, edycja treści – zbieram w jednym miejscu to, o co wszyscy pytają przed startem."
+  heading: Webflow – najczęstsze pytania, konkretne odpowiedzi
+  subheading: >-
+    Migracje, hosting, bezpieczeństwo, edycja treści – zbieram w jednym miejscu
+    to, o co wszyscy pytają przed startem.
 seo:
-  title: "Webflow – FAQ: odpowiedzi na najczęstsze pytania"
-  description: "Sprawdź odpowiedzi na praktyczne pytania o Webflow: jak działa CMS, gdzie trzymasz domenę, co z SEO i ile to realnie kosztuje w czasie."
+  title: 'Webflow – FAQ: odpowiedzi na najczęstsze pytania'
+  description: >-
+    Sprawdź odpowiedzi na praktyczne pytania o Webflow: jak działa CMS, gdzie
+    trzymasz domenę, co z SEO i ile to realnie kosztuje w czasie.
 ---
 
 # Webflow – FAQ po polsku

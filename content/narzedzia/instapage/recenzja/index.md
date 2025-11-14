@@ -1,16 +1,20 @@
 ---
-title: "Instapage – recenzja"
-slug: "recenzja"
-path: "/narzedzia/instapage/recenzja/"
+title: Instapage – recenzja
+slug: recenzja
+path: /narzedzia/instapage/recenzja/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Instapage – recenzja z naciskiem na efekty kampanii"
-  subheading: "Tworzę landing page'e pod większe budżety, optymalizuję ścieżkę użytkownika i mierzę każdy klik."
+  heading: Instapage – recenzja z naciskiem na efekty kampanii
+  subheading: >-
+    Tworzę landing page'e pod większe budżety, optymalizuję ścieżkę użytkownika
+    i mierzę każdy klik.
 seo:
-  title: "Instapage – recenzja pod kątem performance'u"
-  description: "Oceniam Instapage z perspektywy wyników: szybkość działania, testy, analityka i komfort pracy przy większych projektach."
+  title: Instapage – recenzja pod kątem performance'u
+  description: >-
+    Oceniam Instapage z perspektywy wyników: szybkość działania, testy,
+    analityka i komfort pracy przy większych projektach.
 ---
 
 # Instapage – recenzja

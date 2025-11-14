@@ -1,9 +1,9 @@
 ---
-title: "Metodyka: Copy Strony Glowne"
-path: "/badania/copy-strony-glowne/metodyka/"
-type: "research-methods"
+title: 'Metodyka: Copy Strony Glowne'
+path: /badania/copy-strony-glowne/metodyka/
+type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 ## Cel

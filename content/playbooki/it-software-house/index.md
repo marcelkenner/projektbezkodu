@@ -1,11 +1,16 @@
 ---
-title: "Playbook: strona internetowa dla software house / IT"
-slug: "it-software-house"
-path: "/playbooki/it-software-house/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "it", "software-house"]
+title: 'Playbook: strona internetowa dla software house / IT'
+slug: it-software-house
+path: /playbooki/it-software-house/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - it
+  - software-house
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona internetowa dla software house / IT

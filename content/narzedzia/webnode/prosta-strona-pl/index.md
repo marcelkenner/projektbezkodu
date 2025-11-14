@@ -1,9 +1,9 @@
 ---
-title: "Webnode Prosta Strona Pl"
-slug: "prosta-strona-pl"
-path: "/narzedzia/webnode/prosta-strona-pl/"
+title: Webnode Prosta Strona Pl
+slug: prosta-strona-pl
+path: /narzedzia/webnode/prosta-strona-pl/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Webnode Prosta Strona Pl

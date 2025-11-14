@@ -1,11 +1,15 @@
 ---
-title: "Design tokens starter – tabela tokenów typografii, kolorów i spacingu"
-slug: "tokens-starter"
-path: "/design-system/tokens-starter/"
-type: "template"
-tags: ["evergreen", "design-system", "tokens", "template"]
+title: Design tokens starter – tabela tokenów typografii, kolorów i spacingu
+slug: tokens-starter
+path: /design-system/tokens-starter/
+type: template
+tags:
+  - evergreen
+  - design-system
+  - tokens
+  - template
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Design tokens starter – tabela tokenów typografii, kolorów i spacingu

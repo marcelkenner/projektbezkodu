@@ -1,48 +1,58 @@
 ---
-title: "Skalowanie leadów B2B na Webflow"
-slug: "webflow-b2b"
-path: "/przypadki-uzycia/webflow-b2b/"
+title: Skalowanie leadów B2B na Webflow
+slug: webflow-b2b
+path: /przypadki-uzycia/webflow-b2b/
 draft: false
-template: "case-study"
-date: "2024-08-12"
+template: case-study
+date: '2024-08-12'
 hero:
-  heading: "Software B2B – 3× więcej SQL po migracji na Webflow"
-  subheading: "Przebudowaliśmy blog i strony funkcji, wdrożyliśmy scoring leadów oraz marketing automation."
+  heading: Software B2B – 3× więcej SQL po migracji na Webflow
+  subheading: >-
+    Przebudowaliśmy blog i strony funkcji, wdrożyliśmy scoring leadów oraz
+    marketing automation.
 seo:
-  title: "Case study B2B: migracja na Webflow i wzrost SQL x3"
-  description: "Jak SaaS B2B zwiększył liczbę zakwalifikowanych leadów po re-platformingu na Webflow i wdrożeniu HubSpot."
+  title: 'Case study B2B: migracja na Webflow i wzrost SQL x3'
+  description: >-
+    Jak SaaS B2B zwiększył liczbę zakwalifikowanych leadów po re-platformingu na
+    Webflow i wdrożeniu HubSpot.
 meta:
-  industry: "SaaS B2B"
-  period: "Q3 2024"
+  industry: SaaS B2B
+  period: Q3 2024
   stack:
     - Webflow
     - HubSpot
     - Segment
     - Make
   summaryBullets:
-    - "Modularny system stron funkcji i rozwiązań w Webflow."
-    - "Automatyczne nurtury leadów w HubSpot + personalizacja CTA."
-    - "Integracja danych produktowych (events) z marketing automation."
+    - Modularny system stron funkcji i rozwiązań w Webflow.
+    - Automatyczne nurtury leadów w HubSpot + personalizacja CTA.
+    - Integracja danych produktowych (events) z marketing automation.
   metrics:
-    - label: "SQL (Sales Qualified Leads)"
-      value: "×3"
-      description: "Po 90 dniach od migracji."
-    - label: "Czas wdrożenia landingów"
-      value: "−70%"
-      description: "Marketing publikuje nowe strony w 1 dzień."
-    - label: "Core Web Vitals"
-      value: "99/100"
-      description: "Po optymalizacji grafik i lazy loadingu."
+    - label: SQL (Sales Qualified Leads)
+      value: ×3
+      description: Po 90 dniach od migracji.
+    - label: Czas wdrożenia landingów
+      value: −70%
+      description: Marketing publikuje nowe strony w 1 dzień.
+    - label: Core Web Vitals
+      value: 99/100
+      description: Po optymalizacji grafik i lazy loadingu.
   lessons:
-    - "Personalizacja CTA według segmentów (eventy z Segment) jest kluczowa dla B2B."
-    - "Warto mieć dedykowany komponent 'Proof bar' – referencje i logotypy w jednym module."
-    - "Marketing potrzebuje guidelines: naming klas, zagnieżdżanie kolekcji, workflow draft → review."
+    - >-
+      Personalizacja CTA według segmentów (eventy z Segment) jest kluczowa dla
+      B2B.
+    - >-
+      Warto mieć dedykowany komponent 'Proof bar' – referencje i logotypy w
+      jednym module.
+    - >-
+      Marketing potrzebuje guidelines: naming klas, zagnieżdżanie kolekcji,
+      workflow draft → review.
   primaryCta:
-    label: "Sprawdź checklistę SEO"
-    href: "/poradniki/webflow-blog-krok-po-kroku/"
+    label: Sprawdź checklistę SEO
+    href: /poradniki/webflow-blog-krok-po-kroku/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

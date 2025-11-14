@@ -1,19 +1,23 @@
 ---
-title: "Sklep z kursami no-code – marketplace w 8 tygodni"
-slug: "sklep-kursy-nocode"
-path: "/przypadki-uzycia/sklep-kursy-nocode/"
+title: Sklep z kursami no-code – marketplace w 8 tygodni
+slug: sklep-kursy-nocode
+path: /przypadki-uzycia/sklep-kursy-nocode/
 draft: false
-template: "case-study"
-date: "2024-11-04"
+template: case-study
+date: '2024-11-04'
 hero:
-  heading: "Marketplace kursów no-code na Webflow + Lemon Squeezy"
-  subheading: "Stworzyliśmy sklep wieloautorski z płatnościami w PLN i automatyzacją rozliczeń."
+  heading: Marketplace kursów no-code na Webflow + Lemon Squeezy
+  subheading: >-
+    Stworzyliśmy sklep wieloautorski z płatnościami w PLN i automatyzacją
+    rozliczeń.
 seo:
-  title: "Case study: marketplace kursów no-code"
-  description: "Jak uruchomiliśmy marketplace kursów no-code na Webflow, integrując płatności i rozliczenia z twórcami."
+  title: 'Case study: marketplace kursów no-code'
+  description: >-
+    Jak uruchomiliśmy marketplace kursów no-code na Webflow, integrując
+    płatności i rozliczenia z twórcami.
 meta:
-  industry: "E-learning marketplace"
-  period: "Q4 2024"
+  industry: E-learning marketplace
+  period: Q4 2024
   stack:
     - Webflow
     - Lemon Squeezy
@@ -21,29 +25,35 @@ meta:
     - Make
     - Slack
   summaryBullets:
-    - "CMS Webflow obsługuje katalog kursów, autorów i recenzje."
-    - "Płatności Lemon Squeezy w PLN + automatyczne rozliczenia prowizji."
-    - "Panel autorów w Airtable – monitorowanie sprzedaży i wypłat."
+    - CMS Webflow obsługuje katalog kursów, autorów i recenzje.
+    - Płatności Lemon Squeezy w PLN + automatyczne rozliczenia prowizji.
+    - Panel autorów w Airtable – monitorowanie sprzedaży i wypłat.
   metrics:
-    - label: "Czas wdrożenia"
-      value: "8 tyg."
-      description: "Od discovery do pierwszych sprzedaży."
-    - label: "Wartość koszyka"
-      value: "+28%"
-      description: "Dzięki bundle i cross-sellom."
-    - label: "Czas rozliczenia autorów"
-      value: "−90%"
-      description: "Automatyczne raporty i przelewy."
+    - label: Czas wdrożenia
+      value: 8 tyg.
+      description: Od discovery do pierwszych sprzedaży.
+    - label: Wartość koszyka
+      value: +28%
+      description: Dzięki bundle i cross-sellom.
+    - label: Czas rozliczenia autorów
+      value: −90%
+      description: Automatyczne raporty i przelewy.
   lessons:
-    - "W marketplace’ach kluczowy jest workflow on-boardingu autorów – checklisty i automatyzacje robią różnicę."
-    - "Cross-sell w koszyku (bundle) musi mieć jasne reguły – inaczej rośnie support."
-    - "Raporty sprzedażowe najlepiej wysyłać tygodniowo – autorzy wiedzą, co promować."
+    - >-
+      W marketplace’ach kluczowy jest workflow on-boardingu autorów – checklisty
+      i automatyzacje robią różnicę.
+    - >-
+      Cross-sell w koszyku (bundle) musi mieć jasne reguły – inaczej rośnie
+      support.
+    - >-
+      Raporty sprzedażowe najlepiej wysyłać tygodniowo – autorzy wiedzą, co
+      promować.
   primaryCta:
-    label: "Zobacz katalog zasobów"
-    href: "/zasoby/"
+    label: Zobacz katalog zasobów
+    href: /zasoby/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

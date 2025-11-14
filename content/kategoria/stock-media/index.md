@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Stock Media"
-slug: "stock-media"
-path: "/kategoria/stock-media/"
+title: 'Kategoria: Stock Media'
+slug: stock-media
+path: /kategoria/stock-media/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Stock Media

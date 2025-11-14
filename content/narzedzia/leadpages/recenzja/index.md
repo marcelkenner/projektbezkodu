@@ -1,16 +1,20 @@
 ---
-title: "Leadpages – recenzja"
-slug: "recenzja"
-path: "/narzedzia/leadpages/recenzja/"
+title: Leadpages – recenzja
+slug: recenzja
+path: /narzedzia/leadpages/recenzja/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Leadpages – recenzja skupiona na tym, co zyskuję"
-  subheading: "Buduję strony pod leady, wpinam maile i płatności, nie dotykając kodu ani skomplikowanych motywów."
+  heading: Leadpages – recenzja skupiona na tym, co zyskuję
+  subheading: >-
+    Buduję strony pod leady, wpinam maile i płatności, nie dotykając kodu ani
+    skomplikowanych motywów.
 seo:
-  title: "Leadpages – recenzja oczami twórcy landing page'y"
-  description: "Sprawdzam, kiedy Leadpages jest wystarczający, a kiedy zaczyna brakować funkcji: szablony, integracje, konwersje i ograniczenia."
+  title: Leadpages – recenzja oczami twórcy landing page'y
+  description: >-
+    Sprawdzam, kiedy Leadpages jest wystarczający, a kiedy zaczyna brakować
+    funkcji: szablony, integracje, konwersje i ograniczenia.
 ---
 
 # Leadpages – recenzja

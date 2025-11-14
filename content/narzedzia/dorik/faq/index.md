@@ -1,9 +1,9 @@
 ---
-title: "Dorik Faq"
-slug: "faq"
-path: "/narzedzia/dorik/faq/"
+title: Dorik Faq
+slug: faq
+path: /narzedzia/dorik/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Dorik Faq

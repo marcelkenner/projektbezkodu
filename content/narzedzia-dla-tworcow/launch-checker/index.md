@@ -1,11 +1,13 @@
 ---
-title: "Launch checker (interaktywny)"
-slug: "launch-checker"
-path: "/narzedzia-dla-tworcow/launch-checker/"
-type: "checklist"
-tags: ["evergreen", "narzedzia-dla-tworcow"]
+title: Launch checker (interaktywny)
+slug: launch-checker
+path: /narzedzia-dla-tworcow/launch-checker/
+type: checklist
+tags:
+  - evergreen
+  - narzedzia-dla-tworcow
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Launch checker (interaktywny)

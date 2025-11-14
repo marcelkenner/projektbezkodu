@@ -1,11 +1,15 @@
 ---
-title: "Retencja i opieka – plan po wdrożeniu (retainer)"
-slug: "retencja-i-opieka"
-path: "/proces/retencja-i-opieka/"
-type: "guide"
-tags: ["evergreen", "proces", "retencja", "support"]
+title: Retencja i opieka – plan po wdrożeniu (retainer)
+slug: retencja-i-opieka
+path: /proces/retencja-i-opieka/
+type: guide
+tags:
+  - evergreen
+  - proces
+  - retencja
+  - support
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Retencja i opieka – plan po wdrożeniu (retainer)

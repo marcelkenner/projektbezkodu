@@ -1,48 +1,60 @@
 ---
-title: "Fundacja EduOtwarte – portal wolontariatu w 4 tygodnie"
-slug: "ngo"
-path: "/przypadki-uzycia/ngo/"
+title: Fundacja EduOtwarte – portal wolontariatu w 4 tygodnie
+slug: ngo
+path: /przypadki-uzycia/ngo/
 draft: false
-template: "case-study"
-date: "2024-07-02"
+template: case-study
+date: '2024-07-02'
 hero:
-  heading: "Fundacja EduOtwarte – portal wolontariatu w 4 tygodnie"
-  subheading: "Zaprojektowaliśmy portal z ofertami wolontariatu z CMS-em Webflow i automatyzacjami Airtable + Make."
+  heading: Fundacja EduOtwarte – portal wolontariatu w 4 tygodnie
+  subheading: >-
+    Zaprojektowaliśmy portal z ofertami wolontariatu z CMS-em Webflow i
+    automatyzacjami Airtable + Make.
 seo:
-  title: "Case study NGO: EduOtwarte – portal wolontariuszy no-code"
-  description: "Budowa portalu wolontariatu w Webflow, automatyzacja zgłoszeń i raportów w Airtable. 3× więcej wolontariuszy w 2 miesiące."
+  title: 'Case study NGO: EduOtwarte – portal wolontariuszy no-code'
+  description: >-
+    Budowa portalu wolontariatu w Webflow, automatyzacja zgłoszeń i raportów w
+    Airtable. 3× więcej wolontariuszy w 2 miesiące.
 meta:
-  industry: "NGO & edukacja"
-  period: "Q2 2024"
+  industry: NGO & edukacja
+  period: Q2 2024
   stack:
     - Webflow
     - Airtable
     - Make
     - MailerLite
   summaryBullets:
-    - "Zastąpiliśmy arkusze Excel portalem z filtrowaniem ofert i profilami wolontariuszy."
-    - "Automatyzacje wysyłają podsumowania do koordynatorów i kandydatów."
-    - "Fundacja otrzymała dashboard KPI bez konieczności zatrudniania analityka."
+    - >-
+      Zastąpiliśmy arkusze Excel portalem z filtrowaniem ofert i profilami
+      wolontariuszy.
+    - Automatyzacje wysyłają podsumowania do koordynatorów i kandydatów.
+    - Fundacja otrzymała dashboard KPI bez konieczności zatrudniania analityka.
   metrics:
-    - label: "Nowi wolontariusze"
-      value: "+212%"
-      description: "Porównanie rekrutacji w ciągu 60 dni przed/po uruchomieniu."
-    - label: "Czas obsługi zgłoszenia"
-      value: "−65%"
-      description: "Dzięki workflow Airtable + Make."
-    - label: "Obciążenie koordynatorów"
-      value: "−12h/tydz."
-      description: "Automatyczne raporty i przypomnienia redukują manualną pracę."
+    - label: Nowi wolontariusze
+      value: +212%
+      description: Porównanie rekrutacji w ciągu 60 dni przed/po uruchomieniu.
+    - label: Czas obsługi zgłoszenia
+      value: −65%
+      description: Dzięki workflow Airtable + Make.
+    - label: Obciążenie koordynatorów
+      value: −12h/tydz.
+      description: Automatyczne raporty i przypomnienia redukują manualną pracę.
   lessons:
-    - "Najważniejsze informacje dla kandydatów muszą być w pierwszym ekranie karty oferty."
-    - "Rozdzielenie bazy wolontariuszy od bazy ofert upraszcza RODO (osobne dostępny i role)."
-    - "Dwustronna komunikacja SMS/e-mail zwiększa frekwencję na wydarzeniach o 18 p.p."
+    - >-
+      Najważniejsze informacje dla kandydatów muszą być w pierwszym ekranie
+      karty oferty.
+    - >-
+      Rozdzielenie bazy wolontariuszy od bazy ofert upraszcza RODO (osobne
+      dostępny i role).
+    - >-
+      Dwustronna komunikacja SMS/e-mail zwiększa frekwencję na wydarzeniach o 18
+      p.p.
   primaryCta:
-    label: "Zobacz automatyzacje Make"
-    href: "/poradniki/automatyzacja-leadow-make/"
+    label: Zobacz automatyzacje Make
+    href: /poradniki/automatyzacja-leadow-make/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

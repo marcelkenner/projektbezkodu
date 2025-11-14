@@ -3,6 +3,7 @@ import "./globals.css";
 import { KlaroConsentManager } from "./ui/KlaroConsentManager";
 import { ServiceWorkerRegistration } from "./ui/ServiceWorkerRegistration";
 import { inter, spaceGrotesk, jetBrainsMono } from "./ui/fonts";
+import { PerformanceMeasureGuard } from "./ui/performance/PerformanceMeasureGuard";
 
 export const viewport: Viewport = {
   themeColor: "#4338CA",
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} ${jetBrainsMono.variable} antialiased`}
       >
+        <PerformanceMeasureGuard />
         {children}
         <KlaroConsentManager />
         <ServiceWorkerRegistration />

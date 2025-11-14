@@ -1,9 +1,9 @@
 ---
-title: "Descript Faq"
-slug: "faq"
-path: "/narzedzia/descript/faq/"
+title: Descript Faq
+slug: faq
+path: /narzedzia/descript/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Descript Faq

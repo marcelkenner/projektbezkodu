@@ -1,9 +1,9 @@
 ---
-title: "Storyblocks Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/storyblocks/alternatywy/"
+title: Storyblocks Alternatywy
+slug: alternatywy
+path: /narzedzia/storyblocks/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Storyblocks Alternatywy

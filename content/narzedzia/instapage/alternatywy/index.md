@@ -1,16 +1,20 @@
 ---
-title: "Instapage – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/instapage/alternatywy/"
+title: Instapage – alternatywy
+slug: alternatywy
+path: /narzedzia/instapage/alternatywy/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Alternatywy dla Instapage, gdy budżet albo zespół jest mniejszy"
-  subheading: "Porównuję Instapage z tańszymi kreatorami landing page'y i innymi platformami, które mogą spokojnie wystarczyć."
+  heading: Alternatywy dla Instapage, gdy budżet albo zespół jest mniejszy
+  subheading: >-
+    Porównuję Instapage z tańszymi kreatorami landing page'y i innymi
+    platformami, które mogą spokojnie wystarczyć.
 seo:
-  title: "Alternatywy dla Instapage – co w zamian?"
-  description: "Lista narzędzi, które mogą zastąpić Instapage przy mniejszych kampaniach: Unbounce, Leadpages, Webflow i inne rozwiązania no-code."
+  title: Alternatywy dla Instapage – co w zamian?
+  description: >-
+    Lista narzędzi, które mogą zastąpić Instapage przy mniejszych kampaniach:
+    Unbounce, Leadpages, Webflow i inne rozwiązania no-code.
 ---
 
 # Alternatywy dla Instapage

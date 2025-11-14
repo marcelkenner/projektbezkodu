@@ -1,11 +1,13 @@
 ---
-title: "Design system (agnostyczny)"
-slug: "m"
-path: "/design-system/"
-type: "hub"
-tags: ["evergreen", "design-system"]
+title: Design system (agnostyczny)
+slug: m
+path: /design-system/
+type: hub
+tags:
+  - evergreen
+  - design-system
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Design system (agnostyczny)

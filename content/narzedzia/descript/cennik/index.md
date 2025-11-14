@@ -1,9 +1,9 @@
 ---
-title: "Descript Cennik"
-slug: "cennik"
-path: "/narzedzia/descript/cennik/"
+title: Descript Cennik
+slug: cennik
+path: /narzedzia/descript/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Descript Cennik

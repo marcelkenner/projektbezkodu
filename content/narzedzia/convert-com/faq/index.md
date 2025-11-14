@@ -1,9 +1,9 @@
 ---
-title: "Convert Com Faq"
-slug: "faq"
-path: "/narzedzia/convert-com/faq/"
+title: Convert Com Faq
+slug: faq
+path: /narzedzia/convert-com/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Convert Com Faq

@@ -1,10 +1,10 @@
 ---
-title: "Polityka prywatności ProjektBezKodu"
-slug: "polityka-prywatnosci"
-path: "/polityka-prywatnosci/"
+title: Polityka prywatności ProjektBezKodu
+slug: polityka-prywatnosci
+path: /polityka-prywatnosci/
 draft: false
-template: "legal"
-date: "2024-12-01"
+template: legal
+date: '2024-12-01'
 ---
 
 ## 1. Administrator danych

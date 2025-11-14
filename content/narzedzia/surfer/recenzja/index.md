@@ -1,14 +1,20 @@
 ---
-title: "Surfer – recenzja"
-slug: "recenzja"
-path: "/narzedzia/surfer/recenzja/"
+title: Surfer – recenzja
+slug: recenzja
+path: /narzedzia/surfer/recenzja/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Surfer – recenzja z perspektywy osoby piszącej treści"
-  subheading: "Sprawdzam, czy Content Editor i Audyt faktycznie pomagają pisać lepsze teksty, czy tylko dorzucają kolejny pasek „Content Score”."
+  heading: Surfer – recenzja z perspektywy osoby piszącej treści
+  subheading: >-
+    Sprawdzam, czy Content Editor i Audyt faktycznie pomagają pisać lepsze
+    teksty, czy tylko dorzucają kolejny pasek „Content Score”.
 seo:
-  title: "Surfer – recenzja skoncentrowana na pracy copywritera i SEO"
-  description: "Plusy i minusy Surfer: jakość rekomendacji, wpływ na wyniki, wygoda edytora, integracje i to, kiedy narzędzie bywa przesadnie „sztywne” w wytycznych."
+  title: Surfer – recenzja skoncentrowana na pracy copywritera i SEO
+  description: >-
+    Plusy i minusy Surfer: jakość rekomendacji, wpływ na wyniki, wygoda edytora,
+    integracje i to, kiedy narzędzie bywa przesadnie „sztywne” w wytycznych.
 ---
+
+

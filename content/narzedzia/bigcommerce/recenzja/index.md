@@ -1,9 +1,9 @@
 ---
-title: "Bigcommerce Recenzja"
-slug: "recenzja"
-path: "/narzedzia/bigcommerce/recenzja/"
+title: Bigcommerce Recenzja
+slug: recenzja
+path: /narzedzia/bigcommerce/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Bigcommerce Recenzja

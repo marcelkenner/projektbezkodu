@@ -1,9 +1,9 @@
 ---
-title: "Metodyka: Koszty Wdrozenia Pl"
-path: "/badania/koszty-wdrozenia-pl/metodyka/"
-type: "research-methods"
+title: 'Metodyka: Koszty Wdrozenia Pl'
+path: /badania/koszty-wdrozenia-pl/metodyka/
+type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 ## Cel

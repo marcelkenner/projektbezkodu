@@ -1,11 +1,15 @@
 ---
-title: "Dokumentacja wdrożenia – karta zgodności projektu"
-slug: "dokumentacja-wdrozenia"
-path: "/zgodnosc/dokumentacja-wdrozenia/"
-type: "template"
-tags: ["evergreen", "zgodnosc", "rodo", "proces"]
+title: Dokumentacja wdrożenia – karta zgodności projektu
+slug: dokumentacja-wdrozenia
+path: /zgodnosc/dokumentacja-wdrozenia/
+type: template
+tags:
+  - evergreen
+  - zgodnosc
+  - rodo
+  - proces
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Dokumentacja wdrożenia: „karta zgodności” dla projektu WWW

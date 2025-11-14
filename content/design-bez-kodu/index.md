@@ -1,9 +1,9 @@
 ---
-title: "U"
-slug: "u"
-path: "/design-bez-kodu/"
+title: U
+slug: u
+path: /design-bez-kodu/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # U

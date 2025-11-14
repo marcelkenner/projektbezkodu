@@ -1,26 +1,30 @@
 ---
-title: "Katalog agencji no-code w Polsce"
-slug: "agencje-nocode-pl"
-path: "/zasoby/agencje-nocode-pl/"
+title: Katalog agencji no-code w Polsce
+slug: agencje-nocode-pl
+path: /zasoby/agencje-nocode-pl/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Sprawdzone agencje no-code z Polski"
-  subheading: "Lista firm specjalizujących się w Webflow, Framerze i automatyzacjach – z referencjami i stackiem."
+  heading: Sprawdzone agencje no-code z Polski
+  subheading: >-
+    Lista firm specjalizujących się w Webflow, Framerze i automatyzacjach – z
+    referencjami i stackiem.
 seo:
-  title: "Agencje no-code w Polsce – aktualny katalog"
-  description: "Porównaj agencje no-code: specjalizacje, branże, średnie budżety i certyfikacje. Idealne przy wyborze partnera do wdrożenia."
+  title: Agencje no-code w Polsce – aktualny katalog
+  description: >-
+    Porównaj agencje no-code: specjalizacje, branże, średnie budżety i
+    certyfikacje. Idealne przy wyborze partnera do wdrożenia.
 meta:
-  format: "Baza Airtable + PDF"
-  duration: "15 min analizy"
+  format: Baza Airtable + PDF
+  duration: 15 min analizy
   topics:
     - partnerzy
     - webflow
     - framer
-  license: "CC BY-NC-SA 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-agencje-nocode.airtable"
-  fileSize: "350 KB"
-  checksum: "7ce8f4a2d9975a2b4eba2a4287456c02ad6bdf1f72bb173fc0b5b18a3a0e2d3a"
+  license: CC BY-NC-SA 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-agencje-nocode.airtable
+  fileSize: 350 KB
+  checksum: 7ce8f4a2d9975a2b4eba2a4287456c02ad6bdf1f72bb173fc0b5b18a3a0e2d3a
 ---
 
 ## Co znajdziesz w katalogu

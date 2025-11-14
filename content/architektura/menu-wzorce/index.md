@@ -1,11 +1,13 @@
 ---
-title: "Wzorce menu"
-slug: "menu-wzorce"
-path: "/architektura/menu-wzorce/"
-type: "guide"
-tags: ["evergreen", "architektura"]
+title: Wzorce menu
+slug: menu-wzorce
+path: /architektura/menu-wzorce/
+type: guide
+tags:
+  - evergreen
+  - architektura
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Wzorce menu

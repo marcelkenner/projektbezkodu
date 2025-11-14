@@ -1,11 +1,13 @@
 ---
-title: "Sekcje: Cennik"
-slug: "cennik"
-path: "/biblioteka/sekcje/cennik/"
-type: "template"
-tags: ["evergreen", "biblioteka"]
+title: 'Sekcje: Cennik'
+slug: cennik
+path: /biblioteka/sekcje/cennik/
+type: template
+tags:
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: Cennik

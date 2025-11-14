@@ -1,9 +1,9 @@
 ---
-title: "Jetboost"
-slug: "jetboost"
-path: "/narzedzia/jetboost/"
+title: Jetboost
+slug: jetboost
+path: /narzedzia/jetboost/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Jetboost

@@ -1,11 +1,14 @@
 ---
-title: "Dashboards starter – układ panelu do sensownej analityki"
-slug: "dashboards-starter"
-path: "/analityka/dashboards-starter/"
-type: "template"
-tags: ["evergreen", "analityka", "dashboard"]
+title: Dashboards starter – układ panelu do sensownej analityki
+slug: dashboards-starter
+path: /analityka/dashboards-starter/
+type: template
+tags:
+  - evergreen
+  - analityka
+  - dashboard
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Dashboards starter – układ panelu do sensownej analityki

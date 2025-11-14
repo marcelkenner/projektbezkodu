@@ -1,11 +1,14 @@
 ---
-title: "Outline frameworks – szablony konspektów artykułów"
-slug: "outline-frameworks"
-path: "/content/outline-frameworks/"
-type: "template"
-tags: ["evergreen", "content", "pisanie"]
+title: Outline frameworks – szablony konspektów artykułów
+slug: outline-frameworks
+path: /content/outline-frameworks/
+type: template
+tags:
+  - evergreen
+  - content
+  - pisanie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Outline frameworks – szablony konspektów artykułów

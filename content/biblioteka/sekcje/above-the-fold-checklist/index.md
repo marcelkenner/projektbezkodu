@@ -1,11 +1,13 @@
 ---
-title: "Above the fold – checklista"
-slug: "above-the-fold-checklist"
-path: "/biblioteka/sekcje/above-the-fold-checklist/"
-type: "checklist"
-tags: ["evergreen", "biblioteka"]
+title: Above the fold – checklista
+slug: above-the-fold-checklist
+path: /biblioteka/sekcje/above-the-fold-checklist/
+type: checklist
+tags:
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Above the fold – checklista

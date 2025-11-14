@@ -1,11 +1,14 @@
 ---
-title: "Stan no‑code w Polsce (raport)"
-slug: "stan-nocode-w-polsce"
-path: "/badania/stan-nocode-w-polsce/"
-type: "research"
-tags: ["evergreen", "badania", "research"]
+title: Stan no‑code w Polsce (raport)
+slug: stan-nocode-w-polsce
+path: /badania/stan-nocode-w-polsce/
+type: research
+tags:
+  - evergreen
+  - badania
+  - research
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Stan no‑code w Polsce (raport)

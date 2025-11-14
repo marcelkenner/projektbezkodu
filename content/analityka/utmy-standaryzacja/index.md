@@ -1,11 +1,14 @@
 ---
-title: "Standaryzacja UTM (nazewnictwo kampanii)"
-slug: "utmy-standaryzacja"
-path: "/analityka/utmy-standaryzacja/"
-type: "template"
-tags: ["evergreen", "analityka", "utm"]
+title: Standaryzacja UTM (nazewnictwo kampanii)
+slug: utmy-standaryzacja
+path: /analityka/utmy-standaryzacja/
+type: template
+tags:
+  - evergreen
+  - analityka
+  - utm
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Standaryzacja UTM (nazewnictwo kampanii)

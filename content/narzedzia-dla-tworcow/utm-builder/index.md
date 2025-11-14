@@ -1,11 +1,13 @@
 ---
-title: "Builder UTM"
-slug: "utm-builder"
-path: "/narzedzia-dla-tworcow/utm-builder/"
-type: "tool"
-tags: ["evergreen", "narzedzia-dla-tworcow"]
+title: Builder UTM
+slug: utm-builder
+path: /narzedzia-dla-tworcow/utm-builder/
+type: tool
+tags:
+  - evergreen
+  - narzedzia-dla-tworcow
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Builder UTM

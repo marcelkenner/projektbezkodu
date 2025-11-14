@@ -1,9 +1,9 @@
 ---
-title: "Canva Empower Recenzja"
-slug: "recenzja"
-path: "/narzedzia/canva-empower/recenzja/"
+title: Canva Empower Recenzja
+slug: recenzja
+path: /narzedzia/canva-empower/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Canva Empower Recenzja

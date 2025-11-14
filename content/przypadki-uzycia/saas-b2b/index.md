@@ -1,19 +1,23 @@
 ---
-title: "SaaS B2B – onboarding trial w 14 dni"
-slug: "saas-b2b"
-path: "/przypadki-uzycia/saas-b2b/"
+title: SaaS B2B – onboarding trial w 14 dni
+slug: saas-b2b
+path: /przypadki-uzycia/saas-b2b/
 draft: false
-template: "case-study"
-date: "2024-08-28"
+template: case-study
+date: '2024-08-28'
 hero:
-  heading: "Automatyzacja onboardingu triali SaaS B2B"
-  subheading: "Połączyliśmy produkt, marketing i sprzedaż – poprawiając aktywację i konwersję trial → płatne."
+  heading: Automatyzacja onboardingu triali SaaS B2B
+  subheading: >-
+    Połączyliśmy produkt, marketing i sprzedaż – poprawiając aktywację i
+    konwersję trial → płatne.
 seo:
-  title: "Case study: automatyzacja onboardingu SaaS B2B"
-  description: "Sekwencje e-mail, in-app checklisty i scoring leadów. 29% więcej konwersji z triala na płatne."
+  title: 'Case study: automatyzacja onboardingu SaaS B2B'
+  description: >-
+    Sekwencje e-mail, in-app checklisty i scoring leadów. 29% więcej konwersji z
+    triala na płatne.
 meta:
-  industry: "SaaS B2B"
-  period: "Q3 2024"
+  industry: SaaS B2B
+  period: Q3 2024
   stack:
     - Appcues
     - HubSpot
@@ -21,29 +25,33 @@ meta:
     - Make
     - Webflow
   summaryBullets:
-    - "Checklista onboardingowa i personalizowane sekwencje Appcues."
-    - "Scoring leadów w HubSpot na podstawie eventów produktowych."
-    - "Landing center of excellence w Webflow – tutoriale, FAQ, case studies."
+    - Checklista onboardingowa i personalizowane sekwencje Appcues.
+    - Scoring leadów w HubSpot na podstawie eventów produktowych.
+    - Landing center of excellence w Webflow – tutoriale, FAQ, case studies.
   metrics:
-    - label: "Konwersja trial → płatne"
-      value: "+29%"
-      description: "Po 60 dniach od wdrożenia."
-    - label: "Czas aktywacji (Aha moment)"
-      value: "−3 dni"
-      description: "Dzięki personalizowanym podpowiedziom."
-    - label: "Bilety supportowe"
-      value: "−34%"
-      description: "FAQ + automatyzacje w Appcues i HubSpot."
+    - label: Konwersja trial → płatne
+      value: +29%
+      description: Po 60 dniach od wdrożenia.
+    - label: Czas aktywacji (Aha moment)
+      value: −3 dni
+      description: Dzięki personalizowanym podpowiedziom.
+    - label: Bilety supportowe
+      value: −34%
+      description: FAQ + automatyzacje w Appcues i HubSpot.
   lessons:
-    - "Segmentacja onboardingowych komunikatów według persony ma większy wpływ niż liczba wiadomości."
-    - "Landing center w Webflow redukuje potrzebę wysyłania PDF-ów i decków."
-    - "Integracja Segment → HubSpot musi mieć guardy – inaczej CRM zalałyby eventy."
+    - >-
+      Segmentacja onboardingowych komunikatów według persony ma większy wpływ
+      niż liczba wiadomości.
+    - Landing center w Webflow redukuje potrzebę wysyłania PDF-ów i decków.
+    - >-
+      Integracja Segment → HubSpot musi mieć guardy – inaczej CRM zalałyby
+      eventy.
   primaryCta:
-    label: "Przeczytaj poradnik automatyzacji"
-    href: "/poradniki/automatyzacja-leadow-make/"
+    label: Przeczytaj poradnik automatyzacji
+    href: /poradniki/automatyzacja-leadow-make/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

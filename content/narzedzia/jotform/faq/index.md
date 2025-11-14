@@ -1,14 +1,20 @@
 ---
-title: "Jotform – FAQ"
-slug: "faq"
-path: "/narzedzia/jotform/faq/"
+title: Jotform – FAQ
+slug: faq
+path: /narzedzia/jotform/faq/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Jotform – najczęstsze pytania i odpowiedzi"
-  subheading: "Limity odpowiedzi, RODO, własna domena, płatności i przenoszenie formularzy z innych narzędzi."
+  heading: Jotform – najczęstsze pytania i odpowiedzi
+  subheading: >-
+    Limity odpowiedzi, RODO, własna domena, płatności i przenoszenie formularzy
+    z innych narzędzi.
 seo:
-  title: "Jotform – FAQ dla firm, agencji i NGO"
-  description: "Zbieram praktyczne odpowiedzi na pytania o Jotform: bezpieczeństwo, integracje, szablony i rozliczanie planów."
+  title: Jotform – FAQ dla firm, agencji i NGO
+  description: >-
+    Zbieram praktyczne odpowiedzi na pytania o Jotform: bezpieczeństwo,
+    integracje, szablony i rozliczanie planów.
 ---
+
+

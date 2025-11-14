@@ -1,11 +1,15 @@
 ---
-title: "Playbook: strona internetowa dla kancelarii prawnej"
-slug: "kancelaria"
-path: "/playbooki/kancelaria/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "prawo"]
+title: 'Playbook: strona internetowa dla kancelarii prawnej'
+slug: kancelaria
+path: /playbooki/kancelaria/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - prawo
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona internetowa dla kancelarii prawnej

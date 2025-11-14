@@ -1,11 +1,14 @@
 ---
-title: "12-tygodniowy plan publikacji (kalendarium)"
-slug: "kalendarium-12-tyg"
-path: "/content/kalendarium-12-tyg/"
-type: "template"
-tags: ["evergreen", "content", "planowanie"]
+title: 12-tygodniowy plan publikacji (kalendarium)
+slug: kalendarium-12-tyg
+path: /content/kalendarium-12-tyg/
+type: template
+tags:
+  - evergreen
+  - content
+  - planowanie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # 12-tygodniowy plan publikacji (kalendarium)

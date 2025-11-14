@@ -1,26 +1,28 @@
 ---
-title: "Polskie ikony i znaki graficzne"
-slug: "polskie-ikony-i-znaki"
-path: "/zasoby/polskie-ikony-i-znaki/"
+title: Polskie ikony i znaki graficzne
+slug: polskie-ikony-i-znaki
+path: /zasoby/polskie-ikony-i-znaki/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Pakiet ikon zgodnych z polską typografią"
-  subheading: "System ikon 24×24 i 32×32 px z polskimi znakami i wariantami literowymi."
+  heading: Pakiet ikon zgodnych z polską typografią
+  subheading: System ikon 24×24 i 32×32 px z polskimi znakami i wariantami literowymi.
 seo:
-  title: "Polskie ikony i znaki – zestaw kompatybilny z Webflow/Framer"
-  description: "Biblioteka ikon i znaków diakrytycznych przygotowana pod polski alfabet. Eksporty SVG/React oraz styl w JSON dla Tailwind."
+  title: Polskie ikony i znaki – zestaw kompatybilny z Webflow/Framer
+  description: >-
+    Biblioteka ikon i znaków diakrytycznych przygotowana pod polski alfabet.
+    Eksporty SVG/React oraz styl w JSON dla Tailwind.
 meta:
-  format: "SVG + React Components"
-  duration: "5 min wdrożenia"
+  format: SVG + React Components
+  duration: 5 min wdrożenia
   topics:
     - design-system
     - ux
     - brand
-  license: "CC BY 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-icons-pl.zip"
-  fileSize: "1.2 MB"
-  checksum: "f5a4af90b1f7a0d08f902a6b1a6a3c6c02fbd6c83fbf6b6a1f02dfd2609bcf25"
+  license: CC BY 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-icons-pl.zip
+  fileSize: 1.2 MB
+  checksum: f5a4af90b1f7a0d08f902a6b1a6a3c6c02fbd6c83fbf6b6a1f02dfd2609bcf25
 ---
 
 ## Co znajduje się w paczce

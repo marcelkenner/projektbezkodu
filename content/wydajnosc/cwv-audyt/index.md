@@ -1,11 +1,13 @@
 ---
-title: "Audyt Core Web Vitals – protokół"
-slug: "cwv-audyt"
-path: "/wydajnosc/cwv-audyt/"
-type: "template"
-tags: ["evergreen", "wydajnosc"]
+title: Audyt Core Web Vitals – protokół
+slug: cwv-audyt
+path: /wydajnosc/cwv-audyt/
+type: template
+tags:
+  - evergreen
+  - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Audyt Core Web Vitals – protokół

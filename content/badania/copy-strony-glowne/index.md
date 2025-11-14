@@ -1,11 +1,14 @@
 ---
-title: "Nagłówki na stronach głównych PL"
-slug: "copy-strony-glowne"
-path: "/badania/copy-strony-glowne/"
-type: "research"
-tags: ["evergreen", "badania", "research"]
+title: Nagłówki na stronach głównych PL
+slug: copy-strony-glowne
+path: /badania/copy-strony-glowne/
+type: research
+tags:
+  - evergreen
+  - badania
+  - research
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Nagłówki na stronach głównych PL

@@ -1,9 +1,9 @@
 ---
-title: "Depositphotos Recenzja"
-slug: "recenzja"
-path: "/narzedzia/depositphotos/recenzja/"
+title: Depositphotos Recenzja
+slug: recenzja
+path: /narzedzia/depositphotos/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Depositphotos Recenzja

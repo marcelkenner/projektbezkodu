@@ -1,9 +1,9 @@
 ---
-title: "Depositphotos"
-slug: "depositphotos"
-path: "/narzedzia/depositphotos/"
+title: Depositphotos
+slug: depositphotos
+path: /narzedzia/depositphotos/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Depositphotos

@@ -1,11 +1,14 @@
 ---
-title: "Kalendarz raportów – tygodniowe, miesięczne i kwartalne rytuały"
-slug: "kalendarz-raportow"
-path: "/analityka/kalendarz-raportow/"
-type: "template"
-tags: ["evergreen", "analityka", "raportowanie"]
+title: Kalendarz raportów – tygodniowe, miesięczne i kwartalne rytuały
+slug: kalendarz-raportow
+path: /analityka/kalendarz-raportow/
+type: template
+tags:
+  - evergreen
+  - analityka
+  - raportowanie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kalendarz raportów – tygodniowe, miesięczne i kwartalne rytuały

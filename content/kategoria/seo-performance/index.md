@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Seo Performance"
-slug: "seo-performance"
-path: "/kategoria/seo-performance/"
+title: 'Kategoria: Seo Performance'
+slug: seo-performance
+path: /kategoria/seo-performance/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Seo Performance

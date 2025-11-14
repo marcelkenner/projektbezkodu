@@ -1,11 +1,13 @@
 ---
-title: "Optymalizacja czcionek"
-slug: "czcionki"
-path: "/wydajnosc/czcionki/"
-type: "guide"
-tags: ["evergreen", "wydajnosc"]
+title: Optymalizacja czcionek
+slug: czcionki
+path: /wydajnosc/czcionki/
+type: guide
+tags:
+  - evergreen
+  - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Optymalizacja czcionek

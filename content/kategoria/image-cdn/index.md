@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Image Cdn"
-slug: "image-cdn"
-path: "/kategoria/image-cdn/"
+title: 'Kategoria: Image Cdn'
+slug: image-cdn
+path: /kategoria/image-cdn/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Image Cdn

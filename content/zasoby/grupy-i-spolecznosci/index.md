@@ -1,26 +1,28 @@
 ---
-title: "Grupy i społeczności no-code"
-slug: "grupy-i-spolecznosci"
-path: "/zasoby/grupy-i-spolecznosci/"
+title: Grupy i społeczności no-code
+slug: grupy-i-spolecznosci
+path: /zasoby/grupy-i-spolecznosci/
 draft: false
-template: "resource"
+template: resource
 hero:
-  heading: "Społeczności no-code, do których warto dołączyć"
-  subheading: "Discordy, Slacki i newslettery – uporządkowane według poziomu i narzędzi."
+  heading: Społeczności no-code, do których warto dołączyć
+  subheading: Discordy, Slacki i newslettery – uporządkowane według poziomu i narzędzi.
 seo:
-  title: "Grupy i społeczności no-code – lista polecanych miejsc"
-  description: "Dołącz do aktywnych społeczności Webflow, Framer, Make i AI. Zebraliśmy linki, zasady i częstotliwość publikacji."
+  title: Grupy i społeczności no-code – lista polecanych miejsc
+  description: >-
+    Dołącz do aktywnych społeczności Webflow, Framer, Make i AI. Zebraliśmy
+    linki, zasady i częstotliwość publikacji.
 meta:
-  format: "Notion + CSV"
-  duration: "5 min selekcji"
+  format: Notion + CSV
+  duration: 5 min selekcji
   topics:
     - społeczność
     - edukacja
     - inspiracje
-  license: "CC BY 4.0"
-  downloadHref: "https://files.projektbezkodu.pl/resources/pbk-community-directory.csv"
-  fileSize: "85 KB"
-  checksum: "3d5e82f79dc79a8cbad130ed0b5f45f9e3f991f2f046ba8f7b64fcfcfdd897a0"
+  license: CC BY 4.0
+  downloadHref: https://files.projektbezkodu.pl/resources/pbk-community-directory.csv
+  fileSize: 85 KB
+  checksum: 3d5e82f79dc79a8cbad130ed0b5f45f9e3f991f2f046ba8f7b64fcfcfdd897a0
 ---
 
 ## Co obejmuje katalog

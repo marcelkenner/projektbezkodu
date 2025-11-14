@@ -1,11 +1,15 @@
 ---
-title: "Cookies – teksty banerów i polityki (szablony)"
-slug: "cookies-teksty"
-path: "/zgodnosc/cookies-teksty/"
-type: "template"
-tags: ["evergreen", "zgodnosc", "rodo", "cookies"]
+title: Cookies – teksty banerów i polityki (szablony)
+slug: cookies-teksty
+path: /zgodnosc/cookies-teksty/
+type: template
+tags:
+  - evergreen
+  - zgodnosc
+  - rodo
+  - cookies
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Cookies: teksty banerów i polityki (do konsultacji prawnej)

@@ -1,11 +1,13 @@
 ---
-title: "Ocena nagłówków (PL)"
-slug: "headline-score-pl"
-path: "/narzedzia-dla-tworcow/headline-score-pl/"
-type: "tool"
-tags: ["evergreen", "narzedzia-dla-tworcow"]
+title: Ocena nagłówków (PL)
+slug: headline-score-pl
+path: /narzedzia-dla-tworcow/headline-score-pl/
+type: tool
+tags:
+  - evergreen
+  - narzedzia-dla-tworcow
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Ocena nagłówków (PL)

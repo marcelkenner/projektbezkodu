@@ -1,10 +1,10 @@
 ---
-title: "Squarespace Vs Wix"
-slug: "squarespace-vs-wix"
-path: "/porownania/squarespace-vs-wix/"
+title: Squarespace Vs Wix
+slug: squarespace-vs-wix
+path: /porownania/squarespace-vs-wix/
 draft: true
-date: "2025-11-05"
-template: "comparison"
+date: '2025-11-05'
+template: comparison
 taxonomy:
   categories:
     - site-builder

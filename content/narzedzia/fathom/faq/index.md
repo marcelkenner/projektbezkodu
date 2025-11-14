@@ -1,14 +1,20 @@
 ---
-title: "Fathom Analytics – FAQ"
-slug: "faq"
-path: "/narzedzia/fathom/faq/"
+title: Fathom Analytics – FAQ
+slug: faq
+path: /narzedzia/fathom/faq/
 draft: false
-template: "article"
-date: "2024-12-09"
+template: article
+date: '2024-12-09'
 hero:
-  heading: "Fathom – najczęstsze pytania o prywatnościową analitykę"
-  subheading: "Jak działa brak ciasteczek w praktyce, co z RODO, integracjami i migracją z Google Analytics."
+  heading: Fathom – najczęstsze pytania o prywatnościową analitykę
+  subheading: >-
+    Jak działa brak ciasteczek w praktyce, co z RODO, integracjami i migracją z
+    Google Analytics.
 seo:
-  title: "Fathom Analytics – FAQ dla właścicieli stron i twórców"
-  description: "Odpowiadam na pytania o Fathom: jakie dane zbiera, jak zapewnia zgodność z prawem, jak go wdrożyć i jak przenieść się z innych narzędzi."
+  title: Fathom Analytics – FAQ dla właścicieli stron i twórców
+  description: >-
+    Odpowiadam na pytania o Fathom: jakie dane zbiera, jak zapewnia zgodność z
+    prawem, jak go wdrożyć i jak przenieść się z innych narzędzi.
 ---
+
+

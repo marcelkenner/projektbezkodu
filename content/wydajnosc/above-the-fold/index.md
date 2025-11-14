@@ -1,11 +1,14 @@
 ---
-title: "Above-the-fold – co ładować krytycznie, a co opóźnić"
-slug: "above-the-fold"
-path: "/wydajnosc/above-the-fold/"
-type: "checklist"
-tags: ["evergreen", "wydajnosc", "core-web-vitals"]
+title: Above-the-fold – co ładować krytycznie, a co opóźnić
+slug: above-the-fold
+path: /wydajnosc/above-the-fold/
+type: checklist
+tags:
+  - evergreen
+  - wydajnosc
+  - core-web-vitals
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Above-the-fold: checklist dla pierwszego ekranu

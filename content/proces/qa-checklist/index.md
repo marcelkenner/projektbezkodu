@@ -1,11 +1,14 @@
 ---
-title: "QA checklist – treści, linki, wydajność i dostępność"
-slug: "qa-checklist"
-path: "/proces/qa-checklist/"
-type: "checklist"
-tags: ["evergreen", "proces", "qa"]
+title: QA checklist – treści, linki, wydajność i dostępność
+slug: qa-checklist
+path: /proces/qa-checklist/
+type: checklist
+tags:
+  - evergreen
+  - proces
+  - qa
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # QA checklist – treści, linki, wydajność i dostępność

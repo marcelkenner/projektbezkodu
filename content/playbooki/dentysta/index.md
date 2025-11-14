@@ -1,11 +1,15 @@
 ---
-title: "Playbook: strona internetowa dla dentysty"
-slug: "dentysta"
-path: "/playbooki/dentysta/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "dentysta"]
+title: 'Playbook: strona internetowa dla dentysty'
+slug: dentysta
+path: /playbooki/dentysta/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - dentysta
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona internetowa dla dentysty

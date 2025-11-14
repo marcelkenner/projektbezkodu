@@ -1,11 +1,14 @@
 ---
-title: "Cele i KPI dla stron usługowych, SaaS i kursów online"
-slug: "cele-i-kpi"
-path: "/analityka/cele-i-kpi/"
-type: "guide"
-tags: ["evergreen", "analityka", "kpi"]
+title: Cele i KPI dla stron usługowych, SaaS i kursów online
+slug: cele-i-kpi
+path: /analityka/cele-i-kpi/
+type: guide
+tags:
+  - evergreen
+  - analityka
+  - kpi
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Cele i KPI dla stron usługowych, SaaS i kursów online

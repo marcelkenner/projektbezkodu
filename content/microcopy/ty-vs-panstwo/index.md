@@ -1,11 +1,13 @@
 ---
-title: "Styl: Ty czy Państwo?"
-slug: "ty-vs-panstwo"
-path: "/microcopy/ty-vs-panstwo/"
-type: "guide"
-tags: ["evergreen", "microcopy"]
+title: 'Styl: Ty czy Państwo?'
+slug: ty-vs-panstwo
+path: /microcopy/ty-vs-panstwo/
+type: guide
+tags:
+  - evergreen
+  - microcopy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Styl: Ty czy Państwo?

@@ -1,11 +1,14 @@
 ---
-title: "Wycena – kalkulator stawek i etapów projektu"
-slug: "wycena-kalkulator"
-path: "/proces/wycena-kalkulator/"
-type: "calculator"
-tags: ["evergreen", "proces", "wycena"]
+title: Wycena – kalkulator stawek i etapów projektu
+slug: wycena-kalkulator
+path: /proces/wycena-kalkulator/
+type: calculator
+tags:
+  - evergreen
+  - proces
+  - wycena
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Wycena – kalkulator stawek i etapów projektu

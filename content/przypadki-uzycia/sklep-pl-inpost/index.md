@@ -1,48 +1,62 @@
 ---
-title: "InPost – sklep D2C uruchomiony w 6 tygodni"
-slug: "sklep-pl-inpost"
-path: "/przypadki-uzycia/sklep-pl-inpost/"
+title: InPost – sklep D2C uruchomiony w 6 tygodni
+slug: sklep-pl-inpost
+path: /przypadki-uzycia/sklep-pl-inpost/
 draft: false
-template: "case-study"
-date: "2024-09-18"
+template: case-study
+date: '2024-09-18'
 hero:
-  heading: "InPost – sklep D2C uruchomiony w 6 tygodni"
-  subheading: "Zbudowaliśmy landing, katalog produktów i proces fulfillmentu na stacku Webflow + Shopify + Make."
+  heading: InPost – sklep D2C uruchomiony w 6 tygodni
+  subheading: >-
+    Zbudowaliśmy landing, katalog produktów i proces fulfillmentu na stacku
+    Webflow + Shopify + Make.
 seo:
-  title: "Case study: Sklep D2C dla InPost – wdrożenie w 6 tygodni"
-  description: "Migracja do Webflow, integracja z Shopify i automatyzacja fulfillmentu w Make. Zwiększona konwersja +37% i krótszy czas obsługi."
+  title: 'Case study: Sklep D2C dla InPost – wdrożenie w 6 tygodni'
+  description: >-
+    Migracja do Webflow, integracja z Shopify i automatyzacja fulfillmentu w
+    Make. Zwiększona konwersja +37% i krótszy czas obsługi.
 meta:
-  industry: "Logistyka & e-commerce"
-  period: "Q3 2024"
+  industry: Logistyka & e-commerce
+  period: Q3 2024
   stack:
     - Webflow
     - Shopify
     - Make
     - Airtable
   summaryBullets:
-    - "Migracja ze starego silnika SaaS do zestawu Webflow + Shopify bez przestojów."
-    - "Integracja statusów dostaw i zwrotów w jednym panelu klienta."
-    - "Automatyzacja fulfillmentu skróciła czas obsługi zamówień o 18 godzin tygodniowo."
+    - >-
+      Migracja ze starego silnika SaaS do zestawu Webflow + Shopify bez
+      przestojów.
+    - Integracja statusów dostaw i zwrotów w jednym panelu klienta.
+    - >-
+      Automatyzacja fulfillmentu skróciła czas obsługi zamówień o 18 godzin
+      tygodniowo.
   metrics:
-    - label: "Wzrost konwersji checkout"
-      value: "+37%"
-      description: "Porównanie okresów 30 dni przed i po wdrożeniu."
-    - label: "Skrócenie time-to-market"
-      value: "−6 tyg."
-      description: "W stosunku do planu replatformingu na tradycyjnym CMS."
-    - label: "Czas obsługi zamówień"
-      value: "−45%"
-      description: "Automatyzacja powiadomień i dokumentów w Make."
+    - label: Wzrost konwersji checkout
+      value: +37%
+      description: Porównanie okresów 30 dni przed i po wdrożeniu.
+    - label: Skrócenie time-to-market
+      value: −6 tyg.
+      description: W stosunku do planu replatformingu na tradycyjnym CMS.
+    - label: Czas obsługi zamówień
+      value: −45%
+      description: Automatyzacja powiadomień i dokumentów w Make.
   lessons:
-    - "Rozdzielenie warstw contentu i katalogu produktowego pozwala skalować kampanie niezależnie od ecommerce."
-    - "Automatyzacje Make najlepiej dokumentować od razu – wprowadziliśmy konwencję namingową i diagramy."
-    - "Segmentowanie leadów według typu przesyłki ujawniło nowe insighty do kampanii remarketingowych."
+    - >-
+      Rozdzielenie warstw contentu i katalogu produktowego pozwala skalować
+      kampanie niezależnie od ecommerce.
+    - >-
+      Automatyzacje Make najlepiej dokumentować od razu – wprowadziliśmy
+      konwencję namingową i diagramy.
+    - >-
+      Segmentowanie leadów według typu przesyłki ujawniło nowe insighty do
+      kampanii remarketingowych.
   primaryCta:
-    label: "Zobacz poradnik Webflow"
-    href: "/poradniki/webflow-blog-krok-po-kroku/"
+    label: Zobacz poradnik Webflow
+    href: /poradniki/webflow-blog-krok-po-kroku/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

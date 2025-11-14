@@ -1,48 +1,62 @@
 ---
-title: "Studio Brandowe – produktowy landing w 48 godzin"
-slug: "agencja-kreatywna"
-path: "/przypadki-uzycia/agencja-kreatywna/"
+title: Studio Brandowe – produktowy landing w 48 godzin
+slug: agencja-kreatywna
+path: /przypadki-uzycia/agencja-kreatywna/
 draft: false
-template: "case-study"
-date: "2024-05-28"
+template: case-study
+date: '2024-05-28'
 hero:
-  heading: "Studio Brandowe – produktowy landing w 48 godzin"
-  subheading: "Wsparliśmy agencję w przygotowaniu launchu klienta SaaS na Framerze, dostarczając komponenty i automatyzację leadów."
+  heading: Studio Brandowe – produktowy landing w 48 godzin
+  subheading: >-
+    Wsparliśmy agencję w przygotowaniu launchu klienta SaaS na Framerze,
+    dostarczając komponenty i automatyzację leadów.
 seo:
-  title: "Case study: Studio brandowe – landing SaaS w 48 godzin"
-  description: "Jak studio kreatywne skróciło delivery z tygodni do dni dzięki komponentom Framer i automatyzacjom HubSpot."
+  title: 'Case study: Studio brandowe – landing SaaS w 48 godzin'
+  description: >-
+    Jak studio kreatywne skróciło delivery z tygodni do dni dzięki komponentom
+    Framer i automatyzacjom HubSpot.
 meta:
-  industry: "Agencja kreatywna"
-  period: "Q2 2024"
+  industry: Agencja kreatywna
+  period: Q2 2024
   stack:
     - Framer
     - HubSpot
     - Make
     - Typeform
   summaryBullets:
-    - "Dostarczony zestaw komponentów Framer pozwolił iterować layout razem z klientem."
-    - "Automatyczna segmentacja leadów zasila HubSpot i Slack."
-    - "Studio otrzymało framework do kolejnych launchów (szablony sekcji + checklisty QA)."
+    - >-
+      Dostarczony zestaw komponentów Framer pozwolił iterować layout razem z
+      klientem.
+    - Automatyczna segmentacja leadów zasila HubSpot i Slack.
+    - >-
+      Studio otrzymało framework do kolejnych launchów (szablony sekcji +
+      checklisty QA).
   metrics:
-    - label: "Czas budowy landingu"
-      value: "48 h"
-      description: "Od kickoffu do publikacji produkcyjnej."
-    - label: "Konwersja formularza"
-      value: "12,4%"
-      description: "Wzrost o 4,1 p.p. względem poprzedniej iteracji."
-    - label: "Ręczna praca operacyjna"
-      value: "−80%"
-      description: "Dzięki integracji Typeform → HubSpot → Slack."
+    - label: Czas budowy landingu
+      value: 48 h
+      description: Od kickoffu do publikacji produkcyjnej.
+    - label: Konwersja formularza
+      value: 12,4%
+      description: Wzrost o 4,1 p.p. względem poprzedniej iteracji.
+    - label: Ręczna praca operacyjna
+      value: −80%
+      description: Dzięki integracji Typeform → HubSpot → Slack.
   lessons:
-    - "Predefiniowane warianty komponentów skracają iteracje z klientem i minimalizują 'pixel pushing'."
-    - "Szybkie testy microcopy (A/B w Typeform) potrafią podnieść konwersję o kilka p.p. przy minimalnym nakładzie."
-    - "Checklisty QA warto prowadzić na żywo podczas calla z klientem – zdejmuje to presję z zespołu agencji."
+    - >-
+      Predefiniowane warianty komponentów skracają iteracje z klientem i
+      minimalizują 'pixel pushing'.
+    - >-
+      Szybkie testy microcopy (A/B w Typeform) potrafią podnieść konwersję o
+      kilka p.p. przy minimalnym nakładzie.
+    - >-
+      Checklisty QA warto prowadzić na żywo podczas calla z klientem – zdejmuje
+      to presję z zespołu agencji.
   primaryCta:
-    label: "Przejdź do komponentów Framer"
-    href: "/poradniki/framer-landing-2h/"
+    label: Przejdź do komponentów Framer
+    href: /poradniki/framer-landing-2h/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

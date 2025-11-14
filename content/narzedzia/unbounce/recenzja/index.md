@@ -1,16 +1,18 @@
 ---
-title: "Unbounce – recenzja"
-slug: "recenzja"
-path: "/narzedzia/unbounce/recenzja/"
+title: Unbounce – recenzja
+slug: recenzja
+path: /narzedzia/unbounce/recenzja/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Unbounce – recenzja z perspektywy 'co z tego mam'"
-  subheading: "Tworzę landing page'e, odpalam testy A/B i nie dotykam kodu ani WordPressa."
+  heading: Unbounce – recenzja z perspektywy 'co z tego mam'
+  subheading: Tworzę landing page'e, odpalam testy A/B i nie dotykam kodu ani WordPressa.
 seo:
-  title: "Unbounce – recenzja skupiona na efektach"
-  description: "Dowiedz się, kiedy Unbounce dowozi wyniki: więcej leadów, wyższe konwersje i wygodniejsza praca nad kampaniami."
+  title: Unbounce – recenzja skupiona na efektach
+  description: >-
+    Dowiedz się, kiedy Unbounce dowozi wyniki: więcej leadów, wyższe konwersje i
+    wygodniejsza praca nad kampaniami.
 ---
 
 # Unbounce – recenzja z perspektywy efektów

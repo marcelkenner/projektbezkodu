@@ -1,11 +1,15 @@
 ---
-title: "Playbook: strona dla szkoły językowej"
-slug: "szkola-jezykowa"
-path: "/playbooki/szkola-jezykowa/"
-type: "playbook"
-tags: ["evergreen", "playbook", "branża", "edukacja"]
+title: 'Playbook: strona dla szkoły językowej'
+slug: szkola-jezykowa
+path: /playbooki/szkola-jezykowa/
+type: playbook
+tags:
+  - evergreen
+  - playbook
+  - branża
+  - edukacja
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbook: strona dla szkoły językowej

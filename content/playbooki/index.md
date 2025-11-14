@@ -1,11 +1,13 @@
 ---
-title: "Playbooki branżowe (PL)"
-slug: "i"
-path: "/playbooki/"
-type: "hub"
-tags: ["evergreen", "playbooks"]
+title: Playbooki branżowe (PL)
+slug: i
+path: /playbooki/
+type: hub
+tags:
+  - evergreen
+  - playbooks
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Playbooki branżowe (PL)

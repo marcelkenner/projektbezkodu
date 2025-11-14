@@ -1,19 +1,23 @@
 ---
-title: "Marka D2C – subskrypcje kosmetyków w no-code"
-slug: "d2c"
-path: "/przypadki-uzycia/d2c/"
+title: Marka D2C – subskrypcje kosmetyków w no-code
+slug: d2c
+path: /przypadki-uzycia/d2c/
 draft: false
-template: "case-study"
-date: "2024-09-30"
+template: case-study
+date: '2024-09-30'
 hero:
-  heading: "Subskrypcyjny e-commerce na Webflow + Recharge"
-  subheading: "Uruchomiliśmy sklep z subskrypcjami kosmetyków: konfigurator, płatności i automatyzacje obsługi klienta."
+  heading: Subskrypcyjny e-commerce na Webflow + Recharge
+  subheading: >-
+    Uruchomiliśmy sklep z subskrypcjami kosmetyków: konfigurator, płatności i
+    automatyzacje obsługi klienta.
 seo:
-  title: "Case study: subskrypcje D2C w Webflow + Recharge"
-  description: "Konfigurator produktów, cykliczne płatności i automat do obsługi klienta zbudowane w no-code."
+  title: 'Case study: subskrypcje D2C w Webflow + Recharge'
+  description: >-
+    Konfigurator produktów, cykliczne płatności i automat do obsługi klienta
+    zbudowane w no-code.
 meta:
-  industry: "D2C beauty"
-  period: "Q3 2024"
+  industry: D2C beauty
+  period: Q3 2024
   stack:
     - Webflow
     - Recharge
@@ -21,29 +25,35 @@ meta:
     - Klaviyo
     - Make
   summaryBullets:
-    - "Konfigurator zestawów subskrypcyjnych i landingi kampanii."
-    - "Automatyczne notyfikacje e-mail/SMS o wysyłce, dostawie i zmianach planu."
-    - "Panel klienta z możliwością pauzowania i zmiany częstotliwości."
+    - Konfigurator zestawów subskrypcyjnych i landingi kampanii.
+    - Automatyczne notyfikacje e-mail/SMS o wysyłce, dostawie i zmianach planu.
+    - Panel klienta z możliwością pauzowania i zmiany częstotliwości.
   metrics:
-    - label: "MRR"
-      value: "+42%"
-      description: "Wzrost miesięcznych przychodów po 3 miesiącach."
-    - label: "Churn subskrypcji"
-      value: "−18%"
-      description: "Dzięki self-service i personalizacji Klaviyo."
-    - label: "Czas obsługi ticketów"
-      value: "−55%"
-      description: "Automaty do FAQ + integracja z Gorgias."
+    - label: MRR
+      value: +42%
+      description: Wzrost miesięcznych przychodów po 3 miesiącach.
+    - label: Churn subskrypcji
+      value: −18%
+      description: Dzięki self-service i personalizacji Klaviyo.
+    - label: Czas obsługi ticketów
+      value: −55%
+      description: Automaty do FAQ + integracja z Gorgias.
   lessons:
-    - "Konfigurator musi pokazywać cenę w czasie rzeczywistym – to buduje zaufanie."
-    - "Self-service (pauza, zmiana częstotliwości) zmniejsza churn i liczbę ticketów."
-    - "Segmentacja Klaviyo na bazie danych z Recharge pozwala reagować przed rezygnacją."
+    - >-
+      Konfigurator musi pokazywać cenę w czasie rzeczywistym – to buduje
+      zaufanie.
+    - >-
+      Self-service (pauza, zmiana częstotliwości) zmniejsza churn i liczbę
+      ticketów.
+    - >-
+      Segmentacja Klaviyo na bazie danych z Recharge pozwala reagować przed
+      rezygnacją.
   primaryCta:
-    label: "Pobierz check-listę wdrożenia"
-    href: "/zasoby/banery-og/"
+    label: Pobierz check-listę wdrożenia
+    href: /zasoby/banery-og/
   secondaryCta:
-    label: "Zobacz wszystkie artykuły"
-    href: "/artykuly/"
+    label: Zobacz wszystkie artykuły
+    href: /artykuly/
 ---
 
 > **Nota redakcyjna:** To archiwalne studium przypadku. ProjektBezKodu udostępnia je jako instrukcję do samodzielnego wdrożenia i nie świadczy usług.

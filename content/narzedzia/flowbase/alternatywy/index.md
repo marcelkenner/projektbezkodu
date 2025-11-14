@@ -1,9 +1,9 @@
 ---
-title: "Flowbase Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/flowbase/alternatywy/"
+title: Flowbase Alternatywy
+slug: alternatywy
+path: /narzedzia/flowbase/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Flowbase Alternatywy

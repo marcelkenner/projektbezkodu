@@ -1,9 +1,9 @@
 ---
-title: "Framer Seo"
-slug: "seo"
-path: "/narzedzia/framer/seo/"
+title: Framer Seo
+slug: seo
+path: /narzedzia/framer/seo/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Framer Seo

@@ -811,8 +811,7 @@
   gap: var(--space-3);
 }
 
-.site-header__nav--desktop,
-.site-header__search--desktop {
+.site-header__nav--desktop {
   display: none;
 }
 
@@ -835,6 +834,10 @@
   border-radius: var(--radii-md);
   padding: 0 var(--space-2);
   background: #fff;
+}
+
+.site-header__search--desktop {
+  display: none;
 }
 
 .site-header__search input {

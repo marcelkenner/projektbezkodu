@@ -1,9 +1,9 @@
 ---
-title: "Framer Agencja"
-slug: "framer-agencja"
-path: "/szablony/framer-agencja/"
+title: Framer Agencja
+slug: framer-agencja
+path: /szablony/framer-agencja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Framer Agencja

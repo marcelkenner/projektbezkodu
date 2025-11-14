@@ -1,11 +1,13 @@
 ---
-title: "Siatka i spacing"
-slug: "siatka-i-spacing"
-path: "/design-system/siatka-i-spacing/"
-type: "guide"
-tags: ["evergreen", "design-system"]
+title: Siatka i spacing
+slug: siatka-i-spacing
+path: /design-system/siatka-i-spacing/
+type: guide
+tags:
+  - evergreen
+  - design-system
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Siatka i spacing

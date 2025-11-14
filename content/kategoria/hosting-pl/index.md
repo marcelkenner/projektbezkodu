@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Hosting Pl"
-slug: "hosting-pl"
-path: "/kategoria/hosting-pl/"
+title: 'Kategoria: Hosting Pl'
+slug: hosting-pl
+path: /kategoria/hosting-pl/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Hosting Pl

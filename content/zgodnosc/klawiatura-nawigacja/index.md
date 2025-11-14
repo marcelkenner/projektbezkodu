@@ -1,11 +1,13 @@
 ---
-title: "Nawigacja klawiaturą"
-slug: "klawiatura-nawigacja"
-path: "/zgodnosc/klawiatura-nawigacja/"
-type: "guide"
-tags: ["evergreen", "zgodnosc"]
+title: Nawigacja klawiaturą
+slug: klawiatura-nawigacja
+path: /zgodnosc/klawiatura-nawigacja/
+type: guide
+tags:
+  - evergreen
+  - zgodnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Nawigacja klawiaturą

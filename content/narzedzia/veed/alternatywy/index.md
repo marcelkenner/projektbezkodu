@@ -1,9 +1,9 @@
 ---
-title: "Veed Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/veed/alternatywy/"
+title: Veed Alternatywy
+slug: alternatywy
+path: /narzedzia/veed/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Veed Alternatywy

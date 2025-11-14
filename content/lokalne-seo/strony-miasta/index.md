@@ -1,11 +1,13 @@
 ---
-title: "Landing ‘Usługa w Mieście’"
-slug: "strony-miasta"
-path: "/lokalne-seo/strony-miasta/"
-type: "template"
-tags: ["evergreen", "lokalne-seo"]
+title: Landing ‘Usługa w Mieście’
+slug: strony-miasta
+path: /lokalne-seo/strony-miasta/
+type: template
+tags:
+  - evergreen
+  - lokalne-seo
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Landing ‘Usługa w Mieście’

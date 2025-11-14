@@ -9,7 +9,11 @@ import type { ContentRouteEntry } from "./contentLibrary";
 
 export class ContentPageViewModel {
   private readonly renderer: MarkdownRenderer;
-  private static readonly ARTICLE_TYPES = new Set(["article", "guide", "playbook"]);
+  private static readonly ARTICLE_TYPES = new Set([
+    "article",
+    "guide",
+    "playbook",
+  ]);
 
   constructor(private readonly entry: ContentRouteEntry) {
     this.renderer = new MarkdownRenderer(entry.document.content, {

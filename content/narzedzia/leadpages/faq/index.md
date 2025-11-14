@@ -1,16 +1,20 @@
 ---
-title: "Leadpages – FAQ"
-slug: "faq"
-path: "/narzedzia/leadpages/faq/"
+title: Leadpages – FAQ
+slug: faq
+path: /narzedzia/leadpages/faq/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Leadpages – odpowiedzi na najczęstsze pytania"
-  subheading: "Zapisuję to, o co ludzie zwykle pytają: limity, integracje, bezpieczeństwo i pierwsze kroki w Leadpages."
+  heading: Leadpages – odpowiedzi na najczęstsze pytania
+  subheading: >-
+    Zapisuję to, o co ludzie zwykle pytają: limity, integracje, bezpieczeństwo i
+    pierwsze kroki w Leadpages.
 seo:
-  title: "Leadpages – FAQ po polsku"
-  description: "Krótkie odpowiedzi na częste pytania o Leadpages: czy nadaje się na stronę główną, jak działa integracja z mailingiem i co z SEO."
+  title: Leadpages – FAQ po polsku
+  description: >-
+    Krótkie odpowiedzi na częste pytania o Leadpages: czy nadaje się na stronę
+    główną, jak działa integracja z mailingiem i co z SEO.
 ---
 
 # Leadpages – FAQ

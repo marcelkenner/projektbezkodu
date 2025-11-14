@@ -1,9 +1,9 @@
 ---
-title: "Webnode Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/webnode/alternatywy/"
+title: Webnode Alternatywy
+slug: alternatywy
+path: /narzedzia/webnode/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Webnode Alternatywy

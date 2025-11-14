@@ -1,11 +1,13 @@
 ---
-title: "Schema LocalBusiness – pola"
-slug: "schema-localbusiness"
-path: "/lokalne-seo/schema-localbusiness/"
-type: "guide"
-tags: ["evergreen", "lokalne-seo"]
+title: Schema LocalBusiness – pola
+slug: schema-localbusiness
+path: /lokalne-seo/schema-localbusiness/
+type: guide
+tags:
+  - evergreen
+  - lokalne-seo
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Schema LocalBusiness – pola

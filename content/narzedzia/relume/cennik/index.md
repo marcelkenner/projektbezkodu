@@ -1,9 +1,9 @@
 ---
-title: "Relume Cennik"
-slug: "cennik"
-path: "/narzedzia/relume/cennik/"
+title: Relume Cennik
+slug: cennik
+path: /narzedzia/relume/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Relume Cennik

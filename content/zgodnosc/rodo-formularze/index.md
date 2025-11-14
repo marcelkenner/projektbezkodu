@@ -1,11 +1,15 @@
 ---
-title: "RODO w formularzach – klauzule i zgody (szablony)"
-slug: "rodo-formularze"
-path: "/zgodnosc/rodo-formularze/"
-type: "template"
-tags: ["evergreen", "zgodnosc", "rodo", "formularze"]
+title: RODO w formularzach – klauzule i zgody (szablony)
+slug: rodo-formularze
+path: /zgodnosc/rodo-formularze/
+type: template
+tags:
+  - evergreen
+  - zgodnosc
+  - rodo
+  - formularze
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # RODO w formularzach: klauzule informacyjne i zgody (szablony)

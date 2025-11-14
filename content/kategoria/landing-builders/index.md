@@ -1,9 +1,9 @@
 ---
-title: "Kategoria: Landing Builders"
-slug: "landing-builders"
-path: "/kategoria/landing-builders/"
+title: 'Kategoria: Landing Builders'
+slug: landing-builders
+path: /kategoria/landing-builders/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kategoria: Landing Builders

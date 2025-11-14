@@ -1,9 +1,9 @@
 ---
-title: "Shutterstock Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/shutterstock/alternatywy/"
+title: Shutterstock Alternatywy
+slug: alternatywy
+path: /narzedzia/shutterstock/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Shutterstock Alternatywy

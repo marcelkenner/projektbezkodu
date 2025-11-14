@@ -1,19 +1,21 @@
 ---
-title: "Webflow vs Framer"
-slug: "webflow-vs-framer"
-path: "/porownania/webflow-vs-framer/"
+title: Webflow vs Framer
+slug: webflow-vs-framer
+path: /porownania/webflow-vs-framer/
 draft: false
-template: "comparison"
+template: comparison
 hero:
-  heading: "Webflow vs Framer"
-  subheading: "Dwa najpopularniejsze narzędzia do landingów no-code – co wybrać?"
+  heading: Webflow vs Framer
+  subheading: Dwa najpopularniejsze narzędzia do landingów no-code – co wybrać?
 seo:
-  title: "Webflow vs Framer"
-  description: "Porównanie Webflow i Framera pod kątem projektowania, CMS-u, wydajności i kosztów."
+  title: Webflow vs Framer
+  description: >-
+    Porównanie Webflow i Framera pod kątem projektowania, CMS-u, wydajności i
+    kosztów.
   keywords:
-    - "webflow"
-    - "framer"
-    - "porównanie"
+    - webflow
+    - framer
+    - porównanie
 meta:
   difficulty: null
   duration: null

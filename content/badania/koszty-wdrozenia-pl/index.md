@@ -1,11 +1,14 @@
 ---
-title: "Koszty wdrożenia stron w PL"
-slug: "koszty-wdrozenia-pl"
-path: "/badania/koszty-wdrozenia-pl/"
-type: "research"
-tags: ["evergreen", "badania", "research"]
+title: Koszty wdrożenia stron w PL
+slug: koszty-wdrozenia-pl
+path: /badania/koszty-wdrozenia-pl/
+type: research
+tags:
+  - evergreen
+  - badania
+  - research
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Koszty wdrożenia stron w PL

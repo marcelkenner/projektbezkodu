@@ -1,11 +1,13 @@
 ---
-title: "Kalkulator ROI szybkości"
-slug: "kalkulator-roi-szybkosci"
-path: "/narzedzia-dla-tworcow/kalkulator-roi-szybkosci/"
-type: "calculator"
-tags: ["evergreen", "narzedzia-dla-tworcow"]
+title: Kalkulator ROI szybkości
+slug: kalkulator-roi-szybkosci
+path: /narzedzia-dla-tworcow/kalkulator-roi-szybkosci/
+type: calculator
+tags:
+  - evergreen
+  - narzedzia-dla-tworcow
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kalkulator ROI szybkości

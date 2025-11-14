@@ -1,23 +1,27 @@
 ---
-title: "Zasoby i materiały"
-slug: "zasoby"
-path: "/zasoby/"
+title: Zasoby i materiały
+slug: zasoby
+path: /zasoby/
 draft: false
-template: "resource-hub"
+template: resource-hub
 hero:
-  heading: "Zasoby i materiały ProjektBezKodu"
-  subheading: "Checklisty, arkusze i katalogi, które pomagają zespołom no-code wdrażać projekty szybciej."
+  heading: Zasoby i materiały ProjektBezKodu
+  subheading: >-
+    Checklisty, arkusze i katalogi, które pomagają zespołom no-code wdrażać
+    projekty szybciej.
 seo:
-  title: "Zasoby i materiały do pracy bez kodu"
-  description: "Biblioteka plików do pobrania – checklisty, katalogi narzędzi, wzory dokumentów i gotowe materiały do wdrożeń no-code."
+  title: Zasoby i materiały do pracy bez kodu
+  description: >-
+    Biblioteka plików do pobrania – checklisty, katalogi narzędzi, wzory
+    dokumentów i gotowe materiały do wdrożeń no-code.
 meta:
-  format: "Katalog zasobów"
-  duration: "Przegląd w 10 minut"
+  format: Katalog zasobów
+  duration: Przegląd w 10 minut
   topics:
     - strategia
     - operacje
-  license: "CC BY 4.0"
-  detailsHref: "/zasoby/"
+  license: CC BY 4.0
+  detailsHref: /zasoby/
 ---
 
 ## Co znajdziesz w bibliotece

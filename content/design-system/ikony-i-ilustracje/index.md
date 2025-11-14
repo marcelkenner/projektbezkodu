@@ -1,11 +1,15 @@
 ---
-title: "Ikony i ilustracje: styl, grubości i spójność w design systemie"
-slug: "ikony-i-ilustracje"
-path: "/design-system/ikony-i-ilustracje/"
-type: "guide"
-tags: ["evergreen", "design-system", "ikony", "ilustracje"]
+title: 'Ikony i ilustracje: styl, grubości i spójność w design systemie'
+slug: ikony-i-ilustracje
+path: /design-system/ikony-i-ilustracje/
+type: guide
+tags:
+  - evergreen
+  - design-system
+  - ikony
+  - ilustracje
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Ikony i ilustracje: styl, grubości i spójność w design systemie

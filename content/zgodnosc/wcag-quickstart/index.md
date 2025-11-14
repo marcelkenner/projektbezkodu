@@ -1,11 +1,14 @@
 ---
-title: "WCAG quickstart – 30-punktowa checklista"
-slug: "wcag-quickstart"
-path: "/zgodnosc/wcag-quickstart/"
-type: "checklist"
-tags: ["evergreen", "zgodnosc", "wcag"]
+title: WCAG quickstart – 30-punktowa checklista
+slug: wcag-quickstart
+path: /zgodnosc/wcag-quickstart/
+type: checklist
+tags:
+  - evergreen
+  - zgodnosc
+  - wcag
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # WCAG quickstart: 30-punktowa checklista dla małych zespołów

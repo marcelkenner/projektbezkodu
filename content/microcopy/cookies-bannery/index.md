@@ -1,11 +1,13 @@
 ---
-title: "Bannery cookies – wzory"
-slug: "cookies-bannery"
-path: "/microcopy/cookies-bannery/"
-type: "template"
-tags: ["evergreen", "microcopy"]
+title: Bannery cookies – wzory
+slug: cookies-bannery
+path: /microcopy/cookies-bannery/
+type: template
+tags:
+  - evergreen
+  - microcopy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Bannery cookies – wzory

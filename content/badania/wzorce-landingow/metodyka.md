@@ -1,9 +1,9 @@
 ---
-title: "Metodyka: Wzorce Landingow"
-path: "/badania/wzorce-landingow/metodyka/"
-type: "research-methods"
+title: 'Metodyka: Wzorce Landingow'
+path: /badania/wzorce-landingow/metodyka/
+type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 ## Cel

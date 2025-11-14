@@ -1,9 +1,9 @@
 ---
-title: "Squarespace Cennik"
-slug: "cennik"
-path: "/narzedzia/squarespace/cennik/"
+title: Squarespace Cennik
+slug: cennik
+path: /narzedzia/squarespace/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Squarespace Cennik

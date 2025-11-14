@@ -1,16 +1,20 @@
 ---
-title: "Instapage – cennik"
-slug: "cennik"
-path: "/narzedzia/instapage/cennik/"
+title: Instapage – cennik
+slug: cennik
+path: /narzedzia/instapage/cennik/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Instapage – cennik i realne koszty"
-  subheading: "Sprawdzam, kiedy wysokie ceny Instapage się zwracają, a kiedy to przerost formy nad treścią."
+  heading: Instapage – cennik i realne koszty
+  subheading: >-
+    Sprawdzam, kiedy wysokie ceny Instapage się zwracają, a kiedy to przerost
+    formy nad treścią.
 seo:
-  title: "Instapage – cennik i dla kogo to się opłaca"
-  description: "Przegląd planów Instapage: ile to kosztuje, co dokładnie dostajesz oraz kiedy budżet na to narzędzie ma sens."
+  title: Instapage – cennik i dla kogo to się opłaca
+  description: >-
+    Przegląd planów Instapage: ile to kosztuje, co dokładnie dostajesz oraz
+    kiedy budżet na to narzędzie ma sens.
 ---
 
 # Instapage – cennik

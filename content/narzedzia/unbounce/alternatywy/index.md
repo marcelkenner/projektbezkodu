@@ -1,16 +1,20 @@
 ---
-title: "Unbounce – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/unbounce/alternatywy/"
+title: Unbounce – alternatywy
+slug: alternatywy
+path: /narzedzia/unbounce/alternatywy/
 draft: false
-template: "article"
-date: "2025-11-09"
+template: article
+date: '2025-11-09'
 hero:
-  heading: "Alternatywy dla Unbounce, gdy coś nie klika"
-  subheading: "Porównuję Unbounce z innymi kreatorami landing page'y, żeby dobrać narzędzie pod budżet i sposób pracy."
+  heading: Alternatywy dla Unbounce, gdy coś nie klika
+  subheading: >-
+    Porównuję Unbounce z innymi kreatorami landing page'y, żeby dobrać narzędzie
+    pod budżet i sposób pracy.
 seo:
-  title: "Alternatywy dla Unbounce – przegląd narzędzi"
-  description: "Zestawiam Unbounce z innymi narzędziami: tańsze, prostsze i bardziej rozbudowane alternatywy do tworzenia landing page'y."
+  title: Alternatywy dla Unbounce – przegląd narzędzi
+  description: >-
+    Zestawiam Unbounce z innymi narzędziami: tańsze, prostsze i bardziej
+    rozbudowane alternatywy do tworzenia landing page'y.
 ---
 
 # Alternatywy dla Unbounce

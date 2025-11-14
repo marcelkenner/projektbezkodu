@@ -1,11 +1,13 @@
 ---
-title: "Obrazy: formaty, rozmiary, lazy-load"
-slug: "obrazy-abc"
-path: "/wydajnosc/obrazy-abc/"
-type: "guide"
-tags: ["evergreen", "wydajnosc"]
+title: 'Obrazy: formaty, rozmiary, lazy-load'
+slug: obrazy-abc
+path: /wydajnosc/obrazy-abc/
+type: guide
+tags:
+  - evergreen
+  - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Obrazy: formaty, rozmiary, lazy-load

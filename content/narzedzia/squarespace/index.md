@@ -1,9 +1,9 @@
 ---
-title: "Squarespace"
-slug: "squarespace"
-path: "/narzedzia/squarespace/"
+title: Squarespace
+slug: squarespace
+path: /narzedzia/squarespace/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Squarespace

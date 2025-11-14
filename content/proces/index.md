@@ -1,11 +1,13 @@
 ---
-title: "Proces i zarządzanie projektem"
-slug: "s"
-path: "/proces/"
-type: "hub"
-tags: ["evergreen", "process"]
+title: Proces i zarządzanie projektem
+slug: s
+path: /proces/
+type: hub
+tags:
+  - evergreen
+  - process
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Proces i zarządzanie projektem

@@ -1,11 +1,14 @@
 ---
-title: "Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts"
-slug: "repurposing"
-path: "/repurposing/"
-type: "guide"
-tags: ["evergreen", "content", "recykling"]
+title: Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts
+slug: repurposing
+path: /repurposing/
+type: guide
+tags:
+  - evergreen
+  - content
+  - recykling
 draft: false
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 Tworzenie treści od zera za każdym razem to droga do wypalenia.  

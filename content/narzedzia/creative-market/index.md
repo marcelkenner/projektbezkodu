@@ -1,9 +1,9 @@
 ---
-title: "Creative Market"
-slug: "creative-market"
-path: "/narzedzia/creative-market/"
+title: Creative Market
+slug: creative-market
+path: /narzedzia/creative-market/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Creative Market

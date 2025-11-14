@@ -1,9 +1,9 @@
 ---
-title: "Vwo Alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/vwo/alternatywy/"
+title: Vwo Alternatywy
+slug: alternatywy
+path: /narzedzia/vwo/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Vwo Alternatywy

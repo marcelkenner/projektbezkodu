@@ -1,11 +1,13 @@
 ---
-title: "Strony 404/500 – szablony"
-slug: "404-500"
-path: "/microcopy/404-500/"
-type: "template"
-tags: ["evergreen", "microcopy"]
+title: Strony 404/500 – szablony
+slug: 404-500
+path: /microcopy/404-500/
+type: template
+tags:
+  - evergreen
+  - microcopy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Strony 404/500 – szablony

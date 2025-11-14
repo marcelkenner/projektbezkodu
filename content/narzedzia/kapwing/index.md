@@ -1,9 +1,9 @@
 ---
-title: "Kapwing"
-slug: "kapwing"
-path: "/narzedzia/kapwing/"
+title: Kapwing
+slug: kapwing
+path: /narzedzia/kapwing/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Kapwing
