@@ -14,12 +14,13 @@ export function generateStaticParams() {
   return tagDirectory.list().map((tag) => ({ slug: tag.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const tag = tagDirectory.get(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const tag = tagDirectory.get(resolvedParams.slug);
   if (!tag) {
     return {};
   }
@@ -32,13 +33,18 @@ export function generateMetadata({
   };
 }
 
-export default function TagPage({ params }: { params: { slug: string } }) {
-  const tag = tagDirectory.get(params.slug);
+export default async function TagPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const resolvedParams = await params;
+  const tag = tagDirectory.get(resolvedParams.slug);
   if (!tag) {
     notFound();
   }
 
-  const articles = tagDirectory.listArticles(params.slug);
+  const articles = tagDirectory.listArticles(resolvedParams.slug);
 
   return (
     <section className="tag-page" id="content">

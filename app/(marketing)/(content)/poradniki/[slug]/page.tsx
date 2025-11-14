@@ -16,15 +16,18 @@ const tutorialRepository = new TutorialRepository();
 const pillarCopy = getCopy("pillar");
 
 interface TutorialPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return tutorialRepository.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: TutorialPageProps): Metadata {
-  const tutorial = tutorialRepository.getTutorial(params.slug);
+export async function generateMetadata({
+  params,
+}: TutorialPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const tutorial = tutorialRepository.getTutorial(resolvedParams.slug);
   if (!tutorial) {
     return {};
   }
@@ -35,8 +38,11 @@ export function generateMetadata({ params }: TutorialPageProps): Metadata {
   };
 }
 
-export default function TutorialPage({ params }: TutorialPageProps) {
-  const coordinator = new PillarPageCoordinator(params.slug);
+export default async function TutorialPage({
+  params,
+}: TutorialPageProps) {
+  const resolvedParams = await params;
+  const coordinator = new PillarPageCoordinator(resolvedParams.slug);
   const viewModel = coordinator.build();
   if (!viewModel) {
     notFound();

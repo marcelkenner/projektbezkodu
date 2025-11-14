@@ -23,11 +23,14 @@ export const metadata: Metadata = {
 };
 
 interface TemplatesPageProps {
-  searchParams?: Record<string, string | string[] | undefined>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export default function TemplatesPage({ searchParams }: TemplatesPageProps) {
-  const filter = parseFilter(searchParams);
+export default async function TemplatesPage({
+  searchParams,
+}: TemplatesPageProps) {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const filter = parseFilter(resolvedSearchParams);
   const templates = catalog.list(filter);
 
   return (

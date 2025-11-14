@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import "./../newsletter.module.css";
 import { NewsletterUnsubscribeForm } from "../NewsletterUnsubscribeForm";
+import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 
 const copy = getCopy("newsletter");
 
@@ -17,22 +18,17 @@ export const metadata: Metadata = {
   },
 };
 
-interface UnsubscribeSearchParams {
-  subscriber?: string;
-  status?: string;
-  error?: string;
-}
+type UnsubscribeSearchParams = Record<string, string | string[] | undefined>;
 
-export default function NewsletterUnsubscribePage({
+export default async function NewsletterUnsubscribePage({
   searchParams,
 }: {
-  searchParams?: UnsubscribeSearchParams;
+  searchParams?: Promise<UnsubscribeSearchParams>;
 }) {
-  const subscriberUuid =
-    typeof searchParams?.subscriber === "string"
-      ? searchParams.subscriber
-      : undefined;
-  const alert = resolveAlert(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
+  const subscriberUuid = parser.getSingle("subscriber");
+  const alert = resolveAlert(parser);
 
   return (
     <section className="newsletter-page" id="content">
@@ -55,14 +51,18 @@ export default function NewsletterUnsubscribePage({
   );
 }
 
-function resolveAlert(searchParams?: UnsubscribeSearchParams): string | null {
-  if (!searchParams) {
+function resolveAlert(parser: SearchParamParser): string | null {
+  const status = parser.getSingle("status");
+  const error = parser.getSingle("error");
+
+  if (!status && !error) {
     return null;
   }
-  if (searchParams.status === "unsubscribed") {
+
+  if (status === "unsubscribed") {
     return "Wypisaliśmy Cię z newslettera.";
   }
-  switch (searchParams.error) {
+  switch (error) {
     case "missing-subscriber":
       return "Ten link wygasł. Użyj ostatniego e-maila, aby się wypisać.";
     case "unexpected":

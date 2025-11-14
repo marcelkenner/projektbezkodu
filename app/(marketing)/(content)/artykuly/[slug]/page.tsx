@@ -14,22 +14,26 @@ const articleRepository = new ArticleRepository();
 const allSummaries = articleRepository.listSummaries();
 
 interface ArticlePageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return articleRepository.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: ArticlePageProps): Metadata {
-  const article = articleRepository.getArticle(params.slug);
+export async function generateMetadata({
+  params,
+}: ArticlePageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
+  const article = articleRepository.getArticle(slug);
   if (!article) {
     return {};
   }
   const { frontmatter, excerpt } = article;
-  const summary = allSummaries.find((entry) => entry.slug === params.slug);
+  const summary = allSummaries.find((entry) => entry.slug === slug);
   const canonical =
-    summary?.path ?? frontmatter.path ?? `/artykuly/${params.slug}/`;
+    summary?.path ?? frontmatter.path ?? `/artykuly/${slug}/`;
   return {
     title: frontmatter.seo?.title ?? frontmatter.title,
     description: frontmatter.seo?.description ?? excerpt,
@@ -37,8 +41,12 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
   };
 }
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const article = articleRepository.getArticle(params.slug);
+export default async function ArticlePage({
+  params,
+}: ArticlePageProps) {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
+  const article = articleRepository.getArticle(slug);
   if (!article) {
     notFound();
   }
@@ -60,8 +68,8 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   const readingTime = frontmatter.meta?.duration;
   const publishedDate = formatDate(frontmatter.date);
   const updatedDate = formatDate(frontmatter.meta?.updatedAt);
-  const relatedArticles = articleRepository.getRelatedArticles(params.slug, 3);
-  const adjacent = findAdjacentArticles(params.slug);
+  const relatedArticles = articleRepository.getRelatedArticles(slug, 3);
+  const adjacent = findAdjacentArticles(slug);
   const hasAffiliateLinks = Boolean(frontmatter.meta?.hasAffiliateLinks);
   const primaryCta = frontmatter.meta?.primaryCta;
   const secondaryCta = frontmatter.meta?.secondaryCta;

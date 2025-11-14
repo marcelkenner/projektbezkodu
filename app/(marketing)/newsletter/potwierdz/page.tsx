@@ -10,6 +10,7 @@ import {
   parseSubscriberCookie,
 } from "@/app/lib/newsletter/cookies";
 import { getResendCooldownSeconds } from "@/app/lib/newsletter/NewsletterManager";
+import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 
 const copy = getCopy("newsletter");
 
@@ -25,15 +26,12 @@ export const metadata: Metadata = {
   },
 };
 
-interface ConfirmSearchParams {
-  status?: string;
-  error?: string;
-}
+type ConfirmSearchParams = Record<string, string | string[] | undefined>;
 
 export default async function NewsletterConfirmPage({
   searchParams,
 }: {
-  searchParams?: ConfirmSearchParams;
+  searchParams?: Promise<ConfirmSearchParams>;
 }) {
   const cookieStore = await cookies();
   const subscriberCookie = buildSubscriberCookieOptions();
@@ -42,7 +40,9 @@ export default async function NewsletterConfirmPage({
   );
   const resendCookie = buildResendCookieOptions();
   const resend = parseResendCookie(cookieStore.get(resendCookie.name)?.value);
-  const alert = resolveAlert(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
+  const alert = resolveAlert(parser);
 
   return (
     <section className="newsletter-page" id="content">
@@ -71,17 +71,21 @@ export default async function NewsletterConfirmPage({
   );
 }
 
-function resolveAlert(searchParams?: ConfirmSearchParams): string | null {
-  if (!searchParams) {
+function resolveAlert(parser: SearchParamParser): string | null {
+  const status = parser.getSingle("status");
+  const error = parser.getSingle("error");
+
+  if (!status && !error) {
     return null;
   }
-  if (searchParams.status === "success") {
+
+  if (status === "success") {
     return "Prośba o potwierdzenie została wysłana.";
   }
-  if (searchParams.status === "resent") {
+  if (status === "resent") {
     return "Wysłaliśmy wiadomość ponownie.";
   }
-  switch (searchParams.error) {
+  switch (error) {
     case "missing-context":
       return "Nie odnaleźliśmy Twojego adresu. Zapisz się ponownie.";
     case "listmonk-error":

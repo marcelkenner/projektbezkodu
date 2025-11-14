@@ -249,3 +249,24 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - Run `npm run dev`, submit `/newsletter` and `/newsletter` (homepage module) forms with a test email; confirm the double opt-in email arrives.
    - Append `?subscriber=<uuid>` from a Listmonk export to `/newsletter/preferencje` and `/newsletter/wypisz` to verify the happy path plus error states when the UUID is missing or expired.
    - Monitor Listmonk logs (`railway logs listmonk`) for 4xx/5xx responses whenever you adjust copy or consent requirements.
+
+## 21. App Router Query Handling
+
+1. Next.js 16 (React 19) now delivers both `searchParams` **and** `params` as Promises, even for static routes. Never access `params.slug`/`searchParams.foo` directly—doing so triggers runtime failures that block routes such as `/artykuly`, `/narzedzia`, or `/glossary/[slug]`.
+2. Type every page, layout, and metadata export with Promise-based props (e.g., `params?: Promise<{ slug: string }>` and `searchParams?: Promise<Record<string, string | string[] | undefined>>`) and make each consumer `async` so you can unwrap everything up front:
+   ```ts
+   export default async function Page({ searchParams }: PageProps) {
+     const resolvedSearchParams = searchParams ? await searchParams : undefined;
+     const parser = new SearchParamParser(resolvedSearchParams);
+     // ...
+   }
+   ```
+3. The same rule applies to `generateMetadata`, nested server components, and coordinators—pass them the resolved objects, never the raw promises.
+4. Use `SearchParamParser` (or dedicated coordinators) as the single source of truth for extracting `getSingle` / `getAll` values. This keeps newsletter alerts, article filters, and resource listings reusable while satisfying the SRP/OOP constraints from `AGENTS.md`.
+5. When introducing a new route, add lint coverage (`npm run lint`) before testing in the browser so Promise misuse is caught in CI instead of the runtime.
+
+## 22. Font Variables
+
+1. Treat `next/font` as the single source of truth for typography. The root layout must apply every font’s `.variable` class to `<body>`, which hydrates `--font-heading`, `--font-body`, and `--font-mono` with the actual font stacks (including latin-ext subsets).
+2. Mirror those values into the shared tokens by assigning `--typography-fontFamily-heading`, `--typography-fontFamily-body`, and `--typography-fontFamily-mono` directly from the `--font-*` variables in `app/globals.css`. Always provide the original design-token string as the fallback inside `var()` so emails/docs rendered without `next/font` still have a sane stack.
+3. Components must reference the typography variables, not the raw `--font-*` names. Example: `.pbk-button { font-family: var(--typography-fontFamily-heading); line-height: 1.1; }` ensures headings, CTAs, and Polish diacritics all draw Space Grotesk instead of falling back to OS defaults.

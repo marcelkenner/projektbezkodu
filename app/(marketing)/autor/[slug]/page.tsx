@@ -18,12 +18,13 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const profile = authorDirectory.getProfile(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const profile = authorDirectory.getProfile(resolvedParams.slug);
   if (!profile) {
     return {};
   }
@@ -37,14 +38,19 @@ export function generateMetadata({
   };
 }
 
-export default function AuthorPage({ params }: { params: { slug: string } }) {
-  const profile = authorDirectory.getProfile(params.slug);
+export default async function AuthorPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const resolvedParams = await params;
+  const profile = authorDirectory.getProfile(resolvedParams.slug);
   if (!profile) {
     notFound();
   }
 
-  const stats = authorDirectory.getStats(params.slug);
-  const articles = authorDirectory.listArticles(params.slug);
+  const stats = authorDirectory.getStats(resolvedParams.slug);
+  const articles = authorDirectory.listArticles(resolvedParams.slug);
   const rssHref = `/rss/autor/${profile.slug}.xml`;
 
   return (

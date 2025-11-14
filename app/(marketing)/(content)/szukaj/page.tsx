@@ -7,16 +7,17 @@ import { getCopy } from "../../../lib/copy";
 const searchEngine = new ContentSearchEngine();
 
 interface SearchPageProps {
-  searchParams?: Record<string, string | string[] | undefined>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 function formatResultLabel(template: string, count: number): string {
   return template.replace("{count}", String(count));
 }
 
-export default function SearchPage({ searchParams }: SearchPageProps) {
+export default async function SearchPage({ searchParams }: SearchPageProps) {
   const copy = getCopy("search");
-  const parser = new SearchParamParser(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
   const query = parser.getSingle("q") ?? "";
   const hasQuery = query.trim().length > 0;
   const results = hasQuery ? searchEngine.search(query) : [];

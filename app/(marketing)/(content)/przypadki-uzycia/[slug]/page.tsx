@@ -18,12 +18,13 @@ export function generateStaticParams() {
   return repository.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const caseStudy = repository.getCaseStudy(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const caseStudy = repository.getCaseStudy(resolvedParams.slug);
   if (!caseStudy) {
     return {};
   }
@@ -34,17 +35,19 @@ export function generateMetadata({
     description:
       seo?.description ?? caseStudy.excerpt ?? copy.seo.fallbackDescription,
     alternates: {
-      canonical: seo?.canonical ?? `${copy.seo.canonicalPrefix}/${params.slug}`,
+      canonical:
+        seo?.canonical ?? `${copy.seo.canonicalPrefix}/${resolvedParams.slug}`,
     },
   };
 }
 
-export default function CaseStudyPage({
+export default async function CaseStudyPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const document = repository.getCaseStudy(params.slug);
+  const resolvedParams = await params;
+  const document = repository.getCaseStudy(resolvedParams.slug);
   if (!document) {
     notFound();
   }

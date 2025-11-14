@@ -15,12 +15,13 @@ const PAGE_SIZE = 9;
 
 type SearchParams = Record<string, string | string[] | undefined>;
 
-export function generateMetadata({
+export async function generateMetadata({
   searchParams,
 }: {
-  searchParams?: SearchParams;
-}): Metadata {
-  const parser = new SearchParamParser(searchParams);
+  searchParams?: Promise<SearchParams>;
+}): Promise<Metadata> {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
   const pageValue = parser.getSingle("page");
   const pageNumber = pageValue ? Number(pageValue) : 1;
   const isPaginated = Number.isFinite(pageNumber) && pageNumber > 1;
@@ -42,12 +43,15 @@ export function generateMetadata({
 }
 
 interface ArticlesPageProps {
-  searchParams?: SearchParams;
+  searchParams?: Promise<SearchParams>;
 }
 
-export default function ArticlesPage({ searchParams }: ArticlesPageProps) {
+export default async function ArticlesPage({
+  searchParams,
+}: ArticlesPageProps) {
   const copy = getCopy("articles");
-  const parser = new SearchParamParser(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
 
   const query = parser.getSingle("q");
   const category = parser.getSingle("kategoria");

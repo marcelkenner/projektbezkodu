@@ -7,10 +7,10 @@
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radii-md);
   border: 1px solid transparent;
-  font-family: var(--font-heading);
+  font-family: var(--typography-fontFamily-heading);
   font-weight: var(--typography-fontWeight-semibold);
   font-size: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
-  line-height: 1;
+  line-height: 1.1;
   transition:
     background var(--motion-duration-base) var(--motion-easing-standard),
     color var(--motion-duration-base) var(--motion-easing-standard),

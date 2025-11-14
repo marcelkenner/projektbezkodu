@@ -17,12 +17,13 @@ export function generateStaticParams() {
   return catalog.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const leadMagnet = catalog.get(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const leadMagnet = catalog.get(resolvedParams.slug);
   const thankYou = leadMagnet?.thankYou;
   if (!thankYou) {
     return {};
@@ -40,12 +41,13 @@ export function generateMetadata({
   };
 }
 
-export default function LeadMagnetThankYouPage({
+export default async function LeadMagnetThankYouPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const leadMagnet = catalog.get(params.slug);
+  const resolvedParams = await params;
+  const leadMagnet = catalog.get(resolvedParams.slug);
   const thankYou = leadMagnet?.thankYou;
   if (!leadMagnet || !thankYou) {
     notFound();

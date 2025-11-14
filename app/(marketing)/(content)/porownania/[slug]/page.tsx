@@ -8,15 +8,18 @@ import { Badge } from "@/app/ui";
 const comparisonRepository = new ComparisonRepository();
 
 interface ComparisonPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return comparisonRepository.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: ComparisonPageProps): Metadata {
-  const comparison = comparisonRepository.getComparison(params.slug);
+export async function generateMetadata({
+  params,
+}: ComparisonPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const comparison = comparisonRepository.getComparison(resolvedParams.slug);
   if (!comparison) {
     return {};
   }
@@ -27,8 +30,11 @@ export function generateMetadata({ params }: ComparisonPageProps): Metadata {
   };
 }
 
-export default function ComparisonPage({ params }: ComparisonPageProps) {
-  const comparison = comparisonRepository.getComparison(params.slug);
+export default async function ComparisonPage({
+  params,
+}: ComparisonPageProps) {
+  const resolvedParams = await params;
+  const comparison = comparisonRepository.getComparison(resolvedParams.slug);
   if (!comparison) {
     notFound();
   }

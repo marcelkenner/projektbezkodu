@@ -12,12 +12,13 @@ export function generateStaticParams() {
   return catalog.list().map((template) => ({ slug: template.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const template = catalog.find(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const template = catalog.find(resolvedParams.slug);
   if (!template) {
     return {};
   }
@@ -31,12 +32,13 @@ export function generateMetadata({
   };
 }
 
-export default function TemplateDetailPage({
+export default async function TemplateDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const template = catalog.find(params.slug);
+  const resolvedParams = await params;
+  const template = catalog.find(resolvedParams.slug);
   if (!template) {
     notFound();
   }

@@ -6,15 +6,18 @@ import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 const glossaryRepository = new GlossaryRepository();
 
 interface GlossaryPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return glossaryRepository.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: GlossaryPageProps): Metadata {
-  const term = glossaryRepository.getTerm(params.slug);
+export async function generateMetadata({
+  params,
+}: GlossaryPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const term = glossaryRepository.getTerm(resolvedParams.slug);
   if (!term) {
     return {};
   }
@@ -26,8 +29,9 @@ export function generateMetadata({ params }: GlossaryPageProps): Metadata {
   };
 }
 
-export default function GlossaryTermPage({ params }: GlossaryPageProps) {
-  const term = glossaryRepository.getTerm(params.slug);
+export default async function GlossaryTermPage({ params }: GlossaryPageProps) {
+  const resolvedParams = await params;
+  const term = glossaryRepository.getTerm(resolvedParams.slug);
   if (!term) {
     notFound();
   }

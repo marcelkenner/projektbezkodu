@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Button, CheckboxField } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
+import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import "./../newsletter.module.css";
 
 const copy = getCopy("newsletter");
@@ -17,22 +18,17 @@ export const metadata: Metadata = {
   },
 };
 
-interface PreferencesSearchParams {
-  subscriber?: string;
-  status?: string;
-  error?: string;
-}
+type PreferencesSearchParams = Record<string, string | string[] | undefined>;
 
-export default function NewsletterPreferencesPage({
+export default async function NewsletterPreferencesPage({
   searchParams,
 }: {
-  searchParams?: PreferencesSearchParams;
+  searchParams?: Promise<PreferencesSearchParams>;
 }) {
-  const subscriberUuid =
-    typeof searchParams?.subscriber === "string"
-      ? searchParams.subscriber
-      : undefined;
-  const alert = resolveAlert(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
+  const subscriberUuid = parser.getSingle("subscriber");
+  const alert = resolveAlert(parser);
   const formDisabled = !subscriberUuid;
 
   return (
@@ -84,14 +80,18 @@ export default function NewsletterPreferencesPage({
   );
 }
 
-function resolveAlert(searchParams?: PreferencesSearchParams): string | null {
-  if (!searchParams) {
+function resolveAlert(parser: SearchParamParser): string | null {
+  const status = parser.getSingle("status");
+  const error = parser.getSingle("error");
+
+  if (!status && !error) {
     return null;
   }
-  if (searchParams.status === "preferences-saved") {
+
+  if (status === "preferences-saved") {
     return "Twoje preferencje zostały zaktualizowane.";
   }
-  switch (searchParams.error) {
+  switch (error) {
     case "missing-subscriber":
       return "Brakuje identyfikatora subskrybenta. Użyj linku z newslettera.";
     case "topics-required":

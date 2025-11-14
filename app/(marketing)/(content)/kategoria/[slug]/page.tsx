@@ -10,7 +10,7 @@ import "../category.module.css";
 const articleRepository = new ArticleRepository();
 
 interface CategoryPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
@@ -19,34 +19,40 @@ export function generateStaticParams() {
     .map((category) => ({ slug: category.slug }));
 }
 
-export function generateMetadata({ params }: CategoryPageProps): Metadata {
-  const category = articleTaxonomyCatalog.getCategory(params.slug);
+export async function generateMetadata({
+  params,
+}: CategoryPageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const category = articleTaxonomyCatalog.getCategory(resolvedParams.slug);
   if (!category) {
     return {};
   }
   const hubs = getCopy("categoryHubs");
   const baseConfig = hubs.default;
-  const hubConfig = { ...baseConfig, ...(hubs[params.slug] ?? {}) };
+  const hubConfig = { ...baseConfig, ...(hubs[resolvedParams.slug] ?? {}) };
   return {
     title: `${hubConfig.heading} | ${category.label} | ProjektBezKodu`,
     description: hubConfig.subheading,
     alternates: {
-      canonical: `/kategoria/${params.slug}/`,
+      canonical: `/kategoria/${resolvedParams.slug}/`,
     },
   };
 }
 
-export default function CategoryHubPage({ params }: CategoryPageProps) {
-  const category = articleTaxonomyCatalog.getCategory(params.slug);
+export default async function CategoryHubPage({
+  params,
+}: CategoryPageProps) {
+  const resolvedParams = await params;
+  const category = articleTaxonomyCatalog.getCategory(resolvedParams.slug);
   if (!category) {
     notFound();
   }
   const hubs = getCopy("categoryHubs");
   const baseConfig = hubs.default;
-  const hubConfig = { ...baseConfig, ...(hubs[params.slug] ?? {}) };
+  const hubConfig = { ...baseConfig, ...(hubs[resolvedParams.slug] ?? {}) };
   const summaries = articleRepository.listSummaries();
   const articlesInCategory = summaries.filter((article) =>
-    (article.taxonomy?.categories ?? []).includes(params.slug),
+    (article.taxonomy?.categories ?? []).includes(resolvedParams.slug),
   );
   const featuredArticles = (hubConfig.featuredSlugs ?? [])
     .map((slug) => summaries.find((article) => article.slug === slug))

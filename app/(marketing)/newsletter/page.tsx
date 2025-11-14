@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Button, TextField, CheckboxField } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
+import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import "./newsletter.module.css";
 
 const copy = getCopy("newsletter");
@@ -13,17 +14,16 @@ export const metadata: Metadata = {
   },
 };
 
-interface NewsletterPageSearchParams {
-  error?: string;
-  status?: string;
-}
+type NewsletterPageSearchParams = Record<string, string | string[] | undefined>;
 
-export default function NewsletterLandingPage({
+export default async function NewsletterLandingPage({
   searchParams,
 }: {
-  searchParams?: NewsletterPageSearchParams;
+  searchParams?: Promise<NewsletterPageSearchParams>;
 }) {
-  const alert = resolveAlert(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
+  const alert = resolveAlert(parser);
 
   return (
     <section className="newsletter-page" id="content">
@@ -66,16 +66,18 @@ export default function NewsletterLandingPage({
   );
 }
 
-function resolveAlert(
-  searchParams?: NewsletterPageSearchParams,
-): string | null {
-  if (!searchParams) {
+function resolveAlert(parser: SearchParamParser): string | null {
+  const status = parser.getSingle("status");
+  const error = parser.getSingle("error");
+
+  if (!status && !error) {
     return null;
   }
-  if (searchParams.status === "success") {
+
+  if (status === "success") {
     return "Wysłaliśmy prośbę o potwierdzenie subskrypcji.";
   }
-  switch (searchParams.error) {
+  switch (error) {
     case "invalid-email":
       return "Podaj poprawny adres e-mail.";
     case "consent-required":

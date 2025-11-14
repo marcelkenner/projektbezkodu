@@ -8,14 +8,17 @@ import { getCopy } from "../../../lib/copy";
 const glossaryRepository = new GlossaryRepository();
 
 interface GlossaryIndexProps {
-  searchParams?: Record<string, string | string[] | undefined>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export default function GlossaryIndex({ searchParams }: GlossaryIndexProps) {
+export default async function GlossaryIndex({
+  searchParams,
+}: GlossaryIndexProps) {
   const copy = getCopy("glossary");
   const terms = glossaryRepository.listSummaries();
   const directory = new GlossaryDirectory(terms);
-  const parser = new SearchParamParser(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
   const query = parser.getSingle("q") ?? "";
   const filtered = directory.filter({ query });
   const groups = directory.group(filtered);

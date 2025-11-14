@@ -21,12 +21,13 @@ export function generateStaticParams() {
   return repository.listSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const resource = repository.getResource(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const resource = repository.getResource(resolvedParams.slug);
   if (!resource) {
     return {};
   }
@@ -45,17 +46,18 @@ export function generateMetadata({
   };
 }
 
-export default function ResourceDetailPage({
+export default async function ResourceDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const document = repository.getResource(params.slug);
+  const resolvedParams = await params;
+  const document = repository.getResource(resolvedParams.slug);
   if (!document) {
     notFound();
   }
 
-  const entry = directory.findBySlug(params.slug);
+  const entry = directory.findBySlug(resolvedParams.slug);
   const viewModel = new ResourceDetailViewModel(document, entry);
   const headings = viewModel.getHeadings();
   const download = viewModel.getDownloadAction();

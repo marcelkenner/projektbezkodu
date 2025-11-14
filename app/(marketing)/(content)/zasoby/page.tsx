@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 interface ResourcesPageProps {
-  searchParams?: Record<string, string | string[] | undefined>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 class ResourceListingManager {
@@ -80,8 +80,11 @@ class ResourcesPageCoordinator {
   }
 }
 
-export default function ResourcesPage({ searchParams }: ResourcesPageProps) {
-  const coordinator = new ResourcesPageCoordinator(searchParams);
+export default async function ResourcesPage({
+  searchParams,
+}: ResourcesPageProps) {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const coordinator = new ResourcesPageCoordinator(resolvedSearchParams);
   const { entries, filters, criteria, hasAnyResources } =
     coordinator.snapshot();
 

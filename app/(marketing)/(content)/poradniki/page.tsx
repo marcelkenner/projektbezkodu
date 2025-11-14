@@ -9,19 +9,22 @@ import { getCopy } from "../../../lib/copy";
 const tutorialRepository = new TutorialRepository();
 
 interface TutorialsIndexProps {
-  searchParams?: Record<string, string | string[] | undefined>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 function formatResultLabel(template: string, count: number): string {
   return template.replace("{count}", String(count));
 }
 
-export default function TutorialsIndex({ searchParams }: TutorialsIndexProps) {
+export default async function TutorialsIndex({
+  searchParams,
+}: TutorialsIndexProps) {
   const copy = getCopy("tutorials");
   const allTutorials = tutorialRepository.listSummaries();
   const directory = new TutorialDirectory(allTutorials);
   const filters = directory.getFilters();
-  const parser = new SearchParamParser(searchParams);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const parser = new SearchParamParser(resolvedSearchParams);
   const selectedDifficulty = parser.getSingle("difficulty");
   const selectedTool = parser.getSingle("tool");
   const filteredTutorials = directory.list({
