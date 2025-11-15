@@ -1,39 +1,39 @@
 {
   "header": {
     "skipLink": {
-      "label": "Przejdź do treści",
+      "label": "Przejdź do treści głównej",
       "target": "#content"
     },
     "nav": [
       { "label": "O nas", "href": "/o-nas" },
-      { "label": "Artykuły", "href": "/artykuly" },
-      { "label": "Narzędzia", "href": "/narzedzia" },
+      { "label": "Artykuły i poradniki", "href": "/artykuly" },
+      { "label": "Narzędzia no-code", "href": "/narzedzia" },
       { "label": "Szablony", "href": "/szablony" },
       { "label": "Kontakt", "href": "/kontakt" }
     ],
     "search": {
       "label": "Szukaj w serwisie",
-      "placeholder": "Czego dziś potrzebujesz?",
+      "placeholder": "Znajdź poradnik, szablon lub narzędzie…",
       "buttonLabel": "Szukaj",
       "action": "/szukaj/"
     }
   },
   "hero": {
-    "heading": "Postaw stronę no-code i zacznij zbierać leady jeszcze w tym tygodniu",
-    "subheading": "Oferta widoczna, leady w skrzynce, a ty samodzielnie ogarniasz treści – bez proszenia developera o każdą zmianę.",
+    "heading": "Postaw stronę no-code i zacznij zbierać leady w tym tygodniu",
+    "subheading": "Oferta jest widoczna, leady wpadają do skrzynki, a ty samodzielnie ogarniasz treści – bez czekania na wolne moce programistów.",
     "primaryCta": {
       "label": "Start z Webflow",
       "href": "/narzedzia/webflow/",
-      "ariaLabel": "Przejdź do opisu narzędzia Webflow"
+      "ariaLabel": "Przejdź do przewodnika startowego z Webflow"
     },
     "secondaryCta": {
-      "label": "Plan na 30 dni z Webflow",
+      "label": "Plan 30 dni z Webflow",
       "href": "/sciezki/webflow-30-dni/"
     },
-    "microcopy": "Niektóre linki do Webflow mogą być afiliacyjne.",
+    "microcopy": "Niektóre linki do Webflow są afiliacyjne – polecamy tylko narzędzia, z których sami korzystamy.",
     "image": {
       "src": "/img/hero-3x2.webp",
-      "alt": "Układ bloków strony internetowej z nagłówkiem, sekcją ofertową i formularzem kontaktowym, układanych jak klocki przez ludzi.",
+      "alt": "Makieta strony internetowej układanej z bloków przez kilka osób – nagłówek, oferta i formularz kontaktowy.",
       "width": 1120,
       "height": 747,
       "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1120px",
@@ -45,7 +45,7 @@
     }
   },
   "socialProof": {
-    "heading": "Twórz na:",
+    "heading": "Projektuj w:",
     "logos": [
       { "src": "/images/logos/webflow.svg", "alt": "Logo Webflow" },
       { "src": "/images/logos/framer.svg", "alt": "Logo Framer" },
@@ -60,49 +60,49 @@
     "items": [
       {
         "title": "Landing page pod kampanię",
-        "description": "Stworzysz kompletną stronę kampanii w kilka dni zamiast tygodni – z gotowymi sekcjami, formularzami i integracją z CRM.",
+        "description": "Stworzysz kompletny landing pod kampanię w kilka dni zamiast tygodni – z gotowymi sekcjami, formularzami i integracją z CRM, której nie musisz kodować.",
         "href": "/narzedzia/landing-page/",
         "icon": "bolt"
       },
       {
         "title": "Animacje i mikrointerakcje",
-        "description": "Dodasz ruch, przejścia i efekty hover, które podnoszą konwersję – bez pisania ani jednej linijki kodu.",
+        "description": "Dodasz ruch, przejścia i efekty hover, które zwiększają czytelność i konwersję – bez pisania ani jednej linijki kodu.",
         "href": "/narzedzia/animacje/",
         "icon": "spark"
       },
       {
         "title": "Automatyczne procesy",
-        "description": "Połączysz formularze, maile i komunikatory tak, żeby każdy nowy lead wpadał we właściwy proces sprzedażowy.",
+        "description": "Połączysz formularze, maile i komunikatory tak, żeby każdy nowy lead automatycznie wpadał do właściwego procesu sprzedażowego.",
         "href": "/poradniki/automatyzacje/",
         "icon": "workflow"
       },
       {
         "title": "SEO i widoczność w Google",
-        "description": "Ustawisz meta dane, struktury nagłówków, przekierowania i podstawowe Core Web Vitals, żeby strona miała szansę rankować.",
+        "description": "Ustawisz metadane, nagłówki, przekierowania i podstawowe Core Web Vitals tak, żeby strona miała realną szansę pojawiać się w wynikach wyszukiwania.",
         "href": "/artykuly/seo/",
         "icon": "target"
       },
       {
         "title": "Gotowe sekcje i układy",
-        "description": "Wkleisz sprawdzone sekcje hero, pricing, porównania czy FAQ i szybko złożysz z nich cały layout.",
+        "description": "Wkleisz sprawdzone sekcje hero, pricing, porównania czy FAQ i w godzinę złożysz pierwszy działający layout.",
         "href": "/szablony/",
         "icon": "layers"
       },
       {
         "title": "Wydajność i stabilność",
-        "description": "Skorzystasz z hostingu w chmurze, CDN i monitoringu szybkości, żeby strona działała sprawnie nawet przy dużym ruchu.",
+        "description": "Skorzystasz z hostingu w chmurze, CDN i monitoringu szybkości, dzięki czemu strona działa stabilnie nawet przy skokach ruchu.",
         "href": "/artykuly/core-web-vitals/",
         "icon": "speed"
       },
       {
         "title": "CMS dla zespołu",
-        "description": "Oddzielisz warstwę treści od layoutu, dzięki czemu marketing wrzuca nowe wpisy i case studies bez dotykania projektu strony.",
+        "description": "Oddzielisz warstwę treści od layoutu, dzięki czemu marketing wrzuca nowe wpisy i case studies bez proszenia kogokolwiek o kolejną poprawkę w projekcie.",
         "href": "/narzedzia/cms/",
         "icon": "database"
       },
       {
         "title": "Testy i eksperymenty",
-        "description": "Szybko stworzysz warianty sekcji, podepniesz narzędzia do testów A/B i sprawdzisz, który wariant lepiej dowozi wyniki.",
+        "description": "Szybko stworzysz warianty sekcji, podepniesz narzędzia do testów A/B i zobaczysz, który wariant faktycznie dowozi lepsze wyniki.",
         "href": "/narzedzia/testy-a-b/",
         "icon": "experiment"
       }
@@ -113,40 +113,40 @@
     "steps": [
       {
         "title": "Określasz cel i ofertę",
-        "description": "Decydujesz, po co stawiasz stronę: zbierasz leady, zapisujesz na webinar, sprzedajesz produkt? Ustalasz grupę docelową i główną obietnicę, którą zobaczą na stronie."
+        "description": "Decydujesz, po co stawiasz stronę: zbierasz leady, zapisujesz na webinar, sprzedajesz produkt? Definiujesz grupę docelową i jedną główną obietnicę, którą zobaczą nad zgięciem strony."
       },
       {
         "title": "Układasz strukturę strony",
-        "description": "Wybierasz sekcje: hero, oferta, social proof, FAQ, formularz. Z checklistą łatwo sprawdzasz, czy odpowiadasz na najczęstsze pytania i nie gubisz kluczowych elementów."
+        "description": "Wybierasz sekcje: hero, oferta, social proof, FAQ, formularz. Z checklistą szybko sprawdzasz, czy odpowiadasz na najczęstsze pytania i nie gubisz elementów, które domykają sprzedaż."
       },
       {
         "title": "Budujesz layout w no-code",
-        "description": "Składasz stronę z gotowych bloków jak z klocków: zmieniasz teksty, zdjęcia i kolory, dopasowujesz wersję mobilną i od razu widzisz, jak wszystko wygląda w podglądzie."
+        "description": "Składasz stronę z gotowych bloków jak z klocków: podmieniasz teksty, zdjęcia i kolory, dopasowujesz wersję mobilną i od razu widzisz efekt w podglądzie."
       },
       {
         "title": "Podpinasz formularze i automatyzacje",
-        "description": "Dodajesz formularz kontaktowy lub zapis na newsletter, łączysz go z CRM i narzędziami do mailingu, żeby każdy nowy kontakt trafiał we właściwe miejsce bez ręcznej pracy."
+        "description": "Dodajesz formularz kontaktowy lub zapis na newsletter, łączysz go z CRM i narzędziami do mailingu, żeby każdy nowy kontakt od razu trafiał we właściwą listę i etap procesu."
       },
       {
         "title": "Publikujesz i optymalizujesz",
-        "description": "Podłączasz domenę, odpalasz analitykę i testy A/B. Patrzysz, skąd przychodzą użytkownicy, które sekcje działają najlepiej i na tej podstawie wprowadzasz kolejne poprawki."
+        "description": "Podłączasz domenę, odpalasz analitykę i testy A/B. Patrzysz, skąd przychodzą użytkownicy, które sekcje dowożą najwięcej akcji i na tej podstawie wprowadzasz następne poprawki."
       }
     ]
   },
   "articles": {
     "heading": "Najnowsze materiały",
     "ctaLabel": "Czytaj →",
-    "loading": "Ładujemy dla ciebie najnowsze treści…",
-    "empty": "Na razie nie ma tu jeszcze artykułów."
+    "loading": "Ładujemy najnowsze artykuły – za moment zobaczysz, co możesz wdrożyć.",
+    "empty": "Na razie nie ma tu jeszcze artykułów. Sprawdź ponownie później lub przejdź do wszystkich materiałów z menu „Artykuły i poradniki”."
   },
   "newsletter": {
-    "heading": "Chcę checklistę i gotowe sekcje",
-    "body": "Zapisz się na listę – w tygodniu dostaniesz checklistę publikacji, gotowe sekcje hero i listę narzędzi, które przyspieszą start.",
+    "heading": "Chcę checklistę i gotowe sekcje na start",
+    "body": "Zapisz się na listę – w tygodniu dostaniesz checklistę publikacji, gotowe sekcje hero oraz listę narzędzi, które realnie przyspieszą start strony.",
     "form": {
       "emailLabel": "E-mail",
       "emailPlaceholder": "mój@adres.pl",
-      "consentLabel": "Zgadzam się na kontakt mailowy",
-      "submitLabel": "Dołącz",
+      "consentLabel": "Zgadzam się na kontakt mailowy i otrzymywanie newslettera.",
+      "submitLabel": "Dołącz teraz",
       "privacyLabel": "Polityka prywatności",
       "privacyHref": "/polityka-prywatnosci/"
     }

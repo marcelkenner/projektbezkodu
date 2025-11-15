@@ -1,33 +1,33 @@
 {
   "seo": {
     "title": "O nas | ProjektBezKodu",
-    "description": "Poznaj zespół ProjektBezKodu. Łączymy strategię, SEO i automatyzacje, żeby strony no-code dawały wyniki biznesowe.",
+    "description": "Poznaj ProjektBezKodu. Pokazujemy, jak łączyć strategię, SEO i automatyzacje, żeby strony no-code dowoziły leady, a nie tylko ładnie wyglądały.",
     "canonical": "https://projektbezkodu.pl/o-nas/"
   },
   "hero": {
     "title": "O nas",
-    "lead": "Publikujemy procesy no-code, checklisty i biblioteki, żeby marketing mógł działać samodzielnie."
+    "lead": "Publikujemy sprawdzone procesy no-code, checklisty i biblioteki, dzięki którym marketing może działać samodzielnie – bez czekania na programistów."
   },
   "purpose": {
     "heading": "Po co istniejemy",
     "paragraphs": [
-      "ProjektBezKodu powstał, by skrócić drogę od pomysłu na stronę do pierwszych leadów. Łączymy procesy operacyjne z narzędziami no-code i dajemy zespołom gotowe check-listy, żeby iterować szybciej.",
-      "Bazujemy na praktycznych wdrożeniach dla B2B, SaaS i marek eksperckich. Każdy komponent w bibliotece przetestowaliśmy produkcyjnie."
+      "ProjektBezKodu powstał po to, żeby skrócić drogę od pomysłu na stronę do pierwszych leadów. Łączymy procesy operacyjne z narzędziami no-code i dajemy zespołom gotowe checklisty, żeby iterować tygodniami szybciej, nie tracąc jakości.",
+      "Bazujemy na realnych wdrożeniach dla B2B, SaaS i marek eksperckich – niczego nie projektujemy zza biurka. Każdy komponent w bibliotece ma za sobą produkcyjne użycie na prawdziwych projektach."
     ]
   },
   "team": {
     "heading": "Kim jesteśmy",
     "members": [
       {
-        "slug": "marcel-nowak",
-        "name": "Marcel Nowak",
-        "role": "Strateg no-code, autor playbooków",
-        "bio": "Projektuje procesy lead generation i architekturę treści. Łączy marketing z operacjami, aby każda iteracja była mierzalna.",
-        "avatar": "/img/authors/marcel-nowak.webp",
+        "slug": "marcel-Kenner",
+        "name": "Marcel Kenner",
+        "role": "Strateg no-code i autor playbooków",
+        "bio": "Projektuje procesy lead generation i architekturę treści, które da się mierzyć od pierwszej publikacji. Łączy marketing z operacjami, żeby każdy eksperyment kończył się konkretną decyzją, a nie tylko ładnym raportem.",
+        "avatar": "/img/authors/marcel-kenner.webp",
         "links": [
           {
             "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/marcel-nowak/",
+            "href": "https://www.linkedin.com/in/marcel-kenner/",
             "rel": "me noopener"
           },
           {
@@ -36,50 +36,36 @@
             "rel": "noopener"
           }
         ]
-      },
-      {
-        "slug": "ola-kowalska",
-        "name": "Ola Kowalska",
-        "role": "SEO & Content Strategist",
-        "bio": "Optymalizuje Webflow i Framera pod Core Web Vitals, prowadzi audyty treści i mapy słów kluczowych.",
-        "avatar": "/img/authors/ola-kowalska.webp",
-        "links": [
-          {
-            "label": "LinkedIn",
-            "href": "https://www.linkedin.com/in/olakowalska/",
-            "rel": "me noopener"
-          }
-        ]
       }
     ]
   },
   "principles": {
     "heading": "W co wierzymy (zasady 80/20)",
     "items": [
-      "Proces przed narzędziem – każda strona zaczyna się od jasno opisanej mapy treści.",
-      "Raporty tygodniowe zamiast kwartalnych – mierzymy, iterujemy i uczymy się szybciej.",
-      "Dostępność to nie opcja – projektujemy pod mobile first, kontrasty AA i klawiaturę.",
-      "Automatyzacje służą zespołowi – skracają powtarzalne zadania, nie zastępują strategii."
+      "Proces przed narzędziem – każda strona zaczyna się od jasno opisanej mapy treści, dzięki czemu design i narzędzia są tylko wykonawcami strategii, a nie odwrotnie.",
+      "Raporty tygodniowe zamiast kwartalnych – mierzymy, iterujemy i uczymy się szybciej, więc poprawki wprowadzamy od razu, zamiast gasić pożary po trzech miesiącach.",
+      "Dostępność to nie opcja – projektujemy mobile first, z kontrastami AA i pełną obsługą klawiaturą, bo strona, której część użytkowników nie może użyć, po prostu nie działa.",
+      "Automatyzacje służą zespołowi – skracają powtarzalne zadania i zdejmują z głowy manualne checklisty, ale nie zastępują strategii ani decyzji biznesowych."
     ]
   },
   "services": {
-    "heading": "Co znajdziesz na ProjektBezKodu",
+    "heading": "Co konkretnie znajdziesz na ProjektBezKodu",
     "cards": [
       {
         "title": "Poradniki krok po kroku",
-        "description": "Artykuły o Webflow, Framerze, SEO i automatyzacjach opisujące cały proces wdrożenia.",
+          "description": "Artykuły o Webflow, Framerze, SEO i automatyzacjach, które prowadzą cię krok po kroku przez cały proces wdrożenia – od briefu po publikację.",
         "href": "/artykuly/",
         "ctaLabel": "Czytaj artykuły"
       },
       {
         "title": "Biblioteka szablonów",
-        "description": "Sekcje, checklisty i tokeny, które od razu kopiujesz do własnych projektów.",
+        "description": "Sekcje, checklisty i tokeny, które od razu kopiujesz do własnych projektów, zamiast zaczynać każdy layout od zera.",
         "href": "/szablony/",
         "ctaLabel": "Zobacz szablony"
       },
       {
         "title": "Newsletter 80/20",
-        "description": "Raz w tygodniu wysyłamy najnowsze instrukcje, listy kontrolne i aktualizacje narzędzi.",
+        "description": "Raz w tygodniu wysyłamy najważniejsze instrukcje, listy kontrolne i aktualizacje narzędzi – bez waty, tylko rzeczy, które realnie wdrożysz w godzinę.",
         "href": "/newsletter/",
         "ctaLabel": "Dołącz do listy"
       }
@@ -94,7 +80,7 @@
       "label": "Zaproponuj temat",
       "href": "mailto:team@projektbezkodu.pl"
     },
-    "disclaimer": "Odpowiadamy na pytania redakcyjne w 24 godziny robocze."
+    "disclaimer": "Na pytania redakcyjne odpowiadamy maksymalnie w 24 godziny robocze."
   },
   "organization": {
     "name": "ProjektBezKodu",

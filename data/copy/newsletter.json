@@ -1,104 +1,104 @@
 {
   "base": {
     "seo": {
-      "title": "Newsletter ProjektBezKodu",
-      "description": "Dołącz do newslettera ProjektBezKodu. Raz w tygodniu wysyłamy checklisty, case studies i automatyzacje do wdrożenia.",
+      "title": "Newsletter ProjektBezKodu 80/20",
+      "description": "Dołącz do newslettera ProjektBezKodu 80/20. Raz w tygodniu dostaniesz checklisty, case studies i automatyzacje no-code, które realnie wdrożysz w godzinę.",
       "canonical": "https://projektbezkodu.pl/newsletter/"
     },
     "hero": {
-      "title": "Dołącz do newslettera ProjektBezKodu",
-      "intro": "Raz w tygodniu dostaniesz checklistę, 3 sekcje do przeniesienia 1:1 i automatyzację, która oszczędza godziny.",
-      "formCta": "Zapisz się"
+      "title": "Dołącz do newslettera ProjektBezKodu 80/20",
+      "intro": "Raz w tygodniu dostaniesz checklistę, 3 sekcje do przeniesienia 1:1 i jedną automatyzację, która odciąża cię z godzin powtarzalnej pracy.",
+      "formCta": "Dołącz do newslettera"
     }
   },
   "confirm": {
     "seo": {
       "title": "Sprawdź e-mail i potwierdź subskrypcję | ProjektBezKodu",
-      "description": "Kliknij link w wiadomości, aby potwierdzić subskrypcję newslettera ProjektBezKodu.",
+      "description": "Sprawdź skrzynkę i kliknij link w wiadomości, żeby potwierdzić subskrypcję newslettera ProjektBezKodu 80/20.",
       "canonical": "https://projektbezkodu.pl/newsletter/potwierdz/"
     },
     "hero": {
       "title": "Sprawdź e-mail i potwierdź subskrypcję",
-      "intro": "Kliknij link w wiadomości. Jeśli jej nie widzisz, zajrzyj do folderu spam lub poczekaj kilka minut."
+      "intro": "Otwórz maila od ProjektBezKodu i kliknij link potwierdzający. Jeśli wiadomości nie widzisz, sprawdź spam oraz zakładki Oferty/Newslettery albo poczekaj kilka minut."
     },
     "resend": {
-      "label": "Wyślij ponownie",
-      "waitingLabel": "Wyślij ponownie (15 s)",
-      "description": "Możesz poprosić o ponowne wysłanie po krótkim czasie."
+      "label": "Wyślij mail ponownie",
+      "waitingLabel": "Wyślij ponownie za 15 s",
+      "description": "Jeśli wiadomość nie dotarła, po krótkim czasie możesz poprosić o jej ponowne wysłanie."
     }
   },
   "thanks": {
     "seo": {
       "title": "Jesteś na liście! | ProjektBezKodu",
-      "description": "Dziękujemy za dołączenie do newslettera. Pobierz checklistę i zobacz najlepsze poradniki na start.",
+      "description": "Dziękujemy za dołączenie do newslettera ProjektBezKodu 80/20. Pobierz checklistę startu i zobacz trzy najlepsze poradniki na początek.",
       "canonical": "https://projektbezkodu.pl/newsletter/dziekujemy/"
     },
     "hero": {
       "title": "Jesteś na liście!",
-      "intro": "Na start wysyłamy checklistę i trzy najlepsze poradniki, żeby zacząć działać od razu."
+      "intro": "Na start dostajesz checklistę publikacji i trzy kluczowe poradniki, żeby w pierwszym tygodniu przejść od planu do działającej strony."
     },
     "download": {
-      "label": "Pobierz checklistę",
+      "label": "Pobierz checklistę startu",
       "href": "/files/checklista-startu.pdf"
     },
     "articles": {
-      "heading": "Zobacz też",
+      "heading": "Zobacz też te poradniki na start",
       "slugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"]
     }
   },
   "preferences": {
     "seo": {
-      "title": "Zarządzaj preferencjami | ProjektBezKodu",
-      "description": "Dostosuj tematy newslettera ProjektBezKodu. Wybierz obszary, które chcesz otrzymywać.",
+      "title": "Zarządzaj preferencjami newslettera | ProjektBezKodu",
+      "description": "Dostosuj tematy newslettera ProjektBezKodu 80/20. Zaznacz obszary, o których chcesz dostawać maile, i wyłącz resztę.",
       "canonical": "https://projektbezkodu.pl/newsletter/preferencje/"
     },
     "hero": {
-      "title": "Zarządzaj preferencjami",
-      "intro": "Otrzymuj tylko te materiały, które Cię interesują. Zapisz zmiany, by zaktualizować profil."
+      "title": "Zarządzaj preferencjami newslettera",
+      "intro": "Wybierz tematy, które są dla ciebie przydatne. Na ich podstawie dopasujemy kolejne wysyłki."
     },
     "topics": [
       {
         "id": "pref-seo",
-        "label": "SEO i widoczność",
-        "description": "Checklisty SEO, dane strukturalne i content briefs."
+        "label": "SEO i widoczność w Google",
+        "description": "Checklisty SEO, dane strukturalne, content briefs i szybkie audyty."
       },
       {
         "id": "pref-webflow",
         "label": "Webflow",
-        "description": "Nowe komponenty, struktury CMS i automatyzacje publikacji."
+        "description": "Nowe komponenty, struktury CMS, procesy publikacji i automatyzacje pod Webflow."
       },
       {
         "id": "pref-framer",
         "label": "Framer",
-        "description": "Sekcje do skopiowania i optymalizacje Core Web Vitals."
+        "description": "Sekcje do skopiowania, ustawienia performance i poprawki Core Web Vitals w Framerze."
       },
       {
         "id": "pref-automation",
         "label": "Automatyzacje",
-        "description": "Scenariusze Make, Zapiera i gotowe integracje CRM."
+        "description": "Scenariusze Make, Zapiera i gotowe integracje CRM, które odciążają zespół z powtarzalnych zadań."
       }
     ],
     "submitLabel": "Zapisz preferencje"
   },
   "unsubscribe": {
     "seo": {
-      "title": "Wypisz się | ProjektBezKodu",
-      "description": "Jeśli chcesz zakończyć subskrypcję, możesz zrobić to na tej stronie i zostawić opinię.",
+      "title": "Wypisz się z newslettera | ProjektBezKodu",
+      "description": "Chcesz zakończyć subskrypcję newslettera ProjektBezKodu? Zrobisz to tutaj i możesz zostawić krótką opinię.",
       "canonical": "https://projektbezkodu.pl/newsletter/wypisz/"
     },
     "hero": {
       "title": "Szkoda, że się rozstajemy",
-      "intro": "Zanim zakończysz subskrypcję, daj znać co możemy poprawić. Twoja opinia pomoże nam tworzyć lepsze materiały."
+      "intro": "Wypisanie działa od razu po potwierdzeniu. Jeśli chcesz, napisz kilka słów, co możemy poprawić – to realnie pomaga nam tworzyć lepsze materiały."
     },
     "feedbackField": {
       "id": "unsubscribe-feedback",
       "label": "Podziel się feedbackiem (opcjonalnie)",
-      "placeholder": "Już nie potrzebuję materiałów o..."
+      "placeholder": "Za dużo o..., za mało o..., brakuje mi materiałów o..."
     },
-    "submitLabel": "Wypisz mnie",
+    "submitLabel": "Wypisz mnie z newslettera",
     "confirmation": {
-      "title": "Potwierdź wypisanie",
-      "message": "Czy na pewno chcesz zakończyć subskrypcję newslettera ProjektBezKodu?",
+      "title": "Potwierdź wypisanie z newslettera",
+      "message": "Czy na pewno chcesz zakończyć subskrypcję newslettera ProjektBezKodu? Przestaniemy wysyłać nowe materiały na ten adres.",
       "confirm": "Tak, wypisz mnie",
       "cancel": "Anuluj"
     }

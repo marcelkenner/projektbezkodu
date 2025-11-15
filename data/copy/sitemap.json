@@ -1,32 +1,32 @@
 {
   "seo": {
     "title": "Mapa strony | ProjektBezKodu",
-    "description": "Znajdź wszystkie artykuły, narzędzia i przewodniki ProjektBezKodu w jednym miejscu.",
+    "description": "Mapa strony ProjektBezKodu – szybki dostęp do wszystkich artykułów, narzędzi, szablonów, newslettera i dokumentów prawnych w jednym miejscu.",
     "canonical": "https://projektbezkodu.pl/mapa-strony/"
   },
   "hero": {
-    "title": "Mapa strony",
-    "intro": "Pełna lista podstron ProjektBezKodu – od artykułów i przewodników, przez narzędzia, po legalne dokumenty."
+    "title": "Mapa strony ProjektBezKodu",
+    "intro": "Tu znajdziesz pełną listę podstron ProjektBezKodu: od artykułów i przewodników, przez narzędzia i szablony, po newsletter i dokumenty prawne."
   },
   "sections": {
     "primaryPages": {
-      "heading": "Najważniejsze strony",
+      "heading": "Najważniejsze strony i działy",
       "links": [
         { "label": "Strona główna", "href": "/" },
         { "label": "O nas", "href": "/o-nas/" },
-        { "label": "Artykuły", "href": "/artykuly/" },
-        { "label": "Narzędzia", "href": "/narzedzia/" },
-        { "label": "Szablony", "href": "/szablony/" },
-        { "label": "Kontakt", "href": "/kontakt/" },
+        { "label": "Artykuły i poradniki", "href": "/artykuly/" },
+        { "label": "Narzędzia no-code", "href": "/narzedzia/" },
+        { "label": "Szablony i sekcje", "href": "/szablony/" },
+        { "label": "Newsletter 80/20", "href": "/newsletter/" },
         { "label": "FAQ", "href": "/faq/" },
-        { "label": "Newsletter", "href": "/newsletter/" }
+        { "label": "Kontakt", "href": "/kontakt/" }
       ]
     },
     "legal": {
-      "heading": "Dokumenty prawne",
+      "heading": "Dokumenty i informacje prawne",
       "links": [
         { "label": "Polityka prywatności", "href": "/polityka-prywatnosci/" },
-        { "label": "Regulamin", "href": "/regulamin/" }
+        { "label": "Regulamin serwisu", "href": "/regulamin/" }
       ]
     }
   }
