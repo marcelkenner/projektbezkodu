@@ -2,51 +2,51 @@
   "pages": {
     "410": {
       "seo": {
-        "title": "Treść została usunięta (410)",
-        "description": "Szukana treść została usunięta z serwisu ProjektBezKodu."
+        "title": "Treść została usunięta (410) | ProjektBezKodu",
+        "description": "Szukana treść została trwale usunięta z serwisu ProjektBezKodu. Zobacz inne materiały, które pomogą ci działać bez kodu."
       },
       "hero": {
         "title": "Ta treść została usunięta (410)",
-        "message": "Artykuł nie jest już dostępny. Sprawdź inne zasoby, które mogą Cię zainteresować."
+        "message": "Ten artykuł nie jest już dostępny. Sprawdź inne zasoby w ProjekcieBezKodu, które mogą cię teraz bardziej wspierać."
       },
       "actions": [
         {
-          "label": "Wróć na stronę główną",
+          "label": "Przejdź na stronę główną",
           "href": "/"
         },
         {
-          "label": "Przejdź do artykułów",
-          "href": "/artykuly"
+          "label": "Zobacz wszystkie artykuły",
+          "href": "/artykuly/"
         }
       ]
     },
     "451": {
       "seo": {
-        "title": "Treść niedostępna z powodów prawnych (451)",
-        "description": "Wybrana treść nie może zostać pokazana ze względu na ograniczenia prawne."
+        "title": "Treść niedostępna z powodów prawnych (451) | ProjektBezKodu",
+        "description": "Wybrana treść nie może zostać wyświetlona ze względu na ograniczenia prawne, np. w twojej lokalizacji."
       },
       "hero": {
         "title": "Treść niedostępna z powodów prawnych (451)",
-        "message": "Ze względu na ograniczenia prawne nie możemy pokazać tej strony."
+        "message": "Ze względu na ograniczenia prawne nie możemy pokazać tej strony w twojej lokalizacji."
       },
       "actions": [
         {
-          "label": "Zgłoś problem redakcyjny",
-          "href": "/kontakt"
+          "label": "Skontaktuj się z redakcją",
+          "href": "/kontakt/"
         }
       ]
     },
     "503": {
       "seo": {
-        "title": "Przerwa techniczna (503)",
-        "description": "Serwis ProjektBezKodu jest chwilowo niedostępny. Spróbuj ponownie później."
+        "title": "Przerwa techniczna (503) | ProjektBezKodu",
+        "description": "Serwis ProjektBezKodu jest chwilowo niedostępny z powodu prac technicznych. Spróbuj ponownie za kilka minut."
       },
       "hero": {
-        "title": "Przerwa techniczna",
-        "message": "Wracamy około {time}. Spróbuj ponownie za chwilę."
+        "title": "Przerwa techniczna (503)",
+        "message": "Serwis jest chwilowo niedostępny. Wracamy około {time} – spróbuj ponownie za kilka minut."
       },
       "meta": {
-        "code": "503 • Spróbuj ponownie później."
+        "code": "503 • Usługa chwilowo niedostępna. Spróbuj ponownie później."
       }
     }
   }

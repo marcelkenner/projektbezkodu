@@ -1,12 +1,12 @@
 {
   "fallback": {
-    "tocTitle": "Skróty",
-    "featuredHeading": "Zacznij od tych sekcji",
-    "featuredCtaLabel": "Czytaj →",
+    "tocTitle": "Spis treści artykułu",
+    "featuredHeading": "Najpierw przeczytaj te sekcje",
+    "featuredCtaLabel": "Otwórz sekcję",
     "download": {
-      "heading": "Checklista startu (PDF)",
-      "description": "Pobierz listę kontrolną, która pomoże Ci wdrożyć materiał w praktyce.",
-      "ctaLabel": "Pobierz PDF",
+      "heading": "Checklista startu strony (PDF)",
+      "description": "Pobierz listę kontrolną, która pomoże ci wdrożyć materiał w praktyce – krok po kroku, od pomysłu do opublikowanej strony.",
+      "ctaLabel": "Pobierz checklistę",
       "ctaHref": "/do-pobrania",
       "privacyLabel": "Polityka prywatności",
       "privacyHref": "/polityka-prywatnosci"
@@ -14,13 +14,16 @@
   },
   "entries": {
     "webflow-blog-krok-po-kroku": {
-      "tocTitle": "Sekcje tutorialu",
-      "featuredHeading": "Z czym połączyć",
-      "featuredCtaLabel": "Czytaj poradnik",
-      "featuredSlugs": ["automatyzacja-leadow-make", "framer-landing-2h"],
+      "tocTitle": "Spis treści tutorialu",
+      "featuredHeading": "Co wdrożyć razem z blogiem",
+      "featuredCtaLabel": "Przeczytaj poradnik",
+      "featuredSlugs": [
+        "automatyzacja-leadow-make",
+        "framer-landing-2h"
+      ],
       "download": {
-        "heading": "Checklisty publikacji bloga",
-        "description": "PDF z listą kontrolną SEO, dostępności i procesów publikacji.",
+        "heading": "Checklista publikacji bloga (PDF)",
+        "description": "PDF z listą kontrolną SEO, dostępności i procesu publikacji – od pierwszej wersji roboczej do opublikowanego wpisu.",
         "ctaLabel": "Pobierz checklistę",
         "ctaHref": "/zasoby/prawne-wzory/",
         "privacyLabel": "Polityka prywatności",
@@ -29,15 +32,15 @@
     },
     "framer-landing-2h": {
       "tocTitle": "Skocz do sekcji",
-      "featuredHeading": "Co jeszcze warto wdrożyć",
-      "featuredCtaLabel": "Rozwiń umiejętność",
+      "featuredHeading": "Co jeszcze warto wdrożyć po tym landingu",
+      "featuredCtaLabel": "Rozwiń umiejętności",
       "featuredSlugs": [
         "webflow-blog-krok-po-kroku",
         "automatyzacja-leadow-make"
       ],
       "download": {
-        "heading": "Pakiet banerów kampanii",
-        "description": "Banery OG i miniatury do social mediów w stylu landingów kampanijnych.",
+        "heading": "Pakiet banerów kampanii (OG + social)",
+        "description": "Gotowe banery OG i miniatury do social mediów dopasowane do stylu landingów kampanijnych.",
         "ctaLabel": "Pobierz pakiet",
         "ctaHref": "/zasoby/banery-og/",
         "privacyLabel": "Polityka prywatności",
@@ -45,13 +48,16 @@
       }
     },
     "automatyzacja-leadow-make": {
-      "tocTitle": "Moduły scenariusza",
-      "featuredHeading": "Powiązane materiały",
-      "featuredCtaLabel": "Sprawdź",
-      "featuredSlugs": ["webflow-blog-krok-po-kroku", "framer-landing-2h"],
+      "tocTitle": "Moduły scenariusza automatyzacji",
+      "featuredHeading": "Co spiąć z tą automatyzacją",
+      "featuredCtaLabel": "Sprawdź materiały",
+      "featuredSlugs": [
+        "webflow-blog-krok-po-kroku",
+        "framer-landing-2h"
+      ],
       "download": {
-        "heading": "Szablon scenariusza Make",
-        "description": "Gotowy do importu blueprint scenariusza z enrichmentem i notyfikacjami.",
+        "heading": "Szablon scenariusza Make (blueprint)",
+        "description": "Gotowy do importu blueprint scenariusza z enrichmentem leadów i notyfikacjami, który szybko dopasujesz do swojego CRM.",
         "ctaLabel": "Pobierz blueprint",
         "ctaHref": "https://files.projektbezkodu.pl/resources/make-lead-automation.blueprint",
         "privacyLabel": "Polityka prywatności",

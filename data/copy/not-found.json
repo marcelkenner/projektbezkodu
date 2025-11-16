@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Nie znaleziono strony | ProjektBezKodu",
+    "description": "Szukana strona została przeniesiona lub nie istnieje. Skorzystaj z wyszukiwarki lub przejdź do naszych najpopularniejszych treści."
+  },
   "title": "Nie znaleziono strony",
   "body": "Szukana strona została przeniesiona lub nie istnieje. Sprawdź nasze najnowsze artykuły lub wróć na stronę główną.",
   "primaryCta": {
@@ -22,5 +26,15 @@
       "href": "/poradniki/webflow-blog-krok-po-kroku/"
     },
     { "label": "Checklista SEO", "href": "/artykuly/seo-no-code/" }
-  ]
+  ],
+  "suggestions": {
+    "heading": "Sprawdź świeże treści",
+    "description": "Najczęściej polecane artykuły redakcji pomagają szybko wrócić na właściwy tor.",
+    "ctaLabel": "Czytaj artykuł",
+    "emptyState": {
+      "message": "Nie znaleźliśmy jeszcze aktualnych wpisów.",
+      "ctaLabel": "Zobacz wszystkie artykuły",
+      "ctaHref": "/artykuly"
+    }
+  }
 }

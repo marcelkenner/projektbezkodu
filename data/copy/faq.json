@@ -1,38 +1,38 @@
 {
   "seo": {
     "title": "Najczęstsze pytania | ProjektBezKodu",
-    "description": "Zebraliśmy odpowiedzi na najczęstsze pytania o wdrożenia no-code, automatyzacje i ofertę ProjektBezKodu.",
+    "description": "Najczęstsze pytania o wdrożenia no-code, automatyzacje, SEO i korzystanie z ProjektBezKodu w praktyce – wszystko w jednym miejscu.",
     "canonical": "https://projektbezkodu.pl/faq/"
   },
   "hero": {
     "title": "Najczęstsze pytania",
-    "intro": "Publikujemy przewodniki o no-code, automatyzacjach i SEO – tutaj odpowiadamy na najczęstsze wiadomości od czytelników."
+    "intro": "Publikujemy przewodniki o no-code, automatyzacjach i SEO. Tutaj zebraliśmy odpowiedzi na pytania, które najczęściej pojawiają się w mailach i wiadomościach od czytelników."
   },
   "entries": [
     {
       "id": "proces-start",
       "question": "Czy świadczycie konsultacje lub warsztaty?",
-      "answer": "Nie. ProjektBezKodu to biblioteka artykułów, checklist i szablonów do samodzielnego wdrożenia. Jeśli masz pytanie do konkretnego materiału, napisz – pomożemy doprecyzować kolejne kroki, ale nie prowadzimy usług 1:1."
+      "answer": "Na dziś nie prowadzimy konsultacji ani warsztatów 1:1. ProjektBezKodu to biblioteka artykułów, checklist i szablonów do samodzielnego wdrożenia. Jeśli masz pytanie do konkretnego materiału, napisz – doprecyzujemy kolejne kroki i dorzucimy brakujące elementy w formie nowych treści, zamiast zamieniać się w kolejną agencję."
     },
     {
       "id": "technologie",
       "question": "O jakich narzędziach piszecie najczęściej?",
-      "answer": "W przewodnikach opisujemy Webflow, Framera, Make, Zapiera i Airtable/Notion. Każdy materiał zawiera listę kroków i gotowe checklisty, które możesz skopiować do własnego procesu."
+      "answer": "Najczęściej pokazujemy Webflow, Framera, Make, Zapiera oraz Airtable/Notion – w kontekście realnych lejków i procesów, a nie samych „ficzerów”. Każdy przewodnik zawiera listę kroków, gotowe checklisty i przykładowe układy, które możesz skopiować wprost do własnego procesu."
     },
     {
       "id": "seo-cwv",
       "question": "Czy znajdę materiały o SEO i Core Web Vitals?",
-      "answer": "Tak – przygotowujemy checklisty SEO, schematy danych i instrukcje poprawy LCP/CLS. Wszystkie artykuły mają sekcje z metrykami i wzorami raportów, więc możesz je wdrożyć samodzielnie."
+      "answer": "Tak. Przygotowujemy checklisty SEO (meta dane, nagłówki, linkowanie wewnętrzne), schematy danych oraz instrukcje poprawy kluczowych metryk Core Web Vitals (m.in. LCP i CLS). Artykuły uzupełniamy o przykładowe raporty i zestawy metryk, dzięki czemu możesz samodzielnie sprawdzić, czy Twoja strona faktycznie przyspieszyła."
     },
     {
       "id": "czas-realizacji",
       "question": "Jak szybko mogę wdrożyć opisane procesy?",
-      "answer": "Większość playbooków jest rozpisana na sprint 7–14 dni. Podajemy kolejność zadań, listy kontrolne i gotowe sekcje, więc możesz działać tempem swojego zespołu."
+      "answer": "Większość playbooków rozpisujemy pod sprint 7–14 dni przy tempie małego zespołu marketingowego. Dostajesz kolejność zadań, listy kontrolne i gotowe sekcje, więc zamiast zastanawiać się „od czego zacząć”, możesz po prostu odhaczać kolejne kroki i dopasować tempo do swojego kalendarza."
     },
     {
       "id": "dostepnosc",
       "question": "Czy materiały uwzględniają dostępność?",
-      "answer": "Tak. Mobile-first, kontrasty AA, kolejność nagłówków i stany focus to stałe elementy checklist, które opisujemy przy komponentach i szablonach."
+      "answer": "Tak – traktujemy dostępność jako element bazowy, nie „dodatek na końcu”. W checklistach i szablonach regularnie pojawiają się: podejście mobile-first, kontrasty na poziomie co najmniej AA, poprawna hierarchia nagłówków oraz stany focus dla elementów klikalnych. Przy komponentach zaznaczamy też typowe błędy, które najczęściej psują dostępność."
     }
   ],
   "footer": {

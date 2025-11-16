@@ -1,13 +1,13 @@
 {
   "seo": {
-    "title": "Jesteś offline — ProjektBezKodu",
-    "description": "Połącz się z internetem, żeby zobaczyć najnowsze treści ProjektBezKodu.",
+    "title": "Jesteś offline — brak połączenia | ProjektBezKodu",
+    "description": "Brak połączenia z internetem. Gdy wrócisz online, zobaczysz najnowsze poradniki, checklisty i szablony ProjektBezKodu.",
     "canonical": "https://projektbezkodu.pl/offline"
   },
   "hero": {
-    "iconLabel": "Ikona braku połączenia",
+    "iconLabel": "Ikona informująca o braku połączenia z internetem",
     "title": "Jesteś offline",
-    "description": "Połącz się z internetem, aby pobrać najnowsze treści. Zobacz ostatnio zapisane strony lub spróbuj ponownie później."
+    "description": "Wygląda na to, że nie masz teraz połączenia z internetem. Sprawdź połączenie i spróbuj odświeżyć stronę albo skorzystaj z ostatnio zapisanych materiałów poniżej."
   },
   "actions": {
     "refresh": "Odśwież stronę"
@@ -20,7 +20,7 @@
         "href": "/"
       },
       {
-        "label": "Blog",
+        "label": "Blog — artykuły i poradniki",
         "href": "/artykuly"
       },
       {
@@ -28,6 +28,6 @@
         "href": "/o-nas"
       }
     ],
-    "empty": "Service worker jeszcze nie zapisał stron do trybu offline."
+    "empty": "Service worker nie zapisał jeszcze żadnych stron do trybu offline."
   }
 }

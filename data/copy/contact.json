@@ -1,17 +1,17 @@
 {
   "seo": {
     "title": "Kontakt | ProjektBezKodu",
-    "description": "Masz pytanie do artykułu albo chcesz zgłosić nowy temat? Napisz do ProjektBezKodu – odpowiadamy w 24 godziny robocze.",
+    "description": "Masz pytanie do artykułu, chcesz zgłosić błąd albo zaproponować temat? Napisz do redakcji ProjektBezKodu – odpowiadamy w ciągu 24 godzin roboczych.",
     "canonical": "https://projektbezkodu.pl/kontakt/"
   },
   "hero": {
-    "title": "Kontakt",
-    "intro": "Zbieramy pytania do naszych publikacji, zgłoszenia poprawek i propozycje tematów. Nie przyjmujemy zleceń usługowych."
+    "title": "Kontakt z redakcją",
+    "intro": "Tu zgłaszasz pytania do publikacji, propozycje tematów i uwagi merytoryczne. Nie przyjmujemy zleceń usługowych ani briefów projektowych."
   },
   "notice": {
-    "body": "Piszemy tylko przez e-mail. Dołącz link do artykułu lub krótki opis potrzeby, a wrócimy z odpowiedzią redakcyjną w ciągu jednego dnia roboczego.",
+    "body": "Kontaktujemy się wyłącznie mailowo. Dołącz link do artykułu lub krótki opis potrzeby (np. „brakuje mi przykładu dla…”), a wrócimy z odpowiedzią redakcyjną w ciągu jednego dnia roboczego.",
     "buttonLabel": "Wyślij maila",
     "email": "kontakt@projektbezkodu.pl",
-    "footer": "Wszystkie wiadomości trafiają na kontakt@projektbezkodu.pl – prosimy o pytania redakcyjne, nie briefy projektowe."
+    "footer": "Wszystkie wiadomości trafiają na kontakt@projektbezkodu.pl. Prosimy wyłącznie o pytania redakcyjne i sugestie tematów – nie odpowiadamy na zapytania ofertowe ani briefy usługowe."
   }
 }

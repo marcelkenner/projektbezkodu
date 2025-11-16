@@ -5,15 +5,16 @@
       "target": "#content"
     },
     "nav": [
-      { "label": "O nas", "href": "/o-nas" },
-      { "label": "Artykuły i poradniki", "href": "/artykuly" },
-      { "label": "Narzędzia no-code", "href": "/narzedzia" },
+      { "label": "Artykuły", "href": "/artykuly" },
+      { "label": "Poradniki", "href": "/poradniki" },
+      { "label": "Porównania", "href": "/porownania" },
+      { "label": "Narzędzia", "href": "/narzedzia" },
       { "label": "Szablony", "href": "/szablony" },
       { "label": "Kontakt", "href": "/kontakt" }
     ],
     "search": {
       "label": "Szukaj w serwisie",
-      "placeholder": "Znajdź poradnik, szablon lub narzędzie…",
+      "placeholder": "Szukaj treści…",
       "buttonLabel": "Szukaj",
       "action": "/szukaj/"
     }

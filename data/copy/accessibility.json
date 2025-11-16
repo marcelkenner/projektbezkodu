@@ -1,59 +1,59 @@
 {
   "seo": {
-    "title": "Deklaracja dostępności ProjektBezKodu",
-    "description": "Opis zgodności serwisu z WCAG 2.2 AA, zastosowane środki oraz sposób zgłaszania uwag.",
+    "title": "Deklaracja dostępności | ProjektBezKodu",
+    "description": "Deklaracja dostępności ProjektBezKodu. Poziom docelowy WCAG 2.2 AA, stosowane środki, znane ograniczenia oraz sposób zgłaszania uwag.",
     "canonical": "https://projektbezkodu.pl/deklaracja-dostepnosci"
   },
   "hero": {
     "title": "Deklaracja dostępności",
-    "intro": "Dbamy o to, by serwis ProjektBezKodu był dostępny dla jak najszerszego grona użytkowników. Poniżej znajdziesz szczegóły naszych działań."
+    "intro": "Dbamy o to, aby serwis ProjektBezKodu był możliwie wygodny i dostępny dla jak najszerszej grupy użytkowników. Poniżej opisujemy, co robimy w tym kierunku, jakie są znane ograniczenia i jak możesz zgłosić problem."
   },
   "sections": {
     "measures": {
       "heading": "Środki zapewniania dostępności",
       "items": [
-        "System design oparty na WCAG 2.2 AA i testowany na urządzeniach mobilnych.",
-        "Regularne audyty komponentów UI z użyciem narzędzi Lighthouse i Axe.",
-        "Manualne testy czytników ekranu (NVDA, VoiceOver) przy publikacji nowych funkcji.",
-        "Dokumentacja komponentów z opisem zachowań klawiaturowych i stanów fokus."
+        "Projekt interfejsu oparty na wytycznych WCAG 2.2 na poziomie AA, z naciskiem na czytelność, kontrast i obsługę klawiaturą, testowany również na urządzeniach mobilnych.",
+        "Regularne audyty komponentów UI z wykorzystaniem narzędzi Lighthouse i Axe oraz kontrola podstawowych wskaźników jakości (m.in. kontrast, nawigacja, struktura nagłówków).",
+        "Manualne testy z użyciem czytników ekranu (NVDA, VoiceOver) przy wdrażaniu nowych funkcji i istotnych zmian w strukturze serwisu.",
+        "Dokumentacja komponentów z opisem zachowań klawiaturowych, stanów fokus oraz sposobu komunikacji błędów formularzy, rozwijana wraz z kolejnymi wdrożeniami."
       ]
     },
     "limitations": {
-      "heading": "Znane ograniczenia",
+      "heading": "Znane ograniczenia dostępności",
       "items": [
         {
           "label": "Materiały osadzone zewnętrznie",
-          "description": "Część treści pochodzi z narzędzi firm trzecich (np. formularze). Pracujemy nad alternatywami tekstowymi."
+          "description": "Część treści pochodzi z narzędzi firm trzecich (np. formularze, osadzone widgety). Nie mamy pełnej kontroli nad ich dostępnością, ale tam, gdzie to możliwe, zapewniamy alternatywne wersje tekstowe lub kontakt mailowy."
         },
         {
           "label": "Nagrania wideo",
-          "description": "Starsze filmy nie posiadają napisów. Aktualizujemy je sukcesywnie — plan ukończenia: IV kwartał 2025."
+          "description": "Starsze nagrania wideo mogą nie posiadać pełnych napisów i opisów. Systematycznie je aktualizujemy; plan zakończenia prac nad napisami do materiałów archiwalnych to IV kwartał 2025."
         }
       ]
     },
     "feedback": {
       "heading": "Informacje zwrotne i kontakt",
-      "intro": "Zgłoś problemy z dostępnością, a odpowiemy w ciągu 7 dni roboczych.",
+      "intro": "Jeśli napotkasz barierę w korzystaniu z serwisu, daj nam znać – każdą zgłoszoną uwagę traktujemy jako konkretną listę poprawek do wprowadzenia. Odpowiadamy w ciągu 7 dni roboczych, a w razie potrzeby informujemy także o planowanym terminie naprawy.",
       "contact": {
         "email": "kontakt@projektbezkodu.pl",
         "phone": "+48 123 456 789"
       }
     },
     "form": {
-      "heading": "Formularz kontaktowy",
+      "heading": "Formularz zgłoszenia problemu",
       "labels": {
         "name": "Imię i nazwisko",
-        "email": "Adres e-mail",
-        "message": "Opisz problem z dostępnością",
+        "email": "Adres e-mail do kontaktu zwrotnego",
+        "message": "Opisz problem z dostępnością (co się stało, na jakiej stronie, z jakiego urządzenia korzystasz)",
         "submit": "Wyślij zgłoszenie"
       },
-      "privacyDisclaimer": "Przesyłając formularz akceptujesz politykę prywatności. Dane wykorzystamy tylko do odpowiedzi na zgłoszenie."
+      "privacyDisclaimer": "Przesyłając formularz akceptujesz politykę prywatności. Twoje dane wykorzystamy wyłącznie do analizy zgłoszenia i udzielenia odpowiedzi."
     },
     "meta": {
       "heading": "Informacje formalne",
       "publication": "Data publikacji deklaracji: 1 stycznia 2025",
-      "update": "Ostatnia aktualizacja: 8 stycznia 2025",
-      "owner": "Podmiot odpowiedzialny: ProjektBezKodu Sp. z o.o."
+      "update": "Data ostatniej aktualizacji: 8 stycznia 2025",
+      "owner": "Podmiot odpowiedzialny za serwis i dostępność: ProjektBezKodu Sp. z o.o."
     }
   }
 }

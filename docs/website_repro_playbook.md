@@ -102,7 +102,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 ## 10. Routing & Pages
 
 1. Wrap marketing routes with `app/(marketing)/layout.tsx`, injecting `PrimaryNav` and `Footer`.
-2. Configure navigation CTA copy via `getCopy("global")`.
+2. Nawigacja główna i wyszukiwarka pobierają dane z `homepage.header` – zachowaj kolejność linków (Artykuły → Poradniki → Porównania → Narzędzia → Szablony → Kontakt), a CTA/microcopy nadal reużywaj z `getCopy("global")` gdzie to ma sens; dodatkowe ścieżki (newsletter, zasoby) pozostają w stopce i treści.
 3. Create listing pages:
    - Articles (`app/(marketing)/(content)/artykuly/page.tsx`) pulling summaries from `ArticleRepository`.
    - Tutorials (`app/(marketing)/(content)/poradniki/page.tsx`) using `TutorialDirectory` filters (tool + difficulty via query params).
@@ -168,14 +168,14 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 2. Hero (`HeroSection.tsx`): headline, supporting copy, dual CTA (Webflow + plan) with microcopy disclosure, responsive hero image (`/img/hero-3x2*.webp`).
 3. Social proof (`HomepageSections`): `data/copy/homepage.json.socialProof` drives logo strip; assets in `public/images/logos/`.
 4. Pillars, workflow, latest articles, newsletter all render through `HomepageSections` using repository data + copy JSON; keep responsibilities isolated per component.
-5. Footer uses dark theme (`Footer.tsx`), four columns + microcopy, mirroring the ASCII brief in `docs/asci-designs/homepage.md`.
+5. Footer (`Footer.tsx`) nadal używa ciemnego motywu i czterech kolumn: (a) „Nawigacja” kierująca do Artykułów/Poradników/Porównań/Narzędzi/Szablonów/Zasobów, (b) „Kategorie” auto-uzupełniane na podstawie `articles.navigation.featuredCategories`, (c) „Konwersje i wsparcie” z Newsletterem, zasobami do pobrania, FAQ, Kontakt, Mapa strony + wszystkie linki prawne, oraz (d) Social media. Nie dodawaj piątej kolumny – CTA budujemy w treści.
 
 ## 17. Blog & Content Pages
 
 1. Blog listing (`/artykuly`): użyj `ArticlesFilterBar.tsx`, `ArticleCard.tsx`, `ArticlesPagination.tsx` oraz JSON-LD CollectionPage/ItemList.
 2. Artykuł (`/artykuly/[slug]`): breadcrumbs, meta (czas, publikacja, aktualizacja, autor), disclosure afiliacyjny, sticky TOC, sekcja „Następny krok”, box autora i powiązane artykuły.
 3. Kategoria (`/kategoria/[slug]`): konfiguracja w `data/copy/category-hubs.json`, skróty, featured cards, sekcja download i lista artykułów z ikoną.
-4. Strona 404: ikona ostrzegawcza, CTA primary/secondary, formularz wyszukiwania i skróty kontekstowe (`not-found.tsx`).
+4. Strona 404: `NotFoundPageViewModel` łączy copy z `data/copy/not-found.json` (hero, CTA, search, `shortcuts[]`, `suggestions.*`). Sekcja sugestii automatycznie pobiera 3 najnowsze artykuły przez `ArticleRepository`, a metadata wymusza `robots=noindex` oraz komunikat SEO z `copy.seo`.
 5. Legal: `app/(legal)/legal.css` + `MarkdownPageLoader` – pokaż `<time>` z aktualizacją, blok kontaktowy, zachowaj tabelę RODO i definicje.
 
 ## 18. Utility & Support Pages

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ReactNode } from "react";
 import { PrimaryNav, Footer, ToolOfWeekToastContainer } from "../ui";
 import { getCopy } from "../lib/copy";
@@ -45,8 +46,14 @@ export default function LegalLayout({ children }: LegalLayoutProps) {
 
 function Logo() {
   return (
-    <span className="site-header__wordmark" aria-hidden="true">
-      ProjektBezKodu
-    </span>
+    <Image
+      className="site-header__wordmark"
+      src="/projektbezkodu_logo.png"
+      alt="ProjektBezKodu"
+      width={128}
+      height={38}
+      priority
+      sizes="(max-width: 768px) 120px, 128px"
+    />
   );
 }

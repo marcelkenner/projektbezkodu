@@ -1,73 +1,73 @@
 {
-  "title": "Porównania narzędzi",
-  "intro": "Rzetelne zestawienia pomagające wybrać najlepsze narzędzie no-code.",
-  "emptyState": "Porównania są w przygotowaniu. Wróć do nas za chwilę lub zasubskrybuj newsletter, aby otrzymać powiadomienie o premierze.",
+  "title": "Porównania narzędzi no-code",
+  "intro": "Rzetelne, praktyczne zestawienia, które pomagają wybrać właściwe narzędzie no-code do konkretnego zadania – bez przekopywania się przez dziesiątki ofert.",
+  "emptyState": "Porównania są w przygotowaniu. Pracujemy nad testami, które pokażą nie tylko funkcje, ale też realne scenariusze użycia. Zasubskrybuj newsletter, aby dostać powiadomienie, gdy pierwsze zestawienia będą dostępne.",
   "taxonomy": {
     "categories": [
       {
         "slug": "site-builder",
         "label": "Site buildery i landing page",
-        "description": "Porównania kreatorów stron, landingów i rozwiązań CMS."
+        "description": "Porównania kreatorów stron, landingów i CMS-ów – pod kątem szybkości startu, elastyczności layoutu i SEO."
       },
       {
         "slug": "component-library",
         "label": "Biblioteki komponentów",
-        "description": "Zestawienia bibliotek Webflow/Framer i design systemów."
+        "description": "Zestawienia bibliotek Webflow/Framer i design systemów, które realnie skracają czas projektowania interfejsu."
       },
       {
         "slug": "automation",
         "label": "Automatyzacje i integracje",
-        "description": "Platformy workflow, integracje i narzędzia no-code do automatyzacji."
+        "description": "Platformy workflow i integracje no-code, dzięki którym formularze, CRM i maile pracują bez ręcznego przepisywania danych."
       },
       {
         "slug": "email",
         "label": "Email i newslettery",
-        "description": "Systemy e-mail marketingu, newslettery i marketing automation."
+        "description": "Systemy e-mail marketingu, newslettery i marketing automation – pod kątem deliverability, segmentacji i prostoty obsługi."
       },
       {
         "slug": "analytics",
         "label": "Analityka i dane",
-        "description": "Narzędzia do pomiaru ruchu, konwersji i eksperymentów."
+        "description": "Narzędzia do pomiaru ruchu, konwersji i eksperymentów, które pozwalają podejmować decyzje na podstawie danych, a nie przeczucia."
       },
       {
         "slug": "forms",
         "label": "Formularze i lead capture",
-        "description": "Rozwiązania do budowy formularzy, quizów, rezerwacji i ankiet."
+        "description": "Rozwiązania do budowy formularzy, quizów, rezerwacji i ankiet – z naciskiem na integracje z CRM i jakość danych."
       },
       {
         "slug": "hosting",
         "label": "Hosting i domeny",
-        "description": "Infra pod projekty no-code: hosting, DNS, dostawcy serwerów."
+        "description": "Infrastruktura pod projekty no-code: hosting, DNS, dostawcy serwerów i rozwiązania, które dbają o uptime i szybkość."
       },
       {
         "slug": "commerce",
         "label": "E-commerce i płatności",
-        "description": "Platformy sprzedażowe, checkouty i obsługa płatności."
+        "description": "Platformy sprzedażowe, checkouty i systemy płatności dopasowane do małych i średnich sklepów online."
       },
       {
         "slug": "media",
         "label": "Zasoby kreatywne",
-        "description": "Biblioteki zdjęć, video, muzyki i assetów brandowych."
+        "description": "Biblioteki zdjęć, wideo, muzyki i assetów brandowych, które pozwalają szybko zbudować spójny wizualnie projekt."
       },
       {
         "slug": "seo",
         "label": "SEO i widoczność",
-        "description": "Narzędzia do analizy słów kluczowych, audytów i optymalizacji."
+        "description": "Narzędzia do analizy słów kluczowych, audytów i optymalizacji, które wspierają długoterminowy ruch organiczny."
       },
       {
         "slug": "performance",
         "label": "Wydajność i CDN",
-        "description": "Usługi CDN, optymalizacja obrazów i przyspieszenie stron."
+        "description": "Usługi CDN, optymalizacja obrazów i rozwiązania przyspieszające ładowanie stron na różnych typach łącza."
       },
       {
         "slug": "ux",
         "label": "UX i konwersja",
-        "description": "Badania zachowań, testy A/B, heatmapy i optymalizacja CRO."
+        "description": "Badania zachowań, testy A/B, heatmapy i narzędzia CRO, które pomagają realnie podnieść współczynnik konwersji."
       },
       {
         "slug": "membership",
         "label": "Membership i monetyzacja",
-        "description": "Platformy subskrypcyjne i systemy zarządzania użytkownikami."
+        "description": "Platformy subskrypcyjne i systemy zarządzania użytkownikami do budowy płatnych społeczności i kursów."
       }
     ],
     "tags": [

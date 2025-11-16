@@ -3,11 +3,12 @@
     {
       "heading": "Nawigacja",
       "links": [
-        { "label": "O nas", "href": "/o-nas" },
         { "label": "Artykuły", "href": "/artykuly" },
+        { "label": "Poradniki", "href": "/poradniki" },
+        { "label": "Porównania", "href": "/porownania" },
         { "label": "Narzędzia", "href": "/narzedzia" },
         { "label": "Szablony", "href": "/szablony" },
-        { "label": "Kontakt", "href": "/kontakt" }
+        { "label": "Zasoby", "href": "/zasoby" }
       ]
     },
     {
@@ -15,22 +16,25 @@
       "links": []
     },
     {
-      "heading": "Zasoby",
+      "heading": "Konwersje i wsparcie",
       "links": [
-        { "label": "Regulamin", "href": "/regulamin" },
+        { "label": "Newsletter", "href": "/newsletter" },
+        { "label": "Checklisty i zasoby", "href": "/zasoby" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Kontakt", "href": "/kontakt" },
+        { "label": "Mapa strony", "href": "/mapa-strony" },
         { "label": "Polityka prywatności", "href": "/polityka-prywatnosci" },
+        { "label": "Regulamin", "href": "/regulamin" },
         { "label": "Zasady afiliacji", "href": "/zasady-afiliacji" },
         {
           "label": "Deklaracja dostępności",
           "href": "/deklaracja-dostepnosci"
         },
-        { "label": "Zasoby i materiały", "href": "/zasoby" },
-        { "label": "Mapa strony", "href": "/mapa-strony" },
         { "label": "Ustawienia cookies", "href": "/cookies" }
       ]
     },
     {
-      "heading": "Social",
+      "heading": "Social media",
       "links": [
         {
           "label": "LinkedIn",
@@ -43,9 +47,9 @@
       ]
     }
   ],
-  "microcopy": "Linki do narzędzi mogą być afiliacyjne.",
+  "microcopy": "Niektóre linki do narzędzi mogą być afiliacyjne – polecamy tylko rozwiązania, z których sami korzystamy.",
   "copyright": {
     "text": "© {year} ProjektBezKodu. Wszystkie prawa zastrzeżone.",
-    "tagline": "Blog o stronach no-code tworzony w Polsce."
+    "tagline": "Blog o stronach no-code, SEO i automatyzacjach tworzony w Polsce."
   }
 }

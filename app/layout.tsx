@@ -45,6 +45,23 @@ export const metadata: Metadata = {
     description:
       "Polskie tutoriale i komponenty no-code, które pomagają wystartować w weekend.",
   },
+  icons: {
+    icon: [
+      {
+        url: "/projektbezkodu_favicon.png",
+        sizes: "300x290",
+        type: "image/png",
+      },
+    ],
+    shortcut: "/projektbezkodu_favicon.png",
+    apple: [
+      {
+        url: "/projektbezkodu_favicon.png",
+        sizes: "300x290",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

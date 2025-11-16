@@ -23,7 +23,9 @@ Goal: finalize base marketing/legal pages (homepage, articles index, comparisons
 - Search `/szukaj`
   - [x] Replace placeholder UI with working search backed przez lokalny indeks treści.
   - [x] Ustalić dostawcę wyszukiwania (wybrano własny indeks build-time) i zintegrować UI.
-- 404 `/not-found` _(placeholder implemented)_ – enrich with popular links once article data is live.
+- 404 `/not-found`
+  - [x] Zastąp placeholder finalnym layoutem (`NotFoundPageViewModel`) z CTA, wyszukiwarką i skrótami z `data/copy/not-found.json`.
+  - [x] Dodaj automatyczne sugestie artykułów (3 najnowsze wpisy + `copy.suggestions`) i narzuć `robots=noindex`.
 - Privacy `/polityka-prywatnosci` & Terms `/regulamin`
   - [x] Replace placeholders with legal copy (external source or markdown include).
   - [ ] Coordinate with legal team.

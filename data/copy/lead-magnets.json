@@ -2,20 +2,20 @@
   "items": {
     "start-checklista": {
       "seo": {
-        "title": "Checklista startu — opublikuj dziś | ProjektBezKodu",
-        "description": "Pobierz checklistę startu, która prowadzi krok po kroku przez przygotowanie strony no-code do publikacji.",
+        "title": "Checklista startu strony no-code — opublikuj dziś | ProjektBezKodu",
+        "description": "Pobierz checklistę startu strony no-code, która krok po kroku prowadzi od briefu i konfiguracji narzędzi do bezpiecznej publikacji.",
         "canonical": "https://projektbezkodu.pl/do-pobrania/start-checklista/"
       },
       "hero": {
-        "title": "Checklista startu — opublikuj dziś",
+        "title": "Checklista startu strony no-code — opublikuj dziś",
         "bullets": [
-          "25 kroków od briefu do publikacji strony no-code",
-          "Checklisty CWV, SEO i automatyzacji formularzy",
-          "Szablony komunikacji z zespołem i wykonawcami"
+          "25 kroków od briefu do publikacji strony no-code, rozpisanych w logicznej kolejności.",
+          "Checklisty Core Web Vitals, SEO i automatyzacji formularzy gotowe do odhaczenia.",
+          "Szablony komunikacji z zespołem, wykonawcami i interesariuszami projektu."
         ],
         "image": {
           "src": "/images/placeholders/article-3x2.webp",
-          "alt": "Podgląd checklisty startu ProjektBezKodu z zaznaczonymi krokami publikacji.",
+          "alt": "Podgląd checklisty startu ProjektBezKodu z wyróżnionymi krokami przed publikacją strony.",
           "width": 1120,
           "height": 747
         }
@@ -23,7 +23,7 @@
       "form": {
         "action": "/do-pobrania/dziekujemy/start-checklista/",
         "method": "get",
-        "title": "Wyślij mi PDF",
+        "title": "Wyślij mi checklistę w PDF",
         "emailField": {
           "id": "lead-email",
           "label": "E-mail",
@@ -31,25 +31,25 @@
         },
         "consentField": {
           "id": "lead-consent",
-          "label": "Zgadzam się na kontakt w sprawie checklisty i kolejnych materiałów ProjektBezKodu.",
+          "label": "Zgadzam się na kontakt w sprawie checklisty i kolejnych materiałów od ProjektBezKodu.",
           "privacyLabel": "Polityka prywatności",
           "privacyHref": "/polityka-prywatnosci/"
         },
-        "submitLabel": "Wyślij mi PDF",
-        "disclaimer": "To bezpłatne. Wysyłamy e-maile 1–2 razy w tygodniu."
+        "submitLabel": "Wyślij checklistę na e-mail",
+        "disclaimer": "To bezpłatne. Wysyłamy 1–2 konkretne maile w tygodniu, bez spamu."
       },
       "thankYou": {
         "seo": {
-          "title": "Prawie gotowe — sprawdź e-mail | ProjektBezKodu",
-          "description": "Sprawdź skrzynkę, żeby pobrać checklistę startu ProjektBezKodu.",
+          "title": "Prawie gotowe — sprawdź e-mail i pobierz checklistę | ProjektBezKodu",
+          "description": "Sprawdź skrzynkę, żeby pobrać checklistę startu ProjektBezKodu albo skorzystaj z bezpośredniego linku na stronie podziękowania.",
           "canonical": "https://projektbezkodu.pl/do-pobrania/dziekujemy/start-checklista/"
         },
         "hero": {
           "title": "Prawie gotowe — sprawdź e-mail z linkiem do pliku",
-          "intro": "Jeśli wiadomość nie dotarła, sprawdź folder spam albo poczekaj kilka minut. Możesz też pobrać plik bezpośrednio poniżej."
+          "intro": "Jeśli wiadomość nie dotarła w ciągu kilku minut, zajrzyj do folderów spam/oferty lub skorzystaj z bezpośredniego linku poniżej, żeby pobrać plik od razu."
         },
         "directDownload": {
-          "label": "Pobierz checklistę",
+          "label": "Pobierz checklistę (PDF)",
           "href": "/files/checklista-startu.pdf"
         },
         "nextSteps": {
@@ -65,13 +65,13 @@
   },
   "fallback": {
     "seo": {
-      "title": "Materiały do pobrania | ProjektBezKodu",
-      "description": "Zapisz się po checklisty, playbooki i narzędzia no-code przygotowane przez ProjektBezKodu.",
+      "title": "Materiały do pobrania — checklisty i playbooki | ProjektBezKodu",
+      "description": "Zapisz się po checklisty, playbooki i automatyzacje no-code przygotowane przez ProjektBezKodu, żeby publikować strony i kampanie szybciej i bez chaosu.",
       "canonical": "https://projektbezkodu.pl/do-pobrania/"
     },
     "hero": {
       "title": "Materiały do pobrania",
-      "intro": "Playbooki, checklisty i automatyzacje, które pomagają publikuje szybciej. Wybierz materiał, który rozwiązuje Twój problem."
+      "intro": "Playbooki, checklisty i automatyzacje, które pomagają publikować szybciej i czytelniej. Wybierz materiał, który najlepiej pasuje do twojej sytuacji."
     }
   }
 }

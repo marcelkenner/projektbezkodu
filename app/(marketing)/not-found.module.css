@@ -72,3 +72,63 @@
 :global(.not-found__links a:hover) {
   text-decoration: underline;
 }
+
+:global(.not-found__shortcuts) {
+  width: 100%;
+}
+
+:global(.not-found__suggestions) {
+  margin-top: var(--space-5);
+  border-radius: var(--radii-lg);
+  border: 1px solid var(--color-border);
+  padding: var(--space-4);
+  background-color: var(--color-surface);
+}
+
+:global(.not-found__suggestionsHeader) {
+  display: grid;
+  gap: var(--space-1);
+  text-align: left;
+}
+
+:global(.not-found__suggestionsList) {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-4) 0 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.not-found__suggestionsCard) {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii-md);
+  padding: var(--space-3);
+  display: grid;
+  gap: var(--space-2);
+  text-align: left;
+}
+
+:global(.not-found__suggestionsCard h3) {
+  margin: 0;
+}
+
+:global(.not-found__suggestionsLink) {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-primary-strong);
+  font-weight: 600;
+}
+
+:global(.not-found__suggestionsEmpty) {
+  margin-top: var(--space-3);
+  display: grid;
+  gap: var(--space-2);
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  :global(.not-found__suggestionsList) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

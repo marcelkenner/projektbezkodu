@@ -1,41 +1,45 @@
 {
   "seo": {
-    "title": "Zasady afiliacji ProjektBezKodu",
-    "description": "Zobacz, jak oznaczamy linki partnerskie, według jakich kryteriów dobieramy programy i gdzie zgłosić uwagi.",
+    "title": "Zasady afiliacji | ProjektBezKodu",
+    "description": "Zobacz, jak oznaczamy linki afiliacyjne, według jakich kryteriów dobieramy partnerów i co robimy, żeby recenzje pozostały niezależne.",
     "canonical": "https://projektbezkodu.pl/zasady-afiliacji"
   },
   "hero": {
-    "title": "Zasady afiliacji",
-    "intro": "Część naszych materiałów zawiera linki partnerskie. Nigdy nie wpływa to na cenę produktu ani na niezależność recenzji."
+    "title": "Zasady afiliacji ProjektBezKodu",
+    "intro": "Część materiałów zawiera linki afiliacyjne. Nie podbijają one ceny produktu i nie mają wpływu na wnioski z naszych testów – tutaj znajdziesz dokładne zasady, jak z nimi pracujemy."
   },
   "sections": [
     {
       "heading": "Jak rozpoznasz link afiliacyjny",
       "bullets": [
-        "Oznaczamy przyciski i linki etykietą „(sponsored)” lub opisem w tekście.",
-        "Każdy link partnerski otrzymuje rel=\"sponsored\" oraz rel=\"nofollow\".",
-        "Przy porównaniach i rankingach dołączamy notatkę o afiliacji."
+        "Przy linkach i przyciskach dodajemy wyraźne oznaczenie, np. „(link afiliacyjny)” lub informację w treści bezpośrednio obok linku.",
+        "Każdy link afiliacyjny otrzymuje atrybuty rel=\"sponsored\" oraz rel=\"nofollow\", zgodnie z dobrymi praktykami SEO.",
+        "Przy porównaniach, rankingach i zestawieniach narzędzi zawsze dołączamy notatkę o obecności linków afiliacyjnych.",
+        "Jeśli artykuł powstał we współpracy komercyjnej, informacja o tym znajduje się na początku tekstu."
       ]
     },
     {
       "heading": "Jak dobieramy partnerów",
       "bullets": [
-        "Sprawdzamy stabilność firmy i plan cenowy dla polskiego rynku.",
-        "Testujemy produkt w realnych projektach — minimum 30 dni.",
-        "Weryfikujemy obsługę klienta i transparentność komunikacji."
+        "Sprawdzamy stabilność firmy, model biznesowy oraz plan cenowy z perspektywy użytkowników z Polski i Europy.",
+        "Testujemy narzędzie na realnych projektach przez co najmniej 30 dni albo pełny cykl wdrożenia (od konfiguracji po pierwsze wyniki).",
+        "Weryfikujemy jakość obsługi klienta: czas odpowiedzi, dostępne kanały wsparcia i przejrzystość komunikacji.",
+        "Jeśli narzędzie przestaje spełniać nasze standardy (np. gorszy support, agresywne praktyki sprzedażowe), aktualizujemy treści albo rezygnujemy z programu."
       ]
     },
     {
-      "heading": "Polityka recenzji",
+      "heading": "Polityka recenzji i rankingów",
       "bullets": [
-        "Opinie są niezależne. Partnerzy nie mogą edytować treści.",
-        "Jeżeli materiał jest sponsorowany, oznaczamy to w pierwszym akapicie.",
-        "Negatywne doświadczenia dokumentujemy i aktualizujemy wpisy."
+        "Opinie i wnioski z testów są niezależne – partnerzy nie mają możliwości edycji treści ani akceptacji recenzji przed publikacją.",
+        "Jeżeli materiał jest sponsorowany lub powstał we współpracy płatnej, jasno oznaczamy to w pierwszym akapicie artykułu.",
+        "Nie obiecujemy partnerom konkretnych ocen ani miejsc w rankingach. Kolejność i rekomendacje wynikają z testów oraz typowych scenariuszy użycia.",
+        "Negatywne doświadczenia (np. problemy z rozliczeniami, stabilnością, wsparciem technicznym) dokumentujemy i aktualizujemy wpisy, nawet jeśli oznacza to gorszą ocenę narzędzia.",
+        "Jeśli w przyszłości zmienimy zasady afiliacji, zaktualizujemy tę stronę i poinformujemy o tym w newsletterze."
       ]
     }
   ],
   "contact": {
-    "intro": "Masz pytania dotyczące współpracy afiliacyjnej lub chcesz zgłosić błąd w opisie programu? Daj znać – odpowiadamy wyłącznie na wiadomości redakcyjne.",
+    "intro": "Masz pytania dotyczące afiliacji, chcesz zgłosić niejasne oznaczenie linku albo błąd w opisie programu? Napisz do nas – odpowiadamy wyłącznie na wiadomości redakcyjne związane z treścią serwisu.",
     "ctaLabel": "Zgłoś uwagę",
     "ctaHref": "/kontakt"
   }

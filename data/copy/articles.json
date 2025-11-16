@@ -1,18 +1,18 @@
 {
-  "title": "Artykuły eksperckie",
-  "intro": "Pogłębione analizy i praktyczne wskazówki dotyczące stron no-code.",
+  "title": "Artykuły eksperckie o stronach no-code",
+  "intro": "Pogłębione analizy i praktyczne instrukcje, które pomagają zbudować i skalować stronę no-code – od strategii po Core Web Vitals.",
   "listing": {
-    "heading": "Artykuły, które prowadzą do działania.",
-    "subheading": "Wybierz temat i zrób kolejny krok w 15 minut.",
+    "heading": "Artykuły, które prowadzą prosto do wdrożenia",
+    "subheading": "Wybierz temat i zrób konkretny krok w mniej niż 15 minut.",
     "filters": {
       "formLabel": "Filtry artykułów",
       "search": {
         "label": "Wyszukaj artykuły",
-        "placeholder": "Szukaj po temacie"
+        "placeholder": "Szukaj po tytule lub temacie"
       },
       "category": {
         "label": "Kategoria",
-        "placeholder": "Wybierz kategorię"
+        "placeholder": "Wybierz kategorię artykułu"
       },
       "readingTime": {
         "label": "Czas czytania",
@@ -30,30 +30,30 @@
       "submit": "Filtruj"
     },
     "articleCta": "Czytaj →",
-    "noResults": "Nie znaleziono artykułów spełniających kryteria.",
+    "noResults": "Nie znaleziono artykułów spełniających kryteria. Zmień parametry filtrowania lub wyczyść wszystkie filtry.",
     "pagination": {
       "ariaLabel": "Paginacja",
-      "previous": "« Poprzednia",
-      "next": "Następna »"
+      "previous": "« Poprzednia strona",
+      "next": "Następna strona »"
     }
   },
-  "emptyState": "Pracujemy nad publikacją pierwszych artykułów. Zapisz się do newslettera, aby otrzymać aktualizację, gdy będą dostępne.",
+  "emptyState": "Pracujemy nad publikacją pierwszych artykułów. Zapisz się do newslettera, żeby jako jeden z pierwszych dostać informację o starcie i nowe materiały.",
   "taxonomy": {
     "categories": [
       {
         "slug": "strategia",
         "label": "Strategia wdrożenia",
-        "description": "Planowanie architektury informacji, procesów i współpracy zespołu zanim powstanie pierwszy ekran."
+        "description": "Planowanie architektury informacji, procesów i współpracy zespołu, zanim powstanie pierwszy ekran w narzędziu no-code."
       },
       {
         "slug": "seo",
         "label": "SEO i widoczność",
-        "description": "Praktyki techniczne i contentowe, które wzmacniają ruch organiczny oraz widoczność marki."
+        "description": "Praktyki techniczne i contentowe, które realnie wzmacniają ruch organiczny i widoczność oferty w wyszukiwarce."
       },
       {
         "slug": "wydajnosc",
         "label": "Wydajność i Core Web Vitals",
-        "description": "Techniki poprawiające szybkość działania, stabilność layoutu i doświadczenie użytkownika."
+        "description": "Techniki poprawiające szybkość działania, stabilność layoutu i komfort użytkownika zgodnie z wytycznymi Core Web Vitals."
       }
     ],
     "tags": [
@@ -79,8 +79,8 @@
     {
       "slug": "marcel-kenner",
       "name": "Marcel Kenner",
-      "bio": "Strateg i konsultant no-code. Łączy zespoły marketingu, sprzedaży i operacji, budując procesy lead generation bez kodu.",
-      "avatar": "/img/authors/marcel-nowak.webp",
+      "bio": "Strateg i konsultant no-code. Łączy marketing, sprzedaż i operacje, projektując procesy lead generation, które da się mierzyć i skalować bez kodu.",
+      "avatar": "/img/authors/marcel-kenner.webp",
       "links": [
         {
           "label": "LinkedIn",
@@ -96,7 +96,7 @@
     }
   ],
   "navigation": {
-    "menuLabel": "Artykuły",
+    "menuLabel": "Artykuły i poradniki",
     "featuredCategories": [
       { "slug": "strategia", "label": "Strategia wdrożenia" },
       { "slug": "seo", "label": "SEO i widoczność" },
@@ -104,6 +104,6 @@
     ],
     "seeAllLabel": "Wszystkie artykuły",
     "seeAllHref": "/artykuly/",
-    "footerHeading": "Kategorie artykułów"
+    "footerHeading": "Kategorie artykułów eksperckich"
   }
 }

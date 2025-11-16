@@ -1,19 +1,19 @@
 {
   "seo": {
-    "title": "Narzędzia no-code | ProjektBezKodu",
-    "description": "Przewodnik po narzędziach no-code: Webflow, Framer, automatyzacje i analityka. Filtruj, porównuj i przechodź do przewodników.",
+    "title": "Narzędzia no-code: Webflow, Framer, automatyzacje | ProjektBezKodu",
+    "description": "Przewodnik po narzędziach no-code, które realnie skracają czas wdrożeń: Webflow, Framer, automatyzacje i analityka. Filtruj, porównuj i przechodź do konkretnych przewodników wdrożeniowych.",
     "canonical": "https://projektbezkodu.pl/narzedzia/"
   },
   "hero": {
     "title": "Narzędzia no-code",
-    "intro": "Przetestowaliśmy narzędzia, które pomagają startować szybciej. Filtruj po potrzebach i znajdź przewodnik do wdrożenia."
+    "intro": "Wybraliśmy narzędzia, które faktycznie pomagają startować szybciej – nie tylko wyglądają dobrze w marketingu. Przefiltruj listę po potrzebach i przejdź do przewodnika, który pokaże ci, jak wdrożyć dane narzędzie w praktyce."
   },
   "filters": {
     "formLabel": "Filtry narzędzi",
     "category": {
-      "label": "Kategoria",
+      "label": "Kategoria narzędzia",
       "options": [
-        { "value": "", "label": "Dowolna" },
+        { "value": "", "label": "Dowolna kategoria" },
         { "value": "site-builders", "label": "Budowa stron" },
         { "value": "automation", "label": "Automatyzacje" },
         { "value": "analytics", "label": "Analityka" },
@@ -21,46 +21,46 @@
       ]
     },
     "pricing": {
-      "label": "Cena",
+      "label": "Model cenowy",
       "options": [
         { "value": "", "label": "Wszystkie" },
-        { "value": "free", "label": "Free" },
+        { "value": "free", "label": "Darmowe" },
         { "value": "freemium", "label": "Freemium" },
         { "value": "paid", "label": "Płatne" }
       ]
     },
     "system": {
-      "label": "System",
+      "label": "Platforma / system",
       "options": [
         { "value": "", "label": "Dowolny" },
-        { "value": "web", "label": "Web" },
-        { "value": "desktop", "label": "Desktop" }
+        { "value": "web", "label": "Aplikacja webowa" },
+        { "value": "desktop", "label": "Aplikacja desktopowa" }
       ]
     },
-    "submit": "Filtruj"
+    "submit": "Pokaż narzędzia"
   },
   "cards": {
-    "badgeFree": "Free",
-    "badgePaid": "Paid",
-    "primaryCta": "Przewodnik →",
-    "secondaryCta": "Strona narzędzia →",
-    "disclosure": "Część linków to afiliacja."
+    "badgeFree": "Darmowe",
+    "badgePaid": "Płatne",
+    "primaryCta": "Zobacz przewodnik →",
+    "secondaryCta": "Otwórz stronę narzędzia →",
+    "disclosure": "Część linków jest afiliacyjna – polecamy tylko narzędzia, z których sami korzystamy w projektach."
   },
   "detail": {
-    "seoDescriptionFallback": "Poznaj narzędzie no-code rekomendowane przez ProjektBezKodu.",
+    "seoDescriptionFallback": "Poznaj narzędzie no-code rekomendowane przez ProjektBezKodu: kiedy ma sens, jakie ma ograniczenia i jak je wdrożyć w 60 minut.",
     "meta": {
       "categoryLabel": "Kategoria",
       "platformLabel": "Platforma",
       "pricingLabel": "Plan cenowy"
     },
     "strengthsHeading": "Mocne strony (80/20)",
-    "limitationsHeading": "Ograniczenia",
+    "limitationsHeading": "Ograniczenia i ryzyka",
     "gettingStartedHeading": "Jak zacząć w 60 minut",
-    "pricingHeading": "Cennik",
+    "pricingHeading": "Cennik i plany",
     "ctaLabel": "Idź do narzędzia",
     "ctaAria": "Otwórz stronę narzędzia {name}",
-    "relatedHeading": "Przyda Ci się też",
-    "compareHeading": "Porównania",
-    "caseStudiesHeading": "Case studies"
+    "relatedHeading": "Przyda ci się też",
+    "compareHeading": "Porównania z innymi narzędziami",
+    "caseStudiesHeading": "Case studies z wdrożeń"
   }
 }

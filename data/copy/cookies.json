@@ -1,39 +1,39 @@
 {
   "seo": {
-    "title": "Ustawienia cookies | ProjektBezKodu",
-    "description": "Zarządzaj zgodami na pliki cookies w ProjekcieBezKodu. Wybierz, które kategorie chcesz aktywować.",
+    "title": "Ustawienia plików cookies | ProjektBezKodu",
+    "description": "Zarządzaj zgodami na pliki cookies w ProjekcieBezKodu. Wybierz, które kategorie chcesz włączyć, a które wyłączyć.",
     "canonical": "https://projektbezkodu.pl/cookies/"
   },
   "hero": {
     "title": "Ustawienia cookies",
-    "intro": "Tu możesz zarządzać zgodami. W każdej chwili wrócisz do tego panelu z poziomu stopki."
+    "intro": "Tutaj decydujesz, jakie pliki cookies możemy wykorzystywać. Swoje wybory możesz w każdej chwili zmienić – link do tego panelu znajdziesz w stopce."
   },
   "categories": {
     "necessary": {
       "label": "Niezbędne",
-      "description": "Zapewniają podstawowe działanie serwisu i zapis Twoich decyzji dotyczących prywatności."
+      "description": "Zapewniają podstawowe działanie serwisu (np. nawigację, bezpieczeństwo) oraz zapis Twoich decyzji dotyczących prywatności. Te cookies są zawsze aktywne, bo bez nich strona nie działa poprawnie."
     },
     "preferences": {
       "label": "Preferencje",
-      "description": "Zapamiętują dodatkowe ustawienia (np. język), aby poprawić wygodę korzystania z serwisu."
+      "description": "Zapamiętują dodatkowe ustawienia, takie jak język czy układ widoków, żeby korzystanie z serwisu było wygodniejsze i bardziej spójne między wizytami."
     },
     "analytics": {
       "label": "Analityczne",
-      "description": "Pozwalają nam anonimowo mierzyć ruch na stronie i rozwijać treści na podstawie zagregowanych danych."
+      "description": "Pozwalają anonimowo mierzyć ruch na stronie, sprawdzać, które treści są najczęściej czytane i na tej podstawie rozwijać serwis. Dane są analizowane w formie zagregowanej, bez identyfikowania konkretnych osób."
     },
     "marketing": {
       "label": "Marketingowe",
-      "description": "Ułatwiają dopasowanie komunikacji marketingowej i informowanie Cię o nowych materiałach."
+      "description": "Ułatwiają dopasowanie komunikacji marketingowej do Twoich zainteresowań, m.in. poprzez integracje z zewnętrznymi narzędziami reklamowymi i informowanie Cię o nowych materiałach."
     }
   },
   "actions": {
     "save": "Zapisz preferencje",
     "acceptAll": "Akceptuj wszystkie",
-    "statusSaved": "Zapisano ustawienia.",
-    "statusError": "Nie udało się zapisać preferencji. Spróbuj ponownie."
+    "statusSaved": "Twoje ustawienia cookies zostały zapisane.",
+    "statusError": "Nie udało się zapisać preferencji. Sprawdź połączenie i spróbuj ponownie za chwilę."
   },
   "privacyLink": {
-    "label": "Polityka cookies i szczegóły dostawców",
+    "label": "Polityka prywatności, cookies i lista dostawców",
     "href": "/polityka-prywatnosci/"
   }
 }

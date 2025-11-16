@@ -1,32 +1,32 @@
 {
-  "title": "Tutoriale krok po kroku",
-  "intro": "Przewodniki wdrożeniowe z checklistami i estymowanym czasem realizacji.",
-  "emptyState": "Jeszcze nie opublikowaliśmy tutoriali. Pracujemy nad szczegółowymi instrukcjami i poinformujemy Cię o starcie.",
+  "title": "Tutoriale no-code krok po kroku",
+  "intro": "Przewodniki wdrożeniowe z checklistami, screenami i estymowanym czasem realizacji – tak, żebyś mógł przejść od zera do działającego rozwiązania w jedno popołudnie.",
+  "emptyState": "Jeszcze nie opublikowaliśmy tutoriali. Pracujemy nad szczegółowymi instrukcjami krok po kroku i poinformujemy cię o starcie w newsletterze.",
   "filters": {
     "allOption": "Wszystkie",
     "difficultyLabel": "Poziom trudności",
     "toolLabel": "Narzędzie",
     "submitLabel": "Zastosuj filtry",
     "resetLabel": "Wyczyść",
-    "resultLabel": "Znaleziono {count} wyników",
-    "noMatches": "Brak tutoriali spełniających podane kryteria."
+    "resultLabel": "Znaleziono {count} tutoriali",
+    "noMatches": "Brak tutoriali spełniających podane kryteria. Zmień filtry albo wybierz inne narzędzie."
   },
   "taxonomy": {
     "categories": [
       {
         "slug": "site-builder",
         "label": "Site buildery i komponenty",
-        "description": "Przewodniki dotyczące Webflow, Framera i bibliotek komponentów."
+        "description": "Przewodniki dotyczące Webflow, Framera i bibliotek komponentów – od pierwszego layoutu po skalowalny system sekcji."
       },
       {
         "slug": "automation",
         "label": "Automatyzacje i integracje",
-        "description": "Scenariusze Make/Zapier i przepływy, które oszczędzają manualną pracę."
+        "description": "Scenariusze Make/Zapier i przepływy, które zdejmują z zespołu powtarzalną, manualną pracę."
       },
       {
         "slug": "analytics",
         "label": "Analityka i pomiar",
-        "description": "Konfiguracja narzędzi analitycznych, mierzenie celów i dashboardy."
+        "description": "Konfiguracja narzędzi analitycznych, mierzenie celów i budowa dashboardów dla marketingu i sprzedaży."
       }
     ],
     "tags": [

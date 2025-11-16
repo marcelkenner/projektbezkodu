@@ -1,19 +1,19 @@
 {
   "seo": {
-    "title": "Szablony no-code | ProjektBezKodu",
-    "description": "Wybierz szablony Webflow i Framera przygotowane pod szybkie wdrożenia. Każdy zawiera checklistę i instrukcję konfiguracji.",
+    "title": "Szablony no-code Webflow i Framer | ProjektBezKodu",
+    "description": "Wybierz szablony Webflow i Framera przygotowane pod szybkie wdrożenia. Każdy szablon ma checklistę, instrukcję konfiguracji i dostęp do aktualizacji, dzięki czemu uruchomisz stronę w kilka godzin zamiast tygodni.",
     "canonical": "https://projektbezkodu.pl/szablony/"
   },
   "hero": {
-    "title": "Szablony",
-    "intro": "Gotowe układy i komponenty, które możesz wdrożyć w Webflow lub Framerze w kilka godzin. Każdy szablon zawiera instrukcję, checklistę i dostęp do aktualizacji."
+    "title": "Szablony no-code",
+    "intro": "Gotowe układy, sekcje i komponenty, które wdrożysz w Webflow lub Framerze w kilka godzin. Każdy szablon zawiera instrukcję krok po kroku, checklistę publikacji i dostęp do przyszłych aktualizacji."
   },
   "filters": {
     "formLabel": "Filtry szablonów",
     "platform": {
       "label": "Platforma",
       "options": [
-        { "value": "", "label": "Wszystkie" },
+        { "value": "", "label": "Wszystkie platformy" },
         { "value": "webflow", "label": "Webflow" },
         { "value": "framer", "label": "Framer" }
       ]
@@ -21,40 +21,40 @@
     "type": {
       "label": "Typ strony",
       "options": [
-        { "value": "", "label": "Dowolny" },
-        { "value": "landing", "label": "Landing" },
+        { "value": "", "label": "Dowolny typ" },
+        { "value": "landing", "label": "Landing / strona kampanii" },
         { "value": "blog", "label": "Blog" },
         { "value": "portfolio", "label": "Portfolio" }
       ]
     },
     "price": {
-      "label": "Cena",
+      "label": "Cena szablonu",
       "options": [
-        { "value": "", "label": "Dowolna" },
+        { "value": "", "label": "Dowolna cena" },
         { "value": "free", "label": "Darmowe" },
         { "value": "paid", "label": "Płatne" }
       ]
     },
-    "submit": "Filtruj"
+    "submit": "Pokaż szablony"
   },
   "cards": {
-    "ctaPreview": "Podgląd →",
-    "ctaPrimary": "Pobierz",
-    "badgeFree": "Free",
-    "badgePaid": "Paid"
+    "ctaPreview": "Zobacz podgląd →",
+    "ctaPrimary": "Pobierz szablon",
+    "badgeFree": "Darmowy",
+    "badgePaid": "Płatny"
   },
   "detail": {
-    "seoDescriptionFallback": "Poznaj szczegóły szablonu przygotowanego przez ProjektBezKodu.",
-    "forWhomHeading": "Dla kogo i po co",
-    "sectionsHeading": "Co znajdziesz w środku",
+    "seoDescriptionFallback": "Poznaj szczegóły szablonu no-code przygotowanego przez ProjektBezKodu: układ, wymagania i sposób wdrożenia.",
+    "forWhomHeading": "Dla kogo jest ten szablon",
+    "sectionsHeading": "Co dokładnie znajdziesz w środku",
     "requirementsHeading": "Wymagania techniczne",
-    "stepsHeading": "Jak wdrożyć w 60 minut",
-    "faqHeading": "Najczęstsze pytania",
+    "stepsHeading": "Jak wdrożyć w 60 minut (lub mniej)",
+    "faqHeading": "Najczęstsze pytania o ten szablon",
     "ctaPrimaryLabel": "Pobierz szablon",
-    "ctaSecondaryLabel": "Podgląd live",
-    "pricingHeading": "Plany cenowe",
+    "ctaSecondaryLabel": "Otwórz podgląd live",
+    "pricingHeading": "Plany cenowe i licencje",
     "metadata": {
-      "categoryLabel": "Kategoria",
+      "categoryLabel": "Kategoria szablonu",
       "platformLabel": "Platforma",
       "priceLabel": "Cena"
     }

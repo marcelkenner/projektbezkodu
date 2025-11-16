@@ -1,16 +1,16 @@
 {
-  "title": "Słownik pojęć",
-  "intro": "Najważniejsze skróty i definicje związane z budową stron no-code.",
-  "emptyState": "Dodajemy kolejne hasła – jeśli brakuje jakiegoś terminu, daj znać.",
+  "title": "Słownik pojęć no-code",
+  "intro": "Jedno miejsce z najważniejszymi skrótami i definicjami związanymi z budową stron no-code.",
+  "emptyState": "Dodajemy kolejne hasła na bieżąco. Jeśli brakuje jakiegoś terminu, daj znać – dopiszemy go przy kolejnej aktualizacji.",
   "search": {
     "label": "Znajdź hasło",
-    "placeholder": "Wpisz termin, np. “CMS”",
+    "placeholder": "Wpisz termin, np. \"CMS\"",
     "submitLabel": "Szukaj",
     "resetLabel": "Wyczyść",
-    "noResults": "Brak haseł pasujących do wpisanej frazy."
+    "noResults": "Nie znaleźliśmy haseł pasujących do wpisanej frazy."
   },
   "navigation": {
-    "label": "Nawigacja alfabetyczna"
+    "label": "Nawigacja alfabetyczna po hasłach"
   },
-  "readMoreLabel": "Przeczytaj definicję"
+  "readMoreLabel": "Pokaż definicję"
 }

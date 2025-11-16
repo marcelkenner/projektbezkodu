@@ -1,11 +1,11 @@
 {
   "ctas": {
     "primary": "Czytaj najnowsze artykuły",
-    "secondary": "Przeglądaj porównania",
-    "suggestTopic": "Zaproponuj temat"
+    "secondary": "Przeglądaj porównania narzędzi",
+    "suggestTopic": "Zaproponuj temat do kolejnego materiału"
   },
   "newsletter": {
-    "submitLabel": "Zapisz się",
-    "privacyNote": "Dołączając akceptujesz politykę prywatności."
+    "submitLabel": "Dołącz do newslettera",
+    "privacyNote": "Zapisując się, akceptujesz politykę prywatności i zgadzasz się na kontakt mailowy."
   }
 }

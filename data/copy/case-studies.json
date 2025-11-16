@@ -1,29 +1,29 @@
 {
   "seo": {
-    "fallbackTitle": "Case study ProjektBezKodu",
-    "fallbackDescription": "Zobacz, jak projekty no-code dowożą wyniki dla firm w Polsce.",
+    "fallbackTitle": "Case study ProjektBezKodu – strony no-code w praktyce",
+    "fallbackDescription": "Zobacz na konkretnych przykładach, jak projekty no-code dowożą leady, ruch i sprzedaż dla firm w Polsce.",
     "canonicalPrefix": "https://projektbezkodu.pl/przypadki-uzycia"
   },
   "hero": {
     "breadcrumbs": {
       "homeLabel": "Strona główna",
-      "listLabel": "Case studies",
+      "listLabel": "Case study i przykłady wdrożeń",
       "listHref": "/przypadki-uzycia"
     }
   },
   "sections": {
-    "summary": "Streszczenie",
-    "problem": "Problem",
-    "solution": "Rozwiązanie",
-    "result": "Rezultat",
+    "summary": "Streszczenie w skrócie",
+    "problem": "Problem biznesowy",
+    "solution": "Rozwiązanie i proces",
+    "result": "Efekty współpracy",
     "metrics": "Wyniki w liczbach",
-    "stack": "Stack narzędzi",
+    "stack": "Stack narzędzi no-code",
     "lessons": "Lekcje i rekomendacje"
   },
   "cta": {
-    "primaryLabel": "Przejdź do przewodnika",
+    "primaryLabel": "Przewodnik krok po kroku",
     "primaryHref": "/poradniki/",
-    "secondaryLabel": "Zobacz bibliotekę artykułów",
+    "secondaryLabel": "Przeglądaj wszystkie artykuły",
     "secondaryHref": "/artykuly/"
   }
 }
