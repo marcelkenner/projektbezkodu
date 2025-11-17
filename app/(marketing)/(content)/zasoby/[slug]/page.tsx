@@ -2,7 +2,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Badge, TableOfContents } from "@/app/ui";
+import { Badge, TableOfContents, StructuredDataScript } from "@/app/ui";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { getCopy } from "@/app/lib/copy";
 import { ResourceRepository } from "@/app/lib/content/repositories";
@@ -11,11 +11,13 @@ import {
   type ResourceEntry,
 } from "@/app/lib/content/resourceDirectory";
 import type { MarkdownDocument } from "@/app/lib/content/repositories";
+import { ResourceStructuredDataBuilder } from "@/app/lib/seo/ResourceStructuredDataBuilder";
 import "./resource-detail.module.css";
 
 const copy = getCopy("resources");
 const repository = new ResourceRepository();
 const directory = new ResourceDirectory(repository.listSummaries());
+const resourceStructuredDataBuilder = new ResourceStructuredDataBuilder();
 
 export function generateStaticParams() {
   return repository.listSlugs().map((slug) => ({ slug }));
@@ -61,9 +63,34 @@ export default async function ResourceDetailPage({
   const viewModel = new ResourceDetailViewModel(document, entry);
   const headings = viewModel.getHeadings();
   const download = viewModel.getDownloadAction();
+  const heroImage = viewModel.getHeroImage();
+  const fileReference = viewModel.getFileReference();
+  const structuredData = resourceStructuredDataBuilder.build({
+    title: viewModel.getTitle(),
+    description: viewModel.getIntro(),
+    canonicalPath:
+      document.frontmatter.path ?? `/zasoby/${document.slug ?? ""}/`,
+    downloadHref: download?.href,
+    topics: viewModel.getTopics(),
+    license: document.frontmatter.meta?.license,
+    fileFormat: fileReference?.format,
+    fileSize: fileReference?.size,
+    heroImage: heroImage
+      ? {
+          src: heroImage.src,
+          width: heroImage.width,
+          height: heroImage.height,
+          alt: heroImage.alt,
+        }
+      : undefined,
+  });
 
   return (
     <section className="resource-detail section section--surface" id="content">
+      <StructuredDataScript
+        id="resource-structured-data"
+        data={structuredData}
+      />
       <div className="pbk-container resource-detail__layout">
         <aside className="resource-detail__aside">
           <TableOfContents

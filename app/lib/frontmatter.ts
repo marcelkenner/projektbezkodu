@@ -58,6 +58,19 @@ const FrontmatterMetadataSchema = z.object({
   heroImageWidth: z.number().optional(),
   heroImageHeight: z.number().optional(),
   lessons: z.array(z.string()).optional(),
+  review: z
+    .object({
+      productName: OptionalStringSchema,
+      productUrl: OptionalStringSchema,
+      ratingValue: z.number().optional(),
+      bestRating: z.number().optional(),
+      worstRating: z.number().optional(),
+      author: OptionalStringSchema,
+      body: OptionalStringSchema,
+      pros: z.array(z.string()).optional(),
+      cons: z.array(z.string()).optional(),
+    })
+    .optional(),
 });
 
 const FrontmatterTaxonomySchema = z.object({
@@ -102,6 +115,7 @@ export interface FrontmatterSEO {
   description: string;
   keywords?: string[];
   canonical?: string;
+  image?: string;
 }
 
 export interface FrontmatterActionLink {
@@ -137,6 +151,17 @@ export interface FrontmatterMetadata {
   heroImageWidth?: number;
   heroImageHeight?: number;
   lessons?: string[];
+  review?: {
+    productName?: string;
+    productUrl?: string;
+    ratingValue?: number;
+    bestRating?: number;
+    worstRating?: number;
+    author?: string;
+    body?: string;
+    pros?: string[];
+    cons?: string[];
+  };
 }
 
 export interface FrontmatterTaxonomy {

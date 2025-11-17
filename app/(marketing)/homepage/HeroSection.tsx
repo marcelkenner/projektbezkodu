@@ -32,9 +32,18 @@ interface HeroContent {
   image: HeroImage;
 }
 
+interface HeroVariant extends HeroContent {
+  id: string;
+}
+
+interface HeroVariantConfig {
+  defaultVariantId: string;
+  variants: HeroVariant[];
+}
+
 export function HeroSection() {
   const { hero } = getCopy("homepage");
-  const heroContent = mapHeroCopy(hero);
+  const heroContent = resolveHeroContent(hero);
 
   return (
     <section id="hero" className="homepage-hero" aria-labelledby="hero-heading">
@@ -101,4 +110,35 @@ function mapHeroCopy(copy: HeroContent): HeroContent {
     microcopy: copy.microcopy,
     image: copy.image,
   };
+}
+
+function resolveHeroContent(
+  heroCopy: HeroContent | HeroVariantConfig,
+): HeroContent {
+  if (!isVariantConfig(heroCopy)) {
+    return mapHeroCopy(heroCopy);
+  }
+
+  const requestedVariantId =
+    process.env.NEXT_PUBLIC_HOMEPAGE_HERO_VARIANT?.trim().toLowerCase();
+  const normalizedDefault = heroCopy.defaultVariantId?.toLowerCase();
+
+  const findVariant = (id?: string) =>
+    heroCopy.variants.find(
+      (variant) =>
+        variant.id.toLowerCase() === (id ?? "").trim().toLowerCase(),
+    );
+
+  const selectedVariant =
+    (requestedVariantId && findVariant(requestedVariantId)) ||
+    findVariant(normalizedDefault) ||
+    heroCopy.variants[0];
+
+  return mapHeroCopy(selectedVariant);
+}
+
+function isVariantConfig(
+  heroCopy: HeroContent | HeroVariantConfig,
+): heroCopy is HeroVariantConfig {
+  return Array.isArray((heroCopy as HeroVariantConfig).variants);
 }

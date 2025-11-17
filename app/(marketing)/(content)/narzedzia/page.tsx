@@ -6,6 +6,8 @@ import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import "./tools.module.css";
 import { ToolsJumpSelect } from "./ToolsJumpSelect";
+import { StructuredDataScript } from "@/app/ui";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 
 const copy = getCopy("tools");
 const CONTENT_ROOT = path.join(process.cwd(), "content/narzedzia");
@@ -20,9 +22,14 @@ export const metadata: Metadata = {
 
 export default function ToolsPage() {
   const overview = loadToolsFromContent();
+  const itemListStructuredData = buildToolCollectionJsonLd(overview);
 
   return (
     <section className="tools-page" id="content">
+      <StructuredDataScript
+        id="tools-item-list"
+        data={itemListStructuredData}
+      />
       <div className="pbk-container pbk-stack pbk-stack--tight">
         <div className="pbk-readable pbk-readable--start">
           <div className="tools-page__intro">
@@ -151,4 +158,23 @@ function toNonEmptyString(value: unknown): string | undefined {
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
+}
+
+function buildToolCollectionJsonLd(entries: ToolOverviewEntry[]) {
+  if (!entries.length) {
+    return null;
+  }
+
+  const factory = defaultSiteUrlFactory;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: entries.map((entry, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: factory.build(entry.path),
+      name: entry.heading ?? entry.title ?? entry.folderName,
+      description: entry.subheading,
+    })),
+  };
 }

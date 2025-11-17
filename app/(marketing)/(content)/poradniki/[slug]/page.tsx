@@ -8,12 +8,24 @@ import {
 } from "@/app/lib/content/repositories";
 import { tutorialTaxonomyCatalog } from "@/app/lib/content/tutorialTaxonomy";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
-import { Badge, TableOfContents } from "@/app/ui";
+import {
+  Badge,
+  TableOfContents,
+  StructuredDataScript,
+} from "@/app/ui";
+import type { MarkdownHeading } from "@/app/ui/markdown/types";
 import { getCopy } from "@/app/lib/copy";
+import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
+import {
+  FaqStructuredDataBuilder,
+  type FaqItem,
+} from "@/app/lib/seo/FaqStructuredDataBuilder";
 import "./pillar-page.module.css";
 
 const tutorialRepository = new TutorialRepository();
 const pillarCopy = getCopy("pillar");
+const tutorialHowToBuilder = new HowToStructuredDataBuilder();
+const tutorialFaqBuilder = new FaqStructuredDataBuilder();
 
 interface TutorialPageProps {
   params: Promise<{ slug: string }>;
@@ -49,9 +61,25 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
   const headings = viewModel.getHeadings();
   const featured = viewModel.getFeatured();
   const download = viewModel.getDownload();
+  const journey = viewModel.getJourney();
+  const tutorialDocument = viewModel.getDocument();
+  const howToStructuredData = tutorialHowToBuilder.build(
+    extractHowToSteps(headings),
+    tutorialDocument.frontmatter.title,
+  );
+  const faqStructuredData = tutorialFaqBuilder.build(
+    extractFaqItems(tutorialDocument.content),
+  );
+  const structuredDataPayloads = [howToStructuredData, faqStructuredData].filter(
+    Boolean,
+  ) as Record<string, unknown>[];
 
   return (
     <section className="pillar-page section section--surface" id="content">
+      <StructuredDataScript
+        id="tutorial-structured-data"
+        data={structuredDataPayloads.length ? structuredDataPayloads : null}
+      />
       <div className="pbk-container pillar-page__layout">
         <aside className="pillar-page__aside">
           <TableOfContents title={viewModel.getTocTitle()} items={headings} />
@@ -102,6 +130,7 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
             {viewModel.renderContent()}
           </div>
         </article>
+        {journey ? <JourneySection journey={journey} /> : null}
         {featured.length ? (
           <section className="pillar-page__featured pbk-card pbk-stack">
             <div className="pillar-page__featuredHeader">
@@ -156,6 +185,7 @@ interface PillarEntryConfig {
     privacyLabel: string;
     privacyHref: string;
   };
+  journey?: PillarJourneyConfig;
 }
 
 type PillarSlug = keyof typeof pillarCopy.entries;
@@ -179,8 +209,53 @@ class PillarCopyResolver {
         entry.featuredCtaLabel ?? pillarCopy.fallback.featuredCtaLabel,
       featuredSlugs: entry.featuredSlugs ?? [],
       download: entry.download ?? pillarCopy.fallback.download,
+      journey: entry.journey ?? pillarCopy.fallback.journey,
     };
   }
+}
+
+interface PillarJourneyConfig {
+  heading: string;
+  steps: PillarJourneyStep[];
+}
+
+interface PillarJourneyStep {
+  label: string;
+  description: string;
+  resources?: { label: string; href: string }[];
+}
+
+function JourneySection({ journey }: { journey: PillarJourneyConfig }) {
+  if (!journey.steps.length) {
+    return null;
+  }
+
+  return (
+    <section className="pillar-page__journey">
+      <div className="pillar-page__journeyHeader">
+        <h2>{journey.heading}</h2>
+      </div>
+      <ol className="pillar-page__journeyList">
+        {journey.steps.map((step) => (
+          <li key={`${step.label}-${step.description}`}>
+            <div className="pillar-page__journeyStep">
+              <h3>{step.label}</h3>
+              <p>{step.description}</p>
+              {step.resources?.length ? (
+                <div className="pillar-page__journeyResources">
+                  {step.resources.map((resource) => (
+                    <Link key={resource.href} href={resource.href}>
+                      {resource.label}
+                    </Link>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
 }
 
 type FeaturedItem = ContentSummary;
@@ -216,6 +291,75 @@ class FeaturedTutorialSelector {
 
     return all.slice(0, limit);
   }
+}
+
+function extractHowToSteps(headings: MarkdownHeading[]): string[] {
+  const normalized = headings
+    .filter((heading) => heading.level === 2)
+    .map((heading) => heading.text.trim())
+    .filter(Boolean);
+
+  const numbered = normalized.filter((text) =>
+    /^(\d+\.|krok\s*\d+)/i.test(text),
+  );
+  const source = numbered.length ? numbered : normalized;
+
+  return source.map((text) =>
+    text.replace(/^(\d+\.?|krok\s*\d*:?)\s*/i, "").trim() || text,
+  );
+}
+
+function extractFaqItems(content: string): FaqItem[] {
+  const lines = content.split(/\r?\n/);
+  const items: FaqItem[] = [];
+  let inFaqSection = false;
+  let currentQuestion: string | null = null;
+  let currentAnswer: string[] = [];
+
+  const flush = () => {
+    if (currentQuestion && currentAnswer.length) {
+      const answer = currentAnswer.join("\n").trim();
+      if (answer) {
+        items.push({
+          question: currentQuestion,
+          answer,
+        });
+      }
+    }
+    currentQuestion = null;
+    currentAnswer = [];
+  };
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    const h2Match = /^##\s+(.*)/i.exec(line);
+    if (h2Match) {
+      if (inFaqSection) {
+        flush();
+      }
+      const headingText = h2Match[1].trim();
+      inFaqSection = /^faq/i.test(headingText);
+      continue;
+    }
+
+    if (!inFaqSection) {
+      continue;
+    }
+
+    const h3Match = /^###\s+(.*)/.exec(line);
+    if (h3Match) {
+      flush();
+      currentQuestion = h3Match[1].trim();
+      continue;
+    }
+
+    if (currentQuestion) {
+      currentAnswer.push(rawLine);
+    }
+  }
+
+  flush();
+  return items;
 }
 
 class PillarPageViewModel {
@@ -280,5 +424,13 @@ class PillarPageViewModel {
 
   getDownload() {
     return this.config.download;
+  }
+
+  getDocument() {
+    return this.tutorial;
+  }
+
+  getJourney() {
+    return this.config.journey;
   }
 }

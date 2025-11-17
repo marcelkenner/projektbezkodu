@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { TutorialRepository } from "@/app/lib/content/repositories";
+import type { ContentSummary } from "@/app/lib/content/repositories";
 import { TutorialDirectory } from "@/app/lib/content/tutorialDirectory";
 import { tutorialTaxonomyCatalog } from "@/app/lib/content/tutorialTaxonomy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
-import { Badge, Button, SelectField } from "../../../ui";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { Badge, Button, SelectField, StructuredDataScript } from "../../../ui";
 import { getCopy } from "../../../lib/copy";
 
 const tutorialRepository = new TutorialRepository();
@@ -51,9 +53,16 @@ export default async function TutorialsIndex({
   ];
 
   const hasResults = filteredTutorials.length > 0;
+  const itemListStructuredData = buildTutorialCollectionJsonLd(
+    filteredTutorials,
+  );
 
   return (
     <section className="section section--surface">
+      <StructuredDataScript
+        id="tutorials-item-list"
+        data={itemListStructuredData}
+      />
       <div className="pbk-container pbk-stack">
         <div className="section__header">
           <h1>{copy.title}</h1>
@@ -154,4 +163,23 @@ export default async function TutorialsIndex({
       </div>
     </section>
   );
+}
+
+function buildTutorialCollectionJsonLd(tutorials: ContentSummary[]) {
+  if (!tutorials.length) {
+    return null;
+  }
+
+  const factory = defaultSiteUrlFactory;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: tutorials.map((tutorial, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: factory.build(tutorial.path),
+      name: tutorial.title,
+      description: tutorial.description,
+    })),
+  };
 }

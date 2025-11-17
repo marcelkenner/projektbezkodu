@@ -15,6 +15,58 @@
   gap: var(--space-4);
 }
 
+:global(.about-page__timeline) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.about-page__milestone) {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border-left: 3px solid var(--color-primary-strong);
+  background: #fff;
+  border-radius: var(--radii-md);
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.about-page__milestoneYear) {
+  font-size: var(--typography-fontSize-small);
+  font-weight: var(--typography-fontWeight-semibold);
+  color: var(--color-primary-strong);
+  letter-spacing: 0.08em;
+}
+
+:global(.about-page__milestoneBody h3) {
+  margin: 0;
+}
+
+:global(.about-page__milestoneMetrics) {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-2);
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+:global(.about-page__milestoneMetrics div) {
+  display: grid;
+  gap: 0.1rem;
+}
+
+:global(.about-page__milestoneMetrics dt) {
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+:global(.about-page__milestoneMetrics dd) {
+  margin: 0;
+  font-weight: var(--typography-fontWeight-semibold);
+}
+
 :global(.about-page__teamGrid) {
   display: grid;
   gap: var(--space-4);

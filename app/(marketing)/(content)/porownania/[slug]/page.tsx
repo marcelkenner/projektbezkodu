@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import type { Frontmatter } from "@/app/lib/frontmatter";
 import { ComparisonRepository } from "@/app/lib/content/repositories";
 import { comparisonTaxonomyCatalog } from "@/app/lib/content/comparisonTaxonomy";
+import { ArticleStructuredDataBuilder } from "@/app/lib/seo/ArticleStructuredDataBuilder";
+import { ReviewStructuredDataBuilder } from "@/app/lib/seo/ReviewStructuredDataBuilder";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
-import { Badge } from "@/app/ui";
+import { Badge, StructuredDataScript } from "@/app/ui";
 
 const comparisonRepository = new ComparisonRepository();
+const comparisonStructuredDataBuilder = new ArticleStructuredDataBuilder();
+const reviewStructuredDataBuilder = new ReviewStructuredDataBuilder();
 
 interface ComparisonPageProps {
   params: Promise<{ slug: string }>;
@@ -37,7 +42,7 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
     notFound();
   }
 
-  const { frontmatter, content } = comparison;
+  const { frontmatter, content, excerpt, slug } = comparison;
   const renderer = new MarkdownRenderer(content);
   const categories = comparisonTaxonomyCatalog.resolveCategories(
     frontmatter.taxonomy?.categories,
@@ -46,8 +51,46 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
     frontmatter.taxonomy?.tags,
   );
 
+  const heroImage = resolveComparisonHeroImage(frontmatter);
+  const structuredData = comparisonStructuredDataBuilder.build({
+    title: frontmatter.title,
+    description: frontmatter.seo?.description ?? excerpt,
+    canonicalPath: frontmatter.path ?? `/porownania/${slug}/`,
+    authorName: frontmatter.meta?.author,
+    datePublished: frontmatter.date,
+    dateModified: frontmatter.meta?.updatedAt,
+    tags: frontmatter.taxonomy?.tags,
+    categories: categories
+      .map((category) => category?.label)
+      .filter((label): label is string => Boolean(label)),
+    image: heroImage,
+  });
+  const reviewStructuredData = frontmatter.meta?.review
+    ? reviewStructuredDataBuilder.build({
+        canonicalPath: frontmatter.path ?? `/porownania/${slug}/`,
+        itemName:
+          frontmatter.meta.review.productName ?? frontmatter.title,
+        itemUrl: frontmatter.meta.review.productUrl,
+        ratingValue: frontmatter.meta.review.ratingValue,
+        bestRating: frontmatter.meta.review.bestRating,
+        worstRating: frontmatter.meta.review.worstRating,
+        reviewBody: frontmatter.meta.review.body,
+        authorName:
+          frontmatter.meta.review.author ?? frontmatter.meta?.author,
+        pros: frontmatter.meta.review.pros,
+        cons: frontmatter.meta.review.cons,
+      })
+    : null;
+  const structuredDataPayloads = [structuredData, reviewStructuredData].filter(
+    Boolean,
+  ) as Record<string, unknown>[];
+
   return (
     <section className="section section--surface">
+      <StructuredDataScript
+        id="comparison-structured-data"
+        data={structuredDataPayloads.length ? structuredDataPayloads : null}
+      />
       <div className="pbk-container pbk-stack">
         <header className="pbk-stack pbk-stack--tight">
           <h1>{frontmatter.title}</h1>
@@ -77,4 +120,29 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
       </div>
     </section>
   );
+}
+
+function resolveComparisonHeroImage(frontmatter: Frontmatter) {
+  if (frontmatter.hero?.image?.src) {
+    return {
+      src: frontmatter.hero.image.src,
+      alt: frontmatter.hero.image.alt,
+      width: frontmatter.hero.image.width,
+      height: frontmatter.hero.image.height,
+    };
+  }
+
+  if (
+    frontmatter.meta?.heroImageSrc &&
+    frontmatter.meta.heroImageAlt
+  ) {
+    return {
+      src: frontmatter.meta.heroImageSrc,
+      alt: frontmatter.meta.heroImageAlt,
+      width: frontmatter.meta.heroImageWidth,
+      height: frontmatter.meta.heroImageHeight,
+    };
+  }
+
+  return null;
 }

@@ -4,6 +4,38 @@
     "description": "Poznaj ProjektBezKodu. Pokazujemy, jak łączyć strategię, SEO i automatyzacje, żeby strony no-code dowoziły leady, a nie tylko ładnie wyglądały.",
     "canonical": "https://projektbezkodu.pl/o-nas/"
   },
+  "milestones": {
+    "heading": "Jak rozwijał się ProjektBezKodu",
+    "items": [
+      {
+        "year": "2021",
+        "title": "Pierwsze checklisty 80/20",
+        "description": "Publikujemy pierwsze checklisty Webflow + SEO na potrzeby współprac z małymi zespołami marketingu.",
+        "metrics": [
+          { "label": "Checklisty", "value": "6" },
+          { "label": "Stack narzędzi", "value": "3" }
+        ]
+      },
+      {
+        "year": "2022",
+        "title": "Biblioteka komponentów i automatyzacje",
+        "description": "Dodajemy sekcje hero/pricing i blueprinty Make, żeby marketing mógł iterować landingi i procesy bez devów.",
+        "metrics": [
+          { "label": "Komponenty", "value": "28" },
+          { "label": "Blueprinty Make", "value": "4" }
+        ]
+      },
+      {
+        "year": "2024",
+        "title": "Publiczny playbook i społeczność",
+        "description": "Udostępniamy playbook no-code + newsletter 80/20. Rosną live sesje i warsztaty z zespołami product marketingu.",
+        "metrics": [
+          { "label": "Czytelnicy", "value": "7 500" },
+          { "label": "Live sesje", "value": "18" }
+        ]
+      }
+    ]
+  },
   "hero": {
     "title": "O nas",
     "lead": "Publikujemy sprawdzone procesy no-code, checklisty i biblioteki, dzięki którym marketing może działać samodzielnie – bez czekania na programistów."

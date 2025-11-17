@@ -10,6 +10,32 @@
       "ctaHref": "/do-pobrania",
       "privacyLabel": "Polityka prywatności",
       "privacyHref": "/polityka-prywatnosci"
+    },
+    "journey": {
+      "heading": "Plan wdrożenia krok po kroku",
+      "steps": [
+        {
+          "label": "Zaplanuj strukturę",
+          "description": "Ustal sekcje, layout i treści zanim uruchomisz builder.",
+          "resources": [
+            { "label": "Mapa treści", "href": "/sciezki/plan-strony/" }
+          ]
+        },
+        {
+          "label": "Zbuduj layout",
+          "description": "Skorzystaj z sekcji i komponentów, które przyspieszą start.",
+          "resources": [
+            { "label": "Biblioteka sekcji", "href": "/szablony/" }
+          ]
+        },
+        {
+          "label": "Odpal automatyzacje",
+          "description": "Połącz formularze, CRM i raporty, żeby leady trafiały do właściwych osób.",
+          "resources": [
+            { "label": "Blueprint Make", "href": "/poradniki/automatyzacja-leadow-make/" }
+          ]
+        }
+      ]
     }
   },
   "entries": {
@@ -28,6 +54,35 @@
         "ctaHref": "/zasoby/prawne-wzory/",
         "privacyLabel": "Polityka prywatności",
         "privacyHref": "/polityka-prywatnosci"
+      },
+      "journey": {
+        "heading": "Jak wdrożyć blog w Webflow",
+        "steps": [
+          {
+            "label": "Strategia i struktura treści",
+            "description": "Ustal kategorie, tagi i układ CMS zanim powstanie pierwszy wpis.",
+            "resources": [
+              { "label": "Mapa kategorii", "href": "/kategoria/seo/" },
+              { "label": "Checklisty redakcyjne", "href": "/poradniki/webflow-blog-krok-po-kroku/" }
+            ]
+          },
+          {
+            "label": "Design + komponenty",
+            "description": "Skopiuj sekcje hero/listing i dopasuj do brandu.",
+            "resources": [
+              { "label": "Sekcje biblioteki", "href": "/szablony/" },
+              { "label": "Style guide", "href": "/artykuly/system-design/" }
+            ]
+          },
+          {
+            "label": "Automatyzacje + analytics",
+            "description": "Podłącz raportowanie i scenariusze Make dla leadów z bloga.",
+            "resources": [
+              { "label": "Blueprint Make", "href": "/poradniki/automatyzacja-leadow-make/" },
+              { "label": "Checklisty GA4", "href": "/artykuly/ga4-wdrozenie/" }
+            ]
+          }
+        ]
       }
     },
     "framer-landing-2h": {
@@ -45,6 +100,35 @@
         "ctaHref": "/zasoby/banery-og/",
         "privacyLabel": "Polityka prywatności",
         "privacyHref": "/polityka-prywatnosci"
+      },
+      "journey": {
+        "heading": "Landing w 2 godziny – plan działania",
+        "steps": [
+          {
+            "label": "Brief + copy",
+            "description": "Spisz obietnicę, CTA i segmenty odbiorców zanim otworzysz Framera.",
+            "resources": [
+              { "label": "Brief landing page", "href": "/sciezki/landing-brief/" },
+              { "label": "Checklisty copy", "href": "/artykuly/copywriting-lp/" }
+            ]
+          },
+          {
+            "label": "Layout i sekcje",
+            "description": "Wklej gotowe sekcje hero/proof/pricing i dopasuj je do brandu.",
+            "resources": [
+              { "label": "Biblioteka sekcji", "href": "/szablony/" },
+              { "label": "Inspiracje Framer", "href": "/narzedzia/framer/" }
+            ]
+          },
+          {
+            "label": "Automatyzacje i testy",
+            "description": "Podepnij formularz + Make i od razu ustaw eksperymenty A/B.",
+            "resources": [
+              { "label": "Blueprint leadowy", "href": "/poradniki/automatyzacja-leadow-make/" },
+              { "label": "Testy A/B w Framerze", "href": "/narzedzia/testy-a-b/" }
+            ]
+          }
+        ]
       }
     },
     "automatyzacja-leadow-make": {
@@ -62,6 +146,33 @@
         "ctaHref": "https://files.projektbezkodu.pl/resources/make-lead-automation.blueprint",
         "privacyLabel": "Polityka prywatności",
         "privacyHref": "/polityka-prywatnosci"
+      },
+      "journey": {
+        "heading": "Automatyzacja leadów od briefu do notyfikacji",
+        "steps": [
+          {
+            "label": "Przygotuj dane wejściowe",
+            "description": "Zmapuj pola formularzy, CRM i enrichment, żeby scenariusz wiedział, co zebrać.",
+            "resources": [
+              { "label": "Checklisty danych", "href": "/artykuly/dane-leadowe/" }
+            ]
+          },
+          {
+            "label": "Zbuduj scenariusz w Make",
+            "description": "Skorzystaj z blueprintu i dodaj własne gałęzie (walidacja, enrichment, scoring).",
+            "resources": [
+              { "label": "Blueprint leadowy", "href": "/poradniki/automatyzacja-leadow-make/" }
+            ]
+          },
+          {
+            "label": "Obsługa i raporty",
+            "description": "Podepnij Slack + Dashboard, żeby zespół widział każdy lead i status scenariusza.",
+            "resources": [
+              { "label": "Integracje Slack", "href": "/narzedzia/automatyzacje/" },
+              { "label": "Raportowanie leadów", "href": "/artykuly/raporty-growth/" }
+            ]
+          }
+        ]
       }
     }
   }

@@ -3,10 +3,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCopy } from "@/app/lib/copy";
 import { TemplateCatalog } from "@/app/lib/content/templateCatalog";
+import { StructuredDataScript } from "@/app/ui";
+import { ProductStructuredDataBuilder } from "@/app/lib/seo/ProductStructuredDataBuilder";
+import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
+import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
 import "./../templates.module.css";
 
 const copy = getCopy("templates");
 const catalog = new TemplateCatalog();
+const productStructuredDataBuilder = new ProductStructuredDataBuilder();
+const faqStructuredDataBuilder = new FaqStructuredDataBuilder();
+const howToStructuredDataBuilder = new HowToStructuredDataBuilder();
 
 export function generateStaticParams() {
   return catalog.list().map((template) => ({ slug: template.slug }));
@@ -42,9 +49,36 @@ export default async function TemplateDetailPage({
   if (!template) {
     notFound();
   }
+  const canonicalPath = `/szablony/${template.slug}/`;
+  const productStructuredData = productStructuredDataBuilder.build({
+    name: template.name,
+    description: template.summary,
+    canonicalPath,
+    brand: template.platform || undefined,
+    category: template.type || undefined,
+    offers: template.pricing.map((row) => ({
+      identifier: `${template.slug}-${row.plan}`,
+      price: row.amount,
+      currency: undefined,
+      url: template.primaryHref,
+    })),
+    isFree: template.price === "free",
+  });
+  const faqStructuredData = faqStructuredDataBuilder.build(template.faq);
+  const howToStructuredData = howToStructuredDataBuilder.build(
+    template.steps,
+    copy.detail.stepsHeading,
+  );
+  const structuredDataPayloads = [productStructuredData, faqStructuredData, howToStructuredData].filter(
+    Boolean,
+  ) as Record<string, unknown>[];
 
   return (
     <section className="templates-page" id="content">
+      <StructuredDataScript
+        id="template-structured-data"
+        data={structuredDataPayloads.length ? structuredDataPayloads : null}
+      />
       <div className="pbk-container pbk-stack pbk-stack--loose">
         <header className="pbk-stack pbk-stack--tight">
           <h1>{template.name}</h1>

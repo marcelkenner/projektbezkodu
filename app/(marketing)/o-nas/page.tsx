@@ -26,6 +26,7 @@ export default function AboutPage() {
       </div>
 
       <PurposeSection />
+      <MilestonesSection />
       <TeamSection />
       <PrinciplesSection />
       <ServicesSection />
@@ -44,6 +45,39 @@ function PurposeSection() {
           <p key={paragraph}>{paragraph}</p>
         ))}
       </div>
+    </div>
+  );
+}
+
+function MilestonesSection() {
+  if (!copy.milestones?.items?.length) {
+    return null;
+  }
+
+  return (
+    <div className="pbk-container about-page__section">
+      <h2>{copy.milestones.heading}</h2>
+      <ol className="about-page__timeline">
+        {copy.milestones.items.map((item) => (
+          <li key={`${item.year}-${item.title}`} className="about-page__milestone">
+            <span className="about-page__milestoneYear">{item.year}</span>
+            <div className="about-page__milestoneBody">
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+              {item.metrics?.length ? (
+                <dl className="about-page__milestoneMetrics">
+                  {item.metrics.map((metric) => (
+                    <div key={`${item.year}-${metric.label}`}>
+                      <dt>{metric.label}</dt>
+                      <dd>{metric.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              ) : null}
+            </div>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Button, SelectField } from "@/app/ui";
+import { Button, SelectField, StructuredDataScript } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import { ResourceRepository } from "@/app/lib/content/repositories";
 import {
@@ -8,6 +8,7 @@ import {
   type ResourceFilterCriteria,
   type ResourceFilterOption,
 } from "@/app/lib/content/resourceDirectory";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import "./resources.module.css";
 
 const copy = getCopy("resources");
@@ -102,9 +103,14 @@ export default async function ResourcesPage({
   );
 
   const hasResults = entries.length > 0;
+  const collectionStructuredData = buildResourceCollectionJsonLd(entries);
 
   return (
     <section className="resources-page section section--surface" id="content">
+      <StructuredDataScript
+        id="resources-item-list"
+        data={collectionStructuredData}
+      />
       <div className="pbk-container pbk-stack">
         <header className="resources-page__header pbk-stack pbk-stack--tight">
           <div className="pbk-stack pbk-stack--tight">
@@ -222,4 +228,23 @@ function buildOptions(options: ResourceFilterOption[], defaultLabel: string) {
       label: `${option.label} (${option.count})`,
     })),
   ];
+}
+
+function buildResourceCollectionJsonLd(entries: ReturnType<ResourceDirectory["list"]>) {
+  if (!entries.length) {
+    return null;
+  }
+
+  const factory = defaultSiteUrlFactory;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: entries.map((entry, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: factory.build(entry.summary.path),
+      name: entry.summary.title,
+      description: entry.summary.description,
+    })),
+  };
 }

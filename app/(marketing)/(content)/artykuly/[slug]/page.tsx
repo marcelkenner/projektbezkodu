@@ -3,15 +3,20 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Clock, Info } from "@phosphor-icons/react/dist/ssr";
+import type { Frontmatter } from "@/app/lib/frontmatter";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { ArticleStructuredDataBuilder } from "@/app/lib/seo/ArticleStructuredDataBuilder";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
-import { TableOfContents } from "@/app/ui/TableOfContents";
+import { TableOfContents, StructuredDataScript } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
+import { ArticleSharePanel } from "../ArticleSharePanel";
 import "../article.module.css";
 
 const articleRepository = new ArticleRepository();
 const allSummaries = articleRepository.listSummaries();
+const articleStructuredDataBuilder = new ArticleStructuredDataBuilder();
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -33,10 +38,58 @@ export async function generateMetadata({
   const { frontmatter, excerpt } = article;
   const summary = allSummaries.find((entry) => entry.slug === slug);
   const canonical = summary?.path ?? frontmatter.path ?? `/artykuly/${slug}/`;
+  const shareUrl = defaultSiteUrlFactory.build(canonical);
+  const shareTitle = frontmatter.seo?.title ?? frontmatter.title;
+  const shareDescription = frontmatter.seo?.description ?? excerpt;
+  const shareImage =
+    frontmatter.seo?.image ??
+    frontmatter.meta?.heroImageSrc ??
+    frontmatter.hero?.image?.src;
+  const shareImageUrl = shareImage
+    ? defaultSiteUrlFactory.build(shareImage)
+    : undefined;
+  const shareImageAlt =
+    frontmatter.hero?.image?.alt ??
+    frontmatter.meta?.heroImageAlt ??
+    shareTitle;
+  const shareImageWidth =
+    frontmatter.meta?.heroImageWidth ?? frontmatter.hero?.image?.width ?? 1200;
+  const shareImageHeight =
+    frontmatter.meta?.heroImageHeight ??
+    frontmatter.hero?.image?.height ??
+    630;
   return {
-    title: frontmatter.seo?.title ?? frontmatter.title,
-    description: frontmatter.seo?.description ?? excerpt,
+    title: shareTitle,
+    description: shareDescription,
+    keywords: frontmatter.seo?.keywords,
     alternates: { canonical },
+    openGraph: {
+      type: "article",
+      url: shareUrl,
+      title: shareTitle,
+      description: shareDescription,
+      publishedTime: frontmatter.date,
+      modifiedTime: frontmatter.meta?.updatedAt,
+      authors: frontmatter.meta?.author
+        ? [frontmatter.meta.author]
+        : undefined,
+      images: shareImageUrl
+        ? [
+            {
+              url: shareImageUrl,
+              width: shareImageWidth,
+              height: shareImageHeight,
+              alt: shareImageAlt,
+            },
+          ]
+        : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: shareTitle,
+      description: shareDescription,
+      images: shareImageUrl ? [shareImageUrl] : undefined,
+    },
   };
 }
 
@@ -48,7 +101,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     notFound();
   }
 
-  const { frontmatter, content } = article;
+  const { frontmatter, content, excerpt } = article;
   const renderer = new MarkdownRenderer(content);
   const headings = renderer.getHeadings();
   const copy = getCopy("articles");
@@ -74,9 +127,31 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const layoutClassName = hasToc
     ? "article-page__layout article-page__layout--with-toc"
     : "article-page__layout";
+  const summary = allSummaries.find((entry) => entry.slug === slug);
+  const canonicalPath =
+    summary?.path ?? frontmatter.path ?? `/artykuly/${slug}/`;
+  const articleUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const heroImage = resolveHeroImage(frontmatter);
+  const articleStructuredData = articleStructuredDataBuilder.build({
+    title: frontmatter.title,
+    description: frontmatter.seo?.description ?? excerpt,
+    canonicalPath,
+    authorName: author?.name ?? frontmatter.meta?.author,
+    datePublished: frontmatter.date,
+    dateModified: frontmatter.meta?.updatedAt,
+    tags: frontmatter.taxonomy?.tags,
+    categories: categories
+      .map((category) => category?.label)
+      .filter((label): label is string => Boolean(label)),
+    image: heroImage,
+  });
 
   return (
     <section className="article-page" id="content">
+      <StructuredDataScript
+        id="article-structured-data"
+        data={articleStructuredData}
+      />
       <div className="pbk-container">
         <nav className="article-page__breadcrumbs" aria-label="Okruszki">
           <Link href="/">Strona główna</Link>
@@ -148,6 +223,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </aside>
           ) : null}
         </header>
+
+        <ArticleSharePanel title={frontmatter.title} url={articleUrl} />
 
         <div className={layoutClassName}>
           {hasToc ? (
@@ -290,4 +367,29 @@ function findAdjacentArticles(slug: string) {
     next:
       index >= 0 && index < sorted.length - 1 ? sorted[index + 1] : undefined,
   };
+}
+
+function resolveHeroImage(frontmatter: Frontmatter) {
+  if (frontmatter.hero?.image?.src) {
+    return {
+      src: frontmatter.hero.image.src,
+      alt: frontmatter.hero.image.alt,
+      width: frontmatter.hero.image.width,
+      height: frontmatter.hero.image.height,
+    };
+  }
+
+  if (
+    frontmatter.meta?.heroImageSrc &&
+    frontmatter.meta.heroImageAlt
+  ) {
+    return {
+      src: frontmatter.meta.heroImageSrc,
+      alt: frontmatter.meta.heroImageAlt,
+      width: frontmatter.meta.heroImageWidth,
+      height: frontmatter.meta.heroImageHeight,
+    };
+  }
+
+  return null;
 }

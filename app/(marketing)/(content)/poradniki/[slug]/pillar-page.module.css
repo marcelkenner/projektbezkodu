@@ -48,6 +48,56 @@
   padding: var(--space-4);
 }
 
+:global(.pillar-page__journey) {
+  background: #fff;
+  border-radius: var(--radii-md);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-4);
+  display: grid;
+  gap: var(--space-4);
+}
+
+:global(.pillar-page__journeyHeader h2) {
+  margin: 0;
+}
+
+:global(.pillar-page__journeyList) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+:global(.pillar-page__journeyStep) {
+  border-radius: var(--radii-md);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  padding: var(--space-3);
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.pillar-page__journeyStep h3) {
+  margin: 0;
+}
+
+:global(.pillar-page__journeyResources) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+:global(.pillar-page__journeyResources a) {
+  color: var(--color-primary-strong);
+  font-weight: var(--typography-fontWeight-medium);
+  text-decoration: none;
+}
+
+:global(.pillar-page__journeyResources a:hover) {
+  text-decoration: underline;
+}
+
 :global(.pillar-page__featuredGrid) {
   display: grid;
   gap: var(--space-3);

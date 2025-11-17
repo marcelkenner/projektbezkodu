@@ -20,30 +20,62 @@
     }
   },
   "hero": {
-    "heading": "Postaw stronę no-code i zacznij zbierać leady w tym tygodniu",
-    "subheading": "Oferta jest widoczna, leady wpadają do skrzynki, a ty samodzielnie ogarniasz treści – bez czekania na wolne moce programistów.",
-    "primaryCta": {
-      "label": "Start z Webflow",
-      "href": "/narzedzia/webflow/",
-      "ariaLabel": "Przejdź do przewodnika startowego z Webflow"
-    },
-    "secondaryCta": {
-      "label": "Plan 30 dni z Webflow",
-      "href": "/sciezki/webflow-30-dni/"
-    },
-    "microcopy": "Niektóre linki do Webflow są afiliacyjne – polecamy tylko narzędzia, z których sami korzystamy.",
-    "image": {
-      "src": "/img/hero-3x2.webp",
-      "alt": "Makieta strony internetowej układanej z bloków przez kilka osób – nagłówek, oferta i formularz kontaktowy.",
-      "width": 1120,
-      "height": 747,
-      "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1120px",
-      "sources": [
-        { "src": "/img/hero-3x2-560.webp", "width": 560 },
-        { "src": "/img/hero-3x2-840.webp", "width": 840 },
-        { "src": "/img/hero-3x2.webp", "width": 1120 }
-      ]
-    }
+    "defaultVariantId": "lead-gen",
+    "variants": [
+      {
+        "id": "lead-gen",
+        "heading": "Postaw stronę no-code i zacznij zbierać leady w tym tygodniu",
+        "subheading": "Oferta jest widoczna, leady wpadają do skrzynki, a ty samodzielnie ogarniasz treści – bez czekania na wolne moce programistów.",
+        "primaryCta": {
+          "label": "Start z Webflow",
+          "href": "/narzedzia/webflow/",
+          "ariaLabel": "Przejdź do przewodnika startowego z Webflow"
+        },
+        "secondaryCta": {
+          "label": "Plan 30 dni z Webflow",
+          "href": "/sciezki/webflow-30-dni/"
+        },
+        "microcopy": "Niektóre linki do Webflow są afiliacyjne – polecamy tylko narzędzia, z których sami korzystamy.",
+        "image": {
+          "src": "/img/hero-3x2.webp",
+          "alt": "Makieta strony internetowej układanej z bloków przez kilka osób – nagłówek, oferta i formularz kontaktowy.",
+          "width": 1120,
+          "height": 747,
+          "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1120px",
+          "sources": [
+            { "src": "/img/hero-3x2-560.webp", "width": 560 },
+            { "src": "/img/hero-3x2-840.webp", "width": 840 },
+            { "src": "/img/hero-3x2.webp", "width": 1120 }
+          ]
+        }
+      },
+      {
+        "id": "automation",
+        "heading": "Automatyzuj leady i raporty bez zatrudniania integratora",
+        "subheading": "Łączysz formularze, CRM i Slacka w Make lub Zapierze, a każdy nowy kontakt wpada w proces z kompletnym kontekstem.",
+        "primaryCta": {
+          "label": "Blueprint procesu leadowego",
+          "href": "/poradniki/automatyzacja-leadow-make/"
+        },
+        "secondaryCta": {
+          "label": "Lista gotowych scenariuszy",
+          "href": "/narzedzia/automatyzacje/"
+        },
+        "microcopy": "Blueprint zawiera linki afiliacyjne do Make. Korzystamy z tego samego scenariusza w produkcji.",
+        "image": {
+          "src": "/img/hero-automation.webp",
+          "alt": "Diagram automatyzacji pokazujący przepływ leadów między formularzem, CRM i Slackiem.",
+          "width": 1080,
+          "height": 720,
+          "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1080px",
+          "sources": [
+            { "src": "/img/hero-automation-540.webp", "width": 540 },
+            { "src": "/img/hero-automation-810.webp", "width": 810 },
+            { "src": "/img/hero-automation.webp", "width": 1080 }
+          ]
+        }
+      }
+    ]
   },
   "socialProof": {
     "heading": "Projektuj w:",
@@ -54,6 +86,32 @@
       { "src": "/images/logos/squarespace.svg", "alt": "Logo Squarespace" },
       { "src": "/images/logos/relume.svg", "alt": "Logo Relume" },
       { "src": "/images/logos/flowbase.svg", "alt": "Logo Flowbase" }
+    ],
+    "testimonialsHeading": "Z czego korzystają zespoły marketingu",
+    "testimonials": [
+      {
+        "quote": "Procesy i checklisty od ProjektBezKodu pozwoliły nam odpalić landing i automatyzacje w jeden sprint – bez angażowania devów.",
+        "author": "Agnieszka",
+        "role": "Head of Marketing, Senuto",
+        "avatar": "/img/testimonials/agnieszka.webp",
+        "cta": { "label": "Case study", "href": "/przypadki-uzycia/seo-b2b/" }
+      },
+      {
+        "quote": "Gotowe sekcje i plan 30 dni z Webflow uporządkowały pracę całego zespołu – wreszcie wiemy, co i kiedy publikujemy.",
+        "author": "Jakub",
+        "role": "Co-founder, Solvbot",
+        "avatar": "/img/testimonials/jakub.webp"
+      },
+      {
+        "quote": "Blueprinty Make + checklisty SEO to najlepsze combo do szybkich iteracji – każdy eksperyment kończy się wdrożeniem.",
+        "author": "Monika",
+        "role": "Growth Lead, User.com",
+        "avatar": "/img/testimonials/monika.webp",
+        "cta": {
+          "label": "Blueprint automatyzacji",
+          "href": "/poradniki/automatyzacja-leadow-make/"
+        }
+      }
     ]
   },
   "pillars": {

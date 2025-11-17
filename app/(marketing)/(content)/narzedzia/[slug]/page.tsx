@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { TableOfContents } from "@/app/ui/TableOfContents";
+import { TableOfContents, StructuredDataScript } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
+import { ToolCatalog } from "@/app/lib/content/toolCatalog";
+import { SoftwareApplicationStructuredDataBuilder } from "@/app/lib/seo/SoftwareApplicationStructuredDataBuilder";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
+const toolCatalog = new ToolCatalog();
+const softwareApplicationStructuredDataBuilder =
+  new SoftwareApplicationStructuredDataBuilder();
 
 interface ToolPageProps {
   params: Promise<{ slug: string }>;
@@ -62,9 +67,32 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const layoutClassName = hasToc
     ? "article-page__layout article-page__layout--with-toc"
     : "article-page__layout";
+  const canonicalPath = viewModel.getPath();
+  const toolEntry = toolCatalog.find(slug);
+  const structuredData = toolEntry
+    ? softwareApplicationStructuredDataBuilder.build({
+        canonicalPath,
+        name: toolEntry.name,
+        description: subheading ?? toolEntry.summary,
+        applicationCategory: toolEntry.category,
+        operatingSystem: mapOperatingSystem(toolEntry.platform),
+        landingPage: toolEntry.siteHref,
+        features: toolEntry.strengths,
+        pricingModel: toolEntry.pricing,
+        offers: toolEntry.pricingTable.map((plan) => ({
+          identifier: `${toolEntry.slug}-${plan.plan}`,
+          amount: plan.amount,
+          url: toolEntry.siteHref,
+        })),
+      })
+    : null;
 
   return (
     <section className="article-page" id="content">
+      <StructuredDataScript
+        id="tool-structured-data"
+        data={structuredData}
+      />
       <div className="pbk-container">
         <header className="article-page__header">
           <p className="pbk-card__meta">{viewModel.getPath()}</p>
@@ -87,4 +115,14 @@ export default async function ToolPage({ params }: ToolPageProps) {
       </div>
     </section>
   );
+}
+
+function mapOperatingSystem(platform: string | undefined) {
+  if (!platform) {
+    return "Web";
+  }
+  if (platform === "desktop") {
+    return "Windows, macOS";
+  }
+  return "Web";
 }

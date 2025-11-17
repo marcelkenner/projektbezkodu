@@ -21,6 +21,27 @@ meta:
   duration: null
   tools:
     - framer
+  review:
+    productName: Framer vs WordPress
+    productUrl: https://projektbezkodu.pl/porownania/framer-vs-wordpress/
+    ratingValue: 4.2
+    bestRating: 5
+    worstRating: 1
+    author: ProjektBezKodu
+    body: >-
+      Framer daje soloprzedsiębiorcom szybsze wdrożenie i gotowe animacje,
+      podczas gdy WordPress pozostaje bezkonkurencyjny przy skalowaniu treści.
+      Jeśli zależy Ci na błyskawicznym landingu z pełną kontrolą wizualną,
+      Framer przyspieszy projekt. Jeżeli potrzebujesz rozbudowanego CMS z
+      wtyczkami i wielojęzycznością, WordPress nadal wygrywa.
+    pros:
+      - Framer pozwala zbudować landing w godziny z gotowymi komponentami.
+      - Natywne animacje i interakcje bez pluginów.
+      - Hosting i SSL są wliczone w abonament.
+    cons:
+      - WordPress wymaga więcej opieki devopsowej przy każdej aktualizacji.
+      - Wydajność WordPressa zależy od jakości motywu i pluginów.
+      - Skalowanie Framera do bloga/glosariusza jest trudniejsze bez CMS.
 taxonomy:
   categories:
     - site-builder
