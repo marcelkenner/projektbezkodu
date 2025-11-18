@@ -12,5 +12,24 @@
   "navigation": {
     "label": "Nawigacja alfabetyczna po hasłach"
   },
-  "readMoreLabel": "Pokaż definicję"
+  "readMoreLabel": "Pokaż definicję",
+  "cta": {
+    "heading": "Zamień definicje na konkretne działania",
+    "body": "Skoro poznajesz pojęcia no-code, dołącz do newslettera i sprawdzonych przewodników, które pokazują jak te narzędzia wykorzystać w praktyce.",
+    "bulletsHeading": "Co otrzymasz",
+    "bullets": [
+      "1 e-mail tygodniowo z poradnikami i automatyzacjami.",
+      "Checklisty i szablony do wdrożenia kampanii w weekend.",
+      "Polecane narzędzia i oferty partnerskie z realnymi rabatami."
+    ],
+    "primary": {
+      "label": "Dołącz do newslettera",
+      "href": "/newsletter"
+    },
+    "secondary": {
+      "label": "Sprawdź narzędzia polecane przez nas",
+      "href": "/narzedzia"
+    },
+    "helperText": "Zero spamu, tylko sprawdzone wdrożenia i linki afiliacyjne oznaczone zgodnie z wytycznymi."
+  }
 }

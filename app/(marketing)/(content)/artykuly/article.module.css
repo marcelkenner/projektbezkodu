@@ -76,8 +76,7 @@
 }
 
 :global(.article-page__toc) {
-  position: sticky;
-  top: calc(var(--space-6) + 5rem);
+  position: static;
   align-self: start;
   justify-self: start;
   width: 100%;
@@ -90,67 +89,54 @@
   gap: var(--space-2);
 }
 
-:global(.article-page__share) {
-  margin-block: var(--space-5);
+:global(.comparison-related) {
+  margin-top: var(--space-5);
   padding: var(--space-4);
-  border: 1px solid rgba(15, 23, 42, 0.1);
+  border: 1px solid var(--color-border);
   border-radius: var(--radii-lg);
   background: var(--color-surface-alt);
   display: grid;
-  gap: var(--space-4);
-}
-
-:global(.article-page__shareIntro) {
-  display: flex;
   gap: var(--space-3);
-  align-items: flex-start;
 }
 
-:global(.article-page__shareIcon) {
-  width: 40px;
-  height: 40px;
-  color: var(--color-primary-strong);
+:global(.comparison-related__grid) {
+  display: grid;
+  gap: var(--space-3);
 }
 
-:global(.article-page__shareSubtext) {
+:global(.comparison-related__card) {
+  padding: var(--space-3);
+  border-radius: var(--radii-md);
+  border: 1px solid var(--color-border);
+  background: #fff;
+  display: grid;
+  gap: var(--space-2);
+}
+
+:global(.comparison-faq) {
+  margin-top: var(--space-5);
+  gap: var(--space-3);
+}
+
+:global(.comparison-faq__list) {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+:global(.comparison-faq__item) {
+  display: grid;
+  gap: var(--space-1);
+}
+
+:global(.comparison-faq__item dt) {
+  font-weight: var(--typography-fontWeight-semibold);
+  margin: 0;
+}
+
+:global(.comparison-faq__item dd) {
   margin: 0;
   color: var(--color-ink-muted);
-  font-size: var(--typography-fontSize-small);
-}
-
-:global(.article-page__shareList) {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: var(--space-2);
-}
-
-:global(.article-page__shareButton) {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  width: 100%;
-  padding: var(--space-2) var(--space-3);
-  border-radius: var(--radii-full);
-  border: 1px solid rgba(15, 23, 42, 0.08);
-  background: #fff;
-  color: var(--color-ink-base);
-  font-weight: 600;
-  text-decoration: none;
-  font-size: var(--typography-fontSize-small);
-}
-
-:global(.article-page__shareButton:hover) {
-  border-color: var(--color-primary-strong);
-  color: var(--color-primary-strong);
-}
-
-:global(.article-page__shareButtonIcon) {
-  width: 18px;
-  height: 18px;
 }
 
 :global(.article-page__author) {

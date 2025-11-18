@@ -5,7 +5,13 @@ import { TutorialDirectory } from "@/app/lib/content/tutorialDirectory";
 import { tutorialTaxonomyCatalog } from "@/app/lib/content/tutorialTaxonomy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
-import { Badge, Button, SelectField, StructuredDataScript } from "../../../ui";
+import {
+  Badge,
+  Button,
+  FilterBar,
+  SelectField,
+  StructuredDataScript,
+} from "../../../ui";
 import { getCopy } from "../../../lib/copy";
 
 const tutorialRepository = new TutorialRepository();
@@ -53,9 +59,8 @@ export default async function TutorialsIndex({
   ];
 
   const hasResults = filteredTutorials.length > 0;
-  const itemListStructuredData = buildTutorialCollectionJsonLd(
-    filteredTutorials,
-  );
+  const itemListStructuredData =
+    buildTutorialCollectionJsonLd(filteredTutorials);
 
   return (
     <section className="section section--surface">
@@ -69,42 +74,47 @@ export default async function TutorialsIndex({
           <p>{copy.intro}</p>
         </div>
         {libraryEmpty ? null : (
-          <form className="pbk-stack pbk-stack--tight" method="get">
-            <div className="pbk-stack pbk-stack--tight">
-              <SelectField
-                id="difficulty"
-                name="difficulty"
-                label={copy.filters.difficultyLabel}
-                defaultValue={selectedDifficulty ?? baseOption}
-                options={difficultyOptions}
-              />
-              <SelectField
-                id="tool"
-                name="tool"
-                label={copy.filters.toolLabel}
-                defaultValue={selectedTool ?? baseOption}
-                options={toolOptions}
-              />
-            </div>
-            <div className="pbk-inline-list">
-              <Button type="submit" variant="primary">
-                {copy.filters.submitLabel}
-              </Button>
-              <Link
-                className="pbk-button pbk-button--tertiary"
-                href="/poradniki"
-                prefetch={false}
-              >
-                {copy.filters.resetLabel}
-              </Link>
-            </div>
-            <p className="pbk-input__description">
-              {formatResultLabel(
-                copy.filters.resultLabel,
-                filteredTutorials.length,
-              )}
-            </p>
-          </form>
+          <FilterBar
+            method="get"
+            legend="Filtruj tutoriale"
+            actions={
+              <>
+                <Button type="submit" variant="primary" size="compact">
+                  {copy.filters.submitLabel}
+                </Button>
+                <Link
+                  className="pbk-button pbk-button--tertiary pbk-button--compact"
+                  href="/poradniki"
+                  prefetch={false}
+                >
+                  {copy.filters.resetLabel}
+                </Link>
+              </>
+            }
+            footer={
+              <p className="pbk-input__description">
+                {formatResultLabel(
+                  copy.filters.resultLabel,
+                  filteredTutorials.length,
+                )}
+              </p>
+            }
+          >
+            <SelectField
+              id="difficulty"
+              name="difficulty"
+              label={copy.filters.difficultyLabel}
+              defaultValue={selectedDifficulty ?? baseOption}
+              options={difficultyOptions}
+            />
+            <SelectField
+              id="tool"
+              name="tool"
+              label={copy.filters.toolLabel}
+              defaultValue={selectedTool ?? baseOption}
+              options={toolOptions}
+            />
+          </FilterBar>
         )}
         <div className="section__grid">
           {libraryEmpty ? (

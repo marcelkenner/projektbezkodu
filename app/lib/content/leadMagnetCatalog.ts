@@ -34,6 +34,19 @@ interface LeadMagnetHero {
   image: LeadMagnetImage;
 }
 
+interface LeadMagnetCtaLink {
+  label: string;
+  href: string;
+  rel?: string;
+  target?: string;
+}
+
+interface LeadMagnetCtaGroup {
+  primary?: LeadMagnetCtaLink;
+  secondary?: LeadMagnetCtaLink;
+  helperText?: string;
+}
+
 interface LeadMagnetSeo {
   title: string;
   description: string;
@@ -62,6 +75,8 @@ export interface LeadMagnetEntry {
   hero: LeadMagnetHero;
   form: LeadMagnetForm;
   thankYou?: LeadMagnetThankYou;
+  summaryBullets?: string[];
+  cta?: LeadMagnetCtaGroup;
 }
 
 interface RawLeadMagnetEntry {
@@ -77,6 +92,8 @@ interface RawLeadMagnetEntry {
     disclaimer: string;
   };
   thankYou?: LeadMagnetThankYou;
+  summaryBullets?: string[];
+  cta?: LeadMagnetCtaGroup;
 }
 
 interface LeadMagnetCopy {
@@ -107,6 +124,8 @@ export class LeadMagnetCatalog {
       seo: entry.seo,
       hero: entry.hero,
       thankYou: entry.thankYou,
+      summaryBullets: entry.summaryBullets,
+      cta: entry.cta,
       form: {
         ...entry.form,
         method: entry.form.method === "post" ? "post" : "get",

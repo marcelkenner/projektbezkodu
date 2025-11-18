@@ -28,7 +28,8 @@ export class ResourceStructuredDataBuilder {
       description: input.description,
       url: this.urlFactory.build(input.canonicalPath),
       inLanguage: "pl-PL",
-      learningResourceType: input.topics && input.topics.length ? input.topics : undefined,
+      learningResourceType:
+        input.topics && input.topics.length ? input.topics : undefined,
       license: input.license,
       fileFormat: input.fileFormat,
       size: input.fileSize,

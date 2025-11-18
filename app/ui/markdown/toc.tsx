@@ -1,23 +1,32 @@
-import type { ReactNode } from "react";
+import type { JSX } from "react";
 import type { MarkdownHeading } from "./types";
 
-export function renderTocNav(headings: MarkdownHeading[]): ReactNode {
+type TocNavProps = {
+  headings: MarkdownHeading[];
+};
+
+export function TocNav({ headings }: TocNavProps): JSX.Element | null {
   if (!headings.length) {
     return null;
   }
+
   return (
     <nav className="pbk-toc" aria-label="Table of contents">
       <ul>
-        {headings.map((heading) => (
-          <li
-            key={heading.id}
-            className={`pbk-toc__item pbk-toc__item--level-${heading.level}`}
-          >
-            <a href={`#${heading.id}`} className="pbk-link">
-              {heading.text}
-            </a>
-          </li>
-        ))}
+        {headings.map(({ id, level, text }) => {
+          const normalizedLevel = Math.min(Math.max(level, 1), 6);
+
+          return (
+            <li
+              key={id}
+              className={`pbk-toc__item pbk-toc__item--level-${normalizedLevel}`}
+            >
+              <a href={`#${id}`} className="pbk-link">
+                {text}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );

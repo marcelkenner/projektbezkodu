@@ -26,7 +26,7 @@ import {
   isMailOrTel,
   isSafeUrl,
 } from "./markdown/safety";
-import { renderTocNav } from "./markdown/toc";
+import { TocNav } from "./markdown/toc";
 import type {
   Align,
   MarkdownHeading,
@@ -54,7 +54,7 @@ export class MarkdownRenderer {
     return this.renderNodes(this.tree.children, "block");
   }
   renderToc(): ReactNode {
-    return renderTocNav(this.headings);
+    return <TocNav headings={this.headings} />;
   }
   getHeadings(): MarkdownHeading[] {
     return [...this.headings];

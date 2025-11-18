@@ -24,15 +24,16 @@
         {
           "label": "Zbuduj layout",
           "description": "Skorzystaj z sekcji i komponentów, które przyspieszą start.",
-          "resources": [
-            { "label": "Biblioteka sekcji", "href": "/szablony/" }
-          ]
+          "resources": [{ "label": "Biblioteka sekcji", "href": "/szablony/" }]
         },
         {
           "label": "Odpal automatyzacje",
           "description": "Połącz formularze, CRM i raporty, żeby leady trafiały do właściwych osób.",
           "resources": [
-            { "label": "Blueprint Make", "href": "/poradniki/automatyzacja-leadow-make/" }
+            {
+              "label": "Blueprint Make",
+              "href": "/poradniki/automatyzacja-leadow-make/"
+            }
           ]
         }
       ]
@@ -43,10 +44,7 @@
       "tocTitle": "Spis treści tutorialu",
       "featuredHeading": "Co wdrożyć razem z blogiem",
       "featuredCtaLabel": "Przeczytaj poradnik",
-      "featuredSlugs": [
-        "automatyzacja-leadow-make",
-        "framer-landing-2h"
-      ],
+      "featuredSlugs": ["automatyzacja-leadow-make", "framer-landing-2h"],
       "download": {
         "heading": "Checklista publikacji bloga (PDF)",
         "description": "PDF z listą kontrolną SEO, dostępności i procesu publikacji – od pierwszej wersji roboczej do opublikowanego wpisu.",
@@ -63,7 +61,10 @@
             "description": "Ustal kategorie, tagi i układ CMS zanim powstanie pierwszy wpis.",
             "resources": [
               { "label": "Mapa kategorii", "href": "/kategoria/seo/" },
-              { "label": "Checklisty redakcyjne", "href": "/poradniki/webflow-blog-krok-po-kroku/" }
+              {
+                "label": "Checklisty redakcyjne",
+                "href": "/poradniki/webflow-blog-krok-po-kroku/"
+              }
             ]
           },
           {
@@ -78,7 +79,10 @@
             "label": "Automatyzacje + analytics",
             "description": "Podłącz raportowanie i scenariusze Make dla leadów z bloga.",
             "resources": [
-              { "label": "Blueprint Make", "href": "/poradniki/automatyzacja-leadow-make/" },
+              {
+                "label": "Blueprint Make",
+                "href": "/poradniki/automatyzacja-leadow-make/"
+              },
               { "label": "Checklisty GA4", "href": "/artykuly/ga4-wdrozenie/" }
             ]
           }
@@ -108,8 +112,14 @@
             "label": "Brief + copy",
             "description": "Spisz obietnicę, CTA i segmenty odbiorców zanim otworzysz Framera.",
             "resources": [
-              { "label": "Brief landing page", "href": "/sciezki/landing-brief/" },
-              { "label": "Checklisty copy", "href": "/artykuly/copywriting-lp/" }
+              {
+                "label": "Brief landing page",
+                "href": "/sciezki/landing-brief/"
+              },
+              {
+                "label": "Checklisty copy",
+                "href": "/artykuly/copywriting-lp/"
+              }
             ]
           },
           {
@@ -124,8 +134,14 @@
             "label": "Automatyzacje i testy",
             "description": "Podepnij formularz + Make i od razu ustaw eksperymenty A/B.",
             "resources": [
-              { "label": "Blueprint leadowy", "href": "/poradniki/automatyzacja-leadow-make/" },
-              { "label": "Testy A/B w Framerze", "href": "/narzedzia/testy-a-b/" }
+              {
+                "label": "Blueprint leadowy",
+                "href": "/poradniki/automatyzacja-leadow-make/"
+              },
+              {
+                "label": "Testy A/B w Framerze",
+                "href": "/narzedzia/testy-a-b/"
+              }
             ]
           }
         ]
@@ -135,10 +151,7 @@
       "tocTitle": "Moduły scenariusza automatyzacji",
       "featuredHeading": "Co spiąć z tą automatyzacją",
       "featuredCtaLabel": "Sprawdź materiały",
-      "featuredSlugs": [
-        "webflow-blog-krok-po-kroku",
-        "framer-landing-2h"
-      ],
+      "featuredSlugs": ["webflow-blog-krok-po-kroku", "framer-landing-2h"],
       "download": {
         "heading": "Szablon scenariusza Make (blueprint)",
         "description": "Gotowy do importu blueprint scenariusza z enrichmentem leadów i notyfikacjami, który szybko dopasujesz do swojego CRM.",
@@ -154,22 +167,34 @@
             "label": "Przygotuj dane wejściowe",
             "description": "Zmapuj pola formularzy, CRM i enrichment, żeby scenariusz wiedział, co zebrać.",
             "resources": [
-              { "label": "Checklisty danych", "href": "/artykuly/dane-leadowe/" }
+              {
+                "label": "Checklisty danych",
+                "href": "/artykuly/dane-leadowe/"
+              }
             ]
           },
           {
             "label": "Zbuduj scenariusz w Make",
             "description": "Skorzystaj z blueprintu i dodaj własne gałęzie (walidacja, enrichment, scoring).",
             "resources": [
-              { "label": "Blueprint leadowy", "href": "/poradniki/automatyzacja-leadow-make/" }
+              {
+                "label": "Blueprint leadowy",
+                "href": "/poradniki/automatyzacja-leadow-make/"
+              }
             ]
           },
           {
             "label": "Obsługa i raporty",
             "description": "Podepnij Slack + Dashboard, żeby zespół widział każdy lead i status scenariusza.",
             "resources": [
-              { "label": "Integracje Slack", "href": "/narzedzia/automatyzacje/" },
-              { "label": "Raportowanie leadów", "href": "/artykuly/raporty-growth/" }
+              {
+                "label": "Integracje Slack",
+                "href": "/narzedzia/automatyzacje/"
+              },
+              {
+                "label": "Raportowanie leadów",
+                "href": "/artykuly/raporty-growth/"
+              }
             ]
           }
         ]

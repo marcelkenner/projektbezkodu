@@ -5,6 +5,10 @@
     "category": "site-builders",
     "pricing": "freemium",
     "platform": "web",
+    "logo": {
+      "src": "/images/logos/webflow.svg",
+      "alt": "Webflow"
+    },
     "summary": "Builder stron no-code z CMS i hostingiem klasy enterprise.",
     "guideHref": "/narzedzia/webflow/",
     "siteHref": "https://webflow.com/?utm_source=projektbezkodu&utm_medium=affiliate&utm_campaign=webflow",
@@ -45,6 +49,10 @@
     "category": "site-builders",
     "pricing": "freemium",
     "platform": "web",
+    "logo": {
+      "src": "/images/logos/framer.svg",
+      "alt": "Framer"
+    },
     "summary": "Framer to builder stron z naciskiem na animacje i szybkość wdrożeń.",
     "guideHref": "/narzedzia/framer/",
     "siteHref": "https://www.framer.com/?ref=projektbezkodu",
@@ -79,6 +87,10 @@
     "category": "automation",
     "pricing": "freemium",
     "platform": "web",
+    "logo": {
+      "src": "/images/logos/make.svg",
+      "alt": "Make"
+    },
     "summary": "Automatyzacje procesów marketingowych i sprzedażowych z wykorzystaniem Make.",
     "guideHref": "/narzedzia/make/",
     "siteHref": "https://www.make.com/en/register?pc=projektbezkodu",

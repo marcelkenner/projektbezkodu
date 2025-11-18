@@ -2,9 +2,17 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Button, TextField, CheckboxField } from "@/app/ui";
+import {
+  Button,
+  TextField,
+  CheckboxField,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  ArticleSharePanel,
+} from "@/app/ui";
 import { LeadMagnetCatalog } from "@/app/lib/content/leadMagnetCatalog";
 import "./../lead-magnet.module.css";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 
 const catalog = new LeadMagnetCatalog();
 
@@ -47,20 +55,34 @@ export default async function LeadMagnetPage({
     notFound();
   }
 
+  const shareUrl = defaultSiteUrlFactory.build(
+    leadMagnet.seo.canonical ?? `/do-pobrania/${leadMagnet.slug}/`,
+  );
+  const hasSummaryBullets =
+    Array.isArray(leadMagnet.summaryBullets) &&
+    leadMagnet.summaryBullets.length > 0;
+  const summaryBullets = hasSummaryBullets
+    ? leadMagnet.summaryBullets
+    : leadMagnet.hero.bullets;
+  const ctaGroup = leadMagnet.cta;
+
   return (
     <section className="lead-page" id="content">
       <div className="pbk-container lead-page__grid">
         <div className="lead-page__hero">
           <header className="pbk-stack pbk-stack--tight">
             <h1>{leadMagnet.hero.title}</h1>
+            <ArticleSharePanel title={leadMagnet.hero.title} url={shareUrl} />
           </header>
-          <ul className="lead-page__bullets">
-            {leadMagnet.hero.bullets.map((bullet) => (
-              <li key={bullet}>
-                <span>{bullet}</span>
-              </li>
-            ))}
-          </ul>
+          <ArticleSummaryBullets
+            bullets={summaryBullets}
+            heading="Co znajdziesz w środku"
+          />
+          <ArticleCtaGroup
+            primary={ctaGroup?.primary}
+            secondary={ctaGroup?.secondary}
+            helperText={ctaGroup?.helperText}
+          />
           <img
             className="lead-page__image"
             src={leadMagnet.hero.image.src}
@@ -72,7 +94,7 @@ export default async function LeadMagnetPage({
           />
         </div>
 
-        <div className="lead-page__formCard">
+        <div className="lead-page__formCard" id="lead-magnet-form">
           <header className="pbk-stack pbk-stack--tight">
             <h2>{leadMagnet.form.title}</h2>
           </header>

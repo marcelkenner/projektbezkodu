@@ -167,6 +167,63 @@
       }
     ]
   },
+  "resources": {
+    "heading": "Nie wszystko ląduje w artykułach",
+    "subheading": "Skorzystaj z bibliotek poradników, narzędzi i case studies, żeby szybciej znaleźć właściwy materiał.",
+    "primary": {
+      "title": "Biblioteka poradników krok po kroku",
+      "description": "Plany wdrożeń Webflow, checklisty publikacji i blueprinty automatyzacji, które prowadzimy w sprintach marketingowych.",
+      "href": "/poradniki/",
+      "ctaLabel": "Przejdź do poradników",
+      "icon": "guides",
+      "badge": "Poradniki",
+      "stat": "32+ ścieżki wdrożeniowe"
+    },
+    "items": [
+      {
+        "title": "Narzędzia i integracje",
+        "description": "Konfiguracje Webflow, Relume, Zapiera i Make opisane krok po kroku na przykładach klientów.",
+        "href": "/narzedzia/",
+        "ctaLabel": "Zobacz narzędzia",
+        "icon": "tools"
+      },
+      {
+        "title": "Porównania stacku no-code",
+        "description": "Sprawdź co wybrać do kolejnego projektu – zestawiamy Webflow, Framer, Wix i inne edytory wraz z realnymi przykładami.",
+        "href": "/porownania/",
+        "ctaLabel": "Czytaj porównania",
+        "icon": "comparisons"
+      },
+      {
+        "title": "Szablony i komponenty",
+        "description": "Hero, pricing, FAQ i całe układy w Figma + Webflow gotowe do wklejenia do Twojego projektu.",
+        "href": "/szablony/",
+        "ctaLabel": "Pobierz szablony",
+        "icon": "templates"
+      },
+      {
+        "title": "Przypadki użycia",
+        "description": "Zobacz jak SaaS-y, agencje i NGO wdrażają no-code – dane, stack i efekty kampanii.",
+        "href": "/przypadki-uzycia/saas-b2b/",
+        "ctaLabel": "Przeczytaj case study",
+        "icon": "cases"
+      },
+      {
+        "title": "Materiały do pobrania",
+        "description": "Briefy, checklisty i raporty, które aktualizujemy po każdym wdrożeniu.",
+        "href": "/do-pobrania/",
+        "ctaLabel": "Pobierz materiały",
+        "icon": "downloads"
+      },
+      {
+        "title": "Automatyzacje leadowe",
+        "description": "Scenariusze Make i Zapier pod CRM, Slacka i newsletter – kopiujesz i działasz.",
+        "href": "/narzedzia/automatyzacje/",
+        "ctaLabel": "Wdróż automatyzację",
+        "icon": "automation"
+      }
+    ]
+  },
   "workflow": {
     "heading": "Jak to działa krok po kroku?",
     "steps": [

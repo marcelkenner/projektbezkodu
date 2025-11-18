@@ -1,8 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Badge, TableOfContents, StructuredDataScript } from "@/app/ui";
+import {
+  Badge,
+  TableOfContents,
+  StructuredDataScript,
+  ArticleSharePanel,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  TaxonomyChips,
+  ArticleMetaBadges,
+} from "@/app/ui";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { getCopy } from "@/app/lib/copy";
 import { ResourceRepository } from "@/app/lib/content/repositories";
@@ -12,6 +20,8 @@ import {
 } from "@/app/lib/content/resourceDirectory";
 import type { MarkdownDocument } from "@/app/lib/content/repositories";
 import { ResourceStructuredDataBuilder } from "@/app/lib/seo/ResourceStructuredDataBuilder";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 import "./resource-detail.module.css";
 
 const copy = getCopy("resources");
@@ -65,11 +75,41 @@ export default async function ResourceDetailPage({
   const download = viewModel.getDownloadAction();
   const heroImage = viewModel.getHeroImage();
   const fileReference = viewModel.getFileReference();
+  const canonicalPath =
+    document.frontmatter.path ?? `/zasoby/${document.slug ?? ""}/`;
+  const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const categoryChips =
+    document.frontmatter.taxonomy?.categories?.map((label) => ({
+      label,
+      slug: TextNormalizer.slugify(label),
+    })) ?? [];
+  const tagChips =
+    document.frontmatter.taxonomy?.tags?.map((label) => ({
+      label,
+      slug: TextNormalizer.slugify(label),
+    })) ?? [];
+  const summaryBullets = document.frontmatter.meta?.summaryBullets;
+  const primaryCta = download
+    ? {
+        label: download.label,
+        href: download.href,
+        rel: download.rel,
+      }
+    : undefined;
+  const secondaryCtaLink = viewModel.getDetailsLink();
+  const secondaryCta = secondaryCtaLink
+    ? {
+        label: copy.cards.detailsCta,
+        href: secondaryCtaLink,
+      }
+    : undefined;
+  const hasAffiliateLinks = Boolean(
+    document.frontmatter.meta?.hasAffiliateLinks,
+  );
   const structuredData = resourceStructuredDataBuilder.build({
     title: viewModel.getTitle(),
     description: viewModel.getIntro(),
-    canonicalPath:
-      document.frontmatter.path ?? `/zasoby/${document.slug ?? ""}/`,
+    canonicalPath,
     downloadHref: download?.href,
     topics: viewModel.getTopics(),
     license: document.frontmatter.meta?.license,
@@ -114,6 +154,11 @@ export default async function ResourceDetailPage({
               <h1>{viewModel.getTitle()}</h1>
               {viewModel.getIntro() ? <p>{viewModel.getIntro()}</p> : null}
             </div>
+            <ArticleMetaBadges
+              categories={categoryChips}
+              difficulty={document.frontmatter.meta?.difficulty}
+              duration={document.frontmatter.meta?.duration}
+            />
             {viewModel.getHeroImage() ? (
               <img
                 className="resource-detail__heroImage"
@@ -134,25 +179,6 @@ export default async function ResourceDetailPage({
                 ))}
               </div>
             ) : null}
-            <div className="resource-detail__cta">
-              {download ? (
-                <Link
-                  className="pbk-button pbk-button--primary"
-                  href={download.href}
-                  rel={download.rel}
-                >
-                  {download.label}
-                </Link>
-              ) : null}
-              {viewModel.getDetailsLink() ? (
-                <Link
-                  className="pbk-button pbk-button--secondary"
-                  href={viewModel.getDetailsLink()!}
-                >
-                  {copy.cards.detailsCta}
-                </Link>
-              ) : null}
-            </div>
             {viewModel.getFileReference() ? (
               <dl className="resource-detail__file">
                 {viewModel.getFileReference()?.format ? (
@@ -178,6 +204,14 @@ export default async function ResourceDetailPage({
               </dl>
             ) : null}
           </header>
+          <ArticleSharePanel title={viewModel.getTitle()} url={shareUrl} />
+          <ArticleSummaryBullets bullets={summaryBullets} />
+          <ArticleCtaGroup
+            primary={primaryCta}
+            secondary={secondaryCta}
+            isAffiliate={hasAffiliateLinks}
+          />
+          <TaxonomyChips categories={categoryChips} tags={tagChips} />
           <div className="resource-detail__content prose">
             {viewModel.renderContent()}
           </div>

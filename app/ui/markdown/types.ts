@@ -1,21 +1,37 @@
-import type { ReactNode } from "react";
+import type { ComponentType, ReactNode } from "react";
 
 export type Align = "left" | "center" | "right" | null;
 export type MarkdownHeadingLevel = 2 | 3 | 4 | 5 | 6;
 
+export interface CodeBlockProps {
+  language?: string;
+  value: string;
+}
+
+export interface ImageProps {
+  src: string;
+  alt?: string;
+  title?: string;
+}
+
+export interface LinkProps {
+  href: string;
+  children: ReactNode;
+}
+
 export type MarkdownRendererComponents = {
-  CodeBlock?: (props: { language?: string; value: string }) => ReactNode;
-  Image?: (props: { src: string; alt?: string; title?: string }) => ReactNode;
-  Link?: (props: { href: string; children: ReactNode }) => ReactNode;
+  CodeBlock?: ComponentType<CodeBlockProps>;
+  Image?: ComponentType<ImageProps>;
+  Link?: ComponentType<LinkProps>;
 };
 
 export interface MarkdownRendererOptions {
   components?: MarkdownRendererComponents;
-  headingLevelsForToc?: MarkdownHeadingLevel[];
+  headingLevelsForToc?: readonly MarkdownHeadingLevel[];
 }
 
 export interface MarkdownHeading {
-  id: string;
-  text: string;
-  level: MarkdownHeadingLevel;
+  readonly id: string;
+  readonly text: string;
+  readonly level: MarkdownHeadingLevel;
 }

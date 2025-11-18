@@ -43,7 +43,7 @@
 
 :global(.tools-page__grid) {
   display: grid;
-  gap: var(--space-4);
+  gap: var(--space-5);
 }
 
 :global(.tools-page__card) {
@@ -52,8 +52,19 @@
   padding: var(--space-4);
   background: #fff;
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-4);
   box-shadow: var(--shadow-sm);
+}
+
+:global(.tools-page__title) {
+  font-size: var(--typography-fontSize-h4);
+  font-family: var(--font-heading);
+  margin: 0;
+}
+
+:global(.tools-page__intro h1) {
+  font-size: var(--typography-fontSize-h2);
+  margin: 0;
 }
 
 :global(.tools-page__badge) {
@@ -61,6 +72,13 @@
   gap: var(--space-1);
   font-size: var(--typography-fontSize-small);
   color: var(--color-primary-strong);
+}
+
+:global(.tools-page__meta) {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
 }
 
 :global(.tools-page__actions) {
@@ -122,13 +140,6 @@
   gap: var(--space-2);
 }
 
-:global(.tools-detail__cta) {
-  display: inline-flex;
-  gap: var(--space-2);
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 :global(.tools-page__disclosure) {
   font-size: var(--typography-fontSize-small);
   color: var(--color-ink-muted);
@@ -140,6 +151,10 @@
   }
 
   :global(.tools-page__grid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  :global(.tools-page__meta) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

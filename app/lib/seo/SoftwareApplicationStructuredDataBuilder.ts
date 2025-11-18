@@ -59,7 +59,8 @@ export class SoftwareApplicationStructuredDataBuilder {
       applicationCategory: input.applicationCategory,
       operatingSystem: input.operatingSystem ?? "Web",
       offers: offers.length ? offers : undefined,
-      featureList: input.features && input.features.length ? input.features : undefined,
+      featureList:
+        input.features && input.features.length ? input.features : undefined,
       applicationSuite: input.pricingModel,
       url: this.urlFactory.build(input.canonicalPath),
       sameAs: input.landingPage ? [input.landingPage] : undefined,

@@ -70,8 +70,7 @@ export class ProductStructuredDataBuilder {
           "@type": "Offer",
           price: price.amount,
           priceCurrency: price.currency,
-          availability:
-            offer.availability ?? "https://schema.org/InStock",
+          availability: offer.availability ?? "https://schema.org/InStock",
           url: offer.url ? this.urlFactory.build(offer.url) : undefined,
           sku: offer.identifier,
         };

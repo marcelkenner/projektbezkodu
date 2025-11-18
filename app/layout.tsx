@@ -78,6 +78,7 @@ export default function RootLayout({
         {children}
         <KlaroConsentManager />
         <ServiceWorkerRegistration />
+        <div id="klaro" aria-live="polite" />
       </body>
     </html>
   );

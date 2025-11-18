@@ -18,7 +18,7 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
    - `seo` block for title/description.
    - `meta` for tutorials/comparisons (difficulty, duration, tools).
    - `taxonomy` for articles (categories + tags defined in copy JSON).
-3. Validate syntax with `npm run content:lint` (this runs automatically before `npm run build`). It parses every markdown file and points to the exact line when YAML is invalid.
+3. Validate syntax with `npm run content:lint` (this runs automatically before `npm run build`). It parses every markdown file, warns when `meta.summaryBullets` / `meta.primaryCta` are missing in article-driven folders, and points to the exact line when YAML is invalid. Set `CONTENT_LINT_STRICT=true` or append `--strict` if you want the warnings to fail CI.
 
 ## 3. Media Assets
 
@@ -112,3 +112,10 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
 2. Commit Markdown/JSON changes and request review from dev + content lead.
 3. Update `docs/next_steps.md` if the work closes an outstanding item or requires follow-up tasks.
 4. Notify stakeholders once merged; deployments follow the standard release process documented in `docs/website_repro_playbook.md`.
+
+## 15. Lead Magnets (`data/copy/lead-magnets.json` / `/do-pobrania`)
+
+- Każdy wpis wymaga pól `summaryBullets` (minimum trzy konkretne obietnice) oraz `cta`.
+- `cta.primary` zwykle wskazuje `#lead-magnet-form`, dzięki czemu przyciski przewijają do formularza; `cta.secondary` może linkować do poradnika lub pokrewnego zasobu. Dodaj `helperText`, aby wytłumaczyć jak działa wysyłka (np. “Link wysyłamy też na e-mail”).
+- Hero `bullets` nadal możesz wypełniać dla edytorów, ale UI korzysta z `summaryBullets` / `cta`. Nie kopiuj tam marketingowego lorem – ma to być zwięzły opis wartości.
+- Po zmianach odpal `npm run content:lint` – ostrzeżenia o brakujących `summaryBullets`/CTA pojawią się natychmiast, zanim jeszcze zaczniesz budować stronę.

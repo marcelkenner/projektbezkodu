@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SelectField, Button } from "@/app/ui";
+import { SelectField, Button, FilterBar } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import {
   TemplateCatalog,
@@ -42,7 +42,16 @@ export default async function TemplatesPage({
             <p>{copy.hero.intro}</p>
           </div>
         </div>
-        <form className="templates-page__filters" method="get">
+        <FilterBar
+          className="templates-page__filters"
+          method="get"
+          legend="Filtruj szablony"
+          actions={
+            <Button type="submit" variant="secondary" size="compact">
+              {copy.filters.submit}
+            </Button>
+          }
+        >
           <SelectField
             id="platform"
             name="platform"
@@ -64,10 +73,7 @@ export default async function TemplatesPage({
             defaultValue={filter.price ?? ""}
             options={copy.filters.price.options}
           />
-          <Button type="submit" variant="secondary">
-            {copy.filters.submit}
-          </Button>
-        </form>
+        </FilterBar>
         <div className="templates-page__grid">
           {templates.map((template) => (
             <article key={template.slug} className="templates-page__card">

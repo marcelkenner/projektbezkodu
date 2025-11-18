@@ -66,7 +66,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 
 ## 7. UI Component Library
 
-1. Create UI primitives in `app/ui/` (Button, TextField, SelectField, Badge, Alert, Card, Stepper, PricingCard, ComparisonTable, Modal, Toast, PrimaryNav, Footer).
+1. Create UI primitives in `app/ui/` (Button, TextField, SelectField, Badge, Alert, Card, Stepper, PricingCard, ComparisonTable, Modal, Toast, PrimaryNav, Footer, FilterBar). All filter/search experiences across listings must wrap their inputs/actions with `FilterBar` so spacing, background, and responsive behavior stay identical on every page.
 2. Centralise exports via `app/ui/index.ts`.
 3. Ensure each component imports `./ui.css`.
 4. Preface complex logic with brief comments only when necessary.
@@ -94,7 +94,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 3. Implement `app/lib/frontmatter.ts` using `gray-matter`.
 4. Build `app/lib/content/repositories.ts` with abstract `MarkdownRepository` and concrete repositories for articles, comparisons, tutorials, glossary.
 5. Provide `MarkdownPageLoader` helper for singleton pages (privacy, terms).
-6. Implement `app/ui/MarkdownRenderer.tsx` to render headings, lists, blockquotes, inline emphasis without external libraries.
+6. Implement `app/ui/MarkdownRenderer.tsx` with the Unified pipeline (`unified`, `remark-parse`, `remark-gfm`, `unist-util-visit`) and keep it server-only—instantiate it inside server components or view models, and never barrel-export the Markdown UI from `app/ui/index.ts` so those parsing dependencies stay out of client bundles.
 7. Handle everything else with the generic pipeline:
    - `ContentRepository` now crawls nested `content/**/index.md`, excluding `_examples` and `glossary`.
    - `ContentLibrary` normalises routes (prefers `frontmatter.path`, falls back to folder structure) and exposes `{ path, segments, document }` tuples.
@@ -120,7 +120,8 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - `generateStaticParams` returning slugs.
    - `generateMetadata` reading frontmatter.
    - Render body with `MarkdownRenderer`.
-   - Article detail pages must render the share module (`ArticleSharePanel.tsx`) directly under the header. The panel uses Phosphor icons and lists LinkedIn, Facebook, X (Twitter), Reddit, and WhatsApp in a single mobile-first row. Always derive URLs from `defaultSiteUrlFactory` instead of hard-coding domains.
+   - Tool detail pages (`app/(marketing)/(content)/narzedzia/[slug]/page.tsx`) pull absolutely everything (copy, badges, CTAs, share data, schema) from the markdown entry under `content/narzedzia/{slug}/index.md`. Do not inject supplemental copy from `data/catalog/tools.json` or any other source—if a scenario or pricing section is needed, keep it in markdown/front matter.
+   - Article detail pages must render the share module (`ArticleSharePanel.tsx`) directly under the header. The component lives at `app/ui/articles/ArticleSharePanel.tsx`, ships with its own `ArticleSharePanel.module.css`, and is exported via `@/app/ui` so every route uses the same implementation with consistent mobile-first styling. The panel uses Phosphor icons and lists LinkedIn, Facebook, X (Twitter), Reddit, and WhatsApp in a single mobile-first row. Always derive URLs from `defaultSiteUrlFactory` instead of hard-coding domains.
    - `generateMetadata` on content routes must output full Open Graph/Twitter data (title, description, `publishedTime`, `modifiedTime`, share image). When `seo.image` is missing, fall back to `meta.heroImage*` or the hero asset, then build an absolute URL via `SiteUrlFactory`.
    - Inject JSON-LD exclusively through `StructuredDataScript` and the builders under `app/lib/seo/**`. Articles and comparisons use `ArticleStructuredDataBuilder`; templates (`/szablony/[slug]`) combine the Product/FAQ/HowTo builders; resources (`/zasoby/[slug]`) lean on `ResourceStructuredDataBuilder`; tool guides (`/narzedzia/[slug]`) publish `SoftwareApplication` schema via `SoftwareApplicationStructuredDataBuilder`; tutorial detail pages (`/poradniki/[slug]`) emit a HowTo plus optional FAQ payload discovered in markdown; listing pages (articles, tools, resources) expose `ItemList` collections; and any front matter `meta.review` gets wired into `ReviewStructuredDataBuilder`. Never hand-write JSON-LD inside components.
 7. Point legal pages to markdown via `MarkdownPageLoader`.
@@ -130,6 +131,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure.
    - Applies `ContentPageViewModel` metadata so SEO + OG tags inherit from frontmatter.
    - Excludes `_examples` and `glossary` (handled elsewhere) to avoid duplicate flows.
+10. Every markdown-driven route renders clickable breadcrumbs via `BreadcrumbComposer` + `Breadcrumbs`; never surface raw `viewModel.getPath()` strings because editors rely on those links to jump between listing pages and detail screens.
 
 ## 11. Content Management Workflow
 
@@ -157,6 +159,12 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 2. Verify design tokens committed.
 3. Update `brand/CHANGELOG.md` with notable changes.
 4. XML sitemap (`app/sitemap.ts`) and HTML map (`/mapa-strony/`) read from `SitemapComposer`; extend this builder when introducing new sections so feeds stay accurate.
+
+## 14. Cookie Consent Workflow
+
+1. `app/layout.tsx` must always render `<KlaroConsentManager />` together with a `<div id="klaro">` mount node so Klaro’s UI can attach even on statically cached routes such as `/cookies`.
+2. `app/ui/KlaroConsentManager.tsx` exposes a global `window.__klaroReady` promise and fires a `klaro:ready` event once `window.klaro.getManager()` is available; any UI that needs to read or mutate consent (e.g., `CookiePreferencesForm`) must wait for that signal before enabling controls.
+3. Cookie preference forms keep toggles/buttons disabled until the Klaro manager resolves and surface the fallback status copy when `window.__klaroReady` rejects, ensuring the page never looks interactive while the CMP is still loading (or blocked by the browser).
 
 ## 14. Adaptation Guidelines
 
@@ -274,6 +282,13 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 3. The same rule applies to `generateMetadata`, nested server components, and coordinators—pass them the resolved objects, never the raw promises.
 4. Use `SearchParamParser` (or dedicated coordinators) as the single source of truth for extracting `getSingle` / `getAll` values. This keeps newsletter alerts, article filters, and resource listings reusable while satisfying the SRP/OOP constraints from `AGENTS.md`.
 5. When introducing a new route, add lint coverage (`npm run lint`) before testing in the browser so Promise misuse is caught in CI instead of the runtime.
+
+## 21. Tool Hub & Lead Magnet Patterns
+
+1. `app/(marketing)/(content)/narzedzia/page.tsx` renders ToolHub cards built entirely from markdown-derived summaries plus `data/catalog/tools.json` metadata. Cards automatically show a badge, a prominent heading/subheading, ArticleSummaryBullets, a pricing/platform meta row, taxonomy chips, and an `ArticleCtaGroup` (primary = internal guide, secondary = `siteHref`). Set `affiliate: true` to append `rel="sponsored"` on the external CTA and reuse the disclosure text from `data/copy/tools.json`.
+2. We deliberately removed vendor logos from the hub. Don’t add them back unless design explicitly requests it—keeping the cards text-first maintains parity with the rest of the marketing site and avoids logo upkeep across multiple sizes/formats.
+3. Lead magnet detail pages share ArticleSummaryBullets and ArticleCtaGroup. Each entry in `data/copy/lead-magnets.json` must include `summaryBullets` (≥3 meaningful points) and a `cta` object with `primary` / `secondary` links plus optional `helperText`. The primary CTA usually links to `#lead-magnet-form` so the button scrolls to the form column; the secondary CTA can target a related tutorial or resource.
+4. `scripts/validate-content.mjs` now warns when article-driven markdown (folders: `artykuly`, `narzedzia`, `porownania`, `poradniki`, `przypadki-uzycia`, `zasoby`, `szablony`) misses `meta.summaryBullets` or `meta.primaryCta`. Use `CONTENT_LINT_STRICT=true npm run content:lint` or pass `--strict` to fail builds on warnings; otherwise they show up in CI logs without blocking.
 
 ## 22. Font Variables
 

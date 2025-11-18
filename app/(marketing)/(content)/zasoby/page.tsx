@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Button, SelectField, StructuredDataScript } from "@/app/ui";
+import { Button, FilterBar, SelectField, StructuredDataScript } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import { ResourceRepository } from "@/app/lib/content/repositories";
 import {
@@ -117,7 +117,16 @@ export default async function ResourcesPage({
             <h1>{copy.hero.title}</h1>
             <p>{copy.hero.intro}</p>
           </div>
-          <form className="resources-page__filters" method="get">
+          <FilterBar
+            className="resources-page__filters"
+            method="get"
+            legend="Filtruj zasoby"
+            actions={
+              <Button type="submit" variant="secondary" size="compact">
+                {copy.filters.submit}
+              </Button>
+            }
+          >
             <SelectField
               id="format"
               name="format"
@@ -139,10 +148,7 @@ export default async function ResourcesPage({
               defaultValue={criteria.duration ?? ""}
               options={durationOptions}
             />
-            <Button type="submit" variant="secondary">
-              {copy.filters.submit}
-            </Button>
-          </form>
+          </FilterBar>
         </header>
 
         <div className="resources-page__grid">
@@ -230,7 +236,9 @@ function buildOptions(options: ResourceFilterOption[], defaultLabel: string) {
   ];
 }
 
-function buildResourceCollectionJsonLd(entries: ReturnType<ResourceDirectory["list"]>) {
+function buildResourceCollectionJsonLd(
+  entries: ReturnType<ResourceDirectory["list"]>,
+) {
   if (!entries.length) {
     return null;
   }

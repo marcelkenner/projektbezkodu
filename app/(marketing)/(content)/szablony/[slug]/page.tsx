@@ -1,13 +1,20 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCopy } from "@/app/lib/copy";
 import { TemplateCatalog } from "@/app/lib/content/templateCatalog";
-import { StructuredDataScript } from "@/app/ui";
+import {
+  StructuredDataScript,
+  ArticleSharePanel,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  TaxonomyChips,
+} from "@/app/ui";
 import { ProductStructuredDataBuilder } from "@/app/lib/seo/ProductStructuredDataBuilder";
 import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
 import "./../templates.module.css";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 
 const copy = getCopy("templates");
 const catalog = new TemplateCatalog();
@@ -50,6 +57,7 @@ export default async function TemplateDetailPage({
     notFound();
   }
   const canonicalPath = `/szablony/${template.slug}/`;
+  const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
   const productStructuredData = productStructuredDataBuilder.build({
     name: template.name,
     description: template.summary,
@@ -69,9 +77,32 @@ export default async function TemplateDetailPage({
     template.steps,
     copy.detail.stepsHeading,
   );
-  const structuredDataPayloads = [productStructuredData, faqStructuredData, howToStructuredData].filter(
-    Boolean,
-  ) as Record<string, unknown>[];
+  const structuredDataPayloads = [
+    productStructuredData,
+    faqStructuredData,
+    howToStructuredData,
+  ].filter(Boolean) as Record<string, unknown>[];
+  const summaryBullets = template.features;
+  const primaryCta = {
+    label: copy.detail.ctaPrimaryLabel,
+    href: template.primaryHref,
+    rel: "sponsored noopener",
+  };
+  const secondaryCta = {
+    label: copy.detail.ctaSecondaryLabel,
+    href: template.previewHref,
+  };
+  const categoryChips = template.type
+    ? [{ label: template.type, slug: TextNormalizer.slugify(template.type) }]
+    : [];
+  const tagChips = template.platform
+    ? [
+        {
+          label: template.platform,
+          slug: TextNormalizer.slugify(template.platform),
+        },
+      ]
+    : [];
 
   return (
     <section className="templates-page" id="content">
@@ -93,16 +124,13 @@ export default async function TemplateDetailPage({
               {copy.detail.metadata.priceLabel}: {template.price}
             </span>
           </div>
+          <ArticleSharePanel title={template.name} url={shareUrl} />
         </header>
 
-        <div className="templates-detail__section">
-          <h2>{copy.detail.forWhomHeading}</h2>
-          <ul className="templates-detail__list">
-            {template.features.map((feature) => (
-              <li key={feature}>{feature}</li>
-            ))}
-          </ul>
-        </div>
+        <ArticleSummaryBullets
+          bullets={summaryBullets}
+          heading={copy.detail.forWhomHeading}
+        />
 
         <div className="templates-detail__section">
           <h2>{copy.detail.sectionsHeading}</h2>
@@ -162,21 +190,12 @@ export default async function TemplateDetailPage({
           </div>
         ) : null}
 
-        <div className="templates-detail__cta">
-          <Link
-            className="pbk-button pbk-button--primary"
-            href={template.primaryHref}
-            rel="sponsored noopener"
-          >
-            {copy.detail.ctaPrimaryLabel}
-          </Link>
-          <Link
-            className="pbk-button pbk-button--secondary"
-            href={template.previewHref}
-          >
-            {copy.detail.ctaSecondaryLabel}
-          </Link>
-        </div>
+        <ArticleCtaGroup
+          primary={primaryCta}
+          secondary={secondaryCta}
+          isAffiliate={template.price === "paid"}
+        />
+        <TaxonomyChips categories={categoryChips} tags={tagChips} />
       </div>
     </section>
   );

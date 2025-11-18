@@ -20,6 +20,11 @@
           "height": 747
         }
       },
+      "summaryBullets": [
+        "25 kroków od briefu po publikację opisanych prostym językiem.",
+        "Listy kontrolne SEO, Core Web Vitals i automatyzacji formularzy.",
+        "Szablony komunikacji z zespołem i wykonawcami w jednym pliku."
+      ],
       "form": {
         "action": "/do-pobrania/dziekujemy/start-checklista/",
         "method": "get",
@@ -37,6 +42,17 @@
         },
         "submitLabel": "Wyślij checklistę na e-mail",
         "disclaimer": "To bezpłatne. Wysyłamy 1–2 konkretne maile w tygodniu, bez spamu."
+      },
+      "cta": {
+        "primary": {
+          "label": "Pobierz checklistę",
+          "href": "#lead-magnet-form"
+        },
+        "secondary": {
+          "label": "Zobacz plan wdrożenia",
+          "href": "/poradniki/webflow-blog-krok-po-kroku/"
+        },
+        "helperText": "Po wypełnieniu formularza wyślemy link także na e-mail – zero spamu."
       },
       "thankYou": {
         "seo": {

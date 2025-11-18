@@ -20,6 +20,12 @@ interface CookiePreferencesFormProps {
   privacyLink: { label: string; href: string };
 }
 
+declare global {
+  interface Window {
+    __klaroReady?: Promise<KlaroManager | null>;
+  }
+}
+
 export function CookiePreferencesForm({
   labels,
   intro,
@@ -37,38 +43,74 @@ export function CookiePreferencesForm({
 
   useEffect(() => {
     let cancelled = false;
-    let timeout: number | null = null;
+    let resolved = false;
+    const readyEvent = "klaro:ready";
 
-    const init = () => {
+    const syncFromManager = (instance: KlaroManager | null) => {
+      if (!instance || cancelled) {
+        return;
+      }
+      resolved = true;
+      setManager(instance);
+      setConsents({
+        preferences: Boolean(instance.getConsent("preferences")),
+        analytics: Boolean(instance.getConsent("analytics")),
+        marketing: Boolean(instance.getConsent("marketing")),
+      });
+      setLoading(false);
+    };
+
+    const handleReadyEvent = (event: Event) => {
+      const detail =
+        (event as CustomEvent<{ manager?: KlaroManager | null }>).detail ??
+        null;
+      if (detail?.manager) {
+        syncFromManager(detail.manager);
+      }
+    };
+
+    const waitForManager = async () => {
       if (typeof window === "undefined") {
         return;
       }
-      const instance = window.klaro?.getManager?.();
-      if (instance) {
+      const immediate = window.klaro?.getManager?.();
+      if (immediate) {
+        syncFromManager(immediate);
+        return;
+      }
+      if (window.__klaroReady) {
+        const resolvedManager = await window.__klaroReady;
         if (cancelled) {
           return;
         }
-        setManager(instance);
-        setConsents({
-          preferences: Boolean(instance.getConsent("preferences")),
-          analytics: Boolean(instance.getConsent("analytics")),
-          marketing: Boolean(instance.getConsent("marketing")),
-        });
-        setLoading(false);
+        if (resolvedManager) {
+          syncFromManager(resolvedManager);
+        } else {
+          resolved = true;
+          setLoading(false);
+          setStatus(actions.statusError);
+        }
         return;
       }
-      timeout = window.setTimeout(init, 200);
+      window.addEventListener(readyEvent, handleReadyEvent);
     };
 
-    init();
+    void waitForManager();
+
+    const timeout = window.setTimeout(() => {
+      if (cancelled || resolved) {
+        return;
+      }
+      setLoading(false);
+      setStatus(actions.statusError);
+    }, 6000);
 
     return () => {
       cancelled = true;
-      if (timeout) {
-        window.clearTimeout(timeout);
-      }
+      window.removeEventListener(readyEvent, handleReadyEvent);
+      window.clearTimeout(timeout);
     };
-  }, []);
+  }, [actions.statusError]);
 
   const switches = useMemo(
     () => [
@@ -178,8 +220,8 @@ export function CookiePreferencesForm({
                   }
                   handleToggle(item.key, event.target.checked);
                 }}
-                disabled={item.disabled || loading}
-                aria-disabled={item.disabled}
+                disabled={item.disabled || loading || !manager}
+                aria-disabled={item.disabled || !manager}
               />
             </div>
           </div>
@@ -189,7 +231,7 @@ export function CookiePreferencesForm({
         <button
           type="submit"
           className="pbk-button pbk-button--primary"
-          disabled={loading}
+          disabled={loading || !manager}
         >
           {actions.save}
         </button>
@@ -197,7 +239,7 @@ export function CookiePreferencesForm({
           type="button"
           className="pbk-button pbk-button--secondary"
           onClick={handleAcceptAll}
-          disabled={loading}
+          disabled={loading || !manager}
         >
           {actions.acceptAll}
         </button>
