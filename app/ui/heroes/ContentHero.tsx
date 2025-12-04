@@ -45,7 +45,9 @@ export function ContentHero({
         <div className={styles.content}>
           <Breadcrumbs items={breadcrumbs} />
           <h1>{heading}</h1>
-          {subheading ? <p className={styles.subheading}>{subheading}</p> : null}
+          {subheading ? (
+            <p className={styles.subheading}>{subheading}</p>
+          ) : null}
         </div>
       </div>
     </div>

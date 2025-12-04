@@ -23,6 +23,7 @@ import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 import {
   defaultHeroImage,
+  heroImageKindFrom,
   resolveHeroImage as resolveGenericHeroImage,
 } from "@/app/lib/content/heroImageResolver";
 
@@ -88,7 +89,10 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
   const heroImage =
     resolveComparisonHeroImage(frontmatter) ??
     resolveGenericHeroImage(frontmatter, frontmatter.title) ??
-    defaultHeroImage(frontmatter.title ?? "Porównanie");
+    defaultHeroImage(
+      frontmatter.title ?? "Porównanie",
+      heroImageKindFrom(frontmatter),
+    );
   const canonicalPath = frontmatter.path ?? `/porownania/${slug}/`;
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
   const breadcrumbs = breadcrumbComposer.compose(

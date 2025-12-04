@@ -23,6 +23,7 @@ import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 import {
   defaultHeroImage,
+  heroImageKindFrom,
   resolveHeroImage,
 } from "@/app/lib/content/heroImageResolver";
 
@@ -149,7 +150,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const articleUrl = defaultSiteUrlFactory.build(canonicalPath);
   const heroImage =
     resolveHeroImage(frontmatter, frontmatter.title) ??
-    defaultHeroImage(frontmatter.title ?? "Artykuł");
+    defaultHeroImage(
+      frontmatter.title ?? "Artykuł",
+      heroImageKindFrom(frontmatter),
+    );
   const breadcrumbs = breadcrumbComposer.compose(
     canonicalPath,
     frontmatter.title,
@@ -176,7 +180,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       />
       <ContentHero
         heading={frontmatter.title}
-        subheading={frontmatter.hero?.subheading ?? frontmatter.seo?.description}
+        subheading={
+          frontmatter.hero?.subheading ?? frontmatter.seo?.description
+        }
         breadcrumbs={breadcrumbs}
         image={heroImage}
       />

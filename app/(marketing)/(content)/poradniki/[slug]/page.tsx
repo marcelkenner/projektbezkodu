@@ -27,7 +27,11 @@ import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
-import { defaultHeroImage, resolveHeroImage } from "@/app/lib/content/heroImageResolver";
+import {
+  defaultHeroImage,
+  heroImageKindFrom,
+  resolveHeroImage,
+} from "@/app/lib/content/heroImageResolver";
 
 const tutorialRepository = new TutorialRepository();
 const pillarCopy = getCopy("pillar");
@@ -81,7 +85,10 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
   );
   const heroImage =
     resolveHeroImage(tutorialFrontmatter, viewModel.getTitle()) ??
-    defaultHeroImage(viewModel.getTitle());
+    defaultHeroImage(
+      viewModel.getTitle(),
+      heroImageKindFrom(tutorialFrontmatter),
+    );
   const categoryBadges = viewModel
     .getCategories()
     .reduce<Array<{ label: string; slug?: string }>>((badges, category) => {

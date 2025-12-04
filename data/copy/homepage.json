@@ -90,27 +90,19 @@
     "testimonialsHeading": "Z czego korzystają zespoły marketingu",
     "testimonials": [
       {
-        "quote": "Procesy i checklisty od ProjektBezKodu pozwoliły nam odpalić landing i automatyzacje w jeden sprint – bez angażowania devów.",
+        "quote": "ProjektBezKodu pomógł mi wybrać właściwe narzędzie do startu i nie przepłacić za funkcje, których nie potrzebuję.",
         "author": "Agnieszka",
-        "role": "Head of Marketing, Senuto",
-        "avatar": "/img/testimonials/agnieszka.webp",
-        "cta": { "label": "Case study", "href": "/przypadki-uzycia/seo-b2b/" }
+        "avatar": "/img/authors/Agnieszka.jpeg"
       },
       {
-        "quote": "Gotowe sekcje i plan 30 dni z Webflow uporządkowały pracę całego zespołu – wreszcie wiemy, co i kiedy publikujemy.",
+        "quote": "Dzięki rekomendacjom ProjektBezKodu porównaliśmy opcje i wdrożyliśmy stronę w tydzień, bez angażowania devów.",
         "author": "Jakub",
-        "role": "Co-founder, Solvbot",
-        "avatar": "/img/testimonials/jakub.webp"
+        "avatar": "/img/authors/Jakub.jpeg"
       },
       {
-        "quote": "Blueprinty Make + checklisty SEO to najlepsze combo do szybkich iteracji – każdy eksperyment kończy się wdrożeniem.",
-        "author": "Monika",
-        "role": "Growth Lead, User.com",
-        "avatar": "/img/testimonials/monika.webp",
-        "cta": {
-          "label": "Blueprint automatyzacji",
-          "href": "/poradniki/automatyzacja-leadow-make/"
-        }
+        "quote": "ProjektBezKodu przeprowadził nas przez plusy i minusy narzędzi, więc mogliśmy spokojnie wybrać najlepsze rozwiązanie.",
+        "author": "Mateusz",
+        "avatar": "/img/authors/Mateusz.jpeg"
       }
     ]
   },

@@ -62,11 +62,8 @@ export default async function TemplateDetailPage({
   }
   const canonicalPath = `/szablony/${template.slug}/`;
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
-  const breadcrumbs = breadcrumbComposer.compose(
-    canonicalPath,
-    template.name,
-  );
-  const heroImage = defaultHeroImage(template.name);
+  const breadcrumbs = breadcrumbComposer.compose(canonicalPath, template.name);
+  const heroImage = defaultHeroImage(template.name, "template");
   const productStructuredData = productStructuredDataBuilder.build({
     name: template.name,
     description: template.summary,
