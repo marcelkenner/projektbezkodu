@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/glide/cennik/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Glide – cennik widziany oczami małego zespołu
   subheading: >-
     Porównuję koszty per użytkownik, per aplikacja i per projekt, zamiast
     skupiać się na nazwach planów.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Glide – cennik i koszty utrzymania aplikacji
   description: >-

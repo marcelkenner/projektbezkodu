@@ -4,12 +4,15 @@ slug: formularze-platnosci
 path: /narzedzia/dorik/formularze-platnosci/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Formularze i płatności w Dorik – sprzedaż bez programisty
   subheading: >-
     Prowadzę od prostego formularza leadowego do przyjmowania płatności online,
     bez budowania sklepu i dłubania w kodzie.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Formularze i płatności w Dorik – przewodnik
   description: >-

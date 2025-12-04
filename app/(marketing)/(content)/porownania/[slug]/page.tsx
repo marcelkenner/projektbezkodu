@@ -19,11 +19,18 @@ import {
   ArticleSharePanel,
 } from "@/app/ui";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
+import {
+  defaultHeroImage,
+  resolveHeroImage as resolveGenericHeroImage,
+} from "@/app/lib/content/heroImageResolver";
 
 const comparisonRepository = new ComparisonRepository();
 const comparisonStructuredDataBuilder = new ArticleStructuredDataBuilder();
 const reviewStructuredDataBuilder = new ReviewStructuredDataBuilder();
 const comparisonFaqBuilder = new FaqStructuredDataBuilder();
+const breadcrumbComposer = new BreadcrumbComposer();
 
 interface ComparisonPageProps {
   params: Promise<{ slug: string }>;
@@ -78,9 +85,16 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
       slug: tag.slug,
     }));
 
-  const heroImage = resolveComparisonHeroImage(frontmatter);
+  const heroImage =
+    resolveComparisonHeroImage(frontmatter) ??
+    resolveGenericHeroImage(frontmatter, frontmatter.title) ??
+    defaultHeroImage(frontmatter.title ?? "Porównanie");
   const canonicalPath = frontmatter.path ?? `/porownania/${slug}/`;
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const breadcrumbs = breadcrumbComposer.compose(
+    canonicalPath,
+    frontmatter.title,
+  );
   const structuredData = comparisonStructuredDataBuilder.build({
     title: frontmatter.title,
     description: frontmatter.seo?.description ?? excerpt,
@@ -129,12 +143,14 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
         id="comparison-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}
       />
+      <ContentHero
+        heading={frontmatter.title}
+        subheading={frontmatter.hero?.subheading}
+        breadcrumbs={breadcrumbs}
+        image={heroImage}
+      />
       <div className="pbk-container pbk-stack">
         <header className="pbk-stack pbk-stack--tight">
-          <h1>{frontmatter.title}</h1>
-          {frontmatter.hero?.subheading ? (
-            <p>{frontmatter.hero.subheading}</p>
-          ) : null}
           <ArticleMetaBadges
             categories={metaCategoryBadges}
             difficulty={frontmatter.meta?.difficulty}

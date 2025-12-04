@@ -104,6 +104,11 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 9. Run `npm run content:lint` (automatically executed before `npm run build`) to validate every markdown file with `gray-matter`. Fix YAML errors before committing so the global content crawl never fails.
 10. Define article taxonomy (categories, tags) in `data/copy/articles.json` and reference those slugs from markdown `taxonomy` blocks; resolve labels via `ArticleTaxonomyCatalog`.
 11. `/artykuly` aggregates every markdown entry with `template: "article"` (and `draft: false`) regardless of which folder it lives in. Keep `template` and `path` accurate because the listing page, breadcrumbs, and sitemap depend on them.
+12. Narzędzia hero images: every markdown with `path` starting `/narzedzia/` must set `hero.image.src` to `/img/article_image.jpeg` (alt: “Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora`). `npm run format`now enforces this automatically; you can also run`node scripts/set-narzedzia-hero-image.mjs` manually.
+13. Narzędzia hero copy: ensure `hero.heading` and `hero.subheading` are present for all `/narzedzia/` entries. `npm run format` now runs `node scripts/fix-narzedzia-hero-heading.mjs` before Prettier to backfill missing values without touching other fields; use the script directly when needed.
+14. Homepage metadata: `app/(marketing)/page.tsx` reads front matter from `content/_examples/homepage.md` (draft). Keep its SEO fields and hero copy current even though the body is not rendered.
+15. Consistent hero copy for /artykuly, /poradniki, /porownania, /szablony: `npm run format` also runs `node scripts/fix-section-hero-headings.mjs` to backfill missing `hero.heading` and `hero.subheading` for those sections using title-based defaults.
+16. Artykuły folder routing: articles now live under `content/artykuly/<kategoria>/<subkategoria>/index.md`. `npm run format` runs `node scripts/fix-artykuly-paths.mjs` to align `path` and `slug` with that folder structure (ensures `/artykuly/.../`) while preserving other front matter.
 
 ## 10. Routing & Pages
 

@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/outseta/cennik/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Outseta – cennik w kontekście rosnącej bazy klientów
   subheading: >-
     Sprawdzam, kiedy bardziej opłaca się pakiet all-in-one niż stos usług
     płatności, CRM i helpdesku.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Outseta – cennik i koszty utrzymania zaplecza SaaS
   description: >-

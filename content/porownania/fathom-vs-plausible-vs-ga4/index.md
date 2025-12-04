@@ -3,7 +3,7 @@ title: Fathom Vs Plausible Vs Ga4
 slug: fathom-vs-plausible-vs-ga4
 path: /porownania/fathom-vs-plausible-vs-ga4/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 template: comparison
 taxonomy:
   categories:
@@ -12,6 +12,9 @@ taxonomy:
     - fathom
     - plausible
     - ga4
+hero:
+  heading: Fathom Vs Plausible Vs Ga4
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Fathom Vs Plausible Vs Ga4

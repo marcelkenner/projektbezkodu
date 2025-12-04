@@ -4,12 +4,15 @@ slug: unbounce
 path: /narzedzia/unbounce/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Unbounce – landing page'e nastawione na konwersję
   subheading: >-
     Buduję landing page'e pod kampanie, testuję warianty i spinam je z lejkiem
     marketingowym – bez kodu i bez WordPressa.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Unbounce – narzędzie do tworzenia landing page'y
   description: >-

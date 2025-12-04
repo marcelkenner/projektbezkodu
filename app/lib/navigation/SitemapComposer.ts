@@ -16,6 +16,18 @@ export interface SitemapLink {
   href: string;
 }
 
+interface SitemapCopySection {
+  heading?: string;
+  links?: SitemapLink[];
+}
+
+interface SitemapCopy {
+  sections?: {
+    primaryPages?: SitemapCopySection;
+    legal?: SitemapCopySection;
+  };
+}
+
 export class SitemapSection {
   constructor(
     private readonly heading: string,
@@ -42,7 +54,7 @@ export class SitemapComposer {
   private readonly leadMagnetCatalog = new LeadMagnetCatalog();
 
   buildSections(): SitemapSection[] {
-    const copy = getCopy("sitemap") as any;
+    const copy = getCopy("sitemap") as SitemapCopy;
     const staticSections: SitemapSection[] = [];
 
     if (copy.sections?.primaryPages?.links?.length) {

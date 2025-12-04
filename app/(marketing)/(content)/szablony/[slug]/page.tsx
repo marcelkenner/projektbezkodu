@@ -15,12 +15,16 @@ import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBui
 import "./../templates.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
+import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
+import { defaultHeroImage } from "@/app/lib/content/heroImageResolver";
 
 const copy = getCopy("templates");
 const catalog = new TemplateCatalog();
 const productStructuredDataBuilder = new ProductStructuredDataBuilder();
 const faqStructuredDataBuilder = new FaqStructuredDataBuilder();
 const howToStructuredDataBuilder = new HowToStructuredDataBuilder();
+const breadcrumbComposer = new BreadcrumbComposer();
 
 export function generateStaticParams() {
   return catalog.list().map((template) => ({ slug: template.slug }));
@@ -58,6 +62,11 @@ export default async function TemplateDetailPage({
   }
   const canonicalPath = `/szablony/${template.slug}/`;
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const breadcrumbs = breadcrumbComposer.compose(
+    canonicalPath,
+    template.name,
+  );
+  const heroImage = defaultHeroImage(template.name);
   const productStructuredData = productStructuredDataBuilder.build({
     name: template.name,
     description: template.summary,
@@ -110,9 +119,14 @@ export default async function TemplateDetailPage({
         id="template-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}
       />
+      <ContentHero
+        heading={template.name}
+        subheading={template.summary}
+        breadcrumbs={breadcrumbs}
+        image={heroImage}
+      />
       <div className="pbk-container pbk-stack pbk-stack--loose">
         <header className="pbk-stack pbk-stack--tight">
-          <h1>{template.name}</h1>
           <div className="templates-detail__meta">
             <span>
               {copy.detail.metadata.categoryLabel}: {template.type || "—"}

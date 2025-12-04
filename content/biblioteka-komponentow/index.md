@@ -7,7 +7,7 @@ tags:
   - evergreen
   - patterns
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 ---
 
 # Biblioteka sekcji i wzorców

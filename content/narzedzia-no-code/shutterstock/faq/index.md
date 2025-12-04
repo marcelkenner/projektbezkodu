@@ -4,13 +4,16 @@ slug: faq
 path: /narzedzia/shutterstock/faq/
 draft: false
 template: article
-date: '2024-12-13'
+date: "2024-12-13"
 hero:
   heading: Shutterstock – FAQ, które oszczędza Ci czytania regulaminu
   subheading: >-
     Zbieram najczęstsze pytania o licencje, wykorzystanie komercyjne, social
     media i projekty dla klientów, żebyś nie musiał przekopywać się przez
     dokumenty prawne.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Shutterstock – najczęstsze pytania (FAQ) o licencje i wykorzystanie
   description: >-

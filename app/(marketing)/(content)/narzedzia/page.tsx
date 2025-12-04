@@ -1,5 +1,3 @@
-import fs from "fs";
-import path from "path";
 import type { Metadata } from "next";
 
 import { getCopy } from "@/app/lib/copy";
@@ -14,10 +12,11 @@ import {
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import { ToolHubCardModel, type ToolOverviewEntry } from "./ToolHubCardModel";
+import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 
 const copy = getCopy("tools");
-const CONTENT_ROOT = path.join(process.cwd(), "content/narzedzia");
 const toolCatalog = new ToolCatalog();
+const contentLibrary = new ContentLibrary();
 
 export const metadata: Metadata = {
   title: copy.seo.title,
@@ -134,92 +133,30 @@ export default function ToolsPage() {
 }
 
 function loadToolsFromContent(): ToolOverviewEntry[] {
-  if (!fs.existsSync(CONTENT_ROOT)) {
-    return [];
-  }
-
-  const entries = fs
-    .readdirSync(CONTENT_ROOT, { withFileTypes: true })
+  return contentLibrary
+    .listRoutes()
     .filter(
       (entry) =>
-        entry.isDirectory() &&
-        !entry.name.startsWith(".") &&
-        entry.name !== "_examples",
+        entry.path.startsWith("/narzedzia/") && entry.segments.length === 2,
+    )
+    .filter((entry) => entry.document.frontmatter.draft !== true)
+    .map((entry) => {
+      const frontmatter = entry.document.frontmatter;
+      const hero = frontmatter.hero ?? {};
+      const title = frontmatter.title ?? entry.segments.at(-1) ?? "Narzędzie";
+      const slug = frontmatter.slug ?? entry.segments.at(-1) ?? "";
+      return {
+        folderName: entry.segments.at(-1) ?? slug,
+        slug,
+        path: entry.path,
+        title,
+        heading: hero.heading ?? title,
+        subheading: hero.subheading,
+      };
+    })
+    .sort((a, b) =>
+      a.title.toLowerCase().localeCompare(b.title.toLowerCase(), "pl"),
     );
-
-  const tools: ToolOverviewEntry[] = [];
-
-  entries.forEach((entry) => {
-    const indexPath = path.join(CONTENT_ROOT, entry.name, "index.md");
-    if (!fs.existsSync(indexPath)) {
-      return;
-    }
-
-    const file = fs.readFileSync(indexPath, "utf8");
-    const frontmatter = parseFrontmatter(file);
-    const slug = toNonEmptyString(frontmatter.slug);
-    const pathValue = toNonEmptyString(frontmatter.path);
-    if (!pathValue) {
-      return;
-    }
-    const title = toNonEmptyString(frontmatter.title) ?? entry.name;
-    const hero = isRecord(frontmatter.hero) ? frontmatter.hero : undefined;
-    const heroHeading = toNonEmptyString(hero?.heading);
-    const heroSubheading = toNonEmptyString(hero?.subheading);
-
-    tools.push({
-      folderName: entry.name,
-      slug: slug ?? entry.name,
-      path: pathValue,
-      title,
-      heading: heroHeading,
-      subheading: heroSubheading,
-    });
-  });
-
-  return tools.sort((a, b) =>
-    a.title.toLowerCase().localeCompare(b.title.toLowerCase(), "pl"),
-  );
-}
-
-function parseFrontmatter(file: string): Record<string, unknown> {
-  const match = /^---\n([\s\S]*?)\n---/.exec(file);
-  if (!match) {
-    return {};
-  }
-  const yaml = match[1];
-  const entries = yaml.split("\n").filter(Boolean);
-  const data: Record<string, unknown> = {};
-  entries.forEach((line) => {
-    const [key, ...rest] = line.split(":");
-    const value = rest
-      .join(":")
-      .trim()
-      .replace(/^"|"$|^'|'$/g, "");
-    const keys = key.trim().split(".");
-    let target = data as Record<string, unknown>;
-    keys.forEach((k, index) => {
-      if (index === keys.length - 1) {
-        target[k] = value;
-      } else {
-        target[k] = target[k] ?? {};
-        target = target[k] as Record<string, unknown>;
-      }
-    });
-  });
-  return data;
-}
-
-function toNonEmptyString(value: unknown): string | undefined {
-  if (typeof value !== "string") {
-    return undefined;
-  }
-  const normalized = value.trim();
-  return normalized.length > 0 ? normalized : undefined;
-}
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === "object" && value !== null;
 }
 
 function buildToolCollectionJsonLd(entries: ToolOverviewEntry[]) {

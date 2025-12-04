@@ -26,7 +26,11 @@
   gap: var(--space-4);
   padding: var(--space-4);
   border-radius: var(--radii-lg);
-  background: linear-gradient(135deg, rgba(79, 70, 229, 0.08), rgba(79, 70, 229, 0.02));
+  background: linear-gradient(
+    135deg,
+    rgba(79, 70, 229, 0.08),
+    rgba(79, 70, 229, 0.02)
+  );
   border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
@@ -78,7 +82,8 @@
   display: grid;
   gap: var(--space-3);
   box-shadow: var(--shadow-sm);
-  transition: transform var(--motion-duration-base) var(--motion-easing-standard);
+  transition: transform var(--motion-duration-base)
+    var(--motion-easing-standard);
 }
 
 :global(.homepage-resources__card:hover) {

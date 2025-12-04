@@ -4,12 +4,15 @@ slug: recenzja
 path: /narzedzia/make/recenzja/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Make – recenzja z perspektywy codziennej pracy
   subheading: >-
     Liczy się to, ile kliknięć oszczędzam dziennie, a nie to, ile kolorowych
     konektorów jest w katalogu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Make – recenzja oparta na realnych wdrożeniach
   description: >-

@@ -20,11 +20,7 @@ export interface GlossaryPromoContent {
   helperText?: string;
 }
 
-export function GlossaryPromo({
-  promo,
-}: {
-  promo?: GlossaryPromoContent;
-}) {
+export function GlossaryPromo({ promo }: { promo?: GlossaryPromoContent }) {
   if (!promo) {
     return null;
   }

@@ -39,6 +39,33 @@ export class ContentPageViewModel {
     return this.entry.document.frontmatter.hero?.subheading;
   }
 
+  getHeroImage() {
+    const { frontmatter } = this.entry.document;
+    const heading = this.getHeroHeading();
+
+    const heroImage = frontmatter.hero?.image;
+    if (heroImage?.src) {
+      return {
+        src: heroImage.src,
+        alt: heroImage.alt ?? heading,
+        width: heroImage.width,
+        height: heroImage.height,
+      };
+    }
+
+    const metaImage = frontmatter.meta;
+    if (metaImage?.heroImageSrc) {
+      return {
+        src: metaImage.heroImageSrc,
+        alt: metaImage.heroImageAlt ?? heading,
+        width: metaImage.heroImageWidth,
+        height: metaImage.heroImageHeight,
+      };
+    }
+
+    return null;
+  }
+
   getPublishedDate(): string | undefined {
     return this.entry.document.frontmatter.date;
   }

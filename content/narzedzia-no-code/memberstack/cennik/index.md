@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/memberstack/cennik/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Memberstack – cennik rozpisany na małe i większe społeczności
   subheading: >-
     Przeliczam koszty na liczbę członków i przychód z subskrypcji, zamiast
     patrzeć tylko na limit projektów.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Memberstack – cennik i opłacalność przy różnych skalach
   description: >-

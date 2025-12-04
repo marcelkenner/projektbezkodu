@@ -1,9 +1,12 @@
+# Core Rules
+
 If you want to run commands, please include source ~/.nvm/nvm.sh && in front first.
-always use context7 mcp
-always use serena mcp
-always docs folder
+always use context7 mcp for newest technology information
+always use serena mcp for better understanding of the project structure and files
+always use docs folder for the project information
 all pages must be mobile-first approach
 always update `docs/website_repro_playbook.md` whenever processes change
+don't assume things but instead research and check twice
 
 <file_length_and_structure>
 – Never allow a file to exceed 500 lines.

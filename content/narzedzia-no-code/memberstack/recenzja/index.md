@@ -4,12 +4,15 @@ slug: recenzja
 path: /narzedzia/memberstack/recenzja/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Memberstack – recenzja z perspektywy twórcy produktów cyfrowych
   subheading: >-
     Dla mnie ważne jest to, czy mogę szybko sprzedawać dostęp zamiast miesiącami
     dopieszczać backend logowania.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Memberstack – recenzja po wdrożeniach na żywych projektach
   description: >-

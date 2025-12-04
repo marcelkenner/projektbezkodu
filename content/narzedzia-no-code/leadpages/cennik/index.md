@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/leadpages/cennik/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Leadpages – cennik bez gwiazdek
   subheading: >-
     Rozkładam plany Leadpages na czynniki pierwsze: liczba stron, ruch,
     integracje i funkcje, które realnie coś zmieniają.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Leadpages – cennik i który plan wybrać
   description: >-

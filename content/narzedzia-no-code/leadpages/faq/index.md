@@ -4,12 +4,15 @@ slug: faq
 path: /narzedzia/leadpages/faq/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Leadpages – odpowiedzi na najczęstsze pytania
   subheading: >-
     Zapisuję to, o co ludzie zwykle pytają: limity, integracje, bezpieczeństwo i
     pierwsze kroki w Leadpages.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Leadpages – FAQ po polsku
   description: >-

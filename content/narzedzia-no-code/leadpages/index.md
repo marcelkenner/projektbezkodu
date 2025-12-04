@@ -4,12 +4,15 @@ slug: leadpages
 path: /narzedzia/leadpages/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Leadpages – strony lądowania bez kombinowania
   subheading: >-
     Stawiam proste, szybkie strony pod kampanie i lead magnety, korzystając z
     gotowych bloków zamiast dłubania w motywach.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Leadpages – narzędzie do prostych landing page'y
   description: >-

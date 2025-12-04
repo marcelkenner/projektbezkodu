@@ -3,7 +3,7 @@ title: Kapwing Vs Veed
 slug: kapwing-vs-veed
 path: /porownania/kapwing-vs-veed/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 template: comparison
 taxonomy:
   categories:
@@ -11,6 +11,9 @@ taxonomy:
   tags:
     - kapwing
     - veed
+hero:
+  heading: Kapwing Vs Veed
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Kapwing Vs Veed

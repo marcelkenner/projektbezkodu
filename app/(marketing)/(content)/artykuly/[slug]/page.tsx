@@ -1,9 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
 import { Clock, Info } from "@phosphor-icons/react/dist/ssr";
-import type { Frontmatter } from "@/app/lib/frontmatter";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
@@ -20,10 +19,17 @@ import {
 } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import "../article.module.css";
+import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
+import {
+  defaultHeroImage,
+  resolveHeroImage,
+} from "@/app/lib/content/heroImageResolver";
 
 const articleRepository = new ArticleRepository();
 const allSummaries = articleRepository.listSummaries();
 const articleStructuredDataBuilder = new ArticleStructuredDataBuilder();
+const breadcrumbComposer = new BreadcrumbComposer();
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -122,7 +128,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       label: category.label,
       slug: category.slug,
     }));
-  const primaryCategory = categories.at(0);
   const author = frontmatter.meta?.author
     ? authorsMap.get(frontmatter.meta.author)
     : undefined;
@@ -142,7 +147,13 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const canonicalPath =
     summary?.path ?? frontmatter.path ?? `/artykuly/${slug}/`;
   const articleUrl = defaultSiteUrlFactory.build(canonicalPath);
-  const heroImage = resolveHeroImage(frontmatter);
+  const heroImage =
+    resolveHeroImage(frontmatter, frontmatter.title) ??
+    defaultHeroImage(frontmatter.title ?? "Artykuł");
+  const breadcrumbs = breadcrumbComposer.compose(
+    canonicalPath,
+    frontmatter.title,
+  );
   const articleStructuredData = articleStructuredDataBuilder.build({
     title: frontmatter.title,
     description: frontmatter.seo?.description ?? excerpt,
@@ -163,28 +174,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         id="article-structured-data"
         data={articleStructuredData}
       />
+      <ContentHero
+        heading={frontmatter.title}
+        subheading={frontmatter.hero?.subheading ?? frontmatter.seo?.description}
+        breadcrumbs={breadcrumbs}
+        image={heroImage}
+      />
       <div className="pbk-container">
-        <nav className="article-page__breadcrumbs" aria-label="Okruszki">
-          <Link href="/">Strona główna</Link>
-          <span aria-hidden="true">›</span>
-          <Link href="/artykuly">Artykuły</Link>
-          {primaryCategory ? (
-            <>
-              <span aria-hidden="true">›</span>
-              <Link href={`/kategoria/${primaryCategory.slug}/`}>
-                {primaryCategory.label}
-              </Link>
-            </>
-          ) : null}
-          <span aria-hidden="true">›</span>
-          <span aria-current="page">{frontmatter.title}</span>
-        </nav>
-
         <header className="article-page__header">
-          <h1>{frontmatter.title}</h1>
-          {frontmatter.hero?.subheading ? (
-            <p>{frontmatter.hero.subheading}</p>
-          ) : null}
           <ArticleMetaBadges
             categories={metaCategories}
             difficulty={frontmatter.meta?.difficulty}
@@ -273,7 +270,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
         <section className="article-page__author">
           <div className="article-page__authorHeader">
-            <img
+            <Image
               className="article-page__authorAvatar"
               src={author?.avatar ?? "/img/authors/marcel-nowak.webp"}
               alt={
@@ -377,26 +374,4 @@ function findAdjacentArticles(slug: string) {
     next:
       index >= 0 && index < sorted.length - 1 ? sorted[index + 1] : undefined,
   };
-}
-
-function resolveHeroImage(frontmatter: Frontmatter) {
-  if (frontmatter.hero?.image?.src) {
-    return {
-      src: frontmatter.hero.image.src,
-      alt: frontmatter.hero.image.alt,
-      width: frontmatter.hero.image.width,
-      height: frontmatter.hero.image.height,
-    };
-  }
-
-  if (frontmatter.meta?.heroImageSrc && frontmatter.meta.heroImageAlt) {
-    return {
-      src: frontmatter.meta.heroImageSrc,
-      alt: frontmatter.meta.heroImageAlt,
-      width: frontmatter.meta.heroImageWidth,
-      height: frontmatter.meta.heroImageHeight,
-    };
-  }
-
-  return null;
 }

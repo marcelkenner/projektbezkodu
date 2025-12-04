@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/instapage/cennik/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Instapage – cennik i realne koszty
   subheading: >-
     Sprawdzam, kiedy wysokie ceny Instapage się zwracają, a kiedy to przerost
     formy nad treścią.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Instapage – cennik i dla kogo to się opłaca
   description: >-

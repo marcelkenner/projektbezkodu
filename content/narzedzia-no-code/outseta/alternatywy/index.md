@@ -4,12 +4,15 @@ slug: alternatywy
 path: /narzedzia/outseta/alternatywy/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Alternatywy dla Outseta, gdy chcesz większą kontrolę nad stackiem
   subheading: >-
     Porównuję rozwiązania, które pozwalają samodzielnie dobrać moduły płatności,
     CRM i wsparcia zamiast brać pakiet w całości.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Outseta – alternatywy dla zaplecza SaaS
   description: >-

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import {
-  Breadcrumbs,
   TableOfContents,
   StructuredDataScript,
   ArticleSummaryBullets,
@@ -16,6 +15,7 @@ import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator
 import { SoftwareApplicationStructuredDataBuilder } from "@/app/lib/seo/SoftwareApplicationStructuredDataBuilder";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
@@ -71,6 +71,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
   const heading = viewModel.getHeroHeading();
   const subheading = viewModel.getHeroSubheading();
+  const heroImage = viewModel.getHeroImage();
   const publishedDate = viewModel.getPublishedDate();
   const tocItems = viewModel.getHeadings();
   const hasToc = tocItems.length > 0;
@@ -109,11 +110,14 @@ export default async function ToolPage({ params }: ToolPageProps) {
   return (
     <section className="article-page" id="content">
       <StructuredDataScript id="tool-structured-data" data={structuredData} />
+      <ContentHero
+        heading={heading}
+        subheading={subheading}
+        breadcrumbs={breadcrumbs}
+        image={heroImage}
+      />
       <div className="pbk-container">
         <header className="article-page__header">
-          <Breadcrumbs items={breadcrumbs} />
-          <h1>{heading}</h1>
-          {subheading ? <p>{subheading}</p> : null}
           {publishedDate ? (
             <small className="pbk-card__meta">
               <time dateTime={publishedDate}>{formatDate(publishedDate)}</time>

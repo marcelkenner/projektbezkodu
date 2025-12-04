@@ -5,7 +5,7 @@ path: /narzedzia/webflow/recenzja
 draft: false
 template: default
 type: review
-date: '2025-11-14'
+date: "2025-11-14"
 hero:
   heading: Webflow – recenzja no-code kreatora stron www
   subheading: >-
@@ -14,10 +14,8 @@ hero:
   primaryCta: Przejdź do webflow.com
   secondaryCta: Zobacz, jak zacząć pracę z Webflow
   image:
-    src: /images/tools/webflow-review-hero.png
-    alt: Widok edytora Webflow podczas projektowania nowoczesnej strony www
-    width: 1200
-    height: 720
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webflow – rzetelna recenzja no-code kreatora stron www (2025)
   description: >-
@@ -37,7 +35,7 @@ meta:
   tools:
     - Webflow
   author: Redakcja
-  updatedAt: '2025-11-14'
+  updatedAt: "2025-11-14"
   hasAffiliateLinks: true
   format: recenzja narzędzia
   topics:

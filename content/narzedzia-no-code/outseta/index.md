@@ -4,12 +4,15 @@ slug: outseta
 path: /narzedzia/outseta/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Outseta – logowanie, subskrypcje i CRM w jednym miejscu
   subheading: >-
     Zamiast kleić wiele usług, ogarniam płatności, konta użytkowników i wsparcie
     klienta w jednym panelu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Outseta – do czego wykorzystuję ją w projektach SaaS
   description: >-

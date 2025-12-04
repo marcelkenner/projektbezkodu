@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/softr/alternatywy/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: >-
     Alternatywy dla Softr, gdy potrzebujesz więcej swobody albo innych baz
@@ -12,6 +12,9 @@ hero:
   subheading: >-
     Porównuję buildery, które lepiej wspierają złożoną logikę, inne źródła
     danych lub pełne dopasowanie interfejsu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Softr – alternatywy do budowy aplikacji bez kodu
   description: >-

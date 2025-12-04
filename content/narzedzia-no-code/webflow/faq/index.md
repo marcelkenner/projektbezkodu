@@ -4,14 +4,17 @@ slug: faq
 path: /narzedzia/webflow/faq/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Webflow – najczęstsze pytania, konkretne odpowiedzi
   subheading: >-
     Migracje, hosting, bezpieczeństwo, edycja treści – zbieram w jednym miejscu
     to, o co wszyscy pytają przed startem.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: 'Webflow – FAQ: odpowiedzi na najczęstsze pytania'
+  title: "Webflow – FAQ: odpowiedzi na najczęstsze pytania"
   description: >-
     Sprawdź odpowiedzi na praktyczne pytania o Webflow: jak działa CMS, gdzie
     trzymasz domenę, co z SEO i ile to realnie kosztuje w czasie.

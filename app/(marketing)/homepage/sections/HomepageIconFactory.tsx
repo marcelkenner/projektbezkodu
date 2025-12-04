@@ -50,26 +50,41 @@ export class HomepageIconFactory {
     return <Clock aria-hidden="true" className={className} weight="bold" />;
   }
 
-  static pillar(name: PillarIconName, className = "homepage-pillars__icon"): ReactNode {
+  static pillar(
+    name: PillarIconName,
+    className = "homepage-pillars__icon",
+  ): ReactNode {
     switch (name) {
       case "bolt":
-        return <Lightning aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Lightning aria-hidden="true" className={className} weight="fill" />
+        );
       case "spark":
-        return <Sparkle aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Sparkle aria-hidden="true" className={className} weight="fill" />
+        );
       case "workflow":
-        return <FlowArrow aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <FlowArrow aria-hidden="true" className={className} weight="fill" />
+        );
       case "target":
-        return <Target aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Target aria-hidden="true" className={className} weight="fill" />
+        );
       case "layers":
         return <Stack aria-hidden="true" className={className} weight="fill" />;
       case "speed":
         return <Gauge aria-hidden="true" className={className} weight="fill" />;
       case "database":
-        return <Database aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Database aria-hidden="true" className={className} weight="fill" />
+        );
       case "experiment":
         return <Flask aria-hidden="true" className={className} weight="fill" />;
       default:
-        return <Sparkle aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Sparkle aria-hidden="true" className={className} weight="fill" />
+        );
     }
   }
 
@@ -79,21 +94,41 @@ export class HomepageIconFactory {
   ): ReactNode {
     switch (name) {
       case "guides":
-        return <Notebook aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Notebook aria-hidden="true" className={className} weight="fill" />
+        );
       case "tools":
-        return <Toolbox aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Toolbox aria-hidden="true" className={className} weight="fill" />
+        );
       case "templates":
-        return <SquaresFour aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <SquaresFour aria-hidden="true" className={className} weight="fill" />
+        );
       case "comparisons":
-        return <ChartLineUp aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <ChartLineUp aria-hidden="true" className={className} weight="fill" />
+        );
       case "cases":
-        return <Kanban aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Kanban aria-hidden="true" className={className} weight="fill" />
+        );
       case "automation":
-        return <PlugsConnected aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <PlugsConnected
+            aria-hidden="true"
+            className={className}
+            weight="fill"
+          />
+        );
       case "downloads":
-        return <Folders aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <Folders aria-hidden="true" className={className} weight="fill" />
+        );
       default:
-        return <ChatsCircle aria-hidden="true" className={className} weight="fill" />;
+        return (
+          <ChatsCircle aria-hidden="true" className={className} weight="fill" />
+        );
     }
   }
 }

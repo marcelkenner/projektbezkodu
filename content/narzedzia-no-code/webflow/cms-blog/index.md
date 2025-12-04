@@ -4,12 +4,15 @@ slug: cms-blog
 path: /narzedzia/webflow/cms-blog/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Webflow CMS – blog, który naprawdę da się ogarniać samodzielnie
   subheading: >-
     Tworzę kolekcje, szablony wpisów i kategorie tak, byś mógł spokojnie
     publikować bez angażowania developera.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webflow CMS – jak wygodnie prowadzić blog i treści
   description: >-

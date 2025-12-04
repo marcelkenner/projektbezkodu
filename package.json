@@ -8,8 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "content:format": "node scripts/format-frontmatter.mjs",
+    "content:narzedzia:hero": "node scripts/fix-narzedzia-hero-heading.mjs",
+    "content:sections:hero": "node scripts/fix-section-hero-headings.mjs",
+    "content:artykuly:paths": "node scripts/fix-artykuly-paths.mjs",
     "tokens:build": "node brand/tokens/scripts/build.mjs",
-    "format": "prettier --write .",
+    "format": "npm run content:narzedzia:hero && npm run content:sections:hero && npm run content:artykuly:paths && prettier --write .",
     "svg:optimize": "npm exec -- svgo --config=brand/logo/svgo.config.json brand/logo/source/*.svg --output=brand/logo",
     "content:lint": "node scripts/validate-content.mjs",
     "prebuild": "npm run content:format && npm run content:lint"

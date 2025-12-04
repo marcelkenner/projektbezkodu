@@ -4,12 +4,15 @@ slug: recenzja
 path: /narzedzia/instapage/recenzja/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Instapage – recenzja z naciskiem na efekty kampanii
   subheading: >-
     Tworzę landing page'e pod większe budżety, optymalizuję ścieżkę użytkownika
     i mierzę każdy klik.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Instapage – recenzja pod kątem performance'u
   description: >-

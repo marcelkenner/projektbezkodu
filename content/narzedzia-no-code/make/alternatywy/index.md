@@ -4,12 +4,15 @@ slug: alternatywy
 path: /narzedzia/make/alternatywy/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Alternatywy dla Make, gdy potrzebujesz czegoś prostszego lub mocniejszego
   subheading: >-
     Porównuję inne platformy automatyzacji, żeby dobrać narzędzie do skali
     projektu, zespołu i budżetu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Make – alternatywy dla różnych typów projektów
   description: >-

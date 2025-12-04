@@ -4,12 +4,15 @@ slug: integracje
 path: /narzedzia/webflow/integracje/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Integracje Webflow – jak pożenić stronę z resztą Twoich narzędzi?
   subheading: >-
     CRM, newsletter, formularze, automatyzacje – pokazuję, jak spiąć Webflow z
     resztą ekosystemu bez pisania backendu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webflow – integracje z CRM, newsletterem i automatyzacjami
   description: >-

@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/make/cennik/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Make – cennik i limity policzone na scenariusze
   subheading: >-
     Przeliczam operacje i kredyty na konkretne przepływy, zamiast zgadywać, czy
     plan będzie wystarczający do końca miesiąca.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Make – cennik i koszty utrzymania automatyzacji
   description: >-

@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/bubble/cennik/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Bubble – cennik i koszty rosnącego produktu
   subheading: >-
     Sprawdzam, jak zmienia się cena wraz z liczbą użytkowników, wersji środowisk
     i dodatkowymi wtyczkami.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Bubble – cennik planów i ukryte koszty
   description: >-

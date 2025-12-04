@@ -4,12 +4,15 @@ slug: ecommerce-pl
 path: /narzedzia/webflow/ecommerce-pl/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Webflow e-commerce – czy da się na tym postawić sklep w Polsce?
   subheading: >-
     Płatności, VAT, wysyłka, integracje – rozbijam Webflow e-commerce na
     konkretne pytania z perspektywy rynku PL.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webflow e-commerce w Polsce – plusy, minusy i obejścia
   description: >-

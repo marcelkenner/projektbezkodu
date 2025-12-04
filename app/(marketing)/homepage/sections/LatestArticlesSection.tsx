@@ -15,7 +15,10 @@ export interface LatestArticlesSectionProps {
   articles: ContentSummary[];
 }
 
-export function LatestArticlesSection({ copy, articles }: LatestArticlesSectionProps) {
+export function LatestArticlesSection({
+  copy,
+  articles,
+}: LatestArticlesSectionProps) {
   const items = articles.slice(0, 3);
 
   return (
@@ -25,7 +28,11 @@ export function LatestArticlesSection({ copy, articles }: LatestArticlesSectionP
         {items.length ? (
           <div className="homepage-articles__grid">
             {items.map((article) => (
-              <ArticleCard key={article.slug} article={article} ctaLabel={copy.ctaLabel} />
+              <ArticleCard
+                key={article.slug}
+                article={article}
+                ctaLabel={copy.ctaLabel}
+              />
             ))}
           </div>
         ) : (
@@ -87,7 +94,9 @@ function ArticleMeta({ article }: { article: ContentSummary }) {
           <span>{readingTime}</span>
         </>
       ) : null}
-      {dateLabel ? <time dateTime={article.date ?? ""}>{dateLabel}</time> : null}
+      {dateLabel ? (
+        <time dateTime={article.date ?? ""}>{dateLabel}</time>
+      ) : null}
     </p>
   );
 }

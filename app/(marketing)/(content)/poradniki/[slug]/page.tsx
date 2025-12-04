@@ -25,11 +25,15 @@ import { extractFaqItems } from "@/app/lib/content/faqExtractor";
 import "./pillar-page.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
+import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
+import { defaultHeroImage, resolveHeroImage } from "@/app/lib/content/heroImageResolver";
 
 const tutorialRepository = new TutorialRepository();
 const pillarCopy = getCopy("pillar");
 const tutorialHowToBuilder = new HowToStructuredDataBuilder();
 const tutorialFaqBuilder = new FaqStructuredDataBuilder();
+const breadcrumbComposer = new BreadcrumbComposer();
 
 interface TutorialPageProps {
   params: Promise<{ slug: string }>;
@@ -71,6 +75,13 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
   const canonicalPath =
     tutorialFrontmatter.path ?? `/poradniki/${resolvedParams.slug}/`;
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const breadcrumbs = breadcrumbComposer.compose(
+    canonicalPath,
+    tutorialFrontmatter.title ?? viewModel.getTitle(),
+  );
+  const heroImage =
+    resolveHeroImage(tutorialFrontmatter, viewModel.getTitle()) ??
+    defaultHeroImage(viewModel.getTitle());
   const categoryBadges = viewModel
     .getCategories()
     .reduce<Array<{ label: string; slug?: string }>>((badges, category) => {
@@ -114,6 +125,12 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
         id="tutorial-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}
       />
+      <ContentHero
+        heading={viewModel.getTitle()}
+        subheading={viewModel.getIntro()}
+        breadcrumbs={breadcrumbs}
+        image={heroImage}
+      />
       <div className="pbk-container pillar-page__layout">
         <aside className="pillar-page__aside">
           <TableOfContents title={viewModel.getTocTitle()} items={headings} />
@@ -135,8 +152,6 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
         </aside>
         <article className="pillar-page__content">
           <header className="pillar-page__hero pbk-stack pbk-stack--tight">
-            <h1>{viewModel.getTitle()}</h1>
-            {viewModel.getIntro() ? <p>{viewModel.getIntro()}</p> : null}
             <ArticleMetaBadges
               categories={categoryBadges}
               difficulty={difficulty}

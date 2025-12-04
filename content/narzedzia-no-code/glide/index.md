@@ -4,12 +4,15 @@ slug: glide
 path: /narzedzia/glide/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Glide – najszybszy sposób na mobilną aplikację z danych w arkuszu
   subheading: >-
     Buduję proste aplikacje dla zespołu i klientów, startując od Google Sheets
     lub Airtable zamiast od repozytorium.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Glide – kiedy używam go w projektach
   description: >-

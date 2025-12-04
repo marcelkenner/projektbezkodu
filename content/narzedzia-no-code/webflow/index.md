@@ -5,17 +5,17 @@ path: /narzedzia/webflow/
 draft: false
 template: default
 type: narzędzie
-date: '2025-11-17'
+date: "2025-11-17"
 hero:
-  heading: 'Webflow: strona jak z agencji – bez pisania kodu'
+  heading: "Webflow: strona jak z agencji – bez pisania kodu"
   subheading: >-
     Po tym tekście będziesz wiedzieć, czy Webflow ma sens w twoim przypadku, czy
     lepiej zostać przy WordPressie, Wixie albo Shopify.
   primaryCta: Przetestuj Webflow za darmo
   secondaryCta: Zobacz cennik Webflow
   image:
-    src: /images/tools/webflow-hero.png
-    alt: Projektowanie strony w wizualnym edytorze Webflow
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webflow – co to jest, jak działa i dla kogo ma sens? (przewodnik no-code)
   description: >-
@@ -33,7 +33,7 @@ meta:
   duration: 15–20 min
   tools:
     - Webflow
-  updatedAt: '2025-11-17'
+  updatedAt: "2025-11-17"
   hasAffiliateLinks: true
   format: przewodnik
   topics:

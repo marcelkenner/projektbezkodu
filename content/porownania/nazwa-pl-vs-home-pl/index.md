@@ -3,7 +3,7 @@ title: Nazwa Pl Vs Home Pl
 slug: nazwa-pl-vs-home-pl
 path: /porownania/nazwa-pl-vs-home-pl/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 template: comparison
 taxonomy:
   categories:
@@ -11,6 +11,9 @@ taxonomy:
   tags:
     - nazwa-pl
     - home-pl
+hero:
+  heading: Nazwa Pl Vs Home Pl
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Nazwa Pl Vs Home Pl

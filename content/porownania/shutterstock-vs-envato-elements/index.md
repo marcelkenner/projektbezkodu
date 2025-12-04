@@ -3,7 +3,7 @@ title: Shutterstock Vs Envato Elements
 slug: shutterstock-vs-envato-elements
 path: /porownania/shutterstock-vs-envato-elements/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 template: comparison
 taxonomy:
   categories:
@@ -11,6 +11,9 @@ taxonomy:
   tags:
     - shutterstock
     - envato-elements
+hero:
+  heading: Shutterstock Vs Envato Elements
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Shutterstock Vs Envato Elements

@@ -4,12 +4,15 @@ slug: cennik
 path: /narzedzia/unbounce/cennik/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Unbounce – cennik po ludzku
   subheading: >-
     Rozbijam plany Unbounce na konkret: limity odwiedzin, strony, testy A/B i
     funkcje, za które faktycznie płacę.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Unbounce – cennik i opłacalność
   description: >-

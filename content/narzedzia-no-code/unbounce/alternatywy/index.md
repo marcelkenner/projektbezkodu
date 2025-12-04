@@ -4,12 +4,15 @@ slug: alternatywy
 path: /narzedzia/unbounce/alternatywy/
 draft: false
 template: article
-date: '2025-11-09'
+date: "2025-11-09"
 hero:
   heading: Alternatywy dla Unbounce, gdy coś nie klika
   subheading: >-
     Porównuję Unbounce z innymi kreatorami landing page'y, żeby dobrać narzędzie
     pod budżet i sposób pracy.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Alternatywy dla Unbounce – przegląd narzędzi
   description: >-

@@ -3,7 +3,10 @@ title: A
 slug: a
 path: /porownania/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
+hero:
+  heading: A
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # A

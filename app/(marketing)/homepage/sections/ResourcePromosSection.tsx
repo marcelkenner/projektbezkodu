@@ -1,5 +1,8 @@
 import Link from "next/link";
-import { HomepageIconFactory, type ResourcePromoIconName } from "./HomepageIconFactory";
+import {
+  HomepageIconFactory,
+  type ResourcePromoIconName,
+} from "./HomepageIconFactory";
 import "../resource-section.module.css";
 
 export interface ResourcePromoCopy {
@@ -64,10 +67,15 @@ export function ResourcePromosSection({ copy }: { copy: ResourcePromoCopy }) {
   }
 
   return (
-    <section className="homepage-section homepage-section--resources" aria-labelledby="resources-heading">
+    <section
+      className="homepage-section homepage-section--resources"
+      aria-labelledby="resources-heading"
+    >
       <div className="pbk-container homepage-resources">
         <header className="homepage-resources__header">
-          {copy.subheading ? <p className="homepage-resources__eyebrow">{copy.subheading}</p> : null}
+          {copy.subheading ? (
+            <p className="homepage-resources__eyebrow">{copy.subheading}</p>
+          ) : null}
           <h2 id="resources-heading">{copy.heading}</h2>
         </header>
         {primary ? <ResourcePromoPrimary card={primary} /> : null}
@@ -87,15 +95,23 @@ function ResourcePromoPrimary({ card }: { card: ResourcePromoModel }) {
   return (
     <article className="homepage-resources__primary">
       <div className="homepage-resources__primaryBody">
-        {card.badge ? <p className="homepage-resources__badge">{card.badge}</p> : null}
+        {card.badge ? (
+          <p className="homepage-resources__badge">{card.badge}</p>
+        ) : null}
         <h3>{card.title}</h3>
         <p>{card.description}</p>
-        <Link href={card.href} className="homepage-resources__primaryCta" aria-label={card.ariaLabel}>
+        <Link
+          href={card.href}
+          className="homepage-resources__primaryCta"
+          aria-label={card.ariaLabel}
+        >
           {card.ctaLabel}
           {HomepageIconFactory.arrow("homepage-resources__arrow")}
         </Link>
       </div>
-      {card.stat ? <p className="homepage-resources__stat">{card.stat}</p> : null}
+      {card.stat ? (
+        <p className="homepage-resources__stat">{card.stat}</p>
+      ) : null}
     </article>
   );
 }
@@ -109,7 +125,11 @@ function ResourcePromoCard({ card }: { card: ResourcePromoModel }) {
       <div className="homepage-resources__cardBody">
         <h3>{card.title}</h3>
         <p>{card.description}</p>
-        <Link href={card.href} className="homepage-resources__link" aria-label={card.ariaLabel}>
+        <Link
+          href={card.href}
+          className="homepage-resources__link"
+          aria-label={card.ariaLabel}
+        >
           {card.ctaLabel}
           {HomepageIconFactory.arrow("homepage-resources__arrow")}
         </Link>

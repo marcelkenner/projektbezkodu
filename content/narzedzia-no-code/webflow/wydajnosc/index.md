@@ -4,14 +4,17 @@ slug: wydajnosc
 path: /narzedzia/webflow/wydajnosc/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Wydajność Webflow – jak szybko naprawdę ładują się strony?
   subheading: >-
     Patrzę na realne wyniki Lighthouse/Core Web Vitals i pokazuję, co możesz
     poprawić bez grzebania w serwerze.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: 'Webflow – wydajność: szybkość działania i Core Web Vitals'
+  title: "Webflow – wydajność: szybkość działania i Core Web Vitals"
   description: >-
     Zobacz, jak Webflow radzi sobie z wydajnością, na co uważać przy animacjach
     i obrazkach oraz jak dowieźć dobre wyniki CWV.

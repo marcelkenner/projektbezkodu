@@ -4,12 +4,15 @@ slug: recenzja
 path: /narzedzia/fathom/recenzja/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Fathom – recenzja z perspektywy małej strony i newslettera
   subheading: >-
     Sprawdzam, czy prosty panel Fathom wystarczy do sensownych decyzji, gdy nie
     potrzebujesz 50 raportów z Google Analytics.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Fathom Analytics – recenzja z naciskiem na prywatność i prostotę
   description: >-
@@ -17,5 +20,3 @@ seo:
     działania, ale też ograniczenia w detalicznych raportach i śledzeniu
     zdarzeń.
 ---
-
-

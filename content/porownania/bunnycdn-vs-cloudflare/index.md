@@ -3,7 +3,7 @@ title: Bunnycdn Vs Cloudflare
 slug: bunnycdn-vs-cloudflare
 path: /porownania/bunnycdn-vs-cloudflare/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 template: comparison
 taxonomy:
   categories:
@@ -11,6 +11,9 @@ taxonomy:
   tags:
     - bunny-net
     - cloudflare
+hero:
+  heading: Bunnycdn Vs Cloudflare
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Bunnycdn Vs Cloudflare

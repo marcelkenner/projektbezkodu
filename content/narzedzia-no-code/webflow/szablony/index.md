@@ -4,12 +4,15 @@ slug: szablony
 path: /narzedzia/webflow/szablony/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Szablony Webflow – które są warte uwagi, a które lepiej pominąć?
   subheading: >-
     Zamiast przewijać setki kart – polecam konkretne szablony i pokazuję, jak je
     przerobić pod swoją markę.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webflow – najlepsze szablony do stron, bloga i sklepu
   description: >-

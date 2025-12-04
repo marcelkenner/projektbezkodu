@@ -3,7 +3,7 @@ title: Hostinger Vs Kinsta
 slug: hostinger-vs-kinsta
 path: /porownania/hostinger-vs-kinsta/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 template: comparison
 taxonomy:
   categories:
@@ -11,6 +11,9 @@ taxonomy:
   tags:
     - hostinger
     - kinsta
+hero:
+  heading: Hostinger Vs Kinsta
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Hostinger Vs Kinsta

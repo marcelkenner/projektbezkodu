@@ -4,12 +4,15 @@ slug: faq
 path: /narzedzia/glide/faq/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: Glide – odpowiedzi na pytania, które padają przed pierwszym wdrożeniem
   subheading: >-
     Wyjaśniam limity wierszy, kwestie wydajności i to, co dzieje się z danymi,
     gdy projekt wychodzi poza MVP.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Glide – FAQ o limitach, danych i integracjach
   description: >-

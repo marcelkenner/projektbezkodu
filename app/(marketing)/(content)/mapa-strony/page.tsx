@@ -32,7 +32,7 @@ interface SitemapCopyData {
 }
 
 const staticCopy = sitemapCopySource as unknown as SitemapCopyData;
-const copy = (getCopy("sitemap") as unknown) as SitemapCopyData;
+const copy = getCopy("sitemap") as unknown as SitemapCopyData;
 const composer = new SitemapComposer();
 
 export const metadata: Metadata = {

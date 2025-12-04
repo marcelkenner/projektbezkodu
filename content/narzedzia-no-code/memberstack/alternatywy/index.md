@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/memberstack/alternatywy/
 draft: false
 template: article
-date: '2024-12-09'
+date: "2024-12-09"
 hero:
   heading: >-
     Co zamiast Memberstack, gdy potrzebujesz innych płatności lub większej
@@ -12,6 +12,9 @@ hero:
   subheading: >-
     Porównuję narzędzia do stref członkowskich, które lepiej dogadują się z
     Twoim builderem lub modelem biznesowym.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Memberstack – alternatywy do budowy stref członkowskich
   description: >-

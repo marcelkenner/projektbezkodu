@@ -3,7 +3,7 @@ title: Polityka Cookies
 slug: polityka-cookies
 path: /do-pobrania/polityka-cookies/
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 ---
 
 # Polityka Cookies
