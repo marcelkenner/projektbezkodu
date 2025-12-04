@@ -11,8 +11,7 @@
 }
 
 :global(.templates-page__filters) {
-  display: grid;
-  gap: var(--space-3);
+  width: 100%;
 }
 
 :global(.templates-page__grid) {
@@ -105,10 +104,6 @@
 
 @media (min-width: 48rem) {
   :global(.templates-page__grid) {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  :global(.templates-page__filters) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

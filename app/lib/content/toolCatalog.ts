@@ -15,6 +15,13 @@ export interface ToolFilter {
   platform?: ToolPlatform;
 }
 
+export interface ToolLogo {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
 export interface ToolCard {
   slug: string;
   name: string;
@@ -25,6 +32,7 @@ export interface ToolCard {
   guideHref: string;
   siteHref: string;
   affiliate: boolean;
+  logo?: ToolLogo;
 }
 
 export interface ToolDetail extends ToolCard {
@@ -58,6 +66,12 @@ export class ToolCatalog {
       .sort((a, b) => a.name.localeCompare(b.name, "pl"));
   }
 
+  listDetails(filter: ToolFilter = {}): ToolDetail[] {
+    return this.tools
+      .filter((tool) => this.matchesFilter(tool, filter))
+      .sort((a, b) => a.name.localeCompare(b.name, "pl"));
+  }
+
   find(slug: string): ToolDetail | undefined {
     return this.tools.find((tool) => tool.slug === slug);
   }
@@ -82,6 +96,7 @@ export class ToolCatalog {
       guideHref,
       siteHref,
       affiliate,
+      logo,
     } = tool;
     return {
       slug,
@@ -93,6 +108,7 @@ export class ToolCatalog {
       guideHref,
       siteHref,
       affiliate,
+      logo,
     };
   }
 }

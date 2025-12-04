@@ -29,5 +29,26 @@
         { "label": "Regulamin serwisu", "href": "/regulamin/" }
       ]
     }
+  },
+  "sectionMeta": {
+    "countLabel": "{count} linków w tej sekcji"
+  },
+  "cta": {
+    "heading": "Zapisz się i zgarnij gotowe wdrożenia",
+    "body": "Mapa strony to dopiero początek. Raz w tygodniu wysyłamy newsletter z poradnikami, checklistami i poleceniami narzędzi, które przyspieszają projekty no-code.",
+    "bulletsHeading": "Co znajdziesz w newsletterze 80/20",
+    "bullets": [
+      "Checklisty i szablony do kampanii, automatyzacji i stron.",
+      "Rzetelne rekomendacje narzędzi (z oznaczonymi linkami afiliacyjnymi).",
+      "Informacje o nowych poradnikach, porównaniach i zasobach."
+    ],
+    "primary": {
+      "label": "Dołącz do newslettera",
+      "href": "/newsletter/"
+    },
+    "secondary": {
+      "label": "Zobacz narzędzia, które polecamy",
+      "href": "/narzedzia/"
+    }
   }
 }

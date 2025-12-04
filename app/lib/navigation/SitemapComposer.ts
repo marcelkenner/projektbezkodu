@@ -42,17 +42,26 @@ export class SitemapComposer {
   private readonly leadMagnetCatalog = new LeadMagnetCatalog();
 
   buildSections(): SitemapSection[] {
-    const copy = getCopy("sitemap");
-    const staticSections = [
-      new SitemapSection(
-        copy.sections.primaryPages.heading,
-        copy.sections.primaryPages.links,
-      ),
-      new SitemapSection(
-        copy.sections.legal.heading,
-        copy.sections.legal.links,
-      ),
-    ];
+    const copy = getCopy("sitemap") as any;
+    const staticSections: SitemapSection[] = [];
+
+    if (copy.sections?.primaryPages?.links?.length) {
+      staticSections.push(
+        new SitemapSection(
+          copy.sections.primaryPages.heading ?? "Najważniejsze strony",
+          copy.sections.primaryPages.links,
+        ),
+      );
+    }
+
+    if (copy.sections?.legal?.links?.length) {
+      staticSections.push(
+        new SitemapSection(
+          copy.sections.legal.heading ?? "Dokumenty",
+          copy.sections.legal.links,
+        ),
+      );
+    }
 
     const dynamicSections = [
       new SitemapSection("Kategorie artykułów", this.getCategoryLinks()),

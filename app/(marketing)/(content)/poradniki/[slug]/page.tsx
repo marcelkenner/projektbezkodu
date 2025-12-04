@@ -9,18 +9,22 @@ import {
 import { tutorialTaxonomyCatalog } from "@/app/lib/content/tutorialTaxonomy";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import {
-  Badge,
   TableOfContents,
   StructuredDataScript,
+  ArticleMetaBadges,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  TaxonomyChips,
+  ArticleSharePanel,
 } from "@/app/ui";
 import type { MarkdownHeading } from "@/app/ui/markdown/types";
 import { getCopy } from "@/app/lib/copy";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
-import {
-  FaqStructuredDataBuilder,
-  type FaqItem,
-} from "@/app/lib/seo/FaqStructuredDataBuilder";
+import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
+import { extractFaqItems } from "@/app/lib/content/faqExtractor";
 import "./pillar-page.module.css";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 
 const tutorialRepository = new TutorialRepository();
 const pillarCopy = getCopy("pillar");
@@ -63,16 +67,46 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
   const download = viewModel.getDownload();
   const journey = viewModel.getJourney();
   const tutorialDocument = viewModel.getDocument();
+  const tutorialFrontmatter = tutorialDocument.frontmatter;
+  const canonicalPath =
+    tutorialFrontmatter.path ?? `/poradniki/${resolvedParams.slug}/`;
+  const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const categoryBadges = viewModel
+    .getCategories()
+    .reduce<Array<{ label: string; slug?: string }>>((badges, category) => {
+      if (!category) {
+        return badges;
+      }
+      badges.push({ label: category.label, slug: category.slug });
+      return badges;
+    }, []);
+  const tagBadges = viewModel
+    .getTags()
+    .reduce<Array<{ label: string; slug?: string }>>((badges, tag) => {
+      if (!tag) {
+        return badges;
+      }
+      badges.push({ label: tag.label, slug: tag.slug });
+      return badges;
+    }, []);
+  const difficulty = viewModel.getDifficulty();
+  const duration = viewModel.getDuration();
+  const summaryBullets = tutorialFrontmatter.meta?.summaryBullets;
+  const primaryCta = tutorialFrontmatter.meta?.primaryCta;
+  const secondaryCta = tutorialFrontmatter.meta?.secondaryCta;
+  const hasAffiliateLinks = Boolean(
+    tutorialFrontmatter.meta?.hasAffiliateLinks,
+  );
   const howToStructuredData = tutorialHowToBuilder.build(
     extractHowToSteps(headings),
     tutorialDocument.frontmatter.title,
   );
-  const faqStructuredData = tutorialFaqBuilder.build(
-    extractFaqItems(tutorialDocument.content),
-  );
-  const structuredDataPayloads = [howToStructuredData, faqStructuredData].filter(
-    Boolean,
-  ) as Record<string, unknown>[];
+  const faqItems = extractFaqItems(tutorialDocument.content);
+  const faqStructuredData = tutorialFaqBuilder.build(faqItems);
+  const structuredDataPayloads = [
+    howToStructuredData,
+    faqStructuredData,
+  ].filter(Boolean) as Record<string, unknown>[];
 
   return (
     <section className="pillar-page section section--surface" id="content">
@@ -103,31 +137,30 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
           <header className="pillar-page__hero pbk-stack pbk-stack--tight">
             <h1>{viewModel.getTitle()}</h1>
             {viewModel.getIntro() ? <p>{viewModel.getIntro()}</p> : null}
-            {viewModel.getCategories().length ? (
-              <div className="pbk-inline-list">
-                {viewModel.getCategories().map((category) => (
-                  <Badge key={category.slug} variant="accent">
-                    {category.label}
-                  </Badge>
-                ))}
-              </div>
-            ) : null}
-            <div className="pbk-inline-list">
-              {viewModel.getDifficulty() ? (
-                <Badge variant="accent">{viewModel.getDifficulty()}</Badge>
-              ) : null}
-              {viewModel.getDuration() ? (
-                <Badge variant="neutral">{viewModel.getDuration()}</Badge>
-              ) : null}
-              {viewModel.getTags().map((tag) => (
-                <Badge key={tag.slug} variant="neutral">
-                  {tag.label}
-                </Badge>
-              ))}
-            </div>
+            <ArticleMetaBadges
+              categories={categoryBadges}
+              difficulty={difficulty}
+              duration={duration}
+            />
           </header>
+          <ArticleSharePanel title={tutorialFrontmatter.title} url={shareUrl} />
+          <TutorialTools tools={tutorialFrontmatter.meta?.tools} />
+          <ArticleSummaryBullets
+            bullets={summaryBullets}
+            heading="Co wyniesiesz z tego poradnika?"
+          />
           <div className="pillar-page__article prose">
             {viewModel.renderContent()}
+            <ArticleCtaGroup
+              primary={primaryCta ?? undefined}
+              secondary={secondaryCta ?? undefined}
+              isAffiliate={hasAffiliateLinks}
+            />
+            <TaxonomyChips
+              categories={categoryBadges}
+              tags={tagBadges}
+              ariaLabel="Powiązane kategorie i tagi"
+            />
           </div>
         </article>
         {journey ? <JourneySection journey={journey} /> : null}
@@ -304,62 +337,9 @@ function extractHowToSteps(headings: MarkdownHeading[]): string[] {
   );
   const source = numbered.length ? numbered : normalized;
 
-  return source.map((text) =>
-    text.replace(/^(\d+\.?|krok\s*\d*:?)\s*/i, "").trim() || text,
+  return source.map(
+    (text) => text.replace(/^(\d+\.?|krok\s*\d*:?)\s*/i, "").trim() || text,
   );
-}
-
-function extractFaqItems(content: string): FaqItem[] {
-  const lines = content.split(/\r?\n/);
-  const items: FaqItem[] = [];
-  let inFaqSection = false;
-  let currentQuestion: string | null = null;
-  let currentAnswer: string[] = [];
-
-  const flush = () => {
-    if (currentQuestion && currentAnswer.length) {
-      const answer = currentAnswer.join("\n").trim();
-      if (answer) {
-        items.push({
-          question: currentQuestion,
-          answer,
-        });
-      }
-    }
-    currentQuestion = null;
-    currentAnswer = [];
-  };
-
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
-    const h2Match = /^##\s+(.*)/i.exec(line);
-    if (h2Match) {
-      if (inFaqSection) {
-        flush();
-      }
-      const headingText = h2Match[1].trim();
-      inFaqSection = /^faq/i.test(headingText);
-      continue;
-    }
-
-    if (!inFaqSection) {
-      continue;
-    }
-
-    const h3Match = /^###\s+(.*)/.exec(line);
-    if (h3Match) {
-      flush();
-      currentQuestion = h3Match[1].trim();
-      continue;
-    }
-
-    if (currentQuestion) {
-      currentAnswer.push(rawLine);
-    }
-  }
-
-  flush();
-  return items;
 }
 
 class PillarPageViewModel {
@@ -433,4 +413,25 @@ class PillarPageViewModel {
   getJourney() {
     return this.config.journey;
   }
+}
+
+function TutorialTools({ tools }: { tools?: string[] }) {
+  if (!tools || !tools.length) {
+    return null;
+  }
+  return (
+    <div className="pillar-page__tools">
+      <span>Narzędzia:</span>
+      <ul>
+        {tools.map((tool) => {
+          const slug = TextNormalizer.slugify(tool);
+          return (
+            <li key={tool}>
+              <Link href={`/narzedzia/${slug}/`}>{tool}</Link>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
 }

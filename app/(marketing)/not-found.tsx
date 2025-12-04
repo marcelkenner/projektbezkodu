@@ -153,9 +153,7 @@ export default function NotFoundPage() {
           </Link>
         </div>
         <SearchForm config={viewModel.getSearchConfig()} />
-        {viewModel.hasShortcuts() ? (
-          <ShortcutLinks links={shortcuts} />
-        ) : null}
+        {viewModel.hasShortcuts() ? <ShortcutLinks links={shortcuts} /> : null}
       </div>
       <div className="pbk-container">
         <ArticleSuggestionsSection
@@ -198,7 +196,10 @@ function SearchForm({ config }: { config: SearchConfig }) {
 
 function ShortcutLinks({ links }: { links: ShortcutLink[] }) {
   return (
-    <nav className="not-found__shortcuts" aria-label="Skróty do popularnych treści">
+    <nav
+      className="not-found__shortcuts"
+      aria-label="Skróty do popularnych treści"
+    >
       <ul className="not-found__links">
         {links.map((link) => (
           <li key={link.href}>

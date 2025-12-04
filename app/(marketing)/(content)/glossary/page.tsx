@@ -4,6 +4,8 @@ import { GlossaryDirectory } from "@/app/lib/content/glossaryDirectory";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { Button, TextField } from "../../../ui";
 import { getCopy } from "../../../lib/copy";
+import "./glossary.module.css";
+import { GlossaryPromo } from "./GlossaryPromo";
 
 const glossaryRepository = new GlossaryRepository();
 
@@ -32,6 +34,7 @@ export default async function GlossaryIndex({
           <h1>{copy.title}</h1>
           <p>{copy.intro}</p>
         </div>
+        <GlossaryPromo promo={copy.cta} />
         {hasEntries ? (
           <div className="pbk-stack pbk-stack--tight">
             <form className="pbk-stack pbk-stack--tight" method="get">
@@ -80,7 +83,7 @@ export default async function GlossaryIndex({
                   <h2>{group.letter}</h2>
                   <div className="section__grid">
                     {group.entries.map((term) => (
-                      <div key={term.slug} className="pbk-card" id={term.slug}>
+                      <div key={term.slug ?? term.path} className="pbk-card">
                         <div className="pbk-stack pbk-stack--tight">
                           <h3>{term.title}</h3>
                           {term.description ? <p>{term.description}</p> : null}

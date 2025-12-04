@@ -2,7 +2,14 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Badge } from "@/app/ui";
+import {
+  Badge,
+  ArticleSharePanel,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  TaxonomyChips,
+  ArticleMetaBadges,
+} from "@/app/ui";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { getCopy } from "@/app/lib/copy";
 import {
@@ -10,6 +17,8 @@ import {
   type MarkdownDocument,
 } from "@/app/lib/content/repositories";
 import "./case-study.module.css";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 
 const copy = getCopy("case-studies");
 const repository = new CaseStudyRepository();
@@ -54,6 +63,25 @@ export default async function CaseStudyPage({
 
   const viewModel = new CaseStudyViewModel(document);
   const renderer = viewModel.getRenderer();
+  const primaryCta = viewModel.getPrimaryCta();
+  const secondaryCta = viewModel.getSecondaryCta();
+  const hasAffiliateLinks = Boolean(
+    document.frontmatter.meta?.hasAffiliateLinks,
+  );
+  const canonicalPath =
+    document.frontmatter.path ?? `/przypadki-uzycia/${resolvedParams.slug}/`;
+  const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const shareTitle = viewModel.getTitle();
+  const categories =
+    document.frontmatter.taxonomy?.categories?.map((label) => ({
+      label,
+      slug: TextNormalizer.slugify(label),
+    })) ?? [];
+  const tags =
+    document.frontmatter.taxonomy?.tags?.map((label) => ({
+      label,
+      slug: TextNormalizer.slugify(label),
+    })) ?? [];
 
   return (
     <section className="case-study section section--surface" id="content">
@@ -78,6 +106,15 @@ export default async function CaseStudyPage({
           <div className="case-study__hero pbk-stack pbk-stack--tight">
             <h1>{viewModel.getTitle()}</h1>
             {viewModel.getSubtitle() ? <p>{viewModel.getSubtitle()}</p> : null}
+            <ArticleMetaBadges
+              categories={categories}
+              difficulty={document.frontmatter.meta?.industry}
+              duration={document.frontmatter.meta?.period}
+              categoriesTitle="Kategorie"
+              metaTitle="Parametry projektu"
+              difficultyLabel="Branża"
+              durationLabel="Okres"
+            />
             <dl className="case-study__meta">
               {viewModel.getMeta().map((meta) => (
                 <div key={meta.label}>
@@ -98,6 +135,11 @@ export default async function CaseStudyPage({
               />
             ) : null}
           </div>
+          <ArticleSharePanel title={shareTitle} url={shareUrl} />
+          <ArticleSummaryBullets
+            bullets={viewModel.getSummary()}
+            heading="Najważniejsze wnioski"
+          />
         </header>
 
         {viewModel.getSummary().length ? (
@@ -160,20 +202,14 @@ export default async function CaseStudyPage({
             <p>{copy.seo.fallbackDescription}</p>
           </div>
           <div className="case-study__ctaActions">
-            <Link
-              className="pbk-button pbk-button--primary"
-              href={viewModel.getPrimaryCta().href}
-            >
-              {viewModel.getPrimaryCta().label}
-            </Link>
-            <Link
-              className="pbk-button pbk-button--secondary"
-              href={viewModel.getSecondaryCta().href}
-            >
-              {viewModel.getSecondaryCta().label}
-            </Link>
+            <ArticleCtaGroup
+              primary={primaryCta}
+              secondary={secondaryCta}
+              isAffiliate={hasAffiliateLinks}
+            />
           </div>
         </footer>
+        <TaxonomyChips categories={categories} tags={tags} />
       </div>
     </section>
   );

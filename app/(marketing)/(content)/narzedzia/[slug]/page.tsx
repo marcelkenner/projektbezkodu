@@ -1,15 +1,25 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { TableOfContents, StructuredDataScript } from "@/app/ui";
+import {
+  Breadcrumbs,
+  TableOfContents,
+  StructuredDataScript,
+  ArticleSummaryBullets,
+  ArticleMetaBadges,
+  ArticleCtaGroup,
+  TaxonomyChips,
+  ArticleSharePanel,
+} from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
-import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import { SoftwareApplicationStructuredDataBuilder } from "@/app/lib/seo/SoftwareApplicationStructuredDataBuilder";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
-const toolCatalog = new ToolCatalog();
+const breadcrumbComposer = new BreadcrumbComposer();
 const softwareApplicationStructuredDataBuilder =
   new SoftwareApplicationStructuredDataBuilder();
 
@@ -68,34 +78,40 @@ export default async function ToolPage({ params }: ToolPageProps) {
     ? "article-page__layout article-page__layout--with-toc"
     : "article-page__layout";
   const canonicalPath = viewModel.getPath();
-  const toolEntry = toolCatalog.find(slug);
-  const structuredData = toolEntry
-    ? softwareApplicationStructuredDataBuilder.build({
-        canonicalPath,
-        name: toolEntry.name,
-        description: subheading ?? toolEntry.summary,
-        applicationCategory: toolEntry.category,
-        operatingSystem: mapOperatingSystem(toolEntry.platform),
-        landingPage: toolEntry.siteHref,
-        features: toolEntry.strengths,
-        pricingModel: toolEntry.pricing,
-        offers: toolEntry.pricingTable.map((plan) => ({
-          identifier: `${toolEntry.slug}-${plan.plan}`,
-          amount: plan.amount,
-          url: toolEntry.siteHref,
-        })),
-      })
-    : null;
+  const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const frontmatter = viewModel.getFrontmatter();
+  const shareTitle = heading ?? frontmatter.title ?? viewModel.getTitle();
+  const categories = viewModel.getCategories();
+  const tags = viewModel.getTags();
+  const summaryBullets = viewModel.getSummaryBullets();
+  const primaryCta = viewModel.getPrimaryCta();
+  const secondaryCta = viewModel.getSecondaryCta();
+  const difficulty = viewModel.getDifficulty();
+  const duration = viewModel.getDuration();
+  const hasAffiliateLinks = viewModel.hasAffiliateLinks();
+  const structuredData = softwareApplicationStructuredDataBuilder.build({
+    canonicalPath,
+    name: shareTitle,
+    description:
+      subheading ??
+      frontmatter.seo?.description ??
+      frontmatter.meta?.summaryBullets?.[0],
+    applicationCategory: frontmatter.taxonomy?.categories?.[0],
+    landingPage:
+      frontmatter.meta?.primaryCta?.href ??
+      frontmatter.meta?.secondaryCta?.href ??
+      undefined,
+    features: frontmatter.meta?.summaryBullets,
+  });
+
+  const breadcrumbs = breadcrumbComposer.compose(canonicalPath, shareTitle);
 
   return (
     <section className="article-page" id="content">
-      <StructuredDataScript
-        id="tool-structured-data"
-        data={structuredData}
-      />
+      <StructuredDataScript id="tool-structured-data" data={structuredData} />
       <div className="pbk-container">
         <header className="article-page__header">
-          <p className="pbk-card__meta">{viewModel.getPath()}</p>
+          <Breadcrumbs items={breadcrumbs} />
           <h1>{heading}</h1>
           {subheading ? <p>{subheading}</p> : null}
           {publishedDate ? (
@@ -103,7 +119,19 @@ export default async function ToolPage({ params }: ToolPageProps) {
               <time dateTime={publishedDate}>{formatDate(publishedDate)}</time>
             </small>
           ) : null}
+          <ArticleMetaBadges
+            categories={categories}
+            difficulty={difficulty}
+            duration={duration}
+          />
         </header>
+        <ArticleSharePanel title={shareTitle} url={shareUrl} />
+        <ArticleSummaryBullets bullets={summaryBullets} />
+        <ArticleCtaGroup
+          primary={primaryCta ?? undefined}
+          secondary={secondaryCta ?? undefined}
+          isAffiliate={hasAffiliateLinks}
+        />
         <div className={layoutClassName}>
           {hasToc ? (
             <div className="article-page__toc">
@@ -112,17 +140,8 @@ export default async function ToolPage({ params }: ToolPageProps) {
           ) : null}
           <article className="prose">{viewModel.getBody()}</article>
         </div>
+        <TaxonomyChips categories={categories} tags={tags} />
       </div>
     </section>
   );
-}
-
-function mapOperatingSystem(platform: string | undefined) {
-  if (!platform) {
-    return "Web";
-  }
-  if (platform === "desktop") {
-    return "Windows, macOS";
-  }
-  return "Web";
 }

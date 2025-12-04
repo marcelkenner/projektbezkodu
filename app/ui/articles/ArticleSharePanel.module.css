@@ -1,0 +1,66 @@
+.share {
+  margin-block: var(--space-5);
+  padding: var(--space-4);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: var(--radii-lg);
+  background: var(--color-surface-alt);
+  display: grid;
+  gap: var(--space-4);
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: flex-start;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: var(--color-primary-strong);
+}
+
+.subtext {
+  margin: 0;
+  color: var(--color-ink-muted);
+  font-size: var(--typography-fontSize-small);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--space-2);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radii-full);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: #fff;
+  color: var(--color-ink-base);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: var(--typography-fontSize-small);
+  transition:
+    border-color 120ms ease,
+    color 120ms ease;
+}
+
+.button:hover {
+  border-color: var(--color-primary-strong);
+  color: var(--color-primary-strong);
+}
+
+.buttonIcon {
+  width: 18px;
+  height: 18px;
+}

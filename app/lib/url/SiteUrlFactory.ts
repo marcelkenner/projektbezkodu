@@ -13,7 +13,10 @@ export class SiteUrlFactory {
       return sanitizedTarget;
     }
 
-    return new URL(this.ensureLeadingSlash(sanitizedTarget), this.origin).toString();
+    return new URL(
+      this.ensureLeadingSlash(sanitizedTarget),
+      this.origin,
+    ).toString();
   }
 
   private isAbsoluteUrl(value: string): boolean {

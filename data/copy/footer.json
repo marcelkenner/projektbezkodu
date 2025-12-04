@@ -8,7 +8,8 @@
         { "label": "Porównania", "href": "/porownania" },
         { "label": "Narzędzia", "href": "/narzedzia" },
         { "label": "Szablony", "href": "/szablony" },
-        { "label": "Zasoby", "href": "/zasoby" }
+        { "label": "Zasoby", "href": "/zasoby" },
+        { "label": "Glosariusz", "href": "/glossary" }
       ]
     },
     {

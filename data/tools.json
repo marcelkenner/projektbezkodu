@@ -5,7 +5,7 @@
     "category": "site-builder",
     "description": "Buduję strony wizualnie jak w Figmie, a potem jednym kliknięciem wypycham je na produkcję – z wbudowanym CMS, hostingiem i podstawowym SEO.",
     "readMorePath": "/narzedzia/webflow/",
-    "image": "/images/tools/webflow.svg"
+    "image": "/public/images/logos/webflow.svg"
   },
   {
     "slug": "framer",

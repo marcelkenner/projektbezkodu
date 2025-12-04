@@ -85,7 +85,7 @@
     "cards": [
       {
         "title": "Poradniki krok po kroku",
-          "description": "Artykuły o Webflow, Framerze, SEO i automatyzacjach, które prowadzą cię krok po kroku przez cały proces wdrożenia – od briefu po publikację.",
+        "description": "Artykuły o Webflow, Framerze, SEO i automatyzacjach, które prowadzą cię krok po kroku przez cały proces wdrożenia – od briefu po publikację.",
         "href": "/artykuly/",
         "ctaLabel": "Czytaj artykuły"
       },

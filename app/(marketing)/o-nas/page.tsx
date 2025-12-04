@@ -59,7 +59,10 @@ function MilestonesSection() {
       <h2>{copy.milestones.heading}</h2>
       <ol className="about-page__timeline">
         {copy.milestones.items.map((item) => (
-          <li key={`${item.year}-${item.title}`} className="about-page__milestone">
+          <li
+            key={`${item.year}-${item.title}`}
+            className="about-page__milestone"
+          >
             <span className="about-page__milestoneYear">{item.year}</span>
             <div className="about-page__milestoneBody">
               <h3>{item.title}</h3>

@@ -34,6 +34,33 @@
   gap: var(--space-3);
 }
 
+:global(.pillar-page__tools) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  font-size: var(--typography-fontSize-small);
+  color: var(--color-ink-muted);
+}
+
+:global(.pillar-page__tools ul) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+:global(.pillar-page__tools a) {
+  display: inline-flex;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  color: var(--color-ink);
+}
+
 :global(.pillar-page__article) {
   display: grid;
   gap: var(--space-4);

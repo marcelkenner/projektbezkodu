@@ -9,9 +9,16 @@ import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { ArticleStructuredDataBuilder } from "@/app/lib/seo/ArticleStructuredDataBuilder";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
-import { TableOfContents, StructuredDataScript } from "@/app/ui";
+import {
+  TableOfContents,
+  StructuredDataScript,
+  ArticleMetaBadges,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  TaxonomyChips,
+  ArticleSharePanel,
+} from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
-import { ArticleSharePanel } from "../ArticleSharePanel";
 import "../article.module.css";
 
 const articleRepository = new ArticleRepository();
@@ -55,9 +62,7 @@ export async function generateMetadata({
   const shareImageWidth =
     frontmatter.meta?.heroImageWidth ?? frontmatter.hero?.image?.width ?? 1200;
   const shareImageHeight =
-    frontmatter.meta?.heroImageHeight ??
-    frontmatter.hero?.image?.height ??
-    630;
+    frontmatter.meta?.heroImageHeight ?? frontmatter.hero?.image?.height ?? 630;
   return {
     title: shareTitle,
     description: shareDescription,
@@ -70,9 +75,7 @@ export async function generateMetadata({
       description: shareDescription,
       publishedTime: frontmatter.date,
       modifiedTime: frontmatter.meta?.updatedAt,
-      authors: frontmatter.meta?.author
-        ? [frontmatter.meta.author]
-        : undefined,
+      authors: frontmatter.meta?.author ? [frontmatter.meta.author] : undefined,
       images: shareImageUrl
         ? [
             {
@@ -111,6 +114,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const categories = articleTaxonomyCatalog.resolveCategories(
     frontmatter.taxonomy?.categories,
   );
+  const metaCategories = categories
+    .filter((category): category is NonNullable<(typeof categories)[number]> =>
+      Boolean(category),
+    )
+    .map((category) => ({
+      label: category.label,
+      slug: category.slug,
+    }));
   const primaryCategory = categories.at(0);
   const author = frontmatter.meta?.author
     ? authorsMap.get(frontmatter.meta.author)
@@ -174,6 +185,11 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           {frontmatter.hero?.subheading ? (
             <p>{frontmatter.hero.subheading}</p>
           ) : null}
+          <ArticleMetaBadges
+            categories={metaCategories}
+            difficulty={frontmatter.meta?.difficulty}
+            duration={frontmatter.meta?.duration}
+          />
           <p className="article-page__meta">
             {readingTime ? (
               <>
@@ -225,6 +241,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         </header>
 
         <ArticleSharePanel title={frontmatter.title} url={articleUrl} />
+        <ArticleSummaryBullets
+          bullets={frontmatter.meta?.summaryBullets}
+          heading="Co wyniesiesz z tego artykułu?"
+        />
 
         <div className={layoutClassName}>
           {hasToc ? (
@@ -234,32 +254,22 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           ) : null}
           <article className="prose">
             {renderer.render()}
-            {(primaryCta || secondaryCta) && (
-              <>
-                <h2>Następny krok</h2>
-                <div className="article-page__cta">
-                  {primaryCta ? (
-                    <Link
-                      href={primaryCta.href}
-                      className="pbk-button pbk-button--primary"
-                      rel={primaryCta.rel ?? undefined}
-                    >
-                      {primaryCta.label}
-                    </Link>
-                  ) : null}
-                  {secondaryCta ? (
-                    <Link
-                      href={secondaryCta.href}
-                      className="pbk-button pbk-button--secondary"
-                    >
-                      {secondaryCta.label}
-                    </Link>
-                  ) : null}
-                </div>
-              </>
-            )}
+            <ArticleCtaGroup
+              primary={primaryCta ?? undefined}
+              secondary={secondaryCta ?? undefined}
+              isAffiliate={hasAffiliateLinks}
+            />
           </article>
         </div>
+        <TaxonomyChips
+          categories={metaCategories}
+          tags={
+            frontmatter.taxonomy?.tags?.map((tag) => ({
+              label: tag,
+              slug: tag,
+            })) ?? []
+          }
+        />
 
         <section className="article-page__author">
           <div className="article-page__authorHeader">
@@ -379,10 +389,7 @@ function resolveHeroImage(frontmatter: Frontmatter) {
     };
   }
 
-  if (
-    frontmatter.meta?.heroImageSrc &&
-    frontmatter.meta.heroImageAlt
-  ) {
+  if (frontmatter.meta?.heroImageSrc && frontmatter.meta.heroImageAlt) {
     return {
       src: frontmatter.meta.heroImageSrc,
       alt: frontmatter.meta.heroImageAlt,

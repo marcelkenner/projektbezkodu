@@ -5,9 +5,21 @@ import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 
 import styles from "../../../[...segments]/content-page.module.css";
+import {
+  Breadcrumbs,
+  TableOfContents,
+  ArticleMetaBadges,
+  ArticleSummaryBullets,
+  ArticleCtaGroup,
+  TaxonomyChips,
+  ArticleSharePanel,
+} from "@/app/ui";
+import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
+import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
+const breadcrumbComposer = new BreadcrumbComposer();
 
 interface ToolArticleProps {
   params: Promise<{
@@ -55,23 +67,62 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
   const heading = viewModel.getHeroHeading();
   const subheading = viewModel.getHeroSubheading();
   const publishedDate = viewModel.getPublishedDate();
+  const headings = viewModel.getHeadings();
+  const hasToc = headings.length > 0;
+  const layoutClassName = hasToc
+    ? "article-page__layout article-page__layout--with-toc"
+    : "article-page__layout";
+  const canonicalPath = viewModel.getPath();
+  const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
+  const shareTitle = heading ?? viewModel.getTitle();
+  const breadcrumbs = breadcrumbComposer.compose(canonicalPath, heading);
+  const categories = viewModel.getCategories();
+  const tags = viewModel.getTags();
+  const difficulty = viewModel.getDifficulty();
+  const duration = viewModel.getDuration();
+  const summaryBullets = viewModel.getSummaryBullets();
+  const primaryCta = viewModel.getPrimaryCta();
+  const secondaryCta = viewModel.getSecondaryCta();
+  const hasAffiliateLinks = viewModel.hasAffiliateLinks();
 
   return (
-    <section className="section section--surface" id="content">
-      <div className="pbk-container pbk-stack pbk-stack--loose">
-        <header className="pbk-stack pbk-stack--tight">
-          <p className={styles.contentPagePath}>{viewModel.getPath()}</p>
+    <section className="article-page" id="content">
+      <div className="pbk-container">
+        <header className="article-page__header">
+          <Breadcrumbs items={breadcrumbs} />
           <h1>{heading}</h1>
           {subheading ? (
             <p className={styles.contentPageLead}>{subheading}</p>
           ) : null}
+          <ArticleMetaBadges
+            categories={categories}
+            difficulty={difficulty}
+            duration={duration}
+          />
           {publishedDate ? (
             <small className={styles.contentPageMeta}>
               <time dateTime={publishedDate}>{formatDate(publishedDate)}</time>
             </small>
           ) : null}
         </header>
-        <article className="prose">{viewModel.getBody()}</article>
+        <ArticleSharePanel title={shareTitle} url={shareUrl} />
+        <ArticleSummaryBullets bullets={summaryBullets} />
+        <div className={layoutClassName}>
+          {hasToc ? (
+            <div className="article-page__toc">
+              <TableOfContents items={headings} />
+            </div>
+          ) : null}
+          <article className="prose">
+            {viewModel.getBody()}
+            <ArticleCtaGroup
+              primary={primaryCta ?? undefined}
+              secondary={secondaryCta ?? undefined}
+              isAffiliate={hasAffiliateLinks}
+            />
+          </article>
+        </div>
+        <TaxonomyChips categories={categories} tags={tags} />
       </div>
     </section>
   );

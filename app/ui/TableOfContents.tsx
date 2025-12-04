@@ -19,7 +19,7 @@ export function TableOfContents({
     <nav className="pbk-card pbk-stack" aria-label={title}>
       <h2 className="pbk-table-of-contents__title">{title}</h2>
       <ol className="pbk-table-of-contents__list">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <li
             key={item.id}
             className={
@@ -28,6 +28,9 @@ export function TableOfContents({
                 : "pbk-table-of-contents__item"
             }
           >
+            {index > 0 ? (
+              <span className="pbk-table-of-contents__divider" />
+            ) : null}
             <Link href={`#${item.id}`}>{item.text}</Link>
           </li>
         ))}

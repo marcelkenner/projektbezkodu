@@ -125,8 +125,7 @@ function resolveHeroContent(
 
   const findVariant = (id?: string) =>
     heroCopy.variants.find(
-      (variant) =>
-        variant.id.toLowerCase() === (id ?? "").trim().toLowerCase(),
+      (variant) => variant.id.toLowerCase() === (id ?? "").trim().toLowerCase(),
     );
 
   const selectedVariant =
