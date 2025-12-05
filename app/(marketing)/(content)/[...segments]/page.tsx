@@ -156,7 +156,7 @@ export default async function ContentPage({ params }: ContentPageProps) {
           <ContentCard
             title={heading}
             subheading={subheading}
-            heroSrc={hero?.src ?? "/img/articles_hero_image.jpeg"}
+            heroSrc={hero?.src ?? "/img/articles_hero_image.webp"}
             heroAlt={hero?.alt}
             meta={metaItems}
             href={path}

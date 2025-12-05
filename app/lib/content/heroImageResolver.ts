@@ -53,10 +53,10 @@ export function defaultHeroImage(
   kind: HeroImageKind = "article",
 ): ResolvedHeroImage {
   const defaults: Record<HeroImageKind, string> = {
-    article: "/img/articles_hero_image.jpeg",
-    tutorial: "/img/tutorials_hero_image.jpeg",
-    comparison: "/img/comparisons_hero_image.jpeg",
-    template: "/img/templates_hero_image.jpeg",
+    article: "/img/articles_hero_image.webp",
+    tutorial: "/img/tutorials_hero_image.webp.webp",
+    comparison: "/img/comparisons_hero_image.webp.jpeg",
+    template: "/img/templates_hero_image.webp.webp",
   };
 
   const src = defaults[kind] ?? defaults.article;

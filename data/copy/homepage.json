@@ -37,14 +37,14 @@
         },
         "microcopy": "Niektóre linki do Webflow są afiliacyjne – polecamy tylko narzędzia, z których sami korzystamy.",
         "image": {
-          "src": "/img/hero_image.jpeg",
+          "src": "/img/hero_image.webp",
           "alt": "Zespół współpracujący przy ekranie z wizualizacją danych – główny bohater serwisu ProjektBezKodu.",
           "width": 5632,
           "height": 3072,
           "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1200px",
           "sources": [
-            { "src": "/img/hero_image.jpeg", "width": 1200 },
-            { "src": "/img/hero_image.jpeg", "width": 2400 }
+            { "src": "/img/hero_image.webp", "width": 1200 },
+            { "src": "/img/hero_image.webp", "width": 2400 }
           ]
         }
       },
@@ -62,14 +62,14 @@
         },
         "microcopy": "Blueprint zawiera linki afiliacyjne do Make. Korzystamy z tego samego scenariusza w produkcji.",
         "image": {
-          "src": "/img/hero_image.jpeg",
+          "src": "/img/hero_image.webp",
           "alt": "Zespół współpracujący przy ekranie z wizualizacją danych – główny bohater serwisu ProjektBezKodu.",
           "width": 5632,
           "height": 3072,
           "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1200px",
           "sources": [
-            { "src": "/img/hero_image.jpeg", "width": 1200 },
-            { "src": "/img/hero_image.jpeg", "width": 2400 }
+            { "src": "/img/hero_image.webp", "width": 1200 },
+            { "src": "/img/hero_image.webp", "width": 2400 }
           ]
         }
       }
@@ -90,17 +90,17 @@
       {
         "quote": "ProjektBezKodu pomógł mi wybrać właściwe narzędzie do startu i nie przepłacić za funkcje, których nie potrzebuję.",
         "author": "Agnieszka",
-        "avatar": "/img/authors/Agnieszka.jpeg"
+        "avatar": "/img/authors/Agnieszka.webp"
       },
       {
         "quote": "Dzięki rekomendacjom ProjektBezKodu porównaliśmy opcje i wdrożyliśmy stronę w tydzień, bez angażowania devów.",
         "author": "Jakub",
-        "avatar": "/img/authors/Jakub.jpeg"
+        "avatar": "/img/authors/Jakub.webp"
       },
       {
         "quote": "ProjektBezKodu przeprowadził nas przez plusy i minusy narzędzi, więc mogliśmy spokojnie wybrać najlepsze rozwiązanie.",
         "author": "Mateusz",
-        "avatar": "/img/authors/Mateusz.jpeg"
+        "avatar": "/img/authors/Mateusz.webp"
       }
     ]
   },

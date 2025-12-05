@@ -103,7 +103,7 @@ export default async function ComparisonsIndex({
                   subheading={comparison.description}
                   heroSrc={
                     comparison.meta?.heroImageSrc ??
-                    "/img/comparisons_hero_image.jpeg"
+                    "/img/comparisons_hero_image.webp.jpeg"
                   }
                   heroAlt={comparison.meta?.heroImageAlt}
                   meta={metaItems}

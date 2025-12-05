@@ -16,7 +16,7 @@ const AUTHOR_PROFILE: AuthorProfile = {
   name: "Marcel Kenner",
   role: "Business / System Analyst",
   bio: "Business/System Analyst z 5+ latami doświadczenia w wytwarzaniu oprogramowania. Łączę wymagania biznesowe z rozwiązaniami no-code i automatyzacją, dbając o czytelną dokumentację i mierzalne efekty.",
-  avatarSrc: "/img/authors/marcel_kenner_image.jpg",
+  avatarSrc: "/img/authors/marcel_kenner_image.webp",
   avatarAlt: "Zdjęcie Marcela Kennera",
   linkedinUrl: "https://www.linkedin.com/in/marcel-kenner/",
 };

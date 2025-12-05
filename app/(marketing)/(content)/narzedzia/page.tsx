@@ -119,7 +119,7 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
                 ]
               : [];
             const hero =
-              model.getHeroImage()?.src ?? "/img/tools_hero_image.jpeg";
+              model.getHeroImage()?.src ?? "/img/tools_hero_image.webp.webp";
             const metaItems = [
               categories[0]?.label
                 ? {
