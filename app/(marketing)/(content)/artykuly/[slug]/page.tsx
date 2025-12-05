@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { Clock, Info } from "@phosphor-icons/react/dist/ssr";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
@@ -16,6 +15,7 @@ import {
   ArticleCtaGroup,
   TaxonomyChips,
   ArticleSharePanel,
+  AuthorCard,
 } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import "../article.module.css";
@@ -136,6 +136,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const publishedDate = formatDate(frontmatter.date);
   const updatedDate = formatDate(frontmatter.meta?.updatedAt);
   const relatedArticles = articleRepository.getRelatedArticles(slug, 3);
+  const sidebarRelated = relatedArticles.slice(0, 3);
   const adjacent = findAdjacentArticles(slug);
   const hasAffiliateLinks = Boolean(frontmatter.meta?.hasAffiliateLinks);
   const primaryCta = frontmatter.meta?.primaryCta;
@@ -253,6 +254,26 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           {hasToc ? (
             <div className="article-page__toc">
               <TableOfContents items={headings} />
+              {sidebarRelated.length ? (
+                <aside
+                  className="pbk-card pbk-stack article-page__relatedTools"
+                  aria-label="Powiązane artykuły w tej kategorii"
+                >
+                  <h2 className="pbk-card__meta">Co jeszcze przeczytać</h2>
+                  <ul
+                    className="pbk-stack pbk-stack--tight"
+                    aria-label="Lista artykułów powiązanych z kategorią"
+                  >
+                    {sidebarRelated.map((item) => (
+                      <li key={item.slug}>
+                        <Link className="pbk-inline-link" href={item.path}>
+                          {item.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              ) : null}
             </div>
           ) : null}
           <article className="prose">
@@ -264,6 +285,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             />
           </article>
         </div>
+        <AuthorCard />
         <TaxonomyChips
           categories={metaCategories}
           tags={
@@ -273,32 +295,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             })) ?? []
           }
         />
-
-        <section className="article-page__author">
-          <div className="article-page__authorHeader">
-            <Image
-              className="article-page__authorAvatar"
-              src={author?.avatar ?? "/img/authors/marcel-nowak.webp"}
-              alt={
-                author
-                  ? `Zdjęcie autora: ${author.name}`
-                  : "Zdjęcie autora ProjektBezKodu"
-              }
-              width={72}
-              height={72}
-              loading="lazy"
-              decoding="async"
-            />
-            <div>
-              <p className="pbk-card__meta">Autor</p>
-              <p>{author?.name ?? "ProjektBezKodu"}</p>
-            </div>
-          </div>
-          <p className="pbk-card__meta">
-            {author?.bio ??
-              "Tworzymy poradniki, checklisty i narzędzia, które pozwalają rozwijać serwis bez kodu."}
-          </p>
-        </section>
 
         {relatedArticles.length ? (
           <section

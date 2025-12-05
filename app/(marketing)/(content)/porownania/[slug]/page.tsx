@@ -12,11 +12,13 @@ import { extractFaqItems } from "@/app/lib/content/faqExtractor";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import {
   StructuredDataScript,
+  TableOfContents,
   ArticleMetaBadges,
   ArticleSummaryBullets,
   ArticleCtaGroup,
   TaxonomyChips,
   ArticleSharePanel,
+  AuthorCard,
 } from "@/app/ui";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
@@ -26,6 +28,7 @@ import {
   heroImageKindFrom,
   resolveHeroImage as resolveGenericHeroImage,
 } from "@/app/lib/content/heroImageResolver";
+import "../../artykuly/article.module.css";
 
 const comparisonRepository = new ComparisonRepository();
 const comparisonStructuredDataBuilder = new ArticleStructuredDataBuilder();
@@ -65,6 +68,7 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
 
   const { frontmatter, content, excerpt, slug } = comparison;
   const renderer = new MarkdownRenderer(content);
+  const headings = renderer.getHeadings();
   const categories = comparisonTaxonomyCatalog.resolveCategories(
     frontmatter.taxonomy?.categories,
   );
@@ -99,6 +103,11 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
     canonicalPath,
     frontmatter.title,
   );
+  const publishedDate = formatDate(frontmatter.date);
+  const hasToc = headings.length > 0;
+  const layoutClassName = hasToc
+    ? "article-page__layout article-page__layout--with-toc"
+    : "article-page__layout";
   const structuredData = comparisonStructuredDataBuilder.build({
     title: frontmatter.title,
     description: frontmatter.seo?.description ?? excerpt,
@@ -140,9 +149,14 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
     frontmatter.taxonomy?.categories ?? [],
     frontmatter.taxonomy?.tags ?? [],
   );
+  const sidebarRelated = selectSidebarRelatedComparisons(
+    slug,
+    metaCategoryBadges,
+    tagBadges,
+  );
 
   return (
-    <section className="section section--surface">
+    <section className="article-page" id="content">
       <StructuredDataScript
         id="comparison-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}
@@ -153,8 +167,13 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
         breadcrumbs={breadcrumbs}
         image={heroImage}
       />
-      <div className="pbk-container pbk-stack">
-        <header className="pbk-stack pbk-stack--tight">
+      <div className="pbk-container">
+        <header className="article-page__header">
+          {publishedDate ? (
+            <small className="pbk-card__meta">
+              <time dateTime={frontmatter.date ?? ""}>{publishedDate}</time>
+            </small>
+          ) : null}
           <ArticleMetaBadges
             categories={metaCategoryBadges}
             difficulty={frontmatter.meta?.difficulty}
@@ -166,30 +185,55 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
           bullets={frontmatter.meta?.summaryBullets}
           heading="Najważniejsze różnice"
         />
-        <article className="prose">
-          {renderer.render()}
-          <ArticleCtaGroup
-            primary={frontmatter.meta?.primaryCta ?? undefined}
-            secondary={frontmatter.meta?.secondaryCta ?? undefined}
-            isAffiliate={Boolean(frontmatter.meta?.hasAffiliateLinks)}
-          />
-          {faqItems.length ? (
-            <section
-              className="comparison-faq pbk-card pbk-stack"
-              aria-labelledby="comparison-faq"
-            >
-              <h2 id="comparison-faq">Najczęstsze pytania</h2>
-              <dl className="comparison-faq__list">
-                {faqItems.map((item) => (
-                  <div key={item.question} className="comparison-faq__item">
-                    <dt>{item.question}</dt>
-                    <dd>{item.answer}</dd>
-                  </div>
-                ))}
-              </dl>
-            </section>
+        <ArticleCtaGroup
+          primary={frontmatter.meta?.primaryCta ?? undefined}
+          secondary={frontmatter.meta?.secondaryCta ?? undefined}
+          isAffiliate={Boolean(frontmatter.meta?.hasAffiliateLinks)}
+        />
+        <div className={layoutClassName}>
+          {hasToc ? (
+            <div className="article-page__toc">
+              <TableOfContents items={headings} />
+              {sidebarRelated.length ? (
+                <aside
+                  className="pbk-card pbk-stack article-page__relatedTools"
+                  aria-label="Powiązane porównania"
+                >
+                  <h2 className="pbk-card__meta">Zobacz też</h2>
+                  <ul className="pbk-stack pbk-stack--tight">
+                    {sidebarRelated.map((item) => (
+                      <li key={item.path}>
+                        <Link className="pbk-inline-link" href={item.path}>
+                          {item.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              ) : null}
+            </div>
           ) : null}
-        </article>
+          <article className="prose">
+            {renderer.render()}
+            {faqItems.length ? (
+              <section
+                className="comparison-faq pbk-card pbk-stack"
+                aria-labelledby="comparison-faq"
+              >
+                <h2 id="comparison-faq">Najczęstsze pytania</h2>
+                <dl className="comparison-faq__list">
+                  {faqItems.map((item) => (
+                    <div key={item.question} className="comparison-faq__item">
+                      <dt>{item.question}</dt>
+                      <dd>{item.answer}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </section>
+            ) : null}
+          </article>
+        </div>
+        <AuthorCard />
         {relatedComparisons.length ? (
           <section
             className="comparison-related"
@@ -274,4 +318,62 @@ function getRelatedComparisons(
   }
 
   return summaries.slice(0, limit);
+}
+
+function selectSidebarRelatedComparisons(
+  slug: string,
+  categories: Array<{ label: string; slug: string }>,
+  tags: Array<{ label: string; slug: string }>,
+) {
+  const categorySet = new Set(categories.map((c) => c.slug).filter(Boolean));
+  const tagSet = new Set(tags.map((t) => t.slug).filter(Boolean));
+
+  const scored = comparisonRepository
+    .listSummaries()
+    .filter((summary) => summary.slug !== slug)
+    .map((summary) => {
+      const score =
+        (summary.taxonomy?.categories ?? []).filter(
+          (cat) => cat && categorySet.has(cat),
+        ).length *
+          2 +
+        (summary.taxonomy?.tags ?? []).filter((tag) => tag && tagSet.has(tag))
+          .length;
+      return {
+        title: summary.title,
+        path: summary.path ?? `/porownania/${summary.slug}/`,
+        score,
+      };
+    })
+    .sort((a, b) => b.score - a.score)
+    .filter((entry) => entry.score > 0)
+    .slice(0, 3);
+
+  if (scored.length) {
+    return scored;
+  }
+
+  return comparisonRepository
+    .listSummaries()
+    .filter((summary) => summary.slug !== slug)
+    .slice(0, 3)
+    .map((summary) => ({
+      title: summary.title,
+      path: summary.path ?? `/porownania/${summary.slug}/`,
+    }));
+}
+
+function formatDate(input?: string): string {
+  if (!input) {
+    return "";
+  }
+  const timestamp = Date.parse(input);
+  if (Number.isNaN(timestamp)) {
+    return input;
+  }
+  return new Intl.DateTimeFormat("pl-PL", {
+    year: "numeric",
+    month: "long",
+    day: "2-digit",
+  }).format(new Date(timestamp));
 }

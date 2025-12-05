@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
@@ -9,6 +10,7 @@ import {
   ArticleCtaGroup,
   TaxonomyChips,
   ArticleSharePanel,
+  AuthorCard,
 } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
@@ -16,6 +18,7 @@ import { SoftwareApplicationStructuredDataBuilder } from "@/app/lib/seo/Software
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
+import "../../artykuly/article.module.css";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
@@ -39,6 +42,49 @@ function formatDate(input: string): string {
     month: "long",
     day: "2-digit",
   }).format(new Date(timestamp));
+}
+
+function selectSidebarRelatedTools(
+  slug: string,
+  categories: Array<{ label: string; slug?: string }>,
+) {
+  const categorySet = new Set(
+    categories.map((cat) => cat?.slug).filter(Boolean),
+  );
+  const tools = library
+    .listRoutes()
+    .filter(
+      (entry) =>
+        entry.path.startsWith("/narzedzia/") && entry.segments.length === 2,
+    )
+    .map((entry) => {
+      const frontmatter = entry.document.frontmatter;
+      const cats = frontmatter.taxonomy?.categories ?? [];
+      return {
+        slug: frontmatter.slug ?? entry.segments[1],
+        title: frontmatter.title ?? entry.segments[1],
+        path: entry.path,
+        categories: cats,
+      };
+    })
+    .filter((entry) => entry.slug !== slug);
+
+  const ranked = tools
+    .map((entry) => ({
+      title: entry.title,
+      path: entry.path,
+      score: entry.categories.some((cat) => cat && categorySet.has(cat))
+        ? 1
+        : 0,
+    }))
+    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, "pl"))
+    .slice(0, 3);
+
+  if (ranked.some((entry) => entry.score > 0)) {
+    return ranked;
+  }
+
+  return tools.slice(0, 3).map(({ title, path }) => ({ title, path }));
 }
 
 export function generateStaticParams() {
@@ -90,6 +136,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const difficulty = viewModel.getDifficulty();
   const duration = viewModel.getDuration();
   const hasAffiliateLinks = viewModel.hasAffiliateLinks();
+  const sidebarRelated = selectSidebarRelatedTools(slug, categories);
   const structuredData = softwareApplicationStructuredDataBuilder.build({
     canonicalPath,
     name: shareTitle,
@@ -140,10 +187,28 @@ export default async function ToolPage({ params }: ToolPageProps) {
           {hasToc ? (
             <div className="article-page__toc">
               <TableOfContents items={tocItems} />
+              {sidebarRelated.length ? (
+                <aside
+                  className="pbk-card pbk-stack article-page__relatedTools"
+                  aria-label="Powiązane narzędzia"
+                >
+                  <h2 className="pbk-card__meta">Sprawdź też</h2>
+                  <ul className="pbk-stack pbk-stack--tight">
+                    {sidebarRelated.map((item) => (
+                      <li key={item.path}>
+                        <Link className="pbk-inline-link" href={item.path}>
+                          {item.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              ) : null}
             </div>
           ) : null}
           <article className="prose">{viewModel.getBody()}</article>
         </div>
+        <AuthorCard />
         <TaxonomyChips categories={categories} tags={tags} />
       </div>
     </section>

@@ -37,15 +37,14 @@
         },
         "microcopy": "Niektóre linki do Webflow są afiliacyjne – polecamy tylko narzędzia, z których sami korzystamy.",
         "image": {
-          "src": "/img/hero-3x2.webp",
-          "alt": "Makieta strony internetowej układanej z bloków przez kilka osób – nagłówek, oferta i formularz kontaktowy.",
-          "width": 1120,
-          "height": 747,
-          "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1120px",
+          "src": "/img/hero_image.jpeg",
+          "alt": "Zespół współpracujący przy ekranie z wizualizacją danych – główny bohater serwisu ProjektBezKodu.",
+          "width": 5632,
+          "height": 3072,
+          "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1200px",
           "sources": [
-            { "src": "/img/hero-3x2-560.webp", "width": 560 },
-            { "src": "/img/hero-3x2-840.webp", "width": 840 },
-            { "src": "/img/hero-3x2.webp", "width": 1120 }
+            { "src": "/img/hero_image.jpeg", "width": 1200 },
+            { "src": "/img/hero_image.jpeg", "width": 2400 }
           ]
         }
       },
@@ -63,15 +62,14 @@
         },
         "microcopy": "Blueprint zawiera linki afiliacyjne do Make. Korzystamy z tego samego scenariusza w produkcji.",
         "image": {
-          "src": "/img/hero-automation.webp",
-          "alt": "Diagram automatyzacji pokazujący przepływ leadów między formularzem, CRM i Slackiem.",
-          "width": 1080,
-          "height": 720,
-          "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1080px",
+          "src": "/img/hero_image.jpeg",
+          "alt": "Zespół współpracujący przy ekranie z wizualizacją danych – główny bohater serwisu ProjektBezKodu.",
+          "width": 5632,
+          "height": 3072,
+          "sizes": "(max-width:640px) 92vw, (max-width:1200px) 80vw, 1200px",
           "sources": [
-            { "src": "/img/hero-automation-540.webp", "width": 540 },
-            { "src": "/img/hero-automation-810.webp", "width": 810 },
-            { "src": "/img/hero-automation.webp", "width": 1080 }
+            { "src": "/img/hero_image.jpeg", "width": 1200 },
+            { "src": "/img/hero_image.jpeg", "width": 2400 }
           ]
         }
       }

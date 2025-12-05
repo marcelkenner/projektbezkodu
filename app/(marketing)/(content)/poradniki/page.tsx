@@ -6,11 +6,11 @@ import { tutorialTaxonomyCatalog } from "@/app/lib/content/tutorialTaxonomy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import {
-  Badge,
   Button,
-  FilterBar,
+  ContentFilterBar,
   SelectField,
   StructuredDataScript,
+  ContentCard,
 } from "../../../ui";
 import { getCopy } from "../../../lib/copy";
 
@@ -74,7 +74,8 @@ export default async function TutorialsIndex({
           <p>{copy.intro}</p>
         </div>
         {libraryEmpty ? null : (
-          <FilterBar
+          <ContentFilterBar
+            variant="tutorials"
             method="get"
             legend="Filtruj tutoriale"
             actions={
@@ -114,9 +115,9 @@ export default async function TutorialsIndex({
               defaultValue={selectedTool ?? baseOption}
               options={toolOptions}
             />
-          </FilterBar>
+          </ContentFilterBar>
         )}
-        <div className="section__grid">
+        <div className="articles-grid">
           {libraryEmpty ? (
             <div className="pbk-card">
               <p>{copy.emptyState}</p>
@@ -130,42 +131,29 @@ export default async function TutorialsIndex({
               const categories = tutorialTaxonomyCatalog.resolveCategories(
                 tutorial.taxonomy?.categories,
               );
-              const tags = tutorialTaxonomyCatalog.resolveTags(
-                tutorial.taxonomy?.tags,
-              );
+              const hero = tutorial.hero?.image?.src;
+              const subheading = tutorial.hero?.subheading ?? tutorial.excerpt;
+              const metaItems: Array<{ label: string }> = [];
+              if (tutorial.meta?.difficulty) {
+                metaItems.push({ label: tutorial.meta.difficulty });
+              }
+              if (tutorial.meta?.duration) {
+                metaItems.push({ label: tutorial.meta.duration });
+              }
+              if (categories[0]?.label) {
+                metaItems.push({ label: categories[0].label });
+              }
               return (
-                <div key={tutorial.slug} className="pbk-card pbk-stack">
-                  {categories.length ? (
-                    <div className="pbk-inline-list">
-                      {categories.map((category) => (
-                        <Badge key={category.slug} variant="accent">
-                          {category.label}
-                        </Badge>
-                      ))}
-                    </div>
-                  ) : null}
-                  <h2>{tutorial.title}</h2>
-                  {tutorial.description ? <p>{tutorial.description}</p> : null}
-                  <div className="pbk-inline-list">
-                    {tutorial.meta?.difficulty ? (
-                      <Badge variant="accent">{tutorial.meta.difficulty}</Badge>
-                    ) : null}
-                    {tutorial.meta?.duration ? (
-                      <Badge variant="neutral">{tutorial.meta.duration}</Badge>
-                    ) : null}
-                    {tags.map((tag) => (
-                      <Badge key={tag.slug} variant="neutral">
-                        {tag.label}
-                      </Badge>
-                    ))}
-                  </div>
-                  <Link
-                    className="pbk-button pbk-button--tertiary"
-                    href={tutorial.path}
-                  >
-                    Czytaj tutorial
-                  </Link>
-                </div>
+                <ContentCard
+                  key={tutorial.slug}
+                  title={tutorial.title}
+                  subheading={subheading}
+                  heroSrc={hero ?? "/img/tutorials_hero_image.jpeg"}
+                  heroAlt={tutorial.hero?.image?.alt}
+                  href={tutorial.path}
+                  meta={metaItems}
+                  ctaLabel="Czytaj tutorial"
+                />
               );
             })
           )}

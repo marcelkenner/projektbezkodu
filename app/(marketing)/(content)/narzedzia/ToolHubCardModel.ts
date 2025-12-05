@@ -7,6 +7,10 @@ export interface ToolOverviewEntry {
   title: string;
   heading?: string;
   subheading?: string;
+  hero?: {
+    src?: string;
+    alt?: string;
+  };
 }
 
 export class ToolHubCardModel {
@@ -27,6 +31,15 @@ export class ToolHubCardModel {
 
   getSubheading() {
     return this.overview.subheading ?? this.detail?.summary ?? "";
+  }
+
+  getHeroImage() {
+    return this.overview.hero;
+  }
+
+  // Backward-compatibility for legacy callers expecting getHero()
+  getHero() {
+    return this.getHeroImage();
   }
 
   getBadgeLabel() {

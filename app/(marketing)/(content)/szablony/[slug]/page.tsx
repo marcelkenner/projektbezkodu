@@ -8,11 +8,14 @@ import {
   ArticleSummaryBullets,
   ArticleCtaGroup,
   TaxonomyChips,
+  AuthorCard,
+  ArticleMetaBadges,
 } from "@/app/ui";
 import { ProductStructuredDataBuilder } from "@/app/lib/seo/ProductStructuredDataBuilder";
 import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
 import "./../templates.module.css";
+import "../../artykuly/article.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
@@ -109,9 +112,10 @@ export default async function TemplateDetailPage({
         },
       ]
     : [];
+  const layoutClassName = "article-page__layout";
 
   return (
-    <section className="templates-page" id="content">
+    <section className="article-page" id="content">
       <StructuredDataScript
         id="template-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}
@@ -122,8 +126,13 @@ export default async function TemplateDetailPage({
         breadcrumbs={breadcrumbs}
         image={heroImage}
       />
-      <div className="pbk-container pbk-stack pbk-stack--loose">
-        <header className="pbk-stack pbk-stack--tight">
+      <div className="pbk-container">
+        <header className="article-page__header">
+          <ArticleMetaBadges
+            categories={categoryChips}
+            difficulty={undefined}
+            duration={undefined}
+          />
           <div className="templates-detail__meta">
             <span>
               {copy.detail.metadata.categoryLabel}: {template.type || "—"}
@@ -143,69 +152,76 @@ export default async function TemplateDetailPage({
           heading={copy.detail.forWhomHeading}
         />
 
-        <div className="templates-detail__section">
-          <h2>{copy.detail.sectionsHeading}</h2>
-          <ul className="templates-detail__list">
-            {template.requirements.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="templates-detail__section">
-          <h2>{copy.detail.stepsHeading}</h2>
-          <ol className="templates-detail__steps">
-            {template.steps.map((step) => (
-              <li key={step}>{step}</li>
-            ))}
-          </ol>
-        </div>
-
-        {template.pricing.length ? (
-          <div className="templates-detail__section">
-            <h2>{copy.detail.pricingHeading}</h2>
-            <div className="templates-detail__pricing">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Plan</th>
-                    <th>Cena</th>
-                    <th>Okres</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {template.pricing.map((row) => (
-                    <tr key={row.plan}>
-                      <td>{row.plan}</td>
-                      <td>{row.amount}</td>
-                      <td>{row.period}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        ) : null}
-
-        {template.faq.length ? (
-          <div className="templates-detail__section">
-            <h2>{copy.detail.faqHeading}</h2>
-            <div className="templates-detail__faq">
-              {template.faq.map((item) => (
-                <div key={item.question} className="pbk-stack pbk-stack--tight">
-                  <h3>{item.question}</h3>
-                  <p>{item.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        ) : null}
-
         <ArticleCtaGroup
           primary={primaryCta}
           secondary={secondaryCta}
           isAffiliate={template.price === "paid"}
         />
+        <div className={layoutClassName}>
+          <article className="prose">
+            <div className="templates-detail__section">
+              <h2>{copy.detail.sectionsHeading}</h2>
+              <ul className="templates-detail__list">
+                {template.requirements.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="templates-detail__section">
+              <h2>{copy.detail.stepsHeading}</h2>
+              <ol className="templates-detail__steps">
+                {template.steps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+            </div>
+
+            {template.pricing.length ? (
+              <div className="templates-detail__section">
+                <h2>{copy.detail.pricingHeading}</h2>
+                <div className="templates-detail__pricing">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Plan</th>
+                        <th>Cena</th>
+                        <th>Okres</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {template.pricing.map((row) => (
+                        <tr key={row.plan}>
+                          <td>{row.plan}</td>
+                          <td>{row.amount}</td>
+                          <td>{row.period}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ) : null}
+
+            {template.faq.length ? (
+              <div className="templates-detail__section">
+                <h2>{copy.detail.faqHeading}</h2>
+                <div className="templates-detail__faq">
+                  {template.faq.map((item) => (
+                    <div
+                      key={item.question}
+                      className="pbk-stack pbk-stack--tight"
+                    >
+                      <h3>{item.question}</h3>
+                      <p>{item.answer}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+          </article>
+        </div>
+        <AuthorCard />
         <TaxonomyChips categories={categoryChips} tags={tagChips} />
       </div>
     </section>

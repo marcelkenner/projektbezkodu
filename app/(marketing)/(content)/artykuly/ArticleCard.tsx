@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { Clock } from "@phosphor-icons/react/dist/ssr";
 import type { ContentSummary } from "@/app/lib/content/repositories";
@@ -15,48 +14,65 @@ interface ArticleCardProps {
 export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
   const readingTime = article.meta?.duration;
   const dateLabel = formatDate(article.date);
+  const heroImage =
+    article.hero?.image?.src ??
+    article.meta?.heroImageSrc ??
+    ARTICLE_PLACEHOLDER;
+  const heroAlt =
+    article.hero?.image?.alt ??
+    `Zdjęcie powiązane z artykułem: ${article.title}`;
+  const subheading = article.hero?.subheading ?? undefined;
 
   return (
     <article className="articles-card">
-      <img
+      <figure
         className="articles-card__image"
-        src={ARTICLE_PLACEHOLDER}
-        alt={`Miniatura artykułu: ${article.title}`}
-        width={768}
-        height={512}
-        loading="lazy"
-        decoding="async"
-        srcSet={`${ARTICLE_PLACEHOLDER} 384w`}
-        sizes="(max-width:640px) 92vw, (max-width:1200px) 33vw, 384px"
-      />
-      <div className="articles-card__body">
-        <div>
-          <h3>
-            <Link href={article.path}>{article.title}</Link>
-          </h3>
-          {article.description ? <p>{article.description}</p> : null}
+        style={{
+          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.55)), url(${heroImage})`,
+        }}
+        aria-label={heroAlt}
+      >
+        <div className="articles-card__imageContent">
+          <p className="articles-card__imageTitle">{article.title}</p>
+          {subheading ? (
+            <p className="articles-card__imageSubtitle">{subheading}</p>
+          ) : null}
         </div>
-        <p className="articles-card__meta">
-          {readingTime ? (
-            <>
-              <Clock
-                aria-hidden="true"
-                className="articles-card__icon"
-                weight="bold"
-              />
-              <span>{readingTime}</span>
-            </>
-          ) : null}
-          {dateLabel ? (
-            <time dateTime={article.date ?? ""}>{dateLabel}</time>
-          ) : null}
-          {category ? (
-            <Link href={`/kategoria/${category.slug}/`}>{category.label}</Link>
-          ) : null}
-        </p>
-        <Link className="articles-card__link" href={article.path}>
-          {ctaLabel}
-        </Link>
+      </figure>
+      <div className="articles-card__body">
+        <div className="articles-card__footer">
+          <p className="articles-card__meta">
+            {readingTime ? (
+              <span className="articles-card__metaItem">
+                <Clock
+                  aria-hidden="true"
+                  className="articles-card__icon"
+                  weight="bold"
+                />
+                <span>{readingTime}</span>
+              </span>
+            ) : null}
+            {dateLabel ? (
+              <time
+                className="articles-card__metaItem"
+                dateTime={article.date ?? ""}
+              >
+                {dateLabel}
+              </time>
+            ) : null}
+            {category ? (
+              <Link
+                className="articles-card__metaItem"
+                href={`/kategoria/${category.slug}/`}
+              >
+                {category.label}
+              </Link>
+            ) : null}
+          </p>
+          <Link className="articles-card__link" href={article.path}>
+            {ctaLabel}
+          </Link>
+        </div>
       </div>
     </article>
   );

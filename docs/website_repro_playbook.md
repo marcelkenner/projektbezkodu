@@ -67,11 +67,12 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 ## 7. UI Component Library
 
 1. Create UI primitives in `app/ui/` (Button, TextField, SelectField, Badge, Alert, Card, Stepper, PricingCard, ComparisonTable, Modal, Toast, PrimaryNav, Footer, FilterBar). All filter/search experiences across listings must wrap their inputs/actions with `FilterBar` so spacing, background, and responsive behavior stay identical on every page.
-2. Centralise exports via `app/ui/index.ts`.
-3. Ensure each component imports `./ui.css`.
-4. Preface complex logic with brief comments only when necessary.
-5. Maintain component files <200 lines; split helpers if over.
-6. Homepage composition lives in `HeroSection.tsx` and `HomepageSections.tsx` – reuse these instead of duplicating hero/social proof/newsletter logic.
+2. Use the unified `ContentFilterBar` (app/ui/filters/ContentFilterBar.tsx) for section filters (`/artykuly`, `/poradniki`, future `/narzedzia`, `/porownania`) to keep consistent layout and allow per-section variants via the `variant` prop.
+3. Centralise exports via `app/ui/index.ts`.
+4. Ensure each component imports `./ui.css`.
+5. Preface complex logic with brief comments only when necessary.
+6. Maintain component files <200 lines; split helpers if over.
+7. Homepage composition lives in `HeroSection.tsx` and `HomepageSections.tsx` – reuse these instead of duplicating hero/social proof/newsletter logic.
 
 ## 8. Copy System
 
@@ -127,6 +128,9 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - `generateMetadata` reading frontmatter.
    - Render body with `MarkdownRenderer`.
    - Tool detail pages (`app/(marketing)/(content)/narzedzia/[slug]/page.tsx`) pull absolutely everything (copy, badges, CTAs, share data, schema) from the markdown entry under `content/narzedzia/{slug}/index.md`. Do not inject supplemental copy from `data/catalog/tools.json` or any other source—if a scenario or pricing section is needed, keep it in markdown/front matter.
+   - Tutorial detail pages (`/poradniki/[slug]`) must reuse the shared article layout (`article-page__layout` + `ArticleSharePanel`) used on `/narzedzia` so spacing, TOC placement, and CTAs stay consistent; keep any download/TOC blocks inside that sidebar column.
+   - Templates (`/szablony/[slug]`) and comparisons (`/porownania/[slug]`) also inherit this article layout; place summary bullets + CTA group above the body, and render body content inside `article-page__layout` so all detail pages feel identical.
+   - Every content detail page ends with the shared `AuthorCard` for Marcel Kenner (Business/System Analyst, 5+ years experience). Use avatar `/img/authors/marcel_kenner_image.jpg` and link to `https://www.linkedin.com/in/marcel-kenner/`.
    - Article detail pages must render the share module (`ArticleSharePanel.tsx`) directly under the header. The component lives at `app/ui/articles/ArticleSharePanel.tsx`, ships with its own `ArticleSharePanel.module.css`, and is exported via `@/app/ui` so every route uses the same implementation with consistent mobile-first styling. The panel uses Phosphor icons and lists LinkedIn, Facebook, X (Twitter), Reddit, and WhatsApp in a single mobile-first row. Always derive URLs from `defaultSiteUrlFactory` instead of hard-coding domains.
    - `generateMetadata` on content routes must output full Open Graph/Twitter data (title, description, `publishedTime`, `modifiedTime`, share image). When `seo.image` is missing, fall back to `meta.heroImage*` or the hero asset, then build an absolute URL via `SiteUrlFactory`.
    - Inject JSON-LD exclusively through `StructuredDataScript` and the builders under `app/lib/seo/**`. Articles and comparisons use `ArticleStructuredDataBuilder`; templates (`/szablony/[slug]`) combine the Product/FAQ/HowTo builders; resources (`/zasoby/[slug]`) lean on `ResourceStructuredDataBuilder`; tool guides (`/narzedzia/[slug]`) publish `SoftwareApplication` schema via `SoftwareApplicationStructuredDataBuilder`; tutorial detail pages (`/poradniki/[slug]`) emit a HowTo plus optional FAQ payload discovered in markdown; listing pages (articles, tools, resources) expose `ItemList` collections; and any front matter `meta.review` gets wired into `ReviewStructuredDataBuilder`. Never hand-write JSON-LD inside components.

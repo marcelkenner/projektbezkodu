@@ -3,15 +3,17 @@ import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import "./tools.module.css";
 import { ToolsJumpSelect } from "./ToolsJumpSelect";
+import Link from "next/link";
 import {
   StructuredDataScript,
-  ArticleCtaGroup,
-  ArticleSummaryBullets,
-  TaxonomyChips,
+  ContentFilterBar,
+  SelectField,
+  Button,
 } from "@/app/ui";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import { ToolHubCardModel, type ToolOverviewEntry } from "./ToolHubCardModel";
+import { ContentCard } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 
 const copy = getCopy("tools");
@@ -26,8 +28,27 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ToolsPage() {
+interface ToolsPageProps {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}
+
+export default async function ToolsPage({ searchParams }: ToolsPageProps) {
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const selectedCategory = getFirst(resolvedSearchParams?.kategoria);
+  const selectedPlatform = getFirst(resolvedSearchParams?.system);
   const overview = loadToolsFromContent();
+  const filtered = overview.filter((entry) => {
+    const tool = toolCatalog.find(entry.slug);
+    const categories = tool?.taxonomy?.categories ?? [];
+    const platform = tool?.platform;
+    const matchesCategory = selectedCategory
+      ? categories.includes(selectedCategory)
+      : true;
+    const matchesPlatform = selectedPlatform
+      ? platform === selectedPlatform
+      : true;
+    return matchesCategory && matchesPlatform;
+  });
   const itemListStructuredData = buildToolCollectionJsonLd(overview);
   const categoryLabels = new Map(
     copy.filters.category.options.map((option) => [option.value, option.label]),
@@ -35,7 +56,7 @@ export default function ToolsPage() {
   const platformLabels = new Map(
     copy.filters.system.options.map((option) => [option.value, option.label]),
   );
-  const cardModels = overview.map(
+  const cardModels = filtered.map(
     (entry) => new ToolHubCardModel(entry, toolCatalog.find(entry.slug)),
   );
   return (
@@ -51,13 +72,44 @@ export default function ToolsPage() {
             <p>{copy.hero.intro}</p>
           </div>
         </div>
+        <ContentFilterBar
+          variant="tools"
+          method="get"
+          legend="Filtruj narzędzia"
+          actions={
+            <>
+              <Button type="submit" variant="primary" size="compact">
+                {copy.filters.submit}
+              </Button>
+              <Link
+                className="pbk-button pbk-button--tertiary pbk-button--compact"
+                href="/narzedzia"
+              >
+                {copy.filters.reset}
+              </Link>
+            </>
+          }
+        >
+          <SelectField
+            id="kategoria"
+            name="kategoria"
+            label={copy.filters.category.label}
+            defaultValue={selectedCategory ?? ""}
+            options={copy.filters.category.options}
+          />
+          <SelectField
+            id="system"
+            name="system"
+            label={copy.filters.system.label}
+            defaultValue={selectedPlatform ?? ""}
+            options={copy.filters.system.options}
+          />
+        </ContentFilterBar>
         <ToolsJumpSelect tools={overview} />
-        <div className="tools-page__grid">
+        <div className="articles-grid">
           {cardModels.map((model) => {
-            const summaryBullets = model.getSummaryBullets();
             const categoryValue = model.getCategoryValue();
             const platformValue = model.getPlatformValue();
-            const secondaryHref = model.getSecondaryHref();
             const categories = categoryValue
               ? [
                   {
@@ -66,64 +118,35 @@ export default function ToolsPage() {
                   },
                 ]
               : [];
-            const tags: { label: string; slug?: string; href?: string }[] = [];
+            const hero =
+              model.getHeroImage()?.src ?? "/img/tools_hero_image.jpeg";
+            const metaItems = [
+              categories[0]?.label
+                ? {
+                    label: `${copy.detail.meta.categoryLabel}: ${categories[0].label}`,
+                  }
+                : null,
+              platformValue
+                ? {
+                    label: `${copy.detail.meta.platformLabel}: ${
+                      platformLabels.get(platformValue) ?? platformValue
+                    }`,
+                  }
+                : null,
+              {
+                label: `${copy.detail.meta.pricingLabel}: ${formatPricing(model.getPricingModel())}`,
+              },
+            ].filter(Boolean) as { label: string }[];
             return (
-              <article key={model.getSlug()} className="tools-page__card">
-                <span className="tools-page__badge">
-                  {model.getBadgeLabel()}
-                </span>
-                <div className="pbk-stack pbk-stack--tight">
-                  <h2 className="tools-page__title">{model.getHeading()}</h2>
-                  {model.getSubheading() ? (
-                    <p>{model.getSubheading()}</p>
-                  ) : null}
-                </div>
-                <div className="tools-page__meta">
-                  <span>
-                    {copy.detail.meta.categoryLabel}:{" "}
-                    {categories[0]?.label ?? "—"}
-                  </span>
-                  <span>
-                    {copy.detail.meta.platformLabel}:{" "}
-                    {platformLabels.get(platformValue ?? "") ??
-                      platformValue ??
-                      "—"}
-                  </span>
-                  <span>
-                    {copy.detail.meta.pricingLabel}:{" "}
-                    {formatPricing(model.getPricingModel())}
-                  </span>
-                </div>
-                <ArticleSummaryBullets
-                  bullets={summaryBullets}
-                  heading="Dlaczego warto"
-                />
-                <TaxonomyChips categories={categories} tags={tags} />
-                <ArticleCtaGroup
-                  primary={{
-                    label: copy.cards.primaryCta,
-                    href: model.getPrimaryHref(),
-                  }}
-                  secondary={
-                    secondaryHref
-                      ? {
-                          label: copy.cards.secondaryCta,
-                          href: secondaryHref,
-                          rel: model.usesAffiliateLink()
-                            ? "noopener sponsored"
-                            : undefined,
-                          target: "_blank",
-                        }
-                      : undefined
-                  }
-                  isAffiliate={model.usesAffiliateLink()}
-                  helperText={
-                    model.usesAffiliateLink()
-                      ? copy.cards.disclosure
-                      : undefined
-                  }
-                />
-              </article>
+              <ContentCard
+                key={model.getSlug()}
+                title={model.getHeading()}
+                subheading={model.getSubheading()}
+                heroSrc={hero}
+                href={model.getPrimaryHref() ?? model.getSlug()}
+                meta={metaItems}
+                ctaLabel={copy.cards.primaryCta}
+              />
             );
           })}
         </div>
@@ -145,6 +168,10 @@ function loadToolsFromContent(): ToolOverviewEntry[] {
       const hero = frontmatter.hero ?? {};
       const title = frontmatter.title ?? entry.segments.at(-1) ?? "Narzędzie";
       const slug = frontmatter.slug ?? entry.segments.at(-1) ?? "";
+      const heroImage =
+        frontmatter.hero?.image?.src ?? frontmatter.meta?.heroImageSrc;
+      const heroAlt =
+        frontmatter.hero?.image?.alt ?? frontmatter.meta?.heroImageAlt;
       return {
         folderName: entry.segments.at(-1) ?? slug,
         slug,
@@ -152,6 +179,12 @@ function loadToolsFromContent(): ToolOverviewEntry[] {
         title,
         heading: hero.heading ?? title,
         subheading: hero.subheading,
+        hero: heroImage
+          ? {
+              src: heroImage,
+              alt: heroAlt,
+            }
+          : undefined,
       };
     })
     .sort((a, b) =>
@@ -192,4 +225,11 @@ function formatPricing(value: string | undefined) {
     default:
       return value;
   }
+}
+
+function getFirst(value?: string | string[]) {
+  if (Array.isArray(value)) {
+    return value[0];
+  }
+  return value ?? "";
 }

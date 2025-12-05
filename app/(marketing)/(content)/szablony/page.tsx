@@ -1,18 +1,8 @@
-import Link from "next/link";
 import type { Metadata } from "next";
-import { SelectField, Button, FilterBar } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
-import {
-  TemplateCatalog,
-  type TemplateFilter,
-  type TemplatePlatform,
-  type TemplateType,
-  type TemplatePrice,
-} from "@/app/lib/content/templateCatalog";
 import "./templates.module.css";
 
 const copy = getCopy("templates");
-const catalog = new TemplateCatalog();
 
 export const metadata: Metadata = {
   title: copy.seo.title,
@@ -22,17 +12,7 @@ export const metadata: Metadata = {
   },
 };
 
-interface TemplatesPageProps {
-  searchParams?: Promise<Record<string, string | string[] | undefined>>;
-}
-
-export default async function TemplatesPage({
-  searchParams,
-}: TemplatesPageProps) {
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const filter = parseFilter(resolvedSearchParams);
-  const templates = catalog.list(filter);
-
+export default function TemplatesPage() {
   return (
     <section className="templates-page" id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
@@ -42,106 +22,19 @@ export default async function TemplatesPage({
             <p>{copy.hero.intro}</p>
           </div>
         </div>
-        <FilterBar
-          className="templates-page__filters"
-          method="get"
-          legend="Filtruj szablony"
-          actions={
-            <Button type="submit" variant="secondary" size="compact">
-              {copy.filters.submit}
-            </Button>
-          }
-        >
-          <SelectField
-            id="platform"
-            name="platform"
-            label={copy.filters.platform.label}
-            defaultValue={filter.platform ?? ""}
-            options={copy.filters.platform.options}
-          />
-          <SelectField
-            id="type"
-            name="type"
-            label={copy.filters.type.label}
-            defaultValue={filter.type ?? ""}
-            options={copy.filters.type.options}
-          />
-          <SelectField
-            id="price"
-            name="price"
-            label={copy.filters.price.label}
-            defaultValue={filter.price ?? ""}
-            options={copy.filters.price.options}
-          />
-        </FilterBar>
-        <div className="templates-page__grid">
-          {templates.map((template) => (
-            <article key={template.slug} className="templates-page__card">
-              <div className="pbk-stack pbk-stack--tight">
-                <span className="templates-page__badge">{template.badge}</span>
-                <h2>{template.name}</h2>
-                <p>{template.summary}</p>
-              </div>
-              <div className="templates-page__actions">
-                <Link
-                  className="pbk-button pbk-button--primary"
-                  href={`/szablony/${template.slug}/`}
-                >
-                  {copy.cards.ctaPreview}
-                </Link>
-                <Link
-                  className="pbk-button pbk-button--secondary"
-                  href={template.primaryHref}
-                >
-                  {copy.cards.ctaPrimary}
-                </Link>
-              </div>
-            </article>
-          ))}
-        </div>
+        <article className="pbk-card pbk-stack pbk-stack--tight">
+          <h2>Szablony już wkrótce</h2>
+          <p>
+            Pracujemy nad biblioteką gotowych szablonów. Zostaw nasz newsletter
+            lub wróć za kilka dni – dodamy pierwsze zestawy wraz z instrukcjami
+            wdrożenia.
+          </p>
+          <p className="pbk-card__meta">
+            Chcesz zostać powiadomiony? Zapisz się w stopce strony lub napisz na
+            kontakt@projektbezkodu.pl.
+          </p>
+        </article>
       </div>
     </section>
   );
-}
-
-function parseFilter(
-  searchParams?: Record<string, string | string[] | undefined>,
-): TemplateFilter {
-  const platform = toTemplatePlatform(getFirst(searchParams?.platform));
-  const type = toTemplateType(getFirst(searchParams?.type));
-  const price = toTemplatePrice(getFirst(searchParams?.price));
-  return { platform, type, price };
-}
-
-function getFirst(value?: string | string[]) {
-  if (Array.isArray(value)) {
-    return value[0];
-  }
-  return value;
-}
-
-function toTemplatePlatform(
-  value?: string | null,
-): TemplatePlatform | undefined {
-  if (!value) return undefined;
-  const allowed: TemplatePlatform[] = ["webflow", "framer", ""];
-  return allowed.includes(value as TemplatePlatform)
-    ? (value as TemplatePlatform)
-    : undefined;
-}
-
-function toTemplateType(value?: string | null): TemplateType | undefined {
-  if (!value) return undefined;
-  const allowed: TemplateType[] = ["landing", "blog", "portfolio", ""];
-  return allowed.includes(value as TemplateType)
-    ? (value as TemplateType)
-    : undefined;
-}
-
-function toTemplatePrice(value?: string | null): TemplatePrice | undefined {
-  if (!value) return undefined;
-  const allowed: TemplatePrice[] = ["free", "paid", ""];
-  return allowed.includes(value as TemplatePrice)
-    ? (value as TemplatePrice)
-    : undefined;
 }

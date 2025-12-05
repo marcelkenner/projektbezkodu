@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CaretDown } from "@phosphor-icons/react/dist/ssr";
-import { FilterBar } from "@/app/ui/FilterBar";
 import { Button } from "@/app/ui/Button";
+import { ContentFilterBar } from "@/app/ui";
 
 interface FilterCopy {
   formLabel: string;
@@ -28,7 +28,8 @@ export function ArticlesFilterBar({
 }: ArticlesFilterBarProps) {
   return (
     <aside className="articles-filter" aria-label={copy.formLabel}>
-      <FilterBar
+      <ContentFilterBar
+        variant="articles"
         method="get"
         legend={copy.formLabel}
         className="articles-filter__form"
@@ -77,7 +78,7 @@ export function ArticlesFilterBar({
             <CaretDown aria-hidden="true" weight="bold" />
           </div>
         </div>
-      </FilterBar>
+      </ContentFilterBar>
     </aside>
   );
 }

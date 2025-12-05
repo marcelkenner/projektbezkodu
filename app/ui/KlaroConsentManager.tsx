@@ -52,7 +52,11 @@ export function KlaroConsentManager() {
 
       try {
         if (!window.klaro) {
-          await import("klaro/dist/klaro-no-css.js");
+          try {
+            await import("klaro/dist/klaro-no-css.js");
+          } catch {
+            await import("klaro/dist/klaro.js");
+          }
         }
         if (cancelled) {
           return;

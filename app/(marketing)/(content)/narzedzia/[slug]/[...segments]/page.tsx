@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
@@ -13,9 +14,11 @@ import {
   ArticleCtaGroup,
   TaxonomyChips,
   ArticleSharePanel,
+  AuthorCard,
 } from "@/app/ui";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import "../../../artykuly/article.module.css";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
@@ -84,6 +87,7 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
   const primaryCta = viewModel.getPrimaryCta();
   const secondaryCta = viewModel.getSecondaryCta();
   const hasAffiliateLinks = viewModel.hasAffiliateLinks();
+  const sidebarRelated = selectSidebarRelatedTools(slug, categories);
 
   return (
     <section className="article-page" id="content">
@@ -111,6 +115,23 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
           {hasToc ? (
             <div className="article-page__toc">
               <TableOfContents items={headings} />
+              {sidebarRelated.length ? (
+                <aside
+                  className="pbk-card pbk-stack article-page__relatedTools"
+                  aria-label="Powiązane narzędzia"
+                >
+                  <h2 className="pbk-card__meta">Sprawdź też</h2>
+                  <ul className="pbk-stack pbk-stack--tight">
+                    {sidebarRelated.map((item) => (
+                      <li key={item.path}>
+                        <Link className="pbk-inline-link" href={item.path}>
+                          {item.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              ) : null}
             </div>
           ) : null}
           <article className="prose">
@@ -122,6 +143,7 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
             />
           </article>
         </div>
+        <AuthorCard />
         <TaxonomyChips categories={categories} tags={tags} />
       </div>
     </section>
@@ -138,4 +160,47 @@ function formatDate(input: string): string {
     month: "long",
     day: "2-digit",
   }).format(date);
+}
+
+function selectSidebarRelatedTools(
+  slug: string,
+  categories: Array<{ label: string; slug?: string }>,
+) {
+  const categorySet = new Set(
+    categories.map((cat) => cat?.slug).filter(Boolean),
+  );
+  const tools = library
+    .listRoutes()
+    .filter(
+      (entry) =>
+        entry.path.startsWith("/narzedzia/") && entry.segments.length === 2,
+    )
+    .map((entry) => {
+      const frontmatter = entry.document.frontmatter;
+      const cats = frontmatter.taxonomy?.categories ?? [];
+      return {
+        slug: frontmatter.slug ?? entry.segments[1],
+        title: frontmatter.title ?? entry.segments[1],
+        path: entry.path,
+        categories: cats,
+      };
+    })
+    .filter((entry) => entry.slug !== slug);
+
+  const ranked = tools
+    .map((entry) => ({
+      title: entry.title,
+      path: entry.path,
+      score: entry.categories.some((cat) => cat && categorySet.has(cat))
+        ? 1
+        : 0,
+    }))
+    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, "pl"))
+    .slice(0, 3);
+
+  if (ranked.some((entry) => entry.score > 0)) {
+    return ranked;
+  }
+
+  return tools.slice(0, 3).map(({ title, path }) => ({ title, path }));
 }

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 
+import Link from "next/link";
 import {
   Breadcrumbs,
   TableOfContents,
@@ -12,6 +13,8 @@ import {
   ArticleCtaGroup,
   TaxonomyChips,
   ArticleSharePanel,
+  AuthorCard,
+  ContentCard,
 } from "@/app/ui";
 import styles from "./content-page.module.css";
 import "../artykuly/article.module.css";
@@ -70,6 +73,17 @@ export default async function ContentPage({ params }: ContentPageProps) {
   const primaryCta = viewModel.getPrimaryCta();
   const secondaryCta = viewModel.getSecondaryCta();
   const hasAffiliateLinks = viewModel.hasAffiliateLinks();
+  const sidebarRelated = useArticleLayout
+    ? selectSidebarRelatedContent(path, categories)
+    : [];
+  const hero =
+    (
+      viewModel as { getHeroImage?: () => { src: string; alt?: string } }
+    )?.getHeroImage?.() ?? undefined;
+  const metaItems = [
+    difficulty ? { label: difficulty } : null,
+    duration ? { label: duration } : null,
+  ].filter(Boolean) as { label: string }[];
 
   if (useArticleLayout) {
     return (
@@ -100,6 +114,23 @@ export default async function ContentPage({ params }: ContentPageProps) {
             {hasToc ? (
               <div className="article-page__toc">
                 <TableOfContents items={tocItems} />
+                {sidebarRelated.length ? (
+                  <aside
+                    className="pbk-card pbk-stack article-page__relatedTools"
+                    aria-label="Powiązane treści"
+                  >
+                    <h2 className="pbk-card__meta">Powiązane</h2>
+                    <ul className="pbk-stack pbk-stack--tight">
+                      {sidebarRelated.map((item) => (
+                        <li key={item.path}>
+                          <Link className="pbk-inline-link" href={item.path}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </aside>
+                ) : null}
               </div>
             ) : null}
             <article className="prose">
@@ -111,6 +142,7 @@ export default async function ContentPage({ params }: ContentPageProps) {
               />
             </article>
           </div>
+          <AuthorCard />
           <TaxonomyChips categories={categories} tags={tags} />
         </div>
       </section>
@@ -120,34 +152,17 @@ export default async function ContentPage({ params }: ContentPageProps) {
   return (
     <section className="section section--surface" id="content">
       <div className="pbk-container pbk-stack pbk-stack--loose">
-        <header className="pbk-stack pbk-stack--tight">
-          <Breadcrumbs items={breadcrumbs} />
-          <h1>{heading}</h1>
-          {subheading ? (
-            <p className={styles.contentPageLead}>{subheading}</p>
-          ) : null}
-          <ArticleMetaBadges
-            categories={categories}
-            difficulty={difficulty}
-            duration={duration}
+        <div className="articles-grid">
+          <ContentCard
+            title={heading}
+            subheading={subheading}
+            heroSrc={hero?.src ?? "/img/articles_hero_image.jpeg"}
+            heroAlt={hero?.alt}
+            meta={metaItems}
+            href={path}
+            ctaLabel={primaryCta?.label ?? "Czytaj"}
           />
-          {publishedDate ? (
-            <small className={styles.contentPageMeta}>
-              <time dateTime={publishedDate}>{formatDate(publishedDate)}</time>
-            </small>
-          ) : null}
-        </header>
-        <ArticleSharePanel title={heading} url={shareUrl} />
-        <ArticleSummaryBullets bullets={summaryBullets} />
-        <article className="prose">
-          {viewModel.getBody()}
-          <ArticleCtaGroup
-            primary={primaryCta ?? undefined}
-            secondary={secondaryCta ?? undefined}
-            isAffiliate={hasAffiliateLinks}
-          />
-        </article>
-        <TaxonomyChips categories={categories} tags={tags} />
+        </div>
       </div>
     </section>
   );
@@ -163,4 +178,32 @@ function formatDate(input: string): string {
     month: "long",
     day: "2-digit",
   }).format(date);
+}
+
+function selectSidebarRelatedContent(
+  currentPath: string,
+  categories: Array<{ label: string; slug: string }>,
+) {
+  const categorySet = new Set(categories.map((c) => c.slug).filter(Boolean));
+  return coordinator
+    .listStaticParams()
+    .map(({ segments }) => coordinator.build(segments))
+    .filter((vm): vm is NonNullable<ReturnType<typeof coordinator.build>> =>
+      Boolean(vm),
+    )
+    .map((vm) => ({
+      path: vm.getPath(),
+      title: vm.getHeroHeading() ?? vm.getTitle(),
+      categories: vm
+        .getCategories()
+        .map((c) => c.slug)
+        .filter(Boolean),
+    }))
+    .filter((entry) => entry.path !== currentPath)
+    .filter(
+      (entry) =>
+        !categorySet.size ||
+        entry.categories.some((cat) => cat && categorySet.has(cat)),
+    )
+    .slice(0, 3);
 }

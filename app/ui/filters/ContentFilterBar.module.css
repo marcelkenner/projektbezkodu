@@ -1,0 +1,43 @@
+.contentFilter {
+  margin-block: var(--space-4);
+}
+
+.contentFilter :global(.pbk-filterBar) {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii-lg);
+  padding: var(--space-3);
+  background: var(--color-surface-alt);
+}
+
+.contentFilter :global(.pbk-filterBar__fields) {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.contentFilter :global(.pbk-filterBar__actions) {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.contentFilter :global(.pbk-filterBar__footer) {
+  color: var(--color-ink-muted);
+  font-size: var(--typography-fontSize-small);
+}
+
+.contentFilter--articles :global(.pbk-filterBar__fields) {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.contentFilter--tutorials :global(.pbk-filterBar__fields) {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.contentFilter--tools :global(.pbk-filterBar__fields) {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.contentFilter--comparisons :global(.pbk-filterBar__fields) {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
