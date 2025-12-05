@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { Clock } from "@phosphor-icons/react/dist/ssr";
 import type { ContentSummary } from "@/app/lib/content/repositories";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import type { TaxonomyTerm } from "@/app/lib/content/articleTaxonomy";
-
-const ARTICLE_PLACEHOLDER = "/images/placeholders/article-3x2.webp";
 
 interface ArticleCardProps {
   article: ContentSummary;
@@ -14,13 +13,7 @@ interface ArticleCardProps {
 export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
   const readingTime = article.meta?.duration;
   const dateLabel = formatDate(article.date);
-  const heroImage =
-    article.hero?.image?.src ??
-    article.meta?.heroImageSrc ??
-    ARTICLE_PLACEHOLDER;
-  const heroAlt =
-    article.hero?.image?.alt ??
-    `Zdjęcie powiązane z artykułem: ${article.title}`;
+  const hero = resolveHeroImage(article);
   const subheading = article.hero?.subheading ?? undefined;
 
   return (
@@ -28,9 +21,9 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
       <figure
         className="articles-card__image"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.55)), url(${heroImage})`,
+          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.55)), url(${hero.src})`,
         }}
-        aria-label={heroAlt}
+        aria-label={hero.alt}
       >
         <div className="articles-card__imageContent">
           <p className="articles-card__imageTitle">{article.title}</p>
@@ -76,6 +69,11 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
       </div>
     </article>
   );
+}
+
+function resolveHeroImage(article: ContentSummary) {
+  const fallback = defaultHeroImageForPath(article.path, article.title);
+  return { src: fallback.src, alt: fallback.alt };
 }
 
 function formatDate(isoDate?: string): string {

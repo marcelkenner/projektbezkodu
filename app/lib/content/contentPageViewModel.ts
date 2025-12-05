@@ -8,6 +8,7 @@ import type { MarkdownHeading } from "@/app/ui/markdown/types";
 import type { ContentRouteEntry } from "./contentLibrary";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 
 export class ContentPageViewModel {
   private readonly renderer: MarkdownRenderer;
@@ -44,7 +45,13 @@ export class ContentPageViewModel {
     const heading = this.getHeroHeading();
 
     const heroImage = frontmatter.hero?.image;
-    if (heroImage?.src) {
+    const hasBrokenHero =
+      !heroImage ||
+      !heroImage.src ||
+      heroImage.src === "/img/article_image.jpeg" ||
+      heroImage.src.endsWith(".webp.jpeg") ||
+      heroImage.src.endsWith(".webp.webp");
+    if (!hasBrokenHero) {
       return {
         src: heroImage.src,
         alt: heroImage.alt ?? heading,
@@ -54,7 +61,12 @@ export class ContentPageViewModel {
     }
 
     const metaImage = frontmatter.meta;
-    if (metaImage?.heroImageSrc) {
+    const hasBrokenMeta =
+      !metaImage?.heroImageSrc ||
+      metaImage.heroImageSrc === "/img/article_image.jpeg" ||
+      metaImage.heroImageSrc.endsWith(".webp.jpeg") ||
+      metaImage.heroImageSrc.endsWith(".webp.webp");
+    if (!hasBrokenMeta) {
       return {
         src: metaImage.heroImageSrc,
         alt: metaImage.heroImageAlt ?? heading,
@@ -63,7 +75,8 @@ export class ContentPageViewModel {
       };
     }
 
-    return null;
+    const fallback = defaultHeroImageForPath(this.entry.path, heading);
+    return fallback;
   }
 
   getPublishedDate(): string | undefined {

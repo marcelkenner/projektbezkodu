@@ -16,7 +16,9 @@ export interface ContentCardProps {
   ctaLabel: string;
 }
 
-const PLACEHOLDER = "/img/article_image.jpeg";
+const PLACEHOLDER = "/img/hero_image.webp";
+const LEGACY_BROKEN_SRC = "/img/article_image.jpeg";
+const BROKEN_SUFFIXES = [".webp.jpeg", ".webp.webp"];
 
 export function ContentCard({
   title,
@@ -27,7 +29,16 @@ export function ContentCard({
   meta = [],
   ctaLabel,
 }: ContentCardProps) {
-  const hero = heroSrc ?? PLACEHOLDER;
+  const normalized = heroSrc?.trim() ?? "";
+  const hasBrokenSuffix = BROKEN_SUFFIXES.some((suffix) =>
+    normalized.endsWith(suffix),
+  );
+  const hero =
+    normalized.length > 0 &&
+    normalized !== LEGACY_BROKEN_SRC &&
+    !hasBrokenSuffix
+      ? normalized
+      : PLACEHOLDER;
   const alt = heroAlt ?? `Zdjęcie powiązane z treścią: ${title}`;
 
   return (

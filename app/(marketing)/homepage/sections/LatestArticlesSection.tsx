@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import type { ContentSummary } from "@/app/lib/content/repositories";
-import { HomepageIconFactory } from "./HomepageIconFactory";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
+import { ContentCard, type ContentCardMeta } from "@/app/ui";
 
 export interface LatestArticlesCopy {
   heading: string;
@@ -28,9 +27,13 @@ export function LatestArticlesSection({
         {items.length ? (
           <div className="homepage-articles__grid">
             {items.map((article) => (
-              <ArticleCard
+              <ContentCard
                 key={article.slug}
-                article={article}
+                title={article.title}
+                href={article.path}
+                subheading={article.hero?.subheading ?? article.description}
+                {...resolveHeroImage(article)}
+                meta={buildMeta(article)}
                 ctaLabel={copy.ctaLabel}
               />
             ))}
@@ -43,62 +46,36 @@ export function LatestArticlesSection({
   );
 }
 
-function ArticleCard({
-  article,
-  ctaLabel,
-}: {
-  article: ContentSummary;
-  ctaLabel: string;
-}) {
-  const placeholder = "/images/placeholders/article-3x2.webp";
+function resolveHeroImage(article: ContentSummary) {
+  const providedSrc = article.hero?.image?.src ?? article.meta?.heroImageSrc;
+  const isBroken = providedSrc === "/img/article_image.jpeg";
+  const providedAlt =
+    article.hero?.image?.alt ??
+    article.meta?.heroImageAlt ??
+    article.title ??
+    "Miniatura artykułu";
 
-  return (
-    <article className="homepage-articles__card">
-      <img
-        src={placeholder}
-        alt={`Miniatura artykułu: ${article.title}`}
-        width={768}
-        height={512}
-        loading="lazy"
-        decoding="async"
-        sizes="(max-width:640px) 92vw, (max-width:1200px) 33vw, 384px"
-        srcSet={`${placeholder} 384w`}
-      />
-      <div className="homepage-articles__content">
-        <h3>
-          <Link href={article.path}>{article.title}</Link>
-        </h3>
-        {article.description ? <p>{article.description}</p> : null}
-        <ArticleMeta article={article} />
-        <Link href={article.path} className="homepage-articles__link">
-          {ctaLabel}
-        </Link>
-      </div>
-    </article>
-  );
+  if (providedSrc && !isBroken) {
+    return { heroSrc: providedSrc, heroAlt: providedAlt };
+  }
+
+  const fallback = defaultHeroImageForPath(article.path, article.title);
+  return { heroSrc: fallback.src, heroAlt: fallback.alt };
 }
 
-function ArticleMeta({ article }: { article: ContentSummary }) {
+function buildMeta(article: ContentSummary): ContentCardMeta[] {
+  const meta: ContentCardMeta[] = [];
   const readingTime = article.meta?.duration;
   const dateLabel = formatDate(article.date);
 
-  if (!readingTime && !dateLabel) {
-    return null;
+  if (readingTime) {
+    meta.push({ label: readingTime });
+  }
+  if (dateLabel) {
+    meta.push({ label: dateLabel });
   }
 
-  return (
-    <p className="homepage-articles__meta">
-      {readingTime ? (
-        <>
-          {HomepageIconFactory.clock()}
-          <span>{readingTime}</span>
-        </>
-      ) : null}
-      {dateLabel ? (
-        <time dateTime={article.date ?? ""}>{dateLabel}</time>
-      ) : null}
-    </p>
-  );
+  return meta;
 }
 
 function formatDate(isoDate?: string) {

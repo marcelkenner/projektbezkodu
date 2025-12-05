@@ -53,6 +53,73 @@ export function HeroSection() {
           <p className="homepage-hero__lead">{heroContent.subheading}</p>
           <HeroActions content={heroContent} />
           <p className="homepage-hero__microcopy">{heroContent.microcopy}</p>
+          <div>
+            <p id="social-proof-heading" className="homepage-socialProof__heading">
+              Projektuj w:
+            </p>
+            <div className="homepage-socialProof__logos" role="list">
+              <img
+                alt="Logo Webflow"
+                className="homepage-socialProof__logo"
+                width="96"
+                height="32"
+                loading="lazy"
+                decoding="async"
+                role="listitem"
+                src="/images/logos/webflow.svg"
+              />
+              <img
+                alt="Logo Framer"
+                className="homepage-socialProof__logo"
+                width="96"
+                height="32"
+                loading="lazy"
+                decoding="async"
+                role="listitem"
+                src="/images/logos/framer.svg"
+              />
+              <img
+                alt="Logo Wix"
+                className="homepage-socialProof__logo"
+                width="96"
+                height="32"
+                loading="lazy"
+                decoding="async"
+                role="listitem"
+                src="/images/logos/wix.svg"
+              />
+              <img
+                alt="Logo Squarespace"
+                className="homepage-socialProof__logo"
+                width="96"
+                height="32"
+                loading="lazy"
+                decoding="async"
+                role="listitem"
+                src="/images/logos/squarespace.svg"
+              />
+              <img
+                alt="Logo Relume"
+                className="homepage-socialProof__logo"
+                width="96"
+                height="32"
+                loading="lazy"
+                decoding="async"
+                role="listitem"
+                src="/images/logos/relume.svg"
+              />
+              <img
+                alt="Logo Flowbase"
+                className="homepage-socialProof__logo"
+                width="96"
+                height="32"
+                loading="lazy"
+                decoding="async"
+                role="listitem"
+                src="/images/logos/flowbase.svg"
+              />
+            </div>
+          </div>
         </div>
         <div className="homepage-hero__media">
           <ResponsiveImage image={heroContent.image} />

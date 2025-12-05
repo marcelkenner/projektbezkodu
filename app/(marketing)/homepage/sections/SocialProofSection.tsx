@@ -23,49 +23,19 @@ export interface SocialProofCopy {
 }
 
 export function SocialProofSection({ copy }: { copy: SocialProofCopy }) {
-  const { heading, logos = [], testimonials = [], testimonialsHeading } = copy;
+  const { testimonials = [], testimonialsHeading } = copy;
 
-  if (!logos.length && !testimonials.length) {
+  if (!testimonials.length) {
     return null;
   }
 
   return (
-    <section
-      className="homepage-section"
-      aria-labelledby="social-proof-heading"
-    >
+    <section className="homepage-section" aria-labelledby="social-proof-heading">
       <div className="pbk-container">
-        {logos.length ? (
-          <div>
-            <p
-              id="social-proof-heading"
-              className="homepage-socialProof__heading"
-            >
-              {heading}
-            </p>
-            <div className="homepage-socialProof__logos" role="list">
-              {logos.map((logo) => (
-                <img
-                  key={logo.alt}
-                  src={logo.src}
-                  alt={logo.alt}
-                  className="homepage-socialProof__logo"
-                  width={96}
-                  height={32}
-                  loading="lazy"
-                  decoding="async"
-                  role="listitem"
-                />
-              ))}
-            </div>
-          </div>
-        ) : null}
-        {testimonials.length ? (
-          <TestimonialsSection
-            heading={testimonialsHeading}
-            testimonials={testimonials}
-          />
-        ) : null}
+        <TestimonialsSection
+          heading={testimonialsHeading}
+          testimonials={testimonials}
+        />
       </div>
     </section>
   );
@@ -78,10 +48,13 @@ function TestimonialsSection({
   heading?: string;
   testimonials: HomepageTestimonial[];
 }) {
+  const headingId = heading ? "social-proof-heading" : undefined;
   return (
     <div className="homepage-testimonials">
       {heading ? (
-        <p className="homepage-testimonials__heading">{heading}</p>
+        <p id={headingId} className="homepage-testimonials__heading">
+          {heading}
+        </p>
       ) : null}
       <div className="homepage-testimonials__grid">
         {testimonials.map((testimonial) => (

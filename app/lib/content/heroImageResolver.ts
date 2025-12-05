@@ -7,17 +7,24 @@ export interface ResolvedHeroImage {
   height?: number;
 }
 
-export type HeroImageKind = "article" | "tutorial" | "comparison" | "template";
+export type HeroImageKind =
+  | "article"
+  | "tutorial"
+  | "comparison"
+  | "template"
+  | "tool";
 
 function inferHeroImageKind(frontmatter: Frontmatter): HeroImageKind {
   if (frontmatter.template === "tutorial") return "tutorial";
   if (frontmatter.template === "comparison") return "comparison";
   if (frontmatter.template === "template") return "template";
+  if (frontmatter.template === "tool") return "tool";
 
   const path = frontmatter.path ?? "";
   if (path.startsWith("/poradniki/")) return "tutorial";
   if (path.startsWith("/porownania/")) return "comparison";
   if (path.startsWith("/szablony/")) return "template";
+  if (path.startsWith("/narzedzia/")) return "tool";
 
   return "article";
 }
@@ -27,7 +34,12 @@ export function resolveHeroImage(
   fallbackAlt: string,
 ): ResolvedHeroImage | null {
   const hero = frontmatter.hero?.image;
-  if (hero?.src) {
+  if (
+    hero?.src &&
+    hero.src !== "/img/article_image.jpeg" &&
+    !hero.src.endsWith(".webp.jpeg") &&
+    !hero.src.endsWith(".webp.webp")
+  ) {
     return {
       src: hero.src,
       alt: hero.alt ?? fallbackAlt,
@@ -36,7 +48,12 @@ export function resolveHeroImage(
     };
   }
 
-  if (frontmatter.meta?.heroImageSrc) {
+  if (
+    frontmatter.meta?.heroImageSrc &&
+    frontmatter.meta.heroImageSrc !== "/img/article_image.jpeg" &&
+    !frontmatter.meta.heroImageSrc.endsWith(".webp.jpeg") &&
+    !frontmatter.meta.heroImageSrc.endsWith(".webp.webp")
+  ) {
     return {
       src: frontmatter.meta.heroImageSrc,
       alt: frontmatter.meta.heroImageAlt ?? fallbackAlt,
@@ -54,12 +71,13 @@ export function defaultHeroImage(
 ): ResolvedHeroImage {
   const defaults: Record<HeroImageKind, string> = {
     article: "/img/articles_hero_image.webp",
-    tutorial: "/img/tutorials_hero_image.webp.webp",
-    comparison: "/img/comparisons_hero_image.webp.jpeg",
-    template: "/img/templates_hero_image.webp.webp",
+    tutorial: "/img/tutorials_hero_image.webp",
+    comparison: "/img/comparisons_hero_image.webp",
+    template: "/img/templates_hero_image.webp",
+    tool: "/img/tools_hero_image.webp",
   };
 
-  const src = defaults[kind] ?? defaults.article;
+  const src = defaults[kind] ?? "/img/hero_image.webp";
 
   return {
     src,
@@ -71,4 +89,21 @@ export function defaultHeroImage(
 
 export function heroImageKindFrom(frontmatter: Frontmatter): HeroImageKind {
   return inferHeroImageKind(frontmatter);
+}
+
+export function heroImageKindFromPath(path: string | undefined): HeroImageKind {
+  if (!path) return "article";
+  if (path.startsWith("/poradniki/")) return "tutorial";
+  if (path.startsWith("/porownania/")) return "comparison";
+  if (path.startsWith("/szablony/")) return "template";
+  if (path.startsWith("/narzedzia/")) return "tool";
+  return "article";
+}
+
+export function defaultHeroImageForPath(
+  path: string | undefined,
+  fallbackAlt: string,
+): ResolvedHeroImage {
+  const kind = heroImageKindFromPath(path);
+  return defaultHeroImage(fallbackAlt, kind);
 }

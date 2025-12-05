@@ -65,12 +65,10 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
         id="tools-item-list"
         data={itemListStructuredData}
       />
-      <div className="pbk-container pbk-stack pbk-stack--tight">
-        <div className="pbk-readable pbk-readable--start">
-          <div className="tools-page__intro">
-            <h1>{copy.hero.title}</h1>
-            <p>{copy.hero.intro}</p>
-          </div>
+      <div className="pbk-container pbk-stack pbk-stack--tight pbk-readable pbk-readable--start">
+        <div className="tools-page__intro">
+          <h1>{copy.hero.title}</h1>
+          <p>{copy.hero.intro}</p>
         </div>
         <ContentFilterBar
           variant="tools"
@@ -119,7 +117,7 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
                 ]
               : [];
             const hero =
-              model.getHeroImage()?.src ?? "/img/tools_hero_image.webp.webp";
+              model.getHeroImage()?.src || "/img/tools_hero_image.webp";
             const metaItems = [
               categories[0]?.label
                 ? {
@@ -172,6 +170,10 @@ function loadToolsFromContent(): ToolOverviewEntry[] {
         frontmatter.hero?.image?.src ?? frontmatter.meta?.heroImageSrc;
       const heroAlt =
         frontmatter.hero?.image?.alt ?? frontmatter.meta?.heroImageAlt;
+      const normalizedHero =
+        heroImage && heroImage !== "/img/article_image.jpeg"
+          ? { src: heroImage, alt: heroAlt }
+          : undefined;
       return {
         folderName: entry.segments.at(-1) ?? slug,
         slug,
@@ -179,12 +181,7 @@ function loadToolsFromContent(): ToolOverviewEntry[] {
         title,
         heading: hero.heading ?? title,
         subheading: hero.subheading,
-        hero: heroImage
-          ? {
-              src: heroImage,
-              alt: heroAlt,
-            }
-          : undefined,
+        hero: normalizedHero,
       };
     })
     .sort((a, b) =>

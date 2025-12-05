@@ -148,7 +148,7 @@ export default async function TutorialsIndex({
                   key={tutorial.slug}
                   title={tutorial.title}
                   subheading={subheading}
-                  heroSrc={hero ?? "/img/tutorials_hero_image.webp.webp"}
+                  heroSrc={hero ?? "/img/tutorials_hero_image.webp"}
                   heroAlt={tutorial.hero?.image?.alt}
                   href={tutorial.path}
                   meta={metaItems}

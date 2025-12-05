@@ -1,12 +1,7 @@
 import Link from "next/link";
 import { ComparisonRepository } from "@/app/lib/content/repositories";
 import { comparisonTaxonomyCatalog } from "@/app/lib/content/comparisonTaxonomy";
-import {
-  Button,
-  ContentFilterBar,
-  SelectField,
-  ContentCard,
-} from "@/app/ui";
+import { Button, ContentFilterBar, SelectField, ContentCard } from "@/app/ui";
 import { getCopy } from "../../../lib/copy";
 
 const comparisonRepository = new ComparisonRepository();
@@ -103,7 +98,7 @@ export default async function ComparisonsIndex({
                   subheading={comparison.description}
                   heroSrc={
                     comparison.meta?.heroImageSrc ??
-                    "/img/comparisons_hero_image.webp.jpeg"
+                    "/img/comparisons_hero_image.webp"
                   }
                   heroAlt={comparison.meta?.heroImageAlt}
                   meta={metaItems}
