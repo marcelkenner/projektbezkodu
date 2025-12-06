@@ -12,6 +12,7 @@ import {
   ArticleSharePanel,
   AuthorCard,
 } from "@/app/ui";
+import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
 import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
 import { extractFaqItems } from "@/app/lib/content/faqExtractor";
@@ -192,6 +193,7 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
           tags={tags}
           ariaLabel="Powiązane kategorie i tagi"
         />
+        <RandomArticlesSection currentPath={canonicalPath} />
         {journey ? <JourneySection journey={journey} /> : null}
         {featured.length ? (
           <FeaturedSection

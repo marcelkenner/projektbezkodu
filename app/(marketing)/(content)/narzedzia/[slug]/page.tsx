@@ -12,6 +12,7 @@ import {
   ArticleSharePanel,
   AuthorCard,
 } from "@/app/ui";
+import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 import { SoftwareApplicationStructuredDataBuilder } from "@/app/lib/seo/SoftwareApplicationStructuredDataBuilder";
@@ -210,6 +211,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
         </div>
         <AuthorCard />
         <TaxonomyChips categories={categories} tags={tags} />
+        <RandomArticlesSection currentPath={canonicalPath} />
       </div>
     </section>
   );

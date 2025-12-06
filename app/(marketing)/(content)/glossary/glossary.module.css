@@ -49,12 +49,59 @@
 }
 
 :global(.glossary-term__definition) {
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--color-border);
   border-radius: var(--radii-lg);
-  background: #fff;
+  background: var(--color-surface);
   padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+  width: min(100%, 900px);
 }
 
 :global(.glossary-term__definition .prose) {
   margin: 0;
+  max-width: 68ch;
+  line-height: 1.7;
+}
+
+:global(.glossary-term__layout) {
+  gap: var(--space-6);
+}
+
+:global(.glossary-term__hero) {
+  background: linear-gradient(
+      135deg,
+      rgba(14, 165, 233, 0.07),
+      rgba(99, 102, 241, 0.07)
+    ),
+    #f8fafc;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii-lg);
+  padding: clamp(1.25rem, 1rem + 0.8vw, 2rem);
+  box-shadow: var(--shadow-sm);
+}
+
+:global(.glossary-term__lede) {
+  margin: 0;
+  color: var(--color-ink-muted);
+  font-size: var(--typography-fontSize-body);
+  line-height: 1.6;
+}
+
+:global(.glossary-term__body) {
+  display: grid;
+  gap: var(--space-5);
+}
+
+:global(.glossary-term__aside) {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radii-lg);
+  padding: var(--space-4);
+  background: var(--color-surface);
+}
+
+@media (min-width: 64rem) {
+  :global(.glossary-term__body) {
+    grid-template-columns: minmax(280px, 1fr);
+    justify-items: end;
+  }
 }

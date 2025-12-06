@@ -7,7 +7,6 @@ import {
   type SitemapSection,
 } from "@/app/lib/navigation/SitemapComposer";
 import "./sitemap.module.css";
-import { ArticleSummaryBullets, ArticleCtaGroup } from "@/app/ui";
 
 type QuickLink = { label: string; href: string };
 
@@ -67,7 +66,6 @@ export default function SitemapPage() {
             links={legalLinks}
           />
         </div>
-        <SitemapCta />
         <div className="sitemap-page__grid">
           {sections.map((section) => (
             <SitemapSectionCard key={section.getHeading()} section={section} />
@@ -128,28 +126,5 @@ function QuickLinksSection({
         ))}
       </ul>
     </article>
-  );
-}
-
-function SitemapCta() {
-  const promo = copy.cta;
-  if (!promo) {
-    return null;
-  }
-  return (
-    <div className="sitemap-page__cta">
-      <div className="sitemap-page__ctaCopy pbk-stack pbk-stack--tight">
-        <h2>{promo.heading}</h2>
-        <p>{promo.body}</p>
-      </div>
-      <ArticleSummaryBullets
-        bullets={promo.bullets ?? []}
-        heading={promo.bulletsHeading}
-      />
-      <ArticleCtaGroup
-        primary={promo.primary ?? undefined}
-        secondary={promo.secondary ?? undefined}
-      />
-    </div>
   );
 }

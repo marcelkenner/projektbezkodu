@@ -17,6 +17,7 @@ import {
   ArticleSharePanel,
   AuthorCard,
 } from "@/app/ui";
+import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { getCopy } from "@/app/lib/copy";
 import "../article.module.css";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
@@ -295,6 +296,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             })) ?? []
           }
         />
+        <RandomArticlesSection currentPath={canonicalPath} />
 
         {relatedArticles.length ? (
           <section

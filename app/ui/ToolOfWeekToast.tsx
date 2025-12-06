@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { ToolShowcase } from "@/app/lib/toolShowcase";
+import { Sparkle, ArrowUpRight } from "@phosphor-icons/react/dist/ssr";
 import "./ui.css";
 
 interface ToolOfWeekToastProps {
@@ -10,40 +10,39 @@ interface ToolOfWeekToastProps {
 
 export function ToolOfWeekToast({ tool, onClose }: ToolOfWeekToastProps) {
   return (
-    <aside className="pbk-floating-toast pbk-card" aria-live="polite">
+    <aside className="pbk-toolweek" aria-live="polite">
       <button
         type="button"
-        className="pbk-floating-toast__close"
+        className="pbk-toolweek__close"
         aria-label="Zamknij"
         onClick={onClose}
       >
         ×
       </button>
-      <div className="pbk-floating-toast__header">
-        <span className="pbk-floating-toast__eyebrow">Narzędzie tygodnia</span>
+      <div className="pbk-toolweek__header">
+        <span className="pbk-toolweek__eyebrow">
+          <Sparkle aria-hidden="true" weight="fill" /> Narzędzie tygodnia
+        </span>
         <h3>{tool.label}</h3>
       </div>
-      <div className="pbk-floating-toast__body">
-        <div className="pbk-floating-toast__image">
-          <Image src={tool.image} alt={tool.label} width={45} height={45} />
-        </div>
-        <p>{tool.description}</p>
-      </div>
-      <div className="pbk-floating-toast__actions">
+      <p className="pbk-toolweek__description">{tool.description}</p>
+      <div className="pbk-toolweek__actions">
         <Link
-          className="pbk-button pbk-button--primary"
+          className="pbk-button pbk-button--primary pbk-button--iconTrailing"
           href={tool.affiliateUrl}
         >
           Sprawdź narzędzie
+          <ArrowUpRight weight="bold" aria-hidden="true" />
         </Link>
         <Link
-          className="pbk-button pbk-button--tertiary"
+          className="pbk-button pbk-button--tertiary pbk-button--iconTrailing"
           href={tool.readMorePath}
         >
           Czytaj więcej
+          <ArrowUpRight weight="bold" aria-hidden="true" />
         </Link>
       </div>
-      <p className="pbk-floating-toast__disclosure">
+      <p className="pbk-toolweek__disclosure">
         Link partnerski – korzystając, wspierasz nowe poradniki bez dodatkowych
         kosztów.
       </p>

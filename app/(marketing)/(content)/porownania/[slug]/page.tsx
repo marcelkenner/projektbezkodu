@@ -20,6 +20,7 @@ import {
   ArticleSharePanel,
   AuthorCard,
 } from "@/app/ui";
+import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
@@ -253,6 +254,7 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
           </section>
         ) : null}
         <TaxonomyChips categories={metaCategoryBadges} tags={tagBadges} />
+        <RandomArticlesSection currentPath={canonicalPath} />
       </div>
     </section>
   );

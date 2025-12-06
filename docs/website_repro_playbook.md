@@ -138,7 +138,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 8. Keep `not-found.tsx` using copy helper.
 9. Generic fallback route: `/app/(marketing)/(content)/[...segments]/page.tsx`:
    - Uses `ContentPageCoordinator` to locate any markdown path under `content/**`.
-   - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure.
+   - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure, then rewrites the last segment to a slugified `frontmatter.title` so every content URL ends with the page title.
    - Applies `ContentPageViewModel` metadata so SEO + OG tags inherit from frontmatter.
    - Excludes `_examples` and `glossary` (handled elsewhere) to avoid duplicate flows.
 10. Every markdown-driven route renders clickable breadcrumbs via `BreadcrumbComposer` + `Breadcrumbs`; never surface raw `viewModel.getPath()` strings because editors rely on those links to jump between listing pages and detail screens.

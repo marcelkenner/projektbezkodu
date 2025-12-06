@@ -54,7 +54,10 @@ export function HeroSection() {
           <HeroActions content={heroContent} />
           <p className="homepage-hero__microcopy">{heroContent.microcopy}</p>
           <div>
-            <p id="social-proof-heading" className="homepage-socialProof__heading">
+            <p
+              id="social-proof-heading"
+              className="homepage-socialProof__heading"
+            >
               Projektuj w:
             </p>
             <div className="homepage-socialProof__logos" role="list">

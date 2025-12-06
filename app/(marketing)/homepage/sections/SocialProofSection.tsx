@@ -30,7 +30,10 @@ export function SocialProofSection({ copy }: { copy: SocialProofCopy }) {
   }
 
   return (
-    <section className="homepage-section" aria-labelledby="social-proof-heading">
+    <section
+      className="homepage-section"
+      aria-labelledby="social-proof-heading"
+    >
       <div className="pbk-container">
         <TestimonialsSection
           heading={testimonialsHeading}

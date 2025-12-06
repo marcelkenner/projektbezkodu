@@ -9,7 +9,7 @@ always update `docs/website_repro_playbook.md` whenever processes change
 don't assume things but instead research and check twice
 
 <file_length_and_structure>
-– Never allow a file to exceed 500 lines.
+– Never allow a file to exceed 300 lines.
 – If a file approaches 400 lines, break it up immediately.
 – Treat 1000 lines as unacceptable, even temporarily.
 – Use folders and naming conventions to keep small files logically grouped.
@@ -83,7 +83,7 @@ don't assume things but instead research and check twice
 <workflow_expectations>
 – Backend business logic belongs in Manager classes; views coordinate and serializers define contracts.
 – Frontend state belongs in ViewModels, orchestration in Coordinators, and rendering in components.
-– Keep files under 500 lines and refactor classes over 200 lines; break functions exceeding 40 lines.
+– Keep files under 300 lines and refactor classes over 200 lines; break functions exceeding 40 lines.
 
 - When an icon is needed in React/Next components, default to `@phosphor-icons/react` (SSR bundle) to stay consistent with the design system. Add missing icons to the copy/components rather than using ad-hoc SVGs.
   </workflow_expectations>

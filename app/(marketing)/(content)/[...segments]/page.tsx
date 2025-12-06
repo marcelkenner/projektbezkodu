@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
-
 import Link from "next/link";
 import {
   Breadcrumbs,
@@ -20,6 +19,7 @@ import styles from "./content-page.module.css";
 import "../artykuly/article.module.css";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { RandomArticlesSection } from "../components/RandomArticlesSection";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
@@ -144,6 +144,7 @@ export default async function ContentPage({ params }: ContentPageProps) {
           </div>
           <AuthorCard />
           <TaxonomyChips categories={categories} tags={tags} />
+          <RandomArticlesSection currentPath={path} />
         </div>
       </section>
     );

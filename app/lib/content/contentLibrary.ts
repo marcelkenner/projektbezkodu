@@ -4,6 +4,7 @@ import {
   ContentRepository,
   type MarkdownDocument,
 } from "@/app/lib/content/repositories";
+import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 
 export interface ContentRouteEntry {
   path: string;
@@ -86,13 +87,16 @@ export class ContentLibrary {
       return undefined;
     }
 
-    const segments = derivedPath.split("/").filter(Boolean);
+    const pathWithTitleSlug = this.ensureTitleSlug(derivedPath, document);
+    const segments = pathWithTitleSlug.split("/").filter(Boolean);
     if (!segments.length) {
       return undefined;
     }
 
+    document.frontmatter.path = pathWithTitleSlug;
+
     return {
-      path: `/${segments.join("/")}/`,
+      path: pathWithTitleSlug,
       segments,
     };
   }
@@ -147,5 +151,30 @@ export class ContentLibrary {
   private ensureWrappedSlashes(value: string): string {
     const withLeading = value.startsWith("/") ? value : `/${value}`;
     return withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
+  }
+
+  private ensureTitleSlug(
+    normalizedPath: string,
+    document: MarkdownDocument,
+  ): string {
+    const title = document.frontmatter.title;
+    if (!title) {
+      return normalizedPath;
+    }
+
+    const slugFromTitle = TextNormalizer.slugify(title);
+    if (!slugFromTitle) {
+      return normalizedPath;
+    }
+
+    const segments = normalizedPath.split("/").filter(Boolean);
+    if (!segments.length) {
+      return this.ensureWrappedSlashes(slugFromTitle);
+    }
+
+    const nextSegments = [...segments];
+    nextSegments[nextSegments.length - 1] = slugFromTitle;
+
+    return this.ensureWrappedSlashes(nextSegments.join("/"));
   }
 }

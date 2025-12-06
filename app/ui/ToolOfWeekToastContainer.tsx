@@ -19,14 +19,12 @@ export function ToolOfWeekToastContainer({
   ) : (
     <button
       type="button"
-      className="pbk-floating-toast__mini"
+      className="pbk-toolweek__mini"
       aria-label={`Otwórz narzędzie tygodnia: ${tool.label}`}
       onClick={() => setOpen(true)}
     >
-      <span className="pbk-floating-toast__miniEyebrow">
-        Narzędzie tygodnia
-      </span>
-      <span className="pbk-floating-toast__miniLabel">{tool.label}</span>
+      <span className="pbk-toolweek__miniEyebrow">Narzędzie tygodnia</span>
+      <span className="pbk-toolweek__miniLabel">{tool.label}</span>
     </button>
   );
 }

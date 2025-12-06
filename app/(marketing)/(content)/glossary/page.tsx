@@ -83,10 +83,12 @@ export default async function GlossaryIndex({
                   <h2>{group.letter}</h2>
                   <div className="section__grid">
                     {group.entries.map((term) => (
-                      <div key={term.slug ?? term.path} className="pbk-card">
+                      <div
+                        key={term.slug ?? term.path}
+                        className="pbk-card glossary-term__card"
+                      >
                         <div className="pbk-stack pbk-stack--tight">
                           <h3>{term.title}</h3>
-                          {term.description ? <p>{term.description}</p> : null}
                           <Link
                             className="pbk-button pbk-button--tertiary"
                             href={term.path}
