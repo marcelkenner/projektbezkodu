@@ -4,7 +4,7 @@ slug: tally
 path: /narzedzia/tally/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Tally – formularze jak w Notion, bez limitów na start
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, jak Tally pozwala tworzyć formularze w stylu Notion z bardzo
     użytecznym darmowym planem.
 ---
+
+

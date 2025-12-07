@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/plausible/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Plausible – kiedy sięgnąć po inne statystyki
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     ważniejsze są raporty e-commerce, hostowanie we własnej infrastrukturze czy
     minimalizm.
 ---
+
+

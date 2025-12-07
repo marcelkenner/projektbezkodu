@@ -3,7 +3,7 @@ title: Relume Sitemap Ai
 slug: sitemap-ai
 path: /narzedzia/relume/sitemap-ai/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

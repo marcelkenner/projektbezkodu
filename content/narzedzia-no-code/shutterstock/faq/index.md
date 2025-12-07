@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/shutterstock/faq/
 draft: false
 template: article
-date: "2024-12-13"
+date: '2024-12-13'
 hero:
   heading: Shutterstock – FAQ, które oszczędza Ci czytania regulaminu
   subheading: >-

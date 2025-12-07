@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/typeform/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Typeform – cennik przełożony na liczbę odpowiedzi
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Pokazuję, ile realnie kosztuje Typeform przy różnych wolumenach odpowiedzi i
     czy da się zejść z kosztami na niższy plan.
 ---
+
+

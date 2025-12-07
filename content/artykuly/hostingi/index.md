@@ -1,11 +1,11 @@
 ---
-title: "Kategoria: Hosting Pl"
+title: 'Kategoria: Hosting Pl'
 slug: hosting-pl
 path: /artykuly/hostingi/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Kategoria: Hosting Pl"
+  heading: 'Kategoria: Hosting Pl'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

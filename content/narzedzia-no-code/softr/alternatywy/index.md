@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/softr/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: >-
     Alternatywy dla Softr, gdy potrzebujesz więcej swobody albo innych baz

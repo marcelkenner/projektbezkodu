@@ -7,7 +7,7 @@ tags:
   - evergreen
   - lokalne-seo
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Landing ‘Usługa w Mieście’
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

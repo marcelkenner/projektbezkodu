@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/bubble/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Bubble, gdy nie potrzebujesz aż tyle mocy
   subheading: >-

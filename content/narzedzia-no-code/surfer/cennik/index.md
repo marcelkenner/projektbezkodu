@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/surfer/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Surfer – cennik w odniesieniu do liczby treści i zespołu
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Analiza cen Surfer: ile płacisz przy solo projekcie, małym zespole
     contentowym i większej produkcji treści na wielu rynkach.
 ---
+
+

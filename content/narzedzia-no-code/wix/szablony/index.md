@@ -3,7 +3,7 @@ title: Wix Szablony
 slug: szablony
 path: /narzedzia/wix/szablony/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

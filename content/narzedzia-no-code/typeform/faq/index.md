@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/typeform/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Typeform – najczęstsze pytania i odpowiedzi
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Odpowiadam na najczęstsze pytania: embed na stronie, integracje,
     bezpieczeństwo danych i rozliczenia w Typeform.
 ---
+
+

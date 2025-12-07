@@ -4,7 +4,7 @@ slug: fathom
 path: /narzedzia/fathom/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Fathom – analityka bez ciasteczek i rozbudowanych raportów
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Opisuję Fathom jako prostą, nastawioną na prywatność alternatywę dla Google
     Analytics: bez ciasteczek, z anonimowymi danymi i przejrzystym panelem.
 ---
+
+

@@ -4,7 +4,7 @@ import { getCopy } from "../../lib/copy";
 import "../legal.module.css";
 
 const privacyPageLoader = new MarkdownPageLoader(
-  "content/polityka-prywatnosci/index.md",
+  "content/artykuly/polityka-prywatnosci/index.md",
 );
 
 export default function PrivacyPolicyPage() {

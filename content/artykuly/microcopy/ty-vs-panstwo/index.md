@@ -1,5 +1,5 @@
 ---
-title: "Styl: Ty czy Państwo?"
+title: 'Styl: Ty czy Państwo?'
 slug: ty-vs-panstwo
 path: /artykuly/microcopy/ty-vs-panstwo/
 type: guide
@@ -7,9 +7,9 @@ tags:
   - evergreen
   - microcopy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Styl: Ty czy Państwo?"
+  heading: 'Styl: Ty czy Państwo?'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

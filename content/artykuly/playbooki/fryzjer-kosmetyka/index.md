@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona dla salonu fryzjerskiego i kosmetycznego"
+title: 'Playbook: strona dla salonu fryzjerskiego i kosmetycznego'
 slug: fryzjer-kosmetyka
 path: /artykuly/playbooki/fryzjer-kosmetyka/
 type: playbook
@@ -9,9 +9,9 @@ tags:
   - branża
   - beauty
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona dla salonu fryzjerskiego i kosmetycznego"
+  heading: 'Playbook: strona dla salonu fryzjerskiego i kosmetycznego'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

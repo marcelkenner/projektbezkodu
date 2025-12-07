@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/outseta/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Outseta – recenzja z perspektywy twórcy produktów, a nie tylko marketera
   subheading: >-

@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/uploadcare/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Uploadcare – cennik przełożony na realne projekty
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Rozbijam ceny Uploadcare na konkretne scenariusze użycia, żebyś zobaczył,
     kiedy to się spina finansowo, a kiedy lepiej szukać alternatywy.
 ---
+
+

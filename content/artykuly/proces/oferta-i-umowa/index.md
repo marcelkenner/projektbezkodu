@@ -9,7 +9,7 @@ tags:
   - oferta
   - umowa
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Oferta i umowa – kosztorys, zakres, SLA (szablon PL)
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

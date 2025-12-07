@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/jotform/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Jotform – kiedy lepiej wybrać inne narzędzie
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, czym Jotform różni się od konkurencji i które narzędzie lepiej
     pasuje do ankiet, lead magnetów czy formularzy zgłoszeniowych.
 ---
+
+

@@ -15,7 +15,7 @@ import { ProductStructuredDataBuilder } from "@/app/lib/seo/ProductStructuredDat
 import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
 import "./../templates.module.css";
-import "../../artykuly/article.module.css";
+import articleStyles from "../../artykuly/article.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
@@ -115,7 +115,10 @@ export default async function TemplateDetailPage({
   const layoutClassName = "article-page__layout";
 
   return (
-    <section className="article-page" id="content">
+    <section
+      className={`${articleStyles.articlePage} article-page`}
+      id="content"
+    >
       <StructuredDataScript
         id="template-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}

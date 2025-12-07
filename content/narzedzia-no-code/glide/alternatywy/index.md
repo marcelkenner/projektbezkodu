@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/glide/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Glide, gdy potrzebujesz innego podejścia do aplikacji
   subheading: >-

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CaretDown } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/app/ui/Button";
 import { ContentFilterBar } from "@/app/ui";
+import styles from "./articles.module.css";
 
 interface FilterCopy {
   formLabel: string;
@@ -27,12 +28,15 @@ export function ArticlesFilterBar({
   selected,
 }: ArticlesFilterBarProps) {
   return (
-    <aside className="articles-filter" aria-label={copy.formLabel}>
+    <aside
+      className={`articles-filter ${styles["articles-filter"]}`}
+      aria-label={copy.formLabel}
+    >
       <ContentFilterBar
         variant="articles"
         method="get"
         legend={copy.formLabel}
-        className="articles-filter__form"
+        className={`articles-filter__form ${styles["articles-filter__form"] ?? ""}`}
         actions={
           <>
             <Button type="submit" variant="primary" size="compact">
@@ -47,7 +51,9 @@ export function ArticlesFilterBar({
           </>
         }
       >
-        <div className="articles-filter__row">
+        <div
+          className={`articles-filter__row ${styles["articles-filter__row"]}`}
+        >
           <label htmlFor="search-query" className="sr-only">
             {copy.search.label}
           </label>
@@ -62,7 +68,9 @@ export function ArticlesFilterBar({
           <label htmlFor="search-category" className="sr-only">
             {copy.category.label}
           </label>
-          <div className="articles-filter__select">
+          <div
+            className={`articles-filter__select ${styles["articles-filter__select"]}`}
+          >
             <select
               id="search-category"
               name="kategoria"

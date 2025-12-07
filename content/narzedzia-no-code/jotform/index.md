@@ -4,7 +4,7 @@ slug: jotform
 path: /narzedzia/jotform/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Jotform – formularze, ankiety i zgłoszenia bez kodowania
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, jak Jotform pomaga szybko zbudować formularze, ankiety i zgłoszenia
     bez programisty, z integracjami i automatyzacją.
 ---
+
+

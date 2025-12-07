@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/fathom/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Fathom – inne prywatnościowe statystyki
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Pokazuję, kiedy Fathom jest wystarczający, a kiedy lepiej wybrać bardziej
     rozbudowane narzędzie on-premise lub inną usługę bez cookies.
 ---
+
+

@@ -4,14 +4,14 @@ slug: saas-b2b
 path: /artykuly/przypadki-uzycia/saas-b2b/
 draft: false
 template: case-study
-date: "2024-08-28"
+date: '2024-08-28'
 hero:
   heading: Automatyzacja onboardingu triali SaaS B2B
   subheading: >-
     Połączyliśmy produkt, marketing i sprzedaż – poprawiając aktywację i
     konwersję trial → płatne.
 seo:
-  title: "Case study: automatyzacja onboardingu SaaS B2B"
+  title: 'Case study: automatyzacja onboardingu SaaS B2B'
   description: >-
     Sekwencje e-mail, in-app checklisty i scoring leadów. 29% więcej konwersji z
     triala na płatne.

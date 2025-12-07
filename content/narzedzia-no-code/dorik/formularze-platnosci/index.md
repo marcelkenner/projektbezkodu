@@ -4,7 +4,7 @@ slug: formularze-platnosci
 path: /narzedzia/dorik/formularze-platnosci/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Formularze i płatności w Dorik – sprzedaż bez programisty
   subheading: >-

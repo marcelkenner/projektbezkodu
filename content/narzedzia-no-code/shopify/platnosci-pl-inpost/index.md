@@ -3,7 +3,7 @@ title: Shopify Platnosci Pl Inpost
 slug: platnosci-pl-inpost
 path: /narzedzia/shopify/platnosci-pl-inpost/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

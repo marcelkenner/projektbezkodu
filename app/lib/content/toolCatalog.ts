@@ -44,6 +44,9 @@ export interface ToolDetail extends ToolCard {
     amount: string;
     period: string;
   }[];
+  taxonomy?: {
+    categories?: string[];
+  };
   related?: {
     compare?: string[];
     caseStudies?: string[];

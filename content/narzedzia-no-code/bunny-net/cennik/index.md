@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/bunny-net/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Bunny.net – cennik bez marketingowego pudru
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Rozpisuję model cenowy Bunny.net tak, żebyś widział, ile faktycznie
     zapłacisz przy swoim ruchu i regionach.
 ---
+
+

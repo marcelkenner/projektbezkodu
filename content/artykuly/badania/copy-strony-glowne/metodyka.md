@@ -1,12 +1,12 @@
 ---
-title: "Metodyka: Copy Strony Glowne"
+title: 'Metodyka: Copy Strony Glowne'
 path: /artykuly/badania/copy-strony-glowne/
 type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 slug: metodyka
 hero:
-  heading: "Metodyka: Copy Strony Glowne"
+  heading: 'Metodyka: Copy Strony Glowne'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

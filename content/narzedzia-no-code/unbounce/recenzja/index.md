@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/unbounce/recenzja/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Unbounce – recenzja z perspektywy 'co z tego mam'
   subheading: Tworzę landing page'e, odpalam testy A/B i nie dotykam kodu ani WordPressa.

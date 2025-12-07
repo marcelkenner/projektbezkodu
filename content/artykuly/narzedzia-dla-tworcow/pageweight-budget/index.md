@@ -7,7 +7,7 @@ tags:
   - evergreen
   - narzedzia-dla-tworcow
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Budżet wagowy – kalkulator
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

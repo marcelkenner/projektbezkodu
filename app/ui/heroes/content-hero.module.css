@@ -46,18 +46,18 @@
   color: #fff;
 }
 
-:global(.pbk-breadcrumbs) {
+.content :global(.pbk-breadcrumbs) {
   margin-bottom: var(--space-2);
   color: #fff;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 
-:global(.pbk-breadcrumbs__link) {
+.content :global(.pbk-breadcrumbs__link) {
   color: #fff;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 
-:global(.pbk-breadcrumbs__link:hover) {
+.content :global(.pbk-breadcrumbs__link:hover) {
   color: #fff;
 }
 

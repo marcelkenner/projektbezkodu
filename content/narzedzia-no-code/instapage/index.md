@@ -4,7 +4,7 @@ slug: instapage
 path: /narzedzia/instapage/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Instapage – landing page'e dla kampanii, które muszą się spinać
   subheading: >-

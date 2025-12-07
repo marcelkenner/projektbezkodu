@@ -4,7 +4,7 @@ slug: cennik
 path: /artykuly/hostingi/hostinger/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Hostinger – cennik planów hostingowych bez drobnego druczku
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Analiza cennika Hostinger: które plany mają sens przy małych projektach, a
     które przy większych witrynach oraz ile faktycznie wynoszą odnowienia.
 ---
+
+

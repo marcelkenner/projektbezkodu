@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/make/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Make – cennik i limity policzone na scenariusze
   subheading: >-

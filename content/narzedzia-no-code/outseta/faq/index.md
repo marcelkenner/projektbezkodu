@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/outseta/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Outseta – odpowiedzi na najczęstsze pytania przed wyborem platformy
   subheading: >-

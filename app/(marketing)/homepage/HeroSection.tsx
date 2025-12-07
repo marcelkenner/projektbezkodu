@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { getCopy } from "@/app/lib/copy";
-import "./section.module.css";
+import heroStyles from "./hero.module.css";
+import socialStyles from "./social-proof.module.css";
 
 interface HeroImageSource {
   src: string;
@@ -46,24 +47,34 @@ export function HeroSection() {
   const heroContent = resolveHeroContent(hero);
 
   return (
-    <section id="hero" className="homepage-hero" aria-labelledby="hero-heading">
-      <div className="pbk-container homepage-hero__layout">
-        <div className="homepage-hero__content">
+    <section
+      id="hero"
+      className={heroStyles["homepage-hero"]}
+      aria-labelledby="hero-heading"
+    >
+      <div
+        className={`pbk-container ${heroStyles["homepage-hero__layout"]}`}
+      >
+        <div className={heroStyles["homepage-hero__content"]}>
           <h1 id="hero-heading">{heroContent.heading}</h1>
-          <p className="homepage-hero__lead">{heroContent.subheading}</p>
+          <p className={heroStyles["homepage-hero__lead"]}>
+            {heroContent.subheading}
+          </p>
           <HeroActions content={heroContent} />
-          <p className="homepage-hero__microcopy">{heroContent.microcopy}</p>
+          <p className={heroStyles["homepage-hero__microcopy"]}>
+            {heroContent.microcopy}
+          </p>
           <div>
             <p
               id="social-proof-heading"
-              className="homepage-socialProof__heading"
+              className={socialStyles["homepage-socialProof__heading"]}
             >
               Projektuj w:
             </p>
-            <div className="homepage-socialProof__logos" role="list">
+            <div className={socialStyles["homepage-socialProof__logos"]} role="list">
               <img
                 alt="Logo Webflow"
-                className="homepage-socialProof__logo"
+                className={socialStyles["homepage-socialProof__logo"]}
                 width="96"
                 height="32"
                 loading="lazy"
@@ -73,7 +84,7 @@ export function HeroSection() {
               />
               <img
                 alt="Logo Framer"
-                className="homepage-socialProof__logo"
+                className={socialStyles["homepage-socialProof__logo"]}
                 width="96"
                 height="32"
                 loading="lazy"
@@ -83,7 +94,7 @@ export function HeroSection() {
               />
               <img
                 alt="Logo Wix"
-                className="homepage-socialProof__logo"
+                className={socialStyles["homepage-socialProof__logo"]}
                 width="96"
                 height="32"
                 loading="lazy"
@@ -93,7 +104,7 @@ export function HeroSection() {
               />
               <img
                 alt="Logo Squarespace"
-                className="homepage-socialProof__logo"
+                className={socialStyles["homepage-socialProof__logo"]}
                 width="96"
                 height="32"
                 loading="lazy"
@@ -103,7 +114,7 @@ export function HeroSection() {
               />
               <img
                 alt="Logo Relume"
-                className="homepage-socialProof__logo"
+                className={socialStyles["homepage-socialProof__logo"]}
                 width="96"
                 height="32"
                 loading="lazy"
@@ -113,7 +124,7 @@ export function HeroSection() {
               />
               <img
                 alt="Logo Flowbase"
-                className="homepage-socialProof__logo"
+                className={socialStyles["homepage-socialProof__logo"]}
                 width="96"
                 height="32"
                 loading="lazy"
@@ -124,7 +135,7 @@ export function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="homepage-hero__media">
+        <div className={heroStyles["homepage-hero__media"]}>
           <ResponsiveImage image={heroContent.image} />
         </div>
       </div>
@@ -134,7 +145,7 @@ export function HeroSection() {
 
 function HeroActions({ content }: { content: HeroContent }) {
   return (
-    <div className="homepage-hero__actions">
+    <div className={heroStyles["homepage-hero__actions"]}>
       <Link
         href={content.primaryCta.href}
         className="pbk-button pbk-button--primary"
@@ -158,7 +169,7 @@ function ResponsiveImage({ image }: { image: HeroImage }) {
     .join(", ");
   return (
     <img
-      className="homepage-hero__image"
+      className={heroStyles["homepage-hero__image"]}
       src={image.src}
       alt={image.alt}
       width={image.width}

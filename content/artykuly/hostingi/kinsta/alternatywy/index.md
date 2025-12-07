@@ -4,7 +4,7 @@ slug: alternatywy
 path: /artykuly/hostingi/kinsta/alternatywy/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: >-
     Kinsta – alternatywy, gdy szukasz tańszego lub bardziej elastycznego
@@ -21,3 +21,5 @@ seo:
     Zobacz, jakich dostawców biorę pod uwagę, gdy Kinsta okazuje się zbyt droga
     lub zbyt rozbudowana jak na potrzeby danej strony.
 ---
+
+

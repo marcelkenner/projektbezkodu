@@ -1,12 +1,12 @@
 ---
-title: "Metodyka: Wzorce Landingow"
+title: 'Metodyka: Wzorce Landingow'
 path: /artykuly/badania/wzorce-landingow/
 type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 slug: metodyka
 hero:
-  heading: "Metodyka: Wzorce Landingow"
+  heading: 'Metodyka: Wzorce Landingow'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

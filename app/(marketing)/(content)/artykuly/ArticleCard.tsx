@@ -3,6 +3,7 @@ import { Clock } from "@phosphor-icons/react/dist/ssr";
 import type { ContentSummary } from "@/app/lib/content/repositories";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import type { TaxonomyTerm } from "@/app/lib/content/articleTaxonomy";
+import styles from "./articles.module.css";
 
 interface ArticleCardProps {
   article: ContentSummary;
@@ -17,29 +18,43 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
   const subheading = article.hero?.subheading ?? undefined;
 
   return (
-    <article className="articles-card">
+    <article className={`articles-card ${styles["articles-card"]}`}>
       <figure
-        className="articles-card__image"
+        className={`articles-card__image ${styles["articles-card__image"]}`}
         style={{
           backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.55)), url(${hero.src})`,
         }}
         aria-label={hero.alt}
       >
-        <div className="articles-card__imageContent">
-          <p className="articles-card__imageTitle">{article.title}</p>
+        <div
+          className={`articles-card__imageContent ${styles["articles-card__imageContent"]}`}
+        >
+          <p
+            className={`articles-card__imageTitle ${styles["articles-card__imageTitle"]}`}
+          >
+            {article.title}
+          </p>
           {subheading ? (
-            <p className="articles-card__imageSubtitle">{subheading}</p>
+            <p
+              className={`articles-card__imageSubtitle ${styles["articles-card__imageSubtitle"]}`}
+            >
+              {subheading}
+            </p>
           ) : null}
         </div>
       </figure>
-      <div className="articles-card__body">
-        <div className="articles-card__footer">
-          <p className="articles-card__meta">
+      <div className={`articles-card__body ${styles["articles-card__body"]}`}>
+        <div
+          className={`articles-card__footer ${styles["articles-card__footer"]}`}
+        >
+          <p className={`articles-card__meta ${styles["articles-card__meta"]}`}>
             {readingTime ? (
-              <span className="articles-card__metaItem">
+              <span
+                className={`articles-card__metaItem ${styles["articles-card__metaItem"]}`}
+              >
                 <Clock
                   aria-hidden="true"
-                  className="articles-card__icon"
+                  className={`articles-card__icon ${styles["articles-card__icon"]}`}
                   weight="bold"
                 />
                 <span>{readingTime}</span>
@@ -47,7 +62,7 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
             ) : null}
             {dateLabel ? (
               <time
-                className="articles-card__metaItem"
+                className={`articles-card__metaItem ${styles["articles-card__metaItem"]}`}
                 dateTime={article.date ?? ""}
               >
                 {dateLabel}
@@ -55,14 +70,17 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
             ) : null}
             {category ? (
               <Link
-                className="articles-card__metaItem"
+                className={`articles-card__metaItem ${styles["articles-card__metaItem"]}`}
                 href={`/kategoria/${category.slug}/`}
               >
                 {category.label}
               </Link>
             ) : null}
           </p>
-          <Link className="articles-card__link" href={article.path}>
+          <Link
+            className={`articles-card__link ${styles["articles-card__link"]}`}
+            href={article.path}
+          >
             {ctaLabel}
           </Link>
         </div>

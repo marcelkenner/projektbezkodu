@@ -13,10 +13,10 @@ class SitemapGenerator {
   private readonly articles = new ArticleRepository();
   private readonly glossary = new GlossaryRepository();
   private readonly privacyPage = new MarkdownPageLoader(
-    "content/polityka-prywatnosci/index.md",
+    "content/artykuly/polityka-prywatnosci/index.md",
   );
   private readonly termsPage = new MarkdownPageLoader(
-    "content/regulamin/index.md",
+    "content/artykuly/regulamin/index.md",
   );
 
   build(): MetadataRoute.Sitemap {

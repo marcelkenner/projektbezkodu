@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/glide/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Glide – cennik widziany oczami małego zespołu
   subheading: >-

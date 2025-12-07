@@ -8,7 +8,7 @@ tags:
   - content
   - brand
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Ton marki (brand voice) – praktyczny przewodnik z ćwiczeniami
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

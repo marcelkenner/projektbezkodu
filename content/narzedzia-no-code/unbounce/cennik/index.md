@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/unbounce/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Unbounce – cennik po ludzku
   subheading: >-

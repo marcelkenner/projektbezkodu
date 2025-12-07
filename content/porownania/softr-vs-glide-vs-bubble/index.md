@@ -3,7 +3,7 @@ title: Softr Vs Glide Vs Bubble
 slug: softr-vs-glide-vs-bubble
 path: /porownania/softr-vs-glide-vs-bubble/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 template: comparison
 taxonomy:
   categories:

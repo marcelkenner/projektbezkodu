@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/paperform/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Paperform – co wybrać zamiast
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zestawiam Paperform z konkurencją, żebyś dobrał rozwiązanie do swojego
     budżetu i stylu pracy.
 ---
+
+

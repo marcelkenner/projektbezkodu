@@ -4,7 +4,7 @@ slug: bunny-net
 path: /narzedzia/bunny-net/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Bunny.net – prosty CDN z dodatkami dla devów i twórców
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, jak Bunny.net łączy CDN, storage i dodatkowe usługi, ułatwiając
     przyspieszanie stron, aplikacji i contentu video.
 ---
+
+

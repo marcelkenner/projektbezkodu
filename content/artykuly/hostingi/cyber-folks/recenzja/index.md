@@ -4,7 +4,7 @@ slug: recenzja
 path: /artykuly/hostingi/cyber-folks/recenzja/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: cyber_Folks – recenzja z naciskiem na kontakt z supportem i wygodę panelu
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     działania stron, narzędzi dla WordPressa i wygody dla mniej technicznych
     użytkowników.
 ---
+
+

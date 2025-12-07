@@ -4,7 +4,7 @@ slug: typeform
 path: /narzedzia/typeform/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Typeform – formularze, które wyglądają jak rozmowa
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdź, jak Typeform pomaga zwiększyć wypełnialność ankiet i formularzy
     dzięki interfejsowi w stylu rozmowy.
 ---
+
+

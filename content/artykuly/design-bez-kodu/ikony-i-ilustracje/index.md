@@ -1,5 +1,5 @@
 ---
-title: "Ikony i ilustracje: styl, grubości i spójność w design systemie"
+title: 'Ikony i ilustracje: styl, grubości i spójność w design systemie'
 slug: ikony-i-ilustracje
 path: /artykuly/design-bez-kodu/ikony-i-ilustracje/
 type: guide
@@ -9,9 +9,9 @@ tags:
   - ikony
   - ilustracje
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Ikony i ilustracje: styl, grubości i spójność w design systemie"
+  heading: 'Ikony i ilustracje: styl, grubości i spójność w design systemie'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

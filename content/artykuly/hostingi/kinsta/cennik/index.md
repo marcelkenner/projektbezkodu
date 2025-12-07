@@ -4,7 +4,7 @@ slug: cennik
 path: /artykuly/hostingi/kinsta/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Kinsta – cennik planów WordPress i ile naprawdę za to płacę
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Analizuję cennik Kinsta, limity odwiedzin i miejsca na dysku oraz to, w
     jakich sytuacjach cena jest uzasadniona efektem.
 ---
+
+

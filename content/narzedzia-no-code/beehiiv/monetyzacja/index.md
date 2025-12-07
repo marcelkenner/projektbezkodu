@@ -4,7 +4,7 @@ slug: monetyzacja
 path: /narzedzia/beehiiv/monetyzacja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Monetyzacja w beehiiv – reklamy, polecenia i płatne subskrypcje
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd sposobów monetyzacji w beehiiv: ad network, sponsoring, polecenia
     innych newsletterów i modele płatnych treści.
 ---
+
+

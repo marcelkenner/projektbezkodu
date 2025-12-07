@@ -4,7 +4,7 @@ slug: faq
 path: /artykuly/hostingi/ovhcloud/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: OVHcloud – odpowiedzi na pytania o konfigurację, DNS i codzienną obsługę
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Najczęstsze pytania o OVHcloud w jednym miejscu, tak aby łatwiej było
     ogarnąć podstawowe operacje bez wertowania dokumentacji.
 ---
+
+

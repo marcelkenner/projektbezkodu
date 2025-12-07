@@ -8,7 +8,7 @@ tags:
   - analityka
   - raportowanie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Kalendarz raportów – tygodniowe, miesięczne i kwartalne rytuały
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/imageengine/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: ImageEngine – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Patrzę, jak ImageEngine wpływa na Core Web Vitals, jak trudna jest
     integracja i czy obsługa obrazów faktycznie „znika z radaru”.
 ---
+
+

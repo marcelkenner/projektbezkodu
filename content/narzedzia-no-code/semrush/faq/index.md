@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/semrush/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Semrush – odpowiedzi na najczęstsze pytania
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     planami, bezpieczeństwo, rozliczanie użytkowników i migrację z innych
     narzędzi.
 ---
+
+

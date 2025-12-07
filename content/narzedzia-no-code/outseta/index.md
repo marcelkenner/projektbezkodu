@@ -4,7 +4,7 @@ slug: outseta
 path: /narzedzia/outseta/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Outseta – logowanie, subskrypcje i CRM w jednym miejscu
   subheading: >-

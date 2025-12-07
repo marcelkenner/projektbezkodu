@@ -4,7 +4,7 @@ slug: leadpages
 path: /narzedzia/leadpages/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Leadpages – strony lądowania bez kombinowania
   subheading: >-

@@ -14,13 +14,23 @@ export default async function ComparisonsIndex({
   searchParams,
 }: ComparisonsIndexProps) {
   const copy = getCopy("comparisons");
+  const filters =
+    (copy as {
+      filters?: {
+        submit?: string;
+        reset?: string;
+        categoryLabel?: string;
+        tagLabel?: string;
+        all?: string;
+      };
+    }).filters ?? {};
   const comparisons = comparisonRepository.listSummaries();
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const selectedCategory = getFirst(resolvedSearchParams?.kategoria);
   const selectedTag = getFirst(resolvedSearchParams?.tag);
 
-  const categoryOptions = buildCategoryOptions(comparisons, copy);
-  const tagOptions = buildTagOptions(comparisons, copy);
+  const categoryOptions = buildCategoryOptions(comparisons, filters);
+  const tagOptions = buildTagOptions(comparisons, filters);
 
   const filtered = comparisons.filter((comparison) => {
     const categories = comparison.taxonomy?.categories ?? [];
@@ -46,13 +56,13 @@ export default async function ComparisonsIndex({
           actions={
             <>
               <Button type="submit" variant="primary" size="compact">
-                {copy.filters?.submit ?? "Filtruj"}
+                {filters.submit ?? "Filtruj"}
               </Button>
               <Link
                 className="pbk-button pbk-button--tertiary pbk-button--compact"
                 href="/porownania"
               >
-                {copy.filters?.reset ?? "Wyczyść"}
+                {filters.reset ?? "Wyczyść"}
               </Link>
             </>
           }
@@ -60,14 +70,14 @@ export default async function ComparisonsIndex({
           <SelectField
             id="kategoria"
             name="kategoria"
-            label={copy.filters?.categoryLabel ?? "Kategoria"}
+            label={filters.categoryLabel ?? "Kategoria"}
             defaultValue={selectedCategory}
             options={categoryOptions}
           />
           <SelectField
             id="tag"
             name="tag"
-            label={copy.filters?.tagLabel ?? "Tag"}
+            label={filters.tagLabel ?? "Tag"}
             defaultValue={selectedTag}
             options={tagOptions}
           />
@@ -114,8 +124,11 @@ export default async function ComparisonsIndex({
   );
 }
 
-function buildCategoryOptions(comparisons, copy) {
-  const base = [{ value: "", label: copy.filters?.all ?? "Wszystkie" }];
+function buildCategoryOptions(
+  comparisons: ReturnType<ComparisonRepository["listSummaries"]>,
+  filters: { all?: string },
+) {
+  const base = [{ value: "", label: filters.all ?? "Wszystkie" }];
   const set = new Set<string>();
   comparisons.forEach((item) =>
     (item.taxonomy?.categories ?? []).forEach((cat) => cat && set.add(cat)),
@@ -131,8 +144,11 @@ function buildCategoryOptions(comparisons, copy) {
   ];
 }
 
-function buildTagOptions(comparisons, copy) {
-  const base = [{ value: "", label: copy.filters?.all ?? "Wszystkie" }];
+function buildTagOptions(
+  comparisons: ReturnType<ComparisonRepository["listSummaries"]>,
+  filters: { all?: string },
+) {
+  const base = [{ value: "", label: filters.all ?? "Wszystkie" }];
   const set = new Set<string>();
   comparisons.forEach((item) =>
     (item.taxonomy?.tags ?? []).forEach((tag) => tag && set.add(tag)),

@@ -3,7 +3,7 @@ title: Convert Com Alternatywy
 slug: alternatywy
 path: /narzedzia/convert-com/alternatywy/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

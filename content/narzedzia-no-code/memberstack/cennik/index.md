@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/memberstack/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Memberstack – cennik rozpisany na małe i większe społeczności
   subheading: >-

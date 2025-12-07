@@ -1,13 +1,13 @@
 ---
 title: UX writing i microcopy (PL)
-slug: "y"
+slug: 'y'
 path: /artykuly/microcopy/
 type: hub
 tags:
   - evergreen
   - copy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: UX writing i microcopy (PL)
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

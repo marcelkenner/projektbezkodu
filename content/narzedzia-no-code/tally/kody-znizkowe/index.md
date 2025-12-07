@@ -4,7 +4,7 @@ slug: kody-znizkowe
 path: /narzedzia/tally/kody-znizkowe/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Tally – kody zniżkowe i promocje
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdź, jak obniżyć koszt Tally dzięki kodom zniżkowym, promocjom okresowym
     i ofertom dla twórców.
 ---
+
+

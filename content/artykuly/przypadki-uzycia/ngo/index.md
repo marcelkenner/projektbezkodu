@@ -4,14 +4,14 @@ slug: ngo
 path: /artykuly/przypadki-uzycia/ngo/
 draft: false
 template: case-study
-date: "2024-07-02"
+date: '2024-07-02'
 hero:
   heading: Fundacja EduOtwarte – portal wolontariatu w 4 tygodnie
   subheading: >-
     Zaprojektowaliśmy portal z ofertami wolontariatu z CMS-em Webflow i
     automatyzacjami Airtable + Make.
 seo:
-  title: "Case study NGO: EduOtwarte – portal wolontariuszy no-code"
+  title: 'Case study NGO: EduOtwarte – portal wolontariuszy no-code'
   description: >-
     Budowa portalu wolontariatu w Webflow, automatyzacja zgłoszeń i raportów w
     Airtable. 3× więcej wolontariuszy w 2 miesiące.

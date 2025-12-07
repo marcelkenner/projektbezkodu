@@ -4,7 +4,7 @@ slug: homepage
 path: /
 draft: true
 template: default
-date: "2025-12-04"
+date: '2025-12-04'
 hero:
   heading: ProjektBezKodu – strona główna
   subheading: Metadane i opis do wygenerowania tytułu i opisu strony głównej.
@@ -13,7 +13,9 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: ProjektBezKodu – baza wiedzy o narzędziach no-code i low-code
-  description: Aktualne poradniki, porównania i narzędzia no-code/low-code dla zespołów marketingu i produktu.
+  description: >-
+    Aktualne poradniki, porównania i narzędzia no-code/low-code dla zespołów
+    marketingu i produktu.
   keywords:
     - no-code
     - low-code

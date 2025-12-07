@@ -4,7 +4,7 @@ slug: alternatywy
 path: /artykuly/hostingi/nazwa-pl/alternatywy/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: >-
     nazwa.pl – alternatywy, gdy szukasz czegoś lżejszego, tańszego albo
@@ -21,3 +21,5 @@ seo:
     Zobacz listę usług, które najczęściej biorę pod uwagę jako alternatywę dla
     nazwa.pl, wraz z krótkimi komentarzami, dla kogo są sensowną opcją.
 ---
+
+

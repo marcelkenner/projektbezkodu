@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/cloudimage/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Cloudimage – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdzam, ile czasu ładowania możesz uciąć z Cloudimage, jak wygląda
     integracja i kiedy to narzędzie naprawdę robi różnicę.
 ---
+
+

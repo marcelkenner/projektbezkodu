@@ -8,7 +8,7 @@ tags:
   - content
   - pisanie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Outline frameworks – szablony konspektów artykułów
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

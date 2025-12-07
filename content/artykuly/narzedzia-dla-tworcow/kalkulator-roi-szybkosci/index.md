@@ -7,7 +7,7 @@ tags:
   - evergreen
   - narzedzia-dla-tworcow
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Kalkulator ROI szybkości
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

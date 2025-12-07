@@ -3,7 +3,9 @@ import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { getCopy } from "../../lib/copy";
 import "../legal.module.css";
 
-const termsPageLoader = new MarkdownPageLoader("content/regulamin/index.md");
+const termsPageLoader = new MarkdownPageLoader(
+  "content/artykuly/regulamin/index.md",
+);
 
 export default function TermsPage() {
   const copy = getCopy("terms");

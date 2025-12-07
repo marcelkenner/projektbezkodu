@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { HomepageIconFactory } from "./HomepageIconFactory";
+import sectionStyles from "../section-shell.module.css";
+import socialStyles from "../social-proof.module.css";
 
 export interface HomepageLogo {
   src: string;
@@ -31,7 +33,7 @@ export function SocialProofSection({ copy }: { copy: SocialProofCopy }) {
 
   return (
     <section
-      className="homepage-section"
+      className={sectionStyles["homepage-section"]}
       aria-labelledby="social-proof-heading"
     >
       <div className="pbk-container">
@@ -53,20 +55,28 @@ function TestimonialsSection({
 }) {
   const headingId = heading ? "social-proof-heading" : undefined;
   return (
-    <div className="homepage-testimonials">
+    <div className={socialStyles["homepage-testimonials"]}>
       {heading ? (
-        <p id={headingId} className="homepage-testimonials__heading">
+        <p
+          id={headingId}
+          className={socialStyles["homepage-testimonials__heading"]}
+        >
           {heading}
         </p>
       ) : null}
-      <div className="homepage-testimonials__grid">
+      <div className={socialStyles["homepage-testimonials__grid"]}>
         {testimonials.map((testimonial) => (
-          <figure key={testimonial.quote} className="homepage-testimonialCard">
+          <figure
+            key={testimonial.quote}
+            className={socialStyles["homepage-testimonialCard"]}
+          >
             <blockquote>
               <p>{testimonial.quote}</p>
             </blockquote>
             <figcaption>
-              <div className="homepage-testimonialCard__author">
+              <div
+                className={socialStyles["homepage-testimonialCard__author"]}
+              >
                 {testimonial.avatar ? (
                   <img
                     src={testimonial.avatar}
@@ -87,7 +97,7 @@ function TestimonialsSection({
               {testimonial.cta ? (
                 <Link
                   href={testimonial.cta.href}
-                  className="homepage-testimonialCard__cta"
+                  className={socialStyles["homepage-testimonialCard__cta"]}
                 >
                   {testimonial.cta.label}
                   {HomepageIconFactory.arrow()}

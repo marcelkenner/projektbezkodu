@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/surfer/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Surfer – recenzja z perspektywy osoby piszącej treści
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Plusy i minusy Surfer: jakość rekomendacji, wpływ na wyniki, wygoda edytora,
     integracje i to, kiedy narzędzie bywa przesadnie „sztywne” w wytycznych.
 ---
+
+

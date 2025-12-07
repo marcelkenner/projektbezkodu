@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona dla szkoły językowej"
+title: 'Playbook: strona dla szkoły językowej'
 slug: szkola-jezykowa
 path: /artykuly/playbooki/szkola-jezykowa/
 type: playbook
@@ -9,9 +9,9 @@ tags:
   - branża
   - edukacja
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona dla szkoły językowej"
+  heading: 'Playbook: strona dla szkoły językowej'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

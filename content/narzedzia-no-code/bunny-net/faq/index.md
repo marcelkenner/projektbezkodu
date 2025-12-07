@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/bunny-net/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Bunny.net – najczęstsze pytania o CDN i storage
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Odpowiadam na praktyczne pytania o Bunny.net: konfigurację, bezpieczeństwo,
     wsparcie i rozliczenia.
 ---
+
+

@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/typeform/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Typeform – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Oceniam, ile Typeform faktycznie poprawia UX formularzy, jak działa logika
     pytań i co dostajesz w płatnych planach.
 ---
+
+

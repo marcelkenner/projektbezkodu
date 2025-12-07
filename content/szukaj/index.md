@@ -4,7 +4,7 @@ slug: szukaj
 path: /szukaj/
 draft: false
 template: search
-date: "2024-12-01"
+date: '2024-12-01'
 hero:
   heading: Szukaj w ProjekcieBezKodu
   subheading: Przeszukaj artykuły, tutoriale, porównania i słownik jednym zapytaniem.

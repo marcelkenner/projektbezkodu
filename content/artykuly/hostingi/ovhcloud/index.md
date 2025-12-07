@@ -4,7 +4,7 @@ slug: ovhcloud
 path: /artykuly/hostingi/ovhcloud/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: >-
     OVHcloud – jak poradzi sobie z Twoją stroną, gdy nie jesteś adminem
@@ -22,3 +22,5 @@ seo:
     Praktyczny przegląd OVHcloud z perspektywy osób potrzebujących stabilnego
     hostingu i prostego startu, a nie pełnej kontroli nad infrastrukturą.
 ---
+
+

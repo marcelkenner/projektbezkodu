@@ -7,7 +7,7 @@ tags:
   - evergreen
   - wydajnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Budżet wagowy strony (kalkulator)
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

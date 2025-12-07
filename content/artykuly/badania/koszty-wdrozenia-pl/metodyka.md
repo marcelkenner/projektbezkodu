@@ -1,12 +1,12 @@
 ---
-title: "Metodyka: Koszty Wdrozenia Pl"
+title: 'Metodyka: Koszty Wdrozenia Pl'
 path: /artykuly/badania/koszty-wdrozenia-pl/
 type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 slug: metodyka
 hero:
-  heading: "Metodyka: Koszty Wdrozenia Pl"
+  heading: 'Metodyka: Koszty Wdrozenia Pl'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

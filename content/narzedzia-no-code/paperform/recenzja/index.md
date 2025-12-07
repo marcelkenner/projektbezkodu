@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/paperform/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Paperform – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Oceniam, jak Paperform wypada pod kątem wyglądu, integracji, płatności i
     kosztów w porównaniu z innymi kreatorami formularzy.
 ---
+
+

@@ -4,14 +4,14 @@ slug: sklep-pl-inpost
 path: /artykuly/przypadki-uzycia/sklep-pl-inpost/
 draft: false
 template: case-study
-date: "2024-09-18"
+date: '2024-09-18'
 hero:
   heading: InPost – sklep D2C uruchomiony w 6 tygodni
   subheading: >-
     Zbudowaliśmy landing, katalog produktów i proces fulfillmentu na stacku
     Webflow + Shopify + Make.
 seo:
-  title: "Case study: Sklep D2C dla InPost – wdrożenie w 6 tygodni"
+  title: 'Case study: Sklep D2C dla InPost – wdrożenie w 6 tygodni'
   description: >-
     Migracja do Webflow, integracja z Shopify i automatyzacja fulfillmentu w
     Make. Zwiększona konwersja +37% i krótszy czas obsługi.

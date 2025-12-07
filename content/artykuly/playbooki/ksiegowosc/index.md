@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona internetowa dla biura rachunkowego"
+title: 'Playbook: strona internetowa dla biura rachunkowego'
 slug: ksiegowosc
 path: /artykuly/playbooki/ksiegowosc/
 type: playbook
@@ -9,9 +9,9 @@ tags:
   - branża
   - księgowość
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona internetowa dla biura rachunkowego"
+  heading: 'Playbook: strona internetowa dla biura rachunkowego'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

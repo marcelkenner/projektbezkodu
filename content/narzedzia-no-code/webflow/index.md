@@ -5,9 +5,9 @@ path: /narzedzia/webflow/
 draft: false
 template: default
 type: narzędzie
-date: "2025-11-17"
+date: '2025-11-17'
 hero:
-  heading: "Webflow: strona jak z agencji – bez pisania kodu"
+  heading: 'Webflow: strona jak z agencji – bez pisania kodu'
   subheading: >-
     Po tym tekście będziesz wiedzieć, czy Webflow ma sens w twoim przypadku, czy
     lepiej zostać przy WordPressie, Wixie albo Shopify.
@@ -33,7 +33,7 @@ meta:
   duration: 15–20 min
   tools:
     - Webflow
-  updatedAt: "2025-11-17"
+  updatedAt: '2025-11-17'
   hasAffiliateLinks: true
   format: przewodnik
   topics:

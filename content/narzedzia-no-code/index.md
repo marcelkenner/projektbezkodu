@@ -4,7 +4,7 @@ slug: a
 path: /narzedzia/
 draft: true
 template: default
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Narzędzia no-code i low-code
   subheading: Katalog testowy — wpis roboczy, niepublikowany (draft).

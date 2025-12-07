@@ -7,7 +7,7 @@ tags:
   - evergreen
   - architektura
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Szkielet strony usługowej
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

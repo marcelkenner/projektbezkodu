@@ -4,7 +4,7 @@ slug: faq
 path: /artykuly/hostingi/kinsta/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Kinsta – FAQ o migracjach, limitach i pracy z zespołem
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     Najczęściej zadawane pytania o Kinsta, dzięki którym szybciej ocenisz, czy
     ten typ hostingu pasuje do Twojego sposobu pracy.
 ---
+
+

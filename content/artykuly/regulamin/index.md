@@ -4,7 +4,7 @@ slug: regulamin
 path: /artykuly/regulamin/
 draft: false
 template: legal
-date: "2024-12-01"
+date: '2024-12-01'
 hero:
   heading: Regulamin serwisu ProjektBezKodu
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

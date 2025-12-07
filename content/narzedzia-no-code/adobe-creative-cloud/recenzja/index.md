@@ -3,7 +3,7 @@ title: Adobe Creative Cloud Recenzja
 slug: recenzja
 path: /narzedzia/adobe-creative-cloud/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

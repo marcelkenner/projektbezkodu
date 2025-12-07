@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/zapier/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Co zamiast Zapiera, gdy ceny lub limity przestają się spinać
   subheading: >-

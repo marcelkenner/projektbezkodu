@@ -9,7 +9,7 @@ tags:
   - wcag
   - ui
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Kontrast i kolory w praktyce WCAG
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

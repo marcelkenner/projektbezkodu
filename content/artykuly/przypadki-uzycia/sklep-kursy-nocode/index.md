@@ -4,14 +4,14 @@ slug: sklep-kursy-nocode
 path: /artykuly/przypadki-uzycia/sklep-kursy-nocode/
 draft: false
 template: case-study
-date: "2024-11-04"
+date: '2024-11-04'
 hero:
   heading: Marketplace kursów no-code na Webflow + Lemon Squeezy
   subheading: >-
     Stworzyliśmy sklep wieloautorski z płatnościami w PLN i automatyzacją
     rozliczeń.
 seo:
-  title: "Case study: marketplace kursów no-code"
+  title: 'Case study: marketplace kursów no-code'
   description: >-
     Jak uruchomiliśmy marketplace kursów no-code na Webflow, integrując
     płatności i rozliczenia z twórcami.

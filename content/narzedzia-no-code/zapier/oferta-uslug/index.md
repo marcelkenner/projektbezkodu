@@ -4,7 +4,7 @@ slug: oferta-uslug
 path: /narzedzia/zapier/oferta-uslug/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Pomagam poukładać automatyzacje w Zapier tak, żeby naprawdę odciążyły zespół
   subheading: >-

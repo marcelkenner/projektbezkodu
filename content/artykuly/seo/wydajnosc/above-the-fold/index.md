@@ -8,7 +8,7 @@ tags:
   - wydajnosc
   - core-web-vitals
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Above-the-fold – co ładować krytycznie, a co opóźnić
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

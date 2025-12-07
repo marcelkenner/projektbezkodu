@@ -4,7 +4,7 @@ slug: faq
 path: /artykuly/hostingi/hostinger/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Hostinger – odpowiedzi na pytania, które pojawiają się dopiero po zakupie
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Praktyczne odpowiedzi na pytania o Hostinger: jak wystartować, jak przenieść
     istniejący projekt i jak rozumieć limity oraz warunki w umowie.
 ---
+
+

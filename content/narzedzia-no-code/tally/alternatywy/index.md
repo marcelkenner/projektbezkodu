@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/tally/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Tally – kiedy potrzebujesz czegoś innego
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zestawiam Tally z konkurencją, żebyś łatwiej dobrał narzędzie do ankiet,
     zapisów i sprzedaży.
 ---
+
+

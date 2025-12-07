@@ -4,14 +4,14 @@ slug: framer-landing
 path: /artykuly/przypadki-uzycia/framer-landing/
 draft: false
 template: case-study
-date: "2024-04-16"
+date: '2024-04-16'
 hero:
   heading: Framer landing – kampania produktowa w tydzień
   subheading: >-
     Dostarczyliśmy landing z animacjami i integracjami analitycznymi, który
     wsparł premierę funkcji AI.
 seo:
-  title: "Case study: Landing Framer dla kampanii produktowej"
+  title: 'Case study: Landing Framer dla kampanii produktowej'
   description: >-
     Jak w 7 dni przygotowaliśmy landing Framer z interaktywnymi animacjami i
     integracjami growth.
@@ -35,7 +35,7 @@ meta:
       value: 28%
       description: Dzięki interaktywnej sekcji demo.
     - label: SQL z kampanii
-      value: "+96"
+      value: '+96'
       description: W ciągu pierwszych 14 dni.
   lessons:
     - >-

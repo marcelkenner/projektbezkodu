@@ -3,7 +3,7 @@ title: Mailerlite Vs Convertkit
 slug: mailerlite-vs-convertkit
 path: /porownania/mailerlite-vs-convertkit/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 template: comparison
 taxonomy:
   categories:

@@ -1,12 +1,12 @@
 ---
-title: "Metodyka: Stan Nocode W Polsce"
+title: 'Metodyka: Stan Nocode W Polsce'
 path: /artykuly/badania/stan-nocode-w-polsce/
 type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 slug: metodyka
 hero:
-  heading: "Metodyka: Stan Nocode W Polsce"
+  heading: 'Metodyka: Stan Nocode W Polsce'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

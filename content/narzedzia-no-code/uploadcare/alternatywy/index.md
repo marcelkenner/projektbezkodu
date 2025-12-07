@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/uploadcare/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Uploadcare – co wybrać zamiast i kiedy
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zestawiam Uploadcare z innymi narzędziami do uploadu i CDN dla obrazów, żeby
     łatwiej było dobrać usługę pod Twój projekt.
 ---
+
+

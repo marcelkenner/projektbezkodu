@@ -132,7 +132,8 @@ export default async function TutorialsIndex({
                 tutorial.taxonomy?.categories,
               );
               const hero = tutorial.hero?.image?.src;
-              const subheading = tutorial.hero?.subheading ?? tutorial.excerpt;
+              const subheading =
+                tutorial.hero?.subheading ?? tutorial.description ?? "";
               const metaItems: Array<{ label: string }> = [];
               if (tutorial.meta?.difficulty) {
                 metaItems.push({ label: tutorial.meta.difficulty });

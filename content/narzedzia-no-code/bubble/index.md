@@ -4,7 +4,7 @@ slug: bubble
 path: /narzedzia/bubble/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Bubble – gdy Excel i prosty builder to już za mało
   subheading: >-

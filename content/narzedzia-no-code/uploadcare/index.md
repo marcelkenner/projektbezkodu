@@ -4,7 +4,7 @@ slug: uploadcare
 path: /narzedzia/uploadcare/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Uploadcare – jedno miejsce na upload, przetwarzanie i CDN
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, jak Uploadcare ogarnia upload, przetwarzanie i serwowanie plików
     przez CDN, żebyś nie musiał budować własnej infrastruktury.
 ---
+
+

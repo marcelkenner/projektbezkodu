@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/make/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Make, gdy potrzebujesz czegoś prostszego lub mocniejszego
   subheading: >-

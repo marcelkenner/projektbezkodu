@@ -4,7 +4,7 @@ slug: plausible
 path: /narzedzia/plausible/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Plausible – prosty panel zamiast rozbudowanego Google Analytics
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Opisuję Plausible jako lekką, przyjazną prywatności alternatywę dla Google
     Analytics: bez cookies, z anonimowymi danymi i hostingiem w UE.
 ---
+
+

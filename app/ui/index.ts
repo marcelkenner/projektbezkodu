@@ -29,3 +29,4 @@ export { ArticleCtaGroup } from "./articles/ArticleCtaGroup";
 export { TaxonomyChips } from "./articles/TaxonomyChips";
 export { AuthorCard } from "./articles/AuthorCard";
 export { ContentCard } from "./articles/ContentCard";
+export type { ContentCardMeta } from "./articles/ContentCard";

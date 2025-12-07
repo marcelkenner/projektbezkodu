@@ -4,7 +4,7 @@ slug: cloudimage
 path: /narzedzia/cloudimage/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Cloudimage – automatyczna kompresja, skalowanie i CDN dla obrazów
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, jak Cloudimage optymalizuje obrazy w locie i serwuje je przez CDN,
     poprawiając szybkość ładowania bez przebudowy aplikacji.
 ---
+
+

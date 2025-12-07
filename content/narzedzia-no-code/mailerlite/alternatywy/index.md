@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/mailerlite/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla MailerLite – co wybrać, gdy rośniesz lub potrzebujesz więcej
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd narzędzi podobnych do MailerLite, które lepiej sprawdzą się w
     e-commerce, zaawansowanej analityce albo dużych bazach.
 ---
+
+

@@ -19,7 +19,7 @@ import { SoftwareApplicationStructuredDataBuilder } from "@/app/lib/seo/Software
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
-import "../../artykuly/article.module.css";
+import articleStyles from "../../artykuly/article.module.css";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
@@ -119,6 +119,17 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const heading = viewModel.getHeroHeading();
   const subheading = viewModel.getHeroSubheading();
   const heroImage = viewModel.getHeroImage();
+  let safeHeroImage: { src: string; alt: string; width?: number; height?: number };
+  if (heroImage?.src) {
+    safeHeroImage = heroImage as { src: string; alt: string; width?: number; height?: number };
+  } else {
+    safeHeroImage = {
+      src: heroImage?.src ?? "/img/tools_hero_image.webp",
+      alt: heroImage?.alt ?? heading ?? "Narzędzie",
+      width: heroImage?.width ?? 1200,
+      height: heroImage?.height ?? 630,
+    };
+  }
   const publishedDate = viewModel.getPublishedDate();
   const tocItems = viewModel.getHeadings();
   const hasToc = tocItems.length > 0;
@@ -156,13 +167,16 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const breadcrumbs = breadcrumbComposer.compose(canonicalPath, shareTitle);
 
   return (
-    <section className="article-page" id="content">
+    <section
+      className={`${articleStyles.articlePage} article-page`}
+      id="content"
+    >
       <StructuredDataScript id="tool-structured-data" data={structuredData} />
       <ContentHero
         heading={heading}
         subheading={subheading}
         breadcrumbs={breadcrumbs}
-        image={heroImage}
+        image={safeHeroImage}
       />
       <div className="pbk-container">
         <header className="article-page__header">

@@ -8,7 +8,7 @@ tags:
   - proces
   - warsztat
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Kickoff workshop – agenda i materiały na start projektu
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

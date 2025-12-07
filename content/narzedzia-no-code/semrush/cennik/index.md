@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/semrush/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Semrush – cennik przełożony na realne projekty
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Tłumaczę, jak działają poziomy cenowe Semrush, skąd biorą się limity zapytań
     i projektów oraz kiedy wydatek zaczyna się zwracać w wynikach.
 ---
+
+

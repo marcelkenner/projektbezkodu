@@ -9,7 +9,7 @@ tags:
   - buttons
   - template
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Przyciski i stany – szablon do design systemu
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

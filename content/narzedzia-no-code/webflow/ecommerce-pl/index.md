@@ -4,7 +4,7 @@ slug: ecommerce-pl
 path: /narzedzia/webflow/ecommerce-pl/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Webflow e-commerce – czy da się na tym postawić sklep w Polsce?
   subheading: >-

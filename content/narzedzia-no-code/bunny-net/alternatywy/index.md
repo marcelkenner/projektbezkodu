@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/bunny-net/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Bunny.net – kiedy warto wybrać inny CDN
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, kiedy Bunny.net jest najlepszą opcją, a kiedy lepiej postawić na
     inny CDN lub cloudowe rozwiązanie operatora.
 ---
+
+

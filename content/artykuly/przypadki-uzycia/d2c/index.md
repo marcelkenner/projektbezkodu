@@ -4,14 +4,14 @@ slug: d2c
 path: /artykuly/przypadki-uzycia/d2c/
 draft: false
 template: case-study
-date: "2024-09-30"
+date: '2024-09-30'
 hero:
   heading: Subskrypcyjny e-commerce na Webflow + Recharge
   subheading: >-
     Uruchomiliśmy sklep z subskrypcjami kosmetyków: konfigurator, płatności i
     automatyzacje obsługi klienta.
 seo:
-  title: "Case study: subskrypcje D2C w Webflow + Recharge"
+  title: 'Case study: subskrypcje D2C w Webflow + Recharge'
   description: >-
     Konfigurator produktów, cykliczne płatności i automat do obsługi klienta
     zbudowane w no-code.

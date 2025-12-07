@@ -4,14 +4,14 @@ slug: agencja-kreatywna
 path: /artykuly/przypadki-uzycia/agencja-kreatywna/
 draft: false
 template: case-study
-date: "2024-05-28"
+date: '2024-05-28'
 hero:
   heading: Studio Brandowe – produktowy landing w 48 godzin
   subheading: >-
     Wsparliśmy agencję w przygotowaniu launchu klienta SaaS na Framerze,
     dostarczając komponenty i automatyzację leadów.
 seo:
-  title: "Case study: Studio brandowe – landing SaaS w 48 godzin"
+  title: 'Case study: Studio brandowe – landing SaaS w 48 godzin'
   description: >-
     Jak studio kreatywne skróciło delivery z tygodni do dni dzięki komponentom
     Framer i automatyzacjom HubSpot.

@@ -8,7 +8,7 @@ tags:
   - proces
   - wycena
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Wycena – kalkulator stawek i etapów projektu
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

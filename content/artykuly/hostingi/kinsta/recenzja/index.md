@@ -4,7 +4,7 @@ slug: recenzja
 path: /artykuly/hostingi/kinsta/recenzja/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Kinsta – recenzja z perspektywy osób, które żyją z WordPressa
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Jak Kinsta wypada pod kątem szybkości działania stron, narzędzi dla
     deweloperów i jakości wsparcia technicznego w codziennej pracy.
 ---
+
+

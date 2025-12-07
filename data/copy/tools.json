@@ -37,7 +37,8 @@
         { "value": "desktop", "label": "Aplikacja desktopowa" }
       ]
     },
-    "submit": "Pokaż narzędzia"
+    "submit": "Pokaż narzędzia",
+    "reset": "Wyczyść"
   },
   "cards": {
     "badgeFree": "Darmowe",

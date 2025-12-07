@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona trenera / sprzedaż kursu online"
+title: 'Playbook: strona trenera / sprzedaż kursu online'
 slug: trener-kurs-online
 path: /artykuly/playbooki/trener-kurs-online/
 type: playbook
@@ -9,9 +9,9 @@ tags:
   - branża
   - kursy-online
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona trenera / sprzedaż kursu online"
+  heading: 'Playbook: strona trenera / sprzedaż kursu online'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

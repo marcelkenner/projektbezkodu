@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/uploadcare/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Uploadcare – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdzam, co realnie zyskasz z Uploadcare: prosty upload dla użytkowników,
     transformacje obrazów, CDN i mniejsza obsługa serwerów.
 ---
+
+

@@ -9,7 +9,7 @@ tags:
   - rodo
   - formularze
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: RODO w formularzach – klauzule i zgody (szablony)
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

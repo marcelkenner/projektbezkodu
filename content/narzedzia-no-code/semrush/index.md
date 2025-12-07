@@ -4,7 +4,7 @@ slug: semrush
 path: /narzedzia/semrush/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Semrush – jedno konto do SEO, contentu i reklam
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Opisuję, jak Semrush łączy keyword research, analizę konkurencji, audyty
     techniczne, link building, rank tracking i kampanie płatne w jednym panelu.
 ---
+
+

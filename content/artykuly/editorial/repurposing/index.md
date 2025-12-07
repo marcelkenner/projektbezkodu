@@ -8,7 +8,7 @@ tags:
   - content
   - recykling
 draft: false
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Recykling treści – jak mądrze przerabiać blog na IG, Pinterest i Shorts
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

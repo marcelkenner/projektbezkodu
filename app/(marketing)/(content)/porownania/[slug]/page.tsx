@@ -29,7 +29,7 @@ import {
   heroImageKindFrom,
   resolveHeroImage as resolveGenericHeroImage,
 } from "@/app/lib/content/heroImageResolver";
-import "../../artykuly/article.module.css";
+import articleStyles from "../../artykuly/article.module.css";
 
 const comparisonRepository = new ComparisonRepository();
 const comparisonStructuredDataBuilder = new ArticleStructuredDataBuilder();
@@ -157,7 +157,10 @@ export default async function ComparisonPage({ params }: ComparisonPageProps) {
   );
 
   return (
-    <section className="article-page" id="content">
+    <section
+      className={`${articleStyles.articlePage} article-page`}
+      id="content"
+    >
       <StructuredDataScript
         id="comparison-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}

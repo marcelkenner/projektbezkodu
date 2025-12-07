@@ -1,12 +1,12 @@
 ---
-title: "Metodyka: Ux Formularze Pl"
+title: 'Metodyka: Ux Formularze Pl'
 path: /artykuly/badania/ux-formularze-pl/
 type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 slug: metodyka
 hero:
-  heading: "Metodyka: Ux Formularze Pl"
+  heading: 'Metodyka: Ux Formularze Pl'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

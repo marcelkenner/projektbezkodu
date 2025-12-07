@@ -1,10 +1,10 @@
 ---
-title: "Playbook: strona internetowa dla firmy budowlanej"
+title: 'Playbook: strona internetowa dla firmy budowlanej'
 slug: budowlanka
 path: /artykuly/playbooki/budowlanka/
 template: playbook
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 taxonomy:
   categories:
     - strategia
@@ -17,7 +17,7 @@ hero:
     Układ sekcji, CTA i treści, które odpowiadają na trzy największe obawy
     klientów: realizacje, bezpieczeństwo i proces.
 seo:
-  title: "Playbook www dla firmy budowlanej: struktura i argumenty"
+  title: 'Playbook www dla firmy budowlanej: struktura i argumenty'
   description: >-
     Gotowy układ strony internetowej dla firmy budowlanej. Pokazujemy, jakie
     sekcje, dowody i CTA przekonują klientów do współpracy.

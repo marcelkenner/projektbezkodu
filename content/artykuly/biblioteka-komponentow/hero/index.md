@@ -1,13 +1,13 @@
 ---
-title: "Sekcje: Hero"
+title: 'Sekcje: Hero'
 slug: hero
-path: /biblioteka/sekcje/hero/
+path: /artykuly/biblioteka-komponentow/hero/
 type: template
 tags:
   - evergreen
   - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: Hero

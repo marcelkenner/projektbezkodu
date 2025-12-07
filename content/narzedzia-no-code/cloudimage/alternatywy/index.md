@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/cloudimage/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Cloudimage – jakie masz opcje
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, kiedy Cloudimage wygrywa, a kiedy lepiej postawić na inne
     rozwiązanie do kompresji i serwowania obrazów.
 ---
+
+

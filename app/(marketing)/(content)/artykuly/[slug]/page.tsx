@@ -19,7 +19,8 @@ import {
 } from "@/app/ui";
 import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { getCopy } from "@/app/lib/copy";
-import "../article.module.css";
+import articleStyles from "../article.module.css";
+import styles from "../articles.module.css";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 import {
@@ -175,7 +176,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   });
 
   return (
-    <section className="article-page" id="content">
+    <section
+      className={`${articleStyles.articlePage} article-page`}
+      id="content"
+    >
       <StructuredDataScript
         id="article-structured-data"
         data={articleStructuredData}
@@ -315,7 +319,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                       {related.description}
                     </p>
                   ) : null}
-                  <Link className="articles-card__link" href={related.path}>
+                  <Link
+                    className={`articles-card__link ${styles["articles-card__link"]}`}
+                    href={related.path}
+                  >
                     Czytaj →
                   </Link>
                 </div>

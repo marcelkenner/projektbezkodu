@@ -4,7 +4,7 @@ slug: szablony
 path: /narzedzia/webflow/szablony/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Szablony Webflow – które są warte uwagi, a które lepiej pominąć?
   subheading: >-

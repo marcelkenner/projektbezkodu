@@ -7,7 +7,7 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import { getCopy } from "@/app/lib/copy";
 import { ArticleRepository } from "@/app/lib/content/repositories";
-import "./not-found.module.css";
+import styles from "./not-found.module.css";
 
 const notFoundCopy = getCopy("not-found");
 
@@ -133,12 +133,16 @@ export default function NotFoundPage() {
   const suggestions = viewModel.getArticleSuggestions();
 
   return (
-    <section className="not-found" id="content">
-      <div className="pbk-container not-found__inner">
-        <Warning aria-hidden="true" className="not-found__icon" weight="bold" />
+    <section className={styles["not-found"]} id="content">
+      <div className={`pbk-container ${styles["not-found__inner"]}`}>
+        <Warning
+          aria-hidden="true"
+          className={styles["not-found__icon"]}
+          weight="bold"
+        />
         <h1>{viewModel.getTitle()}</h1>
         <p>{viewModel.getBody()}</p>
-        <div className="not-found__cta">
+        <div className={styles["not-found__cta"]}>
           <Link
             className="pbk-button pbk-button--primary"
             href={viewModel.getPrimaryCta().href}
@@ -171,7 +175,7 @@ export default function NotFoundPage() {
 function SearchForm({ config }: { config: SearchConfig }) {
   return (
     <form
-      className="not-found__search"
+      className={styles["not-found__search"]}
       method="get"
       role="search"
       aria-label={config.label}
@@ -197,10 +201,10 @@ function SearchForm({ config }: { config: SearchConfig }) {
 function ShortcutLinks({ links }: { links: ShortcutLink[] }) {
   return (
     <nav
-      className="not-found__shortcuts"
+      className={styles["not-found__shortcuts"]}
       aria-label="Skróty do popularnych treści"
     >
-      <ul className="not-found__links">
+      <ul className={styles["not-found__links"]}>
         {links.map((link) => (
           <li key={link.href}>
             <Link href={link.href}>{link.label}</Link>
@@ -230,21 +234,24 @@ function ArticleSuggestionsSection({
 
   return (
     <section
-      className="not-found__suggestions"
+      className={styles["not-found__suggestions"]}
       aria-labelledby="not-found-suggestions-heading"
     >
-      <header className="not-found__suggestionsHeader">
+      <header className={styles["not-found__suggestionsHeader"]}>
         <h2 id="not-found-suggestions-heading">{heading}</h2>
         {description ? <p>{description}</p> : null}
       </header>
       {suggestions.length ? (
-        <ul className="not-found__suggestionsList">
+        <ul className={styles["not-found__suggestionsList"]}>
           {suggestions.map((suggestion) => (
-            <li key={suggestion.slug} className="not-found__suggestionsCard">
+            <li
+              key={suggestion.slug}
+              className={styles["not-found__suggestionsCard"]}
+            >
               <h3>{suggestion.title}</h3>
               {suggestion.description ? <p>{suggestion.description}</p> : null}
               <Link
-                className="not-found__suggestionsLink"
+                className={styles["not-found__suggestionsLink"]}
                 href={suggestion.href}
                 aria-label={`${ctaLabel}: ${suggestion.title}`}
               >
@@ -255,7 +262,7 @@ function ArticleSuggestionsSection({
           ))}
         </ul>
       ) : emptyState ? (
-        <div className="not-found__suggestionsEmpty">
+        <div className={styles["not-found__suggestionsEmpty"]}>
           <p>{emptyState.message}</p>
           <Link
             className="pbk-button pbk-button--secondary"

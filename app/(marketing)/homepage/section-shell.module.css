@@ -1,0 +1,11 @@
+.homepage-section {
+  padding-block: var(--space-7);
+}
+
+.homepage-section--pillars {
+  background: #fff;
+}
+
+.homepage-section--newsletter {
+  background: var(--color-surface);
+}

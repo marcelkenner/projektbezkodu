@@ -1,5 +1,5 @@
 ---
-title: "Typografia PL w design systemie: fonty z ogonkami i ligatury"
+title: 'Typografia PL w design systemie: fonty z ogonkami i ligatury'
 slug: typografia-pl
 path: /artykuly/design-bez-kodu/typografia-pl/
 type: guide
@@ -8,9 +8,9 @@ tags:
   - design-system
   - typografia
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Typografia PL w design systemie: fonty z ogonkami i ligatury"
+  heading: 'Typografia PL w design systemie: fonty z ogonkami i ligatury'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

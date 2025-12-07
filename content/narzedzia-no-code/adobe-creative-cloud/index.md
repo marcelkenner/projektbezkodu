@@ -4,7 +4,7 @@ slug: adobe-creative-cloud
 path: /narzedzia/adobe-creative-cloud/
 draft: true
 template: default
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Adobe Creative Cloud – przegląd narzędzi w jednym abonamencie
   subheading: >-

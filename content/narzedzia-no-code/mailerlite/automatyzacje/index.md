@@ -4,7 +4,7 @@ slug: automatyzacje
 path: /narzedzia/mailerlite/automatyzacje/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Automatyzacje w MailerLite – co da się zautomatyzować bez developera
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd najważniejszych typów automatyzacji w MailerLite, gotowe
     scenariusze i wskazówki, jak nie utonąć w zbyt skomplikowanych ścieżkach.
 ---
+
+

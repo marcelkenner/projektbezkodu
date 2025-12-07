@@ -1,11 +1,11 @@
 ---
-title: "Kategoria: Stock Media"
+title: 'Kategoria: Stock Media'
 slug: stock-media
 path: /artykuly/editorial/stock-media/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Kategoria: Stock Media"
+  heading: 'Kategoria: Stock Media'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

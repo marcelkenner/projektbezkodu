@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/zapier/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Zapier – recenzja z punktu widzenia małej firmy
   subheading: >-

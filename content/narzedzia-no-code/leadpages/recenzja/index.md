@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/leadpages/recenzja/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Leadpages – recenzja skupiona na tym, co zyskuję
   subheading: >-

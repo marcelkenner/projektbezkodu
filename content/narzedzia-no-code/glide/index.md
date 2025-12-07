@@ -4,7 +4,7 @@ slug: glide
 path: /narzedzia/glide/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Glide – najszybszy sposób na mobilną aplikację z danych w arkuszu
   subheading: >-

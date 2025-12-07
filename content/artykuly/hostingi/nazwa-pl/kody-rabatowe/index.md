@@ -4,7 +4,7 @@ slug: kody-rabatowe
 path: /artykuly/hostingi/nazwa-pl/kody-rabatowe/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: nazwa.pl – aktualne kody rabatowe, promocje na hosting i domeny
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdź najświeższe kody rabatowe do nazwa.pl, promocje na pierwszy rok i
     wskazówki, jak nie przepłacić przy przedłużeniach usług.
 ---
+
+

@@ -10,7 +10,7 @@ tags:
   - lists
   - template
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Karty i listy – szablon dla treści, produktów i widoków listowych
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/memberstack/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Memberstack – recenzja z perspektywy twórcy produktów cyfrowych
   subheading: >-

@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/surfer/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Surfer – inne podejście do content SEO
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Kiedy zamiast Surfer wybrać prostsze narzędzie SEO, kombajn z wbudowanym
     edytorem AI, a kiedy klasyczny research + ręczna analiza SERP-ów.
 ---
+
+

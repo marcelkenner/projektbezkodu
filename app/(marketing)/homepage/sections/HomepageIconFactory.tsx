@@ -19,6 +19,8 @@ import {
   Target,
   Toolbox,
 } from "@phosphor-icons/react/dist/ssr";
+import pillarsStyles from "../pillars.module.css";
+import latestStyles from "../latest-articles.module.css";
 
 export type PillarIconName =
   | "bolt"
@@ -40,19 +42,25 @@ export type ResourcePromoIconName =
   | "downloads";
 
 export class HomepageIconFactory {
-  static arrow(className = "homepage-pillars__arrow"): ReactNode {
+  static arrow(
+    className =
+      pillarsStyles["homepage-pillars__arrow"] ?? "homepage-pillars__arrow",
+  ): ReactNode {
     return (
       <ArrowRight aria-hidden="true" className={className} weight="bold" />
     );
   }
 
-  static clock(className = "homepage-articles__icon"): ReactNode {
+  static clock(
+    className =
+      latestStyles["homepage-articles__icon"] ?? "homepage-articles__icon",
+  ): ReactNode {
     return <Clock aria-hidden="true" className={className} weight="bold" />;
   }
 
   static pillar(
     name: PillarIconName,
-    className = "homepage-pillars__icon",
+    className = pillarsStyles["homepage-pillars__icon"] ?? "homepage-pillars__icon",
   ): ReactNode {
     switch (name) {
       case "bolt":

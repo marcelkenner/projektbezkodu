@@ -4,7 +4,7 @@ slug: integracje
 path: /narzedzia/jotform/integracje/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Jotform – integracje z CRM-ami, newsletterami i automatyzacją
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd integracji Jotform z popularnymi narzędziami marketingowymi i
     biznesowymi, plus przykładowe automatyzacje.
 ---
+
+

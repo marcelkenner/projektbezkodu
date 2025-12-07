@@ -4,14 +4,14 @@ slug: webflow-b2b
 path: /artykuly/przypadki-uzycia/webflow-b2b/
 draft: false
 template: case-study
-date: "2024-08-12"
+date: '2024-08-12'
 hero:
   heading: Software B2B – 3× więcej SQL po migracji na Webflow
   subheading: >-
     Przebudowaliśmy blog i strony funkcji, wdrożyliśmy scoring leadów oraz
     marketing automation.
 seo:
-  title: "Case study B2B: migracja na Webflow i wzrost SQL x3"
+  title: 'Case study B2B: migracja na Webflow i wzrost SQL x3'
   description: >-
     Jak SaaS B2B zwiększył liczbę zakwalifikowanych leadów po re-platformingu na
     Webflow i wdrożeniu HubSpot.

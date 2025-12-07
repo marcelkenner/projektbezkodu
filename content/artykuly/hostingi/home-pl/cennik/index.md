@@ -4,7 +4,7 @@ slug: cennik
 path: /artykuly/hostingi/home-pl/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: home.pl – cennik hostingu i usług dodatkowych na chłodno
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Cennik home.pl pokazany na praktycznych przykładach: jedna strona, kilka
     domen i różne typy projektów, plus gdzie czają się niespodzianki cenowe.
 ---
+
+

@@ -3,7 +3,7 @@ title: U
 slug: u
 path: /artykuly/design-bez-kodu/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: U
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/bubble/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Bubble – odpowiedzi na pytania przed pierwszym dużym projektem
   subheading: >-

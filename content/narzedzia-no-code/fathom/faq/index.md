@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/fathom/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Fathom – najczęstsze pytania o prywatnościową analitykę
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Odpowiadam na pytania o Fathom: jakie dane zbiera, jak zapewnia zgodność z
     prawem, jak go wdrożyć i jak przenieść się z innych narzędzi.
 ---
+
+

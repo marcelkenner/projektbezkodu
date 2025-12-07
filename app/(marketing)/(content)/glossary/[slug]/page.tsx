@@ -63,8 +63,7 @@ export default async function GlossaryTermPage({ params }: GlossaryPageProps) {
     frontmatter.title,
   );
   const tags =
-    frontmatter.taxonomy?.tags?.map((tag) => ({ label: tag, slug: tag })) ??
-    [];
+    frontmatter.taxonomy?.tags?.map((tag) => ({ label: tag, slug: tag })) ?? [];
 
   return (
     <section className="section section--surface">

@@ -4,7 +4,7 @@ slug: aweber
 path: /narzedzia/aweber/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: AWeber – newsletter, szablony i automaty dla małego biznesu
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd możliwości AWeber: tworzenie kampanii, landing page’y, proste
     automatyzacje, web push i podstawowe funkcje e-commerce.
 ---
+
+

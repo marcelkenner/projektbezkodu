@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/aweber/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: AWeber – recenzja z perspektywy małej firmy i blogera
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Analizuję AWeber: wygodę edytora, jakość szablonów, automatyzacje oraz czy
     opłaca się w porównaniu z młodszą konkurencją.
 ---
+
+

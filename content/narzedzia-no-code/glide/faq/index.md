@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/glide/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Glide – odpowiedzi na pytania, które padają przed pierwszym wdrożeniem
   subheading: >-

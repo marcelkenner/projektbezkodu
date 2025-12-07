@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/tally/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Tally – cennik z naciskiem na darmowy plan
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Pomagam ocenić, czy wystarczy Ci darmowy Tally, czy warto przeskoczyć na
     płatną wersję przy większej skali.
 ---
+
+

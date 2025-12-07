@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona dla hotelu i gastronomii"
+title: 'Playbook: strona dla hotelu i gastronomii'
 slug: hotel-gastro
 path: /artykuly/playbooki/hotel-gastro/
 type: playbook
@@ -10,9 +10,9 @@ tags:
   - hotel
   - gastro
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona dla hotelu i gastronomii"
+  heading: 'Playbook: strona dla hotelu i gastronomii'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

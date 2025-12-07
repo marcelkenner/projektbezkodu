@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona internetowa dla software house / IT"
+title: 'Playbook: strona internetowa dla software house / IT'
 slug: it-software-house
 path: /artykuly/playbooki/it-software-house/
 type: playbook
@@ -10,9 +10,9 @@ tags:
   - it
   - software-house
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona internetowa dla software house / IT"
+  heading: 'Playbook: strona internetowa dla software house / IT'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

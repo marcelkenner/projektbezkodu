@@ -8,7 +8,7 @@ tags:
   - proces
   - wdrozenie
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: 7 kroków wdrożenia – od briefu do deploy'u
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

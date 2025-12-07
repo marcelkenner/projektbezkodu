@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/fathom/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Fathom – recenzja z perspektywy małej strony i newslettera
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     działania, ale też ograniczenia w detalicznych raportach i śledzeniu
     zdarzeń.
 ---
+
+

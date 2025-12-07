@@ -4,7 +4,7 @@ slug: migracja
 path: /narzedzia/mailerlite/migracja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Migracja do MailerLite – jak przenieść listę, szablony i automaty
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Jak przygotować eksport, oczyścić bazę, odwzorować segmenty i automaty, żeby
     zmiana na MailerLite była możliwie bezbolesna.
 ---
+
+

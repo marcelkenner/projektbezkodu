@@ -4,7 +4,7 @@ slug: cennik
 path: /artykuly/hostingi/nazwa-pl/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: nazwa.pl – cennik hostingu i domen rozłożony na konkrety
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Rozpisuję ceny nazwa.pl na typowe scenariusze: jedna strona, kilka domen,
     poczta firmowa i proste sklepy, plus na co uważać w regulaminie.
 ---
+
+

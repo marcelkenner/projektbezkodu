@@ -8,7 +8,7 @@ tags:
   - proces
   - briefy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Biblioteka briefów – gotowe szkielety dla różnych branż
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

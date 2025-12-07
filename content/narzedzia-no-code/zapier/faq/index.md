@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/zapier/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: >-
     Zapier – odpowiedzi na pytania, które pojawiają się przy pierwszych

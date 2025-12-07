@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/unbounce/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Unbounce – najczęstsze pytania po polsku
   subheading: >-

@@ -4,7 +4,7 @@ slug: home-pl
 path: /artykuly/hostingi/home-pl/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: home.pl – jak wypada klasyczny polski hosting przy projektach bez kodu
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd plusów i minusów home.pl, kosztów w praktyce oraz sytuacji, w
     których ten hosting sprawdza się najlepiej.
 ---
+
+

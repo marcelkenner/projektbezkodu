@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/getresponse/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla GetResponse – gdy lejek to za dużo lub za mało
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Kiedy zamiast GetResponse wybrać lżejsze narzędzie typu MailerLite, a kiedy
     rozważyć system klasy enterprise lub rozwiązanie stricte e-commerce.
 ---
+
+

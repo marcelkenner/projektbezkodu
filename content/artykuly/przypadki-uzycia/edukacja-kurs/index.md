@@ -4,14 +4,14 @@ slug: edukacja-kurs
 path: /artykuly/przypadki-uzycia/edukacja-kurs/
 draft: false
 template: case-study
-date: "2024-06-10"
+date: '2024-06-10'
 hero:
   heading: Akademia Produktu – platforma kursowa na Webflow + Memberstack
   subheading: >-
     Zbudowaliśmy stronę sprzedażową, strefę kursanta i automatyzacje płatności w
     30 dni.
 seo:
-  title: "Case study: kurs online na Webflow + Memberstack"
+  title: 'Case study: kurs online na Webflow + Memberstack'
   description: >-
     Kurs produktowy z paywallem, płatnościami Stripe i automatyzacją e-mail. 54%
     konwersji z listy oczekujących.

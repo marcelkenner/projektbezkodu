@@ -1,12 +1,12 @@
 ---
-title: "Metodyka: Benchmark Szybkosci Pl"
+title: 'Metodyka: Benchmark Szybkosci Pl'
 path: /artykuly/badania/benchmark-szybkosci-pl/
 type: research-methods
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 slug: metodyka
 hero:
-  heading: "Metodyka: Benchmark Szybkosci Pl"
+  heading: 'Metodyka: Benchmark Szybkosci Pl'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

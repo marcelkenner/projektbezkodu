@@ -4,7 +4,7 @@ slug: recenzja
 path: /artykuly/hostingi/nazwa-pl/recenzja/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: nazwa.pl – recenzja z punktu widzenia osoby od prostych stron bez kodu
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     Jak nazwa.pl wypada pod kątem wydajności, stabilności, jakości supportu i
     panelu klienta, gdy używasz go do zwykłych stron firmowych i landingów.
 ---
+
+

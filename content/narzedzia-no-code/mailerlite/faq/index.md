@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/mailerlite/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: MailerLite – najczęstsze pytania przed startem z newsletterem
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zbieram odpowiedzi na powtarzające się pytania o MailerLite: bezpieczeństwo,
     wsparcie, deliverability i codzienną pracę z systemem.
 ---
+
+

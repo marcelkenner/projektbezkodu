@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/bubble/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: >-
     Bubble – recenzja oczami osoby, która musi dowieźć produkt, nie tylko

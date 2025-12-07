@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/surfer/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Surfer – odpowiedzi na najczęstsze pytania
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     jak interpretować sugestie, jak dzielić dostęp w zespole i jak nie
     przepłacać.
 ---
+
+

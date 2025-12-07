@@ -1,6 +1,8 @@
 import type { ContentSummary } from "@/app/lib/content/repositories";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import { ContentCard, type ContentCardMeta } from "@/app/ui";
+import sectionStyles from "../section-shell.module.css";
+import latestStyles from "../latest-articles.module.css";
 
 export interface LatestArticlesCopy {
   heading: string;
@@ -21,11 +23,14 @@ export function LatestArticlesSection({
   const items = articles.slice(0, 3);
 
   return (
-    <section className="homepage-section" aria-labelledby="latest-heading">
+    <section
+      className={sectionStyles["homepage-section"]}
+      aria-labelledby="latest-heading"
+    >
       <div className="pbk-container">
         <h2 id="latest-heading">{copy.heading}</h2>
         {items.length ? (
-          <div className="homepage-articles__grid">
+          <div className={latestStyles["homepage-articles__grid"]}>
             {items.map((article) => (
               <ContentCard
                 key={article.slug}

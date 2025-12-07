@@ -3,7 +3,7 @@ title: Checklista Seo
 slug: checklista-seo
 path: /do-pobrania/checklista-seo/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Checklista Seo

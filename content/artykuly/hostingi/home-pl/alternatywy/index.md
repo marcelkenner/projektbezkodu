@@ -4,7 +4,7 @@ slug: alternatywy
 path: /artykuly/hostingi/home-pl/alternatywy/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: >-
     home.pl – alternatywy, gdy chcesz zmienić hosting na coś bardziej
@@ -21,3 +21,5 @@ seo:
     Przegląd alternatywnych hostingów i platform, które warto rozważyć zamiast
     home.pl, w zależności od typu strony i budżetu.
 ---
+
+

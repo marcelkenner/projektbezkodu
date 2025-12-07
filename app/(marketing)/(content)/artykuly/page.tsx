@@ -8,7 +8,7 @@ import { listContentCategories } from "@/app/lib/content/categoryDirectory";
 import { ArticlesFilterBar } from "./ArticlesFilterBar";
 import { ArticleCard } from "./ArticleCard";
 import { ArticlesPagination } from "./ArticlesPagination";
-import "./articles.module.css";
+import styles from "./articles.module.css";
 
 const articleRepository = new ArticleRepository();
 const PAGE_SIZE = 9;
@@ -95,12 +95,14 @@ export default async function ArticlesPage({
   const jsonLd = buildCollectionJsonLd(pagedArticles, currentPage);
 
   return (
-    <section className="articles-page" id="content">
+    <section className={`articles-page ${styles["articles-page"]}`} id="content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="pbk-container articles-page__intro">
+      <div
+        className={`pbk-container articles-page__intro ${styles["articles-page__intro"]}`}
+      >
         <h1>{copy.listing.heading}</h1>
         <p>{copy.listing.subheading}</p>
       </div>
@@ -126,7 +128,7 @@ export default async function ArticlesPage({
           </div>
         ) : (
           <>
-            <div className="articles-grid">
+            <div className={`articles-grid ${styles["articles-grid"]}`}>
               {pagedArticles.map((article) => {
                 const primaryCategory =
                   article.taxonomy?.categories?.[0] ?? null;

@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/cloudimage/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Cloudimage – najczęstsze pytania i odpowiedzi
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zbieram odpowiedzi na typowe pytania o Cloudimage: techniczne szczegóły,
     ograniczenia, bezpieczeństwo i billing.
 ---
+
+

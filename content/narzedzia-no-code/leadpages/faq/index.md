@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/leadpages/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Leadpages – odpowiedzi na najczęstsze pytania
   subheading: >-

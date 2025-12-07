@@ -68,11 +68,8 @@
 }
 
 :global(.glossary-term__hero) {
-  background: linear-gradient(
-      135deg,
-      rgba(14, 165, 233, 0.07),
-      rgba(99, 102, 241, 0.07)
-    ),
+  background:
+    linear-gradient(135deg, rgba(14, 165, 233, 0.07), rgba(99, 102, 241, 0.07)),
     #f8fafc;
   border: 1px solid var(--color-border);
   border-radius: var(--radii-lg);

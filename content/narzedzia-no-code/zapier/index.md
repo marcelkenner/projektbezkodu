@@ -4,7 +4,7 @@ slug: zapier
 path: /narzedzia/zapier/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Zapier – klej, który spina Twoje aplikacje
   subheading: >-

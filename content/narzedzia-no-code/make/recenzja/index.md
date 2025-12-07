@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/make/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Make – recenzja z perspektywy codziennej pracy
   subheading: >-

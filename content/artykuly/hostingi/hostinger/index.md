@@ -4,7 +4,7 @@ slug: hostinger
 path: /artykuly/hostingi/hostinger/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Hostinger – czy ten popularny hosting faktycznie ułatwia życie twórcom stron
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     Przegląd Hostinger: jak działa panel, jak wygląda wydajność i jakie są
     koszty w dłuższej perspektywie w porównaniu z innymi hostingami.
 ---
+
+

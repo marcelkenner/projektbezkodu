@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/outseta/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Outseta – cennik w kontekście rosnącej bazy klientów
   subheading: >-

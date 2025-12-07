@@ -16,7 +16,7 @@ import {
   ContentCard,
 } from "@/app/ui";
 import styles from "./content-page.module.css";
-import "../artykuly/article.module.css";
+import articleStyles from "../artykuly/article.module.css";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { RandomArticlesSection } from "../components/RandomArticlesSection";
@@ -87,7 +87,10 @@ export default async function ContentPage({ params }: ContentPageProps) {
 
   if (useArticleLayout) {
     return (
-      <section className="article-page" id="content">
+      <section
+        className={`${articleStyles.articlePage} article-page`}
+        id="content"
+      >
         <div className="pbk-container">
           <header className="article-page__header">
             <Breadcrumbs items={breadcrumbs} />

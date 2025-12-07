@@ -4,7 +4,7 @@ slug: nazwa-pl
 path: /artykuly/hostingi/nazwa-pl/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: nazwa.pl – jak ten hosting sprawdza się w normalnych projektach
   subheading: >-
@@ -20,3 +20,5 @@ seo:
     Praktyczne spojrzenie na nazwa.pl: jak działa panel, jakie są koszty
     utrzymania stron i kiedy lepiej rozejrzeć się za innym dostawcą hostingu.
 ---
+
+

@@ -1,11 +1,11 @@
 ---
-title: "Kategoria: Forms"
+title: 'Kategoria: Forms'
 slug: forms
 path: /artykuly/editorial/forms/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Kategoria: Forms"
+  heading: 'Kategoria: Forms'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

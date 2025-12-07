@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/fathom/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Fathom – cennik w odniesieniu do ruchu na stronie
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Wyjaśniam, jak Fathom rozlicza ruch, jak liczyć koszt przy blogu, SaaS-ie i
     większym serwisie oraz kiedy cena jest atutem, a kiedy nie.
 ---
+
+

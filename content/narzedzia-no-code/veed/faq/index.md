@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/veed/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Veed – FAQ z perspektywy użytkownika
   subheading: >-

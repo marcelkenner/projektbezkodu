@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/memberstack/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Memberstack – odpowiedzi na pytania przed startem społeczności
   subheading: >-

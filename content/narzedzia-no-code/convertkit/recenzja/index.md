@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/convertkit/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: ConvertKit – recenzja pod kątem pracy twórcy, nie korporacji
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Plusy i minusy ConvertKit: tagowanie zamiast list, prostota edytora,
     ograniczenia w raportach oraz jak wypada przy bardziej złożonych lejkach.
 ---
+
+

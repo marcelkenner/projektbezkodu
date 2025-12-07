@@ -8,7 +8,7 @@ tags:
   - analityka
   - kpi
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Cele i KPI dla stron usługowych, SaaS i kursów online
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

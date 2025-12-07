@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from "./articles.module.css";
 
 interface PaginationCopy {
   ariaLabel: string;
@@ -26,7 +27,7 @@ export function ArticlesPagination({
   const items = buildPageItems(currentPage, totalPages);
 
   return (
-    <div className="articles-pagination">
+    <div className={`articles-pagination ${styles["articles-pagination"]}`}>
       <nav aria-label={copy.ariaLabel}>
         {currentPage > 1 ? (
           <PaginationLink
@@ -40,7 +41,7 @@ export function ArticlesPagination({
           item === "ellipsis" ? (
             <span
               key={`ellipsis-${index}`}
-              className="articles-pagination__ellipsis"
+              className={`articles-pagination__ellipsis ${styles["articles-pagination__ellipsis"]}`}
             >
               …
             </span>

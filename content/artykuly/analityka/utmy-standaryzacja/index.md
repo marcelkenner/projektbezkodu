@@ -8,7 +8,7 @@ tags:
   - analityka
   - utm
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Standaryzacja UTM (nazewnictwo kampanii)
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

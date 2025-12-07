@@ -4,7 +4,7 @@ slug: faq
 path: /artykuly/hostingi/cyber-folks/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: cyber_Folks – najczęstsze pytania o hosting, migracje i bezpieczeństwo
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Krótko i konkretnie o cyber_Folks: jak zacząć, jak przenieść projekt, jakie
     są możliwości przy problemach z wydajnością i wsparciem.
 ---
+
+

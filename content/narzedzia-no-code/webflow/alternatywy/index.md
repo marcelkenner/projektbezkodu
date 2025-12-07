@@ -5,7 +5,7 @@ path: /narzedzia/webflow/recenzja
 draft: false
 template: default
 type: review
-date: "2025-11-14"
+date: '2025-11-14'
 hero:
   heading: Webflow – recenzja no-code kreatora stron www
   subheading: >-
@@ -35,7 +35,7 @@ meta:
   tools:
     - Webflow
   author: Redakcja
-  updatedAt: "2025-11-14"
+  updatedAt: '2025-11-14'
   hasAffiliateLinks: true
   format: recenzja narzędzia
   topics:

@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/jotform/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Jotform – najczęstsze pytania i odpowiedzi
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zbieram praktyczne odpowiedzi na pytania o Jotform: bezpieczeństwo,
     integracje, szablony i rozliczanie planów.
 ---
+
+

@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/typeform/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Typeform – kiedy wystarczy prostsze narzędzie
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zestawiam Typeform z alternatywami, które oferują podobny UX lub funkcje
     przy innych cenach i ograniczeniach.
 ---
+
+

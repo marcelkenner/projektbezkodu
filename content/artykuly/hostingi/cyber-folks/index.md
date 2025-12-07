@@ -4,7 +4,7 @@ slug: cyber-folks
 path: /artykuly/hostingi/cyber-folks/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: cyber_Folks – jak ten hosting wpisuje się w projekty bez kodu i WordPressa
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Praktyczne spojrzenie na cyber_Folks: jakie ma mocne strony, gdzie ma
     ograniczenia i w jakich projektach sprawdza się najlepiej.
 ---
+
+

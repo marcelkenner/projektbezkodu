@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/aweber/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: AWeber – cennik i realne koszty newslettera
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Jak AWeber wypada cenowo na tle innych narzędzi, gdzie zaczynają się limity
     i kiedy dopłata do wyższego planu ma sens.
 ---
+
+

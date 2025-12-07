@@ -4,7 +4,7 @@ slug: surfer
 path: /narzedzia/surfer/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Surfer – edytor treści, który wie, co lubi Google
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Opisuję, jak Surfer analizuje wyniki wyszukiwania i podpowiada optymalizacje
     treści, żeby zwiększyć szanse na widoczność w Google i AI czatach.
 ---
+
+

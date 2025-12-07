@@ -4,7 +4,7 @@ slug: getresponse
 path: /narzedzia/getresponse/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: GetResponse – email, automatyzacje, lejki i webinary w jednym miejscu
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Opisuję kluczowe możliwości GetResponse: zaawansowane automatyzacje, lejki,
     webinary, landing page’e i integracje z e-commerce.
 ---
+
+

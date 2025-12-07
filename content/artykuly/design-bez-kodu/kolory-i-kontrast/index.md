@@ -1,5 +1,5 @@
 ---
-title: "Kolory i kontrast: palety, tryb ciemny i dostępność"
+title: 'Kolory i kontrast: palety, tryb ciemny i dostępność'
 slug: kolory-i-kontrast
 path: /artykuly/design-bez-kodu/kolory-i-kontrast/
 type: guide
@@ -9,9 +9,9 @@ tags:
   - kolory
   - accessibility
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Kolory i kontrast: palety, tryb ciemny i dostępność"
+  heading: 'Kolory i kontrast: palety, tryb ciemny i dostępność'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

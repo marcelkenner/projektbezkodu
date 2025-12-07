@@ -4,14 +4,14 @@ slug: relume-end-to-end
 path: /artykuly/przypadki-uzycia/relume-end-to-end/
 draft: false
 template: case-study
-date: "2024-10-19"
+date: '2024-10-19'
 hero:
   heading: Enterprise Design System na Relume i Webflow
   subheading: >-
     Standaryzowaliśmy komponenty dla globalnej marki, skracając czas produkcji
     landingów o 60%.
 seo:
-  title: "Case study: Design system na Relume i Webflow"
+  title: 'Case study: Design system na Relume i Webflow'
   description: >-
     Jak w 6 tygodni zbudowaliśmy bibliotekę komponentów w Relume, wdrożyliśmy je
     w Webflow i opisaliśmy procesy QA.

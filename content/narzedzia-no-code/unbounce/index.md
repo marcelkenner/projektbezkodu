@@ -4,7 +4,7 @@ slug: unbounce
 path: /narzedzia/unbounce/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Unbounce – landing page'e nastawione na konwersję
   subheading: >-

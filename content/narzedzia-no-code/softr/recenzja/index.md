@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/softr/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Softr – recenzja z perspektywy osoby od procesów, nie od pikseli
   subheading: >-

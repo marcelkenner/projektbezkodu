@@ -4,7 +4,7 @@ slug: imageengine
 path: /narzedzia/imageengine/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: ImageEngine – CDN, który sam dobiera format i rozdzielczość obrazów
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdź, jak ImageEngine optymalizuje obrazy per urządzenie i sieć,
     skracając czas ładowania stron i aplikacji.
 ---
+
+

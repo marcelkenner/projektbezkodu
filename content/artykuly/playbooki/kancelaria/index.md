@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona internetowa dla kancelarii prawnej"
+title: 'Playbook: strona internetowa dla kancelarii prawnej'
 slug: kancelaria
 path: /artykuly/playbooki/kancelaria/
 type: playbook
@@ -9,9 +9,9 @@ tags:
   - branża
   - prawo
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona internetowa dla kancelarii prawnej"
+  heading: 'Playbook: strona internetowa dla kancelarii prawnej'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

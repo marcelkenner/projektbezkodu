@@ -4,7 +4,7 @@ slug: kinsta
 path: /artykuly/hostingi/kinsta/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Kinsta – czy droższy, zarządzany hosting WordPress faktycznie się zwraca
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Praktyczne spojrzenie na Kinsta: dla kogo to rozwiązanie ma sens, jak
     wyglądają koszty i kiedy lepiej wybrać tańszy hosting.
 ---
+
+

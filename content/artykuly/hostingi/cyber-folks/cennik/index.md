@@ -4,7 +4,7 @@ slug: cennik
 path: /artykuly/hostingi/cyber-folks/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: cyber_Folks – cennik planów hostingowych rozpisany na scenariusze
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Analizuję ceny cyber_Folks pod kątem małych stron, kilku projektów na jednym
     koncie oraz bardziej wymagających serwisów.
 ---
+
+

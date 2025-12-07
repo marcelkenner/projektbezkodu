@@ -4,7 +4,7 @@ slug: faq
 path: /artykuly/hostingi/home-pl/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: home.pl – pytania i odpowiedzi, które pomagają uniknąć niespodzianek
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Najczęstsze pytania o home.pl wraz z prostymi odpowiedziami, które pozwalają
     szybciej ogarnąć panel i podstawowe operacje.
 ---
+
+

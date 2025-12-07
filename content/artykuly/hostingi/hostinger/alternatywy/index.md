@@ -4,7 +4,7 @@ slug: alternatywy
 path: /artykuly/hostingi/hostinger/alternatywy/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Hostinger – alternatywy, jeśli nie odpowiada Ci panel, cena albo support
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Lista narzędzi, które mogą zastąpić Hostinger, z krótkim komentarzem, kiedy
     warto się nimi zainteresować zamiast trzymać się obecnego hostingu.
 ---
+
+

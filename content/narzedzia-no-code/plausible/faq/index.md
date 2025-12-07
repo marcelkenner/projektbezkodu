@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/plausible/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Plausible – najczęstsze pytania o wdrożenie i prywatność
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zbieram odpowiedzi na kluczowe pytania o Plausible: jakie dane zbiera, jak
     zapewnia zgodność z GDPR, jak migrować oraz jakie są ograniczenia raportów.
 ---
+
+

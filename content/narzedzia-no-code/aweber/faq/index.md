@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/aweber/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: AWeber – odpowiedzi na najczęstsze pytania
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Najważniejsze pytania o AWeber: jak zacząć, jak importować kontakty, jak
     działają automaty i na co uważać przy rezygnacji.
 ---
+
+

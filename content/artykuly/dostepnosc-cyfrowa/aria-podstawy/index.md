@@ -1,5 +1,5 @@
 ---
-title: "ARIA: podstawy"
+title: 'ARIA: podstawy'
 slug: aria-podstawy
 path: /artykuly/dostepnosc-cyfrowa/aria-podstawy/
 type: guide
@@ -7,9 +7,9 @@ tags:
   - evergreen
   - zgodnosc
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "ARIA: podstawy"
+  heading: 'ARIA: podstawy'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

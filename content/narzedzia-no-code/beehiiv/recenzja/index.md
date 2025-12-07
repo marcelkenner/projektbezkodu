@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/beehiiv/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: beehiiv – recenzja z perspektywy twórcy newslettera
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Plusy i minusy beehiiv: narzędzia wzrostu, monetyzacja, ograniczenia w
     automatyzacjach i dla kogo platforma jest za prosta lub za rozbudowana.
 ---
+
+

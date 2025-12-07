@@ -799,7 +799,9 @@
   font-size: 1.2rem;
   line-height: 1;
   cursor: pointer;
-  transition: background 150ms ease, transform 150ms ease;
+  transition:
+    background 150ms ease,
+    transform 150ms ease;
 }
 
 .pbk-toolweek__close:hover {

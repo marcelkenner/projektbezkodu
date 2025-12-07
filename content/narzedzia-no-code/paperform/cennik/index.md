@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/paperform/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Paperform – cennik przeliczony na projekty i zespoły
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Rozkładam cennik Paperform na konkretne zastosowania: strony zapisów,
     sprzedaż produktów, formularze zgłoszeniowe.
 ---
+
+

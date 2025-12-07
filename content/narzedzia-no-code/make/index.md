@@ -4,7 +4,7 @@ slug: make
 path: /narzedzia/make/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Make – centrum automatyzacji dla rozsypanych narzędzi
   subheading: >-

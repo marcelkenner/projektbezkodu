@@ -1,11 +1,11 @@
 ---
-title: "Kategoria: Seo Performance"
+title: 'Kategoria: Seo Performance'
 slug: seo-performance
 path: /artykuly/seo/seo-performance/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Kategoria: Seo Performance"
+  heading: 'Kategoria: Seo Performance'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

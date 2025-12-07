@@ -9,7 +9,7 @@ tags:
   - mobile
   - core-web-vitals
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Checklist mobilna – wydajność mobile-first
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

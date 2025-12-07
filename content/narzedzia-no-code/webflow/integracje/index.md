@@ -4,7 +4,7 @@ slug: integracje
 path: /narzedzia/webflow/integracje/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Integracje Webflow – jak pożenić stronę z resztą Twoich narzędzi?
   subheading: >-

@@ -8,7 +8,7 @@ tags:
   - zgodnosc
   - wcag
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: WCAG quickstart – 30-punktowa checklista
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

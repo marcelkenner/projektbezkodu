@@ -1,13 +1,13 @@
 ---
-title: "Sekcje: Referencje i social proof"
+title: 'Sekcje: Referencje i social proof'
 slug: review-testimonials
-path: /biblioteka/sekcje/review-testimonials/
+path: /artykuly/biblioteka-komponentow/review-testimonials/
 type: template
 tags:
   - evergreen
   - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: Referencje i social proof

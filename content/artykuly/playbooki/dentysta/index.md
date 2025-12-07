@@ -1,5 +1,5 @@
 ---
-title: "Playbook: strona internetowa dla dentysty"
+title: 'Playbook: strona internetowa dla dentysty'
 slug: dentysta
 path: /artykuly/playbooki/dentysta/
 type: playbook
@@ -9,9 +9,9 @@ tags:
   - branża
   - dentysta
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Playbook: strona internetowa dla dentysty"
+  heading: 'Playbook: strona internetowa dla dentysty'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

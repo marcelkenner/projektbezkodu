@@ -4,7 +4,7 @@ slug: polityka-prywatnosci
 path: /artykuly/polityka-prywatnosci/
 draft: false
 template: legal
-date: "2024-12-01"
+date: '2024-12-01'
 hero:
   heading: Polityka prywatności ProjektBezKodu
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

@@ -7,7 +7,7 @@ tags:
   - evergreen
   - analytics
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Analityka i eksperymenty
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.

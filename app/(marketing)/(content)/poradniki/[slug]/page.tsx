@@ -16,8 +16,8 @@ import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
 import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
 import { extractFaqItems } from "@/app/lib/content/faqExtractor";
-import "./pillar-page.module.css";
-import "../../artykuly/article.module.css";
+import pillarStyles from "./pillar-page.module.css";
+import articleStyles from "../../artykuly/article.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
@@ -84,10 +84,6 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
     : "article-page__layout";
   const tutorialDocument = viewModel.getDocument();
   const tutorialFrontmatter = tutorialDocument.frontmatter;
-  const sidebarRelated = selectSidebarRelatedTutorials(
-    tutorialFrontmatter.slug ?? resolvedParams.slug,
-    categories,
-  );
   const canonicalPath =
     tutorialFrontmatter.path ?? `/poradniki/${resolvedParams.slug}/`;
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
@@ -119,6 +115,10 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
       badges.push({ label: tag.label, slug: tag.slug });
       return badges;
     }, []);
+  const sidebarRelated = selectSidebarRelatedTutorials(
+    tutorialFrontmatter.slug ?? resolvedParams.slug,
+    categories,
+  );
   const summaryBullets = viewModel.getSummaryBullets();
   const primaryCta = viewModel.getPrimaryCta();
   const secondaryCta = viewModel.getSecondaryCta();
@@ -131,7 +131,10 @@ export default async function TutorialPage({ params }: TutorialPageProps) {
   const tools = viewModel.getTools();
 
   return (
-    <section className="article-page" id="content">
+    <section
+      className={`${articleStyles.articlePage} ${pillarStyles.pillarPage} article-page`}
+      id="content"
+    >
       <StructuredDataScript
         id="tutorial-structured-data"
         data={structuredDataPayloads.length ? structuredDataPayloads : null}

@@ -6,6 +6,7 @@ import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 
 import styles from "../../../[...segments]/content-page.module.css";
+import articleStyles from "../../../artykuly/article.module.css";
 import {
   Breadcrumbs,
   TableOfContents,
@@ -90,7 +91,10 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
   const sidebarRelated = selectSidebarRelatedTools(slug, categories);
 
   return (
-    <section className="article-page" id="content">
+    <section
+      className={`${articleStyles.articlePage} article-page`}
+      id="content"
+    >
       <div className="pbk-container">
         <header className="article-page__header">
           <Breadcrumbs items={breadcrumbs} />

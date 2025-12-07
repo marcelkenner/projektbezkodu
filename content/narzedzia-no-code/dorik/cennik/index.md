@@ -3,7 +3,7 @@ title: Dorik Cennik
 slug: cennik
 path: /narzedzia/dorik/cennik/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

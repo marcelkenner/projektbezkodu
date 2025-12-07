@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/tally/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Tally – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Sprawdzam, jak Tally sprawdza się w małych biznesach, newsletterach i u solo
     twórców, którym zależy na prostocie i niskim koszcie.
 ---
+
+

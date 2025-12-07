@@ -33,11 +33,7 @@ export function RandomArticlesSection({
       </h2>
       <div className="articles-grid">
         {articles.map((article) => (
-          <ArticleCard
-            key={article.path}
-            article={article}
-            ctaLabel="Czytaj"
-          />
+          <ArticleCard key={article.path} article={article} ctaLabel="Czytaj" />
         ))}
       </div>
     </section>

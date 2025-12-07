@@ -1,4 +1,6 @@
 import Link from "next/link";
+import sectionStyles from "../section-shell.module.css";
+import newsletterStyles from "../newsletter.module.css";
 
 export interface NewsletterCopy {
   heading: string;
@@ -18,15 +20,15 @@ export function NewsletterSection({ copy }: { copy: NewsletterCopy }) {
 
   return (
     <section
-      className="homepage-section homepage-section--newsletter"
+      className={`${sectionStyles["homepage-section"]} ${sectionStyles["homepage-section--newsletter"]}`}
       aria-labelledby="newsletter-heading"
     >
-      <div className="pbk-container homepage-newsletter__wrapper">
-        <div className="homepage-newsletter__content">
+      <div className={`pbk-container ${newsletterStyles["homepage-newsletter__wrapper"]}`}>
+        <div className={newsletterStyles["homepage-newsletter__content"]}>
           <h2 id="newsletter-heading">{copy.heading}</h2>
           <p>{copy.body}</p>
           <form
-            className="homepage-newsletter__form"
+            className={newsletterStyles["homepage-newsletter__form"]}
             action="/api/newsletter/subscribe"
             method="post"
           >
@@ -39,7 +41,7 @@ export function NewsletterSection({ copy }: { copy: NewsletterCopy }) {
               placeholder={form.emailPlaceholder}
               minLength={3}
             />
-            <label className="homepage-newsletter__consent">
+            <label className={newsletterStyles["homepage-newsletter__consent"]}>
               <input type="checkbox" name="consent" required />{" "}
               {form.consentLabel}
             </label>

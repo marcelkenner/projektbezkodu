@@ -163,7 +163,10 @@ function loadToolsFromContent(): ToolOverviewEntry[] {
     .filter((entry) => entry.document.frontmatter.draft !== true)
     .map((entry) => {
       const frontmatter = entry.document.frontmatter;
-      const hero = frontmatter.hero ?? {};
+      const hero = (frontmatter.hero ?? {}) as {
+        heading?: string;
+        subheading?: string;
+      };
       const title = frontmatter.title ?? entry.segments.at(-1) ?? "Narzędzie";
       const slug = frontmatter.slug ?? entry.segments.at(-1) ?? "";
       const heroImage =

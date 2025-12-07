@@ -3,7 +3,8 @@ import {
   HomepageIconFactory,
   type ResourcePromoIconName,
 } from "./HomepageIconFactory";
-import "../resource-section.module.css";
+import sectionStyles from "../section-shell.module.css";
+import resourceStyles from "../resource-section.module.css";
 
 export interface ResourcePromoCopy {
   heading: string;
@@ -68,19 +69,23 @@ export function ResourcePromosSection({ copy }: { copy: ResourcePromoCopy }) {
 
   return (
     <section
-      className="homepage-section homepage-section--resources"
+      className={`${sectionStyles["homepage-section"]} ${resourceStyles["homepage-section--resources"]}`}
       aria-labelledby="resources-heading"
     >
-      <div className="pbk-container homepage-resources">
-        <header className="homepage-resources__header">
+      <div
+        className={`pbk-container ${resourceStyles["homepage-resources"]}`}
+      >
+        <header className={resourceStyles["homepage-resources__header"]}>
           {copy.subheading ? (
-            <p className="homepage-resources__eyebrow">{copy.subheading}</p>
+            <p className={resourceStyles["homepage-resources__eyebrow"]}>
+              {copy.subheading}
+            </p>
           ) : null}
           <h2 id="resources-heading">{copy.heading}</h2>
         </header>
         {primary ? <ResourcePromoPrimary card={primary} /> : null}
         {items.length ? (
-          <div className="homepage-resources__grid">
+          <div className={resourceStyles["homepage-resources__grid"]}>
             {items.map((promo) => (
               <ResourcePromoCard key={promo.title} card={promo} />
             ))}
@@ -93,24 +98,28 @@ export function ResourcePromosSection({ copy }: { copy: ResourcePromoCopy }) {
 
 function ResourcePromoPrimary({ card }: { card: ResourcePromoModel }) {
   return (
-    <article className="homepage-resources__primary">
-      <div className="homepage-resources__primaryBody">
+    <article className={resourceStyles["homepage-resources__primary"]}>
+      <div className={resourceStyles["homepage-resources__primaryBody"]}>
         {card.badge ? (
-          <p className="homepage-resources__badge">{card.badge}</p>
+          <p className={resourceStyles["homepage-resources__badge"]}>
+            {card.badge}
+          </p>
         ) : null}
         <h3>{card.title}</h3>
         <p>{card.description}</p>
         <Link
           href={card.href}
-          className="homepage-resources__primaryCta"
+          className={resourceStyles["homepage-resources__primaryCta"]}
           aria-label={card.ariaLabel}
         >
           {card.ctaLabel}
-          {HomepageIconFactory.arrow("homepage-resources__arrow")}
+          {HomepageIconFactory.arrow(resourceStyles["homepage-resources__arrow"])}
         </Link>
       </div>
       {card.stat ? (
-        <p className="homepage-resources__stat">{card.stat}</p>
+        <p className={resourceStyles["homepage-resources__stat"]}>
+          {card.stat}
+        </p>
       ) : null}
     </article>
   );
@@ -118,20 +127,23 @@ function ResourcePromoPrimary({ card }: { card: ResourcePromoModel }) {
 
 function ResourcePromoCard({ card }: { card: ResourcePromoModel }) {
   return (
-    <article className="homepage-resources__card">
-      <div className="homepage-resources__iconWrap">
-        {HomepageIconFactory.resource(card.icon)}
+    <article className={resourceStyles["homepage-resources__card"]}>
+      <div className={resourceStyles["homepage-resources__iconWrap"]}>
+        {HomepageIconFactory.resource(
+          card.icon,
+          resourceStyles["homepage-resources__icon"],
+        )}
       </div>
-      <div className="homepage-resources__cardBody">
+      <div className={resourceStyles["homepage-resources__cardBody"]}>
         <h3>{card.title}</h3>
         <p>{card.description}</p>
         <Link
           href={card.href}
-          className="homepage-resources__link"
+          className={resourceStyles["homepage-resources__link"]}
           aria-label={card.ariaLabel}
         >
           {card.ctaLabel}
-          {HomepageIconFactory.arrow("homepage-resources__arrow")}
+          {HomepageIconFactory.arrow(resourceStyles["homepage-resources__arrow"])}
         </Link>
       </div>
     </article>

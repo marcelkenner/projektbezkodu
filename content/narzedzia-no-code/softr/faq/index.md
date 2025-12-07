@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/softr/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Softr – odpowiedzi na pytania, które zwykle słyszę od klientów
   subheading: >-

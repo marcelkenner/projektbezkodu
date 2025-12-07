@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/convertkit/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: ConvertKit – odpowiedzi na pytania twórców newsletterów
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd najczęstszych pytań o ConvertKit: migracja z innych narzędzi,
     płatności, RODO, deliverability i obsługa wielu projektów.
 ---
+
+

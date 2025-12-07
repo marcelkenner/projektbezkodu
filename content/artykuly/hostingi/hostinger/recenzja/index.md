@@ -4,7 +4,7 @@ slug: recenzja
 path: /artykuly/hostingi/hostinger/recenzja/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Hostinger – recenzja z naciskiem na szybkość wdrożeń i prostotę
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Jak Hostinger sprawdza się przy stronach firmowych, landingach i blogach:
     tempo działania, awaryjność, panel oraz jakość wsparcia.
 ---
+
+

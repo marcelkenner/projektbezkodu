@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/beehiiv/cennik/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: beehiiv – cennik w kontekście przychodów z newslettera
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Tłumaczę, jak działają plany beehiiv, na co uważać przy skokach cenowych i
     jak wliczyć w to przychody z reklam, poleceń i subskrypcji.
 ---
+
+

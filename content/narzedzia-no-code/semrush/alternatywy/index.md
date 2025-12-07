@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/semrush/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Semrush – kiedy wystarczy lżejsze narzędzie
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Pokazuję, kiedy zamiast Semrush warto wybrać prostszy pakiet SEO, tańsze
     narzędzie do keyword researchu albo specjalistyczny kombajn dla agencji.
 ---
+
+

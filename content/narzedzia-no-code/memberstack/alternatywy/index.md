@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/memberstack/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: >-
     Co zamiast Memberstack, gdy potrzebujesz innych płatności lub większej

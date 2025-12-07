@@ -1,13 +1,13 @@
 ---
-title: "Sekcje: CTA"
+title: 'Sekcje: CTA'
 slug: cta
-path: /biblioteka/sekcje/cta/
+path: /artykuly/biblioteka-komponentow/cta/
 type: template
 tags:
   - evergreen
   - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: CTA

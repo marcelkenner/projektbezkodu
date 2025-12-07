@@ -3,7 +3,7 @@ title: Adobe Creative Cloud Express Vs Canva
 slug: express-vs-canva
 path: /narzedzia/adobe-creative-cloud/express-vs-canva/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

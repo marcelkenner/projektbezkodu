@@ -4,7 +4,7 @@ slug: mailerlite
 path: /narzedzia/mailerlite/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: MailerLite – prosty start z newsletterem i automatyzacją
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Przegląd funkcji MailerLite: kreator newsletterów, automatyzacje, strony
     docelowe, formularze i prosty cennik oparty o liczbę subskrybentów.
 ---
+
+

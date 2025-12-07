@@ -4,7 +4,7 @@ slug: alternatywy
 path: /artykuly/hostingi/cyber-folks/alternatywy/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: cyber_Folks – alternatywy, jeśli szukasz innego podejścia do hostingu
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zobacz, jak cyber_Folks wypada na tle alternatyw oraz jakie opcje warto
     wziąć pod uwagę, gdy planujesz migrację.
 ---
+
+

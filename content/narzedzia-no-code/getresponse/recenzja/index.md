@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/getresponse/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: GetResponse – recenzja z punktu widzenia małego biznesu online
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Plusy i minusy GetResponse: elastyczność automatyzacji, jakość szablonów,
     intuicyjność panelu i gdzie pojawia się „bloat” funkcji.
 ---
+
+

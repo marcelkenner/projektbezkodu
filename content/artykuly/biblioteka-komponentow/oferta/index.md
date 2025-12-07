@@ -1,13 +1,13 @@
 ---
-title: "Sekcje: Oferta i korzyści"
+title: 'Sekcje: Oferta i korzyści'
 slug: oferta
-path: /biblioteka/sekcje/oferta/
+path: /artykuly/biblioteka-komponentow/oferta/
 type: template
 tags:
   - evergreen
   - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 ---
 
 # Sekcje: Oferta i korzyści

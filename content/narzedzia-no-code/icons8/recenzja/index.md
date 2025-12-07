@@ -3,7 +3,7 @@ title: Icons8 Recenzja
 slug: recenzja
 path: /narzedzia/icons8/recenzja/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg

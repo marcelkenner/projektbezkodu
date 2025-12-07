@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/mailerlite/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: MailerLite – recenzja w stylu „co mam z tego ja”
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Plusy i minusy MailerLite: deliverability, wygoda edytora, ograniczenia
     automatyzacji i to, kiedy lepiej rozejrzeć się za czymś cięższym kalibrem.
 ---
+
+

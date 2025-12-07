@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/make/faq/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Make – odpowiedzi na najczęstsze pytania przed startem
   subheading: >-

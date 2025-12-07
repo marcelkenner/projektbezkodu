@@ -4,7 +4,7 @@ slug: faq
 path: /artykuly/hostingi/nazwa-pl/faq/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: nazwa.pl – praktyczne FAQ dla osób, które nie chcą bawić się w admina
   subheading: >-
@@ -19,3 +19,5 @@ seo:
     Zebrane odpowiedzi na pytania o nazwa.pl: jak zacząć, jak przenieść stronę,
     co z odnowieniami i limitami oraz jak dogadać się z pomocą techniczną.
 ---
+
+

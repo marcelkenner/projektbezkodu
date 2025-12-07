@@ -1,5 +1,5 @@
 ---
-title: "Copy: koszyk i płatności"
+title: 'Copy: koszyk i płatności'
 slug: koszyk-i-platnosci
 path: /artykuly/microcopy/koszyk-i-platnosci/
 type: template
@@ -7,9 +7,9 @@ tags:
   - evergreen
   - microcopy
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Copy: koszyk i płatności"
+  heading: 'Copy: koszyk i płatności'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

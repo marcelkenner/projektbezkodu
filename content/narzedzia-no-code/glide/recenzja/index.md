@@ -4,7 +4,7 @@ slug: recenzja
 path: /narzedzia/glide/recenzja/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Glide – recenzja z perspektywy szybkich MVP i narzędzi wewnętrznych
   subheading: >-

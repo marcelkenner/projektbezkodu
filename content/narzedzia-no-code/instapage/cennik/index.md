@@ -4,7 +4,7 @@ slug: cennik
 path: /narzedzia/instapage/cennik/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Instapage – cennik i realne koszty
   subheading: >-
