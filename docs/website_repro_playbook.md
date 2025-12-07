@@ -321,9 +321,10 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 
 ## 25. Component Performance Guard
 
-1. Next.js 16 + React 19 occasionally crash dev navigations with `Failed to execute 'measure' on 'Performance': '<Component>' cannot have a negative time stamp.` (seen on `/narzedzia/webflow`). The issue comes from upstream component-performance instrumentation rather than our page code.
+1. Next.js 16 + React 19 occasionally crash dev navigations with `Failed to execute 'measure' on 'Performance': '<Component>' cannot have a negative time stamp.` (seen on `/narzedzia/webflow`) and, under Turbopack, can throw `ReferenceError: Link is not defined` on server-rendered pages such as `/poradniki` or `/glossary`. Both stem from upstream instrumentation rather than our page code.
 2. The fix lives in `app/ui/performance/PerformanceMeasureGuard.tsx`. It instantiates a `PerformanceMeasureSanitizer` class that overrides `performance.measure`, clamps invalid `{ start, end }` pairs, and quietly swallows the DOMException whenever the upstream profiler still passes inconsistent data.
 3. `app/layout.tsx` must render `<PerformanceMeasureGuard />` before other UI so every client component benefits from the override. The guard no-ops in production builds to keep real metrics untouched; remove the component (and update this section) once the upstream bug is resolved in a future Next.js release.
+4. Run dev with webpack instead of Turbopack (`npm run dev` already passes `--no-turbo`) until the Link crash is fixed upstream; if you switch back to Turbopack, delete `.next/dev` to clear stale bundles first.
 
 ## 26. Front Matter Formatting
 
