@@ -1,46 +1,61 @@
 ---
-title: "SEO w Beacons – jak sprawić, żeby link w bio i sklep faktycznie dały ci ruch?"
-slug: "seo"
-path: "/narzedzia/beacons/seo"
+title: SEO w Beacons – jak sprawić, żeby link w bio i sklep faktycznie dały ci ruch?
+slug: seo
+path: /narzedzia/beacons/seo
 draft: false
-template: "default"
-type: "guide"
-date: "2025-12-08"
+template: default
+type: guide
+date: '2025-12-08'
 hero:
-  heading: "SEO w Beacons: ile realnie możesz ugrać w Google?"
-  subheading: "Beacons jest narzędziem social-first, nie systemem pozycjonowania. Ale dobrze ustawione tytuły, opisy i domena stawiają cię przed większością twórców."
-  primaryCta: "Sprawdź, czy Beacons w ogóle pasuje do twojej strategii"
-  secondaryCta: "Przeczytaj recenzję Beacons"
+  heading: 'SEO w Beacons: ile realnie możesz ugrać w Google?'
+  subheading: >-
+    Beacons jest narzędziem social-first, nie systemem pozycjonowania. Ale
+    dobrze ustawione tytuły, opisy i domena stawiają cię przed większością
+    twórców.
+  primaryCta: Sprawdź, czy Beacons w ogóle pasuje do twojej strategii
+  secondaryCta: Przeczytaj recenzję Beacons
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "SEO w Beacons – praktyczny przewodnik dla twórców z Polski"
-  description: "Jak ustawić SEO w Beacons: tytuły i opisy, custom domain, indeksowanie stron produktów i strategia „link w bio + strona www”. Konkretnie, po polsku, bez magii."
+  title: SEO w Beacons – praktyczny przewodnik dla twórców z Polski
+  description: >-
+    Jak ustawić SEO w Beacons: tytuły i opisy, custom domain, indeksowanie stron
+    produktów i strategia „link w bio + strona www”. Konkretnie, po polsku, bez
+    magii.
 meta:
-  updatedAt: "2025-12-08"
-  format: "guide"
+  updatedAt: '2025-12-08'
+  format: guide
   topics:
-    - "SEO"
-    - "link in bio"
-    - "sklep dla twórców"
+    - SEO
+    - link in bio
+    - sklep dla twórców
   summaryBullets:
-    - "SEO w Beacons jest dodatkiem, nie fundamentem – dbasz o brand search i konkretne produkty, nie o ogólne frazy typu „kurs copywritingu”."
-    - "Prawdziwy przełom dla SEO w Beacons zaczyna się dopiero od własnej domeny i włączenia zaawansowanych opcji indeksowania produktów."
-    - "Najsensowniejsza strategia dla twórcy z Polski to duet: Beacons jako lekki hub + własna strona lub blog jako główne źródło ruchu z Google."
+    - >-
+      SEO w Beacons jest dodatkiem, nie fundamentem – dbasz o brand search i
+      konkretne produkty, nie o ogólne frazy typu „kurs copywritingu”.
+    - >-
+      Prawdziwy przełom dla SEO w Beacons zaczyna się dopiero od własnej domeny
+      i włączenia zaawansowanych opcji indeksowania produktów.
+    - >-
+      Najsensowniejsza strategia dla twórcy z Polski to duet: Beacons jako lekki
+      hub + własna strona lub blog jako główne źródło ruchu z Google.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "SEO"
+    - Narzędzia
+    - SEO
   tags:
-    - "Beacons"
-    - "SEO"
-    - "link in bio"
-    - "creator economy"
+    - Beacons
+    - SEO
+    - link in bio
+    - creator economy
 ---
 
 # SEO w Beacons – co realnie da się ugrać w Google?
 
 Zacznijmy od szybkiego werdyktu: **Beacons nie zastąpi porządnej strony pod SEO**, ale może zrobić dwie rzeczy bardzo dobrze:
 
-- zabezpieczyć twoje „brandowe” wyniki w Google (imię/nazwa marki + „sklep”, „oferta”, „ebook”),  
+- zabezpieczyć twoje „brandowe” wyniki w Google (imię/nazwa marki + „sklep”, „oferta”, „ebook”),
 - pomóc, żeby produkty ze sklepu i proste strony sprzedażowe miały sensowny tytuł, opis i własną domenę.
 
 Po tej stronie będziesz wiedzieć:
@@ -65,7 +80,7 @@ Drugi element to **domena**. W ustawieniach „Custom Domain Settings” możesz
 
 - połączyć własną domenę,
 - przypisać ją do link in bio albo strony www,  
-co Beacons opisuje wprost jako miejsce do „zarządzania własną domeną i łączenia jej z linkiem w bio lub stroną internetową”. Instrukcja jest w oficjalnym help center: [Custom Domain Settings](https://help.beacons.ai/en/articles/5228993) oraz [Connect Domain to your Website](https://help.beacons.ai/en/articles/4696065).
+  co Beacons opisuje wprost jako miejsce do „zarządzania własną domeną i łączenia jej z linkiem w bio lub stroną internetową”. Instrukcja jest w oficjalnym help center: [Custom Domain Settings](https://help.beacons.ai/en/articles/5228993) oraz [Connect Domain to your Website](https://help.beacons.ai/en/articles/4696065).
 
 Trzeci element to **SEO dla sklepu i produktów**. W tabeli cennika znajdziesz punkty typu „Advanced SEO and marketing features” oraz „Advanced SEO customization – make your product pages indexable by search engines”. To jasny sygnał: przy wyższych planach Beacons nie tylko pozwala ustawić tytuł/description, ale też steruje tym, czy strony produktów są w ogóle widoczne dla Google.
 
@@ -113,7 +128,7 @@ Beacons sam pokazuje, że łączenie custom domain z website/link in bio jest ws
 Dla SEO różnica między:
 
 - `beacons.ai/twojnick`  
-a
+  a
 - `twojbrand.pl`
 
 jest ogromna:
@@ -202,8 +217,8 @@ Wróć do SEO Settings i potraktuj tytuł i opis jak mini-stronę główną:
 Przykład dla freelancera od social media:
 
 > **Tytuł:**  
-> Marta Nowak – strategie social media i konsultacje dla ekspertów  
->  
+> Marta Nowak – strategie social media i konsultacje dla ekspertów
+>
 > **Opis:**  
 > Pomagam ekspertom i twórcom poukładać komunikację w social media, sprzedawać kursy i konsultacje bez spamu. Zapisz się na newsletter z gotowymi schematami postów i zobacz moje aktualne oferty.
 
@@ -227,7 +242,7 @@ Jeśli jeszcze nie masz strony, sensowny ruch to:
 
 Potem – gdy postawisz „dorosłą” stronę na WordPressie czy Webflow – możesz:
 
-- użyć `twojbrand.pl` dla strony,  
+- użyć `twojbrand.pl` dla strony,
 - a Beacons przenieść na `bio.twojbrand.pl` (subdomena) lub osobną domenę.
 
 Ważne, żeby **brandowa domena, którą wypowiadasz na stories i w podcastach**, docelowo była twoją stroną, a nie cudzym adresem z dopiskiem `/twojnick`.
@@ -263,7 +278,7 @@ Z naszej perspektywy najrozsądniejsza taktyka dla twórcy z Polski wygląda tak
 
 Ty jako twórca dbasz, żeby:
 
-- link z bio w social mediach nie kierował wyłącznie na stronę z cudzą domeną,  
+- link z bio w social mediach nie kierował wyłącznie na stronę z cudzą domeną,
 - stories, posty, opisy filmów od czasu do czasu linkowały bezpośrednio na ważne artykuły i landing pages.
 
 To podejście jest spójne z tym, co SEO-specjaliści piszą np. o Linktree: samo ustawienie tytułu i opisu nie robi wielkiego SEO, a wysyłanie całego ruchu na cudzą domenę raczej pomaga platformie niż twojej marce. Różne analizy sugerują, że własna domena i własna strona z sekcją „linki” zwykle wychodzą lepiej długoterminowo, niż przywiązywanie się wyłącznie do zewnętrznego bio linka.
@@ -318,11 +333,11 @@ Najprostszy podział wygląda tak:
 
 Dla większości twórców z Polski rozsądne jest podejście etapowe:
 
-1. Beacons Free / Creator jako **pierwszy dom** w sieci z sensownym tytułem i opisem.  
-2. Podpięcie **własnej domeny** i zadbanie o SEO link in bio / website.  
+1. Beacons Free / Creator jako **pierwszy dom** w sieci z sensownym tytułem i opisem.
+2. Podpięcie **własnej domeny** i zadbanie o SEO link in bio / website.
 3. Gdy rośnie ruch i oferta – **dołożenie własnej strony** i traktowanie Beacons jako lekkiego huba, nie jedynego źródła prawdy.
 
-Jeśli chcesz zobaczyć, jak Beacons wypada kosztowo przy takiej strategii, przejdź od razu do [cennika](/narzedzia/beacons/cennik/) i [alternatyw](/narzedzia/beacons/alternatywy/).  
+Jeśli chcesz zobaczyć, jak Beacons wypada kosztowo przy takiej strategii, przejdź od razu do [cennika](/narzedzia/beacons/cennik/) i [alternatyw](/narzedzia/beacons/alternatywy/).
 
 Jednozdaniowe podsumowanie do zapamiętania:  
 **Beacons to nie system do pozycjonowania, tylko twój social-hub – ustaw mu tytuł, opis i domenę tak, żeby Google wiedziało, kogo ma przed sobą, a resztę pracy zrobi porządna strona www i dobre treści.**

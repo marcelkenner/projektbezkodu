@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import "../ui.css";
 import "../../(marketing)/(content)/artykuly/articles.module.css";
@@ -43,21 +44,22 @@ export function ContentCard({
 
   return (
     <article className="articles-card">
-      <figure
-        className="articles-card__image"
-        style={{
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.55)), url(${hero})`,
-        }}
-        aria-label={alt}
-      >
-        <div className="articles-card__imageContent">
-          <p className="articles-card__imageTitle">{title}</p>
-          {subheading ? (
-            <p className="articles-card__imageSubtitle">{subheading}</p>
-          ) : null}
-        </div>
+      <figure className="articles-card__image" aria-label={alt}>
+        <Image
+          src={hero}
+          alt={alt}
+          width={1600}
+          height={900}
+          className="articles-card__thumb"
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+        />
+        <div className="articles-card__overlay" />
       </figure>
       <div className="articles-card__body">
+        <h3 className="articles-card__title">{title}</h3>
+        {subheading ? (
+          <p className="articles-card__summary">{subheading}</p>
+        ) : null}
         <div className="articles-card__footer">
           <p className="articles-card__meta">
             {meta.map((item) => (

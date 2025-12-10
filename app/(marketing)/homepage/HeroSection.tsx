@@ -52,9 +52,7 @@ export function HeroSection() {
       className={heroStyles["homepage-hero"]}
       aria-labelledby="hero-heading"
     >
-      <div
-        className={`pbk-container ${heroStyles["homepage-hero__layout"]}`}
-      >
+      <div className={`pbk-container ${heroStyles["homepage-hero__layout"]}`}>
         <div className={heroStyles["homepage-hero__content"]}>
           <h1 id="hero-heading">{heroContent.heading}</h1>
           <p className={heroStyles["homepage-hero__lead"]}>
@@ -71,7 +69,10 @@ export function HeroSection() {
             >
               Projektuj w:
             </p>
-            <div className={socialStyles["homepage-socialProof__logos"]} role="list">
+            <div
+              className={socialStyles["homepage-socialProof__logos"]}
+              role="list"
+            >
               <img
                 alt="Logo Webflow"
                 className={socialStyles["homepage-socialProof__logo"]}

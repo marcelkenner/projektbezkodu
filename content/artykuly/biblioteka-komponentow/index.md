@@ -8,6 +8,9 @@ tags:
   - patterns
 draft: true
 date: '2025-11-05'
+hero:
+  heading: Biblioteka sekcji i wzorców
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Biblioteka sekcji i wzorców

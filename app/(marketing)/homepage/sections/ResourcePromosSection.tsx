@@ -72,9 +72,7 @@ export function ResourcePromosSection({ copy }: { copy: ResourcePromoCopy }) {
       className={`${sectionStyles["homepage-section"]} ${resourceStyles["homepage-section--resources"]}`}
       aria-labelledby="resources-heading"
     >
-      <div
-        className={`pbk-container ${resourceStyles["homepage-resources"]}`}
-      >
+      <div className={`pbk-container ${resourceStyles["homepage-resources"]}`}>
         <header className={resourceStyles["homepage-resources__header"]}>
           {copy.subheading ? (
             <p className={resourceStyles["homepage-resources__eyebrow"]}>
@@ -113,7 +111,9 @@ function ResourcePromoPrimary({ card }: { card: ResourcePromoModel }) {
           aria-label={card.ariaLabel}
         >
           {card.ctaLabel}
-          {HomepageIconFactory.arrow(resourceStyles["homepage-resources__arrow"])}
+          {HomepageIconFactory.arrow(
+            resourceStyles["homepage-resources__arrow"],
+          )}
         </Link>
       </div>
       {card.stat ? (
@@ -143,7 +143,9 @@ function ResourcePromoCard({ card }: { card: ResourcePromoModel }) {
           aria-label={card.ariaLabel}
         >
           {card.ctaLabel}
-          {HomepageIconFactory.arrow(resourceStyles["homepage-resources__arrow"])}
+          {HomepageIconFactory.arrow(
+            resourceStyles["homepage-resources__arrow"],
+          )}
         </Link>
       </div>
     </article>

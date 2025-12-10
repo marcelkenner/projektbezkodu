@@ -1,19 +1,27 @@
 ---
-title: "Szablony Webflow – jak wybrać mądrze (a nie tylko „ładnie”)"
-slug: "szablony"
-path: "/narzedzia/webflow/szablony/"
+title: Szablony Webflow – jak wybrać mądrze (a nie tylko „ładnie”)
+slug: szablony
+path: /narzedzia/webflow/szablony/
 draft: false
-template: "default"
-type: "guide"
-date: "2025-12-07"
+template: default
+type: guide
+date: '2025-12-07'
 hero:
-  heading: "Szablony Webflow: skrót do sensownego projektu, nie proteza"
-  subheading: "Zobacz, kiedy szablon Webflow rzeczywiście przyspieszy Twoją pracę – a kiedy lepiej od razu projektować po swojemu."
-  primaryCta: "/narzedzia/webflow/"
-  secondaryCta: "/narzedzia/webflow/recenzja/"
+  heading: 'Szablony Webflow: skrót do sensownego projektu, nie proteza'
+  subheading: >-
+    Zobacz, kiedy szablon Webflow rzeczywiście przyspieszy Twoją pracę – a kiedy
+    lepiej od razu projektować po swojemu.
+  primaryCta: /narzedzia/webflow/
+  secondaryCta: /narzedzia/webflow/recenzja/
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Szablony Webflow – przewodnik dla projektantów, marketerów i founderów"
-  description: "Jak wybierać i używać szablonów Webflow: oficjalny Marketplace, darmowe template’y, cloneables, ograniczenia i praktyczne workflow dla freelancerów, marketerów i founderów."
+  title: Szablony Webflow – przewodnik dla projektantów, marketerów i founderów
+  description: >-
+    Jak wybierać i używać szablonów Webflow: oficjalny Marketplace, darmowe
+    template’y, cloneables, ograniczenia i praktyczne workflow dla freelancerów,
+    marketerów i founderów.
   keywords:
     - Webflow szablony
     - Webflow templates
@@ -21,40 +29,46 @@ seo:
     - Webflow marketplace
     - darmowe szablony Webflow
 meta:
-  difficulty: "łatwe-średnie"
-  duration: "15 minut"
+  difficulty: łatwe-średnie
+  duration: 15 minut
   tools:
-    - "Webflow"
-  updatedAt: "2025-12-07"
+    - Webflow
+  updatedAt: '2025-12-07'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Sprawdź, czy Webflow ma sens w Twoim przypadku"
-    href: "/narzedzia/webflow/"
+    label: Sprawdź, czy Webflow ma sens w Twoim przypadku
+    href: /narzedzia/webflow/
   secondaryCta:
-    label: "Przeczytaj pełną recenzję Webflow"
-    href: "/narzedzia/webflow/recenzja/"
-  format: "przewodnik"
+    label: Przeczytaj pełną recenzję Webflow
+    href: /narzedzia/webflow/recenzja/
+  format: przewodnik
   topics:
-    - "Webflow"
-    - "szablony"
-    - "no-code"
-    - "web design"
+    - Webflow
+    - szablony
+    - no-code
+    - web design
   stack:
-    - "Webflow"
+    - Webflow
   summaryBullets:
-    - "Rozumiesz różnicę między oficjalnymi szablonami, darmowymi template’ami i cloneables w Webflow."
-    - "Wiesz, jak krok po kroku wybrać szablon pod portfolio, SaaS, blog lub e-commerce."
-    - "Dostajesz konkretny workflow pracy z szablonem, żeby projekt nie zamienił się w chaos klas i styli."
+    - >-
+      Rozumiesz różnicę między oficjalnymi szablonami, darmowymi template’ami i
+      cloneables w Webflow.
+    - >-
+      Wiesz, jak krok po kroku wybrać szablon pod portfolio, SaaS, blog lub
+      e-commerce.
+    - >-
+      Dostajesz konkretny workflow pracy z szablonem, żeby projekt nie zamienił
+      się w chaos klas i styli.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "Web development"
-    - "No-code"
+    - Narzędzia
+    - Web development
+    - No-code
   tags:
-    - "Webflow"
-    - "Webflow templates"
-    - "szablony Webflow"
-    - "cloneable"
+    - Webflow
+    - Webflow templates
+    - szablony Webflow
+    - cloneable
 ---
 
 Po lekturze tej strony będziesz wiedzieć, czy w Twoim projekcie warto w ogóle dotykać szablonów Webflow – i jeśli tak, to jak to zrobić, żeby przyspieszyć pracę, a nie skończyć z nieedytowalnym potworem.
@@ -71,14 +85,14 @@ Krótko: **szablony Webflow są świetnym skrótem dla większości małych proj
 
 Webflow ma dziś ogromny ekosystem szablonów:
 
-- oficjalny Marketplace z ponad 7000+ HTML templates, filtrowanych po typie strony i stylu, w wersjach darmowych i płatnych, dostępny na [webflow.com/templates](https://webflow.com/templates), :contentReference[oaicite:0]{index=0}  
-- sekcję darmowych template’ów na [Free Website Templates](https://webflow.com/templates/free-website-templates), :contentReference[oaicite:1]{index=1}  
-- tysiące cloneables i free template’ów od community w sekcji [Made in Webflow](https://webflow.com/made-in-webflow), które możesz jednym kliknięciem sklonować do swojego workspace’u. :contentReference[oaicite:2]{index=2}  
+- oficjalny Marketplace z ponad 7000+ HTML templates, filtrowanych po typie strony i stylu, w wersjach darmowych i płatnych, dostępny na [webflow.com/templates](https://webflow.com/templates), :contentReference[oaicite:0]{index=0}
+- sekcję darmowych template’ów na [Free Website Templates](https://webflow.com/templates/free-website-templates), :contentReference[oaicite:1]{index=1}
+- tysiące cloneables i free template’ów od community w sekcji [Made in Webflow](https://webflow.com/made-in-webflow), które możesz jednym kliknięciem sklonować do swojego workspace’u. :contentReference[oaicite:2]{index=2}
 
 Dla większości freelancerów i małych zespołów szablon:
 
-- przyspiesza start projektu o kilka dni,  
-- daje gotowe, przetestowane layouty (hero, pricing, blog, sekcje CTA),  
+- przyspiesza start projektu o kilka dni,
+- daje gotowe, przetestowane layouty (hero, pricing, blog, sekcje CTA),
 - zapewnia sensowną bazę klas i komponentów.
 
 O ile świadomie wybierzesz szablon blisko swojego use case’u i nie zaczniesz bez planu nadpisywać wszystkiego po kolei, **zyskujesz czas, a nie nowy rodzaj długu technicznego**.
@@ -89,15 +103,15 @@ Masz trzy główne „półki”, z których możesz brać materiały startowe.
 
 ### Oficjalny Marketplace Webflow
 
-Oficjalna półka to [Webflow Marketplace](https://webflow.com/marketplace), z sekcją Templates, Apps i Libraries. :contentReference[oaicite:3]{index=3}  
+Oficjalna półka to [Webflow Marketplace](https://webflow.com/marketplace), z sekcją Templates, Apps i Libraries. :contentReference[oaicite:3]{index=3}
 
 Najważniejsze fakty:
 
-- Ponad 7000+ szablonów HTML5, podzielonych na typy stron (np. „Business”, „Portfolio”, „Blog”, „Ecommerce”). :contentReference[oaicite:4]{index=4}  
-- Szablony projektowane zarówno przez zespół Webflow (np. Elysian Tennis, Velocity, Business Starter), jak i przez zewnętrznych designerów, ale pod wspólnymi guideline’ami jakości. :contentReference[oaicite:5]{index=5}  
-- Filtry po stylu (minimal, corporate, bold…), typie (one-page, multi-page), a także po cenie – w tym zakres „Free only”. :contentReference[oaicite:6]{index=6}  
+- Ponad 7000+ szablonów HTML5, podzielonych na typy stron (np. „Business”, „Portfolio”, „Blog”, „Ecommerce”). :contentReference[oaicite:4]{index=4}
+- Szablony projektowane zarówno przez zespół Webflow (np. Elysian Tennis, Velocity, Business Starter), jak i przez zewnętrznych designerów, ale pod wspólnymi guideline’ami jakości. :contentReference[oaicite:5]{index=5}
+- Filtry po stylu (minimal, corporate, bold…), typie (one-page, multi-page), a także po cenie – w tym zakres „Free only”. :contentReference[oaicite:6]{index=6}
 
-Marketplace jest kuratorowany: każdy template przechodzi review wg quality rubric, a projektanci, którzy chcą sprzedawać, muszą zgłosić się jako Marketplace Creator przez stronę [Submit a template](https://webflow.com/templates/submit-a-template). :contentReference[oaicite:7]{index=7}  
+Marketplace jest kuratorowany: każdy template przechodzi review wg quality rubric, a projektanci, którzy chcą sprzedawać, muszą zgłosić się jako Marketplace Creator przez stronę [Submit a template](https://webflow.com/templates/submit-a-template). :contentReference[oaicite:7]{index=7}
 
 Przekład na praktykę: **to jest najbezpieczniejsze miejsce, jeśli kupujesz szablon pod klienta**, bo ktoś już sprawdził semantykę, responsywność i bazową jakość wykonania.
 
@@ -105,14 +119,14 @@ Przekład na praktykę: **to jest najbezpieczniejsze miejsce, jeśli kupujesz sz
 
 Druga półka to community:
 
-- tysiące stron w zakładce [Cloneable](https://webflow.com/made-in-webflow/cloneable), które możesz sklonować w całości i przerabiać, :contentReference[oaicite:8]{index=8}  
-- kolekcja „Free template” w [Made in Webflow](https://webflow.com/made-in-webflow/free-template), gdzie projekty są oznaczone jako „Free template” lub „Website Template”, :contentReference[oaicite:9]{index=9}  
-- wyspecjalizowane kategorie (np. pricing pages, community, blogi) z gotowymi layoutami pod konkretne sekcje. :contentReference[oaicite:10]{index=10}  
+- tysiące stron w zakładce [Cloneable](https://webflow.com/made-in-webflow/cloneable), które możesz sklonować w całości i przerabiać, :contentReference[oaicite:8]{index=8}
+- kolekcja „Free template” w [Made in Webflow](https://webflow.com/made-in-webflow/free-template), gdzie projekty są oznaczone jako „Free template” lub „Website Template”, :contentReference[oaicite:9]{index=9}
+- wyspecjalizowane kategorie (np. pricing pages, community, blogi) z gotowymi layoutami pod konkretne sekcje. :contentReference[oaicite:10]{index=10}
 
 To jest złoto:
 
-- do nauki Webflow,  
-- do szybkiego proof-of-concept,  
+- do nauki Webflow,
+- do szybkiego proof-of-concept,
 - do wyciągania pojedynczych sekcji (hero, pricing, blog layout) do własnego projektu.
 
 Ale: jakość jest bardziej zróżnicowana niż w oficjalnym Marketplace, więc **trzeba na chłodno patrzeć na strukturę klas, semantykę i performance**, a nie tylko na efekt wizualny.
@@ -121,10 +135,10 @@ Ale: jakość jest bardziej zróżnicowana niż w oficjalnym Marketplace, więc 
 
 Trzecia półka to zewnętrzne społeczności i sklepy, np.:
 
-- [Flowbase](https://www.flowbase.co/clone) – duża kolekcja darmowych „cloneable templates, components & guides” dla Webflow, :contentReference[oaicite:11]{index=11}  
-- [Flowout – Free Webflow templates](https://www.flowout.com/free-webflow-templates), :contentReference[oaicite:12]{index=12}  
-- [Flowradar](https://www.flowradar.com/templates/online-marketplace-webflow-template-market) z kuratorowanymi template’ami, :contentReference[oaicite:13]{index=13}  
-- sklepy takie jak [BRIX Templates](https://brixtemplates.com/webflow-templates/marketplace-webflow-templates) z mocno niszowymi projektami (np. marketplace, SaaS). :contentReference[oaicite:14]{index=14}  
+- [Flowbase](https://www.flowbase.co/clone) – duża kolekcja darmowych „cloneable templates, components & guides” dla Webflow, :contentReference[oaicite:11]{index=11}
+- [Flowout – Free Webflow templates](https://www.flowout.com/free-webflow-templates), :contentReference[oaicite:12]{index=12}
+- [Flowradar](https://www.flowradar.com/templates/online-marketplace-webflow-template-market) z kuratorowanymi template’ami, :contentReference[oaicite:13]{index=13}
+- sklepy takie jak [BRIX Templates](https://brixtemplates.com/webflow-templates/marketplace-webflow-templates) z mocno niszowymi projektami (np. marketplace, SaaS). :contentReference[oaicite:14]{index=14}
 
 Tu zyskujesz bardziej wyspecjalizowane designy i wsparcie twórców, kosztem tego, że jakość i support trzeba oceniać oddzielnie od samego Webflow.
 
@@ -134,14 +148,14 @@ Najważniejsze pytanie nie brzmi „który szablon wybrać?”, tylko „czy w o
 
 Szablon ma sens, jeśli:
 
-- robisz portfolio, prostą stronę firmową, blog lub SaaS landing i time-to-market jest ważniejszy niż absolutnie unikalny layout,  
-- pracujesz jako freelancer i chcesz dowieźć klientowi pierwszą, klikalną wersję w kilka dni, a nie w kilka tygodni,  
+- robisz portfolio, prostą stronę firmową, blog lub SaaS landing i time-to-market jest ważniejszy niż absolutnie unikalny layout,
+- pracujesz jako freelancer i chcesz dowieźć klientowi pierwszą, klikalną wersję w kilka dni, a nie w kilka tygodni,
 - Twoja marka nie ma jeszcze twardo spisanych wytycznych wizualnych, które wymuszałyby bardzo specyficzny układ.
 
 Custom ma przewagę, jeśli:
 
-- wchodzisz w projekt z mocną identyfikacją wizualną i zespołem UX/UI, który faktycznie chce projektować od zera,  
-- strona ma dużo nietypowych layoutów, customowych interakcji, sekcji „żyjących” z backendu,  
+- wchodzisz w projekt z mocną identyfikacją wizualną i zespołem UX/UI, który faktycznie chce projektować od zera,
+- strona ma dużo nietypowych layoutów, customowych interakcji, sekcji „żyjących” z backendu,
 - budujesz własny design system i wiesz, że template będzie Cię bardziej ograniczał niż pomagał.
 
 Dla większości małych firm i solowych twórców uczciwy kompromis wygląda tak: **kupujesz lub klonujesz dobry szablon, a potem świadomie go „rozbierasz” i budujesz z niego własny, uproszczony system komponentów.**
@@ -152,13 +166,13 @@ Zamiast przeglądać 200 miniaturek, zacznij od kilku twardych kryteriów.
 
 ### Po pierwsze: typ projektu i kategoria szablonu
 
-Na poziomie Marketplace możesz filtrować szablony po typie (np. one-page, multi-page), stylu i kategorii biznesowej, a także znaleźć podkategorie pod konkretne zastosowania: pricing pages, blogi, sklepy, strony z assetami. :contentReference[oaicite:15]{index=15}  
+Na poziomie Marketplace możesz filtrować szablony po typie (np. one-page, multi-page), stylu i kategorii biznesowej, a także znaleźć podkategorie pod konkretne zastosowania: pricing pages, blogi, sklepy, strony z assetami. :contentReference[oaicite:15]{index=15}
 
 W praktyce:
 
-- portfolio i strony osobiste – szukaj w kategoriach „Portfolio”, „Personal”, „Creative”,  
-- SaaS, produkty cyfrowe – kategorie „SaaS”, „Startup”, „Digital products”, np. [Digital Products Store templates](https://webflow.com/templates/subcategory/digital-products-store-websites), :contentReference[oaicite:16]{index=16}  
-- blog, content hub – kategorie „Blog”, „Magazine”, „Content”,  
+- portfolio i strony osobiste – szukaj w kategoriach „Portfolio”, „Personal”, „Creative”,
+- SaaS, produkty cyfrowe – kategorie „SaaS”, „Startup”, „Digital products”, np. [Digital Products Store templates](https://webflow.com/templates/subcategory/digital-products-store-websites), :contentReference[oaicite:16]{index=16}
+- blog, content hub – kategorie „Blog”, „Magazine”, „Content”,
 - e-commerce – szablony z oznaczeniem Ecommerce.
 
 Jeśli typ projektu nie jest wprost reprezentowany, to jest sygnał ostrzegawczy: **template może wymagać głębokiej przebudowy struktury CMS**, a wtedy zysk czasowy znika.
@@ -167,8 +181,8 @@ Jeśli typ projektu nie jest wprost reprezentowany, to jest sygnał ostrzegawczy
 
 Wejdź w podgląd szablonu i zobacz:
 
-- jakie kolekcje CMS są zdefiniowane (Blog, Case studies, Pricing plans, FAQ, Resources itd.),  
-- czy da się je łatwo mapować na Twoją strukturę treści,  
+- jakie kolekcje CMS są zdefiniowane (Blog, Case studies, Pricing plans, FAQ, Resources itd.),
+- czy da się je łatwo mapować na Twoją strukturę treści,
 - czy w przypadku e-commerce są rozsądne layouty kart produktów, kategorii, koszyka i checkoutu.
 
 Jeżeli w template’cie CMS jest tylko „Blog” i „Authors”, a Ty planujesz rozbudowane case studies, knowledge base i landing templates, to w praktyce **będziesz przebudowywać pół projektu**.
@@ -179,12 +193,12 @@ Jeśli interesuje Cię właśnie warstwa contentowa, przejdź później do przew
 
 Szablon to nie tylko obrazki. Sprawdź:
 
-- czy sekcje mają sensownie nazwane klasy (Section, Container, Grid, a nie `div-block-27` wszędzie),  
-- czy struktura nagłówków jest logiczna (jeden H1, hierarchiczne H2/H3),  
-- jak zachowuje się layout na typowych breakpointach,  
+- czy sekcje mają sensownie nazwane klasy (Section, Container, Grid, a nie `div-block-27` wszędzie),
+- czy struktura nagłówków jest logiczna (jeden H1, hierarchiczne H2/H3),
+- jak zachowuje się layout na typowych breakpointach,
 - czy w template’cie nie ma przesadnej liczby ciężkich animacji, które zabiją Core Web Vitals.
 
-Oficjalny Marketplace stara się to filtrować – szablony muszą przejść przez quality rubric przed publikacją. :contentReference[oaicite:17]{index=17}  
+Oficjalny Marketplace stara się to filtrować – szablony muszą przejść przez quality rubric przed publikacją. :contentReference[oaicite:17]{index=17}
 
 Praktyczna zasada: **jeżeli już na podglądzie widzisz zbyt dużo customowych, nieopisanych klas, uciekaj dalej.** W dłuższej perspektywie to będzie ból.
 
@@ -192,8 +206,8 @@ Praktyczna zasada: **jeżeli już na podglądzie widzisz zbyt dużo customowych,
 
 Na koniec dopiero patrzysz na stylistykę:
 
-- czy typography i spacing są na tyle sensowne, że możesz je wykorzystać jako punkt wyjścia,  
-- czy kolorystyka da się szybko podmienić na Twoją paletę,  
+- czy typography i spacing są na tyle sensowne, że możesz je wykorzystać jako punkt wyjścia,
+- czy kolorystyka da się szybko podmienić na Twoją paletę,
 - czy template nie jest tak charakterystyczny, że nawet po zmianie kolorów i zdjęć dalej będzie „tym szablonem, co wszyscy”.
 
 Twoim celem nie jest „mieć demo z innym logo”, tylko **mieć własny system designu, który powstał szybciej, bo nie startowałeś z pustego canvasa.**
@@ -202,15 +216,15 @@ Twoim celem nie jest „mieć demo z innym logo”, tylko **mieć własny system
 
 Szablony z oficjalnego Marketplace są sensowną inwestycją, jeśli:
 
-- pracujesz z klientami i chcesz mieć pewność co do jakości wyjściowej,  
-- zależy Ci na porządnych layoutach dla pricingu, bloga, sekcji zasobów itd., a nie chcesz ich projektować od zera,  
+- pracujesz z klientami i chcesz mieć pewność co do jakości wyjściowej,
+- zależy Ci na porządnych layoutach dla pricingu, bloga, sekcji zasobów itd., a nie chcesz ich projektować od zera,
 - budujesz MVP i wiesz, że layout zmieni się dopiero na etapie „mamy trakcję, robimy re-design”.
 
 Typowy workflow freelancera:
 
-1. Kupuje template możliwie blisko use case’u (np. SaaS, marketplace, blog + docs).  
-2. Wydziela z niego własny „Style Guide” (typografia, kolory, komponenty).  
-3. Czyści nieużywane strony demo i kolekcje CMS.  
+1. Kupuje template możliwie blisko use case’u (np. SaaS, marketplace, blog + docs).
+2. Wydziela z niego własny „Style Guide” (typografia, kolory, komponenty).
+3. Czyści nieużywane strony demo i kolekcje CMS.
 4. Dokleja brakujące layouty (np. dodatkowe typy landingów) już na bazie tego stylu.
 
 W praktyce **template jest punktem startu dla własnego mini-design-systemu**, a nie czymś, co trzeba zachować „w oryginale”.
@@ -219,16 +233,16 @@ W praktyce **template jest punktem startu dla własnego mini-design-systemu**, a
 
 Darmowe template’y i cloneables to świetne paliwo dla dwóch grup:
 
-- osób uczących się Webflow,  
+- osób uczących się Webflow,
 - zespołów, które chcą zbudować „bibliotekę komponentów” zamiast kupować kompletny szablon strony.
 
-Sekcje typu [Cloneable](https://webflow.com/made-in-webflow/cloneable) czy [Free template](https://webflow.com/made-in-webflow/free-template) zawierają: :contentReference[oaicite:18]{index=18}  
+Sekcje typu [Cloneable](https://webflow.com/made-in-webflow/cloneable) czy [Free template](https://webflow.com/made-in-webflow/free-template) zawierają: :contentReference[oaicite:18]{index=18}
 
-- całe strony landingowe,  
-- pojedyncze sekcje (pricing, FAQ, testimonial),  
+- całe strony landingowe,
+- pojedyncze sekcje (pricing, FAQ, testimonial),
 - biblioteki kart, gridów, komponentów UI.
 
-Zewnętrzne galerie, jak [Flowbase – Clone](https://www.flowbase.co/clone) czy [Flowout – Free Webflow templates](https://www.flowout.com/free-webflow-templates), idą jeszcze dalej, oferując gotowe UI kity i pełne templatki pod konkretne nisze. :contentReference[oaicite:19]{index=19}  
+Zewnętrzne galerie, jak [Flowbase – Clone](https://www.flowbase.co/clone) czy [Flowout – Free Webflow templates](https://www.flowout.com/free-webflow-templates), idą jeszcze dalej, oferując gotowe UI kity i pełne templatki pod konkretne nisze. :contentReference[oaicite:19]{index=19}
 
 Tu górną granicą jest bardziej Twoja umiejętność „czytania” obcych struktur klas niż same możliwości Webflow. Dla doświadczonych projektantów to kopalnia inspiracji i komponentów.
 
@@ -236,22 +250,22 @@ Tu górną granicą jest bardziej Twoja umiejętność „czytania” obcych str
 
 Jeśli Twoim głównym celem jest blog, baza wiedzy albo content hub, szablon powinien przede wszystkim mieć:
 
-- sensowną strukturę CMS (np. Blog, Categories, Authors, Case studies),  
-- dobre strony listingu (kategorie, tagi, wyszukiwarka),  
+- sensowną strukturę CMS (np. Blog, Categories, Authors, Case studies),
+- dobre strony listingu (kategorie, tagi, wyszukiwarka),
 - dopracowane layouty artykułów (czytelność, nawigacja, sekcja powiązanych treści).
 
-Marketplace oferuje osobne kategorie blogów i contentu, a także template’y dla „digital products store”, łączące content z prostą sprzedażą. :contentReference[oaicite:20]{index=20}  
+Marketplace oferuje osobne kategorie blogów i contentu, a także template’y dla „digital products store”, łączące content z prostą sprzedażą. :contentReference[oaicite:20]{index=20}
 
 Jeśli content ma być głównym driverem ruchu, koniecznie zajrzyj też do przewodnika [Webflow CMS i blog](/narzedzia/webflow/cms-blog/) oraz [SEO w Webflow](/narzedzia/webflow/seo/), bo sam „ładny szablon” nie rozwiąże kwestii indeksowania, struktur URL i metadanych.
 
 ## Szablony pod e-commerce – ładny sklep to nie wszystko
 
-Szablony e-commerce w Webflow kuszą dopieszczonym designem: mocne hero, sekcje produktów, sety kart, dopracowane layouty checkoutu. W kategorię e-commerce w Marketplace wchodzą m.in. template’y dla sklepów z produktami cyfrowymi, marketplace’y i małe brandy DTC. :contentReference[oaicite:21]{index=21}  
+Szablony e-commerce w Webflow kuszą dopieszczonym designem: mocne hero, sekcje produktów, sety kart, dopracowane layouty checkoutu. W kategorię e-commerce w Marketplace wchodzą m.in. template’y dla sklepów z produktami cyfrowymi, marketplace’y i małe brandy DTC. :contentReference[oaicite:21]{index=21}
 
 Jeśli planujesz sprzedaż (szczególnie w Polsce), ważne są trzy rzeczy:
 
-- struktura produktów i kolekcji (czy łatwo będzie ją dopasować do Twojej oferty),  
-- sposób prezentacji variantów, rekomendacji, upselli,  
+- struktura produktów i kolekcji (czy łatwo będzie ją dopasować do Twojej oferty),
+- sposób prezentacji variantów, rekomendacji, upselli,
 - realne możliwości Webflow e-commerce (płatności, podatki, integracje), które omawiamy szczegółowo w [Webflow e-commerce po polsku](/narzedzia/webflow/ecommerce-pl/).
 
 Werdykt dla małego sklepu: **szablon Webflow to dobry start wizualny, ale logikę płatności i integracji zrobisz poza template’em.** Nie licz na to, że „ładny checkout” rozwiąże Ci Przelewy24, BLIK i faktury.
@@ -260,9 +274,9 @@ Werdykt dla małego sklepu: **szablon Webflow to dobry start wizualny, ale logik
 
 Po kilku wdrożeniach z template’ów można z grubsza przewidzieć, gdzie projekty zaczynają się sypać.
 
-- Całkowite ignorowanie strony „Style Guide” i globalnych klas – zamiast budować na istniejących tokenach (typografia, kolory, spacing), dokładasz kolejne `heading-big` i `button-new`, aż projekt robi się nieedytowalny.  
-- Kasowanie kolekcji CMS „bo niepotrzebne”, bez zrozumienia powiązań – nagle okazuje się, że część stron przestaje działać, bo korzystały z powiązań CMS.  
-- Przerabianie demo contentu „na żywca” w wersji produkcyjnej – w logice Webflow dużo bezpieczniej jest najpierw sklonować projekt, wyczyścić demo i dopiero potem podmieniać treści.  
+- Całkowite ignorowanie strony „Style Guide” i globalnych klas – zamiast budować na istniejących tokenach (typografia, kolory, spacing), dokładasz kolejne `heading-big` i `button-new`, aż projekt robi się nieedytowalny.
+- Kasowanie kolekcji CMS „bo niepotrzebne”, bez zrozumienia powiązań – nagle okazuje się, że część stron przestaje działać, bo korzystały z powiązań CMS.
+- Przerabianie demo contentu „na żywca” w wersji produkcyjnej – w logice Webflow dużo bezpieczniej jest najpierw sklonować projekt, wyczyścić demo i dopiero potem podmieniać treści.
 - Traktowanie template’u jak gotowego produktu – zamiast świadomie zdefiniować, które elementy zostają, a które wymieniasz, próbujesz „trochę zmienić wszystko”, co kończy się mieszanką dwóch różnych systemów designu.
 
 Jeżeli widzisz u siebie któryś z tych patternów, prawdopodobnie warto na chwilę się zatrzymać, uporządkować Style Guide i hierarchię klas, a dopiero potem dorzucać kolejne sekcje.
@@ -271,11 +285,11 @@ Jeżeli widzisz u siebie któryś z tych patternów, prawdopodobnie warto na chw
 
 Zamiast „od razu przerabiać”, podejdź do template’u jak do bazy komponentów.
 
-1. Sklonuj lub zduplikuj szablon do osobnego projektu roboczego.  
-2. Obejrzyj stronę Style Guide – zanotuj typografię, skalę, nazewnictwo klas, system kolorów.  
-3. Wyrzuć z projektu demo-strony i kolekcje, których na pewno nie użyjesz (ale dopiero po zrozumieniu powiązań).  
-4. Zbuduj z istniejących elementów 2–3 kluczowe strony: Homepage, jedna strona ofertowa, jeden typ landingu.  
-5. Podłącz CMS pod realne typy treści (blog, case studies, zasoby) i skonfiguruj SEO zgodnie z Twoją strategią.  
+1. Sklonuj lub zduplikuj szablon do osobnego projektu roboczego.
+2. Obejrzyj stronę Style Guide – zanotuj typografię, skalę, nazewnictwo klas, system kolorów.
+3. Wyrzuć z projektu demo-strony i kolekcje, których na pewno nie użyjesz (ale dopiero po zrozumieniu powiązań).
+4. Zbuduj z istniejących elementów 2–3 kluczowe strony: Homepage, jedna strona ofertowa, jeden typ landingu.
+5. Podłącz CMS pod realne typy treści (blog, case studies, zasoby) i skonfiguruj SEO zgodnie z Twoją strategią.
 6. Dopiero na końcu „doprawiaj” projekt dodatkowymi sekcjami, interakcjami i komponentami z cloneables lub własnego designu.
 
 W ten sposób template przestaje być „świętym, nieedytowalnym demo”, a staje się rozsądnym skrótem do pierwszej, działającej wersji Twojej strony.
@@ -284,15 +298,15 @@ W ten sposób template przestaje być „świętym, nieedytowalnym demo”, a st
 
 **Szablony Webflow są świetnym wyborem, jeśli:**
 
-- jesteś freelancerem, małą agencją lub solowym founderem i chcesz ~2× przyspieszyć start nowej strony,  
-- Twoje projekty to głównie portfolio, strony firmowe, SaaS landingi, blogi i proste sklepy,  
-- umiesz czytać strukturę klas i chcesz traktować template jako bazę pod własny system komponentów,  
+- jesteś freelancerem, małą agencją lub solowym founderem i chcesz ~2× przyspieszyć start nowej strony,
+- Twoje projekty to głównie portfolio, strony firmowe, SaaS landingi, blogi i proste sklepy,
+- umiesz czytać strukturę klas i chcesz traktować template jako bazę pod własny system komponentów,
 - nie masz jeszcze spisanego, twardego brandbooka, który wymusza bardzo specyficzne layouty.
 
 **Szablony będą Cię frustrować, jeśli:**
 
-- budujesz złożone aplikacje webowe z dużą ilością logiki biznesowej na froncie,  
-- każdy projekt jest mocno customowy, a Twój zespół UX/UI traktuje layout jak część IP produktu,  
+- budujesz złożone aplikacje webowe z dużą ilością logiki biznesowej na froncie,
+- każdy projekt jest mocno customowy, a Twój zespół UX/UI traktuje layout jak część IP produktu,
 - wiesz, że i tak będziesz budować własny design system – wtedy template to bardziej inspiracja niż realne przyspieszenie.
 
 Jeśli po tej stronie widzisz, że template ma sens, wybierz jeden szablon możliwie blisko swojego case’u, sklonuj go do projektu testowego i zbuduj na nim trzy kluczowe strony. Zobaczysz bardzo szybko, czy w tym środowisku pracuje Ci się naturalnie – i czy Webflow szablony realnie oszczędzają Twój czas, czy tylko pięknie wyglądają w miniaturkach.

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 
 import { getCopy } from "@/app/lib/copy";
-import "./tools.module.css";
-import { ToolsJumpSelect } from "./ToolsJumpSelect";
 import Link from "next/link";
 import {
   StructuredDataScript,
@@ -10,15 +8,19 @@ import {
   SelectField,
   Button,
 } from "@/app/ui";
+import styles from "./tools.module.css";
+import { ToolsJumpSelect } from "./ToolsJumpSelect";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import { ToolHubCardModel, type ToolOverviewEntry } from "./ToolHubCardModel";
 import { ContentCard } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
+import { ArticlesPagination } from "../artykuly/ArticlesPagination";
 
 const copy = getCopy("tools");
 const toolCatalog = new ToolCatalog();
 const contentLibrary = new ContentLibrary();
+const PAGE_SIZE = 12;
 
 export const metadata: Metadata = {
   title: copy.seo.title,
@@ -36,6 +38,10 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const selectedCategory = getFirst(resolvedSearchParams?.kategoria);
   const selectedPlatform = getFirst(resolvedSearchParams?.system);
+  const pageValue = getFirst(resolvedSearchParams?.page);
+  const pageNumber = pageValue ? Number(pageValue) : 1;
+  const requestedPage =
+    Number.isFinite(pageNumber) && pageNumber > 0 ? pageNumber : 1;
   const overview = loadToolsFromContent();
   const filtered = overview.filter((entry) => {
     const tool = toolCatalog.find(entry.slug);
@@ -59,14 +65,27 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
   const cardModels = filtered.map(
     (entry) => new ToolHubCardModel(entry, toolCatalog.find(entry.slug)),
   );
+  const totalPages = Math.max(1, Math.ceil(cardModels.length / PAGE_SIZE));
+  const currentPage = Math.min(requestedPage, totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pagedModels = cardModels.slice(start, end);
+  const paginationCopy = {
+    ariaLabel: "Paginacja narzędzi",
+    previous: "Poprzednia",
+    next: "Następna",
+  };
+  const baseParams = new URLSearchParams();
+  if (selectedCategory) baseParams.set("kategoria", selectedCategory);
+  if (selectedPlatform) baseParams.set("system", selectedPlatform);
   return (
-    <section className="tools-page" id="content">
+    <section className={styles.toolsPage} id="content">
       <StructuredDataScript
         id="tools-item-list"
         data={itemListStructuredData}
       />
       <div className="pbk-container pbk-stack pbk-stack--tight pbk-readable pbk-readable--start">
-        <div className="tools-page__intro">
+        <div className={styles.toolsPageIntro}>
           <h1>{copy.hero.title}</h1>
           <p>{copy.hero.intro}</p>
         </div>
@@ -105,7 +124,7 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
         </ContentFilterBar>
         <ToolsJumpSelect tools={overview} />
         <div className="articles-grid">
-          {cardModels.map((model) => {
+          {pagedModels.map((model) => {
             const categoryValue = model.getCategoryValue();
             const platformValue = model.getPlatformValue();
             const categories = categoryValue
@@ -148,6 +167,13 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
             );
           })}
         </div>
+        <ArticlesPagination
+          copy={paginationCopy}
+          currentPage={currentPage}
+          totalPages={totalPages}
+          baseSearchParams={baseParams}
+          basePath="/narzedzia"
+        />
       </div>
     </section>
   );

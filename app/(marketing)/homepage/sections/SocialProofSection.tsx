@@ -74,9 +74,7 @@ function TestimonialsSection({
               <p>{testimonial.quote}</p>
             </blockquote>
             <figcaption>
-              <div
-                className={socialStyles["homepage-testimonialCard__author"]}
-              >
+              <div className={socialStyles["homepage-testimonialCard__author"]}>
                 {testimonial.avatar ? (
                   <img
                     src={testimonial.avatar}

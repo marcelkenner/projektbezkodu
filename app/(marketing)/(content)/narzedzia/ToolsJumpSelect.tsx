@@ -1,12 +1,14 @@
 "use client";
 
+import styles from "./tools.module.css";
+
 interface ToolsJumpSelectProps {
   tools: Array<{ slug: string; path: string; title: string }>;
 }
 
 export function ToolsJumpSelect({ tools }: ToolsJumpSelectProps) {
   return (
-    <div className="tools-search">
+    <div className={styles.toolsSearch}>
       <label className="sr-only" htmlFor="tools-jump-select">
         Przejdź do narzędzia
       </label>

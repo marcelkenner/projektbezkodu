@@ -43,8 +43,8 @@ export type ResourcePromoIconName =
 
 export class HomepageIconFactory {
   static arrow(
-    className =
-      pillarsStyles["homepage-pillars__arrow"] ?? "homepage-pillars__arrow",
+    className = pillarsStyles["homepage-pillars__arrow"] ??
+      "homepage-pillars__arrow",
   ): ReactNode {
     return (
       <ArrowRight aria-hidden="true" className={className} weight="bold" />
@@ -52,15 +52,16 @@ export class HomepageIconFactory {
   }
 
   static clock(
-    className =
-      latestStyles["homepage-articles__icon"] ?? "homepage-articles__icon",
+    className = latestStyles["homepage-articles__icon"] ??
+      "homepage-articles__icon",
   ): ReactNode {
     return <Clock aria-hidden="true" className={className} weight="bold" />;
   }
 
   static pillar(
     name: PillarIconName,
-    className = pillarsStyles["homepage-pillars__icon"] ?? "homepage-pillars__icon",
+    className = pillarsStyles["homepage-pillars__icon"] ??
+      "homepage-pillars__icon",
   ): ReactNode {
     switch (name) {
       case "bolt":

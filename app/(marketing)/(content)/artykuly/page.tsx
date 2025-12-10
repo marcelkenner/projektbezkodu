@@ -11,7 +11,7 @@ import { ArticlesPagination } from "./ArticlesPagination";
 import styles from "./articles.module.css";
 
 const articleRepository = new ArticleRepository();
-const PAGE_SIZE = 9;
+const PAGE_SIZE = 12;
 
 type SearchParams = Record<string, string | string[] | undefined>;
 
@@ -95,7 +95,10 @@ export default async function ArticlesPage({
   const jsonLd = buildCollectionJsonLd(pagedArticles, currentPage);
 
   return (
-    <section className={`articles-page ${styles["articles-page"]}`} id="content">
+    <section
+      className={`articles-page ${styles["articles-page"]}`}
+      id="content"
+    >
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

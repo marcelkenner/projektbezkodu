@@ -1,51 +1,74 @@
 ---
-title: "AWeber – najlepsze alternatywy dla małych firm i twórców (2025)"
-slug: "aweber-alternatywy"
-path: "/narzedzia/aweber/alternatywy"
+title: AWeber – najlepsze alternatywy dla małych firm i twórców (2025)
+slug: aweber-alternatywy
+path: /narzedzia/aweber/alternatywy
 draft: false
-template: "tool"
-type: "tool-alternatives"
-date: "2025-12-08"
+template: tool
+type: tool-alternatives
+date: '2025-12-08'
 hero:
-  heading: "Alternatywy dla AWeber: co wybrać w 2025 zamiast klasycznego email marketingu?"
-  subheading: "Konkretny przegląd narzędzi, które realnie konkurują z AWeber dla małych firm, ecommerce i twórców w Polsce."
-  primaryCta: "/narzedzia/aweber/"
-  secondaryCta: "/narzedzia/aweber/recenzja"
+  heading: >-
+    Alternatywy dla AWeber: co wybrać w 2025 zamiast klasycznego email
+    marketingu?
+  subheading: >-
+    Konkretny przegląd narzędzi, które realnie konkurują z AWeber dla małych
+    firm, ecommerce i twórców w Polsce.
+  primaryCta: /narzedzia/aweber/
+  secondaryCta: /narzedzia/aweber/recenzja
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "AWeber – alternatywy (2025). MailerLite, Brevo, ActiveCampaign i inni"
-  description: "Porównanie najciekawszych alternatyw dla AWeber w 2025 roku: MailerLite, Brevo, ActiveCampaign, GetResponse, Klaviyo i polskie narzędzia. Konkretny wybór pod małe firmy, sklepy i twórców w Polsce."
+  title: AWeber – alternatywy (2025). MailerLite, Brevo, ActiveCampaign i inni
+  description: >-
+    Porównanie najciekawszych alternatyw dla AWeber w 2025 roku: MailerLite,
+    Brevo, ActiveCampaign, GetResponse, Klaviyo i polskie narzędzia. Konkretny
+    wybór pod małe firmy, sklepy i twórców w Polsce.
   keywords:
-    - "AWeber alternatywy"
-    - "AWeber zamiennik"
-    - "AWeber vs MailerLite"
-    - "AWeber vs Brevo"
-    - "AWeber vs ActiveCampaign"
+    - AWeber alternatywy
+    - AWeber zamiennik
+    - AWeber vs MailerLite
+    - AWeber vs Brevo
+    - AWeber vs ActiveCampaign
 meta:
-  difficulty: "średnie"
-  duration: "20 min"
-  updatedAt: "2025-12-08"
+  difficulty: średnie
+  duration: 20 min
+  updatedAt: '2025-12-08'
   hasAffiliateLinks: true
   summaryBullets:
-    - "Jeśli szukasz tańszego lub bardziej nowoczesnego zamiennika AWeber, na pierwszym planie są dziś MailerLite, Brevo i polskie GetResponse."
-    - "Dla ecommerce naturalnym upgrade’em są Klaviyo, Omnisend albo Brevo – AWeber nie jest już pierwszym wyborem dla sklepów rosnących agresywnie."
-    - "Dla zaawansowanego marketing automation sensowniejszą inwestycją niż AWeber bywa ActiveCampaign lub wyższe plany GetResponse."
+    - >-
+      Jeśli szukasz tańszego lub bardziej nowoczesnego zamiennika AWeber, na
+      pierwszym planie są dziś MailerLite, Brevo i polskie GetResponse.
+    - >-
+      Dla ecommerce naturalnym upgrade’em są Klaviyo, Omnisend albo Brevo –
+      AWeber nie jest już pierwszym wyborem dla sklepów rosnących agresywnie.
+    - >-
+      Dla zaawansowanego marketing automation sensowniejszą inwestycją niż
+      AWeber bywa ActiveCampaign lub wyższe plany GetResponse.
   review:
-    productName: "AWeber – alternatywy"
-    productUrl: "https://www.aweber.com/"
+    productName: AWeber – alternatywy
+    productUrl: https://www.aweber.com/
     ratingValue: 5
     bestRating: 5
     worstRating: 1
-    author: "Redakcja ProductBrew"
-    body: "Rynek email marketingu w 2025 roku jest na tyle konkurencyjny, że realne alternatywy dla AWeber znajdziesz w kilku wyraźnych kategoriach: tanie narzędzia dla małych list (MailerLite, Brevo), platformy ecommerce (Klaviyo, Omnisend, ponownie Brevo) oraz systemy typowo automation (ActiveCampaign, GetResponse). Dla większości małych firm i twórców istnieje dziś przynajmniej jedna opcja lepiej dopasowana niż klasyczny AWeber."
+    author: Redakcja ProductBrew
+    body: >-
+      Rynek email marketingu w 2025 roku jest na tyle konkurencyjny, że realne
+      alternatywy dla AWeber znajdziesz w kilku wyraźnych kategoriach: tanie
+      narzędzia dla małych list (MailerLite, Brevo), platformy ecommerce
+      (Klaviyo, Omnisend, ponownie Brevo) oraz systemy typowo automation
+      (ActiveCampaign, GetResponse). Dla większości małych firm i twórców
+      istnieje dziś przynajmniej jedna opcja lepiej dopasowana niż klasyczny
+      AWeber.
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "email marketing"
-    - "newsletter"
-    - "marketing automation"
-    - "AWeber"
-    - "alternatywy"
+    - email marketing
+    - newsletter
+    - marketing automation
+    - AWeber
+    - alternatywy
 ---
 
 # Alternatywy dla AWeber – jak nie utknąć w pierwszym narzędziu, jakie znasz

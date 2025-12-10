@@ -1,19 +1,27 @@
 ---
-title: "Webflow SEO – czy Webflow jest naprawdę dobry pod SEO?"
-slug: "webflow-seo"
-path: "/narzedzia/webflow/seo/"
+title: Webflow SEO – czy Webflow jest naprawdę dobry pod SEO?
+slug: webflow-seo
+path: /narzedzia/webflow/seo/
 draft: false
-template: "default"
-type: "guide"
-date: "2025-12-07"
+template: default
+type: guide
+date: '2025-12-07'
 hero:
-  heading: "Webflow i SEO: możliwości, ograniczenia i uczciwy werdykt"
-  subheading: "Dowiesz się, czy na Webflow da się zbudować serwis, który realnie dowozi ruch z Google – i co musisz zrobić, żeby nie zepsuć technicznego SEO."
-  primaryCta: "/narzedzia/webflow/recenzja/"
-  secondaryCta: "/narzedzia/webflow/wydajnosc/"
+  heading: 'Webflow i SEO: możliwości, ograniczenia i uczciwy werdykt'
+  subheading: >-
+    Dowiesz się, czy na Webflow da się zbudować serwis, który realnie dowozi
+    ruch z Google – i co musisz zrobić, żeby nie zepsuć technicznego SEO.
+  primaryCta: /narzedzia/webflow/recenzja/
+  secondaryCta: /narzedzia/webflow/wydajnosc/
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Webflow SEO – jak wypada Webflow pod SEO i Core Web Vitals"
-  description: "Praktyczny przewodnik po SEO w Webflow: możliwości techniczne, typowe ograniczenia, Core Web Vitals, porównanie z WordPressem oraz konkretny checklist przed startem."
+  title: Webflow SEO – jak wypada Webflow pod SEO i Core Web Vitals
+  description: >-
+    Praktyczny przewodnik po SEO w Webflow: możliwości techniczne, typowe
+    ograniczenia, Core Web Vitals, porównanie z WordPressem oraz konkretny
+    checklist przed startem.
   keywords:
     - Webflow SEO
     - Webflow a SEO
@@ -21,44 +29,50 @@ seo:
     - Webflow vs WordPress SEO
     - techniczne SEO w Webflow
 meta:
-  difficulty: "średnie"
-  duration: "20 minut"
+  difficulty: średnie
+  duration: 20 minut
   tools:
-    - "Webflow"
-    - "Google Search Console"
-    - "Google PageSpeed Insights"
-  updatedAt: "2025-12-07"
+    - Webflow
+    - Google Search Console
+    - Google PageSpeed Insights
+  updatedAt: '2025-12-07'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Przeczytaj szczerą recenzję Webflow"
-    href: "/narzedzia/webflow/recenzja/"
+    label: Przeczytaj szczerą recenzję Webflow
+    href: /narzedzia/webflow/recenzja/
   secondaryCta:
-    label: "Sprawdź wydajność Webflow w praktyce"
-    href: "/narzedzia/webflow/wydajnosc/"
-  format: "przewodnik SEO"
+    label: Sprawdź wydajność Webflow w praktyce
+    href: /narzedzia/webflow/wydajnosc/
+  format: przewodnik SEO
   topics:
-    - "Webflow"
-    - "SEO"
-    - "Core Web Vitals"
-    - "no-code"
+    - Webflow
+    - SEO
+    - Core Web Vitals
+    - no-code
   stack:
-    - "Webflow"
-    - "Google Search Console"
-    - "Google Analytics"
+    - Webflow
+    - Google Search Console
+    - Google Analytics
   summaryBullets:
-    - "Werdykt: Webflow jest technicznie wystarczający dla SEO w większości projektów – pod warunkiem, że wiesz, które dźwignie ustawić."
-    - "Rozbijamy na czynniki pierwsze: meta, struktura adresów, sitemap, schema, Core Web Vitals, ograniczenia w linkowaniu wewnętrznym i multi-language."
-    - "Dostajesz konkretny checklist przed startem projektu na Webflow, żeby nie wracać do fundamentów po pół roku."
+    - >-
+      Werdykt: Webflow jest technicznie wystarczający dla SEO w większości
+      projektów – pod warunkiem, że wiesz, które dźwignie ustawić.
+    - >-
+      Rozbijamy na czynniki pierwsze: meta, struktura adresów, sitemap, schema,
+      Core Web Vitals, ograniczenia w linkowaniu wewnętrznym i multi-language.
+    - >-
+      Dostajesz konkretny checklist przed startem projektu na Webflow, żeby nie
+      wracać do fundamentów po pół roku.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "SEO"
-    - "No-code"
+    - Narzędzia
+    - SEO
+    - No-code
   tags:
-    - "Webflow"
-    - "SEO"
-    - "Core Web Vitals"
-    - "techniczne SEO"
+    - Webflow
+    - SEO
+    - Core Web Vitals
+    - techniczne SEO
 ---
 
 Po tej stronie będziesz wiedzieć, czy Webflow jest „wystarczająco dobry” pod SEO w Twoim scenariuszu – czy lepiej od razu postawić na WordPressa, Shopify albo własny stack.
@@ -75,8 +89,8 @@ Krótka odpowiedź: Webflow ma dziś solidny zestaw funkcji SEO „z pudełka”
 
 Jeśli musisz zdecydować w minutę:
 
-- Webflow ma mocny **on-page SEO toolkit**: meta, nagłówki, alt-y, canonicale, 301, automatyczne sitemap.xml, podstawowe schema, kontrolę robots.txt i przyzwoite wsparcie dla Core Web Vitals.  
-- Od strony **wydajności** startujesz z lepszej pozycji niż przy przeciętnym „ciężkim WordPressie z builderem”, ale przy słabej dyscyplinie projektowej możesz równie dobrze wszystko zepsuć.  
+- Webflow ma mocny **on-page SEO toolkit**: meta, nagłówki, alt-y, canonicale, 301, automatyczne sitemap.xml, podstawowe schema, kontrolę robots.txt i przyzwoite wsparcie dla Core Web Vitals.
+- Od strony **wydajności** startujesz z lepszej pozycji niż przy przeciętnym „ciężkim WordPressie z builderem”, ale przy słabej dyscyplinie projektowej możesz równie dobrze wszystko zepsuć.
 - Największe minusy to brak wtyczek-kombajnów typu Yoast/Rank Math, mniej narzędzi do automatyzacji linkowania wewnętrznego i fakt, że przy bardzo skomplikowanych projektach trzeba więcej rzeczy poustawiać ręcznie.
 
 Jeżeli Twoja główna strona to: firma B2B, SaaS, produkt cyfrowy, marka osobista, proste D2C – Webflow spokojnie udźwignie SEO. Jeśli budujesz potężny portal contentowy albo serwis w 8 językach z dziesiątkami tysięcy URL-i, rozsądnie jest przynajmniej porównać Webflow z WordPressem lub headless CMS.
@@ -87,11 +101,11 @@ Zacznijmy od faktów: co Webflow faktycznie potrafi, bez dodatków i wtyczek.
 
 W standardzie dostajesz:
 
-- edycję tytułów i opisów meta dla stron statycznych i template’ów CMS (z możliwością użycia zmiennych, np. tytuł artykułu + nazwa marki),  
-- automatycznie generowaną sitemap.xml z aktualizacją po publikacji nowych stron,  
-- prosty interfejs do 301 redirectów (także hurtowo, np. przy migracji z innego CMS-a),  
-- kontrolę nad canonicalem, robots.txt i indeksowaniem danej strony,  
-- edycję Open Graph (podgląd linków w socialach),  
+- edycję tytułów i opisów meta dla stron statycznych i template’ów CMS (z możliwością użycia zmiennych, np. tytuł artykułu + nazwa marki),
+- automatycznie generowaną sitemap.xml z aktualizacją po publikacji nowych stron,
+- prosty interfejs do 301 redirectów (także hurtowo, np. przy migracji z innego CMS-a),
+- kontrolę nad canonicalem, robots.txt i indeksowaniem danej strony,
+- edycję Open Graph (podgląd linków w socialach),
 - obsługę alt-ów dla obrazów i sensowne, semantyczne HTML/CSS przy poprawnym użyciu nagłówków.
 
 W nowszych aktualizacjach Webflow coraz mocniej dokłada funkcje pod „search w wersji 2025+”: m.in. AI-owe podpowiedzi dla meta i treści oraz lepsze wsparcie dla strukturalnych danych tam, gdzie to ma sens. Dla wielu małych zespołów to wystarczy, żeby utrzymać porządek w podstawowych elementach SEO, bez proszenia dewelopera o każdą drobnostkę.
@@ -122,20 +136,20 @@ Na papierze dyskusja wygląda głośno: „WordPress ma lepsze SEO, bo Yoast”.
 
 WordPress daje:
 
-- ogromny ekosystem wtyczek SEO,  
-- pełną kontrolę nad serwerem (jeśli chcesz ją mieć),  
+- ogromny ekosystem wtyczek SEO,
+- pełną kontrolę nad serwerem (jeśli chcesz ją mieć),
 - elastyczność przy nietypowych strukturach contentu, multi-language i niestandardowej logice.
 
 Cena za to:
 
-- więcej utrzymania (aktualizacje, konflikty wtyczek, security),  
-- większe ryzyko, że wydajność siądzie, jeśli motyw i wtyczki są ciężkie,  
+- więcej utrzymania (aktualizacje, konflikty wtyczek, security),
+- większe ryzyko, że wydajność siądzie, jeśli motyw i wtyczki są ciężkie,
 - potrzeba osoby, która potrafi czytać wyniki Lighthouse/PSI i wie, co przyciąć.
 
 Webflow daje:
 
-- czystszy start wydajnościowy przy typowym projekcie,  
-- porządny zestaw funkcji on-page SEO i technicznego minimum,  
+- czystszy start wydajnościowy przy typowym projekcie,
+- porządny zestaw funkcji on-page SEO i technicznego minimum,
 - mniej ruchomych części: brak konieczności wybierania wtyczek, motywów, cache’ów.
 
 W dobrze prowadzonym projekcie **różnica w SEO między Webflow a WordPressem nie wynika z „magii platformy”, tylko z jakości treści, struktury, linkowania wewnętrznego i wydajności**. WordPress wygrywa elastycznością w ekstremach, Webflow – przewidywalnością i mniejszą ilością „kleju technicznego” na co dzień.
@@ -146,17 +160,17 @@ SEO w 2025 roku to już nie tylko meta i nagłówki – to też prędkość, sta
 
 Webflow ma kilka realnych przewag:
 
-- automatyczne minifikowanie CSS/JS,  
-- rozsądne domyślne strategie ładowania assetów,  
-- CDN po stronie platformy,  
+- automatyczne minifikowanie CSS/JS,
+- rozsądne domyślne strategie ładowania assetów,
+- CDN po stronie platformy,
 - możliwość korzystania z WebP i kompresji obrazów z poziomu panelu.
 
 W praktyce Webflow-owe projekty bardzo często osiągają dobre wyniki Core Web Vitals, o ile sam ich nie „przebijasz” toną bardzo ciężkich grafik, nieskończoną ilością animacji i trzema różnymi systemami analitycznymi wpiętymi na jednej stronie.
 
 Przy bardziej rozbudowanych serwisach (SaaS, większy e-commerce) i tak potrzebny jest:
 
-- regularny audyt w PageSpeed Insights / Lighthouse,  
-- sensowna polityka obrazów (format, rozmiary, lazy-loading),  
+- regularny audyt w PageSpeed Insights / Lighthouse,
+- sensowna polityka obrazów (format, rozmiary, lazy-loading),
 - porządek w skryptach marketingowych (tag manager, piksele, narzędzia).
 
 Szczegóły techniczne i praktyczne przykłady znajdziesz w dedykowanym artykule [Webflow – wydajność i Core Web Vitals](/narzedzia/webflow/wydajnosc/).
@@ -175,26 +189,26 @@ Proponowana ścieżka:
 
 2. **Globalne ustawienia SEO**  
    W ustawieniach projektu:
-   - skonfiguruj domenę główną (www lub bez www) i wymuś przekierowanie,  
-   - ustaw domyślne meta (title/description) z nazwą marki,  
+   - skonfiguruj domenę główną (www lub bez www) i wymuś przekierowanie,
+   - ustaw domyślne meta (title/description) z nazwą marki,
    - zadbaj o poprawny plik robots.txt (domyślny jest ok, chyba że świadomie chcesz inaczej).
 
 3. **SEO dla stron statycznych**  
    Dla każdej ważnej strony:
-   - ustaw unikalny tytuł i description,  
-   - dopilnuj, że masz dokładnie jedno H1 na stronę,  
+   - ustaw unikalny tytuł i description,
+   - dopilnuj, że masz dokładnie jedno H1 na stronę,
    - popraw alt-y obrazów tam, gdzie niosą informację (nie spamuj słowami kluczowymi).
 
 4. **SEO dla CMS Collections**  
    W każdej kolekcji:
-   - zdefiniuj wzór meta tytułu i opisu (np. `Nazwa artykułu | Nazwa marki`),  
-   - zadbaj o czytelne, krótkie slug-i bazujące na tytułach,  
+   - zdefiniuj wzór meta tytułu i opisu (np. `Nazwa artykułu | Nazwa marki`),
+   - zadbaj o czytelne, krótkie slug-i bazujące na tytułach,
    - ustaw domyślne Open Graph (obrazek, tytuł, opis).
 
 5. **Przekierowania i migracje**  
    Jeśli przenosisz stronę z innego systemu:
-   - przygotuj mapę starych i nowych URL-i,  
-   - wprowadź 301 w panelu Webflow,  
+   - przygotuj mapę starych i nowych URL-i,
+   - wprowadź 301 w panelu Webflow,
    - po publikacji sprawdź błędy 404 w Search Console i popraw, co trzeba.
 
 6. **Podpięcie narzędzi Google**  
@@ -236,14 +250,14 @@ Jeżeli od razu zbudujesz proces, który pilnuje tych kilku punktów, Webflow ni
 
 **Webflow spokojnie wystarczy, jeśli:**
 
-- prowadzisz **SaaS lub firmę B2B**, gdzie SEO opiera się na blogu, case studies, stronach produktowych,  
-- jesteś **freelancerem / studiem** i budujesz strony firmowe oraz mniejsze serwisy contentowe,  
+- prowadzisz **SaaS lub firmę B2B**, gdzie SEO opiera się na blogu, case studies, stronach produktowych,
+- jesteś **freelancerem / studiem** i budujesz strony firmowe oraz mniejsze serwisy contentowe,
 - rozwijasz **markę osobistą** lub prosty D2C, gdzie kluczowe są dobrze przygotowane treści i przyzwoita wydajność.
 
 **Rozważ inne rozwiązanie, jeśli:**
 
-- jesteś **technical SEO** i potrzebujesz bardzo zaawansowanej kontroli nad każdym aspektem crawl budgetu, logiki serwera, masowego linkowania wewnętrznego,  
-- budujesz **ogromny portal contentowy** z dziesiątkami tysięcy URL-i, customowymi typami treści i nietypowymi workflow redakcyjnymi,  
+- jesteś **technical SEO** i potrzebujesz bardzo zaawansowanej kontroli nad każdym aspektem crawl budgetu, logiki serwera, masowego linkowania wewnętrznego,
+- budujesz **ogromny portal contentowy** z dziesiątkami tysięcy URL-i, customowymi typami treści i nietypowymi workflow redakcyjnymi,
 - stawiasz na **hardcore multi-language** z wieloma domenami krajowymi, złożonym hreflang i specyficznymi wymaganiami prawnymi.
 
 W tych przypadkach WordPress z dobrze ogarniętym setupem lub headless CMS z własnym frontem prawdopodobnie da Ci więcej pola manewru.
@@ -252,12 +266,12 @@ W tych przypadkach WordPress z dobrze ogarniętym setupem lub headless CMS z wł
 
 Najprostszy krok, żeby nie teoretyzować:
 
-1. Weź jedną istniejącą, ważną stronę z Twojego obecnego systemu (np. główny landing, topowy artykuł).  
-2. Odtwórz ją w Webflow 1:1 – layout, treści, struktura nagłówków.  
-3. Ustaw meta, Open Graph, slug i, jeśli trzeba, przekierowanie ze starego URL.  
+1. Weź jedną istniejącą, ważną stronę z Twojego obecnego systemu (np. główny landing, topowy artykuł).
+2. Odtwórz ją w Webflow 1:1 – layout, treści, struktura nagłówków.
+3. Ustaw meta, Open Graph, slug i, jeśli trzeba, przekierowanie ze starego URL.
 4. Opublikuj na roboczej domenie Webflow i przepuść przez:
-   - PageSpeed Insights,  
-   - test mobile-friendly,  
+   - PageSpeed Insights,
+   - test mobile-friendly,
    - prosty crawl (np. Screaming Frog / inny crawler).
 
 Jeżeli wyniki są przynajmniej tak dobre jak w poprzednim systemie, a praca nad stroną była dla Ciebie logiczna, Webflow pod SEO jest prawdopodobnie bezpiecznym wyborem. Jeżeli widzisz same czerwone flagi i czujesz się skrępowany – to też jest cenna informacja: lepiej teraz przesiąść się na WordPressa lub własny stack, niż po roku migrować całą stronę.

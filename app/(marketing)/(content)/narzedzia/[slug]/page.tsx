@@ -119,9 +119,19 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const heading = viewModel.getHeroHeading();
   const subheading = viewModel.getHeroSubheading();
   const heroImage = viewModel.getHeroImage();
-  let safeHeroImage: { src: string; alt: string; width?: number; height?: number };
+  let safeHeroImage: {
+    src: string;
+    alt: string;
+    width?: number;
+    height?: number;
+  };
   if (heroImage?.src) {
-    safeHeroImage = heroImage as { src: string; alt: string; width?: number; height?: number };
+    safeHeroImage = heroImage as {
+      src: string;
+      alt: string;
+      width?: number;
+      height?: number;
+    };
   } else {
     safeHeroImage = {
       src: heroImage?.src ?? "/img/tools_hero_image.webp",

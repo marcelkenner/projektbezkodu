@@ -13,8 +13,10 @@ import {
   ContentCard,
 } from "../../../ui";
 import { getCopy } from "../../../lib/copy";
+import { ArticlesPagination } from "../artykuly/ArticlesPagination";
 
 const tutorialRepository = new TutorialRepository();
+const PAGE_SIZE = 12;
 
 interface TutorialsIndexProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
@@ -35,10 +37,22 @@ export default async function TutorialsIndex({
   const parser = new SearchParamParser(resolvedSearchParams);
   const selectedDifficulty = parser.getSingle("difficulty");
   const selectedTool = parser.getSingle("tool");
+  const pageValue = parser.getSingle("page");
+  const pageNumber = pageValue ? Number(pageValue) : 1;
+  const requestedPage =
+    Number.isFinite(pageNumber) && pageNumber > 0 ? pageNumber : 1;
   const filteredTutorials = directory.list({
     difficulty: selectedDifficulty,
     tool: selectedTool,
   });
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredTutorials.length / PAGE_SIZE),
+  );
+  const currentPage = Math.min(requestedPage, totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pagedTutorials = filteredTutorials.slice(start, end);
   const libraryEmpty = allTutorials.length === 0;
 
   const baseOption = "";
@@ -61,6 +75,14 @@ export default async function TutorialsIndex({
   const hasResults = filteredTutorials.length > 0;
   const itemListStructuredData =
     buildTutorialCollectionJsonLd(filteredTutorials);
+  const paginationCopy = {
+    ariaLabel: "Paginacja tutoriali",
+    previous: "Poprzednia",
+    next: "Następna",
+  };
+  const baseParams = new URLSearchParams();
+  if (selectedDifficulty) baseParams.set("difficulty", selectedDifficulty);
+  if (selectedTool) baseParams.set("tool", selectedTool);
 
   return (
     <section className="section section--surface">
@@ -127,7 +149,7 @@ export default async function TutorialsIndex({
               <p>{copy.filters.noMatches}</p>
             </div>
           ) : (
-            filteredTutorials.map((tutorial) => {
+            pagedTutorials.map((tutorial) => {
               const categories = tutorialTaxonomyCatalog.resolveCategories(
                 tutorial.taxonomy?.categories,
               );
@@ -159,6 +181,13 @@ export default async function TutorialsIndex({
             })
           )}
         </div>
+        <ArticlesPagination
+          copy={paginationCopy}
+          currentPage={currentPage}
+          totalPages={totalPages}
+          baseSearchParams={baseParams}
+          basePath="/poradniki"
+        />
       </div>
     </section>
   );

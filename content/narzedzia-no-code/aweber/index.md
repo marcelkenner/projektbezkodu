@@ -1,59 +1,79 @@
 ---
-title: "AWeber – czy to dobry email marketing dla małej firmy?"
-slug: "aweber"
-path: "/narzedzia/aweber"
+title: AWeber – czy to dobry email marketing dla małej firmy?
+slug: aweber
+path: /narzedzia/aweber
 draft: false
-template: "tool"
-type: "tool"
-date: "2025-12-08"
+template: tool
+type: tool
+date: '2025-12-08'
 hero:
-  heading: "AWeber: prosty email marketing dla małych firm i twórców"
-  subheading: "Szybki przegląd: kiedy AWeber ma sens, a kiedy lepiej wybrać inne narzędzie."
-  primaryCta: "/narzedzia/aweber/recenzja/"
-  secondaryCta: "/narzedzia/aweber/cennik/"
+  heading: 'AWeber: prosty email marketing dla małych firm i twórców'
+  subheading: 'Szybki przegląd: kiedy AWeber ma sens, a kiedy lepiej wybrać inne narzędzie.'
+  primaryCta: /narzedzia/aweber/recenzja/
+  secondaryCta: /narzedzia/aweber/cennik/
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "AWeber – przewodnik po narzędziu | Email marketing dla małych firm"
-  description: "Zobacz, kiedy AWeber ma sens jako narzędzie do email marketingu w małej firmie lub u twórcy w Polsce. Funkcje, ceny i alternatywy w jednym miejscu."
+  title: AWeber – przewodnik po narzędziu | Email marketing dla małych firm
+  description: >-
+    Zobacz, kiedy AWeber ma sens jako narzędzie do email marketingu w małej
+    firmie lub u twórcy w Polsce. Funkcje, ceny i alternatywy w jednym miejscu.
   keywords:
-    - "AWeber"
-    - "AWeber opinie"
-    - "AWeber recenzja"
-    - "AWeber cennik"
-    - "AWeber alternatywy"
-    - "email marketing narzędzia"
+    - AWeber
+    - AWeber opinie
+    - AWeber recenzja
+    - AWeber cennik
+    - AWeber alternatywy
+    - email marketing narzędzia
 meta:
-  difficulty: "średnie"
-  duration: "15 min"
+  difficulty: średnie
+  duration: 15 min
   hasAffiliateLinks: true
   summaryBullets:
-    - "Doświadczone, stabilne narzędzie do email marketingu z darmowym planem do 500 kontaktów."
-    - "Prosty start i dobre wsparcie kosztem wyższych cen przy większej bazie niż w części konkurencyjnych narzędzi."
-    - "Najbardziej opłacalne dla twórców, konsultantów i małych sklepów z nieskomplikowaną automatyzacją."
+    - >-
+      Doświadczone, stabilne narzędzie do email marketingu z darmowym planem do
+      500 kontaktów.
+    - >-
+      Prosty start i dobre wsparcie kosztem wyższych cen przy większej bazie niż
+      w części konkurencyjnych narzędzi.
+    - >-
+      Najbardziej opłacalne dla twórców, konsultantów i małych sklepów z
+      nieskomplikowaną automatyzacją.
   review:
-    productName: "AWeber"
-    productUrl: "https://www.aweber.com/"
+    productName: AWeber
+    productUrl: https://www.aweber.com/
     ratingValue: 4
     bestRating: 5
     worstRating: 1
-    author: "Redakcja ProductBrew"
-    body: "Solidne, dojrzałe narzędzie do email marketingu z dobrym wsparciem i prostym startem, ale z cennikiem, który po przekroczeniu darmowego progu bywa mniej konkurencyjny niż nowsze platformy."
+    author: Redakcja ProductBrew
+    body: >-
+      Solidne, dojrzałe narzędzie do email marketingu z dobrym wsparciem i
+      prostym startem, ale z cennikiem, który po przekroczeniu darmowego progu
+      bywa mniej konkurencyjny niż nowsze platformy.
     pros:
-      - "Darmowy plan do 500 subskrybentów – bez presji czasowej na testy."
-      - "Proste w obsłudze kampanie, autorespondery i podstawowe automatyzacje."
-      - "Wbudowane landing page, formularze, prosty ecommerce i web push."
-      - "Dużo gotowych integracji z WordPress, WooCommerce, Shopify i narzędziami no-code."
+      - Darmowy plan do 500 subskrybentów – bez presji czasowej na testy.
+      - Proste w obsłudze kampanie, autorespondery i podstawowe automatyzacje.
+      - Wbudowane landing page, formularze, prosty ecommerce i web push.
+      - >-
+        Dużo gotowych integracji z WordPress, WooCommerce, Shopify i narzędziami
+        no-code.
     cons:
-      - "Bardziej ograniczone automatyzacje w tańszych planach niż w części konkurencji."
-      - "Ceny rosną relatywnie szybko wraz z bazą kontaktów."
-      - "Interfejs tylko po angielsku i wizualnie mniej świeży niż w najnowszych platformach."
+      - >-
+        Bardziej ograniczone automatyzacje w tańszych planach niż w części
+        konkurencji.
+      - Ceny rosną relatywnie szybko wraz z bazą kontaktów.
+      - >-
+        Interfejs tylko po angielsku i wizualnie mniej świeży niż w najnowszych
+        platformach.
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "email marketing"
-    - "newsletter"
-    - "marketing automation"
-    - "AWeber"
+    - email marketing
+    - newsletter
+    - marketing automation
+    - AWeber
 ---
 
 # AWeber – szybki przewodnik po narzędziu

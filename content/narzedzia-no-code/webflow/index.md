@@ -1,19 +1,27 @@
 ---
-title: "Webflow – czy to jest właściwe narzędzie dla Ciebie?"
-slug: "webflow"
-path: "/narzedzia/webflow/"
+title: Webflow – czy to jest właściwe narzędzie dla Ciebie?
+slug: webflow
+path: /narzedzia/webflow/
 draft: false
-template: "default"
-type: "tool"
-date: "2025-12-07"
+template: default
+type: tool
+date: '2025-12-07'
 hero:
-  heading: "Webflow: werdykt dla projektantów, marketerów i founderów"
-  subheading: "Dowiedz się w 10 minut, czy Webflow pasuje do Twojego sposobu pracy – zanim zainwestujesz godziny w testy."
-  primaryCta: "/narzedzia/webflow/recenzja/"
-  secondaryCta: "/narzedzia/webflow/cennik/"
+  heading: 'Webflow: werdykt dla projektantów, marketerów i founderów'
+  subheading: >-
+    Dowiedz się w 10 minut, czy Webflow pasuje do Twojego sposobu pracy – zanim
+    zainwestujesz godziny w testy.
+  primaryCta: /narzedzia/webflow/recenzja/
+  secondaryCta: /narzedzia/webflow/cennik/
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Webflow – narzędzie dla projektantów, marketerów i founderów"
-  description: "Praktyczny przewodnik po Webflow: dla kogo to narzędzie ma sens, jakie ma plusy i ograniczenia, jak zacząć oraz gdzie znaleźć recenzję, cennik, alternatywy i wskazówki SEO."
+  title: Webflow – narzędzie dla projektantów, marketerów i founderów
+  description: >-
+    Praktyczny przewodnik po Webflow: dla kogo to narzędzie ma sens, jakie ma
+    plusy i ograniczenia, jak zacząć oraz gdzie znaleźć recenzję, cennik,
+    alternatywy i wskazówki SEO.
   keywords:
     - Webflow
     - kreator stron
@@ -21,40 +29,46 @@ seo:
     - CMS
     - projektowanie stron www
 meta:
-  difficulty: "średnie"
-  duration: "10 minut"
+  difficulty: średnie
+  duration: 10 minut
   tools:
-    - "Webflow"
-  updatedAt: "2025-12-07"
+    - Webflow
+  updatedAt: '2025-12-07'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Przeczytaj pełną recenzję Webflow"
-    href: "/narzedzia/webflow/recenzja/"
+    label: Przeczytaj pełną recenzję Webflow
+    href: /narzedzia/webflow/recenzja/
   secondaryCta:
-    label: "Sprawdź cennik Webflow"
-    href: "/narzedzia/webflow/cennik/"
-  format: "narzędzie"
+    label: Sprawdź cennik Webflow
+    href: /narzedzia/webflow/cennik/
+  format: narzędzie
   topics:
-    - "Webflow"
-    - "kreator stron"
-    - "no-code"
-    - "CMS"
+    - Webflow
+    - kreator stron
+    - no-code
+    - CMS
   stack:
-    - "Webflow"
+    - Webflow
   summaryBullets:
-    - "Szybki werdykt: kiedy Webflow ma sens, a kiedy lepiej zostać przy WordPressie lub Shopify."
-    - "Plusy i ograniczenia Webflow z perspektywy projektantów, marketerów i founderów."
-    - "Mapa dalszych materiałów: recenzja, cennik, SEO, wydajność, CMS, e-commerce, integracje i szablony."
+    - >-
+      Szybki werdykt: kiedy Webflow ma sens, a kiedy lepiej zostać przy
+      WordPressie lub Shopify.
+    - >-
+      Plusy i ograniczenia Webflow z perspektywy projektantów, marketerów i
+      founderów.
+    - >-
+      Mapa dalszych materiałów: recenzja, cennik, SEO, wydajność, CMS,
+      e-commerce, integracje i szablony.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "No-code"
-    - "Web development"
+    - Narzędzia
+    - No-code
+    - Web development
   tags:
-    - "Webflow"
-    - "kreator stron"
-    - "CMS"
-    - "no-code"
+    - Webflow
+    - kreator stron
+    - CMS
+    - no-code
 ---
 
 Po lekturze tej strony będziesz wiedzieć, czy Webflow ma realny sens w Twojej sytuacji – jako freelancer, właściciel małej firmy, marketer albo founder SaaS – czy lepiej zostać przy WordPressie, Shopify albo klasycznym stacku.

@@ -1,39 +1,52 @@
 ---
-title: "Beacons – przewodnik dla twórców z Polski"
-slug: "beacons"
-path: "/narzedzia/beacons"
+title: Beacons – przewodnik dla twórców z Polski
+slug: beacons
+path: /narzedzia/beacons
 draft: false
-template: "default"
-type: "tool"
-date: "2025-12-08"
+template: default
+type: tool
+date: '2025-12-08'
 hero:
-  heading: "Beacons: link in bio, sklep i e-mail w jednym dla twórców"
-  subheading: "Czy to ma sens dla twórcy z Polski? Po tej stronie będziesz mieć jasną odpowiedź."
-  primaryCta: "Przejdź do recenzji Beacons"
-  secondaryCta: "Zobacz cennik Beacons"
+  heading: 'Beacons: link in bio, sklep i e-mail w jednym dla twórców'
+  subheading: >-
+    Czy to ma sens dla twórcy z Polski? Po tej stronie będziesz mieć jasną
+    odpowiedź.
+  primaryCta: Przejdź do recenzji Beacons
+  secondaryCta: Zobacz cennik Beacons
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Beacons – co to jest, dla kogo i czy warto? (przewodnik dla twórców)"
-  description: "Praktyczny przewodnik po Beacons dla twórców z Polski: jak działa, ile kosztuje, dla kogo ma sens, na co uważać i jakie są alternatywy."
+  title: Beacons – co to jest, dla kogo i czy warto? (przewodnik dla twórców)
+  description: >-
+    Praktyczny przewodnik po Beacons dla twórców z Polski: jak działa, ile
+    kosztuje, dla kogo ma sens, na co uważać i jakie są alternatywy.
 meta:
-  updatedAt: "2025-12-08"
-  format: "guide"
+  updatedAt: '2025-12-08'
+  format: guide
   topics:
-    - "link in bio"
-    - "narzędzia dla twórców"
-    - "sprzedaż produktów cyfrowych"
-    - "email marketing"
+    - link in bio
+    - narzędzia dla twórców
+    - sprzedaż produktów cyfrowych
+    - email marketing
   summaryBullets:
-    - "Beacons to all-in-one platforma dla twórców: link in bio, sklep, e-mail i media kit."
-    - "Darmowy plan wystarczy na start, ale 9% prowizji szybko boli przy rosnącej sprzedaży."
-    - "Dla poważnej monetyzacji sens mają dopiero płatne plany z niższymi opłatami."
+    - >-
+      Beacons to all-in-one platforma dla twórców: link in bio, sklep, e-mail i
+      media kit.
+    - >-
+      Darmowy plan wystarczy na start, ale 9% prowizji szybko boli przy rosnącej
+      sprzedaży.
+    - >-
+      Dla poważnej monetyzacji sens mają dopiero płatne plany z niższymi
+      opłatami.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "Creator economy"
+    - Narzędzia
+    - Creator economy
   tags:
-    - "Beacons"
-    - "link in bio"
-    - "sklep dla twórców"
+    - Beacons
+    - link in bio
+    - sklep dla twórców
 ---
 
 # Beacons – co to jest i czy w ogóle warto się tym przejmować?

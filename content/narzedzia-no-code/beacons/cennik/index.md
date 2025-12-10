@@ -1,39 +1,53 @@
 ---
-title: "Beacons – cennik i progi opłacalności (2025)"
-slug: "cennik"
-path: "/narzedzia/beacons/cennik"
+title: Beacons – cennik i progi opłacalności (2025)
+slug: cennik
+path: /narzedzia/beacons/cennik
 draft: false
-template: "default"
-type: "pricing"
-date: "2025-12-08"
+template: default
+type: pricing
+date: '2025-12-08'
 hero:
-  heading: "Beacons – cennik, prowizje i kiedy darmowy plan przestaje się opłacać"
-  subheading: "Rozbijamy na liczby: 9% fee, płatne plany i konkretne progi przychodów dla twórców z Polski."
-  primaryCta: "Policz, który plan Beacons jest dla Ciebie"
-  secondaryCta: "Zobacz pełną recenzję Beacons"
+  heading: Beacons – cennik, prowizje i kiedy darmowy plan przestaje się opłacać
+  subheading: >-
+    Rozbijamy na liczby: 9% fee, płatne plany i konkretne progi przychodów dla
+    twórców z Polski.
+  primaryCta: Policz, który plan Beacons jest dla Ciebie
+  secondaryCta: Zobacz pełną recenzję Beacons
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Beacons – cennik, prowizje i opłacalność planów dla twórców (2025)"
-  description: "Aktualny cennik Beacons (Free, Creator, Creator Plus, Creator Max), 9% prowizji i progi opłacalności dla twórców z Polski. Konkretne liczby, bez marketingowej waty."
+  title: Beacons – cennik, prowizje i opłacalność planów dla twórców (2025)
+  description: >-
+    Aktualny cennik Beacons (Free, Creator, Creator Plus, Creator Max), 9%
+    prowizji i progi opłacalności dla twórców z Polski. Konkretne liczby, bez
+    marketingowej waty.
 meta:
-  updatedAt: "2025-12-08"
-  format: "guide"
+  updatedAt: '2025-12-08'
+  format: guide
   topics:
-    - "cennik"
-    - "creator economy"
-    - "sklep dla twórców"
-    - "link in bio"
+    - cennik
+    - creator economy
+    - sklep dla twórców
+    - link in bio
   summaryBullets:
-    - "Na Free i Creator płacisz 9% od sprzedaży, dopiero Creator Plus i Creator Max mają 0% opłat transakcyjnych."
-    - "Przy około 220 USD miesięcznej sprzedaży Creator Plus jest tańszy niż Creator, a przy około 330 USD tańszy niż Free."
-    - "Płatne plany kosztują 10, 30 i 90 USD miesięcznie (z tańszym rozliczeniem rocznym) i celują w różne etapy rozwoju twórcy."
+    - >-
+      Na Free i Creator płacisz 9% od sprzedaży, dopiero Creator Plus i Creator
+      Max mają 0% opłat transakcyjnych.
+    - >-
+      Przy około 220 USD miesięcznej sprzedaży Creator Plus jest tańszy niż
+      Creator, a przy około 330 USD tańszy niż Free.
+    - >-
+      Płatne plany kosztują 10, 30 i 90 USD miesięcznie (z tańszym rozliczeniem
+      rocznym) i celują w różne etapy rozwoju twórcy.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "Creator economy"
+    - Narzędzia
+    - Creator economy
   tags:
-    - "Beacons"
-    - "cennik"
-    - "sklep dla twórców"
+    - Beacons
+    - cennik
+    - sklep dla twórców
 ---
 
 # Beacons – cennik, prowizje i kiedy darmowy plan zaczyna boleć
@@ -55,12 +69,12 @@ Według oficjalnej tabeli planów w centrum pomocy Beacons z 14 listopada 2025 i
 
 W dolarach wygląda to tak (ceny za miesiąc przy rozliczeniu miesięcznym):
 
-| Plan          | Cena (miesięcznie) | Dla kogo według Beacons | Prowizja od sprzedaży | Kluczowe dodatki z punktu widzenia twórcy |
-| ------------- | ------------------ | ------------------------ | --------------------- | ----------------------------------------- |
-| Free          | 0 USD              | Nowi twórcy             | 9%                    | Link in bio, media kit, sklep z 9% fee, 50 wysłanych maili/mies.:contentReference[oaicite:1]{index=1} |
-| Creator       | 10 USD             | „Growing creators”      | 9%                    | Własna domena, 500 maili/mies., automaty e-mail, AI do outreachu:contentReference[oaicite:2]{index=2} |
-| Creator Plus  | 30 USD             | „Pro sellers”           | 0%                    | 0% fee, nielimitowane maile, membershipy i kursy, order bumps, usunięcie logo:contentReference[oaicite:3]{index=3} |
-| Creator Max   | 90 USD             | Duże marki i agencje    | 0%                    | Wszystko z Plus, Google Workspace, karta NFC, „white glove” support:contentReference[oaicite:4]{index=4} |
+| Plan         | Cena (miesięcznie) | Dla kogo według Beacons | Prowizja od sprzedaży | Kluczowe dodatki z punktu widzenia twórcy                                                                          |
+| ------------ | ------------------ | ----------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Free         | 0 USD              | Nowi twórcy             | 9%                    | Link in bio, media kit, sklep z 9% fee, 50 wysłanych maili/mies.:contentReference[oaicite:1]{index=1}              |
+| Creator      | 10 USD             | „Growing creators”      | 9%                    | Własna domena, 500 maili/mies., automaty e-mail, AI do outreachu:contentReference[oaicite:2]{index=2}              |
+| Creator Plus | 30 USD             | „Pro sellers”           | 0%                    | 0% fee, nielimitowane maile, membershipy i kursy, order bumps, usunięcie logo:contentReference[oaicite:3]{index=3} |
+| Creator Max  | 90 USD             | Duże marki i agencje    | 0%                    | Wszystko z Plus, Google Workspace, karta NFC, „white glove” support:contentReference[oaicite:4]{index=4}           |
 
 Przy rozliczeniu rocznym płacisz odpowiednio 100, 300 i 900 USD rocznie, co sprowadza miesięczny koszt w dół (ok. 8,30 / 25 / 75 USD).:contentReference[oaicite:5]{index=5}
 

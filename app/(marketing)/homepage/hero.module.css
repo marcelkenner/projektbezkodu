@@ -6,7 +6,7 @@
 .homepage-hero__layout {
   display: grid;
   gap: var(--space-6);
-  align-items: center;
+  align-items: flex-start;
 }
 
 .homepage-hero__content {
@@ -35,14 +35,15 @@
 .homepage-hero__media {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .homepage-hero__image {
   width: 100%;
   max-width: 44rem;
   height: auto;
-  border-radius: var(--radii-lg);
-  box-shadow: var(--shadow-md);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 @media (min-width: 48rem) {

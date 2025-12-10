@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Clock } from "@phosphor-icons/react/dist/ssr";
 import type { ContentSummary } from "@/app/lib/content/repositories";
@@ -21,29 +22,23 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
     <article className={`articles-card ${styles["articles-card"]}`}>
       <figure
         className={`articles-card__image ${styles["articles-card__image"]}`}
-        style={{
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.55)), url(${hero.src})`,
-        }}
         aria-label={hero.alt}
       >
-        <div
-          className={`articles-card__imageContent ${styles["articles-card__imageContent"]}`}
-        >
-          <p
-            className={`articles-card__imageTitle ${styles["articles-card__imageTitle"]}`}
-          >
-            {article.title}
-          </p>
-          {subheading ? (
-            <p
-              className={`articles-card__imageSubtitle ${styles["articles-card__imageSubtitle"]}`}
-            >
-              {subheading}
-            </p>
-          ) : null}
-        </div>
+        <Image
+          src={hero.src}
+          alt={hero.alt}
+          width={hero.width ?? 1600}
+          height={hero.height ?? 900}
+          className={styles["articles-card__thumb"]}
+          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+        />
+        <div className={styles["articles-card__overlay"]} />
       </figure>
       <div className={`articles-card__body ${styles["articles-card__body"]}`}>
+        <h3 className={styles["articles-card__title"]}>{article.title}</h3>
+        {subheading ? (
+          <p className={styles["articles-card__summary"]}>{subheading}</p>
+        ) : null}
         <div
           className={`articles-card__footer ${styles["articles-card__footer"]}`}
         >
@@ -91,7 +86,12 @@ export function ArticleCard({ article, ctaLabel, category }: ArticleCardProps) {
 
 function resolveHeroImage(article: ContentSummary) {
   const fallback = defaultHeroImageForPath(article.path, article.title);
-  return { src: fallback.src, alt: fallback.alt };
+  return {
+    src: fallback.src,
+    alt: fallback.alt,
+    width: fallback.width,
+    height: fallback.height,
+  };
 }
 
 function formatDate(isoDate?: string): string {

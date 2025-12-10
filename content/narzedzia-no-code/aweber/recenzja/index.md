@@ -1,61 +1,94 @@
 ---
-title: "AWeber – recenzja narzędzia do email marketingu (2025)"
-slug: "aweber-recenzja"
-path: "/narzedzia/aweber/recenzja"
+title: AWeber – recenzja narzędzia do email marketingu (2025)
+slug: aweber-recenzja
+path: /narzedzia/aweber/recenzja
 draft: false
-template: "tool"
-type: "tool-review"
-date: "2025-12-08"
+template: tool
+type: tool-review
+date: '2025-12-08'
 hero:
-  heading: "AWeber w praktyce: solidny klasyk email marketingu dla małych firm"
-  subheading: "Szczera recenzja: kiedy AWeber jest strzałem w dziesiątkę, a kiedy lepiej od razu wybrać inne narzędzie."
-  primaryCta: "/narzedzia/aweber/cennik"
-  secondaryCta: "/narzedzia/aweber/alternatywy"
+  heading: 'AWeber w praktyce: solidny klasyk email marketingu dla małych firm'
+  subheading: >-
+    Szczera recenzja: kiedy AWeber jest strzałem w dziesiątkę, a kiedy lepiej od
+    razu wybrać inne narzędzie.
+  primaryCta: /narzedzia/aweber/cennik
+  secondaryCta: /narzedzia/aweber/alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "AWeber – recenzja i opinie (2025). Czy warto dla małej firmy?"
-  description: "Szczera recenzja AWeber dla polskich małych firm, twórców i sklepów online. Funkcje, automatyzacje, cennik, integracje, plusy, minusy i praktyczne wnioski."
+  title: AWeber – recenzja i opinie (2025). Czy warto dla małej firmy?
+  description: >-
+    Szczera recenzja AWeber dla polskich małych firm, twórców i sklepów online.
+    Funkcje, automatyzacje, cennik, integracje, plusy, minusy i praktyczne
+    wnioski.
   keywords:
-    - "AWeber recenzja"
-    - "AWeber opinie"
-    - "AWeber 2025"
-    - "AWeber email marketing"
-    - "AWeber dla małych firm"
+    - AWeber recenzja
+    - AWeber opinie
+    - AWeber 2025
+    - AWeber email marketing
+    - AWeber dla małych firm
 meta:
-  difficulty: "średnie"
-  duration: "20 min"
+  difficulty: średnie
+  duration: 20 min
   hasAffiliateLinks: true
   summaryBullets:
-    - "AWeber to dojrzałe narzędzie do email marketingu, idealne dla małych firm i twórców, którzy chcą prostego startu z newsletterem i podstawową automatyzacją."
-    - "Mocne strony to gotowe landing page, AI do pisania maili, integracje z popularnymi platformami oraz stabilna infrastruktura z wysoką dostarczalnością."
-    - "Słabszą stroną jest mniej elastyczna automatyzacja niż w narzędziach klasy ActiveCampaign i rosnący koszt przy większych bazach kontaktów."
+    - >-
+      AWeber to dojrzałe narzędzie do email marketingu, idealne dla małych firm
+      i twórców, którzy chcą prostego startu z newsletterem i podstawową
+      automatyzacją.
+    - >-
+      Mocne strony to gotowe landing page, AI do pisania maili, integracje z
+      popularnymi platformami oraz stabilna infrastruktura z wysoką
+      dostarczalnością.
+    - >-
+      Słabszą stroną jest mniej elastyczna automatyzacja niż w narzędziach klasy
+      ActiveCampaign i rosnący koszt przy większych bazach kontaktów.
   review:
-    productName: "AWeber"
-    productUrl: "https://www.aweber.com/"
+    productName: AWeber
+    productUrl: https://www.aweber.com/
     ratingValue: 4
     bestRating: 5
     worstRating: 1
-    author: "Redakcja ProductBrew"
-    body: "AWeber to solidny „klasyk” email marketingu: prosty w obsłudze, stabilny i dobrze wspierany, świetny na start i dla prostych scenariuszy automatyzacji. Nie jest najtańszy przy dużych listach i nie wygra wyścigu funkcji z topowymi platformami automation, ale dla małych firm i twórców nadal jest bardzo sensowną opcją."
+    author: Redakcja ProductBrew
+    body: >-
+      AWeber to solidny „klasyk” email marketingu: prosty w obsłudze, stabilny i
+      dobrze wspierany, świetny na start i dla prostych scenariuszy
+      automatyzacji. Nie jest najtańszy przy dużych listach i nie wygra wyścigu
+      funkcji z topowymi platformami automation, ale dla małych firm i twórców
+      nadal jest bardzo sensowną opcją.
     pros:
-      - "Dojrzałe, stabilne narzędzie z wieloletnią historią i dopracowaną infrastrukturą."
-      - "Przejrzysty edytor kampanii i gotowe szablony maili oraz landing page."
-      - "Wbudowane AI do pisania treści i tematów wiadomości."
-      - "Bezpłatny plan do 500 kontaktów, sensowny na start i testy."
-      - "Dużo integracji z WordPress, WooCommerce, Shopify (bezpośrednio lub przez no-code)."
-      - "Wsparcie 24/7 (chat, e-mail, baza wiedzy) oraz materiały edukacyjne."
+      - >-
+        Dojrzałe, stabilne narzędzie z wieloletnią historią i dopracowaną
+        infrastrukturą.
+      - Przejrzysty edytor kampanii i gotowe szablony maili oraz landing page.
+      - Wbudowane AI do pisania treści i tematów wiadomości.
+      - Bezpłatny plan do 500 kontaktów, sensowny na start i testy.
+      - >-
+        Dużo integracji z WordPress, WooCommerce, Shopify (bezpośrednio lub
+        przez no-code).
+      - Wsparcie 24/7 (chat, e-mail, baza wiedzy) oraz materiały edukacyjne.
     cons:
-      - "Automatyzacje i warunki reguł są prostsze niż w narzędziach stricte automation."
-      - "Przy rosnącej bazie kontakty/PLN AWeber bywa droższy niż część konkurencji."
-      - "Panel tylko po angielsku, interfejs wizualnie mniej świeży niż u nowszych graczy."
-      - "Nie jest to spójny kombajn typu CRM+marketing, a raczej „silnik maili + dodatki”."
+      - >-
+        Automatyzacje i warunki reguł są prostsze niż w narzędziach stricte
+        automation.
+      - >-
+        Przy rosnącej bazie kontakty/PLN AWeber bywa droższy niż część
+        konkurencji.
+      - >-
+        Panel tylko po angielsku, interfejs wizualnie mniej świeży niż u
+        nowszych graczy.
+      - >-
+        Nie jest to spójny kombajn typu CRM+marketing, a raczej „silnik maili +
+        dodatki”.
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "email marketing"
-    - "newsletter"
-    - "marketing automation"
-    - "AWeber"
+    - email marketing
+    - newsletter
+    - marketing automation
+    - AWeber
 ---
 
 # AWeber – szczera recenzja dla małych firm i twórców

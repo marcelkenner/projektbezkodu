@@ -12,6 +12,7 @@ interface ArticlesPaginationProps {
   currentPage: number;
   totalPages: number;
   baseSearchParams: URLSearchParams;
+  basePath?: string;
 }
 
 export function ArticlesPagination({
@@ -19,6 +20,7 @@ export function ArticlesPagination({
   currentPage,
   totalPages,
   baseSearchParams,
+  basePath = "/artykuly",
 }: ArticlesPaginationProps) {
   if (totalPages <= 1) {
     return null;
@@ -31,7 +33,7 @@ export function ArticlesPagination({
       <nav aria-label={copy.ariaLabel}>
         {currentPage > 1 ? (
           <PaginationLink
-            href={buildHref(baseSearchParams, currentPage - 1)}
+            href={buildHref(basePath, baseSearchParams, currentPage - 1)}
             rel="prev"
           >
             {copy.previous}
@@ -48,7 +50,7 @@ export function ArticlesPagination({
           ) : (
             <PaginationLink
               key={item}
-              href={buildHref(baseSearchParams, item)}
+              href={buildHref(basePath, baseSearchParams, item)}
               aria-current={item === currentPage ? "page" : undefined}
             >
               {item}
@@ -57,7 +59,7 @@ export function ArticlesPagination({
         )}
         {currentPage < totalPages ? (
           <PaginationLink
-            href={buildHref(baseSearchParams, currentPage + 1)}
+            href={buildHref(basePath, baseSearchParams, currentPage + 1)}
             rel="next"
           >
             {copy.next}
@@ -88,7 +90,11 @@ function PaginationLink({
   );
 }
 
-function buildHref(params: URLSearchParams, page: number): string {
+function buildHref(
+  basePath: string,
+  params: URLSearchParams,
+  page: number,
+): string {
   const nextParams = new URLSearchParams(params);
   if (page <= 1) {
     nextParams.delete("page");
@@ -96,7 +102,7 @@ function buildHref(params: URLSearchParams, page: number): string {
     nextParams.set("page", String(page));
   }
   const query = nextParams.toString();
-  return query ? `/artykuly?${query}` : "/artykuly";
+  return query ? `${basePath}?${query}` : basePath;
 }
 
 function buildPageItems(

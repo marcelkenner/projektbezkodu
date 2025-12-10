@@ -8,6 +8,9 @@ tags:
   - biblioteka
 draft: true
 date: '2025-11-05'
+hero:
+  heading: 'Sekcje: CTA'
+  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
 # Sekcje: CTA

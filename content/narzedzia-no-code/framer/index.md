@@ -1,70 +1,85 @@
 ---
-
 title: Framer – kreator stron www z AI dla projektantów i startupów
 slug: framer
 path: /narzedzia/framer
 draft: false
 template: default
-date: "2025-12-07"
+date: '2025-12-07'
 hero:
-heading: Framer – szybkie landing page’e i strony firmowe bez kodu
-subheading: Po tej stronie zobaczysz, kiedy Framer ma więcej sensu niż WordPress czy Webflow i czy realnie opłaca się go używać w polskim biznesie.
-primaryCta: Sprawdź, czy Framer pasuje do Twojego scenariusza
-secondaryCta: Zobacz recenzję, ceny i alternatywy
+  heading: Framer – szybkie landing page’e i strony firmowe bez kodu
+  subheading: >-
+    Po tej stronie zobaczysz, kiedy Framer ma więcej sensu niż WordPress czy
+    Webflow i czy realnie opłaca się go używać w polskim biznesie.
+  primaryCta: Sprawdź, czy Framer pasuje do Twojego scenariusza
+  secondaryCta: Zobacz recenzję, ceny i alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-title: Framer – co to jest, dla kogo ma sens i kiedy lepiej wybrać coś innego?
-description: Framer to kreator stron www z AI, CMS i hostingiem w jednym. Zobacz, dla kogo jest idealny, jakie ma ograniczenia i jak wypada na tle WordPressa i Webflow.
-canonical: /narzedzia/framer
-keywords:
-- Framer
-- kreator stron www
-- no-code
-- landing page
-- AI landing page
+  title: Framer – co to jest, dla kogo ma sens i kiedy lepiej wybrać coś innego?
+  description: >-
+    Framer to kreator stron www z AI, CMS i hostingiem w jednym. Zobacz, dla
+    kogo jest idealny, jakie ma ograniczenia i jak wypada na tle WordPressa i
+    Webflow.
+  canonical: /narzedzia/framer
+  keywords:
+    - Framer
+    - kreator stron www
+    - no-code
+    - landing page
+    - AI landing page
 meta:
-tools:
-- Framer
-topics:
-- kreatory stron www
-- no-code
-- AI w marketingu
+  tools:
+    - Framer
+  topics:
+    - kreatory stron www
+    - no-code
+    - AI w marketingu
 summaryBullets:
-- Framer to wizualny kreator stron www z AI, CMS i hostingiem w jednym.
-- Świetnie sprawdza się przy landingach, prostych stronach firmowych i portfolio.
-- Przy rozbudowanych serwisach i e-commerce lepiej rozważyć alternatywy.
+  - Framer to wizualny kreator stron www z AI, CMS i hostingiem w jednym.
+  - >-
+    Świetnie sprawdza się przy landingach, prostych stronach firmowych i
+    portfolio.
+  - Przy rozbudowanych serwisach i e-commerce lepiej rozważyć alternatywy.
 metrics:
-- label: Realny próg wejścia
-value: ok. 10 USD/mies.
-description: Plan Basic po podpięciu własnej domeny, reszta pracy może odbywać się na darmowym planie.
-- label: Czas do pierwszego sensownego landinga
-value: 1–2 godziny
-description: Zakładając użycie gotowego szablonu Framera i podstawowe dostosowanie treści.
+  - label: Realny próg wejścia
+    value: ok. 10 USD/mies.
+    description: >-
+      Plan Basic po podpięciu własnej domeny, reszta pracy może odbywać się na
+      darmowym planie.
+  - label: Czas do pierwszego sensownego landinga
+    value: 1–2 godziny
+    description: >-
+      Zakładając użycie gotowego szablonu Framera i podstawowe dostosowanie
+      treści.
 review:
-productName: Framer
-productUrl: [https://www.framer.com/](https://www.framer.com/)
-ratingValue: 4.3
-bestRating: 5
-worstRating: 1
-body: Nowoczesny kreator stron z AI – świetny dla landingów i mniejszych projektów, mniej wygodny przy dużych serwisach i rozbudowanym e-commerce.
+  productName: Framer
+  productUrl: https://www.framer.com/
+  ratingValue: 4.3
+  bestRating: 5
+  worstRating: 1
+  body: >-
+    Nowoczesny kreator stron z AI – świetny dla landingów i mniejszych
+    projektów, mniej wygodny przy dużych serwisach i rozbudowanym e-commerce.
 pros:
-- Bardzo szybkie stawianie nowoczesnych stron i landingów bez kodu.
-- Wbudowany hosting, CMS, SEO i analityka – mniej „klocków” do pilnowania.
-- Silne funkcje AI do generowania układów, treści i tłumaczeń.
+  - Bardzo szybkie stawianie nowoczesnych stron i landingów bez kodu.
+  - Wbudowany hosting, CMS, SEO i analityka – mniej „klocków” do pilnowania.
+  - Silne funkcje AI do generowania układów, treści i tłumaczeń.
 cons:
-- Ograniczenia przy dużych serwisach treściowych i e-commerce.
-- Model cenowy w USD – koszt zależny od kursu i podatków.
-- Mniejszy ekosystem pluginów niż w WordPressie.
+  - Ograniczenia przy dużych serwisach treściowych i e-commerce.
+  - Model cenowy w USD – koszt zależny od kursu i podatków.
+  - Mniejszy ekosystem pluginów niż w WordPressie.
 taxonomy:
-categories:
-- Narzędzia
-- Kreatory stron WWW
-tags:
-- Framer
-- kreator stron
-- no-code
-- AI
-- landing page
---------------
+  categories:
+    - Narzędzia
+    - Kreatory stron WWW
+  tags:
+    - Framer
+    - kreator stron
+    - no-code
+    - AI
+    - landing page
+---
 
 Framer wyrósł w ostatnich latach na ulubione narzędzie wielu projektantów, małych agencji i founderów, którzy chcą nowoczesny landing albo stronę firmową „na wczoraj”, bez budowania całego stosu technologicznego.
 
@@ -74,9 +89,9 @@ Ta strona jest Twoim centrum dowodzenia: po lekturze będziesz wiedzieć, czy Fr
 
 Jeśli jesteś w jednej z tych grup, Framer bardzo prawdopodobnie się obroni:
 
-* freelance designer lub mała agencja, która sprzedaje landing page’e i proste strony firmowe,
-* założyciel SaaS lub produktu B2B, który potrzebuje szybkich eksperymentów z landingami i wersjami A/B,
-* marketer w firmie, który chce samodzielnie poprawiać treści, sekcje i warianty strony bez kolejki do działu IT.
+- freelance designer lub mała agencja, która sprzedaje landing page’e i proste strony firmowe,
+- założyciel SaaS lub produktu B2B, który potrzebuje szybkich eksperymentów z landingami i wersjami A/B,
+- marketer w firmie, który chce samodzielnie poprawiać treści, sekcje i warianty strony bez kolejki do działu IT.
 
 Framer to kreator stron klasy „design-first”: pracujesz na płótnie podobnym do Figmy, a pod spodem masz gotowy hosting, CMS, SEO i analitykę, plus funkcje AI do generowania układów i treści. ([Framer][1])
 
@@ -86,16 +101,16 @@ Jeżeli Twoja codzienność to raczej: blog z tysiącami artykułów, duży skle
 
 Framer to wizualny kreator stron www, który łączy trzy rzeczy w jednym:
 
-* narzędzie do projektowania (płótno zbliżone do Figmy),
-* system do publikowania stron (hosting w chmurze, CMS, SEO),
-* pakiet funkcji AI (generowanie układów stron, sekcji, treści, tłumaczeń). ([Framer][1])
+- narzędzie do projektowania (płótno zbliżone do Figmy),
+- system do publikowania stron (hosting w chmurze, CMS, SEO),
+- pakiet funkcji AI (generowanie układów stron, sekcji, treści, tłumaczeń). ([Framer][1])
 
 Projektujesz, ustawiasz breakpoints, animacje i interakcje, a następnie jednym kliknięciem publikujesz żywą stronę na subdomenie Framera albo własnej domenie. ([Framer][1])
 
 Kluczowe fakty, które warto mieć z tyłu głowy:
 
-* projektowanie w Framerze jest bez limitów i darmowe – płacisz dopiero, gdy chcesz podpiąć własną domenę i „wypchnąć” stronę publicznie,
-* oficjalne plany Basic, Pro i Scale zaczynają się od ok. 10 USD/mies., 30 USD/mies. i 100 USD/mies. (przy rozliczeniu rocznym), z różnymi limitami na liczbę stron, kolekcji CMS i transfer. ([Framer][3])
+- projektowanie w Framerze jest bez limitów i darmowe – płacisz dopiero, gdy chcesz podpiąć własną domenę i „wypchnąć” stronę publicznie,
+- oficjalne plany Basic, Pro i Scale zaczynają się od ok. 10 USD/mies., 30 USD/mies. i 100 USD/mies. (przy rozliczeniu rocznym), z różnymi limitami na liczbę stron, kolekcji CMS i transfer. ([Framer][3])
 
 W praktyce oznacza to tyle, że możesz spokojnie prototypować i sprzedawać design w darmowym środowisku, a koszty zaczynają się dopiero w momencie, gdy klient potrzebuje stabilnie działającej, publicznej strony na własnej domenie.
 
@@ -134,9 +149,9 @@ Dla freelancera lub małej agencji efekt jest prosty: mniej narzędzi, mniej lic
 
 Typowe ograniczenia:
 
-* CMS Framera jest wygodny, ale wciąż mniej rozbudowany niż Webflow czy zaawansowany WordPress z custom fields – przy skomplikowanych strukturach danych (np. portale, multi-blogi na wielu rynkach) będziesz go naginać. ([codelevate.com][2])
-* Framer nie celuje w rolę pełnoprawnej platformy e-commerce z zarządzaniem stanami magazynowymi, złożonymi regułami wysyłki czy rozbudowaną logiką koszyka. ([codelevate.com][2])
-* Ceny są denominowane w USD, więc przy słabszym kursie złotego koszt miesięczny realnie rośnie – szczególnie gdy wchodzisz w wyższe plany albo dokładane są płatni edytorzy w workspace. ([Framer][5])
+- CMS Framera jest wygodny, ale wciąż mniej rozbudowany niż Webflow czy zaawansowany WordPress z custom fields – przy skomplikowanych strukturach danych (np. portale, multi-blogi na wielu rynkach) będziesz go naginać. ([codelevate.com][2])
+- Framer nie celuje w rolę pełnoprawnej platformy e-commerce z zarządzaniem stanami magazynowymi, złożonymi regułami wysyłki czy rozbudowaną logiką koszyka. ([codelevate.com][2])
+- Ceny są denominowane w USD, więc przy słabszym kursie złotego koszt miesięczny realnie rośnie – szczególnie gdy wchodzisz w wyższe plany albo dokładane są płatni edytorzy w workspace. ([Framer][5])
 
 W praktyce: jeśli planujesz duży, wieloletni serwis treściowy albo kluczowy sklep internetowy, to Framer będzie świetnym narzędziem do landingów i mikrosajtów wokół tego biznesu, ale niekoniecznie fundamentem wszystkiego.
 
@@ -157,9 +172,9 @@ To niskotarciowy sposób na przetestowanie, czy Framer pasuje do Twojego sposobu
 
 Ta strona to tylko punkt startowy. Jeśli Framer wydaje Ci się „obiecujący, ale potrzebujesz konkretów”, przejdź dalej:
 
-* pełna [recenzja Framera](/narzedzia/framer/recenzja/) – szczegółowe plusy, minusy i realne scenariusze,
-* omówienie [cennika Framera](/narzedzia/framer/cennik/) pod kątem polskich firm i freelancerów,
-* zestawienie [alternatyw dla Framera](/narzedzia/framer/alternatywy/) (WordPress, Webflow, Squarespace i kilka mniejszych graczy),
-* sekcje praktyczne: [SEO w Framerze](/narzedzia/framer/seo/), [AI landing page’e](/narzedzia/framer/ai-landing/), [formularze](/narzedzia/framer/formularze/), [szablony](/narzedzia/framer/szablony/) i [animacje](/narzedzia/framer/animacje/).
+- pełna [recenzja Framera](/narzedzia/framer/recenzja/) – szczegółowe plusy, minusy i realne scenariusze,
+- omówienie [cennika Framera](/narzedzia/framer/cennik/) pod kątem polskich firm i freelancerów,
+- zestawienie [alternatyw dla Framera](/narzedzia/framer/alternatywy/) (WordPress, Webflow, Squarespace i kilka mniejszych graczy),
+- sekcje praktyczne: [SEO w Framerze](/narzedzia/framer/seo/), [AI landing page’e](/narzedzia/framer/ai-landing/), [formularze](/narzedzia/framer/formularze/), [szablony](/narzedzia/framer/szablony/) i [animacje](/narzedzia/framer/animacje/).
 
 Jeśli po tej stronie czujesz, że Framer wpisuje się w Twoje projekty – załóż darmowe konto, postaw jeden testowy landing i zobacz, czy praca „design → live” jest dla Ciebie przyjemniejsza niż w dotychczasowym stosie.

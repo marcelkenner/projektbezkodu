@@ -23,7 +23,9 @@ export function NewsletterSection({ copy }: { copy: NewsletterCopy }) {
       className={`${sectionStyles["homepage-section"]} ${sectionStyles["homepage-section--newsletter"]}`}
       aria-labelledby="newsletter-heading"
     >
-      <div className={`pbk-container ${newsletterStyles["homepage-newsletter__wrapper"]}`}>
+      <div
+        className={`pbk-container ${newsletterStyles["homepage-newsletter__wrapper"]}`}
+      >
         <div className={newsletterStyles["homepage-newsletter__content"]}>
           <h2 id="newsletter-heading">{copy.heading}</h2>
           <p>{copy.body}</p>

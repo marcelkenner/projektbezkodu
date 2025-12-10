@@ -1,40 +1,54 @@
 ---
-title: "Alternatywy dla Beacons – co wybrać zamiast (albo obok) all-in-one?"
-slug: "alternatywy"
-path: "/narzedzia/beacons/alternatywy"
+title: Alternatywy dla Beacons – co wybrać zamiast (albo obok) all-in-one?
+slug: alternatywy
+path: /narzedzia/beacons/alternatywy
 draft: false
-template: "default"
-type: "guide"
-date: "2025-12-08"
+template: default
+type: guide
+date: '2025-12-08'
 hero:
-  heading: "Alternatywy dla Beacons: które narzędzie ma sens w twojej sytuacji?"
-  subheading: "Jeśli Beacons kusi funkcjami, ale odstrasza prowizją 9%, zobacz, co realnie możesz postawić zamiast niego."
-  primaryCta: "Sprawdź, czy Beacons w ogóle jest ci potrzebny"
-  secondaryCta: "Zobacz recenzję Beacons"
+  heading: 'Alternatywy dla Beacons: które narzędzie ma sens w twojej sytuacji?'
+  subheading: >-
+    Jeśli Beacons kusi funkcjami, ale odstrasza prowizją 9%, zobacz, co realnie
+    możesz postawić zamiast niego.
+  primaryCta: Sprawdź, czy Beacons w ogóle jest ci potrzebny
+  secondaryCta: Zobacz recenzję Beacons
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Alternatywy dla Beacons – porównanie narzędzi dla twórców (2025)"
-  description: "Porównujemy najważniejsze alternatywy dla Beacons: Linktree, The Leap, Gumroad, Payhip, Kajabi, Kit (ConvertKit), MailerLite i własny stack. Po lekturze wiesz, co wybrać jako twórca z Polski."
+  title: Alternatywy dla Beacons – porównanie narzędzi dla twórców (2025)
+  description: >-
+    Porównujemy najważniejsze alternatywy dla Beacons: Linktree, The Leap,
+    Gumroad, Payhip, Kajabi, Kit (ConvertKit), MailerLite i własny stack. Po
+    lekturze wiesz, co wybrać jako twórca z Polski.
 meta:
-  updatedAt: "2025-12-08"
-  format: "comparison"
+  updatedAt: '2025-12-08'
+  format: comparison
   topics:
-    - "link in bio"
-    - "produkty cyfrowe"
-    - "email marketing"
-    - "kursy online"
+    - link in bio
+    - produkty cyfrowe
+    - email marketing
+    - kursy online
   summaryBullets:
-    - "Jeśli chcesz tylko prosty link in bio, Beacons jest overkill – lepszy będzie Linktree lub podobne narzędzie."
-    - "Jeśli priorytetem jest sprzedaż produktów cyfrowych, sensownie jest porównać Beacons z Gumroad, Payhip i The Leap."
-    - "Jeśli centrum twojego biznesu to newsletter lub kursy, często lepiej złożyć własny stack niż trzymać się Beacons."
+    - >-
+      Jeśli chcesz tylko prosty link in bio, Beacons jest overkill – lepszy
+      będzie Linktree lub podobne narzędzie.
+    - >-
+      Jeśli priorytetem jest sprzedaż produktów cyfrowych, sensownie jest
+      porównać Beacons z Gumroad, Payhip i The Leap.
+    - >-
+      Jeśli centrum twojego biznesu to newsletter lub kursy, często lepiej
+      złożyć własny stack niż trzymać się Beacons.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "Creator economy"
+    - Narzędzia
+    - Creator economy
   tags:
-    - "Beacons"
-    - "alternatywy"
-    - "link in bio"
-    - "produkty cyfrowe"
+    - Beacons
+    - alternatywy
+    - link in bio
+    - produkty cyfrowe
 ---
 
 # Alternatywy dla Beacons – czy naprawdę potrzebujesz all-in-one?

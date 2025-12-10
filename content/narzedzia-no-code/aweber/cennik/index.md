@@ -1,50 +1,70 @@
 ---
-title: "AWeber – cennik i który plan się opłaca (2025)"
-slug: "aweber-cennik"
-path: "/narzedzia/aweber/cennik"
+title: AWeber – cennik i który plan się opłaca (2025)
+slug: aweber-cennik
+path: /narzedzia/aweber/cennik
 draft: false
-template: "tool"
-type: "tool-pricing"
-date: "2025-12-08"
+template: tool
+type: tool-pricing
+date: '2025-12-08'
 hero:
-  heading: "AWeber – cennik, plany i progi kontaktów w 2025"
-  subheading: "Po tej stronie wiesz, ile realnie zapłacisz za AWeber przy twojej bazie i kiedy darmowy plan przestaje mieć sens."
-  primaryCta: "/narzedzia/aweber/"
-  secondaryCta: "/narzedzia/aweber/alternatywy"
+  heading: AWeber – cennik, plany i progi kontaktów w 2025
+  subheading: >-
+    Po tej stronie wiesz, ile realnie zapłacisz za AWeber przy twojej bazie i
+    kiedy darmowy plan przestaje mieć sens.
+  primaryCta: /narzedzia/aweber/
+  secondaryCta: /narzedzia/aweber/alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "AWeber – cennik i plany (2025). Ile naprawdę zapłacisz?"
-  description: "Aktualny cennik AWeber na 2025 rok: darmowy plan, Lite, Plus, Unlimited. Konkretne progi kontaktów, przykładowe kwoty, porównanie i rekomendacje dla małych firm i twórców z Polski."
+  title: AWeber – cennik i plany (2025). Ile naprawdę zapłacisz?
+  description: >-
+    Aktualny cennik AWeber na 2025 rok: darmowy plan, Lite, Plus, Unlimited.
+    Konkretne progi kontaktów, przykładowe kwoty, porównanie i rekomendacje dla
+    małych firm i twórców z Polski.
   keywords:
-    - "AWeber cennik"
-    - "AWeber ceny 2025"
-    - "AWeber ile kosztuje"
-    - "AWeber free plan"
-    - "AWeber Lite Plus Unlimited"
+    - AWeber cennik
+    - AWeber ceny 2025
+    - AWeber ile kosztuje
+    - AWeber free plan
+    - AWeber Lite Plus Unlimited
 meta:
-  difficulty: "łatwe"
-  duration: "15 min"
-  updatedAt: "2025-12-08"
+  difficulty: łatwe
+  duration: 15 min
+  updatedAt: '2025-12-08'
   hasAffiliateLinks: true
   summaryBullets:
-    - "AWeber ma darmowy plan do 500 kontaktów i płatne plany Lite, Plus oraz Unlimited – cena rośnie głównie wraz z wielkością bazy."
-    - "Lite opłaca się przy prostym newsletterze i mniejszych bazach; Plus ma sens, gdy wykorzystujesz automatyzacje, segmentację i sprzedaż z maili."
-    - "Przy dużych listach (powyżej kilkunastu tysięcy kontaktów) warto porównać AWeber z tańszymi alternatywami, bo koszt rośnie szybko."
+    - >-
+      AWeber ma darmowy plan do 500 kontaktów i płatne plany Lite, Plus oraz
+      Unlimited – cena rośnie głównie wraz z wielkością bazy.
+    - >-
+      Lite opłaca się przy prostym newsletterze i mniejszych bazach; Plus ma
+      sens, gdy wykorzystujesz automatyzacje, segmentację i sprzedaż z maili.
+    - >-
+      Przy dużych listach (powyżej kilkunastu tysięcy kontaktów) warto porównać
+      AWeber z tańszymi alternatywami, bo koszt rośnie szybko.
   review:
-    productName: "AWeber – cennik"
-    productUrl: "https://www.aweber.com/pricing.htm"
+    productName: AWeber – cennik
+    productUrl: https://www.aweber.com/pricing.htm
     ratingValue: 4
     bestRating: 5
     worstRating: 1
-    author: "Redakcja ProductBrew"
-    body: "Cennik AWeber jest prosty i przewidywalny, ale zdecydowanie nie dumpingowy. Dla małych list i prostych scenariuszy Lite i darmowy plan są uczciwie wycenione. Przy rosnącej bazie i bardziej zaawansowanej automatyzacji Plus i Unlimited potrafią być zauważalnie droższe niż nowsze narzędzia – w zamian dostajesz jednak dojrzałą infrastrukturę i dobre wsparcie."
+    author: Redakcja ProductBrew
+    body: >-
+      Cennik AWeber jest prosty i przewidywalny, ale zdecydowanie nie
+      dumpingowy. Dla małych list i prostych scenariuszy Lite i darmowy plan są
+      uczciwie wycenione. Przy rosnącej bazie i bardziej zaawansowanej
+      automatyzacji Plus i Unlimited potrafią być zauważalnie droższe niż nowsze
+      narzędzia – w zamian dostajesz jednak dojrzałą infrastrukturę i dobre
+      wsparcie.
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "email marketing"
-    - "newsletter"
-    - "marketing automation"
-    - "AWeber"
+    - email marketing
+    - newsletter
+    - marketing automation
+    - AWeber
 ---
 
 # AWeber – cennik i który plan wybrać w 2025 roku
@@ -82,7 +102,7 @@ Na darmowym planie możesz mieć do 500 subskrybentów i wysłać do 3 000 maili
 - podstawowe landing page i formularze,
 - branding AWeber w stopce i ograniczone raporty.
 
-Jest to klasyczny „free forever” – nie ma limitu czasu, dopóki nie przekroczysz 500 kontaktów.  
+Jest to klasyczny „free forever” – nie ma limitu czasu, dopóki nie przekroczysz 500 kontaktów.
 
 Co to oznacza w praktyce:
 
@@ -151,7 +171,7 @@ Plus to plan, w którym AWeber odblokowuje „pełny zestaw zabawek”:
 - śledzenie sprzedaży z maili i zaawansowane funkcje ecommerce,
 - więcej użytkowników i priorytetowe wsparcie.
 
-Cenowo Plus startuje od ok. 30 USD miesięcznie (500 kontaktów) przy rozliczeniu miesięcznym i ok. 240 USD rocznie (czyli ok. 20 USD miesięcznie) przy rozliczeniu rocznym.  
+Cenowo Plus startuje od ok. 30 USD miesięcznie (500 kontaktów) przy rozliczeniu miesięcznym i ok. 240 USD rocznie (czyli ok. 20 USD miesięcznie) przy rozliczeniu rocznym.
 
 Typowe wartości z oficjalnych tabel:
 
@@ -202,12 +222,12 @@ Cenowo to w okolicach kilkudziesięciu dolarów miesięcznie plus jednorazowa op
 
 Żeby łatwiej porównać, zobacz orientacyjne kwoty przy rozliczeniu miesięcznym (bez uwzględnienia rabatów rocznych i VAT):
 
-| Liczba subskrybentów | Plan Lite (ok.) | Plan Plus (ok.) |
-| -------------------- | --------------- | --------------- |
-| do 500               | 15 USD / ~54 zł | 30 USD / ~108 zł |
-| do 1 000             | 25 USD / ~90 zł | 45 USD / ~162 zł |
-| do 2 500             | 35 USD / ~126 zł | 55 USD / ~198 zł |
-| do 5 000             | 60 USD / ~216 zł | 90 USD / ~324 zł |
+| Liczba subskrybentów | Plan Lite (ok.)   | Plan Plus (ok.)   |
+| -------------------- | ----------------- | ----------------- |
+| do 500               | 15 USD / ~54 zł   | 30 USD / ~108 zł  |
+| do 1 000             | 25 USD / ~90 zł   | 45 USD / ~162 zł  |
+| do 2 500             | 35 USD / ~126 zł  | 55 USD / ~198 zł  |
+| do 5 000             | 60 USD / ~216 zł  | 90 USD / ~324 zł  |
 | do 10 000            | 100 USD / ~360 zł | 135 USD / ~486 zł |
 
 To są wartości przybliżone, zaokrąglone na podstawie oficjalnych tabel AWeber. Dokładne aktualne kwoty zawsze sprawdzaj na [stronie cennika AWeber](https://www.aweber.com/pricing.htm), bo firma potrafi zmieniać ceny i struktury planów.

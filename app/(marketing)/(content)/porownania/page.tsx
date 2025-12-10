@@ -3,8 +3,10 @@ import { ComparisonRepository } from "@/app/lib/content/repositories";
 import { comparisonTaxonomyCatalog } from "@/app/lib/content/comparisonTaxonomy";
 import { Button, ContentFilterBar, SelectField, ContentCard } from "@/app/ui";
 import { getCopy } from "../../../lib/copy";
+import { ArticlesPagination } from "../artykuly/ArticlesPagination";
 
 const comparisonRepository = new ComparisonRepository();
+const PAGE_SIZE = 12;
 
 interface ComparisonsIndexProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
@@ -15,19 +17,25 @@ export default async function ComparisonsIndex({
 }: ComparisonsIndexProps) {
   const copy = getCopy("comparisons");
   const filters =
-    (copy as {
-      filters?: {
-        submit?: string;
-        reset?: string;
-        categoryLabel?: string;
-        tagLabel?: string;
-        all?: string;
-      };
-    }).filters ?? {};
+    (
+      copy as {
+        filters?: {
+          submit?: string;
+          reset?: string;
+          categoryLabel?: string;
+          tagLabel?: string;
+          all?: string;
+        };
+      }
+    ).filters ?? {};
   const comparisons = comparisonRepository.listSummaries();
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const selectedCategory = getFirst(resolvedSearchParams?.kategoria);
   const selectedTag = getFirst(resolvedSearchParams?.tag);
+  const pageValue = getFirst(resolvedSearchParams?.page);
+  const pageNumber = pageValue ? Number(pageValue) : 1;
+  const requestedPage =
+    Number.isFinite(pageNumber) && pageNumber > 0 ? pageNumber : 1;
 
   const categoryOptions = buildCategoryOptions(comparisons, filters);
   const tagOptions = buildTagOptions(comparisons, filters);
@@ -41,6 +49,19 @@ export default async function ComparisonsIndex({
     const matchesTag = selectedTag ? tags.includes(selectedTag) : true;
     return matchesCategory && matchesTag;
   });
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const currentPage = Math.min(requestedPage, totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pagedComparisons = filtered.slice(start, end);
+  const paginationCopy = {
+    ariaLabel: "Paginacja porównań",
+    previous: "Poprzednia",
+    next: "Następna",
+  };
+  const baseParams = new URLSearchParams();
+  if (selectedCategory) baseParams.set("kategoria", selectedCategory);
+  if (selectedTag) baseParams.set("tag", selectedTag);
 
   return (
     <section className="section section--surface">
@@ -88,7 +109,7 @@ export default async function ComparisonsIndex({
               <p>{copy.emptyState}</p>
             </div>
           ) : (
-            filtered.map((comparison) => {
+            pagedComparisons.map((comparison) => {
               const categories = comparisonTaxonomyCatalog.resolveCategories(
                 comparison.taxonomy?.categories,
               );
@@ -119,6 +140,13 @@ export default async function ComparisonsIndex({
             })
           )}
         </div>
+        <ArticlesPagination
+          copy={paginationCopy}
+          currentPage={currentPage}
+          totalPages={totalPages}
+          baseSearchParams={baseParams}
+          basePath="/porownania"
+        />
       </div>
     </section>
   );

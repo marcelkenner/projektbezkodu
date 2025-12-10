@@ -1,42 +1,57 @@
 ---
-title: "AWeber – FAQ (2025): najczęstsze pytania małych firm i twórców"
-slug: "aweber-faq"
-path: "/narzedzia/aweber/faq"
+title: 'AWeber – FAQ (2025): najczęstsze pytania małych firm i twórców'
+slug: aweber-faq
+path: /narzedzia/aweber/faq
 draft: false
-template: "tool"
-type: "tool-faq"
-date: "2025-12-08"
+template: tool
+type: tool-faq
+date: '2025-12-08'
 hero:
-  heading: "AWeber – FAQ: wszystko, co chcesz wiedzieć przed wyborem narzędzia"
-  subheading: "Konkretne odpowiedzi na pytania, które najczęściej zadają małe firmy, sklepy i twórcy w Polsce."
-  primaryCta: "/narzedzia/aweber/"
-  secondaryCta: "/narzedzia/aweber/cennik"
+  heading: 'AWeber – FAQ: wszystko, co chcesz wiedzieć przed wyborem narzędzia'
+  subheading: >-
+    Konkretne odpowiedzi na pytania, które najczęściej zadają małe firmy, sklepy
+    i twórcy w Polsce.
+  primaryCta: /narzedzia/aweber/
+  secondaryCta: /narzedzia/aweber/cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "AWeber – FAQ (2025). Najczęstsze pytania i odpowiedzi"
-  description: "Najczęstsze pytania o AWeber w 2025 roku: darmowy plan, ograniczenia, RODO, double opt-in, integracje, migracja, język interfejsu i realne koszty dla małych firm w Polsce."
+  title: AWeber – FAQ (2025). Najczęstsze pytania i odpowiedzi
+  description: >-
+    Najczęstsze pytania o AWeber w 2025 roku: darmowy plan, ograniczenia, RODO,
+    double opt-in, integracje, migracja, język interfejsu i realne koszty dla
+    małych firm w Polsce.
   keywords:
-    - "AWeber FAQ"
-    - "AWeber pytania i odpowiedzi"
-    - "AWeber RODO"
-    - "AWeber darmowy plan"
-    - "AWeber double opt-in"
+    - AWeber FAQ
+    - AWeber pytania i odpowiedzi
+    - AWeber RODO
+    - AWeber darmowy plan
+    - AWeber double opt-in
 meta:
-  difficulty: "łatwe"
-  duration: "15 min"
-  updatedAt: "2025-12-08"
+  difficulty: łatwe
+  duration: 15 min
+  updatedAt: '2025-12-08'
   hasAffiliateLinks: true
   summaryBullets:
-    - "AWeber ma darmowy plan do 500 kontaktów i 3 000 maili miesięcznie – dobry na start, ale z wyraźnymi ograniczeniami."
-    - "Narzędzie jest przygotowane do pracy z RODO, ale dane są przetwarzane w USA – musisz to jasno opisać w swojej dokumentacji."
-    - "Dla większości małych firm w Polsce realny wybór to: Free na testy, Lite przy pierwszym poważnym newsletterze, Plus gdy email marketing zaczyna istotnie sprzedawać."
+    - >-
+      AWeber ma darmowy plan do 500 kontaktów i 3 000 maili miesięcznie – dobry
+      na start, ale z wyraźnymi ograniczeniami.
+    - >-
+      Narzędzie jest przygotowane do pracy z RODO, ale dane są przetwarzane w
+      USA – musisz to jasno opisać w swojej dokumentacji.
+    - >-
+      Dla większości małych firm w Polsce realny wybór to: Free na testy, Lite
+      przy pierwszym poważnym newsletterze, Plus gdy email marketing zaczyna
+      istotnie sprzedawać.
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "email marketing"
-    - "newsletter"
-    - "marketing automation"
-    - "AWeber"
+    - email marketing
+    - newsletter
+    - marketing automation
+    - AWeber
 ---
 
 # AWeber – najczęstsze pytania (FAQ)

@@ -1,39 +1,54 @@
 ---
-title: "Marketing afiliacyjny w Beacons – jak naprawdę na tym zarobić?"
-slug: "marketing-afiliacyjny"
-path: "/narzedzia/beacons/marketing-afiliacyjny"
+title: Marketing afiliacyjny w Beacons – jak naprawdę na tym zarobić?
+slug: marketing-afiliacyjny
+path: /narzedzia/beacons/marketing-afiliacyjny
 draft: false
-template: "default"
-type: "guide"
-date: "2025-12-08"
+template: default
+type: guide
+date: '2025-12-08'
 hero:
-  heading: "Marketing afiliacyjny w Beacons: trzy strumienie dochodu z jednej platformy"
-  subheading: "Jako twórca możesz zarabiać na polecaniu produktów, własnych afiliantach i… samego Beacons. Kluczem jest to dobrze policzyć i sensownie poukładać."
-  primaryCta: "Zobacz, czy afiliacja w Beacons ma sens w twoim przypadku"
-  secondaryCta: "Przeczytaj recenzję Beacons"
+  heading: 'Marketing afiliacyjny w Beacons: trzy strumienie dochodu z jednej platformy'
+  subheading: >-
+    Jako twórca możesz zarabiać na polecaniu produktów, własnych afiliantach i…
+    samego Beacons. Kluczem jest to dobrze policzyć i sensownie poukładać.
+  primaryCta: Zobacz, czy afiliacja w Beacons ma sens w twoim przypadku
+  secondaryCta: Przeczytaj recenzję Beacons
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Marketing afiliacyjny w Beacons – kompletny przewodnik dla twórców"
-  description: "Jak wykorzystać marketing afiliacyjny w Beacons: własny program partnerski, promowanie marek, polecanie samego Beacons. Konkretny plan działania dla twórców z Polski."
+  title: Marketing afiliacyjny w Beacons – kompletny przewodnik dla twórców
+  description: >-
+    Jak wykorzystać marketing afiliacyjny w Beacons: własny program partnerski,
+    promowanie marek, polecanie samego Beacons. Konkretny plan działania dla
+    twórców z Polski.
 meta:
-  updatedAt: "2025-12-08"
-  format: "guide"
+  updatedAt: '2025-12-08'
+  format: guide
   topics:
-    - "marketing afiliacyjny"
-    - "link in bio"
-    - "sklep dla twórców"
-    - "creator economy"
+    - marketing afiliacyjny
+    - link in bio
+    - sklep dla twórców
+    - creator economy
   summaryBullets:
-    - "Beacons pozwala zarabiać na afiliacji na trzech poziomach: jako affiliate marek, jako sprzedawca z własnym programem partnerskim i jako partner polecający samo Beacons."
-    - "Kluczowe jest policzenie marży po prowizji afilianta, opłatach platformy i kosztach płatności – inaczej łatwo oddać za dużo."
-    - "Najlepiej traktować afiliację w Beacons jako dodatek do własnych produktów, a nie jedyne źródło przychodu."
+    - >-
+      Beacons pozwala zarabiać na afiliacji na trzech poziomach: jako affiliate
+      marek, jako sprzedawca z własnym programem partnerskim i jako partner
+      polecający samo Beacons.
+    - >-
+      Kluczowe jest policzenie marży po prowizji afilianta, opłatach platformy i
+      kosztach płatności – inaczej łatwo oddać za dużo.
+    - >-
+      Najlepiej traktować afiliację w Beacons jako dodatek do własnych
+      produktów, a nie jedyne źródło przychodu.
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "Creator economy"
+    - Narzędzia
+    - Creator economy
   tags:
-    - "Beacons"
-    - "marketing afiliacyjny"
-    - "program partnerski"
+    - Beacons
+    - marketing afiliacyjny
+    - program partnerski
 ---
 
 # Marketing afiliacyjny w Beacons – jak faktycznie na tym zarobić?
@@ -144,7 +159,7 @@ Afiliacja ma sens, gdy:
 Dobry filtr:
 
 - promujesz tylko te rzeczy, które:
-  - sam realnie używasz,  
+  - sam realnie używasz,
   - albo możesz rzetelnie porównać z konkurencją.
 
 ### Poukładaj to w Beacons jak sklep, a nie listę linków
@@ -168,7 +183,7 @@ Dzięki temu:
 
 W polskich realiach:
 
-- linki afiliacyjne warto oznaczać wprost (np. gwiazdką i krótką notką na stronie: „* link afiliacyjny – jeśli kupisz z tego linku, dostanę prowizję, a ty płacisz tyle samo”),
+- linki afiliacyjne warto oznaczać wprost (np. gwiazdką i krótką notką na stronie: „\* link afiliacyjny – jeśli kupisz z tego linku, dostanę prowizję, a ty płacisz tyle samo”),
 - współprace i afiliacje w materiałach (YouTube, Instagram) trzeba oznaczać zgodnie z wytycznymi (przy współpracach z markami korzystaj z oficjalnych tagów „płatna współpraca”).
 
 To nie jest tylko etyka. To buduje zaufanie. Twórca, który uczciwie mówi o prowizjach, zwykle sprzedaje więcej niż ten, który ukrywa linki afiliacyjne w „polecam, bo polecam”.
@@ -274,8 +289,8 @@ Kluczowe: nie wciskaj Beacons osobom, którym realnie lepiej zrobi proste Linktr
 
 Masz trzy strumienie afiliacji:
 
-- cudze produkty,  
-- własny program afiliacyjny,  
+- cudze produkty,
+- własny program afiliacyjny,
 - polecanie Beacons.
 
 Bez planu link in bio szybko zamieni się w chaos. Prosty układ, który działa:

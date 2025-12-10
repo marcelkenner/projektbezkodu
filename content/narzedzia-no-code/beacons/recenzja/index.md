@@ -1,57 +1,77 @@
 ---
-title: "Beacons – recenzja dla twórców (2025)"
-slug: "recenzja"
-path: "/narzedzia/beacons/recenzja"
+title: Beacons – recenzja dla twórców (2025)
+slug: recenzja
+path: /narzedzia/beacons/recenzja
 draft: false
-template: "default"
-type: "review"
-date: "2025-12-08"
+template: default
+type: review
+date: '2025-12-08'
 hero:
-  heading: "Beacons – mocne narzędzie dla twórców, ale z haczykiem w prowizjach"
-  subheading: "Sprawdzamy, czy Beacons opłaca się twórcy z Polski, który chce czegoś więcej niż tylko ładny link w bio."
-  primaryCta: "Sprawdź, czy Beacons opłaca się w twoim przypadku"
-  secondaryCta: "Zobacz cennik i progi opłacalności"
+  heading: Beacons – mocne narzędzie dla twórców, ale z haczykiem w prowizjach
+  subheading: >-
+    Sprawdzamy, czy Beacons opłaca się twórcy z Polski, który chce czegoś więcej
+    niż tylko ładny link w bio.
+  primaryCta: Sprawdź, czy Beacons opłaca się w twoim przypadku
+  secondaryCta: Zobacz cennik i progi opłacalności
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Beacons – szczera recenzja dla twórców (2025): czy 9% prowizji ma sens?"
-  description: "Szczera recenzja Beacons dla twórców z Polski. Analizujemy funkcje, prowizje, scenariusze użycia i alternatywy, żebyś nie przepłacał za wygodę all-in-one."
+  title: 'Beacons – szczera recenzja dla twórców (2025): czy 9% prowizji ma sens?'
+  description: >-
+    Szczera recenzja Beacons dla twórców z Polski. Analizujemy funkcje,
+    prowizje, scenariusze użycia i alternatywy, żebyś nie przepłacał za wygodę
+    all-in-one.
 meta:
-  updatedAt: "2025-12-08"
-  format: "review"
+  updatedAt: '2025-12-08'
+  format: review
   topics:
-    - "link in bio"
-    - "sklep dla twórców"
-    - "creator economy"
-    - "email marketing"
+    - link in bio
+    - sklep dla twórców
+    - creator economy
+    - email marketing
   summaryBullets:
-    - "Beacons łączy link in bio, sklep, e-mail i media kit w jednym panelu – z bardzo mocnym darmowym planem."
-    - "Prawdziwy haczyk to 9% opłat od sprzedaży na tańszych planach – przy rosnącej sprzedaży szybko zjadają marżę."
-    - "Dla twórców, którzy sprzedają kilka produktów cyfrowych miesięcznie, Beacons jest wygodny; dla poważnego e-commerce w Polsce – już niekoniecznie."
+    - >-
+      Beacons łączy link in bio, sklep, e-mail i media kit w jednym panelu – z
+      bardzo mocnym darmowym planem.
+    - >-
+      Prawdziwy haczyk to 9% opłat od sprzedaży na tańszych planach – przy
+      rosnącej sprzedaży szybko zjadają marżę.
+    - >-
+      Dla twórców, którzy sprzedają kilka produktów cyfrowych miesięcznie,
+      Beacons jest wygodny; dla poważnego e-commerce w Polsce – już
+      niekoniecznie.
   review:
-    productName: "Beacons"
-    productUrl: "https://beacons.ai"
+    productName: Beacons
+    productUrl: https://beacons.ai
     ratingValue: 4
     bestRating: 5
     worstRating: 1
-    author: "ProduktyDlaKreatorów.pl"
-    body: "Beacons to bardzo wygodna platforma all-in-one dla twórców – świetna na start i dla prostych lejków sprzedażowych, ale z prowizjami, które trzeba świadomie policzyć przy rosnącej skali."
+    author: ProduktyDlaKreatorów.pl
+    body: >-
+      Beacons to bardzo wygodna platforma all-in-one dla twórców – świetna na
+      start i dla prostych lejków sprzedażowych, ale z prowizjami, które trzeba
+      świadomie policzyć przy rosnącej skali.
     pros:
-      - "Mocny darmowy plan: link in bio, sklep, media kit i podstawowy e-mail marketing"
-      - "Sklep dla twórców, media kit i automatyzacje w jednym panelu"
-      - "Silne wsparcie AI przy projektowaniu strony, opisów produktów i maili"
-      - "Szybkie wdrożenie – pierwsza działająca strona i produkt w jeden wieczór"
+      - >-
+        Mocny darmowy plan: link in bio, sklep, media kit i podstawowy e-mail
+        marketing
+      - Sklep dla twórców, media kit i automatyzacje w jednym panelu
+      - Silne wsparcie AI przy projektowaniu strony, opisów produktów i maili
+      - Szybkie wdrożenie – pierwsza działająca strona i produkt w jeden wieczór
     cons:
-      - "9% prowizji od sprzedaży na darmowym i niższym płatnym planie"
-      - "Brak pełnej kontroli nad SEO i strukturą jak na własnym CMS"
-      - "Support i stabilność nie są na poziomie „enterprise”"
-      - "Nie jest idealne dla złożonego e-commerce na rynku polskim"
+      - 9% prowizji od sprzedaży na darmowym i niższym płatnym planie
+      - Brak pełnej kontroli nad SEO i strukturą jak na własnym CMS
+      - Support i stabilność nie są na poziomie „enterprise”
+      - Nie jest idealne dla złożonego e-commerce na rynku polskim
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "Recenzje"
+    - Narzędzia
+    - Recenzje
   tags:
-    - "Beacons recenzja"
-    - "link in bio"
-    - "sklep dla twórców"
+    - Beacons recenzja
+    - link in bio
+    - sklep dla twórców
 ---
 
 # Beacons – recenzja: kiedy to świetne narzędzie, a kiedy droga wygoda?

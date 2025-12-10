@@ -20,7 +20,7 @@ export function LatestArticlesSection({
   copy,
   articles,
 }: LatestArticlesSectionProps) {
-  const items = articles.slice(0, 3);
+  const items = articles.slice(0, 6);
 
   return (
     <section
