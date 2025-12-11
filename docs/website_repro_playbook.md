@@ -68,7 +68,8 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 
 1. Create UI primitives in `app/ui/` (Button, TextField, SelectField, Badge, Alert, Card, Stepper, PricingCard, ComparisonTable, Modal, Toast, PrimaryNav, Footer, FilterBar). All filter/search experiences across listings must wrap their inputs/actions with `FilterBar` so spacing, background, and responsive behavior stay identical on every page.
 2. Use the unified `ContentFilterBar` (app/ui/filters/ContentFilterBar.tsx) for section filters (`/artykuly`, `/poradniki`, future `/narzedzia`, `/porownania`) to keep consistent layout and allow per-section variants via the `variant` prop.
-3. Centralise exports via `app/ui/index.ts`.
+3. Article listings (homepage, /artykuly, /poradniki, /porownania, /narzedzia, tag/autor/thank-you pages) must render cards via the shared `ArticleCard` + `ArticleGrid` in `app/ui/articles/ArticleCard.tsx`; do not reintroduce per-page card styles.
+4. Centralise exports via `app/ui/index.ts`.
 4. Ensure each component imports `./ui.css`.
 5. Preface complex logic with brief comments only when necessary.
 6. Maintain component files <200 lines; split helpers if over.

@@ -84,8 +84,6 @@
   color: var(--color-primary-strong);
 }
 
-}
-
 .articles-pagination {
   margin-top: var(--space-6);
   display: flex;

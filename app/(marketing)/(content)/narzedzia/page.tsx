@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import Link from "next/link";
 import {
+  ArticleCard,
+  ArticleGrid,
   StructuredDataScript,
   ContentFilterBar,
   SelectField,
@@ -13,7 +15,6 @@ import { ToolsJumpSelect } from "./ToolsJumpSelect";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import { ToolHubCardModel, type ToolOverviewEntry } from "./ToolHubCardModel";
-import { ContentCard } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ArticlesPagination } from "../artykuly/ArticlesPagination";
 
@@ -123,7 +124,7 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
           />
         </ContentFilterBar>
         <ToolsJumpSelect tools={overview} />
-        <div className="articles-grid">
+        <ArticleGrid>
           {pagedModels.map((model) => {
             const categoryValue = model.getCategoryValue();
             const platformValue = model.getPlatformValue();
@@ -155,18 +156,22 @@ export default async function ToolsPage({ searchParams }: ToolsPageProps) {
               },
             ].filter(Boolean) as { label: string }[];
             return (
-              <ContentCard
+              <ArticleCard
                 key={model.getSlug()}
                 title={model.getHeading()}
-                subheading={model.getSubheading()}
-                heroSrc={hero}
+                description={model.getSubheading()}
+                hero={{
+                  src: hero,
+                  alt: model.getHeading(),
+                  fallbackSrc: "/img/tools_hero_image.webp",
+                }}
                 href={model.getPrimaryHref() ?? model.getSlug()}
-                meta={metaItems}
+                meta={{ extra: metaItems }}
                 ctaLabel={copy.cards.primaryCta}
               />
             );
           })}
-        </div>
+        </ArticleGrid>
         <ArticlesPagination
           copy={paginationCopy}
           currentPage={currentPage}

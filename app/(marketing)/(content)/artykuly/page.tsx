@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { ArticleDirectory } from "@/app/lib/content/articleDirectory";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { getCopy } from "@/app/lib/copy";
 import { listContentCategories } from "@/app/lib/content/categoryDirectory";
+import { ArticleCard, ArticleGrid } from "@/app/ui";
 import { ArticlesFilterBar } from "./ArticlesFilterBar";
-import { ArticleCard } from "./ArticleCard";
 import { ArticlesPagination } from "./ArticlesPagination";
 import styles from "./articles.module.css";
 
@@ -131,7 +132,7 @@ export default async function ArticlesPage({
           </div>
         ) : (
           <>
-            <div className={`articles-grid ${styles["articles-grid"]}`}>
+            <ArticleGrid>
               {pagedArticles.map((article) => {
                 const primaryCategory =
                   article.taxonomy?.categories?.[0] ?? null;
@@ -141,13 +142,22 @@ export default async function ArticlesPage({
                 return (
                   <ArticleCard
                     key={article.path}
-                    article={article}
+                    title={article.title}
+                    href={article.path}
+                    description={article.hero?.subheading ?? article.description}
+                    hero={resolveArticleHero(article)}
+                    meta={{
+                      readingTime: article.meta?.duration,
+                      publishedAt: article.date,
+                      extra: categoryTerm?.label
+                        ? [{ label: categoryTerm.label }]
+                        : [],
+                    }}
                     ctaLabel={copy.listing.articleCta}
-                    category={categoryTerm}
                   />
                 );
               })}
-            </div>
+            </ArticleGrid>
             <ArticlesPagination
               copy={copy.listing.pagination}
               currentPage={currentPage}
@@ -177,5 +187,40 @@ function buildCollectionJsonLd(
     "@type": "CollectionPage",
     name: "Blog ProjektBezKodu",
     itemListElement: items,
+  };
+}
+
+function resolveArticleHero(article: {
+  path: string;
+  title: string;
+  hero?: { image?: { src?: string; alt?: string } };
+  meta?: {
+    heroImageSrc?: string;
+    heroImageAlt?: string;
+    heroImageWidth?: number;
+    heroImageHeight?: number;
+  };
+}) {
+  const providedSrc = article.hero?.image?.src ?? article.meta?.heroImageSrc;
+  const isBroken =
+    providedSrc === "/img/article_image.jpeg" ||
+    providedSrc?.endsWith(".webp.jpeg") ||
+    providedSrc?.endsWith(".webp.webp");
+
+  if (providedSrc && !isBroken) {
+    return {
+      src: providedSrc,
+      alt: article.hero?.image?.alt ?? article.meta?.heroImageAlt,
+      width: article.meta?.heroImageWidth,
+      height: article.meta?.heroImageHeight,
+    };
+  }
+
+  const fallback = defaultHeroImageForPath(article.path, article.title);
+  return {
+    src: fallback.src,
+    alt: fallback.alt,
+    width: fallback.width,
+    height: fallback.height,
   };
 }

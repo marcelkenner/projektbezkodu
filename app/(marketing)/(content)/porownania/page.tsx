@@ -1,7 +1,13 @@
 import Link from "next/link";
 import { ComparisonRepository } from "@/app/lib/content/repositories";
 import { comparisonTaxonomyCatalog } from "@/app/lib/content/comparisonTaxonomy";
-import { Button, ContentFilterBar, SelectField, ContentCard } from "@/app/ui";
+import {
+  ArticleCard,
+  ArticleGrid,
+  Button,
+  ContentFilterBar,
+  SelectField,
+} from "@/app/ui";
 import { getCopy } from "../../../lib/copy";
 import { ArticlesPagination } from "../artykuly/ArticlesPagination";
 
@@ -103,7 +109,7 @@ export default async function ComparisonsIndex({
             options={tagOptions}
           />
         </ContentFilterBar>
-        <div className="articles-grid">
+        <ArticleGrid>
           {filtered.length === 0 ? (
             <div className="pbk-card">
               <p>{copy.emptyState}</p>
@@ -122,24 +128,29 @@ export default async function ComparisonsIndex({
                   : []),
                 ...(tags.length ? [{ label: tags[0].label }] : []),
               ];
+              const hero = comparison.meta?.heroImageSrc;
               return (
-                <ContentCard
+                <ArticleCard
                   key={comparison.slug}
                   title={comparison.title}
-                  subheading={comparison.description}
-                  heroSrc={
-                    comparison.meta?.heroImageSrc ??
-                    "/img/comparisons_hero_image.webp"
-                  }
-                  heroAlt={comparison.meta?.heroImageAlt}
-                  meta={metaItems}
+                  description={comparison.description}
+                  hero={{
+                    src: hero,
+                    alt: comparison.meta?.heroImageAlt ?? comparison.title,
+                    fallbackSrc: "/img/comparisons_hero_image.webp",
+                  }}
+                  meta={{
+                    readingTime: comparison.meta?.duration,
+                    publishedAt: comparison.date,
+                    extra: metaItems,
+                  }}
                   href={comparison.path}
                   ctaLabel="Zobacz porównanie"
                 />
               );
             })
           )}
-        </div>
+        </ArticleGrid>
         <ArticlesPagination
           copy={paginationCopy}
           currentPage={currentPage}

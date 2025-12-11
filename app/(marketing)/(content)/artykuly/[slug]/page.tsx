@@ -20,7 +20,6 @@ import {
 import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { getCopy } from "@/app/lib/copy";
 import articleStyles from "../article.module.css";
-import styles from "../articles.module.css";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 import {
@@ -319,10 +318,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                       {related.description}
                     </p>
                   ) : null}
-                  <Link
-                    className={`articles-card__link ${styles["articles-card__link"]}`}
-                    href={related.path}
-                  >
+                  <Link className="pbk-inline-link" href={related.path}>
                     Czytaj →
                   </Link>
                 </div>

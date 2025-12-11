@@ -6,11 +6,12 @@ import { tutorialTaxonomyCatalog } from "@/app/lib/content/tutorialTaxonomy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import {
+  ArticleCard,
+  ArticleGrid,
   Button,
   ContentFilterBar,
   SelectField,
   StructuredDataScript,
-  ContentCard,
 } from "../../../ui";
 import { getCopy } from "../../../lib/copy";
 import { ArticlesPagination } from "../artykuly/ArticlesPagination";
@@ -139,7 +140,7 @@ export default async function TutorialsIndex({
             />
           </ContentFilterBar>
         )}
-        <div className="articles-grid">
+        <ArticleGrid>
           {libraryEmpty ? (
             <div className="pbk-card">
               <p>{copy.emptyState}</p>
@@ -156,31 +157,35 @@ export default async function TutorialsIndex({
               const hero = tutorial.hero?.image?.src;
               const subheading =
                 tutorial.hero?.subheading ?? tutorial.description ?? "";
-              const metaItems: Array<{ label: string }> = [];
+              const extraMeta: Array<{ label: string }> = [];
               if (tutorial.meta?.difficulty) {
-                metaItems.push({ label: tutorial.meta.difficulty });
-              }
-              if (tutorial.meta?.duration) {
-                metaItems.push({ label: tutorial.meta.duration });
+                extraMeta.push({ label: tutorial.meta.difficulty });
               }
               if (categories[0]?.label) {
-                metaItems.push({ label: categories[0].label });
+                extraMeta.push({ label: categories[0].label });
               }
               return (
-                <ContentCard
+                <ArticleCard
                   key={tutorial.slug}
                   title={tutorial.title}
-                  subheading={subheading}
-                  heroSrc={hero ?? "/img/tutorials_hero_image.webp"}
-                  heroAlt={tutorial.hero?.image?.alt}
+                  description={subheading}
+                  hero={{
+                    src: hero,
+                    alt: tutorial.hero?.image?.alt,
+                    fallbackSrc: "/img/tutorials_hero_image.webp",
+                  }}
                   href={tutorial.path}
-                  meta={metaItems}
+                  meta={{
+                    readingTime: tutorial.meta?.duration,
+                    publishedAt: tutorial.date,
+                    extra: extraMeta,
+                  }}
                   ctaLabel="Czytaj tutorial"
                 />
               );
             })
           )}
-        </div>
+        </ArticleGrid>
         <ArticlesPagination
           copy={paginationCopy}
           currentPage={currentPage}

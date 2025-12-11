@@ -13,7 +13,8 @@ import {
   TaxonomyChips,
   ArticleSharePanel,
   AuthorCard,
-  ContentCard,
+  ArticleCard,
+  ArticleGrid,
 } from "@/app/ui";
 import styles from "./content-page.module.css";
 import articleStyles from "../artykuly/article.module.css";
@@ -82,8 +83,8 @@ export default async function ContentPage({ params }: ContentPageProps) {
     )?.getHeroImage?.() ?? undefined;
   const metaItems = [
     difficulty ? { label: difficulty } : null,
-    duration ? { label: duration } : null,
   ].filter(Boolean) as { label: string }[];
+  const readingTime = duration;
 
   if (useArticleLayout) {
     return (
@@ -156,17 +157,24 @@ export default async function ContentPage({ params }: ContentPageProps) {
   return (
     <section className="section section--surface" id="content">
       <div className="pbk-container pbk-stack pbk-stack--loose">
-        <div className="articles-grid">
-          <ContentCard
+        <ArticleGrid>
+          <ArticleCard
             title={heading}
-            subheading={subheading}
-            heroSrc={hero?.src ?? "/img/articles_hero_image.webp"}
-            heroAlt={hero?.alt}
-            meta={metaItems}
+            description={subheading}
+            hero={{
+              src: hero?.src,
+              alt: hero?.alt ?? heading,
+              fallbackSrc: "/img/articles_hero_image.webp",
+            }}
+            meta={{
+              readingTime,
+              publishedAt: publishedDate ?? undefined,
+              extra: metaItems,
+            }}
             href={path}
             ctaLabel={primaryCta?.label ?? "Czytaj"}
           />
-        </div>
+        </ArticleGrid>
       </div>
     </section>
   );

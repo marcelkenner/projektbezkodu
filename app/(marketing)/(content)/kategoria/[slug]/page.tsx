@@ -89,7 +89,7 @@ export default async function CategoryHubPage({ params }: CategoryPageProps) {
             <div key={article.slug} className="category-page__card">
               <h3>{article.title}</h3>
               {article.description ? <p>{article.description}</p> : null}
-              <Link className="articles-card__link" href={article.path}>
+              <Link className="pbk-inline-link" href={article.path}>
                 Czytaj →
               </Link>
             </div>

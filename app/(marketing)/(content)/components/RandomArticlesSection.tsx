@@ -1,6 +1,6 @@
 import { ArticleRepository } from "@/app/lib/content/repositories";
-import { ArticleCard } from "../artykuly/ArticleCard";
-import "../artykuly/articles.module.css";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
+import { ArticleCard, ArticleGrid } from "@/app/ui";
 
 interface RandomArticlesSectionProps {
   currentPath: string;
@@ -31,11 +31,22 @@ export function RandomArticlesSection({
       >
         {heading}
       </h2>
-      <div className="articles-grid">
+      <ArticleGrid>
         {articles.map((article) => (
-          <ArticleCard key={article.path} article={article} ctaLabel="Czytaj" />
+          <ArticleCard
+            key={article.path}
+            title={article.title}
+            href={article.path}
+            description={article.hero?.subheading ?? article.description}
+            hero={resolveArticleHero(article)}
+            meta={{
+              readingTime: article.meta?.duration,
+              publishedAt: article.date,
+            }}
+            ctaLabel="Czytaj"
+          />
         ))}
-      </div>
+      </ArticleGrid>
     </section>
   );
 }
@@ -71,5 +82,33 @@ function createSeededRandom(seed: string) {
     h = Math.imul(h ^ (h >>> 13), 3266489909);
     h ^= h >>> 16;
     return (h >>> 0) / 4294967296;
+  };
+}
+
+function resolveArticleHero(article: {
+  path: string;
+  title: string;
+  hero?: { image?: { src?: string; alt?: string } };
+  meta?: { heroImageSrc?: string; heroImageAlt?: string };
+}) {
+  const providedSrc = article.hero?.image?.src ?? article.meta?.heroImageSrc;
+  const isBroken =
+    providedSrc === "/img/article_image.jpeg" ||
+    providedSrc?.endsWith(".webp.jpeg") ||
+    providedSrc?.endsWith(".webp.webp");
+
+  if (providedSrc && !isBroken) {
+    return {
+      src: providedSrc,
+      alt: article.hero?.image?.alt ?? article.meta?.heroImageAlt,
+    };
+  }
+
+  const fallback = defaultHeroImageForPath(article.path, article.title);
+  return {
+    src: fallback.src,
+    alt: fallback.alt,
+    width: fallback.width,
+    height: fallback.height,
   };
 }

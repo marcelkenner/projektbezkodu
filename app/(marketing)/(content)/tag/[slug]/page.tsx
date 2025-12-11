@@ -1,10 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ArticleCard } from "@/app/(marketing)/(content)/artykuly/ArticleCard";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { TagDirectory } from "@/app/lib/content/tagDirectory";
 import { getCopy } from "@/app/lib/copy";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
+import { ArticleCard, ArticleGrid } from "@/app/ui";
 import "./../tag.module.css";
 
 const tagDirectory = new TagDirectory();
@@ -54,22 +55,39 @@ export default async function TagPage({
           {tag.description ? <p>{tag.description}</p> : null}
         </div>
         {articles.length ? (
-          <div className="tag-page__grid">
+          <ArticleGrid className="tag-page__grid">
             {articles.map((article) => {
               const categorySlug = article.taxonomy?.categories?.[0];
               const category = categorySlug
                 ? articleTaxonomyCatalog.getCategory(categorySlug)
                 : undefined;
+              const fallback = defaultHeroImageForPath(
+                article.path,
+                article.title,
+              );
               return (
                 <ArticleCard
                   key={article.slug}
-                  article={article}
+                  title={article.title}
+                  href={article.path}
+                  description={article.hero?.subheading ?? article.description}
+                  hero={{
+                    src: article.hero?.image?.src ?? article.meta?.heroImageSrc,
+                    alt: article.hero?.image?.alt ?? article.meta?.heroImageAlt,
+                    fallbackSrc: fallback.src,
+                    width: fallback.width,
+                    height: fallback.height,
+                  }}
+                  meta={{
+                    readingTime: article.meta?.duration,
+                    publishedAt: article.date,
+                    extra: category?.label ? [{ label: category.label }] : [],
+                  }}
                   ctaLabel={articlesCopy.listing.articleCta}
-                  category={category}
                 />
               );
             })}
-          </div>
+          </ArticleGrid>
         ) : (
           <p className="pbk-card__meta">
             Nie znaleźliśmy jeszcze artykułów w tym tagu. Zajrzyj później lub{" "}

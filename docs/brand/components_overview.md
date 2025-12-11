@@ -18,7 +18,7 @@ Components live under `app/ui/` and share the brand stylesheet `app/ui/ui.css`. 
 | Hero section                         | `app/(marketing)/homepage/HeroSection.tsx`                 | Homepage hero with CTAs, hero media, and microcopy           |
 | Homepage sections                    | `app/(marketing)/homepage/HomepageSections.tsx`            | Social proof, pillars, workflow, articles, and newsletter    |
 | Articles filter bar                  | `app/(marketing)/(content)/artykuly/ArticlesFilterBar.tsx` | Sticky filter form for the blog listing page                 |
-| Article card                         | `app/(marketing)/(content)/artykuly/ArticleCard.tsx`       | Article grid cards with meta, CTA, and placeholder image     |
+| Article card                         | `app/ui/articles/ArticleCard.tsx`                          | Shared article card + grid with hero image, meta chips, CTA  |
 | Category hub page                    | `app/(marketing)/(content)/kategoria/[slug]/page.tsx`      | Pillar layout with quick links, featured cards, download CTA |
 | Legal page layout                    | `app/(legal)/polityka-prywatnosci/page.tsx`                | Shared structure for privacy policy and terms documents      |
 

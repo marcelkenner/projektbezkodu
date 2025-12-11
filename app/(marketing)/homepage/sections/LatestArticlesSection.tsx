@@ -1,8 +1,7 @@
 import type { ContentSummary } from "@/app/lib/content/repositories";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
-import { ContentCard, type ContentCardMeta } from "@/app/ui";
+import { ArticleCard, ArticleGrid } from "@/app/ui";
 import sectionStyles from "../section-shell.module.css";
-import latestStyles from "../latest-articles.module.css";
 
 export interface LatestArticlesCopy {
   heading: string;
@@ -30,19 +29,19 @@ export function LatestArticlesSection({
       <div className="pbk-container">
         <h2 id="latest-heading">{copy.heading}</h2>
         {items.length ? (
-          <div className={latestStyles["homepage-articles__grid"]}>
+          <ArticleGrid>
             {items.map((article) => (
-              <ContentCard
+              <ArticleCard
                 key={article.slug}
                 title={article.title}
                 href={article.path}
-                subheading={article.hero?.subheading ?? article.description}
-                {...resolveHeroImage(article)}
+                description={article.hero?.subheading ?? article.description}
+                hero={resolveHeroImage(article)}
                 meta={buildMeta(article)}
                 ctaLabel={copy.ctaLabel}
               />
             ))}
-          </div>
+          </ArticleGrid>
         ) : (
           <p>{copy.empty}</p>
         )}
@@ -53,7 +52,10 @@ export function LatestArticlesSection({
 
 function resolveHeroImage(article: ContentSummary) {
   const providedSrc = article.hero?.image?.src ?? article.meta?.heroImageSrc;
-  const isBroken = providedSrc === "/img/article_image.jpeg";
+  const isBroken =
+    providedSrc === "/img/article_image.jpeg" ||
+    providedSrc?.endsWith(".webp.jpeg") ||
+    providedSrc?.endsWith(".webp.webp");
   const providedAlt =
     article.hero?.image?.alt ??
     article.meta?.heroImageAlt ??
@@ -61,39 +63,24 @@ function resolveHeroImage(article: ContentSummary) {
     "Miniatura artykułu";
 
   if (providedSrc && !isBroken) {
-    return { heroSrc: providedSrc, heroAlt: providedAlt };
+    return {
+      src: providedSrc,
+      alt: providedAlt,
+    };
   }
 
   const fallback = defaultHeroImageForPath(article.path, article.title);
-  return { heroSrc: fallback.src, heroAlt: fallback.alt };
+  return {
+    src: fallback.src,
+    alt: fallback.alt,
+    width: fallback.width,
+    height: fallback.height,
+  };
 }
 
-function buildMeta(article: ContentSummary): ContentCardMeta[] {
-  const meta: ContentCardMeta[] = [];
-  const readingTime = article.meta?.duration;
-  const dateLabel = formatDate(article.date);
-
-  if (readingTime) {
-    meta.push({ label: readingTime });
-  }
-  if (dateLabel) {
-    meta.push({ label: dateLabel });
-  }
-
-  return meta;
-}
-
-function formatDate(isoDate?: string) {
-  if (!isoDate) {
-    return "";
-  }
-  const parsed = Date.parse(isoDate);
-  if (Number.isNaN(parsed)) {
-    return "";
-  }
-  return new Intl.DateTimeFormat("pl-PL", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(parsed);
+function buildMeta(article: ContentSummary) {
+  return {
+    readingTime: article.meta?.duration,
+    publishedAt: article.date,
+  };
 }

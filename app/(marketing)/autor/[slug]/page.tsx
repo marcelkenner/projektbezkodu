@@ -6,7 +6,9 @@ import { BookOpen, Clock, Rss } from "@phosphor-icons/react/dist/ssr";
 import { getCopy } from "@/app/lib/copy";
 import { AuthorDirectory } from "@/app/lib/content/authorDirectory";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
-import { ArticleCard } from "@/app/(marketing)/(content)/artykuly/ArticleCard";
+import type { ContentSummary } from "@/app/lib/content/repositories";
+import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
+import { ArticleCard, ArticleGrid } from "@/app/ui";
 import "./../author.module.css";
 
 const authorDirectory = new AuthorDirectory();
@@ -100,21 +102,30 @@ export default async function AuthorPage({
       <div className="pbk-container author-page__articles">
         <h2>Ostatnie artykuły</h2>
         {articles.length ? (
-          <nav className="author-page__grid" aria-label="Artykuły autora">
-            {articles.map((article) => {
-              const primaryCategory = (article.taxonomy?.categories ?? [])[0];
-              const category = primaryCategory
-                ? articleTaxonomyCatalog.getCategory(primaryCategory)
-                : undefined;
-              return (
-                <ArticleCard
-                  key={article.slug}
-                  article={article}
-                  ctaLabel={articlesCopy.listing.articleCta}
-                  category={category}
-                />
-              );
-            })}
+          <nav aria-label="Artykuły autora">
+            <ArticleGrid className="author-page__grid">
+              {articles.map((article) => {
+                const primaryCategory = (article.taxonomy?.categories ?? [])[0];
+                const category = primaryCategory
+                  ? articleTaxonomyCatalog.getCategory(primaryCategory)
+                  : undefined;
+                return (
+                  <ArticleCard
+                    key={article.slug}
+                    title={article.title}
+                    href={article.path}
+                    description={article.hero?.subheading ?? article.description}
+                    hero={resolveArticleHero(article)}
+                    meta={{
+                      readingTime: article.meta?.duration,
+                      publishedAt: article.date,
+                      extra: category?.label ? [{ label: category.label }] : [],
+                    }}
+                    ctaLabel={articlesCopy.listing.articleCta}
+                  />
+                );
+              })}
+            </ArticleGrid>
           </nav>
         ) : (
           <p className="pbk-card__meta">
@@ -146,6 +157,29 @@ function pluralise(count: number) {
     return "y";
   }
   return "ów";
+}
+
+function resolveArticleHero(article: ContentSummary) {
+  const providedSrc = article.hero?.image?.src ?? article.meta?.heroImageSrc;
+  const isBroken =
+    providedSrc === "/img/article_image.jpeg" ||
+    providedSrc?.endsWith(".webp.jpeg") ||
+    providedSrc?.endsWith(".webp.webp");
+
+  if (providedSrc && !isBroken) {
+    return {
+      src: providedSrc,
+      alt: article.hero?.image?.alt ?? article.meta?.heroImageAlt,
+    };
+  }
+
+  const fallback = defaultHeroImageForPath(article.path, article.title);
+  return {
+    src: fallback.src,
+    alt: fallback.alt,
+    width: fallback.width,
+    height: fallback.height,
+  };
 }
 
 function AuthorJsonLd({

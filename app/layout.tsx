@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import "./ui/articles/article-cards.css";
 import { KlaroConsentManager } from "./ui/KlaroConsentManager";
 import { ServiceWorkerRegistration } from "./ui/ServiceWorkerRegistration";
 import { inter, spaceGrotesk, jetBrainsMono } from "./ui/fonts";
