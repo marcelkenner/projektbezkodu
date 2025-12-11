@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import { TextField, TextareaField, Button } from "@/app/ui";
-import "./accessibility.module.css";
+import styles from "./accessibility.module.css";
 
 const copy = getCopy("accessibility");
 
@@ -44,18 +44,18 @@ export default function AccessibilityStatementPage() {
 
   return (
     <section
-      className="accessibility-page section section--surface"
+      className={`${styles.accessibilityPage} section section--surface`}
       id="content"
     >
       <div className="pbk-container pbk-stack">
         <div className="pbk-readable">
-          <header className="accessibility-page__hero pbk-stack pbk-stack--tight">
+          <header className={`${styles.accessibilityPage__hero} pbk-stack pbk-stack--tight`}>
             <h1>{viewModel.getHero().title}</h1>
             <p>{viewModel.getHero().intro}</p>
           </header>
         </div>
-        <div className="accessibility-page__grid">
-          <article className="accessibility-page__card">
+        <div className={styles.accessibilityPage__grid}>
+          <article className={styles.accessibilityPage__card}>
             <h2>{viewModel.getMeasures().heading}</h2>
             <ul>
               {viewModel.getMeasures().items.map((item) => (
@@ -63,7 +63,9 @@ export default function AccessibilityStatementPage() {
               ))}
             </ul>
           </article>
-          <article className="accessibility-page__card accessibility-page__card--muted">
+          <article
+            className={`${styles.accessibilityPage__card} ${styles.accessibilityPageCardMuted}`}
+          >
             <h2>{viewModel.getLimitations().heading}</h2>
             <ul>
               {viewModel.getLimitations().items.map((item) => (
@@ -73,10 +75,10 @@ export default function AccessibilityStatementPage() {
               ))}
             </ul>
           </article>
-          <article className="accessibility-page__card">
+          <article className={styles.accessibilityPage__card}>
             <h2>{viewModel.getFeedbackSection().heading}</h2>
             <p>{viewModel.getFeedbackSection().intro}</p>
-            <dl className="accessibility-page__contact">
+            <dl className={styles.accessibilityPage__contact}>
               <div>
                 <dt>E-mail</dt>
                 <dd>
@@ -102,14 +104,14 @@ export default function AccessibilityStatementPage() {
         </div>
 
         <section
-          className="accessibility-page__formSection pbk-card pbk-stack"
+          className={`${styles.accessibilityPage__formSection} pbk-card pbk-stack`}
           aria-labelledby="accessibility-feedback-form"
         >
           <h2 id="accessibility-feedback-form">
             {viewModel.getForm().heading}
           </h2>
           <form
-            className="accessibility-page__form"
+            className={styles.accessibilityPage__form}
             aria-live="polite"
             noValidate
           >
@@ -135,7 +137,7 @@ export default function AccessibilityStatementPage() {
               rows={4}
               required
             />
-            <p className="accessibility-page__disclaimer">
+            <p className={styles.accessibilityPage__disclaimer}>
               {viewModel.getForm().privacyDisclaimer}
             </p>
             <Button type="submit" variant="primary">
@@ -145,7 +147,7 @@ export default function AccessibilityStatementPage() {
         </section>
 
         <div className="pbk-readable">
-          <section className="accessibility-page__meta pbk-card pbk-stack pbk-stack--tight">
+          <section className={`${styles.accessibilityPage__meta} pbk-card pbk-stack pbk-stack--tight`}>
             <h2>{viewModel.getMeta().heading}</h2>
             <p>{viewModel.getMeta().publication}</p>
             <p>{viewModel.getMeta().update}</p>

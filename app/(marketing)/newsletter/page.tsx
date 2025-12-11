@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Button, TextField, CheckboxField } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
-import "./newsletter.module.css";
+import styles from "./newsletter.module.css";
 
 const copy = getCopy("newsletter");
 
@@ -26,14 +26,14 @@ export default async function NewsletterLandingPage({
   const alert = resolveAlert(parser);
 
   return (
-    <section className="newsletter-page" id="content">
-      <div className="pbk-container newsletter-page__card">
+    <section className={styles.newsletterPage} id="content">
+      <div className={`pbk-container ${styles.newsletterPage__card}`}>
         <header className="pbk-stack pbk-stack--tight">
           <h1>{copy.base.hero.title}</h1>
           <p>{copy.base.hero.intro}</p>
         </header>
         <form
-          className="newsletter-page__form"
+          className={styles.newsletterPage__form}
           action="/api/newsletter/subscribe"
           method="post"
         >
@@ -53,11 +53,11 @@ export default async function NewsletterLandingPage({
             required
           />
           <Button type="submit">{copy.base.hero.formCta}</Button>
-          <p className="newsletter-page__info">
+          <p className={styles.newsletterPage__info}>
             Zawsze możesz zaktualizować preferencje lub się wypisać jednym
             kliknięciem.
           </p>
-          <p role="status" aria-live="polite" className="newsletter-page__info">
+          <p role="status" aria-live="polite" className={styles.newsletterPage__info}>
             {alert ?? "\u00A0"}
           </p>
         </form>

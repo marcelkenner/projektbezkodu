@@ -9,7 +9,7 @@ import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import type { ContentSummary } from "@/app/lib/content/repositories";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
-import "./../author.module.css";
+import styles from "./../author.module.css";
 
 const authorDirectory = new AuthorDirectory();
 const articlesCopy = getCopy("articles");
@@ -56,13 +56,13 @@ export default async function AuthorPage({
   const rssHref = `/rss/autor/${profile.slug}.xml`;
 
   return (
-    <section className="author-page" id="content">
-      <div className="pbk-container author-page__header">
-        <div className="author-page__headerContent">
-          <div className="author-page__profile">
-            <div className="author-page__identity">
+    <section className={styles.authorPage} id="content">
+      <div className={`pbk-container ${styles.authorPage__header}`}>
+        <div className={styles.authorPage__headerContent}>
+          <div className={styles.authorPage__profile}>
+            <div className={styles.authorPage__identity}>
               <img
-                className="author-page__avatar"
+                className={styles.authorPage__avatar}
                 src={profile.avatar}
                 alt={`Zdjęcie autora: ${profile.name}`}
                 width={96}
@@ -77,7 +77,7 @@ export default async function AuthorPage({
             </div>
             <p>{profile.bio}</p>
             {profile.links?.length ? (
-              <div className="author-page__links">
+              <div className={styles.authorPage__links}>
                 {profile.links.map((link) => (
                   <Link key={link.href} href={link.href} rel={link.rel}>
                     {link.label}
@@ -85,12 +85,12 @@ export default async function AuthorPage({
                 ))}
               </div>
             ) : null}
-            <div className="author-page__stats" aria-label="Statystyki autora">
-              <span className="author-page__stat">
+            <div className={styles.authorPage__stats} aria-label="Statystyki autora">
+              <span className={styles.authorPage__stat}>
                 <BookOpen aria-hidden="true" weight="bold" />
                 {stats.articleCount} artykuł{pluralise(stats.articleCount)}
               </span>
-              <span className="author-page__stat">
+              <span className={styles.authorPage__stat}>
                 <Clock aria-hidden="true" weight="bold" />
                 Łączny czas czytania ~ {stats.totalReadingMinutes} min
               </span>
@@ -99,11 +99,11 @@ export default async function AuthorPage({
         </div>
       </div>
 
-      <div className="pbk-container author-page__articles">
+      <div className={`pbk-container ${styles.authorPage__articles}`}>
         <h2>Ostatnie artykuły</h2>
         {articles.length ? (
           <nav aria-label="Artykuły autora">
-            <ArticleGrid className="author-page__grid">
+            <ArticleGrid className={styles.authorPage__grid}>
               {articles.map((article) => {
                 const primaryCategory = (article.taxonomy?.categories ?? [])[0];
                 const category = primaryCategory
@@ -111,10 +111,12 @@ export default async function AuthorPage({
                   : undefined;
                 return (
                   <ArticleCard
-                    key={article.slug}
+                    key={article.path ?? article.slug}
                     title={article.title}
                     href={article.path}
-                    description={article.hero?.subheading ?? article.description}
+                    description={
+                      article.hero?.subheading ?? article.description
+                    }
                     hero={resolveArticleHero(article)}
                     meta={{
                       readingTime: article.meta?.duration,
@@ -132,7 +134,7 @@ export default async function AuthorPage({
             Autor nie opublikował jeszcze artykułów. Zajrzyj wkrótce.
           </p>
         )}
-        <div className="author-page__rss">
+        <div className={styles.authorPage__rss}>
           <Link href={rssHref}>
             <Rss aria-hidden="true" weight="bold" /> Subskrybuj artykuły autora
           </Link>

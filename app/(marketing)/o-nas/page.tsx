@@ -1,14 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { getCopy } from "@/app/lib/copy";
-import "./about.module.css";
+import styles from "./about.module.css";
 
 const copy = getCopy("about");
 
 export const metadata: Metadata = {
-  title: copy.seo.title,
+  title: { absolute: copy.seo.title },
   description: copy.seo.description,
   alternates: {
     canonical: copy.seo.canonical,
@@ -17,29 +16,78 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <section className="about-page" id="content">
-      <div className="pbk-container about-page__section">
-        <header>
-          <h1>{copy.hero.title}</h1>
-          <p className="about-page__lead">{copy.hero.lead}</p>
-        </header>
-      </div>
-
+    <section className={styles.aboutPage} id="content">
+      <HeroSection />
       <PurposeSection />
-      <MilestonesSection />
+      <HighlightsSection />
       <TeamSection />
       <PrinciplesSection />
-      <ServicesSection />
       <CallToActionSection />
       <OrganizationJsonLd />
     </section>
   );
 }
 
+function HeroSection() {
+  const stats = [
+    {
+      label: "Osób w zespole",
+      value: `${copy.team.members.length}+`,
+    },
+    {
+      label: "Publikacje",
+      value: "Artykuły, poradniki, checklisty",
+    },
+    {
+      label: "Zasady działania",
+      value: `${copy.principles.items.length} kluczowych zasad`,
+    },
+  ];
+
+  return (
+    <div className={`pbk-container ${styles.section} ${styles.heroSection}`}>
+      <div className={styles.heroCard}>
+        <div className={styles.heroContent}>
+          <p className={styles.kicker}>Kim jesteśmy</p>
+          <h1 className={styles.heroTitle}>{copy.hero.title}</h1>
+          <p className={styles.lead}>{copy.hero.lead}</p>
+          <div className={styles.heroActions}>
+            <Link
+              className="pbk-button pbk-button--primary"
+              href={copy.cta.primary.href}
+            >
+              {copy.cta.primary.label}
+            </Link>
+            <Link
+              className="pbk-button pbk-button--secondary"
+              href={copy.cta.secondary.href}
+            >
+              {copy.cta.secondary.label}
+            </Link>
+          </div>
+        </div>
+        <div className={styles.heroStats}>
+          {stats.map((item) => (
+            <article key={item.label} className={styles.statCard}>
+              <p className={styles.statLabel}>{item.label}</p>
+              <p className={styles.statValue}>{item.value}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function PurposeSection() {
   return (
-    <div className="pbk-container about-page__section">
-      <h2>{copy.purpose.heading}</h2>
+    <div
+      className={`pbk-container ${styles.section} ${styles.surfaceSection}`}
+    >
+      <div className={styles.sectionHeader}>
+        <span className={styles.eyebrow}>Dlaczego to robimy</span>
+        <h2>{copy.purpose.heading}</h2>
+      </div>
       <div className="pbk-stack pbk-stack--tight">
         {copy.purpose.paragraphs.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
@@ -49,52 +97,53 @@ function PurposeSection() {
   );
 }
 
-function MilestonesSection() {
-  if (!copy.milestones?.items?.length) {
-    return null;
-  }
+function HighlightsSection() {
+  const highlights = [
+    {
+      label: "Pracujemy po stronie klienta",
+      value: copy.purpose.paragraphs[0],
+    },
+    {
+      label: "Publikujemy regularnie",
+      value: copy.purpose.paragraphs[1] ?? copy.purpose.paragraphs[0],
+    },
+    {
+      label: "Zespół produktowy",
+      value: copy.purpose.paragraphs[2] ?? copy.purpose.paragraphs[0],
+    },
+  ];
 
   return (
-    <div className="pbk-container about-page__section">
-      <h2>{copy.milestones.heading}</h2>
-      <ol className="about-page__timeline">
-        {copy.milestones.items.map((item) => (
-          <li
-            key={`${item.year}-${item.title}`}
-            className="about-page__milestone"
-          >
-            <span className="about-page__milestoneYear">{item.year}</span>
-            <div className="about-page__milestoneBody">
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-              {item.metrics?.length ? (
-                <dl className="about-page__milestoneMetrics">
-                  {item.metrics.map((metric) => (
-                    <div key={`${item.year}-${metric.label}`}>
-                      <dt>{metric.label}</dt>
-                      <dd>{metric.value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              ) : null}
-            </div>
-          </li>
+    <div
+      className={`pbk-container ${styles.section} ${styles.surfaceSection}`}
+    >
+      <div className={styles.highlightGrid}>
+        {highlights.map((item) => (
+          <article key={item.label} className={styles.highlightCard}>
+            <p className={styles.highlightLabel}>{item.label}</p>
+            <p className={styles.highlightValue}>{item.value}</p>
+          </article>
         ))}
-      </ol>
+      </div>
     </div>
   );
 }
 
 function TeamSection() {
   return (
-    <div className="pbk-container about-page__section">
-      <h2>{copy.team.heading}</h2>
-      <div className="about-page__teamGrid">
+    <div
+      className={`pbk-container ${styles.section} ${styles.surfaceSection}`}
+    >
+      <div className={styles.sectionHeader}>
+        <span className={styles.eyebrow}>Zespół</span>
+        <h2>{copy.team.heading}</h2>
+      </div>
+      <div className={styles.teamGrid}>
         {copy.team.members.map((member) => (
-          <article key={member.slug} className="about-page__member">
-            <div className="about-page__memberHeader">
+          <article key={member.slug} className={styles.member}>
+            <div className={styles.memberHeader}>
               <img
-                className="about-page__avatar"
+                className={styles.avatar}
                 src={member.avatar}
                 alt={`Zdjęcie: ${member.name}`}
                 width={96}
@@ -109,7 +158,7 @@ function TeamSection() {
             </div>
             <p>{member.bio}</p>
             {member.links?.length ? (
-              <div className="about-page__memberLinks">
+              <div className={styles.memberLinks}>
                 {member.links.map((link) => (
                   <Link key={link.href} href={link.href} rel={link.rel}>
                     {link.label}
@@ -126,32 +175,17 @@ function TeamSection() {
 
 function PrinciplesSection() {
   return (
-    <div className="pbk-container about-page__section">
-      <h2>{copy.principles.heading}</h2>
-      <ul className="about-page__principlesList">
+    <div
+      className={`pbk-container ${styles.section} ${styles.surfaceSection}`}
+    >
+      <div className={styles.sectionHeader}>
+        <span className={styles.eyebrow}>Jak pracujemy</span>
+        <h2>{copy.principles.heading}</h2>
+      </div>
+      <div className={styles.principlesList}>
         {copy.principles.items.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function ServicesSection() {
-  return (
-    <div className="pbk-container about-page__section">
-      <h2>{copy.services.heading}</h2>
-      <div className="about-page__servicesGrid">
-        {copy.services.cards.map((card) => (
-          <article key={card.title} className="about-page__serviceCard">
-            <div className="pbk-stack pbk-stack--tight">
-              <h3>{card.title}</h3>
-              <p>{card.description}</p>
-            </div>
-            <Link className="pbk-button pbk-button--tertiary" href={card.href}>
-              {card.ctaLabel}
-              <ArrowRight aria-hidden="true" weight="bold" />
-            </Link>
+          <article key={item} className={styles.principleCard}>
+            <p>{item}</p>
           </article>
         ))}
       </div>
@@ -159,23 +193,27 @@ function ServicesSection() {
   );
 }
 
+function ServicesSection() {
+  return null;
+}
+
 function CallToActionSection() {
   return (
-    <div className="pbk-container about-page__section">
-      <div className="about-page__cta">
+    <div className={`pbk-container ${styles.section} ${styles.surfaceSection}`}>
+      <div className={styles.ctaCard}>
         <Link
-          className="pbk-button pbk-button--primary"
+          className="pbk-button pbk-button--primary pbk-button--lg"
           href={copy.cta.primary.href}
         >
           {copy.cta.primary.label}
         </Link>
         <Link
-          className="pbk-button pbk-button--secondary"
+          className="pbk-button pbk-button--secondary pbk-button--lg"
           href={copy.cta.secondary.href}
         >
           {copy.cta.secondary.label}
         </Link>
-        <span className="about-page__ctaText">{copy.cta.disclaimer}</span>
+        <p className={styles.ctaText}>{copy.cta.disclaimer}</p>
       </div>
     </div>
   );

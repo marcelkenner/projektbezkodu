@@ -56,7 +56,8 @@
   object-fit: cover;
   display: block;
   transform: scale(1.005);
-  transition: transform var(--motion-duration-base) var(--motion-easing-standard);
+  transition: transform var(--motion-duration-base)
+    var(--motion-easing-standard);
 }
 
 .card:hover .image {

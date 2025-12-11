@@ -5,13 +5,25 @@ import "./ui.css";
 
 interface FooterColumn {
   heading: string;
-  links: { label: string; href: string }[];
+  links: FooterLink[];
+  variant?: "categories";
 }
+
+type FooterLink = { label: string; href: string };
+
+type ArticlesNavigation = {
+  featuredCategories?: { slug: string; label?: string; href?: string }[];
+  seeAllHref?: string;
+  seeAllLabel?: string;
+  footerHeading?: string;
+};
 
 export function Footer() {
   const copy = getCopy("footer");
+  const articlesNavigation: ArticlesNavigation =
+    getCopy("articles").navigation ?? {};
   const year = new Date().getFullYear();
-  const columns = buildColumns(copy.columns);
+  const columns = buildColumns(copy.columns, articlesNavigation);
 
   return (
     <footer className="site-footer">
@@ -33,40 +45,76 @@ export function Footer() {
   );
 }
 
-function buildColumns(rawColumns: FooterColumn[]): FooterColumn[] {
-  const taxonomyCategories = getFeaturedCategories();
+function buildColumns(
+  rawColumns: FooterColumn[],
+  navigation: ArticlesNavigation,
+): FooterColumn[] {
+  const taxonomyCategories = getCategoryLinks(navigation);
+  const fallbackCategories = getFeaturedCategories(navigation);
+  const categoryHeading =
+    navigation.footerHeading ??
+    rawColumns.find((column) =>
+      column.heading.toLowerCase().includes("kategor"),
+    )?.heading ??
+    "Kategorie";
+
   return rawColumns.map((column) => {
-    if (column.heading.toLowerCase() === "kategorie" && !column.links.length) {
-      return { ...column, links: taxonomyCategories };
+    const isCategoryColumn = column.heading
+      .toLowerCase()
+      .includes("kategor");
+
+    if (isCategoryColumn) {
+      return {
+        ...column,
+        heading: categoryHeading,
+        links: taxonomyCategories.length
+          ? taxonomyCategories
+          : fallbackCategories,
+        variant: "categories",
+      };
     }
     return column;
   });
 }
 
-function getFeaturedCategories(): { label: string; href: string }[] {
-  const articlesCopy = getCopy("articles");
-  const navigation = articlesCopy.navigation ?? {};
-  const categories =
-    navigation.featuredCategories?.map(
-      (category: { slug: string; label?: string; href?: string }) => {
-        const taxonomyCategory = articleTaxonomyCatalog.getCategory(
-          category.slug,
-        );
-        return {
-          href: category.href ?? `/kategoria/${category.slug}/`,
-          label: category.label ?? taxonomyCategory?.label ?? category.slug,
-        };
-      },
-    ) ?? [];
+function getCategoryLinks(navigation: ArticlesNavigation): FooterLink[] {
+  const categoryLinks = articleTaxonomyCatalog.listCategories().map(
+    (category) =>
+      ({
+        href: `/kategoria/${category.slug}/`,
+        label: category.label,
+      }) satisfies FooterLink,
+  );
 
   if (navigation.seeAllHref) {
-    categories.push({
+    categoryLinks.push({
       href: navigation.seeAllHref,
       label: navigation.seeAllLabel ?? "Wszystkie artykuły",
     });
   }
 
-  return categories;
+  return categoryLinks;
+}
+
+function getFeaturedCategories(navigation: ArticlesNavigation): FooterLink[] {
+  return (
+    navigation.featuredCategories?.flatMap((category) => {
+      const taxonomyCategory = articleTaxonomyCatalog.getCategory(
+        category.slug,
+      );
+      const hasResolvedDestination =
+        Boolean(taxonomyCategory) || Boolean(category.href);
+
+      if (!hasResolvedDestination) {
+        return [];
+      }
+
+      return {
+        href: category.href ?? `/kategoria/${category.slug}/`,
+        label: category.label ?? taxonomyCategory?.label ?? category.slug,
+      };
+    }) ?? []
+  );
 }
 
 function FooterColumnList({ column }: { column: FooterColumn }) {
@@ -74,10 +122,20 @@ function FooterColumnList({ column }: { column: FooterColumn }) {
     return null;
   }
 
+  const isCategoryColumn = column.variant === "categories";
+
   return (
-    <div className="site-footer__column">
+    <div
+      className={`site-footer__column${
+        isCategoryColumn ? " site-footer__column--categories" : ""
+      }`}
+    >
       <h3>{column.heading}</h3>
-      <ul>
+      <ul
+        className={
+          isCategoryColumn ? "site-footer__list site-footer__list--categories" : "site-footer__list"
+        }
+      >
         {column.links.map((link) => (
           <li key={link.href}>
             <Link href={link.href}>{link.label}</Link>

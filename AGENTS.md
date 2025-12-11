@@ -6,6 +6,8 @@ always use serena mcp for better understanding of the project structure and file
 always use docs folder for the project information
 all pages must be mobile-first approach
 always update `docs/website_repro_playbook.md` whenever processes change
+use the shared `app/ui/articles/ArticleCard` + `ArticleGrid` for all listings (homepage, artykuly, poradniki, porownania, narzedzia, tag/author/thank-you) instead of per-page cards
+normalize any malformed `/_next` asset paths; middleware/rewrite rules already collapse double slashes and duplicated `_next` segments—keep new rewrites consistent with that
 don't assume things but instead research and check twice
 
 <file_length_and_structure>

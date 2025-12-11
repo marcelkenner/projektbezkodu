@@ -34,19 +34,6 @@
         },
         { "label": "Ustawienia cookies", "href": "/cookies" }
       ]
-    },
-    {
-      "heading": "Social media",
-      "links": [
-        {
-          "label": "LinkedIn",
-          "href": "https://www.linkedin.com/company/projektbezkodu/"
-        },
-        {
-          "label": "YouTube",
-          "href": "https://www.youtube.com/@ProjektBezKodu"
-        }
-      ]
     }
   ],
   "microcopy": "Niektóre linki do narzędzi mogą być afiliacyjne – polecamy tylko rozwiązania, z których sami korzystamy.",

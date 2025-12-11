@@ -1,4 +1,5 @@
 import { ArticleSummaryBullets, ArticleCtaGroup } from "@/app/ui";
+import styles from "./glossary.module.css";
 
 export interface GlossaryPromoContent {
   heading: string;
@@ -26,8 +27,8 @@ export function GlossaryPromo({ promo }: { promo?: GlossaryPromoContent }) {
   }
 
   return (
-    <div className="glossary-page__conversion">
-      <div className="glossary-page__conversionCopy pbk-stack pbk-stack--tight">
+    <div className={styles.glossaryConversion}>
+      <div className={`${styles.glossaryConversionCopy} pbk-stack pbk-stack--tight`}>
         <h2>{promo.heading}</h2>
         <p>{promo.body}</p>
       </div>

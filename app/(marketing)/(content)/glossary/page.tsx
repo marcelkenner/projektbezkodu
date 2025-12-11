@@ -4,7 +4,7 @@ import { GlossaryDirectory } from "@/app/lib/content/glossaryDirectory";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { Button, TextField } from "../../../ui";
 import { getCopy } from "../../../lib/copy";
-import "./glossary.module.css";
+import styles from "./glossary.module.css";
 import { GlossaryPromo } from "./GlossaryPromo";
 
 const glossaryRepository = new GlossaryRepository();
@@ -85,7 +85,7 @@ export default async function GlossaryIndex({
                     {group.entries.map((term) => (
                       <div
                         key={term.slug ?? term.path}
-                        className="pbk-card glossary-term__card"
+                        className={`pbk-card ${styles.glossaryTermCard}`}
                       >
                         <div className="pbk-stack pbk-stack--tight">
                           <h3>{term.title}</h3>

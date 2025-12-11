@@ -23,6 +23,11 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 | `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`)                                        |
 | `npm run svg:optimize` | Optimises brand SVGs via SVGO                                                    |
 
+## UI building blocks
+
+- Article and resource listings must use the shared `ArticleCard` + `ArticleGrid` from `app/ui/articles/ArticleCard.tsx`; do not recreate per-page card variants.
+- Image fallbacks are handled in the card; pass only clean hero URLs or let the resolver provide defaults.
+
 ## Content Workflow
 
 All markdown lives under `content/**`. Each file **must**:
@@ -38,6 +43,10 @@ All markdown lives under `content/**`. Each file **must**:
 The `/artykuly` listing now aggregates every markdown file with `template: "article"` (and `draft: false`) no matter where it lives under `content/**`. Keep `template` + `path` accurate whenever you expect a piece to appear in that listing.
 
 Because the generic renderer preloads every markdown file, a single malformed front matter block can break the site. Run `npm run content:lint` locally (it executes automatically on `npm run build`) to catch errors early. The script lists each offending file plus the YAML parser message so you know what to fix.
+
+## Asset routing hardening
+
+Chunk load failures caused by malformed `/_next//_next/...` URLs are auto-normalised by middleware and `next.config` rewrites. Keep any future rewrites consistent with this rule and avoid adding double slashes to asset paths.
 
 ## Articles Copy & Taxonomy (`data/copy/articles.json`)
 

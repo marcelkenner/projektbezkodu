@@ -49,7 +49,7 @@ interface MetaChip {
   key: string;
   label: string;
   dateTime?: string;
-  icon?: JSX.Element;
+  icon?: ReactNode;
 }
 
 const DEFAULT_HERO = "/img/hero_image.webp";
@@ -134,6 +134,7 @@ export function ArticleCard(props: ArticleCardProps) {
   const vm = new ArticleCardViewModel(props);
   const hero = vm.hero();
   const meta = vm.meta();
+  const ctaText = props.ctaLabel.replace(/[›»→>]+$/u, "").trim();
 
   return (
     <article className={styles.card}>
@@ -177,7 +178,7 @@ export function ArticleCard(props: ArticleCardProps) {
         ) : null}
         <div className={styles.ctaRow}>
           <Link className={styles.cta} href={props.href}>
-            <span>{props.ctaLabel}</span>
+            <span>{ctaText}</span>
             <ArrowRight
               className={styles.ctaIcon}
               weight="bold"

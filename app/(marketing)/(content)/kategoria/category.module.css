@@ -1,15 +1,15 @@
-:global(.category-page) {
+.categoryPage {
   padding-block: var(--space-7);
   display: grid;
   gap: var(--space-6);
 }
 
-:global(.category-page__intro) {
+.categoryPageIntro {
   display: grid;
   gap: var(--space-3);
 }
 
-:global(.category-page__quickLinks) {
+.categoryPageQuickLinks {
   background: var(--color-surface);
   border-radius: var(--radii-lg);
   padding: var(--space-4);
@@ -17,7 +17,7 @@
   gap: var(--space-2);
 }
 
-:global(.category-page__quickLinks ul) {
+.categoryPageQuickLinks ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -25,22 +25,22 @@
   gap: var(--space-2);
 }
 
-:global(.category-page__quickLinks a) {
+.categoryPageQuickLinks a {
   color: var(--color-primary-strong);
   text-decoration: none;
 }
 
-:global(.category-page__quickLinks a:hover) {
+.categoryPageQuickLinks a:hover {
   text-decoration: underline;
 }
 
-:global(.category-page__featuredGrid) {
+.categoryPageFeaturedGrid {
   display: grid;
   gap: var(--space-5);
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-:global(.category-page__card) {
+.categoryPageCard {
   padding: var(--space-4);
   border-radius: var(--radii-md);
   border: 1px solid rgba(15, 23, 42, 0.08);
@@ -50,7 +50,7 @@
   gap: var(--space-2);
 }
 
-:global(.category-page__download) {
+.categoryPageDownload {
   background: var(--color-surface);
   border-radius: var(--radii-lg);
   padding: var(--space-4);
@@ -58,12 +58,12 @@
   gap: var(--space-3);
 }
 
-:global(.category-page__download small a) {
+.categoryPageDownload small a {
   color: var(--color-primary-strong);
   text-decoration: underline;
 }
 
-:global(.category-page__list) {
+.categoryPageList {
   display: grid;
   gap: var(--space-2);
   list-style: none;
@@ -71,23 +71,23 @@
   margin: 0;
 }
 
-:global(.category-page__listItem) {
+.categoryPageListItem {
   display: flex;
   align-items: center;
   gap: var(--space-2);
   font-size: var(--font-size);
 }
 
-:global(.category-page__listItem a) {
+.categoryPageListItem a {
   color: var(--color-primary-strong);
   text-decoration: none;
 }
 
-:global(.category-page__listItem a:hover) {
+.categoryPageListItem a:hover {
   text-decoration: underline;
 }
 
-:global(.category-page__icon) {
+.categoryPageIcon {
   width: 20px;
   height: 20px;
   color: var(--color-primary-strong);

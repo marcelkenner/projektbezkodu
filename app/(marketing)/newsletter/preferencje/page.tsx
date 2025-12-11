@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Button, CheckboxField } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
-import "./../newsletter.module.css";
+import styles from "./../newsletter.module.css";
 
 const copy = getCopy("newsletter");
 
@@ -32,14 +32,14 @@ export default async function NewsletterPreferencesPage({
   const formDisabled = !subscriberUuid;
 
   return (
-    <section className="newsletter-page" id="content">
-      <div className="pbk-container newsletter-page__card">
+    <section className={styles.newsletterPage} id="content">
+      <div className={`pbk-container ${styles.newsletterPage__card}`}>
         <header className="pbk-stack pbk-stack--tight">
           <h1>{copy.preferences.hero.title}</h1>
           <p>{copy.preferences.hero.intro}</p>
         </header>
         <form
-          className="newsletter-page__form"
+          className={styles.newsletterPage__form}
           action="/api/newsletter/preferences"
           method="post"
         >
@@ -48,10 +48,10 @@ export default async function NewsletterPreferencesPage({
             name="subscriberUuid"
             value={subscriberUuid ?? ""}
           />
-          <fieldset className="newsletter-page__topics">
+          <fieldset className={styles.newsletterPage__topics}>
             <legend className="sr-only">Wybierz tematy newslettera</legend>
             {copy.preferences.topics.map((topic) => (
-              <div key={topic.id} className="newsletter-page__topic">
+              <div key={topic.id} className={styles.newsletterPage__topic}>
                 <CheckboxField
                   id={topic.id}
                   name="topics"
@@ -59,7 +59,7 @@ export default async function NewsletterPreferencesPage({
                   label={topic.label}
                   disabled={formDisabled}
                 />
-                <span className="newsletter-page__info">
+                <span className={styles.newsletterPage__info}>
                   {topic.description}
                 </span>
               </div>
@@ -68,7 +68,11 @@ export default async function NewsletterPreferencesPage({
           <Button type="submit" disabled={formDisabled}>
             {copy.preferences.submitLabel}
           </Button>
-          <p role="status" aria-live="polite" className="newsletter-page__info">
+          <p
+            role="status"
+            aria-live="polite"
+            className={styles.newsletterPage__info}
+          >
             {alert ??
               (formDisabled
                 ? "Link z newslettera jest potrzebny, by zapisać preferencje."

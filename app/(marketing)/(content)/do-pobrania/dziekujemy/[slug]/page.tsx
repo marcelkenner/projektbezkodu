@@ -90,10 +90,12 @@ export default async function LeadMagnetThankYouPage({
                 );
                 return (
                   <ArticleCard
-                    key={article.slug}
+                    key={article.path ?? article.slug}
                     title={article.title}
                     href={article.path}
-                    description={article.hero?.subheading ?? article.description}
+                    description={
+                      article.hero?.subheading ?? article.description
+                    }
                     hero={{
                       src:
                         article.hero?.image?.src ?? article.meta?.heroImageSrc,

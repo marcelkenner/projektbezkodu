@@ -67,7 +67,7 @@ export default async function TagPage({
               );
               return (
                 <ArticleCard
-                  key={article.slug}
+                  key={article.path ?? article.slug}
                   title={article.title}
                   href={article.path}
                   description={article.hero?.subheading ?? article.description}

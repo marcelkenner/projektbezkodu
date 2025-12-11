@@ -222,12 +222,24 @@ function normalizeStringArray(
     return undefined;
   }
   if (Array.isArray(value)) {
-    return value;
+    return value.map((v) => v.trim()).filter(Boolean);
   }
   return value
     .split(",")
     .map((entry) => entry.trim())
     .filter(Boolean);
+}
+
+function normalizePath(input: string | undefined, slug: string): string {
+  const raw = input && input.trim().length ? input : `/${slug}`;
+  // Collapse duplicate slashes and ensure a single leading slash.
+  const collapsed = raw.replace(/\/{2,}/g, "/");
+  return collapsed.startsWith("/") ? collapsed : `/${collapsed}`;
+}
+
+function dedupe(values?: string[]): string[] | undefined {
+  if (!values) return undefined;
+  return Array.from(new Set(values.filter(Boolean)));
 }
 
 function getSlugFromPath(relativePath: string): string {
@@ -259,17 +271,38 @@ function normalizeFrontmatter(
   const slug = raw.slug ?? getSlugFromPath(relativePath);
   const title = normalizeTitle(raw.title, slug);
   const taxonomy: FrontmatterTaxonomy = {
-    categories: raw.taxonomy?.categories ?? [],
-    tags: raw.taxonomy?.tags ?? [],
+    categories: dedupe(raw.taxonomy?.categories ?? []),
+    tags: dedupe(raw.taxonomy?.tags ?? []),
   };
   const meta: FrontmatterMetadata = {
     ...(raw.meta ?? {}),
     topics: normalizeStringArray(raw.meta?.topics),
+    summaryBullets: raw.meta?.summaryBullets
+      ?.map((bullet) => bullet.trim())
+      .filter(Boolean),
+    primaryCta: raw.meta?.primaryCta
+      ? {
+          ...raw.meta.primaryCta,
+          label: raw.meta.primaryCta.label.trim(),
+          href: raw.meta.primaryCta.href.trim(),
+          rel: raw.meta.primaryCta.rel?.trim(),
+        }
+      : undefined,
+    secondaryCta: raw.meta?.secondaryCta
+      ? {
+          ...raw.meta.secondaryCta,
+          label: raw.meta.secondaryCta.label.trim(),
+          href: raw.meta.secondaryCta.href.trim(),
+          rel: raw.meta.secondaryCta.rel?.trim(),
+        }
+      : undefined,
+    heroImageAlt: raw.meta?.heroImageAlt?.trim(),
+    heroImageSrc: raw.meta?.heroImageSrc?.trim(),
   };
   return {
     title,
     slug,
-    path: raw.path ?? `/${slug}`,
+    path: normalizePath(raw.path, slug),
     draft: raw.draft ?? false,
     template: raw.template ?? "default",
     type: raw.type,

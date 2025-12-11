@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
-import "./status.module.css";
+import styles from "./status.module.css";
 
 type StatusCode = "410" | "451" | "503";
 
@@ -43,16 +43,16 @@ export function StatusPage({ status, retryTime }: StatusPageProps) {
   const code = viewModel.getMetaCode();
 
   return (
-    <section className="status-page section section--surface" id="content">
-      <div className="pbk-container status-page__card">
-        <div className="status-page__icon" aria-hidden="true">
+    <section className={`${styles.statusPage} section section--surface`} id="content">
+      <div className={`pbk-container ${styles.statusPage__card}`}>
+        <div className={styles.statusPage__icon} aria-hidden="true">
           <span>⚠️</span>
         </div>
         <h1>{hero.title}</h1>
         {viewModel.getMessage()}
-        {code ? <p className="status-page__code">{code}</p> : null}
+        {code ? <p className={styles.statusPage__code}>{code}</p> : null}
         {actions.length ? (
-          <nav className="status-page__actions" aria-label="Nawigacja awaryjna">
+          <nav className={styles.statusPage__actions} aria-label="Nawigacja awaryjna">
             {actions.map((action) => (
               <Link
                 key={action.href}

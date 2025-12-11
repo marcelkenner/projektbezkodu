@@ -1,27 +1,27 @@
-:global(.contact-page) {
+.page {
   padding-block: var(--space-7);
   display: grid;
   gap: var(--space-6);
 }
 
-:global(.contact-page__notice) {
+.notice {
   display: grid;
   gap: var(--space-4);
   max-width: 560px;
 }
 
-:global(.contact-page__thankyouGrid) {
+.thankyouGrid {
   display: grid;
   gap: var(--space-4);
 }
 
-:global(.contact-page__articles) {
+.articles {
   display: grid;
   gap: var(--space-4);
 }
 
 @media (min-width: 48rem) {
-  :global(.contact-page__articles) {
+  .articles {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

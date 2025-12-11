@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-
 import {
   TableOfContents,
   StructuredDataScript,
@@ -11,6 +10,8 @@ import {
   TaxonomyChips,
   ArticleSharePanel,
   AuthorCard,
+  ArticleCard,
+  ArticleGrid,
 } from "@/app/ui";
 import { RandomArticlesSection } from "../../components/RandomArticlesSection";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
@@ -20,19 +21,15 @@ import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 import articleStyles from "../../artykuly/article.module.css";
-
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
 const breadcrumbComposer = new BreadcrumbComposer();
 const softwareApplicationStructuredDataBuilder =
   new SoftwareApplicationStructuredDataBuilder();
-
 interface ToolPageProps {
   params: Promise<{ slug: string }>;
 }
-
 const baseSegments = (slug: string) => ["narzedzia", slug];
-
 function formatDate(input: string): string {
   const timestamp = Date.parse(input);
   if (Number.isNaN(timestamp)) {
@@ -84,10 +81,8 @@ function selectSidebarRelatedTools(
   if (ranked.some((entry) => entry.score > 0)) {
     return ranked;
   }
-
   return tools.slice(0, 3).map(({ title, path }) => ({ title, path }));
 }
-
 export function generateStaticParams() {
   return coordinator
     .listStaticParams()
@@ -159,6 +154,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const duration = viewModel.getDuration();
   const hasAffiliateLinks = viewModel.hasAffiliateLinks();
   const sidebarRelated = selectSidebarRelatedTools(slug, categories);
+  const childArticles = listChildArticles(slug);
   const structuredData = softwareApplicationStructuredDataBuilder.build({
     canonicalPath,
     name: shareTitle,
@@ -233,10 +229,71 @@ export default async function ToolPage({ params }: ToolPageProps) {
           ) : null}
           <article className="prose">{viewModel.getBody()}</article>
         </div>
+        {childArticles.length ? (
+          <section className="pbk-stack pbk-stack--loose">
+            <h2 className="pbk-card__meta">
+              Więcej o {shareTitle ?? heading ?? "narzędziu"}
+            </h2>
+            <ArticleGrid>
+              {childArticles.map((article) => (
+                <ArticleCard
+                  key={article.path}
+                  title={article.title}
+                  href={article.path}
+                  description={article.description}
+                  hero={article.hero}
+                  meta={{
+                    readingTime: article.meta?.duration,
+                    publishedAt: article.meta?.publishedAt,
+                    extra: article.meta?.extra ?? [],
+                  }}
+                  ctaLabel="Czytaj"
+                />
+              ))}
+            </ArticleGrid>
+          </section>
+        ) : null}
         <AuthorCard />
         <TaxonomyChips categories={categories} tags={tags} />
         <RandomArticlesSection currentPath={canonicalPath} />
       </div>
     </section>
   );
+}
+
+function listChildArticles(slug: string) {
+  return library
+    .listRoutes()
+    .filter(
+      (entry) =>
+        entry.path.startsWith(`/narzedzia/${slug}/`) &&
+        entry.segments.length === 3 &&
+        entry.document.frontmatter.draft !== true,
+    )
+    .map((entry) => {
+      const fm = entry.document.frontmatter;
+      const hero =
+        fm.hero?.image?.src ??
+        fm.meta?.heroImageSrc ??
+        "/img/tools_hero_image.webp";
+      const description =
+        fm.hero?.subheading ?? fm.seo?.description ?? entry.document.excerpt;
+      const primaryCategory = fm.taxonomy?.categories?.[0];
+      return {
+        title: fm.title ?? entry.segments.at(-1) ?? "Artykuł",
+        description,
+        path: entry.path,
+        hero: {
+          src: hero,
+          alt: fm.hero?.image?.alt ?? fm.meta?.heroImageAlt ?? fm.title,
+          fallbackSrc: "/img/tools_hero_image.webp",
+        },
+        meta: {
+          duration: fm.meta?.duration,
+          publishedAt: fm.date,
+          extra: primaryCategory ? [{ label: primaryCategory }] : [],
+        },
+      };
+    })
+    .sort((a, b) => a.title.localeCompare(b.title, "pl"));
 }

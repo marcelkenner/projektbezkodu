@@ -1,4 +1,5 @@
 import { getCopy } from "@/app/lib/copy";
+import { ArticleCategoryDirectory } from "@/app/lib/content/articleCategoryDirectory";
 
 export interface TaxonomyTerm {
   slug: string;
@@ -57,7 +58,24 @@ export class ArticleTaxonomyCatalog {
 
 function loadTaxonomy(): ArticleTaxonomyConfig {
   const copy = getCopy("articles");
-  const categories = copy.taxonomy?.categories ?? [];
+  const directory = new ArticleCategoryDirectory();
+  const copyCategories = copy.taxonomy?.categories ?? [];
+  const copyCategoryMap = new Map(
+    copyCategories.map((category) => [category.slug, category]),
+  );
+
+  const contentCategories = directory.listCategories();
+  const categories =
+    contentCategories.length > 0
+      ? contentCategories.map((category) => {
+          const override = copyCategoryMap.get(category.slug);
+          return {
+            ...category,
+            label: override?.label ?? category.label,
+            description: override?.description ?? category.description,
+          };
+        })
+      : copyCategories;
   const tags = copy.taxonomy?.tags ?? [];
   return {
     categories,

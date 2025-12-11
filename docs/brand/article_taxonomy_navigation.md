@@ -6,7 +6,7 @@ Last updated: 2024-12-09 by Codex.
 
 1. Expose cornerstone article categories (Strategia, SEO, Wydajność) in global navigation to improve discovery.
 2. Mirror the same taxonomy in the footer so category hubs remain reachable from any page.
-3. Drive both navigation areas from copy-controlled data (`data/copy/articles.json`) to keep editors in the loop.
+3. Keep navigation copy-driven while the actual taxonomy is derived from `content/artykuly/*/index.md`.
 4. Ensure changes preserve the mobile-first layout and remain under the 500-line file constraint.
 
 ## 2. Data Source & Governance
@@ -23,7 +23,7 @@ Last updated: 2024-12-09 by Codex.
     "seeAllHref": "/artykuly"
   }
   ```
-- Editors maintain this list alongside taxonomy definitions. Any addition must reuse the same slugs as `taxonomy.categories` in article frontmatter.
+- Categories are discovered from `content/artykuly/*/index.md` (folder name = slug, draft allowed; exclude `template: legal`/`article`). Labels default to the folder name (title-cased) to stay short; editors only curate `navigation.featuredCategories`, `footerHeading`, and see-all labels in copy—slugs must match folder names to avoid 404s.
 - Keep a maximum of five featured categories to avoid crowding the navigation.
 
 ## 3. Primary Navigation Pattern
@@ -43,25 +43,16 @@ Last updated: 2024-12-09 by Codex.
 
 ## 4. Footer Pattern
 
-1. Add a dedicated column in `data/copy/footer.json`, e.g.:
-   ```json
-   {
-     "heading": "Kategorie artykułów",
-     "links": [
-       { "href": "/artykuly/strategia", "label": "Strategia wdrożenia" },
-       ...
-     ]
-   }
-   ```
-2. Generate the column automatically in `Footer` by merging existing copy columns with featured categories from the same `navigation` block (to avoid double entry).
-3. Respect existing grid limits (three content columns + newsletter). If adding a fourth column breaks layout, convert to a two-column grid at narrower breakpoints.
+1. Footer builds the category column automatically from every `content/artykuly/*/index.md` entry (folder slug = `/kategoria/<slug>/`), laid out in a two-row grid on desktop. No manual link maintenance in `footer.json`.
+2. Keep featured categories in navigation copy; footer always shows the full list.
+3. Respect existing grid limits (three content columns + newsletter). The two-row category grid should prevent excessive vertical scroll.
 
 ## 5. Implementation Summary (2024-12-09)
 
 - `data/copy/articles.json` now contains the `navigation` block with `menuLabel`, `featuredCategories`, `seeAllHref`, and `footerHeading`.
 - `PrimaryNav` renders a `<details>`-based drop-down fed by `articlesNav` from `app/(marketing)/layout.tsx`. On mobile it stacks; on desktop it becomes an anchored panel.
-- `Footer` injects a “Kategorie artykułów” column dynamically, keeping inline with navigation data.
-- `articleTaxonomyCatalog` resolves labels/descriptions so copy edits and taxonomy stay synced.
+- `Footer` injects a “Kategorie artykułów” column dynamically from the `content/artykuly` directory while still respecting navigation copy for headings/see-all links.
+- `articleTaxonomyCatalog` now hydrates categories from markdown directories and applies copy overrides for labels/descriptions.
 
 ## 6. QA Checklist
 

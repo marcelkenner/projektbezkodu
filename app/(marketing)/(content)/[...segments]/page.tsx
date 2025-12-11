@@ -81,9 +81,9 @@ export default async function ContentPage({ params }: ContentPageProps) {
     (
       viewModel as { getHeroImage?: () => { src: string; alt?: string } }
     )?.getHeroImage?.() ?? undefined;
-  const metaItems = [
-    difficulty ? { label: difficulty } : null,
-  ].filter(Boolean) as { label: string }[];
+  const metaItems = [difficulty ? { label: difficulty } : null].filter(
+    Boolean,
+  ) as { label: string }[];
   const readingTime = duration;
 
   if (useArticleLayout) {

@@ -1,78 +1,150 @@
-:global(.about-page) {
+.aboutPage {
   padding-block: var(--space-7);
   display: grid;
   gap: var(--space-6);
+  background: radial-gradient(circle at 10% 20%, #f4f6ff 0, transparent 30%),
+    radial-gradient(circle at 90% 10%, #f2fff9 0, transparent 25%),
+    #fafbff;
 }
 
-:global(.about-page__lead) {
-  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
-  max-width: 70ch;
-  color: var(--color-ink-muted);
-}
-
-:global(.about-page__section) {
+.section {
   display: grid;
   gap: var(--space-4);
 }
 
-:global(.about-page__timeline) {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: var(--space-4);
+.heroSection {
+  margin-top: var(--space-2);
 }
 
-:global(.about-page__milestone) {
-  display: grid;
-  gap: var(--space-2);
-  padding: var(--space-4);
-  border-left: 3px solid var(--color-primary-strong);
+.surfaceSection {
   background: #fff;
-  border-radius: var(--radii-md);
-  box-shadow: var(--shadow-sm);
+  padding: var(--space-6);
+  border-radius: var(--radii-lg);
+  box-shadow: var(--shadow-md);
 }
 
-:global(.about-page__milestoneYear) {
-  font-size: var(--typography-fontSize-small);
-  font-weight: var(--typography-fontWeight-semibold);
-  color: var(--color-primary-strong);
-  letter-spacing: 0.08em;
-}
-
-:global(.about-page__milestoneBody h3) {
-  margin: 0;
-}
-
-:global(.about-page__milestoneMetrics) {
-  margin: 0;
-  padding: 0;
+.sectionHeader {
   display: grid;
   gap: var(--space-2);
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
-:global(.about-page__milestoneMetrics div) {
+.eyebrow {
+  font-size: var(--typography-fontSize-small);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary-strong);
+}
+
+.heroCard {
   display: grid;
-  gap: 0.1rem;
+  gap: var(--space-5);
+  padding: var(--space-6);
+  border-radius: var(--radii-lg);
+  background: linear-gradient(135deg, #0c1a38, #102347 55%, #123058);
+  color: #e8f0ff;
+  box-shadow: 0 24px 60px rgba(12, 26, 56, 0.28);
 }
 
-:global(.about-page__milestoneMetrics dt) {
+.heroContent {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #c7d8ff;
+  width: fit-content;
+  font-size: var(--typography-fontSize-small);
+  letter-spacing: 0.04em;
+}
+
+.heroTitle {
+  font-size: clamp(1.75rem, 1.4rem + 1vw, 2.5rem);
+  line-height: 1.2;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+.lead {
+  font-size: clamp(1.1rem, 1rem + 0.4vw, 1.35rem);
+  max-width: 70ch;
+  color: #dfe8ff;
+  margin: 0;
+}
+
+.heroActions {
+  display: inline-flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.heroStats {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.statCard {
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  border-radius: var(--radii-md);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.statLabel {
+  font-size: var(--typography-fontSize-small);
+  color: #d9e4ff;
+  margin: 0;
+}
+
+.statValue {
+  font-weight: var(--typography-fontWeight-semibold);
+  color: #fff;
+  margin: 0;
+}
+
+.highlightGrid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.highlightCard {
+  padding: var(--space-4);
+  border-radius: var(--radii-md);
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  gap: var(--space-2);
+}
+
+.highlightLabel {
   font-size: var(--typography-fontSize-small);
   color: var(--color-ink-muted);
-}
-
-:global(.about-page__milestoneMetrics dd) {
   margin: 0;
-  font-weight: var(--typography-fontWeight-semibold);
 }
 
-:global(.about-page__teamGrid) {
+.highlightValue {
+  font-weight: var(--typography-fontWeight-semibold);
+  margin: 0;
+}
+
+.teamGrid {
   display: grid;
   gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-:global(.about-page__member) {
+.member {
   display: grid;
   gap: var(--space-2);
   padding: var(--space-4);
@@ -82,65 +154,60 @@
   box-shadow: var(--shadow-sm);
 }
 
-:global(.about-page__memberHeader) {
+.memberHeader {
   display: flex;
   gap: var(--space-3);
   align-items: center;
 }
 
-:global(.about-page__avatar) {
+.avatar {
   width: 96px;
   height: 96px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-:global(.about-page__memberLinks) {
+.memberLinks {
   display: inline-flex;
   gap: var(--space-2);
   flex-wrap: wrap;
   font-size: var(--typography-fontSize-small);
 }
 
-:global(.about-page__principlesList) {
+.principlesList {
   display: grid;
   gap: var(--space-3);
-  padding-left: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-:global(.about-page__servicesGrid) {
-  display: grid;
-  gap: var(--space-4);
-}
-
-:global(.about-page__serviceCard) {
-  border: 1px solid rgba(15, 23, 42, 0.08);
-  border-radius: var(--radii-md);
+.principleCard {
   padding: var(--space-4);
+  border-radius: var(--radii-md);
+  background: linear-gradient(135deg, #ffffff, #f6f8ff);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: var(--shadow-xs);
+}
+
+.ctaCard {
   display: grid;
   gap: var(--space-3);
-  background: #fff;
-  box-shadow: var(--shadow-sm);
+  padding: var(--space-5);
+  border-radius: var(--radii-lg);
+  background: linear-gradient(135deg, #101828, #0f4c75);
+  color: #e9f2ff;
+  align-items: start;
+  box-shadow: 0 18px 40px rgba(16, 24, 40, 0.25);
 }
 
-:global(.about-page__cta) {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-3);
-  align-items: center;
-}
-
-:global(.about-page__ctaText) {
+.ctaText {
   font-size: var(--typography-fontSize-small);
-  color: var(--color-ink-muted);
+  color: #cfd9f3;
+  margin: 0;
 }
 
-@media (min-width: 40rem) {
-  :global(.about-page__teamGrid) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  :global(.about-page__servicesGrid) {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+@media (min-width: 56rem) {
+  .heroCard {
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
   }
 }

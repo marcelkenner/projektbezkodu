@@ -144,7 +144,9 @@ export default async function ArticlesPage({
                     key={article.path}
                     title={article.title}
                     href={article.path}
-                    description={article.hero?.subheading ?? article.description}
+                    description={
+                      article.hero?.subheading ?? article.description
+                    }
                     hero={resolveArticleHero(article)}
                     meta={{
                       readingTime: article.meta?.duration,

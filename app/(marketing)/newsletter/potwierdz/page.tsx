@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { getCopy } from "@/app/lib/copy";
-import "./../newsletter.module.css";
+import styles from "./../newsletter.module.css";
 import { ResendButton } from "../ResendButton";
 import {
   buildResendCookieOptions,
@@ -45,13 +45,13 @@ export default async function NewsletterConfirmPage({
   const alert = resolveAlert(parser);
 
   return (
-    <section className="newsletter-page" id="content">
-      <div className="pbk-container newsletter-page__card">
+    <section className={styles.newsletterPage} id="content">
+      <div className={`pbk-container ${styles.newsletterPage__card}`}>
         <header className="pbk-stack pbk-stack--tight">
           <h1>{copy.confirm.hero.title}</h1>
           <p>{copy.confirm.hero.intro}</p>
         </header>
-        <div className="newsletter-page__actions">
+        <div className={styles.newsletterPage__actions}>
           <ResendButton
             label={copy.confirm.resend.label}
             waitingLabel={copy.confirm.resend.waitingLabel}
@@ -59,10 +59,14 @@ export default async function NewsletterConfirmPage({
             subscriberId={subscriber?.id}
             initialSeconds={resend?.remainingSeconds ?? 0}
           />
-          <span className="newsletter-page__info">
+          <span className={styles.newsletterPage__info}>
             {copy.confirm.resend.description}
           </span>
-          <p role="status" aria-live="polite" className="newsletter-page__info">
+          <p
+            role="status"
+            aria-live="polite"
+            className={styles.newsletterPage__info}
+          >
             {alert ?? "\u00A0"}
           </p>
         </div>

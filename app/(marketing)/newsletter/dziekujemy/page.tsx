@@ -8,7 +8,7 @@ import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { getCopy } from "@/app/lib/copy";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
-import "./../newsletter.module.css";
+import styles from "./../newsletter.module.css";
 
 const copy = getCopy("newsletter");
 const repository = new ArticleRepository();
@@ -29,8 +29,8 @@ export default function NewsletterThankYouPage() {
   const articles = selectArticles(copy.thanks.articles.slugs);
 
   return (
-    <section className="newsletter-page" id="content">
-      <div className="pbk-container newsletter-page__card">
+    <section className={styles.newsletterPage} id="content">
+      <div className={`pbk-container ${styles.newsletterPage__card}`}>
         <header className="pbk-stack pbk-stack--tight">
           <h1>{copy.thanks.hero.title}</h1>
           <p>{copy.thanks.hero.intro}</p>
@@ -43,7 +43,7 @@ export default function NewsletterThankYouPage() {
         </Link>
         <div className="pbk-stack pbk-stack--tight">
           <h2>{copy.thanks.articles.heading}</h2>
-          <ArticleGrid className="newsletter-page__list">
+          <ArticleGrid className={styles.newsletterPage__list}>
             {articles.map((article) => {
               const primaryCategory = (article.taxonomy?.categories ?? [])[0];
               const category = primaryCategory
@@ -55,7 +55,7 @@ export default function NewsletterThankYouPage() {
               );
               return (
                 <ArticleCard
-                  key={article.slug}
+                  key={article.path ?? article.slug}
                   title={article.title}
                   href={article.path}
                   description={article.hero?.subheading ?? article.description}

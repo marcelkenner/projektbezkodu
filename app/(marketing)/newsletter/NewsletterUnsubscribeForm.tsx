@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { Button, Modal, TextareaField } from "@/app/ui";
+import styles from "./newsletter.module.css";
 
 interface NewsletterUnsubscribeCopy {
   feedbackField: {
@@ -49,7 +50,7 @@ export function NewsletterUnsubscribeForm({
     <>
       <form
         ref={formRef}
-        className="newsletter-page__form"
+        className={styles.newsletterPage__form}
         action="/api/newsletter/unsubscribe"
         method="post"
         onSubmit={handleSubmit}
@@ -64,13 +65,17 @@ export function NewsletterUnsubscribeForm({
           name="feedback"
           label={copy.feedbackField.label}
           placeholder={copy.feedbackField.placeholder}
-          className="newsletter-page__textarea"
+          className={styles.newsletterPage__textarea}
           disabled={formDisabled}
         />
         <Button type="submit" variant="secondary" disabled={formDisabled}>
           {copy.submitLabel}
         </Button>
-        <p role="status" aria-live="polite" className="newsletter-page__info">
+        <p
+          role="status"
+          aria-live="polite"
+          className={styles.newsletterPage__info}
+        >
           {alertMessage ??
             (formDisabled
               ? "Link z newslettera jest potrzebny, by wypisać ten adres."

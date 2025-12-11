@@ -7,6 +7,9 @@ export function ServiceWorkerRegistration() {
     if (typeof window === "undefined") {
       return;
     }
+    if (process.env.NODE_ENV !== "production") {
+      return;
+    }
     if (!("serviceWorker" in navigator)) {
       return;
     }

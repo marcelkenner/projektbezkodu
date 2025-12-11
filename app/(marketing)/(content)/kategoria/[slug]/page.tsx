@@ -5,7 +5,7 @@ import { FileText } from "@phosphor-icons/react/dist/ssr";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { getCopy } from "@/app/lib/copy";
-import "../category.module.css";
+import styles from "../category.module.css";
 
 const articleRepository = new ArticleRepository();
 
@@ -61,17 +61,17 @@ export default async function CategoryHubPage({ params }: CategoryPageProps) {
   const jsonLd = buildCollectionJsonLd(articlesInCategory);
 
   return (
-    <section className="category-page" id="content">
+    <section className={styles.categoryPage} id="content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="pbk-container category-page__intro">
+      <div className={`pbk-container ${styles.categoryPageIntro}`}>
         <h1>{hubConfig.heading}</h1>
         <p>{hubConfig.subheading}</p>
       </div>
 
-      <div className="pbk-container category-page__quickLinks">
+      <div className={`pbk-container ${styles.categoryPageQuickLinks}`}>
         <nav aria-label="Skróty">
           <ul>
             {(hubConfig.quickLinks ?? []).map((link) => (
@@ -84,9 +84,9 @@ export default async function CategoryHubPage({ params }: CategoryPageProps) {
       </div>
 
       <div className="pbk-container">
-        <div className="category-page__featuredGrid">
+        <div className={styles.categoryPageFeaturedGrid}>
           {featuredArticles.map((article) => (
-            <div key={article.slug} className="category-page__card">
+            <div key={article.path ?? article.slug} className={styles.categoryPageCard}>
               <h3>{article.title}</h3>
               {article.description ? <p>{article.description}</p> : null}
               <Link className="pbk-inline-link" href={article.path}>
@@ -98,7 +98,7 @@ export default async function CategoryHubPage({ params }: CategoryPageProps) {
       </div>
 
       {hubConfig.download ? (
-        <div className="pbk-container category-page__download">
+        <div className={`pbk-container ${styles.categoryPageDownload}`}>
           <h3>{hubConfig.download.title}</h3>
           <p>{hubConfig.download.description}</p>
           <div>
@@ -120,12 +120,15 @@ export default async function CategoryHubPage({ params }: CategoryPageProps) {
       <div className="pbk-container">
         <h2>{hubConfig.listHeading}</h2>
         {articlesInCategory.length ? (
-          <ul className="category-page__list">
+          <ul className={styles.categoryPageList}>
             {articlesInCategory.map((article) => (
-              <li key={article.slug} className="category-page__listItem">
+              <li
+                key={article.path ?? article.slug}
+                className={styles.categoryPageListItem}
+              >
                 <FileText
                   aria-hidden="true"
-                  className="category-page__icon"
+                  className={styles.categoryPageIcon}
                   weight="bold"
                 />
                 <Link href={article.path}>{article.title}</Link>

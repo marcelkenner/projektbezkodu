@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { CaretDown } from "@phosphor-icons/react/dist/ssr";
+import styles from "./faq.module.css";
 
 export interface FaqEntry {
   id: string;
@@ -21,14 +22,14 @@ export function FaqAccordion({ entries }: FaqAccordionProps) {
   };
 
   return (
-    <div className="faq-page__accordion">
+    <div className={styles.faqPage__accordion}>
       {entries.map((entry) => {
         const answerId = `faq-answer-${entry.id}`;
         const isOpen = entry.id === openId;
         return (
-          <article key={entry.id} className="faq-page__item">
+          <article key={entry.id} className={styles.faqPage__item}>
             <button
-              className="faq-page__button"
+              className={styles.faqPage__button}
               type="button"
               aria-expanded={isOpen}
               aria-controls={answerId}
@@ -38,7 +39,7 @@ export function FaqAccordion({ entries }: FaqAccordionProps) {
               <span>{entry.question}</span>
               <CaretDown
                 aria-hidden="true"
-                className="faq-page__icon"
+                className={styles.faqPage__icon}
                 style={{
                   transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
                 }}
@@ -49,7 +50,7 @@ export function FaqAccordion({ entries }: FaqAccordionProps) {
               id={answerId}
               role="region"
               aria-labelledby={`faq-question-${entry.id}`}
-              className="faq-page__content"
+              className={styles.faqPage__content}
               hidden={!isOpen}
             >
               <p>{entry.answer}</p>

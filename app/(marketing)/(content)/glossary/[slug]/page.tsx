@@ -9,7 +9,7 @@ import {
   TaxonomyChips,
 } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
-import "../glossary.module.css";
+import styles from "../glossary.module.css";
 import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import { GlossaryPromo } from "../GlossaryPromo";
 import { RandomArticlesSection } from "../../components/RandomArticlesSection";
@@ -67,8 +67,8 @@ export default async function GlossaryTermPage({ params }: GlossaryPageProps) {
 
   return (
     <section className="section section--surface">
-      <div className="pbk-container pbk-stack glossary-term__layout">
-        <div className="glossary-term__hero pbk-stack pbk-stack--tight">
+      <div className={`pbk-container pbk-stack ${styles.glossaryTermLayout}`}>
+        <div className={`${styles.glossaryTermHero} pbk-stack pbk-stack--tight`}>
           <nav aria-label="Okruszki" className="pbk-inline-list">
             {breadcrumbs.map((crumb, index) => {
               const key = `${crumb.label}-${crumb.href ?? "current"}`;
@@ -90,9 +90,9 @@ export default async function GlossaryTermPage({ params }: GlossaryPageProps) {
           <p className="pbk-card__meta">Definicja</p>
           <h1>{frontmatter.title}</h1>
           {frontmatter.hero?.subheading ? (
-            <p className="glossary-term__lede">{frontmatter.hero.subheading}</p>
+            <p className={styles.glossaryTermLede}>{frontmatter.hero.subheading}</p>
           ) : null}
-          <article className="glossary-term__definition pbk-stack pbk-stack--tight">
+          <article className={`${styles.glossaryTermDefinition} pbk-stack pbk-stack--tight`}>
             <div className="prose">{renderer.render()}</div>
             {takeaways.length ? (
               <ArticleSummaryBullets
@@ -114,8 +114,8 @@ export default async function GlossaryTermPage({ params }: GlossaryPageProps) {
           <ArticleSharePanel title={frontmatter.title} url={canonicalUrl} />
         </div>
 
-        <div className="glossary-term__body">
-          <aside className="glossary-term__aside pbk-stack pbk-stack--tight">
+        <div className={styles.glossaryTermBody}>
+          <aside className={`${styles.glossaryTermAside} pbk-stack pbk-stack--tight`}>
             <GlossaryPromo promo={promo} />
             <RandomArticlesSection currentPath={canonicalPath} />
             <TaxonomyChips categories={[]} tags={tags} />

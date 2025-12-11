@@ -87,7 +87,11 @@ export class ContentLibrary {
       return undefined;
     }
 
-    const pathWithTitleSlug = this.ensureTitleSlug(derivedPath, document);
+    const pathWithTitleSlug = this.ensureTitleSlug(
+      derivedPath,
+      document,
+      Boolean(explicitPath),
+    );
     const segments = pathWithTitleSlug.split("/").filter(Boolean);
     if (!segments.length) {
       return undefined;
@@ -156,7 +160,12 @@ export class ContentLibrary {
   private ensureTitleSlug(
     normalizedPath: string,
     document: MarkdownDocument,
+    skip = false,
   ): string {
+    if (skip) {
+      return normalizedPath;
+    }
+
     const title = document.frontmatter.title;
     if (!title) {
       return normalizedPath;

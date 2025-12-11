@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
-import "./../newsletter.module.css";
+import styles from "./../newsletter.module.css";
 import { NewsletterUnsubscribeForm } from "../NewsletterUnsubscribeForm";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 
@@ -31,8 +31,8 @@ export default async function NewsletterUnsubscribePage({
   const alert = resolveAlert(parser);
 
   return (
-    <section className="newsletter-page" id="content">
-      <div className="pbk-container newsletter-page__card">
+    <section className={styles.newsletterPage} id="content">
+      <div className={`pbk-container ${styles.newsletterPage__card}`}>
         <header className="pbk-stack pbk-stack--tight">
           <h1>{copy.unsubscribe.hero.title}</h1>
           <p>{copy.unsubscribe.hero.intro}</p>
