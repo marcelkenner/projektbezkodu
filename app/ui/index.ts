@@ -16,7 +16,6 @@ export { TableOfContents } from "./TableOfContents";
 export { ToolOfWeekToast } from "./ToolOfWeekToast";
 export { ToolOfWeekToastContainer } from "./ToolOfWeekToastContainer";
 
-export { Footer } from "./Footer";
 export { TextareaField } from "./TextareaField";
 export { CheckboxField } from "./CheckboxField";
 export { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";

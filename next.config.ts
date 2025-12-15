@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
   async rewrites() {
     // Normalize any malformed asset URLs that include double slashes or a duplicated `_next` segment.
     return [
+      // Handle the most common malformed form in a single pass (e.g., /_next//_next/static/...)
+      {
+        source: "/_next//_next/:path*",
+        destination: "/_next/:path*",
+      },
       // Collapse duplicated `_next` segment (e.g., /_next/_next/static/...)
       {
         source: "/_next/:maybeSlash(_next)?/:path*",

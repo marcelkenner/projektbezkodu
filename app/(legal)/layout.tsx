@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
-import { PrimaryNav, Footer, ToolOfWeekToastContainer } from "../ui";
+import { PrimaryNav, ToolOfWeekToastContainer } from "../ui";
+import { Footer } from "../ui/server";
 import { getCopy } from "../lib/copy";
 import { getToolOfWeek } from "../lib/toolShowcase";
 import "./legal.module.css";

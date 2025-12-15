@@ -130,6 +130,10 @@ export class ContentLibrary {
     const parsed = path.parse(relativePath);
     const segments = parsed.dir.split("/").filter(Boolean);
 
+    if (parsed.name === "index" && segments.at(-1) === "glowny") {
+      segments.pop();
+    }
+
     if (parsed.name !== "index") {
       segments.push(parsed.name);
     }
