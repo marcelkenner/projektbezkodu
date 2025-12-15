@@ -1,6 +1,6 @@
 # Editor Workflow Playbook – ProjektBezKodu
 
-Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes (see `docs/website_repro_playbook.md` §11).
+Last updated: 2025-12-15 by Codex. Keep this guide in sync with feature changes (see `docs/website_repro_playbook.md` §11).
 
 ## 1. Before You Start
 
@@ -19,6 +19,7 @@ Last updated: 2024-12-09 by Codex. Keep this guide in sync with feature changes 
    - `meta` for tutorials/comparisons (difficulty, duration, tools).
    - `taxonomy` for articles (categories + tags defined in copy JSON).
 3. Validate syntax with `npm run content:lint` (this runs automatically before `npm run build`). It parses every markdown file, warns when `meta.summaryBullets` / `meta.primaryCta` are missing in article-driven folders, and points to the exact line when YAML is invalid. Set `CONTENT_LINT_STRICT=true` or append `--strict` if you want the warnings to fail CI.
+4. Callouts: to render a highlighted tip/warning box, start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]` (the marker is removed from output).
 
 ## 3. Media Assets
 

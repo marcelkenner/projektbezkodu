@@ -97,6 +97,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 4. Build `app/lib/content/repositories.ts` with abstract `MarkdownRepository` and concrete repositories for articles, comparisons, tutorials, glossary.
 5. Provide `MarkdownPageLoader` helper for singleton pages (privacy, terms).
 6. Implement `app/ui/MarkdownRenderer.tsx` with the Unified pipeline (`unified`, `remark-parse`, `remark-gfm`, `unist-util-visit`) and keep it server-only—instantiate it inside server components or view models, and never barrel-export the Markdown UI from `app/ui/index.ts` so those parsing dependencies stay out of client bundles.
+   - Authoring feature: callouts are supported via blockquotes starting with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]` (marker removed from output).
 7. Handle everything else with the generic pipeline:
    - `ContentRepository` now crawls nested `content/**/index.md`, excluding `_examples` and `glossary`.
    - `ContentLibrary` normalises routes (prefers `frontmatter.path`, falls back to folder structure) and exposes `{ path, segments, document }` tuples.

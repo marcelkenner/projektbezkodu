@@ -7,9 +7,16 @@ slug: ""
 path: "/"
 draft: false
 template: "homepage" # homepage | template | tutorial | comparison | article | resource | case-study
+type: "" # optional legacy/aux classification
+date: "" # YYYY-MM-DD (optional)
 hero:
   heading: ""
   subheading: ""
+  image:
+    src: ""
+    alt: ""
+    width: 0
+    height: 0
   primaryCta: "copy.cta_primary"
   secondaryCta: "copy.cta_secondary"
   trustLogos:
@@ -23,6 +30,17 @@ meta:
   difficulty: ""
   duration: ""
   tools: []
+  author: ""
+  updatedAt: "" # YYYY-MM-DD (optional)
+  hasAffiliateLinks: false
+  primaryCta:
+    label: ""
+    href: ""
+    rel: ""
+  secondaryCta:
+    label: ""
+    href: ""
+    rel: ""
   format: ""
   topics: []
   license: ""

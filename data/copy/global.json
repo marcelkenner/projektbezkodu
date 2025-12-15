@@ -7,5 +7,15 @@
   "newsletter": {
     "submitLabel": "Dołącz do newslettera",
     "privacyNote": "Zapisując się, akceptujesz politykę prywatności i zgadzasz się na kontakt mailowy."
+  },
+  "callouts": {
+    "labels": {
+      "note": "Notatka",
+      "tip": "Wskazówka",
+      "important": "Ważne",
+      "warning": "Uwaga",
+      "caution": "Ostrożnie"
+    },
+    "footnoteBacklinkLabel": "Powrót do treści"
   }
 }

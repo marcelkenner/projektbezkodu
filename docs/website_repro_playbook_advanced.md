@@ -95,7 +95,8 @@
 1. `MarkdownRenderer` validates every link/image URL, blocking `javascript:` (or invalid schemes) and marking external URLs with `target="_blank"` + `rel="noopener noreferrer"`. Images default to `loading="lazy"`/`decoding="async"`.
 2. Consumers can extend behavior through `MarkdownRendererOptions` (`components.CodeBlock`, `components.Image`, `components.Link`, and `headingLevelsForToc`). Use these overrides instead of forking the renderer when you need syntax highlighting or custom image/link wrappers.
 3. The renderer now exposes `renderToc()` plus class names (`pbk-heading-*`, `pbk-paragraph`, `pbk-code-block`, `pbk-list-*`, etc.) so you can build consistent TOCs and theme markdown without touching the parser.
-4. Footnotes include a ↩ back-link, and inline links default to the sanitized Next.js/anchor variants unless you supply your own `Link` component in the options. Wrap markdown content via the exported `Markdown` component to memoize parsing per source string.
+4. Callouts: write a blockquote starting with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]` to render a styled callout block (the marker is removed from output).
+5. Footnotes include a ↩ back-link, and inline links default to the sanitized Next.js/anchor variants unless you supply your own `Link` component in the options.
 
 ## 25. Component Performance Guard
 
