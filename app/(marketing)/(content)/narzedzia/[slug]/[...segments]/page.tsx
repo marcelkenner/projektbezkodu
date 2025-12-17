@@ -4,11 +4,12 @@ import { notFound } from "next/navigation";
 
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
+import { ContentRecommendationsRepository } from "@/app/lib/content/ContentRecommendationsRepository";
+import { RandomArticlesSelectionManager } from "@/app/lib/content/RandomArticlesSelectionManager";
 
 import styles from "../../../[...segments]/content-page.module.css";
 import articleStyles from "../../../artykuly/article.module.css";
 import {
-  Breadcrumbs,
   TableOfContents,
   ArticleMetaBadges,
   ArticleSummaryBullets,
@@ -17,12 +18,18 @@ import {
   ArticleSharePanel,
   AuthorCard,
 } from "@/app/ui";
+import { RandomArticlesSection } from "../../../components/RandomArticlesSection";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import "../../../artykuly/article.module.css";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
+const recommendationsRepository = new ContentRecommendationsRepository(library);
+const randomArticlesSelectionManager = new RandomArticlesSelectionManager(
+  recommendationsRepository,
+);
 const breadcrumbComposer = new BreadcrumbComposer();
 
 interface ToolArticleProps {
@@ -88,20 +95,26 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
   const primaryCta = viewModel.getPrimaryCta();
   const secondaryCta = viewModel.getSecondaryCta();
   const hasAffiliateLinks = viewModel.hasAffiliateLinks();
-  const sidebarRelated = selectSidebarRelatedTools(slug, categories);
+  const heroImage = viewModel.getHeroImage();
+  const sidebarArticles = randomArticlesSelectionManager.select({
+    currentPath: canonicalPath,
+    limit: 6,
+  });
+  const sidebarExcludePaths = sidebarArticles.map((article) => article.path);
 
   return (
     <section
       className={`${articleStyles.articlePage} article-page`}
       id="content"
     >
+      <ContentHero
+        heading={heading}
+        subheading={subheading}
+        breadcrumbs={breadcrumbs}
+        image={heroImage}
+      />
       <div className="pbk-container">
         <header className="article-page__header">
-          <Breadcrumbs items={breadcrumbs} />
-          <h1>{heading}</h1>
-          {subheading ? (
-            <p className={styles.contentPageLead}>{subheading}</p>
-          ) : null}
           <ArticleMetaBadges
             categories={categories}
             difficulty={difficulty}
@@ -119,17 +132,17 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
           {hasToc ? (
             <div className="article-page__toc">
               <TableOfContents items={headings} />
-              {sidebarRelated.length ? (
+              {sidebarArticles.length ? (
                 <aside
                   className="pbk-card pbk-stack article-page__relatedTools"
-                  aria-label="Powiązane narzędzia"
+                  aria-label="Polecane artykuły"
                 >
                   <h2 className="pbk-card__meta">Sprawdź też</h2>
                   <ul className="pbk-stack pbk-stack--tight">
-                    {sidebarRelated.map((item) => (
-                      <li key={item.path}>
-                        <Link className="pbk-inline-link" href={item.path}>
-                          {item.title}
+                    {sidebarArticles.map((article) => (
+                      <li key={article.path}>
+                        <Link className="pbk-inline-link" href={article.path}>
+                          {article.title}
                         </Link>
                       </li>
                     ))}
@@ -149,6 +162,10 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
         </div>
         <AuthorCard />
         <TaxonomyChips categories={categories} tags={tags} />
+        <RandomArticlesSection
+          currentPath={canonicalPath}
+          excludePaths={sidebarExcludePaths}
+        />
       </div>
     </section>
   );
@@ -164,47 +181,4 @@ function formatDate(input: string): string {
     month: "long",
     day: "2-digit",
   }).format(date);
-}
-
-function selectSidebarRelatedTools(
-  slug: string,
-  categories: Array<{ label: string; slug?: string }>,
-) {
-  const categorySet = new Set(
-    categories.map((cat) => cat?.slug).filter(Boolean),
-  );
-  const tools = library
-    .listRoutes()
-    .filter(
-      (entry) =>
-        entry.path.startsWith("/narzedzia/") && entry.segments.length === 2,
-    )
-    .map((entry) => {
-      const frontmatter = entry.document.frontmatter;
-      const cats = frontmatter.taxonomy?.categories ?? [];
-      return {
-        slug: frontmatter.slug ?? entry.segments[1],
-        title: frontmatter.title ?? entry.segments[1],
-        path: entry.path,
-        categories: cats,
-      };
-    })
-    .filter((entry) => entry.slug !== slug);
-
-  const ranked = tools
-    .map((entry) => ({
-      title: entry.title,
-      path: entry.path,
-      score: entry.categories.some((cat) => cat && categorySet.has(cat))
-        ? 1
-        : 0,
-    }))
-    .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, "pl"))
-    .slice(0, 3);
-
-  if (ranked.some((entry) => entry.score > 0)) {
-    return ranked;
-  }
-
-  return tools.slice(0, 3).map(({ title, path }) => ({ title, path }));
 }

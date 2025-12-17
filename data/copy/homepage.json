@@ -110,19 +110,19 @@
       {
         "title": "Landing page pod kampanię",
         "description": "Stworzysz kompletny landing pod kampanię w kilka dni zamiast tygodni – z gotowymi sekcjami, formularzami i integracją z CRM, której nie musisz kodować.",
-        "href": "/narzedzia/landing-page/",
+        "href": "/artykuly/biblioteka-komponentow/",
         "icon": "bolt"
       },
       {
         "title": "Animacje i mikrointerakcje",
         "description": "Dodasz ruch, przejścia i efekty hover, które zwiększają czytelność i konwersję – bez pisania ani jednej linijki kodu.",
-        "href": "/narzedzia/animacje/",
+        "href": "/artykuly/animacje/",
         "icon": "spark"
       },
       {
         "title": "Automatyczne procesy",
         "description": "Połączysz formularze, maile i komunikatory tak, żeby każdy nowy lead automatycznie wpadał do właściwego procesu sprzedażowego.",
-        "href": "/poradniki/automatyzacje/",
+        "href": "/artykuly/automation/",
         "icon": "workflow"
       },
       {
@@ -140,19 +140,19 @@
       {
         "title": "Wydajność i stabilność",
         "description": "Skorzystasz z hostingu w chmurze, CDN i monitoringu szybkości, dzięki czemu strona działa stabilnie nawet przy skokach ruchu.",
-        "href": "/artykuly/core-web-vitals/",
+        "href": "/artykuly/architektura/",
         "icon": "speed"
       },
       {
         "title": "CMS dla zespołu",
         "description": "Oddzielisz warstwę treści od layoutu, dzięki czemu marketing wrzuca nowe wpisy i case studies bez proszenia kogokolwiek o kolejną poprawkę w projekcie.",
-        "href": "/narzedzia/cms/",
+        "href": "/artykuly/cms/",
         "icon": "database"
       },
       {
         "title": "Testy i eksperymenty",
         "description": "Szybko stworzysz warianty sekcji, podepniesz narzędzia do testów A/B i zobaczysz, który wariant faktycznie dowozi lepsze wyniki.",
-        "href": "/narzedzia/testy-a-b/",
+        "href": "/artykuly/badania/",
         "icon": "experiment"
       }
     ]
@@ -194,7 +194,7 @@
       {
         "title": "Przypadki użycia",
         "description": "Zobacz jak SaaS-y, agencje i NGO wdrażają no-code – dane, stack i efekty kampanii.",
-        "href": "/przypadki-uzycia/saas-b2b/",
+        "href": "/artykuly/przypadki-uzycia/",
         "ctaLabel": "Przeczytaj case study",
         "icon": "cases"
       },
@@ -208,7 +208,7 @@
       {
         "title": "Automatyzacje leadowe",
         "description": "Scenariusze Make i Zapier pod CRM, Slacka i newsletter – kopiujesz i działasz.",
-        "href": "/narzedzia/automatyzacje/",
+        "href": "/artykuly/automation/",
         "ctaLabel": "Wdróż automatyzację",
         "icon": "automation"
       }

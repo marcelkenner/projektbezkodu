@@ -60,7 +60,7 @@
             "label": "Strategia i struktura treści",
             "description": "Ustal kategorie, tagi i układ CMS zanim powstanie pierwszy wpis.",
             "resources": [
-              { "label": "Mapa kategorii", "href": "/kategoria/seo/" },
+              { "label": "Mapa kategorii", "href": "/artykuly/seo/" },
               {
                 "label": "Checklisty redakcyjne",
                 "href": "/poradniki/webflow-blog-krok-po-kroku/"

@@ -5,7 +5,6 @@ import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 import Link from "next/link";
 import {
-  Breadcrumbs,
   TableOfContents,
   ArticleMetaBadges,
   ArticleSummaryBullets,
@@ -21,6 +20,7 @@ import articleStyles from "../artykuly/article.module.css";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { RandomArticlesSection } from "../components/RandomArticlesSection";
+import { ContentHero } from "@/app/ui/heroes/ContentHero";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
@@ -77,10 +77,7 @@ export default async function ContentPage({ params }: ContentPageProps) {
   const sidebarRelated = useArticleLayout
     ? selectSidebarRelatedContent(path, categories)
     : [];
-  const hero =
-    (
-      viewModel as { getHeroImage?: () => { src: string; alt?: string } }
-    )?.getHeroImage?.() ?? undefined;
+  const heroImage = viewModel.getHeroImage();
   const metaItems = [difficulty ? { label: difficulty } : null].filter(
     Boolean,
   ) as { label: string }[];
@@ -92,13 +89,14 @@ export default async function ContentPage({ params }: ContentPageProps) {
         className={`${articleStyles.articlePage} article-page`}
         id="content"
       >
+        <ContentHero
+          heading={heading}
+          subheading={subheading}
+          breadcrumbs={breadcrumbs}
+          image={heroImage}
+        />
         <div className="pbk-container">
           <header className="article-page__header">
-            <Breadcrumbs items={breadcrumbs} />
-            <h1>{heading}</h1>
-            {subheading ? (
-              <p className={styles.contentPageLead}>{subheading}</p>
-            ) : null}
             <ArticleMetaBadges
               categories={categories}
               difficulty={difficulty}
@@ -162,8 +160,8 @@ export default async function ContentPage({ params }: ContentPageProps) {
             title={heading}
             description={subheading}
             hero={{
-              src: hero?.src,
-              alt: hero?.alt ?? heading,
+              src: heroImage?.src ?? undefined,
+              alt: heroImage?.alt ?? heading,
               fallbackSrc: "/img/articles_hero_image.webp",
             }}
             meta={{

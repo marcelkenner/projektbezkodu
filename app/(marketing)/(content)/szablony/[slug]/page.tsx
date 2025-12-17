@@ -14,7 +14,7 @@ import {
 import { ProductStructuredDataBuilder } from "@/app/lib/seo/ProductStructuredDataBuilder";
 import { FaqStructuredDataBuilder } from "@/app/lib/seo/FaqStructuredDataBuilder";
 import { HowToStructuredDataBuilder } from "@/app/lib/seo/HowToStructuredDataBuilder";
-import "./../templates.module.css";
+import styles from "./../templates.module.css";
 import articleStyles from "../../artykuly/article.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
@@ -116,7 +116,7 @@ export default async function TemplateDetailPage({
 
   return (
     <section
-      className={`${articleStyles.articlePage} article-page`}
+      className={`${styles.scope} ${articleStyles.articlePage} article-page`}
       id="content"
     >
       <StructuredDataScript

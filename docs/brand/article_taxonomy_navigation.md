@@ -43,7 +43,7 @@ Last updated: 2024-12-09 by Codex.
 
 ## 4. Footer Pattern
 
-1. Footer builds the category column automatically from every `content/artykuly/*/index.md` entry (folder slug = `/kategoria/<slug>/`), laid out in a two-row grid on desktop. No manual link maintenance in `footer.json`.
+1. Footer builds the category column automatically from every `content/artykuly/*/index.md` entry (folder slug = `/artykuly/<slug>/`), laid out in a two-row grid on desktop. No manual link maintenance in `footer.json`.
 2. Keep featured categories in navigation copy; footer always shows the full list.
 3. Respect existing grid limits (three content columns + newsletter). The two-row category grid should prevent excessive vertical scroll.
 
@@ -57,12 +57,12 @@ Last updated: 2024-12-09 by Codex.
 ## 6. QA Checklist
 
 1. Verify drop-down keyboard behaviour (Tab into summary, Enter/Space to toggle, ESC closes).
-2. Confirm links map to `/kategoria/<slug>/` or a valid override.
+2. Confirm links map to `/artykuly/<slug>/` or a valid override (`/kategoria/<slug>/` should redirect).
 3. On mobile, ensure the drop-down stacks without clipping.
 4. Footer grid remains ≤4 columns and wraps gracefully <48rem.
 
 ## 7. Documentation & Maintenance
 
 - Editors adjust featured categories via `data/copy/articles.json` (documented in `docs/content_editor_playbook.md` §9).
-- Whenever categories change, confirm corresponding `/kategoria/<slug>/` pages exist.
+- Whenever categories change, confirm corresponding `/artykuly/<slug>/` hubs exist (and `/kategoria/<slug>/` redirect works).
 - Update this doc when altering layout patterns (e.g., mega-menu future upgrades).

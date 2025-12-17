@@ -9,7 +9,7 @@ import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { LeadMagnetCatalog } from "@/app/lib/content/leadMagnetCatalog";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
-import "./../../lead-magnet.module.css";
+import styles from "./../../lead-magnet.module.css";
 
 const catalog = new LeadMagnetCatalog();
 const repository = new ArticleRepository();
@@ -59,7 +59,7 @@ export default async function LeadMagnetThankYouPage({
     : [];
 
   return (
-    <section className="lead-page" id="content">
+    <section className={`${styles.scope} lead-page`} id="content">
       <div className="pbk-container lead-page__thankyou">
         <header className="pbk-stack pbk-stack--tight">
           <h1>{thankYou.hero.title}</h1>

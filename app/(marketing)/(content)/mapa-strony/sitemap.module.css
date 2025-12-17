@@ -1,26 +1,26 @@
-:global(.sitemap-page) {
+.scope:global(.sitemap-page) {
   padding-block: var(--space-7);
   display: grid;
   gap: var(--space-6);
 }
 
-:global(.sitemap-page__intro) {
+.scope :global(.sitemap-page__intro) {
   display: grid;
   gap: var(--space-3);
   max-width: var(--measure);
 }
 
-:global(.sitemap-page__highlights) {
+.scope :global(.sitemap-page__highlights) {
   display: grid;
   gap: var(--space-3);
 }
 
-:global(.sitemap-page__grid) {
+.scope :global(.sitemap-page__grid) {
   display: grid;
   gap: var(--space-4);
 }
 
-:global(.sitemap-page__quickCard) {
+.scope :global(.sitemap-page__quickCard) {
   border: 1px solid var(--color-border);
   border-radius: var(--radii-md);
   padding: var(--space-4);
@@ -29,12 +29,12 @@
   gap: var(--space-2);
 }
 
-:global(.sitemap-page__quickCard h2) {
+.scope :global(.sitemap-page__quickCard h2) {
   margin: 0;
   font-size: var(--typography-fontSize-h4);
 }
 
-:global(.sitemap-page__quickCard ul) {
+.scope :global(.sitemap-page__quickCard ul) {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -42,17 +42,17 @@
   gap: var(--space-2);
 }
 
-:global(.sitemap-page__quickCard a) {
+.scope :global(.sitemap-page__quickCard a) {
   color: var(--color-primary);
   text-decoration: none;
   font-size: var(--typography-fontSize-small);
 }
 
-:global(.sitemap-page__quickCard a:hover) {
+.scope :global(.sitemap-page__quickCard a:hover) {
   text-decoration: underline;
 }
 
-:global(.sitemap-page__section) {
+.scope :global(.sitemap-page__section) {
   border: 1px solid var(--color-border);
   border-radius: var(--radii-md);
   padding: var(--space-4);
@@ -61,25 +61,25 @@
   gap: var(--space-3);
 }
 
-:global(.sitemap-page__sectionHeader) {
+.scope :global(.sitemap-page__sectionHeader) {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: var(--space-2);
 }
 
-:global(.sitemap-page__section h2) {
+.scope :global(.sitemap-page__section h2) {
   margin: 0;
   font-size: clamp(1.125rem, 1.05rem + 0.2vw, 1.25rem);
 }
 
-:global(.sitemap-page__count) {
+.scope :global(.sitemap-page__count) {
   margin: 0;
   font-size: var(--typography-fontSize-small);
   color: var(--color-ink-muted);
 }
 
-:global(.sitemap-page__list) {
+.scope :global(.sitemap-page__list) {
   display: grid;
   gap: var(--space-2);
   margin: 0;
@@ -87,28 +87,28 @@
   list-style: none;
 }
 
-:global(.sitemap-page__list a) {
+.scope :global(.sitemap-page__list a) {
   color: var(--color-primary);
   text-decoration: none;
   font-size: var(--typography-fontSize-small);
 }
 
-:global(.sitemap-page__list a:hover) {
+.scope :global(.sitemap-page__list a:hover) {
   text-decoration: underline;
 }
 
 @media (min-width: 48rem) {
-  :global(.sitemap-page__highlights) {
+  .scope :global(.sitemap-page__highlights) {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 
-  :global(.sitemap-page__grid) {
+  .scope :global(.sitemap-page__grid) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 64rem) {
-  :global(.sitemap-page__grid) {
+  .scope :global(.sitemap-page__grid) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

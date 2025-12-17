@@ -1,21 +1,31 @@
-import { ArticleRepository } from "@/app/lib/content/repositories";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
+import { ContentRecommendationsRepository } from "@/app/lib/content/ContentRecommendationsRepository";
+import { RandomArticlesSelectionManager } from "@/app/lib/content/RandomArticlesSelectionManager";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
 
 interface RandomArticlesSectionProps {
   currentPath: string;
   limit?: number;
   heading?: string;
+  excludePaths?: string[];
 }
 
-const articleRepository = new ArticleRepository();
+const recommendationsRepository = new ContentRecommendationsRepository();
+const randomArticlesSelectionManager = new RandomArticlesSelectionManager(
+  recommendationsRepository,
+);
 
 export function RandomArticlesSection({
   currentPath,
   limit = 3,
   heading = "Przeczytaj również",
+  excludePaths = [],
 }: RandomArticlesSectionProps) {
-  const articles = selectRandomArticles(currentPath, limit);
+  const articles = randomArticlesSelectionManager.select({
+    currentPath,
+    limit,
+    excludePaths,
+  });
   if (!articles.length) {
     return null;
   }
@@ -49,40 +59,6 @@ export function RandomArticlesSection({
       </ArticleGrid>
     </section>
   );
-}
-
-function selectRandomArticles(currentPath: string, limit: number) {
-  const articles = articleRepository
-    .listSummaries()
-    .filter((article) => article.path !== currentPath);
-
-  if (!articles.length) {
-    return [];
-  }
-
-  const seededRandom = createSeededRandom(currentPath);
-  const shuffled = [...articles];
-
-  for (let i = shuffled.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(seededRandom() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-
-  return shuffled.slice(0, limit);
-}
-
-function createSeededRandom(seed: string) {
-  let h = 1779033703 ^ seed.length;
-  for (let i = 0; i < seed.length; i += 1) {
-    h = Math.imul(h ^ seed.charCodeAt(i), 3432918353);
-    h = (h << 13) | (h >>> 19);
-  }
-  return () => {
-    h = Math.imul(h ^ (h >>> 16), 2246822507);
-    h = Math.imul(h ^ (h >>> 13), 3266489909);
-    h ^= h >>> 16;
-    return (h >>> 0) / 4294967296;
-  };
 }
 
 function resolveArticleHero(article: {

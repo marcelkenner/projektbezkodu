@@ -31,6 +31,7 @@
     },
     "articleCta": "Czytaj →",
     "noResults": "Nie znaleziono artykułów spełniających kryteria. Zmień parametry filtrowania lub wyczyść wszystkie filtry.",
+    "categoryEmptyState": "Nie znaleźliśmy jeszcze artykułów w tej kategorii. Zajrzyj później.",
     "pagination": {
       "ariaLabel": "Paginacja",
       "previous": "« Poprzednia strona",

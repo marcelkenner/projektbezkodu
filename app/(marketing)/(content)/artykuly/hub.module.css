@@ -1,0 +1,49 @@
+.scope:global(.artykuly-hub) {
+  padding-block: var(--space-7);
+  display: grid;
+  gap: var(--space-6);
+}
+
+.scope :global(.artykuly-hub__intro) {
+  display: grid;
+  gap: var(--space-3);
+  max-width: var(--measure);
+}
+
+.scope :global(.artykuly-hub__subcategories) {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.scope :global(.artykuly-hub__subcategoriesList) {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.scope :global(.artykuly-hub__subcategoriesList a) {
+  color: var(--color-primary-strong);
+  text-decoration: none;
+  font-weight: var(--typography-fontWeight-medium);
+}
+
+.scope :global(.artykuly-hub__subcategoriesList a:hover) {
+  text-decoration: underline;
+}
+
+.scope :global(.artykuly-hub__grid) {
+  display: grid;
+  gap: var(--space-4);
+}
+
+@media (min-width: 48rem) {
+  .scope :global(.artykuly-hub__subcategoriesList) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .scope :global(.artykuly-hub__grid) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

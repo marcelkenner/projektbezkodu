@@ -1,6 +1,8 @@
-const CACHE_NAME = "pbk-static-v1";
+const CACHE_NAME = "pbk-static-v2";
 const OFFLINE_URL = "/offline";
 const PRECACHE_URLS = [OFFLINE_URL, "/", "/artykuly", "/o-nas", "/zasoby"];
+
+const isCacheableResponse = (response) => response && response.ok;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -31,14 +33,25 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin) {
+    return;
+  }
+
+  // Avoid caching Next.js image optimizer responses (many variants via query params).
+  if (url.pathname === "/_next/image") {
+    event.respondWith(fetch(event.request));
+    return;
+  }
+
   if (event.request.mode === "navigate") {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
-          const copy = response.clone();
-          caches
-            .open(CACHE_NAME)
-            .then((cache) => cache.put(event.request, copy));
+          if (isCacheableResponse(response)) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          }
           return response;
         })
         .catch(async () => {
@@ -57,14 +70,20 @@ self.addEventListener("fetch", (event) => {
     caches.match(event.request).then((cached) => {
       const networkFetch = fetch(event.request)
         .then((response) => {
-          const copy = response.clone();
-          caches
-            .open(CACHE_NAME)
-            .then((cache) => cache.put(event.request, copy));
+          if (isCacheableResponse(response)) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          }
           return response;
         })
-        .catch(() => cached);
-      return cached || networkFetch;
+        .catch(() => null);
+
+      if (cached) {
+        networkFetch.catch(() => null);
+        return cached;
+      }
+
+      return networkFetch.then((response) => response ?? cached);
     }),
   );
 });

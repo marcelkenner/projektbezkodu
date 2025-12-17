@@ -105,14 +105,24 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
    - Catch-all route `app/(marketing)/(content)/[...segments]/page.tsx` renders those entries with mobile-first typography; existing bespoke routes keep priority automatically.
 8. Store all content-specific media under `public/media/`, mirroring the markdown path. Example: `content/narzedzia/webflow/recenzja/index.md` → `public/media/narzedzia/webflow/recenzja/hero.webp`. React-only pages follow the same rule under `public/media/pages/{app subpath}/`. Reference assets as `/media/...` so CDN caching works consistently.
 9. Run `npm run content:lint` (automatically executed before `npm run build`) to validate every markdown file with `gray-matter`. Fix YAML errors before committing so the global content crawl never fails.
+   - The linter also checks for **derived route path collisions** (two markdown files resolving to the same URL) and fails the build when detected. Make titles/paths unique (or run `npm run format` to regenerate missing paths).
+   - `meta.summaryBullets` + `meta.primaryCta` warnings are only evaluated for marketing templates (`article`, `tutorial`, `comparison`, `resource`, `template`). Hub pages and legal templates are excluded.
+   - Run `npm run content:hero:check` to verify that **resolved** hero images (hero/meta fallback logic) exist under `public/` and don’t use remote URLs (Next Image will fail without `images.remotePatterns`).
 10. Article categories are discovered from `content/artykuly/*/index.md` (directory name = slug, draft allowed); `data/copy/articles.json` only overrides labels/see-all copy and still defines tags for taxonomy chips.
 11. `/artykuly` aggregates every markdown entry with `template: "article"` (and `draft: false`) regardless of which folder it lives in. Keep `template` and `path` accurate because the listing page, breadcrumbs, and sitemap depend on them.
-12. Narzędzia hero images: every markdown with `path` starting `/narzedzia/` must set `hero.image.src` to `/img/article_image.jpeg` (alt: “Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora`). `npm run format`now enforces this automatically; you can also run`node scripts/set-narzedzia-hero-image.mjs` manually.
-13. Default hero fallbacks: `/artykuly` → `/img/articles_hero_image.webp`, `/poradniki` → `/img/tutorials_hero_image.webp.webp`, `/porownania` → `/img/comparisons_hero_image.webp.jpeg`, `/szablony` → `/img/templates_hero_image.webp.webp` (wired via `heroImageResolver.defaultHeroImage`). Use these assets when front matter lacks an explicit hero.
-14. Narzędzia hero copy: ensure `hero.heading` and `hero.subheading` are present for all `/narzedzia/` entries. `npm run format` now runs `node scripts/fix-narzedzia-hero-heading.mjs` before Prettier to backfill missing values without touching other fields; use the script directly when needed.
-15. Homepage metadata: `app/(marketing)/page.tsx` reads front matter from `content/_examples/homepage.md` (draft). Keep its SEO fields and hero copy current even though the body is not rendered.
-16. Consistent hero copy for /artykuly, /poradniki, /porownania, /szablony: `npm run format` also runs `node scripts/fix-section-hero-headings.mjs` to backfill missing `hero.heading` and `hero.subheading` for those sections using title-based defaults.
-17. Artykuły folder routing: articles now live under `content/artykuly/<kategoria>/<subkategoria>/index.md`. `npm run format` runs `node scripts/fix-artykuly-paths.mjs` to align `path` and `slug` with that folder structure (ensures `/artykuly/.../`) while preserving other front matter.
+12. Article hubs live under `/artykuly/<kategoria>/` and `/artykuly/<kategoria>/<podkategoria>/`: these pages **do not render markdown bodies**. They render:
+   - Subcategory links discovered from directory structure.
+   - An `ArticleGrid` of published articles whose `path` starts with that prefix.
+13. `/kategoria/<slug>/` is a legacy alias that permanently redirects to `/artykuly/<slug>/` (aliases supported, e.g. `/kategoria/cms/` → `/artykuly/cms-bez-kodu/`).
+14. `/artykuly/<slug>/` dispatches:
+   - Hub listing when `<slug>` matches a hub directory (aliases supported, e.g. `/artykuly/cms/` → `/artykuly/cms-bez-kodu/` canonical).
+   - Article detail when `<slug>` matches an article slug.
+15. Narzędzia hero images: every markdown with `path` starting `/narzedzia/` may intentionally set `hero.image.src` to `/img/article_image.jpeg` (alt: “Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora`) as a placeholder; the UI treats this value as “broken” and falls back to `/img/tools_hero_image.webp` unless you provide a real image via `meta.heroImageSrc`. `npm run format` now enforces this automatically; you can also run `node scripts/set-narzedzia-hero-image.mjs` manually.
+16. Default hero fallbacks: `/artykuly` → `/img/articles_hero_image.webp`, `/poradniki` → `/img/tutorials_hero_image.webp`, `/porownania` → `/img/comparisons_hero_image.webp`, `/szablony` → `/img/templates_hero_image.webp`, `/narzedzia` → `/img/tools_hero_image.webp` (wired via `heroImageResolver.defaultHeroImage`). Use these assets when front matter lacks an explicit hero.
+16. Narzędzia hero copy: ensure `hero.heading` and `hero.subheading` are present for all `/narzedzia/` entries. `npm run format` now runs `node scripts/fix-narzedzia-hero-heading.mjs` before Prettier to backfill missing values without touching other fields; use the script directly when needed.
+17. Homepage metadata: `app/(marketing)/page.tsx` reads front matter from `content/_examples/homepage.md` (draft). Keep its SEO fields and hero copy current even though the body is not rendered.
+18. Consistent hero copy for /artykuly, /poradniki, /porownania, /szablony: `npm run format` also runs `node scripts/fix-section-hero-headings.mjs` to backfill missing `hero.heading` and `hero.subheading` for those sections using title-based defaults.
+19. Artykuły routing: you can store multiple markdown pages under `content/artykuly/**` (including multiple `index.md` files at different depths). `npm run format` runs `node scripts/fix-artykuly-paths.mjs` to backfill missing `slug`/`title`, and (only when `path` is missing) derive `/artykuly/.../` URLs using the page title as the final segment. Category index pages at `content/artykuly/<kategoria>/index.md` keep `path: /artykuly/<kategoria>/`.
 
 ## 10. Routing & Pages
 
@@ -204,8 +214,8 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 ## 17. Blog & Content Pages
 
 1. Blog listing (`/artykuly`): reuse `ArticlesFilterBar.tsx`, `ArticleCard.tsx`, and `ArticlesPagination.tsx`, and embed the CollectionPage/ItemList JSON-LD.
-2. Article (`/artykuly/[slug]`): show breadcrumbs, meta (reading time, publish, update, author), the affiliate disclosure, sticky TOC, “Next step” CTA block, author card, and related articles.
-3. Category hub (`/kategoria/[slug]`): drive content from `data/copy/category-hubs.json`, include quick links, featured cards, optional download CTA, and the icon-enhanced article list.
+2. Article detail (`/artykuly/**` matching an article `path`): show breadcrumbs, meta (reading time, publish, update, author), the affiliate disclosure, sticky TOC, “Next step” CTA block, author card, and related articles.
+3. Article hub (`/artykuly/<kategoria>/` + deeper subcategories): render **only** subcategory links + an `ArticleGrid` of published articles under that prefix (no markdown body). `/kategoria/<slug>/` is a legacy redirect to the matching hub.
 4. 404 page: `NotFoundPageViewModel` mixes copy from `data/copy/not-found.json` (hero, CTA, search, `shortcuts[]`, `suggestions.*`). The suggestions block automatically pulls the 3 latest articles via `ArticleRepository`, and metadata enforces `robots=noindex` plus the SEO notice from `copy.seo`.
 5. Legal pages: pair `app/(legal)/legal.css` with `MarkdownPageLoader`; render `<time>` for the last update, keep the contact block, and preserve the GDPR table plus definitions.
 
@@ -214,6 +224,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 1. Resources (`/zasoby`, `/zasoby/[slug]`): rely on `ResourceRepository` + `ResourceDirectory` with format/topic/time filters; detail pages use the `resource-detail` layout with file metadata and a download CTA.
 2. Affiliate policy (`/zasady-afiliacji`) and accessibility statement (`/deklaracja-dostepnosci`): content lives in `data/copy/affiliate.json` and `data/copy/accessibility.json`; each page includes its own contact card/form snippet.
 3. Offline fallback (`/offline`): client-side `RefreshButton` triggers `window.location.reload`, and the cached-page list pulls from `data/copy/offline.json`.
+   - Service worker cache (`public/sw.js`) must avoid caching non-OK responses (prevents “stuck” broken images) and should not cache `/_next/image` variants.
 4. HTTP status pages (`/410`, `/451`, `/503`): share the `StatusPage` component with copy in `system-status.json`; remember to keep `retryTime` accurate for 503 responses.
 5. Case studies (`/przypadki-uzycia/[slug]`): powered by `CaseStudyRepository` with sections for metrics, stack, and lessons, plus CTAs sourced from `case-studies.json`.
 

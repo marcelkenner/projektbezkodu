@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { TagDirectory } from "@/app/lib/content/tagDirectory";
 import { getCopy } from "@/app/lib/copy";
-import "./tag.module.css";
+import styles from "./tag.module.css";
 
 const copy = getCopy("tags");
 const directory = new TagDirectory();
@@ -19,7 +19,7 @@ export default function TagIndexPage() {
   const tags = directory.list();
 
   return (
-    <section className="tag-page" id="content">
+    <section className={`${styles.scope} tag-page`} id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
         <div className="pbk-readable">
           <div className="tag-page__intro">

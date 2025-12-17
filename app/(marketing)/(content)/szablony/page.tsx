@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
-import "./templates.module.css";
+import styles from "./templates.module.css";
 
 const copy = getCopy("templates");
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function TemplatesPage() {
   return (
-    <section className="templates-page" id="content">
+    <section className={`${styles.scope} templates-page`} id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
         <div className="pbk-readable pbk-readable--start">
           <div className="templates-page__intro">

@@ -6,7 +6,7 @@ import {
   SitemapComposer,
   type SitemapSection,
 } from "@/app/lib/navigation/SitemapComposer";
-import "./sitemap.module.css";
+import styles from "./sitemap.module.css";
 
 type QuickLink = { label: string; href: string };
 
@@ -48,7 +48,7 @@ export default function SitemapPage() {
   const legalLinks = copy.sections?.legal?.links ?? [];
 
   return (
-    <section className="sitemap-page" id="content">
+    <section className={`${styles.scope} sitemap-page`} id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
         <div className="pbk-readable">
           <header className="sitemap-page__intro">

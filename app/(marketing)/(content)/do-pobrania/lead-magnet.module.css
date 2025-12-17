@@ -1,20 +1,20 @@
-:global(.lead-page) {
+.scope:global(.lead-page) {
   padding-block: var(--space-7);
   display: grid;
   gap: var(--space-6);
 }
 
-:global(.lead-page__grid) {
+.scope :global(.lead-page__grid) {
   display: grid;
   gap: var(--space-6);
 }
 
-:global(.lead-page__hero) {
+.scope :global(.lead-page__hero) {
   display: grid;
   gap: var(--space-4);
 }
 
-:global(.lead-page__bullets) {
+.scope :global(.lead-page__bullets) {
   display: grid;
   gap: var(--space-2);
   list-style: none;
@@ -22,26 +22,26 @@
   margin: 0;
 }
 
-:global(.lead-page__bullets li) {
+.scope :global(.lead-page__bullets li) {
   display: flex;
   gap: var(--space-2);
   align-items: flex-start;
 }
 
-:global(.lead-page__bullets li::before) {
+.scope :global(.lead-page__bullets li::before) {
   content: "✓";
   color: var(--color-primary-strong);
   font-weight: var(--typography-fontWeight-semibold);
 }
 
-:global(.lead-page__image) {
+.scope :global(.lead-page__image) {
   width: 100%;
   border-radius: var(--radii-md);
   object-fit: cover;
   box-shadow: var(--shadow-md);
 }
 
-:global(.lead-page__formCard) {
+.scope :global(.lead-page__formCard) {
   border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: var(--radii-lg);
   padding: var(--space-4);
@@ -51,39 +51,39 @@
   box-shadow: var(--shadow-md);
 }
 
-:global(.lead-page__form) {
+.scope :global(.lead-page__form) {
   display: grid;
   gap: var(--space-3);
 }
 
-:global(.lead-page__disclaimer) {
+.scope :global(.lead-page__disclaimer) {
   font-size: var(--typography-fontSize-small);
   color: var(--color-ink-muted);
 }
 
-:global(.lead-page__thankyou) {
+.scope :global(.lead-page__thankyou) {
   display: grid;
   gap: var(--space-4);
 }
 
-:global(.lead-page__next) {
+.scope :global(.lead-page__next) {
   display: grid;
   gap: var(--space-3);
 }
 
-:global(.lead-page__articles) {
+.scope :global(.lead-page__articles) {
   display: grid;
   gap: var(--space-4);
 }
 
 @media (min-width: 56rem) {
-  :global(.lead-page__grid) {
+  .scope :global(.lead-page__grid) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 48rem) {
-  :global(.lead-page__articles) {
+  .scope :global(.lead-page__articles) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

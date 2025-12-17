@@ -16,6 +16,7 @@ export class ContentPageViewModel {
     "article",
     "guide",
     "playbook",
+    "review",
   ]);
 
   constructor(private readonly entry: ContentRouteEntry) {
@@ -40,38 +41,44 @@ export class ContentPageViewModel {
     return this.entry.document.frontmatter.hero?.subheading;
   }
 
-  getHeroImage() {
+  getHeroImage(): { src: string; alt: string; width?: number; height?: number } {
     const { frontmatter } = this.entry.document;
     const heading = this.getHeroHeading();
 
     const heroImage = frontmatter.hero?.image;
+    const heroSrc = typeof heroImage?.src === "string" ? heroImage.src.trim() : "";
     const hasBrokenHero =
       !heroImage ||
-      !heroImage.src ||
-      heroImage.src === "/img/article_image.jpeg" ||
-      heroImage.src.endsWith(".webp.jpeg") ||
-      heroImage.src.endsWith(".webp.webp");
+      !heroSrc ||
+      heroSrc === "/img/article_image.jpeg" ||
+      heroSrc.endsWith(".webp.jpeg") ||
+      heroSrc.endsWith(".webp.webp");
     if (!hasBrokenHero) {
       return {
-        src: heroImage.src,
-        alt: heroImage.alt ?? heading,
+        src: heroSrc,
+        alt: (typeof heroImage.alt === "string" ? heroImage.alt : null) ?? heading,
         width: heroImage.width,
         height: heroImage.height,
       };
     }
 
     const metaImage = frontmatter.meta;
+    const metaSrc =
+      typeof metaImage?.heroImageSrc === "string" ? metaImage.heroImageSrc.trim() : "";
     const hasBrokenMeta =
-      !metaImage?.heroImageSrc ||
-      metaImage.heroImageSrc === "/img/article_image.jpeg" ||
-      metaImage.heroImageSrc.endsWith(".webp.jpeg") ||
-      metaImage.heroImageSrc.endsWith(".webp.webp");
+      !metaSrc ||
+      metaSrc === "/img/article_image.jpeg" ||
+      metaSrc.endsWith(".webp.jpeg") ||
+      metaSrc.endsWith(".webp.webp");
     if (!hasBrokenMeta) {
       return {
-        src: metaImage.heroImageSrc,
-        alt: metaImage.heroImageAlt ?? heading,
-        width: metaImage.heroImageWidth,
-        height: metaImage.heroImageHeight,
+        src: metaSrc,
+        alt:
+          (typeof metaImage?.heroImageAlt === "string"
+            ? metaImage.heroImageAlt
+            : null) ?? heading,
+        width: metaImage?.heroImageWidth,
+        height: metaImage?.heroImageHeight,
       };
     }
 

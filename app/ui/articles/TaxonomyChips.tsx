@@ -54,7 +54,7 @@ function buildHref(entry: TaxonomyEntry, type: "category" | "tag"): string {
     return entry.href;
   }
   if (entry.slug) {
-    const base = type === "category" ? "/kategoria/" : "/tag/";
+    const base = type === "category" ? "/artykuly/" : "/tag/";
     return `${base}${entry.slug}/`;
   }
   return "#";

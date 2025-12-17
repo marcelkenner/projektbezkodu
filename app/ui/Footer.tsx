@@ -81,7 +81,7 @@ function getCategoryLinks(navigation: ArticlesNavigation): FooterLink[] {
   const categoryLinks = articleTaxonomyCatalog.listCategories().map(
     (category) =>
       ({
-        href: `/kategoria/${category.slug}/`,
+        href: `/artykuly/${category.slug}/`,
         label: category.label,
       }) satisfies FooterLink,
   );
@@ -110,7 +110,7 @@ function getFeaturedCategories(navigation: ArticlesNavigation): FooterLink[] {
       }
 
       return {
-        href: category.href ?? `/kategoria/${category.slug}/`,
+        href: category.href ?? `/artykuly/${category.slug}/`,
         label: category.label ?? taxonomyCategory?.label ?? category.slug,
       };
     }) ?? []

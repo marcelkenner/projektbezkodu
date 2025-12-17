@@ -108,7 +108,7 @@ export class SitemapComposer {
   private getCategoryLinks(): SitemapLink[] {
     return articleTaxonomyCatalog.listCategories().map((category) => ({
       label: category.label,
-      href: `/kategoria/${category.slug}/`,
+      href: `/artykuly/${category.slug}/`,
     }));
   }
 

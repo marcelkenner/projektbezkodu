@@ -15,6 +15,7 @@
     "format": "npm run content:narzedzia:hero && npm run content:sections:hero && npm run content:artykuly:paths && prettier --write .",
     "svg:optimize": "npm exec -- svgo --config=brand/logo/svgo.config.json brand/logo/source/*.svg --output=brand/logo",
     "content:lint": "node scripts/validate-content.mjs",
+    "content:hero:check": "node scripts/check-hero-images.mjs",
     "prebuild": "npm run content:format && npm run content:lint"
   },
   "dependencies": {

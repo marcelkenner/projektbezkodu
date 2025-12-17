@@ -1,4 +1,4 @@
-:global(.offline-page) {
+.scope:global(.offline-page) {
   padding-block: var(--space-7);
   display: grid;
   gap: var(--space-5);
@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-:global(.offline-page__icon) {
+.scope :global(.offline-page__icon) {
   width: 4rem;
   height: 4rem;
   border-radius: 999px;
@@ -17,12 +17,12 @@
   color: var(--color-primary-strong);
 }
 
-:global(.offline-page__actions) {
+.scope :global(.offline-page__actions) {
   display: inline-flex;
   gap: var(--space-2);
 }
 
-:global(.offline-page__cached) {
+.scope :global(.offline-page__cached) {
   width: 100%;
   max-width: 32rem;
   background: #fff;
@@ -32,7 +32,7 @@
   gap: var(--space-2);
 }
 
-:global(.offline-page__cached ul) {
+.scope :global(.offline-page__cached ul) {
   list-style: none;
   padding: 0;
   margin: 0;

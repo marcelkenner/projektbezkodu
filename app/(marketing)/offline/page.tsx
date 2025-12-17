@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import { RefreshButton } from "./RefreshButton";
-import "./offline.module.css";
+import styles from "./offline.module.css";
 
 const copy = getCopy("offline");
 
@@ -37,7 +37,10 @@ export default function OfflineFallbackPage() {
   const cachedLinks = viewModel.getCachedLinks();
 
   return (
-    <section className="offline-page section section--surface" id="content">
+    <section
+      className={`${styles.scope} offline-page section section--surface`}
+      id="content"
+    >
       <div className="pbk-container pbk-stack pbk-stack--tight">
         <div className="offline-page__icon" aria-hidden="true">
           <span>📡</span>

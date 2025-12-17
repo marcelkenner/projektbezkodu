@@ -17,15 +17,15 @@
       },
       {
         "label": "SEO",
-        "href": "/kategoria/seo/"
+        "href": "/artykuly/seo/"
       },
       {
         "label": "Wydajność",
-        "href": "/kategoria/wydajnosc/"
+        "href": "/artykuly/seo/wydajnosc/"
       },
       {
         "label": "Automatyzacje",
-        "href": "/kategoria/automation/"
+        "href": "/artykuly/automation/"
       },
       {
         "label": "Szablony",
@@ -95,19 +95,19 @@
     "quickLinks": [
       {
         "label": "Optymalizacja obrazów",
-        "href": "/wydajnosc/obrazy-abc/"
+        "href": "/artykuly/seo/wydajnosc/obrazy-abc/"
       },
       {
         "label": "Budżet wagowy",
-        "href": "/wydajnosc/budzet-wagowy/"
+        "href": "/artykuly/seo/wydajnosc/budzet-wagowy/"
       },
       {
         "label": "Monitoring CWV",
-        "href": "/wydajnosc/cwv-audyt/"
+        "href": "/artykuly/seo/wydajnosc/cwv-audyt/"
       },
       {
         "label": "CDN i cache",
-        "href": "/wydajnosc/antywzorce/"
+        "href": "/artykuly/seo/wydajnosc/antywzorce/"
       }
     ],
     "featuredSlugs": ["strategia-wdrozenia", "seo-no-code", "core-web-vitals"]

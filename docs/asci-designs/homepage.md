@@ -38,7 +38,7 @@
 │ └────────────────────────────────────────────────────────────────────────┘ │
 │ │
 │ ┌ SOCIAL PROOF (py:s6) ──────────────────────────────────────────────────┐ │
-│ │ container; text:"Zaufali nam:" │ │
+│ │ container; text:"Buduj z:" │ │
 │ │ LOGO LIST (gap:s5; wrap): │ │
 │ │ • <img alt="Logo [Nazwa 1]" width="120" height="48" loading="lazy"> │ │
 │ │ • <img alt="Logo [Nazwa 2]" …> … 5–6 logotypów │ │

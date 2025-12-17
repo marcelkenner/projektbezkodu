@@ -11,7 +11,7 @@ import {
   ArticleSharePanel,
 } from "@/app/ui";
 import { LeadMagnetCatalog } from "@/app/lib/content/leadMagnetCatalog";
-import "./../lead-magnet.module.css";
+import styles from "./../lead-magnet.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 
 const catalog = new LeadMagnetCatalog();
@@ -67,7 +67,7 @@ export default async function LeadMagnetPage({
   const ctaGroup = leadMagnet.cta;
 
   return (
-    <section className="lead-page" id="content">
+    <section className={`${styles.scope} lead-page`} id="content">
       <div className="pbk-container lead-page__grid">
         <div className="lead-page__hero">
           <header className="pbk-stack pbk-stack--tight">

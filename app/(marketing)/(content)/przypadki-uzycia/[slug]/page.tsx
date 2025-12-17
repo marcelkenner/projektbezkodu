@@ -16,7 +16,7 @@ import {
   CaseStudyRepository,
   type MarkdownDocument,
 } from "@/app/lib/content/repositories";
-import "./case-study.module.css";
+import styles from "./case-study.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
 
@@ -84,7 +84,10 @@ export default async function CaseStudyPage({
     })) ?? [];
 
   return (
-    <section className="case-study section section--surface" id="content">
+    <section
+      className={`${styles.scope} case-study section section--surface`}
+      id="content"
+    >
       <div className="pbk-container case-study__layout">
         <header className="case-study__header pbk-stack">
           <nav

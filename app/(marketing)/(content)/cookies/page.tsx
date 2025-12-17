@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getCopy } from "@/app/lib/copy";
 import { CookiePreferencesForm } from "./CookiePreferencesForm";
-import "./cookies.module.css";
+import styles from "./cookies.module.css";
 
 const copy = getCopy("cookies");
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function CookiesSettingsPage() {
   return (
-    <section className="cookies-page" id="content">
+    <section className={`${styles.scope} cookies-page`} id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight pbk-readable">
         <header className="cookies-page__intro">
           <h1>{copy.hero.title}</h1>

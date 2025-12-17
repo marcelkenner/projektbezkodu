@@ -86,18 +86,68 @@ class ArtykulyPathFixer {
     const segments = parsed.dir
       ? parsed.dir.split(path.sep).filter(Boolean)
       : [];
-    const slug =
+    const fallbackSlug =
       parsed.name === "index" ? (segments.at(-1) ?? "artykul") : parsed.name;
-    const derivedPath = `/${["artykuly", ...segments].join("/")}/`;
+    const isCategoryIndex = parsed.name === "index" && segments.length === 1;
+    const legacyCategoryPath = `/${["artykuly", ...segments].join("/")}/`;
+    const normalizedLegacyPath = normalizePath(legacyCategoryPath);
+    const template = typeof next.template === "string" ? next.template : "";
+    const isHubIndex =
+      parsed.name === "index" && template !== "article" && template !== "legal";
 
-    next.slug = next.slug || slug;
-    next.path = derivedPath;
+    next.slug = next.slug || fallbackSlug;
 
     if (!next.title) {
-      next.title = this.formatTitleFromSlug(slug);
+      next.title = this.formatTitleFromSlug(next.slug);
+    }
+
+    const normalizedExistingPath = normalizePath(next.path);
+    const hubPath = normalizePath(legacyCategoryPath);
+    const shouldRepairLegacyPath =
+      parsed.name !== "index" &&
+      normalizedExistingPath &&
+      normalizedExistingPath === normalizedLegacyPath;
+
+    if (isHubIndex && (!normalizedExistingPath || normalizedExistingPath !== hubPath)) {
+      next.path = hubPath;
+      return next;
+    }
+
+    if (!normalizedExistingPath || shouldRepairLegacyPath) {
+      next.path = this.derivePath({
+        isIndex: parsed.name === "index",
+        isCategoryIndex,
+        segments,
+        title: next.title,
+        fileSlug: fallbackSlug,
+      });
     }
 
     return next;
+  }
+
+  derivePath({ isIndex, isCategoryIndex, segments, title, fileSlug }) {
+    const safeSegments = Array.isArray(segments) ? segments.filter(Boolean) : [];
+    const wrapped = (value) => (value.endsWith("/") ? value : `${value}/`);
+
+    if (isCategoryIndex) {
+      return wrapped(`/${["artykuly", ...safeSegments].join("/")}/`);
+    }
+
+    const titleSlug = slugify(title);
+    const fallback = slugify(fileSlug);
+    if (!titleSlug) {
+      return wrapped(`/${["artykuly", ...safeSegments].join("/")}/`);
+    }
+
+    const last = safeSegments.at(-1);
+    const leafSlug = last && titleSlug === last && fallback
+      ? `${titleSlug}-${fallback}`
+      : titleSlug;
+    const nextSegments = isIndex
+      ? [...safeSegments.slice(0, -1), leafSlug]
+      : [...safeSegments, leafSlug];
+    return wrapped(`/${["artykuly", ...nextSegments].join("/")}/`);
   }
 
   formatTitleFromSlug(value) {
@@ -137,3 +187,28 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
+function slugify(value) {
+  if (typeof value !== "string") {
+    return "";
+  }
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function normalizePath(value) {
+  if (typeof value !== "string") {
+    return "";
+  }
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return "";
+  }
+  const withoutDomain = trimmed.replace(/^https?:\/\/[^/]+/i, "");
+  const withLeading = withoutDomain.startsWith("/") ? withoutDomain : `/${withoutDomain}`;
+  return withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
+}

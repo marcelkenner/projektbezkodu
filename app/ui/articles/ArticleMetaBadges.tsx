@@ -122,7 +122,7 @@ function resolveCategoryHref(category: MetaCategory): string | undefined {
     return category.href;
   }
   if (category.slug) {
-    return `/kategoria/${category.slug}/`;
+    return `/artykuly/${category.slug}/`;
   }
   return undefined;
 }

@@ -22,7 +22,7 @@ import type { MarkdownDocument } from "@/app/lib/content/repositories";
 import { ResourceStructuredDataBuilder } from "@/app/lib/seo/ResourceStructuredDataBuilder";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
-import "./resource-detail.module.css";
+import styles from "./resource-detail.module.css";
 
 const copy = getCopy("resources");
 const repository = new ResourceRepository();
@@ -126,7 +126,10 @@ export default async function ResourceDetailPage({
   });
 
   return (
-    <section className="resource-detail section section--surface" id="content">
+    <section
+      className={`${styles.scope} resource-detail section section--surface`}
+      id="content"
+    >
       <StructuredDataScript
         id="resource-structured-data"
         data={structuredData}

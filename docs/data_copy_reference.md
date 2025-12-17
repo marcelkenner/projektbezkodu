@@ -46,10 +46,10 @@ Each entry lists:
 
 ### `category-hubs.json`
 
-- **Purpose**: Configures `/kategoria/[slug]` hub pages (hero, quick links, featured cards, downloads).
+- **Purpose**: Legacy pillar hub configuration (was used by `/kategoria/[slug]`).
 - **Key Fields**: `default` plus one entry per category slug (e.g., `strategia`), each matching `CategoryHubConfig`.
-- **Primary Consumers**: `app/(marketing)/(content)/kategoria/[slug]/page.tsx`.
-- **Notes**: `default` provides fallbacks; only override the fields that differ per category.
+- **Primary Consumers**: None (as of the `/artykuly/**` hub rollout). `/kategoria/[slug]` now redirects to `/artykuly/<slug>/`.
+- **Notes**: Keep for reference (copy patterns / future pillar layouts). Prefer category hubs under `content/artykuly/**/index.md`.
 
 ### `comparisons.json`
 

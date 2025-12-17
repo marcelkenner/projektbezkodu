@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getCopy } from "@/app/lib/copy";
-import "./affiliate.module.css";
+import styles from "./affiliate.module.css";
 
 const copy = getCopy("affiliate");
 
@@ -34,7 +34,10 @@ export default function AffiliatePolicyPage() {
   const viewModel = new AffiliateViewModel();
 
   return (
-    <section className="affiliate-page section section--surface" id="content">
+    <section
+      className={`${styles.scope} affiliate-page section section--surface`}
+      id="content"
+    >
       <div className="pbk-container pbk-stack">
         <div className="pbk-readable">
           <header className="affiliate-page__hero pbk-stack pbk-stack--tight">

@@ -48,12 +48,12 @@ Document template-specific content in the `content/` directory using frontmatter
 - Box autora z awatarem, bio i gridem powiązanych artykułów.
 - Nawigacja poprzedni/następny artykuł z rel="prev/next".
 
-## Kategoria (pillar hub)
+## Hub artykułów (kategoria / podkategoria)
 
-- Hubs korzystają z konfiguracji `data/copy/category-hubs.json`.
-- Skróty w formie `nav[aria-label="Skróty"]`, karty wyróżnionych treści + sekcja download CTA.
-- Lista wszystkich artykułów w kategorii, każda pozycja z ikoną i czasem czytania.
-- JSON-LD: CollectionPage + ItemList w `app/(marketing)/(content)/kategoria/[slug]/page.tsx`.
+- Huby są wykrywane z katalogów `content/artykuly/**` (wymagany `index.md`, `template` ≠ `article|legal`).
+- UI renderuje **tylko** listy: linki do podkategorii + `ArticleGrid` artykułów pod danym prefiksem (bez renderowania markdown body).
+- Ścieżki: `/artykuly/<kategoria>/` i `/artykuly/<kategoria>/<podkategoria>/` (oraz głębiej, jeśli foldery istnieją).
+- `/kategoria/<slug>/` to legacy redirect do odpowiadającego huba.
 
 ## Legal pages
 

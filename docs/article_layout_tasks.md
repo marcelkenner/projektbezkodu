@@ -82,7 +82,7 @@ Action: treat every enhancement as opt-in until content is updated. Update the e
    - Include an optional helper text slot for template-specific notes (e.g., downloads).
 
 7. **Taxonomy chips**
-   - Add a chip list component for categories and tags linking to `/kategoria/[slug]/` and `/tag/[slug]/`.
+   - Add a chip list component for categories and tags linking to `/artykuly/[slug]/` and `/tag/[slug]/`.
    - Use `TextNormalizer.slugify` to derive slugs when they are missing from taxonomy entries.
 
 ### B Progress (2025-11-17)

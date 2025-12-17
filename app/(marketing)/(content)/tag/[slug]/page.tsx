@@ -6,7 +6,7 @@ import { TagDirectory } from "@/app/lib/content/tagDirectory";
 import { getCopy } from "@/app/lib/copy";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
-import "./../tag.module.css";
+import styles from "./../tag.module.css";
 
 const tagDirectory = new TagDirectory();
 const articlesCopy = getCopy("articles");
@@ -48,7 +48,7 @@ export default async function TagPage({
   const articles = tagDirectory.listArticles(resolvedParams.slug);
 
   return (
-    <section className="tag-page" id="content">
+    <section className={`${styles.scope} tag-page`} id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
         <div className="tag-page__intro">
           <h1>Tag: {tag.label}</h1>
