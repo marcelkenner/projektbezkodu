@@ -35,40 +35,40 @@ meta:
     - kreatory stron www
     - no-code
     - AI w marketingu
-summaryBullets:
-  - Framer to wizualny kreator stron www z AI, CMS i hostingiem w jednym.
-  - >-
-    Świetnie sprawdza się przy landingach, prostych stronach firmowych i
-    portfolio.
-  - Przy rozbudowanych serwisach i e-commerce lepiej rozważyć alternatywy.
-metrics:
-  - label: Realny próg wejścia
-    value: ok. 10 USD/mies.
-    description: >-
-      Plan Basic po podpięciu własnej domeny, reszta pracy może odbywać się na
-      darmowym planie.
-  - label: Czas do pierwszego sensownego landinga
-    value: 1–2 godziny
-    description: >-
-      Zakładając użycie gotowego szablonu Framera i podstawowe dostosowanie
-      treści.
-review:
-  productName: Framer
-  productUrl: https://www.framer.com/
-  ratingValue: 4.3
-  bestRating: 5
-  worstRating: 1
-  body: >-
-    Nowoczesny kreator stron z AI – świetny dla landingów i mniejszych
-    projektów, mniej wygodny przy dużych serwisach i rozbudowanym e-commerce.
-pros:
-  - Bardzo szybkie stawianie nowoczesnych stron i landingów bez kodu.
-  - Wbudowany hosting, CMS, SEO i analityka – mniej „klocków” do pilnowania.
-  - Silne funkcje AI do generowania układów, treści i tłumaczeń.
-cons:
-  - Ograniczenia przy dużych serwisach treściowych i e-commerce.
-  - Model cenowy w USD – koszt zależny od kursu i podatków.
-  - Mniejszy ekosystem pluginów niż w WordPressie.
+  summaryBullets:
+    - Framer to wizualny kreator stron www z AI, CMS i hostingiem w jednym.
+    - >-
+      Świetnie sprawdza się przy landingach, prostych stronach firmowych i
+      portfolio.
+    - Przy rozbudowanych serwisach i e-commerce lepiej rozważyć alternatywy.
+  metrics:
+    - label: Realny próg wejścia
+      value: ok. 10 USD/mies.
+      description: >-
+        Plan Basic po podpięciu własnej domeny, reszta pracy może odbywać się na
+        darmowym planie.
+    - label: Czas do pierwszego sensownego landinga
+      value: 1–2 godziny
+      description: >-
+        Zakładając użycie gotowego szablonu Framera i podstawowe dostosowanie
+        treści.
+  review:
+    productName: Framer
+    productUrl: https://www.framer.com/
+    ratingValue: 4.3
+    bestRating: 5
+    worstRating: 1
+    body: >-
+      Nowoczesny kreator stron z AI – świetny dla landingów i mniejszych
+      projektów, mniej wygodny przy dużych serwisach i rozbudowanym e-commerce.
+    pros:
+      - Bardzo szybkie stawianie nowoczesnych stron i landingów bez kodu.
+      - Wbudowany hosting, CMS, SEO i analityka – mniej „klocków” do pilnowania.
+      - Silne funkcje AI do generowania układów, treści i tłumaczeń.
+    cons:
+      - Ograniczenia przy dużych serwisach treściowych i e-commerce.
+      - Model cenowy w USD – koszt zależny od kursu i podatków.
+      - Mniejszy ekosystem pluginów niż w WordPressie.
 taxonomy:
   categories:
     - Narzędzia

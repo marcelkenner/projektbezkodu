@@ -36,26 +36,26 @@ meta:
     - AI w marketingu
     - landing page
     - kreatory stron www
-summaryBullets:
-  - Framer AI potrafi wygenerować cały landing na podstawie krótkiego promptu.
-  - >-
-    To świetne narzędzie do szybkich testów, kampanii i MVP – nie do
-    wszystkiego.
-  - Klucz do sukcesu to dobry brief, sensowny prompt i ręczne dopracowanie copy.
-metrics:
-  - label: Czas do pierwszego draftu landinga
-    value: 2–5 minut
-    description: >-
-      Wygenerowany przez Framer AI układ strony z przykładową treścią, gotowy do
-      edycji.
-  - label: Czas do wersji „można puszczać kampanię”
-    value: 30–60 minut
-    description: >-
-      Przy sensownym promptcie i gotowych materiałach (USP, referencje,
-      grafiki).
-  - label: Najlepsze zastosowanie
-    value: testy kampanii i MVP
-    description: Szybkie stawianie stron pod reklamy i nowe warianty ofert.
+  summaryBullets:
+    - Framer AI potrafi wygenerować cały landing na podstawie krótkiego promptu.
+    - >-
+      To świetne narzędzie do szybkich testów, kampanii i MVP – nie do
+      wszystkiego.
+    - Klucz do sukcesu to dobry brief, sensowny prompt i ręczne dopracowanie copy.
+  metrics:
+    - label: Czas do pierwszego draftu landinga
+      value: 2–5 minut
+      description: >-
+        Wygenerowany przez Framer AI układ strony z przykładową treścią, gotowy do
+        edycji.
+    - label: Czas do wersji „można puszczać kampanię”
+      value: 30–60 minut
+      description: >-
+        Przy sensownym promptcie i gotowych materiałach (USP, referencje,
+        grafiki).
+    - label: Najlepsze zastosowanie
+      value: testy kampanii i MVP
+      description: Szybkie stawianie stron pod reklamy i nowe warianty ofert.
 taxonomy:
   categories:
     - Narzędzia
