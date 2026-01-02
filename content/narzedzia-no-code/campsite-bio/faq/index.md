@@ -1,32 +1,64 @@
 ---
-title: "Campsite.bio – FAQ"
+title: Campsite.bio – FAQ
 slug: faq
 path: /narzedzia/campsite-bio/faq/
 template: default
 type: tool-faq
 seo:
-  title: "Campsite.bio – FAQ: ceny, domena, analityka, UTM, integracje i monetyzacja"
-  description: "Najczęstsze pytania o Campsite.bio (PL): czy jest darmowe, ile kosztuje Pro/Pro+, jak działa analityka, domena, UTM, GTM/GA4, piksele, Shopify, opt-in i płatności."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/faq/"
+  title: 'Campsite.bio – FAQ: ceny, domena, analityka, UTM, integracje i monetyzacja'
+  description: >-
+    Najczęstsze pytania o Campsite.bio (PL): czy jest darmowe, ile kosztuje
+    Pro/Pro+, jak działa analityka, domena, UTM, GTM/GA4, piksele, Shopify,
+    opt-in i płatności.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/faq/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["FAQ", "cennik", "analityka", "UTM", "GTM", "GA4", "domena", "Shopify", "opt-in", "PayPal", "link w bio"]
-  tools: ["Social media", "Analityka", "Tracking", "E-mail marketing", "E-commerce"]
+  updatedAt: '2026-01-02'
+  topics:
+    - FAQ
+    - cennik
+    - analityka
+    - UTM
+    - GTM
+    - GA4
+    - domena
+    - Shopify
+    - opt-in
+    - PayPal
+    - link w bio
+  tools:
+    - Social media
+    - Analityka
+    - Tracking
+    - E-mail marketing
+    - E-commerce
   summaryBullets:
-    - "Free wystarczy do prostego bio, ale do trackingu i domeny realnie potrzebujesz Pro."
-    - "Analityka ma retencję zależną od planu: Free 28 dni, Pro 120 dni, Pro+ lifetime."
-    - "Monetyzacja w Campsite działa przez PayPal/Venmo (Request i Tip Jar), a Shopify działa jako kanał sprzedaży z checkoutem po stronie Shopify."
+    - >-
+      Free wystarczy do prostego bio, ale do trackingu i domeny realnie
+      potrzebujesz Pro.
+    - >-
+      Analityka ma retencję zależną od planu: Free 28 dni, Pro 120 dni, Pro+
+      lifetime.
+    - >-
+      Monetyzacja w Campsite działa przez PayPal/Venmo (Request i Tip Jar), a
+      Shopify działa jako kanał sprzedaży z checkoutem po stronie Shopify.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Sprawdź aktualny cennik Campsite.bio"
-    href: "https://campsite.bio/pricing"
+    label: Sprawdź aktualny cennik Campsite.bio
+    href: https://campsite.bio/pricing
   secondaryCta:
-    label: "Przeczytaj recenzję Campsite.bio"
-    href: "/narzedzia/campsite-bio/recenzja/"
+    label: Przeczytaj recenzję Campsite.bio
+    href: /narzedzia/campsite-bio/recenzja/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["FAQ", "link w bio", "analityka", "UTM", "GTM", "Shopify"]
+  categories:
+    - Narzędzia
+  tags:
+    - FAQ
+    - link w bio
+    - analityka
+    - UTM
+    - GTM
+    - Shopify
 ---
 
 # Campsite.bio – FAQ dla osób, które chcą decyzji, nie kolejnej listy funkcji

@@ -1,32 +1,69 @@
 ---
-title: "Campsite.bio – integracje"
+title: Campsite.bio – integracje
 slug: integracje
 path: /narzedzia/campsite-bio/integracje/
 template: default
 type: tool-integrations
 seo:
-  title: "Integracje Campsite.bio: GA, GTM, piksele, newsletter i Shopify – co działa najlepiej"
-  description: "Campsite.bio ma sensowne integracje do trackingu (GA, GTM, Google Ads, Meta, TikTok, Pinterest) i zbierania leadów (Opt-in + Mailchimp/Klaviyo/ActiveCampaign itd.). Prosty werdykt, gotowe scenariusze i szybki setup."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/integracje/"
+  title: >-
+    Integracje Campsite.bio: GA, GTM, piksele, newsletter i Shopify – co działa
+    najlepiej
+  description: >-
+    Campsite.bio ma sensowne integracje do trackingu (GA, GTM, Google Ads, Meta,
+    TikTok, Pinterest) i zbierania leadów (Opt-in +
+    Mailchimp/Klaviyo/ActiveCampaign itd.). Prosty werdykt, gotowe scenariusze i
+    szybki setup.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/integracje/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["integracje", "Google Analytics", "Google Tag Manager", "Facebook Pixel", "TikTok Pixel", "Pinterest Tag", "Google Ads", "Mailchimp", "Klaviyo", "ActiveCampaign", "Shopify", "Zapier", "Google Sheets"]
-  tools: ["Analityka", "Tracking", "E-mail marketing", "E-commerce", "Automatyzacje"]
+  updatedAt: '2026-01-02'
+  topics:
+    - integracje
+    - Google Analytics
+    - Google Tag Manager
+    - Facebook Pixel
+    - TikTok Pixel
+    - Pinterest Tag
+    - Google Ads
+    - Mailchimp
+    - Klaviyo
+    - ActiveCampaign
+    - Shopify
+    - Zapier
+    - Google Sheets
+  tools:
+    - Analityka
+    - Tracking
+    - E-mail marketing
+    - E-commerce
+    - Automatyzacje
   summaryBullets:
-    - "Jeśli chcesz mierzyć social jak człowiek: Pro daje GA, GTM i piksele (Meta/TikTok/Pinterest/Google Ads)."
-    - "Jeśli zbierasz leady z bio: Opt-in form (Pro) działa z popularnymi platformami + Google Sheets i Zapier webhook."
-    - "Jeśli sprzedajesz na Shopify: możesz podpiąć sklep jako kanał sprzedaży i pokazać produkty, ale checkout i sprzedaż zostają w Shopify."
+    - >-
+      Jeśli chcesz mierzyć social jak człowiek: Pro daje GA, GTM i piksele
+      (Meta/TikTok/Pinterest/Google Ads).
+    - >-
+      Jeśli zbierasz leady z bio: Opt-in form (Pro) działa z popularnymi
+      platformami + Google Sheets i Zapier webhook.
+    - >-
+      Jeśli sprzedajesz na Shopify: możesz podpiąć sklep jako kanał sprzedaży i
+      pokazać produkty, ale checkout i sprzedaż zostają w Shopify.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Zobacz funkcje planów (integracje)"
-    href: "https://support.campsite.bio/en/articles/7922505-plan-features"
+    label: Zobacz funkcje planów (integracje)
+    href: https://support.campsite.bio/en/articles/7922505-plan-features
   secondaryCta:
-    label: "Sprawdź cennik Campsite.bio"
-    href: "https://campsite.bio/pricing"
+    label: Sprawdź cennik Campsite.bio
+    href: https://campsite.bio/pricing
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["integracje", "tracking", "newsletter", "shopify", "GTM", "GA4"]
+  categories:
+    - Narzędzia
+  tags:
+    - integracje
+    - tracking
+    - newsletter
+    - shopify
+    - GTM
+    - GA4
 ---
 
 # Integracje w Campsite.bio – werdykt bez udawania

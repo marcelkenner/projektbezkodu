@@ -1,17 +1,24 @@
 ---
-title: FAQ: Bubble
+title: 'FAQ: Bubble'
 slug: bubble-faq
 path: /narzedzia/bubble/faq/
 template: default
 type: faq
 hero:
-  heading: Bubble FAQ: odpowiedzi, które decydują o zakupie
-  subheading: Jeśli rozważasz Bubble do MVP, SaaS albo narzędzia wewnętrznego, tu masz najczęstsze pytania — bez lania wody i bez „to zależy” bez sensu.
+  heading: 'Bubble FAQ: odpowiedzi, które decydują o zakupie'
+  subheading: >-
+    Jeśli rozważasz Bubble do MVP, SaaS albo narzędzia wewnętrznego, tu masz
+    najczęstsze pytania — bez lania wody i bez „to zależy” bez sensu.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź cennik
 seo:
-  title: Bubble FAQ (2026): workload, cennik, domena, RODO, limity i przenoszenie danych
-  description: Najczęstsze pytania o Bubble: jak działa workload i overages, co się stanie po przekroczeniu limitu, jak ustawić domenę i SSL, jak wygląda RODO, eksport danych, limity API i czy da się wyeksportować kod.
+  title: >-
+    Bubble FAQ (2026): workload, cennik, domena, RODO, limity i przenoszenie
+    danych
+  description: >-
+    Najczęstsze pytania o Bubble: jak działa workload i overages, co się stanie
+    po przekroczeniu limitu, jak ustawić domenę i SSL, jak wygląda RODO, eksport
+    danych, limity API i czy da się wyeksportować kod.
   keywords:
     - bubble faq
     - bubble workload
@@ -20,10 +27,18 @@ seo:
     - bubble rodo gdpr
     - bubble eksport danych
 meta:
-  tools: ["Bubble"]
+  tools:
+    - Bubble
   format: faq
-  topics: ["no-code", "workload", "cennik", "bezpieczeństwo", "rodo", "integracje", "skalowanie"]
-  updatedAt: "2026-01-02"
+  topics:
+    - no-code
+    - workload
+    - cennik
+    - bezpieczeństwo
+    - rodo
+    - integracje
+    - skalowanie
+  updatedAt: '2026-01-02'
   primaryCta:
     label: Recenzja Bubble
     href: /narzedzia/bubble/recenzja/
@@ -31,8 +46,14 @@ meta:
     label: Cennik Bubble
     href: /narzedzia/bubble/cennik/
 taxonomy:
-  categories: ["No-code", "Narzędzia"]
-  tags: ["Bubble", "FAQ", "Workload", "RODO"]
+  categories:
+    - No-code
+    - Narzędzia
+  tags:
+    - Bubble
+    - FAQ
+    - Workload
+    - RODO
 ---
 
 Jeśli podejmujesz decyzję o Bubble, większość ryzyka nie siedzi w „funkcjach”, tylko w trzech tematach: koszcie workload, bezpieczeństwie danych i lock-in. Poniżej masz odpowiedzi, które realnie zmieniają wybór narzędzia.

@@ -1,32 +1,60 @@
 ---
-title: "Campsite.bio – SEO i ustawienia pod wyszukiwarki"
+title: Campsite.bio – SEO i ustawienia pod wyszukiwarki
 slug: seo
 path: /narzedzia/campsite-bio/seo/
 template: default
 type: tool-seo
 seo:
-  title: "Campsite.bio a SEO: co da się realnie ustawić, a co jest stratą czasu"
-  description: "Campsite.bio nie jest narzędziem do budowania SEO jak strona firmowa. Ale możesz poprawić widoczność snippetu i udostępnień: meta title/description, Open Graph, favicon, własna domena i UTM."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/seo/"
+  title: 'Campsite.bio a SEO: co da się realnie ustawić, a co jest stratą czasu'
+  description: >-
+    Campsite.bio nie jest narzędziem do budowania SEO jak strona firmowa. Ale
+    możesz poprawić widoczność snippetu i udostępnień: meta title/description,
+    Open Graph, favicon, własna domena i UTM.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/seo/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["SEO", "meta title", "meta description", "open graph", "favicon", "UTM", "Google Tag Manager", "link w bio"]
-  tools: ["SEO", "Social media", "Analityka", "Tracking"]
+  updatedAt: '2026-01-02'
+  topics:
+    - SEO
+    - meta title
+    - meta description
+    - open graph
+    - favicon
+    - UTM
+    - Google Tag Manager
+    - link w bio
+  tools:
+    - SEO
+    - Social media
+    - Analityka
+    - Tracking
   summaryBullets:
-    - "Jeśli Twoim celem jest SEO z Google, Campsite.bio nie powinno być Twoją główną stroną."
-    - "W planie Pro ustawisz meta tagi (title/description/OG/fav) i własną domenę, co poprawia wygląd w wyszukiwarce i przy udostępnianiu."
-    - "UTM i GTM/GA to najprostszy sposób, żeby przestać zgadywać, co działa w bio."
+    - >-
+      Jeśli Twoim celem jest SEO z Google, Campsite.bio nie powinno być Twoją
+      główną stroną.
+    - >-
+      W planie Pro ustawisz meta tagi (title/description/OG/fav) i własną
+      domenę, co poprawia wygląd w wyszukiwarce i przy udostępnianiu.
+    - >-
+      UTM i GTM/GA to najprostszy sposób, żeby przestać zgadywać, co działa w
+      bio.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Ustaw meta tagi w Campsite.bio (Pro)"
-    href: "https://support.campsite.bio/en/articles/6827676-setting-up-custom-meta-tags"
+    label: Ustaw meta tagi w Campsite.bio (Pro)
+    href: >-
+      https://support.campsite.bio/en/articles/6827676-setting-up-custom-meta-tags
   secondaryCta:
-    label: "Wróć do recenzji"
-    href: "/narzedzia/campsite-bio/recenzja/"
+    label: Wróć do recenzji
+    href: /narzedzia/campsite-bio/recenzja/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["SEO", "link w bio", "Open Graph", "UTM", "GTM"]
+  categories:
+    - Narzędzia
+  tags:
+    - SEO
+    - link w bio
+    - Open Graph
+    - UTM
+    - GTM
 ---
 
 # Campsite.bio i SEO – uczciwy werdykt

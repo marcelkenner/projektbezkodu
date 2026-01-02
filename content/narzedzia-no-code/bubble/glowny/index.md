@@ -5,13 +5,20 @@ path: /narzedzia/bubble/
 template: default
 type: narzedzie
 hero:
-  heading: Bubble: no-code do aplikacji, które naprawdę działają
-  subheading: Dla founderów, marketerów i małych zespołów, które chcą wypuścić MVP albo narzędzie wewnętrzne bez proszenia dev teamu o „jeszcze 3 sprinty”.
+  heading: 'Bubble: no-code do aplikacji, które naprawdę działają'
+  subheading: >-
+    Dla founderów, marketerów i małych zespołów, które chcą wypuścić MVP albo
+    narzędzie wewnętrzne bez proszenia dev teamu o „jeszcze 3 sprinty”.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź cennik
 seo:
-  title: Bubble – no-code do budowy aplikacji web i (coraz częściej) mobile | Przewodnik
-  description: Bubble to full-stack no-code do budowy aplikacji z bazą danych, logiką i hostingiem. Sprawdź, dla kogo ma sens, jak zacząć i kiedy lepiej wybrać alternatywę.
+  title: >-
+    Bubble – no-code do budowy aplikacji web i (coraz częściej) mobile |
+    Przewodnik
+  description: >-
+    Bubble to full-stack no-code do budowy aplikacji z bazą danych, logiką i
+    hostingiem. Sprawdź, dla kogo ma sens, jak zacząć i kiedy lepiej wybrać
+    alternatywę.
   keywords:
     - bubble
     - bubble io
@@ -21,9 +28,15 @@ seo:
     - marketplace
     - saas
 meta:
-  tools: ["Bubble"]
+  tools:
+    - Bubble
   format: przewodnik
-  topics: ["no-code", "mvp", "aplikacje web", "automatyzacje", "saas"]
+  topics:
+    - no-code
+    - mvp
+    - aplikacje web
+    - automatyzacje
+    - saas
   primaryCta:
     label: Recenzja Bubble
     href: /narzedzia/bubble/recenzja/
@@ -31,8 +44,13 @@ meta:
     label: Cennik Bubble
     href: /narzedzia/bubble/cennik/
 taxonomy:
-  categories: ["No-code", "Narzędzia"]
-  tags: ["Bubble", "Aplikacje web", "MVP"]
+  categories:
+    - No-code
+    - Narzędzia
+  tags:
+    - Bubble
+    - Aplikacje web
+    - MVP
 ---
 
 Jeśli jesteś founderem bez zespołu dev, marketerem, productem albo prowadzisz małą agencję, Bubble jest jednym z najsensowniejszych sposobów na zbudowanie prawdziwej aplikacji webowej bez kodu. Nie landing page, nie „klikany prototyp” — tylko produkt z użytkownikami, bazą danych i logiką. To narzędzie ma charakter: potrafi przyspieszyć start o miesiące, ale też bezlitośnie obnaża chaos w wymaganiach.

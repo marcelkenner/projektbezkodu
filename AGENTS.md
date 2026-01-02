@@ -3,15 +3,16 @@
 If you want to run commands, please include source ~/.nvm/nvm.sh && in front first.
 always use context7 mcp for newest technology information
 always use serena mcp for better understanding of the project structure and files
-always use docs folder for the project information
+always update docs and readmes
+always write tests
+all tests must pass first before you are finished
 all pages must be mobile-first approach
-always update `docs/website_repro_playbook.md` whenever processes change
 use the shared `app/ui/articles/ArticleCard` + `ArticleGrid` for all listings (homepage, artykuly, poradniki, porownania, narzedzia, tag/author/thank-you) instead of per-page cards
 normalize any malformed `/_next` asset paths; middleware/rewrite rules already collapse double slashes and duplicated `_next` segments—keep new rewrites consistent with that
 don't assume things but instead research and check twice
 
 <file_length_and_structure>
-– Never allow a file to exceed 300 lines.
+– Never allow a file to exceed 500 lines.
 – If a file approaches 400 lines, break it up immediately.
 – Treat 1000 lines as unacceptable, even temporarily.
 – Use folders and naming conventions to keep small files logically grouped.
@@ -69,23 +70,8 @@ don't assume things but instead research and check twice
 – Regenerate and commit the schema whenever serializers or viewsets change; share diffs for review before coding.
 </spec_driven_development>
 
-<reference_architecture>
-– Backend: Django + optional Wagtail authoring UI, exposing read-only content via DRF.
-– Frontend: Next.js App Router with Tailwind v4, using SSG/ISR plus Draft Mode for previews.
-– Metadata & SEO: Maintain OG/Twitter assets, XML sitemap, robots.txt, and Product/Review structured data with FTC-compliant disclosures and rel="sponsored" on affiliate links.
-</reference_architecture>
-
-<environment_setup>
-– Only a production configuration exists: source variables from `.env.production` for the backend and copy it to `.env.local` for the frontend.
-– Bring up infra parity locally via `docker compose -f infra/docker-compose.yml up -d` (Postgres, Redis, MinIO).
-– Never hardcode secrets; update `.env.production` (uncommitted) when onboarding.
-– Local development sets `SECURE_SSL_REDIRECT=false` (and related cookie flags) to avoid HTTPS redirects; flip them back to `true` when preparing staging/production environments.
-</environment_setup>
-
 <workflow_expectations>
 – Backend business logic belongs in Manager classes; views coordinate and serializers define contracts.
 – Frontend state belongs in ViewModels, orchestration in Coordinators, and rendering in components.
-– Keep files under 300 lines and refactor classes over 200 lines; break functions exceeding 40 lines.
-
-- When an icon is needed in React/Next components, default to `@phosphor-icons/react` (SSR bundle) to stay consistent with the design system. Add missing icons to the copy/components rather than using ad-hoc SVGs.
-  </workflow_expectations>
+– Keep files under 500 lines and refactor classes over 200 lines; break functions exceeding 40 lines.
+</workflow_expectations>

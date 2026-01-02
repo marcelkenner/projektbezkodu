@@ -1,73 +1,82 @@
 ---
-title: "Statyczny hosting + CDN na bunny.net: najszybsza droga do globalnie szybkiej strony bez serwera"
-slug: "statyczny-hosting-cdn"
-path: "/narzedzia/bunny-net/statyczny-hosting-cdn/"
+title: >-
+  Statyczny hosting + CDN na bunny.net: najszybsza droga do globalnie szybkiej
+  strony bez serwera
+slug: statyczny-hosting-cdn
+path: /narzedzia/bunny-net/statyczny-hosting-cdn/
 draft: false
-template: "default"
-type: "poradnik"
-date: "2026-01-02"
+template: default
+type: poradnik
+date: '2026-01-02'
 hero:
-  heading: "Statyczny hosting + CDN na bunny.net"
-  subheading: "Masz stronę statyczną (Hugo, Astro, Next.js export, Vite)? bunny.net pozwala ją hostować i serwować z CDN w modelu „wrzuć pliki i działa” — bez serwera, bez platformowych sztuczek."
-  primaryCta: "Przetestuj bunny.net"
-  secondaryCta: "Zobacz recenzję Bunny.net"
+  heading: Statyczny hosting + CDN na bunny.net
+  subheading: >-
+    Masz stronę statyczną (Hugo, Astro, Next.js export, Vite)? bunny.net pozwala
+    ją hostować i serwować z CDN w modelu „wrzuć pliki i działa” — bez serwera,
+    bez platformowych sztuczek.
+  primaryCta: Przetestuj bunny.net
+  secondaryCta: Zobacz recenzję Bunny.net
   image:
-    src: "/images/narzedzia/bunny-net/statyczny-hosting-cdn-hero.png"
-    alt: "Schemat: Edge Storage + Pull Zone jako CDN dla strony statycznej"
+    src: /images/narzedzia/bunny-net/statyczny-hosting-cdn-hero.png
+    alt: 'Schemat: Edge Storage + Pull Zone jako CDN dla strony statycznej'
     width: 1200
     height: 630
 seo:
-  title: "Statyczny hosting i CDN na bunny.net — jak wdrożyć krok po kroku (Edge Storage + Pull Zone)"
-  description: "Konkretny przewodnik: jak hostować stronę statyczną na bunny.net, podpiąć CDN, własną domenę, SSL, cache i 404/SPА. Bez lania wody."
+  title: >-
+    Statyczny hosting i CDN na bunny.net — jak wdrożyć krok po kroku (Edge
+    Storage + Pull Zone)
+  description: >-
+    Konkretny przewodnik: jak hostować stronę statyczną na bunny.net, podpiąć
+    CDN, własną domenę, SSL, cache i 404/SPА. Bez lania wody.
   keywords:
-    - "bunny.net"
-    - "BunnyCDN"
-    - "Edge Storage"
-    - "hosting statyczny"
-    - "CDN"
-    - "strona statyczna"
-  canonical: "/narzedzia/bunny-net/statyczny-hosting-cdn/"
-  image: "/images/narzedzia/bunny-net/statyczny-hosting-cdn-og.png"
+    - bunny.net
+    - BunnyCDN
+    - Edge Storage
+    - hosting statyczny
+    - CDN
+    - strona statyczna
+  canonical: /narzedzia/bunny-net/statyczny-hosting-cdn/
+  image: /images/narzedzia/bunny-net/statyczny-hosting-cdn-og.png
 meta:
-  difficulty: "Średni"
-  duration: "20–45 min"
+  difficulty: Średni
+  duration: 20–45 min
   tools:
-    - "bunny.net"
-    - "FTP (opcjonalnie)"
-    - "CI/CD (opcjonalnie)"
-  author: "Redakcja"
-  updatedAt: "2026-01-02"
+    - bunny.net
+    - FTP (opcjonalnie)
+    - CI/CD (opcjonalnie)
+  author: Redakcja
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Załóż konto w bunny.net"
-    href: "https://bunny.net/"
+    label: Załóż konto w bunny.net
+    href: https://bunny.net/
   secondaryCta:
-    label: "Przejdź do recenzji bunny.net"
-    href: "/narzedzia/bunny-net/recenzja/"
-  format: "Poradnik"
+    label: Przejdź do recenzji bunny.net
+    href: /narzedzia/bunny-net/recenzja/
+  format: Poradnik
   topics:
-    - "Hosting statyczny"
-    - "CDN"
-    - "DevOps"
+    - Hosting statyczny
+    - CDN
+    - DevOps
   summaryBullets:
-    - "Wrzuć build do Edge Storage"
-    - "Podepnij Pull Zone jako CDN i cache"
-    - "Ustaw własną domenę (CNAME) i SSL"
-    - "Zautomatyzuj deploy + purge"
+    - Wrzuć build do Edge Storage
+    - Podepnij Pull Zone jako CDN i cache
+    - Ustaw własną domenę (CNAME) i SSL
+    - Zautomatyzuj deploy + purge
   lessons:
-    - "Kiedy bunny.net ma sens jako hosting statyczny"
-    - "Jak ustawić domenę i cache, żeby było szybko i stabilnie"
-    - "Jak ogarnąć 404 i routing dla SPA bez bólu"
+    - Kiedy bunny.net ma sens jako hosting statyczny
+    - Jak ustawić domenę i cache, żeby było szybko i stabilnie
+    - Jak ogarnąć 404 i routing dla SPA bez bólu
 taxonomy:
   categories:
-    - "Narzędzia"
-    - "CDN"
+    - Narzędzia
+    - CDN
   tags:
-    - "bunny.net"
-    - "bunnycdn"
-    - "edge storage"
-    - "hosting statyczny"
-    - "devops"
+    - bunny.net
+    - bunnycdn
+    - edge storage
+    - hosting statyczny
+    - devops
 ---
 
 ## Werdykt: bunny.net to świetny „hosting statyczny + CDN”, jeśli umiesz dowieźć build

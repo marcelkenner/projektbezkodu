@@ -1,30 +1,53 @@
 ---
-title: "Alternatywy dla BigCommerce: co wybrać zamiast (i kiedy to ma sens w Polsce)"
-slug: "alternatywy"
-path: "/narzedzia/bigcommerce/alternatywy/"
-template: "default"
-type: "alternatywy"
-date: "2026-01-02"
+title: 'Alternatywy dla BigCommerce: co wybrać zamiast (i kiedy to ma sens w Polsce)'
+slug: alternatywy
+path: /narzedzia/bigcommerce/alternatywy/
+template: default
+type: alternatywy
+date: '2026-01-02'
 seo:
-  title: "Alternatywy dla BigCommerce (2026): Shopify, Shoper, IdoSell, WooCommerce i inne"
-  description: "Konkretny wybór zamiast BigCommerce: dla kogo Shopify, kiedy Shoper/IdoSell, a kiedy lepiej iść w WooCommerce/PrestaShop, Shopware, Magento lub headless."
+  title: >-
+    Alternatywy dla BigCommerce (2026): Shopify, Shoper, IdoSell, WooCommerce i
+    inne
+  description: >-
+    Konkretny wybór zamiast BigCommerce: dla kogo Shopify, kiedy Shoper/IdoSell,
+    a kiedy lepiej iść w WooCommerce/PrestaShop, Shopware, Magento lub headless.
 meta:
-  format: "SaaS"
-  updatedAt: "2026-01-02"
-  topics: "bigcommerce alternatywy, shopify vs bigcommerce, shoper, idosell, woocommerce, prestashop, shopware, magento, headless"
+  format: SaaS
+  updatedAt: '2026-01-02'
+  topics: >-
+    bigcommerce alternatywy, shopify vs bigcommerce, shoper, idosell,
+    woocommerce, prestashop, shopware, magento, headless
   summaryBullets:
-    - "Najlepsza alternatywa zależy od tego, czy priorytetem jest prostota, polski ekosystem, czy pełna kontrola techniczna."
-    - "W Polsce najczęściej wygrywają rozwiązania lokalne (Shoper/IdoSell) albo Shopify – zależnie od skali i zespołu."
-    - "Open-source (WooCommerce/PrestaShop) ma sens, jeśli masz zasoby na utrzymanie i rozwój, a nie tylko na start."
+    - >-
+      Najlepsza alternatywa zależy od tego, czy priorytetem jest prostota,
+      polski ekosystem, czy pełna kontrola techniczna.
+    - >-
+      W Polsce najczęściej wygrywają rozwiązania lokalne (Shoper/IdoSell) albo
+      Shopify – zależnie od skali i zespołu.
+    - >-
+      Open-source (WooCommerce/PrestaShop) ma sens, jeśli masz zasoby na
+      utrzymanie i rozwój, a nie tylko na start.
   primaryCta:
-    label: "Zobacz recenzję BigCommerce"
-    href: "/narzedzia/bigcommerce/recenzja/"
+    label: Zobacz recenzję BigCommerce
+    href: /narzedzia/bigcommerce/recenzja/
   secondaryCta:
-    label: "Uruchom trial BigCommerce (15 dni)"
-    href: "https://www.bigcommerce.com/essentials/pricing/"
+    label: Uruchom trial BigCommerce (15 dni)
+    href: https://www.bigcommerce.com/essentials/pricing/
 taxonomy:
-  categories: ["E-commerce", "Narzędzia"]
-  tags: ["BigCommerce", "Shopify", "Shoper", "IdoSell", "WooCommerce", "PrestaShop", "Shopware", "Magento", "Saleor"]
+  categories:
+    - E-commerce
+    - Narzędzia
+  tags:
+    - BigCommerce
+    - Shopify
+    - Shoper
+    - IdoSell
+    - WooCommerce
+    - PrestaShop
+    - Shopware
+    - Magento
+    - Saleor
 ---
 
 Jeśli rozważasz BigCommerce, to znaczy, że Twój sklep nie jest już „projektem pobocznym”. I dobrze. Problem w tym, że w Polsce BigCommerce często przegrywa nie funkcjami, tylko ekonomią startu i lokalnym ekosystemem.

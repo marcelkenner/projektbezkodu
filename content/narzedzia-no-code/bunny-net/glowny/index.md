@@ -1,39 +1,43 @@
 ---
-title: "bunny.net"
-slug: "bunny-net"
-path: "/narzedzia/bunny-net/"
-template: "default"
-type: "tool"
+title: bunny.net
+slug: bunny-net
+path: /narzedzia/bunny-net/
+template: default
+type: tool
 hero:
-  heading: "bunny.net: CDN i storage, które dowożą bez abonamentowej zadyszki"
-  subheading: "Jeśli Twoja strona/aplikacja ma się ładować szybko globalnie i chcesz płacić głównie za realny transfer, to jest bardzo mocny kandydat."
+  heading: 'bunny.net: CDN i storage, które dowożą bez abonamentowej zadyszki'
+  subheading: >-
+    Jeśli Twoja strona/aplikacja ma się ładować szybko globalnie i chcesz płacić
+    głównie za realny transfer, to jest bardzo mocny kandydat.
 seo:
-  title: "bunny.net — CDN, storage i optymalizacja obrazów: dla kogo, koszty, start"
-  description: "Praktyczny przewodnik dla polskich zespołów: kiedy bunny.net ma sens, jak zacząć w 10 minut i jak czytać koszty CDN oraz storage."
+  title: 'bunny.net — CDN, storage i optymalizacja obrazów: dla kogo, koszty, start'
+  description: >-
+    Praktyczny przewodnik dla polskich zespołów: kiedy bunny.net ma sens, jak
+    zacząć w 10 minut i jak czytać koszty CDN oraz storage.
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   topics:
-    - "CDN"
-    - "Wydajność strony"
-    - "Hosting statyczny"
-    - "Optymalizacja obrazów"
+    - CDN
+    - Wydajność strony
+    - Hosting statyczny
+    - Optymalizacja obrazów
   primaryCta:
-    label: "Załóż konto i postaw pierwszą strefę"
-    href: "https://dash.bunny.net/"
-    rel: "nofollow"
+    label: Załóż konto i postaw pierwszą strefę
+    href: https://dash.bunny.net/
+    rel: nofollow
   secondaryCta:
-    label: "Pełna recenzja bunny.net"
-    href: "/narzedzia/bunny-net/recenzja/"
+    label: Pełna recenzja bunny.net
+    href: /narzedzia/bunny-net/recenzja/
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "bunny.net"
-    - "CDN"
-    - "object storage"
-    - "optymalizacja obrazów"
-    - "WordPress"
+    - bunny.net
+    - CDN
+    - object storage
+    - optymalizacja obrazów
+    - WordPress
 ---
 
 # bunny.net

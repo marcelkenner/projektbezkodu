@@ -1,26 +1,35 @@
 ---
-title: "BigCommerce: platforma e-commerce dla firm, które naprawdę rosną"
-slug: "bigcommerce"
-path: "/narzedzia/bigcommerce/"
-template: "default"
-type: "narzedzie"
-date: "2026-01-02"
+title: 'BigCommerce: platforma e-commerce dla firm, które naprawdę rosną'
+slug: bigcommerce
+path: /narzedzia/bigcommerce/
+template: default
+type: narzedzie
+date: '2026-01-02'
 seo:
-  title: "BigCommerce – czy ma sens w Polsce? Werdykt i dla kogo jest"
-  description: "Odważny, ale uczciwy przewodnik po BigCommerce: dla kogo działa świetnie, kiedy będzie przerostem formy i jak zacząć bez ryzyka."
+  title: BigCommerce – czy ma sens w Polsce? Werdykt i dla kogo jest
+  description: >-
+    Odważny, ale uczciwy przewodnik po BigCommerce: dla kogo działa świetnie,
+    kiedy będzie przerostem formy i jak zacząć bez ryzyka.
 meta:
-  format: "SaaS"
-  updatedAt: "2026-01-02"
-  topics: "e-commerce, platforma sklepowa, SaaS, B2B, headless"
+  format: SaaS
+  updatedAt: '2026-01-02'
+  topics: e-commerce, platforma sklepowa, SaaS, B2B, headless
   primaryCta:
-    label: "Przetestuj BigCommerce przez 15 dni (bez karty)"
-    href: "https://www.bigcommerce.com/essentials/pricing/"
+    label: Przetestuj BigCommerce przez 15 dni (bez karty)
+    href: https://www.bigcommerce.com/essentials/pricing/
   secondaryCta:
-    label: "Zobacz recenzję BigCommerce"
-    href: "/narzedzia/bigcommerce/recenzja/"
+    label: Zobacz recenzję BigCommerce
+    href: /narzedzia/bigcommerce/recenzja/
 taxonomy:
-  categories: ["E-commerce", "Narzędzia"]
-  tags: ["BigCommerce", "platforma e-commerce", "SaaS", "B2B", "headless commerce"]
+  categories:
+    - E-commerce
+    - Narzędzia
+  tags:
+    - BigCommerce
+    - platforma e-commerce
+    - SaaS
+    - B2B
+    - headless commerce
 ---
 
 BigCommerce będzie świetnym wyborem dla zespołów e-commerce i firm DTC/B2B, które chcą skalować sprzedaż i nie chcą co miesiąc „łatać” sklepu wtyczkami. Jeśli jesteś małym sklepem w Polsce i liczysz każdą złotówkę, BigCommerce najczęściej będzie przerostem formy nad treścią.

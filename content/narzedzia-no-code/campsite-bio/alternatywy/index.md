@@ -1,32 +1,59 @@
 ---
-title: "Campsite.bio – alternatywy"
+title: Campsite.bio – alternatywy
 slug: campsite-bio-alternatywy
 path: /narzedzia/campsite-bio/alternatywy/
 template: default
 type: tool-alternatives
 seo:
-  title: "Alternatywy dla Campsite.bio: Linktree, Beacons, Taplink, Lnk.Bio i reszta – co wybrać w Polsce"
-  description: "Porównanie najlepszych alternatyw dla Campsite.bio. Jasne werdykty: kiedy wygra Linktree, kiedy Beacons, kiedy Taplink, a kiedy wystarczy Lnk.Bio albo Carrd."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/alternatywy/"
+  title: >-
+    Alternatywy dla Campsite.bio: Linktree, Beacons, Taplink, Lnk.Bio i reszta –
+    co wybrać w Polsce
+  description: >-
+    Porównanie najlepszych alternatyw dla Campsite.bio. Jasne werdykty: kiedy
+    wygra Linktree, kiedy Beacons, kiedy Taplink, a kiedy wystarczy Lnk.Bio albo
+    Carrd.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/alternatywy/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["alternatywy", "link w bio", "Linktree", "Beacons", "Taplink", "Lnk.Bio", "Carrd", "Ko-fi", "Stan Store"]
-  tools: ["Social media", "Landing page", "Analityka", "Monetyzacja"]
+  updatedAt: '2026-01-02'
+  topics:
+    - alternatywy
+    - link w bio
+    - Linktree
+    - Beacons
+    - Taplink
+    - Lnk.Bio
+    - Carrd
+    - Ko-fi
+    - Stan Store
+  tools:
+    - Social media
+    - Landing page
+    - Analityka
+    - Monetyzacja
   summaryBullets:
-    - "Jeśli chcesz klasyczny „link w bio” i prostotę: Linktree."
-    - "Jeśli chcesz sprzedaż dla twórców w jednym narzędziu: Beacons lub Stan (drożej, ale bardziej „commerce”)."
-    - "Jeśli chcesz tanio, prosto i bez subskrypcji: Lnk.Bio; jeśli chcesz mini-landing „prawie strona”: Carrd."
+    - 'Jeśli chcesz klasyczny „link w bio” i prostotę: Linktree.'
+    - >-
+      Jeśli chcesz sprzedaż dla twórców w jednym narzędziu: Beacons lub Stan
+      (drożej, ale bardziej „commerce”).
+    - >-
+      Jeśli chcesz tanio, prosto i bez subskrypcji: Lnk.Bio; jeśli chcesz
+      mini-landing „prawie strona”: Carrd.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Sprawdź Campsite.bio"
-    href: "https://campsite.bio/"
+    label: Sprawdź Campsite.bio
+    href: https://campsite.bio/
   secondaryCta:
-    label: "Zobacz recenzję Campsite.bio"
-    href: "/narzedzia/campsite-bio/recenzja/"
+    label: Zobacz recenzję Campsite.bio
+    href: /narzedzia/campsite-bio/recenzja/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["alternatywy", "link w bio", "Instagram", "TikTok"]
+  categories:
+    - Narzędzia
+  tags:
+    - alternatywy
+    - link w bio
+    - Instagram
+    - TikTok
 ---
 
 # Alternatywy dla Campsite.bio – wybór bez udawania, że „jeden tool jest najlepszy dla wszystkich”

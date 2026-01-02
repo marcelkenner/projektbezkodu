@@ -1,52 +1,65 @@
 ---
-title: "Alternatywy dla bunny.net: co wybrać zamiast i kiedy to ma sens"
-slug: "alternatywy"
-path: "/narzedzia/bunny-net/alternatywy/"
+title: 'Alternatywy dla bunny.net: co wybrać zamiast i kiedy to ma sens'
+slug: alternatywy
+path: /narzedzia/bunny-net/alternatywy/
 draft: false
-template: "default"
-type: "alternatives"
-date: "2026-01-02"
+template: default
+type: alternatives
+date: '2026-01-02'
 hero:
-  heading: "Alternatywy dla bunny.net: proste „weź to, jeśli…” zamiast kolejnej listy funkcji"
-  subheading: "Werdykt: bunny.net najczęściej wygrywa w UE kosztami i prostotą pay-as-you-go. Jeśli chcesz darmowego startu z DNS/WAF i bezpieczeństwem „z pudełka”, wybierz Cloudflare. Jeśli i tak siedzisz w AWS, CloudFront bywa najbardziej naturalnym wyborem."
+  heading: >-
+    Alternatywy dla bunny.net: proste „weź to, jeśli…” zamiast kolejnej listy
+    funkcji
+  subheading: >-
+    Werdykt: bunny.net najczęściej wygrywa w UE kosztami i prostotą
+    pay-as-you-go. Jeśli chcesz darmowego startu z DNS/WAF i bezpieczeństwem „z
+    pudełka”, wybierz Cloudflare. Jeśli i tak siedzisz w AWS, CloudFront bywa
+    najbardziej naturalnym wyborem.
 seo:
-  title: "Alternatywy dla bunny.net (2026): Cloudflare, CloudFront, Fastly, KeyCDN, Cloudinary, Vercel, Netlify"
-  description: "Konkretne porównanie dla polskiego rynku: kiedy bunny.net ma sens, a kiedy lepiej wybrać Cloudflare, AWS CloudFront, Fastly, KeyCDN, Cloudinary/imgix lub platformy typu Vercel/Netlify."
-  canonical: "/narzedzia/bunny-net/alternatywy/"
+  title: >-
+    Alternatywy dla bunny.net (2026): Cloudflare, CloudFront, Fastly, KeyCDN,
+    Cloudinary, Vercel, Netlify
+  description: >-
+    Konkretne porównanie dla polskiego rynku: kiedy bunny.net ma sens, a kiedy
+    lepiej wybrać Cloudflare, AWS CloudFront, Fastly, KeyCDN, Cloudinary/imgix
+    lub platformy typu Vercel/Netlify.
+  canonical: /narzedzia/bunny-net/alternatywy/
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   topics:
-    - "CDN"
-    - "Wydajność strony"
-    - "Obrazy"
-    - "Hosting statyczny"
-    - "Bezpieczeństwo"
+    - CDN
+    - Wydajność strony
+    - Obrazy
+    - Hosting statyczny
+    - Bezpieczeństwo
   summaryBullets:
-    - "Cloudflare: najlepszy start „za darmo” + DNS/WAF ekosystem"
-    - "AWS CloudFront: najlepszy wybór, gdy origin i stack są w AWS"
-    - "Fastly: enterprise i głęboka kontrola, ale z realnymi minimami kosztów"
-    - "Cloudinary/imgix: gdy problemem są obrazy i workflow, nie sam CDN"
-    - "Vercel/Netlify: gdy chcesz platformy do deployu + CDN, a nie tylko warstwy cache"
+    - 'Cloudflare: najlepszy start „za darmo” + DNS/WAF ekosystem'
+    - 'AWS CloudFront: najlepszy wybór, gdy origin i stack są w AWS'
+    - 'Fastly: enterprise i głęboka kontrola, ale z realnymi minimami kosztów'
+    - 'Cloudinary/imgix: gdy problemem są obrazy i workflow, nie sam CDN'
+    - >-
+      Vercel/Netlify: gdy chcesz platformy do deployu + CDN, a nie tylko warstwy
+      cache
   primaryCta:
-    label: "Sprawdź recenzję bunny.net"
-    href: "/narzedzia/bunny-net/recenzja/"
+    label: Sprawdź recenzję bunny.net
+    href: /narzedzia/bunny-net/recenzja/
     rel: null
   secondaryCta:
-    label: "Policz koszty"
-    href: "/narzedzia/bunny-net/cennik/"
+    label: Policz koszty
+    href: /narzedzia/bunny-net/cennik/
     rel: null
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "bunny.net"
-    - "alternatywy"
-    - "CDN"
-    - "Cloudflare"
-    - "CloudFront"
-    - "Fastly"
-    - "Cloudinary"
+    - bunny.net
+    - alternatywy
+    - CDN
+    - Cloudflare
+    - CloudFront
+    - Fastly
+    - Cloudinary
 ---
 
 # Alternatywy dla bunny.net

@@ -1,52 +1,62 @@
 ---
-title: "Cennik bunny.net: ile zapłacisz za CDN, storage i optymalizację"
-slug: "cennik"
-path: "/narzedzia/bunny-net/cennik/"
+title: 'Cennik bunny.net: ile zapłacisz za CDN, storage i optymalizację'
+slug: cennik
+path: /narzedzia/bunny-net/cennik/
 draft: false
-template: "default"
-type: "pricing"
-date: "2026-01-02"
+template: default
+type: pricing
+date: '2026-01-02'
 hero:
-  heading: "Cennik bunny.net: proste liczby, które da się policzyć przed wdrożeniem"
-  subheading: "Werdykt: jeśli Twoi użytkownicy są głównie w Polsce i UE, bunny.net prawie zawsze da się obronić kosztowo. Płacisz głównie za realny transfer, a minimum miesięczne jest symboliczne — o ile pilnujesz salda."
+  heading: 'Cennik bunny.net: proste liczby, które da się policzyć przed wdrożeniem'
+  subheading: >-
+    Werdykt: jeśli Twoi użytkownicy są głównie w Polsce i UE, bunny.net prawie
+    zawsze da się obronić kosztowo. Płacisz głównie za realny transfer, a
+    minimum miesięczne jest symboliczne — o ile pilnujesz salda.
 seo:
-  title: "bunny.net — cennik CDN, Bunny Storage, Optimizer i Shield (2026): stawki i przykłady"
-  description: "Konkretny przewodnik po kosztach bunny.net: stawki CDN per region, Volume vs Standard, koszty Bunny Storage i replikacji, Optimizer za $9.50/stronę oraz przykłady wyliczeń dla PL."
-  canonical: "/narzedzia/bunny-net/cennik/"
+  title: >-
+    bunny.net — cennik CDN, Bunny Storage, Optimizer i Shield (2026): stawki i
+    przykłady
+  description: >-
+    Konkretny przewodnik po kosztach bunny.net: stawki CDN per region, Volume vs
+    Standard, koszty Bunny Storage i replikacji, Optimizer za $9.50/stronę oraz
+    przykłady wyliczeń dla PL.
+  canonical: /narzedzia/bunny-net/cennik/
   image: null
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   topics:
-    - "CDN"
-    - "Cennik"
-    - "Wydajność strony"
-    - "Obrazy"
-    - "Storage"
+    - CDN
+    - Cennik
+    - Wydajność strony
+    - Obrazy
+    - Storage
   summaryBullets:
-    - "CDN Standard: UE/NA $0.010/GB; Azja/Oceania $0.030/GB; Am. Płd. $0.045/GB; ME/Afryka $0.060/GB"
-    - "CDN Volume: od $0.005/GB (duże wolumeny, mniej PoP-ów)"
-    - "Bunny Storage HDD: od $0.01/GB + dopłaty za replikację regionów"
-    - "Bunny Optimizer: $9.50/mies. za stronę (bez limitów requestów i obrazów)"
+    - >-
+      CDN Standard: UE/NA $0.010/GB; Azja/Oceania $0.030/GB; Am. Płd. $0.045/GB;
+      ME/Afryka $0.060/GB
+    - 'CDN Volume: od $0.005/GB (duże wolumeny, mniej PoP-ów)'
+    - 'Bunny Storage HDD: od $0.01/GB + dopłaty za replikację regionów'
+    - 'Bunny Optimizer: $9.50/mies. za stronę (bez limitów requestów i obrazów)'
   metrics:
-    - label: "Minimum"
-      value: "$1/mies."
-      description: "Naliczane, gdy masz aktywne strefy i zużycie jest < $1"
-    - label: "UE/NA CDN"
-      value: "$0.010/GB"
-      description: "Standard network"
-    - label: "Optimizer"
-      value: "$9.50/mies."
-      description: "Za stronę, bez limitów"
+    - label: Minimum
+      value: $1/mies.
+      description: Naliczane, gdy masz aktywne strefy i zużycie jest < $1
+    - label: UE/NA CDN
+      value: $0.010/GB
+      description: Standard network
+    - label: Optimizer
+      value: $9.50/mies.
+      description: Za stronę, bez limitów
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "bunny.net"
-    - "CDN"
-    - "cennik"
-    - "storage"
-    - "optymalizacja obrazów"
+    - bunny.net
+    - CDN
+    - cennik
+    - storage
+    - optymalizacja obrazów
 ---
 
 # bunny.net — cennik

@@ -1,79 +1,106 @@
 ---
-
-title: "Wix – czy to dobry kreator stron dla małej firmy i freelancera?"
-slug: "wix"
-path: "/narzedzia/wix"
+title: Wix – czy to dobry kreator stron dla małej firmy i freelancera?
+slug: wix
+path: /narzedzia/wix
 draft: false
-template: "default"
-type: "tool"
-date: "2025-12-07"
+template: default
+type: tool
+date: '2025-12-07'
 hero:
-heading: "Wix – kreator stron dla małych firm, freelancerów i e-commerce"
-subheading: "Po tej stronie dowiesz się, czy Wix ma sens w Twoim przypadku, czy lepiej od razu iść w inną stronę."
-primaryCta: "Przetestuj Wix za darmo"
-secondaryCta: "Zobacz alternatywy dla Wix"
-image:
-src: "/images/tools/wix-hero.png"
-alt: "Panel kreatora stron Wix z edytorem drag-and-drop"
+  heading: Wix – kreator stron dla małych firm, freelancerów i e-commerce
+  subheading: >-
+    Po tej stronie dowiesz się, czy Wix ma sens w Twoim przypadku, czy lepiej od
+    razu iść w inną stronę.
+  primaryCta: Przetestuj Wix za darmo
+  secondaryCta: Zobacz alternatywy dla Wix
+  image:
+    src: /images/tools/wix-hero.png
+    alt: Panel kreatora stron Wix z edytorem drag-and-drop
 seo:
-title: "Wix – opinie, funkcje i dla kogo to jest? Przewodnik po kreatorze stron"
-description: "Szczera analiza, czy Wix opłaca się w 2025 roku w Polsce. Sprawdź, dla kogo ten kreator stron ma najwięcej sensu, jakie ma ograniczenia i ile realnie kosztuje."
-keywords:
-- "Wix"
-- "Wix opinie"
-- "Wix kreator stron"
-- "Wix cennik"
-- "Wix szablony"
+  title: Wix – opinie, funkcje i dla kogo to jest? Przewodnik po kreatorze stron
+  description: >-
+    Szczera analiza, czy Wix opłaca się w 2025 roku w Polsce. Sprawdź, dla kogo
+    ten kreator stron ma najwięcej sensu, jakie ma ograniczenia i ile realnie
+    kosztuje.
+  keywords:
+    - Wix
+    - Wix opinie
+    - Wix kreator stron
+    - Wix cennik
+    - Wix szablony
 meta:
-updatedAt: "2025-12-07"
-format: "narzędzie"
-topics:
-- "kreatory stron"
-- "strona firmowa"
-- "ecommerce"
-industry: "SaaS / kreator stron"
-hasAffiliateLinks: false
-primaryCta:
-label: "Przejdź do Wix"
-href: "[https://pl.wix.com/](https://pl.wix.com/)"
-rel: "noopener noreferrer"
-secondaryCta:
-label: "Przeczytaj pełną recenzję Wix"
-href: "/narzedzia/wix/recenzja/"
-rel: ""
-summaryBullets:
-- "Wix to jeden z najpopularniejszych kreatorów stron na świecie z setkami gotowych szablonów i wbudowanym hostingiem."
-- "Dla większości małych firm i freelancerów Wix będzie najszybszą drogą do pierwszej sensownej strony [www](http://www)."
-- "Cena rośnie wraz z ambicjami – realne plany biznesowe są istotnie droższe niż podstawowy pakiet."
-- "Przy bardziej złożonych projektach ograniczenia techniczne i wydajnościowe mogą zacząć uwierać."
-review:
-productName: "Wix"
-productUrl: "[https://pl.wix.com/](https://pl.wix.com/)"
-ratingValue: 4.0
-bestRating: 5
-worstRating: 1
-author: "Zespół redakcyjny"
-body: "Wix to bardzo mocny wybór dla małych firm, freelancerów i osób, które chcą szybko postawić estetyczną stronę bez kodowania. Jeśli jednak planujesz duży, rozbudowany serwis lub chcesz pełnej kontroli technicznej, szybciej odnajdziesz się w WordPressie, Webflow lub dedykowanym rozwiązaniu."
-pros:
-- "Intuicyjny edytor typu przeciągnij-i-upuść, dobry nawet dla totalnych początkujących"
-- "Setki szablonów gotowych pod różne branże i typy stron"
-- "Wbudowany hosting, domeny, moduły e-commerce, blog, rezerwacje i inne funkcje biznesowe"
-- "Coraz mocniejsze funkcje oparte na AI (tworzenie strony, treści i elementów marketingu)"
-cons:
-- "Polscy użytkownicy wciąż są zdani głównie na anglojęzyczną dokumentację i wsparcie"
-- "Wiele istotnych funkcji biznesowych dostępnych dopiero w droższych planach"
-- "Przy bardziej złożonych stronach można odczuć ograniczenia wydajnościowe i elastyczności"
+  updatedAt: '2025-12-07'
+  format: narzędzie
+  topics:
+    - kreatory stron
+    - strona firmowa
+    - ecommerce
+  industry: SaaS / kreator stron
+  hasAffiliateLinks: false
+  primaryCta:
+    label: Przejdź do Wix
+    href: https://pl.wix.com/
+    rel: noopener noreferrer
+  secondaryCta:
+    label: Przeczytaj pełną recenzję Wix
+    href: /narzedzia/wix/recenzja/
+  summaryBullets:
+    - >-
+      Wix to jeden z najpopularniejszych kreatorów stron na świecie z setkami
+      gotowych szablonów i wbudowanym hostingiem.
+    - >-
+      Dla większości małych firm i freelancerów Wix będzie najszybszą drogą do
+      pierwszej sensownej strony www.
+    - >-
+      Cena rośnie wraz z ambicjami – realne plany biznesowe są istotnie droższe
+      niż podstawowy pakiet.
+    - >-
+      Przy bardziej złożonych projektach ograniczenia techniczne i wydajnościowe
+      mogą zacząć uwierać.
+  review:
+    productName: Wix
+    productUrl: https://pl.wix.com/
+    ratingValue: 4
+    bestRating: 5
+    worstRating: 1
+    author: Zespół redakcyjny
+    body: >-
+      Wix to bardzo mocny wybór dla małych firm, freelancerów i osób, które chcą
+      szybko postawić estetyczną stronę bez kodowania. Jeśli jednak planujesz
+      duży, rozbudowany serwis lub chcesz pełnej kontroli technicznej, szybciej
+      odnajdziesz się w WordPressie, Webflow lub dedykowanym rozwiązaniu.
+    pros:
+      - >-
+        Intuicyjny edytor typu przeciągnij-i-upuść, dobry nawet dla totalnych
+        początkujących
+      - Setki szablonów gotowych pod różne branże i typy stron
+      - >-
+        Wbudowany hosting, domeny, moduły e-commerce, blog, rezerwacje i inne
+        funkcje biznesowe
+      - >-
+        Coraz mocniejsze funkcje oparte na AI (tworzenie strony, treści i
+        elementów marketingu)
+    cons:
+      - >-
+        Polscy użytkownicy wciąż są zdani głównie na anglojęzyczną dokumentację
+        i wsparcie
+      - >-
+        Wiele istotnych funkcji biznesowych dostępnych dopiero w droższych
+        planach
+      - >-
+        Przy bardziej złożonych stronach można odczuć ograniczenia wydajnościowe
+        i elastyczności
 taxonomy:
-categories:
-- "Narzędzia"
-- "Kreatory stron"
-tags:
-- "Wix"
-- "kreator stron"
-- "website builder"
-- "strona www"
-- "ecommerce"
--------------
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - Wix
+    - kreator stron
+    - website builder
+    - strona www
+    - ecommerce
+---
 
 # Wix – czy to narzędzie dla Ciebie?
 

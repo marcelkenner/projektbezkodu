@@ -1,22 +1,36 @@
 ---
-title: "Beehiiv FAQ: najczęstsze pytania (i proste odpowiedzi) — Polska"
-slug: "faq"
-path: "/narzedzia/beehiiv/faq/"
-template: "default"
-type: "tool"
-date: "2025-12-30"
+title: 'Beehiiv FAQ: najczęstsze pytania (i proste odpowiedzi) — Polska'
+slug: faq
+path: /narzedzia/beehiiv/faq/
+template: default
+type: tool
+date: '2025-12-30'
 seo:
-  title: "Beehiiv FAQ — odpowiedzi na najczęstsze pytania (Polska)"
-  description: "Konkretne odpowiedzi o planach, monetyzacji, Stripe, importach, deliverability i zgodach. Bez lania wody: co działa, co nie i jak to ogarnąć w 15 minut."
+  title: Beehiiv FAQ — odpowiedzi na najczęstsze pytania (Polska)
+  description: >-
+    Konkretne odpowiedzi o planach, monetyzacji, Stripe, importach,
+    deliverability i zgodach. Bez lania wody: co działa, co nie i jak to ogarnąć
+    w 15 minut.
   canonical: null
 meta:
-  updatedAt: "2025-12-30"
-  format: "faq"
-  topics: ["newsletter", "email marketing", "monetyzacja", "deliverability", "RODO"]
+  updatedAt: '2025-12-30'
+  format: faq
+  topics:
+    - newsletter
+    - email marketing
+    - monetyzacja
+    - deliverability
+    - RODO
   summaryBullets:
-    - "Czy beehiiv ma sens w Polsce? Tak — ale monetyzacja bywa zależna od regionu i Stripe."
-    - "Najważniejsze ryzyko to deliverability i zgody — ogarnij domenę, DMARC i opt-in."
-    - "Import/eksport i usuwanie danych są proste, ale kombinowanie z limitami bywa karane."
+    - >-
+      Czy beehiiv ma sens w Polsce? Tak — ale monetyzacja bywa zależna od
+      regionu i Stripe.
+    - >-
+      Najważniejsze ryzyko to deliverability i zgody — ogarnij domenę, DMARC i
+      opt-in.
+    - >-
+      Import/eksport i usuwanie danych są proste, ale kombinowanie z limitami
+      bywa karane.
 ---
 
 ## Beehiiv FAQ

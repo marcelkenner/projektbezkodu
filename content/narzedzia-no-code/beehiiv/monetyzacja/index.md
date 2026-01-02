@@ -1,13 +1,20 @@
 ---
-title: "Monetyzacja beehiiv: jak zarabiać na newsletterze (reklamy, Boosts, subskrypcje, produkty)"
-slug: "monetyzacja"
-path: "/narzedzia/beehiiv/monetyzacja/"
-template: "default"
-type: "monetization"
-date: "2025-12-30"
+title: >-
+  Monetyzacja beehiiv: jak zarabiać na newsletterze (reklamy, Boosts,
+  subskrypcje, produkty)
+slug: monetyzacja
+path: /narzedzia/beehiiv/monetyzacja/
+template: default
+type: monetization
+date: '2025-12-30'
 seo:
-  title: "Monetyzacja beehiiv: reklamy, Boosts, płatne subskrypcje i produkty – praktyczny przewodnik"
-  description: "Jak realnie zarabiać na beehiiv: Ad Network (CPM/CPC), Direct Sponsorships, Boosts, płatne subskrypcje i digital products. Konkretna kolejność działań i pułapki dla rynku PL."
+  title: >-
+    Monetyzacja beehiiv: reklamy, Boosts, płatne subskrypcje i produkty –
+    praktyczny przewodnik
+  description: >-
+    Jak realnie zarabiać na beehiiv: Ad Network (CPM/CPC), Direct Sponsorships,
+    Boosts, płatne subskrypcje i digital products. Konkretna kolejność działań i
+    pułapki dla rynku PL.
   keywords:
     - beehiiv monetyzacja
     - beehiiv ad network
@@ -16,24 +23,43 @@ seo:
     - reklamy w newsletterze
     - digital products
 meta:
-  updatedAt: "2025-12-30"
-  format: "przewodnik"
-  topics: ["newsletter", "monetyzacja", "reklamy", "subskrypcje", "produkty cyfrowe"]
+  updatedAt: '2025-12-30'
+  format: przewodnik
+  topics:
+    - newsletter
+    - monetyzacja
+    - reklamy
+    - subskrypcje
+    - produkty cyfrowe
   summaryBullets:
-    - "Najłatwiejszy start to sponsorzy „direct” i produkty – monetyzujesz bez czekania na marketplace."
-    - "Ad Network i Boosts są świetne, ale wymagają konfiguracji Stripe, weryfikacji i sensownej higieny listy."
-    - "W PL dochodzi temat waluty i przewalutowań – beehiiv wspiera m.in. EUR/USD, nie PLN, więc zaplanuj to z góry."
+    - >-
+      Najłatwiejszy start to sponsorzy „direct” i produkty – monetyzujesz bez
+      czekania na marketplace.
+    - >-
+      Ad Network i Boosts są świetne, ale wymagają konfiguracji Stripe,
+      weryfikacji i sensownej higieny listy.
+    - >-
+      W PL dochodzi temat waluty i przewalutowań – beehiiv wspiera m.in.
+      EUR/USD, nie PLN, więc zaplanuj to z góry.
   primaryCta:
-    label: "Zobacz cennik i wymagania planów"
-    href: "/narzedzia/beehiiv/cennik/"
-    rel: "nofollow"
+    label: Zobacz cennik i wymagania planów
+    href: /narzedzia/beehiiv/cennik/
+    rel: nofollow
   secondaryCta:
-    label: "Przeczytaj recenzję beehiiv"
-    href: "/narzedzia/beehiiv/recenzja/"
-    rel: "nofollow"
+    label: Przeczytaj recenzję beehiiv
+    href: /narzedzia/beehiiv/recenzja/
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia", "Newsletter"]
-  tags: ["beehiiv", "monetyzacja", "ad network", "boosts", "subskrypcje", "digital products"]
+  categories:
+    - Narzędzia
+    - Newsletter
+  tags:
+    - beehiiv
+    - monetyzacja
+    - ad network
+    - boosts
+    - subskrypcje
+    - digital products
 ---
 
 Beehiiv ma sens, jeśli chcesz zarabiać na newsletterze wieloma kanałami naraz: subskrypcjami, reklamami, poleceniami i produktami. To nie jest „dodatek” do wysyłki. To jest część produktu.

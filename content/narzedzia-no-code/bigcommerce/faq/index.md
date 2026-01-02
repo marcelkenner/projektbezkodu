@@ -1,30 +1,49 @@
 ---
-title: "FAQ BigCommerce: odpowiedzi, które naprawdę decydują o wyborze platformy"
-slug: "faq"
-path: "/narzedzia/bigcommerce/faq/"
-template: "default"
-type: "faq"
-date: "2026-01-02"
+title: 'FAQ BigCommerce: odpowiedzi, które naprawdę decydują o wyborze platformy'
+slug: faq
+path: /narzedzia/bigcommerce/faq/
+template: default
+type: faq
+date: '2026-01-02'
 seo:
-  title: "BigCommerce FAQ (2026): trial, ceny, progi sprzedaży, płatności w Polsce"
-  description: "Najważniejsze pytania o BigCommerce: ile kosztuje, jak działa trial, co liczy się do progów sprzedaży, jak wyglądają opłaty i co sprawdzić w Polsce przed wdrożeniem."
+  title: 'BigCommerce FAQ (2026): trial, ceny, progi sprzedaży, płatności w Polsce'
+  description: >-
+    Najważniejsze pytania o BigCommerce: ile kosztuje, jak działa trial, co
+    liczy się do progów sprzedaży, jak wyglądają opłaty i co sprawdzić w Polsce
+    przed wdrożeniem.
 meta:
-  format: "SaaS"
-  updatedAt: "2026-01-02"
-  topics: "bigcommerce faq, cennik bigcommerce, trial, progi sprzedaży, płatności polska, przelewy24, abandoned cart"
+  format: SaaS
+  updatedAt: '2026-01-02'
+  topics: >-
+    bigcommerce faq, cennik bigcommerce, trial, progi sprzedaży, płatności
+    polska, przelewy24, abandoned cart
   summaryBullets:
-    - "BigCommerce ma 15-dniowy, w pełni funkcjonalny trial bez karty i pozwala przyjmować płatności w trakcie testów."
-    - "Plany są powiązane z obrotem z ostatnich 12 miesięcy i platforma może automatycznie podnieść plan po przekroczeniu progu."
-    - "Największy test w Polsce to płatności i logistyka: sprawdź je w trialu, zanim ruszysz z designem."
+    - >-
+      BigCommerce ma 15-dniowy, w pełni funkcjonalny trial bez karty i pozwala
+      przyjmować płatności w trakcie testów.
+    - >-
+      Plany są powiązane z obrotem z ostatnich 12 miesięcy i platforma może
+      automatycznie podnieść plan po przekroczeniu progu.
+    - >-
+      Największy test w Polsce to płatności i logistyka: sprawdź je w trialu,
+      zanim ruszysz z designem.
   primaryCta:
-    label: "Uruchom 15-dniowy trial BigCommerce"
-    href: "https://www.bigcommerce.com/essentials/free-trial/"
+    label: Uruchom 15-dniowy trial BigCommerce
+    href: https://www.bigcommerce.com/essentials/free-trial/
   secondaryCta:
-    label: "Przeczytaj recenzję BigCommerce"
-    href: "/narzedzia/bigcommerce/recenzja/"
+    label: Przeczytaj recenzję BigCommerce
+    href: /narzedzia/bigcommerce/recenzja/
 taxonomy:
-  categories: ["E-commerce", "FAQ"]
-  tags: ["BigCommerce", "trial", "cennik", "płatności", "Polska", "Przelewy24"]
+  categories:
+    - E-commerce
+    - FAQ
+  tags:
+    - BigCommerce
+    - trial
+    - cennik
+    - płatności
+    - Polska
+    - Przelewy24
 ---
 
 Jeśli rozważasz BigCommerce, to Twoje pytania są zdrowe: „ile realnie zapłacę?”, „czy to działa w Polsce?”, „co mnie zaskoczy po starcie?”. Tu masz odpowiedzi bez ozdobników.

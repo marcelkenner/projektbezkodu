@@ -1,32 +1,61 @@
 ---
-title: "Campsite.bio – cennik i plany"
+title: Campsite.bio – cennik i plany
 slug: campsite-bio-cennik
 path: /narzedzia/campsite-bio/cennik/
 template: default
 type: tool-pricing
 seo:
-  title: "Campsite.bio: cennik (Free vs Pro vs Pro+ vs Org) i który plan ma sens w Polsce"
-  description: "Cennik Campsite.bio w prostych słowach: co dostajesz w Free, kiedy Pro (7 USD/mies.) jest minimum, kiedy Pro+ (24 USD/mies.) ma sens, oraz kiedy wejść w plany organizacyjne."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/cennik/"
+  title: >-
+    Campsite.bio: cennik (Free vs Pro vs Pro+ vs Org) i który plan ma sens w
+    Polsce
+  description: >-
+    Cennik Campsite.bio w prostych słowach: co dostajesz w Free, kiedy Pro (7
+    USD/mies.) jest minimum, kiedy Pro+ (24 USD/mies.) ma sens, oraz kiedy wejść
+    w plany organizacyjne.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/cennik/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["campsite.bio", "cennik", "link w bio", "instagram", "tiktok", "analityka", "piksel", "gtm"]
-  tools: ["Social media", "Landing page", "Analityka", "Integracje"]
+  updatedAt: '2026-01-02'
+  topics:
+    - campsite.bio
+    - cennik
+    - link w bio
+    - instagram
+    - tiktok
+    - analityka
+    - piksel
+    - gtm
+  tools:
+    - Social media
+    - Landing page
+    - Analityka
+    - Integracje
   summaryBullets:
-    - "Free jest OK do testu i prostego profilu, ale bez „mocy” analityki i integracji."
-    - "Pro (7 USD/mies.) to realistyczne minimum, jeśli bio ma pracować na leady/sprzedaż (domena + piksele + analityka)."
-    - "Pro+ (24 USD/mies.) i Org Pro+ (29 USD/mies.) mają sens, gdy chcesz lifetime analytics, eksport CSV i pracę na wielu profilach."
+    - >-
+      Free jest OK do testu i prostego profilu, ale bez „mocy” analityki i
+      integracji.
+    - >-
+      Pro (7 USD/mies.) to realistyczne minimum, jeśli bio ma pracować na
+      leady/sprzedaż (domena + piksele + analityka).
+    - >-
+      Pro+ (24 USD/mies.) i Org Pro+ (29 USD/mies.) mają sens, gdy chcesz
+      lifetime analytics, eksport CSV i pracę na wielu profilach.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Sprawdź cennik Campsite.bio"
-    href: "https://campsite.bio/pricing"
+    label: Sprawdź cennik Campsite.bio
+    href: https://campsite.bio/pricing
   secondaryCta:
-    label: "Przeczytaj recenzję"
-    href: "/narzedzia/campsite-bio/recenzja/"
+    label: Przeczytaj recenzję
+    href: /narzedzia/campsite-bio/recenzja/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["cennik", "link w bio", "Instagram", "TikTok", "analityka"]
+  categories:
+    - Narzędzia
+  tags:
+    - cennik
+    - link w bio
+    - Instagram
+    - TikTok
+    - analityka
 ---
 
 # Campsite.bio – cennik i wybór planu bez zgadywania

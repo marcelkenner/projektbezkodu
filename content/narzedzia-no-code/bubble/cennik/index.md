@@ -5,13 +5,21 @@ path: /narzedzia/bubble/cennik/
 template: default
 type: cennik
 hero:
-  heading: Cennik Bubble: ile to kosztuje naprawdę i jaki plan ma sens
-  subheading: Bubble jest proste cenowo na start, a „prawdziwe koszty” zaczynają się dopiero wtedy, gdy aplikacja rośnie i zużywa workload. Tu masz konkrety, bez zgadywania.
+  heading: 'Cennik Bubble: ile to kosztuje naprawdę i jaki plan ma sens'
+  subheading: >-
+    Bubble jest proste cenowo na start, a „prawdziwe koszty” zaczynają się
+    dopiero wtedy, gdy aplikacja rośnie i zużywa workload. Tu masz konkrety, bez
+    zgadywania.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź alternatywy
 seo:
-  title: Bubble – cennik 2026 (Starter, Growth, Team): web, mobile i workload bez pułapek
-  description: Aktualne ceny planów Bubble (web-only, mobile-only, web+mobile), co dostajesz w pakiecie, jak działa workload i overages oraz jak wybrać plan bez kosztowych niespodzianek.
+  title: >-
+    Bubble – cennik 2026 (Starter, Growth, Team): web, mobile i workload bez
+    pułapek
+  description: >-
+    Aktualne ceny planów Bubble (web-only, mobile-only, web+mobile), co
+    dostajesz w pakiecie, jak działa workload i overages oraz jak wybrać plan
+    bez kosztowych niespodzianek.
   keywords:
     - bubble cennik
     - bubble pricing
@@ -19,10 +27,17 @@ seo:
     - bubble starter growth team
     - bubble mobile pricing
 meta:
-  tools: ["Bubble"]
+  tools:
+    - Bubble
   format: cennik
-  topics: ["no-code", "cennik", "workload", "saas", "aplikacje web", "aplikacje mobilne"]
-  updatedAt: "2026-01-02"
+  topics:
+    - no-code
+    - cennik
+    - workload
+    - saas
+    - aplikacje web
+    - aplikacje mobilne
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   primaryCta:
     label: Recenzja Bubble
@@ -31,8 +46,13 @@ meta:
     label: Alternatywy dla Bubble
     href: /narzedzia/bubble/alternatywy/
 taxonomy:
-  categories: ["No-code", "Narzędzia"]
-  tags: ["Bubble", "Cennik", "Workload"]
+  categories:
+    - No-code
+    - Narzędzia
+  tags:
+    - Bubble
+    - Cennik
+    - Workload
 ---
 
 Jeśli pytasz „ile kosztuje Bubble?”, uczciwa odpowiedź brzmi: **plan + ewentualny workload tier + ewentualne overages + dodatki (np. pluginy, storage)**. Bubble samo w sobie nie jest „drogie” ani „tanie” — jest przewidywalne, jeśli rozumiesz workload, i potrafi zaskoczyć, jeśli budujesz bez kontroli.

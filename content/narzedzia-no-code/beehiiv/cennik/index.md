@@ -1,13 +1,15 @@
 ---
-title: "Cennik beehiiv: plany, limity i który wybrać w Polsce"
-slug: "cennik"
-path: "/narzedzia/beehiiv/cennik/"
-template: "default"
-type: "pricing"
-date: "2025-12-30"
+title: 'Cennik beehiiv: plany, limity i który wybrać w Polsce'
+slug: cennik
+path: /narzedzia/beehiiv/cennik/
+template: default
+type: pricing
+date: '2025-12-30'
 seo:
-  title: "Cennik beehiiv: Launch vs Scale vs Max – ile kosztuje i co realnie dostajesz"
-  description: "Konkretny przewodnik po cenniku beehiiv: ceny, limity subskrybentów, różnice w funkcjach i jasny werdykt, kiedy warto dopłacić do Scale lub Max."
+  title: 'Cennik beehiiv: Launch vs Scale vs Max – ile kosztuje i co realnie dostajesz'
+  description: >-
+    Konkretny przewodnik po cenniku beehiiv: ceny, limity subskrybentów, różnice
+    w funkcjach i jasny werdykt, kiedy warto dopłacić do Scale lub Max.
   keywords:
     - beehiiv cennik
     - beehiiv ceny
@@ -16,24 +18,42 @@ seo:
     - beehiiv Max
     - newsletter platforma
 meta:
-  updatedAt: "2025-12-30"
-  format: "cennik"
-  topics: ["newsletter", "email marketing", "monetyzacja", "twórcy", "publishing"]
+  updatedAt: '2025-12-30'
+  format: cennik
+  topics:
+    - newsletter
+    - email marketing
+    - monetyzacja
+    - twórcy
+    - publishing
   summaryBullets:
-    - "Launch jest uczciwie darmowy i wystarczy do startu: testujesz workflow i budujesz pierwsze 0–2 500 subów."
-    - "Scale to realne minimum, jeśli chcesz monetyzacji i mechanizmów wzrostu (reklamy/Boosts/płatne suby) w jednym narzędziu."
-    - "Max ma sens dopiero wtedy, gdy zależy Ci na brandingu, większej liczbie publikacji i funkcjach typu audio/podcast/RSS."
+    - >-
+      Launch jest uczciwie darmowy i wystarczy do startu: testujesz workflow i
+      budujesz pierwsze 0–2 500 subów.
+    - >-
+      Scale to realne minimum, jeśli chcesz monetyzacji i mechanizmów wzrostu
+      (reklamy/Boosts/płatne suby) w jednym narzędziu.
+    - >-
+      Max ma sens dopiero wtedy, gdy zależy Ci na brandingu, większej liczbie
+      publikacji i funkcjach typu audio/podcast/RSS.
   primaryCta:
-    label: "Sprawdź aktualny cennik beehiiv"
-    href: "https://www.beehiiv.com/pricing"
-    rel: "nofollow"
+    label: Sprawdź aktualny cennik beehiiv
+    href: https://www.beehiiv.com/pricing
+    rel: nofollow
   secondaryCta:
-    label: "Zobacz, jak działa próba (free trial)"
-    href: "https://www.beehiiv.com/support/article/22101553752471"
-    rel: "nofollow"
+    label: Zobacz, jak działa próba (free trial)
+    href: https://www.beehiiv.com/support/article/22101553752471
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia", "Newsletter"]
-  tags: ["beehiiv", "cennik", "monetyzacja", "subskrypcje", "twórcy"]
+  categories:
+    - Narzędzia
+    - Newsletter
+  tags:
+    - beehiiv
+    - cennik
+    - monetyzacja
+    - subskrypcje
+    - twórcy
 ---
 
 beehiiv ma prostą logikę cenową: startujesz za darmo, a dopłacasz wtedy, kiedy naprawdę zaczynasz traktować newsletter jak biznes. I to jest uczciwe podejście.

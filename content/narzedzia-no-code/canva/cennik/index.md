@@ -1,13 +1,15 @@
 ---
-title: "Canva – cennik 2026 (PL): Free, Pro, Business i Enterprise"
-slug: "canva-cennik"
-path: "/narzedzia/canva/cennik"
-template: "default"
-type: "pricing"
-date: "2026-01-02"
+title: 'Canva – cennik 2026 (PL): Free, Pro, Business i Enterprise'
+slug: canva-cennik
+path: /narzedzia/canva/cennik
+template: default
+type: pricing
+date: '2026-01-02'
 seo:
-  title: "Canva cennik 2026 w Polsce: Pro vs Business vs Enterprise + szybki wybór"
-  description: "Konkretny cennik Canvy (PLN) i praktyczny wybór planu: kiedy wystarczy Free, kiedy opłaca się Pro, a kiedy Business/Enterprise. Bez lania wody."
+  title: 'Canva cennik 2026 w Polsce: Pro vs Business vs Enterprise + szybki wybór'
+  description: >-
+    Konkretny cennik Canvy (PLN) i praktyczny wybór planu: kiedy wystarczy Free,
+    kiedy opłaca się Pro, a kiedy Business/Enterprise. Bez lania wody.
   keywords:
     - canva cennik
     - canva pro cena
@@ -16,9 +18,9 @@ seo:
     - canva dla organizacji non-profit
     - canva dla edukacji
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
-  format: "cennik"
+  format: cennik
   topics:
     - grafika
     - marketing
@@ -28,17 +30,21 @@ meta:
   tools:
     - Canva
   summaryBullets:
-    - "Dla większości twórców w Polsce realnym minimum po starcie jest Canva Pro."
-    - "Canva Business ma sens, gdy pracujesz zespołowo i pilnujesz spójności marki + wyników."
-    - "Enterprise wybierasz przez wymagania IT (SSO/SCIM, kontrola, raporty), nie przez „więcej szablonów”."
+    - Dla większości twórców w Polsce realnym minimum po starcie jest Canva Pro.
+    - >-
+      Canva Business ma sens, gdy pracujesz zespołowo i pilnujesz spójności
+      marki + wyników.
+    - >-
+      Enterprise wybierasz przez wymagania IT (SSO/SCIM, kontrola, raporty), nie
+      przez „więcej szablonów”.
   primaryCta:
-    label: "Sprawdź Canva Pro"
-    href: "https://www.canva.com/pl_pl/pro/"
-    rel: "nofollow noopener"
+    label: Sprawdź Canva Pro
+    href: https://www.canva.com/pl_pl/pro/
+    rel: nofollow noopener
   secondaryCta:
-    label: "Canva dla organizacji non-profit (0 zł)"
-    href: "https://www.canva.com/canva-for-nonprofits/"
-    rel: "nofollow noopener"
+    label: Canva dla organizacji non-profit (0 zł)
+    href: https://www.canva.com/canva-for-nonprofits/
+    rel: nofollow noopener
 taxonomy:
   categories:
     - Narzędzia
@@ -50,8 +56,10 @@ taxonomy:
     - Canva Business
     - Canva Enterprise
 hero:
-  heading: "Canva – cennik i wybór planu (Polska)"
-  subheading: "Jeśli robisz treści do sociali, ofert, prezentacji albo reklam: tu masz ceny w PLN i prostą decyzję, bez zgadywania."
+  heading: Canva – cennik i wybór planu (Polska)
+  subheading: >-
+    Jeśli robisz treści do sociali, ofert, prezentacji albo reklam: tu masz ceny
+    w PLN i prostą decyzję, bez zgadywania.
 ---
 
 Jeśli używasz Canvy częściej niż „raz na jakiś czas”, dopłata do Pro zwykle jest najbardziej opłacalnym skrótem do spokoju. Business jest dla ludzi, którzy nie tylko projektują, ale też odpowiadają za markę i tempo zespołu. Enterprise to decyzja IT i compliance – nie „lepszy Pro”.

@@ -1,13 +1,18 @@
 ---
-title: "Alternatywy dla beehiiv: co wybrać zamiast i kiedy to ma sens"
-slug: "alternatywy"
-path: "/narzedzia/beehiiv/alternatywy/"
-template: "default"
-type: "alternatives"
-date: "2025-12-30"
+title: 'Alternatywy dla beehiiv: co wybrać zamiast i kiedy to ma sens'
+slug: alternatywy
+path: /narzedzia/beehiiv/alternatywy/
+template: default
+type: alternatives
+date: '2025-12-30'
 seo:
-  title: "Alternatywy dla beehiiv: Substack, Kit, Ghost, MailerLite, GetResponse i inne (werdykt PL)"
-  description: "Nie każde „narzędzie do newslettera” robi to samo. Zobacz najlepsze alternatywy dla beehiiv i wybierz platformę pod Twój scenariusz: media, twórcy, automatyzacje sprzedaży, e-commerce, budżet."
+  title: >-
+    Alternatywy dla beehiiv: Substack, Kit, Ghost, MailerLite, GetResponse i
+    inne (werdykt PL)
+  description: >-
+    Nie każde „narzędzie do newslettera” robi to samo. Zobacz najlepsze
+    alternatywy dla beehiiv i wybierz platformę pod Twój scenariusz: media,
+    twórcy, automatyzacje sprzedaży, e-commerce, budżet.
   keywords:
     - beehiiv alternatywy
     - Substack vs beehiiv
@@ -16,24 +21,44 @@ seo:
     - MailerLite newsletter
     - GetResponse newsletter
 meta:
-  updatedAt: "2025-12-30"
-  format: "porównanie"
-  topics: ["newsletter", "email marketing", "monetyzacja", "twórcy", "publishing"]
+  updatedAt: '2025-12-30'
+  format: porównanie
+  topics:
+    - newsletter
+    - email marketing
+    - monetyzacja
+    - twórcy
+    - publishing
   summaryBullets:
-    - "Najbliżej filozofii beehiiv (newsletter jako produkt) są Substack i Ghost, ale każdy ma inny model kosztów i kontroli."
-    - "Jeśli chcesz automatyzacji i sprzedaży w lejkach, Kit albo ActiveCampaign częściej będą lepszym wyborem niż beehiiv."
-    - "Jeśli liczysz budżet i chcesz prostoty, MailerLite i Brevo są bezpiecznymi, praktycznymi alternatywami."
+    - >-
+      Najbliżej filozofii beehiiv (newsletter jako produkt) są Substack i Ghost,
+      ale każdy ma inny model kosztów i kontroli.
+    - >-
+      Jeśli chcesz automatyzacji i sprzedaży w lejkach, Kit albo ActiveCampaign
+      częściej będą lepszym wyborem niż beehiiv.
+    - >-
+      Jeśli liczysz budżet i chcesz prostoty, MailerLite i Brevo są
+      bezpiecznymi, praktycznymi alternatywami.
   primaryCta:
-    label: "Porównaj z cennikiem beehiiv"
-    href: "/narzedzia/beehiiv/cennik/"
-    rel: "nofollow"
+    label: Porównaj z cennikiem beehiiv
+    href: /narzedzia/beehiiv/cennik/
+    rel: nofollow
   secondaryCta:
-    label: "Przeczytaj pełną recenzję beehiiv"
-    href: "/narzedzia/beehiiv/recenzja/"
-    rel: "nofollow"
+    label: Przeczytaj pełną recenzję beehiiv
+    href: /narzedzia/beehiiv/recenzja/
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia", "Newsletter"]
-  tags: ["beehiiv", "alternatywy", "substack", "kit", "ghost", "mailerlite", "getresponse"]
+  categories:
+    - Narzędzia
+    - Newsletter
+  tags:
+    - beehiiv
+    - alternatywy
+    - substack
+    - kit
+    - ghost
+    - mailerlite
+    - getresponse
 ---
 
 Beehiiv jest świetny, gdy budujesz newsletter jak produkt: wzrost + monetyzacja w jednym miejscu. Ale jeśli Twój scenariusz jest inny, to są narzędzia, które zrobią Ci robotę szybciej, taniej albo z większą kontrolą.

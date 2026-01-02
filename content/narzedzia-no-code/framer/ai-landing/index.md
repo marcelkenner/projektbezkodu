@@ -41,13 +41,15 @@ meta:
     - >-
       To świetne narzędzie do szybkich testów, kampanii i MVP – nie do
       wszystkiego.
-    - Klucz do sukcesu to dobry brief, sensowny prompt i ręczne dopracowanie copy.
+    - >-
+      Klucz do sukcesu to dobry brief, sensowny prompt i ręczne dopracowanie
+      copy.
   metrics:
     - label: Czas do pierwszego draftu landinga
       value: 2–5 minut
       description: >-
-        Wygenerowany przez Framer AI układ strony z przykładową treścią, gotowy do
-        edycji.
+        Wygenerowany przez Framer AI układ strony z przykładową treścią, gotowy
+        do edycji.
     - label: Czas do wersji „można puszczać kampanię”
       value: 30–60 minut
       description: >-

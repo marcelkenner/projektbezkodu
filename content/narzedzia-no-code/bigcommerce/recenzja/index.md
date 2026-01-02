@@ -1,26 +1,38 @@
 ---
-title: "Recenzja BigCommerce: dla kogo to jest świetna platforma, a kto przepłaci"
-slug: "recenzja"
-path: "/narzedzia/bigcommerce/recenzja/"
-template: "default"
-type: "recenzja"
-date: "2026-01-02"
+title: 'Recenzja BigCommerce: dla kogo to jest świetna platforma, a kto przepłaci'
+slug: recenzja
+path: /narzedzia/bigcommerce/recenzja/
+template: default
+type: recenzja
+date: '2026-01-02'
 seo:
-  title: "BigCommerce – recenzja 2026: werdykt, ceny, plusy i minusy (PL)"
-  description: "Uczciwa, konkretna recenzja BigCommerce dla polskiego rynku: kiedy platforma dowozi skalowanie, a kiedy lepiej wybrać Shopify, WooCommerce lub rozwiązania lokalne."
+  title: 'BigCommerce – recenzja 2026: werdykt, ceny, plusy i minusy (PL)'
+  description: >-
+    Uczciwa, konkretna recenzja BigCommerce dla polskiego rynku: kiedy platforma
+    dowozi skalowanie, a kiedy lepiej wybrać Shopify, WooCommerce lub
+    rozwiązania lokalne.
 meta:
-  format: "SaaS"
-  updatedAt: "2026-01-02"
-  topics: "bigcommerce, e-commerce, platforma sklepowa, b2b, headless commerce, porównanie"
+  format: SaaS
+  updatedAt: '2026-01-02'
+  topics: >-
+    bigcommerce, e-commerce, platforma sklepowa, b2b, headless commerce,
+    porównanie
   primaryCta:
-    label: "Uruchom 15-dniowy trial BigCommerce (bez karty)"
-    href: "https://www.bigcommerce.com/essentials/pricing/faq/"
+    label: Uruchom 15-dniowy trial BigCommerce (bez karty)
+    href: https://www.bigcommerce.com/essentials/pricing/faq/
   secondaryCta:
-    label: "Zobacz alternatywy BigCommerce"
-    href: "/narzedzia/bigcommerce/alternatywy/"
+    label: Zobacz alternatywy BigCommerce
+    href: /narzedzia/bigcommerce/alternatywy/
 taxonomy:
-  categories: ["E-commerce", "Recenzje"]
-  tags: ["BigCommerce", "SaaS", "B2B", "headless", "sklep internetowy"]
+  categories:
+    - E-commerce
+    - Recenzje
+  tags:
+    - BigCommerce
+    - SaaS
+    - B2B
+    - headless
+    - sklep internetowy
 ---
 
 BigCommerce jest platformą dla firm, które traktują e-commerce jak proces, a nie projekt graficzny. Jeśli rośniesz, masz zespół i chcesz spokojnie skalować bez cotygodniowego „gaszenia” problemów z wtyczkami, BigCommerce ma sens. Jeśli startujesz małym budżetem w Polsce i chcesz maksymalnie lokalnego ekosystemu w PLN, to nie jest narzędzie na Twój etap.

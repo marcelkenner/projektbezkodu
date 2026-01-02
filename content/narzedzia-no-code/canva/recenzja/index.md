@@ -4,23 +4,42 @@ slug: canva-recenzja
 path: /narzedzia/canva/recenzja
 template: default
 type: review
-date: "2026-01-02"
+date: '2026-01-02'
 hero:
   heading: Canva – recenzja bez lukru
-  subheading: Jeśli robisz marketing, ofertę albo social media „na bieżąco”, Canva jest po prostu najszybszą drogą do sensownego efektu. Jeśli żyjesz w Figma/Adobe — potraktuj ją jako narzędzie pomocnicze.
+  subheading: >-
+    Jeśli robisz marketing, ofertę albo social media „na bieżąco”, Canva jest po
+    prostu najszybszą drogą do sensownego efektu. Jeśli żyjesz w Figma/Adobe —
+    potraktuj ją jako narzędzie pomocnicze.
 seo:
-  title: Canva – recenzja 2026: dla kogo jest, kiedy warto Pro/Business, a kiedy lepiej wybrać coś innego
-  description: Konkretna recenzja Canvy: mocne strony, wkurzające ograniczenia, uczciwa ocena planów i szybki test, który pokaże, czy Canva pasuje do Twojej pracy.
+  title: >-
+    Canva – recenzja 2026: dla kogo jest, kiedy warto Pro/Business, a kiedy
+    lepiej wybrać coś innego
+  description: >-
+    Konkretna recenzja Canvy: mocne strony, wkurzające ograniczenia, uczciwa
+    ocena planów i szybki test, który pokaże, czy Canva pasuje do Twojej pracy.
   canonical: https://www.canva.com/pl_pl/
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   format: recenzja
-  topics: [canva, grafika, marketing, social media, prezentacje, ai]
+  topics:
+    - canva
+    - grafika
+    - marketing
+    - social media
+    - prezentacje
+    - ai
   summaryBullets:
-    - Canva wygrywa w marketingu i małych firmach, bo skraca drogę od „pomysł” do „gotowe”.
-    - Największy zwrot z Pro czujesz, gdy robisz wiele formatów i chcesz spójnego brandu.
-    - Jeśli potrzebujesz precyzji DTP albo projektowania produktowego — Canva ma sens jako dodatek, nie jako główne narzędzie.
+    - >-
+      Canva wygrywa w marketingu i małych firmach, bo skraca drogę od „pomysł”
+      do „gotowe”.
+    - >-
+      Największy zwrot z Pro czujesz, gdy robisz wiele formatów i chcesz
+      spójnego brandu.
+    - >-
+      Jeśli potrzebujesz precyzji DTP albo projektowania produktowego — Canva ma
+      sens jako dodatek, nie jako główne narzędzie.
   review:
     productName: Canva
     productUrl: https://www.canva.com/pl_pl/
@@ -28,7 +47,10 @@ meta:
     bestRating: 5
     worstRating: 1
     author: Zespół redakcyjny
-    body: Szybkie tworzenie materiałów marketingowych bez konieczności bycia grafikiem. Najlepsza w tempie i powtarzalności, słabsza w „pikselowej” kontroli.
+    body: >-
+      Szybkie tworzenie materiałów marketingowych bez konieczności bycia
+      grafikiem. Najlepsza w tempie i powtarzalności, słabsza w „pikselowej”
+      kontroli.
     pros:
       - Szybkość i szablony, które faktycznie dowożą
       - Spójność marki w zespole (gdy trzymasz się zasad)
@@ -44,8 +66,17 @@ meta:
     label: Zobacz Magic Studio (AI)
     href: https://www.canva.com/magic/
 taxonomy:
-  categories: [Narzędzia, Grafika, Marketing]
-  tags: [canva, recenzja, marketing, social media, ai, szablony]
+  categories:
+    - Narzędzia
+    - Grafika
+    - Marketing
+  tags:
+    - canva
+    - recenzja
+    - marketing
+    - social media
+    - ai
+    - szablony
 ---
 
 ## Werdykt w 30 sekund

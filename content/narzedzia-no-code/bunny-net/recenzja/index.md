@@ -1,19 +1,31 @@
 ---
-title: "Recenzja bunny.net: CDN, storage i optymalizacja obrazów bez umów"
-slug: "recenzja"
-path: "/narzedzia/bunny-net/recenzja/"
+title: 'Recenzja bunny.net: CDN, storage i optymalizacja obrazów bez umów'
+slug: recenzja
+path: /narzedzia/bunny-net/recenzja/
 draft: false
-template: "default"
-type: "review"
-date: "2026-01-02"
+template: default
+type: review
+date: '2026-01-02'
 hero:
-  heading: "bunny.net — recenzja narzędzia, które wygrywa ceną, gdy liczysz złotówki za transfer"
-  subheading: "Werdykt: jeśli prowadzisz polski e-commerce, serwis contentowy albo SaaS i chcesz tanio przyspieszyć statyczne zasoby (obrazy, CSS/JS, pliki do pobrania), bunny.net jest jedną z najrozsądniejszych decyzji. Jeśli Twoim priorytetem jest „wszystko w jednym” z darmowym planem, DNS i rozbudowaną warstwą bezpieczeństwa od ręki — Cloudflare bywa prostszym startem."
-  primaryCta: "Zacznij od testu"
-  secondaryCta: "Zobacz cennik"
+  heading: >-
+    bunny.net — recenzja narzędzia, które wygrywa ceną, gdy liczysz złotówki za
+    transfer
+  subheading: >-
+    Werdykt: jeśli prowadzisz polski e-commerce, serwis contentowy albo SaaS i
+    chcesz tanio przyspieszyć statyczne zasoby (obrazy, CSS/JS, pliki do
+    pobrania), bunny.net jest jedną z najrozsądniejszych decyzji. Jeśli Twoim
+    priorytetem jest „wszystko w jednym” z darmowym planem, DNS i rozbudowaną
+    warstwą bezpieczeństwa od ręki — Cloudflare bywa prostszym startem.
+  primaryCta: Zacznij od testu
+  secondaryCta: Zobacz cennik
 seo:
-  title: "bunny.net — recenzja (CDN, storage, optymalizacja obrazów). Czy warto w 2026?"
-  description: "Szczera recenzja bunny.net dla polskiego rynku: dla kogo to najlepszy CDN, jak działa cache, ile realnie kosztuje transfer, plusy/minusy i kiedy lepiej wybrać Cloudflare lub Fastly."
+  title: >-
+    bunny.net — recenzja (CDN, storage, optymalizacja obrazów). Czy warto w
+    2026?
+  description: >-
+    Szczera recenzja bunny.net dla polskiego rynku: dla kogo to najlepszy CDN,
+    jak działa cache, ile realnie kosztuje transfer, plusy/minusy i kiedy lepiej
+    wybrać Cloudflare lub Fastly.
   keywords:
     - bunny.net
     - Bunny CDN
@@ -21,37 +33,37 @@ seo:
     - optymalizacja obrazów
     - hosting statyczny
     - performance
-  canonical: "/narzedzia/bunny-net/recenzja/"
+  canonical: /narzedzia/bunny-net/recenzja/
   image: null
   noindex: false
   nofollow: false
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   author: null
   hasAffiliateLinks: false
-  format: "artykuł"
+  format: artykuł
   topics:
-    - "CDN"
-    - "Wydajność strony"
-    - "Obrazy"
-    - "WordPress"
+    - CDN
+    - Wydajność strony
+    - Obrazy
+    - WordPress
   primaryCta:
-    label: "Przetestuj bunny.net"
-    href: "https://dash.bunny.net"
-    rel: "nofollow noopener"
+    label: Przetestuj bunny.net
+    href: https://dash.bunny.net
+    rel: nofollow noopener
   secondaryCta:
-    label: "Sprawdź cennik bunny.net"
-    href: "/narzedzia/bunny-net/cennik/"
+    label: Sprawdź cennik bunny.net
+    href: /narzedzia/bunny-net/cennik/
     rel: null
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "CDN"
-    - "hosting"
-    - "optymalizacja obrazów"
-    - "WordPress"
-    - "wydajność"
+    - CDN
+    - hosting
+    - optymalizacja obrazów
+    - WordPress
+    - wydajność
 ---
 
 # bunny.net — recenzja

@@ -6,20 +6,37 @@ template: default
 type: tool
 hero:
   heading: Canva
-  subheading: Najszybszy sposób, żeby Twoje materiały wyglądały „jak od grafika” — nawet jeśli nie jesteś grafikiem.
+  subheading: >-
+    Najszybszy sposób, żeby Twoje materiały wyglądały „jak od grafika” — nawet
+    jeśli nie jesteś grafikiem.
 seo:
-  title: Canva – narzędzie do projektowania dla marketingu, freelancerów i małych firm
-  description: Konkretna ocena Canvy: dla kogo to jest, kiedy działa świetnie, a kiedy lepiej wybrać Figma/Adobe/Affinity. Plus: jak zacząć w 10 minut.
+  title: >-
+    Canva – narzędzie do projektowania dla marketingu, freelancerów i małych
+    firm
+  description: >-
+    Konkretna ocena Canvy: dla kogo to jest, kiedy działa świetnie, a kiedy
+    lepiej wybrać Figma/Adobe/Affinity. Plus: jak zacząć w 10 minut.
   canonical: https://www.canva.com/pl_pl/
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
   format: narzędzie
-  topics: [grafika, marketing, social media, prezentacje, AI]
+  topics:
+    - grafika
+    - marketing
+    - social media
+    - prezentacje
+    - AI
   summaryBullets:
-    - Najlepsze narzędzie dla osób, które muszą szybko dowozić materiały marketingowe bez wsparcia grafika.
-    - Największa wartość rośnie, gdy pracujesz „na szablonach” i chcesz trzymać spójny brand.
-    - Jeśli żyjesz w zaawansowanym UI/produktowym designie lub precyzyjnym DTP — Canva będzie Cię ograniczać.
+    - >-
+      Najlepsze narzędzie dla osób, które muszą szybko dowozić materiały
+      marketingowe bez wsparcia grafika.
+    - >-
+      Największa wartość rośnie, gdy pracujesz „na szablonach” i chcesz trzymać
+      spójny brand.
+    - >-
+      Jeśli żyjesz w zaawansowanym UI/produktowym designie lub precyzyjnym DTP —
+      Canva będzie Cię ograniczać.
   primaryCta:
     label: Wypróbuj Canvę za darmo
     href: https://www.canva.com/pl_pl/
@@ -27,8 +44,17 @@ meta:
     label: Zobacz narzędzia AI (Magic Studio)
     href: https://www.canva.com/magic/
 taxonomy:
-  categories: [Narzędzia, Grafika, Marketing]
-  tags: [canva, projektowanie, szablony, social media, prezentacje, ai]
+  categories:
+    - Narzędzia
+    - Grafika
+    - Marketing
+  tags:
+    - canva
+    - projektowanie
+    - szablony
+    - social media
+    - prezentacje
+    - ai
 ---
 
 ## Werdykt: czy Canva ma sens dla Ciebie?

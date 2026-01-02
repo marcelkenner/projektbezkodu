@@ -1,32 +1,62 @@
 ---
-title: "Campsite.bio – recenzja"
+title: Campsite.bio – recenzja
 slug: campsite-bio-recenzja
 path: /narzedzia/campsite-bio/recenzja/
 template: default
 type: tool-review
 seo:
-  title: "Campsite.bio – recenzja: kiedy to najlepszy „link w bio”, a kiedy przepłacasz"
-  description: "Uczciwa recenzja Campsite.bio dla polskich twórców i małych marek. Mocne strony, realne ograniczenia, analityka, monetyzacja i jasny werdykt: Free vs Pro vs Pro+."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/recenzja/"
+  title: >-
+    Campsite.bio – recenzja: kiedy to najlepszy „link w bio”, a kiedy
+    przepłacasz
+  description: >-
+    Uczciwa recenzja Campsite.bio dla polskich twórców i małych marek. Mocne
+    strony, realne ograniczenia, analityka, monetyzacja i jasny werdykt: Free vs
+    Pro vs Pro+.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/recenzja/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  tools: ["Social media", "Landing page", "Analityka", "Monetyzacja", "Integracje"]
-  topics: ["Campsite.bio", "link w bio", "Instagram", "TikTok", "analityka kliknięć", "piksel", "Google Tag Manager"]
+  updatedAt: '2026-01-02'
+  tools:
+    - Social media
+    - Landing page
+    - Analityka
+    - Monetyzacja
+    - Integracje
+  topics:
+    - Campsite.bio
+    - link w bio
+    - Instagram
+    - TikTok
+    - analityka kliknięć
+    - piksel
+    - Google Tag Manager
   summaryBullets:
-    - "Najlepsze dla twórców i małych firm, które chcą uporządkować ruch z social i mierzyć kliknięcia bez budowania strony."
-    - "Plan Pro (7 USD/mies.) to sensowne minimum, jeśli chcesz własną domenę, piksele i porządną analitykę."
-    - "Pro+ ma sens głównie, gdy zarządzasz wieloma profilami i potrzebujesz analityki „lifetime” oraz eksportu CSV."
+    - >-
+      Najlepsze dla twórców i małych firm, które chcą uporządkować ruch z social
+      i mierzyć kliknięcia bez budowania strony.
+    - >-
+      Plan Pro (7 USD/mies.) to sensowne minimum, jeśli chcesz własną domenę,
+      piksele i porządną analitykę.
+    - >-
+      Pro+ ma sens głównie, gdy zarządzasz wieloma profilami i potrzebujesz
+      analityki „lifetime” oraz eksportu CSV.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Przetestuj Campsite.bio (trial)"
-    href: "https://app.campsite.bio/"
+    label: Przetestuj Campsite.bio (trial)
+    href: https://app.campsite.bio/
   secondaryCta:
-    label: "Sprawdź cennik i plany"
-    href: "/narzedzia/campsite-bio/cennik/"
+    label: Sprawdź cennik i plany
+    href: /narzedzia/campsite-bio/cennik/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["link w bio", "Instagram", "TikTok", "Linktree alternatywa", "analityka", "piksel"]
+  categories:
+    - Narzędzia
+  tags:
+    - link w bio
+    - Instagram
+    - TikTok
+    - Linktree alternatywa
+    - analityka
+    - piksel
 ---
 
 # Campsite.bio – recenzja dla twórców i małych marek w Polsce

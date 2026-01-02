@@ -1,34 +1,61 @@
 ---
-title: "Alternatywy Canvy: co wybrać zamiast (i kiedy Canva nadal wygrywa)"
-slug: "canva-alternatywy"
-path: "/narzedzia/canvar/alternatywy/"
-template: "default"
-type: "alternatives"
-date: "2026-01-02"
+title: 'Alternatywy Canvy: co wybrać zamiast (i kiedy Canva nadal wygrywa)'
+slug: canva-alternatywy
+path: /narzedzia/canvar/alternatywy/
+template: default
+type: alternatives
+date: '2026-01-02'
 hero:
-  heading: "Alternatywy Canvy, które mają sens"
-  subheading: "Canva jest świetna do szybkiego marketingu. Ale jeśli potrzebujesz UI, prezentacji „pod sprzedaż”, albo pracy bez abonamentu — są lepsze wybory."
+  heading: Alternatywy Canvy, które mają sens
+  subheading: >-
+    Canva jest świetna do szybkiego marketingu. Ale jeśli potrzebujesz UI,
+    prezentacji „pod sprzedaż”, albo pracy bez abonamentu — są lepsze wybory.
 seo:
-  title: "Alternatywy Canvy (2026): najlepsze zamienniki dla marketingu, prezentacji i designu"
-  description: "Porównanie alternatyw Canvy: Adobe Express, VistaCreate, Figma, Piktochart, Visme, Beautiful.ai, Gamma, Affinity, Photopea i darmowe open source. Jasny wybór pod scenariusz."
+  title: >-
+    Alternatywy Canvy (2026): najlepsze zamienniki dla marketingu, prezentacji i
+    designu
+  description: >-
+    Porównanie alternatyw Canvy: Adobe Express, VistaCreate, Figma, Piktochart,
+    Visme, Beautiful.ai, Gamma, Affinity, Photopea i darmowe open source. Jasny
+    wybór pod scenariusz.
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
-  format: "alternatywy"
-  topics: ["grafika", "marketing", "prezentacje", "ui", "ai", "open source"]
+  format: alternatywy
+  topics:
+    - grafika
+    - marketing
+    - prezentacje
+    - ui
+    - ai
+    - open source
   summaryBullets:
-    - "Jeśli robisz marketing i chcesz Canvę „tylko lepiej pod Adobe” — bierz Adobe Express."
-    - "Jeśli Twoim produktem są prezentacje, a nie posty — Beautiful.ai lub Gamma będą szybsze niż Canva."
-    - "Jeśli projektujesz UI i systemy — Canva przegrywa z Figmą z definicji."
+    - >-
+      Jeśli robisz marketing i chcesz Canvę „tylko lepiej pod Adobe” — bierz
+      Adobe Express.
+    - >-
+      Jeśli Twoim produktem są prezentacje, a nie posty — Beautiful.ai lub Gamma
+      będą szybsze niż Canva.
+    - Jeśli projektujesz UI i systemy — Canva przegrywa z Figmą z definicji.
   primaryCta:
-    label: "Wróć do recenzji Canvy"
-    href: "/narzedzia/canva/recenzja/"
+    label: Wróć do recenzji Canvy
+    href: /narzedzia/canva/recenzja/
   secondaryCta:
-    label: "Zobacz FAQ o Canvie"
-    href: "/narzedzia/canva/faq/"
+    label: Zobacz FAQ o Canvie
+    href: /narzedzia/canva/faq/
 taxonomy:
-  categories: ["Narzędzia", "Grafika", "Marketing"]
-  tags: ["canva", "alternatywy", "adobe express", "figma", "piktochart", "vistacreate", "prezentacje"]
+  categories:
+    - Narzędzia
+    - Grafika
+    - Marketing
+  tags:
+    - canva
+    - alternatywy
+    - adobe express
+    - figma
+    - piktochart
+    - vistacreate
+    - prezentacje
 ---
 
 ## Werdykt: Canva nie jest „dla wszystkich” i to jest OK

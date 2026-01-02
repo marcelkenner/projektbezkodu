@@ -5,8 +5,11 @@ path: /narzedzia/beehiiv/
 template: default
 type: narzedzie
 seo:
-  title: "beehiiv – platforma newsletterowa do wzrostu i monetyzacji (werdykt dla PL)"
-  description: "Jeśli traktujesz newsletter jak produkt medialny, beehiiv to jeden z najrozsądniejszych wyborów: wzrost, analityka i monetyzacja w jednym miejscu. Sprawdź, czy pasuje do Twojego scenariusza."
+  title: beehiiv – platforma newsletterowa do wzrostu i monetyzacji (werdykt dla PL)
+  description: >-
+    Jeśli traktujesz newsletter jak produkt medialny, beehiiv to jeden z
+    najrozsądniejszych wyborów: wzrost, analityka i monetyzacja w jednym
+    miejscu. Sprawdź, czy pasuje do Twojego scenariusza.
   keywords:
     - beehiiv
     - newsletter
@@ -14,19 +17,29 @@ seo:
     - platforma newsletterowa
     - alternatywa dla Substack
 meta:
-  updatedAt: "2025-12-30"
-  format: "landing"
+  updatedAt: '2025-12-30'
+  format: landing
   topics:
     - newsletter
     - email marketing
     - creator economy
   summaryBullets:
-    - "Najlepsze dla twórców i firm, które budują newsletter jak biznes (wzrost + monetyzacja)."
-    - "Darmowy start i sensowne progi rozwoju, ale część funkcji monetyzacji bywa zależna od regionu."
-    - "Jeśli potrzebujesz klasycznej marketing automation (CRM, lead scoring, złożone ścieżki), to nie jest główny fokus beehiiv."
+    - >-
+      Najlepsze dla twórców i firm, które budują newsletter jak biznes (wzrost +
+      monetyzacja).
+    - >-
+      Darmowy start i sensowne progi rozwoju, ale część funkcji monetyzacji bywa
+      zależna od regionu.
+    - >-
+      Jeśli potrzebujesz klasycznej marketing automation (CRM, lead scoring,
+      złożone ścieżki), to nie jest główny fokus beehiiv.
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["newsletter", "monetyzacja", "publishing"]
+  categories:
+    - Narzędzia
+  tags:
+    - newsletter
+    - monetyzacja
+    - publishing
 ---
 
 # beehiiv: narzędzie do newslettera, który ma rosnąć i zarabiać

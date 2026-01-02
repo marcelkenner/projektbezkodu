@@ -1,31 +1,61 @@
 ---
-title: "Campsite.bio – e-commerce w Polsce"
+title: Campsite.bio – e-commerce w Polsce
 slug: ecommerce-pl
 path: /narzedzia/campsite-bio/ecommerce-pl/
 template: default
 type: tool-use-case
 seo:
-  title: "Campsite.bio a e-commerce w Polsce: co sprzedasz, a gdzie odbijesz się od ściany"
-  description: "Campsite.bio świetnie domyka sprzedaż z social jako „link w bio”, ale nie zastąpi sklepu. W PL działa najlepiej jako bramka do Shopify/WooCommerce/Shoper + tracking (UTM, GTM) albo mikro-sprzedaż przez PayPal (Request/Support)."
+  title: >-
+    Campsite.bio a e-commerce w Polsce: co sprzedasz, a gdzie odbijesz się od
+    ściany
+  description: >-
+    Campsite.bio świetnie domyka sprzedaż z social jako „link w bio”, ale nie
+    zastąpi sklepu. W PL działa najlepiej jako bramka do
+    Shopify/WooCommerce/Shoper + tracking (UTM, GTM) albo mikro-sprzedaż przez
+    PayPal (Request/Support).
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["e-commerce", "link w bio", "sprzedaż z Instagrama", "PayPal", "UTM", "GTM", "prawa konsumenta", "RODO"]
-  tools: ["Social media", "Analityka", "Tracking", "E-commerce"]
+  updatedAt: '2026-01-02'
+  topics:
+    - e-commerce
+    - link w bio
+    - sprzedaż z Instagrama
+    - PayPal
+    - UTM
+    - GTM
+    - prawa konsumenta
+    - RODO
+  tools:
+    - Social media
+    - Analityka
+    - Tracking
+    - E-commerce
   summaryBullets:
-    - "Campsite.bio jest świetne do kierowania ruchu do sklepu i mierzenia kampanii, ale nie jest sklepem."
-    - "Wbudowana monetyzacja opiera się o PayPal (Request/Support) i obsługuje PLN, więc nadaje się do usług i mikro-ofert."
-    - "Jeśli sprzedajesz fizyczne produkty w PL na większą skalę, najbezpieczniej: sklep na własnej domenie + Campsite jako bramka z social."
+    - >-
+      Campsite.bio jest świetne do kierowania ruchu do sklepu i mierzenia
+      kampanii, ale nie jest sklepem.
+    - >-
+      Wbudowana monetyzacja opiera się o PayPal (Request/Support) i obsługuje
+      PLN, więc nadaje się do usług i mikro-ofert.
+    - >-
+      Jeśli sprzedajesz fizyczne produkty w PL na większą skalę,
+      najbezpieczniej: sklep na własnej domenie + Campsite jako bramka z social.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Załóż konto w Campsite.bio"
-    href: "https://app.campsite.bio/"
+    label: Załóż konto w Campsite.bio
+    href: https://app.campsite.bio/
   secondaryCta:
-    label: "Sprawdź cennik"
-    href: "https://campsite.bio/pricing"
+    label: Sprawdź cennik
+    href: https://campsite.bio/pricing
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["e-commerce", "Instagram", "sprzedaż", "tracking", "PayPal"]
+  categories:
+    - Narzędzia
+  tags:
+    - e-commerce
+    - Instagram
+    - sprzedaż
+    - tracking
+    - PayPal
 ---
 
 # Campsite.bio i e-commerce w Polsce – szybki werdykt

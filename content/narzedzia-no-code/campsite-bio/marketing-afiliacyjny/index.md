@@ -1,32 +1,61 @@
 ---
-title: "Campsite.bio – marketing afiliacyjny"
+title: Campsite.bio – marketing afiliacyjny
 slug: marketing-afiliacyjny
 path: /narzedzia/campsite-bio/marketing-afiliacyjny/
 template: default
 type: tool-use-case
 seo:
-  title: "Campsite.bio w afiliacji: jak zarabiać na linkach i nie wpaść w kryptoreklamę"
-  description: "Campsite.bio to mocny „link w bio” dla afiliantów, jeśli liczysz kliknięcia, robisz kampanie i chcesz tracking (UTM, GTM, piksele). Dostajesz też proste zasady oznaczania reklam w Polsce."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/marketing-afiliacyjny/"
+  title: >-
+    Campsite.bio w afiliacji: jak zarabiać na linkach i nie wpaść w
+    kryptoreklamę
+  description: >-
+    Campsite.bio to mocny „link w bio” dla afiliantów, jeśli liczysz kliknięcia,
+    robisz kampanie i chcesz tracking (UTM, GTM, piksele). Dostajesz też proste
+    zasady oznaczania reklam w Polsce.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/marketing-afiliacyjny/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  topics: ["marketing afiliacyjny", "linki afiliacyjne", "oznaczanie reklam", "UTM", "GTM", "analityka", "Instagram", "TikTok"]
-  tools: ["Social media", "Analityka", "Tracking", "Affiliate marketing"]
+  updatedAt: '2026-01-02'
+  topics:
+    - marketing afiliacyjny
+    - linki afiliacyjne
+    - oznaczanie reklam
+    - UTM
+    - GTM
+    - analityka
+    - Instagram
+    - TikTok
+  tools:
+    - Social media
+    - Analityka
+    - Tracking
+    - Affiliate marketing
   summaryBullets:
-    - "Campsite.bio ma sens w afiliacji, jeśli traktujesz bio jak mini-landing do konwersji i chcesz mierzyć kampanie."
-    - "Plan Pro to praktyczne minimum, bo UTM i integracje Google są funkcjami Pro."
-    - "Linki afiliacyjne w Polsce musisz oznaczać jako materiały reklamowe – najlepiej czytelnie i dwupoziomowo."
+    - >-
+      Campsite.bio ma sens w afiliacji, jeśli traktujesz bio jak mini-landing do
+      konwersji i chcesz mierzyć kampanie.
+    - >-
+      Plan Pro to praktyczne minimum, bo UTM i integracje Google są funkcjami
+      Pro.
+    - >-
+      Linki afiliacyjne w Polsce musisz oznaczać jako materiały reklamowe –
+      najlepiej czytelnie i dwupoziomowo.
   hasAffiliateLinks: false
   primaryCta:
-    label: "Załóż konto w Campsite.bio"
-    href: "https://app.campsite.bio/"
+    label: Załóż konto w Campsite.bio
+    href: https://app.campsite.bio/
   secondaryCta:
-    label: "Przeczytaj recenzję"
-    href: "/narzedzia/campsite-bio/recenzja/"
+    label: Przeczytaj recenzję
+    href: /narzedzia/campsite-bio/recenzja/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["afiliacja", "link w bio", "UTM", "GTM", "oznaczanie reklam"]
+  categories:
+    - Narzędzia
+  tags:
+    - afiliacja
+    - link w bio
+    - UTM
+    - GTM
+    - oznaczanie reklam
 ---
 
 # Campsite.bio w marketingu afiliacyjnym – werdykt bez ściemy

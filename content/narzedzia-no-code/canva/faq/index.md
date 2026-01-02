@@ -1,44 +1,65 @@
 ---
-title: Canva Empower Faq
-slug: faq
-path: /narzedzia/canva-empower/faq/
-draft: true
-date: '2025-11-05'
+title: Canva – FAQ (najczęstsze pytania w Polsce)
+slug: canva-faq
+path: /narzedzia/canva/faq/
+template: default
+type: faq
+date: '2026-01-02'
 hero:
-  image:
-    src: /img/article_image.jpeg
-    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
-  heading: Canva Empower Faq---
-title: "Canva – FAQ (najczęstsze pytania w Polsce)"
-slug: "canva-faq"
-path: "/narzedzia/canva/faq/"
-template: "default"
-type: "faq"
-date: "2026-01-02"
-hero:
-  heading: "Canva FAQ"
-  subheading: "Konkretne odpowiedzi na pytania, które realnie padają w polskich firmach, u freelancerów i w marketingu. Bez mitów i bez lania wody."
+  heading: Canva FAQ
+  subheading: >-
+    Konkretne odpowiedzi na pytania, które realnie padają w polskich firmach, u
+    freelancerów i w marketingu. Bez mitów i bez lania wody.
 seo:
-  title: "Canva FAQ 2026: ceny, licencja, komercyjne użycie, AI, Teams vs Business, eksport i faktury"
-  description: "FAQ o Canvie: czy można używać komercyjnie, jak działa trial, zwroty, faktury/VAT, formaty eksportu, planowanie sociali, licencje (muzyka, szablony), limity AI i bezpieczeństwo."
+  title: >-
+    Canva FAQ 2026: ceny, licencja, komercyjne użycie, AI, Teams vs Business,
+    eksport i faktury
+  description: >-
+    FAQ o Canvie: czy można używać komercyjnie, jak działa trial, zwroty,
+    faktury/VAT, formaty eksportu, planowanie sociali, licencje (muzyka,
+    szablony), limity AI i bezpieczeństwo.
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
-  format: "faq"
-  topics: ["canva", "grafika", "marketing", "licencje", "social media", "ai", "fakturowanie", "bezpieczeństwo"]
+  format: faq
+  topics:
+    - canva
+    - grafika
+    - marketing
+    - licencje
+    - social media
+    - ai
+    - fakturowanie
+    - bezpieczeństwo
   summaryBullets:
-    - "Canva jest darmowa dla każdej osoby, ale Pro jest realnym minimum, jeśli robisz content regularnie."
-    - "Możesz używać Canvy komercyjnie, ale musisz rozumieć ograniczenia licencji (zwłaszcza muzyka, znaki towarowe, odsprzedaż treści)."
-    - "Teams nie jest dla nowych zapisów — nowe zespoły najczęściej lądują na Business."
+    - >-
+      Canva jest darmowa dla każdej osoby, ale Pro jest realnym minimum, jeśli
+      robisz content regularnie.
+    - >-
+      Możesz używać Canvy komercyjnie, ale musisz rozumieć ograniczenia licencji
+      (zwłaszcza muzyka, znaki towarowe, odsprzedaż treści).
+    - >-
+      Teams nie jest dla nowych zapisów — nowe zespoły najczęściej lądują na
+      Business.
   primaryCta:
-    label: "Wypróbuj Canvę za darmo"
-    href: "https://www.canva.com/pl_pl/"
+    label: Wypróbuj Canvę za darmo
+    href: https://www.canva.com/pl_pl/
   secondaryCta:
-    label: "Zobacz cennik Canvy"
-    href: "/narzedzia/canva/cennik"
+    label: Zobacz cennik Canvy
+    href: /narzedzia/canva/cennik
 taxonomy:
-  categories: ["Narzędzia", "Grafika", "Marketing"]
-  tags: ["canva", "faq", "licencja", "pro", "business", "ai", "content planner"]
+  categories:
+    - Narzędzia
+    - Grafika
+    - Marketing
+  tags:
+    - canva
+    - faq
+    - licencja
+    - pro
+    - business
+    - ai
+    - content planner
 ---
 
 ## Werdykt: po tej stronie przestajesz zgadywać

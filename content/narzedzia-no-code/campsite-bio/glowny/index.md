@@ -5,27 +5,53 @@ path: /narzedzia/campsite-bio/
 template: default
 type: tool
 seo:
-  title: "Campsite.bio: link w bio, który naprawdę porządkuje ruch z Instagrama i TikToka"
-  description: "Campsite.bio to narzędzie typu „link w bio” dla twórców, marek i małych firm. Sprawdź, kiedy warto wejść w Pro, kiedy Pro+, i kiedy lepiej wybrać prostszą alternatywę."
-  canonical: "https://twojadomena.pl/narzedzia/campsite-bio/"
+  title: >-
+    Campsite.bio: link w bio, który naprawdę porządkuje ruch z Instagrama i
+    TikToka
+  description: >-
+    Campsite.bio to narzędzie typu „link w bio” dla twórców, marek i małych
+    firm. Sprawdź, kiedy warto wejść w Pro, kiedy Pro+, i kiedy lepiej wybrać
+    prostszą alternatywę.
+  canonical: https://twojadomena.pl/narzedzia/campsite-bio/
 meta:
   format: SaaS
-  updatedAt: "2026-01-02"
-  tools: ["Social media", "Landing page", "Analityka", "Marketing"]
-  topics: ["link w bio", "Instagram", "TikTok", "landing page", "analityka kliknięć"]
+  updatedAt: '2026-01-02'
+  tools:
+    - Social media
+    - Landing page
+    - Analityka
+    - Marketing
+  topics:
+    - link w bio
+    - Instagram
+    - TikTok
+    - landing page
+    - analityka kliknięć
   summaryBullets:
-    - "Najlepsze dla twórców i małych firm, które chcą mieć jeden link i sensowną analitykę kliknięć."
-    - "Plan Pro (7 USD/mies.) to realistyczne minimum, jeśli traktujesz bio jako narzędzie sprzedaży."
-    - "Pro+ ma sens, gdy zarządzasz wieloma profilami i chcesz analitykę „na lata” z eksportem."
+    - >-
+      Najlepsze dla twórców i małych firm, które chcą mieć jeden link i sensowną
+      analitykę kliknięć.
+    - >-
+      Plan Pro (7 USD/mies.) to realistyczne minimum, jeśli traktujesz bio jako
+      narzędzie sprzedaży.
+    - >-
+      Pro+ ma sens, gdy zarządzasz wieloma profilami i chcesz analitykę „na
+      lata” z eksportem.
   primaryCta:
-    label: "Przetestuj Campsite.bio za darmo"
-    href: "https://app.campsite.bio/"
+    label: Przetestuj Campsite.bio za darmo
+    href: https://app.campsite.bio/
   secondaryCta:
-    label: "Zobacz pełną recenzję"
-    href: "/narzedzia/campsite-bio/recenzja/"
+    label: Zobacz pełną recenzję
+    href: /narzedzia/campsite-bio/recenzja/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["link w bio", "Instagram", "TikTok", "landing page", "Linktree alternatywa"]
+  categories:
+    - Narzędzia
+  tags:
+    - link w bio
+    - Instagram
+    - TikTok
+    - landing page
+    - Linktree alternatywa
 ---
 
 # Campsite.bio – werdykt dla twórców, marek i małych firm

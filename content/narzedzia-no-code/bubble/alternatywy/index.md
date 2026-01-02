@@ -5,13 +5,21 @@ path: /narzedzia/bubble/alternatywy/
 template: default
 type: alternatywy
 hero:
-  heading: Alternatywy dla Bubble: co wybrać, gdy Bubble nie pasuje
-  subheading: Bubble jest mocny, ale nie jest „dla wszystkich”. Jeśli chcesz mobile-first, narzędzia wewnętrzne albo mniejszy lock-in, tu masz sensowne zamienniki dobrane do scenariuszy.
+  heading: 'Alternatywy dla Bubble: co wybrać, gdy Bubble nie pasuje'
+  subheading: >-
+    Bubble jest mocny, ale nie jest „dla wszystkich”. Jeśli chcesz mobile-first,
+    narzędzia wewnętrzne albo mniejszy lock-in, tu masz sensowne zamienniki
+    dobrane do scenariuszy.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź cennik
 seo:
-  title: Alternatywy dla Bubble (2026): WeWeb, FlutterFlow, Retool, Softr i inne – wybór wg use case
-  description: Najlepsze alternatywy dla Bubble, dobrane pod konkretne potrzeby: aplikacje web, mobile-first, narzędzia wewnętrzne, portale na danych, enterprise low-code. Jasne werdykty i szybki wybór.
+  title: >-
+    Alternatywy dla Bubble (2026): WeWeb, FlutterFlow, Retool, Softr i inne –
+    wybór wg use case
+  description: >-
+    Najlepsze alternatywy dla Bubble, dobrane pod konkretne potrzeby: aplikacje
+    web, mobile-first, narzędzia wewnętrzne, portale na danych, enterprise
+    low-code. Jasne werdykty i szybki wybór.
   keywords:
     - bubble alternatywy
     - bubble vs weweb
@@ -20,10 +28,17 @@ seo:
     - no-code alternatywy
     - low-code platformy
 meta:
-  tools: ["Bubble"]
+  tools:
+    - Bubble
   format: porównanie
-  topics: ["no-code", "low-code", "alternatywy", "aplikacje web", "aplikacje mobilne", "internal tools"]
-  updatedAt: "2026-01-02"
+  topics:
+    - no-code
+    - low-code
+    - alternatywy
+    - aplikacje web
+    - aplikacje mobilne
+    - internal tools
+  updatedAt: '2026-01-02'
   primaryCta:
     label: Recenzja Bubble
     href: /narzedzia/bubble/recenzja/
@@ -31,8 +46,13 @@ meta:
     label: Cennik Bubble
     href: /narzedzia/bubble/cennik/
 taxonomy:
-  categories: ["No-code", "Narzędzia"]
-  tags: ["Bubble", "Alternatywy", "Porównanie"]
+  categories:
+    - No-code
+    - Narzędzia
+  tags:
+    - Bubble
+    - Alternatywy
+    - Porównanie
 ---
 
 Jeśli rozważasz Bubble, ale coś Ci nie gra, to dobrze. W no-code najdroższy błąd to wybrać narzędzie „bo popularne”, a potem miesiącami walczyć z ograniczeniami, które były oczywiste od początku.

@@ -1,40 +1,45 @@
 ---
-title: "bunny.net FAQ – najczęstsze pytania o CDN, Storage i Optimizer"
-slug: "faq"
-path: "/narzedzia/bunny-net/faq"
-template: "default"
-type: "guide"
+title: bunny.net FAQ – najczęstsze pytania o CDN, Storage i Optimizer
+slug: faq
+path: /narzedzia/bunny-net/faq
+template: default
+type: guide
 seo:
-  title: "bunny.net FAQ: CDN, Storage, SSL, cache i rozliczenia – odpowiedzi bez lania wody"
-  description: "Najczęstsze pytania o bunny.net: jak działa billing na kredyty, minimalny koszt, SSL na własnej domenie, purge cache, WordPress, Bunny Storage i Optimizer."
+  title: >-
+    bunny.net FAQ: CDN, Storage, SSL, cache i rozliczenia – odpowiedzi bez lania
+    wody
+  description: >-
+    Najczęstsze pytania o bunny.net: jak działa billing na kredyty, minimalny
+    koszt, SSL na własnej domenie, purge cache, WordPress, Bunny Storage i
+    Optimizer.
   keywords:
-    - "bunny.net"
-    - "Bunny CDN"
-    - "CDN"
-    - "Bunny Storage"
-    - "Bunny Optimizer"
-    - "purge cache"
-    - "SSL"
-    - "WordPress"
-  canonical: "https://twojadomena.pl/narzedzia/bunny-net/faq/"
-  image:
+    - bunny.net
+    - Bunny CDN
+    - CDN
+    - Bunny Storage
+    - Bunny Optimizer
+    - purge cache
+    - SSL
+    - WordPress
+  canonical: https://twojadomena.pl/narzedzia/bunny-net/faq/
+  image: null
 meta:
-  updatedAt: "2026-01-02"
+  updatedAt: '2026-01-02'
   hasAffiliateLinks: false
-  format: "faq"
+  format: faq
   topics:
-    - "CDN"
-    - "Wydajność stron"
-    - "WordPress"
-    - "Hosting statyczny"
+    - CDN
+    - Wydajność stron
+    - WordPress
+    - Hosting statyczny
 taxonomy:
   categories:
-    - "Narzędzia"
+    - Narzędzia
   tags:
-    - "CDN"
-    - "Performance"
-    - "WordPress"
-    - "DevOps"
+    - CDN
+    - Performance
+    - WordPress
+    - DevOps
 ---
 
 Jeśli szukasz krótkich, twardych odpowiedzi: bunny.net to jedna z najbardziej „zdroworozsądkowych” platform edge dla stron i aplikacji. Płacisz za użycie, konfigurujesz raz, a potem po prostu dowozisz szybkie assety bez pilnowania serwerów.
