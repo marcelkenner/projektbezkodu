@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "vitest run",
     "content:format": "node scripts/format-frontmatter.mjs",
     "content:narzedzia:hero": "node scripts/fix-narzedzia-hero-heading.mjs",
     "content:sections:hero": "node scripts/fix-section-hero-headings.mjs",
@@ -46,6 +47,8 @@
     "prettier": "^3.6.2",
     "svgo": "^4.0.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^6.0.3",
+    "vitest": "^4.0.16"
   }
 }

@@ -42,6 +42,8 @@ All markdown lives under `content/**`. Each file **must**:
 
 The `/artykuly` listing now aggregates every markdown file with `template: "article"` (and `draft: false`) no matter where it lives under `content/**`. Keep `template` + `path` accurate whenever you expect a piece to appear in that listing.
 
+Tool hubs: `/narzedzia/<tool>/` is a grid listing, while the tool’s main guide is readable at `/narzedzia/<tool>/glowny/` and sourced from `content/narzedzia-no-code/<tool>/glowny/index.md`.
+
 Because the generic renderer preloads every markdown file, a single malformed front matter block can break the site. Run `npm run content:lint` locally (it executes automatically on `npm run build`) to catch errors early. The script lists each offending file plus the YAML parser message so you know what to fix.
 
 ## Asset routing hardening

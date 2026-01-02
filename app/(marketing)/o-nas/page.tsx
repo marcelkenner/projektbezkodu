@@ -24,6 +24,9 @@ export default function AboutPage() {
       <PrinciplesSection />
       <CallToActionSection />
       <OrganizationJsonLd />
+      <div hidden>
+        Impact-Site-Verification: 80851192-0f7d-4e68-a254-c9273052d334
+      </div>
     </section>
   );
 }

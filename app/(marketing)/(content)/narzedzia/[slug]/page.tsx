@@ -3,9 +3,11 @@ import { notFound } from "next/navigation";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
+import { ToolChildArticlesManager } from "@/app/lib/content/ToolChildArticlesManager";
 
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
+const childArticlesManager = new ToolChildArticlesManager(library);
 interface ToolPageProps {
   params: Promise<{ slug: string }>;
 }
@@ -39,7 +41,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
     notFound();
   }
 
-  const childArticles = listChildArticles(slug);
+  const childArticles = childArticlesManager.list(slug);
 
   return (
     <section className="section section--surface" id="content">
@@ -64,41 +66,4 @@ export default async function ToolPage({ params }: ToolPageProps) {
       </div>
     </section>
   );
-}
-
-function listChildArticles(slug: string) {
-  return library
-    .listRoutes()
-    .filter(
-      (entry) =>
-        entry.path.startsWith(`/narzedzia/${slug}/`) &&
-        entry.segments.length >= 2 &&
-        entry.document.frontmatter.draft !== true,
-    )
-    .map((entry) => {
-      const fm = entry.document.frontmatter;
-      const hero =
-        fm.hero?.image?.src ??
-        fm.meta?.heroImageSrc ??
-        "/img/tools_hero_image.webp";
-      const description =
-        fm.hero?.subheading ?? fm.seo?.description ?? entry.document.excerpt;
-      const primaryCategory = fm.taxonomy?.categories?.[0];
-      return {
-        title: fm.title ?? entry.segments.at(-1) ?? "Artykuł",
-        description,
-        path: entry.path,
-        hero: {
-          src: hero,
-          alt: fm.hero?.image?.alt ?? fm.meta?.heroImageAlt ?? fm.title,
-          fallbackSrc: "/img/tools_hero_image.webp",
-        },
-        meta: {
-          duration: fm.meta?.duration,
-          publishedAt: fm.date,
-          extra: primaryCategory ? [{ label: primaryCategory }] : [],
-        },
-      };
-    })
-    .sort((a, b) => a.title.localeCompare(b.title, "pl"));
 }

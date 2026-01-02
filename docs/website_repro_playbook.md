@@ -139,7 +139,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 	   - `generateStaticParams` returning slugs.
 	   - `generateMetadata` reading frontmatter.
 	   - Render body with `MarkdownRenderer`.
-	   - Tool pages (`app/(marketing)/(content)/narzedzia/[slug]/page.tsx`) are category listings only. They use `content/narzedzia-no-code/{slug}/glowny/index.md` for route existence + metadata, but the UI intentionally renders *only* an `ArticleGrid` of pages under `/narzedzia/{slug}/...` (including the tool’s main page). No hero, no share panel, no summary bullets, no CTAs.
+	   - Tool pages (`app/(marketing)/(content)/narzedzia/[slug]/page.tsx`) are category listings only. They use `content/narzedzia-no-code/{slug}/glowny/index.md` for route existence + metadata, but the UI intentionally renders *only* an `ArticleGrid` of pages under `/narzedzia/{slug}/...` (including `/narzedzia/{slug}/glowny/`). No hero, no share panel, no summary bullets, no CTAs.
 	   - Tutorial detail pages (`/poradniki/[slug]`) must reuse the shared article layout (`article-page__layout` + `ArticleSharePanel`) used on `/narzedzia` so spacing, TOC placement, and CTAs stay consistent; keep any download/TOC blocks inside that sidebar column.
 	   - Templates (`/szablony/[slug]`) and comparisons (`/porownania/[slug]`) also inherit this article layout; place summary bullets + CTA group above the body, and render body content inside `article-page__layout` so all detail pages feel identical.
    - Every content detail page ends with the shared `AuthorCard` for Marcel Kenner (Business/System Analyst, 5+ years experience). Use avatar `/img/authors/marcel_kenner_image.webp` and link to `https://www.linkedin.com/in/marcel-kenner/`.
@@ -151,7 +151,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 	9. Generic fallback route: `/app/(marketing)/(content)/[...segments]/page.tsx`:
 	   - Uses `ContentPageCoordinator` to locate any markdown path under `content/**`.
 	   - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure, then rewrites the last segment to a slugified `frontmatter.title` so every content URL ends with the page title.
-	   - Treats `content/**/glowny/index.md` as the parent route when deriving paths (so tool landing pages can live in `glowny/` without changing the URL).
+	   - Treats `content/**/glowny/index.md` as the parent route when deriving paths (so tool landing pages can live in `glowny/` without changing the URL), while also exposing an explicit alias route at `/<parent>/glowny/` for reading the main guide content.
 	   - Applies `ContentPageViewModel` metadata so SEO + OG tags inherit from frontmatter.
 	   - Excludes `_examples` and `glossary` (handled elsewhere) to avoid duplicate flows.
 10. Every markdown-driven route renders clickable breadcrumbs via `BreadcrumbComposer` + `Breadcrumbs`; never surface raw `viewModel.getPath()` strings because editors rely on those links to jump between listing pages and detail screens.
@@ -164,7 +164,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 	4. Share the editor playbook (`docs/content_editor_playbook.md`) with the content team; keep it updated alongside this document.
 	5. Keep the tool-of-the-week assets current (`data/tools.json`, `data/tool-of-week.json`, and supporting imagery under `public/images/tools/`).
 	6. Track operational follow-ups (legal, audits, assets) under `docs/operations/`.
-	7. Tool content convention: store tool metadata at `content/narzedzia-no-code/<tool>/glowny/index.md` (front matter; body ignored) and every tool-specific article under `content/narzedzia-no-code/<tool>/**/index.md` (any depth). The `/narzedzia/<tool>/` page renders only the recursive `ArticleGrid` (including the tool’s main page).
+	7. Tool content convention: store tool metadata + main guide content at `content/narzedzia-no-code/<tool>/glowny/index.md` and every tool-specific article under `content/narzedzia-no-code/<tool>/**/index.md` (any depth). The `/narzedzia/<tool>/` page renders only the recursive `ArticleGrid`, while the main guide is readable at `/narzedzia/<tool>/glowny/`.
 
 ## 12. QA & Tooling
 

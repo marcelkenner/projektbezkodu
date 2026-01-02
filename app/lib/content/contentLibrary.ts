@@ -64,6 +64,14 @@ export class ContentLibrary {
         ...route,
         document,
       });
+
+      const glownyAliasRoute = this.resolveGlownyAliasRoute(route, document);
+      if (glownyAliasRoute && !routeMap.has(glownyAliasRoute.path)) {
+        routeMap.set(glownyAliasRoute.path, {
+          ...glownyAliasRoute,
+          document,
+        });
+      }
     });
 
     return Array.from(routeMap.values()).sort((a, b) =>
@@ -143,6 +151,42 @@ export class ContentLibrary {
     }
 
     return this.ensureWrappedSlashes(segments.join("/"));
+  }
+
+  private resolveGlownyAliasRoute(
+    route: Pick<ContentRouteEntry, "path" | "segments">,
+    document: MarkdownDocument,
+  ): Pick<ContentRouteEntry, "path" | "segments"> | undefined {
+    if (!this.isGlownyIndexDocument(document)) {
+      return undefined;
+    }
+
+    if (route.segments.at(-1) === "glowny") {
+      return undefined;
+    }
+
+    const segments = [...route.segments, "glowny"];
+    return {
+      path: this.ensureWrappedSlashes(segments.join("/")),
+      segments,
+    };
+  }
+
+  private isGlownyIndexDocument(document: MarkdownDocument): boolean {
+    const normalized = document.sourcePath.replace(/\\/g, "/");
+    if (!normalized.startsWith("content/")) {
+      return false;
+    }
+
+    const relativePath = normalized.replace(/^content\//, "");
+    if (!relativePath) {
+      return false;
+    }
+
+    const parsed = path.parse(relativePath);
+    const segments = parsed.dir.split("/").filter(Boolean);
+
+    return parsed.name === "index" && segments.at(-1) === "glowny";
   }
 
   private normalizeSegments(segments?: string[]): string | undefined {
