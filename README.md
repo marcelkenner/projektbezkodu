@@ -50,6 +50,23 @@ Because the generic renderer preloads every markdown file, a single malformed fr
 
 Newsletter forms (`/api/newsletter/*`) redirect using `Forwarded` / `X-Forwarded-*` headers when present; ensure your reverse proxy forwards them so redirects keep the public origin.
 
+Listmonk calls are executed with `cache: "no-store"`, timeouts, and small retries for transient failures (configurable via `LISTMONK_RETRY_ATTEMPTS`, `LISTMONK_RETRY_MIN_DELAY_MS`, `LISTMONK_RETRY_MAX_DELAY_MS`). Subscribe may redirect with `?warning=optin-delayed` when the signup succeeded but the opt-in email dispatch needs a retry.
+
+### Newsletter (Railway + Listmonk)
+
+Configure **the Next.js service** (this repo) with:
+
+- `LISTMONK_BASE_URL` (example: `https://listmonk-production-f778.up.railway.app`)
+- `LISTMONK_API_TOKEN` (Listmonk API user + token in the format `api_user:token`; sent as `Authorization: token api_user:token`)
+- `LISTMONK_LIST_ID` (numeric list ID)
+- `LISTMONK_LIST_UUID` (list UUID string)
+- `LISTMONK_TIMEOUT_MS` (optional, default `10000`)
+- `LISTMONK_RETRY_ATTEMPTS`, `LISTMONK_RETRY_MIN_DELAY_MS`, `LISTMONK_RETRY_MAX_DELAY_MS` (optional)
+
+Configure **the Listmonk service** to listen on a public interface (for example `[app].address = "0.0.0.0:9000"`; via env this is `LISTMONK_app__address`). When deployed behind Railway, ensure the service actually binds to the port Railway routes to.
+
+If you land on `/newsletter?error=listmonk-error` in production, check your Railway logs for `Newsletter subscribe failed` (status codes like 401/403 usually mean token/permissions; 4xx can mean wrong base URL or list ID; 5xx typically means Listmonk is down/unreachable).
+
 ## Asset routing hardening
 
 Chunk load failures caused by malformed `/_next//_next/...` URLs are auto-normalised by middleware and `next.config` rewrites. Keep any future rewrites consistent with this rule and avoid adding double slashes to asset paths.
@@ -71,6 +88,7 @@ You can expand the file with new UI copy or taxonomy terms as needed:
 ## Documentation
 
 - `docs/website_repro_playbook.md` – canonical process manual (update whenever workflows change).
+- `docs/newsletter_listmonk_railway.md` – environment + deployment notes for newsletter/Listmonk on Railway.
 - `docs/glossary_todo.md` – open plan for the glossary refactor.
 - `content/AGENTS.md`, `data/AGENTS.md`, etc. – directory-level guardrails.
 

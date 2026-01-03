@@ -9,6 +9,50 @@
       "title": "Dołącz do newslettera ProjektBezKodu 80/20",
       "intro": "Raz w tygodniu dostaniesz checklistę, 3 sekcje do przeniesienia 1:1 i jedną automatyzację, która odciąża cię z godzin powtarzalnej pracy.",
       "formCta": "Dołącz do newslettera"
+    },
+    "form": {
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "mój@adres.pl",
+      "consentLabel": "Wyrażam zgodę na otrzymywanie newslettera ProjektBezKodu.",
+      "helper": "Zawsze możesz zaktualizować preferencje lub się wypisać jednym kliknięciem."
+    },
+    "alerts": {
+      "success": {
+        "title": "Gotowe",
+        "message": "Wysłaliśmy prośbę o potwierdzenie subskrypcji."
+      },
+      "invalidEmail": {
+        "title": "Sprawdź adres",
+        "message": "Podaj poprawny adres e-mail i spróbuj ponownie."
+      },
+      "consentRequired": {
+        "title": "Brakuje zgody",
+        "message": "Zaznacz zgodę, aby otrzymywać newsletter."
+      },
+      "rateLimited": {
+        "title": "Za dużo prób",
+        "message": "Spróbuj ponownie za chwilę."
+      },
+      "timeout": {
+        "title": "Timeout",
+        "message": "Serwer newslettera nie odpowiedział na czas. Spróbuj ponownie."
+      },
+      "serviceUnavailable": {
+        "title": "Niedostępne",
+        "message": "Usługa newslettera jest chwilowo niedostępna. Spróbuj ponownie za chwilę."
+      },
+      "serviceMisconfigured": {
+        "title": "Konfiguracja",
+        "message": "Usługa newslettera jest chwilowo źle skonfigurowana. Spróbuj ponownie później."
+      },
+      "listmonkError": {
+        "title": "Nie udało się zapisać",
+        "message": "Serwer newslettera chwilowo nie działa. Spróbuj ponownie za chwilę."
+      },
+      "unexpected": {
+        "title": "Błąd",
+        "message": "Coś poszło nie tak. Spróbuj ponownie."
+      }
     }
   },
   "confirm": {
@@ -25,6 +69,48 @@
       "label": "Wyślij mail ponownie",
       "waitingLabel": "Wyślij ponownie za 15 s",
       "description": "Jeśli wiadomość nie dotarła, po krótkim czasie możesz poprosić o jej ponowne wysłanie."
+    },
+    "alerts": {
+      "success": {
+        "title": "Wysłane",
+        "message": "Prośba o potwierdzenie została wysłana."
+      },
+      "resent": {
+        "title": "Wysłane ponownie",
+        "message": "Wysłaliśmy wiadomość ponownie."
+      },
+      "missingContext": {
+        "title": "Brakuje danych",
+        "message": "Nie odnaleźliśmy Twojego adresu. Zapisz się ponownie."
+      },
+      "optinDelayed": {
+        "title": "Możliwe opóźnienie",
+        "message": "Zapis się udał, ale wysyłka maila potwierdzającego mogła się opóźnić. Użyj „Wyślij mail ponownie”."
+      },
+      "rateLimited": {
+        "title": "Za dużo prób",
+        "message": "Spróbuj ponownie za chwilę."
+      },
+      "timeout": {
+        "title": "Timeout",
+        "message": "Serwer newslettera nie odpowiedział na czas. Spróbuj ponownie."
+      },
+      "serviceUnavailable": {
+        "title": "Niedostępne",
+        "message": "Usługa newslettera jest chwilowo niedostępna. Spróbuj ponownie za chwilę."
+      },
+      "serviceMisconfigured": {
+        "title": "Konfiguracja",
+        "message": "Usługa newslettera jest chwilowo źle skonfigurowana. Spróbuj ponownie później."
+      },
+      "listmonkError": {
+        "title": "Nie udało się",
+        "message": "Nie udało się ponownie wysłać wiadomości."
+      },
+      "unexpected": {
+        "title": "Błąd",
+        "message": "Coś poszło nie tak. Spróbuj ponownie."
+      }
     }
   },
   "thanks": {
@@ -78,7 +164,45 @@
         "description": "Scenariusze Make, Zapiera i gotowe integracje CRM, które odciążają zespół z powtarzalnych zadań."
       }
     ],
-    "submitLabel": "Zapisz preferencje"
+    "submitLabel": "Zapisz preferencje",
+    "alerts": {
+      "preferencesSaved": {
+        "title": "Zapisane",
+        "message": "Twoje preferencje zostały zaktualizowane."
+      },
+      "missingSubscriber": {
+        "title": "Brakuje identyfikatora",
+        "message": "Brakuje identyfikatora subskrybenta. Użyj linku z newslettera."
+      },
+      "topicsRequired": {
+        "title": "Wybierz temat",
+        "message": "Wybierz co najmniej jedną kategorię."
+      },
+      "rateLimited": {
+        "title": "Za dużo prób",
+        "message": "Spróbuj ponownie za chwilę."
+      },
+      "timeout": {
+        "title": "Timeout",
+        "message": "Serwer newslettera nie odpowiedział na czas. Spróbuj ponownie."
+      },
+      "serviceUnavailable": {
+        "title": "Niedostępne",
+        "message": "Usługa newslettera jest chwilowo niedostępna. Spróbuj ponownie za chwilę."
+      },
+      "serviceMisconfigured": {
+        "title": "Konfiguracja",
+        "message": "Usługa newslettera jest chwilowo źle skonfigurowana. Spróbuj ponownie później."
+      },
+      "listmonkError": {
+        "title": "Nie udało się",
+        "message": "Nie udało się zapisać preferencji. Spróbuj ponownie."
+      },
+      "unexpected": {
+        "title": "Błąd",
+        "message": "Coś poszło nie tak. Spróbuj ponownie."
+      }
+    }
   },
   "unsubscribe": {
     "seo": {
@@ -101,6 +225,40 @@
       "message": "Czy na pewno chcesz zakończyć subskrypcję newslettera ProjektBezKodu? Przestaniemy wysyłać nowe materiały na ten adres.",
       "confirm": "Tak, wypisz mnie",
       "cancel": "Anuluj"
+    },
+    "alerts": {
+      "unsubscribed": {
+        "title": "Wypisane",
+        "message": "Wypisaliśmy Cię z newslettera."
+      },
+      "missingSubscriber": {
+        "title": "Link wygasł",
+        "message": "Ten link wygasł. Użyj ostatniego e-maila, aby się wypisać."
+      },
+      "rateLimited": {
+        "title": "Za dużo prób",
+        "message": "Spróbuj ponownie za chwilę."
+      },
+      "timeout": {
+        "title": "Timeout",
+        "message": "Serwer newslettera nie odpowiedział na czas. Spróbuj ponownie."
+      },
+      "serviceUnavailable": {
+        "title": "Niedostępne",
+        "message": "Usługa newslettera jest chwilowo niedostępna. Spróbuj ponownie za chwilę."
+      },
+      "serviceMisconfigured": {
+        "title": "Konfiguracja",
+        "message": "Usługa newslettera jest chwilowo źle skonfigurowana. Spróbuj ponownie później."
+      },
+      "listmonkError": {
+        "title": "Nie udało się",
+        "message": "Nie udało się wypisać. Spróbuj ponownie."
+      },
+      "unexpected": {
+        "title": "Błąd",
+        "message": "Coś poszło nie tak. Spróbuj ponownie."
+      }
     }
   }
 }

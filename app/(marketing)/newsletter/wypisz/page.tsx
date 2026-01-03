@@ -3,6 +3,7 @@ import { getCopy } from "@/app/lib/copy";
 import styles from "./../newsletter.module.css";
 import { NewsletterUnsubscribeForm } from "../NewsletterUnsubscribeForm";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
+import { NewsletterAlertResolver } from "@/app/(marketing)/newsletter/NewsletterAlertResolver";
 
 const copy = getCopy("newsletter");
 
@@ -28,7 +29,13 @@ export default async function NewsletterUnsubscribePage({
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const parser = new SearchParamParser(resolvedSearchParams);
   const subscriberUuid = parser.getSingle("subscriber");
-  const alert = resolveAlert(parser);
+  const resolver = new NewsletterAlertResolver({
+    subscribe: copy.base.alerts,
+    confirm: copy.confirm.alerts,
+    preferences: copy.preferences.alerts,
+    unsubscribe: copy.unsubscribe.alerts,
+  });
+  const alert = resolver.resolveUnsubscribe(parser);
 
   return (
     <section className={styles.newsletterPage} id="content">
@@ -44,30 +51,9 @@ export default async function NewsletterUnsubscribePage({
             confirmation: copy.unsubscribe.confirmation,
           }}
           subscriberUuid={subscriberUuid}
-          alertMessage={alert}
+          alert={alert}
         />
       </div>
     </section>
   );
-}
-
-function resolveAlert(parser: SearchParamParser): string | null {
-  const status = parser.getSingle("status");
-  const error = parser.getSingle("error");
-
-  if (!status && !error) {
-    return null;
-  }
-
-  if (status === "unsubscribed") {
-    return "Wypisaliśmy Cię z newslettera.";
-  }
-  switch (error) {
-    case "missing-subscriber":
-      return "Ten link wygasł. Użyj ostatniego e-maila, aby się wypisać.";
-    case "unexpected":
-      return "Nie udało się wypisać. Spróbuj ponownie.";
-    default:
-      return null;
-  }
 }

@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { getCopy } from "@/app/lib/copy";
 import styles from "./../newsletter.module.css";
 import { ResendButton } from "../ResendButton";
+import { Alert } from "@/app/ui";
 import {
   buildResendCookieOptions,
   buildSubscriberCookieOptions,
@@ -11,6 +12,7 @@ import {
 } from "@/app/lib/newsletter/cookies";
 import { getResendCooldownSeconds } from "@/app/lib/newsletter/NewsletterManager";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
+import { NewsletterAlertResolver } from "@/app/(marketing)/newsletter/NewsletterAlertResolver";
 
 const copy = getCopy("newsletter");
 
@@ -42,7 +44,13 @@ export default async function NewsletterConfirmPage({
   const resend = parseResendCookie(cookieStore.get(resendCookie.name)?.value);
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const parser = new SearchParamParser(resolvedSearchParams);
-  const alert = resolveAlert(parser);
+  const resolver = new NewsletterAlertResolver({
+    subscribe: copy.base.alerts,
+    confirm: copy.confirm.alerts,
+    preferences: copy.preferences.alerts,
+    unsubscribe: copy.unsubscribe.alerts,
+  });
+  const alert = resolver.resolveConfirm(parser);
 
   return (
     <section className={styles.newsletterPage} id="content">
@@ -51,6 +59,11 @@ export default async function NewsletterConfirmPage({
           <h1>{copy.confirm.hero.title}</h1>
           <p>{copy.confirm.hero.intro}</p>
         </header>
+        {alert ? (
+          <Alert variant={alert.variant} title={alert.title}>
+            {alert.message}
+          </Alert>
+        ) : null}
         <div className={styles.newsletterPage__actions}>
           <ResendButton
             label={copy.confirm.resend.label}
@@ -62,39 +75,8 @@ export default async function NewsletterConfirmPage({
           <span className={styles.newsletterPage__info}>
             {copy.confirm.resend.description}
           </span>
-          <p
-            role="status"
-            aria-live="polite"
-            className={styles.newsletterPage__info}
-          >
-            {alert ?? "\u00A0"}
-          </p>
         </div>
       </div>
     </section>
   );
-}
-
-function resolveAlert(parser: SearchParamParser): string | null {
-  const status = parser.getSingle("status");
-  const error = parser.getSingle("error");
-
-  if (!status && !error) {
-    return null;
-  }
-
-  if (status === "success") {
-    return "Prośba o potwierdzenie została wysłana.";
-  }
-  if (status === "resent") {
-    return "Wysłaliśmy wiadomość ponownie.";
-  }
-  switch (error) {
-    case "missing-context":
-      return "Nie odnaleźliśmy Twojego adresu. Zapisz się ponownie.";
-    case "listmonk-error":
-      return "Nie udało się ponownie wysłać wiadomości.";
-    default:
-      return null;
-  }
 }

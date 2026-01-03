@@ -2,14 +2,18 @@ import {
   NewsletterManager,
   getDefaultTopics,
 } from "@/app/lib/newsletter/NewsletterManager";
-import { ListmonkError } from "@/app/lib/newsletter/ListmonkClient";
 import {
   buildSubscriberCookieOptions,
   serializeSubscriberCookie,
 } from "@/app/lib/newsletter/cookies";
 import { NewsletterRedirector } from "@/app/api/newsletter/NewsletterRedirector";
+import { NewsletterErrorMapper } from "@/app/api/newsletter/NewsletterErrorMapper";
 
 const redirector = new NewsletterRedirector();
+const errorMapper = new NewsletterErrorMapper();
+
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 export async function POST(request: Request) {
   // instantiate manager lazily inside the handler to avoid importing
@@ -34,23 +38,27 @@ export async function POST(request: Request) {
   }
 
   try {
-    const subscriber = await manager.subscribe({
+    const result = await manager.subscribe({
       email,
       topics: getDefaultTopics(),
       consentSource: "projektbezkodu.pl",
     });
 
-    const response = redirector.redirect(request, "/newsletter/potwierdz/", {
-      status: "success",
-    });
+    const response = redirector.redirect(
+      request,
+      "/newsletter/potwierdz/",
+      result.optInSent
+        ? { status: "success" }
+        : { status: "success", warning: "optin-delayed" },
+    );
 
     const cookie = buildSubscriberCookieOptions();
     response.cookies.set(
       cookie.name,
       serializeSubscriberCookie({
-        id: subscriber.id,
-        uuid: subscriber.uuid,
-        email: subscriber.email,
+        id: result.subscriber.id,
+        uuid: result.subscriber.uuid,
+        email: result.subscriber.email,
       }),
       cookie.attributes,
     );
@@ -59,17 +67,7 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("Newsletter subscribe failed", error);
     return redirector.redirect(request, "/newsletter", {
-      error: mapError(error),
+      error: errorMapper.mapSubscribe(error),
     });
   }
-}
-
-function mapError(error: unknown): string {
-  if (error instanceof ListmonkError) {
-    if (error.status === 422) {
-      return "invalid-email";
-    }
-    return "listmonk-error";
-  }
-  return "unexpected";
 }

@@ -10,12 +10,15 @@ import {
   UpdateSubscriberPayload,
 } from "@/app/lib/newsletter/types";
 import { getNewsletterConfig } from "@/app/lib/newsletter/config";
+import { AsyncSleeper } from "@/app/lib/newsletter/AsyncSleeper";
+import { ListmonkRetryPolicy } from "@/app/lib/newsletter/ListmonkRetryPolicy";
 
 export class ListmonkError extends Error {
   constructor(
     message: string,
     public readonly status: number,
     public readonly payload?: unknown,
+    public readonly retryAfterSeconds?: number,
   ) {
     super(message);
     this.name = "ListmonkError";
@@ -30,7 +33,11 @@ export class ListmonkClient {
     Authorization: `token ${this.config.apiToken}`,
   };
 
-  constructor(private readonly config = getNewsletterConfig()) {}
+  constructor(
+    private readonly config = getNewsletterConfig(),
+    private readonly retryPolicy = new ListmonkRetryPolicy(),
+    private readonly sleeper = new AsyncSleeper(),
+  ) {}
 
   async createSubscriber(
     payload: CreateSubscriberPayload,
@@ -96,6 +103,41 @@ export class ListmonkClient {
   }
 
   private async request<T>(path: string, init?: RequestInit): Promise<T> {
+    const attempts = Math.max(0, this.config.retryAttempts);
+    let attempt = 0;
+
+    while (true) {
+      try {
+        return await this.requestOnce<T>(path, init);
+      } catch (error) {
+        const normalized =
+          error instanceof ListmonkError
+            ? error
+            : new ListmonkError(
+                error instanceof Error ? error.message : "Unknown Listmonk error",
+                503,
+              );
+        const retryAfterSeconds = this.readRetryAfterSeconds(
+          normalized.retryAfterSeconds,
+        );
+        const { shouldRetry, delayMs } = this.retryPolicy.decide({
+          attempt,
+          maxAttempts: attempts,
+          status: normalized.status,
+          retryAfterSeconds,
+          minDelayMs: this.config.retryMinDelayMs,
+          maxDelayMs: this.config.retryMaxDelayMs,
+        });
+        if (!shouldRetry) {
+          throw normalized;
+        }
+        await this.sleeper.sleep(delayMs);
+        attempt += 1;
+      }
+    }
+  }
+
+  private async requestOnce<T>(path: string, init?: RequestInit): Promise<T> {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), this.config.timeoutMs);
 
@@ -110,18 +152,23 @@ export class ListmonkClient {
         signal: controller.signal,
       });
 
-      const contentType = response.headers.get("content-type") ?? "";
-      const payload = contentType.includes("application/json")
-        ? await response.json()
-        : null;
-
+      const payload = await this.readResponsePayload(response);
+      const retryAfterSeconds = this.readRetryAfterHeaderSeconds(response);
       if (!response.ok) {
-        const message =
-          (payload && typeof payload === "object" && "message" in payload
-            ? String(payload.message)
-            : `Listmonk request failed: ${response.status}`) ??
-          "Request failed";
-        throw new ListmonkError(message, response.status, payload ?? undefined);
+        throw new ListmonkError(
+          this.extractMessage(payload, response.status),
+          response.status,
+          payload ?? undefined,
+          retryAfterSeconds,
+        );
+      }
+
+      if (!payload) {
+        throw new ListmonkError(
+          "Listmonk returned an unexpected response",
+          502,
+          payload ?? undefined,
+        );
       }
 
       return payload as T;
@@ -134,10 +181,64 @@ export class ListmonkClient {
       }
       throw new ListmonkError(
         error instanceof Error ? error.message : "Unknown Listmonk error",
-        500,
+        503,
       );
     } finally {
       clearTimeout(timeout);
     }
+  }
+
+  private async readResponsePayload(response: Response): Promise<unknown | null> {
+    const contentType = response.headers.get("content-type") ?? "";
+    if (!contentType.includes("application/json")) {
+      return null;
+    }
+    try {
+      return await response.json();
+    } catch {
+      return null;
+    }
+  }
+
+  private extractMessage(payload: unknown, status: number): string {
+    const candidate = this.readPayloadMessage(payload);
+    if (candidate) {
+      return candidate;
+    }
+    return `Listmonk request failed: ${status}`;
+  }
+
+  private readPayloadMessage(payload: unknown): string | null {
+    if (!payload || typeof payload !== "object") {
+      return null;
+    }
+    const value = payload as Record<string, unknown>;
+    const direct = value.message ?? value.error;
+    if (typeof direct === "string" && direct.trim().length) {
+      return direct.trim();
+    }
+    if (typeof value.data === "object" && value.data !== null) {
+      const nested = (value.data as Record<string, unknown>).message;
+      if (typeof nested === "string" && nested.trim().length) {
+        return nested.trim();
+      }
+    }
+    return null;
+  }
+
+  private readRetryAfterSeconds(value: number | undefined): number | null {
+    if (typeof value !== "number" || !Number.isFinite(value)) {
+      return null;
+    }
+    return value;
+  }
+
+  private readRetryAfterHeaderSeconds(response: Response): number | undefined {
+    const header = response.headers.get("retry-after");
+    if (!header) {
+      return undefined;
+    }
+    const parsed = Number(header);
+    return Number.isFinite(parsed) ? parsed : undefined;
   }
 }

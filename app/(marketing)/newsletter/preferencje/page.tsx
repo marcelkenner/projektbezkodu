@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Button, CheckboxField } from "@/app/ui";
+import { Alert, Button, CheckboxField } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import styles from "./../newsletter.module.css";
+import { NewsletterAlertResolver } from "@/app/(marketing)/newsletter/NewsletterAlertResolver";
 
 const copy = getCopy("newsletter");
 
@@ -28,7 +29,13 @@ export default async function NewsletterPreferencesPage({
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const parser = new SearchParamParser(resolvedSearchParams);
   const subscriberUuid = parser.getSingle("subscriber");
-  const alert = resolveAlert(parser);
+  const resolver = new NewsletterAlertResolver({
+    subscribe: copy.base.alerts,
+    confirm: copy.confirm.alerts,
+    preferences: copy.preferences.alerts,
+    unsubscribe: copy.unsubscribe.alerts,
+  });
+  const alert = resolver.resolvePreferences(parser);
   const formDisabled = !subscriberUuid;
 
   return (
@@ -38,6 +45,11 @@ export default async function NewsletterPreferencesPage({
           <h1>{copy.preferences.hero.title}</h1>
           <p>{copy.preferences.hero.intro}</p>
         </header>
+        {alert ? (
+          <Alert variant={alert.variant} title={alert.title}>
+            {alert.message}
+          </Alert>
+        ) : null}
         <form
           className={styles.newsletterPage__form}
           action="/api/newsletter/preferences"
@@ -68,41 +80,13 @@ export default async function NewsletterPreferencesPage({
           <Button type="submit" disabled={formDisabled}>
             {copy.preferences.submitLabel}
           </Button>
-          <p
-            role="status"
-            aria-live="polite"
-            className={styles.newsletterPage__info}
-          >
-            {alert ??
-              (formDisabled
-                ? "Link z newslettera jest potrzebny, by zapisać preferencje."
-                : "\u00A0")}
-          </p>
+          {formDisabled ? (
+            <p className={styles.newsletterPage__info}>
+              Link z newslettera jest potrzebny, by zapisać preferencje.
+            </p>
+          ) : null}
         </form>
       </div>
     </section>
   );
-}
-
-function resolveAlert(parser: SearchParamParser): string | null {
-  const status = parser.getSingle("status");
-  const error = parser.getSingle("error");
-
-  if (!status && !error) {
-    return null;
-  }
-
-  if (status === "preferences-saved") {
-    return "Twoje preferencje zostały zaktualizowane.";
-  }
-  switch (error) {
-    case "missing-subscriber":
-      return "Brakuje identyfikatora subskrybenta. Użyj linku z newslettera.";
-    case "topics-required":
-      return "Wybierz co najmniej jedną kategorię.";
-    case "unexpected":
-      return "Nie udało się zapisać preferencji. Spróbuj ponownie.";
-    default:
-      return null;
-  }
 }

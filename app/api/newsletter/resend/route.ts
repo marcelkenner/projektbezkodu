@@ -1,6 +1,5 @@
 import { cookies } from "next/headers";
 import { NewsletterManager } from "@/app/lib/newsletter/NewsletterManager";
-import { ListmonkError } from "@/app/lib/newsletter/ListmonkClient";
 import {
   buildResendCookieOptions,
   buildSubscriberCookieOptions,
@@ -8,8 +7,13 @@ import {
   serializeResendCookie,
 } from "@/app/lib/newsletter/cookies";
 import { NewsletterRedirector } from "@/app/api/newsletter/NewsletterRedirector";
+import { NewsletterErrorMapper } from "@/app/api/newsletter/NewsletterErrorMapper";
 
 const redirector = new NewsletterRedirector();
+const errorMapper = new NewsletterErrorMapper();
+
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 export async function POST(request: Request) {
   // instantiate lazily to avoid evaluating env at module import time
@@ -42,14 +46,7 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("Newsletter resend failed", error);
     return redirector.redirect(request, "/newsletter/potwierdz/", {
-      error: mapError(error),
+      error: errorMapper.mapResend(error),
     });
   }
-}
-
-function mapError(error: unknown): string {
-  if (error instanceof ListmonkError) {
-    return error.status === 404 ? "missing-context" : "listmonk-error";
-  }
-  return "unexpected";
 }

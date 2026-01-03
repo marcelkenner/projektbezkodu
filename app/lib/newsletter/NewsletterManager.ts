@@ -19,6 +19,11 @@ interface SubscribeInput {
   consentSource?: string;
 }
 
+export interface SubscribeResult {
+  subscriber: ListmonkSubscriber;
+  optInSent: boolean;
+}
+
 interface PreferencesInput {
   subscriberUuid: string;
   topics: string[];
@@ -29,32 +34,58 @@ interface UnsubscribeInput {
   feedback?: string;
 }
 
-export class NewsletterManager {
-  private readonly config = getNewsletterConfig();
-  private readonly client = new ListmonkClient(this.config);
+export interface NewsletterListmonkClient {
+  findSubscriberByEmail(email: string): Promise<ListmonkSubscriber | null>;
+  findSubscriberByUuid(uuid: string): Promise<ListmonkSubscriber | null>;
+  createSubscriber(input: {
+    email: string;
+    name: string;
+    status: "enabled" | "blocklisted";
+    lists: number[];
+    attribs?: Record<string, unknown>;
+  }): Promise<ListmonkSubscriber>;
+  updateSubscriber(
+    id: number,
+    input: {
+      email: string;
+      name: string;
+      status: "enabled" | "blocklisted";
+      lists: number[];
+      attribs?: Record<string, unknown>;
+    },
+  ): Promise<ListmonkSubscriber>;
+  sendOptIn(subscriberId: number): Promise<void>;
+  mutateLists(input: {
+    ids: number[];
+    action: "add" | "remove" | "unsubscribe";
+    target_list_ids: number[];
+    status?: "confirmed" | "unconfirmed" | "unsubscribed";
+  }): Promise<void>;
+}
 
-  async subscribe(input: SubscribeInput): Promise<ListmonkSubscriber> {
+export class NewsletterManager {
+  constructor(
+    private readonly config = getNewsletterConfig(),
+    private readonly client: NewsletterListmonkClient = new ListmonkClient(
+      config,
+    ),
+  ) {}
+
+  async subscribe(input: SubscribeInput): Promise<SubscribeResult> {
     const email = this.normalizeEmail(input.email);
     const name = email.split("@")[0];
     const consentTimestamp = new Date().toISOString();
     const topics = input.topics;
 
-    let subscriber = (await this.client.findSubscriberByEmail(email)) ?? null;
+    let subscriber = await this.safeFindSubscriberByEmail(email);
 
     if (!subscriber) {
-      subscriber = await this.client.createSubscriber({
+      subscriber = await this.createOrRecoverSubscriber({
         email,
         name,
-        status: "enabled",
-        lists: [this.config.listId],
-        attribs: this.mergeAttributes(
-          null,
-          this.buildNewsletterAttributes({
-            topics,
-            lastConsentAt: consentTimestamp,
-            lastConsentSource: input.consentSource ?? "website",
-          }),
-        ),
+        consentTimestamp,
+        topics,
+        consentSource: input.consentSource ?? "website",
       });
     } else {
       await this.ensureListSubscription(subscriber);
@@ -76,8 +107,8 @@ export class NewsletterManager {
       });
     }
 
-    await this.client.sendOptIn(subscriber.id);
-    return subscriber;
+    const optInSent = await this.safeSendOptIn(subscriber.id);
+    return { subscriber, optInSent };
   }
 
   async resendOptIn(subscriberId: number): Promise<void> {
@@ -168,6 +199,84 @@ export class NewsletterManager {
 
   private normalizeEmail(email: string): string {
     return email.trim().toLowerCase();
+  }
+
+  private async safeFindSubscriberByEmail(
+    email: string,
+  ): Promise<ListmonkSubscriber | null> {
+    try {
+      return (await this.client.findSubscriberByEmail(email)) ?? null;
+    } catch {
+      return null;
+    }
+  }
+
+  private async createOrRecoverSubscriber({
+    email,
+    name,
+    consentTimestamp,
+    topics,
+    consentSource,
+  }: {
+    email: string;
+    name: string;
+    consentTimestamp: string;
+    topics: string[];
+    consentSource: string;
+  }): Promise<ListmonkSubscriber> {
+    try {
+      return await this.client.createSubscriber({
+        email,
+        name,
+        status: "enabled",
+        lists: [this.config.listId],
+        attribs: this.mergeAttributes(
+          null,
+          this.buildNewsletterAttributes({
+            topics,
+            lastConsentAt: consentTimestamp,
+            lastConsentSource: consentSource,
+          }),
+        ),
+      });
+    } catch (error) {
+      if (!this.isEmailConflictError(error)) {
+        throw error;
+      }
+      const recovered = await this.client.findSubscriberByEmail(email);
+      if (!recovered) {
+        throw error;
+      }
+      return recovered;
+    }
+  }
+
+  private isEmailConflictError(error: unknown): boolean {
+    if (!(error instanceof ListmonkError)) {
+      return false;
+    }
+    if (error.status === 409) {
+      return true;
+    }
+    if (error.status !== 400) {
+      return false;
+    }
+    const message = error.message.toLowerCase();
+    return (
+      message.includes("already") ||
+      message.includes("exists") ||
+      message.includes("duplicate") ||
+      message.includes("unique")
+    );
+  }
+
+  private async safeSendOptIn(subscriberId: number): Promise<boolean> {
+    try {
+      await this.client.sendOptIn(subscriberId);
+      return true;
+    } catch {
+      return false;
+    }
   }
 
   private async requireSubscriber(uuid: string): Promise<ListmonkSubscriber> {

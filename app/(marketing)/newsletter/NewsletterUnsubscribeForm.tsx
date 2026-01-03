@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { Button, Modal, TextareaField } from "@/app/ui";
+import { Alert, Button, Modal, TextareaField } from "@/app/ui";
 import styles from "./newsletter.module.css";
 
 interface NewsletterUnsubscribeCopy {
@@ -22,11 +22,17 @@ interface NewsletterUnsubscribeCopy {
 export function NewsletterUnsubscribeForm({
   copy,
   subscriberUuid,
-  alertMessage,
+  alert,
 }: {
   copy: NewsletterUnsubscribeCopy;
   subscriberUuid?: string;
-  alertMessage?: string | null;
+  alert?:
+    | {
+        title: string;
+        message: string;
+        variant: "info" | "success" | "warning" | "danger";
+      }
+    | null;
 }) {
   const [modalOpen, setModalOpen] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
@@ -48,6 +54,11 @@ export function NewsletterUnsubscribeForm({
 
   return (
     <>
+      {alert ? (
+        <Alert variant={alert.variant} title={alert.title}>
+          {alert.message}
+        </Alert>
+      ) : null}
       <form
         ref={formRef}
         className={styles.newsletterPage__form}
@@ -76,7 +87,7 @@ export function NewsletterUnsubscribeForm({
           aria-live="polite"
           className={styles.newsletterPage__info}
         >
-          {alertMessage ??
+          {alert?.message ??
             (formDisabled
               ? "Link z newslettera jest potrzebny, by wypisać ten adres."
               : "\u00A0")}

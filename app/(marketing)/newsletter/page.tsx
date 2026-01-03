@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Button, TextField, CheckboxField } from "@/app/ui";
+import { Alert, Button, TextField, CheckboxField } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import styles from "./newsletter.module.css";
+import { NewsletterAlertResolver } from "@/app/(marketing)/newsletter/NewsletterAlertResolver";
 
 const copy = getCopy("newsletter");
 
@@ -23,7 +24,13 @@ export default async function NewsletterLandingPage({
 }) {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const parser = new SearchParamParser(resolvedSearchParams);
-  const alert = resolveAlert(parser);
+  const resolver = new NewsletterAlertResolver({
+    subscribe: copy.base.alerts,
+    confirm: copy.confirm.alerts,
+    preferences: copy.preferences.alerts,
+    unsubscribe: copy.unsubscribe.alerts,
+  });
+  const alert = resolver.resolveSubscribe(parser);
 
   return (
     <section className={styles.newsletterPage} id="content">
@@ -32,6 +39,11 @@ export default async function NewsletterLandingPage({
           <h1>{copy.base.hero.title}</h1>
           <p>{copy.base.hero.intro}</p>
         </header>
+        {alert ? (
+          <Alert variant={alert.variant} title={alert.title}>
+            {alert.message}
+          </Alert>
+        ) : null}
         <form
           className={styles.newsletterPage__form}
           action="/api/newsletter/subscribe"
@@ -41,50 +53,21 @@ export default async function NewsletterLandingPage({
             id="newsletter-email"
             name="email"
             type="email"
-            label="E-mail"
-            placeholder="mój@adres.pl"
+            label={copy.base.form.emailLabel}
+            placeholder={copy.base.form.emailPlaceholder}
             required
             autoComplete="email"
           />
           <CheckboxField
             id="newsletter-consent"
             name="consent"
-            label="Wyrażam zgodę na otrzymywanie newslettera ProjektBezKodu."
+            label={copy.base.form.consentLabel}
             required
           />
           <Button type="submit">{copy.base.hero.formCta}</Button>
-          <p className={styles.newsletterPage__info}>
-            Zawsze możesz zaktualizować preferencje lub się wypisać jednym
-            kliknięciem.
-          </p>
-          <p role="status" aria-live="polite" className={styles.newsletterPage__info}>
-            {alert ?? "\u00A0"}
-          </p>
+          <p className={styles.newsletterPage__info}>{copy.base.form.helper}</p>
         </form>
       </div>
     </section>
   );
-}
-
-function resolveAlert(parser: SearchParamParser): string | null {
-  const status = parser.getSingle("status");
-  const error = parser.getSingle("error");
-
-  if (!status && !error) {
-    return null;
-  }
-
-  if (status === "success") {
-    return "Wysłaliśmy prośbę o potwierdzenie subskrypcji.";
-  }
-  switch (error) {
-    case "invalid-email":
-      return "Podaj poprawny adres e-mail.";
-    case "consent-required":
-      return "Zaznacz zgodę, aby otrzymywać newsletter.";
-    case "listmonk-error":
-      return "Serwer newslettera chwilowo nie działa. Spróbuj ponownie.";
-    default:
-      return null;
-  }
 }

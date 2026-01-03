@@ -1,8 +1,12 @@
 import { NewsletterManager } from "@/app/lib/newsletter/NewsletterManager";
-import { ListmonkError } from "@/app/lib/newsletter/ListmonkClient";
 import { NewsletterRedirector } from "@/app/api/newsletter/NewsletterRedirector";
+import { NewsletterErrorMapper } from "@/app/api/newsletter/NewsletterErrorMapper";
 
 const redirector = new NewsletterRedirector();
+const errorMapper = new NewsletterErrorMapper();
+
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 export async function POST(request: Request) {
   // instantiate lazily inside the handler to avoid env validation at import time
@@ -29,15 +33,8 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("Newsletter unsubscribe failed", error);
     return redirector.redirect(request, "/newsletter/wypisz", {
-      error: mapError(error),
+      error: errorMapper.mapUnsubscribe(error),
       subscriber: subscriberUuid,
     });
   }
-}
-
-function mapError(error: unknown): string {
-  if (error instanceof ListmonkError && error.status === 404) {
-    return "missing-subscriber";
-  }
-  return "unexpected";
 }
