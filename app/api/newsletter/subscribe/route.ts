@@ -1,4 +1,3 @@
-import { NextResponse } from "next/server";
 import {
   NewsletterManager,
   getDefaultTopics,
@@ -8,6 +7,9 @@ import {
   buildSubscriberCookieOptions,
   serializeSubscriberCookie,
 } from "@/app/lib/newsletter/cookies";
+import { NewsletterRedirector } from "@/app/api/newsletter/NewsletterRedirector";
+
+const redirector = new NewsletterRedirector();
 
 export async function POST(request: Request) {
   // instantiate manager lazily inside the handler to avoid importing
@@ -20,13 +22,13 @@ export async function POST(request: Request) {
   const consent = formData.get("consent");
 
   if (!email || typeof email !== "string") {
-    return redirectWithParams(request.url, "/newsletter", {
+    return redirector.redirect(request, "/newsletter", {
       error: "invalid-email",
     });
   }
 
   if (!consent) {
-    return redirectWithParams(request.url, "/newsletter", {
+    return redirector.redirect(request, "/newsletter", {
       error: "consent-required",
     });
   }
@@ -38,7 +40,7 @@ export async function POST(request: Request) {
       consentSource: "projektbezkodu.pl",
     });
 
-    const response = redirectWithParams(request.url, "/newsletter/potwierdz/", {
+    const response = redirector.redirect(request, "/newsletter/potwierdz/", {
       status: "success",
     });
 
@@ -56,22 +58,10 @@ export async function POST(request: Request) {
     return response;
   } catch (error) {
     console.error("Newsletter subscribe failed", error);
-    return redirectWithParams(request.url, "/newsletter", {
+    return redirector.redirect(request, "/newsletter", {
       error: mapError(error),
     });
   }
-}
-
-function redirectWithParams(
-  origin: string,
-  pathname: string,
-  params: Record<string, string>,
-) {
-  const target = new URL(pathname, origin);
-  Object.entries(params).forEach(([key, value]) =>
-    target.searchParams.set(key, value),
-  );
-  return NextResponse.redirect(target);
 }
 
 function mapError(error: unknown): string {

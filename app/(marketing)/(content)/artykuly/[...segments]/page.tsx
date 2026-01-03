@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 
 import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
+import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { ArtykulyHubPage } from "../ArtykulyHubPage";
 import { buildArticleDetailMetadata } from "../[slug]/ArticleDetailMetadata";
@@ -9,6 +10,7 @@ import { ArticleDetailPage } from "../[slug]/ArticleDetailPage";
 
 const hubManager = new ArticleHubManager();
 const articleRepository = new ArticleRepository();
+const contentLibrary = new ContentLibrary();
 const summaries = articleRepository.listSummaries();
 
 interface ArticleSegmentsPageProps {
@@ -50,7 +52,11 @@ export async function generateMetadata({
   const pathname = `/artykuly/${resolved.join("/")}/`;
   const article = hubManager.findArticleByPath(pathname);
   if (!article) {
-    return {};
+    const entry = contentLibrary.getEntry(["artykuly", ...resolved]);
+    if (!entry || entry.document.frontmatter.template !== "article") {
+      return {};
+    }
+    return buildArticleDetailMetadata(entry.document.slug);
   }
   return buildArticleDetailMetadata(article.slug);
 }
@@ -71,7 +77,14 @@ export default async function ArticleSegmentsPage({
   const pathname = `/artykuly/${resolved.join("/")}/`;
   const article = hubManager.findArticleByPath(pathname);
   if (!article) {
-    notFound();
+    const entry = contentLibrary.getEntry(["artykuly", ...resolved]);
+    if (!entry || entry.document.frontmatter.template !== "article") {
+      notFound();
+    }
+    if (entry.path !== pathname) {
+      permanentRedirect(entry.path);
+    }
+    return <ArticleDetailPage slug={entry.document.slug} />;
   }
   return <ArticleDetailPage slug={article.slug} />;
 }

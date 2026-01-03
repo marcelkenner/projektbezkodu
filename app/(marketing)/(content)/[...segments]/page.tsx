@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
@@ -64,6 +64,10 @@ export default async function ContentPage({ params }: ContentPageProps) {
     ? "article-page__layout article-page__layout--with-toc"
     : "article-page__layout";
   const path = viewModel.getPath();
+  const requestedPath = `/${segments.filter(Boolean).join("/")}/`;
+  if (requestedPath !== path) {
+    permanentRedirect(path);
+  }
   const breadcrumbs = breadcrumbComposer.compose(path, heading);
   const shareUrl = defaultSiteUrlFactory.build(path);
   const categories = viewModel.getCategories();

@@ -1,6 +1,8 @@
-import { NextResponse } from "next/server";
 import { NewsletterManager } from "@/app/lib/newsletter/NewsletterManager";
 import { ListmonkError } from "@/app/lib/newsletter/ListmonkClient";
+import { NewsletterRedirector } from "@/app/api/newsletter/NewsletterRedirector";
+
+const redirector = new NewsletterRedirector();
 
 export async function POST(request: Request) {
   // instantiate lazily inside the handler to avoid env validation at import time
@@ -14,13 +16,13 @@ export async function POST(request: Request) {
     );
 
   if (!subscriberUuid || typeof subscriberUuid !== "string") {
-    return redirectWithParams(request.url, "/newsletter/preferencje", {
+    return redirector.redirect(request, "/newsletter/preferencje", {
       error: "missing-subscriber",
     });
   }
 
   if (topics.length === 0) {
-    return redirectWithParams(request.url, "/newsletter/preferencje", {
+    return redirector.redirect(request, "/newsletter/preferencje", {
       error: "topics-required",
       subscriber: subscriberUuid,
     });
@@ -31,29 +33,17 @@ export async function POST(request: Request) {
       subscriberUuid,
       topics,
     });
-    return redirectWithParams(request.url, "/newsletter/preferencje", {
+    return redirector.redirect(request, "/newsletter/preferencje", {
       status: "preferences-saved",
       subscriber: subscriberUuid,
     });
   } catch (error) {
     console.error("Newsletter preferences failed", error);
-    return redirectWithParams(request.url, "/newsletter/preferencje", {
+    return redirector.redirect(request, "/newsletter/preferencje", {
       error: mapError(error),
       subscriber: subscriberUuid,
     });
   }
-}
-
-function redirectWithParams(
-  origin: string,
-  pathname: string,
-  params: Record<string, string>,
-) {
-  const target = new URL(pathname, origin);
-  Object.entries(params).forEach(([key, value]) =>
-    target.searchParams.set(key, value),
-  );
-  return NextResponse.redirect(target);
 }
 
 function mapError(error: unknown): string {

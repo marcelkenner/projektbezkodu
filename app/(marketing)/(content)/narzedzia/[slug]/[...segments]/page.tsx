@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
@@ -84,6 +84,10 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
     ? "article-page__layout article-page__layout--with-toc"
     : "article-page__layout";
   const canonicalPath = viewModel.getPath();
+  const requestedPath = `/${buildSegments(slug, segments).filter(Boolean).join("/")}/`;
+  if (requestedPath !== canonicalPath) {
+    permanentRedirect(canonicalPath);
+  }
   const shareUrl = defaultSiteUrlFactory.build(canonicalPath);
   const shareTitle = heading ?? viewModel.getTitle();
   const breadcrumbs = breadcrumbComposer.compose(canonicalPath, heading);

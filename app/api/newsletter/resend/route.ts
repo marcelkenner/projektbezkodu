@@ -1,5 +1,4 @@
 import { cookies } from "next/headers";
-import { NextResponse } from "next/server";
 import { NewsletterManager } from "@/app/lib/newsletter/NewsletterManager";
 import { ListmonkError } from "@/app/lib/newsletter/ListmonkClient";
 import {
@@ -8,6 +7,9 @@ import {
   parseSubscriberCookie,
   serializeResendCookie,
 } from "@/app/lib/newsletter/cookies";
+import { NewsletterRedirector } from "@/app/api/newsletter/NewsletterRedirector";
+
+const redirector = new NewsletterRedirector();
 
 export async function POST(request: Request) {
   // instantiate lazily to avoid evaluating env at module import time
@@ -20,14 +22,14 @@ export async function POST(request: Request) {
   );
 
   if (!subscriber) {
-    return redirectWithParams(request.url, "/newsletter/potwierdz/", {
+    return redirector.redirect(request, "/newsletter/potwierdz/", {
       error: "missing-context",
     });
   }
 
   try {
     await manager.resendOptIn(subscriber.id);
-    const response = redirectWithParams(request.url, "/newsletter/potwierdz/", {
+    const response = redirector.redirect(request, "/newsletter/potwierdz/", {
       status: "resent",
     });
     const resendCookie = buildResendCookieOptions();
@@ -39,22 +41,10 @@ export async function POST(request: Request) {
     return response;
   } catch (error) {
     console.error("Newsletter resend failed", error);
-    return redirectWithParams(request.url, "/newsletter/potwierdz/", {
+    return redirector.redirect(request, "/newsletter/potwierdz/", {
       error: mapError(error),
     });
   }
-}
-
-function redirectWithParams(
-  origin: string,
-  pathname: string,
-  params: Record<string, string>,
-) {
-  const target = new URL(pathname, origin);
-  Object.entries(params).forEach(([key, value]) =>
-    target.searchParams.set(key, value),
-  );
-  return NextResponse.redirect(target);
 }
 
 function mapError(error: unknown): string {

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
@@ -39,6 +39,12 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const viewModel = coordinator.build(baseSegments(slug));
   if (!viewModel) {
     notFound();
+  }
+
+  const canonicalPath = viewModel.getPath();
+  const requestedPath = `/${baseSegments(slug).filter(Boolean).join("/")}/`;
+  if (requestedPath !== canonicalPath) {
+    permanentRedirect(canonicalPath);
   }
 
   const childArticles = childArticlesManager.list(slug);

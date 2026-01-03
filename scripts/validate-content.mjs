@@ -209,7 +209,7 @@ function deriveNormalizedPath(frontmatter, filePath) {
     return null;
   }
   const title = typeof frontmatter?.title === "string" ? frontmatter.title : "";
-  return ensureTitleSlug(derived, title, Boolean(explicit));
+  return ensureTitleSlug(derived, title);
 }
 
 function normalizeFrontmatterPath(rawPath) {
@@ -247,10 +247,7 @@ function derivePathFromSource(sourcePath) {
   return ensureWrappedSlashes(segments.join("/"));
 }
 
-function ensureTitleSlug(normalizedPath, title, skip) {
-  if (skip) {
-    return normalizedPath;
-  }
+function ensureTitleSlug(normalizedPath, title) {
   const slug = slugify(title);
   if (!slug) {
     return normalizedPath;

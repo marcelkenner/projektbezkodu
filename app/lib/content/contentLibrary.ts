@@ -12,6 +12,11 @@ export interface ContentRouteEntry {
   document: MarkdownDocument;
 }
 
+interface ContentLibraryIndex {
+  routes: ContentRouteEntry[];
+  lookup: Map<string, ContentRouteEntry>;
+}
+
 interface ContentLibraryOptions {
   excludedDirectories?: string[];
 }
@@ -20,7 +25,7 @@ const DEFAULT_EXCLUDED_DIRECTORIES = ["_examples", "glossary"];
 
 export class ContentLibrary {
   private readonly repository: ContentRepository;
-  private cache: ContentRouteEntry[] | null = null;
+  private cache: ContentLibraryIndex | null = null;
 
   constructor(options: ContentLibraryOptions = {}) {
     const excludedDirectories =
@@ -29,11 +34,7 @@ export class ContentLibrary {
   }
 
   listRoutes(): ContentRouteEntry[] {
-    if (this.cache) {
-      return this.cache;
-    }
-    this.cache = this.buildEntries();
-    return this.cache;
+    return this.getIndex().routes;
   }
 
   getEntry(segments: string[] | undefined): ContentRouteEntry | undefined {
@@ -41,16 +42,25 @@ export class ContentLibrary {
     if (!normalizedPath) {
       return undefined;
     }
-    return this.listRoutes().find((entry) => entry.path === normalizedPath);
+    return this.getIndex().lookup.get(normalizedPath);
   }
 
   refresh(): void {
     this.cache = null;
   }
 
-  private buildEntries(): ContentRouteEntry[] {
+  private getIndex(): ContentLibraryIndex {
+    if (this.cache) {
+      return this.cache;
+    }
+    this.cache = this.buildIndex();
+    return this.cache;
+  }
+
+  private buildIndex(): ContentLibraryIndex {
     const documents = this.repository.listDocuments();
     const routeMap = new Map<string, ContentRouteEntry>();
+    const lookup = new Map<string, ContentRouteEntry>();
 
     documents.forEach((document) => {
       const route = this.resolveRoute(document);
@@ -60,28 +70,43 @@ export class ContentLibrary {
       if (routeMap.has(route.path)) {
         return;
       }
-      routeMap.set(route.path, {
+      const canonicalEntry: ContentRouteEntry = {
         ...route,
         document,
+      };
+      routeMap.set(canonicalEntry.path, canonicalEntry);
+      lookup.set(canonicalEntry.path, canonicalEntry);
+      route.aliases?.forEach((aliasPath) => {
+        if (!lookup.has(aliasPath)) {
+          lookup.set(aliasPath, canonicalEntry);
+        }
       });
 
       const glownyAliasRoute = this.resolveGlownyAliasRoute(route, document);
-      if (glownyAliasRoute && !routeMap.has(glownyAliasRoute.path)) {
-        routeMap.set(glownyAliasRoute.path, {
-          ...glownyAliasRoute,
-          document,
-        });
+      if (!glownyAliasRoute || routeMap.has(glownyAliasRoute.path)) {
+        return;
       }
+      const glownyAliasEntry: ContentRouteEntry = {
+        ...glownyAliasRoute,
+        document,
+      };
+      routeMap.set(glownyAliasEntry.path, glownyAliasEntry);
+      lookup.set(glownyAliasEntry.path, glownyAliasEntry);
     });
 
-    return Array.from(routeMap.values()).sort((a, b) =>
+    const routes = Array.from(routeMap.values()).sort((a, b) =>
       a.path.localeCompare(b.path, "pl"),
     );
+    return { routes, lookup };
   }
 
   private resolveRoute(
     document: MarkdownDocument,
-  ): Pick<ContentRouteEntry, "path" | "segments"> | undefined {
+  ):
+    | (Pick<ContentRouteEntry, "path" | "segments"> & {
+        aliases?: string[];
+      })
+    | undefined {
     if (!document.frontmatter.title && !document.frontmatter.path) {
       return undefined;
     }
@@ -95,21 +120,19 @@ export class ContentLibrary {
       return undefined;
     }
 
-    const pathWithTitleSlug = this.ensureTitleSlug(
-      derivedPath,
-      document,
-      Boolean(explicitPath),
-    );
+    const pathWithTitleSlug = this.ensureTitleSlug(derivedPath, document);
     const segments = pathWithTitleSlug.split("/").filter(Boolean);
     if (!segments.length) {
       return undefined;
     }
 
+    const aliases = derivedPath !== pathWithTitleSlug ? [derivedPath] : undefined;
     document.frontmatter.path = pathWithTitleSlug;
 
     return {
       path: pathWithTitleSlug,
       segments,
+      aliases,
     };
   }
 
@@ -208,12 +231,7 @@ export class ContentLibrary {
   private ensureTitleSlug(
     normalizedPath: string,
     document: MarkdownDocument,
-    skip = false,
   ): string {
-    if (skip) {
-      return normalizedPath;
-    }
-
     const title = document.frontmatter.title;
     if (!title) {
       return normalizedPath;
@@ -227,6 +245,14 @@ export class ContentLibrary {
     const segments = normalizedPath.split("/").filter(Boolean);
     if (!segments.length) {
       return this.ensureWrappedSlashes(slugFromTitle);
+    }
+
+    if (
+      segments.length === 2 &&
+      segments[0] === "narzedzia" &&
+      document.frontmatter.type === "tool"
+    ) {
+      return normalizedPath;
     }
 
     const nextSegments = [...segments];

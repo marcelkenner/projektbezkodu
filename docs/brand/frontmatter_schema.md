@@ -70,6 +70,7 @@ taxonomy:
 
 Store schema as reference for markdown generation scripts (`scripts/scaffold.ps1`).
 
+- Routing: canonical URL paths always end with the slugified `title` (the last segment is derived from `title`, not from folder/file names). When `path` is set explicitly, it is treated as a prefix and still gets its last segment replaced by the title slug.
 - Artykuły korzystają z definicji w `data/copy/articles.json`.
 - Tutoriale – `data/copy/tutorials.json` (`categories`/`tags`) + etykiety narzędzi z `data/tools.json`. Jeżeli materiał pełni rolę „pillar page”, pamiętaj o konfiguracji w `data/copy/pillar.json`.
 - Porównania – `data/copy/comparisons.json` +, w razie potrzeby, `data/tools.json` dla tagów narzędzi.
