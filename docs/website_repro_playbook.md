@@ -189,7 +189,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 
 1. `app/layout.tsx` must always render `<KlaroConsentManager />` together with a `<div id="klaro">` mount node so Klaro’s UI can attach even on statically cached routes such as `/cookies`.
 2. `app/ui/KlaroConsentManager.tsx` exposes a global `window.__klaroReady` promise and fires a `klaro:ready` event once `window.klaro.getManager()` is available; any UI that needs to read or mutate consent (e.g., `CookiePreferencesForm`) must wait for that signal before enabling controls.
-3. Cookie preference forms keep toggles/buttons disabled until the Klaro manager resolves and surface the fallback status copy when `window.__klaroReady` rejects, ensuring the page never looks interactive while the CMP is still loading (or blocked by the browser).
+3. Cookie preference forms keep toggles/buttons disabled until the Klaro manager resolves and surface the fallback status copy when `window.__klaroReady` rejects (or when a `klaro:failed` event fires), ensuring the page never looks interactive while the CMP is still loading (or blocked by the browser).
 
 ## 14. Adaptation Guidelines
 

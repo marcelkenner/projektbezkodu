@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { KlaroManager } from "@/app/ui/KlaroConsentManager";
+import type { KlaroManager } from "@/app/lib/cookies/KlaroManager";
+import { KlaroReadyCoordinator } from "@/app/lib/cookies/KlaroReadyCoordinator";
 
 type ConsentKeys = "preferences" | "analytics" | "marketing";
 
@@ -18,12 +19,6 @@ interface CookiePreferencesFormProps {
     statusError: string;
   };
   privacyLink: { label: string; href: string };
-}
-
-declare global {
-  interface Window {
-    __klaroReady?: Promise<KlaroManager | null>;
-  }
 }
 
 export function CookiePreferencesForm({
@@ -44,7 +39,8 @@ export function CookiePreferencesForm({
   useEffect(() => {
     let cancelled = false;
     let resolved = false;
-    const readyEvent = "klaro:ready";
+    const readyEvent = KlaroReadyCoordinator.readyEventName;
+    const failedEvent = KlaroReadyCoordinator.failedEventName;
 
     const syncFromManager = (instance: KlaroManager | null) => {
       if (!instance || cancelled) {
@@ -69,6 +65,15 @@ export function CookiePreferencesForm({
       }
     };
 
+    const handleFailedEvent = () => {
+      if (cancelled || resolved) {
+        return;
+      }
+      resolved = true;
+      setLoading(false);
+      setStatus(actions.statusError);
+    };
+
     const waitForManager = async () => {
       if (typeof window === "undefined") {
         return;
@@ -79,7 +84,13 @@ export function CookiePreferencesForm({
         return;
       }
       if (window.__klaroReady) {
-        const resolvedManager = await window.__klaroReady;
+        let resolvedManager: KlaroManager | null = null;
+        try {
+          resolvedManager = await window.__klaroReady;
+        } catch {
+          handleFailedEvent();
+          return;
+        }
         if (cancelled) {
           return;
         }
@@ -93,6 +104,7 @@ export function CookiePreferencesForm({
         return;
       }
       window.addEventListener(readyEvent, handleReadyEvent);
+      window.addEventListener(failedEvent, handleFailedEvent);
     };
 
     void waitForManager();
@@ -108,6 +120,7 @@ export function CookiePreferencesForm({
     return () => {
       cancelled = true;
       window.removeEventListener(readyEvent, handleReadyEvent);
+      window.removeEventListener(failedEvent, handleFailedEvent);
       window.clearTimeout(timeout);
     };
   }, [actions.statusError]);

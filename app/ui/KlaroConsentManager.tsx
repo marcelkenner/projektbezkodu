@@ -1,17 +1,10 @@
 "use client";
 
 import { useEffect } from "react";
+import type { KlaroManager } from "@/app/lib/cookies/KlaroManager";
+import { KlaroBootstrapManager } from "@/app/lib/cookies/KlaroBootstrapManager";
 import klaroConfig from "@/app/lib/cookies/klaroConfig";
 import "klaro/dist/klaro.min.css";
-
-export interface KlaroManager {
-  getConsent: (name: string) => boolean | null;
-  updateConsent: (name: string, value: boolean) => void;
-  saveAndApplyConsents: () => void;
-  applyConsents?: (value: boolean) => void;
-}
-
-type KlaroReadyResolver = (manager: KlaroManager | null) => void;
 
 declare global {
   interface Window {
@@ -22,64 +15,39 @@ declare global {
       getManager?: () => KlaroManager;
     };
     klaroConfig?: unknown;
-    __klaroReady?: Promise<KlaroManager | null>;
-    __resolveKlaroReady?: KlaroReadyResolver;
-  }
-}
-
-function ensureReadyPromise() {
-  if (typeof window === "undefined") {
-    return;
-  }
-  if (!window.__klaroReady) {
-    window.__klaroReady = new Promise((resolve) => {
-      window.__resolveKlaroReady = resolve;
-    });
+    __klaroReady?: Promise<KlaroManager>;
+    __resolveKlaroReady?: (manager: KlaroManager) => void;
+    __rejectKlaroReady?: (reason?: unknown) => void;
+    __klaroReadySettled?: boolean;
   }
 }
 
 export function KlaroConsentManager() {
   useEffect(() => {
-    let cancelled = false;
-
-    async function loadKlaro() {
-      if (typeof window === "undefined") {
-        return;
-      }
-
-      ensureReadyPromise();
-      window.klaroConfig = klaroConfig as unknown;
-
-      try {
-        if (!window.klaro) {
-          try {
-            await import("klaro/dist/klaro-no-css.js");
-          } catch {
-            await import("klaro/dist/klaro.js");
-          }
-        }
-        if (cancelled) {
-          return;
-        }
-        if (window.klaro?.setup) {
-          window.klaro.setup(klaroConfig);
-          const manager = window.klaro.getManager?.() ?? null;
-          window.__resolveKlaroReady?.(manager);
-          window.dispatchEvent(
-            new CustomEvent("klaro:ready", { detail: { manager } }),
-          );
-        }
-      } catch (error) {
-        console.error("Failed to initialize Klaro", error);
-        window.__resolveKlaroReady?.(null);
-      }
+    if (typeof window === "undefined") {
+      return;
     }
 
-    void loadKlaro();
+    const abortController = new AbortController();
 
-    return () => {
-      cancelled = true;
-    };
+    const bootstrap = new KlaroBootstrapManager({
+      host: window,
+      config: klaroConfig,
+      importKlaro: async () => {
+        if (window.klaro) {
+          return;
+        }
+        try {
+          await import("klaro/dist/klaro-no-css.js");
+        } catch {
+          await import("klaro/dist/klaro.js");
+        }
+      },
+    });
+
+    void bootstrap.start({ signal: abortController.signal }).catch(() => undefined);
+
+    return () => abortController.abort();
   }, []);
 
   return null;

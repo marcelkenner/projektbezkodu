@@ -1,6 +1,7 @@
 declare module "klaro/dist/config" {
   export interface KlaroConfig {
     version?: number;
+    testing?: boolean;
     elementID?: string;
     styling?: Record<string, unknown>;
     lang?: string;
@@ -8,7 +9,11 @@ declare module "klaro/dist/config" {
     default?: boolean;
     mustConsent?: boolean;
     acceptAll?: boolean;
+    hideDeclineAll?: boolean;
+    hideLearnMore?: boolean;
     storageMethod?: string;
+    storageName?: string;
+    cookieDomain?: string;
     cookieExpiresAfterDays?: number;
     translations?: Record<string, Record<string, unknown>>;
     purposes?: string[];

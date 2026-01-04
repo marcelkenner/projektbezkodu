@@ -3,6 +3,7 @@ import type { KlaroConfig } from "klaro/dist/config";
 const klaroConfig: KlaroConfig = {
   version: 1,
   elementID: "klaro",
+  storageName: "pbk-klaro",
   styling: {
     theme: ["dark", "bottom", "left"],
   },
