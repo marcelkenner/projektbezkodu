@@ -1,19 +1,13 @@
----
-title: Badania i raporty (PL)
-slug: a
-path: /artykuly/badania/
-type: hub
-tags:
-  - evergreen
-  - research
+﻿---
+title: "Raport 2026: trendy na rynku narzędzi no-code"
+description: "Przegląd trendów, prognoz i tego, co realnie zmienia się w ekosystemie no-code."
+category: "Badania i raporty"
+slug: "raport-2026-trendy-na-rynku-narzedzi-no-code"
+permalink: "/artykuly/badania/raport-2026-trendy-na-rynku-narzedzi-no-code/"
+date: 2026-01-08
 draft: true
-date: '2025-11-05'
-hero:
-  heading: Badania i raporty (PL)
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
-# Badania i raporty (PL)
+# Raport 2026: trendy na rynku narzędzi no-code
 
-> Placeholder for **Badania i raporty (PL)** at \$pathForFm\.  
-> Type: \$Type\ • Tags: evergreen, research.
+Przegląd trendów, prognoz i tego, co realnie zmienia się w ekosystemie no-code.

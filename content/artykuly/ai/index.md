@@ -1,14 +1,7 @@
----
-title: AI w no-code
-slug: ai
-path: /artykuly/ai/
+﻿---
+title: "AI w no-code: werdykt bez ściemy — kiedy to jest przewaga, a kiedy tylko ładny przycisk"
+slug: "ai-w-no-code-werdykt-bez-sciemy-kiedy-to-jest-przewaga-a-kiedy-tylko-ladny-przycisk"
+path: "/artykuly/ai/ai-w-no-code-werdykt-bez-sciemy-kiedy-to-jest-przewaga-a-kiedy-tylko-ladny-przycisk"
+template: "default"
 draft: true
-date: '2025-12-16'
-hero:
-  heading: AI w no-code
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
-
-# AI w no-code
-
-> Strona kategorii — opisz, jak wykorzystujesz AI w projektach no-code.

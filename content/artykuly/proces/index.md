@@ -1,19 +1,51 @@
----
-title: Proces i zarządzanie projektem
-slug: s
-path: /artykuly/proces/
-type: hub
-tags:
-  - evergreen
-  - process
+﻿---
+title: "Proces wyboru no-code: 7 pytań, które oszczędzą ci 30 godzin testów"
+category: "proces"
 draft: true
-date: '2025-11-05'
-hero:
-  heading: Proces i zarządzanie projektem
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
-# Proces i zarządzanie projektem
+# Proces wyboru no-code: 7 pytań, które oszczędzą ci 30 godzin testów
 
-> Placeholder for **Proces i zarządzanie projektem** at \$pathForFm\.  
-> Type: \$Type\ • Tags: evergreen, process.
+## Lead
+**Werdykt:** <!-- jedno zdanie, bez lania wody. Dla kogo to jest / nie jest. -->
+
+## Pytania, które już masz w głowie
+- <!-- pytanie 1 -->  
+  **Odpowiedź:** <!-- krótko i stanowczo -->
+- <!-- pytanie 2 -->  
+  **Odpowiedź:** <!-- krótko i stanowczo -->
+
+## Na czym polega ten proces
+Fakty → konsekwencje → mocny wniosek.
+
+## Jak zacząć w 15 minut
+Kroki: 1) … 2) … 3) …
+
+## Krok po kroku
+- Krok 1: …
+- Krok 2: …
+- Krok 3: …
+
+## Narzędzia no-code, które zwykle pasują
+- <!-- narzędzie --> – <!-- kiedy ma sens -->
+- <!-- narzędzie --> – <!-- kiedy nie ma sensu -->
+
+## Koszt i czas w praktyce
+- Dla solo: …
+- Dla małej firmy: …
+- Dla agencji: …
+
+## Porównania (alternatywy)
+Jeśli priorytetem jest A → wybierz X. Jeśli B → wybierz Y.
+
+## Typowe pułapki i jak je ominąć
+- Pułapka: … → Co robisz zamiast tego: …
+
+## Plusy i minusy
+**Plusy:** …
+**Minusy:** …
+
+## Podsumowanie
+**Dla kogo to jest idealne:** …  
+**Kogo to będzie frustrować:** …  
+**Następny krok:** <!-- mały, szybki start -->

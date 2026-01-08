@@ -1,19 +1,13 @@
----
-title: UX writing i microcopy (PL)
-slug: 'y'
-path: /artykuly/microcopy/
-type: hub
-tags:
-  - evergreen
-  - copy
+﻿---
+title: "Microcopy bez kodu: jak pisać teksty, które prowadzą użytkownika"
+description: "Zasady, przykłady i szybkie poprawki, które zwiększają zrozumiałość i konwersję."
+category: "Microcopy"
+slug: "microcopy-bez-kodu-jak-pisac-teksty-ktore-prowadza-uzytkownika"
+permalink: "/artykuly/microcopy/microcopy-bez-kodu-jak-pisac-teksty-ktore-prowadza-uzytkownika/"
+date: 2026-01-08
 draft: true
-date: '2025-11-05'
-hero:
-  heading: UX writing i microcopy (PL)
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
-# UX writing i microcopy (PL)
+# Microcopy bez kodu: jak pisać teksty, które prowadzą użytkownika
 
-> Placeholder for **UX writing i microcopy (PL)** at \$pathForFm\.  
-> Type: \$Type\ • Tags: evergreen, copy.
+Zasady, przykłady i szybkie poprawki, które zwiększają zrozumiałość i konwersję.

@@ -1,19 +1,7 @@
----
-title: Analityka i eksperymenty
-slug: a
-path: /artykuly/analityka/
-type: hub
-tags:
-  - evergreen
-  - analytics
+﻿---
+title: "Analityka w no-code: co mierzyć, żeby to miało sens (a nie tylko “bo GA4”)"
+slug: "analityka-w-no-code-co-mierzyc-zeby-to-mialo-sens-a-nie-tylko-bo-ga4"
+path: "/artykuly/analityka/analityka-w-no-code-co-mierzyc-zeby-to-mialo-sens-a-nie-tylko-bo-ga4"
+template: "default"
 draft: true
-date: '2025-11-05'
-hero:
-  heading: Analityka i eksperymenty
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
-
-# Analityka i eksperymenty
-
-> Placeholder for **Analityka i eksperymenty** at \$pathForFm\.  
-> Type: \$Type\ • Tags: evergreen, analytics.

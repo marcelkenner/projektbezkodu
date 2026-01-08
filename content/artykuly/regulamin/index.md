@@ -1,66 +1,52 @@
 ---
-title: Regulamin serwisu ProjektBezKodu
-slug: regulamin
-path: /artykuly/regulamin/
-draft: false
-template: legal
-date: '2024-12-01'
-hero:
-  heading: Regulamin serwisu ProjektBezKodu
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
+title: "Regulamin strony i newslettera: prosty wzór dla twórcy no-code (bez prawniczego bełkotu)"
+category: "regulamin"
+draft: true
 ---
 
-## Definicje
+# Regulamin strony i newslettera: prosty wzór dla twórcy no-code (bez prawniczego bełkotu)
 
-<dl>
-  <dt>Serwis</dt>
-  <dd>Serwis internetowy ProjektBezKodu dostępny pod adresem projektbezkodu.pl.</dd>
-  <dt>Użytkownik</dt>
-  <dd>Osoba korzystająca z treści, narzędzi i zasobów udostępnionych w Serwisie.</dd>
-  <dt>Materiały</dt>
-  <dd>Artykuły, checklisty, szablony, kursy oraz inne publikacje dostępne w Serwisie.</dd>
-  <dt>Newsletter</dt>
-  <dd>List mailingowy wysyłany przez Administratora do osób zapisanych na listę adresową.</dd>
-  <dt>Linki partnerskie</dt>
-  <dd>Oznaczone odnośniki prowadzące do ofert partnerów, które mogą skutkować prowizją dla Administratora.</dd>
-</dl>
+## Lead
+**Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.
 
-## Postanowienia ogólne
+## Pytania, które już masz w głowie
+- Czy muszę mieć regulamin?  
+  **Odpowiedź:** Jeśli zbierasz dane, sprzedajesz lub dajesz dostęp do usługi — w praktyce tak. Bez tego trudniej egzekwować zasady.
+- Czy mogę skopiować regulamin konkurencji?  
+  **Odpowiedź:** To proszenie się o kłopoty. Zapis musi pasować do twojego produktu i procesu.
 
-1. Regulamin określa zasady korzystania z Serwisu ProjektBezKodu.
-2. Korzystając z Serwisu, Użytkownik akceptuje Regulamin oraz Politykę prywatności.
-3. Operatorem Serwisu jest ProjektBezKodu prowadzony przez Marcela Nowaka.
+## Co to jest „regulamin” w no-code
+Fakt: no-code nie zwalnia z obowiązków.  
+W praktyce: masz te same ryzyka (płatności, spory, chargebacki, reklamacje), tylko szybciej rośniesz.  
+Wniosek: regulamin to nie formalność — to instrukcja gry.
 
-## Korzystanie z serwisu
+## Jak zacząć w 15 minut
+1) Wypisz: co oferujesz, komu, za ile, jak wygląda zwrot/reklamacja.  
+2) Zaznacz: jakie dane zbierasz i przez jakie narzędzia (np. Stripe, MailerLite, Webflow).  
+3) Zrób wersję „prosto po ludzku”, dopiero potem dopinaj paragrafy.
 
-1. Serwis udostępnia treści edukacyjne oraz materiały do samodzielnego wykorzystania.
-2. Zabronione jest dostarczanie treści bezprawnych oraz działań zakłócających działanie Serwisu.
-3. Administrator może wstrzymać dostęp do Serwisu w przypadku naruszenia Regulaminu.
+## Sekcje, które zwykle muszą się pojawić
+- Definicje (krótko)
+- Zakres usługi / produktu
+- Konto i dostęp (jeśli dotyczy)
+- Płatności, faktury, subskrypcje (jeśli dotyczy)
+- Odstąpienie / zwroty / reklamacje
+- Odpowiedzialność i ograniczenia (bez obiecywania 100% uptime)
+- Zasady kontaktu i wsparcia
+- Zmiany regulaminu (kiedy i jak informujesz)
+- Postanowienia końcowe (prawo właściwe, spory)
 
-## Newsletter
+## Najczęstsze błędy (i konsekwencje)
+- „Gwarantujemy ciągłą dostępność” → potem płacisz za coś, na co nie masz wpływu (hosting, integracje).
+- Brak zasad zwrotów/subskrypcji → spory i chargebacki.
+- Zbyt szeroka odpowiedzialność po twojej stronie → bierzesz na plecy cudze decyzje.
 
-1. Zapis do Newslettera wymaga podania adresu e-mail oraz potwierdzenia zgody.
-2. Użytkownik może wypisać się z Newslettera w dowolnym momencie, korzystając z linku rezygnacji lub kontaktując się z Administratorem.
-3. Newsletter zawiera informacje o nowych materiałach, wydarzeniach oraz ofertach partnerów.
+## Porównania (alternatywy)
+- Jeśli sprzedajesz kurs → regulamin kursu + jasne zasady dostępu.
+- Jeśli sprzedajesz usługę → regulamin usług / umowa + SOP procesu.
+- Jeśli masz aplikację SaaS → regulamin + polityka prywatności + zasady kont.
 
-## Linki partnerskie i afiliacja
-
-1. W treściach Serwisu mogą pojawiać się linki partnerskie oznaczone jako "link sponsorowany" lub `rel="sponsored"`.
-2. Skorzystanie z linków partnerskich nie wpływa na cenę produktów lub usług po stronie Użytkownika.
-3. Środki z afiliacji przeznaczamy na rozwój treści edukacyjnych.
-
-## Prawa autorskie
-
-1. Materiały opublikowane w Serwisie podlegają ochronie prawnej.
-2. Użytkownik może korzystać z Materiałów na własny użytek, z poszanowaniem praw autorskich.
-3. Cytowanie Materiałów wymaga wskazania źródła oraz linku do Serwisu.
-
-## Odpowiedzialność
-
-1. Administrator dokłada starań, aby Materiały były aktualne i rzetelne, jednak nie gwarantuje osiągnięcia określonych rezultatów.
-2. Serwis może zawierać odnośniki do zewnętrznych witryn, za których treść Administrator nie odpowiada.
-
-## Kontakt
-
-1. W sprawach dotyczących korzystania z Serwisu można kontaktować się pod adresem kontakt@projektbezkodu.pl.
-2. Korespondencję tradycyjną prosimy kierować na adres: ProjektBezKodu, ul. No-Code 10, 00-000 Warszawa.
+## Podsumowanie
+**Dla kogo to jest idealne:** twórcy, freelancerzy, małe firmy budujące w no-code i chcące jasnych zasad.  
+**Kogo to będzie frustrować:** osoby, które chcą „zrobić to raz i zapomnieć” mimo zmian produktu.  
+**Następny krok:** Zrób szkic regulaminu na 1 stronę (po ludzku), dopiero potem dopracuj formalności.

@@ -1,19 +1,35 @@
----
-title: Dostępność i zgodność (WCAG/RODO)
-slug: c
-path: /artykuly/dostepnosc-cyfrowa/
-type: hub
+﻿---
+title: "Dostępność cyfrowa w no-code: szybki start dla twórców stron i aplikacji"
+category: "dostepnosc-cyfrowa"
 tags:
-  - evergreen
-  - compliance
+  - no-code
+  - accessibility
+  - wcag
 draft: true
-date: '2025-11-05'
-hero:
-  heading: Dostępność i zgodność (WCAG/RODO)
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 
-# Dostępność i zgodność (WCAG/RODO)
+# Dostępność cyfrowa w no-code: szybki start dla twórców stron i aplikacji
 
-> Placeholder for **Dostępność i zgodność (WCAG/RODO)** at \$pathForFm\.  
-> Type: \$Type\ • Tags: evergreen, compliance.
+**TL;DR:** (wstaw 2–3 zdania streszczenia)
+
+## Dla kogo to jest?
+- 
+
+## Co sprawdzimy / poprawimy
+- 
+
+## Krok po kroku (bez kodu)
+1. 
+2. 
+3. 
+
+## Checklist (do odhaczenia)
+- [ ] 
+- [ ] 
+- [ ] 
+
+## Najczęstsze błędy
+- 
+
+## Podsumowanie
+- 

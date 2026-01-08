@@ -1,14 +1,2 @@
----
-title: SEO i widoczność
-slug: seo
-path: /artykuly/seo/
-draft: false
-date: '2025-12-16'
-hero:
-  heading: SEO i widoczność
-  subheading: Techniczne i contentowe działania, które realnie wzmacniają ruch organiczny.
----
+﻿# SEO w no-code bez magii: co działa, a co jest stratą czasu
 
-# SEO i widoczność
-
-> Strona kategorii — opisz, jakie tematy i checklisty znajdzie tu czytelnik.
