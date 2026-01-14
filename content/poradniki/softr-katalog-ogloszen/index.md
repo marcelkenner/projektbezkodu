@@ -1,51 +1,57 @@
 ---
-title: "Softr: jak zbudować katalog ogłoszeń (listy, filtry, logowanie, płatności)"
+title: 'Softr: jak zbudować katalog ogłoszeń (listy, filtry, logowanie, płatności)'
 slug: softr-katalog-ogloszen
 path: /softr-katalog-ogloszen
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybki przewodnik: katalog ogłoszeń w Softr"
-  subheading: Lista, filtry, logowanie użytkowników i płatne plany — co działa, a
-    co może być pułapką
+  heading: 'Szybki przewodnik: katalog ogłoszeń w Softr'
+  subheading: >-
+    Lista, filtry, logowanie użytkowników i płatne plany — co działa, a co może
+    być pułapką
 meta:
   summaryBullets:
-  - "Werdykt: najlepsze dla szybkich katalogów i MVP, nie dla rozbudowanych marketplace'ów."
-  - "Dla kogo: organizacje, kluby i serwisy lokalne; nie dla platform wymagających\
-    \ zaawansowanej logiki płatności."
-  - "Start: 30–90 minut — wybierz template, podłącz źródło danych, skonfiguruj blok\
-    \ List i publikuj."
+    - >-
+      Werdykt: najlepsze dla szybkich katalogów i MVP, nie dla rozbudowanych
+      marketplace'ów.
+    - >-
+      Dla kogo: organizacje, kluby i serwisy lokalne; nie dla platform
+      wymagających zaawansowanej logiki płatności.
+    - >-
+      Start: 30–90 minut — wybierz template, podłącz źródło danych, skonfiguruj
+      blok List i publikuj.
   primaryCta:
     label: List Block — dokumentacja Softr
     href: https://docs.softr.io/building-blocks/list-block/pQhPYuA28VXr5tLLFBcbCU
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   difficulty: Łatwy–Średni
   duration: 30–90 minut
   author: Redakcja
 seo:
-  title: "Softr — jak zrobić katalog ogłoszeń: listy, filtry, logowanie, płatności"
-  description: "Krótkie, praktyczne wskazówki jak w 30–90 minut postawić katalog ogłoszeń\
-    \ w Softr: co działa, co trzeba sprawdzić i dla kogo to ma sens."
+  title: 'Softr — jak zrobić katalog ogłoszeń: listy, filtry, logowanie, płatności'
+  description: >-
+    Krótkie, praktyczne wskazówki jak w 30–90 minut postawić katalog ogłoszeń w
+    Softr: co działa, co trzeba sprawdzić i dla kogo to ma sens.
   keywords:
-  - Softr
-  - katalog ogłoszeń
-  - directory
-  - no-code
-  - lista
-  - filtry
-  - płatności
+    - Softr
+    - katalog ogłoszeń
+    - directory
+    - no-code
+    - lista
+    - filtry
+    - płatności
 taxonomy:
   categories:
-  - no-code
-  - Softr
-  - katalogi
+    - no-code
+    - Softr
+    - katalogi
   tags:
-  - Softr
-  - katalog ogłoszeń
-  - poradnik
+    - Softr
+    - katalog ogłoszeń
+    - poradnik
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

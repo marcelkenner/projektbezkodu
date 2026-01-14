@@ -1,34 +1,35 @@
 ---
-title: "Tally: formularz z logiką, multi‑step i płatnościami"
+title: 'Tally: formularz z logiką, multi‑step i płatnościami'
 slug: tally-formularz-z-logika-i-platnoscia
 path: /tally-formularz-z-logika-i-platnoscia
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybki przewodnik: formularz w Tally z logiką i płatnościami"
-  subheading: Jak ustawić warunkowe ścieżki, płatności Stripe, przekierowania i integracje
+  heading: 'Szybki przewodnik: formularz w Tally z logiką i płatnościami'
+  subheading: >-
+    Jak ustawić warunkowe ścieżki, płatności Stripe, przekierowania i integracje
     — bez kodu
 meta:
   summaryBullets:
-  - "Werdykt: najlepsze dla prostych sprzedaży i formularzy wielostronicowych"
-  - "Dla kogo: marketing, rejestracje, prosty e‑commerce"
-  - "Start: 5 minut — utwórz konto Tally i podłącz Stripe"
+    - 'Werdykt: najlepsze dla prostych sprzedaży i formularzy wielostronicowych'
+    - 'Dla kogo: marketing, rejestracje, prosty e‑commerce'
+    - 'Start: 5 minut — utwórz konto Tally i podłącz Stripe'
   primaryCta:
     label: Dokumentacja płatności Tally
     href: https://tally.so/help/payment-forms
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwy — podstawy w 5–20 min
   duration: 5–30 min
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - tally
-  - formularze
-  - płatności
+    - tally
+    - formularze
+    - płatności
 ---
 
 ## Obietnica decyzji

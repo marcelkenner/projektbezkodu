@@ -1,35 +1,40 @@
 ---
-title: "Jak przygotować treści do migracji: struktura, metadane, linkowanie"
+title: 'Jak przygotować treści do migracji: struktura, metadane, linkowanie'
 slug: jak-przygotowac-tresci-do-migracji-struktura-metadane-linkowanie
 path: /jak-przygotowac-tresci-do-migracji-struktura-metadane-linkowanie
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Jak przygotować treści do migracji: struktura, metadane, linkowanie"
-  subheading: Szybki plan działania dla zespołów content/SEO/deweloperów — minimalny
-    próg wejścia i kluczowe błędy do uniknięcia
+  heading: 'Jak przygotować treści do migracji: struktura, metadane, linkowanie'
+  subheading: >-
+    Szybki plan działania dla zespołów content/SEO/deweloperów — minimalny próg
+    wejścia i kluczowe błędy do uniknięcia
 seo:
-  title: "Migracja treści: struktura, metadane, linkowanie — praktyczny przewodnik"
-  description: "Krok po kroku: inwentaryzacja URL, mapowanie, metatagi, redirecty\
-    \ i monitorowanie. Krótkie checklista i werdykty dla typowych scenariuszy."
+  title: 'Migracja treści: struktura, metadane, linkowanie — praktyczny przewodnik'
+  description: >-
+    Krok po kroku: inwentaryzacja URL, mapowanie, metatagi, redirecty i
+    monitorowanie. Krótkie checklista i werdykty dla typowych scenariuszy.
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 8–20 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: przygotuj mapę URL, staging i redirects — to obniża ryzyko spadków ruchu."
-  - "Werdykt: testuj w kawałkach przy dużych serwisach; dla małych migracja całości\
-    \ zwykle prościej."
+    - >-
+      Werdykt: przygotuj mapę URL, staging i redirects — to obniża ryzyko
+      spadków ruchu.
+    - >-
+      Werdykt: testuj w kawałkach przy dużych serwisach; dla małych migracja
+      całości zwykle prościej.
 taxonomy:
   categories:
-  - SEO
-  - Web
+    - SEO
+    - Web
   tags:
-  - migracja
-  - content
-  - redirect
+    - migracja
+    - content
+    - redirect
 ---
 
 ## Obietnica decyzji dla kogo i co zrobisz teraz

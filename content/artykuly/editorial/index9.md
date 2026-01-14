@@ -1,33 +1,36 @@
 ---
-title: "Automatyzacje editorialne: przypomnienia, zadania i publikacje"
+title: 'Automatyzacje editorialne: przypomnienia, zadania i publikacje'
 slug: automatyczje-editorialne-przypomnienia-zadania-i-publikacje
 path: /automatyczje-editorialne-przypomnienia-zadania-i-publikacje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Automatyzacje editorialne: przypomnienia, zadania i publikacje"
-  subheading: "Praktyczny przewodnik: od prostych przypomnień do zautomatyzowanej\
-    \ publikacji"
+  heading: 'Automatyzacje editorialne: przypomnienia, zadania i publikacje'
+  subheading: >-
+    Praktyczny przewodnik: od prostych przypomnień do zautomatyzowanej
+    publikacji
 meta:
   difficulty: Średni
   duration: 30-120 minut konfiguracji
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Automatyzacje oszczędzają czas, ale wybór narzędzia zależy od skali\
-    \ i integracji."
-  - "Szybki start: 10–30 minut — z darmowym planem Zapier możesz ustawić podstawową\
-    \ publikację."
+    - >-
+      Werdykt: Automatyzacje oszczędzają czas, ale wybór narzędzia zależy od
+      skali i integracji.
+    - >-
+      Szybki start: 10–30 minut — z darmowym planem Zapier możesz ustawić
+      podstawową publikację.
 taxonomy:
   categories:
-  - Produktywność
-  - Content
+    - Produktywność
+    - Content
   tags:
-  - automatyzacja
-  - redakcja
-  - publikacja
+    - automatyzacja
+    - redakcja
+    - publikacja
 ---
 
 ## Obietnica (krótko): co decyzja da Tobie

@@ -19,9 +19,12 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 | `npm run build`        | Production build (runs `content:lint` first)                                     |
 | `npm run start`        | Serve the production build                                                       |
 | `npm run lint`         | ESLint                                                                           |
+| `npm run test`         | Runs unit tests (Vitest)                                                         |
 | `npm run content:lint` | Scans every markdown file via `gray-matter` to catch invalid YAML before runtime |
 | `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`)                                        |
 | `npm run svg:optimize` | Optimises brand SVGs via SVGO                                                    |
+
+TypeScript builds intentionally exclude `vitest.config.ts` and `**/*.test.ts` so `npm run build` can run in environments that omit dev dependencies.
 
 ## UI building blocks
 

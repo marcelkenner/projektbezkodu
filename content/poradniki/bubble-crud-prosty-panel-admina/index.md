@@ -1,28 +1,32 @@
 ---
-title: "Prosty panel admina w Bubble: CRUD, role i start"
+title: 'Prosty panel admina w Bubble: CRUD, role i start'
 slug: bubble-crud-prosty-panel-admina
 path: /bubble-crud-prosty-panel-admina
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Prosty panel admina w Bubble
   subheading: Jak szybko zbudować CRUD, role i podstawowe workflow
 meta:
   summaryBullets:
-  - "Werdykt: szybko zrobisz MVP panelu admina; skomplikowane reguły bezpieczeństwa\
-    \ wymagają uwagi"
-  - "Dla kogo: startupy i produkty MVP; nie dla systemów z wrażliwymi danymi bez audytu"
-  - "Start: utwórz pole roli, stronę admina, privacy rules i tokeny API"
+    - >-
+      Werdykt: szybko zrobisz MVP panelu admina; skomplikowane reguły
+      bezpieczeństwa wymagają uwagi
+    - >-
+      Dla kogo: startupy i produkty MVP; nie dla systemów z wrażliwymi danymi
+      bez audytu
+    - 'Start: utwórz pole roli, stronę admina, privacy rules i tokeny API'
   primaryCta:
-    label: "Dokumentacja: Admin token"
-    href: https://manual.bubble.io/help-guides/integrations/api/the-bubble-api/authentication/as-an-admin
-  updatedAt: "2026-01-14"
+    label: 'Dokumentacja: Admin token'
+    href: >-
+      https://manual.bubble.io/help-guides/integrations/api/the-bubble-api/authentication/as-an-admin
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - bubble
-  - admin
-  - nocode
+    - bubble
+    - admin
+    - nocode
 ---
 
 ## Obietnica decyzji dla osób budujących aplikacje w Bubble

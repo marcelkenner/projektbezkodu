@@ -1,32 +1,41 @@
 ---
-title: "Style guide dla treści: jak utrzymać spójny ton marki"
+title: 'Style guide dla treści: jak utrzymać spójny ton marki'
 slug: style-guide-dla-tresci-jak-utrzymac-spojny-ton-marki
 path: /style-guide-dla-tresci-jak-utrzymac-spojny-ton-marki
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Style guide dla treści: jak utrzymać spójny ton marki"
-  subheading: Krótkie zasady, które pozwolą twojemu zespołowi pisać tak, żeby klienci
+  heading: 'Style guide dla treści: jak utrzymać spójny ton marki'
+  subheading: >-
+    Krótkie zasady, które pozwolą twojemu zespołowi pisać tak, żeby klienci
     rozpoznali markę w jednym zdaniu
 seo:
   title: Style guide dla treści — jak utrzymać spójny ton marki
-  description: Zwięzły przewodnik po zasadach tonu głosu marki, szybkich krokach do
+  description: >-
+    Zwięzły przewodnik po zasadach tonu głosu marki, szybkich krokach do
     wdrożenia i decyzjach dla startupów, SaaS i korporacji.
-  keywords: tone of voice, brand voice, style guide, content strategy
+  keywords:
+    - tone of voice
+    - brand voice
+    - style guide
+    - content strategy
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 30 min
   topics:
-  - content
-  - brand
-  - copywriting
+    - content
+    - brand
+    - copywriting
   summaryBullets:
-  - "Werdykt: **najważniejsza jest praktyczna lista 'co robić / czego unikać' oraz\
-    \ przykładowe szablony**."
-  - "Szybki start: wybierz 3 cechy marki, jeden wzorzec zdania i testuj na 10 komunikatach."
+    - >-
+      Werdykt: **najważniejsza jest praktyczna lista 'co robić / czego unikać'
+      oraz przykładowe szablony**.
+    - >-
+      Szybki start: wybierz 3 cechy marki, jeden wzorzec zdania i testuj na 10
+      komunikatach.
 ---
 
 ## Obietnica decyzji dla kogo

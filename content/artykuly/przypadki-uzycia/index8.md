@@ -19,7 +19,12 @@ seo:
   description: >-
     Jak zbudować sekwencję maili, checklistę i flow w aplikacji, które skracają
     Time-to-Value i podnoszą activation rate.
-  keywords: onboarding, activation rate, checklist, onboarding emails, product-led
+  keywords:
+    - onboarding
+    - activation rate
+    - checklist
+    - onboarding emails
+    - product-led
 meta:
   difficulty: średniozaawansowany
   duration: 10 min

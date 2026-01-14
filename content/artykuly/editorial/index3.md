@@ -1,30 +1,31 @@
 ---
-title: "Brief contentowy: szablon i przykłady dla zespołów no-code"
+title: 'Brief contentowy: szablon i przykłady dla zespołów no-code'
 slug: brief-contentowy-szablon-i-przyklady-dla-zespolow-no-code
 path: /brief-contentowy-szablon-i-przyklady-dla-zespolow-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Brief contentowy: szablon i przykłady dla zespołów no-code"
+  heading: 'Brief contentowy: szablon i przykłady dla zespołów no-code'
   subheading: Szybki wzór, co wpisać i jak to zautomatyzować w no-code stacku
 seo:
   title: Brief contentowy dla zespołów no-code — szablon i instrukcja
-  description: "Prosty szablon content briefu dla zespołów no-code: 5-min start, przykłady,\
-    \ plusy i minusy. Pobierz i wypełnij."
+  description: >-
+    Prosty szablon content briefu dla zespołów no-code: 5-min start, przykłady,
+    plusy i minusy. Pobierz i wypełnij.
 meta:
   difficulty: Łatwy
   duration: 5-30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - content
-  - no-code
+    - content
+    - no-code
   tags:
-  - brief
-  - szablon
+    - brief
+    - szablon
 ---
 
 ## Obietnica decyzji (dla kogo)

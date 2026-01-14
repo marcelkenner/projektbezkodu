@@ -4,43 +4,47 @@ slug: framer-landing-2h
 path: /poradniki/framer-landing-2h/
 draft: false
 template: tutorial
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Framer – landing w 2 godziny
   subheading: Szybka strona docelowa z animacjami, formularzem i metrykami.
 seo:
   title: Framer – landing w 2 godziny
-  description: Przewodnik jak przygotować landing page we Framerze wraz z animacjami
-    i integracjami.
+  description: >-
+    Przewodnik jak przygotować landing page we Framerze wraz z animacjami i
+    integracjami.
   keywords:
-  - framer
-  - landing page
-  - tutorial
+    - framer
+    - landing page
+    - tutorial
 meta:
   difficulty: Łatwy
   duration: 2 godziny
   tools:
-  - framer
-  - typeform
-  - hubspot
-  updatedAt: "2026-01-14"
+    - framer
+    - typeform
+    - hubspot
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Co zrobisz w 2h: landing z hero, modułem funkcji, formularzem i podstawowym śledzeniem\
-    \ konwersji."
-  - "Główne integracje: natywne formularze Framera lub Typeform oraz proste webhooki\
-    \ do CRM."
-  - "Werdykt: szybkie MVP landingowe bez kodu — idealne dla testów kampanii i pierwszych\
-    \ leadów."
+    - >-
+      Co zrobisz w 2h: landing z hero, modułem funkcji, formularzem i
+      podstawowym śledzeniem konwersji.
+    - >-
+      Główne integracje: natywne formularze Framera lub Typeform oraz proste
+      webhooki do CRM.
+    - >-
+      Werdykt: szybkie MVP landingowe bez kodu — idealne dla testów kampanii i
+      pierwszych leadów.
   primaryCta:
-    label: "Framer: publikacja — pomoc"
+    label: 'Framer: publikacja — pomoc'
     href: https://www.framer.com/help/articles/publishing-your-framer-website/
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - framer
-  - landing-page
-  - tutorial
+    - framer
+    - landing-page
+    - tutorial
 ---
 
 ## Obietnica i do kogo to jest

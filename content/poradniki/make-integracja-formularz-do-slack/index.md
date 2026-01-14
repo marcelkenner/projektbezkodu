@@ -4,36 +4,39 @@ slug: make-integracja-formularz-do-slack
 path: /make-integracja-formularz-do-slack
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Integracja formularza z Slack przez Make
-  subheading: Jak najszybciej złapać zgłoszenia, formatować wiadomości i obsłużyć
-    błędy
+  subheading: Jak najszybciej złapać zgłoszenia, formatować wiadomości i obsłużyć błędy
 meta:
   summaryBullets:
-  - "Werdykt: proste powiadomienia → incoming webhook; potrzeba edycji/interakcji\
-    \ → chat.postMessage."
-  - "Dla kogo: marketerzy, support, small dev teams; nie dla rozbudowanych workflowów\
-    \ z edycją wiadomości."
-  - "Start: 5–15 minut — stwórz webhook w Slack, dodaj Custom Webhook w Make, zmapuj\
-    \ pola."
+    - >-
+      Werdykt: proste powiadomienia → incoming webhook; potrzeba
+      edycji/interakcji → chat.postMessage.
+    - >-
+      Dla kogo: marketerzy, support, small dev teams; nie dla rozbudowanych
+      workflowów z edycją wiadomości.
+    - >-
+      Start: 5–15 minut — stwórz webhook w Slack, dodaj Custom Webhook w Make,
+      zmapuj pola.
   primaryCta:
     label: Make — integracja Slack
     href: https://www.make.com/en/integrations/slack
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 seo:
   title: Integracja formularza z Slack przez Make — przewodnik
-  description: "Jak podłączyć formularz do Slack z użyciem Make: webhooki, formatowanie\
-    \ wiadomości, proste sposoby testów i obsługa błędów."
+  description: >-
+    Jak podłączyć formularz do Slack z użyciem Make: webhooki, formatowanie
+    wiadomości, proste sposoby testów i obsługa błędów.
 taxonomy:
   categories:
-  - Integracje
-  - Slack
+    - Integracje
+    - Slack
   tags:
-  - Make
-  - webhook
-  - formularz
+    - Make
+    - webhook
+    - formularz
 ---
 
 Krótki werdykt na start: **jeśli chcesz, żeby zgłoszenia z formularza trafiały do kanału Slack jako powiadomienia — użyj incoming webhooków + Make (Webhooks/HTTP)**. Jeśli trzeba wysyłać wiadomości jako bot, edytować je lub uruchamiać bardziej złożone akcje — skonfiguruj Slack App i używaj API (`chat.postMessage`). ([[api.slack.com](https://api.slack](https://api.slack.com/messaging/webhooks?utm_source=openai).com/messaging/webhooks?utm_source=openai))

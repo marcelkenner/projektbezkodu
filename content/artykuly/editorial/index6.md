@@ -1,40 +1,46 @@
 ---
-title: "Jak planować serie artykułów: klastry tematyczne i intencje"
+title: 'Jak planować serie artykułów: klastry tematyczne i intencje'
 slug: jak-planowac-serie-artykulow-klastry-tematyczne-i-intencje
 path: /jak-planowac-serie-artykulow-klastry-tematyczne-i-intencje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Jak planować serie artykułów: klastry tematyczne i intencje"
-  subheading: Szybkie decyzje dla redakcji i twórców treści — co pisać, jak łączyć,
-    kiedy rozbijać na osobne artykuły
+  heading: 'Jak planować serie artykułów: klastry tematyczne i intencje'
+  subheading: >-
+    Szybkie decyzje dla redakcji i twórców treści — co pisać, jak łączyć, kiedy
+    rozbijać na osobne artykuły
 seo:
   title: Planowanie serii artykułów — klastry tematyczne i intencje wyszukiwania
-  description: "Praktyczny przewodnik: wybór między stroną-pilar a serią postów, identyfikacja\
-    \ intencji wyszukiwania, krótka ścieżka startowa i mini-werdykty dla różnych grup."
+  description: >-
+    Praktyczny przewodnik: wybór między stroną-pilar a serią postów,
+    identyfikacja intencji wyszukiwania, krótka ścieżka startowa i mini-werdykty
+    dla różnych grup.
 meta:
   difficulty: średni
   duration: 30–120 min na plan (pierwsze clusterowanie)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dla większości serwisów najlepszy jest model pillar + powiązane artykuły,\
-    \ jeśli masz co najmniej 10 sensownych podtematów."
-  - "Szybki start: audyt 30 min → mapa 3-5 klastrów → 1 pillar + 3 podartykuły na\
-    \ cluster."
-  - "Uwaga: intencja wyszukiwania (informational, commercial, transactional, navigational)\
-    \ decyduje o formacie artykułu."
+    - >-
+      Werdykt: dla większości serwisów najlepszy jest model pillar + powiązane
+      artykuły, jeśli masz co najmniej 10 sensownych podtematów.
+    - >-
+      Szybki start: audyt 30 min → mapa 3-5 klastrów → 1 pillar + 3 podartykuły
+      na cluster.
+    - >-
+      Uwaga: intencja wyszukiwania (informational, commercial, transactional,
+      navigational) decyduje o formacie artykułu.
 taxonomy:
   categories:
-  - content
-  - seo
-  - publishing
+    - content
+    - seo
+    - publishing
   tags:
-  - topic-clusters
-  - search-intent
-  - content-strategy
+    - topic-clusters
+    - search-intent
+    - content-strategy
 ---
 
 ## Obietnica decyzji — dla kogo i po co

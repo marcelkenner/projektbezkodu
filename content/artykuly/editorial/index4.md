@@ -1,32 +1,34 @@
 ---
-title: "Checklisty redakcyjne: jakość, SEO i spójność bez chaosu"
+title: 'Checklisty redakcyjne: jakość, SEO i spójność bez chaosu'
 slug: checklisty-redakcyjne-jakosc-seo-i-spojnosc-bez-chaosu
 path: /checklisty-redakcyjne-jakosc-seo-i-spojnosc-bez-chaosu
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Checklisty redakcyjne: jakość, SEO i spójność bez chaosu"
-  subheading: Krótkie reguły, które zmniejszają błędy, podnoszą widoczność i ułatwiają
+  heading: 'Checklisty redakcyjne: jakość, SEO i spójność bez chaosu'
+  subheading: >-
+    Krótkie reguły, które zmniejszają błędy, podnoszą widoczność i ułatwiają
     pracę zespołom redakcyjnym
 seo:
   title: Checklisty redakcyjne — jakość, SEO i spójność
-  description: "Gotowy plan dla redakcji: co sprawdzać przed publikacją, jak to mierzyć\
-    \ i komu które kroki realnie pomagają."
+  description: >-
+    Gotowy plan dla redakcji: co sprawdzać przed publikacją, jak to mierzyć i
+    komu które kroki realnie pomagają.
 meta:
   difficulty: średni
   duration: 5–30 min w zależności od artykułu
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - redakcja
-  - SEO
+    - redakcja
+    - SEO
   tags:
-  - checklisty
-  - jakość treści
-  - SEO
+    - checklisty
+    - jakość treści
+    - SEO
 ---
 
 ## Obietnica i odbiorca

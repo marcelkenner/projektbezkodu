@@ -1,48 +1,54 @@
 ---
-title: "MailerLite: segmentacja i sekwencje — praktyczny przewodnik"
+title: 'MailerLite: segmentacja i sekwencje — praktyczny przewodnik'
 slug: mailerlite-segmentacja-i-sekwencje
 path: /mailerlite-segmentacja-i-sekwencje
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "MailerLite: segmentacja i sekwencje"
-  subheading: Jak użyć grup, tagów, segmentów i automations, żeby wysyłać mniej, a
+  heading: 'MailerLite: segmentacja i sekwencje'
+  subheading: >-
+    Jak użyć grup, tagów, segmentów i automations, żeby wysyłać mniej, a
     trafniej
 seo:
-  title: "MailerLite: segmentacja i sekwencje — praktyczny przewodnik"
-  description: Krótki przewodnik po grupach, tagach, segmentach i automations w MailerLite
+  title: 'MailerLite: segmentacja i sekwencje — praktyczny przewodnik'
+  description: >-
+    Krótki przewodnik po grupach, tagach, segmentach i automations w MailerLite
     — co wybrać, jak zacząć, typowe pułapki.
 meta:
   author: Redakcja
   duration: 5 min
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: proste ustawienia automatyzują najwięcej pracy — zacznij od 1 welcome\
-    \ sequence."
-  - "Dla kogo: osoby, które chcą zwiększyć trafność komunikacji bez dużego zaplecza\
-    \ danych."
-  - "Start: utwórz 1 grupę, 1 segment aktywności i 1 automation — testuj przez 2 tygodnie."
+    - >-
+      Werdykt: proste ustawienia automatyzują najwięcej pracy — zacznij od 1
+      welcome sequence.
+    - >-
+      Dla kogo: osoby, które chcą zwiększyć trafność komunikacji bez dużego
+      zaplecza danych.
+    - >-
+      Start: utwórz 1 grupę, 1 segment aktywności i 1 automation — testuj przez
+      2 tygodnie.
   primaryCta:
     label: Instrukcja automations
     href: https://www.mailerlite.com/help/how-to-create-an-automation-workflow
   format: przewodnik
   topics:
-  - email
-  - marketing
-  - automations
+    - email
+    - marketing
+    - automations
   review:
     productName: MailerLite
     productUrl: https://www.mailerlite.com
 taxonomy:
   categories:
-  - marketing
+    - marketing
   tags:
-  - MailerLite
-  - segmentacja
-  - automations
+    - MailerLite
+    - segmentacja
+    - automations
 ---
 
 ## Obietnica decyzji — komu to się opłaci

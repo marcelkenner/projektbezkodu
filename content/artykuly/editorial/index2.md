@@ -1,31 +1,32 @@
 ---
-title: "Proces tworzenia treści w no-code: od briefu do publikacji"
+title: 'Proces tworzenia treści w no-code: od briefu do publikacji'
 slug: proces-tworzenia-tresci-w-no-code-od-briefu-do-publikacji
 path: /proces-tworzenia-tresci-w-no-code-od-briefu-do-publikacji
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Proces tworzenia treści w no-code: od briefu do publikacji"
+  heading: 'Proces tworzenia treści w no-code: od briefu do publikacji'
   subheading: Szybkie workflow, automatyzacje i typowe pułapki
 meta:
   difficulty: średni
   duration: 30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: No-code działa na poziomie produkcji i publikacji, ale trzeba dobrze\
-    \ zaprojektować przepływ."
+    - >-
+      Werdykt: No-code działa na poziomie produkcji i publikacji, ale trzeba
+      dobrze zaprojektować przepływ.
 taxonomy:
   categories:
-  - no-code
-  - content
+    - no-code
+    - content
   tags:
-  - Notion
-  - Webflow
-  - Zapier
-  - publikacja
+    - Notion
+    - Webflow
+    - Zapier
+    - publikacja
 ---
 
 ## Szybki werdykt dla kogo i po co

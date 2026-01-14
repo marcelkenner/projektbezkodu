@@ -1,26 +1,27 @@
 ---
-title: "Kalendarz editorialny bez kodu: jak go zbudować w 60 minut"
+title: 'Kalendarz editorialny bez kodu: jak go zbudować w 60 minut'
 slug: kalendarz-editorialny-bez-kodu-jak-go-zbudowac-w-60-minut
 path: /kalendarz-editorialny-bez-kodu-jak-go-zbudowac-w-60-minut
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Kalendarz editorialny bez kodu: jak go zbudować w 60 minut"
+  heading: 'Kalendarz editorialny bez kodu: jak go zbudować w 60 minut'
   subheading: Szybki plan, który możesz wdrożyć w godzinę w Notion, Airtable lub Trello
 seo:
   title: Kalendarz editorialny bez kodu – szablon i plan na 60 minut
-  description: "Praktyczny przewodnik krok po kroku: od pomysłów do opublikowania\
-    \ w godzinę, narzędzia: Notion, Airtable, Trello."
+  description: >-
+    Praktyczny przewodnik krok po kroku: od pomysłów do opublikowania w godzinę,
+    narzędzia: Notion, Airtable, Trello.
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 60 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - content
-  - narzędzia
+    - content
+    - narzędzia
 ---
 
 ## Werdykt na start — kto zyska w 60 minut

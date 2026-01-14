@@ -19,7 +19,13 @@ seo:
   description: >-
     Lista 10 konkretnych zastosowań no-code z krótką instrukcją startu, skutkami
     biznesowymi i jasnym werdyktem dla różnych ról.
-  keywords: no-code, automatyzacje, Webflow, Airtable, Zapier, przykłady
+  keywords:
+    - no-code
+    - automatyzacje
+    - Webflow
+    - Airtable
+    - Zapier
+    - przykłady
 meta:
   difficulty: Łatwy
   duration: 10–40 min (first prototype)

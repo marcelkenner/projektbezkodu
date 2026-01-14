@@ -4,20 +4,20 @@ slug: zapier-automatyczne-faktury
 path: /zapier-automatyczne-faktury
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Automatyczne faktury z Zapier — przewodnik krok po kroku
-  subheading: Jak wygenerować PDF, wysłać e‑mail i zarchiwizować faktury bez ręcznej
-    pracy
+  subheading: Jak wygenerować PDF, wysłać e‑mail i zarchiwizować faktury bez ręcznej pracy
 meta:
   summaryBullets:
-  - "Werdykt: szybkie automatyczne fakturowanie dla prostych procesów"
-  - "Dla kogo: freelancerzy, małe biura księgowe, firmy z prostym workflow"
-  - "Start: skonfiguruj wyzwalacz i testuj na sandboxie"
+    - 'Werdykt: szybkie automatyczne fakturowanie dla prostych procesów'
+    - 'Dla kogo: freelancerzy, małe biura księgowe, firmy z prostym workflow'
+    - 'Start: skonfiguruj wyzwalacz i testuj na sandboxie'
   primaryCta:
-    label: "Szablon Zapier: Generate monthly invoice as PDF"
-    href: https://zapier.com/templates/details/04c0dd17b3e7ecf41b6e32e03e8c432b8f37d849d183519b7a4e3f17d913505a
-  updatedAt: "2026-01-14"
+    label: 'Szablon Zapier: Generate monthly invoice as PDF'
+    href: >-
+      https://zapier.com/templates/details/04c0dd17b3e7ecf41b6e32e03e8c432b8f37d849d183519b7a4e3f17d913505a
+  updatedAt: '2026-01-14'
 ---
 
 ## Obietnica decyzji

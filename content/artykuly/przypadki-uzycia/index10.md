@@ -15,7 +15,12 @@ seo:
   description: >-
     Praktyczny przewodnik: jak wydać pierwszą działającą wersję usługi bez
     przepalania budżetu i przy minimalnym ryzyku.
-  keywords: MVP, aplikacja usługowa, wersja 1.0, product management, startup
+  keywords:
+    - MVP
+    - aplikacja usługowa
+    - wersja 1.0
+    - product management
+    - startup
 meta:
   difficulty: średnio zaawansowane
   duration: 30-90 minut (pierwsze decyzje)

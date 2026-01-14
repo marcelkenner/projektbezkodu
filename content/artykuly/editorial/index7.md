@@ -1,36 +1,41 @@
 ---
-title: "Wersjonowanie treści bez kodu: historia zmian i akceptacje"
+title: 'Wersjonowanie treści bez kodu: historia zmian i akceptacje'
 slug: wersjonowanie-tresci-bez-kodu-historia-zmian-i-akceptacje
 path: /wersjonowanie-tresci-bez-kodu-historia-zmian-i-akceptacje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Wersjonowanie treści bez kodu: historia zmian i akceptacje"
-  subheading: Jak śledzić zmiany, zatwierdzać wydania i wybrać model, który nie zablokuje
+  heading: 'Wersjonowanie treści bez kodu: historia zmian i akceptacje'
+  subheading: >-
+    Jak śledzić zmiany, zatwierdzać wydania i wybrać model, który nie zablokuje
     zespołu
 seo:
   title: Wersjonowanie treści bez kodu — historia zmian i akceptacje
-  description: "Praktyczny przewodnik: modele wersjonowania w systemach no‑code/headless,\
-    \ jak działa historia zmian i które podejście wybrać dla zespołu."
+  description: >-
+    Praktyczny przewodnik: modele wersjonowania w systemach no‑code/headless,
+    jak działa historia zmian i które podejście wybrać dla zespołu.
 meta:
   difficulty: średni
   duration: 5–30 min (pierwsze ustawienia)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Small teams → prosty draft + publikacja; zespoły produktowe → release/branching."
-  - "Werdykt: Jeśli potrzebujesz rollback bez deployu — wybierz snapshot-on-publish\
-    \ (Contentful‑style)."
+    - >-
+      Werdykt: Small teams → prosty draft + publikacja; zespoły produktowe →
+      release/branching.
+    - >-
+      Werdykt: Jeśli potrzebujesz rollback bez deployu — wybierz
+      snapshot-on-publish (Contentful‑style).
 taxonomy:
   categories:
-  - CMS
-  - Procesy
+    - CMS
+    - Procesy
   tags:
-  - wersjonowanie
-  - no-code
-  - workflow
+    - wersjonowanie
+    - no-code
+    - workflow
 ---
 
 Krótki werdykt na start: **jeśli zarządzasz treścią, która musi być zatwierdzana przed publikacją, wybierz system z wydzielonym draftem i mechanizmem release/merge;** dla prostych blogów wystarczy wersjonowanie przy publikacji. Poniżej wyjaśnię dlaczego, jak to działa oraz jak zacząć w 5–30 minut.

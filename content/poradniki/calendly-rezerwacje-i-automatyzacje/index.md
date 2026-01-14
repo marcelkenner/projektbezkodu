@@ -1,34 +1,38 @@
 ---
-title: "Calendly — rezerwacje i automatyzacje: szybki przewodnik"
+title: 'Calendly — rezerwacje i automatyzacje: szybki przewodnik'
 slug: calendly-rezerwacje-i-automatyzacje
 path: /calendly-rezerwacje-i-automatyzacje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Calendly — rezerwacje i automatyzacje
   subheading: Jak ustawić typy spotkań, dostępność, bufory i automatyczne follow-upy
 seo:
-  title: "Calendly: konfiguracja rezerwacji i automatyzacje"
-  description: "Krótki przewodnik: kiedy warto używać Calendly, jak skonfigurować\
-    \ eventy, bufory i integracje."
+  title: 'Calendly: konfiguracja rezerwacji i automatyzacje'
+  description: >-
+    Krótki przewodnik: kiedy warto używać Calendly, jak skonfigurować eventy,
+    bufory i integracje.
 meta:
   difficulty: łatwe do średniego
   duration: 10–30 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybkie wdrożenie, dobra kontrola kalendarza"
-  - "Dla kogo: freelancerzy i małe zespoły; mniej dla skomplikowanych systemów rezerwacji"
-  - "Start: połącz kalendarze, ustaw 1–2 typy spotkań, dodaj bufory"
+    - 'Werdykt: szybkie wdrożenie, dobra kontrola kalendarza'
+    - >-
+      Dla kogo: freelancerzy i małe zespoły; mniej dla skomplikowanych systemów
+      rezerwacji
+    - 'Start: połącz kalendarze, ustaw 1–2 typy spotkań, dodaj bufory'
   primaryCta:
     label: Instrukcja powiadomień Calendly
-    href: https://help.calendly.com/hc/en-us/articles/14078580813335-Calendly-scheduling-notifications
+    href: >-
+      https://help.calendly.com/hc/en-us/articles/14078580813335-Calendly-scheduling-notifications
 taxonomy:
   categories:
-  - narzędzia
-  - produktywność
+    - narzędzia
+    - produktywność
 ---
 
 ## Obietnica decyzji

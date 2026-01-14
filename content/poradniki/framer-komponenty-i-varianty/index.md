@@ -1,33 +1,37 @@
 ---
-title: "Framer: komponenty i varianty"
+title: 'Framer: komponenty i varianty'
 slug: framer-komponenty-i-varianty
 path: /framer-komponenty-i-varianty
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Framer: komponenty i varianty"
+  heading: 'Framer: komponenty i varianty'
   subheading: Szybki przewodnik — co działa, co irytuje i jak zacząć w 5 minut.
 meta:
   summaryBullets:
-  - "Werdykt: świetne do spójnych interfejsów i szybkich iteracji, ale potrafi zaskoczyć\
-    \ przy złożonych drzewach warstw."
-  - "Dla kogo: projektanci produktowi i zespoły frontendowe, które chcą reuse i animacje;\
-    \ nie dla bardzo niestandardowych widgetów bez kodu."
-  - "Start: utwórz komponent, dodaj 2–3 varianty, przypisz zmienne — opublikuj prototyp."
+    - >-
+      Werdykt: świetne do spójnych interfejsów i szybkich iteracji, ale potrafi
+      zaskoczyć przy złożonych drzewach warstw.
+    - >-
+      Dla kogo: projektanci produktowi i zespoły frontendowe, które chcą reuse i
+      animacje; nie dla bardzo niestandardowych widgetów bez kodu.
+    - >-
+      Start: utwórz komponent, dodaj 2–3 varianty, przypisz zmienne — opublikuj
+      prototyp.
   primaryCta:
     label: Lekcja o komponentach
     href: https://www.framer.com/academy/lessons/components
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzędzia
-  - design
+    - narzędzia
+    - design
   tags:
-  - framer
-  - components
-  - variants
-  - tutorial
+    - framer
+    - components
+    - variants
+    - tutorial
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

@@ -1,30 +1,36 @@
 ---
-title: "Webflow CMS: kategorie i tagowanie — kiedy użyć multi-reference, a kiedy reference"
+title: >-
+  Webflow CMS: kategorie i tagowanie — kiedy użyć multi-reference, a kiedy
+  reference
 slug: webflow-cms-kategorie-tagowanie
 path: /webflow-cms-kategorie-tagowanie
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Kategorie i tagi w Webflow CMS
   subheading: Proste reguły wyboru pola, filtrowanie i krótkie kroki startowe
 meta:
   summaryBullets:
-  - "Werdykt: multi-reference dla wielotagowych systemów, reference dla jednej kategorii."
-  - "Dla kogo: blogi/portfele → tagi; katalogi/struktura hierarchiczna → reference."
-  - "Start: utwórz kolekcję Tags i dodaj pole multi-reference do wpisów."
+    - >-
+      Werdykt: multi-reference dla wielotagowych systemów, reference dla jednej
+      kategorii.
+    - >-
+      Dla kogo: blogi/portfele → tagi; katalogi/struktura hierarchiczna →
+      reference.
+    - 'Start: utwórz kolekcję Tags i dodaj pole multi-reference do wpisów.'
   primaryCta:
-    label: "Webflow Help: Multi-reference"
+    label: 'Webflow Help: Multi-reference'
     href: https://help.webflow.com/hc/en-us/articles/33961260360083
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - webflow
+    - webflow
   tags:
-  - cms
-  - kategorie
-  - tagi
+    - cms
+    - kategorie
+    - tagi
 ---
 
 ## Obietnica decyzji (kogo dotyczy)

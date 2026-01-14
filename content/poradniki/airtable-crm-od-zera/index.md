@@ -4,32 +4,33 @@ slug: airtable-crm-od-zera
 path: /airtable-crm-od-zera
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Airtable CRM od zera — prosty poradnik
   subheading: Tabele, relacje, formularze leadów i podstawowe automatyzacje
 seo:
   title: Airtable CRM od zera — jak zbudować prosty CRM w kilka godzin
-  description: "Krótkie instrukcje: struktura bazy, relacje między tabelami, formularz\
-    \ do zbierania leadów i kiedy używać automatyzacji."
+  description: >-
+    Krótkie instrukcje: struktura bazy, relacje między tabelami, formularz do
+    zbierania leadów i kiedy używać automatyzacji.
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: szybki, tani CRM dla jednoosobówek i małych zespołów"
-  - "Dla kogo: freelancer, startup, mała sprzedaż B2B"
-  - "Start: skopiuj szablon i dodaj formularz — 30–60 min"
+    - 'Werdykt: szybki, tani CRM dla jednoosobówek i małych zespołów'
+    - 'Dla kogo: freelancer, startup, mała sprzedaż B2B'
+    - 'Start: skopiuj szablon i dodaj formularz — 30–60 min'
   primaryCta:
     label: Zobacz rozwiązania i szablony Airtable
     href: https://www.airtable.com/solutions/sales
 taxonomy:
   categories:
-  - narzędzia
-  - CRM
+    - narzędzia
+    - CRM
   tags:
-  - Airtable
-  - CRM
-  - automatyzacje
+    - Airtable
+    - CRM
+    - automatyzacje
 ---
 
 ## Obietnica decyzji dla kogo i kiedy

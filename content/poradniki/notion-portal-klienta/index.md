@@ -1,38 +1,40 @@
 ---
-title: "Notion: portal klienta — szybki poradnik"
+title: 'Notion: portal klienta — szybki poradnik'
 slug: notion-portal-klienta
 path: /notion-portal-klienta
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Notion: portal klienta — szybki poradnik"
-  subheading: Jak wystartować z portalem klienta w Notion i kiedy lepiej użyć zewnętrznego
+  heading: 'Notion: portal klienta — szybki poradnik'
+  subheading: >-
+    Jak wystartować z portalem klienta w Notion i kiedy lepiej użyć zewnętrznego
     narzędzia
 seo:
   title: Notion portal klienta — jak zbudować i kiedy użyć Softr/PortalWith
-  description: "Praktyczny przewodnik krok po kroku: trzy podejścia do portalu klienta\
-    \ w Notion, plus szybki werdykt dla freelancerów, agencji i zespołów."
+  description: >-
+    Praktyczny przewodnik krok po kroku: trzy podejścia do portalu klienta w
+    Notion, plus szybki werdykt dla freelancerów, agencji i zespołów.
 meta:
   summaryBullets:
-  - "Werdykt: trzy praktyczne podejścia i jasne kryteria wyboru"
-  - "Dla kogo: freelancer, mała agencja, większy zespół"
-  - "Start: gotowy szablon i pierwsze ustawienia w 10–30 minut"
+    - 'Werdykt: trzy praktyczne podejścia i jasne kryteria wyboru'
+    - 'Dla kogo: freelancer, mała agencja, większy zespół'
+    - 'Start: gotowy szablon i pierwsze ustawienia w 10–30 minut'
   primaryCta:
     label: Przeczytaj przewodnik
     href: https://motion.io/blog/build-a-client-portal-in-notion
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   duration: 10-60 minut
 taxonomy:
   categories:
-  - Notion
-  - Produktywność
+    - Notion
+    - Produktywność
   tags:
-  - portal klienta
-  - notion
-  - no-code
+    - portal klienta
+    - notion
+    - no-code
 ---
 
 ## Obietnica i szybki werdykt dla czytelnika

@@ -1,27 +1,27 @@
 ---
-title: "Statusy i role w redakcji: prosty workflow w Notion/Airtable"
+title: 'Statusy i role w redakcji: prosty workflow w Notion/Airtable'
 slug: statusy-i-role-w-redakcji-prosty-workflow-w-notion-airtable
 path: /statusy-i-role-w-redakcji-prosty-workflow-w-notion-airtable
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Statusy i role w redakcji: prosty workflow w Notion/Airtable"
+  heading: 'Statusy i role w redakcji: prosty workflow w Notion/Airtable'
   subheading: Jak ustawić jasne statusy, przypisać role i zacząć publikować bez chaosu
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   difficulty: Łatwy
   duration: 15 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Notion — szybkie UX dla redakcji małych/średnich zespołów."
-  - "Werdykt: Airtable — lepszy przy wielu tabelach, powiązaniach i raportach."
+    - 'Werdykt: Notion — szybkie UX dla redakcji małych/średnich zespołów.'
+    - 'Werdykt: Airtable — lepszy przy wielu tabelach, powiązaniach i raportach.'
 taxonomy:
   categories:
-  - narzędzia
-  - produktywność
-  - redakcja
+    - narzędzia
+    - produktywność
+    - redakcja
 ---
 
 ## Obietnica decyzji: kto powinien używać Notion, a kto Airtable

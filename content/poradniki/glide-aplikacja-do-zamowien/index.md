@@ -4,35 +4,39 @@ slug: glide-aplikacja-do-zamowien
 path: /glide-aplikacja-do-zamowien
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Aplikacja do zamówień w Glide
-  subheading: Jak szybko postawić formularze, role i powiadomienia, żeby zamówienia
+  subheading: >-
+    Jak szybko postawić formularze, role i powiadomienia, żeby zamówienia
     działały w praktyce
 seo:
-  title: "Glide: aplikacja do zamówień — przewodnik"
-  description: "Krótki przewodnik jak zbudować prosty system zamówień w Glide: dane,\
-    \ role, formularze, statusy, powiadomienia."
+  title: 'Glide: aplikacja do zamówień — przewodnik'
+  description: >-
+    Krótki przewodnik jak zbudować prosty system zamówień w Glide: dane, role,
+    formularze, statusy, powiadomienia.
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: beginner–intermediate
   duration: 5–180 minut
   summaryBullets:
-  - "Werdykt: dobry wybór jeśli potrzebujesz prostego systemu zamówień."
-  - "Dla kogo: ma sens przy zespołach 1–10 i przy procesach bez skomplikowanej automatyki."
-  - "Start: stwórz Users table, formularz zamówienia i ustaw Role/Row Owner."
+    - 'Werdykt: dobry wybór jeśli potrzebujesz prostego systemu zamówień.'
+    - >-
+      Dla kogo: ma sens przy zespołach 1–10 i przy procesach bez skomplikowanej
+      automatyki.
+    - 'Start: stwórz Users table, formularz zamówienia i ustaw Role/Row Owner.'
   primaryCta:
-    label: "Glide Docs: Roles"
+    label: 'Glide Docs: Roles'
     href: https://www.glideapps.com/docs/essentials/security-and-user-data/roles
 taxonomy:
   categories:
-  - narzędzia
-  - no-code
+    - narzędzia
+    - no-code
   tags:
-  - Glide
-  - zamówienia
-  - formularze
+    - Glide
+    - zamówienia
+    - formularze
 ---
 
 ## Krótka obietnica decyzji dla właściciela małej firmy

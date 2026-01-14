@@ -4,38 +4,44 @@ slug: google-sheets-dashboard-kpi
 path: /google-sheets-dashboard-kpi
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Dashboard KPI w Google Sheets — szybki plan działania
-  subheading: Import danych, tabele przestawne, wykresy i automatyczne odświeżanie
-    — co naprawdę działa
+  subheading: >-
+    Import danych, tabele przestawne, wykresy i automatyczne odświeżanie — co
+    naprawdę działa
 seo:
   title: Jak zrobić dashboard KPI w Google Sheets – przewodnik krok po kroku
-  description: "Praktyczny przewodnik: co użyć (IMPORTRANGE/QUERY/PIVOT), jak to odświeżać\
-    \ (Apps Script) i dla kogo warto budować dashboard w Sheets."
+  description: >-
+    Praktyczny przewodnik: co użyć (IMPORTRANGE/QUERY/PIVOT), jak to odświeżać
+    (Apps Script) i dla kogo warto budować dashboard w Sheets.
 meta:
   difficulty: średni
-  duration: "15–60 min (pierwszy draft: 15 min)"
+  duration: '15–60 min (pierwszy draft: 15 min)'
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybki dashboard w Sheets działa dobrze dla małych zespołów, ale skalowanie\
-    \ wymaga skryptów lub BI."
-  - "Dla kogo: dobra opcja gdy masz ≤10k wierszy, proste KPI i chcesz szybko prototypować."
-  - "Start: 15-minutowy proof-of-concept — zaimportuj próbkę danych, zrób pivot i\
-    \ jeden wykres."
+    - >-
+      Werdykt: szybki dashboard w Sheets działa dobrze dla małych zespołów, ale
+      skalowanie wymaga skryptów lub BI.
+    - >-
+      Dla kogo: dobra opcja gdy masz ≤10k wierszy, proste KPI i chcesz szybko
+      prototypować.
+    - >-
+      Start: 15-minutowy proof-of-concept — zaimportuj próbkę danych, zrób pivot
+      i jeden wykres.
   primaryCta:
     label: Dokumentacja Apps Script (triggery)
     href: https://developers.google.com/apps-script/guides/triggers/installable
 taxonomy:
   categories:
-  - narzędzia
-  - google-sheets
+    - narzędzia
+    - google-sheets
   tags:
-  - dashboard
-  - kpi
-  - googlesheets
+    - dashboard
+    - kpi
+    - googlesheets
 ---
 
 ## Obietnica decyzji — dla kogo ten artykuł

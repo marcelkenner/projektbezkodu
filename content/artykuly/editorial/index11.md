@@ -1,35 +1,38 @@
 ---
-title: "Jak aktualizować stare artykuły: audyt, priorytety i harmonogram"
+title: 'Jak aktualizować stare artykuły: audyt, priorytety i harmonogram'
 slug: jak-aktualizowac-stare-artykuly-audyt-priorytety-i-harmonogram
 path: /jak-aktualizowac-stare-artykuly-audyt-priorytety-i-harmonogram
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Aktualizacja starych artykułów: audyt, priorytety i harmonogram"
-  subheading: "Krótkie, praktyczne instrukcje: co robić najpierw, kiedy przebudować,\
-    \ a kiedy skasować."
+  heading: 'Aktualizacja starych artykułów: audyt, priorytety i harmonogram'
+  subheading: >-
+    Krótkie, praktyczne instrukcje: co robić najpierw, kiedy przebudować, a
+    kiedy skasować.
 seo:
   title: Aktualizacja starych artykułów — audyt, priorytety i harmonogram
-  description: "Praktyczny proces aktualizacji treści: jak przeprowadzić audyt, jak\
-    \ priorytetyzować strony i jak rozłożyć pracę w czasie."
+  description: >-
+    Praktyczny proces aktualizacji treści: jak przeprowadzić audyt, jak
+    priorytetyzować strony i jak rozłożyć pracę w czasie.
 meta:
   difficulty: średni
   duration: 5–60 min (per URL, zależnie od skali)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Zacznij od triage (6–12 tygodni pracy dla średniego bloga), odświeżaj\
-    \ strategiczne strony co 6–12 miesięcy."
+    - >-
+      Werdykt: Zacznij od triage (6–12 tygodni pracy dla średniego bloga),
+      odświeżaj strategiczne strony co 6–12 miesięcy.
 taxonomy:
   categories:
-  - SEO
-  - Content
+    - SEO
+    - Content
   tags:
-  - audyt treści
-  - content refresh
-  - harmonogram
+    - audyt treści
+    - content refresh
+    - harmonogram
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

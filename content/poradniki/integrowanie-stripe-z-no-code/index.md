@@ -1,38 +1,43 @@
 ---
-title: "Integracja Stripe z narzędziami no‑code: szybki przewodnik i werdykt"
+title: 'Integracja Stripe z narzędziami no‑code: szybki przewodnik i werdykt'
 slug: integrowanie-stripe-z-no-code
 path: /integrowanie-stripe-z-no-code
 template: default
 draft: false
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Integracja Stripe z narzędziami no‑code
-  subheading: Checkout, webhooks i subskrypcje — co działa bez kodu, a gdzie pojawią
-    się pułapki
+  subheading: >-
+    Checkout, webhooks i subskrypcje — co działa bez kodu, a gdzie pojawią się
+    pułapki
 meta:
   summaryBullets:
-  - "Werdykt: Stripe + no‑code to realna opcja dla większości prostych sklepów i subskrypcji."
-  - "Dla kogo: najlepsze dla MVP, landingów i prostych SaaS; nie dla złożonych platform\
-    \ marketplace bez wsparcia dev."
-  - "Start: w 10–30 minut uruchomisz Checkout i prosty webhook testowy."
-  - "Rady praktyczne: użyj Checkout dla płatności i webhooków (subskrypcje), a Zapier/Make\
-    \ do automatyzacji."
+    - >-
+      Werdykt: Stripe + no‑code to realna opcja dla większości prostych sklepów
+      i subskrypcji.
+    - >-
+      Dla kogo: najlepsze dla MVP, landingów i prostych SaaS; nie dla złożonych
+      platform marketplace bez wsparcia dev.
+    - 'Start: w 10–30 minut uruchomisz Checkout i prosty webhook testowy.'
+    - >-
+      Rady praktyczne: użyj Checkout dla płatności i webhooków (subskrypcje), a
+      Zapier/Make do automatyzacji.
   primaryCta:
     label: Dokumentacja Stripe Checkout
     href: https://stripe.com/payments/checkout
   hasAffiliateLinks: false
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - płatności
-  - no-code
+    - płatności
+    - no-code
   tags:
-  - stripe
-  - webhook
-  - checkout
-  - zapier
-  - subscriptions
+    - stripe
+    - webhook
+    - checkout
+    - zapier
+    - subscriptions
 ---
 
 ## Obietnica i szybki werdykt

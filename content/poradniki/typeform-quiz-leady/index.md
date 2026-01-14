@@ -5,28 +5,33 @@ path: /typeform-quiz-leady
 template: default
 draft: false
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Quiz w Typeform do generowania leadów
   subheading: Jak zbudować quiz, ustawić scoring i wysyłać leady do Google Sheets/CRM
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: szybki sposób na kwalifikację leadów, jeśli masz jasne reguły scoringu"
-  - "Dla kogo: marketing i sprzedaż B2B/B2C z prostymi potrzebami segmentacji"
-  - "Start: zbuduj 5–10 pytań, włącz scoring i podłącz Google Sheets przez integrację"
+    - >-
+      Werdykt: szybki sposób na kwalifikację leadów, jeśli masz jasne reguły
+      scoringu
+    - 'Dla kogo: marketing i sprzedaż B2B/B2C z prostymi potrzebami segmentacji'
+    - >-
+      Start: zbuduj 5–10 pytań, włącz scoring i podłącz Google Sheets przez
+      integrację
   primaryCta:
     label: Instrukcja integracji Google Sheets
-    href: https://help.typeform.com/hc/en-us/articles/360029256192-How-to-set-up-the-Typeform-Google-Sheets-integration
+    href: >-
+      https://help.typeform.com/hc/en-us/articles/360029256192-How-to-set-up-the-Typeform-Google-Sheets-integration
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - marketing
+    - marketing
   tags:
-  - typeform
-  - lead-generation
-  - quiz
+    - typeform
+    - lead-generation
+    - quiz
 ---
 
 Obietnica: dostaniesz krótką decyzję — czy quiz w Typeform to dobry sposób na generowanie i kwalifikację leadów dla twojego zespołu — plus konkretny start krok po kroku.

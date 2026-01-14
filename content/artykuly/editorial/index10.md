@@ -1,41 +1,43 @@
 ---
-title: "Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu"
+title: 'Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu'
 slug: jak-mierzyc-efekty-contentu-kpi-cele-i-raporty-bez-kodu
 path: /jak-mierzyc-efekty-contentu-kpi-cele-i-raporty-bez-kodu
 template: default
 draft: false
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu"
-  subheading: Szybkie decyzje dla osób odpowiedzialnych za content — bez konieczności
+  heading: 'Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu'
+  subheading: >-
+    Szybkie decyzje dla osób odpowiedzialnych za content — bez konieczności
     programowania
 seo:
-  title: "Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu"
-  description: "Praktyczny przewodnik: które KPI śledzić, jak ustawić cele i zbudować\
-    \ raporty bez kodu (5-minutowy start)."
+  title: 'Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu'
+  description: >-
+    Praktyczny przewodnik: które KPI śledzić, jak ustawić cele i zbudować
+    raporty bez kodu (5-minutowy start).
 meta:
   difficulty: średni
   duration: 15–60 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Artykuł HubSpot o wydajności treści
     href: https://blog.hubspot.com/website/content-performance
   summaryBullets:
-  - "Werdykt: wybierz 1–2 KPI powiązane z celem biznesowym"
-  - "Dla kogo: marketing B2B i e‑commerce, gdy nie chcesz programować"
-  - "Start: pierwszy raport w Looker Studio w 30 minut"
+    - 'Werdykt: wybierz 1–2 KPI powiązane z celem biznesowym'
+    - 'Dla kogo: marketing B2B i e‑commerce, gdy nie chcesz programować'
+    - 'Start: pierwszy raport w Looker Studio w 30 minut'
 taxonomy:
   categories:
-  - Content
-  - Analityka
-  - Marketing
+    - Content
+    - Analityka
+    - Marketing
   tags:
-  - KPI
-  - raporty
-  - no-code
+    - KPI
+    - raporty
+    - no-code
 ---
 
 ## Obietnica i grupa docelowa
