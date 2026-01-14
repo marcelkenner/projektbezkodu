@@ -4,16 +4,29 @@ slug: creative-market-alternatywy
 path: /narzedzia/creative-market/alternatywy/
 template: alternatives
 type: alternatywy
-date: "2026-01-07"
+date: '2026-01-07'
 hero:
-  heading: Alternatywy dla Creative Market — wybierz narzędzie pod swój typ pracy, nie pod hype
-  subheading: Creative Market jest świetny do kupowania „gotowców” pod projekty. Jeśli jednak chcesz nielimitowanych pobrań, stricte stocków, narzędzia do produkcji contentu albo modelu POD — są lepsze wybory.
+  heading: >-
+    Alternatywy dla Creative Market — wybierz narzędzie pod swój typ pracy, nie
+    pod hype
+  subheading: >-
+    Creative Market jest świetny do kupowania „gotowców” pod projekty. Jeśli
+    jednak chcesz nielimitowanych pobrań, stricte stocków, narzędzia do
+    produkcji contentu albo modelu POD — są lepsze wybory.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Alternatywy dla Creative Market — Envato, Adobe Stock, Freepik, Canva i inne (2026)
-  description: Konkretne alternatywy dla Creative Market: kiedy wybrać Envato Elements, Adobe Stock, Freepik, Canva, Creative Fabrica, Shutterstock lub Google Fonts. Jasne werdykty i szybka mapa decyzji.
+  title: >-
+    Alternatywy dla Creative Market — Envato, Adobe Stock, Freepik, Canva i inne
+    (2026)
+  description: >-
+    Konkretne alternatywy dla Creative Market: kiedy wybrać Envato Elements,
+    Adobe Stock, Freepik, Canva, Creative Fabrica, Shutterstock lub Google
+    Fonts. Jasne werdykty i szybka mapa decyzji.
   canonical: https://twojadomena.pl/narzedzia/creative-market/alternatywy/
 meta:
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   format: porównanie
   topics:
     - alternatywy
@@ -23,8 +36,12 @@ meta:
     - licencje
   summaryBullets:
     - Jeśli chcesz „unlimited downloads”, najczęściej wygrywa Envato Elements.
-    - Jeśli potrzebujesz stocków do kampanii i dużych zasięgów, lepiej patrzeć na Adobe Stock lub Shutterstock.
-    - Jeśli robisz POD/merch i potrzebujesz prostych zasad komercyjnych, Creative Fabrica bywa bardziej naturalna.
+    - >-
+      Jeśli potrzebujesz stocków do kampanii i dużych zasięgów, lepiej patrzeć
+      na Adobe Stock lub Shutterstock.
+    - >-
+      Jeśli robisz POD/merch i potrzebujesz prostych zasad komercyjnych,
+      Creative Fabrica bywa bardziej naturalna.
   primaryCta:
     label: Przeczytaj recenzję Creative Market
     href: /narzedzia/creative-market/recenzja/

@@ -1,5 +1,5 @@
 ---
-title: 'Icons8 Faq'
+title: Icons8 Faq
 slug: faq
 path: /narzedzia/icons8/faq/
 draft: false
@@ -10,11 +10,20 @@ hero:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
   heading: Icons8 Faq
-  subheading: Krótki, praktyczny przewodnik — co działa, co irytuje i kiedy warto wybrać Icons8.
+  subheading: >-
+    Krótki, praktyczny przewodnik — co działa, co irytuje i kiedy warto wybrać
+    Icons8.
 seo:
-  title: 'Icons8 FAQ — czy warto dla ikon, ilustracji i narzędzi designu'
-  description: 'Praktyczne FAQ o Icons8: co oferuje (ikony, ilustracje, zdjęcia, narzędzia), jak zacząć i kto na tym zyska, a kto się zdenerwuje.'
-  keywords: ['Icons8','ikony','ilustracje','narzędzia designu','FAQ']
+  title: Icons8 FAQ — czy warto dla ikon, ilustracji i narzędzi designu
+  description: >-
+    Praktyczne FAQ o Icons8: co oferuje (ikony, ilustracje, zdjęcia, narzędzia),
+    jak zacząć i kto na tym zyska, a kto się zdenerwuje.
+  keywords:
+    - Icons8
+    - ikony
+    - ilustracje
+    - narzędzia designu
+    - FAQ
 meta:
   difficulty: łatwy
   duration: 5 min
@@ -32,14 +41,24 @@ meta:
     bestRating: 5
     worstRating: 1
     author: Redakcja
-    pros: ['Szeroka biblioteka ikon', 'Warianty stylów', 'Darmowe opcje przed płatnością']
-    cons: ['Złożoność licencji dla dużych projektów', 'Czasem droższe plany']
+    pros:
+      - Szeroka biblioteka ikon
+      - Warianty stylów
+      - Darmowe opcje przed płatnością
+    cons:
+      - Złożoność licencji dla dużych projektów
+      - Czasem droższe plany
 taxonomy:
-  categories: ['narzędzia','design','grafika']
-  tags: ['Icons8','ikony','ilustracje','FAQ']
+  categories:
+    - narzędzia
+    - design
+    - grafika
+  tags:
+    - Icons8
+    - ikony
+    - ilustracje
+    - FAQ
 ---
-
-
 
 # Icons8 — szybki werdykt dla szukających ikon i ilustracji
 

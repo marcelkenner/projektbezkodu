@@ -1,6 +1,6 @@
 ---
-title: "Regulamin promocji i kodów rabatowych: jak uniknąć sporów o „a mi się należy”"
-category: "regulamin"
+title: 'Regulamin promocji i kodów rabatowych: jak uniknąć sporów o „a mi się należy”'
+category: regulamin
 draft: true
 ---
 

@@ -59,6 +59,12 @@ taxonomy:
     - ghost
     - mailerlite
     - getresponse
+hero:
+  heading: 'Alternatywy dla beehiiv: co wybrać zamiast i kiedy to ma sens'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Beehiiv jest świetny, gdy budujesz newsletter jak produkt: wzrost + monetyzacja w jednym miejscu. Ale jeśli Twój scenariusz jest inny, to są narzędzia, które zrobią Ci robotę szybciej, taniej albo z większą kontrolą.

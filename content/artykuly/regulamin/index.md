@@ -1,6 +1,8 @@
 ---
-title: "Regulamin strony i newslettera: prosty wzór dla twórcy no-code (bez prawniczego bełkotu)"
-category: "regulamin"
+title: >-
+  Regulamin strony i newslettera: prosty wzór dla twórcy no-code (bez
+  prawniczego bełkotu)
+category: regulamin
 draft: true
 ---
 

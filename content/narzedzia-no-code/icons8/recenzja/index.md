@@ -1,5 +1,5 @@
 ---
-title: 'Icons8 Recenzja'
+title: Icons8 Recenzja
 slug: recenzja
 path: /narzedzia/icons8/recenzja/
 draft: false
@@ -15,25 +15,25 @@ meta:
   difficulty: beginner
   duration: 5 min
   tools:
-  - Icons8
-  - Lunacy
+    - Icons8
+    - Lunacy
   author: Redakcja
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - Szybki start: 5 minut, konto wystarczy.
-  - Darmowe ikony z wymogiem linku; płatne plany usuwają atrybucję.
-  - Najlepsze dla: szybkie prototypy, zespoły UX z ograniczonym budżetem.
+    - Szybki start: 5 minut, konto wystarczy.
+    - Darmowe ikony z wymogiem linku; płatne plany usuwają atrybucję.
+    - Najlepsze dla: szybkie prototypy, zespoły UX z ograniczonym budżetem.
 taxonomy:
   categories:
-  - narzędzia
-  - grafika
-  - recenzja
+    - narzędzia
+    - grafika
+    - recenzja
   tags:
-  - Icons8
-  - ikony
-  - ilustracje
-  - Lunacy
+    - Icons8
+    - ikony
+    - ilustracje
+    - Lunacy
 ---
 
 # Obietnica decyzji — komu to pomoże

@@ -40,6 +40,12 @@ taxonomy:
     - newsletter
     - monetyzacja
     - publishing
+hero:
+  heading: beehiiv
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # beehiiv: narzędzie do newslettera, który ma rosnąć i zarabiać

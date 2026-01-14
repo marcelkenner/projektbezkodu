@@ -13,9 +13,10 @@ hero:
 template: default
 seo:
   title: Hotjar Cennik — plany, limity i rekomendacje
-  description: 'Aktualny przegląd planów Hotjar (Observe, Ask, Engage), limitów oraz
-    praktyczne rekomendacje dla freelancerów i zespołów. Zaktualizowano: 14 stycznia
-    2026.'
+  description: >-
+    Aktualny przegląd planów Hotjar (Observe, Ask, Engage), limitów oraz
+    praktyczne rekomendacje dla freelancerów i zespołów. Zaktualizowano: 14
+    stycznia 2026.
 ---
 
 ```markdown
@@ -73,4 +74,4 @@ Rekomendacja: co zrobić dziś
 3. Dla zespołów produktowych: plan Growth/Business najczęściej daje najlepszy trade‑off między kosztem a funkcjami. Dla enterprise — negocjacje i dodatkowe SLA.  
 
 Krótka jednozdaniowa rekomendacja do udostępnienia
-„Hotjar to najszybszy sposób na zrozumienie zachowań użytkowników w MVP i małych produktach — ale przygotuj się na rosnące koszty przy dużym ruchu.”  
+„Hotjar to najszybszy sposób na zrozumienie zachowań użytkowników w MVP i małych produktach — ale przygotuj się na rosnące koszty przy dużym ruchu.”

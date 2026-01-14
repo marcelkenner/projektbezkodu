@@ -33,6 +33,12 @@ taxonomy:
     - B2B
     - headless
     - sklep internetowy
+hero:
+  heading: 'Recenzja BigCommerce: dla kogo to jest świetna platforma, a kto przepłaci'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 BigCommerce jest platformą dla firm, które traktują e-commerce jak proces, a nie projekt graficzny. Jeśli rośniesz, masz zespół i chcesz spokojnie skalować bez cotygodniowego „gaszenia” problemów z wtyczkami, BigCommerce ma sens. Jeśli startujesz małym budżetem w Polsce i chcesz maksymalnie lokalnego ekosystemu w PLN, to nie jest narzędzie na Twój etap.

@@ -1,19 +1,45 @@
 ---
-title: "Alternatywy dla GetResponse: co wybrać, gdy GetResponse nie pasuje"
-slug: "getresponse-alternatywy"
-path: "/narzedzia/getresponse/alternatywy/"
-template: "default"
-type: "narzedzie-alternatywy"
-date: "2026-01-08"
+title: 'Alternatywy dla GetResponse: co wybrać, gdy GetResponse nie pasuje'
+slug: getresponse-alternatywy
+path: /narzedzia/getresponse/alternatywy/
+template: default
+type: narzedzie-alternatywy
+date: '2026-01-08'
 seo:
-  title: "Alternatywy dla GetResponse (Polska) — Brevo, MailerLite, Omnisend, Klaviyo i inne"
-  description: "Porównanie narzędzi zamiast GetResponse: kto powinien wybrać Brevo, MailerLite, Omnisend, Klaviyo, Kit, Mailchimp, ActiveCampaign, HubSpot i kiedy to ma sens."
+  title: >-
+    Alternatywy dla GetResponse (Polska) — Brevo, MailerLite, Omnisend, Klaviyo
+    i inne
+  description: >-
+    Porównanie narzędzi zamiast GetResponse: kto powinien wybrać Brevo,
+    MailerLite, Omnisend, Klaviyo, Kit, Mailchimp, ActiveCampaign, HubSpot i
+    kiedy to ma sens.
 meta:
-  updatedAt: "2026-01-08"
-  topics: ["email marketing", "marketing automation", "e-commerce", "newsletter", "CRM"]
+  updatedAt: '2026-01-08'
+  topics:
+    - email marketing
+    - marketing automation
+    - e-commerce
+    - newsletter
+    - CRM
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["GetResponse", "alternatywy", "Brevo", "MailerLite", "Omnisend", "Klaviyo", "Mailchimp", "ActiveCampaign", "HubSpot"]
+  categories:
+    - Narzędzia
+  tags:
+    - GetResponse
+    - alternatywy
+    - Brevo
+    - MailerLite
+    - Omnisend
+    - Klaviyo
+    - Mailchimp
+    - ActiveCampaign
+    - HubSpot
+hero:
+  heading: 'Alternatywy dla GetResponse: co wybrać, gdy GetResponse nie pasuje'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 ## Werdykt: GetResponse nie jest „dla wszystkich” i to dobrze

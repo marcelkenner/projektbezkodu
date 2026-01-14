@@ -5,10 +5,13 @@ path: /narzedzia/envato-elements/alternatywy/
 template: default
 seo:
   title: Alternatywy dla Envato Elements – co wybrać, gdy Elements nie pasuje
-  description: Konkretne alternatywy dla Envato Elements: Freepik, Canva, Motion Array, Storyblocks, Adobe Stock, Shutterstock, Artlist, Epidemic Sound i Envato Market. Jasne „kiedy wygrywa” i „kiedy nie”.
+  description: >-
+    Konkretne alternatywy dla Envato Elements: Freepik, Canva, Motion Array,
+    Storyblocks, Adobe Stock, Shutterstock, Artlist, Epidemic Sound i Envato
+    Market. Jasne „kiedy wygrywa” i „kiedy nie”.
 meta:
   format: porównanie
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   topics:
     - zasoby kreatywne
     - stock
@@ -32,6 +35,12 @@ taxonomy:
     - szablony
     - muzyka
     - wideo
+hero:
+  heading: Envato Elements – alternatywy
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Alternatywy dla Envato Elements

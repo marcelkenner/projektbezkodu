@@ -9,6 +9,8 @@ hero:
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
+  heading: Icons8 Cennik
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
 ---
 
 Lead: Szybki werdykt dla projektantów i niewielkich zespołów — Icons8 ma wartościowe zasoby i narzędzia, ale opłaca się tylko wtedy, gdy potrzebujesz regularnych pobrań lub Lunacy jako edytora.  

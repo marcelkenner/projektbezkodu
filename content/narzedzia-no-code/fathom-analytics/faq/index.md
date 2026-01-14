@@ -5,10 +5,13 @@ path: /narzedzia/envato-elements/faq/
 template: default
 seo:
   title: Envato Elements FAQ – licencja, anulowanie, YouTube, logo, AI, faktury
-  description: Najczęstsze pytania o Envato Elements: jak działa licencja „na projekt”, co po anulowaniu, muzyka na YouTube i streaming, użycie w logo, konto firmowe/Team, limity pobrań (Fair Use), faktury i VAT, zmiany w AI w 2026.
+  description: >-
+    Najczęstsze pytania o Envato Elements: jak działa licencja „na projekt”, co
+    po anulowaniu, muzyka na YouTube i streaming, użycie w logo, konto
+    firmowe/Team, limity pobrań (Fair Use), faktury i VAT, zmiany w AI w 2026.
 meta:
   format: faq
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   topics:
     - licencje
     - stock
@@ -33,6 +36,12 @@ taxonomy:
     - licencja
     - youtube
     - vat
+hero:
+  heading: Envato Elements – FAQ
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Envato Elements FAQ

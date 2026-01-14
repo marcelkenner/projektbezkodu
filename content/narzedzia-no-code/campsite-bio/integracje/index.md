@@ -64,6 +64,12 @@ taxonomy:
     - shopify
     - GTM
     - GA4
+hero:
+  heading: Campsite.bio – integracje
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Integracje w Campsite.bio – werdykt bez udawania

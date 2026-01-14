@@ -4,16 +4,27 @@ slug: creative-market
 path: /narzedzia/creative-market/
 template: tool
 type: narzedzie
-date: "2026-01-07"
+date: '2026-01-07'
 hero:
-  heading: Creative Market — gotowe zasoby dla projektantów i marketerów, bez polowania po przypadkowych stronach
-  subheading: Jeśli robisz strony, social media, identyfikacje albo pitch decki i chcesz kupować sprawdzone paczki (fonty, mockupy, szablony), Creative Market jest jednym z najwygodniejszych miejsc na start.
+  heading: >-
+    Creative Market — gotowe zasoby dla projektantów i marketerów, bez polowania
+    po przypadkowych stronach
+  subheading: >-
+    Jeśli robisz strony, social media, identyfikacje albo pitch decki i chcesz
+    kupować sprawdzone paczki (fonty, mockupy, szablony), Creative Market jest
+    jednym z najwygodniejszych miejsc na start.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Creative Market — co to jest i czy warto? Werdykt dla polskich twórców
-  description: Przewodnik po Creative Market dla freelancerów i zespołów marketingowych w Polsce. Werdykt, jak zacząć, na co uważać w licencjach i kiedy lepiej wybrać alternatywę.
+  description: >-
+    Przewodnik po Creative Market dla freelancerów i zespołów marketingowych w
+    Polsce. Werdykt, jak zacząć, na co uważać w licencjach i kiedy lepiej wybrać
+    alternatywę.
   canonical: https://twojadomena.pl/narzedzia/creative-market/
 meta:
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   format: przewodnik
   topics:
     - zasoby graficzne
@@ -22,8 +33,12 @@ meta:
     - szablony
     - licencje
   summaryBullets:
-    - Najlepsze dla freelancerów i małych zespołów, które regularnie kupują fonty, mockupy i szablony.
-    - Największe ryzyko to licencje — musisz dobrać je do skali sprzedaży i kanałów użycia.
+    - >-
+      Najlepsze dla freelancerów i małych zespołów, które regularnie kupują
+      fonty, mockupy i szablony.
+    - >-
+      Największe ryzyko to licencje — musisz dobrać je do skali sprzedaży i
+      kanałów użycia.
     - Subskrypcja ma sens dopiero, gdy realnie wykorzystasz kredyty i zniżki.
   primaryCta:
     label: Sprawdź recenzję Creative Market

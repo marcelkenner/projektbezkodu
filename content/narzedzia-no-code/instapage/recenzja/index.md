@@ -1,5 +1,5 @@
 ---
-title: 'Instapage – recenzja'
+title: Instapage – recenzja
 slug: recenzja
 path: /narzedzia/instapage/recenzja/
 draft: false
@@ -7,15 +7,17 @@ template: article
 date: '2025-11-09'
 hero:
   heading: Instapage – recenzja z naciskiem na efekty kampanii
-  subheading: Tworzę landing page'e pod większe budżety, optymalizuję ścieżkę użytkownika
+  subheading: >-
+    Tworzę landing page'e pod większe budżety, optymalizuję ścieżkę użytkownika
     i mierzę każdy klik.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: 'Instapage – recenzja pod kątem performance''u'
-  description: 'Oceniam Instapage z perspektywy wyników: szybkość, testy, analityka
-    i komfort pracy przy większych projektach.'
+  title: Instapage – recenzja pod kątem performance'u
+  description: >-
+    Oceniam Instapage z perspektywy wyników: szybkość, testy, analityka i
+    komfort pracy przy większych projektach.
 meta:
   difficulty: średni
   duration: 5 min
@@ -24,17 +26,17 @@ meta:
   hasAffiliateLinks: false
   format: recenzja
   topics:
-  - landing pages
-  - performance
-  - personalizacja
+    - landing pages
+    - performance
+    - personalizacja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - Instapage
-  - landing-pages
-  - CRO
+    - Instapage
+    - landing-pages
+    - CRO
 ---
 
 Obietnica: skrócony werdykt dla zespołów marketingu i agencji: czy warto dać Instapage budżet na post-click i optymalizację kampanii — tak/nie + prosty next step.

@@ -1,33 +1,55 @@
 ---
-title: "Descript: edytor wideo i podcastów oparty na tekście (AI) — czy ma sens w Polsce?"
-slug: "descript"
-path: "/narzedzia/descript"
-template: "default"
-type: "tool"
-date: "2026-01-07"
+title: >-
+  Descript: edytor wideo i podcastów oparty na tekście (AI) — czy ma sens w
+  Polsce?
+slug: descript
+path: /narzedzia/descript
+template: default
+type: tool
+date: '2026-01-07'
 seo:
-  title: "Descript — co to jest, dla kogo i czy warto"
-  description: "Descript to edytor wideo i audio, w którym montujesz jak w dokumencie: edycja po transkrypcji, automatyczne czyszczenie mowy, poprawa dźwięku i AI współmontażysta Underlord. Zobacz, czy pasuje do Twojego stylu pracy."
+  title: Descript — co to jest, dla kogo i czy warto
+  description: >-
+    Descript to edytor wideo i audio, w którym montujesz jak w dokumencie:
+    edycja po transkrypcji, automatyczne czyszczenie mowy, poprawa dźwięku i AI
+    współmontażysta Underlord. Zobacz, czy pasuje do Twojego stylu pracy.
   keywords:
-    - "Descript"
-    - "montaż wideo AI"
-    - "edytor podcastów"
-    - "transkrypcja po polsku"
-    - "Underlord"
+    - Descript
+    - montaż wideo AI
+    - edytor podcastów
+    - transkrypcja po polsku
+    - Underlord
 meta:
-  updatedAt: "2026-01-07"
-  author: ""
-  format: "narzędzie"
-  topics: "montaż wideo, podcasty, transkrypcja, AI, content marketing"
+  updatedAt: '2026-01-07'
+  author: ''
+  format: narzędzie
+  topics: montaż wideo, podcasty, transkrypcja, AI, content marketing
   primaryCta:
-    label: "Wypróbuj Descript za darmo"
-    href: "https://www.descript.com/pricing"
+    label: Wypróbuj Descript za darmo
+    href: https://www.descript.com/pricing
   secondaryCta:
-    label: "Przeczytaj pełną recenzję"
-    href: "/narzedzia/descript/recenzja/"
+    label: Przeczytaj pełną recenzję
+    href: /narzedzia/descript/recenzja/
 taxonomy:
-  categories: ["Narzędzia", "Wideo", "Podcasty", "AI"]
-  tags: ["descript", "transkrypcja", "montaż", "underlord", "napisy"]
+  categories:
+    - Narzędzia
+    - Wideo
+    - Podcasty
+    - AI
+  tags:
+    - descript
+    - transkrypcja
+    - montaż
+    - underlord
+    - napisy
+hero:
+  heading: >-
+    Descript: edytor wideo i podcastów oparty na tekście (AI) — czy ma sens w
+    Polsce?
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Descript — szybki werdykt dla twórców, którzy montują “gadane” materiały

@@ -1,6 +1,6 @@
 ---
-title: "Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem"
-category: "regulamin"
+title: 'Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem'
+category: regulamin
 draft: true
 ---
 

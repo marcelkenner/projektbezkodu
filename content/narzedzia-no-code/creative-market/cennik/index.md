@@ -4,16 +4,27 @@ slug: creative-market-cennik
 path: /narzedzia/creative-market/cennik/
 template: pricing
 type: cennik
-date: "2026-01-07"
+date: '2026-01-07'
 hero:
-  heading: Creative Market — cennik i opłacalność Membership dla polskich freelancerów i marketingu
-  subheading: Jeśli kupujesz assety regularnie, Membership potrafi realnie obniżyć koszt zakupów. Jeśli kupujesz rzadko — zapłacisz za wygodę, której nie wykorzystasz.
+  heading: >-
+    Creative Market — cennik i opłacalność Membership dla polskich freelancerów
+    i marketingu
+  subheading: >-
+    Jeśli kupujesz assety regularnie, Membership potrafi realnie obniżyć koszt
+    zakupów. Jeśli kupujesz rzadko — zapłacisz za wygodę, której nie
+    wykorzystasz.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Creative Market — cennik, plany Membership i kiedy to się opłaca w Polsce
-  description: Aktualne ceny Creative Market Membership, co dostajesz w planach, jak działają kredyty, VAT w UE/PL i szybkie progi opłacalności. Konkretna decyzja: plan czy pojedyncze zakupy.
+  description: >-
+    Aktualne ceny Creative Market Membership, co dostajesz w planach, jak
+    działają kredyty, VAT w UE/PL i szybkie progi opłacalności. Konkretna
+    decyzja: plan czy pojedyncze zakupy.
   canonical: https://twojadomena.pl/narzedzia/creative-market/cennik/
 meta:
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   format: cennik
   topics:
     - membership
@@ -22,9 +33,15 @@ meta:
     - VAT
     - zakupy assetów
   summaryBullets:
-    - Membership to w praktyce pre-paid + stały rabat — działa świetnie, jeśli kupujesz co miesiąc.
-    - Kredyty przechodzą na kolejny okres tylko przy aktywnym Membership; po zakończeniu subskrypcji przepadają.
-    - „Drop” wygląda jak duża wartość, ale ma licencję osobistą — do komercji zwykle i tak kupisz osobną licencję.
+    - >-
+      Membership to w praktyce pre-paid + stały rabat — działa świetnie, jeśli
+      kupujesz co miesiąc.
+    - >-
+      Kredyty przechodzą na kolejny okres tylko przy aktywnym Membership; po
+      zakończeniu subskrypcji przepadają.
+    - >-
+      „Drop” wygląda jak duża wartość, ale ma licencję osobistą — do komercji
+      zwykle i tak kupisz osobną licencję.
   primaryCta:
     label: Przejdź do recenzji Creative Market
     href: /narzedzia/creative-market/recenzja/

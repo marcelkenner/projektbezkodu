@@ -31,6 +31,12 @@ meta:
     - >-
       Import/eksport i usuwanie danych są proste, ale kombinowanie z limitami
       bywa karane.
+hero:
+  heading: 'Beehiiv FAQ: najczęstsze pytania (i proste odpowiedzi) — Polska'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 ## Beehiiv FAQ

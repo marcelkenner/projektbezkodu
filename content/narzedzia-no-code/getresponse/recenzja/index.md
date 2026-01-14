@@ -1,19 +1,40 @@
 ---
-title: "Recenzja GetResponse: co działa świetnie, co boli i dla kogo to jest"
-slug: "getresponse-recenzja"
-path: "/narzedzia/getresponse/recenzja/"
-template: "default"
-type: "narzedzie-recenzja"
-date: "2026-01-08"
+title: 'Recenzja GetResponse: co działa świetnie, co boli i dla kogo to jest'
+slug: getresponse-recenzja
+path: /narzedzia/getresponse/recenzja/
+template: default
+type: narzedzie-recenzja
+date: '2026-01-08'
 seo:
-  title: "Recenzja GetResponse (Polska) — mocny werdykt, funkcje, wady i alternatywy"
-  description: "GetResponse w praktyce: dla kogo to najlepszy wybór w Polsce, gdzie ma realne przewagi (automatyzacje, e-commerce, lejki), a kiedy lepiej wybrać prostsze narzędzie."
+  title: Recenzja GetResponse (Polska) — mocny werdykt, funkcje, wady i alternatywy
+  description: >-
+    GetResponse w praktyce: dla kogo to najlepszy wybór w Polsce, gdzie ma
+    realne przewagi (automatyzacje, e-commerce, lejki), a kiedy lepiej wybrać
+    prostsze narzędzie.
 meta:
-  updatedAt: "2026-01-08"
-  topics: ["email marketing", "marketing automation", "e-commerce", "landing pages", "webinary"]
+  updatedAt: '2026-01-08'
+  topics:
+    - email marketing
+    - marketing automation
+    - e-commerce
+    - landing pages
+    - webinary
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["GetResponse", "email marketing", "automatyzacja", "e-commerce", "landing page", "webinary"]
+  categories:
+    - Narzędzia
+  tags:
+    - GetResponse
+    - email marketing
+    - automatyzacja
+    - e-commerce
+    - landing page
+    - webinary
+hero:
+  heading: 'Recenzja GetResponse: co działa świetnie, co boli i dla kogo to jest'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 ## Werdykt: GetResponse ma sens, gdy chcesz „robić marketing na serio”, a nie tylko wysyłać newsletter

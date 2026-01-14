@@ -2,6 +2,7 @@
 title: 'Playbook: Automatyzacja leadów w Make (od formularza do follow-upu)'
 category: 'playbooki'
 status: 'draft'
+draft: true
 ---
 
 # Playbook: Automatyzacja leadów w Make (od formularza do follow-upu)

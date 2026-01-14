@@ -1,48 +1,80 @@
 ---
-title: "Recenzja Cloudimage: szybka optymalizacja obrazów przez CDN, ale tylko jeśli masz skalę"
-slug: "cloudimage-recenzja"
-path: "/narzedzia/cloudimage/recenzja/"
-template: "default"
-type: "tool-review"
-date: "2026-01-07"
+title: >-
+  Recenzja Cloudimage: szybka optymalizacja obrazów przez CDN, ale tylko jeśli
+  masz skalę
+slug: cloudimage-recenzja
+path: /narzedzia/cloudimage/recenzja/
+template: default
+type: tool-review
+date: '2026-01-07'
 hero:
-  heading: "Cloudimage – recenzja"
-  subheading: "Werdykt dla e-commerce i serwisów z dużą liczbą zdjęć: mocne narzędzie, które wygrywa prostotą wdrożenia, ale potrafi drogo kosztować przy rosnącym ruchu."
+  heading: Cloudimage – recenzja
+  subheading: >-
+    Werdykt dla e-commerce i serwisów z dużą liczbą zdjęć: mocne narzędzie,
+    które wygrywa prostotą wdrożenia, ale potrafi drogo kosztować przy rosnącym
+    ruchu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Cloudimage – recenzja 2026: dla kogo ma sens, ile kosztuje i kiedy lepiej wybrać alternatywy"
-  description: "Bez owijania: Cloudimage jest świetne, jeśli obrazy są realnym wąskim gardłem i chcesz poprawić szybkość bez budowania własnej infrastruktury. Zobacz plusy, minusy, ceny i porównania."
+  title: >-
+    Cloudimage – recenzja 2026: dla kogo ma sens, ile kosztuje i kiedy lepiej
+    wybrać alternatywy
+  description: >-
+    Bez owijania: Cloudimage jest świetne, jeśli obrazy są realnym wąskim
+    gardłem i chcesz poprawić szybkość bez budowania własnej infrastruktury.
+    Zobacz plusy, minusy, ceny i porównania.
   canonical: null
   image: null
   noindex: false
   nofollow: false
 meta:
-  updatedAt: "2026-01-07"
-  format: "review"
+  updatedAt: '2026-01-07'
+  format: review
   hasAffiliateLinks: false
-  tools: ["Cloudimage"]
-  topics: ["CDN", "optymalizacja obrazów", "Core Web Vitals", "performance", "e-commerce"]
+  tools:
+    - Cloudimage
+  topics:
+    - CDN
+    - optymalizacja obrazów
+    - Core Web Vitals
+    - performance
+    - e-commerce
   summaryBullets:
-    - "Cloudimage wygrywa, gdy masz dużo obrazów i chcesz wdrożyć optymalizację „w URL” bez przebudowy backendu."
-    - "Największy koszt w praktyce to nie sam plan, tylko skala ruchu i overuse CDN – trzeba to policzyć."
-    - "Jeśli potrzebujesz rozbudowanego DAM i workflow dla wielu zespołów, rozważ alternatywy typu Cloudinary lub pełny DAM."
+    - >-
+      Cloudimage wygrywa, gdy masz dużo obrazów i chcesz wdrożyć optymalizację
+      „w URL” bez przebudowy backendu.
+    - >-
+      Największy koszt w praktyce to nie sam plan, tylko skala ruchu i overuse
+      CDN – trzeba to policzyć.
+    - >-
+      Jeśli potrzebujesz rozbudowanego DAM i workflow dla wielu zespołów, rozważ
+      alternatywy typu Cloudinary lub pełny DAM.
   primaryCta:
-    label: "Uruchom 30-dniowy trial Cloudimage"
-    href: "https://www.cloudimage.io/new-q3-2025"
-    rel: "nofollow"
+    label: Uruchom 30-dniowy trial Cloudimage
+    href: https://www.cloudimage.io/new-q3-2025
+    rel: nofollow
   secondaryCta:
-    label: "Sprawdź cennik i dobór planu"
-    href: "/narzedzia/cloudimage/cennik/"
+    label: Sprawdź cennik i dobór planu
+    href: /narzedzia/cloudimage/cennik/
     rel: null
   review:
-    productName: "Cloudimage"
-    productUrl: "https://www.cloudimage.io/"
+    productName: Cloudimage
+    productUrl: https://www.cloudimage.io/
     ratingValue: 4.5
     bestRating: 5
     worstRating: 1
-    author: "Zewnętrzne opinie (G2)"
+    author: Zewnętrzne opinie (G2)
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Cloudimage", "CDN", "obrazy", "wydajność", "SEO", "Core Web Vitals"]
+  categories:
+    - Narzędzia
+  tags:
+    - Cloudimage
+    - CDN
+    - obrazy
+    - wydajność
+    - SEO
+    - Core Web Vitals
 ---
 
 Po tej recenzji będziesz wiedzieć, czy Cloudimage ma sens w Twoim biznesie, czy lepiej od razu pójść w Cloudinary / imgix / ImageKit albo po prostu dobrze ustawić to, co już masz.

@@ -4,16 +4,27 @@ slug: creative-market-faq
 path: /narzedzia/creative-market/faq/
 template: faq
 type: faq
-date: "2026-01-07"
+date: '2026-01-07'
 hero:
-  heading: Creative Market — FAQ, które oszczędza Ci błędów licencyjnych i niepotrzebnych zwrotów
-  subheading: Creative Market jest prosty w zakupach, ale „prosty” nie znaczy „bez zasad”. Tu masz odpowiedzi, które realnie podejmują decyzje: licencje, subskrypcja, VAT, zwroty i fonty.
+  heading: >-
+    Creative Market — FAQ, które oszczędza Ci błędów licencyjnych i
+    niepotrzebnych zwrotów
+  subheading: >-
+    Creative Market jest prosty w zakupach, ale „prosty” nie znaczy „bez zasad”.
+    Tu masz odpowiedzi, które realnie podejmują decyzje: licencje, subskrypcja,
+    VAT, zwroty i fonty.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Creative Market FAQ — licencje, VAT, zwroty, Membership i fonty (2026)
-  description: Najczęstsze pytania o Creative Market w Polsce: licencje Standard vs Extended, limit 500 sztuk, użycie dla klientów, fonty (Desktop/Webfont), VAT w UE, zwroty w 3 dni, kredyty i anulowanie Membership.
+  description: >-
+    Najczęstsze pytania o Creative Market w Polsce: licencje Standard vs
+    Extended, limit 500 sztuk, użycie dla klientów, fonty (Desktop/Webfont), VAT
+    w UE, zwroty w 3 dni, kredyty i anulowanie Membership.
   canonical: https://twojadomena.pl/narzedzia/creative-market/faq/
 meta:
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   format: faq
   topics:
     - licencje
@@ -24,9 +35,15 @@ meta:
     - fonty
     - free goods
   summaryBullets:
-    - Standard License wystarcza do większości prac dla klientów, ale przy sprzedaży „end productu” limit to 500 sztuk.
-    - Membership działa jak kredyty + rabat: kredyty rolują się, ale przepadają po anulowaniu.
-    - Zwroty są uznaniowe i masz realnie 3 dni — kupuj tak, jakbyś nie miał opcji cofki.
+    - >-
+      Standard License wystarcza do większości prac dla klientów, ale przy
+      sprzedaży „end productu” limit to 500 sztuk.
+    - >-
+      Membership działa jak kredyty + rabat: kredyty rolują się, ale przepadają
+      po anulowaniu.
+    - >-
+      Zwroty są uznaniowe i masz realnie 3 dni — kupuj tak, jakbyś nie miał
+      opcji cofki.
   primaryCta:
     label: Zobacz cennik i Membership
     href: /narzedzia/creative-market/cennik/

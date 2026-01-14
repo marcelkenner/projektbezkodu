@@ -1,30 +1,58 @@
 ---
-title: "Glide"
-slug: "glide"
-path: "/narzedzia/glide/"
-template: "default"
-type: "tool"
-date: "2026-01-08"
+title: Glide
+slug: glide
+path: /narzedzia/glide/
+template: default
+type: tool
+date: '2026-01-08'
 seo:
-  title: "Glide – no-code do aplikacji firmowych. Werdykt i kiedy ma sens"
-  description: "Glide to no-code do szybkich aplikacji opartych na danych (tabele/arkusze). Zobacz dla kogo to najlepszy wybór, jakie ma ograniczenia i jak zacząć bez błądzenia."
-  keywords: ["Glide", "no-code", "aplikacje biznesowe", "internal tools", "PWA", "automatyzacje"]
-  canonical: "/narzedzia/glide/"
+  title: Glide – no-code do aplikacji firmowych. Werdykt i kiedy ma sens
+  description: >-
+    Glide to no-code do szybkich aplikacji opartych na danych (tabele/arkusze).
+    Zobacz dla kogo to najlepszy wybór, jakie ma ograniczenia i jak zacząć bez
+    błądzenia.
+  keywords:
+    - Glide
+    - no-code
+    - aplikacje biznesowe
+    - internal tools
+    - PWA
+    - automatyzacje
+  canonical: /narzedzia/glide/
 meta:
-  difficulty: "łatwe–średnie"
-  duration: "pierwsza sensowna wersja: 1–3 godz."
-  tools: ["Glide"]
-  updatedAt: "2026-01-08"
+  difficulty: łatwe–średnie
+  duration: 'pierwsza sensowna wersja: 1–3 godz.'
+  tools:
+    - Glide
+  updatedAt: '2026-01-08'
   hasAffiliateLinks: false
-  format: "hub"
-  topics: ["no-code", "aplikacje", "automatyzacja", "operacje", "bazy danych"]
+  format: hub
+  topics:
+    - no-code
+    - aplikacje
+    - automatyzacja
+    - operacje
+    - bazy danych
   primaryCta:
-    label: "Przetestuj Glide za darmo"
-    href: "https://www.glideapps.com/pricing"
-    rel: "nofollow"
+    label: Przetestuj Glide za darmo
+    href: https://www.glideapps.com/pricing
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia", "No-code"]
-  tags: ["Glide", "aplikacje", "PWA", "internal tools", "automatyzacje"]
+  categories:
+    - Narzędzia
+    - No-code
+  tags:
+    - Glide
+    - aplikacje
+    - PWA
+    - internal tools
+    - automatyzacje
+hero:
+  heading: Glide
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Glide – dla kogo to jest i czy warto

@@ -35,7 +35,7 @@ All markdown lives under `content/**`. Each file **must**:
 1. Start with a single front-matter block wrapped by `---` and `---`.
 2. Use unique top-level keys; nest alternatives under `hero.*`, `seo.*`, `taxonomy.*`, etc.
 3. Indent nested maps (YAML is whitespace-sensitive).
-4. Quote strings that contain `:` or special characters.
+4. Quote strings that contain `: ` (colon + space), e.g. `title: "FAQ: Depositphotos"`.
 5. Reference taxonomy slugs that exist in `data/copy/articles.json`.
 6. Store hero/inline images under `public/media/{same path as markdown}/`. Example: `content/narzedzia/webflow/recenzja/index.md` ↔ `public/media/narzedzia/webflow/recenzja/hero.webp`. Reference assets as `/media/narzedzia/webflow/recenzja/hero.webp`.
 7. React-managed pages (homepage, o-nas, kontakt, etc.) follow the same mirroring pattern: `app/(marketing)/o-nas/page.tsx` uses assets in `public/media/pages/(marketing)/o-nas/`.

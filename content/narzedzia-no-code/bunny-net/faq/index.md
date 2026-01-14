@@ -40,6 +40,12 @@ taxonomy:
     - Performance
     - WordPress
     - DevOps
+hero:
+  heading: bunny.net FAQ – najczęstsze pytania o CDN, Storage i Optimizer
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Jeśli szukasz krótkich, twardych odpowiedzi: bunny.net to jedna z najbardziej „zdroworozsądkowych” platform edge dla stron i aplikacji. Płacisz za użycie, konfigurujesz raz, a potem po prostu dowozisz szybkie assety bez pilnowania serwerów.

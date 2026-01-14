@@ -4,25 +4,42 @@ slug: freepik-alternatywy
 path: /narzedzia/freepik/alternatywy/
 template: default
 type: tool_alternatives
-date: "2026-01-08"
+date: '2026-01-08'
 seo:
-  title: "Alternatywy dla Freepik: co wybrać zamiast (Canva, Envato, Adobe Stock, Vecteezy)"
-  description: "Porównanie Freepik z top alternatywami. Konkretne werdykty: kto powinien zostać przy Freepik, a kto wygra na Canvie, Envato albo Adobe Stock."
+  title: >-
+    Alternatywy dla Freepik: co wybrać zamiast (Canva, Envato, Adobe Stock,
+    Vecteezy)
+  description: >-
+    Porównanie Freepik z top alternatywami. Konkretne werdykty: kto powinien
+    zostać przy Freepik, a kto wygra na Canvie, Envato albo Adobe Stock.
 meta:
-  updatedAt: "2026-01-08"
-  format: "alternatives"
+  updatedAt: '2026-01-08'
+  format: alternatives
   topics:
-    - "alternatywy"
-    - "stock"
-    - "AI"
+    - alternatywy
+    - stock
+    - AI
   summaryBullets:
-    - "Jeśli żyjesz szablonami: wybierz Canva."
-    - "Jeśli pobierasz masowo różne zasoby (audio/wideo/fonty): Envato Elements."
-    - "Jeśli działasz w ekosystemie Adobe: Adobe Stock."
-    - "Jeśli chcesz proste „unlimited downloads” dla wektorów/foto: Vecteezy Pro."
+    - 'Jeśli żyjesz szablonami: wybierz Canva.'
+    - 'Jeśli pobierasz masowo różne zasoby (audio/wideo/fonty): Envato Elements.'
+    - 'Jeśli działasz w ekosystemie Adobe: Adobe Stock.'
+    - 'Jeśli chcesz proste „unlimited downloads” dla wektorów/foto: Vecteezy Pro.'
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Freepik", "alternatywy", "Canva", "Envato", "Adobe Stock", "Vecteezy"]
+  categories:
+    - Narzędzia
+  tags:
+    - Freepik
+    - alternatywy
+    - Canva
+    - Envato
+    - Adobe Stock
+    - Vecteezy
+hero:
+  heading: Alternatywy dla Freepik
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Alternatywy dla Freepik: wybierz narzędzie pod swój styl pracy

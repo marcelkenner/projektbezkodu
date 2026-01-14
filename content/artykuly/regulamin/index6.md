@@ -1,6 +1,6 @@
 ---
-title: "Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć"
-category: "regulamin"
+title: 'Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć'
+category: regulamin
 draft: true
 ---
 

@@ -1,18 +1,30 @@
 ---
-title: "Dorik – formularze i płatności"
-slug: "formularze-platnosci"
-path: "/narzedzia/dorik/formularze-platnosci/"
-template: "default"
-type: "guide"
-date: "2026-01-08"
+title: Dorik – formularze i płatności
+slug: formularze-platnosci
+path: /narzedzia/dorik/formularze-platnosci/
+template: default
+type: guide
+date: '2026-01-08'
 hero:
-  heading: "Formularze i płatności w Dorik: leady, newsletter i sprzedaż bez sklepu"
-  subheading: "Dorik jest świetny, gdy chcesz zbierać zapytania i zapisy oraz przyjąć prostą płatność ‘na przycisk’. Jeśli potrzebujesz pełnego checkoutu e-commerce, fakturowania i rozbudowanych metod płatności — Dorik ma być stroną sprzedażową, a silnik sprzedaży robisz gdzie indziej."
-  primaryCta: "Sprawdź cennik"
-  secondaryCta: "Przeczytaj recenzję"
+  heading: 'Formularze i płatności w Dorik: leady, newsletter i sprzedaż bez sklepu'
+  subheading: >-
+    Dorik jest świetny, gdy chcesz zbierać zapytania i zapisy oraz przyjąć
+    prostą płatność ‘na przycisk’. Jeśli potrzebujesz pełnego checkoutu
+    e-commerce, fakturowania i rozbudowanych metod płatności — Dorik ma być
+    stroną sprzedażową, a silnik sprzedaży robisz gdzie indziej.
+  primaryCta: Sprawdź cennik
+  secondaryCta: Przeczytaj recenzję
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Dorik: formularze i płatności – jak zbierać leady i sprzedawać (Stripe, PayPal, webhooks)"
-  description: "Praktyczny przewodnik: Contact Form, Custom Form, Subscription Form oraz płatności w Dorik (Payment Button, Stripe membership). Jak podpiąć Zapier/Make, Mailchimp, GetResponse i Brevo."
+  title: >-
+    Dorik: formularze i płatności – jak zbierać leady i sprzedawać (Stripe,
+    PayPal, webhooks)
+  description: >-
+    Praktyczny przewodnik: Contact Form, Custom Form, Subscription Form oraz
+    płatności w Dorik (Payment Button, Stripe membership). Jak podpiąć
+    Zapier/Make, Mailchimp, GetResponse i Brevo.
   keywords:
     - dorik formularz kontaktowy
     - dorik custom form
@@ -21,23 +33,37 @@ seo:
     - dorik payment button
     - dorik stripe membership
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "guide"
+  format: guide
   topics:
-    - "formularze"
-    - "płatności"
-    - "no-code"
-    - "integracje"
-    - "membership"
+    - formularze
+    - płatności
+    - no-code
+    - integracje
+    - membership
   summaryBullets:
-    - "Najprościej: Contact Form do zapytań, Subscription Form do zapisów, Custom Form do wszystkiego ‘niestandardowego’."
-    - "Automatyzacje: Dorik wspiera webhooks pod Make.com (Integromat) i Zapier, więc szybko wyślesz dane do CRM lub mailingu."
-    - "Płatności: Payment Button działa z Stripe/PayPal/Gumroad/Paddle; członkostwo i paywall opiera się o Stripe."
+    - >-
+      Najprościej: Contact Form do zapytań, Subscription Form do zapisów, Custom
+      Form do wszystkiego ‘niestandardowego’.
+    - >-
+      Automatyzacje: Dorik wspiera webhooks pod Make.com (Integromat) i Zapier,
+      więc szybko wyślesz dane do CRM lub mailingu.
+    - >-
+      Płatności: Payment Button działa z Stripe/PayPal/Gumroad/Paddle;
+      członkostwo i paywall opiera się o Stripe.
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["formularze", "płatności", "webhook", "zapier", "make.com", "stripe"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - formularze
+    - płatności
+    - webhook
+    - zapier
+    - make.com
+    - stripe
 ---
 
 Dorik daje Ci dwa szybkie klocki do zarabiania: formularze (żeby nie tracić leadów) i płatności (żeby nie odkładać sprzedaży “na później”). Najważniejsze jest to, że Dorik nie próbuje być pełnym systemem e-commerce. I to jest zaleta, jeśli sprzedajesz usługi, konsultacje albo produkty cyfrowe.

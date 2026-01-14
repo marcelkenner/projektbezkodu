@@ -12,6 +12,9 @@ hero:
     wizualny development.
   primaryCta: Sprawdź cennik
   secondaryCta: Zobacz alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: 'Bubble – recenzja no-code (2026): dla kogo ma sens, koszty, plusy i minusy'
   description: >-

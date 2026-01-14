@@ -11,6 +11,9 @@ hero:
     najczęstsze pytania — bez lania wody i bez „to zależy” bez sensu.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Bubble FAQ (2026): workload, cennik, domena, RODO, limity i przenoszenie

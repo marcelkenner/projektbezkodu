@@ -1,34 +1,53 @@
 ---
-title: "Descript — FAQ: odpowiedzi, które oszczędzą Ci testów w ciemno"
-slug: "descript-faq"
-path: "/narzedzia/descript/faq/"
-template: "default"
-type: "faq"
-date: "2026-01-07"
+title: 'Descript — FAQ: odpowiedzi, które oszczędzą Ci testów w ciemno'
+slug: descript-faq
+path: /narzedzia/descript/faq/
+template: default
+type: faq
+date: '2026-01-07'
 seo:
-  title: "Descript FAQ — limity, język polski, znak wodny, zwroty, VAT i export"
-  description: "Najczęstsze pytania o Descript: ceny i plany, media minutes vs AI credits, polski i wielojęzyczne nagrania, Studio Sound, Underlord, eksport bez znaku wodnego, anulowanie, zwrot, faktury i VAT."
+  title: Descript FAQ — limity, język polski, znak wodny, zwroty, VAT i export
+  description: >-
+    Najczęstsze pytania o Descript: ceny i plany, media minutes vs AI credits,
+    polski i wielojęzyczne nagrania, Studio Sound, Underlord, eksport bez znaku
+    wodnego, anulowanie, zwrot, faktury i VAT.
   keywords:
-    - "Descript FAQ"
-    - "media minutes"
-    - "AI credits"
-    - "Descript po polsku"
-    - "Descript znak wodny"
-    - "Descript zwrot"
-    - "Descript VAT"
+    - Descript FAQ
+    - media minutes
+    - AI credits
+    - Descript po polsku
+    - Descript znak wodny
+    - Descript zwrot
+    - Descript VAT
 meta:
-  updatedAt: "2026-01-07"
-  format: "faq"
-  topics: "FAQ, montaż wideo, podcasty, transkrypcja, limity, rozliczenia, AI"
+  updatedAt: '2026-01-07'
+  format: faq
+  topics: FAQ, montaż wideo, podcasty, transkrypcja, limity, rozliczenia, AI
   primaryCta:
-    label: "Sprawdź cennik Descript"
-    href: "https://www.descript.com/pricing"
+    label: Sprawdź cennik Descript
+    href: https://www.descript.com/pricing
   secondaryCta:
-    label: "Przeczytaj recenzję Descript"
-    href: "/narzedzia/descript/recenzja/"
+    label: Przeczytaj recenzję Descript
+    href: /narzedzia/descript/recenzja/
 taxonomy:
-  categories: ["Narzędzia", "Wideo", "Podcasty", "AI"]
-  tags: ["descript", "faq", "pricing", "transkrypcja", "underlord", "studio sound"]
+  categories:
+    - Narzędzia
+    - Wideo
+    - Podcasty
+    - AI
+  tags:
+    - descript
+    - faq
+    - pricing
+    - transkrypcja
+    - underlord
+    - studio sound
+hero:
+  heading: 'Descript — FAQ: odpowiedzi, które oszczędzą Ci testów w ciemno'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Descript — FAQ dla polskich twórców i zespołów marketingu

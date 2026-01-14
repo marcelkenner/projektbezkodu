@@ -4,33 +4,53 @@ slug: freepik
 path: /narzedzia/freepik/
 template: default
 type: tool
-date: "2026-01-08"
+date: '2026-01-08'
 seo:
-  title: "Freepik: czy warto? Co potrafi, ile kosztuje i dla kogo ma sens"
-  description: "Odważny, uczciwy przewodnik po Freepik: kiedy to najlepszy wybór dla marketingu i twórców, kiedy lepiej iść w Canva/Envato/Adobe Stock."
+  title: 'Freepik: czy warto? Co potrafi, ile kosztuje i dla kogo ma sens'
+  description: >-
+    Odważny, uczciwy przewodnik po Freepik: kiedy to najlepszy wybór dla
+    marketingu i twórców, kiedy lepiej iść w Canva/Envato/Adobe Stock.
   canonical: https://www.freepik.com/
 meta:
-  updatedAt: "2026-01-08"
-  format: "landing"
+  updatedAt: '2026-01-08'
+  format: landing
   topics:
-    - "grafika"
-    - "stock"
-    - "AI"
-    - "marketing"
+    - grafika
+    - stock
+    - AI
+    - marketing
   summaryBullets:
-    - "Najlepsze dla: marketingu i twórców, którzy chcą łączyć stock + generowanie AI w jednym miejscu."
-    - "Największy plus: szybka produkcja kreacji (stock + AI) bez skakania między narzędziami."
-    - "Największe ryzyko: koszty i limity zależne od planu + licencje, które trzeba rozumieć, a nie „zgadywać”."
+    - >-
+      Najlepsze dla: marketingu i twórców, którzy chcą łączyć stock +
+      generowanie AI w jednym miejscu.
+    - >-
+      Największy plus: szybka produkcja kreacji (stock + AI) bez skakania między
+      narzędziami.
+    - >-
+      Największe ryzyko: koszty i limity zależne od planu + licencje, które
+      trzeba rozumieć, a nie „zgadywać”.
   metrics:
-    - label: "Skala biblioteki"
-      value: "200M+ zasobów stock"
-      description: "Deklaracja Freepik (obrazy, wideo, audio, wektory itd.)"
+    - label: Skala biblioteki
+      value: 200M+ zasobów stock
+      description: Deklaracja Freepik (obrazy, wideo, audio, wektory itd.)
   primaryCta:
-    label: "Przetestuj Freepik na darmowym planie"
-    href: "https://www.freepik.com/"
+    label: Przetestuj Freepik na darmowym planie
+    href: https://www.freepik.com/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Freepik", "AI", "stock", "grafika", "marketing"]
+  categories:
+    - Narzędzia
+  tags:
+    - Freepik
+    - AI
+    - stock
+    - grafika
+    - marketing
+hero:
+  heading: Freepik
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Freepik: werdykt dla polskich marketerów i twórców

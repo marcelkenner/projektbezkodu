@@ -2,6 +2,7 @@
 title: 'Playbook: Raport tygodniowy dla zespołu (dane → wnioski → decyzje)'
 category: 'playbooki'
 status: 'draft'
+draft: true
 ---
 
 # Playbook: Raport tygodniowy dla zespołu (dane → wnioski → decyzje)

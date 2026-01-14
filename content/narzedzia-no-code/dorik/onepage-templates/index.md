@@ -1,18 +1,28 @@
 ---
-title: "Dorik – one page templates"
-slug: "onepage-templates"
-path: "/narzedzia/dorik/onepage-templates/"
-template: "default"
-type: "guide"
-date: "2026-01-08"
+title: Dorik – one page templates
+slug: onepage-templates
+path: /narzedzia/dorik/onepage-templates/
+template: default
+type: guide
+date: '2026-01-08'
 hero:
-  heading: "Szablony one-page w Dorik: najszybsza droga do strony, która zbiera leady i sprzedaż"
-  subheading: "Jeśli sprzedajesz usługę, konsultację albo jeden produkt cyfrowy, one-pager w Dorik to często najlepszy ruch: prosty przekaz, płynne przewijanie i sekcje typu pricing/testimonials bez komplikowania architektury strony."
-  primaryCta: "Sprawdź cennik"
-  secondaryCta: "Przeczytaj recenzję"
+  heading: >-
+    Szablony one-page w Dorik: najszybsza droga do strony, która zbiera leady i
+    sprzedaż
+  subheading: >-
+    Jeśli sprzedajesz usługę, konsultację albo jeden produkt cyfrowy, one-pager
+    w Dorik to często najlepszy ruch: prosty przekaz, płynne przewijanie i
+    sekcje typu pricing/testimonials bez komplikowania architektury strony.
+  primaryCta: Sprawdź cennik
+  secondaryCta: Przeczytaj recenzję
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Dorik one page templates – najlepsze szablony i układy landing page (2026)"
-  description: "Jak wybrać i dopasować szablon one-page w Dorik. Gotowe układy pod usługi, SaaS, aplikacje i portfolio + praktyczny proces: od wyboru po publikację."
+  title: Dorik one page templates – najlepsze szablony i układy landing page (2026)
+  description: >-
+    Jak wybrać i dopasować szablon one-page w Dorik. Gotowe układy pod usługi,
+    SaaS, aplikacje i portfolio + praktyczny proces: od wyboru po publikację.
   keywords:
     - dorik one page templates
     - dorik szablony one page
@@ -20,23 +30,35 @@ seo:
     - dorik templates
     - szablon landing page
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "guide"
+  format: guide
   topics:
-    - "landing pages"
-    - "szablony"
-    - "no-code"
-    - "kreatory stron"
-    - "konwersja"
+    - landing pages
+    - szablony
+    - no-code
+    - kreatory stron
+    - konwersja
   summaryBullets:
-    - "One-pager w Dorik ma sens, gdy sprzedajesz jedną ofertę i chcesz szybciej konwertować niż ‘opowiadać historię firmy’."
-    - "W Dorik masz dedykowaną bibliotekę szablonów one-page oraz gotowe sekcje do składania strony jak z klocków."
-    - "Najlepszy test: wybierz szablon, wstaw 1 CTA, 1 sekcję z dowodami i 1 tabelę cen — i dopiero wtedy dopieszczaj design."
+    - >-
+      One-pager w Dorik ma sens, gdy sprzedajesz jedną ofertę i chcesz szybciej
+      konwertować niż ‘opowiadać historię firmy’.
+    - >-
+      W Dorik masz dedykowaną bibliotekę szablonów one-page oraz gotowe sekcje
+      do składania strony jak z klocków.
+    - >-
+      Najlepszy test: wybierz szablon, wstaw 1 CTA, 1 sekcję z dowodami i 1
+      tabelę cen — i dopiero wtedy dopieszczaj design.
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["one-page", "landing page", "szablony", "no-code"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - one-page
+    - landing page
+    - szablony
+    - no-code
 ---
 
 Jeśli chcesz uruchomić stronę szybko i bez dyskusji z samym sobą o “strukturze menu”, one-pager jest Twoim przyjacielem. Dorik ma osobną kolekcję szablonów typu one-page (z naciskiem na płynne przewijanie i sekcje cen), więc możesz zacząć od gotowego układu, zamiast rysować wireframe od zera ([one-page templates](https://dorik.com/templates/one-page-websites)).

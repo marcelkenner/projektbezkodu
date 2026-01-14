@@ -12,6 +12,9 @@ hero:
     Werdykt: jeśli Twoi użytkownicy są głównie w Polsce i UE, bunny.net prawie
     zawsze da się obronić kosztowo. Płacisz głównie za realny transfer, a
     minimum miesięczne jest symboliczne — o ile pilnujesz salda.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     bunny.net — cennik CDN, Bunny Storage, Optimizer i Shield (2026): stawki i

@@ -1,6 +1,6 @@
 ---
-title: "Regulamin sklepu bez kodu: minimalny zestaw zapisów, który realnie cię chroni"
-category: "regulamin"
+title: 'Regulamin sklepu bez kodu: minimalny zestaw zapisów, który realnie cię chroni'
+category: regulamin
 draft: true
 ---
 

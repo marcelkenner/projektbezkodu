@@ -4,22 +4,52 @@ slug: depositphotos
 path: /narzedzia/depositphotos/
 template: default
 hero:
-  heading: Depositphotos: najsensowniejszy stock dla marketingu, który publikuje regularnie
-  subheading: Jeśli robisz content na social, blog, landing pages albo reklamy — to narzędzie zwykle „po prostu działa”. O ile akceptujesz stockowy charakter części materiałów i pilnujesz licencji przy druku/merchu.
+  heading: >-
+    Depositphotos: najsensowniejszy stock dla marketingu, który publikuje
+    regularnie
+  subheading: >-
+    Jeśli robisz content na social, blog, landing pages albo reklamy — to
+    narzędzie zwykle „po prostu działa”. O ile akceptujesz stockowy charakter
+    części materiałów i pilnujesz licencji przy druku/merchu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Depositphotos – co to jest, dla kogo ma sens i kiedy lepiej wybrać alternatywę
-  description: Przewodnik po Depositphotos dla polskiego rynku: szybki werdykt, scenariusze użycia, licencje, start w 5 minut i linki do recenzji, cennika, alternatyw oraz FAQ.
+  title: >-
+    Depositphotos – co to jest, dla kogo ma sens i kiedy lepiej wybrać
+    alternatywę
+  description: >-
+    Przewodnik po Depositphotos dla polskiego rynku: szybki werdykt, scenariusze
+    użycia, licencje, start w 5 minut i linki do recenzji, cennika, alternatyw
+    oraz FAQ.
 meta:
   format: przewodnik
-  topics: [stock, zdjęcia, grafika, marketing, content, social media]
-  updatedAt: "2026-01-07"
+  topics:
+    - stock
+    - zdjęcia
+    - grafika
+    - marketing
+    - content
+    - social media
+  updatedAt: '2026-01-07'
   summaryBullets:
-    - Najlepsze dla marketerów i MŚP, które potrzebują stałego dopływu zdjęć i wektorów.
-    - Licencja standardowa ma limit 500 000 kopii w druku — do merchu i „na sprzedaż” zwykle potrzebujesz rozszerzonej.
-    - Subskrypcje są opłacalne przy regularnych pobraniach; pakiety mają sens tylko „na zryw”.
+    - >-
+      Najlepsze dla marketerów i MŚP, które potrzebują stałego dopływu zdjęć i
+      wektorów.
+    - >-
+      Licencja standardowa ma limit 500 000 kopii w druku — do merchu i „na
+      sprzedaż” zwykle potrzebujesz rozszerzonej.
+    - >-
+      Subskrypcje są opłacalne przy regularnych pobraniach; pakiety mają sens
+      tylko „na zryw”.
 taxonomy:
-  categories: [Narzędzia]
-  tags: [Depositphotos, zdjęcia stockowe, wektory, licencje]
+  categories:
+    - Narzędzia
+  tags:
+    - Depositphotos
+    - zdjęcia stockowe
+    - wektory
+    - licencje
 ---
 
 ## Werdykt dla polskiego rynku

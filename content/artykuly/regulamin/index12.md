@@ -1,6 +1,8 @@
 ---
-title: "Regulamin i odpowiedzialność za integracje: Zapier/Make/Stripe — gdzie kończy się twoja wina"
-category: "regulamin"
+title: >-
+  Regulamin i odpowiedzialność za integracje: Zapier/Make/Stripe — gdzie kończy
+  się twoja wina
+category: regulamin
 draft: true
 ---
 

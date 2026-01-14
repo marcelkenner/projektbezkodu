@@ -6,10 +6,17 @@ template: default
 type: tool
 hero:
   heading: Fathom Analytics – prosta analityka bez ciasteczek
-  subheading: Werdykt dla marketerów, founderów i małych agencji w Polsce. Kiedy Fathom ma sens, a kiedy lepiej zostać przy GA4, Matomo albo Plausible.
+  subheading: >-
+    Werdykt dla marketerów, founderów i małych agencji w Polsce. Kiedy Fathom ma
+    sens, a kiedy lepiej zostać przy GA4, Matomo albo Plausible.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Fathom Analytics – co to jest i czy warto w 2026?
-  description: Bezciasteczkowa analityka strony z naciskiem na prywatność. Sprawdzamy, dla kogo Fathom to najlepszy wybór, ile realnie kosztuje i kiedy frustruje.
+  description: >-
+    Bezciasteczkowa analityka strony z naciskiem na prywatność. Sprawdzamy, dla
+    kogo Fathom to najlepszy wybór, ile realnie kosztuje i kiedy frustruje.
   keywords:
     - fathom analytics
     - analityka bez ciasteczek
@@ -18,7 +25,7 @@ seo:
     - prywatna analityka
   canonical: https://twojadomena.pl/narzedzia/fathom/
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   difficulty: łatwe
   duration: 10–15 min
   format: landing

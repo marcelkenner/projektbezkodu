@@ -10,6 +10,9 @@ hero:
   subheading: >-
     Canva jest świetna do szybkiego marketingu. Ale jeśli potrzebujesz UI,
     prezentacji „pod sprzedaż”, albo pracy bez abonamentu — są lepsze wybory.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Alternatywy Canvy (2026): najlepsze zamienniki dla marketingu, prezentacji i

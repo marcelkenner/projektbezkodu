@@ -54,6 +54,12 @@ taxonomy:
     - monetyzacja
     - subskrypcje
     - twórcy
+hero:
+  heading: 'Cennik beehiiv: plany, limity i który wybrać w Polsce'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 beehiiv ma prostą logikę cenową: startujesz za darmo, a dopłacasz wtedy, kiedy naprawdę zaczynasz traktować newsletter jak biznes. I to jest uczciwe podejście.

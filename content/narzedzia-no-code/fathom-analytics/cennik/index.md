@@ -6,10 +6,18 @@ template: default
 type: pricing
 hero:
   heading: Cennik Fathom Analytics – ile to kosztuje i jaki plan wybrać
-  subheading: Konkret dla polskich firm i agencji. Wybierzesz plan po progach pageviews, bez zgadywania i bez „ukrytych” dopłat.
+  subheading: >-
+    Konkret dla polskich firm i agencji. Wybierzesz plan po progach pageviews,
+    bez zgadywania i bez „ukrytych” dopłat.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Cennik Fathom Analytics 2026 – plany, progi i jak dobrać
-  description: Aktualne ceny Fathom (miesięcznie i rocznie), progi pageviews, zasady liczenia eventów i witryn oraz proste rekomendacje: który plan ma sens w Twoim scenariuszu.
+  description: >-
+    Aktualne ceny Fathom (miesięcznie i rocznie), progi pageviews, zasady
+    liczenia eventów i witryn oraz proste rekomendacje: który plan ma sens w
+    Twoim scenariuszu.
   keywords:
     - fathom analytics cennik
     - fathom pricing
@@ -18,7 +26,7 @@ seo:
     - cookieless analytics pricing
   canonical: https://twojadomena.pl/narzedzia/fathom/cennik/
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   difficulty: łatwe
   duration: 8–12 min
   format: pricing

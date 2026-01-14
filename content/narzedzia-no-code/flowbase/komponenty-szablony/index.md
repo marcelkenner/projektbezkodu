@@ -6,10 +6,21 @@ template: default
 type: narzedzie-zasoby
 hero:
   heading: Komponenty i szablony Flowbase
-  subheading: Jeśli budujesz w Webflow regularnie, komponenty Flowbase to najszybszy sposób, żeby przestać zaczynać od pustej kartki. Szablony mają sens tylko wtedy, gdy naprawdę chcesz „gotową stronę na start”, a nie swobodę.
+  subheading: >-
+    Jeśli budujesz w Webflow regularnie, komponenty Flowbase to najszybszy
+    sposób, żeby przestać zaczynać od pustej kartki. Szablony mają sens tylko
+    wtedy, gdy naprawdę chcesz „gotową stronę na start”, a nie swobodę.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Flowbase – komponenty i szablony. Co dostajesz, jak to działa i kiedy ma sens
-  description: Przegląd zasobów Flowbase: komponenty Webflow/Figma/Framer, wireframes, ikony, ilustracje oraz szablony. Konkretne różnice, dobre praktyki i najczęstsze ograniczenia.
+  title: >-
+    Flowbase – komponenty i szablony. Co dostajesz, jak to działa i kiedy ma
+    sens
+  description: >-
+    Przegląd zasobów Flowbase: komponenty Webflow/Figma/Framer, wireframes,
+    ikony, ilustracje oraz szablony. Konkretne różnice, dobre praktyki i
+    najczęstsze ograniczenia.
   keywords:
     - Flowbase komponenty
     - Flowbase szablony
@@ -17,16 +28,22 @@ seo:
     - Flowbase ikony
     - Flowbase Chrome Extension
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   topics:
     - webflow
     - komponenty
     - szablony
     - ui kit
   summaryBullets:
-    - Komponenty Flowbase są stworzone do szybkiego kopiuj–wklej do Webflow/Figma/Framer.
-    - Szablony nie są częścią członkostwa — kupujesz je osobno, jeśli chcesz gotową bazę strony.
-    - Największa wygrana to tempo pierwszego draftu i iteracji, a największe ryzyko to bałagan w klasach, jeśli nie masz systemu.
+    - >-
+      Komponenty Flowbase są stworzone do szybkiego kopiuj–wklej do
+      Webflow/Figma/Framer.
+    - >-
+      Szablony nie są częścią członkostwa — kupujesz je osobno, jeśli chcesz
+      gotową bazę strony.
+    - >-
+      Największa wygrana to tempo pierwszego draftu i iteracji, a największe
+      ryzyko to bałagan w klasach, jeśli nie masz systemu.
   primaryCta:
     label: Przejrzyj komponenty Flowbase
     href: https://www.flowbase.co/components

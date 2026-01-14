@@ -1,18 +1,30 @@
 ---
-title: "Dorik – cennik"
-slug: "cennik"
-path: "/narzedzia/dorik/cennik/"
-template: "default"
-type: "pricing"
-date: "2026-01-08"
+title: Dorik – cennik
+slug: cennik
+path: /narzedzia/dorik/cennik/
+template: default
+type: pricing
+date: '2026-01-08'
 hero:
-  heading: "Cennik Dorik: który plan realnie wystarczy, a który jest stratą pieniędzy"
-  subheading: "Dorik jest tani wtedy, gdy kupujesz go zgodnie z segmentem: strona usługowa + CMS + proste płatności. Jeśli próbujesz robić z niego platformę e-commerce albo narzędzie do pracy zespołowej na planie Personal — przepłacasz frustracją."
-  primaryCta: "Zobacz recenzję"
-  secondaryCta: "Sprawdź alternatywy"
+  heading: 'Cennik Dorik: który plan realnie wystarczy, a który jest stratą pieniędzy'
+  subheading: >-
+    Dorik jest tani wtedy, gdy kupujesz go zgodnie z segmentem: strona usługowa
+    + CMS + proste płatności. Jeśli próbujesz robić z niego platformę e-commerce
+    albo narzędzie do pracy zespołowej na planie Personal — przepłacasz
+    frustracją.
+  primaryCta: Zobacz recenzję
+  secondaryCta: Sprawdź alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Dorik – cennik 2026: ceny, limity i wybór planu (Personal vs Business vs Agency vs Lifetime)"
-  description: "Aktualne ceny Dorik (miesięcznie, rocznie, 2-letnio i Lifetime), limity stron/CMS, refund i nasz prosty werdykt: który plan ma sens dla freelancerów, firm i agencji."
+  title: >-
+    Dorik – cennik 2026: ceny, limity i wybór planu (Personal vs Business vs
+    Agency vs Lifetime)
+  description: >-
+    Aktualne ceny Dorik (miesięcznie, rocznie, 2-letnio i Lifetime), limity
+    stron/CMS, refund i nasz prosty werdykt: który plan ma sens dla
+    freelancerów, firm i agencji.
   keywords:
     - dorik cennik
     - dorik ceny
@@ -20,23 +32,36 @@ seo:
     - dorik lifetime deal
     - dorik trial
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "guide"
+  format: guide
   topics:
-    - "cenniki"
-    - "kreatory stron"
-    - "no-code"
-    - "CMS"
-    - "płatności"
+    - cenniki
+    - kreatory stron
+    - no-code
+    - CMS
+    - płatności
   summaryBullets:
-    - "Minimum dla większości małych firm: Personal roczny, jeśli budujesz 1 stronę i nie potrzebujesz zespołu."
-    - "Plan, który ‘kończy limity’: Business, jeśli masz więcej treści, więcej domen lub potrzebujesz współpracy."
-    - "Najuczciwszy test: 14 dni trialu i jedna strona + jedna kolekcja CMS + jedna płatność."
+    - >-
+      Minimum dla większości małych firm: Personal roczny, jeśli budujesz 1
+      stronę i nie potrzebujesz zespołu.
+    - >-
+      Plan, który ‘kończy limity’: Business, jeśli masz więcej treści, więcej
+      domen lub potrzebujesz współpracy.
+    - >-
+      Najuczciwszy test: 14 dni trialu i jedna strona + jedna kolekcja CMS +
+      jedna płatność.
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["cennik", "no-code", "CMS", "płatności", "membership"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - cennik
+    - no-code
+    - CMS
+    - płatności
+    - membership
 ---
 
 Po tym materiale wybierzesz plan Dorik bez zgadywania. Od razu powiem werdykt: jeśli budujesz jedną stronę usługową i działasz solo, **Personal jest wystarczający**. Jeśli rośniesz w treści, potrzebujesz zespołu albo kilku domen, **Business jest tym planem, który przestaje Cię ograniczać**. A jeśli sprzedajesz strony klientom i chcesz działać white-label — wchodzisz w **Agency**.

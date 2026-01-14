@@ -4,19 +4,42 @@ slug: depositphotos-recenzja
 path: /narzedzia/depositphotos/recenzja/
 template: default
 hero:
-  heading: Recenzja Depositphotos: najlepszy wybór, jeśli publikujesz content regularnie
-  subheading: To nie jest „najpiękniejszy stock świata”. To jest stock, który w marketingu dowozi: szybko, przewidywalnie i z licencjami, które da się zrozumieć.
+  heading: >-
+    Recenzja Depositphotos: najlepszy wybór, jeśli publikujesz content
+    regularnie
+  subheading: >-
+    To nie jest „najpiękniejszy stock świata”. To jest stock, który w marketingu
+    dowozi: szybko, przewidywalnie i z licencjami, które da się zrozumieć.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Depositphotos – recenzja: dla kogo ma sens, a kto powinien wybrać coś innego
-  description: Uczciwa recenzja Depositphotos dla polskiego rynku: werdykt, licencje (standard vs extended), AI generator i edycja, start w 5 minut, opłacalność i porównania.
+  title: 'Depositphotos – recenzja: dla kogo ma sens, a kto powinien wybrać coś innego'
+  description: >-
+    Uczciwa recenzja Depositphotos dla polskiego rynku: werdykt, licencje
+    (standard vs extended), AI generator i edycja, start w 5 minut, opłacalność
+    i porównania.
 meta:
   format: recenzja
-  updatedAt: "2026-01-07"
-  topics: [Depositphotos, stock, zdjęcia, wektory, marketing, licencje, AI]
+  updatedAt: '2026-01-07'
+  topics:
+    - Depositphotos
+    - stock
+    - zdjęcia
+    - wektory
+    - marketing
+    - licencje
+    - AI
   summaryBullets:
-    - Jeśli robisz content seryjnie, Depositphotos jest praktycznym wyborem „do roboty”, nie do kolekcjonowania inspiracji.
-    - Standardowa licencja ma limit 500 000 kopii w druku; do merchu i produktów „na sprzedaż” zwykle wchodzi licencja rozszerzona.
-    - W subskrypcjach liczy się rytm pobrań; przy okazjonalnym użyciu lepiej wyglądają pakiety.
+    - >-
+      Jeśli robisz content seryjnie, Depositphotos jest praktycznym wyborem „do
+      roboty”, nie do kolekcjonowania inspiracji.
+    - >-
+      Standardowa licencja ma limit 500 000 kopii w druku; do merchu i produktów
+      „na sprzedaż” zwykle wchodzi licencja rozszerzona.
+    - >-
+      W subskrypcjach liczy się rytm pobrań; przy okazjonalnym użyciu lepiej
+      wyglądają pakiety.
   metrics:
     - label: Biblioteka (deklaracja)
       value: 325M+ plików
@@ -26,10 +49,18 @@ meta:
       description: Powyżej tego prosto wchodzisz w scenariusze pod licencję rozszerzoną.
     - label: Rollover pobrań
       value: Tak (z limitami)
-      description: Niewykorzystane pobrania przechodzą na kolejny miesiąc, gdy subskrypcja się odnawia.
+      description: >-
+        Niewykorzystane pobrania przechodzą na kolejny miesiąc, gdy subskrypcja
+        się odnawia.
 taxonomy:
-  categories: [Narzędzia]
-  tags: [Depositphotos, zdjęcia stockowe, wektory, licencje, AI]
+  categories:
+    - Narzędzia
+  tags:
+    - Depositphotos
+    - zdjęcia stockowe
+    - wektory
+    - licencje
+    - AI
 ---
 
 ## Werdykt: czy Depositphotos jest dla Ciebie

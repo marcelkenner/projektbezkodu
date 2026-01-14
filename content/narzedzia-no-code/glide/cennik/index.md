@@ -1,30 +1,55 @@
 ---
-title: "Glide – cennik"
-slug: "glide-cennik"
-path: "/narzedzia/glide/cennik/"
-template: "default"
-type: "pricing"
-date: "2026-01-08"
+title: Glide – cennik
+slug: glide-cennik
+path: /narzedzia/glide/cennik/
+template: default
+type: pricing
+date: '2026-01-08'
 seo:
-  title: "Glide – cennik i wybór planu. Ile to realnie kosztuje w 2026"
-  description: "Rozbijamy cennik Glide na proste decyzje: Free vs Explorer vs Maker vs Business vs Enterprise. Kiedy który plan ma sens i gdzie rosną koszty."
-  keywords: ["Glide cennik", "Glide pricing", "Explorer", "Maker", "Business", "updates", "użytkownicy"]
-  canonical: "/narzedzia/glide/cennik/"
+  title: Glide – cennik i wybór planu. Ile to realnie kosztuje w 2026
+  description: >-
+    Rozbijamy cennik Glide na proste decyzje: Free vs Explorer vs Maker vs
+    Business vs Enterprise. Kiedy który plan ma sens i gdzie rosną koszty.
+  keywords:
+    - Glide cennik
+    - Glide pricing
+    - Explorer
+    - Maker
+    - Business
+    - updates
+    - użytkownicy
+  canonical: /narzedzia/glide/cennik/
 meta:
-  difficulty: "łatwe"
-  duration: "czytanie: 8–12 min"
-  tools: ["Glide"]
-  updatedAt: "2026-01-08"
+  difficulty: łatwe
+  duration: 'czytanie: 8–12 min'
+  tools:
+    - Glide
+  updatedAt: '2026-01-08'
   hasAffiliateLinks: false
-  format: "pricing"
-  topics: ["no-code", "koszty narzędzi", "automatyzacja"]
+  format: pricing
+  topics:
+    - no-code
+    - koszty narzędzi
+    - automatyzacja
   primaryCta:
-    label: "Sprawdź kalkulator kosztów Glide"
-    href: "https://www.glideapps.com/pricing"
-    rel: "nofollow"
+    label: Sprawdź kalkulator kosztów Glide
+    href: https://www.glideapps.com/pricing
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia", "No-code"]
-  tags: ["Glide", "cennik", "updates", "użytkownicy"]
+  categories:
+    - Narzędzia
+    - No-code
+  tags:
+    - Glide
+    - cennik
+    - updates
+    - użytkownicy
+hero:
+  heading: Glide – cennik
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Glide – cennik bez ściemy

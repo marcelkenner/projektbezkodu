@@ -1,40 +1,62 @@
 ---
-title: "Cloudimage: CDN i optymalizacja obrazów „w locie” – czy to ma sens w Twoim przypadku?"
-slug: "cloudimage"
-path: "/narzedzia/cloudimage/"
-template: "default"
-type: "tool"
-date: "2026-01-07"
+title: >-
+  Cloudimage: CDN i optymalizacja obrazów „w locie” – czy to ma sens w Twoim
+  przypadku?
+slug: cloudimage
+path: /narzedzia/cloudimage/
+template: default
+type: tool
+date: '2026-01-07'
 hero:
-  heading: "Cloudimage"
-  subheading: "CDN + transformacje obrazów w URL, bez budowania własnej pipeline."
+  heading: Cloudimage
+  subheading: CDN + transformacje obrazów w URL, bez budowania własnej pipeline.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Cloudimage – co to jest i dla kogo ma sens (CDN + optymalizacja obrazów)"
-  description: "Szybki, konkretny przewodnik: czym jest Cloudimage, kiedy realnie pomaga, gdzie boli i jak zacząć w 15 minut. Z linkami do recenzji, cennika i alternatyw."
+  title: Cloudimage – co to jest i dla kogo ma sens (CDN + optymalizacja obrazów)
+  description: >-
+    Szybki, konkretny przewodnik: czym jest Cloudimage, kiedy realnie pomaga,
+    gdzie boli i jak zacząć w 15 minut. Z linkami do recenzji, cennika i
+    alternatyw.
   canonical: null
   image: null
   noindex: false
   nofollow: false
 meta:
-  updatedAt: "2026-01-07"
-  format: "tool"
+  updatedAt: '2026-01-07'
+  format: tool
   hasAffiliateLinks: false
-  topics: ["CDN", "optymalizacja obrazów", "Core Web Vitals", "performance"]
+  topics:
+    - CDN
+    - optymalizacja obrazów
+    - Core Web Vitals
+    - performance
   summaryBullets:
-    - "Werdykt: Cloudimage wygrywa, jeśli masz dużo obrazów i chcesz je przyspieszyć bez dłubania w infrastrukturze."
-    - "Największa pułapka: łatwo „przepalić” koszty, jeśli nie kontrolujesz ruchu i cache."
-    - "Start jest prosty: podpinasz źródło obrazów i podmieniasz URL-e."
+    - >-
+      Werdykt: Cloudimage wygrywa, jeśli masz dużo obrazów i chcesz je
+      przyspieszyć bez dłubania w infrastrukturze.
+    - >-
+      Największa pułapka: łatwo „przepalić” koszty, jeśli nie kontrolujesz ruchu
+      i cache.
+    - 'Start jest prosty: podpinasz źródło obrazów i podmieniasz URL-e.'
   primaryCta:
-    label: "Przetestuj Cloudimage (30 dni)"
-    href: "https://www.cloudimage.io/"
-    rel: "nofollow"
+    label: Przetestuj Cloudimage (30 dni)
+    href: https://www.cloudimage.io/
+    rel: nofollow
   secondaryCta:
-    label: "Zobacz pełną recenzję"
-    href: "/narzedzia/cloudimage/recenzja/"
+    label: Zobacz pełną recenzję
+    href: /narzedzia/cloudimage/recenzja/
     rel: null
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Cloudimage", "CDN", "obrazy", "wydajność", "SEO"]
+  categories:
+    - Narzędzia
+  tags:
+    - Cloudimage
+    - CDN
+    - obrazy
+    - wydajność
+    - SEO
 ---
 
 Jeśli prowadzisz e-commerce, serwis z ogłoszeniami albo portal z dużą liczbą zdjęć, Cloudimage to jedno z tych narzędzi, które potrafi dać „szybką wygraną” bez przebudowy całego stacku. W praktyce: mniej ciężkich obrazów, lepsze wczytywanie i mniej pracy developerskiej przy responsywnych wariantach.

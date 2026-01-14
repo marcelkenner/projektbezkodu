@@ -54,6 +54,12 @@ taxonomy:
     - link w bio
     - Instagram
     - TikTok
+hero:
+  heading: Campsite.bio – alternatywy
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Alternatywy dla Campsite.bio – wybór bez udawania, że „jeden tool jest najlepszy dla wszystkich”

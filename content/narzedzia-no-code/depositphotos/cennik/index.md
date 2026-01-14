@@ -4,19 +4,42 @@ slug: depositphotos-cennik
 path: /narzedzia/depositphotos/cennik/
 template: default
 hero:
-  heading: Cennik Depositphotos: najtaniej wychodzi rytm, nie „okazja”
-  subheading: Jeśli pobierasz stock regularnie, subskrypcja wygrywa bez dyskusji. Jeśli potrzebujesz kilku plików „na projekt”, bierz pakiety i nie płać za miesiące bez pobrań.
+  heading: 'Cennik Depositphotos: najtaniej wychodzi rytm, nie „okazja”'
+  subheading: >-
+    Jeśli pobierasz stock regularnie, subskrypcja wygrywa bez dyskusji. Jeśli
+    potrzebujesz kilku plików „na projekt”, bierz pakiety i nie płać za miesiące
+    bez pobrań.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Depositphotos – cennik i plany: subskrypcja vs pakiety, co wybrać w Polsce
-  description: Aktualne (na dziś) progi cenowe Depositphotos: zdjęcia i wektory, wideo, muzyka/SFX oraz plany firmowe. Proste reguły wyboru, koszty na plik i najważniejsze limity licencji.
+  title: 'Depositphotos – cennik i plany: subskrypcja vs pakiety, co wybrać w Polsce'
+  description: >-
+    Aktualne (na dziś) progi cenowe Depositphotos: zdjęcia i wektory, wideo,
+    muzyka/SFX oraz plany firmowe. Proste reguły wyboru, koszty na plik i
+    najważniejsze limity licencji.
 meta:
   format: cennik
-  updatedAt: "2026-01-07"
-  topics: [Depositphotos, cennik, subskrypcja, pakiety, licencje, stock, muzyka, wideo]
+  updatedAt: '2026-01-07'
+  topics:
+    - Depositphotos
+    - cennik
+    - subskrypcja
+    - pakiety
+    - licencje
+    - stock
+    - muzyka
+    - wideo
   summaryBullets:
-    - Najtańszy „realny start” dla zdjęć/wektorów to subskrypcja roczna płatna miesięcznie: od $29/mies. za 30 pobrań.
-    - Pakiety zdjęć/wektorów zaczynają się od $29.97 za 3 pliki i są dobre tylko wtedy, gdy pobierasz okazjonalnie.
-    - Muzyka w subskrypcji nie daje licencji wieczystej; jeśli chcesz „raz kupić i mieć spokój”, wybierz pakiety.
+    - >-
+      Najtańszy „realny start” dla zdjęć/wektorów to subskrypcja roczna płatna
+      miesięcznie: od $29/mies. za 30 pobrań.
+    - >-
+      Pakiety zdjęć/wektorów zaczynają się od $29.97 za 3 pliki i są dobre tylko
+      wtedy, gdy pobierasz okazjonalnie.
+    - >-
+      Muzyka w subskrypcji nie daje licencji wieczystej; jeśli chcesz „raz kupić
+      i mieć spokój”, wybierz pakiety.
   primaryCta:
     label: Sprawdź aktualne plany Depositphotos
     href: https://depositphotos.com/subscribe/image.html
@@ -24,8 +47,16 @@ meta:
     label: Przeczytaj recenzję Depositphotos
     href: /narzedzia/depositphotos/recenzja/
 taxonomy:
-  categories: [Narzędzia]
-  tags: [Depositphotos, cennik, zdjęcia stockowe, wektory, wideo, muzyka, licencje]
+  categories:
+    - Narzędzia
+  tags:
+    - Depositphotos
+    - cennik
+    - zdjęcia stockowe
+    - wektory
+    - wideo
+    - muzyka
+    - licencje
 ---
 
 ## Werdykt cenowy w jednym zdaniu

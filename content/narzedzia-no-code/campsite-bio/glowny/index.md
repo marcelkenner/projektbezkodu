@@ -52,6 +52,12 @@ taxonomy:
     - TikTok
     - landing page
     - Linktree alternatywa
+hero:
+  heading: Campsite.bio
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Campsite.bio – werdykt dla twórców, marek i małych firm

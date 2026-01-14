@@ -9,6 +9,9 @@ hero:
   subheading: >-
     Najszybszy sposób, żeby Twoje materiały wyglądały „jak od grafika” — nawet
     jeśli nie jesteś grafikiem.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Canva – narzędzie do projektowania dla marketingu, freelancerów i małych

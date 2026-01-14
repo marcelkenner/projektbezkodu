@@ -30,6 +30,12 @@ taxonomy:
     - SaaS
     - B2B
     - headless commerce
+hero:
+  heading: 'BigCommerce: platforma e-commerce dla firm, które naprawdę rosną'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 BigCommerce będzie świetnym wyborem dla zespołów e-commerce i firm DTC/B2B, które chcą skalować sprzedaż i nie chcą co miesiąc „łatać” sklepu wtyczkami. Jeśli jesteś małym sklepem w Polsce i liczysz każdą złotówkę, BigCommerce najczęściej będzie przerostem formy nad treścią.

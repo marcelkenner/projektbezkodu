@@ -6,10 +6,17 @@ template: default
 type: review
 hero:
   heading: Fathom Analytics – recenzja bez ściemy
-  subheading: Werdykt dla marketingu, founderów i małych agencji: kiedy Fathom jest najlepszym wyborem, a kiedy to za mało.
+  subheading: >-
+    Werdykt dla marketingu, founderów i małych agencji: kiedy Fathom jest
+    najlepszym wyborem, a kiedy to za mało.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Fathom Analytics – recenzja 2026. Czy warto zamiast GA4?
-  description: Konkretna recenzja Fathom: funkcje, prywatność (cookieless), EU Isolation, wdrożenie, opinie użytkowników i jasny werdykt dla polskich stron.
+  description: >-
+    Konkretna recenzja Fathom: funkcje, prywatność (cookieless), EU Isolation,
+    wdrożenie, opinie użytkowników i jasny werdykt dla polskich stron.
   keywords:
     - fathom analytics recenzja
     - alternatywa dla ga4
@@ -18,7 +25,7 @@ seo:
     - cookieless analytics
   canonical: https://twojadomena.pl/narzedzia/fathom/recenzja/
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   difficulty: łatwe
   duration: 12–18 min
   format: review

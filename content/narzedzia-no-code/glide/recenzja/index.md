@@ -1,19 +1,38 @@
 ---
-title: "GetResponse cennik: ile to kosztuje w 2026 i jaki plan ma sens"
-slug: "getresponse-cennik"
-path: "/narzedzia/getresponse/cennik/"
-template: "default"
-type: "narzedzie-cennik"
-date: "2026-01-08"
+title: 'GetResponse cennik: ile to kosztuje w 2026 i jaki plan ma sens'
+slug: getresponse-cennik
+path: /narzedzia/getresponse/cennik/
+template: default
+type: narzedzie-cennik
+date: '2026-01-08'
 seo:
-  title: "GetResponse — cennik 2026 (PL): Starter vs Marketer vs Creator vs Enterprise"
-  description: "Aktualne ceny GetResponse w PLN i prosty wybór planu. Co realnie dostajesz w Starter/Marketer/Creator, kiedy Free wystarcza, a kiedy dopłata ma sens."
+  title: 'GetResponse — cennik 2026 (PL): Starter vs Marketer vs Creator vs Enterprise'
+  description: >-
+    Aktualne ceny GetResponse w PLN i prosty wybór planu. Co realnie dostajesz w
+    Starter/Marketer/Creator, kiedy Free wystarcza, a kiedy dopłata ma sens.
 meta:
-  updatedAt: "2026-01-08"
-  topics: ["cennik", "email marketing", "marketing automation", "e-commerce", "landing pages"]
+  updatedAt: '2026-01-08'
+  topics:
+    - cennik
+    - email marketing
+    - marketing automation
+    - e-commerce
+    - landing pages
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["GetResponse", "cennik", "email marketing", "automatyzacja", "e-commerce"]
+  categories:
+    - Narzędzia
+  tags:
+    - GetResponse
+    - cennik
+    - email marketing
+    - automatyzacja
+    - e-commerce
+hero:
+  heading: 'GetResponse cennik: ile to kosztuje w 2026 i jaki plan ma sens'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 ## Werdykt: najtańszy sensowny plan zależy od tego, czy chcesz tylko wysyłać, czy automatyzować

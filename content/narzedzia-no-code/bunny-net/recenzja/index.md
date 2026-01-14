@@ -18,6 +18,9 @@ hero:
     warstwą bezpieczeństwa od ręki — Cloudflare bywa prostszym startem.
   primaryCta: Zacznij od testu
   secondaryCta: Zobacz cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     bunny.net — recenzja (CDN, storage, optymalizacja obrazów). Czy warto w

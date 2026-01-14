@@ -1,20 +1,39 @@
 ---
-title: "Envato Elements: cennik i plany (2026)"
-slug: "cennik"
-path: "/narzedzia/envato-elements/cennik"
+title: 'Envato Elements: cennik i plany (2026)'
+slug: cennik
+path: /narzedzia/envato-elements/cennik
 draft: false
-template: "default"
-type: "narzedzie"
-date: "2026-01-08"
+template: default
+type: narzedzie
+date: '2026-01-08'
 seo:
-  title: "Envato Elements – cennik 2026: Individual, Teams, Student. Ile to kosztuje?"
-  description: "Aktualny cennik Envato Elements w 2026: ceny (EUR), plany Individual/Teams/Student, podatki, anulowanie bez zwrotów i szybkie zasady wyboru planu."
+  title: 'Envato Elements – cennik 2026: Individual, Teams, Student. Ile to kosztuje?'
+  description: >-
+    Aktualny cennik Envato Elements w 2026: ceny (EUR), plany
+    Individual/Teams/Student, podatki, anulowanie bez zwrotów i szybkie zasady
+    wyboru planu.
 meta:
-  updatedAt: "2026-01-08"
-  topics: ["stock", "szablony", "grafika", "wideo", "audio", "AI"]
+  updatedAt: '2026-01-08'
+  topics:
+    - stock
+    - szablony
+    - grafika
+    - wideo
+    - audio
+    - AI
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Envato Elements", "cennik", "subskrypcja"]
+  categories:
+    - Narzędzia
+  tags:
+    - Envato Elements
+    - cennik
+    - subskrypcja
+hero:
+  heading: 'Envato Elements: cennik i plany (2026)'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 ## Cennik Envato Elements w 2026: ile płacisz i za co

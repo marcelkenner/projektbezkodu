@@ -2,6 +2,7 @@
 title: 'Playbook: Walidacja pomysłu w 48h (ankieta, pre-order, cold outreach)'
 category: 'playbooki'
 status: 'draft'
+draft: true
 ---
 
 # Playbook: Walidacja pomysłu w 48h (ankieta, pre-order, cold outreach)

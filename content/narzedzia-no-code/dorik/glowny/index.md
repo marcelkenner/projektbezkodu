@@ -1,18 +1,29 @@
 ---
-title: "Dorik"
-slug: "dorik"
-path: "/narzedzia/dorik/"
-template: "default"
-type: "tool"
-date: "2026-01-08"
+title: Dorik
+slug: dorik
+path: /narzedzia/dorik/
+template: default
+type: tool
+date: '2026-01-08'
 hero:
-  heading: "Dorik: szybki kreator stron z CMS i płatnościami bez kodu"
-  subheading: "Jeśli budujesz stronę usługową, landing albo prosty serwis z blogiem, Dorik jest bardzo mocnym wyborem cenowym. Jeśli potrzebujesz pełnego sklepu z koszykiem i logistyką — to nie ten segment."
-  primaryCta: "Przeczytaj recenzję"
-  secondaryCta: "Sprawdź cennik"
+  heading: 'Dorik: szybki kreator stron z CMS i płatnościami bez kodu'
+  subheading: >-
+    Jeśli budujesz stronę usługową, landing albo prosty serwis z blogiem, Dorik
+    jest bardzo mocnym wyborem cenowym. Jeśli potrzebujesz pełnego sklepu z
+    koszykiem i logistyką — to nie ten segment.
+  primaryCta: Przeczytaj recenzję
+  secondaryCta: Sprawdź cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Dorik – kreator stron z AI, CMS i płatnościami | Co to jest i dla kogo ma sens"
-  description: "Dorik to no-code kreator stron z AI, hostingiem, CMS, formularzami i przyciskiem płatności. Zobacz, komu realnie oszczędza czas, a komu będzie przeszkadzać."
+  title: >-
+    Dorik – kreator stron z AI, CMS i płatnościami | Co to jest i dla kogo ma
+    sens
+  description: >-
+    Dorik to no-code kreator stron z AI, hostingiem, CMS, formularzami i
+    przyciskiem płatności. Zobacz, komu realnie oszczędza czas, a komu będzie
+    przeszkadzać.
   keywords:
     - dorik
     - dorik opinie
@@ -21,23 +32,36 @@ seo:
     - no-code
     - ai website builder
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "landing"
+  format: landing
   topics:
-    - "kreatory stron"
-    - "no-code"
-    - "CMS"
-    - "landing pages"
-    - "AI"
+    - kreatory stron
+    - no-code
+    - CMS
+    - landing pages
+    - AI
   summaryBullets:
-    - "Werdykt: świetny dla freelancerów i małych firm, które chcą szybko odpalić stronę + blog + proste płatności."
-    - "Realna bariera: plan Personal ma limit 25 stron i brak współpracowników — do pracy zespołowej od razu celuj w Business."
-    - "Najlepszy pierwszy krok: uruchom wersję testową, zrób jedną stronę i sprawdź, czy edytor ‘klika’ Ci od razu."
+    - >-
+      Werdykt: świetny dla freelancerów i małych firm, które chcą szybko odpalić
+      stronę + blog + proste płatności.
+    - >-
+      Realna bariera: plan Personal ma limit 25 stron i brak współpracowników —
+      do pracy zespołowej od razu celuj w Business.
+    - >-
+      Najlepszy pierwszy krok: uruchom wersję testową, zrób jedną stronę i
+      sprawdź, czy edytor ‘klika’ Ci od razu.
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["no-code", "CMS", "AI", "landing page", "strony www"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - no-code
+    - CMS
+    - AI
+    - landing page
+    - strony www
 ---
 
 Dorik wygrywa wtedy, gdy chcesz stronę “na biznes” bez dramatu technicznego: landing, oferta usług, prosta strona firmy, portfolio, do tego blog/CMS i szybkie płatności przyciskiem. To narzędzie jest zbudowane pod tempo.

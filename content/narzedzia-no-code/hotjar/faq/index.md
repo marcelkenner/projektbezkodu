@@ -80,4 +80,3 @@ Przed wdrożeniem:
 
 Podsumowanie — werdykt w jednym zdaniu
 Hotjar to skuteczne, łatwe do wdrożenia narzędzie do odkrywania problemów UX i zbierania szybkiego feedbacku — wybierz je, jeśli priorytetem jest szybkie wnioskowanie na podstawie zachowań użytkowników; jeśli priorytetem są surowe wymagania enterprise dotyczące retencji i pełnej kontroli danych, porównaj oferty klasy enterprise. Hotjar([help.hotjar.com](https://help.hotjar.com/hc/en-us/articles/36820019634961-What-is-Hotjar?utm_source=openai))
-

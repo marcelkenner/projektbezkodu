@@ -1,6 +1,8 @@
 ---
-title: "Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej agencji"
-category: "regulamin"
+title: >-
+  Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej
+  agencji
+category: regulamin
 draft: true
 ---
 

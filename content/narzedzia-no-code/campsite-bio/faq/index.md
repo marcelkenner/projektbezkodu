@@ -59,6 +59,12 @@ taxonomy:
     - UTM
     - GTM
     - Shopify
+hero:
+  heading: Campsite.bio – FAQ
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Campsite.bio – FAQ dla osób, które chcą decyzji, nie kolejnej listy funkcji

@@ -11,6 +11,9 @@ hero:
     narzędzie wewnętrzne bez proszenia dev teamu o „jeszcze 3 sprinty”.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Bubble – no-code do budowy aplikacji web i (coraz częściej) mobile |

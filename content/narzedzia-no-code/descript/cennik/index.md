@@ -1,37 +1,55 @@
 ---
-title: "Descript — cennik i plany: ile kosztuje i który wybrać w Polsce"
-slug: "descript-cennik"
-path: "/narzedzia/descript/cennik/"
-template: "default"
-type: "pricing"
-date: "2026-01-07"
+title: 'Descript — cennik i plany: ile kosztuje i który wybrać w Polsce'
+slug: descript-cennik
+path: /narzedzia/descript/cennik/
+template: default
+type: pricing
+date: '2026-01-07'
 seo:
-  title: "Descript cennik — Free, Hobbyist, Creator, Business. Co wybrać?"
-  description: "Aktualne plany Descript (Free, Hobbyist, Creator, Business): ceny, limity media minutes (media hours), AI credits, top-ups, różnice w funkcjach i praktyczny wybór planu dla twórców i firm w Polsce."
+  title: Descript cennik — Free, Hobbyist, Creator, Business. Co wybrać?
+  description: >-
+    Aktualne plany Descript (Free, Hobbyist, Creator, Business): ceny, limity
+    media minutes (media hours), AI credits, top-ups, różnice w funkcjach i
+    praktyczny wybór planu dla twórców i firm w Polsce.
   keywords:
-    - "Descript cennik"
-    - "Descript pricing"
-    - "Hobbyist Creator Business"
-    - "AI credits"
-    - "media minutes media hours"
+    - Descript cennik
+    - Descript pricing
+    - Hobbyist Creator Business
+    - AI credits
+    - media minutes media hours
 meta:
-  updatedAt: "2026-01-07"
-  format: "cennik"
-  topics: "cennik, koszty, limity, montaż wideo, podcasty, AI"
+  updatedAt: '2026-01-07'
+  format: cennik
+  topics: cennik, koszty, limity, montaż wideo, podcasty, AI
   summaryBullets:
-    - "Ceny: $0–$65 za osobę/mies. (zależnie od planu i rozliczenia)."
-    - "Limity pracy: 60–2400 media minutes/mies. na edytora (1–40 h)."
-    - "AI: 100 kredytów jednorazowo w Free; 400–1500 kredytów/mies. w płatnych."
-    - "Dla publikujących co tydzień: Creator jest najczęściej sensownym minimum."
+    - 'Ceny: $0–$65 za osobę/mies. (zależnie od planu i rozliczenia).'
+    - 'Limity pracy: 60–2400 media minutes/mies. na edytora (1–40 h).'
+    - 'AI: 100 kredytów jednorazowo w Free; 400–1500 kredytów/mies. w płatnych.'
+    - 'Dla publikujących co tydzień: Creator jest najczęściej sensownym minimum.'
   primaryCta:
-    label: "Sprawdź aktualny cennik Descript"
-    href: "https://www.descript.com/pricing"
+    label: Sprawdź aktualny cennik Descript
+    href: https://www.descript.com/pricing
   secondaryCta:
-    label: "Przeczytaj recenzję Descript"
-    href: "/narzedzia/descript/recenzja/"
+    label: Przeczytaj recenzję Descript
+    href: /narzedzia/descript/recenzja/
 taxonomy:
-  categories: ["Narzędzia", "Wideo", "Podcasty", "AI"]
-  tags: ["descript", "cennik", "pricing", "ai credits", "media minutes"]
+  categories:
+    - Narzędzia
+    - Wideo
+    - Podcasty
+    - AI
+  tags:
+    - descript
+    - cennik
+    - pricing
+    - ai credits
+    - media minutes
+hero:
+  heading: 'Descript — cennik i plany: ile kosztuje i który wybrać w Polsce'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Descript — cennik z werdyktem: który plan realnie ma sens

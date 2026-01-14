@@ -6,14 +6,19 @@ draft: false
 date: '2026-01-14'
 template: default
 hero:
+  heading: 'Alternatywy dla Icons8: co wybrać zamiast i dlaczego'
+  subheading: >-
+    Szybka mapa wyboru: Flaticon, Noun Project, Iconfinder, Streamline i Envato
+    — w zależności od licencji, ceny i workflow.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Icons8 — najlepsze alternatywy (2026). Które wybrać i dlaczego
-  description: 'Szybki przewodnik: kiedy zostać z Icons8, a kiedy zmienić na Flaticon,
-    Noun Project, Iconfinder, Streamline czy Envato. Konkretne rekomendacje dla freelancerów,
-    startupów i agencji.'
+  description: >-
+    Szybki przewodnik: kiedy zostać z Icons8, a kiedy zmienić na Flaticon, Noun
+    Project, Iconfinder, Streamline czy Envato. Konkretne rekomendacje dla
+    freelancerów, startupów i agencji.
 meta:
   difficulty: Łatwy
   duration: 5 min
@@ -21,9 +26,11 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - 'Szybki werdykt: kiedy Icons8 wystarczy, kiedy lepiej alternatywa.'
-  - Lista sprawdzonych alternatyw z krótkim uzasadnieniem kosztowym i licencyjnym.
-  - 'Prosty next step: jak przetestować każde rozwiązanie w 5 minut.'
+    - 'Szybki werdykt: kiedy Icons8 wystarczy, kiedy lepiej alternatywa.'
+    - >-
+      Lista sprawdzonych alternatyw z krótkim uzasadnieniem kosztowym i
+      licencyjnym.
+    - 'Prosty next step: jak przetestować każde rozwiązanie w 5 minut.'
 ---
 
 Lead

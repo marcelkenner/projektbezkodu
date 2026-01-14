@@ -6,10 +6,18 @@ template: default
 type: narzedzie-faq
 hero:
   heading: Flowbase FAQ
-  subheading: Najczęstsze pytania przed zakupem: limity kopiowania, Safari, licencja, szablony i co się dzieje po anulowaniu. Bez mydlenia oczu.
+  subheading: >-
+    Najczęstsze pytania przed zakupem: limity kopiowania, Safari, licencja,
+    szablony i co się dzieje po anulowaniu. Bez mydlenia oczu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Flowbase FAQ – najczęstsze pytania (limity, Safari, licencja, szablony)
-  description: Odpowiedzi na najczęstsze pytania o Flowbase: jak działa kopiuj-wklej, czy działa na Safari, ile komponentów można kopiować, czy szablony są w abonamencie, licencja i płatności.
+  description: >-
+    Odpowiedzi na najczęstsze pytania o Flowbase: jak działa kopiuj-wklej, czy
+    działa na Safari, ile komponentów można kopiować, czy szablony są w
+    abonamencie, licencja i płatności.
   keywords:
     - Flowbase FAQ
     - Flowbase Safari
@@ -17,7 +25,7 @@ seo:
     - Flowbase licencja
     - Flowbase szablony
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   topics:
     - webflow
     - komponenty
@@ -25,8 +33,12 @@ meta:
     - faq
   summaryBullets:
     - Safari nie wspiera kopiowania komponentów — używaj Chrome/Firefox/Edge.
-    - Plan miesięczny ma limit 200 kopii komponentów na miesiąc; roczny jest „bez sufitów” w praktyce.
-    - Szablony są sprzedawane osobno, a licencja jest single-user i bez redystrybucji.
+    - >-
+      Plan miesięczny ma limit 200 kopii komponentów na miesiąc; roczny jest
+      „bez sufitów” w praktyce.
+    - >-
+      Szablony są sprzedawane osobno, a licencja jest single-user i bez
+      redystrybucji.
   primaryCta:
     label: Zobacz cennik Flowbase
     href: https://www.flowbase.co/pricing

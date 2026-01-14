@@ -1,37 +1,64 @@
 ---
-title: "Alternatywy dla Descript — co wybrać zamiast i dla kogo to ma sens"
-slug: "descript-alternatywy"
-path: "/narzedzia/descript/alternatywy/"
-template: "default"
-type: "alternatives"
-date: "2026-01-07"
+title: Alternatywy dla Descript — co wybrać zamiast i dla kogo to ma sens
+slug: descript-alternatywy
+path: /narzedzia/descript/alternatywy/
+template: default
+type: alternatives
+date: '2026-01-07'
 seo:
-  title: "Alternatywy dla Descript: CapCut, Premiere, DaVinci, Riverside i inne"
-  description: "Najlepsze alternatywy dla Descript w 2026: szybkie shortsy (CapCut), montaż „pro” (Premiere/DaVinci/Final Cut), nagrania zdalne (Riverside/Zencastr) i czyszczenie audio (Adobe Podcast). Konkretne werdykty dla twórców i firm w Polsce."
+  title: 'Alternatywy dla Descript: CapCut, Premiere, DaVinci, Riverside i inne'
+  description: >-
+    Najlepsze alternatywy dla Descript w 2026: szybkie shortsy (CapCut), montaż
+    „pro” (Premiere/DaVinci/Final Cut), nagrania zdalne (Riverside/Zencastr) i
+    czyszczenie audio (Adobe Podcast). Konkretne werdykty dla twórców i firm w
+    Polsce.
   keywords:
-    - "Descript alternatywy"
-    - "CapCut vs Descript"
-    - "DaVinci Resolve vs Descript"
-    - "Riverside vs Descript"
-    - "Adobe Podcast Enhance Speech"
+    - Descript alternatywy
+    - CapCut vs Descript
+    - DaVinci Resolve vs Descript
+    - Riverside vs Descript
+    - Adobe Podcast Enhance Speech
 meta:
-  updatedAt: "2026-01-07"
-  format: "alternatywy"
-  topics: "alternatywy, porównanie, montaż wideo, podcasty, transkrypcja, AI"
+  updatedAt: '2026-01-07'
+  format: alternatywy
+  topics: alternatywy, porównanie, montaż wideo, podcasty, transkrypcja, AI
   summaryBullets:
-    - "Jeśli chcesz szybkie shortsy: CapCut wygrywa tempem i efektami."
-    - "Jeśli robisz montaż „pro”: DaVinci / Premiere / Final Cut będą bezpieczniejsze niż Descript."
-    - "Jeśli nagrywasz zdalnie: Riverside i Zencastr są bardziej „studyjne” niż edytorowe."
-    - "Jeśli chcesz tylko poprawić dźwięk: Adobe Podcast Enhance Speech wystarczy i bywa darmowy w użyciu."
+    - 'Jeśli chcesz szybkie shortsy: CapCut wygrywa tempem i efektami.'
+    - >-
+      Jeśli robisz montaż „pro”: DaVinci / Premiere / Final Cut będą
+      bezpieczniejsze niż Descript.
+    - >-
+      Jeśli nagrywasz zdalnie: Riverside i Zencastr są bardziej „studyjne” niż
+      edytorowe.
+    - >-
+      Jeśli chcesz tylko poprawić dźwięk: Adobe Podcast Enhance Speech wystarczy
+      i bywa darmowy w użyciu.
   primaryCta:
-    label: "Zobacz recenzję Descript"
-    href: "/narzedzia/descript/recenzja/"
+    label: Zobacz recenzję Descript
+    href: /narzedzia/descript/recenzja/
   secondaryCta:
-    label: "Sprawdź cennik Descript"
-    href: "/narzedzia/descript/cennik/"
+    label: Sprawdź cennik Descript
+    href: /narzedzia/descript/cennik/
 taxonomy:
-  categories: ["Narzędzia", "Wideo", "Podcasty", "AI"]
-  tags: ["descript", "alternatywy", "capcut", "premiere", "davinci resolve", "riverside", "adobe podcast"]
+  categories:
+    - Narzędzia
+    - Wideo
+    - Podcasty
+    - AI
+  tags:
+    - descript
+    - alternatywy
+    - capcut
+    - premiere
+    - davinci resolve
+    - riverside
+    - adobe podcast
+hero:
+  heading: Alternatywy dla Descript — co wybrać zamiast i dla kogo to ma sens
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Alternatywy dla Descript: wybór bez błądzenia

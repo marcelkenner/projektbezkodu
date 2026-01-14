@@ -5,13 +5,22 @@ path: /narzedzia/carrd/alternatywy/
 draft: false
 template: default
 type: alternatives
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 hero:
-  heading: Alternatywy dla Carrd: co wybrać, gdy Carrd nie wystarcza
-  subheading: Jeśli chcesz po prostu szybką, tanią stronę 1-ekranową, Carrd nadal jest trudny do pobicia. Jeśli potrzebujesz „creator commerce”, zespołu, A/B testów albo rozbudowanej strony — są narzędzia, które zrobią to lepiej.
+  heading: 'Alternatywy dla Carrd: co wybrać, gdy Carrd nie wystarcza'
+  subheading: >-
+    Jeśli chcesz po prostu szybką, tanią stronę 1-ekranową, Carrd nadal jest
+    trudny do pobicia. Jeśli potrzebujesz „creator commerce”, zespołu, A/B
+    testów albo rozbudowanej strony — są narzędzia, które zrobią to lepiej.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Alternatywy dla Carrd (2026) — Linktree, Beacons, Webflow, Framer i inne
-  description: Mocne alternatywy dla Carrd: link-in-bio, landingi pod reklamy, kreatory stron i narzędzia dla twórców. Jasne rekomendacje: co wybrać w Twoim scenariuszu.
+  description: >-
+    Mocne alternatywy dla Carrd: link-in-bio, landingi pod reklamy, kreatory
+    stron i narzędzia dla twórców. Jasne rekomendacje: co wybrać w Twoim
+    scenariuszu.
   keywords:
     - alternatywy carrd
     - carrd vs linktree
@@ -19,21 +28,44 @@ seo:
     - kreator landing page
     - webflow framer carrd
 meta:
-  updatedAt: 2026-01-07
-  tools: ["Carrd", "Linktree", "Beacons", "Taplink", "Campsite", "Webflow", "Framer", "Landingi"]
+  updatedAt: 2026-01-07T00:00:00.000Z
+  tools:
+    - Carrd
+    - Linktree
+    - Beacons
+    - Taplink
+    - Campsite
+    - Webflow
+    - Framer
+    - Landingi
   format: porównanie
-  topics: ["landing page", "link in bio", "no-code", "marketing", "twórcy"]
+  topics:
+    - landing page
+    - link in bio
+    - no-code
+    - marketing
+    - twórcy
   summaryBullets:
-    - Do link-in-bio i monetyzacji twórcy częściej wygrywają Linktree albo Beacons.
-    - Do kampanii performance i optymalizacji konwersji wybieraj Landingi / Unbounce / Leadpages.
+    - >-
+      Do link-in-bio i monetyzacji twórcy częściej wygrywają Linktree albo
+      Beacons.
+    - >-
+      Do kampanii performance i optymalizacji konwersji wybieraj Landingi /
+      Unbounce / Leadpages.
     - Do stron marketingowych i pracy zespołowej lepsze są Webflow lub Framer.
   primaryCta:
     label: Sprawdź Carrd Pro (7 dni testu)
     href: https://carrd.co/pro
     rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["alternatywy", "porównanie", "no-code", "landing-page", "link-in-bio"]
+  categories:
+    - Narzędzia
+  tags:
+    - alternatywy
+    - porównanie
+    - no-code
+    - landing-page
+    - link-in-bio
 ---
 
 ## Werdykt: jaka alternatywa ma sens w Twoim przypadku

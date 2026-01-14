@@ -4,16 +4,27 @@ slug: creative-market-recenzja
 path: /narzedzia/creative-market/recenzja/
 template: review
 type: recenzja
-date: "2026-01-07"
+date: '2026-01-07'
 hero:
-  heading: Creative Market — recenzja dla freelancerów i marketingu, którzy chcą kupować gotowe assety bez chaosu
-  subheading: Jeśli regularnie robisz strony, kampanie i identyfikacje, Creative Market potrafi skrócić produkcję o dni. Ale tylko wtedy, gdy ogarniesz licencje i nie liczysz na „unlimited”.
+  heading: >-
+    Creative Market — recenzja dla freelancerów i marketingu, którzy chcą
+    kupować gotowe assety bez chaosu
+  subheading: >-
+    Jeśli regularnie robisz strony, kampanie i identyfikacje, Creative Market
+    potrafi skrócić produkcję o dni. Ale tylko wtedy, gdy ogarniesz licencje i
+    nie liczysz na „unlimited”.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Creative Market — recenzja i werdykt. Czy warto w 2026?
-  description: Szczera recenzja Creative Market po analizie licencji, zasad zwrotów i membershipu. Dla kogo to jest najlepszy wybór w Polsce, a kto powinien wybrać Envato/Adobe Stock/Freepik.
+  description: >-
+    Szczera recenzja Creative Market po analizie licencji, zasad zwrotów i
+    membershipu. Dla kogo to jest najlepszy wybór w Polsce, a kto powinien
+    wybrać Envato/Adobe Stock/Freepik.
   canonical: https://twojadomena.pl/narzedzia/creative-market/recenzja/
 meta:
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   format: recenzja
   topics:
     - marketplace
@@ -22,9 +33,15 @@ meta:
     - mockupy
     - licencje
   summaryBullets:
-    - Najlepszy wybór dla freelancerów i małych zespołów, które kupują assety do realnych projektów, a nie „dla sportu”.
-    - Największe ryzyko to nietrafiona licencja (limity sprzedaży i konkretne zastosowania).
-    - Membership jest opłacalny dopiero, gdy faktycznie co miesiąc wykorzystujesz kredyty i rabaty.
+    - >-
+      Najlepszy wybór dla freelancerów i małych zespołów, które kupują assety do
+      realnych projektów, a nie „dla sportu”.
+    - >-
+      Największe ryzyko to nietrafiona licencja (limity sprzedaży i konkretne
+      zastosowania).
+    - >-
+      Membership jest opłacalny dopiero, gdy faktycznie co miesiąc
+      wykorzystujesz kredyty i rabaty.
   primaryCta:
     label: Zobacz cennik i plany Membership
     href: /narzedzia/creative-market/cennik/

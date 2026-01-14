@@ -5,13 +5,22 @@ path: /narzedzia/carrd/faq/
 draft: false
 template: default
 type: faq
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 hero:
-  heading: Carrd FAQ: odpowiedzi, których potrzebujesz przed publikacją
-  subheading: To jest szybka checklista decyzyjna. Po przeczytaniu wiesz, czy Carrd wystarczy do Twojej strony one-page, jaki plan wybrać i gdzie są twarde ograniczenia.
+  heading: 'Carrd FAQ: odpowiedzi, których potrzebujesz przed publikacją'
+  subheading: >-
+    To jest szybka checklista decyzyjna. Po przeczytaniu wiesz, czy Carrd
+    wystarczy do Twojej strony one-page, jaki plan wybrać i gdzie są twarde
+    ograniczenia.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Carrd — FAQ (2026). Domeny, cennik, SEO, formularze, płatności i limity
-  description: Najczęstsze pytania o Carrd: czy jest darmowy, jaki plan wybrać, jak działa własna domena i SSL, SEO, Google Analytics, formularze, płatności Stripe, pobieranie kodu i co po wygaśnięciu Pro.
+  description: >-
+    Najczęstsze pytania o Carrd: czy jest darmowy, jaki plan wybrać, jak działa
+    własna domena i SSL, SEO, Google Analytics, formularze, płatności Stripe,
+    pobieranie kodu i co po wygaśnięciu Pro.
   keywords:
     - carrd faq
     - carrd domena
@@ -19,21 +28,39 @@ seo:
     - carrd formularz
     - carrd płatności
 meta:
-  updatedAt: 2026-01-07
-  tools: ["Carrd"]
+  updatedAt: 2026-01-07T00:00:00.000Z
+  tools:
+    - Carrd
   format: faq
-  topics: ["landing page", "one-page", "link in bio", "seo", "analityka", "formularze"]
+  topics:
+    - landing page
+    - one-page
+    - link in bio
+    - seo
+    - analityka
+    - formularze
   summaryBullets:
-    - Carrd jest świetny do stron one-page i link-in-bio, a słaby do rozbudowanych serwisów.
-    - Realne minimum „biznesowe” to zwykle Pro Standard (domena, formularze, analityka, meta tagi).
-    - Pro Plus ma sens, gdy potrzebujesz płatności w formularzu, pobrania kodu lub funkcji typu hasło/robots.txt.
+    - >-
+      Carrd jest świetny do stron one-page i link-in-bio, a słaby do
+      rozbudowanych serwisów.
+    - >-
+      Realne minimum „biznesowe” to zwykle Pro Standard (domena, formularze,
+      analityka, meta tagi).
+    - >-
+      Pro Plus ma sens, gdy potrzebujesz płatności w formularzu, pobrania kodu
+      lub funkcji typu hasło/robots.txt.
   primaryCta:
     label: Przetestuj Carrd Pro przez 7 dni
     href: https://carrd.co/pro
     rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["faq", "no-code", "landing-page", "link-in-bio"]
+  categories:
+    - Narzędzia
+  tags:
+    - faq
+    - no-code
+    - landing-page
+    - link-in-bio
 ---
 
 ## Najkrótsza odpowiedź: czy Carrd jest dla Ciebie?

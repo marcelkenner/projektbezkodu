@@ -1,19 +1,40 @@
 ---
-title: "GetResponse FAQ: najczęstsze pytania i konkretne odpowiedzi"
-slug: "getresponse-faq"
-path: "/narzedzia/getresponse/faq/"
-template: "default"
-type: "narzedzie-faq"
-date: "2026-01-08"
+title: 'GetResponse FAQ: najczęstsze pytania i konkretne odpowiedzi'
+slug: getresponse-faq
+path: /narzedzia/getresponse/faq/
+template: default
+type: narzedzie-faq
+date: '2026-01-08'
 seo:
-  title: "GetResponse FAQ (2026) — plan Free, limit kontaktów, wysyłki, webinary, anulowanie"
-  description: "Szybkie, konkretne odpowiedzi o GetResponse: co daje Free, jak działa 14-dniowy dostęp premium, co liczy się jako kontakt, jak naliczane są opłaty i jak anulować konto."
+  title: >-
+    GetResponse FAQ (2026) — plan Free, limit kontaktów, wysyłki, webinary,
+    anulowanie
+  description: >-
+    Szybkie, konkretne odpowiedzi o GetResponse: co daje Free, jak działa
+    14-dniowy dostęp premium, co liczy się jako kontakt, jak naliczane są opłaty
+    i jak anulować konto.
 meta:
-  updatedAt: "2026-01-08"
-  topics: ["email marketing", "marketing automation", "newsletter", "RODO", "deliverability"]
+  updatedAt: '2026-01-08'
+  topics:
+    - email marketing
+    - marketing automation
+    - newsletter
+    - RODO
+    - deliverability
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["GetResponse", "FAQ", "email marketing", "marketing automation"]
+  categories:
+    - Narzędzia
+  tags:
+    - GetResponse
+    - FAQ
+    - email marketing
+    - marketing automation
+hero:
+  heading: 'GetResponse FAQ: najczęstsze pytania i konkretne odpowiedzi'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 GetResponse to narzędzie „wszystko w jednym”, więc pytania zwykle kręcą się wokół dwóch rzeczy: limitów w Free i tego, jak realnie działa rozliczanie kontaktów. Poniżej masz odpowiedzi bez lania wody — tak, żebyś podjął decyzję i przeszedł do działania.

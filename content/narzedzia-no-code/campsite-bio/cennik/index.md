@@ -56,6 +56,12 @@ taxonomy:
     - Instagram
     - TikTok
     - analityka
+hero:
+  heading: Campsite.bio – cennik i plany
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Campsite.bio – cennik i wybór planu bez zgadywania

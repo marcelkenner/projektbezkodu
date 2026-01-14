@@ -11,6 +11,9 @@ hero:
     Jeśli robisz marketing, ofertę albo social media „na bieżąco”, Canva jest po
     prostu najszybszą drogą do sensownego efektu. Jeśli żyjesz w Figma/Adobe —
     potraktuj ją jako narzędzie pomocnicze.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Canva – recenzja 2026: dla kogo jest, kiedy warto Pro/Business, a kiedy

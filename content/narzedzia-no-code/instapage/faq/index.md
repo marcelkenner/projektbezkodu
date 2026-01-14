@@ -1,5 +1,5 @@
 ---
-title: 'Instapage – FAQ'
+title: Instapage – FAQ
 slug: faq
 path: /narzedzia/instapage/faq/
 draft: false
@@ -7,15 +7,17 @@ template: article
 date: '2025-11-09'
 hero:
   heading: Instapage – najczęstsze pytania i praktyczne odpowiedzi
-  subheading: Wyjaśniam, dla kogo jest Instapage, jak wygląda wdrożenie i co trzeba
+  subheading: >-
+    Wyjaśniam, dla kogo jest Instapage, jak wygląda wdrożenie i co trzeba
     wiedzieć przed zakupem licencji.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: 'Instapage – FAQ po polsku'
-  description: 'Zebrałem odpowiedzi na popularne pytania o Instapage: wymagania, integracje,
-    cennik i codzienną pracę z narzędziem.'
+  title: Instapage – FAQ po polsku
+  description: >-
+    Zebrałem odpowiedzi na popularne pytania o Instapage: wymagania, integracje,
+    cennik i codzienną pracę z narzędziem.
 ---
 
 # Obietnica decyzji — dla kogo ten FAQ

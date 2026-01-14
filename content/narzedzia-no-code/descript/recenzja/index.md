@@ -1,33 +1,55 @@
 ---
-title: "Descript — recenzja: czy to najszybszy montaż dla podcastów i wideo “gadanych”?"
-slug: "descript-recenzja"
-path: "/narzedzia/descript/recenzja/"
-template: "default"
-type: "review"
-date: "2026-01-07"
+title: >-
+  Descript — recenzja: czy to najszybszy montaż dla podcastów i wideo
+  “gadanych”?
+slug: descript-recenzja
+path: /narzedzia/descript/recenzja/
+template: default
+type: review
+date: '2026-01-07'
 seo:
-  title: "Descript — recenzja. Dla kogo ma sens, a kto powinien wybrać coś innego"
-  description: "Descript montuje wideo i podcasty jak dokument: edycja po transkrypcji, szybkie skracanie, poprawa dźwięku, napisy i Underlord (AI współmontażysta). Sprawdź, czy pasuje do polskiego workflow i języka."
+  title: Descript — recenzja. Dla kogo ma sens, a kto powinien wybrać coś innego
+  description: >-
+    Descript montuje wideo i podcasty jak dokument: edycja po transkrypcji,
+    szybkie skracanie, poprawa dźwięku, napisy i Underlord (AI współmontażysta).
+    Sprawdź, czy pasuje do polskiego workflow i języka.
   keywords:
-    - "Descript recenzja"
-    - "montaż wideo po tekście"
-    - "edytor podcastów"
-    - "Underlord"
-    - "AI montaż"
+    - Descript recenzja
+    - montaż wideo po tekście
+    - edytor podcastów
+    - Underlord
+    - AI montaż
 meta:
-  updatedAt: "2026-01-07"
-  format: "recenzja"
-  topics: "montaż wideo, podcasty, transkrypcja, napisy, AI, content marketing"
+  updatedAt: '2026-01-07'
+  format: recenzja
+  topics: montaż wideo, podcasty, transkrypcja, napisy, AI, content marketing
   hasAffiliateLinks: false
   primaryCta:
-    label: "Sprawdź Descript w darmowym planie"
-    href: "https://www.descript.com/pricing"
+    label: Sprawdź Descript w darmowym planie
+    href: https://www.descript.com/pricing
   secondaryCta:
-    label: "Zobacz cennik i limity w PL"
-    href: "/narzedzia/descript/cennik/"
+    label: Zobacz cennik i limity w PL
+    href: /narzedzia/descript/cennik/
 taxonomy:
-  categories: ["Narzędzia", "Wideo", "Podcasty", "AI"]
-  tags: ["descript", "montaż", "transkrypcja", "napisy", "underlord"]
+  categories:
+    - Narzędzia
+    - Wideo
+    - Podcasty
+    - AI
+  tags:
+    - descript
+    - montaż
+    - transkrypcja
+    - napisy
+    - underlord
+hero:
+  heading: >-
+    Descript — recenzja: czy to najszybszy montaż dla podcastów i wideo
+    “gadanych”?
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Descript — recenzja z werdyktem dla polskich twórców i zespołów marketingu

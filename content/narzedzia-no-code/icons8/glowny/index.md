@@ -1,5 +1,5 @@
 ---
-title: 'Icons8'
+title: Icons8
 slug: icons8
 path: /narzedzia/icons8/
 draft: true
@@ -19,13 +19,13 @@ meta:
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - design
-  - ikony
+    - narzędzia
+    - design
+    - ikony
   tags:
-  - ikonografia
-  - UI
-  - grafika
+    - ikonografia
+    - UI
+    - grafika
 ---
 
 Obietnica: szybko powiem, czy Icons8 opłaca się dla Twojego front-endu i procesu projektowego, i jaki jest najprostszy sposób na start.

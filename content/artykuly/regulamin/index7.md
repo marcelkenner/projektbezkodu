@@ -1,6 +1,6 @@
 ---
-title: "Regulamin testów beta w no-code: zasady, które oszczędzą ci dramatu"
-category: "regulamin"
+title: 'Regulamin testów beta w no-code: zasady, które oszczędzą ci dramatu'
+category: regulamin
 draft: true
 ---
 

@@ -1,6 +1,8 @@
 ---
-title: "Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie obiecywać)"
-category: "regulamin"
+title: >-
+  Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie
+  obiecywać)
+category: regulamin
 draft: true
 ---
 

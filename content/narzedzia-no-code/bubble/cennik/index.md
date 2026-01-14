@@ -12,6 +12,9 @@ hero:
     zgadywania.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Bubble – cennik 2026 (Starter, Growth, Team): web, mobile i workload bez

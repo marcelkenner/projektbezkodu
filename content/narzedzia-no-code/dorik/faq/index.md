@@ -1,18 +1,27 @@
 ---
-title: "Dorik FAQ – najczęstsze pytania i konkretne odpowiedzi"
-slug: "faq"
-path: "/narzedzia/dorik/faq/"
-template: "default"
-type: "faq"
-date: "2026-01-08"
+title: Dorik FAQ – najczęstsze pytania i konkretne odpowiedzi
+slug: faq
+path: /narzedzia/dorik/faq/
+template: default
+type: faq
+date: '2026-01-08'
 hero:
-  heading: "Dorik FAQ: wszystko, co chcesz wiedzieć przed budową strony"
-  subheading: "Bez lania wody. Jeśli robisz landing page, stronę usługową albo prostą sprzedaż ‘na przycisk’, Dorik ma sens. Jeśli chcesz koszyk, magazyn i pełny e-commerce — wybierz inne narzędzie i oszczędź sobie frustracji."
-  primaryCta: "Zobacz recenzję"
-  secondaryCta: "Sprawdź cennik"
+  heading: 'Dorik FAQ: wszystko, co chcesz wiedzieć przed budową strony'
+  subheading: >-
+    Bez lania wody. Jeśli robisz landing page, stronę usługową albo prostą
+    sprzedaż ‘na przycisk’, Dorik ma sens. Jeśli chcesz koszyk, magazyn i pełny
+    e-commerce — wybierz inne narzędzie i oszczędź sobie frustracji.
+  primaryCta: Zobacz recenzję
+  secondaryCta: Sprawdź cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Dorik FAQ – ceny, domena, hosting, płatności, wielojęzyczność, eksport"
-  description: "Najczęstsze pytania o Dorik: trial i zwroty, domeny, hosting/SSL, CMS i blog, wielojęzyczność, formularze, płatności (Stripe/PayPal), eksport kodu, SEO (sitemap/robots/llms.txt) i RODO."
+  title: Dorik FAQ – ceny, domena, hosting, płatności, wielojęzyczność, eksport
+  description: >-
+    Najczęstsze pytania o Dorik: trial i zwroty, domeny, hosting/SSL, CMS i
+    blog, wielojęzyczność, formularze, płatności (Stripe/PayPal), eksport kodu,
+    SEO (sitemap/robots/llms.txt) i RODO.
   keywords:
     - dorik faq
     - dorik trial
@@ -23,20 +32,30 @@ seo:
     - dorik wielojęzyczność
     - dorik eksport kodu
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "faq"
+  format: faq
   topics:
-    - "faq"
-    - "cennik"
-    - "hosting"
-    - "domena"
-    - "płatności"
-    - "seo"
+    - faq
+    - cennik
+    - hosting
+    - domena
+    - płatności
+    - seo
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["dorik", "faq", "trial", "zwrot", "domena", "ssl", "stripe", "seo"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - dorik
+    - faq
+    - trial
+    - zwrot
+    - domena
+    - ssl
+    - stripe
+    - seo
 ---
 
 Jeśli jesteś freelancerem, małą firmą albo marketerem i chcesz w końcu opublikować stronę (z leadami i prostą płatnością), Dorik jest logicznym wyborem. Jeśli oczekujesz pełnego sklepu — Dorik nie jest od tego i to jest w porządku.

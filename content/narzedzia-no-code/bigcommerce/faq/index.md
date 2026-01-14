@@ -44,6 +44,12 @@ taxonomy:
     - płatności
     - Polska
     - Przelewy24
+hero:
+  heading: 'FAQ BigCommerce: odpowiedzi, które naprawdę decydują o wyborze platformy'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Jeśli rozważasz BigCommerce, to Twoje pytania są zdrowe: „ile realnie zapłacę?”, „czy to działa w Polsce?”, „co mnie zaskoczy po starcie?”. Tu masz odpowiedzi bez ozdobników.

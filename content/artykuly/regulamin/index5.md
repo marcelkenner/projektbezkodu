@@ -1,6 +1,6 @@
 ---
-title: "Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi"
-category: "regulamin"
+title: 'Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi'
+category: regulamin
 draft: true
 ---
 

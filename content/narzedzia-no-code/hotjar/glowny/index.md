@@ -1,5 +1,5 @@
 ---
-title: 'Hotjar'
+title: Hotjar
 slug: hotjar
 path: /narzedzia/hotjar/
 draft: true

@@ -17,10 +17,8 @@ hero:
   primaryCta: Przetestuj bunny.net
   secondaryCta: Zobacz recenzję Bunny.net
   image:
-    src: /images/narzedzia/bunny-net/statyczny-hosting-cdn-hero.png
-    alt: 'Schemat: Edge Storage + Pull Zone jako CDN dla strony statycznej'
-    width: 1200
-    height: 630
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Statyczny hosting i CDN na bunny.net — jak wdrożyć krok po kroku (Edge

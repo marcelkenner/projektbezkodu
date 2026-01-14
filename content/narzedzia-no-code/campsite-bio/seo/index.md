@@ -55,6 +55,12 @@ taxonomy:
     - Open Graph
     - UTM
     - GTM
+hero:
+  heading: Campsite.bio – SEO i ustawienia pod wyszukiwarki
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Campsite.bio i SEO – uczciwy werdykt

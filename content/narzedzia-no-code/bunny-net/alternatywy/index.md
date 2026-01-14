@@ -15,6 +15,9 @@ hero:
     pay-as-you-go. Jeśli chcesz darmowego startu z DNS/WAF i bezpieczeństwem „z
     pudełka”, wybierz Cloudflare. Jeśli i tak siedzisz w AWS, CloudFront bywa
     najbardziej naturalnym wyborem.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Alternatywy dla bunny.net (2026): Cloudflare, CloudFront, Fastly, KeyCDN,

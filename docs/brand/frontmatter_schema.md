@@ -70,6 +70,9 @@ taxonomy:
 
 Store schema as reference for markdown generation scripts (`scripts/scaffold.ps1`).
 
+- YAML gotchas:
+  - If a value contains `: ` (colon + space), quote it (e.g. `title: "FAQ: Depositphotos"`, `hero.heading: "Carrd: ..."`, `seo.description: "…: …"`).
+  - Avoid duplicate keys (e.g. two `title:` entries) and ensure there is exactly one front matter block (`---` … `---`) per markdown file.
 - Routing: canonical URL paths always end with the slugified `title` (the last segment is derived from `title`, not from folder/file names). When `path` is set explicitly, it is treated as a prefix and still gets its last segment replaced by the title slug.
 - Artykuły korzystają z definicji w `data/copy/articles.json`.
 - Tutoriale – `data/copy/tutorials.json` (`categories`/`tags`) + etykiety narzędzi z `data/tools.json`. Jeżeli materiał pełni rolę „pillar page”, pamiętaj o konfiguracji w `data/copy/pillar.json`.

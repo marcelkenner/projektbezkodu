@@ -9,6 +9,9 @@ hero:
   subheading: >-
     Jeśli Twoja strona/aplikacja ma się ładować szybko globalnie i chcesz płacić
     głównie za realny transfer, to jest bardzo mocny kandydat.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: 'bunny.net — CDN, storage i optymalizacja obrazów: dla kogo, koszty, start'
   description: >-

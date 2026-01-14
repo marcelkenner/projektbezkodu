@@ -6,10 +6,19 @@ template: default
 type: narzedzie
 hero:
   heading: Flowbase
-  subheading: Biblioteka komponentów dla Webflow (plus Figma i Framer) dla ludzi, którzy chcą budować szybciej bez składania wszystkiego od zera.
+  subheading: >-
+    Biblioteka komponentów dla Webflow (plus Figma i Framer) dla ludzi, którzy
+    chcą budować szybciej bez składania wszystkiego od zera.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Flowbase – biblioteka komponentów Webflow. Dla kogo ma sens, a komu szkoda kasy
-  description: Rzeczowa ocena Flowbase dla polskich freelancerów i małych agencji Webflow. Co dostajesz, jakie są ograniczenia i kiedy to realnie przyspiesza pracę.
+  title: >-
+    Flowbase – biblioteka komponentów Webflow. Dla kogo ma sens, a komu szkoda
+    kasy
+  description: >-
+    Rzeczowa ocena Flowbase dla polskich freelancerów i małych agencji Webflow.
+    Co dostajesz, jakie są ograniczenia i kiedy to realnie przyspiesza pracę.
   keywords:
     - Flowbase
     - Webflow komponenty
@@ -17,7 +26,7 @@ seo:
     - Flowbase Chrome Extension
     - UI kit Webflow
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   tools:
     - Webflow
     - Figma
@@ -28,9 +37,15 @@ meta:
     - ui kit
     - no-code
   summaryBullets:
-    - Flowbase ma sens, jeśli robisz dużo podobnych sekcji (landing pages, strony firmowe, marketing).
-    - Darmowy start jest OK do sprawdzenia stylu i workflow, ale płatny plan to realny „tryb pracy”.
-    - Uważaj na ograniczenia kopiowania i zgodność z przeglądarką — to potrafi zaboleć w środku projektu.
+    - >-
+      Flowbase ma sens, jeśli robisz dużo podobnych sekcji (landing pages,
+      strony firmowe, marketing).
+    - >-
+      Darmowy start jest OK do sprawdzenia stylu i workflow, ale płatny plan to
+      realny „tryb pracy”.
+    - >-
+      Uważaj na ograniczenia kopiowania i zgodność z przeglądarką — to potrafi
+      zaboleć w środku projektu.
   primaryCta:
     label: Sprawdź Flowbase
     href: https://www.flowbase.co/

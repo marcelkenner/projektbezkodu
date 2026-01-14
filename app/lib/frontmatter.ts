@@ -7,6 +7,18 @@ const OptionalStringSchema = z
   .union([z.string(), z.null(), z.undefined()])
   .transform((value) => (value == null ? undefined : value));
 
+const OptionalStringOrDateSchema = z
+  .union([z.string(), z.date(), z.null(), z.undefined()])
+  .transform((value) => {
+    if (value == null) {
+      return undefined;
+    }
+    if (value instanceof Date) {
+      return value.toISOString().slice(0, 10);
+    }
+    return value;
+  });
+
 const FrontmatterSEOSchema = z.object({
   title: z.string(),
   description: z.string(),
@@ -28,7 +40,7 @@ const FrontmatterMetadataSchema = z.object({
   duration: OptionalStringSchema,
   tools: z.array(z.string()).optional(),
   author: OptionalStringSchema,
-  updatedAt: OptionalStringSchema,
+  updatedAt: OptionalStringOrDateSchema,
   hasAffiliateLinks: z.boolean().optional(),
   primaryCta: FrontmatterActionLinkSchema.optional(),
   secondaryCta: FrontmatterActionLinkSchema.optional(),
@@ -50,7 +62,9 @@ const FrontmatterMetadataSchema = z.object({
       }),
     )
     .optional(),
-  summaryBullets: z.array(z.string()).optional(),
+  summaryBullets: z
+    .array(z.union([z.string(), z.record(z.string(), z.unknown())]))
+    .optional(),
   period: OptionalStringSchema,
   industry: OptionalStringSchema,
   heroImageAlt: OptionalStringSchema,
@@ -102,7 +116,7 @@ const FrontmatterSchema = z
     draft: z.boolean().optional(),
     template: z.string().default("default"),
     type: z.string().optional(),
-    date: z.string().optional(),
+    date: OptionalStringOrDateSchema,
     hero: HeroContentSchema.optional(),
     seo: FrontmatterSEOSchema.optional(),
     meta: FrontmatterMetadataSchema.optional(),
@@ -264,6 +278,30 @@ function normalizeTitle(rawTitle: string | undefined, slug: string): string {
     .join(" ");
 }
 
+function normalizeSummaryBullet(value: unknown): string | undefined {
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    return trimmed.length > 0 ? trimmed : undefined;
+  }
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return undefined;
+  }
+  const entries = Object.entries(value);
+  if (entries.length !== 1) {
+    return undefined;
+  }
+  const [key, rawValue] = entries[0];
+  const valueString =
+    typeof rawValue === "string"
+      ? rawValue
+      : rawValue == null
+        ? ""
+        : String(rawValue);
+  const combined = valueString ? `${key}: ${valueString}` : key;
+  const trimmed = combined.trim();
+  return trimmed.length > 0 ? trimmed : undefined;
+}
+
 function normalizeFrontmatter(
   raw: z.infer<typeof FrontmatterSchema>,
   relativePath: string,
@@ -278,8 +316,8 @@ function normalizeFrontmatter(
     ...(raw.meta ?? {}),
     topics: normalizeStringArray(raw.meta?.topics),
     summaryBullets: raw.meta?.summaryBullets
-      ?.map((bullet) => bullet.trim())
-      .filter(Boolean),
+      ?.map(normalizeSummaryBullet)
+      .filter((bullet): bullet is string => Boolean(bullet)),
     primaryCta: raw.meta?.primaryCta
       ? {
           ...raw.meta.primaryCta,

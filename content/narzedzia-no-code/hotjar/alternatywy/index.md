@@ -10,24 +10,26 @@ hero:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
   heading: Hotjar Alternatywy
-  subheading: Konkretny wybór narzędzia zamiast długich testów — rekomendacje dla
-    zespołów produktowych, marketingu i UX.
+  subheading: >-
+    Konkretny wybór narzędzia zamiast długich testów — rekomendacje dla zespołów
+    produktowych, marketingu i UX.
 seo:
   title: 'Hotjar Alternatywy: 9 realnych zamienników dla heatmap i session replay'
-  description: Szukasz alternatywy dla Hotjar? Porównujemy Microsoft Clarity, Smartlook,
-    Mouseflow, FullStory, PostHog, Pendo, Amplitude, Piwik PRO i Matomo. Krótkie werdykty,
-    aktualne fakty i ceny.
+  description: >-
+    Szukasz alternatywy dla Hotjar? Porównujemy Microsoft Clarity, Smartlook,
+    Mouseflow, FullStory, PostHog, Pendo, Amplitude, Piwik PRO i Matomo. Krótkie
+    werdykty, aktualne fakty i ceny.
   keywords:
-  - alternatywy Hotjar
-  - Microsoft Clarity
-  - Smartlook
-  - Mouseflow
-  - FullStory
-  - PostHog
-  - Pendo
-  - Amplitude
-  - Piwik PRO
-  - Matomo
+    - alternatywy Hotjar
+    - Microsoft Clarity
+    - Smartlook
+    - Mouseflow
+    - FullStory
+    - PostHog
+    - Pendo
+    - Amplitude
+    - Piwik PRO
+    - Matomo
   canonical: /narzedzia/hotjar/alternatywy/
 meta:
   author: Redakcja
@@ -35,30 +37,30 @@ meta:
   hasAffiliateLinks: false
   format: artykul-porownawczy
   topics:
-  - analityka
-  - UX
-  - heatmapy
-  - session replay
+    - analityka
+    - UX
+    - heatmapy
+    - session replay
   tools:
-  - Microsoft Clarity
-  - Smartlook
-  - Mouseflow
-  - FullStory
-  - PostHog
-  - Pendo
-  - Amplitude
-  - Piwik PRO
-  - Matomo
+    - Microsoft Clarity
+    - Smartlook
+    - Mouseflow
+    - FullStory
+    - PostHog
+    - Pendo
+    - Amplitude
+    - Piwik PRO
+    - Matomo
   heroImageAlt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
   heroImageSrc: /img/article_image.jpeg
 taxonomy:
   categories:
-  - Narzędzia
-  - Analityka
+    - Narzędzia
+    - Analityka
   tags:
-  - heatmapy
-  - session replay
-  - product analytics
+    - heatmapy
+    - session replay
+    - product analytics
 ---
 
 # Hotjar Alternatywy

@@ -4,8 +4,13 @@ slug: convert-com-cennik
 path: /narzedzia/convert-com/cennik
 template: default
 seo:
-  title: Convert.com – cennik i limity MTU. Ile to realnie kosztuje w e-commerce i SaaS?
-  description: Aktualny cennik Convert.com (Convert Experiences): plany, limity Monthly Tested Users (MTU), dopłaty za przekroczenia i praktyczne wskazówki, jak dobrać plan.
+  title: >-
+    Convert.com – cennik i limity MTU. Ile to realnie kosztuje w e-commerce i
+    SaaS?
+  description: >-
+    Aktualny cennik Convert.com (Convert Experiences): plany, limity Monthly
+    Tested Users (MTU), dopłaty za przekroczenia i praktyczne wskazówki, jak
+    dobrać plan.
   keywords:
     - convert.com cennik
     - convert experiences pricing
@@ -15,11 +20,17 @@ seo:
 meta:
   format: cennik
   hasAffiliateLinks: false
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   summaryBullets:
-    - Growth ($399/mies. lub $299/mies. przy rocznym) to sensowne minimum, jeśli chcesz testować regularnie.
-    - Pro ($599/mies. lub $420/mies. przy rocznym) ma sens, gdy testujesz częściej, masz większy ruch albo prowadzisz klientów w agencji.
-    - MTU to „unikalni użytkownicy w testach”, liczeni raz w miesiącu — nawet jeśli wejdą w kilka eksperymentów.
+    - >-
+      Growth ($399/mies. lub $299/mies. przy rocznym) to sensowne minimum, jeśli
+      chcesz testować regularnie.
+    - >-
+      Pro ($599/mies. lub $420/mies. przy rocznym) ma sens, gdy testujesz
+      częściej, masz większy ruch albo prowadzisz klientów w agencji.
+    - >-
+      MTU to „unikalni użytkownicy w testach”, liczeni raz w miesiącu — nawet
+      jeśli wejdą w kilka eksperymentów.
   primaryCta:
     label: Uruchom 15-dniowy trial Convert (bez karty)
     href: https://www.convert.com/free-trial/
@@ -35,6 +46,12 @@ taxonomy:
     - CRO
     - e-commerce
     - SaaS
+hero:
+  heading: Convert.com – cennik
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Convert.com – cennik

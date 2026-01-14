@@ -60,6 +60,9 @@ hero:
   subheading: >-
     Jeśli robisz treści do sociali, ofert, prezentacji albo reklam: tu masz ceny
     w PLN i prostą decyzję, bez zgadywania.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Jeśli używasz Canvy częściej niż „raz na jakiś czas”, dopłata do Pro zwykle jest najbardziej opłacalnym skrótem do spokoju. Business jest dla ludzi, którzy nie tylko projektują, ale też odpowiadają za markę i tempo zespołu. Enterprise to decyzja IT i compliance – nie „lepszy Pro”.

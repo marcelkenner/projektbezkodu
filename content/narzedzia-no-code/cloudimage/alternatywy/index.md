@@ -1,40 +1,70 @@
 ---
-title: "Alternatywy dla Cloudimage: co wybrać, jeśli liczy się cena, kontrola albo pełny DAM"
-slug: "cloudimage-alternatywy"
-path: "/narzedzia/cloudimage/alternatywy/"
-template: "default"
-type: "tool-alternatives"
-date: "2026-01-07"
+title: >-
+  Alternatywy dla Cloudimage: co wybrać, jeśli liczy się cena, kontrola albo
+  pełny DAM
+slug: cloudimage-alternatywy
+path: /narzedzia/cloudimage/alternatywy/
+template: default
+type: tool-alternatives
+date: '2026-01-07'
 hero:
-  heading: "Alternatywy dla Cloudimage"
-  subheading: "Cloudinary, ImageKit, imgix, Cloudflare Images, Uploadcare, Bunny Optimizer i self-hosted imgproxy — z werdyktem: kto powinien wybrać co."
+  heading: Alternatywy dla Cloudimage
+  subheading: >-
+    Cloudinary, ImageKit, imgix, Cloudflare Images, Uploadcare, Bunny Optimizer
+    i self-hosted imgproxy — z werdyktem: kto powinien wybrać co.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Alternatywy dla Cloudimage: najlepsze opcje (Cloudinary, ImageKit, imgix, Cloudflare, Uploadcare)"
-  description: "Konkretny wybór bez błądzenia: kiedy Cloudimage jest najlepsze, a kiedy lepiej wziąć Cloudinary, ImageKit, imgix, Cloudflare Images, Uploadcare, Bunny Optimizer lub imgproxy."
+  title: >-
+    Alternatywy dla Cloudimage: najlepsze opcje (Cloudinary, ImageKit, imgix,
+    Cloudflare, Uploadcare)
+  description: >-
+    Konkretny wybór bez błądzenia: kiedy Cloudimage jest najlepsze, a kiedy
+    lepiej wziąć Cloudinary, ImageKit, imgix, Cloudflare Images, Uploadcare,
+    Bunny Optimizer lub imgproxy.
   canonical: null
   image: null
   noindex: false
   nofollow: false
 meta:
-  updatedAt: "2026-01-07"
-  format: "alternatives"
+  updatedAt: '2026-01-07'
+  format: alternatives
   hasAffiliateLinks: false
-  topics: ["CDN", "optymalizacja obrazów", "DAM", "performance", "Core Web Vitals"]
+  topics:
+    - CDN
+    - optymalizacja obrazów
+    - DAM
+    - performance
+    - Core Web Vitals
   summaryBullets:
-    - "Jeśli potrzebujesz platformy (DAM + wideo + workflow) — Cloudinary jest najczęściej lepszym wyborem niż Cloudimage."
-    - "Jeśli chcesz prostoty dla devów i przewidywalnego startu — ImageKit jest bardzo mocną alternatywą."
-    - "Jeśli jesteś już na Cloudflare i chcesz płacić „od zdarzeń” — Cloudflare Images bywa najtańsze przy prostych potrzebach."
+    - >-
+      Jeśli potrzebujesz platformy (DAM + wideo + workflow) — Cloudinary jest
+      najczęściej lepszym wyborem niż Cloudimage.
+    - >-
+      Jeśli chcesz prostoty dla devów i przewidywalnego startu — ImageKit jest
+      bardzo mocną alternatywą.
+    - >-
+      Jeśli jesteś już na Cloudflare i chcesz płacić „od zdarzeń” — Cloudflare
+      Images bywa najtańsze przy prostych potrzebach.
   primaryCta:
-    label: "Zobacz recenzję Cloudimage"
-    href: "/narzedzia/cloudimage/recenzja/"
+    label: Zobacz recenzję Cloudimage
+    href: /narzedzia/cloudimage/recenzja/
     rel: null
   secondaryCta:
-    label: "Sprawdź cennik Cloudimage"
-    href: "/narzedzia/cloudimage/cennik/"
+    label: Sprawdź cennik Cloudimage
+    href: /narzedzia/cloudimage/cennik/
     rel: null
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Cloudimage", "alternatywy", "CDN", "obrazy", "wydajność", "DAM"]
+  categories:
+    - Narzędzia
+  tags:
+    - Cloudimage
+    - alternatywy
+    - CDN
+    - obrazy
+    - wydajność
+    - DAM
 ---
 
 Jeśli czytasz „alternatywy”, to prawdopodobnie jesteś w jednym z trzech scenariuszy: prowadzisz e-commerce i boli Cię czas ładowania, jesteś marketingiem i chcesz po prostu „lżejsze obrazki” bez dłubania, albo jesteś dev leadem i chcesz kontrolować koszty oraz ryzyko vendor lock-in.

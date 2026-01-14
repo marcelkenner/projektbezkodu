@@ -1,18 +1,29 @@
 ---
-title: "Dorik – recenzja"
-slug: "recenzja"
-path: "/narzedzia/dorik/recenzja/"
-template: "default"
-type: "review"
-date: "2026-01-08"
+title: Dorik – recenzja
+slug: recenzja
+path: /narzedzia/dorik/recenzja/
+template: default
+type: review
+date: '2026-01-08'
 hero:
-  heading: "Dorik w 2026: szybka strona bez kodu, z CMS i płatnościami, ale nie dla każdego"
-  subheading: "Jeśli sprzedajesz usługę, konsultację albo cyfrowy produkt i chcesz stronę, która powstaje szybko i wygląda nowocześnie — Dorik jest bardzo sensowny. Jeśli chcesz pełny sklep z koszykiem, wysyłką i stanami magazynowymi — wybierz inne narzędzie."
-  primaryCta: "Sprawdź cennik Dorik"
-  secondaryCta: "Zobacz alternatywy"
+  heading: >-
+    Dorik w 2026: szybka strona bez kodu, z CMS i płatnościami, ale nie dla
+    każdego
+  subheading: >-
+    Jeśli sprzedajesz usługę, konsultację albo cyfrowy produkt i chcesz stronę,
+    która powstaje szybko i wygląda nowocześnie — Dorik jest bardzo sensowny.
+    Jeśli chcesz pełny sklep z koszykiem, wysyłką i stanami magazynowymi —
+    wybierz inne narzędzie.
+  primaryCta: Sprawdź cennik Dorik
+  secondaryCta: Zobacz alternatywy
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Dorik – recenzja: dla kogo to działa, a komu będzie przeszkadzać (2026)"
-  description: "Uczciwa recenzja Dorik: mocne strony, realne ograniczenia, opinie użytkowników i jasny werdykt dla freelancerów, małych firm i mikroagencji."
+  title: 'Dorik – recenzja: dla kogo to działa, a komu będzie przeszkadzać (2026)'
+  description: >-
+    Uczciwa recenzja Dorik: mocne strony, realne ograniczenia, opinie
+    użytkowników i jasny werdykt dla freelancerów, małych firm i mikroagencji.
   keywords:
     - dorik recenzja
     - dorik opinie
@@ -20,23 +31,36 @@ seo:
     - dorik cms
     - dorik płatności
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "review"
+  format: review
   topics:
-    - "kreatory stron"
-    - "no-code"
-    - "CMS"
-    - "landing pages"
-    - "płatności"
+    - kreatory stron
+    - no-code
+    - CMS
+    - landing pages
+    - płatności
   summaryBullets:
-    - "Werdykt: Dorik jest świetny dla stron usługowych i landingów, gdy chcesz CMS + proste płatności bez stawiania sklepu."
-    - "Największa bariera: plan Personal ma limit 25 stron i 0 współpracowników — do pracy zespołowej sensownie jest wejść w Business."
-    - "Najlepszy test: w trialu zrób 1 landing, 1 kolekcję CMS i 1 przycisk płatności. W godzinę wiesz, czy zostajesz."
+    - >-
+      Werdykt: Dorik jest świetny dla stron usługowych i landingów, gdy chcesz
+      CMS + proste płatności bez stawiania sklepu.
+    - >-
+      Największa bariera: plan Personal ma limit 25 stron i 0 współpracowników —
+      do pracy zespołowej sensownie jest wejść w Business.
+    - >-
+      Najlepszy test: w trialu zrób 1 landing, 1 kolekcję CMS i 1 przycisk
+      płatności. W godzinę wiesz, czy zostajesz.
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["no-code", "CMS", "AI", "landing page", "płatności"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - no-code
+    - CMS
+    - AI
+    - landing page
+    - płatności
 ---
 
 Dorik to kreator, który wygrywa prostą obietnicą: zbudujesz stronę szybko, bez kodu, w jednym panelu — z blogiem/CMS, opcją członkostwa i płatnościami “na przycisk”. Dla freelancerów, małych firm usługowych i twórców cyfrowych to jest dokładnie ten poziom komplikacji, którego chcesz: wystarczająco dużo funkcji, bez wchodzenia w ciężki e-commerce.

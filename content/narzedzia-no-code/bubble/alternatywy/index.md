@@ -12,6 +12,9 @@ hero:
     dobrane do scenariuszy.
   primaryCta: Zobacz recenzję
   secondaryCta: Sprawdź cennik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Alternatywy dla Bubble (2026): WeWeb, FlutterFlow, Retool, Softr i inne –

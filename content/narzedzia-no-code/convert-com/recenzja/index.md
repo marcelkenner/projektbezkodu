@@ -4,8 +4,13 @@ slug: convert-com-recenzja
 path: /narzedzia/convert-com/recenzja
 template: default
 seo:
-  title: Convert.com – recenzja narzędzia do testów A/B. Kiedy ma sens, a kiedy szkoda czasu
-  description: Convert.com (Convert Experiences) to platforma do testów A/B, MVT i eksperymentów full-stack. Sprawdź, czy pasuje do e-commerce, SaaS i agencji CRO na polskim rynku.
+  title: >-
+    Convert.com – recenzja narzędzia do testów A/B. Kiedy ma sens, a kiedy
+    szkoda czasu
+  description: >-
+    Convert.com (Convert Experiences) to platforma do testów A/B, MVT i
+    eksperymentów full-stack. Sprawdź, czy pasuje do e-commerce, SaaS i agencji
+    CRO na polskim rynku.
   keywords:
     - convert.com recenzja
     - convert experiences opinie
@@ -16,11 +21,17 @@ seo:
 meta:
   format: recenzja
   hasAffiliateLinks: false
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   summaryBullets:
-    - Najlepszy wybór dla zespołów i agencji, które testują regularnie i chcą „enterprise” kontroli bez enterprise-owego chaosu.
-    - Model rozliczania „tested users” jest uczciwy i premiuje sensowny program eksperymentów (bez karania za nakładające się testy).
-    - Jeśli nie masz ruchu albo nie dowozisz wdrożeń, Convert nie uratuje procesu — tylko go obnaży.
+    - >-
+      Najlepszy wybór dla zespołów i agencji, które testują regularnie i chcą
+      „enterprise” kontroli bez enterprise-owego chaosu.
+    - >-
+      Model rozliczania „tested users” jest uczciwy i premiuje sensowny program
+      eksperymentów (bez karania za nakładające się testy).
+    - >-
+      Jeśli nie masz ruchu albo nie dowozisz wdrożeń, Convert nie uratuje
+      procesu — tylko go obnaży.
   primaryCta:
     label: Uruchom 15-dniowy trial Convert (bez karty)
     href: https://www.convert.com/free-trial/
@@ -33,7 +44,10 @@ meta:
     ratingValue: 4.6
     bestRating: 5
     worstRating: 1
-    body: Narzędzie dla zespołów CRO i agencji, które naprawdę testują. Świetne do eksperymentów webowych i sensownie przygotowane do full-stack, ale wymaga dyscypliny i sensownego ruchu.
+    body: >-
+      Narzędzie dla zespołów CRO i agencji, które naprawdę testują. Świetne do
+      eksperymentów webowych i sensownie przygotowane do full-stack, ale wymaga
+      dyscypliny i sensownego ruchu.
     pros:
       - Uczciwe liczenie „tested users” (overlap nie zjada limitu)
       - Mocne funkcje QA i kontroli eksperymentów
@@ -50,6 +64,12 @@ taxonomy:
     - eksperymenty
     - e-commerce
     - SaaS
+hero:
+  heading: Convert.com – recenzja
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Convert.com – recenzja

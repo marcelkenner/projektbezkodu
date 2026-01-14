@@ -6,10 +6,21 @@ template: default
 type: alternatives
 hero:
   heading: Alternatywy dla Fathom Analytics – co wybrać zamiast i dlaczego
-  subheading: Szybki werdykt dla marketerów, founderów i agencji w Polsce. Kiedy Fathom jest najlepszy, a kiedy lepiej postawić na Plausible, Matomo, Simple Analytics, Umami albo Cloudflare.
+  subheading: >-
+    Szybki werdykt dla marketerów, founderów i agencji w Polsce. Kiedy Fathom
+    jest najlepszy, a kiedy lepiej postawić na Plausible, Matomo, Simple
+    Analytics, Umami albo Cloudflare.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Alternatywy dla Fathom Analytics 2026 – Plausible, Matomo, Simple, Umami, GA4
-  description: Porównanie najlepszych alternatyw dla Fathom: różnice w prywatności, self-hostingu, cenach, głębokości analiz i łatwości wdrożenia. Jasny wybór pod Twoją rolę.
+  title: >-
+    Alternatywy dla Fathom Analytics 2026 – Plausible, Matomo, Simple, Umami,
+    GA4
+  description: >-
+    Porównanie najlepszych alternatyw dla Fathom: różnice w prywatności,
+    self-hostingu, cenach, głębokości analiz i łatwości wdrożenia. Jasny wybór
+    pod Twoją rolę.
   keywords:
     - alternatywy dla fathom
     - fathom vs plausible
@@ -17,7 +28,7 @@ seo:
     - analityka bez cookies alternatywy
     - privacy-first analytics
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   difficulty: łatwe
   duration: 10–14 min
   format: comparison

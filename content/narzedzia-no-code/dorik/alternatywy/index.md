@@ -1,25 +1,32 @@
 ---
-title: Dorik Alternatywy
+title: Dorik – alternatywy
 slug: alternatywy
 path: /narzedzia/dorik/alternatywy/
+template: default
+type: alternatives
 draft: true
-date: '2025-11-05'
+date: '2026-01-08'
 hero:
-  image:---
-title: "Dorik – alternatywy"
-slug: "alternatywy"
-path: "/narzedzia/dorik/alternatywy/"
-template: "default"
-type: "alternatives"
-date: "2026-01-08"
-hero:
-  heading: "Alternatywy dla Dorik: wybierz narzędzie, które pasuje do Twojego sposobu pracy"
-  subheading: "Dorik jest świetny, gdy chcesz szybko odpalić stronę usługową + CMS + proste płatności bez kodu. Jeśli Twoje priorytety są inne (design jak w studiu, sklep na serio, newsletter i paywall, ultra-tani one-pager) — poniżej masz lepsze dopasowania."
-  primaryCta: "Przeczytaj recenzję Dorik"
-  secondaryCta: "Sprawdź cennik Dorik"
+  heading: >-
+    Alternatywy dla Dorik: wybierz narzędzie, które pasuje do Twojego sposobu
+    pracy
+  subheading: >-
+    Dorik jest świetny, gdy chcesz szybko odpalić stronę usługową + CMS + proste
+    płatności bez kodu. Jeśli Twoje priorytety są inne (design jak w studiu,
+    sklep na serio, newsletter i paywall, ultra-tani one-pager) — poniżej masz
+    lepsze dopasowania.
+  primaryCta: Przeczytaj recenzję Dorik
+  secondaryCta: Sprawdź cennik Dorik
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Alternatywy dla Dorik (2026): Webflow, Framer, WordPress, Shopify, Wix, Ghost, Carrd"
-  description: "Porównujemy Dorik z najlepszymi alternatywami. Jasne werdykty: co wybrać dla stron usługowych, landingów, CMS, membership i e-commerce."
+  title: >-
+    Alternatywy dla Dorik (2026): Webflow, Framer, WordPress, Shopify, Wix,
+    Ghost, Carrd
+  description: >-
+    Porównujemy Dorik z najlepszymi alternatywami. Jasne werdykty: co wybrać dla
+    stron usługowych, landingów, CMS, membership i e-commerce.
   keywords:
     - dorik alternatywy
     - dorik vs webflow
@@ -27,26 +34,35 @@ seo:
     - dorik vs wordpress
     - dorik vs shopify
 meta:
-  updatedAt: "2026-01-08"
-  author: "Redakcja"
+  updatedAt: '2026-01-08'
+  author: Redakcja
   hasAffiliateLinks: false
-  format: "guide"
+  format: guide
   topics:
-    - "kreatory stron"
-    - "no-code"
-    - "CMS"
-    - "landing pages"
-    - "membership"
-    - "e-commerce"
+    - kreatory stron
+    - no-code
+    - CMS
+    - landing pages
+    - membership
+    - e-commerce
   summaryBullets:
-    - "Jeśli chcesz maksymalnej kontroli nad designem: Webflow."
-    - "Jeśli chcesz ultra-szybkich landingów i prostoty: Framer albo Carrd (one-page)."
-    - "Jeśli chcesz sklep z koszykiem i logistyką: Shopify."
-    - "Jeśli chcesz paywall + newsletter jako rdzeń: Ghost."
-    - "Jeśli chcesz ekosystem i wtyczki do wszystkiego: WordPress."
+    - 'Jeśli chcesz maksymalnej kontroli nad designem: Webflow.'
+    - >-
+      Jeśli chcesz ultra-szybkich landingów i prostoty: Framer albo Carrd
+      (one-page).
+    - 'Jeśli chcesz sklep z koszykiem i logistyką: Shopify.'
+    - 'Jeśli chcesz paywall + newsletter jako rdzeń: Ghost.'
+    - 'Jeśli chcesz ekosystem i wtyczki do wszystkiego: WordPress.'
 taxonomy:
-  categories: ["Narzędzia", "Kreatory stron"]
-  tags: ["alternatywy", "no-code", "CMS", "membership", "e-commerce"]
+  categories:
+    - Narzędzia
+    - Kreatory stron
+  tags:
+    - alternatywy
+    - no-code
+    - CMS
+    - membership
+    - e-commerce
 ---
 
 Jeśli jesteś tutaj, to pewnie masz jeden z tych dylematów: czy Dorik nie będzie zbyt ograniczający, czy wystarczy do biznesu, albo czy nie przepłacasz za “all-in-one”, kiedy potrzebujesz tylko prostego landing page’a.

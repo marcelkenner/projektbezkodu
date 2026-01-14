@@ -4,22 +4,54 @@ slug: depositphotos-alternatywy
 path: /narzedzia/depositphotos/alternatywy/
 template: default
 hero:
-  heading: Alternatywy dla Depositphotos: wybierz narzędzie pod swój styl pracy, nie pod „największą bibliotekę”
-  subheading: Depositphotos jest świetny do regularnego marketingu. Ale jeśli Twoim priorytetem jest ekosystem Adobe, merch, szablony do sociali albo darmowe źródła do bloga — są lepsze wybory.
+  heading: >-
+    Alternatywy dla Depositphotos: wybierz narzędzie pod swój styl pracy, nie
+    pod „największą bibliotekę”
+  subheading: >-
+    Depositphotos jest świetny do regularnego marketingu. Ale jeśli Twoim
+    priorytetem jest ekosystem Adobe, merch, szablony do sociali albo darmowe
+    źródła do bloga — są lepsze wybory.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Alternatywy dla Depositphotos – co wybrać zamiast i kiedy to ma sens
-  description: Najlepsze alternatywy dla Depositphotos dla polskiego rynku: Adobe Stock, iStock, Shutterstock (biznes), Envato Elements, Freepik, Canva Pro oraz darmowe źródła jak Pexels, Unsplash i Pixabay.
+  description: >-
+    Najlepsze alternatywy dla Depositphotos dla polskiego rynku: Adobe Stock,
+    iStock, Shutterstock (biznes), Envato Elements, Freepik, Canva Pro oraz
+    darmowe źródła jak Pexels, Unsplash i Pixabay.
 meta:
   format: porównanie
-  updatedAt: "2026-01-07"
-  topics: [stock, zdjęcia, wektory, alternatywy, licencje, marketing, design]
+  updatedAt: '2026-01-07'
+  topics:
+    - stock
+    - zdjęcia
+    - wektory
+    - alternatywy
+    - licencje
+    - marketing
+    - design
   summaryBullets:
-    - Jeśli siedzisz w Adobe, Adobe Stock zwykle wygrywa wygodą i licencją w tym ekosystemie.
-    - Jeśli kupujesz „pod projekt”, iStock (kredyty) bywa bardziej przewidywalny niż subskrypcja.
-    - Jeśli potrzebujesz nie tylko zdjęć, ale też szablonów, fontów, wideo i audio — Envato Elements to najszybsza droga do kompletu.
+    - >-
+      Jeśli siedzisz w Adobe, Adobe Stock zwykle wygrywa wygodą i licencją w tym
+      ekosystemie.
+    - >-
+      Jeśli kupujesz „pod projekt”, iStock (kredyty) bywa bardziej przewidywalny
+      niż subskrypcja.
+    - >-
+      Jeśli potrzebujesz nie tylko zdjęć, ale też szablonów, fontów, wideo i
+      audio — Envato Elements to najszybsza droga do kompletu.
 taxonomy:
-  categories: [Narzędzia]
-  tags: [Depositphotos, alternatywy, Adobe Stock, iStock, Envato Elements, Freepik, Canva]
+  categories:
+    - Narzędzia
+  tags:
+    - Depositphotos
+    - alternatywy
+    - Adobe Stock
+    - iStock
+    - Envato Elements
+    - Freepik
+    - Canva
 ---
 
 ## Werdykt: kiedy w ogóle warto szukać alternatywy

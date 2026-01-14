@@ -1,30 +1,56 @@
 ---
-title: "Glide – FAQ"
-slug: "glide-faq"
-path: "/narzedzia/glide/faq/"
-template: "default"
-type: "faq"
-date: "2026-01-08"
+title: Glide – FAQ
+slug: glide-faq
+path: /narzedzia/glide/faq/
+template: default
+type: faq
+date: '2026-01-08'
 seo:
-  title: "Glide FAQ – najczęstsze pytania (PWA, App Store, uprawnienia, updates)"
-  description: "Krótko i konkretnie: czy Glide publikuje do App Store, jak działa Row Owners, czym są updates, kiedy rosną koszty i jak zacząć bez błędów."
-  keywords: ["Glide FAQ", "Row Owners", "Workflows", "updates", "PWA", "App Store"]
-  canonical: "/narzedzia/glide/faq/"
+  title: Glide FAQ – najczęstsze pytania (PWA, App Store, uprawnienia, updates)
+  description: >-
+    Krótko i konkretnie: czy Glide publikuje do App Store, jak działa Row
+    Owners, czym są updates, kiedy rosną koszty i jak zacząć bez błędów.
+  keywords:
+    - Glide FAQ
+    - Row Owners
+    - Workflows
+    - updates
+    - PWA
+    - App Store
+  canonical: /narzedzia/glide/faq/
 meta:
-  difficulty: "łatwe"
-  duration: "czytanie: 6–9 min"
-  tools: ["Glide"]
-  updatedAt: "2026-01-08"
+  difficulty: łatwe
+  duration: 'czytanie: 6–9 min'
+  tools:
+    - Glide
+  updatedAt: '2026-01-08'
   hasAffiliateLinks: false
-  format: "faq"
-  topics: ["no-code", "aplikacje", "bezpieczeństwo", "cennik"]
+  format: faq
+  topics:
+    - no-code
+    - aplikacje
+    - bezpieczeństwo
+    - cennik
   primaryCta:
-    label: "Zacznij od darmowego planu Glide"
-    href: "https://www.glideapps.com/pricing"
-    rel: "nofollow"
+    label: Zacznij od darmowego planu Glide
+    href: https://www.glideapps.com/pricing
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia", "No-code"]
-  tags: ["Glide", "FAQ", "PWA", "Row Owners", "updates"]
+  categories:
+    - Narzędzia
+    - No-code
+  tags:
+    - Glide
+    - FAQ
+    - PWA
+    - Row Owners
+    - updates
+hero:
+  heading: Glide – FAQ
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Glide – FAQ

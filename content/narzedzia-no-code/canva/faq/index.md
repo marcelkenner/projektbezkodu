@@ -10,6 +10,9 @@ hero:
   subheading: >-
     Konkretne odpowiedzi na pytania, które realnie padają w polskich firmach, u
     freelancerów i w marketingu. Bez mitów i bez lania wody.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: >-
     Canva FAQ 2026: ceny, licencja, komercyjne użycie, AI, Teams vs Business,

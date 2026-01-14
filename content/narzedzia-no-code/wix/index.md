@@ -14,8 +14,8 @@ hero:
   primaryCta: Przetestuj Wix za darmo
   secondaryCta: Zobacz alternatywy dla Wix
   image:
-    src: /images/tools/wix-hero.png
-    alt: Panel kreatora stron Wix z edytorem drag-and-drop
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Wix – opinie, funkcje i dla kogo to jest? Przewodnik po kreatorze stron
   description: >-

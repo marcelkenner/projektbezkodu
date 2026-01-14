@@ -1,5 +1,5 @@
 ---
-title: 'Instapage – cennik'
+title: Instapage – cennik
 slug: cennik
 path: /narzedzia/instapage/cennik/
 draft: false
@@ -7,15 +7,17 @@ template: article
 date: '2025-11-09'
 hero:
   heading: Instapage – cennik i realne koszty
-  subheading: Sprawdzam, kiedy wysokie ceny Instapage się zwracają, a kiedy to przerost
+  subheading: >-
+    Sprawdzam, kiedy wysokie ceny Instapage się zwracają, a kiedy to przerost
     formy nad treścią.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: 'Instapage – cennik i dla kogo to się opłaca'
-  description: 'Przegląd planów Instapage: ile to kosztuje, co dokładnie dostajesz
-    oraz kiedy budżet na to narzędzie ma sens.'
+  title: Instapage – cennik i dla kogo to się opłaca
+  description: >-
+    Przegląd planów Instapage: ile to kosztuje, co dokładnie dostajesz oraz
+    kiedy budżet na to narzędzie ma sens.
 ---
 
 Obietnica: szybki werdykt dla marketerów i małych agencji — czy warto płacić za Instapage teraz, jak szybko to sprawdzić i jaki jest minimalny próg opłacalności.

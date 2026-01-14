@@ -4,28 +4,49 @@ slug: freepik-recenzja
 path: /narzedzia/freepik/recenzja/
 template: default
 type: tool_review
-date: "2026-01-08"
+date: '2026-01-08'
 seo:
-  title: "Freepik – recenzja bez ściemy: dla kogo warto i kiedy lepiej wybrać alternatywy"
-  description: "Odważna, uczciwa recenzja Freepik: stock + AI, licencje, koszty, realne scenariusze. Werdykt pod marketing, freelancerów i e-commerce."
+  title: >-
+    Freepik – recenzja bez ściemy: dla kogo warto i kiedy lepiej wybrać
+    alternatywy
+  description: >-
+    Odważna, uczciwa recenzja Freepik: stock + AI, licencje, koszty, realne
+    scenariusze. Werdykt pod marketing, freelancerów i e-commerce.
 meta:
-  updatedAt: "2026-01-08"
-  format: "review"
+  updatedAt: '2026-01-08'
+  format: review
   topics:
-    - "Freepik"
-    - "AI"
-    - "stock"
-    - "marketing"
+    - Freepik
+    - AI
+    - stock
+    - marketing
   summaryBullets:
-    - "Freepik wygrywa, gdy chcesz szybko produkować warianty kreacji i mieć stock + AI w jednym miejscu."
-    - "Przegrywa, gdy potrzebujesz najprostszego edytora „szablony-first” albo ultra-precyzyjnego pipeline pod duże zespoły."
-    - "Klucz do sukcesu: zrozumieć kredyty AI i licencję zanim wrzucisz to w proces firmowy."
+    - >-
+      Freepik wygrywa, gdy chcesz szybko produkować warianty kreacji i mieć
+      stock + AI w jednym miejscu.
+    - >-
+      Przegrywa, gdy potrzebujesz najprostszego edytora „szablony-first” albo
+      ultra-precyzyjnego pipeline pod duże zespoły.
+    - >-
+      Klucz do sukcesu: zrozumieć kredyty AI i licencję zanim wrzucisz to w
+      proces firmowy.
   primaryCta:
-    label: "Sprawdź Freepik i zrób pierwszy projekt testowy"
-    href: "https://www.freepik.com/"
+    label: Sprawdź Freepik i zrób pierwszy projekt testowy
+    href: https://www.freepik.com/
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Freepik", "recenzja", "AI", "stock"]
+  categories:
+    - Narzędzia
+  tags:
+    - Freepik
+    - recenzja
+    - AI
+    - stock
+hero:
+  heading: Recenzja Freepik
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Freepik: recenzja „bold, ale uczciwie”

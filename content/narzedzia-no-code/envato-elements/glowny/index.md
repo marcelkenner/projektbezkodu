@@ -5,7 +5,9 @@ path: /narzedzia/envato-elements/
 template: default
 seo:
   title: Envato Elements – czy to się opłaca w Polsce?
-  description: Konkretna ocena Envato Elements: dla kogo to jest, kiedy ma sens, jak działa licencja i co realnie dostajesz w cenie.
+  description: >-
+    Konkretna ocena Envato Elements: dla kogo to jest, kiedy ma sens, jak działa
+    licencja i co realnie dostajesz w cenie.
 meta:
   format: narzędzie
   topics:
@@ -14,7 +16,7 @@ meta:
     - wideo
     - audio
     - szablony
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
 taxonomy:
   categories:
     - Narzędzia
@@ -24,6 +26,12 @@ taxonomy:
     - szablony
     - grafika
     - wideo
+hero:
+  heading: Envato Elements
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Envato Elements

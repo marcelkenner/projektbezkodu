@@ -4,8 +4,13 @@ slug: convert-com
 path: /narzedzia/convert-com
 template: default
 seo:
-  title: Convert.com – narzędzie do testów A/B i eksperymentów. Dla kogo ma sens w 2026?
-  description: Convert.com (Convert Experiences) to platforma do testów A/B, personalizacji i eksperymentów full-stack. Sprawdź, czy pasuje do Twojego e-commerce, SaaS albo agencji CRO.
+  title: >-
+    Convert.com – narzędzie do testów A/B i eksperymentów. Dla kogo ma sens w
+    2026?
+  description: >-
+    Convert.com (Convert Experiences) to platforma do testów A/B, personalizacji
+    i eksperymentów full-stack. Sprawdź, czy pasuje do Twojego e-commerce, SaaS
+    albo agencji CRO.
   keywords:
     - convert.com
     - convert experiences
@@ -18,9 +23,15 @@ meta:
   format: przewodnik
   hasAffiliateLinks: false
   summaryBullets:
-    - Najlepszy wybór dla zespołów CRO i agencji, które chcą „enterprise” funkcji bez enterprise-owego chaosu zakupowego.
-    - Najbardziej opłaca się, gdy realnie testujesz co miesiąc (a nie „kiedyś, jak będzie czas”).
-    - Limit rozliczany jako „tested users” wymusza dyscyplinę — i to jest plus, jeśli prowadzisz sensowny program testów.
+    - >-
+      Najlepszy wybór dla zespołów CRO i agencji, które chcą „enterprise”
+      funkcji bez enterprise-owego chaosu zakupowego.
+    - >-
+      Najbardziej opłaca się, gdy realnie testujesz co miesiąc (a nie „kiedyś,
+      jak będzie czas”).
+    - >-
+      Limit rozliczany jako „tested users” wymusza dyscyplinę — i to jest plus,
+      jeśli prowadzisz sensowny program testów.
   primaryCta:
     label: Sprawdź 15-dniowy trial Convert
     href: https://www.convert.com/free-trial/
@@ -37,6 +48,12 @@ taxonomy:
     - eksperymenty
     - e-commerce
     - SaaS
+hero:
+  heading: Convert.com
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Convert.com (Convert Experiences)

@@ -1,6 +1,6 @@
 ---
-title: "Regulamin płatności i subskrypcji: jak to opisać, żeby użytkownik rozumiał"
-category: "regulamin"
+title: 'Regulamin płatności i subskrypcji: jak to opisać, żeby użytkownik rozumiał'
+category: regulamin
 draft: true
 ---
 

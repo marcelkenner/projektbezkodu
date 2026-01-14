@@ -5,13 +5,25 @@ path: /narzedzia/carrd/link-in-bio/
 draft: false
 template: default
 type: guide
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 hero:
-  heading: Link in bio w Carrd: najszybszy sposób, żeby Twoje social media zaczęły zarabiać
-  subheading: Jeśli chcesz jedną, lekką stronę pod Instagram/TikTok/Threads z linkami, CTA i analityką, Carrd jest wyborem „zrób i działaj”. Jeśli potrzebujesz creatorskiego kombajnu ze sklepem i mediakitem — wybierz narzędzie typowo link-in-bio.
+  heading: >-
+    Link in bio w Carrd: najszybszy sposób, żeby Twoje social media zaczęły
+    zarabiać
+  subheading: >-
+    Jeśli chcesz jedną, lekką stronę pod Instagram/TikTok/Threads z linkami, CTA
+    i analityką, Carrd jest wyborem „zrób i działaj”. Jeśli potrzebujesz
+    creatorskiego kombajnu ze sklepem i mediakitem — wybierz narzędzie typowo
+    link-in-bio.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Carrd link in bio (2026) — jak zrobić stronę z linkami, CTA i analityką
-  description: Praktyczny przewodnik: jak zbudować link-in-bio w Carrd, jaki plan wybrać (Free/Pro), jak dodać domenę, formularz i Google Analytics oraz jak ułożyć stronę, która realnie klika.
+  description: >-
+    Praktyczny przewodnik: jak zbudować link-in-bio w Carrd, jaki plan wybrać
+    (Free/Pro), jak dodać domenę, formularz i Google Analytics oraz jak ułożyć
+    stronę, która realnie klika.
   keywords:
     - carrd link in bio
     - link w bio
@@ -19,21 +31,39 @@ seo:
     - landing page dla twórcy
     - carrd instagram
 meta:
-  updatedAt: 2026-01-07
-  tools: ["Carrd"]
+  updatedAt: 2026-01-07T00:00:00.000Z
+  tools:
+    - Carrd
   format: poradnik
-  topics: ["link in bio", "landing page", "no-code", "twórcy", "marketing"]
+  topics:
+    - link in bio
+    - landing page
+    - no-code
+    - twórcy
+    - marketing
   summaryBullets:
-    - Carrd jest świetny do minimalistycznego, szybkiego link-in-bio z pełną kontrolą nad wyglądem.
-    - Pro Standard ma sens, gdy chcesz własną domenę i analitykę; Pro Plus dopiero przy bardziej zaawansowanych formularzach i integracjach.
-    - Nawet przy wielu linkach w bio na Instagramie strona link-in-bio nadal wygrywa spójnością, trackingiem i jednym CTA.
+    - >-
+      Carrd jest świetny do minimalistycznego, szybkiego link-in-bio z pełną
+      kontrolą nad wyglądem.
+    - >-
+      Pro Standard ma sens, gdy chcesz własną domenę i analitykę; Pro Plus
+      dopiero przy bardziej zaawansowanych formularzach i integracjach.
+    - >-
+      Nawet przy wielu linkach w bio na Instagramie strona link-in-bio nadal
+      wygrywa spójnością, trackingiem i jednym CTA.
   primaryCta:
     label: Przetestuj Carrd Pro przez 7 dni
     href: https://carrd.co/pro
     rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["link-in-bio", "no-code", "instagram", "tiktok", "landing-page"]
+  categories:
+    - Narzędzia
+  tags:
+    - link-in-bio
+    - no-code
+    - instagram
+    - tiktok
+    - landing-page
 ---
 
 ## Werdykt: czy Carrd ma sens jako link in bio

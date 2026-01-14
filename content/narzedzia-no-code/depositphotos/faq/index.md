@@ -1,26 +1,58 @@
 ---
-title: FAQ: Depositphotos
+title: 'FAQ: Depositphotos'
 slug: depositphotos-faq
 path: /narzedzia/depositphotos/faq/
 draft: false
 template: default
 hero:
-  heading: Depositphotos FAQ: licencje, zwroty, rollover i „czy mogę tego użyć w…”
-  subheading: To jest miejsce, w którym kończy się zgadywanie. Jeśli masz wątpliwości o druk, merch, POD, logo albo prawa do reklam — tu masz proste odpowiedzi i jasne warunki.
+  heading: 'Depositphotos FAQ: licencje, zwroty, rollover i „czy mogę tego użyć w…”'
+  subheading: >-
+    To jest miejsce, w którym kończy się zgadywanie. Jeśli masz wątpliwości o
+    druk, merch, POD, logo albo prawa do reklam — tu masz proste odpowiedzi i
+    jasne warunki.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Depositphotos FAQ – najczęstsze pytania o licencje, druk, POD, zwroty i subskrypcje
-  description: Najczęstsze pytania o Depositphotos w Polsce: Standard vs Extended, limit 500 000 kopii, merch i print-on-demand, Editorial Use Only, rollover pobrań, ważność Packów, zwroty, faktury i pobieranie licencji jako dowodu.
+  title: >-
+    Depositphotos FAQ – najczęstsze pytania o licencje, druk, POD, zwroty i
+    subskrypcje
+  description: >-
+    Najczęstsze pytania o Depositphotos w Polsce: Standard vs Extended, limit
+    500 000 kopii, merch i print-on-demand, Editorial Use Only, rollover pobrań,
+    ważność Packów, zwroty, faktury i pobieranie licencji jako dowodu.
 meta:
   format: faq
-  updatedAt: "2026-01-07"
-  topics: [Depositphotos, FAQ, licencje, Standard, Extended, druk, print on demand, zwroty, subskrypcja]
+  updatedAt: '2026-01-07'
+  topics:
+    - Depositphotos
+    - FAQ
+    - licencje
+    - Standard
+    - Extended
+    - druk
+    - print on demand
+    - zwroty
+    - subskrypcja
   summaryBullets:
-    - Standard wystarcza w typowym marketingu i reklamach, ale ma limit 500 000 kopii w druku.
-    - Merch i „produkt, gdzie obraz jest główną wartością” to zwykle Extended (kupowane jako osobne Packi).
-    - Rollover pobrań działa tylko przy auto-odnawianiu subskrypcji; Packi są ważne rok, ale da się je przedłużyć nowym zakupem.
+    - >-
+      Standard wystarcza w typowym marketingu i reklamach, ale ma limit 500 000
+      kopii w druku.
+    - >-
+      Merch i „produkt, gdzie obraz jest główną wartością” to zwykle Extended
+      (kupowane jako osobne Packi).
+    - >-
+      Rollover pobrań działa tylko przy auto-odnawianiu subskrypcji; Packi są
+      ważne rok, ale da się je przedłużyć nowym zakupem.
 taxonomy:
-  categories: [Narzędzia]
-  tags: [Depositphotos, FAQ, licencje, zdjęcia stockowe, wektory]
+  categories:
+    - Narzędzia
+  tags:
+    - Depositphotos
+    - FAQ
+    - licencje
+    - zdjęcia stockowe
+    - wektory
 ---
 
 ## Najważniejsze na start: co ludzie mylą najczęściej

@@ -4,8 +4,13 @@ slug: convert-com-faq
 path: /narzedzia/convert-com/faq/
 template: default
 seo:
-  title: Convert.com – FAQ. Najczęstsze pytania o MTU, cennik, GA4, bezpieczeństwo i wdrożenie
-  description: Odpowiedzi na najczęstsze pytania o Convert.com (Convert Experiences): co to jest MTU/tested users, co przy przekroczeniu limitu, jak działa trial, GA4, wiele domen, bezpieczeństwo i anulowanie.
+  title: >-
+    Convert.com – FAQ. Najczęstsze pytania o MTU, cennik, GA4, bezpieczeństwo i
+    wdrożenie
+  description: >-
+    Odpowiedzi na najczęstsze pytania o Convert.com (Convert Experiences): co to
+    jest MTU/tested users, co przy przekroczeniu limitu, jak działa trial, GA4,
+    wiele domen, bezpieczeństwo i anulowanie.
   keywords:
     - convert.com faq
     - convert experiences faq
@@ -16,10 +21,14 @@ seo:
 meta:
   format: faq
   hasAffiliateLinks: false
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   summaryBullets:
-    - MTU to unikalni użytkownicy, którzy weszli do testów w danym miesiącu; overlap między testami nie jest liczony podwójnie.
-    - Limit MTU możesz traktować jak „bezpiecznik kosztów” i zdecydować, czy dopuszczasz dopłaty, czy wolisz automatyczne pauzowanie.
+    - >-
+      MTU to unikalni użytkownicy, którzy weszli do testów w danym miesiącu;
+      overlap między testami nie jest liczony podwójnie.
+    - >-
+      Limit MTU możesz traktować jak „bezpiecznik kosztów” i zdecydować, czy
+      dopuszczasz dopłaty, czy wolisz automatyczne pauzowanie.
     - Convert jest dla zespołów, które dowożą testy, a nie tylko o nich mówią.
   primaryCta:
     label: Uruchom 15-dniowy trial Convert (bez karty)
@@ -36,6 +45,12 @@ taxonomy:
     - CRO
     - GA4
     - bezpieczeństwo
+hero:
+  heading: Convert.com – FAQ
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Convert.com – FAQ

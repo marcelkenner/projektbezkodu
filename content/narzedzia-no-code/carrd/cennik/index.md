@@ -5,13 +5,22 @@ path: /narzedzia/carrd/cennik/
 draft: false
 template: default
 type: pricing
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 hero:
-  heading: Cennik Carrd: wybierz plan w 2 minuty, bez zgadywania
-  subheading: Dla większości stron, które mają wyglądać profesjonalnie i zbierać leady, realnym minimum jest Pro Standard. Pro Plus ma sens dopiero wtedy, gdy potrzebujesz płatności w formularzu albo „bardziej developerskich” opcji.
+  heading: 'Cennik Carrd: wybierz plan w 2 minuty, bez zgadywania'
+  subheading: >-
+    Dla większości stron, które mają wyglądać profesjonalnie i zbierać leady,
+    realnym minimum jest Pro Standard. Pro Plus ma sens dopiero wtedy, gdy
+    potrzebujesz płatności w formularzu albo „bardziej developerskich” opcji.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Carrd — cennik (2026). Który plan wybrać: Lite, Standard czy Plus
-  description: Prosty przewodnik po planach Carrd: ceny roczne, limity „site slots”, co dostajesz w Lite/Standard/Plus i jasne rekomendacje dla twórców, freelancerów i małych firm w Polsce.
+  title: 'Carrd — cennik (2026). Który plan wybrać: Lite, Standard czy Plus'
+  description: >-
+    Prosty przewodnik po planach Carrd: ceny roczne, limity „site slots”, co
+    dostajesz w Lite/Standard/Plus i jasne rekomendacje dla twórców,
+    freelancerów i małych firm w Polsce.
   keywords:
     - carrd cennik
     - carrd pro standard
@@ -19,21 +28,37 @@ seo:
     - carrd pricing
     - landing page
 meta:
-  updatedAt: 2026-01-07
-  tools: ["Carrd"]
+  updatedAt: 2026-01-07T00:00:00.000Z
+  tools:
+    - Carrd
   format: cennik
-  topics: ["landing page", "link in bio", "no-code", "sprzedaż online"]
+  topics:
+    - landing page
+    - link in bio
+    - no-code
+    - sprzedaż online
   summaryBullets:
-    - Pro Standard (19 USD/rok) to najczęściej sensowny wybór: własna domena, formularze, analityka, meta tagi.
-    - Pro Plus (49 USD/rok) ma sens głównie dla płatności w formularzu i bardziej zaawansowanych ustawień.
-    - Liczy się nie tylko liczba opublikowanych stron: „site slots” zajmują też szkice i szablony.
+    - >-
+      Pro Standard (19 USD/rok) to najczęściej sensowny wybór: własna domena,
+      formularze, analityka, meta tagi.
+    - >-
+      Pro Plus (49 USD/rok) ma sens głównie dla płatności w formularzu i
+      bardziej zaawansowanych ustawień.
+    - >-
+      Liczy się nie tylko liczba opublikowanych stron: „site slots” zajmują też
+      szkice i szablony.
   primaryCta:
     label: Zobacz plany Carrd i wybierz Pro
     href: https://carrd.co/pro
     rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["cennik", "no-code", "landing-page", "link-in-bio"]
+  categories:
+    - Narzędzia
+  tags:
+    - cennik
+    - no-code
+    - landing-page
+    - link-in-bio
 ---
 
 ## Werdykt (czyli co masz kupić)

@@ -4,10 +4,15 @@ slug: faq
 path: /narzedzia/cloudimage/faq
 template: default
 type: tool
-date: "2026-01-07"
+date: '2026-01-07'
 seo:
-  title: "Cloudimage FAQ: odpowiedzi na najczęstsze pytania (wdrożenie, cache, bezpieczeństwo, ceny)"
-  description: "Praktyczne FAQ o Cloudimage: jak działa podmiana URL, cache i invalidation, WebP/JPG/PNG, WordPress i Next.js, CNAME+SSL, bezpieczeństwo tokena, GDPR, limity i koszty."
+  title: >-
+    Cloudimage FAQ: odpowiedzi na najczęstsze pytania (wdrożenie, cache,
+    bezpieczeństwo, ceny)
+  description: >-
+    Praktyczne FAQ o Cloudimage: jak działa podmiana URL, cache i invalidation,
+    WebP/JPG/PNG, WordPress i Next.js, CNAME+SSL, bezpieczeństwo tokena, GDPR,
+    limity i koszty.
   keywords:
     - Cloudimage
     - CDN obrazów
@@ -18,7 +23,7 @@ seo:
     - Next.js
 meta:
   format: faq
-  updatedAt: "2026-01-07"
+  updatedAt: '2026-01-07'
   hasAffiliateLinks: false
   topics:
     - performance
@@ -26,12 +31,29 @@ meta:
     - cdn
     - seo
   summaryBullets:
-    - "Cloudimage działa przez podmianę URL i transformacje „w locie” – nie musisz ręcznie produkować miniatur."
-    - "Cache nie odświeży się sam, gdy podmienisz plik u źródła – użyj zmiany URL (np. parametr vh) albo invalidation."
-    - "Największe koszty robi CDN traffic i liczba unikalnych wariantów, które generujesz w szablonach."
+    - >-
+      Cloudimage działa przez podmianę URL i transformacje „w locie” – nie
+      musisz ręcznie produkować miniatur.
+    - >-
+      Cache nie odświeży się sam, gdy podmienisz plik u źródła – użyj zmiany URL
+      (np. parametr vh) albo invalidation.
+    - >-
+      Największe koszty robi CDN traffic i liczba unikalnych wariantów, które
+      generujesz w szablonach.
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Cloudimage", "CDN", "Optymlizacja obrazów", "Web Performance"]
+  categories:
+    - Narzędzia
+  tags:
+    - Cloudimage
+    - CDN
+    - Optymlizacja obrazów
+    - Web Performance
+hero:
+  heading: Cloudimage FAQ
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Cloudimage jest narzędziem, które ma działać „bez dramatu”: podmieniasz URL-e obrazów, dodajesz parametry w linku i nagle strona ładuje się szybciej. I to jest prawda. Ale większość pytań pojawia się dopiero przy dwóch tematach: **cache** i **bezpieczeństwo tokena**.

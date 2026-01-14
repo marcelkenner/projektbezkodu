@@ -5,11 +5,21 @@ path: /narzedzia/flowbase/recenzja/
 template: default
 type: narzedzie-recenzja
 hero:
-  heading: Flowbase: recenzja
-  subheading: Jeśli robisz strony w Webflow regularnie, Flowbase jest prostym sposobem na szybsze dowożenie layoutów. Jeśli budujesz okazjonalnie — szkoda abonamentu.
+  heading: 'Flowbase: recenzja'
+  subheading: >-
+    Jeśli robisz strony w Webflow regularnie, Flowbase jest prostym sposobem na
+    szybsze dowożenie layoutów. Jeśli budujesz okazjonalnie — szkoda abonamentu.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: Flowbase – recenzja. Dla kogo to realnie przyspiesza Webflow, a komu przeszkadza
-  description: Uczciwa recenzja Flowbase dla polskich freelancerów i małych agencji Webflow. Co dostajesz w abonamencie, jakie są limity, licencja i kiedy lepiej wybrać alternatywy.
+  title: >-
+    Flowbase – recenzja. Dla kogo to realnie przyspiesza Webflow, a komu
+    przeszkadza
+  description: >-
+    Uczciwa recenzja Flowbase dla polskich freelancerów i małych agencji
+    Webflow. Co dostajesz w abonamencie, jakie są limity, licencja i kiedy
+    lepiej wybrać alternatywy.
   keywords:
     - Flowbase recenzja
     - Flowbase Webflow
@@ -17,7 +27,7 @@ seo:
     - Flowbase Chrome Extension
     - Flowbase cennik
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   tools:
     - Webflow
     - Figma
@@ -28,9 +38,15 @@ meta:
     - ui kit
     - biblioteka komponentów
   summaryBullets:
-    - Flowbase wygrywa w projektach marketingowych i stronach usługowych, gdzie sekcje się powtarzają.
-    - Największy „haczyk” to limit kopiowań w planie miesięcznym i brak wsparcia dla Safari.
-    - Licencja jest prosta: możesz budować dla klientów, ale to konto dla jednej osoby i bez redystrybucji.
+    - >-
+      Flowbase wygrywa w projektach marketingowych i stronach usługowych, gdzie
+      sekcje się powtarzają.
+    - >-
+      Największy „haczyk” to limit kopiowań w planie miesięcznym i brak wsparcia
+      dla Safari.
+    - >-
+      Licencja jest prosta: możesz budować dla klientów, ale to konto dla jednej
+      osoby i bez redystrybucji.
   primaryCta:
     label: Zobacz Flowbase (cennik)
     href: https://www.flowbase.co/pricing

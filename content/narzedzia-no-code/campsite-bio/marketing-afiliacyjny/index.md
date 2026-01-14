@@ -56,6 +56,12 @@ taxonomy:
     - UTM
     - GTM
     - oznaczanie reklam
+hero:
+  heading: Campsite.bio – marketing afiliacyjny
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Campsite.bio w marketingu afiliacyjnym – werdykt bez ściemy

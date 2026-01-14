@@ -84,6 +84,12 @@ taxonomy:
     - monetyzacja
     - subskrypcje
     - twórcy
+hero:
+  heading: 'Beehiiv: recenzja i werdykt dla twórców newsletterów'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Beehiiv jest najlepszy dla twórców i marek, które chcą traktować newsletter jak produkt: rosnąć szybciej i monetyzować wcześniej, bez budowania całego stosu narzędzi. Jeśli Twoim celem jest „piszę raz w tygodniu i nie chcę dotykać ustawień” — Substack bywa prostszy. Jeśli Twoim celem jest „mam lejki, segmenty, automatyzacje i sprzedaż” — Kit częściej będzie bardziej naturalny. A jeśli chcesz złapać balans: sensowny start + opcja wejścia w growth i reklamy, beehiiv jest bardzo mocnym kandydatem.

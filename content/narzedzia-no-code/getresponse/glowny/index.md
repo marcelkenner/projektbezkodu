@@ -1,19 +1,39 @@
 ---
-title: "GetResponse: czy warto w Polsce i dla kogo to ma sens"
-slug: "getresponse"
-path: "/narzedzia/getresponse/"
-template: "default"
-type: "narzedzie"
-date: "2026-01-08"
+title: 'GetResponse: czy warto w Polsce i dla kogo to ma sens'
+slug: getresponse
+path: /narzedzia/getresponse/
+template: default
+type: narzedzie
+date: '2026-01-08'
 seo:
-  title: "GetResponse — opinia i werdykt (Polska): dla kogo warto, a komu odradzamy"
-  description: "Praktyczny werdykt o GetResponse: kiedy to jest najlepszy wybór dla marketingu i e-commerce, a kiedy lepiej wybrać prostsze narzędzie. Fakty, ograniczenia i szybki start."
+  title: 'GetResponse — opinia i werdykt (Polska): dla kogo warto, a komu odradzamy'
+  description: >-
+    Praktyczny werdykt o GetResponse: kiedy to jest najlepszy wybór dla
+    marketingu i e-commerce, a kiedy lepiej wybrać prostsze narzędzie. Fakty,
+    ograniczenia i szybki start.
 meta:
-  updatedAt: "2026-01-08"
-  topics: ["email marketing", "marketing automation", "landing pages", "e-commerce", "newsletter"]
+  updatedAt: '2026-01-08'
+  topics:
+    - email marketing
+    - marketing automation
+    - landing pages
+    - e-commerce
+    - newsletter
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["GetResponse", "email marketing", "automatyzacja", "landing page", "e-commerce"]
+  categories:
+    - Narzędzia
+  tags:
+    - GetResponse
+    - email marketing
+    - automatyzacja
+    - landing page
+    - e-commerce
+hero:
+  heading: 'GetResponse: czy warto w Polsce i dla kogo to ma sens'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 ## Werdykt: dla kogo GetResponse jest świetny, a dla kogo to przerost formy

@@ -4,21 +4,35 @@ slug: freepik-faq
 path: /narzedzia/freepik/faq/
 template: default
 type: tool_faq
-date: "2026-01-08"
+date: '2026-01-08'
 seo:
-  title: "Freepik FAQ: licencja, komercja, kredyty AI, prawa do treści"
-  description: "Najczęstsze pytania o Freepik: czy można komercyjnie, jak działa licencja, co z prawami do treści AI i jak ogarnąć kredyty."
+  title: 'Freepik FAQ: licencja, komercja, kredyty AI, prawa do treści'
+  description: >-
+    Najczęstsze pytania o Freepik: czy można komercyjnie, jak działa licencja,
+    co z prawami do treści AI i jak ogarnąć kredyty.
 meta:
-  updatedAt: "2026-01-08"
-  format: "faq"
+  updatedAt: '2026-01-08'
+  format: faq
   topics:
-    - "FAQ"
-    - "licencja"
-    - "AI"
-    - "stock"
+    - FAQ
+    - licencja
+    - AI
+    - stock
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Freepik", "FAQ", "licencja", "AI", "kredyty"]
+  categories:
+    - Narzędzia
+  tags:
+    - Freepik
+    - FAQ
+    - licencja
+    - AI
+    - kredyty
+hero:
+  heading: Freepik FAQ
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 # Freepik FAQ

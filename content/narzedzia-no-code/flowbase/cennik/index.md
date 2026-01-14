@@ -6,10 +6,19 @@ template: default
 type: narzedzie-cennik
 hero:
   heading: Cennik Flowbase
-  subheading: Flowbase jest tani tylko wtedy, gdy realnie oszczędza Ci godziny w Webflow. Jeśli budujesz regularnie, roczny plan to „spokój + tempo”. Jeśli budujesz okazjonalnie, zacznij od Free i nie kombinuj.
+  subheading: >-
+    Flowbase jest tani tylko wtedy, gdy realnie oszczędza Ci godziny w Webflow.
+    Jeśli budujesz regularnie, roczny plan to „spokój + tempo”. Jeśli budujesz
+    okazjonalnie, zacznij od Free i nie kombinuj.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Flowbase – cennik i opłacalność. Jaki plan wybrać (Free vs Pro+)
-  description: Aktualny cennik Flowbase (stan na 8 stycznia 2026) oraz uczciwy wybór planu: Free, Pro+ miesięczny i Pro+ roczny. Limity kopiowania, Safari i licencja w praktyce.
+  description: >-
+    Aktualny cennik Flowbase (stan na 8 stycznia 2026) oraz uczciwy wybór planu:
+    Free, Pro+ miesięczny i Pro+ roczny. Limity kopiowania, Safari i licencja w
+    praktyce.
   keywords:
     - Flowbase cennik
     - Flowbase Pro+
@@ -17,7 +26,7 @@ seo:
     - Flowbase limit 200
     - Flowbase licencja
 meta:
-  updatedAt: "2026-01-08"
+  updatedAt: '2026-01-08'
   topics:
     - webflow
     - komponenty
@@ -25,8 +34,12 @@ meta:
     - cennik
   summaryBullets:
     - Free ma sens do sprawdzenia stylu i workflow (100+ darmowych komponentów).
-    - Pro+ kosztuje 39 USD/mies. lub 27 USD/mies. przy rozliczeniu rocznym (oszczędność ok. 30%).
-    - Największe „haczyki” to brak wsparcia dla Safari i limit 200 kopii/mies. w rozliczeniu miesięcznym.
+    - >-
+      Pro+ kosztuje 39 USD/mies. lub 27 USD/mies. przy rozliczeniu rocznym
+      (oszczędność ok. 30%).
+    - >-
+      Największe „haczyki” to brak wsparcia dla Safari i limit 200 kopii/mies. w
+      rozliczeniu miesięcznym.
   primaryCta:
     label: Zobacz cennik Flowbase
     href: https://www.flowbase.co/pricing

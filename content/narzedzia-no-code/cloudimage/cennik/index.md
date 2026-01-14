@@ -1,40 +1,65 @@
 ---
-title: "Cennik Cloudimage: ile to realnie kosztuje i który plan ma sens w Polsce"
-slug: "cloudimage-cennik"
-path: "/narzedzia/cloudimage/cennik/"
-template: "default"
-type: "tool-pricing"
-date: "2026-01-07"
+title: 'Cennik Cloudimage: ile to realnie kosztuje i który plan ma sens w Polsce'
+slug: cloudimage-cennik
+path: /narzedzia/cloudimage/cennik/
+template: default
+type: tool-pricing
+date: '2026-01-07'
 hero:
-  heading: "Cloudimage – cennik"
-  subheading: "Najważniejsze: płacisz za pakiet + limit ruchu CDN. Overuse potrafi zaboleć, jeśli nie masz kontroli nad wagą obrazów."
+  heading: Cloudimage – cennik
+  subheading: >-
+    Najważniejsze: płacisz za pakiet + limit ruchu CDN. Overuse potrafi zaboleć,
+    jeśli nie masz kontroli nad wagą obrazów.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Cloudimage cennik 2026 – plany, limity, overuse i dobór planu"
-  description: "Praktyczny przewodnik po cenach Cloudimage: co zawiera Essential/Grow/Scale, jak liczyć koszty CDN, ile kosztuje overuse i jaki plan jest realnym minimum dla e-commerce."
+  title: Cloudimage cennik 2026 – plany, limity, overuse i dobór planu
+  description: >-
+    Praktyczny przewodnik po cenach Cloudimage: co zawiera Essential/Grow/Scale,
+    jak liczyć koszty CDN, ile kosztuje overuse i jaki plan jest realnym minimum
+    dla e-commerce.
   canonical: null
   image: null
   noindex: false
   nofollow: false
 meta:
-  updatedAt: "2026-01-07"
-  format: "pricing"
+  updatedAt: '2026-01-07'
+  format: pricing
   hasAffiliateLinks: false
-  topics: ["CDN", "optymalizacja obrazów", "cennik", "performance", "e-commerce"]
+  topics:
+    - CDN
+    - optymalizacja obrazów
+    - cennik
+    - performance
+    - e-commerce
   summaryBullets:
-    - "Dla większości małych sklepów realnym minimum jest Grow, bo 100 GB CDN w Essential kończy się szybciej, niż myślisz."
-    - "Największe ryzyko kosztowe to overuse CDN: w planach jest wyceniany per GB."
-    - "Jeśli nie używasz AI/wideo, kredyty Visual Operations są dodatkiem, nie rdzeniem decyzji."
+    - >-
+      Dla większości małych sklepów realnym minimum jest Grow, bo 100 GB CDN w
+      Essential kończy się szybciej, niż myślisz.
+    - >-
+      Największe ryzyko kosztowe to overuse CDN: w planach jest wyceniany per
+      GB.
+    - >-
+      Jeśli nie używasz AI/wideo, kredyty Visual Operations są dodatkiem, nie
+      rdzeniem decyzji.
   primaryCta:
-    label: "Sprawdź plany Cloudimage"
-    href: "https://www.cloudimage.io/new-q3-2025"
-    rel: "nofollow"
+    label: Sprawdź plany Cloudimage
+    href: https://www.cloudimage.io/new-q3-2025
+    rel: nofollow
   secondaryCta:
-    label: "Uruchom 30-dniowy trial"
-    href: "https://www.cloudimage.io/lp2-v1-reg"
-    rel: "nofollow"
+    label: Uruchom 30-dniowy trial
+    href: https://www.cloudimage.io/lp2-v1-reg
+    rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["Cloudimage", "cennik", "CDN", "obrazy", "wydajność"]
+  categories:
+    - Narzędzia
+  tags:
+    - Cloudimage
+    - cennik
+    - CDN
+    - obrazy
+    - wydajność
 ---
 
 Jeśli szukasz prostej odpowiedzi: Cloudimage jest opłacalne wtedy, gdy Twoje obrazy generują realny ruch i realnie spowalniają stronę. Wtedy płacisz za konkret: odchudzone obrazy, CDN i mniej roboty po stronie zespołu. Jeśli masz małą stronę, ten cennik będzie wyglądał jak „abonament za spokój”, którego nie potrzebujesz.

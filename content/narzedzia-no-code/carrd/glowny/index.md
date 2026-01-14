@@ -5,13 +5,21 @@ path: /narzedzia/carrd/
 draft: false
 template: default
 type: tool
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 hero:
-  heading: Carrd: najszybsza droga do jednej, skutecznej strony
-  subheading: Jeśli potrzebujesz landing page albo link-in-bio, Carrd jest praktycznie bezkonkurencyjny. Jeśli budujesz serwis z wieloma podstronami — odpuść i wybierz coś innego.
+  heading: 'Carrd: najszybsza droga do jednej, skutecznej strony'
+  subheading: >-
+    Jeśli potrzebujesz landing page albo link-in-bio, Carrd jest praktycznie
+    bezkonkurencyjny. Jeśli budujesz serwis z wieloma podstronami — odpuść i
+    wybierz coś innego.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Carrd (2026) — czy warto? Dla kogo działa, a kogo będzie frustrować
-  description: Zdecydowany przewodnik po Carrd: co to jest, jak zacząć, najważniejsze funkcje i jasny werdykt dla freelancerów, twórców i małych firm w Polsce.
+  description: >-
+    Zdecydowany przewodnik po Carrd: co to jest, jak zacząć, najważniejsze
+    funkcje i jasny werdykt dla freelancerów, twórców i małych firm w Polsce.
   keywords:
     - carrd
     - landing page
@@ -19,21 +27,35 @@ seo:
     - strona one page
     - kreator stron
 meta:
-  updatedAt: 2026-01-07
-  tools: ["Carrd"]
+  updatedAt: 2026-01-07T00:00:00.000Z
+  tools:
+    - Carrd
   format: przewodnik
-  topics: ["landing page", "link in bio", "no-code", "strona wizytówka"]
+  topics:
+    - landing page
+    - link in bio
+    - no-code
+    - strona wizytówka
   summaryBullets:
     - Najlepsze narzędzie do prostych stron one-page i link-in-bio.
-    - Darmowy start bez karty; Pro ma sens dopiero, gdy potrzebujesz własnej domeny i formularzy.
-    - Nie jest to platforma do rozbudowanych serwisów i „klasycznego” SEO na setki podstron.
+    - >-
+      Darmowy start bez karty; Pro ma sens dopiero, gdy potrzebujesz własnej
+      domeny i formularzy.
+    - >-
+      Nie jest to platforma do rozbudowanych serwisów i „klasycznego” SEO na
+      setki podstron.
   primaryCta:
     label: Przetestuj Carrd za darmo
     href: https://carrd.co/
     rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["no-code", "landing-page", "link-in-bio", "website-builder"]
+  categories:
+    - Narzędzia
+  tags:
+    - no-code
+    - landing-page
+    - link-in-bio
+    - website-builder
 ---
 
 ## Werdykt w 20 sekund

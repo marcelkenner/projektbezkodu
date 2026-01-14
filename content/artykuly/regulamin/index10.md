@@ -1,6 +1,6 @@
 ---
-title: "Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii"
-category: "regulamin"
+title: 'Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii'
+category: regulamin
 draft: true
 ---
 

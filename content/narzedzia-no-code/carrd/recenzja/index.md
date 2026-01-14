@@ -5,34 +5,58 @@ path: /narzedzia/carrd/recenzja/
 draft: false
 template: default
 type: review
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 hero:
-  heading: Carrd w 2026: świetny, dopóki nie próbujesz z niego zrobić „prawdziwego serwisu”
-  subheading: To narzędzie do stron one-page, landingów i link-in-bio. Jeśli tego właśnie potrzebujesz, Carrd jest zaskakująco mocny i absurdalnie tani. Jeśli chcesz rozbudowaną stronę z podstronami — wybierz coś innego.
+  heading: >-
+    Carrd w 2026: świetny, dopóki nie próbujesz z niego zrobić „prawdziwego
+    serwisu”
+  subheading: >-
+    To narzędzie do stron one-page, landingów i link-in-bio. Jeśli tego właśnie
+    potrzebujesz, Carrd jest zaskakująco mocny i absurdalnie tani. Jeśli chcesz
+    rozbudowaną stronę z podstronami — wybierz coś innego.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Carrd — recenzja (2026). Dla kogo to działa, a dla kogo nie
-  description: Zdecydowana recenzja Carrd: mocne strony, ograniczenia, SEO, formularze i płatności Stripe, cennik i alternatywy. Werdykt dla twórców, freelancerów i małych firm w Polsce.
+  description: >-
+    Zdecydowana recenzja Carrd: mocne strony, ograniczenia, SEO, formularze i
+    płatności Stripe, cennik i alternatywy. Werdykt dla twórców, freelancerów i
+    małych firm w Polsce.
   keywords:
     - carrd recenzja
     - carrd opinie
     - kreator landing page
     - link in bio
 meta:
-  updatedAt: 2026-01-07
-  tools: ["Carrd"]
+  updatedAt: 2026-01-07T00:00:00.000Z
+  tools:
+    - Carrd
   format: recenzja
-  topics: ["landing page", "link in bio", "no-code"]
+  topics:
+    - landing page
+    - link in bio
+    - no-code
   summaryBullets:
     - Carrd wygrywa szybkością i prostotą w stronach one-page.
-    - Realne minimum do zastosowań biznesowych to zwykle Pro Standard (własna domena, meta tagi, formularze).
-    - Płatności przez formularz są sensowne, ale dopiero na Pro Plus (Stripe Checkout).
+    - >-
+      Realne minimum do zastosowań biznesowych to zwykle Pro Standard (własna
+      domena, meta tagi, formularze).
+    - >-
+      Płatności przez formularz są sensowne, ale dopiero na Pro Plus (Stripe
+      Checkout).
   primaryCta:
     label: Sprawdź Carrd i zrób wersję roboczą
     href: https://carrd.co/
     rel: nofollow
 taxonomy:
-  categories: ["Narzędzia"]
-  tags: ["no-code", "landing-page", "link-in-bio", "website-builder"]
+  categories:
+    - Narzędzia
+  tags:
+    - no-code
+    - landing-page
+    - link-in-bio
+    - website-builder
 ---
 
 ## Werdykt

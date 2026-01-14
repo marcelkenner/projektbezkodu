@@ -60,6 +60,14 @@ taxonomy:
     - boosts
     - subskrypcje
     - digital products
+hero:
+  heading: >-
+    Monetyzacja beehiiv: jak zarabiać na newsletterze (reklamy, Boosts,
+    subskrypcje, produkty)
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Beehiiv ma sens, jeśli chcesz zarabiać na newsletterze wieloma kanałami naraz: subskrypcjami, reklamami, poleceniami i produktami. To nie jest „dodatek” do wysyłki. To jest część produktu.

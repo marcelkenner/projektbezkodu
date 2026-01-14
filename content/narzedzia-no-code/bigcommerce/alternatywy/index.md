@@ -48,6 +48,12 @@ taxonomy:
     - Shopware
     - Magento
     - Saleor
+hero:
+  heading: 'Alternatywy dla BigCommerce: co wybrać zamiast (i kiedy to ma sens w Polsce)'
+  subheading: Wpis roboczy w katalogu narzędzi; pełną treść dodamy przed publikacją.
+  image:
+    src: /img/article_image.jpeg
+    alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 ---
 
 Jeśli rozważasz BigCommerce, to znaczy, że Twój sklep nie jest już „projektem pobocznym”. I dobrze. Problem w tym, że w Polsce BigCommerce często przegrywa nie funkcjami, tylko ekonomią startu i lokalnym ekosystemem.
