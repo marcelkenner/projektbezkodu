@@ -120,19 +120,28 @@ export class ContentLibrary {
       return undefined;
     }
 
-    const pathWithTitleSlug = this.ensureTitleSlug(derivedPath, document);
-    const segments = pathWithTitleSlug.split("/").filter(Boolean);
+    const titleSlugPath = this.ensureTitleSlug(derivedPath, document);
+    const useTitleSlug = this.shouldUseTitleSlug(derivedPath, document);
+    const canonicalPath = useTitleSlug ? titleSlugPath : derivedPath;
+    const segments = canonicalPath.split("/").filter(Boolean);
     if (!segments.length) {
       return undefined;
     }
 
-    const aliases = derivedPath !== pathWithTitleSlug ? [derivedPath] : undefined;
-    document.frontmatter.path = pathWithTitleSlug;
+    const aliases: string[] = [];
+    if (useTitleSlug) {
+      if (derivedPath !== canonicalPath) {
+        aliases.push(derivedPath);
+      }
+    } else if (titleSlugPath !== canonicalPath) {
+      aliases.push(titleSlugPath);
+    }
+    document.frontmatter.path = canonicalPath;
 
     return {
-      path: pathWithTitleSlug,
+      path: canonicalPath,
       segments,
-      aliases,
+      aliases: aliases.length ? aliases : undefined,
     };
   }
 
@@ -259,5 +268,15 @@ export class ContentLibrary {
     nextSegments[nextSegments.length - 1] = slugFromTitle;
 
     return this.ensureWrappedSlashes(nextSegments.join("/"));
+  }
+
+  private shouldUseTitleSlug(
+    normalizedPath: string,
+    document: MarkdownDocument,
+  ): boolean {
+    if (document.frontmatter.template !== "article") {
+      return true;
+    }
+    return !normalizedPath.startsWith("/artykuly/");
   }
 }
