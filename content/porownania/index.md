@@ -1,12 +1,12 @@
 ---
-title: "A — pusta strona a SEO: szybki werdykt"
+title: 'A — pusta strona a SEO: szybki werdykt'
 slug: a
 path: /porownania/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "A — pusta strona: co robić zamiast placeholdera"
-  subheading: "Krótki przewodnik: gdy strona ma tylko 'A' i trzeba podjąć decyzję."
+  heading: 'A — pusta strona: co robić zamiast placeholdera'
+  subheading: 'Krótki przewodnik: gdy strona ma tylko ''A'' i trzeba podjąć decyzję.'
 template: default
 ---
 

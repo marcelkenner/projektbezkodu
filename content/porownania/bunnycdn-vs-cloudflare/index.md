@@ -1,28 +1,30 @@
 ---
-title: "Bunnycdn vs Cloudflare: który CDN wybrać w 2026?"
+title: 'Bunnycdn vs Cloudflare: który CDN wybrać w 2026?'
 slug: bunnycdn-vs-cloudflare
 path: /porownania/bunnycdn-vs-cloudflare/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - performance
+    - performance
   tags:
-  - bunny-net
-  - cloudflare
+    - bunny-net
+    - cloudflare
 hero:
   heading: Bunnycdn vs Cloudflare
-  subheading: "Krótki przewodnik: koszty, wydajność, zabezpieczenia i przypadki użycia"
+  subheading: 'Krótki przewodnik: koszty, wydajność, zabezpieczenia i przypadki użycia'
 meta:
   difficulty: średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Dla większości małych i średnich serwisów wybierz Bunny; dla projektów\
-    \ potrzebujących zaawansowanego WAF/DDoS/edge compute — Cloudflare."
+    - >-
+      Werdykt: Dla większości małych i średnich serwisów wybierz Bunny; dla
+      projektów potrzebujących zaawansowanego WAF/DDoS/edge compute —
+      Cloudflare.
   review:
     productName: Porównanie Bunnycdn i Cloudflare
     author: Redakcja

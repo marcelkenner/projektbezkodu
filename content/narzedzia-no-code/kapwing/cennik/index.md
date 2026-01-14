@@ -5,7 +5,7 @@ path: /narzedzia/kapwing/cennik/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Kapwing Cennik
   subheading: Krótki przewodnik po planach, limitach i kto powinien płacić
@@ -14,21 +14,22 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Kapwing Cennik — który plan wybrać?
-  description: "Szybkie porównanie planów Kapwing: Free, Pro, Business, Enterprise,\
-    \ limity kredytów i rekomendacje dla twórców i zespołów."
+  description: >-
+    Szybkie porównanie planów Kapwing: Free, Pro, Business, Enterprise, limity
+    kredytów i rekomendacje dla twórców i zespołów.
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzedzia
-  - wideo
+    - narzedzia
+    - wideo
   tags:
-  - Kapwing
-  - cennik
-  - video
+    - Kapwing
+    - cennik
+    - video
 ---
 
 ## Krótki werdykt dla kogoś, kto chce szybko zdecydować

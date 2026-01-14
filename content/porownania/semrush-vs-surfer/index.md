@@ -3,28 +3,30 @@ title: Semrush vs Surfer — wybór dla contentu i SEO
 slug: semrush-vs-surfer
 path: /porownania/semrush-vs-surfer/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - seo
+    - seo
   tags:
-  - semrush
-  - surfer
+    - semrush
+    - surfer
 hero:
   heading: Semrush vs Surfer
-  subheading: "Krótki przewodnik: kiedy wybrać Surfer, a kiedy Semrush"
+  subheading: 'Krótki przewodnik: kiedy wybrać Surfer, a kiedy Semrush'
 meta:
   difficulty: średni
   duration: 5–30 min (pierwsze kroki)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: **Surfer** lepszy tam, gdzie priorytet to szybkie tworzenie i optymalizacja\
-    \ treści."
-  - "Werdykt: **Semrush** lepszy, jeśli potrzebujesz kompleksowego stacku SEO i badań\
-    \ konkurencji."
+    - >-
+      Werdykt: **Surfer** lepszy tam, gdzie priorytet to szybkie tworzenie i
+      optymalizacja treści.
+    - >-
+      Werdykt: **Semrush** lepszy, jeśli potrzebujesz kompleksowego stacku SEO i
+      badań konkurencji.
   review:
     productName: Semrush vs Surfer
     ratingValue: 4

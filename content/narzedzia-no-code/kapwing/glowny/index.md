@@ -3,7 +3,7 @@ title: Kapwing
 slug: kapwing
 path: /narzedzia/kapwing/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   image:
     src: /img/article_image.jpeg
@@ -17,23 +17,24 @@ meta:
   difficulty: łatwy
   duration: 10 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   topics:
-  - wideo
-  - edytory
-  - AI
+    - wideo
+    - edytory
+    - AI
   summaryBullets:
-  - "Werdykt: Kapwing to szybkie rozwiązanie do social video i napisów — świetne dla\
-    \ marketerów i twórców, mniej dla montażystów filmowych."
-  - "Szybki start: załóż konto i wyeksportuj próbny projekt w kilka minut."
+    - >-
+      Werdykt: Kapwing to szybkie rozwiązanie do social video i napisów —
+      świetne dla marketerów i twórców, mniej dla montażystów filmowych.
+    - 'Szybki start: załóż konto i wyeksportuj próbny projekt w kilka minut.'
 taxonomy:
   categories:
-  - narzędzia
+    - narzędzia
   tags:
-  - Kapwing
-  - edytor wideo
-  - napisy
+    - Kapwing
+    - edytor wideo
+    - napisy
 ---
 
 ## Werdykt w skrócie — dla kogo to jest

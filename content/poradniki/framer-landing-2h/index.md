@@ -4,69 +4,128 @@ slug: framer-landing-2h
 path: /poradniki/framer-landing-2h/
 draft: false
 template: tutorial
+date: "2026-01-14"
 hero:
   heading: Framer – landing w 2 godziny
   subheading: Szybka strona docelowa z animacjami, formularzem i metrykami.
 seo:
   title: Framer – landing w 2 godziny
-  description: >-
-    Przewodnik jak przygotować landing page we Framerze wraz z animacjami i
-    integracjami.
+  description: Przewodnik jak przygotować landing page we Framerze wraz z animacjami
+    i integracjami.
   keywords:
-    - framer
-    - landing page
-    - tutorial
+  - framer
+  - landing page
+  - tutorial
 meta:
   difficulty: Łatwy
   duration: 2 godziny
   tools:
-    - framer
+  - framer
+  - typeform
+  - hubspot
+  updatedAt: "2026-01-14"
+  summaryBullets:
+  - "Co zrobisz w 2h: landing z hero, modułem funkcji, formularzem i podstawowym śledzeniem\
+    \ konwersji."
+  - "Główne integracje: natywne formularze Framera lub Typeform oraz proste webhooki\
+    \ do CRM."
+  - "Werdykt: szybkie MVP landingowe bez kodu — idealne dla testów kampanii i pierwszych\
+    \ leadów."
+  primaryCta:
+    label: "Framer: publikacja — pomoc"
+    href: https://www.framer.com/help/articles/publishing-your-framer-website/
 taxonomy:
   categories:
-    - site-builder
+  - site-builder
   tags:
-    - framer
-    - landing-page
+  - framer
+  - landing-page
+  - tutorial
 ---
 
-## Co zbudujemy w 2 godziny
+## Obietnica i do kogo to jest
 
-- Stronę docelową w Framerze z sekcją hero, proof i CTA.
-- Animowany moduł funkcji z interaktywnymi state’ami.
-- Formularz Typeform/HubSpot z pełnym śledzeniem konwersji.
+Obiecuję: w 2 godziny zrobisz prosty, konwertujący landing w Framerze z animacjami i pracującym formularzem.  
+To dla twórców produktu, growth marketerów i małych agencji, które potrzebują szybkiego MVP kampanii — nie dla zespołów budujących skomplikowane aplikacje z wieloma backendami.
 
-## 1. Przygotowanie projektu
+## Kilka krótkich pytań — szybki kierunek
 
-- Importuj brand tokens (kolory, typografia). Jeżeli masz design system w Figma, użyj eksportu z Relume.
-- Zaplanuj sekcje: hero, problem → solution, funkcje, dowody społeczne, FAQ, CTA.
-- Ustal docelowe KPIs (kliknięcia CTA, zapisy na demo, czas na stronie).
+Czy chcesz opublikować landing bez serwera? **TAK** → Framer pozwala publikować bezpośrednio i podłączyć domenę (sprawdź instrukcję publikacji).  
+Czy potrzebujesz niestandardowego workflow leadów (HubSpot, Slack)? **TAK** → użyj webhooków lub integracji z HubSpot / Make.  
+Czy planujesz duży ruch i złożone testy? **RACZEJ NIE** dla samego Framera — skalowanie i zaawansowaną analitykę warto przetestować z zewnętrznym stackiem.
 
-## 2. Komponenty Framer
+## Czym jest Framer w kontekście landingów
 
-- Użyj wariantów Frame + Stack – łatwiej kontrolować responsywność.
-- Dodaj animacje entrance dla sekcji hero i modułu funkcji (Smart Animate).
-- Przygotuj komponent CTA z wariantami (primary, secondary) – zmiana statusu `isLoading`, `isSuccess`.
+Framer to narzędzie do projektowania i publikowania stron z edytorem wizualnym oraz wbudowanym hostingiem i analytics.  
+Fakt: Framer oferuje natywne formularze i integracje (Typeform, HubSpot) oraz własne analytics. Źródło: [Framer — publikacja i hosting](https://www.framer.com/help/articles/publishing-your-framer-website/).  
+Co to znaczy w praktyce: nie musisz stawiać osobnego serwera ani prostego backendu, żeby zebrać pierwsze leady.
 
-## 3. Integracje
+### Pierwsze 30 minut — co zrobisz
 
-- Formularz: Typeform/Framer Form → HubSpot/Make. Dodaj hidden fields `utm_*`.
-- Analityka: Vercel Analytics + Matomo/GA4. Wydziel zdarzenia `cta_primary_click`, `faq_expand`.
-- Slack/Email: Make wysyła notyfikacje o nowych leadach do zespołu sprzedaży.
+1. Stwórz nowy projekt i zaimportuj brand tokens (kolory, fonty).  
+2. Zrób prosty hero z nagłówkiem, podtytułem i CTA.  
+3. Wstaw formularz — korzystając z natywnej opcji Framera lub osadź Typeform. (Instrukcja dodawania Typeform jest dostępna u Framera).  
 
-## 4. QA i performance
+Źródła: [Jak dodać Typeform](https://www.framer.com/help/articles/how-to-add-typeform-to-your-website/) oraz [Natywne formularze Framera](https://www.framer.com/help/articles/how-can-i-add-a-contact-form-to-my-framer-website/).
 
-- Test responsywności (320, 768, 1024, 1440 px).
-- Ogranicz liczbę animacji – fallback `prefers-reduced-motion`.
-- Skorzystaj z `Image` componentu z optymalizacją – WebP i prawidłowe `alt`.
+## Jak zacząć — ścieżka krok po kroku (2 godziny)
 
-## 5. Publikacja
+1. 0–10 min: Szablon + brand tokens.  
+2. 10–40 min: Sekcja hero + CTA + responsywne Stack/Frame (warianty).  
+3. 40–80 min: Moduł funkcji z prostą animacją (Smart Animate / variant states).  
+4. 80–110 min: Formularz (natywny albo Typeform) + hidden fields utm_*.  
+5. 110–120 min: Publikacja na framer.app, podpięcie domeny lub staging → production.
 
-- Włącz automatyczne deploye (Framer → Vercel) lub publikację na domenę.
-- Dodaj `og:image` z paczki `/zasoby/banery-og/`.
-- Po launchu ustaw A/B testy (np. nagłówek, social proof) – Framer ma wbudowane narzędzia.
+Krótka definicja: „Stack/Frame” to komponenty układu w Framerze; _w praktyce_ używasz ich, by szybko ustawić responsywność bez ręcznego CSS.
 
-## Dalsze kroki
+## Fakt → Skutek → Werdykt
 
-- Przygotuj kolejne sekcje (pricing, integracje) jako reużywalne komponenty.
-- Zbuduj wersję kampanii w języku angielskim – Framer obsługuje wielojęzyczność.
-- Zautomatyzuj raporty – Make + Looker Studio dla zespołu growth.
+Fakt: Framer ma wbudowane analytics i proste A/B testy.  
+Skutek: możesz szybko zobaczyć ruch i porównać warianty nagłówków bez zewnętrznego narzędzia.  
+Werdykt: **świetne dla szybkich eksperymentów marketingowych**, ale jeśli potrzebujesz zaawansowanej analizy lub integracji z zaawansowanyymi systemami tagowania, sprawdź eksport danych lub równoległe GA4.
+
+Fakt: Framer pozwala osadzać Typeform i ma natywne formularze z webhookami.  
+Skutek: zbierasz leady od razu i wysyłasz je do HubSpot/Make/Slack.  
+Werdykt: **dobry kompromis między szybkością a kontrolą**; do produkcji na dużą skalę warto dodać walidację i anti-spam po stronie serwera.
+
+Jeśli jakaś informacja (np. limit planu, cena lub nowa integracja) jest krytyczna dla twojego wdrożenia, sprawdź bezpośrednio stronę pomocy Framera lub panel płatności — to pewny sposób weryfikacji.
+
+## Plusy i typowe skargi — synteza
+
+Plusy:
+- Szybkie uruchomienie bez kodu.  
+- Natywne formularze i proste integracje.  
+- Wbudowane analytics i opcja staging/production.  
+
+Typowe skargi:
+- Mniej kontroli nad backendem niż przy własnym hostingu.  
+- Zaawansowane testy i specjalne reguły routingowe wymagają dodatkowych narzędzi.  
+_Skarga może być istotna, jeśli zależy Ci na pełnej kontroli nad danymi lub skomplikowanych konwersjach._
+
+## Tabela: komu Framer pasuje (mini-werdykt)
+
+| Segment | Szybkość wdrożenia | Ryzyko braków | Werdykt |
+| --- | ---: | --- | --- |
+| Test kampanii marketingowej | 5–120 min | Niskie | **Wybierz Framer** |
+| Mała firma/produkt MVP | 1–2 dni | Średnie (integracje) | **Dobry wybór** |
+| Duża platforma SaaS | kilka dni+ | Wysokie (skala, compliance) | **Raczej nie** |
+
+## Wdrożenie — praktyczne wskazówki
+
+- Formularz: użyj natywnego formularza Framera dla prostoty; jeśli chcesz więcej kontroli, osadź [Typeform].  
+- Animacje: ogranicz je i obsłuż `prefers-reduced-motion`. W praktyce zmniejsza to ryzyko słabszej wydajności na słabszych urządzeniach.  
+- Obrazy: eksportuj WebP i ustaw poprawne alty; użyj komponentu Image z optymalizacją.  
+- Testy: zacznij z prostymi A/B wariantami nagłówków; Framer ma prostą obsługę testów w analytics.
+
+## Werdykt końcowy
+
+**Idealne dla**: szybkich landingów testowych, kampanii reklamowych i MVP, gdy priorytet to czas do launchu.  
+**Będzie frustrować, jeśli**: potrzebujesz pełnej kontroli nad backendem, zaawansowanej logiki serwerowej lub bardzo specyficznych wymagań compliance.  
+Prosty next step: otwórz nowy projekt, wstaw hero + natywny formularz i opublikuj na framer.app — to zajmuje około 30–60 minut.
+
+Źródła i dalsza weryfikacja:
+- Instrukcja publikacji Framera: "Publishing your Framer website".  
+- Jak dodać Typeform: "Adding Typeform to your site".  
+- Formularze natywne i integracje: "How can I add a contact form to my Framer website".
+
+Linki w tekście prowadzą do dokumentacji Framera, sprawdź je, jeśli potrzebujesz potwierdzenia ograniczeń planu lub najnowszych funkcji.

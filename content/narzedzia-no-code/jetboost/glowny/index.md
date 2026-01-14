@@ -5,7 +5,7 @@ path: /narzedzia/jetboost/
 draft: false
 template: default
 type: narzędzie
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Jetboost
   subheading: Szybkie filtry, wyszukiwarka i wishlisty dla Webflow
@@ -16,23 +16,25 @@ hero:
     height: 630
 seo:
   title: Jetboost — szybkie filtry i wyszukiwarka dla Webflow
-  description: "Recenzja i praktyczny werdykt: kiedy warto użyć Jetboost, jak zacząć\
-    \ i czego się obawiać."
+  description: >-
+    Recenzja i praktyczny werdykt: kiedy warto użyć Jetboost, jak zacząć i czego
+    się obawiać.
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Najlepszy dla projektów Webflow, które potrzebują szybkich filtrów i\
-    \ wyszukiwania"
-  - "Szybki start: 5–15 minut na dodanie do stagingu"
+    - >-
+      Werdykt: Najlepszy dla projektów Webflow, które potrzebują szybkich
+      filtrów i wyszukiwania
+    - 'Szybki start: 5–15 minut na dodanie do stagingu'
 taxonomy:
   categories:
-  - narzędzia
-  - webflow
-  - cms
+    - narzędzia
+    - webflow
+    - cms
 ---
 
 Obietnica decyzji: powiem ci krótko, czy Jetboost opłaca się w twoim projekcie Webflow i jaki jest najprostszy następny krok.

@@ -1,42 +1,47 @@
 ---
-title: "MVP aplikacji usługowej: dowieźć wersję 1.0 i nie przepalić budżetu"
+title: 'MVP aplikacji usługowej: dowieźć wersję 1.0 i nie przepalić budżetu'
 slug: index10
 path: /index10
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "MVP aplikacji usługowej: dowieźć wersję 1.0 i nie przepalić budżetu"
-  subheading: Szybkie decyzje produktowe dla founderów, product managerów i zespołów
+  heading: 'MVP aplikacji usługowej: dowieźć wersję 1.0 i nie przepalić budżetu'
+  subheading: >-
+    Szybkie decyzje produktowe dla founderów, product managerów i zespołów
     technicznych
 seo:
-  title: "Index10: MVP aplikacji usługowej — jak dowieźć wersję 1.0"
-  description: "Praktyczny przewodnik: jak wydać pierwszą działającą wersję usługi\
-    \ bez przepalania budżetu i przy minimalnym ryzyku."
+  title: 'Index10: MVP aplikacji usługowej — jak dowieźć wersję 1.0'
+  description: >-
+    Praktyczny przewodnik: jak wydać pierwszą działającą wersję usługi bez
+    przepalania budżetu i przy minimalnym ryzyku.
   keywords: MVP, aplikacja usługowa, wersja 1.0, product management, startup
 meta:
   difficulty: średnio zaawansowane
   duration: 30-90 minut (pierwsze decyzje)
   author: Redakcja Index10
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: MVP to najlepsza droga dla testu rynku przy ograniczonym budżecie."
-  - "Werdykt: Nie rób MVP ‚na każdą sytuację’ — tam gdzie konkurencja wymusza jakość,\
-    \ trzeba inaczej."
+    - >-
+      Werdykt: MVP to najlepsza droga dla testu rynku przy ograniczonym
+      budżecie.
+    - >-
+      Werdykt: Nie rób MVP ‚na każdą sytuację’ — tam gdzie konkurencja wymusza
+      jakość, trzeba inaczej.
   format: artykuł
   topics:
-  - product
-  - startup
-  - MVP
+    - product
+    - startup
+    - MVP
 taxonomy:
   categories:
-  - produkt
-  - startup
+    - produkt
+    - startup
   tags:
-  - MVP
-  - wersja-1.0
-  - strategia
+    - MVP
+    - wersja-1.0
+    - strategia
 ---
 
 ## Obietnica decyzji dla kogo

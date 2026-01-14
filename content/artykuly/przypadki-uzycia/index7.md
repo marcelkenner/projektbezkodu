@@ -1,35 +1,37 @@
 ---
-title: "Baza wiedzy i helpdesk: szybkie self-service, mniej pytań i więcej spokoju"
+title: 'Baza wiedzy i helpdesk: szybkie self-service, mniej pytań i więcej spokoju'
 slug: index7
 path: /index7
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Baza wiedzy i helpdesk: szybkie self-service, mniej pytań i więcej spokoju"
-  subheading: Jak zacząć proste centrum self‑service, które obniży liczbę ticketów
-    i odciąży zespół
+  heading: 'Baza wiedzy i helpdesk: szybkie self-service, mniej pytań i więcej spokoju'
+  subheading: >-
+    Jak zacząć proste centrum self‑service, które obniży liczbę ticketów i
+    odciąży zespół
 seo:
-  title: "Baza wiedzy: szybkie self-service, mniej pytań"
-  description: Krótkie, praktyczne wskazówki jak wdrożyć knowledge base, które deflectuje
+  title: 'Baza wiedzy: szybkie self-service, mniej pytań'
+  description: >-
+    Krótkie, praktyczne wskazówki jak wdrożyć knowledge base, które deflectuje
     tickety, przyspiesza onboarding i oszczędza koszty.
 meta:
   difficulty: łatwy–średni
   duration: 60 minut (pierwszy draft)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Najszybszy efekt dla zespołów obsługi i SaaS."
-  - "Szybki start: zidentyfikuj 10 najczęstszych pytań i napisz 3 artykuły."
+    - 'Werdykt: Najszybszy efekt dla zespołów obsługi i SaaS.'
+    - 'Szybki start: zidentyfikuj 10 najczęstszych pytań i napisz 3 artykuły.'
 taxonomy:
   categories:
-  - support
-  - knowledge-base
+    - support
+    - knowledge-base
   tags:
-  - helpdesk
-  - self-service
-  - onboarding
+    - helpdesk
+    - self-service
+    - onboarding
 ---
 
 ## Szybki werdykt dla kogo i dlaczego

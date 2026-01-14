@@ -3,27 +3,29 @@ title: Softr vs Glide vs Bubble
 slug: softr-vs-glide-vs-bubble
 path: /porownania/softr-vs-glide-vs-bubble/
 draft: false
-date: "2025-11-05"
+date: '2025-11-05'
 template: comparison
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - softr
-  - glide
-  - bubble
+    - softr
+    - glide
+    - bubble
 hero:
   heading: Softr vs Glide vs Bubble
-  subheading: "Krótki przewodnik: który builder wybrać dla web-appki, wewnętrznego\
-    \ narzędzia lub prototypu"
+  subheading: >-
+    Krótki przewodnik: który builder wybrać dla web-appki, wewnętrznego
+    narzędzia lub prototypu
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   difficulty: Beginner–Intermediate
   duration: 5–30 min
   summaryBullets:
-  - "Werdykt: wybór zależy od celu — prostota → Softr, mobilne MVP → Glide, niestandardowa\
-    \ logika → Bubble."
+    - >-
+      Werdykt: wybór zależy od celu — prostota → Softr, mobilne MVP → Glide,
+      niestandardowa logika → Bubble.
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

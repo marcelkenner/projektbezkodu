@@ -1,36 +1,46 @@
 ---
-title: Uploadcare vs Cloudimage vs ImageEngine — porównanie usług optymalizacji obrazów
+title: >-
+  Uploadcare vs Cloudimage vs ImageEngine — porównanie usług optymalizacji
+  obrazów
 slug: uploadcare-vs-cloudimage-vs-imageengine
 path: /porownania/uploadcare-vs-cloudimage-vs-imageengine/
 draft: false
 template: comparison
 type: comparison
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Uploadcare vs Cloudimage vs ImageEngine
-  subheading: Szybkie, praktyczne porównanie — który serwis wybrać przy wdrożeniu
+  subheading: >-
+    Szybkie, praktyczne porównanie — który serwis wybrać przy wdrożeniu
     optymalizacji obrazów?
 seo:
   title: Uploadcare vs Cloudimage vs ImageEngine — porównanie 2026
-  description: "Krótki przewodnik: różnice w cenach, wydajności i integracjach między\
-    \ Uploadcare, Cloudimage i ImageEngine."
+  description: >-
+    Krótki przewodnik: różnice w cenach, wydajności i integracjach między
+    Uploadcare, Cloudimage i ImageEngine.
 meta:
   difficulty: średni
   duration: 5–15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: ImageEngine dla prostych wdrożeń z darmowym programem developerskim."
-  - "Werdykt: Uploadcare gdy potrzebujesz upload + magazyn + zaawansowane przetwarzanie."
-  - "Werdykt: Cloudimage jeśli priorytetem są elastyczne limity i nowe plany dla sklepów."
+    - >-
+      Werdykt: ImageEngine dla prostych wdrożeń z darmowym programem
+      developerskim.
+    - >-
+      Werdykt: Uploadcare gdy potrzebujesz upload + magazyn + zaawansowane
+      przetwarzanie.
+    - >-
+      Werdykt: Cloudimage jeśli priorytetem są elastyczne limity i nowe plany
+      dla sklepów.
 taxonomy:
   categories:
-  - performance
+    - performance
   tags:
-  - uploadcare
-  - cloudimage
-  - imageengine
+    - uploadcare
+    - cloudimage
+    - imageengine
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

@@ -5,37 +5,42 @@ path: /narzedzia/jotform/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Jotform – kiedy lepiej wybrać inne narzędzie
-  subheading: Porównuję Jotform z Typeform, Tally, Paperform i innymi kreatorami formularzy
-    pod kątem ceny i UX-u.
+  subheading: >-
+    Porównuję Jotform z Typeform, Tally, Paperform i innymi kreatorami
+    formularzy pod kątem ceny i UX-u.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Jotform – alternatywy i porównanie narzędzi do formularzy
-  description: Zobacz, czym Jotform różni się od konkurencji i które narzędzie lepiej
+  description: >-
+    Zobacz, czym Jotform różni się od konkurencji i które narzędzie lepiej
     pasuje do ankiet, lead magnetów czy formularzy zgłoszeniowych.
 meta:
   difficulty: średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Jotform to uniwersalne narzędzie, ale w konkretnych scenariuszach warto\
-    \ rozważyć Typeform, Tally lub Paperform."
-  - "Szybki start: wypróbuj darmowy plan Jotform lub Tally i zrób test na 10 respondentach."
+    - >-
+      Werdykt: Jotform to uniwersalne narzędzie, ale w konkretnych scenariuszach
+      warto rozważyć Typeform, Tally lub Paperform.
+    - >-
+      Szybki start: wypróbuj darmowy plan Jotform lub Tally i zrób test na 10
+      respondentach.
 taxonomy:
   categories:
-  - narzedzia
-  - formularze
+    - narzedzia
+    - formularze
   tags:
-  - Jotform
-  - Typeform
-  - Tally
-  - Paperform
+    - Jotform
+    - Typeform
+    - Tally
+    - Paperform
 ---
 
 Obietnica: szybka decyzja dla osób, które potrzebują formularza dziś i chcą wiedzieć, czy Jotform to najlepszy wybór.

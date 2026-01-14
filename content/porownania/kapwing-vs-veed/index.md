@@ -3,17 +3,17 @@ title: Kapwing Vs Veed
 slug: kapwing-vs-veed
 path: /porownania/kapwing-vs-veed/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 template: comparison
 taxonomy:
   categories:
-  - media
+    - media
   tags:
-  - kapwing
-  - veed
+    - kapwing
+    - veed
 hero:
   heading: Kapwing Vs Veed
-  subheading: "Krótki, praktyczny przewodnik: który wybór ma sens dla kogo."
+  subheading: 'Krótki, praktyczny przewodnik: który wybór ma sens dla kogo.'
 ---
 
 ## Werdykt na start — kto wygra szybkość decyzji

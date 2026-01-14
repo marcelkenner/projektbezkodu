@@ -3,20 +3,20 @@ title: MailerLite vs ConvertKit — który wybrać w 2026?
 slug: mailerlite-vs-convertkit
 path: /porownania/mailerlite-vs-convertkit/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - email
+    - email
   tags:
-  - mailerlite
-  - convertkit
+    - mailerlite
+    - convertkit
 hero:
   heading: MailerLite vs ConvertKit
   subheading: Porównanie wartości, funkcji i kto na tym zyskuje — krótko i praktycznie.
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 ---
 
 ## Obietnica: wybór w 2 zdaniach dla twórców i małych firm

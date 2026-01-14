@@ -4,29 +4,30 @@ slug: webflow-vs-wordpress
 path: /porownania/webflow-vs-wordpress/
 draft: false
 template: comparison
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Webflow vs WordPress
   subheading: Czy warto przechodzić z WordPressa na Webflow i kiedy to się opłaca?
 seo:
   title: Webflow vs WordPress — porównanie kosztów, wydajności i utrzymania
-  description: "Szybki przewodnik: kiedy Webflow oszczędzi ci czasu i gdzie WordPress\
-    \ wciąż jest lepszym wyborem."
+  description: >-
+    Szybki przewodnik: kiedy Webflow oszczędzi ci czasu i gdzie WordPress wciąż
+    jest lepszym wyborem.
   keywords:
-  - webflow
-  - wordpress
-  - porównanie
+    - webflow
+    - wordpress
+    - porównanie
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   tools:
-  - webflow
-  - wordpress
+    - webflow
+    - wordpress
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - webflow
-  - wordpress
+    - webflow
+    - wordpress
 ---
 
 ## Szybkie obietnice decyzji (dla kogo ten tekst)

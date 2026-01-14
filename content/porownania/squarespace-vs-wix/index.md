@@ -3,27 +3,27 @@ title: Squarespace vs Wix — którą wybrać w 2026?
 slug: squarespace-vs-wix
 path: /porownania/squarespace-vs-wix/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - squarespace
-  - wix
+    - squarespace
+    - wix
 hero:
   heading: Squarespace vs Wix
-  subheading: "Krótki przewodnik decyzji: design, e‑commerce, koszty i krzywa uczenia\
-    \ się."
+  subheading: 'Krótki przewodnik decyzji: design, e‑commerce, koszty i krzywa uczenia się.'
 meta:
   difficulty: łatwe — decyzja w 10–30 minut
   duration: 10–30 minut
   author: Redakcja Recenzji
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Wix dla elastyczności i niskiego progu wejścia; Squarespace dla estetyki\
-    \ i prostoty handlu."
+    - >-
+      Werdykt: Wix dla elastyczności i niskiego progu wejścia; Squarespace dla
+      estetyki i prostoty handlu.
 ---
 
 ## Obietnica decyzji — komu to pomoże

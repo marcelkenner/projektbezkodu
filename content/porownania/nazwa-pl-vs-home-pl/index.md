@@ -3,31 +3,35 @@ title: Nazwa.pl vs Home.pl — szybki wybór dla domeny i hostingu
 slug: nazwa-pl-vs-home-pl
 path: /porownania/nazwa-pl-vs-home-pl/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - hosting
+    - hosting
   tags:
-  - nazwa-pl
-  - home-pl
+    - nazwa-pl
+    - home-pl
 hero:
   heading: Nazwa.pl vs Home.pl
   subheading: Krótki poradnik, która usługa lepiej pasuje do Twojego projektu
 seo:
   title: Nazwa.pl czy Home.pl — porównanie ofert, ceny i rekomendacje
-  description: "Porównanie Nazwa.pl i Home.pl: kto lepiej sprawdzi się przy prostej\
-    \ stronie, sklepie i poczcie firmowej. Szybki werdykt i kroki startowe."
+  description: >-
+    Porównanie Nazwa.pl i Home.pl: kto lepiej sprawdzi się przy prostej stronie,
+    sklepie i poczcie firmowej. Szybki werdykt i kroki startowe.
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Nazwa.pl — jeśli szukasz integracji chmurowych i globalnych rozwiązań."
-  - "Werdykt: Home.pl — jeśli chcesz prosty start z promocjami cenowymi i czytelnym\
-    \ cennikiem."
+    - >-
+      Werdykt: Nazwa.pl — jeśli szukasz integracji chmurowych i globalnych
+      rozwiązań.
+    - >-
+      Werdykt: Home.pl — jeśli chcesz prosty start z promocjami cenowymi i
+      czytelnym cennikiem.
 ---
 
 ## Obietnica i dla kogo to jest

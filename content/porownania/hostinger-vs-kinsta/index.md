@@ -3,37 +3,42 @@ title: Hostinger vs Kinsta — który hosting wybrać w 2026?
 slug: hostinger-vs-kinsta
 path: /porownania/hostinger-vs-kinsta/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 type: review
 hero:
   heading: Hostinger vs Kinsta
-  subheading: "Krótki przewodnik: kiedy wybrać tani hosting, a kiedy zapłacić za zarządzane\
-    \ środowisko WordPress."
+  subheading: >-
+    Krótki przewodnik: kiedy wybrać tani hosting, a kiedy zapłacić za zarządzane
+    środowisko WordPress.
 seo:
   title: Hostinger vs Kinsta — porównanie 2026
-  description: "Porównanie Hostinger i Kinsta: ceny, wydajność, wsparcie i typowe\
-    \ pułapki. Kto oszczędzi, a kto straci czas i pieniądze?"
+  description: >-
+    Porównanie Hostinger i Kinsta: ceny, wydajność, wsparcie i typowe pułapki.
+    Kto oszczędzi, a kto straci czas i pieniądze?
   keywords:
-  - hosting
-  - hostinger
-  - kinsta
+    - hosting
+    - hostinger
+    - kinsta
 meta:
   difficulty: łatwy
   duration: 5–15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Hostinger — najlepszy wybór dla budżetowych stron i początkujących."
-  - "Werdykt: Kinsta — najlepszy wybór dla wymagających WordPressów, agencji i stron\
-    \ z dużym ruchem."
+    - >-
+      Werdykt: Hostinger — najlepszy wybór dla budżetowych stron i
+      początkujących.
+    - >-
+      Werdykt: Kinsta — najlepszy wybór dla wymagających WordPressów, agencji i
+      stron z dużym ruchem.
 taxonomy:
   categories:
-  - hosting
+    - hosting
   tags:
-  - hostinger
-  - kinsta
+    - hostinger
+    - kinsta
 ---
 
 ## Krótka obietnica decyzji (dla kogo ten tekst)

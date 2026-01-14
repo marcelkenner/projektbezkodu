@@ -3,33 +3,37 @@ title: GetResponse vs MailerLite — które narzędzie do e-mail marketingu wybr
 slug: getresponse-vs-mailerlite
 path: /porownania/getresponse-vs-mailerlite/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - email
+    - email
   tags:
-  - getresponse
-  - mailerlite
+    - getresponse
+    - mailerlite
 hero:
   heading: GetResponse vs MailerLite
-  subheading: Porównanie pod kątem automatyzacji, landing page'y, webinarów i kosztu
+  subheading: >-
+    Porównanie pod kątem automatyzacji, landing page'y, webinarów i kosztu
     wejścia.
 seo:
   title: GetResponse vs MailerLite — porównanie 2026
-  description: "GetResponse vs MailerLite: który wybór ma sens dla małej firmy, sklepu\
-    \ i twórcy? Krótki werdykt i praktyczne wskazówki."
+  description: >-
+    GetResponse vs MailerLite: który wybór ma sens dla małej firmy, sklepu i
+    twórcy? Krótki werdykt i praktyczne wskazówki.
 meta:
   difficulty: średni
   duration: 10 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: GetResponse dla zespołów średnich i dużych; MailerLite dla prostoty\
-    \ i niższego TCO."
-  - "Szybkie starty: oba oferują 14-dniowe triale; MailerLite ma darmowy próg do 500\
-    \ subskrybentów."
+    - >-
+      Werdykt: GetResponse dla zespołów średnich i dużych; MailerLite dla
+      prostoty i niższego TCO.
+    - >-
+      Szybkie starty: oba oferują 14-dniowe triale; MailerLite ma darmowy próg
+      do 500 subskrybentów.
 ---
 
 ## Kto powinien czytać ten tekst — obietnica decyzji

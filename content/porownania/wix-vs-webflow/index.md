@@ -4,30 +4,32 @@ slug: wix-vs-webflow
 path: /porownania/wix-vs-webflow/
 draft: false
 template: comparison
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Wix vs Webflow
-  subheading: "Krótki przewodnik decyzji: szybki start kontra kontrola projektowa"
+  subheading: 'Krótki przewodnik decyzji: szybki start kontra kontrola projektowa'
 seo:
-  title: "Wix vs Webflow: porównanie 2026"
-  description: "Praktyczne porównanie Wix i Webflow: koszty, e‑commerce, krzywa nauki\
-    \ i typowe zastosowania."
+  title: 'Wix vs Webflow: porównanie 2026'
+  description: >-
+    Praktyczne porównanie Wix i Webflow: koszty, e‑commerce, krzywa nauki i
+    typowe zastosowania.
 meta:
   difficulty: średnio
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Wix — dla szybkiego startu i e‑commerce."
-  - "Werdykt: Webflow — dla projektantów potrzebujących pełnej kontroli i skalowalnego\
-    \ CMS."
+    - 'Werdykt: Wix — dla szybkiego startu i e‑commerce.'
+    - >-
+      Werdykt: Webflow — dla projektantów potrzebujących pełnej kontroli i
+      skalowalnego CMS.
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - wix
-  - webflow
+    - wix
+    - webflow
 ---
 
 ## Obietnica decyzji (krótko)

@@ -3,16 +3,16 @@ title: Jetboost Recenzja
 slug: recenzja
 path: /narzedzia/jetboost/recenzja/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
   heading: Jetboost Recenzja
-  subheading: "Szybki przewodnik i decyzja: dla kogo Jetboost ma sens, a kiedy omijać"
+  subheading: 'Szybki przewodnik i decyzja: dla kogo Jetboost ma sens, a kiedy omijać'
 template: default
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 ---
 

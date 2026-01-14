@@ -3,29 +3,31 @@ title: Unbounce Vs Instapage Vs Leadpages
 slug: unbounce-vs-instapage-vs-leadpages
 path: /porownania/unbounce-vs-instapage-vs-leadpages/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 template: comparison
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - unbounce
-  - instapage
-  - leadpages
+    - unbounce
+    - instapage
+    - leadpages
 hero:
   heading: Unbounce Vs Instapage Vs Leadpages
-  subheading: Który builder landing page wybrać w 2026 — szybkie porównanie cen, testów
-    i skalowania.
+  subheading: >-
+    Który builder landing page wybrać w 2026 — szybkie porównanie cen, testów i
+    skalowania.
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Średni
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: wybór zależy od budżetu i priorytetu: testy → Unbounce/Instapage, szybkość\
-    \ budżetu → Leadpages."
-  - "Szybki start: 14-dniowe triale u większości dostawców."
+    - >-
+      Werdykt: wybór zależy od budżetu i priorytetu: testy → Unbounce/Instapage,
+      szybkość budżetu → Leadpages.
+    - 'Szybki start: 14-dniowe triale u większości dostawców.'
 ---
 
 ## Krótki werdykt i dla kogo to ma sens

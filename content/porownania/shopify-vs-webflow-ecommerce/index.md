@@ -3,21 +3,21 @@ title: Shopify vs Webflow Ecommerce — co wybrać w 2026?
 slug: shopify-vs-webflow-ecommerce
 path: /porownania/shopify-vs-webflow-ecommerce/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - commerce
-  - site-builder
+    - commerce
+    - site-builder
   tags:
-  - shopify
-  - webflow
+    - shopify
+    - webflow
 hero:
   heading: Shopify vs Webflow Ecommerce
   subheading: Krótkie, praktyczne porównanie dla właścicieli sklepów i projektantów
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 5–10 min
 ---

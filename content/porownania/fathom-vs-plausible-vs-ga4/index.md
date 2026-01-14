@@ -5,30 +5,34 @@ path: /porownania/fathom-vs-plausible-vs-ga4/
 draft: false
 template: comparison
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Fathom vs Plausible vs GA4
-  subheading: "Krótki, praktyczny przewodnik: prostota, prywatność czy pełna funkcjonalność?"
+  subheading: >-
+    Krótki, praktyczny przewodnik: prostota, prywatność czy pełna
+    funkcjonalność?
 seo:
   title: Fathom vs Plausible vs GA4 — wybór analityki 2026
-  description: "Szybki przegląd: co dostaniesz od Fathom, Plausible i Google Analytics\
-    \ 4; dla kogo który produkt ma sens."
+  description: >-
+    Szybki przegląd: co dostaniesz od Fathom, Plausible i Google Analytics 4;
+    dla kogo który produkt ma sens.
 meta:
   difficulty: średni
   duration: 5–15 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Plausible dla prostoty, Fathom dla bardziej dopracowanego cookieless\
-    \ i GA4 gdy potrzebujesz cross-device i integracji z Ads."
+    - >-
+      Werdykt: Plausible dla prostoty, Fathom dla bardziej dopracowanego
+      cookieless i GA4 gdy potrzebujesz cross-device i integracji z Ads.
 taxonomy:
   categories:
-  - analytics
+    - analytics
   tags:
-  - fathom
-  - plausible
-  - ga4
+    - fathom
+    - plausible
+    - ga4
 ---
 
 ## Obietnica decyzji

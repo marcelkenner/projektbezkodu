@@ -3,7 +3,7 @@ title: Kapwing Faq
 slug: faq
 path: /narzedzia/kapwing/faq/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   image:
     src: /img/article_image.jpeg

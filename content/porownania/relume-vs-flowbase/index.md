@@ -1,35 +1,38 @@
 ---
-title: "Relume vs Flowbase: która biblioteka komponentów dla Webflow?"
+title: 'Relume vs Flowbase: która biblioteka komponentów dla Webflow?'
 slug: relume-vs-flowbase
 path: /porownania/relume-vs-flowbase/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 type: comparison
 taxonomy:
   categories:
-  - component-library
+    - component-library
   tags:
-  - relume
-  - flowbase
+    - relume
+    - flowbase
 hero:
   heading: Relume vs Flowbase
-  subheading: "Krótki test i jasny werdykt: który wybierzesz do szybkiego budowania\
-    \ w Webflow"
+  subheading: >-
+    Krótki test i jasny werdykt: który wybierzesz do szybkiego budowania w
+    Webflow
 seo:
   title: Relume vs Flowbase — porównanie bibliotek komponentów Webflow
-  description: Relume oferuje 1k+ komponentów i integrację Site Builder; Flowbase
-    ma największą bibliotekę komponentów i darmowe FlowUI. Która lepsza dla agencji
+  description: >-
+    Relume oferuje 1k+ komponentów i integrację Site Builder; Flowbase ma
+    największą bibliotekę komponentów i darmowe FlowUI. Która lepsza dla agencji
     i freelancera?
 meta:
   difficulty: średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Relume dla zespołów potrzebujących spójnego design-systemu; Flowbase\
-    \ dla szybkich prototypów i dużej biblioteki komponentów."
+    - >-
+      Werdykt: Relume dla zespołów potrzebujących spójnego design-systemu;
+      Flowbase dla szybkich prototypów i dużej biblioteki komponentów.
 ---
 
 ## Krótkie obietnica decyzji

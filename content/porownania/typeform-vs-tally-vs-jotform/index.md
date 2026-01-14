@@ -3,31 +3,36 @@ title: Typeform vs Tally vs Jotform — który formularz wybrać w 2026?
 slug: typeform-vs-tally-vs-jotform
 path: /porownania/typeform-vs-tally-vs-jotform/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - forms
+    - forms
   tags:
-  - typeform
-  - tally
-  - jotform
+    - typeform
+    - tally
+    - jotform
 hero:
   heading: Typeform vs Tally vs Jotform
-  subheading: "Krótkie porównanie: kiedy wybrać design, gdy liczy się koszt, a kiedy\
-    \ potrzebujesz pełnej funkcji biznesowej"
+  subheading: >-
+    Krótkie porównanie: kiedy wybrać design, gdy liczy się koszt, a kiedy
+    potrzebujesz pełnej funkcji biznesowej
 meta:
   difficulty: Łatwy
   duration: 15 min
   author: Redakcja Testów
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Typeform — najlepszy dla rozwiązań skoncentrowanych na doświadczeniu\
-    \ użytkownika i leadach."
-  - "Werdykt: Tally — najlepszy wybór dla szybkich, niskokosztowych formularzy i prototypów."
-  - "Werdykt: Jotform — najlepszy kiedy potrzebujesz dużej liczby szablonów, integracji\
-    \ i zgodności (HIPAA/Enterprise)."
+    - >-
+      Werdykt: Typeform — najlepszy dla rozwiązań skoncentrowanych na
+      doświadczeniu użytkownika i leadach.
+    - >-
+      Werdykt: Tally — najlepszy wybór dla szybkich, niskokosztowych formularzy
+      i prototypów.
+    - >-
+      Werdykt: Jotform — najlepszy kiedy potrzebujesz dużej liczby szablonów,
+      integracji i zgodności (HIPAA/Enterprise).
 ---
 
 ## Obietnica decyzji

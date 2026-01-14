@@ -3,28 +3,30 @@ title: Envato Elements vs Creative Market — porównanie dla projektantów i ma
 slug: envato-elements-vs-creative-market
 path: /porownania/envato-elements-vs-creative-market/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - media
+    - media
   tags:
-  - envato-elements
-  - creative-market
+    - envato-elements
+    - creative-market
 hero:
   heading: Envato Elements vs Creative Market
-  subheading: "Szybkie porównanie: subskrypcja kontra zakupy pojedyncze — co się opłaca\
-    \ w praktyce?"
+  subheading: >-
+    Szybkie porównanie: subskrypcja kontra zakupy pojedyncze — co się opłaca w
+    praktyce?
 meta:
   difficulty: średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Envato — najlepsze przy stałej potrzebie assetów i projektów wielokrotnych.\
-    \ Creative Market — lepszy dla jednorazowych, wysokiej jakości elementów i kontroli\
-    \ licencji."
+    - >-
+      Werdykt: Envato — najlepsze przy stałej potrzebie assetów i projektów
+      wielokrotnych. Creative Market — lepszy dla jednorazowych, wysokiej
+      jakości elementów i kontroli licencji.
 ---
 
 ## Obietnica decyzji — dla kogo to jest

@@ -4,37 +4,41 @@ slug: webflow-vs-framer
 path: /porownania/webflow-vs-framer/
 draft: false
 template: comparison
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Webflow vs Framer
   subheading: Dwa najpopularniejsze narzędzia do landingów no-code — co wybrać?
 seo:
-  title: "Webflow vs Framer — porównanie: projektowanie, CMS, wydajność, koszty"
-  description: "Szybki przewodnik: kiedy wybrać Webflow, a kiedy Framer — konkretne\
-    \ scenariusze, ceny i pułapki."
+  title: 'Webflow vs Framer — porównanie: projektowanie, CMS, wydajność, koszty'
+  description: >-
+    Szybki przewodnik: kiedy wybrać Webflow, a kiedy Framer — konkretne
+    scenariusze, ceny i pułapki.
   keywords:
-  - webflow
-  - framer
-  - porównanie
+    - webflow
+    - framer
+    - porównanie
 meta:
   difficulty: średni
   duration: 5–30 min (pierwszy prototyp)
   tools:
-  - webflow
-  - framer
+    - webflow
+    - framer
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Webflow dla projektów z rozbudowanym CMS i dużą kontrolą nad strukturą."
-  - "Werdykt: Framer dla szybkich, animowanych landingów i prototypów, które mają\
-    \ wyglądać nowocześnie bez długiej konfiguracji."
+    - >-
+      Werdykt: Webflow dla projektów z rozbudowanym CMS i dużą kontrolą nad
+      strukturą.
+    - >-
+      Werdykt: Framer dla szybkich, animowanych landingów i prototypów, które
+      mają wyglądać nowocześnie bez długiej konfiguracji.
 taxonomy:
   categories:
-  - site-builder
+    - site-builder
   tags:
-  - webflow
-  - framer
+    - webflow
+    - framer
 ---
 
 ## Szybki werdykt — obietnica decyzji

@@ -3,32 +3,35 @@ title: Beehiiv vs ConvertKit — porównanie dla twórców (2026)
 slug: beehiiv-vs-convertkit
 path: /porownania/beehiiv-vs-convertkit/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - email
+    - email
   tags:
-  - beehiiv
-  - convertkit
+    - beehiiv
+    - convertkit
 hero:
   heading: Beehiiv vs ConvertKit
   subheading: Porównanie funkcji, cen i metod monetyzacji dla twórców newsletterów.
 seo:
   title: Beehiiv vs ConvertKit — który wybrać w 2026?
-  description: "Szybki przewodnik: cena, monetyzacja, automatyzacje i kto zyska więcej\
-    \ na Beehiiv lub ConvertKit."
+  description: >-
+    Szybki przewodnik: cena, monetyzacja, automatyzacje i kto zyska więcej na
+    Beehiiv lub ConvertKit.
 meta:
   difficulty: Średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Beehiiv to lepszy wybór dla twórców szukających łatwej monetyzacji i\
-    \ dostępu do sieci reklamowej."
-  - "Werdykt: ConvertKit (Kit) sprawdzi się, jeśli zależy ci na prostocie automatyzacji\
-    \ i rozbudowanych integracjach."
+    - >-
+      Werdykt: Beehiiv to lepszy wybór dla twórców szukających łatwej
+      monetyzacji i dostępu do sieci reklamowej.
+    - >-
+      Werdykt: ConvertKit (Kit) sprawdzi się, jeśli zależy ci na prostocie
+      automatyzacji i rozbudowanych integracjach.
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

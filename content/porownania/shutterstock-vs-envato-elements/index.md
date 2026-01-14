@@ -3,7 +3,7 @@ title: Shutterstock vs Envato Elements — które wybrać w 2026?
 slug: shutterstock-vs-envato-elements
 path: /porownania/shutterstock-vs-envato-elements/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 type: article
 hero:
@@ -11,20 +11,21 @@ hero:
   subheading: Porównanie cen, licencji, biblioteki i typowych zastosowań
 seo:
   title: Shutterstock vs Envato Elements — porównanie 2026
-  description: "Porównanie Shutterstock i Envato Elements: ceny, typy licencji, jakość\
-    \ zasobów i rekomendacje dla projektantów, marketerów i twórców treści."
+  description: >-
+    Porównanie Shutterstock i Envato Elements: ceny, typy licencji, jakość
+    zasobów i rekomendacje dla projektantów, marketerów i twórców treści.
 meta:
   difficulty: łatwe
   duration: 7 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - media
+    - media
   tags:
-  - shutterstock
-  - envato-elements
+    - shutterstock
+    - envato-elements
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

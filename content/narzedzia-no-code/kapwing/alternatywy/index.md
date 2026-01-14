@@ -3,7 +3,7 @@ title: Kapwing Alternatywy
 slug: alternatywy
 path: /narzedzia/kapwing/alternatywy/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   image:
@@ -15,20 +15,22 @@ meta:
   difficulty: Łatwy
   duration: 5–15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Dla szybkich klipów i prostych edycji Kapwing jest OK; jeśli potrzebujesz\
-    \ transkrypcji, overdubu lub zaawansowanej automatyki, rozważ Descript lub Synthesia."
-  - "Szybki start: Zarejestrujesz konto i zrobisz pierwszy eksport w ~5 minut."
+    - >-
+      Werdykt: Dla szybkich klipów i prostych edycji Kapwing jest OK; jeśli
+      potrzebujesz transkrypcji, overdubu lub zaawansowanej automatyki, rozważ
+      Descript lub Synthesia.
+    - 'Szybki start: Zarejestrujesz konto i zrobisz pierwszy eksport w ~5 minut.'
 taxonomy:
   categories:
-  - narzędzia
-  - wideo
+    - narzędzia
+    - wideo
   tags:
-  - Kapwing
-  - alternatywy
-  - edytory wideo
+    - Kapwing
+    - alternatywy
+    - edytory wideo
 ---
 
 ## Obietnica decyzji dla Twórców

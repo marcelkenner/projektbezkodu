@@ -3,28 +3,31 @@ title: Storyblocks vs Envato Elements (wideo) — prosty wybór dla twórców
 slug: storyblocks-vs-envato-video
 path: /porownania/storyblocks-vs-envato-video/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: comparison
 taxonomy:
   categories:
-  - media
+    - media
   tags:
-  - storyblocks
-  - envato-elements
+    - storyblocks
+    - envato-elements
 hero:
   heading: Storyblocks vs Envato Elements — wideo
-  subheading: "Który serwis lepiej pasuje do twoich projektów wideo: subskrypcja z\
-    \ nielimitowanymi zasobami czy biblioteka z licencją per użycie?"
+  subheading: >-
+    Który serwis lepiej pasuje do twoich projektów wideo: subskrypcja z
+    nielimitowanymi zasobami czy biblioteka z licencją per użycie?
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: łatwe do sprawdzenia
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Storyblocks — jeśli potrzebujesz nieograniczonych pobrań i prostych\
-    \ licencji do przezroczystej produkcji."
-  - "Werdykt: Envato Elements — jeśli cenisz większą pulę assetów i licencję „lifetime”\
-    \ po rejestracji projektu."
+    - >-
+      Werdykt: Storyblocks — jeśli potrzebujesz nieograniczonych pobrań i
+      prostych licencji do przezroczystej produkcji.
+    - >-
+      Werdykt: Envato Elements — jeśli cenisz większą pulę assetów i licencję
+      „lifetime” po rejestracji projektu.
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst
