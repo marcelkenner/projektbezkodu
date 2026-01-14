@@ -84,16 +84,6 @@ Potem dodaj trzy sekcje: oferta, social proof (chociażby 2–3 konkretne realiz
 
 Na końcu podepnij jeden scenariusz płatności. Jeśli sprzedajesz usługę, zacznij od jednego przycisku „Zapłać i zarezerwuj” — to najszybszy sposób, żeby Dorik zaczął zarabiać na siebie.
 
-## Szybkie linki do naszych materiałów o Dorik
-
-Jeśli wolisz iść wprost do konkretu, tu masz skróty:
-
-- /narzedzia/dorik/recenzja/
-- /narzedzia/dorik/cennik/
-- /narzedzia/dorik/alternatywy/
-- /narzedzia/dorik/faq/
-- /narzedzia/dorik/onepage-templates/
-- /narzedzia/dorik/formularze-platnosci/
 
 ## Podsumowanie: komu Dorik pasuje, a komu nie
 

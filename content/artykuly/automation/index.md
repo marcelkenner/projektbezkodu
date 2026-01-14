@@ -1,14 +1,2 @@
----
-title: 'Kategoria: Automation'
-slug: automation
-path: /artykuly/automation/
-draft: true
-date: '2025-11-05'
-hero:
-  heading: 'Kategoria: Automation'
-  subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
----
-
-# Kategoria: Automation
-
-> Placeholder page for **Kategoria: Automation** at $pathForFm.
+Automation w no-code: dla kogo to jest i kiedy naprawdę się opłaca
+Tekst „ustawiający” kategorię. Jasny werdykt: automatyzacja ma sens, gdy masz powtarzalny proces i koszt błędu, a nie wtedy, gdy po prostu lubisz klikać w narzędzia.
