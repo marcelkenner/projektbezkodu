@@ -65,10 +65,20 @@ export class LatestArticlesManager {
     if (entry.document.frontmatter.draft === true) {
       return false;
     }
+    if (this.isHubType(entry.document.frontmatter.type)) {
+      return false;
+    }
     if (!prefixes.some((prefix) => entry.path.startsWith(prefix))) {
       return false;
     }
     return !prefixes.includes(entry.path);
+  }
+
+  private isHubType(type: unknown): boolean {
+    if (typeof type !== "string") {
+      return false;
+    }
+    return type.trim().toLowerCase() === "hub";
   }
 
   private toSummary(entry: ContentRouteEntry): ContentSummary {

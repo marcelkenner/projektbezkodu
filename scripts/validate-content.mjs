@@ -269,6 +269,8 @@ function validateArticleHubHierarchy(derivedPath, filePath) {
       filePath,
       `Missing hub page for /artykuly/${category}/ (expected ${path.relative(PROJECT_ROOT, categoryIndex)}).`,
     );
+  } else {
+    validateArticleHubFrontmatter(categoryIndex, filePath, `/artykuly/${category}/`);
   }
 
   if (segments.length < 4) {
@@ -287,5 +289,46 @@ function validateArticleHubHierarchy(derivedPath, filePath) {
       filePath,
       `Missing hub page for /artykuly/${category}/${subcategory}/ (expected ${path.relative(PROJECT_ROOT, subcategoryIndex)}).`,
     );
+  } else {
+    validateArticleHubFrontmatter(
+      subcategoryIndex,
+      filePath,
+      `/artykuly/${category}/${subcategory}/`,
+    );
+  }
+}
+
+function validateArticleHubFrontmatter(indexPath, filePath, expectedPath) {
+  const parsed = readFrontmatter(indexPath, filePath);
+  if (!parsed) {
+    return;
+  }
+  if (isDraft(parsed)) {
+    registerError(
+      filePath,
+      `Hub page ${path.relative(PROJECT_ROOT, indexPath)} is marked as draft, but published pages exist under ${expectedPath}.`,
+    );
+    return;
+  }
+  const type = typeof parsed?.type === "string" ? parsed.type.trim().toLowerCase() : "";
+  if (type !== "hub") {
+    registerError(
+      filePath,
+      `Hub page ${path.relative(PROJECT_ROOT, indexPath)} must define front matter type: hub for routing (${expectedPath}).`,
+    );
+  }
+}
+
+function readFrontmatter(indexPath, filePath) {
+  try {
+    const file = fs.readFileSync(indexPath, "utf8");
+    const parsed = matter(file);
+    return parsed.data ?? {};
+  } catch (error) {
+    registerError(
+      filePath,
+      `Failed to read hub page front matter at ${path.relative(PROJECT_ROOT, indexPath)}: ${error.message}`,
+    );
+    return null;
   }
 }

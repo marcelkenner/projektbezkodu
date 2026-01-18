@@ -274,7 +274,7 @@ export class ArticleRepository {
 
     const entries = this.library
       .listRoutes()
-      .filter(({ document }) => this.isArticle(document))
+      .filter((route) => this.isArticleRoute(route))
       .map((route) => ({
         route,
         summary: this.createSummary(route),
@@ -285,10 +285,25 @@ export class ArticleRepository {
     return entries;
   }
 
-  private isArticle(document: MarkdownDocument): boolean {
-    const template = document.frontmatter.template;
-    const draft = document.frontmatter.draft;
-    return template === "article" && !draft;
+  private isArticleRoute(route: ContentRouteEntry): boolean {
+    if (!route.path.startsWith("/artykuly/")) {
+      return false;
+    }
+    const { frontmatter } = route.document;
+    if (frontmatter.draft) {
+      return false;
+    }
+    if (frontmatter.template === "legal") {
+      return false;
+    }
+    return !this.isHubType(frontmatter.type);
+  }
+
+  private isHubType(type: unknown): boolean {
+    if (typeof type !== "string") {
+      return false;
+    }
+    return type.trim().toLowerCase() === "hub";
   }
 
   private createSummary(route: ContentRouteEntry): ContentSummary {

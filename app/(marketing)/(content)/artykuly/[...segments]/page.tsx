@@ -5,8 +5,8 @@ import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { ArtykulyHubPage } from "../ArtykulyHubPage";
-import { buildArticleDetailMetadata } from "../[slug]/ArticleDetailMetadata";
-import { ArticleDetailPage } from "../[slug]/ArticleDetailPage";
+import { buildArticleDetailMetadata } from "../article/ArticleDetailMetadata";
+import { ArticleDetailPage } from "../article/ArticleDetailPage";
 
 const hubManager = new ArticleHubManager();
 const articleRepository = new ArticleRepository();
@@ -20,7 +20,7 @@ interface ArticleSegmentsPageProps {
 export function generateStaticParams() {
   const hubParams = hubManager.listHubParams(4);
   const hubs = hubParams
-    .filter((entry) => entry.segments.length >= 2)
+    .filter((entry) => entry.segments.length >= 1)
     .map((entry) => ({ segments: entry.segments }));
 
   const articleParams = summaries
@@ -37,6 +37,9 @@ export async function generateMetadata({
   params,
 }: ArticleSegmentsPageProps): Promise<Metadata> {
   const { segments } = await params;
+  if (segments.length > 3) {
+    return {};
+  }
   const hub = hubManager.getHub(segments);
   if (hub) {
     return {
@@ -53,7 +56,7 @@ export async function generateMetadata({
   const article = hubManager.findArticleByPath(pathname);
   if (!article) {
     const entry = contentLibrary.getEntry(["artykuly", ...resolved]);
-    if (!entry || entry.document.frontmatter.template !== "article") {
+    if (!entry || isHubType(entry.document.frontmatter.type)) {
       return {};
     }
     return buildArticleDetailMetadata(entry.document.slug);
@@ -65,6 +68,9 @@ export default async function ArticleSegmentsPage({
   params,
 }: ArticleSegmentsPageProps) {
   const { segments } = await params;
+  if (segments.length > 3) {
+    notFound();
+  }
   const hub = hubManager.getHub(segments);
   if (hub) {
     if (segments.join("/") !== hub.hub.segments.join("/")) {
@@ -78,7 +84,7 @@ export default async function ArticleSegmentsPage({
   const article = hubManager.findArticleByPath(pathname);
   if (!article) {
     const entry = contentLibrary.getEntry(["artykuly", ...resolved]);
-    if (!entry || entry.document.frontmatter.template !== "article") {
+    if (!entry || isHubType(entry.document.frontmatter.type)) {
       notFound();
     }
     if (entry.path !== pathname) {
@@ -87,4 +93,11 @@ export default async function ArticleSegmentsPage({
     return <ArticleDetailPage slug={entry.document.slug} />;
   }
   return <ArticleDetailPage slug={article.slug} />;
+}
+
+function isHubType(type: unknown): boolean {
+  if (typeof type !== "string") {
+    return false;
+  }
+  return type.trim().toLowerCase() === "hub";
 }

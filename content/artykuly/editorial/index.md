@@ -1,8 +1,9 @@
 ---
 title: 'Kalendarz editorialny bez kodu: jak go zbudować w 60 minut'
-slug: kalendarz-editorialny-bez-kodu-jak-go-zbudowac-w-60-minut
-path: /kalendarz-editorialny-bez-kodu-jak-go-zbudowac-w-60-minut
+slug: editorial
+path: /artykuly/editorial/
 template: default
+type: hub
 draft: false
 date: '2026-01-14'
 hero:

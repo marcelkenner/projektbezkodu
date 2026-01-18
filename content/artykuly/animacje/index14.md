@@ -4,7 +4,7 @@ slug: spojny-system-animacji-maly-zespol
 path: /spojny-system-animacji-maly-zespol
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: System animacji dla małego zespołu
   subheading: Szybkie reguły, znormalizowane wartości i minimalny zestaw komponentów
@@ -13,32 +13,33 @@ hero:
     href: https://www.ibm.com/design/language/animation/tips-and-techniques/
 seo:
   title: System animacji w małym zespole — przewodnik
-  description: Jak ustalić czas, easing, dystans i reguły użycia animacji w małym
-    zespole bez motion designera.
+  description: >-
+    Jak ustalić czas, easing, dystans i reguły użycia animacji w małym zespole
+    bez motion designera.
   keywords:
-  - system animacji
-  - motion design
-  - design system
-  - animacje UI
+    - system animacji
+    - motion design
+    - design system
+    - animacje UI
 meta:
   summaryBullets:
-  - "Werdykt: spójność wygrywa z przypadkową kreatywnością."
-  - "Dla kogo: małe zespoły bez dedykowanego motion designera."
-  - "Start: trzy wartości do ustalenia w 30 minut."
+    - 'Werdykt: spójność wygrywa z przypadkową kreatywnością.'
+    - 'Dla kogo: małe zespoły bez dedykowanego motion designera.'
+    - 'Start: trzy wartości do ustalenia w 30 minut.'
   primaryCta:
     label: Zobacz IBM Motion
     href: https://www.ibm.com/design/language/animation/tips-and-techniques/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   duration: 30 min – pierwszy draft
   difficulty: Łatwe do wdrożenia
 taxonomy:
   categories:
-  - UX
-  - Design System
+    - UX
+    - Design System
   tags:
-  - animacje
-  - motion
-  - design-system
+    - animacje
+    - motion
+    - design-system
 ---
 
 ## Obietnica i dla kogo

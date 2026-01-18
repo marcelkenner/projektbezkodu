@@ -4,45 +4,51 @@ slug: bledy-animacji-no-code
 path: /animacje/bledy-animacji-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Najczęstsze błędy w animacjach no-code — szybki przewodnik i werdykt
-  subheading: Co naprawić w pierwszych 10 minutach, żeby animacje przestały szkodzić
+  subheading: >-
+    Co naprawić w pierwszych 10 minutach, żeby animacje przestały szkodzić
     użyteczności
   primaryCta:
-    label: "Przykład: dodaj Lottie w Webflow"
-    href: https://help.webflow.com/hc/en-us/articles/33961351058835-Embed-Lottie-animations
+    label: 'Przykład: dodaj Lottie w Webflow'
+    href: >-
+      https://help.webflow.com/hc/en-us/articles/33961351058835-Embed-Lottie-animations
 seo:
   title: Najczęstsze błędy w animacjach no-code — jak ich unikać
-  description: Praktyczny przewodnik po typowych pułapkach przy animacjach no-code
-    (tempo, nadmiar, dostępność) i szybkie kroki naprawcze.
+  description: >-
+    Praktyczny przewodnik po typowych pułapkach przy animacjach no-code (tempo,
+    nadmiar, dostępność) i szybkie kroki naprawcze.
   keywords:
-  - animacje no-code
-  - Webflow
-  - Lottie
-  - accessibility
-  - performance
+    - animacje no-code
+    - Webflow
+    - Lottie
+    - accessibility
+    - performance
 meta:
   summaryBullets:
-  - "Werdykt: większość problemów to tempo i brak kontroli."
-  - "Dla kogo: projekty webowe i prototypy no-code, mniej dla filmowych microinteractions."
-  - "Start: sprawdź prefers-reduced-motion i czasy 150–300ms."
+    - 'Werdykt: większość problemów to tempo i brak kontroli.'
+    - >-
+      Dla kogo: projekty webowe i prototypy no-code, mniej dla filmowych
+      microinteractions.
+    - 'Start: sprawdź prefers-reduced-motion i czasy 150–300ms.'
   primaryCta:
-    label: "Czytaj: jak dodać Lottie (Webflow)"
-    href: https://help.webflow.com/hc/en-us/articles/33961351058835-Embed-Lottie-animations
-  updatedAt: "2026-01-14"
+    label: 'Czytaj: jak dodać Lottie (Webflow)'
+    href: >-
+      https://help.webflow.com/hc/en-us/articles/33961351058835-Embed-Lottie-animations
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - UX
-  - Front-end
-  - No-code
+    - UX
+    - Front-end
+    - No-code
   tags:
-  - animacje
-  - Webflow
-  - Lottie
-  - wydajność
+    - animacje
+    - Webflow
+    - Lottie
+    - wydajność
 ---
 
 ## Obietnica decyzji

@@ -123,7 +123,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 16. Narzędzia hero copy: ensure `hero.heading` and `hero.subheading` are present for all `/narzedzia/` entries. `npm run format` now runs `node scripts/fix-narzedzia-hero-heading.mjs` before Prettier to backfill missing values without touching other fields; use the script directly when needed.
 17. Homepage metadata: `app/(marketing)/page.tsx` reads front matter from `content/_examples/homepage.md` (draft). Keep its SEO fields and hero copy current even though the body is not rendered.
 18. Consistent hero copy for /artykuly, /poradniki, /porownania, /szablony: `npm run format` also runs `node scripts/fix-section-hero-headings.mjs` to backfill missing `hero.heading` and `hero.subheading` for those sections using title-based defaults.
-19. Artykuły routing: you can store multiple markdown pages under `content/artykuly/**` (including multiple `index.md` files at different depths). `npm run format` runs `node scripts/fix-artykuly-paths.mjs` to backfill missing `slug`/`title`, and (only when `path` is missing) derive `/artykuly/.../` URLs using the page title as the final segment. Category index pages at `content/artykuly/<kategoria>/index.md` keep `path: /artykuly/<kategoria>/`.
+19. Artykuły routing: you can store multiple markdown pages under `content/artykuly/**` (including multiple `index.md` files at different depths). Hubs require `type: hub` on `index.md` and live at `/artykuly/<kategoria>/` or `/artykuly/<kategoria>/<podkategoria>/`. `npm run format` runs `node scripts/fix-artykuly-paths.mjs` to backfill missing `slug`/`title` and keep `/artykuly/.../` paths consistent; `npm run content:lint` enforces hub hierarchy once leaf pages are published. See `docs/frontmatter_and_routing.md`.
 
 ## 10. Routing & Pages
 
@@ -151,7 +151,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 8. Keep `not-found.tsx` using copy helper.
 	9. Generic fallback route: `/app/(marketing)/(content)/[...segments]/page.tsx`:
 	   - Uses `ContentPageCoordinator` to locate any markdown path under `content/**`.
-	   - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure, then rewrites the last segment to a slugified `frontmatter.title` so every content URL ends with the page title.
+		   - Uses `frontmatter.path` when provided; otherwise derives `/folder/subfolder/` from directory structure. Legacy/title-slug aliases may still resolve to the canonical route via `ContentLibrary` (new links should always use canonical `path`).
 	   - Treats `content/**/glowny/index.md` as the parent route when deriving paths (so tool landing pages can live in `glowny/` without changing the URL), while also exposing an explicit alias route at `/<parent>/glowny/` for reading the main guide content.
 	   - Applies `ContentPageViewModel` metadata so SEO + OG tags inherit from frontmatter.
 	   - Excludes `_examples` and `glossary` (handled elsewhere) to avoid duplicate flows.

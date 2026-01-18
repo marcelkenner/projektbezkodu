@@ -43,7 +43,12 @@ All markdown lives under `content/**`. Each file **must**:
 6. Store hero/inline images under `public/media/{same path as markdown}/`. Example: `content/narzedzia/webflow/recenzja/index.md` ↔ `public/media/narzedzia/webflow/recenzja/hero.webp`. Reference assets as `/media/narzedzia/webflow/recenzja/hero.webp`.
 7. React-managed pages (homepage, o-nas, kontakt, etc.) follow the same mirroring pattern: `app/(marketing)/o-nas/page.tsx` uses assets in `public/media/pages/(marketing)/o-nas/`.
 
-The `/artykuly` listing now aggregates every markdown file with `template: "article"` (and `draft: false`) no matter where it lives under `content/**`. Keep `template` + `path` accurate whenever you expect a piece to appear in that listing.
+The `/artykuly` listing aggregates markdown pages whose canonical `path` lives under `/artykuly/`, excluding hubs (`type: hub`) and drafts (`draft: true`). Keep `path` accurate whenever you expect a piece to appear in that listing.
+
+`/artykuly` routing is content-driven:
+
+- **Hub pages** (`/artykuly/<category>/` and `/artykuly/<category>/<subcategory>/`) require an `index.md` under `content/artykuly/<...>/` with `type: hub` and `draft: false`. The hub body is rendered above its listing.
+- **Leaf pages** under `/artykuly/*` are anything that is not a hub (i.e. `type !== hub`) and not a draft; they appear in `/artykuly` listings and inside hub listings.
 
 Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.
 
@@ -93,6 +98,7 @@ You can expand the file with new UI copy or taxonomy terms as needed:
 ## Documentation
 
 - `docs/website_repro_playbook.md` – canonical process manual (update whenever workflows change).
+- `docs/frontmatter_and_routing.md` – how frontmatter drives URLs, hubs, and redirects.
 - `docs/newsletter_listmonk_railway.md` – environment + deployment notes for newsletter/Listmonk on Railway.
 - `docs/glossary_todo.md` – open plan for the glossary refactor.
 - `content/AGENTS.md`, `data/AGENTS.md`, etc. – directory-level guardrails.

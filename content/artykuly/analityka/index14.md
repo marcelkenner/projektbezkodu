@@ -4,43 +4,48 @@ slug: eksperymenty-cenowe-pakietowe-bez-ryzyka-wizerunkowego
 path: /analityka/eksperymenty-cenowe-pakietowe-bez-ryzyka-wizerunkowego
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Eksperymenty cenowe i pakietowe — jak testować bez ryzyka wizerunkowego
-  subheading: "Krótki przewodnik decyzji: dla kogo, jak zacząć, czego unikać"
+  subheading: 'Krótki przewodnik decyzji: dla kogo, jak zacząć, czego unikać'
 seo:
   title: Eksperymenty cenowe i pakietowe — testy bez szkody dla marki
-  description: Jak zaprojektować testy cen i pakietów, żeby nie zbić zaufania klientów
-    ani nie wyrzucić pieniędzy. Procedury, reguły bezpieczeństwa i mini-werdykt.
+  description: >-
+    Jak zaprojektować testy cen i pakietów, żeby nie zbić zaufania klientów ani
+    nie wyrzucić pieniędzy. Procedury, reguły bezpieczeństwa i mini-werdykt.
   keywords:
-  - eksperymenty cenowe
-  - A/B testy cen
-  - pakietowanie
-  - pricing experiments
-  - testy cenowe bez ryzyka
+    - eksperymenty cenowe
+    - A/B testy cen
+    - pakietowanie
+    - pricing experiments
+    - testy cenowe bez ryzyka
 meta:
   summaryBullets:
-  - "Werdykt: testuj ostrożnie — segmentuj i grand-fatheruj istniejących klientów."
-  - "Dla kogo: sensowne dla firm z ruchem i jasną segmentacją; nie dla jednego-deala\
-    \ enterprise."
-  - "Start: wyznacz kryteria zatrzymania, testuj na 10–20% ruchu, grand-fatheruj starych\
-    \ klientów."
+    - >-
+      Werdykt: testuj ostrożnie — segmentuj i grand-fatheruj istniejących
+      klientów.
+    - >-
+      Dla kogo: sensowne dla firm z ruchem i jasną segmentacją; nie dla
+      jednego-deala enterprise.
+    - >-
+      Start: wyznacz kryteria zatrzymania, testuj na 10–20% ruchu,
+      grand-fatheruj starych klientów.
   primaryCta:
     label: Artykuł o A/B testowaniu cen (HubSpot)
     href: https://blog.hubspot.com/marketing/price-testing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja Analityka
 taxonomy:
   categories:
-  - analityka
-  - pricing
-  - growth
+    - analityka
+    - pricing
+    - growth
   tags:
-  - eksperymenty
-  - ceny
-  - pakiety
-  - A/B testing
+    - eksperymenty
+    - ceny
+    - pakiety
+    - A/B testing
 ---
 
 ## Obietnica decyzji i grupa czytelników

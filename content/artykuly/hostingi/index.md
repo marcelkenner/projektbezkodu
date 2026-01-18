@@ -1,11 +1,15 @@
-﻿---
+---
 title: 'Hosting dla projektów no-code: jak wybrać najlepszą opcję na start'
-category: 'hostingi'
+slug: hostingi
+path: /artykuly/hostingi/
+draft: true
+template: default
+type: hub
+category: hostingi
 tags:
   - no-code
   - hosting
   - domeny
-draft: true
 ---
 
 # Hosting dla projektów no-code: jak wybrać najlepszą opcję na start
@@ -34,4 +38,4 @@ draft: true
 - 
 
 ## Podsumowanie
-- 
+-

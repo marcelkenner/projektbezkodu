@@ -44,20 +44,34 @@ export class ArticleCategoryDirectory {
     }
 
     const relativeIndexPath = path.relative(process.cwd(), indexPath);
-    const { frontmatter, content } = readMarkdownFile(relativeIndexPath);
-    if (
-      frontmatter.template === "article" ||
-      frontmatter.template === "legal"
-    ) {
+    let entry: ReturnType<typeof readMarkdownFile> | null = null;
+    try {
+      entry = readMarkdownFile(relativeIndexPath);
+    } catch {
+      return null;
+    }
+    const { frontmatter, content } = entry;
+    if (frontmatter.draft) {
+      return null;
+    }
+    if (!this.isHubType(frontmatter.type)) {
       return null;
     }
 
     const slug = dirName;
-    const label = this.humanize(slug);
+    const label =
+      frontmatter.hero?.heading ?? frontmatter.title ?? this.humanize(slug);
     const description =
       frontmatter.hero?.subheading ?? this.createExcerpt(content);
 
     return { slug, label, description };
+  }
+
+  private isHubType(type: unknown): boolean {
+    if (typeof type !== "string") {
+      return false;
+    }
+    return type.trim().toLowerCase() === "hub";
   }
 
   private humanize(value: string): string {

@@ -4,37 +4,40 @@ slug: top-10-automatyzacji-dla-malej-firmy-bez-it
 path: /artykuly/top-10-automatyzacji-dla-malej-firmy-bez-it
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Top 10 automatyzacji dla małej firmy w Polsce
   subheading: Konkretne pomysły do wdrożenia bez programisty — co zrobić najpierw
   primaryCta:
     label: Pełny ranking narzędzi
-    href: https://evolabs.dev/blog/ranking-narzedzi-do-automatyzacji-2025-pl-ktore-wybrac-dla-twojej-firmy/
+    href: >-
+      https://evolabs.dev/blog/ranking-narzedzi-do-automatyzacji-2025-pl-ktore-wybrac-dla-twojej-firmy/
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj ranking narzędzi
-    href: https://evolabs.dev/blog/ranking-narzedzi-do-automatyzacji-2025-pl-ktore-wybrac-dla-twojej-firmy/
-  updatedAt: "2026-01-15"
+    href: >-
+      https://evolabs.dev/blog/ranking-narzedzi-do-automatyzacji-2025-pl-ktore-wybrac-dla-twojej-firmy/
+  updatedAt: '2026-01-15'
 seo:
   title: Top 10 automatyzacji dla małej firmy w Polsce
-  description: Konkretna lista automatyzacji, które odciążą małą firmę bez angażowania
+  description: >-
+    Konkretna lista automatyzacji, które odciążą małą firmę bez angażowania
     programisty — fakt, konsekwencja, werdykt.
   keywords:
-  - automatyzacja
-  - mała firma
-  - faktury
-  - no-code
+    - automatyzacja
+    - mała firma
+    - faktury
+    - no-code
 taxonomy:
   categories:
-  - automatyzacja
+    - automatyzacja
   tags:
-  - mała firma
-  - oszczędność czasu
+    - mała firma
+    - oszczędność czasu
 ---
 
 ## Werdykt na start — kto powinien przeczytać tę listę
