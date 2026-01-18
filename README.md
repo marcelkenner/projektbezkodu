@@ -27,6 +27,8 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 
 TypeScript builds intentionally exclude `vitest.config.ts` and `**/*.test.ts` so `npm run build` can run in environments that omit dev dependencies.
 
+If a build fails with TypeScript errors referencing `.next/dev/types/*`, delete `.next/` and rerun the build (those files can be left over from `next dev`).
+
 ## UI building blocks
 
 - Article and resource listings must use the shared `ArticleCard` + `ArticleGrid` from `app/ui/articles/ArticleCard.tsx`; do not recreate per-page card variants.
@@ -49,6 +51,7 @@ The `/artykuly` listing aggregates markdown pages whose canonical `path` lives u
 `/artykuly` routing is content-driven:
 
 - **Hub pages** (`/artykuly/<category>/` and `/artykuly/<category>/<subcategory>/`) require an `index.md` under `content/artykuly/<...>/` with `type: hub` and `draft: false`. The hub body is rendered above its listing.
+- **Hub pages** (`/artykuly/<category>/` and `/artykuly/<category>/<subcategory>/`) require an `index.md` under `content/artykuly/<...>/` with `type: hub` and `draft: false`. Hub pages only render the article-card listing (markdown body is ignored).
 - **Leaf pages** under `/artykuly/*` are anything that is not a hub (i.e. `type !== hub`) and not a draft; they appear in `/artykuly` listings and inside hub listings.
 
 Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.

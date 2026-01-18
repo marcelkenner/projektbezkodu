@@ -6,7 +6,7 @@ template: default
 draft: false
 date: '2026-01-14'
 hero:
-  heading: 'Raport 2026: trendy na rynku narzędzi no-code'
+  heading: 'Badania no-code'
   subheading: Szybkie decyzje dla menedżerów produktów i liderów IT
 meta:
   summaryBullets:

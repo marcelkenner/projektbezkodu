@@ -7,7 +7,7 @@ type: hub
 draft: false
 date: '2026-01-14'
 hero:
-  heading: 'Kalendarz editorialny bez kodu: jak go zbudować w 60 minut'
+  heading: 'Kalendarz editorialny bez kodu'
   subheading: Szybki plan, który możesz wdrożyć w godzinę w Notion, Airtable lub Trello
 seo:
   title: Kalendarz editorialny bez kodu – szablon i plan na 60 minut

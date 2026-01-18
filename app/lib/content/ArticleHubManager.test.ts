@@ -20,7 +20,7 @@ function writeFile(filePath: string, content: string) {
 }
 
 describe("ArticleHubManager", () => {
-  it("treats only type: hub index.md as a hub and exposes its markdown body", () => {
+  it("treats only type: hub index.md as a hub and does not expose its markdown body", () => {
     const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "pbk-hubs-"));
     const hubIndex = path.join(tmpDir, "category", "index.md");
     const leafIndex = path.join(tmpDir, "category", "stopka", "index.md");
@@ -77,7 +77,7 @@ describe("ArticleHubManager", () => {
     const hub = manager.getHub(["category"]);
     expect(hub).not.toBeNull();
     expect(hub?.hub.href).toBe("/artykuly/category/");
-    expect(hub?.hub.body).toContain("Hub body content.");
+    expect(hub?.hub.body).toBeUndefined();
     expect(hub?.articles.map((entry) => entry.path)).toEqual([
       "/artykuly/category/stopka/",
     ]);
@@ -114,4 +114,3 @@ describe("ArticleHubManager", () => {
     expect(hubs.map((hub) => hub.href)).toEqual(["/artykuly/valid/"]);
   });
 });
-

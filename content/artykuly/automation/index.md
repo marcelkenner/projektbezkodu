@@ -6,7 +6,7 @@ template: default
 draft: false
 date: '2026-01-15'
 hero:
-  heading: 'Automation w no-code: dla kogo i kiedy się opłaca'
+  heading: 'Automation w no-code'
   subheading: Szybki werdykt, kryteria decyzji i 5‑minutowy test startowy
 seo:
   title: Automation w no-code — kiedy warto automatyzować?

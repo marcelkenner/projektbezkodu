@@ -152,7 +152,6 @@ export class ArticleHubManager {
       label,
       description,
       href,
-      body: content,
     };
   }
 
