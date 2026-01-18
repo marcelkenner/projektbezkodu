@@ -3,7 +3,7 @@ title: >-
   No-code w praktyce: 10 przypadków użycia, które realnie oszczędzają czas i
   nerwy
 slug: no-code-w-praktyce-10-przypadkow
-path: /no-code-w-praktyce-10-przypadkow
+path: /artykuly/przypadki-uzycia
 template: default
 draft: false
 date: '2026-01-14'

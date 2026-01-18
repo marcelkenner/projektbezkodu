@@ -1,7 +1,8 @@
 ---
 title: 'Automation w no-code: dla kogo to jest i kiedy naprawdę się opłaca'
 slug: automatyzacja-no-code-dla-kogo-kiedy-oplaca
-path: /automatyzacja-no-code-dla-kogo-kiedy-oplaca
+path: architektura-no-code-stabilnosc
+path: /artykuly/automatyzacja
 template: default
 draft: false
 date: '2026-01-15'

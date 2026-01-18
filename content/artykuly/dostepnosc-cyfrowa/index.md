@@ -1,7 +1,7 @@
 ---
 title: 'Dostępność cyfrowa w no-code: szybki start dla twórców stron i aplikacji'
 slug: dostepnosc-cyfrowa-no-code-szybki-start
-path: /dostepnosc-cyfrowa-no-code-szybki-start
+path: /artykuly/dostepnosc-cyfrowa
 template: default
 draft: false
 date: '2026-01-15'

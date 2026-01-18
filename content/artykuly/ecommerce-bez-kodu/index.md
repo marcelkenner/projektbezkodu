@@ -1,7 +1,7 @@
 ---
 title: 'E-commerce bez kodu: jak wystartować sklep w weekend'
 slug: sklep-w-weekend-bez-kodu
-path: /sklep-w-weekend-bez-kodu
+path: /artykuly/ecommerce-bez-kodu
 template: default
 draft: false
 type: article

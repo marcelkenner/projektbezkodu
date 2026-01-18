@@ -1,7 +1,8 @@
 ---
 slug: raport-2026-trendy-no-code
 title: 'Raport 2026: trendy na rynku narzędzi no-code'
-path: /raport-2026-trendy-no-code
+path: /architektura-no-code-stabilnosc
+path: /artykuly/badania
 template: default
 draft: false
 date: '2026-01-14'
