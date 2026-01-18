@@ -1,7 +1,7 @@
 ---
 title: "Ankieta: największe bariery we wdrożeniach no-code"
-slug: badania-4
-path: /badania-4
+slug: ankieta-najwieksze-bariery-we-wdrozeniach-no-code
+path: /ankieta-najwieksze-bariery-we-wdrozeniach-no-code
 template: default
 draft: false
 date: "2026-01-14"

@@ -1,15 +1,15 @@
 ---
-title: 'Sekcje: Lista wpisów'
-slug: blog-list
-path: /artykuly/biblioteka-komponentow/blog-list/
+title: "Sekcje: Lista wpisów"
+slug: sekcje-lista-wpisow
+path: /artykuly/biblioteka-komponentow/sekcje-lista-wpisow/
 type: template
 tags:
-  - evergreen
-  - biblioteka
+- evergreen
+- biblioteka
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 hero:
-  heading: 'Sekcje: Lista wpisów'
+  heading: "Sekcje: Lista wpisów"
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

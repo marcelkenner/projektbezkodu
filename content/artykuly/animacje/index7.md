@@ -1,7 +1,7 @@
 ---
 title: "Animacje przewijania (scroll): jak je robić z klasą i bez mdłości"
-slug: animacje-7
-path: /animacje-7
+slug: animacje-przewijania-bez-mdlosci
+path: /animacje/przewijania-bez-mdlosci
 template: default
 draft: false
 date: "2026-01-14"

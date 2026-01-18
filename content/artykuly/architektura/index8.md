@@ -1,7 +1,7 @@
 ---
 title: "Projektowanie integracji: API-first vs “klikane integracje” — co jest stabilniejsze"
-slug: architektura-8
-path: /architektura-8
+slug: integracje-api-first-vs-klikane-stabilnosc
+path: /integracje/api-first-vs-klikane-stabilnosc
 template: default
 draft: false
 date: "2026-01-14"

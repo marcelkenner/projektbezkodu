@@ -1,7 +1,7 @@
 ---
 title: "Plan wdrożenia dostępności: proces, role i Definition of Done dla no-code"
-slug: dostepnosc-cyfrowa-12
-path: /dostepnosc-cyfrowa-12
+slug: plan-wdrozenia-dostepnosci-no-code
+path: /plan-wdrozenia-dostepnosci-no-code
 template: default
 draft: false
 date: "2026-01-15"

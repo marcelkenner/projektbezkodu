@@ -1,48 +1,55 @@
 ---
-title: "Szybkie eksperymenty w e‑commerce: koszyk, dostawa i komunikaty które szybko\
-  \ podnoszą konwersję"
+title: >-
+  Szybkie eksperymenty w e‑commerce: koszyk, dostawa i komunikaty które szybko
+  podnoszą konwersję
 slug: eksperymenty-ecommerce-koszyk-dostawa-komunikaty
 path: /eksperymenty-ecommerce-koszyk-dostawa-komunikaty
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Szybkie eksperymenty w e‑commerce: zrób to dziś, zobacz efekt w tygodniach"
-  subheading: Konkretny plan testów koszyka, opcji dostawy i komunikatów — dla sklepów
-    D2C i marketplace'ów.
+  heading: 'Szybkie eksperymenty w e‑commerce: zrób to dziś, zobacz efekt w tygodniach'
+  subheading: >-
+    Konkretny plan testów koszyka, opcji dostawy i komunikatów — dla sklepów D2C
+    i marketplace'ów.
 seo:
   title: Szybkie eksperymenty w e‑commerce — koszyk, dostawa, komunikaty
-  description: Jak ustawić i priorytetyzować szybkie testy w koszyku, przy opcjach
-    dostawy i w komunikatach, żeby szybko poprawić konwersję.
+  description: >-
+    Jak ustawić i priorytetyzować szybkie testy w koszyku, przy opcjach dostawy
+    i w komunikatach, żeby szybko poprawić konwersję.
   keywords:
-  - e-commerce eksperymenty
-  - testy koszyka
-  - optymalizacja dostawy
-  - a/b testing
-  - checkout
+    - e-commerce eksperymenty
+    - testy koszyka
+    - optymalizacja dostawy
+    - a/b testing
+    - checkout
 meta:
   summaryBullets:
-  - "Werdykt: szybkie testy koszyka i komunikatów dają najszybszy ROI."
-  - "Dla kogo: małe i średnie sklepy z ruchem >1k sesji/dzień; duże sklepy mają osobne\
-    \ priorytety."
-  - "Start: A/B test prostego layoutu koszyka i widoczności kosztów wysyłki w 30–60\
-    \ minut."
-  - "Mierzalne: porównuj CR (conversion rate) i przychód na sesję, nie tylko kliknięcia."
+    - 'Werdykt: szybkie testy koszyka i komunikatów dają najszybszy ROI.'
+    - >-
+      Dla kogo: małe i średnie sklepy z ruchem >1k sesji/dzień; duże sklepy mają
+      osobne priorytety.
+    - >-
+      Start: A/B test prostego layoutu koszyka i widoczności kosztów wysyłki w
+      30–60 minut.
+    - >-
+      Mierzalne: porównuj CR (conversion rate) i przychód na sesję, nie tylko
+      kliknięcia.
   primaryCta:
-    label: "Baymard: checkout study"
+    label: 'Baymard: checkout study'
     href: https://baymard.com/blog/ecommerce-checkout-usability-report-and-benchmark
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - analityka
-  - e-commerce
-  - konwersja
+    - analityka
+    - e-commerce
+    - konwersja
   tags:
-  - a/b testy
-  - checkout
-  - dostawa
-  - UX
+    - a/b testy
+    - checkout
+    - dostawa
+    - UX
 ---
 
 ## Obietnica decyzji — dla kogo jest ten tekst

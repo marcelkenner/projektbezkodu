@@ -1,7 +1,7 @@
 ---
 title: "Mikrointerakcje, które robią robotę: hover, focus, loader, feedback po kliknięciu"
-slug: animacje-6
-path: /animacje-6
+slug: mikrointerakcje-hover-focus-loader-feedback
+path: /animacje/mikrointerakcje-hover-focus-loader-feedback
 date: "2026-01-14"
 template: default
 draft: false

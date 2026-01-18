@@ -1,7 +1,7 @@
 ---
 title: "Semantyka i nagłówki: struktura treści pod czytniki ekranu w no-code CMS"
-slug: dostepnosc-cyfrowa-6
-path: /dostepnosc-cyfrowa-6
+slug: semantyka-naglowkow-dla-czytnikow-ekranu
+path: /dostepnosc/semantyka-naglowkow-dla-czytnikow-ekranu
 date: "2026-01-14"
 template: default
 draft: false

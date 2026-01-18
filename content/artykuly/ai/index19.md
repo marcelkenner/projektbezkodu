@@ -1,7 +1,7 @@
 ---
 title: "Prompting dla nietechnicznych: 10 wzorców promptów, które działają w firmie"
-slug: ai-19
-path: /ai-19
+slug: prompting-dla-nietechnicznych-10-wzorcow
+path: /artykuly/ai/prompting-dla-nietechnicznych-10-wzorcow
 template: default
 draft: false
 date: "2026-01-14"

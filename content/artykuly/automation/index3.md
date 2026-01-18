@@ -1,7 +1,7 @@
 ---
 title: Top 10 automatyzacji dla małej firmy w Polsce (bez kombinowania z IT)
-slug: automation-3
-path: /automation-3
+slug: top-10-automatyzacji-dla-malej-firmy-bez-it
+path: /artykuly/top-10-automatyzacji-dla-malej-firmy-bez-it
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
 title: "Consent Mode v2 i zgody: jak mierzyć uczciwie mimo ograniczeń cookies"
-slug: analityka-18
-path: /analityka-18
+slug: consent-mode-v2-mierzenie-zgody
+path: /analityka/consent-mode-v2-mierzenie-zgody
 template: default
 draft: false
 date: "2026-01-14"

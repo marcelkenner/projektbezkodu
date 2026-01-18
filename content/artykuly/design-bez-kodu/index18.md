@@ -1,7 +1,7 @@
 ---
 title: "Strona narzędzi no-code: jak zaprojektować listing i filtry"
-slug: design-bez-kodu-18
-path: /design-bez-kodu-18
+slug: narzedzia-no-code-listing-filtry
+path: /narzedzia-no-code-listing-filtry
 template: default
 draft: false
 date: "2026-01-14"

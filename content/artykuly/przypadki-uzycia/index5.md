@@ -1,38 +1,34 @@
 ---
-title: 'Panel klienta: dostęp do plików, statusów i płatności bez chaosu w mailach'
-slug: index5
-path: /index5
+title: "Panel klienta: dostęp do plików, statusów i płatności bez chaosu w mailach"
+slug: panel-klienta-dostep-plikow-statusow-platnosci
+path: /panel-klienta-dostep-plikow-statusow-platnosci
 template: default
 draft: false
-date: '2026-01-14'
+date: "2026-01-14"
 hero:
-  heading: 'Panel klienta: uporządkuj pliki, statusy i płatności'
-  subheading: >-
-    Jak przestać tracić czas na wątkach e-mail i wdrożyć prosty portal, który
-    działa
+  heading: "Panel klienta: uporządkuj pliki, statusy i płatności"
+  subheading: Jak przestać tracić czas na wątkach e-mail i wdrożyć prosty portal,
+    który działa
 seo:
   title: Panel klienta — jak wyeliminować chaos mailowy i przyspieszyć płatności
-  description: >-
-    Praktyczny przewodnik: kto naprawdę zyska na portalu klienta, jak zacząć i
-    jakie problemy rozwiązuje dostęp do plików, statusów i płatności.
+  description: "Praktyczny przewodnik: kto naprawdę zyska na portalu klienta, jak\
+    \ zacząć i jakie problemy rozwiązuje dostęp do plików, statusów i płatności."
 meta:
   difficulty: łatwy — decyzja i MVP w 1 dzień
   duration: 1 dzień (MVP)
   author: Redakcja
-  updatedAt: '2026-01-14'
+  updatedAt: "2026-01-14"
   hasAffiliateLinks: false
   summaryBullets:
-    - >-
-      Werdykt: Dla większości małych firm i agencji portal klienta to opłacalny
-      priorytet.
+  - "Werdykt: Dla większości małych firm i agencji portal klienta to opłacalny priorytet."
 taxonomy:
   categories:
-    - produktywność
-    - narzędzia
+  - produktywność
+  - narzędzia
   tags:
-    - portal klienta
-    - płatności
-    - dokumenty
+  - portal klienta
+  - płatności
+  - dokumenty
 ---
 
 ## Obietnica decyzji dla właściciela firmy i kierownika projektu

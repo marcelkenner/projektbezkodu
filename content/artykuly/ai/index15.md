@@ -1,7 +1,7 @@
 ---
 title: Generowanie obrazów no-code dla marketingu — workflowy i spójność stylu
-slug: ai-15
-path: /ai-15
+slug: generowanie-obrazow-no-code-marketing-workflowy-spojnosc-stylu
+path: /artykuly/ai/generowanie-obrazow-no-code-marketing-workflowy-spojnosc-stylu
 template: default
 draft: false
 date: "2026-01-14"

@@ -1,7 +1,7 @@
 ---
 title: "Automatyzacja marketingu bez spamu: jak ustawić zasady, żeby nie spalić domeny"
-slug: automation-4
-path: /automation-4
+slug: automatyzacja-marketingu-bez-spamu
+path: /automatyzacja-marketingu-bez-spamu
 template: default
 draft: false
 date: "2026-01-14"

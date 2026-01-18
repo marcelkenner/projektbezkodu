@@ -1,7 +1,7 @@
 ---
 title: "Server-side tracking w praktyce: kiedy warto, kiedy nie"
-slug: analityka-17
-path: /analityka-17
+slug: server-side-tracking-w-praktyce-kiedy-warto-kiedy-nie
+path: /analityka/server-side-tracking-w-praktyce-kiedy-warto-kiedy-nie
 template: default
 draft: false
 date: "2026-01-14"

@@ -1,7 +1,7 @@
 ---
 title: "Zwroty i reklamacje: proces bez kodu, który nie zjada czasu"
-slug: ecommerce-bez-kodu-17
-path: /ecommerce-bez-kodu-17
+slug: zwroty-reklamacje-bez-kodu
+path: /zwroty-reklamacje-bez-kodu
 template: default
 draft: false
 date: "2026-01-14"

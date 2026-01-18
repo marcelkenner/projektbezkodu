@@ -1,7 +1,7 @@
 ---
 title: "Webflow CMS vs Wix CMS: który wybrać do bloga bez kodu?"
-slug: cms-bez-kodu-2
-path: /cms-bez-kodu-2
+slug: webflow-vs-wix-cms-dla-bloga-bez-kodu
+path: /webflow-vs-wix-cms-dla-bloga-bez-kodu
 template: default
 draft: true
 type: review

@@ -1,7 +1,7 @@
 ---
 title: "Animacje a SEO: co jest mitem, a co realnym ryzykiem"
-slug: animacje-20
-path: /animacje-20
+slug: animacje-seo-mity-ryzyko
+path: /animacje/seo-mity-ryzyko
 template: default
 draft: false
 date: "2026-01-15"

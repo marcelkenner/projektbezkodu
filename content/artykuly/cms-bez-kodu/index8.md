@@ -1,7 +1,7 @@
 ---
 title: "Migracja treści do CMS bez kodu: checklista krok po kroku"
-slug: cms-bez-kodu-8
-path: /cms-bez-kodu-8
+slug: migracja-tresci-do-cms-bez-kodu
+path: /migracja-tresci-do-cms-bez-kodu
 template: default
 draft: false
 date: "2026-01-14"

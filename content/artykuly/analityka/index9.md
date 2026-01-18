@@ -1,8 +1,8 @@
 ---
 title: "Dashboard bez zespołu BI: Looker Studio czy Metabase — jak zbudować no-code\
   \ dashboard"
-slug: analityka-9
-path: /analityka-9
+slug: dashboard-bez-bi-looker-studio-vs-metabase
+path: /analityka/dashboard-bez-bi-looker-studio-vs-metabase
 template: default
 draft: false
 date: "2026-01-14"

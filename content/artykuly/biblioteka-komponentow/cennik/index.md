@@ -1,15 +1,15 @@
 ---
-title: 'Sekcje: Cennik'
-slug: cennik
-path: /artykuly/biblioteka-komponentow/cennik/
+title: "Sekcje: Cennik"
+slug: sekcje-cennik
+path: /artykuly/biblioteka-komponentow/sekcje-cennik/
 type: template
 tags:
-  - evergreen
-  - biblioteka
+- evergreen
+- biblioteka
 draft: true
-date: '2025-11-05'
+date: "2025-11-05"
 hero:
-  heading: 'Sekcje: Cennik'
+  heading: "Sekcje: Cennik"
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 ---
 

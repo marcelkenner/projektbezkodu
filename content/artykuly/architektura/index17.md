@@ -1,7 +1,7 @@
 ---
-slug: architektura-17
+slug: frontend-vs-backend-no-code-ui-vs-logika-serwera
 title: "Frontend vs backend w no-code: co trzymać w UI, a co w logice serwera"
-path: /architektura-17
+path: /architektura/frontend-vs-backend-no-code-ui-vs-logika-serwera
 template: default
 draft: false
 meta:

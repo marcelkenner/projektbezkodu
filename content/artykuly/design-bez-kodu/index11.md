@@ -1,7 +1,7 @@
 ---
 title: "Framer vs Webflow: który lepszy do designu bez kodu"
-slug: design-bez-kodu-11
-path: /design-bez-kodu-11
+slug: framer-vs-webflow-bez-kodu
+path: /framer-vs-webflow-bez-kodu
 template: default
 draft: false
 date: "2026-01-15"

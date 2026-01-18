@@ -1,7 +1,7 @@
 ---
-slug: animacje-12
+slug: animacje-formularze-onboarding-porzucenia
 title: "Animacje w formularzach i onboardingach: jak zmniejszyć porzucenia"
-path: /animacje-12
+path: /animacje/formularze-onboarding-porzucenia
 template: default
 draft: false
 date: "2026-01-15"

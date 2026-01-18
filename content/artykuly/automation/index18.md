@@ -1,7 +1,7 @@
 ---
 title: "Automatyzacja faktur i płatności: przypomnienia, statusy, księgowość bez gonitwy"
-slug: automation-18
-path: /automation-18
+slug: automatyzacja-faktur-platnosci
+path: /automatyzacja/faktur-platnosci-przypomnienia-statusy-ksiegowosc
 template: default
 draft: false
 date: "2026-01-15"

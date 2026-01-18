@@ -1,7 +1,7 @@
 ---
 title: "Automation w no-code: dla kogo to jest i kiedy naprawdę się opłaca"
-slug: automation
-path: /automation
+slug: automatyzacja-no-code-dla-kogo-kiedy-oplaca
+path: /automatyzacja-no-code-dla-kogo-kiedy-oplaca
 template: default
 draft: false
 date: "2026-01-15"

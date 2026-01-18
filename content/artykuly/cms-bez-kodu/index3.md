@@ -1,7 +1,7 @@
 ---
 title: "Headless CMS bez kodu: jak działa i dla kogo?"
-slug: cms-bez-kodu-3
-path: /cms-bez-kodu-3
+slug: headless-cms-bez-kodu-jak-dziala-dla-kogo
+path: /headless-cms-bez-kodu-jak-dziala-dla-kogo
 template: default
 draft: false
 date: "2026-01-14"

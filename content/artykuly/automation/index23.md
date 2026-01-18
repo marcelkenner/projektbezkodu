@@ -1,8 +1,8 @@
 ---
 title: "\"Human-in-the-loop\": jak zbudować automatyzację, która nie podejmuje ryzykownych\
   \ decyzji sama"
-slug: automation-23
-path: /automation-23
+slug: human-in-the-loop-bezpieczna-automatyzacja
+path: /automatyzacje/human-in-the-loop-bezpieczna-automatyzacja
 template: default
 draft: false
 date: "2026-01-15"

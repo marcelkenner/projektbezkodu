@@ -1,7 +1,7 @@
 ---
 title: "Ankiety w produkcie: Typeform vs Tally i jak interpretować wyniki bez samozakłamania"
-slug: analityka-25
-path: /analityka-25
+slug: ankiety-typeform-tally-interpretacja
+path: /ankiety-typeform-tally-interpretacja
 template: default
 draft: false
 date: "2026-01-14"

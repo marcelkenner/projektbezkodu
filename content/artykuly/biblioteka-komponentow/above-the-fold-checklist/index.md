@@ -1,7 +1,7 @@
 ---
 title: Above the fold – checklista
-slug: above-the-fold-checklist
-path: /artykuly/biblioteka-komponentow/above-the-fold-checklist/
+slug: above-the-fold-checklista
+path: /artykuly/biblioteka-komponentow/above-the-fold-checklista/
 ---
 
 ## Werdykt w jednym zdaniu

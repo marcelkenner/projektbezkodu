@@ -1,7 +1,7 @@
 ---
 title: "Notion jako CMS: plusy, minusy i typowe zastosowania"
-slug: cms-bez-kodu-4
-path: /cms-bez-kodu-4
+slug: notion-jako-cms-plusy-minusy-zastosowania
+path: /notion-jako-cms-plusy-minusy-zastosowania
 template: default
 draft: false
 date: "2026-01-15"

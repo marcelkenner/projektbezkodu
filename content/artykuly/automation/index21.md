@@ -1,8 +1,8 @@
 ---
 title: "Automatyzacje w projektach: zadania, statusy, powiadomienia — ale bez spamowania\
   \ zespołu"
-slug: automation-21
-path: /automation-21
+slug: automatyzacje-zadania-statusy-bez-spamu
+path: /automatyzacje/zadania-statusy-bez-spamu
 template: default
 draft: false
 type: article

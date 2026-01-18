@@ -1,45 +1,48 @@
 ---
-title: "AI w sprzedaży B2B: personalizacja, research i jak nie brzmieć jak bot"
+title: 'AI w sprzedaży B2B: personalizacja, research i jak nie brzmieć jak bot'
 slug: ai-w-sprzedazy-b2b-personalizacja
 path: /ai-w-sprzedazy-b2b-personalizacja
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w sprzedaży B2B: personalizacja i research bez brzmienia jak bot"
+  heading: 'AI w sprzedaży B2B: personalizacja i research bez brzmienia jak bot'
   subheading: Krótkie rekomendacje dla SDR-ów i zespołów outbound
 meta:
   summaryBullets:
-  - "Werdykt: AI pomaga skalować personalizację, ale nie zastąpi ręcznej kontroli."
-  - "Dla kogo: najlepsze dla zespołów, które mają jasno zdefiniowane segmenty i dane\
-    \ pierwszej ręki."
-  - "Start: ustaw reguły tonu, szablony 70/30 i test 1:1 na 20 kontach."
-  - "Uwaga: sprawdź generowane fakty — AI może halucynować dane."
+    - >-
+      Werdykt: AI pomaga skalować personalizację, ale nie zastąpi ręcznej
+      kontroli.
+    - >-
+      Dla kogo: najlepsze dla zespołów, które mają jasno zdefiniowane segmenty i
+      dane pierwszej ręki.
+    - 'Start: ustaw reguły tonu, szablony 70/30 i test 1:1 na 20 kontach.'
+    - 'Uwaga: sprawdź generowane fakty — AI może halucynować dane.'
   primaryCta:
-    label: "Przeczytaj: Personalization in AI prospecting (HubSpot)"
+    label: 'Przeczytaj: Personalization in AI prospecting (HubSpot)'
     href: https://blog.hubspot.com/sales/personalization-in-ai-prospecting
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 5–30 min (pierwszy test)
   author: Redakcja
 seo:
-  title: AI w sprzedaży B2B — jak personalizować wiadomości, żeby nie brzmieć jak
-    bot
-  description: "Praktyczny przewodnik: co ustawić w AI, jak robić research i kiedy\
-    \ wyłączyć automaty, by outreach działał."
+  title: AI w sprzedaży B2B — jak personalizować wiadomości, żeby nie brzmieć jak bot
+  description: >-
+    Praktyczny przewodnik: co ustawić w AI, jak robić research i kiedy wyłączyć
+    automaty, by outreach działał.
   keywords:
-  - AI w sprzedaży
-  - personalizacja B2B
-  - cold email
-  - research sprzedażowy
+    - AI w sprzedaży
+    - personalizacja B2B
+    - cold email
+    - research sprzedażowy
 taxonomy:
   categories:
-  - sprzedaż
-  - AI
+    - sprzedaż
+    - AI
   tags:
-  - B2B
-  - personalizacja
-  - outbound
+    - B2B
+    - personalizacja
+    - outbound
 ---
 
 ## Obietnica decyzji i grupa docelowa

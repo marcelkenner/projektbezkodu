@@ -1,7 +1,7 @@
 ---
 title: "Webflow Interactions w praktyce: co da się zrobić bez kodu (i gdzie jest sufit)"
-slug: animacje-2
-path: /animacje-2
+slug: webflow-interactions-bez-kodu
+path: /animacje/webflow-interactions-bez-kodu
 template: default
 draft: false
 type: article

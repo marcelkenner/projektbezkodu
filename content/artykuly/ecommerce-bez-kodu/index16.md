@@ -1,7 +1,7 @@
 ---
 title: "Opis produktu, który sprzedaje: struktura, język korzyści i FAQ"
-slug: ecommerce-bez-kodu-16
-path: /ecommerce-bez-kodu-16
+slug: opis-produktu-ktory-sprzedaje
+path: /opis-produktu-ktory-sprzedaje
 template: default
 draft: false
 date: "2026-01-15"

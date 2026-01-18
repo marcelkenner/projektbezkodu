@@ -4,19 +4,19 @@ slug: a
 path: /artykuly/biblioteka-komponentow/
 type: hub
 tags:
-- evergreen
-- patterns
+  - evergreen
+  - patterns
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Biblioteka sekcji i wzorców
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 template: default
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/

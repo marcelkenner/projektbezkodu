@@ -1,7 +1,7 @@
 ---
 title: "WCAG w praktyce (no-code): jak spełniać wymagania bez programowania"
-slug: dostepnosc-cyfrowa-2
-path: /dostepnosc-cyfrowa-2
+slug: wcag-w-praktyce-no-code
+path: /dostepnosc/wcag-w-praktyce-no-code
 template: default
 draft: false
 date: "2026-01-14"

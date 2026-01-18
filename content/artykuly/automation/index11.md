@@ -1,7 +1,7 @@
 ---
 title: "Webhooki dla nietechnicznych: jak to działa i jak to testować bez bólu"
-slug: automation-11
-path: /automation-11
+slug: webhooki-dla-nietechnicznych
+path: /webhooki-dla-nietechnicznych
 template: default
 draft: false
 date: "2026-01-14"

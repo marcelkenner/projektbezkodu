@@ -1,43 +1,51 @@
 ---
-title: "GA4 dla nietechnicznych: eventy, konwersje i raporty, które naprawdę wykorzystasz"
+title: >-
+  GA4 dla nietechnicznych: eventy, konwersje i raporty, które naprawdę
+  wykorzystasz
 slug: ga4-dla-nietechnicznych-eventy-konwersje
 path: /ga4-dla-nietechnicznych-eventy-konwersje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "GA4 dla nietechnicznych: eventy, konwersje i raporty, które naprawdę wykorzystasz"
-  subheading: Praktyczny przewodnik — co ustawić w pierwszych 15 minutach i czego
-    się spodziewać
+  heading: >-
+    GA4 dla nietechnicznych: eventy, konwersje i raporty, które naprawdę
+    wykorzystasz
+  subheading: >-
+    Praktyczny przewodnik — co ustawić w pierwszych 15 minutach i czego się
+    spodziewać
 meta:
   summaryBullets:
-  - "Werdykt: prosty plan na start i jasne kryteria, kiedy iść dalej."
-  - "Dla kogo: marketingowcy, właściciele małych serwisów i product managerowie bez\
-    \ dev-teamu."
-  - "Start: sprawdź DebugView, oznacz 1–3 kluczowe zdarzenia i podłącz Google Ads\
-    \ jeśli masz kampanie."
+    - 'Werdykt: prosty plan na start i jasne kryteria, kiedy iść dalej.'
+    - >-
+      Dla kogo: marketingowcy, właściciele małych serwisów i product managerowie
+      bez dev-teamu.
+    - >-
+      Start: sprawdź DebugView, oznacz 1–3 kluczowe zdarzenia i podłącz Google
+      Ads jeśli masz kampanie.
   primaryCta:
     label: Lista polecanych zdarzeń (Google)
     href: https://support.google.com/analytics/answer/9268036
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: GA4 dla nietechnicznych — eventy, konwersje, szybko użyte raporty
-  description: Krótki przewodnik jak w GA4 zidentyfikować eventy, oznaczyć konwersje
-    i zacząć korzystać z raportów bez kodowania.
+  description: >-
+    Krótki przewodnik jak w GA4 zidentyfikować eventy, oznaczyć konwersje i
+    zacząć korzystać z raportów bez kodowania.
   keywords:
-  - GA4
-  - analityka
-  - konwersje
-  - eventy
-  - Google Analytics 4
+    - GA4
+    - analityka
+    - konwersje
+    - eventy
+    - Google Analytics 4
 taxonomy:
   categories:
-  - analityka
-  - marketing
+    - analityka
+    - marketing
   tags:
-  - GA4
-  - konwersje
-  - GTM
+    - GA4
+    - konwersje
+    - GTM
 ---
 
 ## Co obiecuję i dla kogo ten tekst

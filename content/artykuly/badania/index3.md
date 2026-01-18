@@ -1,42 +1,45 @@
 ---
-title: "Raport: no-code vs low-code w praktyce zespołów produktowych"
+title: 'Raport: no-code vs low-code w praktyce zespołów produktowych'
 slug: no-code-vs-low-code-raport-zespoly-produktowe
 path: /no-code-vs-low-code-raport-zespoly-produktowe
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "No-code vs low-code: kiedy wybrać które podejście"
-  subheading: Szybki werdykt dla zespołów produktowych — korzyści, ograniczenia i
-    pierwszy krok
+  heading: 'No-code vs low-code: kiedy wybrać które podejście'
+  subheading: >-
+    Szybki werdykt dla zespołów produktowych — korzyści, ograniczenia i pierwszy
+    krok
 seo:
   title: No-code vs low-code — raport dla zespołów produktowych
-  description: "Porównanie praktycznych konsekwencji wyboru no-code lub low-code w\
-    \ zespołach produktowych: koszty, skalowalność, bezpieczeństwo i roadmapa wdrożenia."
+  description: >-
+    Porównanie praktycznych konsekwencji wyboru no-code lub low-code w zespołach
+    produktowych: koszty, skalowalność, bezpieczeństwo i roadmapa wdrożenia.
   keywords:
-  - no-code
-  - low-code
-  - zespół produktowy
-  - MVP
-  - automatyzacja
+    - no-code
+    - low-code
+    - zespół produktowy
+    - MVP
+    - automatyzacja
 meta:
   summaryBullets:
-  - "Werdykt: wybieraj według złożoności i skali, nie sloganu."
-  - "Dla kogo: szybkie MVP i wewnętrzne narzędzia → no-code; rozbudowane integracje\
-    \ → low-code."
-  - "Start: pilotaż 4–6 tygodni z jasnym governance."
+    - 'Werdykt: wybieraj według złożoności i skali, nie sloganu.'
+    - >-
+      Dla kogo: szybkie MVP i wewnętrzne narzędzia → no-code; rozbudowane
+      integracje → low-code.
+    - 'Start: pilotaż 4–6 tygodni z jasnym governance.'
   primaryCta:
     label: Przeczytaj badanie (arXiv)
     href: https://arxiv.org/abs/2307.16717
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - low-code
-  - product-management
+    - no-code
+    - low-code
+    - product-management
 ---
 
 ## Obietnica decyzji

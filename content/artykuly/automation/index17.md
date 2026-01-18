@@ -1,8 +1,8 @@
 ---
 title: "Automatyzacje rekrutacyjne: formularz → ATS/arkusz → mail → task dla hiring\
   \ managera"
-slug: automation-17
-path: /automation-17
+slug: automatyzacje-rekrutacji-formularz-ats-arkusz-mail-task
+path: /rekrutacja/automatyzacje-rekrutacji-formularz-ats-arkusz-mail-task
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
-slug: architektura-20
+slug: skalowanie-mvp-bez-przepisywania
 title: "Skalowanie: jak rosnąć z MVP do produktu bez przepisywania wszystkiego"
-path: /architektura-20
+path: /skalowanie-mvp-bez-przepisywania
 template: default
 draft: false
 date: "2026-01-14"

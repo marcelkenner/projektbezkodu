@@ -1,7 +1,7 @@
 ---
 title: Jak zbudować spójny system animacji w małym zespole
-slug: animacje-14
-path: /animacje-14
+slug: spojny-system-animacji-maly-zespol
+path: /spojny-system-animacji-maly-zespol
 template: default
 draft: false
 date: "2026-01-15"

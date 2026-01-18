@@ -1,7 +1,7 @@
 ---
 title: "AI w content marketingu: od briefu do publikacji no-code z kontrolą jakości"
-slug: ai-11
-path: /ai-11
+slug: ai-w-content-marketingu-no-code-kontrola-jakosci
+path: /artykuly/ai/ai-w-content-marketingu-no-code-kontrola-jakosci
 template: default
 draft: false
 date: "2026-01-14"

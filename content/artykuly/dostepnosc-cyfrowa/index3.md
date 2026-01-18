@@ -1,39 +1,40 @@
 ---
-title: "Kontrast kolorów bez kodu: narzędzia i zasady dla UI/landing page"
+title: 'Kontrast kolorów bez kodu: narzędzia i zasady dla UI/landing page'
 slug: dostepnosc-kontrast-bez-kodu
 path: /dostepnosc-kontrast-bez-kodu
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Kontrast kolorów bez kodu: narzędzia i zasady"
+  heading: 'Kontrast kolorów bez kodu: narzędzia i zasady'
   subheading: Jak sprawdzić i poprawić czytelność na landing page bez edycji kodu
 seo:
-  title: "Kontrast kolorów bez kodu: narzędzia i zasady dla UI/landing page"
-  description: "Praktyczny przewodnik: podstawy WCAG, narzędzia online i gotowe kroki\
-    \ do poprawy kontrastu bez kodu."
+  title: 'Kontrast kolorów bez kodu: narzędzia i zasady dla UI/landing page'
+  description: >-
+    Praktyczny przewodnik: podstawy WCAG, narzędzia online i gotowe kroki do
+    poprawy kontrastu bez kodu.
   keywords:
-  - kontrast kolorów
-  - accessibility
-  - wcag
-  - no-code
-  - design
+    - kontrast kolorów
+    - accessibility
+    - wcag
+    - no-code
+    - design
 meta:
   summaryBullets:
-  - "Werdykt: szybkie sprawdzenie bez programowania"
-  - "Dla kogo: projektanci, product managerowie, marketerzy"
-  - "Czas startu: 5–15 minut"
+    - 'Werdykt: szybkie sprawdzenie bez programowania'
+    - 'Dla kogo: projektanci, product managerowie, marketerzy'
+    - 'Czas startu: 5–15 minut'
   primaryCta:
     label: Sprawdź w WebAIM
     href: https://webaim.org/resources/contrastchecker/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - wcag
-  - kontrast
+    - no-code
+    - wcag
+    - kontrast
 ---
 
 ## Obietnica decyzji i grupa docelowa

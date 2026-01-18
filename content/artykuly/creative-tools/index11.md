@@ -1,7 +1,7 @@
 ---
 title: "Automatyzacje kreatywne: generuj grafiki i treści w pipeline (bez programowania)"
-slug: creative-tools-11
-path: /creative-tools-11
+slug: automatyzacje-kreatywne-grafiki-tresci-bez-programowania
+path: /automatyzacje-kreatywne-grafiki-tresci-bez-programowania
 template: default
 draft: false
 date: "2026-01-14"

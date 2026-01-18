@@ -1,7 +1,7 @@
 ---
-slug: ai-17
+slug: bezpieczne-klucze-api-sekrety
 title: Jak bezpiecznie zarządzać kluczami API i sekretami — szybki przewodnik
-path: /ai-17
+path: /bezpieczne-klucze-api-sekrety
 template: default
 draft: false
 type: article

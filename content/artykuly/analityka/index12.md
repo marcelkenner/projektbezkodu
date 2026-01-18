@@ -1,7 +1,7 @@
 ---
 title: "Statystyka A/B bez doktoratu: próba, istotność i fałszywe zwycięstwa"
-slug: analityka-12
-path: /analityka-12
+slug: ab-statystyka-proba-istotnosc
+path: /analityka/ab-statystyka-proba-istotnosc
 template: default
 draft: false
 date: "2026-01-14"

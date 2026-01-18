@@ -1,7 +1,7 @@
 ---
 title: "Dostępność (WCAG) w projektach no-code: minimum, które musisz znać"
-slug: design-bez-kodu-16
-path: /design-bez-kodu-16
+slug: dostepnosc-wcag-no-code-minimum
+path: /dostepnosc-wcag-no-code-minimum
 template: default
 draft: false
 date: "2026-01-14"

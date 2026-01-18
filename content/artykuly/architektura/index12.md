@@ -1,8 +1,8 @@
 ---
 title: "Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter i\
   \ alerty"
-slug: architektura-12
-path: /architektura-12
+slug: obsluga-bledow-no-code-retry-idempotencja-dead-letter-alerty
+path: /architektura/obsluga-bledow-no-code-retry-idempotencja-dead-letter-alerty
 template: default
 draft: false
 date: "2026-01-14"

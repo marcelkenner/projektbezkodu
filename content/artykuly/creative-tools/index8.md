@@ -1,7 +1,7 @@
 ---
 title: "No-code audio i podcast: nagranie, czyszczenie i publikacja krok po kroku"
-slug: creative-tools-8
-path: /creative-tools-8
+slug: no-code-audio-podcast-krok-po-kroku
+path: /no-code-audio-podcast-krok-po-kroku
 template: default
 draft: false
 date: "2026-01-15"

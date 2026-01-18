@@ -1,7 +1,7 @@
 ---
 title: "Raport: najlepsze praktyki dokumentacji projektów no-code"
-slug: badania-18
-path: /badania-18
+slug: raport-dokumentacja-projektow-no-code
+path: /raport-dokumentacja-projektow-no-code
 template: default
 draft: false
 date: "2026-01-14"

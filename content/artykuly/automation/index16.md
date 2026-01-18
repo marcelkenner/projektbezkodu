@@ -1,8 +1,8 @@
 ---
 title: "Kalkulator opłacalności automatyzacji: kiedy automatyzować, a kiedy uprościć\
   \ proces"
-slug: automation-16
-path: /automation-16
+slug: kalkulator-oplacalnosci-automatyzacji
+path: /narzedzia/kalkulator-oplacalnosci-automatyzacji
 template: default
 draft: false
 date: "2026-01-14"

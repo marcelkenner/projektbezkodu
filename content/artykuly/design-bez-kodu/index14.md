@@ -1,7 +1,7 @@
 ---
 title: "Prototypowanie w Figmie: klikany prototyp do testów w 30 minut"
-slug: design-bez-kodu-14
-path: /design-bez-kodu-14
+slug: prototypowanie-figmie-30-min
+path: /prototypowanie-figmie-30-min
 date: "2026-01-15"
 template: default
 draft: false

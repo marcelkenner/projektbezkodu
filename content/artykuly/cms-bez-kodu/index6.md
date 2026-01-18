@@ -1,7 +1,7 @@
 ---
-slug: cms-bez-kodu-6
+slug: najlepsze-cms-no-code-seo
 title: "Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?"
-path: /cms-bez-kodu-6
+path: /najlepsze-cms-no-code-seo
 template: default
 draft: false
 date: "2026-01-15"

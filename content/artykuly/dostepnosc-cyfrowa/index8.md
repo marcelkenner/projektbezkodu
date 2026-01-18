@@ -1,7 +1,7 @@
 ---
 title: "Dostępne komponenty UI: przyciski, linki, modale — co najczęściej psuje UX"
-slug: dostepnosc-cyfrowa-8
-path: /dostepnosc-cyfrowa-8
+slug: dostepne-komponenty-ui-przyciski-linki-modale-co-najczesciej-psuje-ux
+path: /dostepnosc/dostepne-komponenty-ui-przyciski-linki-modale-co-najczesciej-psuje-ux
 template: default
 draft: false
 date: "2026-01-14"

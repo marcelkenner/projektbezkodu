@@ -1,7 +1,7 @@
 ---
 title: "Przykładowe architektury: MVP SaaS, e‑commerce, agencja, szkoła online"
-slug: architektura-23
-path: /architektura-23
+slug: przykladowe-architektury
+path: /architektura/przykladowe-architektury
 template: default
 draft: false
 date: "2026-01-15"

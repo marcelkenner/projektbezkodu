@@ -1,7 +1,7 @@
 ---
 title: Sekcje CTA — jak zaprojektować skuteczny przycisk, baner i stopkę konwersji
-slug: cta
-path: /artykuly/biblioteka-komponentow/cta/
+slug: sekcje-cta
+path: /artykuly/biblioteka-komponentow/sekcje-cta/
 type: template
 tags:
 - evergreen

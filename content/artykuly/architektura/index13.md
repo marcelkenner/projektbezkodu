@@ -1,8 +1,8 @@
 ---
 title: "Idempotencja po ludzku: jak nie wysyłać klientowi dwóch faktur przez jeden\
   \ błąd"
-slug: architektura-13
-path: /architektura-13
+slug: idempotencja-po-ludzku
+path: /idempotencja-po-ludzku
 template: default
 draft: false
 date: "2026-01-15"

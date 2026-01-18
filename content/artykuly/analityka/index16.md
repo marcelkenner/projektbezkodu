@@ -1,47 +1,54 @@
 ---
-title: "Konwersje w reklamach: Meta CAPI vs Google Enhanced Conversions — prosty przewodnik\
-  \ no-code"
+title: >-
+  Konwersje w reklamach: Meta CAPI vs Google Enhanced Conversions — prosty
+  przewodnik no-code
 slug: meta-capi-vs-google-enhanced-conversions-no-code
 path: /meta-capi-vs-google-enhanced-conversions
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Szybkie decyzje: kiedy wybrać Meta Conversions API, a kiedy Enhanced Conversions\
-    \ od Google w podejściu no-code"
+  heading: >-
+    Szybkie decyzje: kiedy wybrać Meta Conversions API, a kiedy Enhanced
+    Conversions od Google w podejściu no-code
   subheading: Krótko, co zrobić najpierw i jaki efekt odczujesz po wdrożeniu
 meta:
   summaryBullets:
-  - "Werdykt: oba rozwiązania warto wdrożyć — każde rozwiązuje inny problem pomiaru."
-  - "Dla kogo: CAPI lepsze przy server-side i omnichannel; Enhanced Conversions —\
-    \ prostsze dla stron i formularzy."
-  - "Start: uruchom test w 1–2 godzin — najpierw sprawdź dostępne integracje platformy\
-    \ e‑commerce."
+    - >-
+      Werdykt: oba rozwiązania warto wdrożyć — każde rozwiązuje inny problem
+      pomiaru.
+    - >-
+      Dla kogo: CAPI lepsze przy server-side i omnichannel; Enhanced Conversions
+      — prostsze dla stron i formularzy.
+    - >-
+      Start: uruchom test w 1–2 godzin — najpierw sprawdź dostępne integracje
+      platformy e‑commerce.
   primaryCta:
     label: Dokumentacja Meta Conversions API
     href: https://www.facebook.com/business/help/AboutConversionsAPI
   hasAffiliateLinks: false
   author: Redakcja Analityka
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 seo:
   title: Meta CAPI vs Google Enhanced Conversions — wdrożenie no-code
-  description: "Porównanie Meta Conversions API i Google Enhanced Conversions pod\
-    \ kątem wdrożeń bez kodu: co działa szybciej, co mierzy lepiej i jak zacząć."
+  description: >-
+    Porównanie Meta Conversions API i Google Enhanced Conversions pod kątem
+    wdrożeń bez kodu: co działa szybciej, co mierzy lepiej i jak zacząć.
   keywords:
-  - Meta CAPI
-  - Google Enhanced Conversions
-  - no-code
-  - konwersje
-  - analityka reklam
+    - Meta CAPI
+    - Google Enhanced Conversions
+    - no-code
+    - konwersje
+    - analityka reklam
 taxonomy:
   categories:
-  - analityka
-  - marketing
+    - analityka
+    - marketing
   tags:
-  - CAPI
-  - enhanced conversions
-  - no-code
-  - konwersje
+    - CAPI
+    - enhanced conversions
+    - no-code
+    - konwersje
 ---
 
 ## Obietnica decyzji

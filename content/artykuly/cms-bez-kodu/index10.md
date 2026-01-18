@@ -1,7 +1,7 @@
 ---
 title: "CMS bez kodu dla wielojęzyczności: strategie i pułapki"
-slug: cms-bez-kodu-10
-path: /cms-bez-kodu-10
+slug: cms-bez-kodu-wielojezycznosc-strategie-pulapki
+path: /cms-bez-kodu-wielojezycznosc-strategie-pulapki
 template: default
 draft: true
 date: "2026-01-14"

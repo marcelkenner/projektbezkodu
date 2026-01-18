@@ -1,7 +1,7 @@
 ---
 title: "Biblioteka gotowych scenariuszy: 25 automatyzacji do skopiowania (marketing/sprzedaż/ops)"
-slug: automation-24
-path: /automation-24
+slug: biblioteka-scenariuszy-25-automatyzacji
+path: /biblioteka-scenariuszy-25-automatyzacji
 template: default
 draft: false
 date: "2026-01-15"

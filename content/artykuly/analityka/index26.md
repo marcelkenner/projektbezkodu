@@ -1,7 +1,7 @@
 ---
 title: "Tracking w SaaS no‑code: które metryki naprawdę wpływają na MRR?"
-slug: analityka-26
-path: /analityka-26
+slug: tracking-saas-no-code-metryki-mrr
+path: /tracking-saas-no-code-metryki-mrr
 template: default
 draft: false
 date: "2026-01-14"

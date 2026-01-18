@@ -1,7 +1,7 @@
 ---
 title: "Sekcje: Oferta i korzyści"
-slug: oferta
-path: /artykuly/biblioteka-komponentow/oferta/
+slug: sekcje-oferta-korzysci
+path: /artykuly/biblioteka-komponentow/sekcje-oferta-korzysci/
 type: template
 template: default
 draft: true

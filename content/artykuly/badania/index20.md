@@ -1,7 +1,7 @@
 ---
 title: "Raport: ROI no-code w dziale operacji"
-slug: badania-20
-path: /badania-20
+slug: raport-roi-no-code-operacji
+path: /raporty/roi-no-code-operacji
 template: default
 draft: false
 date: "2026-01-15"

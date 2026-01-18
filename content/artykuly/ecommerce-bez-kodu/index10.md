@@ -1,7 +1,7 @@
 ---
 title: "E-mail marketing dla e-commerce: flow, które daje największy ROI"
-slug: ecommerce-bez-kodu-10
-path: /ecommerce-bez-kodu-10
+slug: email-marketing-ecommerce-flow-roi
+path: /email-marketing-ecommerce-flow-roi
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
 title: "Sekcje: FAQ"
-slug: faq
-path: /artykuly/biblioteka-komponentow/faq/
+slug: sekcje-faq
+path: /artykuly/biblioteka-komponentow/sekcje-faq/
 type: template
 tags:
 - evergreen

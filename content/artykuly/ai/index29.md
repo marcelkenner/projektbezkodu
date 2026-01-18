@@ -1,8 +1,8 @@
 ---
 title: "AI w e-commerce: opisy produktów, Q&A i rekomendacje — gdzie pomaga, a gdzie\
   \ szkodzi"
-slug: ai-29
-path: /ai-29
+slug: ai-e-commerce-opisy-produktow-qa-rekomendacje
+path: /artykuly/ai/ai-e-commerce-opisy-produktow-qa-rekomendacje
 template: default
 draft: false
 date: "2026-01-14"

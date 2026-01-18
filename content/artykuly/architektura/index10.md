@@ -1,7 +1,7 @@
 ---
 title: "Środowiska dev/stage/prod w no-code: jak to zrobić, skoro „nie ma deploya”"
-slug: architektura-10
-path: /architektura-10
+slug: srodowiska-dev-stage-prod-no-code-bez-deploya
+path: /architektura/srodowiska-dev-stage-prod-no-code-bez-deploya
 template: default
 draft: false
 date: "2026-01-15"

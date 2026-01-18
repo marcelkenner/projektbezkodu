@@ -1,7 +1,7 @@
 ---
 title: "Eksperymenty onboardingowe: co mierzyć i jak skracać time-to-value"
-slug: analityka-22
-path: /analityka-22
+slug: eksperymenty-onboardingowe-mierzyc-time-to-value
+path: /analityka/eksperymenty-onboardingowe-mierzyc-time-to-value
 template: default
 draft: false
 date: "2026-01-14"

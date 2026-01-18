@@ -1,7 +1,7 @@
 ---
 title: "Bezpieczeństwo i uprawnienia w automatyzacjach: tokeny, role, dostępy"
-slug: automation-14
-path: /automation-14
+slug: bezpieczenstwo-uprawnienia-automatyzacje-tokeny-role-dostepy
+path: /bezpieczenstwo-uprawnienia-automatyzacje-tokeny-role-dostepy
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
 title: "Obsługa błędów w automatyzacjach: retry, dead-letter, alerty i „plan B”"
-slug: automation-12
-path: /automation-12
+slug: obsluga-bledow-automatyzacje-plan-b
+path: /obsluga-bledow-automatyzacje-plan-b
 template: default
 draft: false
 type: guide

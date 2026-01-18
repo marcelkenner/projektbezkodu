@@ -1,42 +1,43 @@
 ---
-title: "Cohorty i retencja w no-code: jak sprawdzić, czy produkt naprawdę trzyma"
+title: 'Cohorty i retencja w no-code: jak sprawdzić, czy produkt naprawdę trzyma'
 slug: cohorty-retencja-no-code
 path: /artykuly/analityka/cohorty-retencja-no-code
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Cohorty i retencja w no-code: jak sprawdzić, czy produkt naprawdę trzyma"
+  heading: 'Cohorty i retencja w no-code: jak sprawdzić, czy produkt naprawdę trzyma'
   subheading: Krótki przewodnik z praktyczną ścieżką startu i jednoznacznym werdyktem
 seo:
   title: Cohorty i retencja w no-code — szybki przewodnik
-  description: Jak zbudować prosty test retencji w narzędziach no-code, co mierzyć
-    i kiedy wynik oznacza, że produkt 'trzyma' użytkowników.
+  description: >-
+    Jak zbudować prosty test retencji w narzędziach no-code, co mierzyć i kiedy
+    wynik oznacza, że produkt 'trzyma' użytkowników.
   keywords:
-  - cohorty
-  - retencja
-  - no-code
-  - analityka produktów
-  - cohort analysis
+    - cohorty
+    - retencja
+    - no-code
+    - analityka produktów
+    - cohort analysis
 meta:
   summaryBullets:
-  - "Werdykt: szybki test retencji pokaże, czy masz podstawy stickiness."
-  - "Dla kogo: PM, founderzy i zespoły produktowe bez zespołu inżynierskiego."
-  - "Start: 3 kroki do pierwszej tabeli kohort w 30–60 minut."
+    - 'Werdykt: szybki test retencji pokaże, czy masz podstawy stickiness.'
+    - 'Dla kogo: PM, founderzy i zespoły produktowe bez zespołu inżynierskiego.'
+    - 'Start: 3 kroki do pierwszej tabeli kohort w 30–60 minut.'
   primaryCta:
     label: Dokumentacja Cohort Retention (Moesif)
     href: https://www.moesif.com/docs/user-analytics/cohort-retention-analysis/
   author: Redakcja Analityka
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - analityka
-  - no-code
+    - analityka
+    - no-code
   tags:
-  - cohorty
-  - retencja
-  - no-code
-  - product-metrics
+    - cohorty
+    - retencja
+    - no-code
+    - product-metrics
 ---
 
 ## Krótki werdykt i dla kogo to ma sens

@@ -1,8 +1,8 @@
 ---
 title: "Logowanie i monitoring: jak projektować system, który mówi Ci, że coś nie\
   \ działa"
-slug: architektura-14
-path: /architektura-14
+slug: logowanie-monitoring-alerty
+path: /logowanie-monitoring-alerty
 template: default
 draft: false
 date: "2026-01-14"

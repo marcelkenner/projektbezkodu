@@ -1,34 +1,32 @@
 ---
-title: >-
-  Landing page, który sprzedaje: jak złożyć go w no-code bez „ładnych, ale
-  pustych” sekcji
-slug: index2
-path: /index2
+title: "Landing page, który sprzedaje: jak złożyć go w no-code bez „ładnych, ale pustych”\
+  \ sekcji"
+slug: landing-page-ktory-sprzedaje-no-code-bez-pustych-sekcji
+path: /landing-page-ktory-sprzedaje-no-code-bez-pustych-sekcji
 template: default
 draft: false
-date: '2026-01-14'
+date: "2026-01-14"
 hero:
-  heading: 'Landing page, który sprzedaje: no-code bez pustych sekcji'
+  heading: "Landing page, który sprzedaje: no-code bez pustych sekcji"
   subheading: Krótkie, praktyczne wskazówki — od nagłówka do testów
 meta:
   author: Redakcja
-  updatedAt: '2026-01-14'
+  updatedAt: "2026-01-14"
   difficulty: średni
   duration: 30 min start
   hasAffiliateLinks: false
   summaryBullets:
-    - >-
-      Werdykt: Zbudujesz konwertujący landing w no-code, jeśli priorytetem są
-      jasny benefit, minimalny formularz i szybkie testy.
+  - "Werdykt: Zbudujesz konwertujący landing w no-code, jeśli priorytetem są jasny\
+    \ benefit, minimalny formularz i szybkie testy."
 taxonomy:
   categories:
-    - UX
-    - Marketing
-    - No-code
+  - UX
+  - Marketing
+  - No-code
   tags:
-    - landing-page
-    - CRO
-    - no-code
+  - landing-page
+  - CRO
+  - no-code
 ---
 
 ## Obietnica decyzji dla kogo i po co

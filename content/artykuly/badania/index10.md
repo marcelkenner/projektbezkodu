@@ -1,7 +1,7 @@
 ---
 title: "Raport: jakość danych w projektach no-code"
-slug: badania-10
-path: /badania-10
+slug: raport-jakosc-danych-no-code
+path: /raport-jakosc-danych-no-code
 template: default
 draft: false
 date: "2026-01-14"

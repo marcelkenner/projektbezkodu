@@ -1,7 +1,7 @@
 ---
 title: "AI w no-code: kiedy to realna przewaga, a kiedy tylko ładny przycisk"
-slug: ai
-path: /ai
+slug: ai-w-no-code-kiedy-to-realna-przewaga-a-kiedy-tylko-ladny-przycisk
+path: /ai-w-no-code-kiedy-to-realna-przewaga-a-kiedy-tylko-ladny-przycisk
 template: default
 draft: false
 date: "2026-01-14"

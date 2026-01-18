@@ -1,7 +1,7 @@
 ---
 title: "Automatyzacje dla freelancerów: od zapytania do płatności bez ręcznego pilnowania"
-slug: automation-20
-path: /automation-20
+slug: automatyzacje-dla-freelancerow-zapytanie-do-platnosci
+path: /automatyzacje-dla-freelancerow-zapytanie-do-platnosci
 template: default
 draft: false
 date: "2026-01-15"

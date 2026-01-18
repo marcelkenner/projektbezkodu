@@ -1,8 +1,8 @@
 ---
 title: "Notion jako centrum operacyjne: automatyzacje, które mają sens (i te, które\
   \ nie)"
-slug: automation-9
-path: /automation-9
+slug: notion-centrum-operacyjne-automatyzacje
+path: /notion-centrum-operacyjne-automatyzacje
 template: default
 draft: false
 date: "2026-01-14"

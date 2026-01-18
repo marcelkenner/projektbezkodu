@@ -1,7 +1,7 @@
 ---
 title: "Sekcje: Hero"
-slug: hero
-path: /artykuly/biblioteka-komponentow/hero/
+slug: sekcje-hero
+path: /artykuly/biblioteka-komponentow/sekcje-hero/
 type: template
 tags:
 - evergreen

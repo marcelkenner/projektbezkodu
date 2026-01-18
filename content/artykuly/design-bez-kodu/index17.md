@@ -1,7 +1,7 @@
 ---
-slug: design-bez-kodu-17
+slug: mobile-first-bez-bolu
 title: "Mobile-first bez bólu: jak projektować responsywność w no-code"
-path: /design-bez-kodu-17
+path: /projektowanie/mobile-first-bez-bolu
 template: default
 draft: false
 meta:

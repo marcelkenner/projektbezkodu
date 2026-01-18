@@ -1,7 +1,7 @@
 ---
 title: "SVG animacje no-code: kiedy SVGator ma sens, a kiedy lepiej Lottie"
-slug: animacje-16
-path: /animacje-16
+slug: svgator-vs-lottie
+path: /animacje/svgator-vs-lottie
 template: default
 draft: false
 date: "2026-01-15"

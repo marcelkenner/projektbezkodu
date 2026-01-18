@@ -1,7 +1,7 @@
 ---
 title: "Badanie: najczęstsze błędy w automatyzacjach no-code"
-slug: badania-19
-path: /badania-19
+slug: badanie-najczestsze-bledy-automatyzacji-no-code
+path: /badanie-najczestsze-bledy-automatyzacji-no-code
 template: default
 draft: false
 date: "2026-01-14"

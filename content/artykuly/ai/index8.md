@@ -4,31 +4,39 @@ slug: chatbot-vs-form
 path: /chatbot-vs-form
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Chatbot czy formularz — decyzja, która ma realny wpływ na konwersje
-  subheading: "Krótko: kiedy wdrożyć chatbota, a kiedy nie warto ryzykować utraty\
-    \ jakości danych i user experience"
+  subheading: >-
+    Krótko: kiedy wdrożyć chatbota, a kiedy nie warto ryzykować utraty jakości
+    danych i user experience
 seo:
   title: Chatbot vs formularz — kiedy użyć którego rozwiązania
-  description: "Praktyczny przewodnik: które scenariusze zyskują na czacie, a które\
-    \ lepiej obsłużyć prostym formularzem. Fakty, ryzyka i szybki start."
+  description: >-
+    Praktyczny przewodnik: które scenariusze zyskują na czacie, a które lepiej
+    obsłużyć prostym formularzem. Fakty, ryzyka i szybki start.
   keywords:
-  - chatbot
-  - formularz
-  - lead generation
-  - UX
-  - konwersja
+    - chatbot
+    - formularz
+    - lead generation
+    - UX
+    - konwersja
 meta:
   summaryBullets:
-  - "Werdykt: chatbota stosuj tam, gdzie krótkie, prowadzone rozmowy zwiększają zaangażowanie."
-  - "Dla kogo: dobre dla e‑commerce i marketingu konwersacyjnego; nie dla procesów\
-    \ regulowanych lub szczegółowej rejestracji."
-  - "Start: 5 minut testu — dodaj prosty widget z ograniczonym flow i porównaj konwersje."
+    - >-
+      Werdykt: chatbota stosuj tam, gdzie krótkie, prowadzone rozmowy zwiększają
+      zaangażowanie.
+    - >-
+      Dla kogo: dobre dla e‑commerce i marketingu konwersacyjnego; nie dla
+      procesów regulowanych lub szczegółowej rejestracji.
+    - >-
+      Start: 5 minut testu — dodaj prosty widget z ograniczonym flow i porównaj
+      konwersje.
   primaryCta:
-    label: "NNGroup: bad patterns in chatbots"
-    href: https://blog.experientia.com/nielsen-norman-group-on-the-user-experience-of-chatbots/
-  updatedAt: "2026-01-14"
+    label: 'NNGroup: bad patterns in chatbots'
+    href: >-
+      https://blog.experientia.com/nielsen-norman-group-on-the-user-experience-of-chatbots/
+  updatedAt: '2026-01-14'
   author: Redakcja
   difficulty: łatwy
   duration: 10 min
@@ -36,14 +44,14 @@ meta:
   format: recenzja
 taxonomy:
   categories:
-  - UX
-  - Marketing
-  - Produkt
+    - UX
+    - Marketing
+    - Produkt
   tags:
-  - chatbot
-  - formularz
-  - konwersja
-  - UX
+    - chatbot
+    - formularz
+    - konwersja
+    - UX
 ---
 
 ## Obietnica decyzji — dla kogo ten artykuł

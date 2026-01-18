@@ -1,7 +1,7 @@
 ---
 title: "Generowanie grafik AI bez kodu: praktyczne porównanie narzędzi i zastosowań"
-slug: creative-tools-4
-path: /creative-tools-4
+slug: generowanie-grafik-ai-bez-kodu-porownanie
+path: /artykuly/ai/generowanie-grafik-ai-bez-kodu-porownanie
 template: default
 draft: false
 date: "2026-01-14"

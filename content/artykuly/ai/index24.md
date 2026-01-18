@@ -1,47 +1,54 @@
 ---
-title: "Asystent firmowy w no-code: od FAQ do 'copilota' — realistyczna ścieżka wdrożenia"
+title: >-
+  Asystent firmowy w no-code: od FAQ do 'copilota' — realistyczna ścieżka
+  wdrożenia
 slug: asystent-firmowy-no-code-copilot-ścieżka-wdrozenia
 path: /asystent-firmowy-no-code-copilot-sciezka-wdrozenia
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Asystent firmowy w no-code: od FAQ do 'copilota' — realistyczna ścieżka\
-    \ wdrożenia"
-  subheading: Jak zacząć szybko, kiedy warto i czego unikać przy budowie wewnętrznego
+  heading: >-
+    Asystent firmowy w no-code: od FAQ do 'copilota' — realistyczna ścieżka
+    wdrożenia
+  subheading: >-
+    Jak zacząć szybko, kiedy warto i czego unikać przy budowie wewnętrznego
     asystenta bez programowania
 seo:
   title: Asystent firmowy w no-code — przewodnik wdrożenia
-  description: "Krótki przewodnik: czym różnią się FAQ, chatboty i copiloci w podejściu\
-    \ no-code oraz jak zacząć wdrożenie w twojej firmie."
+  description: >-
+    Krótki przewodnik: czym różnią się FAQ, chatboty i copiloci w podejściu
+    no-code oraz jak zacząć wdrożenie w twojej firmie.
   keywords:
-  - asystent firmowy
-  - no-code
-  - chatbot
-  - copilot
-  - wdrożenie AI
+    - asystent firmowy
+    - no-code
+    - chatbot
+    - copilot
+    - wdrożenie AI
 meta:
   summaryBullets:
-  - "Werdykt: szybkie FAQ → niski koszt; copilot → większy efekt, większe ryzyko i\
-    \ koszt."
-  - "Dla kogo: FAQ dla supportu i HR; copilot dla zespołów produktowych i analitycznych\
-    \ przy uprzednich porządkach wiedzy."
-  - "Start: zrób POC w 1 tydzień, test z 10‑20 użytkownikami."
+    - >-
+      Werdykt: szybkie FAQ → niski koszt; copilot → większy efekt, większe
+      ryzyko i koszt.
+    - >-
+      Dla kogo: FAQ dla supportu i HR; copilot dla zespołów produktowych i
+      analitycznych przy uprzednich porządkach wiedzy.
+    - 'Start: zrób POC w 1 tydzień, test z 10‑20 użytkownikami.'
   primaryCta:
     label: Sprawdź ChatGPT Enterprise
     href: https://openai.com/chatgpt/enterprise
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - AI
-  - No-code
-  - Zarządzanie
+    - AI
+    - No-code
+    - Zarządzanie
   tags:
-  - asystent
-  - no-code
-  - chatbot
+    - asystent
+    - no-code
+    - chatbot
 ---
 
 ## Werdykt i dla kogo

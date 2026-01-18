@@ -1,7 +1,7 @@
 ---
 title: "Tworzenie miniatur i okładek bez kodu: szablony, zasady, automatyzacje"
-slug: creative-tools-6
-path: /creative-tools-6
+slug: miniatury-okladki-bez-kodu
+path: /miniatury-okladki-bez-kodu
 template: default
 draft: false
 date: "2026-01-15"

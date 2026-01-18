@@ -1,43 +1,53 @@
 ---
-title: "AI w projektowaniu: Framer vs Webflow — gdzie przyspiesza, a gdzie przeszkadza"
+title: 'AI w projektowaniu: Framer vs Webflow — gdzie przyspiesza, a gdzie przeszkadza'
 slug: ai-w-projektowaniu-framer-vs-webflow
 path: /ai-w-projektowaniu-framer-vs-webflow
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w projektowaniu: Framer vs Webflow — gdzie przyspiesza, a gdzie przeszkadza"
+  heading: >-
+    AI w projektowaniu: Framer vs Webflow — gdzie przyspiesza, a gdzie
+    przeszkadza
   subheading: Krótki werdykt dla projektantów i zespołów produkcyjnych
   primaryCta:
     label: Zobacz dokumentację Webflow AI
-    href: https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-Assistant-overview
+    href: >-
+      https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-Assistant-overview
 seo:
-  title: "AI w projektowaniu — Framer vs Webflow: przyspieszenia i ograniczenia"
-  description: Porównanie funkcji AI w Framer i Webflow, kiedy oszczędzają czas, a
-    kiedy generują ryzyko.
+  title: 'AI w projektowaniu — Framer vs Webflow: przyspieszenia i ograniczenia'
+  description: >-
+    Porównanie funkcji AI w Framer i Webflow, kiedy oszczędzają czas, a kiedy
+    generują ryzyko.
   keywords:
-  - AI w projektowaniu
-  - Framer AI
-  - Webflow AI
-  - Wireframer
-  - AI code gen
+    - AI w projektowaniu
+    - Framer AI
+    - Webflow AI
+    - Wireframer
+    - AI code gen
 meta:
   summaryBullets:
-  - "Werdykt: Framer przyspiesza prototypowanie, Webflow oferuje ścieżkę do produkcji."
-  - "Dla kogo: Framer — szybkie proof-of-concepty; Webflow — zespoły, które potrzebują\
-    \ deploymentu."
-  - "Start: 5–15 min: wypróbuj Wireframer/Workshop w Framer lub AI Assistant w Webflow."
+    - >-
+      Werdykt: Framer przyspiesza prototypowanie, Webflow oferuje ścieżkę do
+      produkcji.
+    - >-
+      Dla kogo: Framer — szybkie proof-of-concepty; Webflow — zespoły, które
+      potrzebują deploymentu.
+    - >-
+      Start: 5–15 min: wypróbuj Wireframer/Workshop w Framer lub AI Assistant w
+      Webflow.
   primaryCta:
     label: Sprawdź Webflow AI
-    href: https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-Assistant-overview
-  updatedAt: "2026-01-14"
+    href: >-
+      https://help.webflow.com/hc/en-us/articles/34297897805715-Webflow-AI-Assistant-overview
+  updatedAt: '2026-01-14'
   duration: 6 min
   author: Redakcja
 taxonomy:
   categories:
-  - AI
-  - Design
-  - No-code
+    - AI
+    - Design
+    - No-code
 ---
 
 ## Obietnica decyzji i grupa

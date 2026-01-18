@@ -1,7 +1,7 @@
 ---
 title: "Sekcje: Referencje i social proof"
-slug: review-testimonials
-path: /artykuly/biblioteka-komponentow/review-testimonials/
+slug: sekcje-referencje-social-proof
+path: /artykuly/biblioteka-komponentow/sekcje-referencje-social-proof/
 draft: true
 template: default
 type: template

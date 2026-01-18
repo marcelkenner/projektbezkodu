@@ -1,7 +1,7 @@
 ---
 title: "Sekcje: Stopka"
-slug: stopka
-path: /artykuly/biblioteka-komponentow/stopka/
+slug: sekcje-stopka
+path: /artykuly/biblioteka-komponentow/sekcje-stopka/
 draft: false
 template: default
 type: template

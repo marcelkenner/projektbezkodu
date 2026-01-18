@@ -1,8 +1,8 @@
 ---
 title: "Google Tag Manager bez paniki: minimalny setup dla no-code (Webflow / Framer\
   \ / WordPress)"
-slug: analityka-4
-path: /analityka-4
+slug: google-tag-manager-bez-paniki-minimalny-setup-no-code
+path: /analityka/google-tag-manager-bez-paniki-minimalny-setup-no-code
 template: default
 draft: false
 type: article

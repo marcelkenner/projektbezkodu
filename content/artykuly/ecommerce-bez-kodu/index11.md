@@ -1,7 +1,7 @@
 ---
 title: "Katalog produktów i filtry: jak projektować nawigację w sklepie"
-slug: ecommerce-bez-kodu-11
-path: /ecommerce-bez-kodu-11
+slug: katalog-produktow-filtry-nawigacja
+path: /katalog-produktow-filtry-nawigacja
 template: default
 draft: false
 date: "2026-01-15"

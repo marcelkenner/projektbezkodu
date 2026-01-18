@@ -1,53 +1,62 @@
 ---
-title: "Human-in-the-loop: wzorzec, który ratuje AI w no-code przed kosztownymi wpadkami"
+title: >-
+  Human-in-the-loop: wzorzec, który ratuje AI w no-code przed kosztownymi
+  wpadkami
 slug: human-in-the-loop-no-code
 path: /ai/human-in-the-loop-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Human-in-the-loop: jak wbudować człowieka w procesy AI w narzędziach no-code"
-  subheading: "Krótki przewodnik decyzyjny: kiedy wymagać ludzkiej kontroli, jak zacząć\
-    \ i komu to się opłaca"
+  heading: 'Human-in-the-loop: jak wbudować człowieka w procesy AI w narzędziach no-code'
+  subheading: >-
+    Krótki przewodnik decyzyjny: kiedy wymagać ludzkiej kontroli, jak zacząć i
+    komu to się opłaca
 seo:
-  title: "Human-in-the-loop: wzorzec, który ratuje AI w no-code przed kosztownymi\
-    \ wpadkami"
-  description: Wyjaśniamy, czym jest human-in-the-loop, kiedy w no-code warto trzymać
+  title: >-
+    Human-in-the-loop: wzorzec, który ratuje AI w no-code przed kosztownymi
+    wpadkami
+  description: >-
+    Wyjaśniamy, czym jest human-in-the-loop, kiedy w no-code warto trzymać
     człowieka w pętli, jak zacząć w 5 minut i dla kogo to pułapka kosztów.
   keywords:
-  - human-in-the-loop
-  - no-code
-  - nadzór AI
-  - RLHF
-  - kontrola jakości AI
+    - human-in-the-loop
+    - no-code
+    - nadzór AI
+    - RLHF
+    - kontrola jakości AI
 meta:
   difficulty: średni
   duration: 5–30 min (pierwsze kroki)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: prosty, skuteczny wzorzec — stosuj tam, gdzie błąd kosztuje więcej niż\
-    \ ręczna walidacja."
-  - "Dla kogo: produkt, który mediates decyzje użytkownika, i zespoły bez zaufania\
-    \ do modelu."
-  - "Start: zacznij od checkpointu w krytycznym kroku i metryki błędu po 1 tygodniu."
+    - >-
+      Werdykt: prosty, skuteczny wzorzec — stosuj tam, gdzie błąd kosztuje
+      więcej niż ręczna walidacja.
+    - >-
+      Dla kogo: produkt, który mediates decyzje użytkownika, i zespoły bez
+      zaufania do modelu.
+    - >-
+      Start: zacznij od checkpointu w krytycznym kroku i metryki błędu po 1
+      tygodniu.
   primaryCta:
     label: Definicja Human-in-the-loop na Wikipedii
     href: https://en.wikipedia.org/wiki/Human-in-the-loop
   format: artykuł
   topics:
-  - AI
-  - no-code
-  - produkt
+    - AI
+    - no-code
+    - produkt
 taxonomy:
   categories:
-  - AI
-  - no-code
+    - AI
+    - no-code
   tags:
-  - human-in-the-loop
-  - nadzór
-  - kontrola jakości
+    - human-in-the-loop
+    - nadzór
+    - kontrola jakości
 ---
 
 ## Obietnica decyzji

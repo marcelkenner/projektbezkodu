@@ -1,7 +1,7 @@
 ---
 title: Najczęstsze błędy w animacjach no-code (i jak ich uniknąć)
-slug: animacje-10
-path: /animacje-10
+slug: bledy-animacji-no-code
+path: /animacje/bledy-animacji-no-code
 template: default
 draft: false
 date: "2026-01-14"

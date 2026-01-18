@@ -1,8 +1,8 @@
 ---
 title: "Google Sheets jako „mózg” automatyzacji: dobre praktyki, które ratują przed\
   \ bałaganem"
-slug: automation-10
-path: /automation-10
+slug: google-sheets-mozg-automatyzacji
+path: /automatyzacja/google-sheets-mozg-automatyzacji
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
 title: "Kolory w interfejsie: paleta, kontrast i dostępność w praktyce"
-slug: design-bez-kodu-6
-path: /design-bez-kodu-6
+slug: kolory-w-interfejsie-paleta-kontrast-dostepnosc
+path: /kolory-w-interfejsie-paleta-kontrast-dostepnosc
 template: default
 draft: false
 date: "2026-01-14"

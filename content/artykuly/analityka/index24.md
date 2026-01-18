@@ -1,38 +1,40 @@
 ---
-title: "Badania i analityka: jak łączyć dane ilościowe z jakościowymi (wywiady, ankiety)"
+title: >-
+  Badania i analityka: jak łączyć dane ilościowe z jakościowymi (wywiady,
+  ankiety)
 slug: badania-analityka-laczenie-danych
 path: /badania-analityka-laczenie-danych
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Jak łączyć dane ilościowe i jakościowe w praktyce
-  subheading: "Krótki przewodnik: pytania, wzorce, szybki start"
+  subheading: 'Krótki przewodnik: pytania, wzorce, szybki start'
 meta:
   summaryBullets:
-  - "Werdykt: konkretne zasady łączenia ankiet i wywiadów"
-  - "Dla kogo: kiedy mixed methods szansą, a kiedy kosztem"
-  - "Start: plan na pierwsze 30–60 minut pracy"
+    - 'Werdykt: konkretne zasady łączenia ankiet i wywiadów'
+    - 'Dla kogo: kiedy mixed methods szansą, a kiedy kosztem'
+    - 'Start: plan na pierwsze 30–60 minut pracy'
   primaryCta:
     label: Przewodnik SAGE
     href: https://us.sagepub.com/en-us/nam/mixed-methods/book228130
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 seo:
   title: Łączenie danych ilościowych i jakościowych — praktyczny przewodnik
-  description: "Jak używać ankiet i wywiadów razem: design, integracja, szybki start."
+  description: 'Jak używać ankiet i wywiadów razem: design, integracja, szybki start.'
   keywords:
-  - analityka
-  - mixed methods
-  - ankiety
-  - wywiady
-  - research
+    - analityka
+    - mixed methods
+    - ankiety
+    - wywiady
+    - research
 taxonomy:
   categories:
-  - analityka
+    - analityka
   tags:
-  - badania
-  - metodologia
+    - badania
+    - metodologia
 ---
 
 ## Obietnica decyzji

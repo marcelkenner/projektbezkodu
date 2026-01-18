@@ -1,7 +1,7 @@
 ---
 title: "Checklisty wdrożenia automatyzacji w firmie: od mapy procesu do utrzymania"
-slug: automation-25
-path: /automation-25
+slug: checklisty-wdrozenia-automatyzacji
+path: /checklisty-wdrozenia-automatyzacji
 template: default
 draft: false
 date: "2026-01-14"

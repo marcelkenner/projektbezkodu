@@ -1,44 +1,48 @@
 ---
-title: "Eksperymenty before/after: jak mierzyć zmiany, gdy nie możesz zrobić A/B"
+title: 'Eksperymenty before/after: jak mierzyć zmiany, gdy nie możesz zrobić A/B'
 slug: eksperymenty-before-after-jak-mierzyc-zmiany-gdy-nie-mozesz-zrobic-a-b
 path: /analityka/eksperymenty-before-after
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Eksperymenty before/after: wiarygodne alternatywy dla A/B testów"
-  subheading: Kiedy losowanie nie wchodzi w grę — proste reguły, jak uzyskać sensowną
+  heading: 'Eksperymenty before/after: wiarygodne alternatywy dla A/B testów'
+  subheading: >-
+    Kiedy losowanie nie wchodzi w grę — proste reguły, jak uzyskać sensowną
     miarę efektu
 seo:
   title: Eksperymenty before/after — alternatywy dla A/B testów i kiedy je stosować
-  description: Praktyczny przewodnik po before/after, difference‑in‑differences i
-    innych metodach pomiaru efektu, gdy nie możesz przeprowadzić A/B testu.
+  description: >-
+    Praktyczny przewodnik po before/after, difference‑in‑differences i innych
+    metodach pomiaru efektu, gdy nie możesz przeprowadzić A/B testu.
   keywords:
-  - before after
-  - difference-in-differences
-  - A/B testing alternatywy
-  - analityka
+    - before after
+    - difference-in-differences
+    - A/B testing alternatywy
+    - analityka
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie — kiedy before/after wystarczy, kiedy potrzebujesz\
-    \ DID"
-  - "Dla kogo: produkt, growth, analityka w firmach bez możliwości losowania"
-  - "Start: pierwszy krok w 5 minut i co sprawdzić w danych"
+    - >-
+      Werdykt: krótko i konkretnie — kiedy before/after wystarczy, kiedy
+      potrzebujesz DID
+    - 'Dla kogo: produkt, growth, analityka w firmach bez możliwości losowania'
+    - 'Start: pierwszy krok w 5 minut i co sprawdzić w danych'
   primaryCta:
     label: Przeczytaj o Difference‑in‑Differences
-    href: https://www.publichealth.columbia.edu/research/population-health-methods/difference-difference-estimation
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.publichealth.columbia.edu/research/population-health-methods/difference-difference-estimation
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - analityka
-  - metody
+    - analityka
+    - metody
   tags:
-  - before-after
-  - DID
-  - eksperymenty
+    - before-after
+    - DID
+    - eksperymenty
 ---
 
 ## Obietnica i do kogo to jest

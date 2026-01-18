@@ -1,7 +1,7 @@
 ---
 title: "No-code w firmie: kto odpowiada za procesy, automaty i zmiany"
-slug: architektura-21
-path: /architektura-21
+slug: no-code-w-firmie-kto-odpowiada
+path: /no-code-w-firmie-kto-odpowiada
 template: default
 draft: false
 date: "2026-01-15"

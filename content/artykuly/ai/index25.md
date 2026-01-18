@@ -1,8 +1,8 @@
 ---
 title: "AI w rekrutacji: screening CV, pytania i notatki z rozmów — co jest OK, a\
   \ co ryzykowne"
-slug: ai-25
-path: /ai-25
+slug: ai-w-rekrutacji-screening-cv-pytania-ryzyko
+path: /artykuly/ai/ai-w-rekrutacji-screening-cv-pytania-ryzyko
 template: default
 draft: false
 date: "2026-01-14"

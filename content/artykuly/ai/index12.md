@@ -1,7 +1,7 @@
 ---
 title: "AI do SEO w no-code: co działa, co szkodzi i jak unikać 'wato-treści'"
-slug: ai-12
-path: /ai-12
+slug: ai-seo-no-code-unikanie-wato-tresci
+path: /artykuly/ai/ai-seo-no-code-unikanie-wato-tresci
 template: default
 draft: false
 date: "2026-01-14"

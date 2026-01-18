@@ -1,7 +1,7 @@
 ---
 title: "Microcopy w UI: teksty, które poprawiają konwersję"
-slug: design-bez-kodu-8
-path: /design-bez-kodu-8
+slug: microcopy-w-ui-teksty-poprawiajace-konwersje
+path: /microcopy-w-ui-teksty-poprawiajace-konwersje
 date: "2026-01-14"
 template: default
 draft: false

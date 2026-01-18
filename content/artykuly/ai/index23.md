@@ -1,8 +1,8 @@
 ---
 title: "AI do raportowania: streszczenia tygodniowe, insighty i alerty — jak zrobić\
   \ to w Make/Zapier bez spamu"
-slug: ai-23
-path: /ai-23
+slug: raportowanie-ai-tygodniowe-insighty-alerty-make-zapier
+path: /artykuly/ai/raportowanie-ai-tygodniowe-insighty-alerty-make-zapier
 template: default
 draft: false
 date: "2026-01-14"

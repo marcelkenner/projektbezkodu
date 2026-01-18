@@ -1,7 +1,7 @@
 ---
 title: "Projektowanie stron w Webflow: wzorce sekcji, które działają"
-slug: design-bez-kodu-10
-path: /design-bez-kodu-10
+slug: webflow-wzorce-sekcji
+path: /webflow/wzorce-sekcji
 template: default
 draft: false
 date: "2026-01-15"

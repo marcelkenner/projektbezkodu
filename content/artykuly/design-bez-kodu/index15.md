@@ -1,7 +1,7 @@
 ---
 title: "Testy użyteczności „na szybko”: scenariusz i checklisty"
-slug: design-bez-kodu-15
-path: /design-bez-kodu-15
+slug: testy-uzytecznosci-na-szybko-scenariusz-checklisty
+path: /testy-uzytecznosci-na-szybko-scenariusz-checklisty
 template: default
 draft: false
 date: "2026-01-14"

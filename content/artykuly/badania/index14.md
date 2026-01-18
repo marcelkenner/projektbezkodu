@@ -1,7 +1,7 @@
 ---
 title: "Raport: no-code w e-commerce — narzędzia, integracje, ryzyka"
-slug: badania-14
-path: /badania-14
+slug: raport-no-code-ecommerce-narzedzia-integracje-ryzyka
+path: /raport-no-code-ecommerce-narzedzia-integracje-ryzyka
 template: default
 draft: false
 date: "2026-01-14"

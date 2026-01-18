@@ -1,7 +1,7 @@
 ---
 title: "Baza danych w no-code: Airtable vs Xano vs Supabase — kto powinien brać co"
-slug: architektura-3
-path: /architektura-3
+slug: baza-danych-no-code-airtable-xano-supabase
+path: /baza-danych-no-code-airtable-xano-supabase
 template: default
 draft: false
 date: "2026-01-15"

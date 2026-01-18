@@ -1,7 +1,7 @@
 ---
 title: "Analityka w e-commerce: GA4, pixel, atrybucja i dashboard bez kodu"
-slug: ecommerce-bez-kodu-13
-path: /ecommerce-bez-kodu-13
+slug: ecommerce-ga4-pixel-atrybucja-dashboard-bez-kodu
+path: /analityka/ecommerce-ga4-pixel-atrybucja-dashboard-bez-kodu
 template: default
 draft: false
 date: "2026-01-15"

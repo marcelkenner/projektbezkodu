@@ -1,8 +1,8 @@
 ---
 title: "Automatyzacje w sprzedaży: pipeline, przypomnienia, taski i handover między\
   \ ludźmi"
-slug: automation-5
-path: /automation-5
+slug: automatyzacje-sprzedaz-pipeline-przypomnienia-taski-handover
+path: /automatyzacje/sprzedaz-pipeline-przypomnienia-taski-handover
 template: default
 draft: false
 date: "2026-01-15"

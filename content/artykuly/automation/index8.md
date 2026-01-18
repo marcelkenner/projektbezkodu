@@ -1,7 +1,7 @@
 ---
 title: "Airtable automations vs zewnętrzne integratory: kiedy „wbudowane” wystarczy"
-slug: automation-8
-path: /automation-8
+slug: airtable-automations-vs-zewnetrzne-integratory
+path: /airtable/automations-vs-zewnetrzne-integratory
 template: default
 draft: false
 date: "2026-01-14"

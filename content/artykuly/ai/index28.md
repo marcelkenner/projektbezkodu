@@ -1,8 +1,8 @@
 ---
 title: "AI w no-code dla freelancerów: najszybsze automaty, które realnie zdejmują\
   \ z głowy rutynę"
-slug: ai-28
-path: /ai-28
+slug: ai-no-code-freelancerzy-automaty
+path: /artykuly/ai/ai-no-code-freelancerzy-automaty
 template: default
 draft: false
 date: "2026-01-14"

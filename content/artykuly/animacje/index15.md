@@ -1,7 +1,7 @@
 ---
 title: "Animowane logo i hero: jak zrobić efekt „premium”, nie robiąc tandety"
-slug: animacje-15
-path: /animacje-15
+slug: animowane-logo-hero-premium
+path: /animacje/animowane-logo-hero-premium
 template: default
 draft: false
 date: "2026-01-15"

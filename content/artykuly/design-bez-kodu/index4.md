@@ -1,7 +1,7 @@
 ---
 title: "UI kit dla strony o narzędziach no-code: co warto mieć na start"
-slug: design-bez-kodu-4
-path: /design-bez-kodu-4
+slug: ui-kit-no-code-start
+path: /ui-kit-no-code-start
 template: default
 draft: false
 date: "2026-01-14"

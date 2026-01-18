@@ -1,7 +1,7 @@
 ---
 title: "Analityka w no‑code: co naprawdę mierzyć (a nie tylko 'bo GA4')"
-slug: analityka
-path: /analityka
+slug: analityka-no-code-co-mierzyc
+path: /analityka-no-code-co-mierzyc
 template: default
 draft: false
 date: "2026-01-14"

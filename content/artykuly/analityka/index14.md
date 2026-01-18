@@ -1,7 +1,7 @@
 ---
 title: Eksperymenty cenowe i pakietowe — jak testować bez ryzyka wizerunkowego
-slug: analityka-14
-path: /analityka-14
+slug: eksperymenty-cenowe-pakietowe-bez-ryzyka-wizerunkowego
+path: /analityka/eksperymenty-cenowe-pakietowe-bez-ryzyka-wizerunkowego
 template: default
 draft: false
 date: "2026-01-14"

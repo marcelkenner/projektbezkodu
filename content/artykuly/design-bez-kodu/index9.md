@@ -1,7 +1,7 @@
 ---
 title: "Formularze bez kodu: UX zasady, walidacja i komunikaty"
-slug: design-bez-kodu-9
-path: /design-bez-kodu-9
+slug: formularze-bez-kodu-ux-walidacja-komunikaty
+path: /formularze-bez-kodu-ux-walidacja-komunikaty
 template: default
 draft: false
 date: "2026-01-14"

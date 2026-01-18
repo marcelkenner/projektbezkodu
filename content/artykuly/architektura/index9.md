@@ -1,7 +1,7 @@
 ---
 title: "Uprawnienia i role: architektura dostępu w no-code bez kompromitacji bezpieczeństwa"
-slug: architektura-9
-path: /architektura-9
+slug: uprawnienia-role-architektura-dostepu-no-code
+path: /architektura/uprawnienia-role-architektura-dostepu-no-code
 template: default
 draft: false
 date: "2026-01-14"

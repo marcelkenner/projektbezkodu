@@ -1,7 +1,7 @@
 ---
 title: "Dostępność na mobile: gesty, focus i responsywność w narzędziach no-code"
-slug: dostepnosc-cyfrowa-9
-path: /dostepnosc-cyfrowa-9
+slug: dostepnosc-mobile-gesty-focus-responsywnosc-no-code
+path: /dostepnosc-mobile-gesty-focus-responsywnosc-no-code
 template: default
 draft: false
 date: "2026-01-14"

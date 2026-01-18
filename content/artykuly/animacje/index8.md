@@ -1,7 +1,7 @@
 ---
 title: "Animacje w e-commerce no-code: gdzie realnie podnoszą sprzedaż"
-slug: animacje-8
-path: /animacje-8
+slug: animacje-ecommerce-no-code-sprzedaz
+path: /animacje/ecommerce-no-code-podnosza-sprzedaz
 template: default
 draft: false
 date: "2026-01-14"

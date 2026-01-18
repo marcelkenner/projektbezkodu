@@ -1,12 +1,12 @@
 ---
-title: "Fixture Tool – recenzja"
+title: Fixture Tool – recenzja
 slug: recenzja
 path: /narzedzia/fixture-tool/recenzja/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Fixture Tool – recenzja"
+  heading: Fixture Tool – recenzja
   subheading: Fixture used for ContentLibrary frontmatter-path routing tests.
 meta:
   summaryBullets:

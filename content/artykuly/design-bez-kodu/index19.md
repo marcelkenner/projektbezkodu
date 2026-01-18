@@ -1,7 +1,7 @@
 ---
 title: "Porównania narzędzi: wzór tabeli, która jest czytelna i uczciwa"
-slug: design-bez-kodu-19
-path: /design-bez-kodu-19
+slug: tabela-porownawcza-narzedzi
+path: /porownania/tabela-porownawcza-narzedzi
 date: "2026-01-14"
 draft: false
 template: default

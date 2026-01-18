@@ -1,7 +1,7 @@
 ---
 title: "Figma bez frustracji: system plików, style i komponenty dla początkujących"
-slug: design-bez-kodu-2
-path: /design-bez-kodu-2
+slug: figma-bez-frustracji
+path: /figma-bez-frustracji
 template: default
 draft: false
 date: "2026-01-14"

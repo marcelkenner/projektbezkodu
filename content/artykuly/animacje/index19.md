@@ -1,7 +1,7 @@
 ---
 title: "Jak testować, czy animacje pomagają: prosty plan A/B bez doktoratu z analityki"
-slug: animacje-19
-path: /animacje-19
+slug: testowanie-animacji-ab
+path: /analityka/testowanie-animacji-ab
 template: default
 draft: false
 date: "2026-01-14"

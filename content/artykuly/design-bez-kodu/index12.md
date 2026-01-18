@@ -1,7 +1,7 @@
 ---
 title: "Animacje bez kodu: kiedy pomagają, a kiedy przeszkadzają"
-slug: design-bez-kodu-12
-path: /design-bez-kodu-12
+slug: animacje-bez-kodu-pomagaja-czy-przeszkadzaja
+path: /animacje/bez-kodu-pomagaja-czy-przeszkadzaja
 template: default
 date: "2026-01-15"
 draft: false

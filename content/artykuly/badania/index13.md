@@ -1,7 +1,7 @@
 ---
 title: "Badanie: skuteczność landingów tworzonych w no-code"
-slug: badania-13
-path: /badania-13
+slug: badania-skutecznosc-landingow-no-code
+path: /badania/skutecznosc-landingow-no-code
 template: default
 draft: false
 date: "2026-01-14"

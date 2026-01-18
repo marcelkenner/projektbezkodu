@@ -1,7 +1,7 @@
 ---
 title: "Badanie: czas do pierwszej wersji produktu no-code"
-slug: badania-5
-path: /badania-5
+slug: czas-do-pierwszej-wersji-no-code
+path: /badania/czas-do-pierwszej-wersji-no-code
 template: default
 draft: false
 date: "2026-01-15"

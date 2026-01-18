@@ -1,46 +1,40 @@
 ---
-title: >-
-  System rezerwacji i płatności: kiedy no-code wystarczy, a kiedy zacznie Cię
-  hamować
-slug: index6
-path: /index6
+title: "System rezerwacji i płatności: kiedy no-code wystarczy, a kiedy zacznie Cię\
+  \ hamować"
+slug: rezerwacje-platnosci-no-code-kiedy-wystarczy
+path: /rezerwacje-platnosci-no-code-kiedy-wystarczy
 template: default
 draft: false
 type: article
-date: '2026-01-14'
+date: "2026-01-14"
 hero:
-  heading: >-
-    System rezerwacji i płatności: kiedy no-code wystarczy, a kiedy zacznie Cię
-    hamować
-  subheading: >-
-    Praktyczny przewodnik decyzji dla małych firm, trenerów i organizatorów
+  heading: "System rezerwacji i płatności: kiedy no-code wystarczy, a kiedy zacznie\
+    \ Cię hamować"
+  subheading: Praktyczny przewodnik decyzji dla małych firm, trenerów i organizatorów
     warsztatów
 seo:
   title: No‑code do rezerwacji i płatności — kiedy wystarczy, kiedy przeszkadza
-  description: >-
-    Krótka diagnoza: kiedy wybrać no‑code (Calendly, Acuity, itp.), a kiedy
-    planować customowe rozwiązanie z API. Konkretne wskazówki krok po kroku.
+  description: "Krótka diagnoza: kiedy wybrać no‑code (Calendly, Acuity, itp.), a\
+    \ kiedy planować customowe rozwiązanie z API. Konkretne wskazówki krok po kroku."
 meta:
   difficulty: średni
   duration: 5–60 min (pierwsza konfiguracja)
   author: Redakcja
-  updatedAt: '2026-01-14'
+  updatedAt: "2026-01-14"
   hasAffiliateLinks: false
   summaryBullets:
-    - >-
-      Werdykt: No‑code wystarczy dla 80% jednoosobowych usług — jeśli nie
-      potrzebujesz niestandardowych reguł płatności.
-    - >-
-      Werdykt: Dla marketplace'ów, skomplikowanych rabatów i rozliczeń między
-      wieloma podmiotami, no‑code będzie hamować rozwój.
+  - "Werdykt: No‑code wystarczy dla 80% jednoosobowych usług — jeśli nie potrzebujesz\
+    \ niestandardowych reguł płatności."
+  - "Werdykt: Dla marketplace'ów, skomplikowanych rabatów i rozliczeń między wieloma\
+    \ podmiotami, no‑code będzie hamować rozwój."
 taxonomy:
   categories:
-    - Produktywność
-    - Ecommerce
+  - Produktywność
+  - Ecommerce
   tags:
-    - no-code
-    - rezerwacje
-    - płatności
+  - no-code
+  - rezerwacje
+  - płatności
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

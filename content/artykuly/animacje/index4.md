@@ -1,7 +1,7 @@
 ---
 title: "Lottie od A do Z: jak wdrożyć animacje, żeby nie zabić szybkości strony"
-slug: animacje-4
-path: /animacje-4
+slug: lottie-od-a-do-z
+path: /animacje/lottie-od-a-do-z
 template: default
 draft: false
 date: "2026-01-14"

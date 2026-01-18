@@ -1,7 +1,7 @@
 ---
-slug: animacje-17
+slug: animacje-social-media-jitter-canva
 title: "Animacje do sociali bez zespołu wideo: Jitter/Canva i realistyczne rezultaty"
-path: /animacje-17
+path: /animacje/social-media-jitter-canva
 template: default
 draft: false
 date: "2026-01-15"

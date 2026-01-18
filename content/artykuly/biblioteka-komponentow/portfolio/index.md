@@ -1,7 +1,7 @@
 ---
 title: "Sekcje portfolio i case studies: jak napisać skuteczne przykłady projektów"
-slug: portfolio
-path: /artykuly/biblioteka-komponentow/portfolio/
+slug: sekcje-portfolio-case-studies
+path: /artykuly/biblioteka-komponentow/sekcje-portfolio-case-studies/
 draft: true
 template: default
 type: template

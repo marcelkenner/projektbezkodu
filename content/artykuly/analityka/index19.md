@@ -1,7 +1,7 @@
 ---
 title: "QA analityki: jak sprawdzić, że eventy działają (debug, testy, checklisty)"
-slug: analityka-19
-path: /analityka-19
+slug: qa-eventy-testy
+path: /analityka/qa-eventy-testy
 template: default
 draft: false
 date: "2026-01-14"

@@ -1,7 +1,7 @@
 ---
 title: Nawigacja w bibliotece komponentów — sekcje i wzorce
-slug: nawigacja
-path: /artykuly/biblioteka-komponentow/nawigacja/
+slug: nawigacja-komponentow-sekcje-wzorce
+path: /artykuly/biblioteka-komponentow/nawigacja-komponentow-sekcje-wzorce/
 draft: false
 template: default
 type: template

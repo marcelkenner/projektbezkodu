@@ -1,7 +1,7 @@
 ---
 title: "CMS bez kodu: co to jest i kiedy ma sens?"
-slug: cms-bez-kodu
-path: /cms-bez-kodu
+slug: cms-bez-kodu-co-to-jest-i-kiedy-ma-sens
+path: /cms-bez-kodu/co-to-jest-i-kiedy-ma-sens
 date: "2026-01-15"
 template: default
 draft: false

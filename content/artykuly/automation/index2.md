@@ -1,7 +1,7 @@
 ---
 title: "Pierwsza automatyzacja, która realnie oszczędza czas: lead → CRM → follow-up"
-slug: automation-2
-path: /automation-2
+slug: lead-do-crm-follow-up
+path: /automatyzacje/lead-do-crm-follow-up
 template: default
 draft: false
 date: "2026-01-15"

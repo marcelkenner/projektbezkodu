@@ -1,8 +1,8 @@
 ---
 title: "AI w automatyzacjach: klasyfikacja leadów, routing i follow-up — jak nie spalić\
   \ relacji"
-slug: ai-3
-path: /ai-3
+slug: ai-automatyzacje-klasyfikacja-leadow
+path: /artykuly/ai/ai-automatyzacje-klasyfikacja-leadow
 template: default
 draft: false
 date: "2026-01-14"

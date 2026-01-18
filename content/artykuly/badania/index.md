@@ -1,7 +1,7 @@
 ---
-slug: badania
+slug: raport-2026-trendy-no-code
 title: "Raport 2026: trendy na rynku narzędzi no-code"
-path: /badania
+path: /raport-2026-trendy-no-code
 template: default
 draft: false
 date: "2026-01-14"

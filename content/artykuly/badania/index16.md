@@ -1,7 +1,7 @@
 ---
 title: "Raport: wydajność aplikacji no-code — benchmark i dobre praktyki"
-slug: badania-16
-path: /badania-16
+slug: raport-wydajnosc-no-code
+path: /raporty/wydajnosc-no-code
 template: default
 draft: false
 date: "2026-01-14"

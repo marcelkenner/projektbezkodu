@@ -1,7 +1,7 @@
 ---
 title: "PDF i dokumenty na stronie: jak publikować treści w sposób dostępny"
-slug: dostepnosc-cyfrowa-11
-path: /dostepnosc-cyfrowa-11
+slug: pdf-i-dokumenty-na-stronie-dostepne
+path: /dostepnosc/pdf-i-dokumenty-na-stronie-dostepne
 template: default
 draft: false
 type: article

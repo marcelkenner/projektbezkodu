@@ -1,7 +1,7 @@
 ---
 title: "Design bez kodu: od pomysłu do gotowego interfejsu w 7 krokach"
-slug: design-bez-kodu
-path: /design-bez-kodu
+slug: design-bez-kodu-7-krokow
+path: /design-bez-kodu-7-krokow
 template: default
 draft: false
 date: "2026-01-14"

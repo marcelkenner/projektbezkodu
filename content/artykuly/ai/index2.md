@@ -1,8 +1,8 @@
 ---
 title: "Najlepsze zastosowania AI w małej firmie (no-code): 12 scenariuszy, które\
   \ naprawdę oszczędzają czas"
-slug: ai-2
-path: /ai-2
+slug: ai-no-code-mala-firma-12-scenariuszy
+path: /artykuly/ai/ai-no-code-mala-firma-12-scenariuszy
 template: default
 draft: false
 date: "2026-01-14"

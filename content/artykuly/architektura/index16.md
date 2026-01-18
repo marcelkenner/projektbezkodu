@@ -1,8 +1,8 @@
 ---
 title: "Content architecture: CMS w no-code (Webflow/WordPress/Headless) i prawdziwe\
   \ konsekwencje wyboru"
-slug: architektura-16
-path: /architektura-16
+slug: architektura-tresci-cms-no-code-konsekwencje
+path: /architektura/architektura-tresci-cms-no-code-konsekwencje
 template: default
 draft: false
 date: "2026-01-14"

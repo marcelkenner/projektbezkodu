@@ -1,8 +1,8 @@
 ---
 title: "Monitoring automatyzacji: jak wykryć, że coś przestało działać, zanim zauważy\
   \ klient"
-slug: automation-13
-path: /automation-13
+slug: monitoring-automatyzacji
+path: /monitoring-automatyzacji
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
 title: "Architektura danych: schematy, relacje, normalizacja — w no-code też ma znaczenie"
-slug: architektura-15
-path: /architektura-15
+slug: architektura-danych-no-code
+path: /architektura/architektura-danych-no-code
 template: default
 draft: false
 date: "2026-01-14"

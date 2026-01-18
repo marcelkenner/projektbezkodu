@@ -1,7 +1,7 @@
 ---
 title: "Formularze dostępne dla wszystkich: walidacje, etykiety i komunikaty błędów"
-slug: dostepnosc-cyfrowa-7
-path: /dostepnosc-cyfrowa-7
+slug: dostepnosc-formularze-walidacje-etykiety-bledy
+path: /dostepnosc/formularze-walidacje-etykiety-bledy
 template: default
 draft: false
 type: article

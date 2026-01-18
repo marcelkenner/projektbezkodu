@@ -1,8 +1,8 @@
 ---
 title: "Wersjonowanie i zmiany: jak nie rozwalić działającego systemu jedną edycją\
   \ workflow"
-slug: architektura-11
-path: /architektura-11
+slug: wersjonowanie-zmiany-workflow
+path: /wersjonowanie-zmiany-workflow
 template: default
 draft: false
 date: "2026-01-15"

@@ -1,7 +1,7 @@
 ---
 title: "Atrybucja w małej firmie: co jest realne, a co mit o „ostatnim kliknięciu”"
-slug: analityka-10
-path: /analityka-10
+slug: atrybucja-w-malej-firmie-ostatniego-kliku
+path: /atrybucja-w-malej-firmie-ostatniego-kliku
 template: default
 draft: false
 date: "2026-01-14"

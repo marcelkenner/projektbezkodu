@@ -1,7 +1,7 @@
 ---
 title: "Zdjęcia produktowe bez studia: workflow i narzędzia"
-slug: ecommerce-bez-kodu-15
-path: /ecommerce-bez-kodu-15
+slug: zdjecia-produktowe-bez-studia-workflow-narzedzia
+path: /fotografia/zdjecia-produktowe-bez-studia-workflow-narzedzia
 template: default
 draft: false
 date: "2026-01-15"

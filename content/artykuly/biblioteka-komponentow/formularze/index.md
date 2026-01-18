@@ -1,7 +1,7 @@
 ---
 title: "Sekcje: Formularze"
-slug: formularze
-path: /artykuly/biblioteka-komponentow/formularze/
+slug: sekcje-formularzy
+path: /artykuly/biblioteka-komponentow/sekcje-formularzy/
 draft: true
 template: default
 type: template

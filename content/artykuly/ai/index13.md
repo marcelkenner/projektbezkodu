@@ -1,7 +1,7 @@
 ---
 title: "AI do tworzenia landingów: szybkie szkice i copy, ale z zasadami brandu"
-slug: ai-13
-path: /ai-13
+slug: ai-landingow-szkice-copy-zasady-brandu
+path: /artykuly/ai/ai-landingow-szkice-copy-zasady-brandu
 template: default
 draft: false
 date: "2026-01-14"

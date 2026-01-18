@@ -1,7 +1,7 @@
 ---
 title: "No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype"
-slug: architektura-2
-path: /architektura-2
+slug: no-code-stack-dobor-narzedzi-pod-produkt
+path: /no-code-stack/dobor-narzedzi-pod-produkt
 template: default
 draft: false
 date: "2026-01-14"
