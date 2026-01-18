@@ -33,6 +33,9 @@ meta:
     - >-
       Werdykt: Jotform — najlepszy kiedy potrzebujesz dużej liczby szablonów,
       integracji i zgodności (HIPAA/Enterprise).
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/typeform-vs-tally-vs-jotform/
 ---
 
 ## Obietnica decyzji

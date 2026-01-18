@@ -33,6 +33,10 @@ meta:
     - >-
       Werdykt: Kinsta — najlepszy wybór dla wymagających WordPressów, agencji i
       stron z dużym ruchem.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/hostinger-vs-kinsta/
 taxonomy:
   categories:
     - hosting

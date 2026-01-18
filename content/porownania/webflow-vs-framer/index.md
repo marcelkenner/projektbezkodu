@@ -33,6 +33,10 @@ meta:
     - >-
       Werdykt: Framer dla szybkich, animowanych landingów i prototypów, które
       mają wyglądać nowocześnie bez długiej konfiguracji.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/webflow-vs-framer/
 taxonomy:
   categories:
     - site-builder

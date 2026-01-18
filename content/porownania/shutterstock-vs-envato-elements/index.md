@@ -20,6 +20,13 @@ meta:
   author: Redakcja
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
+  summaryBullets:
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/shutterstock-vs-envato-elements/
 taxonomy:
   categories:
     - media

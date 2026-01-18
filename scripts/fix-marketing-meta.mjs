@@ -4,6 +4,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import matter from "gray-matter";
 import yaml from "js-yaml";
+import { fileURLToPath } from "url";
 
 class MarketingMetaRuleSet {
   static ARTICLE_EXPERIENCE_SEGMENTS = new Set([
@@ -136,28 +137,11 @@ class MarketingMetaDefaults {
   }
 }
 
-class ExternalLinkExtractor {
-  extractFirstExternalLink(markdownBody) {
-    if (typeof markdownBody !== "string") {
-      return null;
-    }
-    const match = markdownBody.match(/\((https?:\/\/[^\s)]+)\)/i);
-    if (!match) {
-      return null;
-    }
-    try {
-      const url = new URL(match[1]);
-      return url.toString();
-    } catch {
-      return null;
-    }
-  }
-}
-
 class MarketingMetaFixer {
-  constructor(ruleSet, linkExtractor) {
+  constructor({ ruleSet, projectRoot, contentRoot }) {
     this.ruleSet = ruleSet;
-    this.linkExtractor = linkExtractor;
+    this.projectRoot = projectRoot;
+    this.contentRoot = contentRoot;
   }
 
   shouldProcess(frontmatter, filePath) {
@@ -172,10 +156,7 @@ class MarketingMetaFixer {
     if (!MarketingMetaRuleSet.MARKETING_META_TEMPLATES.has(template)) {
       return false;
     }
-    const relativeToContent = path.relative(
-      path.join(process.cwd(), "content"),
-      filePath,
-    );
+    const relativeToContent = path.relative(this.contentRoot, filePath);
     const [segment] = relativeToContent.split(path.sep);
     return Boolean(segment && MarketingMetaRuleSet.ARTICLE_EXPERIENCE_SEGMENTS.has(segment));
   }
@@ -232,31 +213,36 @@ class MarketingMetaFixer {
     const template =
       typeof frontmatter.template === "string" ? frontmatter.template : "";
     const metaDownloadHref = frontmatter.meta?.downloadHref;
-    const external = this.linkExtractor.extractFirstExternalLink(markdownBody);
+    const heroPrimaryCta = frontmatter.hero?.primaryCta;
     const fallbackPath =
       typeof frontmatter.path === "string"
         ? this.ruleSet.ensureWrappedSlashes(frontmatter.path.trim())
         : this.ruleSet.derivePathFromSource(
             path
-              .relative(process.cwd(), filePath)
+              .relative(this.projectRoot, filePath)
               .split(path.sep)
               .join("/"),
           ) ?? "/";
 
-    const href =
+    const downloadHref =
       typeof metaDownloadHref === "string" && metaDownloadHref.trim()
         ? metaDownloadHref.trim()
-        : external ?? fallbackPath;
+        : null;
+    const heroHref =
+      heroPrimaryCta && this.ruleSet.isNonEmptyString(heroPrimaryCta.href)
+        ? heroPrimaryCta.href.trim()
+        : null;
+    const heroLabel =
+      heroPrimaryCta && this.ruleSet.isNonEmptyString(heroPrimaryCta.label)
+        ? heroPrimaryCta.label.trim()
+        : null;
 
-    let label = MarketingMetaDefaults.labelForTemplate(template);
-    if (href.startsWith("http")) {
-      try {
-        const hostname = new URL(href).hostname.replace(/^www\./, "");
-        label = `Otwórz ${hostname}`;
-      } catch {
-        label = MarketingMetaDefaults.labelForTemplate(template);
-      }
-    }
+    const href = downloadHref ?? heroHref ?? fallbackPath;
+
+    const label =
+      downloadHref && template === "resource"
+        ? MarketingMetaDefaults.labelForTemplate(template)
+        : heroLabel ?? MarketingMetaDefaults.labelForTemplate(template);
 
     frontmatter.meta.primaryCta = {
       label,
@@ -302,14 +288,17 @@ class MarkdownFrontmatterWriter {
   }
 }
 
-async function main() {
-  const contentRoot = path.join(process.cwd(), "content");
+export async function runFixMarketingMeta({
+  projectRoot = process.cwd(),
+  contentRoot = path.join(process.cwd(), "content"),
+} = {}) {
   const walker = new MarkdownDirectoryWalker();
   const files = await walker.collectMarkdownFiles(contentRoot);
-  const fixer = new MarketingMetaFixer(
-    new MarketingMetaRuleSet(),
-    new ExternalLinkExtractor(),
-  );
+  const fixer = new MarketingMetaFixer({
+    ruleSet: new MarketingMetaRuleSet(),
+    projectRoot,
+    contentRoot,
+  });
   const writer = new MarkdownFrontmatterWriter();
 
   let updatedCount = 0;
@@ -336,7 +325,7 @@ async function main() {
     if (nextContent !== raw) {
       await fs.writeFile(filePath, nextContent);
       updatedCount += 1;
-      touched.push(path.relative(process.cwd(), filePath));
+      touched.push(path.relative(projectRoot, filePath));
     }
   }
 
@@ -346,9 +335,19 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error("[content:fix:marketing-meta] Failed.");
-  console.error(error);
-  process.exitCode = 1;
-});
+function isEntryPoint() {
+  const entryPath = process.argv[1];
+  if (!entryPath) {
+    return false;
+  }
+  const currentFilePath = fileURLToPath(import.meta.url);
+  return path.resolve(entryPath) === path.resolve(currentFilePath);
+}
 
+if (isEntryPoint()) {
+  runFixMarketingMeta().catch((error) => {
+    console.error("[content:fix:marketing-meta] Failed.");
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

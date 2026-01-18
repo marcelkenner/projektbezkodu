@@ -25,6 +25,13 @@ meta:
   downloadHref: https://files.projektbezkodu.pl/resources/pbk-agencje-nocode.airtable
   fileSize: 350 KB
   checksum: 7ce8f4a2d9975a2b4eba2a4287456c02ad6bdf1f72bb173fc0b5b18a3a0e2d3a
+  summaryBullets:
+    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
+    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
+    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+  primaryCta:
+    label: Pobierz zasób
+    href: https://files.projektbezkodu.pl/resources/pbk-agencje-nocode.airtable
 ---
 
 ## Co znajdziesz w katalogu

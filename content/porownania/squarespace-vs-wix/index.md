@@ -24,6 +24,11 @@ meta:
     - >-
       Werdykt: Wix dla elastyczności i niskiego progu wejścia; Squarespace dla
       estetyki i prostoty handlu.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/squarespace-vs-wix/
 ---
 
 ## Obietnica decyzji — komu to pomoże

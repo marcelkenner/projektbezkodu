@@ -20,6 +20,13 @@ meta:
   updatedAt: '2026-01-14'
   difficulty: średni
   duration: 5–10 min
+  summaryBullets:
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/shopify-vs-webflow-ecommerce/
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

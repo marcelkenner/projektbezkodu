@@ -34,6 +34,9 @@ meta:
     - >-
       Werdykt: Cloudimage jeśli priorytetem są elastyczne limity i nowe plany
       dla sklepów.
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/uploadcare-vs-cloudimage-vs-imageengine/
 taxonomy:
   categories:
     - performance

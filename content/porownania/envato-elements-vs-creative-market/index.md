@@ -27,6 +27,11 @@ meta:
       Werdykt: Envato — najlepsze przy stałej potrzebie assetów i projektów
       wielokrotnych. Creative Market — lepszy dla jednorazowych, wysokiej
       jakości elementów i kontroli licencji.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/envato-elements-vs-creative-market/
 ---
 
 ## Obietnica decyzji — dla kogo to jest

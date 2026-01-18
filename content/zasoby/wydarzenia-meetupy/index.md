@@ -25,6 +25,13 @@ meta:
   downloadHref: https://files.projektbezkodu.pl/resources/pbk-events.ics
   fileSize: 32 KB
   checksum: 5a7a1e4b3d1647e9d8351a12c84cb7a8f74df46b8de4a3bd5348f7953f1d1ed0
+  summaryBullets:
+    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
+    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
+    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+  primaryCta:
+    label: Pobierz zasób
+    href: https://files.projektbezkodu.pl/resources/pbk-events.ics
 ---
 
 ## Co zawiera kalendarz

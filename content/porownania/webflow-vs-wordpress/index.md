@@ -22,6 +22,13 @@ meta:
   tools:
     - webflow
     - wordpress
+  summaryBullets:
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/webflow-vs-wordpress/
 taxonomy:
   categories:
     - site-builder

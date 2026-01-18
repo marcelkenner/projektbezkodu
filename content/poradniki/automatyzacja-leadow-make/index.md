@@ -22,6 +22,13 @@ meta:
   tools:
     - make
     - mailerlite
+  summaryBullets:
+    - 'Zbudujesz: praktyczny proces krok po kroku.'
+    - 'Nauczysz się: konfiguracji, testów i wdrożenia.'
+    - 'Start: zacznij od sekcji „Jak zacząć”.'
+  primaryCta:
+    label: Przejdź do poradnika
+    href: /poradniki/automatyzacja-leadow-make/
 taxonomy:
   categories:
     - automation

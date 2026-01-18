@@ -32,6 +32,10 @@ meta:
     - >-
       Werdykt: ConvertKit (Kit) sprawdzi się, jeśli zależy ci na prostocie
       automatyzacji i rozbudowanych integracjach.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/beehiiv-vs-convertkit/
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

@@ -196,10 +196,6 @@ function PrinciplesSection() {
   );
 }
 
-function ServicesSection() {
-  return null;
-}
-
 function CallToActionSection() {
   return (
     <div className={`pbk-container ${styles.section} ${styles.surfaceSection}`}>

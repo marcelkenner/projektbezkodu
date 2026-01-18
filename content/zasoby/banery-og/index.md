@@ -25,6 +25,13 @@ meta:
   downloadHref: https://files.projektbezkodu.pl/resources/pbk-og-templates.fig
   fileSize: 4.6 MB
   checksum: e2cf6b5a18f2d00ef5a9b1d34d104dc6f6bf69a345dbefac5b1c82b3c5d70f9c
+  summaryBullets:
+    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
+    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
+    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+  primaryCta:
+    label: Pobierz zasób
+    href: https://files.projektbezkodu.pl/resources/pbk-og-templates.fig
 ---
 
 ## Co zawiera paczka

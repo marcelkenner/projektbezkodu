@@ -26,6 +26,11 @@ meta:
     - >-
       Werdykt: Plausible dla prostoty, Fathom dla bardziej dopracowanego
       cookieless i GA4 gdy potrzebujesz cross-device i integracji z Ads.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/fathom-vs-plausible-vs-ga4/
 taxonomy:
   categories:
     - analytics

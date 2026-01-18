@@ -26,6 +26,11 @@ meta:
     - >-
       Werdykt: wybór zależy od celu — prostota → Softr, mobilne MVP → Glide,
       niestandardowa logika → Bubble.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/softr-vs-glide-vs-bubble/
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

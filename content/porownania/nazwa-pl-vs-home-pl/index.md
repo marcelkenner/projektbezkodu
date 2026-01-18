@@ -32,6 +32,10 @@ meta:
     - >-
       Werdykt: Home.pl — jeśli chcesz prosty start z promocjami cenowymi i
       czytelnym cennikiem.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/nazwa-pl-vs-home-pl/
 ---
 
 ## Obietnica i dla kogo to jest

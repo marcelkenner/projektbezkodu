@@ -17,6 +17,13 @@ hero:
 meta:
   author: Redakcja
   updatedAt: '2026-01-14'
+  summaryBullets:
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/mailerlite-vs-convertkit/
 ---
 
 ## Obietnica: wybór w 2 zdaniach dla twórców i małych firm

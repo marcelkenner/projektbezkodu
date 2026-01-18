@@ -42,6 +42,13 @@ meta:
       - WordPress wymaga więcej opieki devopsowej przy każdej aktualizacji.
       - Wydajność WordPressa zależy od jakości motywu i pluginów.
       - Skalowanie Framera do bloga/glosariusza jest trudniejsze bez CMS.
+  summaryBullets:
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/framer-vs-wordpress/
 taxonomy:
   categories:
     - site-builder

@@ -33,6 +33,11 @@ meta:
     - >-
       Werdykt: Relume dla zespołów potrzebujących spójnego design-systemu;
       Flowbase dla szybkich prototypów i dużej biblioteki komponentów.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/relume-vs-flowbase/
 ---
 
 ## Krótkie obietnica decyzji

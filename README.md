@@ -21,6 +21,7 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 | `npm run lint`         | ESLint                                                                           |
 | `npm run test`         | Runs unit tests (Vitest)                                                         |
 | `npm run content:lint` | Scans every markdown file via `gray-matter` to catch invalid YAML before runtime |
+| `npm run content:fix:marketing-meta` | Fills missing `meta.summaryBullets` + `meta.primaryCta` for marketing templates |
 | `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`)                                        |
 | `npm run svg:optimize` | Optimises brand SVGs via SVGO                                                    |
 

@@ -9,7 +9,8 @@ describe("ArticleRepository", () => {
 
     expect(
       summaries.some(
-        (entry) => entry.path === "/artykuly/biblioteka-komponentow/stopka/",
+        (entry) =>
+          entry.path === "/artykuly/biblioteka-komponentow/sekcje-stopka/",
       ),
     ).toBe(true);
 
@@ -18,4 +19,3 @@ describe("ArticleRepository", () => {
     );
   });
 });
-

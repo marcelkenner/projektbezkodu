@@ -25,6 +25,13 @@ meta:
   downloadHref: https://files.projektbezkodu.pl/resources/pbk-job-board.csv
   fileSize: 120 KB
   checksum: d0c0e3905b4c4a06ddcefec52b2a1cf264c4a4d592f0d9c3f97bd33f55857d66
+  summaryBullets:
+    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
+    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
+    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+  primaryCta:
+    label: Pobierz zasób
+    href: https://files.projektbezkodu.pl/resources/pbk-job-board.csv
 ---
 
 ## Co zawiera katalog

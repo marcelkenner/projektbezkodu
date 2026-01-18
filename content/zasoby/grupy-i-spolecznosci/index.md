@@ -23,6 +23,13 @@ meta:
   downloadHref: https://files.projektbezkodu.pl/resources/pbk-community-directory.csv
   fileSize: 85 KB
   checksum: 3d5e82f79dc79a8cbad130ed0b5f45f9e3f991f2f046ba8f7b64fcfcfdd897a0
+  summaryBullets:
+    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
+    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
+    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+  primaryCta:
+    label: Pobierz zasób
+    href: https://files.projektbezkodu.pl/resources/pbk-community-directory.csv
 ---
 
 ## Co obejmuje katalog

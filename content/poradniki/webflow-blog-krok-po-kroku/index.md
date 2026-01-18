@@ -21,6 +21,13 @@ meta:
   duration: 2 dni
   tools:
     - webflow
+  summaryBullets:
+    - 'Zbudujesz: praktyczny proces krok po kroku.'
+    - 'Nauczysz się: konfiguracji, testów i wdrożenia.'
+    - 'Start: zacznij od sekcji „Jak zacząć”.'
+  primaryCta:
+    label: Przejdź do poradnika
+    href: /poradniki/webflow-blog-krok-po-kroku/
 taxonomy:
   categories:
     - site-builder

@@ -24,6 +24,10 @@ meta:
     - >-
       Werdykt: Webflow — dla projektantów potrzebujących pełnej kontroli i
       skalowalnego CMS.
+    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+  primaryCta:
+    label: Zobacz porównanie
+    href: /porownania/wix-vs-webflow/
 taxonomy:
   categories:
     - site-builder
