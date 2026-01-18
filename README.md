@@ -66,6 +66,10 @@ Newsletter forms (`/api/newsletter/*`) redirect using `Forwarded` / `X-Forwarded
 
 Listmonk calls are executed with `cache: "no-store"`, timeouts, and small retries for transient failures (configurable via `LISTMONK_RETRY_ATTEMPTS`, `LISTMONK_RETRY_MIN_DELAY_MS`, `LISTMONK_RETRY_MAX_DELAY_MS`). Subscribe may redirect with `?warning=optin-delayed` when the signup succeeded but the opt-in email dispatch needs a retry.
 
+## Build stability (Railway)
+
+Railway Metal builders can spawn a high worker count during `next build` (for example “Generating static pages using 31 workers”). If a deploy fails with `failed to solve: Canceled: context canceled`, it is often the builder process getting killed (OOM) or the build context being canceled mid-build. Static generation parallelism is capped in `next.config.ts` via `experimental.staticGenerationMaxConcurrency` and `experimental.staticGenerationMinPagesPerWorker`; tune only after verifying memory headroom.
+
 ### Newsletter (Railway + Listmonk)
 
 Configure **the Next.js service** (this repo) with:

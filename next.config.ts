@@ -3,6 +3,15 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  productionBrowserSourceMaps: false,
+  enablePrerenderSourceMaps: false,
+  experimental: {
+    // Avoid build instability (e.g. OOM / canceled build context) on high-core CI builders by
+    // limiting how many pages are generated in parallel during `next build`.
+    staticGenerationMaxConcurrency: 4,
+    staticGenerationMinPagesPerWorker: 100,
+    serverSourceMaps: false,
+  },
   async rewrites() {
     // Normalize any malformed asset URLs that include double slashes or a duplicated `_next` segment.
     return [
