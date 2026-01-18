@@ -6,7 +6,7 @@ template: default
 draft: false
 date: '2026-01-15'
 hero:
-  heading: 'Dostępność cyfrowa w no-code'
+  heading: Dostępność cyfrowa w no-code
 seo:
   title: Dostępność cyfrowa w no-code — szybki przewodnik dla twórców
   description: >-

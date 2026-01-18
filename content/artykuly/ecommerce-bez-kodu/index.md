@@ -7,7 +7,7 @@ draft: false
 type: article
 date: '2026-01-15'
 hero:
-  heading: 'E-commerce bez kodu'
+  heading: E-commerce bez kodu
   subheading: 'Praktyczny plan startu: platforma, płatności, dostawy i pierwsza kampania'
 seo:
   title: E-commerce bez kodu — jak wystartować sklep w weekend

@@ -8,8 +8,7 @@ template: default
 draft: false
 date: '2026-01-14'
 hero:
-  heading: >-
-    Architektura no-code
+  heading: Architektura no-code
   subheading: >-
     Praktyczne reguły, decyzje i gotowe kroki dla osób budujących aplikacje bez
     kodu

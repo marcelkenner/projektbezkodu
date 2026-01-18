@@ -7,7 +7,7 @@ type: hub
 draft: false
 date: '2026-01-14'
 hero:
-  heading: 'Analityka w no‑code'
+  heading: Analityka w no‑code
   subheading: >-
     Krótko: co mierzyć na stronach i produktach zbudowanych no‑code, jak zacząć
     i czego unikać.

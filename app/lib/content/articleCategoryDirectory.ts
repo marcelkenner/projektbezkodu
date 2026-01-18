@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import { readMarkdownFile } from "@/app/lib/frontmatter";
+import { SlugHumanizer } from "@/app/lib/text/SlugHumanizer";
 
 export type ArticleCategory = {
   slug: string;
@@ -11,9 +12,11 @@ export type ArticleCategory = {
 
 export class ArticleCategoryDirectory {
   private readonly basePath: string;
+  private readonly humanizer: SlugHumanizer;
 
   constructor(basePath = path.join(process.cwd(), "content", "artykuly")) {
     this.basePath = basePath;
+    this.humanizer = new SlugHumanizer();
   }
 
   listCategories(): ArticleCategory[] {
@@ -60,7 +63,7 @@ export class ArticleCategoryDirectory {
 
     const slug = dirName;
     const label =
-      frontmatter.hero?.heading ?? frontmatter.title ?? this.humanize(slug);
+      frontmatter.hero?.heading ?? frontmatter.title ?? this.humanizer.humanize(slug);
     const description =
       frontmatter.hero?.subheading ?? this.createExcerpt(content);
 
@@ -72,16 +75,6 @@ export class ArticleCategoryDirectory {
       return false;
     }
     return type.trim().toLowerCase() === "hub";
-  }
-
-  private humanize(value: string): string {
-    return value
-      .split("-")
-      .map((part) =>
-        part ? `${part.charAt(0).toUpperCase()}${part.slice(1)}` : "",
-      )
-      .filter(Boolean)
-      .join(" ");
   }
 
   private createExcerpt(content: string, limit = 140): string | undefined {

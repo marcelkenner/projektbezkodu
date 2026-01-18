@@ -6,7 +6,7 @@ template: default
 draft: false
 date: '2026-01-14'
 hero:
-  heading: 'Design bez kodu'
+  heading: Design bez kodu
   subheading: >-
     Praktyczny proces: brief → moodboard → komponenty → makiety → prototyp →
     testy → wdrożenie.

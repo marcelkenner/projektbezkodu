@@ -6,7 +6,7 @@ template: default
 draft: false
 date: '2026-01-15'
 hero:
-  heading: 'Animacje w no-code'
+  heading: Animacje w no-code
   subheading: >-
     Ruch, który wyjaśnia — nie odciąga. Praktyczne reguły dla marketingu i
     founderów.

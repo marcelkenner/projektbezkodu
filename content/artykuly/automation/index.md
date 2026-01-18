@@ -1,13 +1,12 @@
 ---
 title: 'Automation w no-code: dla kogo to jest i kiedy naprawdę się opłaca'
 slug: automatyzacja-no-code-dla-kogo-kiedy-oplaca
-path: architektura-no-code-stabilnosc
-path: /artykuly/automatyzacja
+path: /artykuly/automatyzacja/
 template: default
 draft: false
 date: '2026-01-15'
 hero:
-  heading: 'Automation w no-code'
+  heading: Automation w no-code
   subheading: Szybki werdykt, kryteria decyzji i 5‑minutowy test startowy
 seo:
   title: Automation w no-code — kiedy warto automatyzować?
