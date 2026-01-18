@@ -1,45 +1,48 @@
 ---
-title: "Canva bez kodu: workflow do social mediów w 30 minut"
+title: 'Canva bez kodu: workflow do social mediów w 30 minut'
 slug: creative-tools-2
 path: /creative-tools-2
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Canva bez kodu: workflow do social mediów w 30 minut"
+  heading: 'Canva bez kodu: workflow do social mediów w 30 minut'
   subheading: Szybki proces od briefu do opublikowanego posta, bez programowania
 seo:
-  title: "Canva bez kodu: workflow do social mediów w 30 minut"
-  description: "Praktyczny, krok po kroku workflow w Canva (bez kodu) — od Brand Kit,\
-    \ przez szablony i Magic Resize, po planowanie i eksport. Czas: ~30 minut."
+  title: 'Canva bez kodu: workflow do social mediów w 30 minut'
+  description: >-
+    Praktyczny, krok po kroku workflow w Canva (bez kodu) — od Brand Kit, przez
+    szablony i Magic Resize, po planowanie i eksport. Czas: ~30 minut.
   keywords:
-  - Canva
-  - workflow social media
-  - no-code
-  - Brand Kit
-  - Magic Resize
+    - Canva
+    - workflow social media
+    - no-code
+    - Brand Kit
+    - Magic Resize
 meta:
   difficulty: Łatwy
   duration: 30 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz Brand Kit w Canva
     href: https://www.canva.com/pro/brand-kit/
   summaryBullets:
-  - "Werdykt: Stworzysz spójny post w 30 minut używając Canva Pro; bez Pro będziesz\
-    \ robić ręczne obejścia."
-  - "Najszybsze elementy: gotowy szablon + Brand Kit + Magic Resize."
-  - "Ryzyko: jeśli nie masz materiałów (logo, fonty), przygotowanie może wydłużyć\
-    \ czas."
+    - >-
+      Werdykt: Stworzysz spójny post w 30 minut używając Canva Pro; bez Pro
+      będziesz robić ręczne obejścia.
+    - 'Najszybsze elementy: gotowy szablon + Brand Kit + Magic Resize.'
+    - >-
+      Ryzyko: jeśli nie masz materiałów (logo, fonty), przygotowanie może
+      wydłużyć czas.
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - creative
-  - Canva
+    - no-code
+    - creative
+    - Canva
 ---
 
 ## Obietnica decyzji

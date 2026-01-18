@@ -1,41 +1,46 @@
 ---
-title: "Nazewnictwo eventów: konwencje, które skalują się w zespole"
+title: 'Nazewnictwo eventów: konwencje, które skalują się w zespole'
 slug: analityka-20
 path: /analityka-20
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Nazewnictwo eventów: proste reguły, które nie rozszarpią raportów"
+  heading: 'Nazewnictwo eventów: proste reguły, które nie rozszarpią raportów'
   subheading: Jak nazwać zdarzenia, żeby analityka działała zabiegiem, a nie rzeźnią
 seo:
   title: Nazewnictwo eventów — konwencje dla zespołów analitycznych
-  description: "Praktyczny przewodnik po konwencjach nazewnictwa eventów, które skaluje\
-    \ się w zespole: zasady, typowe pułapki i proste schematy do wdrożenia."
+  description: >-
+    Praktyczny przewodnik po konwencjach nazewnictwa eventów, które skaluje się
+    w zespole: zasady, typowe pułapki i proste schematy do wdrożenia.
   keywords:
-  - nazewnictwo eventów
-  - GA4 naming convention
-  - analityka eventów
-  - naming events
+    - nazewnictwo eventów
+    - GA4 naming convention
+    - analityka eventów
+    - naming events
 meta:
   summaryBullets:
-  - "Werdykt: prosty schemat akcja_obiekt_kontekst działa najczęściej."
-  - "Dla kogo: zespoły produktowe i analityczne, które chcą uniknąć dublowania eventów."
-  - "Start: wyeksportuj listę istniejących eventów i ustal 3 reguły priorytetowe."
+    - 'Werdykt: prosty schemat akcja_obiekt_kontekst działa najczęściej.'
+    - >-
+      Dla kogo: zespoły produktowe i analityczne, które chcą uniknąć dublowania
+      eventów.
+    - >-
+      Start: wyeksportuj listę istniejących eventów i ustal 3 reguły
+      priorytetowe.
   primaryCta:
     label: Limity i zasady Google Analytics (GA4)
     href: https://support.google.com/analytics/answer/9267744
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja Analityka
 taxonomy:
   categories:
-  - analityka
-  - product
+    - analityka
+    - product
   tags:
-  - nazewnictwo
-  - GA4
-  - best-practices
+    - nazewnictwo
+    - GA4
+    - best-practices
 ---
 
 ## Obietnica decyzji dla czytelnika

@@ -4,39 +4,41 @@ slug: automation-26
 path: /automation-26
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Najczęstsze błędy w automatyzacjach no-code — szybki przewodnik naprawczy
-  subheading: Co robić przed, w trakcie i po wdrożeniu, żeby automatyzacje nie stały
-    się kosztownym długiem technicznym
+  subheading: >-
+    Co robić przed, w trakcie i po wdrożeniu, żeby automatyzacje nie stały się
+    kosztownym długiem technicznym
   primaryCta:
     label: Przeczytaj checklistę Zapier
     href: https://zapier.com/blog/common-marketing-automation-mistakes/
 seo:
   title: Błędy w automatyzacjach no-code — jak ich uniknąć
-  description: Lista realnych błędów w no‑code + praktyczne instrukcje szybkiego startu,
+  description: >-
+    Lista realnych błędów w no‑code + praktyczne instrukcje szybkiego startu,
     testów i odpowiedzialności.
   keywords:
-  - no-code
-  - automatyzacje
-  - błędy automatyzacji
-  - testowanie
-  - versioning
+    - no-code
+    - automatyzacje
+    - błędy automatyzacji
+    - testowanie
+    - versioning
 meta:
   summaryBullets:
-  - "Werdykt: proste zasady zmniejszą awaryjność i koszt utrzymania"
-  - "Dla kogo: od zespołów marketingu po małe SaaS-y — z zastrzeżeniami"
-  - "Start: szybka checklistka do wdrożenia w 10 minut"
+    - 'Werdykt: proste zasady zmniejszą awaryjność i koszt utrzymania'
+    - 'Dla kogo: od zespołów marketingu po małe SaaS-y — z zastrzeżeniami'
+    - 'Start: szybka checklistka do wdrożenia w 10 minut'
   primaryCta:
     label: Czytaj dalej o typowych błędach
     href: https://zapier.com/blog/common-marketing-automation-mistakes/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   format: guide
   topics:
-  - automatyzacje
-  - no-code
-  - operacje
+    - automatyzacje
+    - no-code
+    - operacje
 ---
 
 ## Obietnica decyzji dla kogo i dlaczego

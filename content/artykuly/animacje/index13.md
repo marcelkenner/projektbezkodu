@@ -1,45 +1,50 @@
 ---
-title: "Biblioteka wzorców motion dla no-code: 12 gotowców do skopiowania"
+title: 'Biblioteka wzorców motion dla no-code: 12 gotowców do skopiowania'
 slug: animacje-13
 path: /animacje-13
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Biblioteka wzorców motion dla no-code: 12 gotowców do skopiowania"
-  subheading: "Gotowe animacje i jasne reguły: kiedy użyć, jak wdrożyć, co testować"
+  heading: 'Biblioteka wzorców motion dla no-code: 12 gotowców do skopiowania'
+  subheading: 'Gotowe animacje i jasne reguły: kiedy użyć, jak wdrożyć, co testować'
 seo:
-  title: "Biblioteka wzorców motion dla no-code: 12 gotowców"
-  description: "Lista 12 praktycznych wzorców motion dla no-code (Lottie, CSS, Motion\
-    \ UI). Krótkie wskazówki: kiedy używać, jak wdrożyć i co sprawdzić przed publikacją."
+  title: 'Biblioteka wzorców motion dla no-code: 12 gotowców'
+  description: >-
+    Lista 12 praktycznych wzorców motion dla no-code (Lottie, CSS, Motion UI).
+    Krótkie wskazówki: kiedy używać, jak wdrożyć i co sprawdzić przed
+    publikacją.
   keywords:
-  - motion design
-  - no-code
-  - Lottie
-  - animacje
-  - wzorce motion
+    - motion design
+    - no-code
+    - Lottie
+    - animacje
+    - wzorce motion
 meta:
   summaryBullets:
-  - "Werdykt: szybki starter dla zespołów marketingu i produktowego"
-  - "Dla kogo: landingy, CTA, mikro-interakcje; kiedy unikać: ciężkie animacje na\
-    \ mobile"
-  - "Start: pobierz Lottie, ustaw prefers-reduced-motion, przetestuj na 3 urządzeniach"
+    - 'Werdykt: szybki starter dla zespołów marketingu i produktowego'
+    - >-
+      Dla kogo: landingy, CTA, mikro-interakcje; kiedy unikać: ciężkie animacje
+      na mobile
+    - >-
+      Start: pobierz Lottie, ustaw prefers-reduced-motion, przetestuj na 3
+      urządzeniach
   primaryCta:
     label: Przeglądaj darmowe animacje Lottie
     href: https://lottiefiles.com/free-animations/marketing
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   difficulty: Łatwy start
 taxonomy:
   categories:
-  - design
-  - no-code
-  - marketing
+    - design
+    - no-code
+    - marketing
   tags:
-  - motion
-  - lottie
-  - animacja
-  - webflow
+    - motion
+    - lottie
+    - animacja
+    - webflow
 ---
 
 ## Obietnica: szybki werdykt i gotowe kroki dla zespołu marketingu

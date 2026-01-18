@@ -1,46 +1,48 @@
 ---
-title: "Badanie: automatyzacje w firmach — Make kontra Zapier"
+title: 'Badanie: automatyzacje w firmach — Make kontra Zapier'
 slug: badania-7
 path: /badania-7
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Make kontra Zapier: gdzie lepiej inwestować automatyzacje?"
-  subheading: "Szybki werdykt dla zespołów: koszt, złożoność, AI i skalowanie."
+  heading: 'Make kontra Zapier: gdzie lepiej inwestować automatyzacje?'
+  subheading: 'Szybki werdykt dla zespołów: koszt, złożoność, AI i skalowanie.'
 seo:
   title: Make czy Zapier? Badanie automatyzacji w firmach
-  description: Porównanie kosztów, możliwości i powodów migracji między Make (Integromat)
-    a Zapier — praktyczny poradnik dla firm.
+  description: >-
+    Porównanie kosztów, możliwości i powodów migracji między Make (Integromat) a
+    Zapier — praktyczny poradnik dla firm.
   keywords:
-  - Make
-  - Zapier
-  - automatyzacje
-  - no-code
-  - integracje
+    - Make
+    - Zapier
+    - automatyzacje
+    - no-code
+    - integracje
 meta:
   difficulty: średni
   duration: 5 min
   author: Badania Automatyzacji
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Make często tańszy przy złożonych przepływach; Zapier łatwiejszy dla\
-    \ nietechnicznych zespołów."
-  - "Dla kogo: developerzy/ops → Make; marketing/HR → Zapier."
-  - "Start: zmapuj liczbę kroków i koszty przed migracją."
+    - >-
+      Werdykt: Make często tańszy przy złożonych przepływach; Zapier łatwiejszy
+      dla nietechnicznych zespołów.
+    - 'Dla kogo: developerzy/ops → Make; marketing/HR → Zapier.'
+    - 'Start: zmapuj liczbę kroków i koszty przed migracją.'
   primaryCta:
     label: Porównanie Zapier vs Make
     href: https://zapier.com/blog/zapier-vs-make
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - automatyzacje
-  - Make
-  - Zapier
-  - porównanie
+    - automatyzacje
+    - Make
+    - Zapier
+    - porównanie
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

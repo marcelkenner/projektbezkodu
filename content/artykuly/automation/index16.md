@@ -1,43 +1,47 @@
 ---
-title: "Kalkulator opłacalności automatyzacji: kiedy automatyzować, a kiedy uprościć\
-  \ proces"
+title: >-
+  Kalkulator opłacalności automatyzacji: kiedy automatyzować, a kiedy uprościć
+  proces
 slug: automation-16
 path: /automation-16
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Kalkulator opłacalności automatyzacji
   subheading: Proste kryteria, szybki start, decyzja bez niepotrzebnych projektów
 seo:
   title: Kiedy automatyzować, a kiedy uprościć proces — kalkulator opłacalności
-  description: Jak ocenić ROI automatyzacji, kiedy lepiej usunąć krok zamiast go automatyzować
-    i jak policzyć proste wskaźniki.
+  description: >-
+    Jak ocenić ROI automatyzacji, kiedy lepiej usunąć krok zamiast go
+    automatyzować i jak policzyć proste wskaźniki.
   keywords:
-  - automatyzacja
-  - ROI
-  - procesy
-  - lean
-  - opłacalność
+    - automatyzacja
+    - ROI
+    - procesy
+    - lean
+    - opłacalność
 meta:
   summaryBullets:
-  - "Werdykt: najpierw uprość, potem automatyzuj."
-  - "Dla kogo: małe i średnie procesy z wysoką zmiennością - często nieautomatyzowalne."
-  - "Start: policz czas i koszty, użyj kalkulatora ROI."
+    - 'Werdykt: najpierw uprość, potem automatyzuj.'
+    - >-
+      Dla kogo: małe i średnie procesy z wysoką zmiennością - często
+      nieautomatyzowalne.
+    - 'Start: policz czas i koszty, użyj kalkulatora ROI.'
   primaryCta:
     label: Sprawdź kalkulator ROI
     href: https://www.projectis-group.com/resources/blog/automation-roi-calculation
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
 taxonomy:
   categories:
-  - automatyzacja
-  - operacje
+    - automatyzacja
+    - operacje
   tags:
-  - ROI
-  - procesy
-  - lean
+    - ROI
+    - procesy
+    - lean
 ---
 
 ## Obietnica decyzji — dla kogo ten artykuł

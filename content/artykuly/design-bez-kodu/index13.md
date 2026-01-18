@@ -1,41 +1,42 @@
 ---
-title: "Ikony i ilustracje: skąd brać i jak spójnie używać"
+title: 'Ikony i ilustracje: skąd brać i jak spójnie używać'
 slug: design-bez-kodu-13
 path: /design-bez-kodu-13
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Ikony i ilustracje: skąd brać i jak spójnie używać"
+  heading: 'Ikony i ilustracje: skąd brać i jak spójnie używać'
   subheading: Proste zasady wyboru, licencje i szybki start
 seo:
-  title: "Ikony i ilustracje: skąd brać i jak spójnie używać"
-  description: Jak wybierać, łączyć i licencjonować ikony oraz ilustracje w produktach
+  title: 'Ikony i ilustracje: skąd brać i jak spójnie używać'
+  description: >-
+    Jak wybierać, łączyć i licencjonować ikony oraz ilustracje w produktach
     cyfrowych.
   keywords:
-  - ikony
-  - ilustracje
-  - UI
-  - licencje
-  - design bez kodu
+    - ikony
+    - ilustracje
+    - UI
+    - licencje
+    - design bez kodu
 meta:
   summaryBullets:
-  - "Werdykt: wybierz źródła zgodnie z licencją i potrzebą spójności."
-  - "Dla kogo: zespoły produktowe, frontendowcy, właściciele małych stron."
-  - "Start: ustal styl i jedną paletę, potem pobieraj SVG lub ikon-font."
+    - 'Werdykt: wybierz źródła zgodnie z licencją i potrzebą spójności.'
+    - 'Dla kogo: zespoły produktowe, frontendowcy, właściciele małych stron.'
+    - 'Start: ustal styl i jedną paletę, potem pobieraj SVG lub ikon-font.'
   primaryCta:
     label: Zobacz unDraw
     href: https://undraw.co/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - ikony
-  - ilustracje
-  - UI
-  - licencje
+    - ikony
+    - ilustracje
+    - UI
+    - licencje
 ---
 
 ## Obietnica decyzji

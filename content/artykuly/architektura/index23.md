@@ -1,39 +1,41 @@
 ---
-title: "Przykładowe architektury: MVP SaaS, e‑commerce, agencja, szkoła online"
+title: 'Przykładowe architektury: MVP SaaS, e‑commerce, agencja, szkoła online'
 slug: architektura-23
 path: /architektura-23
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Przykładowe architektury (case’y)
-  subheading: Szybkie werdykty i pierwszy krok dla MVP, e‑commerce, agencji usługowej
-    i szkoły online
+  subheading: >-
+    Szybkie werdykty i pierwszy krok dla MVP, e‑commerce, agencji usługowej i
+    szkoły online
 seo:
-  title: "Przykładowe architektury: MVP, e‑commerce, agencja, szkoła online"
-  description: "Werdykt technologiczny dla czterech typowych projektów: co wybrać,\
-    \ dlaczego i jak zacząć."
+  title: 'Przykładowe architektury: MVP, e‑commerce, agencja, szkoła online'
+  description: >-
+    Werdykt technologiczny dla czterech typowych projektów: co wybrać, dlaczego
+    i jak zacząć.
   keywords:
-  - MVP SaaS
-  - e-commerce
-  - architektura
-  - tech stack
-  - szkoła online
+    - MVP SaaS
+    - e-commerce
+    - architektura
+    - tech stack
+    - szkoła online
 meta:
   summaryBullets:
-  - "Werdykt: krótkie, praktyczne decyzje tech-stacków dla czterech case’ów"
-  - "Dla kogo: wskazówki, kiedy monolit, kiedy headless/microservices"
-  - "Start: co zrobić jako pierwszy krok dla każdego case’u"
+    - 'Werdykt: krótkie, praktyczne decyzje tech-stacków dla czterech case’ów'
+    - 'Dla kogo: wskazówki, kiedy monolit, kiedy headless/microservices'
+    - 'Start: co zrobić jako pierwszy krok dla każdego case’u'
   primaryCta:
     label: Przejdź do przewodnika MVP
     href: https://stackselector.com/blog/how-to-build-saas-mvp-tech-stack-2025
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - architektura
-  - poradnik
-  - tech
+    - architektura
+    - poradnik
+    - tech
 ---
 
 ## Obietnica decyzji dla konkretnych grup

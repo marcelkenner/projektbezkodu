@@ -1,43 +1,47 @@
 ---
-title: "B2B e-commerce bez kodu: cenniki dla klientów, faktury i płatności"
+title: 'B2B e-commerce bez kodu: cenniki dla klientów, faktury i płatności'
 slug: ecommerce-bez-kodu-18
 path: /ecommerce-bez-kodu-18
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "B2B e-commerce bez kodu: cenniki, faktury, płatności — szybki werdykt"
-  subheading: Jak ustawić ceny dla firm, wysyłać pro-formy i odbierać płatności bez
+  heading: 'B2B e-commerce bez kodu: cenniki, faktury, płatności — szybki werdykt'
+  subheading: >-
+    Jak ustawić ceny dla firm, wysyłać pro-formy i odbierać płatności bez
     pisania własnego backendu
 meta:
   summaryBullets:
-  - "Werdykt: praktyczny, szybki start dla małych i średnich B2B."
-  - "Dla kogo: sprzedawcy z katalogiem produktów i potrzebą cenników netto/warstwowych."
-  - "Start: uruchom podstawowy katalog + Stripe Invoicing w 45–90 minut."
+    - 'Werdykt: praktyczny, szybki start dla małych i średnich B2B.'
+    - >-
+      Dla kogo: sprzedawcy z katalogiem produktów i potrzebą cenników
+      netto/warstwowych.
+    - 'Start: uruchom podstawowy katalog + Stripe Invoicing w 45–90 minut.'
   primaryCta:
     label: Stripe Invoicing — przewodnik
     href: https://docs.stripe.com/invoicing/no-code-guide
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: B2B e-commerce bez kodu — cenniki, faktury, płatności
-  description: "Poradnik: jak ustawić ceny per-klient, wysyłać pro-formy, obsługiwać\
-    \ terminy płatności i zamówienia cykliczne używając narzędzi no-code."
+  description: >-
+    Poradnik: jak ustawić ceny per-klient, wysyłać pro-formy, obsługiwać terminy
+    płatności i zamówienia cykliczne używając narzędzi no-code.
   keywords:
-  - B2B e-commerce
-  - no-code
-  - cenniki klienta
-  - faktury
-  - płatności
-  - Stripe
-  - Shopify B2B
+    - B2B e-commerce
+    - no-code
+    - cenniki klienta
+    - faktury
+    - płatności
+    - Stripe
+    - Shopify B2B
 taxonomy:
   categories:
-  - E-commerce bez kodu
+    - E-commerce bez kodu
   tags:
-  - B2B
-  - płatności
-  - faktury
-  - no-code
+    - B2B
+    - płatności
+    - faktury
+    - no-code
 ---
 
 ## Obietnica decyzji dla konkretnego czytelnika

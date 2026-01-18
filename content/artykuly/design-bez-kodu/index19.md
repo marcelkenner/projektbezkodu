@@ -1,49 +1,52 @@
 ---
-title: "Porównania narzędzi: wzór tabeli, która jest czytelna i uczciwa"
+title: 'Porównania narzędzi: wzór tabeli, która jest czytelna i uczciwa'
 slug: design-bez-kodu-19
 path: /design-bez-kodu-19
-date: "2026-01-14"
+date: '2026-01-14'
 draft: false
 template: default
 type: article
 hero:
-  heading: "Porównania narzędzi: wzór tabeli, która jest czytelna i uczciwa"
+  heading: 'Porównania narzędzi: wzór tabeli, która jest czytelna i uczciwa'
   subheading: Jak zbudować porównanie, które pomaga użytkownikowi, a nie go myli.
 seo:
   title: Porównania narzędzi — wzór tabeli czytelnej i uczciwej
-  description: "Praktyczny przewodnik po projektowaniu porównań funkcji: co pokazywać,\
-    \ jak układać, jak zachować dostępność i jak nie wprowadzać w błąd."
+  description: >-
+    Praktyczny przewodnik po projektowaniu porównań funkcji: co pokazywać, jak
+    układać, jak zachować dostępność i jak nie wprowadzać w błąd.
   keywords:
-  - porównania narzędzi
-  - tabela porównawcza
-  - UX
-  - dostępność
-  - design bez kodu
+    - porównania narzędzi
+    - tabela porównawcza
+    - UX
+    - dostępność
+    - design bez kodu
   canonical: https://blog.logrocket.com/ux-design/design-feature-comparison-tables/
 meta:
   summaryBullets:
-  - "Werdykt: prosta tabela z jasnym faworytem dla większości użytkowników."
-  - "Dla kogo: idealne przy 2–4 opcjach i kluczowych różnicach."
-  - "Start: 5 minut — wybierz 4 najważniejsze cechy i połóż je w pierwszych wierszach."
+    - 'Werdykt: prosta tabela z jasnym faworytem dla większości użytkowników.'
+    - 'Dla kogo: idealne przy 2–4 opcjach i kluczowych różnicach.'
+    - >-
+      Start: 5 minut — wybierz 4 najważniejsze cechy i połóż je w pierwszych
+      wierszach.
   primaryCta:
     label: Przykłady i wskazówki
     href: https://blog.logrocket.com/ux-design/design-feature-comparison-tables/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 5 min
   hasAffiliateLinks: false
   topics:
-  - UX
-  - tabele
-  - porównania
-  - dostępność
+    - UX
+    - tabele
+    - porównania
+    - dostępność
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - porównania
-  - tabele
-  - ux
+    - porównania
+    - tabele
+    - ux
 ---
 
 ## Obietnica i decyzja

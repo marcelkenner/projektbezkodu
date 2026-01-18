@@ -1,40 +1,44 @@
 ---
-title: "Atrybucja w małej firmie: co jest realne, a co mit o „ostatnim kliknięciu”"
+title: 'Atrybucja w małej firmie: co jest realne, a co mit o „ostatnim kliknięciu”'
 slug: analityka-10
 path: /analityka-10
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Atrybucja w małej firmie: realne oczekiwania i szybki start"
-  subheading: "Krótko: co działa, co odpuścić i jak zacząć bez wielkiego budżetu"
+  heading: 'Atrybucja w małej firmie: realne oczekiwania i szybki start'
+  subheading: 'Krótko: co działa, co odpuścić i jak zacząć bez wielkiego budżetu'
 meta:
   summaryBullets:
-  - "Werdykt: proste metryki + testy incrementalityjne biją zaawansowane modele, jeśli\
-    \ masz mało danych."
-  - "Dla kogo: małe firmy z ograniczoną infrastrukturą i krótkim cyklem sprzedaży."
-  - "Start: ustal cele, wprowadź UTM i uruchom mały test kontrolny."
+    - >-
+      Werdykt: proste metryki + testy incrementalityjne biją zaawansowane
+      modele, jeśli masz mało danych.
+    - >-
+      Dla kogo: małe firmy z ograniczoną infrastrukturą i krótkim cyklem
+      sprzedaży.
+    - 'Start: ustal cele, wprowadź UTM i uruchom mały test kontrolny.'
   primaryCta:
     label: Artykuł o multi-touch
     href: https://business.adobe.com/blog/basics/multi-touch-attribution
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 seo:
   title: Atrybucja marketingowa dla małych firm — praktyczny przewodnik
-  description: "Jak mierzyć konwersje bez iluzji: kiedy ostatnie kliknięcie kłamie,\
-    \ a kiedy wystarczy prosta analiza."
+  description: >-
+    Jak mierzyć konwersje bez iluzji: kiedy ostatnie kliknięcie kłamie, a kiedy
+    wystarczy prosta analiza.
   keywords:
-  - atrybucja
-  - mała firma
-  - ostatnie kliknięcie
-  - multi-touch
-  - marketing
+    - atrybucja
+    - mała firma
+    - ostatnie kliknięcie
+    - multi-touch
+    - marketing
 taxonomy:
   categories:
-  - analityka
-  - marketing
+    - analityka
+    - marketing
 ---
 
 ## Obietnica decyzji dla właściciela małej firmy

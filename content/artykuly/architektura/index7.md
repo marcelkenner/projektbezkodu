@@ -1,37 +1,38 @@
 ---
-title: "Eventy, webhooki i kolejki: jak myśleć o przepływie danych w no-code"
+title: 'Eventy, webhooki i kolejki: jak myśleć o przepływie danych w no-code'
 slug: architektura-7
 path: /architektura-7
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Eventy, webhooki i kolejki: jak myśleć o przepływie danych w no-code"
+  heading: 'Eventy, webhooki i kolejki: jak myśleć o przepływie danych w no-code'
   subheading: Krótko i praktycznie dla osób, które budują coś więcej niż landing
 seo:
-  title: "Eventy, webhooki i kolejki: przewodnik dla no-code"
-  description: Porównanie webhooków i kolejek, jak zacząć i kiedy które rozwiązanie
-    wybrać w narzędziach no-code.
+  title: 'Eventy, webhooki i kolejki: przewodnik dla no-code'
+  description: >-
+    Porównanie webhooków i kolejek, jak zacząć i kiedy które rozwiązanie wybrać
+    w narzędziach no-code.
   keywords:
-  - webhooki
-  - kolejki
-  - no-code
-  - eventy
-  - architektura danych
+    - webhooki
+    - kolejki
+    - no-code
+    - eventy
+    - architektura danych
 meta:
   summaryBullets:
-  - "Werdykt: proste reguły wyboru, żeby nie łatać automatyzacji na ślepo"
-  - "Dla kogo: zespoły produktowe i automatyzatorzy w no-code"
-  - "Start: zrób test catch-hook i krótką kolejkę testową"
+    - 'Werdykt: proste reguły wyboru, żeby nie łatać automatyzacji na ślepo'
+    - 'Dla kogo: zespoły produktowe i automatyzatorzy w no-code'
+    - 'Start: zrób test catch-hook i krótką kolejkę testową'
   primaryCta:
     label: Co to są webhooki? (Zapier)
     href: https://zapier.com/blog/what-are-webhooks
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - Architektura
-  - No-code
+    - Architektura
+    - No-code
 ---
 
 ## Obietnica decyzji i grupa docelowa

@@ -1,42 +1,46 @@
 ---
-title: "Sekcje: Stopka"
+title: 'Sekcje: Stopka'
 slug: stopka
 path: /artykuly/biblioteka-komponentow/stopka/
 draft: false
 template: default
 type: template
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Sekcje: Stopka"
+  heading: 'Sekcje: Stopka'
   subheading: Krótki przewodnik projektowy — co wkładać do stopki i dlaczego
 seo:
-  title: "Sekcje: Stopka — co zawrzeć w stopce strony"
-  description: "Praktyczny przewodnik po stopkach: elementy, dostępność, treść i typowe\
-    \ błędy. Krótko, z przykładami i decyzjami projektowymi."
+  title: 'Sekcje: Stopka — co zawrzeć w stopce strony'
+  description: >-
+    Praktyczny przewodnik po stopkach: elementy, dostępność, treść i typowe
+    błędy. Krótko, z przykładami i decyzjami projektowymi.
   keywords:
-  - stopka
-  - footer
-  - dostępność
-  - projektowanie stron
-  - biblioteka komponentów
+    - stopka
+    - footer
+    - dostępność
+    - projektowanie stron
+    - biblioteka komponentów
 meta:
   summaryBullets:
-  - "Werdykt: prosta stopka z prawami autorskimi i linkami prawnymi wystarcza w większości\
-    \ serwisów."
-  - "Dla kogo: e-commerce i serwisy korporacyjne potrzebują rozbudowanej, informacyjnej\
-    \ stopki; blogy i landing page — kompaktowej."
-  - "Start: umieść `<footer>` jako bezpośredniego potomka `<body>` i dodaj linki do\
-    \ polityk + kontakt."
+    - >-
+      Werdykt: prosta stopka z prawami autorskimi i linkami prawnymi wystarcza w
+      większości serwisów.
+    - >-
+      Dla kogo: e-commerce i serwisy korporacyjne potrzebują rozbudowanej,
+      informacyjnej stopki; blogy i landing page — kompaktowej.
+    - >-
+      Start: umieść `<footer>` jako bezpośredniego potomka `<body>` i dodaj
+      linki do polityk + kontakt.
   primaryCta:
-    label: "MDN: footer element"
+    label: 'MDN: footer element'
     href: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja UX
   difficulty: łatwy
 taxonomy:
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Obietnica decyzji

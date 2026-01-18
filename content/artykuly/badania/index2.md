@@ -1,46 +1,49 @@
 ---
-title: "Badanie: które platformy no-code wybierają polskie startupy"
+title: 'Badanie: które platformy no-code wybierają polskie startupy'
 slug: badanie-platformy-no-code-polskie-startupy
 path: /badania/platformy-no-code-startupy
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Jakie no-code wybierają polskie startupy i dlaczego
-  subheading: Webflow, Bubble, Airtable, Make, Notion — szybkie wnioski i praktyczny
-    wybór
+  subheading: Webflow, Bubble, Airtable, Make, Notion — szybkie wnioski i praktyczny wybór
 seo:
   title: Badanie platform no-code używanych przez polskie startupy
-  description: "Krótka analiza i wnioski: które platformy no-code dominują w polskich\
-    \ startupach i kiedy wybrać które narzędzie."
+  description: >-
+    Krótka analiza i wnioski: które platformy no-code dominują w polskich
+    startupach i kiedy wybrać które narzędzie.
   keywords:
-  - no-code
-  - polskie startupy
-  - Webflow
-  - Bubble
-  - Airtable
-  - Make
-  - Notion
+    - no-code
+    - polskie startupy
+    - Webflow
+    - Bubble
+    - Airtable
+    - Make
+    - Notion
 meta:
   summaryBullets:
-  - "Werdykt: wybór zależy od celu — MVP, panel administracyjny, czy automatyzacje."
-  - "Dla kogo: szybkiego MVP potrzebujesz Bubble/Webflow; workflowów — Make/Zapier;\
-    \ danych — Airtable."
-  - "Start: prototyp w 1–2 tygodnie, test z użytkownikami — najważniejsze."
+    - >-
+      Werdykt: wybór zależy od celu — MVP, panel administracyjny, czy
+      automatyzacje.
+    - >-
+      Dla kogo: szybkiego MVP potrzebujesz Bubble/Webflow; workflowów —
+      Make/Zapier; danych — Airtable.
+    - 'Start: prototyp w 1–2 tygodnie, test z użytkownikami — najważniejsze.'
   primaryCta:
     label: No-Code Poland — wydarzenia i społeczność
     href: https://www.nocodepoland.com/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - startup
-  - MVP
-  - Airtable
-  - Webflow
+    - no-code
+    - startup
+    - MVP
+    - Airtable
+    - Webflow
 type: article
 ---
 

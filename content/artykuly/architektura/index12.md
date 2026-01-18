@@ -1,41 +1,46 @@
 ---
-title: "Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter i\
-  \ alerty"
+title: >-
+  Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter i
+  alerty
 slug: architektura-12
 path: /architektura-12
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter\
-    \ i alerty"
+  heading: >-
+    Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter i
+    alerty
   subheading: Praktyczny przewodnik dla osób budujących automatyzacje bez kodu
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Dokumentacja Zapier — How to troubleshoot errors in Zaps
-    href: https://help.zapier.com/hc/en-us/articles/8496037690637-How-to-troubleshoot-errors-in-Zaps
-  updatedAt: "2026-01-14"
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/8496037690637-How-to-troubleshoot-errors-in-Zaps
+  updatedAt: '2026-01-14'
   author: Redakcja
 seo:
-  title: "Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter\
-    \ i alerty"
-  description: Jak projektować retry, idempotencję, dead-letter i alerty w narzędziach
+  title: >-
+    Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter i
+    alerty
+  description: >-
+    Jak projektować retry, idempotencję, dead-letter i alerty w narzędziach
     no-code — konkretne decyzje i prosty start.
   keywords:
-  - no-code
-  - retry
-  - idempotencja
-  - dead-letter
-  - alerty
-  - automatyzacja
+    - no-code
+    - retry
+    - idempotencja
+    - dead-letter
+    - alerty
+    - automatyzacja
 taxonomy:
   categories:
-  - architektura
-  - no-code
+    - architektura
+    - no-code
 ---
 
 ## Obietnica decyzji: co zyskujesz i dla kogo to jest

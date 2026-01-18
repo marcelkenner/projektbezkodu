@@ -1,44 +1,48 @@
 ---
-title: "Server-side tracking w praktyce: kiedy warto, kiedy nie"
+title: 'Server-side tracking w praktyce: kiedy warto, kiedy nie'
 slug: analityka-17
 path: /analityka-17
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Server-side tracking w praktyce
   subheading: Krótka decyzja dla osób odpowiedzialnych za analitykę i marketing
 seo:
   title: Server-side tracking — praktyczny przewodnik decyzji
-  description: Co daje przeniesienie tagów na serwer, ile to kosztuje i kto najczęściej
-    na tym zyskuje (i traci).
+  description: >-
+    Co daje przeniesienie tagów na serwer, ile to kosztuje i kto najczęściej na
+    tym zyskuje (i traci).
   keywords:
-  - server-side tracking
-  - sGTM
-  - analityka
-  - GTM
-  - GA4
+    - server-side tracking
+    - sGTM
+    - analityka
+    - GTM
+    - GA4
 meta:
   difficulty: średni
   duration: 15–60 min (pierwszy test)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Dokumentacja Google: wprowadzenie do server-side"
+    label: 'Dokumentacja Google: wprowadzenie do server-side'
     href: https://developers.google.com/tag-platform/tag-manager/server-side/intro
   summaryBullets:
-  - "Werdykt: warto przy dużych witrynach i tam, gdzie zależy ci na kontroli danych."
-  - "Dla kogo: ecommerce z ruchem >10k sesji/mc, zespoły z infrastrukturą devops;\
-    \ nie: małe blogi bez budżetu."
-  - "Start: uruchom serwer testowy na subdomenie, porównaj realtime i logi."
+    - >-
+      Werdykt: warto przy dużych witrynach i tam, gdzie zależy ci na kontroli
+      danych.
+    - >-
+      Dla kogo: ecommerce z ruchem >10k sesji/mc, zespoły z infrastrukturą
+      devops; nie: małe blogi bez budżetu.
+    - 'Start: uruchom serwer testowy na subdomenie, porównaj realtime i logi.'
 taxonomy:
   categories:
-  - analityka
+    - analityka
   tags:
-  - tracking
-  - GTM
-  - privacy
+    - tracking
+    - GTM
+    - privacy
 ---
 
 Decyzja na start: **server-side tracking (SST) ma sens, jeśli twoim priorytetem jest kontrola nad danymi, odporność na adblockery i możliwość przesyłania konwersji po stronie serwera — pod warunkiem, że możesz udźwignąć koszty i utrzymanie.** Krótsza wersja: dla małego bloga to zwykle overhead; dla średniego e‑commerce i większych produktów — często opłacalna inwestycja.

@@ -1,37 +1,38 @@
 ---
 slug: animacje-17
-title: "Animacje do sociali bez zespołu wideo: Jitter/Canva i realistyczne rezultaty"
+title: 'Animacje do sociali bez zespołu wideo: Jitter/Canva i realistyczne rezultaty'
 path: /animacje-17
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Animacje do sociali bez zespołu wideo: szybkie kreacje z Jitter i Canva"
+  heading: 'Animacje do sociali bez zespołu wideo: szybkie kreacje z Jitter i Canva'
   subheading: Praktyczny przewodnik dla soloprzedsiębiorców i małych zespołów
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź Canva - Animate
     href: https://www.canva.com/create/animated-videos/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 seo:
   title: Animacje do sociali bez zespołu wideo — Jitter vs Canva
-  description: Porównanie Jitter i Canva pod kątem szybkich, realistycznych animacji
-    do sociali. Kto wygra dla soloprzedsiębiorcy, jak zacząć i czego oczekiwać.
+  description: >-
+    Porównanie Jitter i Canva pod kątem szybkich, realistycznych animacji do
+    sociali. Kto wygra dla soloprzedsiębiorcy, jak zacząć i czego oczekiwać.
   keywords:
-  - animacje social media
-  - Jitter
-  - Canva
-  - animacje bez zespołu
-  - Motion design dla solo
+    - animacje social media
+    - Jitter
+    - Canva
+    - animacje bez zespołu
+    - Motion design dla solo
 taxonomy:
   categories:
-  - marketing
-  - video
-  - narzędzia
+    - marketing
+    - video
+    - narzędzia
 ---
 
 ## Obietnica decyzji

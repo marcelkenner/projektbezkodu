@@ -1,37 +1,38 @@
 ---
-title: "Design system w no-code: minimalny zestaw, który robi różnicę"
+title: 'Design system w no-code: minimalny zestaw, który robi różnicę'
 slug: design-bez-kodu-3
 path: /design-bez-kodu-3
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Design system w no-code: minimalny zestaw, który robi różnicę"
+  heading: 'Design system w no-code: minimalny zestaw, który robi różnicę'
   subheading: Co warto ustandaryzować teraz, żeby oszczędzić czas i frustrację później
 meta:
   summaryBullets:
-  - "Werdykt: 6 elementów, które dają największy zwrot"
-  - "Dla kogo: małe zespoły i twórcy w no-code"
-  - "Start: zrób to w 30–90 minut"
+    - 'Werdykt: 6 elementów, które dają największy zwrot'
+    - 'Dla kogo: małe zespoły i twórcy w no-code'
+    - 'Start: zrób to w 30–90 minut'
   primaryCta:
     label: Figma — Design systems
     href: https://www.figma.com/design-systems/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 seo:
   title: Design system w no-code — minimalny zestaw
-  description: Jakie style i komponenty wystarczą, żeby w no-code zyskać spójność
-    i tempo. Konkretne kroki startowe.
+  description: >-
+    Jakie style i komponenty wystarczą, żeby w no-code zyskać spójność i tempo.
+    Konkretne kroki startowe.
   keywords:
-  - design system
-  - no-code
-  - design tokens
-  - Webflow
-  - Figma
+    - design system
+    - no-code
+    - design tokens
+    - Webflow
+    - Figma
 taxonomy:
   categories:
-  - Design bez kodu
-  - UX
+    - Design bez kodu
+    - UX
 ---
 
 Obietnica: po tym tekście wiesz, które elementy design systemu w no-code warto zrobić jako pierwsze i dlaczego. Grupa: twórcy stron, product designerzy i małe agencje pracujące w Webflow, Figma, Bubble itp.

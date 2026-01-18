@@ -1,41 +1,45 @@
 ---
-title: "„Less motion, more money”: minimalistyczne animacje, które wyglądają drogo"
+title: '„Less motion, more money”: minimalistyczne animacje, które wyglądają drogo'
 slug: animacje-21
 path: /animacje-21
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "„Less motion, more money”: minimalistyczne animacje, które wyglądają drogo"
-  subheading: Prosty pruning ruchu, lepszy timing i subtelne easingi — jak oszczędna
+  heading: '„Less motion, more money”: minimalistyczne animacje, które wyglądają drogo'
+  subheading: >-
+    Prosty pruning ruchu, lepszy timing i subtelne easingi — jak oszczędna
     animacja podnosi postrzeganą wartość marki
 meta:
   summaryBullets:
-  - "Werdykt: mniej, ale precyzyjnie — bardziej elitarne wrażenie"
-  - "Dla kogo: marki premium i projekty, które chcą wyglądać spokojnie i kosztownie"
-  - "Start: uprość scenę, ustaw timing, użyj easingów i sprawdź reduced-motion"
+    - 'Werdykt: mniej, ale precyzyjnie — bardziej elitarne wrażenie'
+    - >-
+      Dla kogo: marki premium i projekty, które chcą wyglądać spokojnie i
+      kosztownie
+    - 'Start: uprość scenę, ustaw timing, użyj easingów i sprawdź reduced-motion'
   primaryCta:
     label: Przeczytaj o dostępności animacji
     href: https://216digital.com/ease-into-motion-smarter-animation-accessibility/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 seo:
-  title: "Minimalistyczne animacje: jak zrobić, by wyglądały drogo"
-  description: "Zasada 'less motion, more money' w praktyce: co wyciąć, jaki timing\
-    \ wybrać, jak dbać o dostępność, i kiedy animacja naprawdę się opłaca."
+  title: 'Minimalistyczne animacje: jak zrobić, by wyglądały drogo'
+  description: >-
+    Zasada 'less motion, more money' w praktyce: co wyciąć, jaki timing wybrać,
+    jak dbać o dostępność, i kiedy animacja naprawdę się opłaca.
   keywords:
-  - animacja minimalistyczna
-  - motion design
-  - dostępność animacji
-  - easing
-  - timing
+    - animacja minimalistyczna
+    - motion design
+    - dostępność animacji
+    - easing
+    - timing
 taxonomy:
   categories:
-  - Design
-  - Motion
+    - Design
+    - Motion
   tags:
-  - animacje
-  - ux
-  - branding
+    - animacje
+    - ux
+    - branding
 ---
 
 ## Obietnica decyzji (dla kogo ten artykuł)

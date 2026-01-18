@@ -1,52 +1,56 @@
 ---
 slug: architektura-6
-title: "Wzorce architektury no-code, które się sprawdzają: hub-and-spoke, event-driven,\
-  \ modular"
+title: >-
+  Wzorce architektury no-code, które się sprawdzają: hub-and-spoke,
+  event-driven, modular
 path: /architektura-6
 template: default
-date: "2026-01-15"
+date: '2026-01-15'
 type: article
 draft: false
 hero:
-  heading: "Wzorce architektury no-code: hub-and-spoke, event-driven, modular — szybki\
-    \ przewodnik decyzji"
+  heading: >-
+    Wzorce architektury no-code: hub-and-spoke, event-driven, modular — szybki
+    przewodnik decyzji
   subheading: Jak wybrać wzorzec dla workflowów w Make/Zapier/n8n i co wdrożyć najpierw
 seo:
-  title: "Wzorce architektury no-code: hub-and-spoke, event-driven, modular"
-  description: "Praktyczny przewodnik: kiedy stosować hub-and-spoke, kiedy event-driven,\
-    \ a kiedy modularne sub-workflows w narzędziach no-code (Make, Zapier, n8n)."
+  title: 'Wzorce architektury no-code: hub-and-spoke, event-driven, modular'
+  description: >-
+    Praktyczny przewodnik: kiedy stosować hub-and-spoke, kiedy event-driven, a
+    kiedy modularne sub-workflows w narzędziach no-code (Make, Zapier, n8n).
   keywords:
-  - no-code
-  - architektura
-  - hub-and-spoke
-  - event-driven
-  - n8n
-  - Make
-  - Zapier
+    - no-code
+    - architektura
+    - hub-and-spoke
+    - event-driven
+    - n8n
+    - Make
+    - Zapier
 meta:
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   duration: 10 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: wybierz wzorzec od razu według skali i złożoności integracji."
-  - "Dla kogo: startupy, zespoły produktowe i techniczne — kiedy to działa, kiedy\
-    \ nie."
-  - "Start: 5-minutowy audyt źródeł wydarzeń i listy podłączeń."
+    - 'Werdykt: wybierz wzorzec od razu według skali i złożoności integracji.'
+    - >-
+      Dla kogo: startupy, zespoły produktowe i techniczne — kiedy to działa,
+      kiedy nie.
+    - 'Start: 5-minutowy audyt źródeł wydarzeń i listy podłączeń.'
   primaryCta:
     label: Czytaj porównanie n8n vs Zapier
     href: https://blog.n8n.io/make-vs-zapier/
 taxonomy:
   categories:
-  - No-code
-  - Architektura
+    - No-code
+    - Architektura
   tags:
-  - hub-and-spoke
-  - event-driven
-  - modular
-  - n8n
-  - Make
-  - Zapier
+    - hub-and-spoke
+    - event-driven
+    - modular
+    - n8n
+    - Make
+    - Zapier
 ---
 
 ## Obietnica decyzji dla Ciebie

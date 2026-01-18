@@ -1,48 +1,50 @@
 ---
-title: "Headless CMS bez kodu: jak działa i dla kogo?"
+title: 'Headless CMS bez kodu: jak działa i dla kogo?'
 slug: cms-bez-kodu-3
 path: /cms-bez-kodu-3
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Headless CMS bez kodu: jak działa i dla kogo?"
-  subheading: Praktyczny przewodnik — szybki start, decyzja dla zespołu marketingu
-    i dla zespołu technicznego
+  heading: 'Headless CMS bez kodu: jak działa i dla kogo?'
+  subheading: >-
+    Praktyczny przewodnik — szybki start, decyzja dla zespołu marketingu i dla
+    zespołu technicznego
 seo:
-  title: "Headless CMS bez kodu: jak działa i dla kogo?"
-  description: Wyjaśniamy czym jest headless CMS bez kodu, jak zacząć w 5 minut i
-    które rozwiązania pasują do twojego zespołu.
+  title: 'Headless CMS bez kodu: jak działa i dla kogo?'
+  description: >-
+    Wyjaśniamy czym jest headless CMS bez kodu, jak zacząć w 5 minut i które
+    rozwiązania pasują do twojego zespołu.
   keywords:
-  - headless cms
-  - bez kodu
-  - no-code
-  - Directus
-  - Webflow
-  - ButterCMS
+    - headless cms
+    - bez kodu
+    - no-code
+    - Directus
+    - Webflow
+    - ButterCMS
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://directus.io/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - CMS
-  - no-code
-  - headless
+    - CMS
+    - no-code
+    - headless
   tags:
-  - headless
-  - CMS
-  - bez-kodu
-  - directus
-  - webflow
+    - headless
+    - CMS
+    - bez-kodu
+    - directus
+    - webflow
 ---
 
 ## Obietnica decyzji i grupa czytelników

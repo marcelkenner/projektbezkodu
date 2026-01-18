@@ -1,46 +1,48 @@
 ---
-title: "E-commerce bez kodu: jak wystartować sklep w weekend"
+title: 'E-commerce bez kodu: jak wystartować sklep w weekend'
 slug: ecommerce-bez-kodu
-path: /ecommerce-bez-kodu
+path: /artykuly/ecommerce-bez-kodu/
 template: default
 draft: false
-type: article
-date: "2026-01-15"
+type: hub
+date: '2026-01-15'
 hero:
-  heading: "E-commerce bez kodu: sklep działający w weekend"
-  subheading: "Praktyczny plan startu: platforma, płatności, dostawy i pierwsza kampania"
+  heading: 'E-commerce bez kodu: sklep działający w weekend'
+  subheading: 'Praktyczny plan startu: platforma, płatności, dostawy i pierwsza kampania'
 seo:
   title: E-commerce bez kodu — jak wystartować sklep w weekend
-  description: "Szybki przewodnik: wybór platformy SaaS, integracje płatności i dostaw,\
-    \ pierwszy listing produktów i kampania na start."
+  description: >-
+    Szybki przewodnik: wybór platformy SaaS, integracje płatności i dostaw,
+    pierwszy listing produktów i kampania na start.
   keywords:
-  - e-commerce bez kodu
-  - sklep w weekend
-  - platformy SaaS
-  - Shopify
-  - Shoper
+    - e-commerce bez kodu
+    - sklep w weekend
+    - platformy SaaS
+    - Shopify
+    - Shoper
 meta:
   difficulty: Łatwy
   duration: Weekend (5–8 godzin)
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Checklista Shopify
-    href: https://www.shopify.com/pl/blog/checklista-przed-uruchomieniem-sklepu-internetowego
+    href: >-
+      https://www.shopify.com/pl/blog/checklista-przed-uruchomieniem-sklepu-internetowego
 taxonomy:
   categories:
-  - e-commerce
+    - e-commerce
   tags:
-  - no-code
-  - sklep
-  - Shopify
-  - Shoper
-  - płatności
+    - no-code
+    - sklep
+    - Shopify
+    - Shoper
+    - płatności
 ---
 
 ## Obietnica decyzji — komu to pomaga (i kiedy odpuścić)

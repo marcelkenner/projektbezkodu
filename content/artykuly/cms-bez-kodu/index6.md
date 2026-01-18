@@ -1,46 +1,48 @@
 ---
 slug: cms-bez-kodu-6
-title: "Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?"
+title: 'Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?'
 path: /cms-bez-kodu-6
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?"
-  subheading: Szybki werdykt i lista technicznych punktów, które musisz sprawdzić
-    zanim wybierzesz platformę.
+  heading: 'Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?'
+  subheading: >-
+    Szybki werdykt i lista technicznych punktów, które musisz sprawdzić zanim
+    wybierzesz platformę.
 seo:
-  title: "Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?"
-  description: "Jak wybrać no-code CMS, żeby nie stracić ruchu z wyszukiwarki: kontrola\
-    \ URL, meta, sitemap, performance, structured data i renderowanie."
+  title: 'Najlepsze no-code CMS pod SEO: na co zwrócić uwagę?'
+  description: >-
+    Jak wybrać no-code CMS, żeby nie stracić ruchu z wyszukiwarki: kontrola URL,
+    meta, sitemap, performance, structured data i renderowanie.
   keywords:
-  - no-code CMS
-  - SEO
-  - Webflow
-  - Wix
-  - sitemap
-  - core web vitals
+    - no-code CMS
+    - SEO
+    - Webflow
+    - Wix
+    - sitemap
+    - core web vitals
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /cms-bez-kodu-6
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   difficulty: średni
   duration: 10 min
   author: Redakcja
 taxonomy:
   categories:
-  - SEO
-  - No-code
+    - SEO
+    - No-code
   tags:
-  - CMS
-  - Webflow
-  - Wix
-  - SEO-technical
+    - CMS
+    - Webflow
+    - Wix
+    - SEO-technical
 ---
 
 ## Obietnica decyzji

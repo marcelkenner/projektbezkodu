@@ -1,50 +1,58 @@
 ---
-title: "PostHog jako analityka produktowa w no-code: eventy, lejki, feature flags\
-  \ i eksperymenty"
+title: >-
+  PostHog jako analityka produktowa w no-code: eventy, lejki, feature flags i
+  eksperymenty
 slug: posthog-analityka-no-code
 path: /posthog-analityka-no-code
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: PostHog jako no-code analityka produktowa
-  subheading: Szybkie porównanie eventów, lejków, feature flags i eksperymentów —
-    kto na tym zyska, a kto się zdenerwuje
+  subheading: >-
+    Szybkie porównanie eventów, lejków, feature flags i eksperymentów — kto na
+    tym zyska, a kto się zdenerwuje
 meta:
   summaryBullets:
-  - "Werdykt: solidny wybór dla PM-ów i zespołów produktowych, które chcą kontrolować\
-    \ dane bez angażowania backendu."
-  - "Dla kogo: startupy i product-led zespoły; kiedy nie: bardzo duże firmy z rygorystycznymi\
-    \ SLA."
-  - "Start: 5–30 minut — załóż projekt, włącz autocapture i zrób pierwszy lejek."
-  - "Uwaga: eksperymenty opierają się na feature flags — wdrożenie techniczne może\
-    \ być wymagane."
+    - >-
+      Werdykt: solidny wybór dla PM-ów i zespołów produktowych, które chcą
+      kontrolować dane bez angażowania backendu.
+    - >-
+      Dla kogo: startupy i product-led zespoły; kiedy nie: bardzo duże firmy z
+      rygorystycznymi SLA.
+    - >-
+      Start: 5–30 minut — załóż projekt, włącz autocapture i zrób pierwszy
+      lejek.
+    - >-
+      Uwaga: eksperymenty opierają się na feature flags — wdrożenie techniczne
+      może być wymagane.
   primaryCta:
     label: Przejdź do dokumentacji PostHog
     href: https://posthog.com/docs/
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 seo:
-  title: "PostHog w no-code: eventy, lejki, feature flags, eksperymenty — przewodnik"
-  description: Praktyczne spojrzenie na PostHog jako narzędzie analityki produktowej
-    dla zespołów no-code. Co działa, co piecze i jak zacząć w 5–30 minut.
+  title: 'PostHog w no-code: eventy, lejki, feature flags, eksperymenty — przewodnik'
+  description: >-
+    Praktyczne spojrzenie na PostHog jako narzędzie analityki produktowej dla
+    zespołów no-code. Co działa, co piecze i jak zacząć w 5–30 minut.
   keywords:
-  - PostHog
-  - analityka produktowa
-  - no-code
-  - feature flags
-  - A/B testing
+    - PostHog
+    - analityka produktowa
+    - no-code
+    - feature flags
+    - A/B testing
 taxonomy:
   categories:
-  - Analityka
-  - Produkt
+    - Analityka
+    - Produkt
   tags:
-  - PostHog
-  - no-code
-  - feature-flags
-  - lejki
+    - PostHog
+    - no-code
+    - feature-flags
+    - lejki
 ---
 
 ## Obietnica i werdykt

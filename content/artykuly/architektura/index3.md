@@ -1,44 +1,45 @@
 ---
-title: "Baza danych w no-code: Airtable vs Xano vs Supabase — kto powinien brać co"
+title: 'Baza danych w no-code: Airtable vs Xano vs Supabase — kto powinien brać co'
 slug: architektura-3
 path: /architektura-3
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Baza danych w no-code: Airtable vs Xano vs Supabase — kto powinien brać\
-    \ co"
-  subheading: Szybkie werdykty, krótkie ścieżki startowe i praktyczne porady dla projektów
+  heading: 'Baza danych w no-code: Airtable vs Xano vs Supabase — kto powinien brać co'
+  subheading: >-
+    Szybkie werdykty, krótkie ścieżki startowe i praktyczne porady dla projektów
     no‑code
 seo:
   title: Airtable vs Xano vs Supabase — wybór bazy w no-code
-  description: "Porównanie Airtable, Xano i Supabase: kiedy wybrać arkusz, kiedy backend\
-    \ no‑code, a kiedy Postgres z SQL. Krótkie wnioski i start w 5 minut."
+  description: >-
+    Porównanie Airtable, Xano i Supabase: kiedy wybrać arkusz, kiedy backend
+    no‑code, a kiedy Postgres z SQL. Krótkie wnioski i start w 5 minut.
   keywords:
-  - Airtable
-  - Xano
-  - Supabase
-  - no-code
-  - baza danych
+    - Airtable
+    - Xano
+    - Supabase
+    - no-code
+    - baza danych
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do dokumentacji Supabase
     href: https://supabase.com/docs/guides/database/overview
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - architektura
-  - no-code
+    - architektura
+    - no-code
   tags:
-  - Airtable
-  - Xano
-  - Supabase
-  - porównanie
+    - Airtable
+    - Xano
+    - Supabase
+    - porównanie
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

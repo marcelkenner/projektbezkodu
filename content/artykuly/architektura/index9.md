@@ -1,27 +1,29 @@
 ---
-title: "Uprawnienia i role: architektura dostępu w no-code bez kompromitacji bezpieczeństwa"
+title: >-
+  Uprawnienia i role: architektura dostępu w no-code bez kompromitacji
+  bezpieczeństwa
 slug: architektura-9
 path: /architektura-9
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Uprawnienia i role: architektura dostępu w no-code"
+  heading: 'Uprawnienia i role: architektura dostępu w no-code'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /architektura-9
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   keywords:
-  - no-code
-  - uprawnienia
-  - role
-  - RBAC
+    - no-code
+    - uprawnienia
+    - role
+    - RBAC
 ---
 
 ## Obietnica decyzji

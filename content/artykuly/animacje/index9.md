@@ -1,38 +1,40 @@
 ---
-title: "„Prefer reduced motion”: jak robić animacje, które nie wkurzają i są dostępne"
+title: '„Prefer reduced motion”: jak robić animacje, które nie wkurzają i są dostępne'
 slug: animacje-9
 path: /animacje-9
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Prefer reduced motion — animacje, które nie denerwują użytkowników
   subheading: Praktyczne zasady dla zespołów produktowych i deweloperów
 seo:
   title: Prefer reduced motion — jak projektować dostępne animacje
-  description: "Kiedy i jak wyciszyć ruch w interfejsie: konkretne reguły, przykłady\
-    \ CSS i procedura testowa zgodna z WCAG."
+  description: >-
+    Kiedy i jak wyciszyć ruch w interfejsie: konkretne reguły, przykłady CSS i
+    procedura testowa zgodna z WCAG.
   keywords:
-  - prefers-reduced-motion
-  - dostępność
-  - animacje
-  - WCAG
-  - CSS
+    - prefers-reduced-motion
+    - dostępność
+    - animacje
+    - WCAG
+    - CSS
 meta:
   summaryBullets:
-  - "Werdykt: wyłączaj nieistotny ruch; tonuj ważne przejścia."
-  - "Dla kogo: zespoły produktowe i frontend devy — priorytet, gdy masz użytkowników\
-    \ wrażliwych na ruch."
-  - "Start: w 5 minut dodasz media query i zrobisz szybki test."
+    - 'Werdykt: wyłączaj nieistotny ruch; tonuj ważne przejścia.'
+    - >-
+      Dla kogo: zespoły produktowe i frontend devy — priorytet, gdy masz
+      użytkowników wrażliwych na ruch.
+    - 'Start: w 5 minut dodasz media query i zrobisz szybki test.'
   primaryCta:
     label: Technika C39 na stronie W3C
     href: https://www.w3.org/WAI/WCAG21/Techniques/css/C39
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja UX
 taxonomy:
   categories:
-  - dostępność
-  - frontend
+    - dostępność
+    - frontend
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

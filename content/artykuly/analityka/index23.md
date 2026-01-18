@@ -1,48 +1,53 @@
 ---
-title: "Analiza lejka: gdzie użytkownicy odpadają i jak to naprawić bez zgadywania"
+title: 'Analiza lejka: gdzie użytkownicy odpadają i jak to naprawić bez zgadywania'
 slug: analityka-23
 path: /analityka-23
 template: default
 draft: false
 type: article
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Analiza lejka: szybko znajdź dropouty i zrób pierwszy test"
-  subheading: Krótkie, praktyczne kroki dla product ownerów, growth marketerów i właścicieli
-    sklepów.
+  heading: 'Analiza lejka: szybko znajdź dropouty i zrób pierwszy test'
+  subheading: >-
+    Krótkie, praktyczne kroki dla product ownerów, growth marketerów i
+    właścicieli sklepów.
 seo:
   title: Analiza lejka — gdzie odpadają użytkownicy i jak to naprawić
-  description: "Praktyczny przewodnik: co mierzyć w lejku konwersji, jak zacząć w\
-    \ 5–15 minut i które testy dają najwięcej pewności."
+  description: >-
+    Praktyczny przewodnik: co mierzyć w lejku konwersji, jak zacząć w 5–15 minut
+    i które testy dają najwięcej pewności.
   keywords:
-  - analiza lejka
-  - lejki konwersji
-  - drop-off
-  - funnel analysis
-  - konwersje
+    - analiza lejka
+    - lejki konwersji
+    - drop-off
+    - funnel analysis
+    - konwersje
 meta:
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   difficulty: średni
   duration: 15 min (pierwszy funnel)
   hasAffiliateLinks: false
   primaryCta:
-    label: "Przewodnik: Funnel Analysis (Amplitude)"
+    label: 'Przewodnik: Funnel Analysis (Amplitude)'
     href: https://amplitude.com/guides/funnel-analysis
   summaryBullets:
-  - "Werdykt: zacznij od prostego lejka i badaj przyczyny dropoutów, zanim zmienisz\
-    \ UI."
-  - "Dla kogo: produkt z jasnym flow konwersji (onboarding, koszyk, rejestracja)."
-  - "Start: 5–15 minut — zrób testowy funnel, podepnij nagrania/sesje."
+    - >-
+      Werdykt: zacznij od prostego lejka i badaj przyczyny dropoutów, zanim
+      zmienisz UI.
+    - >-
+      Dla kogo: produkt z jasnym flow konwersji (onboarding, koszyk,
+      rejestracja).
+    - 'Start: 5–15 minut — zrób testowy funnel, podepnij nagrania/sesje.'
 taxonomy:
   categories:
-  - analityka
-  - growth
+    - analityka
+    - growth
   tags:
-  - lejki
-  - konwersje
-  - ux
-  - testy
+    - lejki
+    - konwersje
+    - ux
+    - testy
 ---
 
 ## Obietnica decyzji: co dostaniesz i dla kogo to ma sens

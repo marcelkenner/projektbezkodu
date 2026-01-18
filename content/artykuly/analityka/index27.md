@@ -4,49 +4,55 @@ slug: alerty-dzienne-raporty-metryk-slack-email-make-zapier
 path: /analityka/alerty-dzienne-raporty-metryk-slack-email-make-zapier
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Alerty i dzienne raporty metryk w Slacku i e‑mailu
-  subheading: Jak szybko ustawić codzienny digest metryk przy użyciu Zapier lub Make
-    — decyzja i kroki startowe
+  subheading: >-
+    Jak szybko ustawić codzienny digest metryk przy użyciu Zapier lub Make —
+    decyzja i kroki startowe
   primaryCta:
-    label: "Szablon: dzienny raport (Zapier)"
-    href: https://zapier.com/templates/details/e95eb3309685820456052dd946860744778c48e03efcbc41dd2eb00d488f5b42
+    label: 'Szablon: dzienny raport (Zapier)'
+    href: >-
+      https://zapier.com/templates/details/e95eb3309685820456052dd946860744778c48e03efcbc41dd2eb00d488f5b42
 seo:
   title: Alerty i dzienne raporty metryk w Slacku/email — Make vs Zapier
-  description: "Porównanie szybkiego wdrożenia dziennego digesta metryk w Slacku lub\
-    \ e‑mailu przy użyciu Zapier i Make. Kto wygra: prostota czy elastyczność?"
+  description: >-
+    Porównanie szybkiego wdrożenia dziennego digesta metryk w Slacku lub e‑mailu
+    przy użyciu Zapier i Make. Kto wygra: prostota czy elastyczność?
   keywords:
-  - dzienny digest
-  - alerty Slack
-  - Zapier
-  - Make
-  - analityka
-  - raporty email
+    - dzienny digest
+    - alerty Slack
+    - Zapier
+    - Make
+    - analityka
+    - raporty email
 meta:
   difficulty: Łatwy–średni
   duration: 10 min (pierwszy setup)
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Szablon: dzienny raport (Zapier)"
-    href: https://zapier.com/templates/details/e95eb3309685820456052dd946860744778c48e03efcbc41dd2eb00d488f5b42
+    label: 'Szablon: dzienny raport (Zapier)'
+    href: >-
+      https://zapier.com/templates/details/e95eb3309685820456052dd946860744778c48e03efcbc41dd2eb00d488f5b42
   summaryBullets:
-  - "Werdykt: wybierz Zapier dla szybkości, Make dla niestandardowych transformacji."
-  - "Dla kogo: Zapier = zespoły non-technical; Make = inżynierowie/automatyk."
-  - "Start: ustaw Digest/Agregator, mapuj źródła, zaplanuj wysyłkę."
+    - >-
+      Werdykt: wybierz Zapier dla szybkości, Make dla niestandardowych
+      transformacji.
+    - 'Dla kogo: Zapier = zespoły non-technical; Make = inżynierowie/automatyk.'
+    - 'Start: ustaw Digest/Agregator, mapuj źródła, zaplanuj wysyłkę.'
 taxonomy:
   categories:
-  - analityka
-  - automatyzacja
+    - analityka
+    - automatyzacja
   tags:
-  - alerty
-  - digest
-  - slack
-  - email
-  - zapier
-  - make
+    - alerty
+    - digest
+    - slack
+    - email
+    - zapier
+    - make
 ---
 
 ## Szybka decyzja — komu co polecam

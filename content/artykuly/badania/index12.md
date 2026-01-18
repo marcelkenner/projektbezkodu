@@ -1,49 +1,53 @@
 ---
-title: "Raport: integracje API w no-code — co działa najlepiej"
+title: 'Raport: integracje API w no-code — co działa najlepiej'
 slug: integracje-api-no-code-raport
 path: /integracje-api-no-code-raport
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Integracje API w no-code: szybki raport i decyzja"
-  subheading: Krótkie wnioski dla projektów, które chcą łączyć narzędzia bez pisania
+  heading: 'Integracje API w no-code: szybki raport i decyzja'
+  subheading: >-
+    Krótkie wnioski dla projektów, które chcą łączyć narzędzia bez pisania
     backendu
 seo:
   title: Integracje API w no-code — co działa najlepiej
-  description: Porównanie webhooks, REST, gotowych konektorów i narzędzi iPaaS dla
+  description: >-
+    Porównanie webhooks, REST, gotowych konektorów i narzędzi iPaaS dla
     praktycznych zastosowań no-code.
   keywords:
-  - no-code
-  - webhooks
-  - API
-  - integracje
-  - Zapier
-  - Make
+    - no-code
+    - webhooks
+    - API
+    - integracje
+    - Zapier
+    - Make
   canonical: https://zapier.com/blog/zapier-vs-make
 meta:
   summaryBullets:
-  - "Werdykt szybki: wybierz podejście zależnie od priorytetu — czas vs kontrola vs\
-    \ koszt"
-  - "Dla kogo: od marketingu po produkt — kiedy użyć konektorów, kiedy webhooks, kiedy\
-    \ HTTP"
-  - "Start: 5-minutowy test z webhookiem + Google Sheets"
-  updatedAt: "2026-01-14"
+    - >-
+      Werdykt szybki: wybierz podejście zależnie od priorytetu — czas vs
+      kontrola vs koszt
+    - >-
+      Dla kogo: od marketingu po produkt — kiedy użyć konektorów, kiedy
+      webhooks, kiedy HTTP
+    - 'Start: 5-minutowy test z webhookiem + Google Sheets'
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Porównanie Zapier vs Make
     href: https://zapier.com/blog/zapier-vs-make
 taxonomy:
   categories:
-  - Badania i raporty
-  - No-code
-  - Integracje
+    - Badania i raporty
+    - No-code
+    - Integracje
   tags:
-  - webhooks
-  - API
-  - iPaaS
-  - Zapier
-  - Make
+    - webhooks
+    - API
+    - iPaaS
+    - Zapier
+    - Make
 ---
 
 ## Obietnica decyzji

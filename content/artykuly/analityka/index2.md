@@ -1,47 +1,48 @@
 ---
-title: "Plan pomiarowy dla produktu no‑code: eventy, cele i nazwy, które nie kłamią"
+title: 'Plan pomiarowy dla produktu no‑code: eventy, cele i nazwy, które nie kłamią'
 slug: plan-pomiarowy-no-code
 path: /plan-pomiarowy-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Plan pomiarowy dla produktu no‑code
   subheading: Jak zdefiniować eventy, cele i właściwości, żeby dane działały
 seo:
   title: Plan pomiarowy dla produktu no-code — eventy, cele, nazewnictwo
-  description: "Prosty przewodnik: jak zaprojektować tracking plan dla produktu no-code,\
-    \ co mierzyć najpierw i jak unikać błędów w nazwach."
+  description: >-
+    Prosty przewodnik: jak zaprojektować tracking plan dla produktu no-code, co
+    mierzyć najpierw i jak unikać błędów w nazwach.
   keywords:
-  - plan pomiarowy
-  - analityka produktu
-  - no-code
-  - eventy
-  - tracking plan
+    - plan pomiarowy
+    - analityka produktu
+    - no-code
+    - eventy
+    - tracking plan
 meta:
   difficulty: średni
   duration: 30–90 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: prosty plan działa — zacznij od KPI → flow → max 10 eventów."
-  - "Dla kogo: startupy no‑code i PM bez dedykowanego zespołu danych."
-  - "Start: przygotuj listę 5–10 eventów i zrób jedną rundę testów."
+    - 'Werdykt: prosty plan działa — zacznij od KPI → flow → max 10 eventów.'
+    - 'Dla kogo: startupy no‑code i PM bez dedykowanego zespołu danych.'
+    - 'Start: przygotuj listę 5–10 eventów i zrób jedną rundę testów.'
   primaryCta:
     label: Szablon planu śledzenia
     href: https://docs.mixpanel.com/docs/tracking-best-practices/tracking-plan
 taxonomy:
   categories:
-  - analityka
-  - no-code
-  - produkty
+    - analityka
+    - no-code
+    - produkty
   tags:
-  - plan pomiarowy
-  - eventy
-  - tracking
-  - Mixpanel
-  - Amplitude
+    - plan pomiarowy
+    - eventy
+    - tracking
+    - Mixpanel
+    - Amplitude
 ---
 
 ## Obietnica i dla kogo

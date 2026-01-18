@@ -1,46 +1,50 @@
 ---
-title: "AI w obsłudze klienta: co warto zautomatyzować (odpowiedzi, streszczenia,\
-  \ tagowanie)"
+title: >-
+  AI w obsłudze klienta: co warto zautomatyzować (odpowiedzi, streszczenia,
+  tagowanie)
 slug: ai-w-obsludze-klienta-co-zautomatyzowac
 path: /artykuly/ai/ai-w-obsludze-klienta-co-zautomatyzowac
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w obsłudze klienta: co bezpiecznie zautomatyzować"
+  heading: 'AI w obsłudze klienta: co bezpiecznie zautomatyzować'
   subheading: Praktyczny przewodnik dla zespołów CX — szybko, bez zbędnego ryzyka
 meta:
   summaryBullets:
-  - "Werdykt: co warto automatyzować natychmiast, a czego lepiej unikać"
-  - "Dla kogo: małe zespoły, średnie contact center, firmy e‑commerce"
-  - "Start: krótka ścieżka wdrożenia w 5 minut"
+    - 'Werdykt: co warto automatyzować natychmiast, a czego lepiej unikać'
+    - 'Dla kogo: małe zespoły, średnie contact center, firmy e‑commerce'
+    - 'Start: krótka ścieżka wdrożenia w 5 minut'
   primaryCta:
     label: Pobierz raport Zendesk 2025
     href: https://www.zendesk.com/newsroom/articles/2025-cx-trends-report/
   duration: 5 minut (pierwsze testy)
   difficulty: Łatwy
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 seo:
-  title: "AI w obsłudze klienta — co zautomatyzować: odpowiedzi, streszczenia, tagowanie"
-  description: "Praktyczny przewodnik: które elementy obsługi klienta zautomatyzować,\
-    \ jakie są ryzyka i jak szybko uruchomić test."
+  title: >-
+    AI w obsłudze klienta — co zautomatyzować: odpowiedzi, streszczenia,
+    tagowanie
+  description: >-
+    Praktyczny przewodnik: które elementy obsługi klienta zautomatyzować, jakie
+    są ryzyka i jak szybko uruchomić test.
   keywords:
-  - AI obsługa klienta
-  - automatyzacja odpowiedzi
-  - streszczenia zgłoszeń
-  - tagowanie ticketów
+    - AI obsługa klienta
+    - automatyzacja odpowiedzi
+    - streszczenia zgłoszeń
+    - tagowanie ticketów
 taxonomy:
   categories:
-  - AI
-  - Customer Service
-  - SaaS
+    - AI
+    - Customer Service
+    - SaaS
   tags:
-  - automatyzacja
-  - GenAI
-  - CX
+    - automatyzacja
+    - GenAI
+    - CX
 ---
 
 ## Obietnica decyzji i grupa docelowa

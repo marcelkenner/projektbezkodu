@@ -1,7 +1,13 @@
-﻿---
-title: 'Playbook: MVP w 7 dni bez kodu (landing + formularz + CRM)'
-category: 'playbooki'
-status: 'draft'
+---
+title: 'Playbooki: gotowe ścieżki wdrożeń no-code'
+slug: playbooki
+path: /artykuly/playbooki/
+template: default
+type: hub
+draft: false
+hero:
+  heading: Playbooki
+  subheading: Gotowe ścieżki wdrożeń, które prowadzą od celu do działającego systemu.
 ---
 
 # Playbook: MVP w 7 dni bez kodu (landing + formularz + CRM)

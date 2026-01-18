@@ -1,45 +1,49 @@
 ---
-title: "Biblioteka gotowych scenariuszy: 25 automatyzacji do skopiowania (marketing/sprzedaż/ops)"
+title: >-
+  Biblioteka gotowych scenariuszy: 25 automatyzacji do skopiowania
+  (marketing/sprzedaż/ops)
 slug: automation-24
 path: /automation-24
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Biblioteka gotowych scenariuszy: 25 automatyzacji do skopiowania"
-  subheading: Gotowe workflowy dla marketingu, sprzedaży i operacji — kiedy wdrożyć,
-    kiedy odpuścić
+  heading: 'Biblioteka gotowych scenariuszy: 25 automatyzacji do skopiowania'
+  subheading: >-
+    Gotowe workflowy dla marketingu, sprzedaży i operacji — kiedy wdrożyć, kiedy
+    odpuścić
 seo:
   title: 25 gotowych automatyzacji do skopiowania — marketing, sprzedaż, ops
-  description: Krótkie opisy 25 scenariuszy automatyzacji, kiedy je zastosować, czego
+  description: >-
+    Krótkie opisy 25 scenariuszy automatyzacji, kiedy je zastosować, czego
     unikać i jak zacząć w 5 minut.
   keywords:
-  - automatyzacje
-  - marketing automation
-  - scenariusze
-  - sprzedaż
-  - ops
-  - szablony
+    - automatyzacje
+    - marketing automation
+    - scenariusze
+    - sprzedaż
+    - ops
+    - szablony
 meta:
   summaryBullets:
-  - "Werdykt: praktyczny starter pack z jasnymi regułami użycia."
-  - "Dla kogo: marketing, sprzedaż i RevOps od 1 do 200+ leadów miesięcznie."
-  - "Start: skopiuj szablon, przetestuj, monitoruj 48–72h."
+    - 'Werdykt: praktyczny starter pack z jasnymi regułami użycia.'
+    - 'Dla kogo: marketing, sprzedaż i RevOps od 1 do 200+ leadów miesięcznie.'
+    - 'Start: skopiuj szablon, przetestuj, monitoruj 48–72h.'
   primaryCta:
     label: Przeglądaj szablony Zapier
     href: https://zapier.com/templates/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - automation
-  - marketing
+    - automation
+    - marketing
   tags:
-  - automatyzacje
-  - szablony
-  - marketing
-  - sprzedaż
-  - ops
+    - automatyzacje
+    - szablony
+    - marketing
+    - sprzedaż
+    - ops
 ---
 
 ## Obietnica decyzji: co znajdziesz i dla kogo to działa

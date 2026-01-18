@@ -1,34 +1,38 @@
 ---
-title: "Analityka w e-commerce: GA4, pixel, atrybucja i dashboard bez kodu"
+title: 'Analityka w e-commerce: GA4, pixel, atrybucja i dashboard bez kodu'
 slug: ecommerce-bez-kodu-13
 path: /ecommerce-bez-kodu-13
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Analityka w e-commerce: GA4, pixel, atrybucja i dashboard bez kodu"
-  subheading: "Krótko: co ustawić najpierw, co dać no-code, a co wymaga jednak programisty"
+  heading: 'Analityka w e-commerce: GA4, pixel, atrybucja i dashboard bez kodu'
+  subheading: 'Krótko: co ustawić najpierw, co dać no-code, a co wymaga jednak programisty'
 seo:
   title: Analityka e-commerce bez kodu — GA4, Pixel, atrybucja i dashboard
-  description: "Praktyczny przewodnik: co mierzyć, jak spiąć źródła i zbudować raporty\
-    \ bez programisty."
+  description: >-
+    Praktyczny przewodnik: co mierzyć, jak spiąć źródła i zbudować raporty bez
+    programisty.
   keywords:
-  - GA4
-  - Meta Pixel
-  - atrybucja
-  - dashboard
-  - e-commerce
-  - no-code
+    - GA4
+    - Meta Pixel
+    - atrybucja
+    - dashboard
+    - e-commerce
+    - no-code
 meta:
   summaryBullets:
-  - "Werdykt: da się zacząć bez kodu, ale granice technologiczne i atrybucja wymagają\
-    \ uwagi."
-  - "Dla kogo: małe i średnie sklepy, marketing bez dedykowanego zespołu BI."
-  - "Start: skonfiguruj GA4, Pixel, prosty dashboard (Looker Studio + Supermetrics)."
+    - >-
+      Werdykt: da się zacząć bez kodu, ale granice technologiczne i atrybucja
+      wymagają uwagi.
+    - 'Dla kogo: małe i średnie sklepy, marketing bez dedykowanego zespołu BI.'
+    - >-
+      Start: skonfiguruj GA4, Pixel, prosty dashboard (Looker Studio +
+      Supermetrics).
   primaryCta:
-    label: "Supermetrics: Looker Studio integracje"
+    label: 'Supermetrics: Looker Studio integracje'
     href: https://supermetrics.com/product/data-studio
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 ---
 
 ## Obietnica i szybki werdykt

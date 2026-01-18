@@ -2,6 +2,10 @@
 title: >-
   Regulamin strony i newslettera: prosty wzór dla twórcy no-code (bez
   prawniczego bełkotu)
+slug: regulamin
+path: /artykuly/regulamin/
+template: default
+type: hub
 category: regulamin
 draft: true
 ---

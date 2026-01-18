@@ -1,19 +1,19 @@
 ---
-title: "Checklisty jakości: jak oceniać projekty kreatywne tworzone no-code"
+title: 'Checklisty jakości: jak oceniać projekty kreatywne tworzone no-code'
 slug: creative-tools-12
 path: /creative-tools-12
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 meta:
   summaryBullets:
-  - "Dla kogo to jest?: osoby i zespoły tworzące prototypy i strony no-code"
-  - "Narzędzia (no-code), których użyjemy: Webflow, Bubble, Glide (przykłady)"
-  - "Krok po kroku: szybka lista kontroli przed publikacją"
+    - 'Dla kogo to jest?: osoby i zespoły tworzące prototypy i strony no-code'
+    - 'Narzędzia (no-code), których użyjemy: Webflow, Bubble, Glide (przykłady)'
+    - 'Krok po kroku: szybka lista kontroli przed publikacją'
   primaryCta:
     label: Przejdź do artykułu
     href: https://university.webflow.com/resources/pre-launch-checklist
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 ---
 
 Szybki werdykt dla twórców: **jeżeli dostarczasz prototypy, landing page’e lub proste aplikacje no‑code i chcesz uniknąć ewidentnych błędów UX, SEO i dostępności — zrób tę checklistę przed publikacją**. Jeśli projekt musi spełniać regulacje prawne, standardy dostępności WCAG 2.1 lub ma złożoną logikę biznesową — to dopiero początek, nie koniec pracy.

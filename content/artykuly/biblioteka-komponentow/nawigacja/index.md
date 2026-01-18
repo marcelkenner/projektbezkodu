@@ -5,43 +5,49 @@ path: /artykuly/biblioteka-komponentow/nawigacja/
 draft: false
 template: default
 type: template
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Nawigacja — sekcje i wzorce
-  subheading: "Jak zorganizować nawigację w bibliotece komponentów: praktyczne decyzje\
-    \ i standardy dostępności"
+  subheading: >-
+    Jak zorganizować nawigację w bibliotece komponentów: praktyczne decyzje i
+    standardy dostępności
 seo:
   title: Nawigacja w bibliotece komponentów — wzorce, dostępność, kiedy użyć
-  description: Krótki przewodnik po głównych typach nawigacji (top, side/drawer, bottom,
-    tabs), ich wadach i kiedy je wybrać. Z odwołaniami do WAI‑ARIA i Material Design.
+  description: >-
+    Krótki przewodnik po głównych typach nawigacji (top, side/drawer, bottom,
+    tabs), ich wadach i kiedy je wybrać. Z odwołaniami do WAI‑ARIA i Material
+    Design.
   keywords:
-  - nawigacja
-  - biblioteka komponentów
-  - nav
-  - ARIA
-  - UX
+    - nawigacja
+    - biblioteka komponentów
+    - nav
+    - ARIA
+    - UX
 meta:
   summaryBullets:
-  - "Werdykt: wybierz prostą strukturę i semanticzne elementy; skomplikowane drawer'y\
-    \ tylko gdy trzeba."
-  - "Dla kogo: zespoły tworzące design systemy i biblioteki komponentów, front‑endy\
-    \ produktów web i mobile."
-  - "Start: zrób audit istniejących punktów wejścia, ustaw role/landmarki, przetestuj\
-    \ klawiaturę."
+    - >-
+      Werdykt: wybierz prostą strukturę i semanticzne elementy; skomplikowane
+      drawer'y tylko gdy trzeba.
+    - >-
+      Dla kogo: zespoły tworzące design systemy i biblioteki komponentów,
+      front‑endy produktów web i mobile.
+    - >-
+      Start: zrób audit istniejących punktów wejścia, ustaw role/landmarki,
+      przetestuj klawiaturę.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/nawigacja/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - biblioteka komponentów
+    - biblioteka komponentów
   tags:
-  - nawigacja
-  - ux
-  - accessible
+    - nawigacja
+    - ux
+    - accessible
 ---
 
 ## Obietnica decyzji — dla kogo i co dostaniesz

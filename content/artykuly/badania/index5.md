@@ -1,31 +1,32 @@
 ---
-title: "Badanie: czas do pierwszej wersji produktu no-code"
+title: 'Badanie: czas do pierwszej wersji produktu no-code'
 slug: badania-5
 path: /badania-5
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://makersden.io/blog/mvp-timeline-guide
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 seo:
   title: Czas do pierwszej wersji produktu no-code — badanie
-  description: "Ile realnie trwa przygotowanie pierwszej wersji produktu no-code i\
-    \ co najsilniej wpływa na tempo: narzędzie, zespół, zakres, integracje."
+  description: >-
+    Ile realnie trwa przygotowanie pierwszej wersji produktu no-code i co
+    najsilniej wpływa na tempo: narzędzie, zespół, zakres, integracje.
   keywords:
-  - no-code
-  - MVP
-  - czas do rynku
+    - no-code
+    - MVP
+    - czas do rynku
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
 ---
 
 ## Obietnica decyzji — komu to pomoże

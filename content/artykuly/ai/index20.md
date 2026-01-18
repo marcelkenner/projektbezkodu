@@ -1,54 +1,63 @@
 ---
-title: "Ocena jakości AI: prosta checklista i testy na danych brzegowych"
+title: 'Ocena jakości AI: prosta checklista i testy na danych brzegowych'
 slug: ocena-jakosci-ai-checklista-testy-brzegowe
 path: /artykuly/ai/ocena-jakosci-ai-checklista-testy-brzegowe
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Ocena jakości AI — szybka checklista i testy na danych brzegowych
-  subheading: Jak sprawdzić model przed wdrożeniem, gdzie szukać ryzyka i jakie testy
+  subheading: >-
+    Jak sprawdzić model przed wdrożeniem, gdzie szukać ryzyka i jakie testy
     uruchomić w pierwsze 5–60 minut
   primaryCta:
     label: NIST AI RMF
-    href: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+    href: >-
+      https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
 seo:
   title: Ocena jakości AI — checklista i testy na danych brzegowych
-  description: "Krótkie praktyczne wskazówki: co przetestować w modelu AI przed wdrożeniem,\
-    \ jak zbudować zestaw testów brzegowych i jak zacząć w 5 minut."
+  description: >-
+    Krótkie praktyczne wskazówki: co przetestować w modelu AI przed wdrożeniem,
+    jak zbudować zestaw testów brzegowych i jak zacząć w 5 minut.
   keywords:
-  - ocena jakości AI
-  - testy AI
-  - edge cases
-  - checklista AI
-  - NIST AI RMF
-  canonical: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+    - ocena jakości AI
+    - testy AI
+    - edge cases
+    - checklista AI
+    - NIST AI RMF
+  canonical: >-
+    https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
 meta:
   difficulty: średni
   duration: 5-60 min (start)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przeczytaj NIST AI RMF
-    href: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+    href: >-
+      https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
   summaryBullets:
-  - "Werdykt: prosty zestaw testów wychwytuje większość krytycznych problemów przed\
-    \ wdrożeniem."
-  - "Dla kogo: zespoły produktowe i ML ops; nie zastępuje formalnego TEVV w krytycznych\
-    \ zastosowaniach."
-  - "Start: uruchom 5-min sanity check, potem zestaw testów brzegowych i monitoring."
+    - >-
+      Werdykt: prosty zestaw testów wychwytuje większość krytycznych problemów
+      przed wdrożeniem.
+    - >-
+      Dla kogo: zespoły produktowe i ML ops; nie zastępuje formalnego TEVV w
+      krytycznych zastosowaniach.
+    - >-
+      Start: uruchom 5-min sanity check, potem zestaw testów brzegowych i
+      monitoring.
 taxonomy:
   categories:
-  - AI
-  - Testowanie
-  - Zarządzanie ryzykiem
+    - AI
+    - Testowanie
+    - Zarządzanie ryzykiem
   tags:
-  - edge-cases
-  - checklista
-  - NIST
-  - model-eval
+    - edge-cases
+    - checklista
+    - NIST
+    - model-eval
 ---
 
 ## Obietnica decyzji dla czytelnika

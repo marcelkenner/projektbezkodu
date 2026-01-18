@@ -5,41 +5,44 @@ path: /ai-17
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Szybkie decyzje o zarządzaniu sekretami
-  subheading: Kiedy trzymać klucz w zmiennej środowiskowej, a kiedy wdrożyć manager
+  subheading: >-
+    Kiedy trzymać klucz w zmiennej środowiskowej, a kiedy wdrożyć manager
     sekretów
 seo:
   title: Zarządzanie kluczami API i sekretami — praktyczny przewodnik
-  description: Krótki, praktyczny poradnik jak zacząć, co wybrać i jakie są typowe
-    pułapki przy przechowywaniu kluczy API i haseł.
+  description: >-
+    Krótki, praktyczny poradnik jak zacząć, co wybrać i jakie są typowe pułapki
+    przy przechowywaniu kluczy API i haseł.
   keywords:
-  - zarządzanie sekretami
-  - klucze API
-  - secrets management
-  - OWASP
+    - zarządzanie sekretami
+    - klucze API
+    - secrets management
+    - OWASP
 meta:
   difficulty: średni
   duration: 5–60 minut (pierwsze kroki vs. wdrożenie)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: prosta poprawa bezpieczeństwa w 5–30 minut"
-  - "Dla kogo: devops, backend, zespoły produktowe"
-  - "Start: zabezpiecz CI i przestań commitować klucze"
+    - 'Werdykt: prosta poprawa bezpieczeństwa w 5–30 minut'
+    - 'Dla kogo: devops, backend, zespoły produktowe'
+    - 'Start: zabezpiecz CI i przestań commitować klucze'
   primaryCta:
     label: OWASP Secrets Management Cheat Sheet
-    href: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
+    href: >-
+      https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
 taxonomy:
   categories:
-  - security
-  - devops
+    - security
+    - devops
   tags:
-  - secrets
-  - api-keys
-  - owasp
+    - secrets
+    - api-keys
+    - owasp
 ---
 
 ## Werdykt na start: kto powinien to przeczytać i co zrobić teraz

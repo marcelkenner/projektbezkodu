@@ -1,7 +1,11 @@
-﻿---
-title: "Proces wyboru no-code: 7 pytań, które oszczędzą ci 30 godzin testów"
-category: "proces"
+---
+title: 'Proces wyboru no-code: 7 pytań, które oszczędzą ci 30 godzin testów'
+slug: proces
+path: /artykuly/proces/
 draft: true
+template: default
+type: hub
+category: proces
 ---
 
 # Proces wyboru no-code: 7 pytań, które oszczędzą ci 30 godzin testów

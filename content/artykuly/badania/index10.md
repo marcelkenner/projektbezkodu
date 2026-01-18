@@ -1,40 +1,44 @@
 ---
-title: "Raport: jakość danych w projektach no-code"
+title: 'Raport: jakość danych w projektach no-code'
 slug: badania-10
 path: /badania-10
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Jakość danych w projektach no-code: najczęstsze błędy i szybkie poprawki"
-  subheading: Krótki raport dla zespołów produktowych i PM-ów — co naprawić w pierwszą
+  heading: 'Jakość danych w projektach no-code: najczęstsze błędy i szybkie poprawki'
+  subheading: >-
+    Krótki raport dla zespołów produktowych i PM-ów — co naprawić w pierwszą
     godzinę
 meta:
   summaryBullets:
-  - "Werdykt: no-code ułatwia prototypy, ale wymaga planowania danych."
-  - "Dla kogo: startupy i zespoły produktowe, które chcą skalować bez przepisywania."
-  - "Start: mapa danych, standardy formatów, podstawowe testy walidacji."
+    - 'Werdykt: no-code ułatwia prototypy, ale wymaga planowania danych.'
+    - >-
+      Dla kogo: startupy i zespoły produktowe, które chcą skalować bez
+      przepisywania.
+    - 'Start: mapa danych, standardy formatów, podstawowe testy walidacji.'
   primaryCta:
-    label: "Czytaj dalej: dlaczego no-code zawodzi"
+    label: 'Czytaj dalej: dlaczego no-code zawodzi'
     href: https://dagster.io/blog/why-no-code-solutions-almost-always-fail
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 seo:
-  title: "Raport: jakość danych w projektach no-code — błędy i naprawy"
-  description: Najczęstsze błędy modelowania danych w narzędziach no-code i praktyczne
+  title: 'Raport: jakość danych w projektach no-code — błędy i naprawy'
+  description: >-
+    Najczęstsze błędy modelowania danych w narzędziach no-code i praktyczne
     kroki naprawcze, opierając się na analizie źródeł branżowych.
   keywords:
-  - no-code
-  - jakość danych
-  - data modeling
-  - raport
+    - no-code
+    - jakość danych
+    - data modeling
+    - raport
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - data-quality
-  - modelowanie danych
+    - no-code
+    - data-quality
+    - modelowanie danych
 ---
 
 ## Obietnica decyzji i grupa

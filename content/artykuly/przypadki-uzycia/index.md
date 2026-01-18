@@ -2,9 +2,10 @@
 title: >-
   No-code w praktyce: 10 przypadków użycia, które realnie oszczędzają czas i
   nerwy
-slug: index
-path: /index
+slug: przypadki-uzycia
+path: /artykuly/przypadki-uzycia/
 template: default
+type: hub
 draft: false
 date: '2026-01-14'
 hero:

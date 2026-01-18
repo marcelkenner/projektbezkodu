@@ -1,43 +1,48 @@
 ---
-title: "Ankieta: największe bariery we wdrożeniach no-code"
+title: 'Ankieta: największe bariery we wdrożeniach no-code'
 slug: badania-4
 path: /badania-4
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Ankieta: największe bariery we wdrożeniach no-code"
-  subheading: Bezpieczeństwo, integracje, skalowanie i vendor lock‑in — co faktycznie
+  heading: 'Ankieta: największe bariery we wdrożeniach no-code'
+  subheading: >-
+    Bezpieczeństwo, integracje, skalowanie i vendor lock‑in — co faktycznie
     hamuje projekty
 meta:
   summaryBullets:
-  - "Werdykt: najczęstsze blokady to bezpieczeństwo i integracje; da się je ograniczyć,\
-    \ ale wymagają kontroli IT."
-  - "Dla kogo: dobre dla zespołów produktowych i prototypowania; ryzykowne tam, gdzie\
-    \ obowiązują surowe regulacje."
-  - "Start: zacznij od audytu danych i prostych integracji — 5–15 minut, żeby ocenić\
-    \ ryzyko."
+    - >-
+      Werdykt: najczęstsze blokady to bezpieczeństwo i integracje; da się je
+      ograniczyć, ale wymagają kontroli IT.
+    - >-
+      Dla kogo: dobre dla zespołów produktowych i prototypowania; ryzykowne tam,
+      gdzie obowiązują surowe regulacje.
+    - >-
+      Start: zacznij od audytu danych i prostych integracji — 5–15 minut, żeby
+      ocenić ryzyko.
   primaryCta:
     label: Przeczytaj badanie o interoperacyjności
     href: https://arxiv.org/abs/2412.05075
 meta.updatedAt: '2026-01-14'
 seo:
   title: Największe bariery we wdrożeniach no-code — ankieta i praktyczny poradnik
-  description: "Zestaw najczęstszych problemów przy wdrażaniu no-code: dowody, skutki\
-    \ i jasne rekomendacje dla zespołów produktowych i IT."
+  description: >-
+    Zestaw najczęstszych problemów przy wdrażaniu no-code: dowody, skutki i
+    jasne rekomendacje dla zespołów produktowych i IT.
   keywords:
-  - no-code
-  - wdrożenia
-  - bezpieczeństwo
-  - vendor lock-in
-  - integracje
+    - no-code
+    - wdrożenia
+    - bezpieczeństwo
+    - vendor lock-in
+    - integracje
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - badanie
-  - wdrożenia
+    - no-code
+    - badanie
+    - wdrożenia
 ---
 
 ## Werdykt na wejście — kto ma rację i co robić teraz

@@ -1,44 +1,49 @@
 ---
-title: "Błędy analityczne: pułapki, przez które firmy podejmują złe decyzje"
+title: 'Błędy analityczne: pułapki, przez które firmy podejmują złe decyzje'
 slug: analityka-29
 path: /analityka-29
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Błędy analityczne: pułapki, przez które firmy podejmują złe decyzje"
+  heading: 'Błędy analityczne: pułapki, przez które firmy podejmują złe decyzje'
   subheading: Szybki werdykt dla menedżerów, marketingu i właścicieli produktów
 meta:
   summaryBullets:
-  - "Werdykt: konkretne błędy, które najczęściej prowadzą do złych decyzji."
-  - "Dla kogo: menedżerowie, zespoły marketingu i product ownerzy, którzy opierają\
-    \ decyzje na danych."
-  - "Start: 5-minutowy audyt, który od razu wyłapie najbardziej oczywiste pułapki."
+    - 'Werdykt: konkretne błędy, które najczęściej prowadzą do złych decyzji.'
+    - >-
+      Dla kogo: menedżerowie, zespoły marketingu i product ownerzy, którzy
+      opierają decyzje na danych.
+    - >-
+      Start: 5-minutowy audyt, który od razu wyłapie najbardziej oczywiste
+      pułapki.
   primaryCta:
     label: Artykuł źródłowy o błędach analitycznych
-    href: https://www.forbes.com/sites/sisense/2021/11/01/5-common-analytics-mistakes-and-how-to-avoid-them/
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.forbes.com/sites/sisense/2021/11/01/5-common-analytics-mistakes-and-how-to-avoid-them/
+  updatedAt: '2026-01-14'
   difficulty: Łatwy
   duration: 5–30 minut
   author: Redakcja
 seo:
-  title: "Błędy analityczne: kiedy dane wprowadzają firmę w błąd"
-  description: "Przewodnik po najczęstszych pułapkach analitycznych: co sprawdzić\
-    \ natychmiast, jak rozumieć konsekwencje i komu to najbardziej zaszkodzi."
+  title: 'Błędy analityczne: kiedy dane wprowadzają firmę w błąd'
+  description: >-
+    Przewodnik po najczęstszych pułapkach analitycznych: co sprawdzić
+    natychmiast, jak rozumieć konsekwencje i komu to najbardziej zaszkodzi.
   keywords:
-  - analityka
-  - błędy analityczne
-  - data-driven
-  - GA4
-  - misattribution
+    - analityka
+    - błędy analityczne
+    - data-driven
+    - GA4
+    - misattribution
 taxonomy:
   categories:
-  - analityka
-  - biznes
+    - analityka
+    - biznes
   tags:
-  - błędy
-  - analityka
-  - audyt
+    - błędy
+    - analityka
+    - audyt
 ---
 
 ## Obietnica decyzji: co tu znajdziesz i dla kogo

@@ -1,47 +1,54 @@
 ---
-title: "Google Sheets jako „mózg” automatyzacji: dobre praktyki, które ratują przed\
-  \ bałaganem"
+title: >-
+  Google Sheets jako „mózg” automatyzacji: dobre praktyki, które ratują przed
+  bałaganem
 slug: automation-10
 path: /automation-10
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Google Sheets jako „mózg” automatyzacji: dobre praktyki, które ratują\
-    \ przed bałaganem"
+  heading: >-
+    Google Sheets jako „mózg” automatyzacji: dobre praktyki, które ratują przed
+    bałaganem
   subheading: Krótko, praktycznie, dla osób które już trzymają procesy w arkuszach
   primaryCta:
     label: Apps Script — najlepsze praktyki
     href: https://developers.google.com/apps-script/guides/support/best-practices
 seo:
   title: Google Sheets jako mózg automatyzacji — dobre praktyki
-  description: "Jak zorganizować arkusze używane w automatyzacjach: nazwy, walidacje,\
-    \ logi i bezpieczeństwo."
+  description: >-
+    Jak zorganizować arkusze używane w automatyzacjach: nazwy, walidacje, logi i
+    bezpieczeństwo.
   keywords:
-  - google sheets
-  - automatyzacja
-  - apps script
-  - data validation
+    - google sheets
+    - automatyzacja
+    - apps script
+    - data validation
 meta:
   summaryBullets:
-  - "Werdykt: proste zasady nazewnictwa, walidacja i logi ratują więcej niż dodatkowe\
-    \ webhooki."
-  - "Dla kogo: małe zespoły i solo-creatorzy, którzy trzymają procesy w arkuszach."
-  - "Start: zacznij od jednego master sheet, reguł walidacji i skryptu logującego\
-    \ zmiany."
+    - >-
+      Werdykt: proste zasady nazewnictwa, walidacja i logi ratują więcej niż
+      dodatkowe webhooki.
+    - >-
+      Dla kogo: małe zespoły i solo-creatorzy, którzy trzymają procesy w
+      arkuszach.
+    - >-
+      Start: zacznij od jednego master sheet, reguł walidacji i skryptu
+      logującego zmiany.
   primaryCta:
     label: Apps Script — najlepsze praktyki
     href: https://developers.google.com/apps-script/guides/support/best-practices
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - automation
-  - productivity
+    - automation
+    - productivity
   tags:
-  - Google Sheets
-  - best practices
-  - Apps Script
+    - Google Sheets
+    - best practices
+    - Apps Script
 ---
 
 ## Obietnica decyzji dla kogo i dlaczego

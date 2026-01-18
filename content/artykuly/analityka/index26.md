@@ -1,48 +1,53 @@
 ---
-title: "Tracking w SaaS no‑code: które metryki naprawdę wpływają na MRR?"
+title: 'Tracking w SaaS no‑code: które metryki naprawdę wpływają na MRR?'
 slug: analityka-26
 path: /analityka-26
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Tracking w SaaS no‑code: MRR, churn, activation — co mierzyć i dlaczego"
-  subheading: Szybki przewodnik dla założycieli i PM-ów, którzy chcą mieć konkretne
-    KPI bez przepakowywania się narzędziami.
+  heading: 'Tracking w SaaS no‑code: MRR, churn, activation — co mierzyć i dlaczego'
+  subheading: >-
+    Szybki przewodnik dla założycieli i PM-ów, którzy chcą mieć konkretne KPI
+    bez przepakowywania się narzędziami.
 seo:
   title: Tracking w SaaS no‑code — MRR, churn, activation
-  description: Jak ustawić tracking w produktach no‑code, które metryki priorytetyzować
-    i jak szybko sprawdzić, czy onboarding podnosi MRR.
+  description: >-
+    Jak ustawić tracking w produktach no‑code, które metryki priorytetyzować i
+    jak szybko sprawdzić, czy onboarding podnosi MRR.
   keywords:
-  - SaaS
-  - tracking
-  - MRR
-  - churn
-  - activation
-  - no-code
-  - onboarding
+    - SaaS
+    - tracking
+    - MRR
+    - churn
+    - activation
+    - no-code
+    - onboarding
 meta:
   summaryBullets:
-  - "Werdykt: activation > retention > vanity metrics — najpierw upewnij się, że użytkownicy\
-    \ widzą wartość."
-  - "Dla kogo: małe SaaS/no‑code z niskim CAC i krótkim time-to-value."
-  - "Start: zmierz activation jako event w product analytics i policz Time-to-Value."
+    - >-
+      Werdykt: activation > retention > vanity metrics — najpierw upewnij się,
+      że użytkownicy widzą wartość.
+    - 'Dla kogo: małe SaaS/no‑code z niskim CAC i krótkim time-to-value.'
+    - >-
+      Start: zmierz activation jako event w product analytics i policz
+      Time-to-Value.
   primaryCta:
     label: Mixpanel RAE Framework
     href: https://docs.mixpanel.com/guides/plan/framework
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   duration: 5 min
 taxonomy:
   categories:
-  - analityka
-  - SaaS
+    - analityka
+    - SaaS
   tags:
-  - MRR
-  - churn
-  - activation
-  - no-code
+    - MRR
+    - churn
+    - activation
+    - no-code
 ---
 
 ## Obietnica decyzji — komu ten tekst pomoże

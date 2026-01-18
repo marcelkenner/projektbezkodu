@@ -1,8 +1,8 @@
 ---
-title: "Microcopy w UI: teksty, które poprawiają konwersję"
+title: 'Microcopy w UI: teksty, które poprawiają konwersję'
 slug: design-bez-kodu-8
 path: /design-bez-kodu-8
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 draft: false
 hero:
@@ -10,32 +10,35 @@ hero:
   subheading: Gdzie napisać, jak testować i kiedy microcopy zaszkodzi zamiast pomóc
 seo:
   title: Microcopy w UI — jak poprawić konwersję krótkimi tekstami
-  description: "Praktyczny przewodnik po microcopy: CTA, etykiety, komunikaty błędów\
-    \ i instrukcje, z przykładami i szybkim planem startowym."
+  description: >-
+    Praktyczny przewodnik po microcopy: CTA, etykiety, komunikaty błędów i
+    instrukcje, z przykładami i szybkim planem startowym.
   keywords:
-  - microcopy
-  - UX writing
-  - konwersja
-  - CTA
-  - komunikaty błędów
+    - microcopy
+    - UX writing
+    - konwersja
+    - CTA
+    - komunikaty błędów
 meta:
   difficulty: łatwy
   duration: 5–30 min (pierwszy test)
   author: Redakcja Design bez kodu
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Smashing Magazine — How To Improve Your Microcopy
-    href: https://www.smashingmagazine.com/2024/06/how-improve-microcopy-ux-writing-tips-non-ux-writers/
+    href: >-
+      https://www.smashingmagazine.com/2024/06/how-improve-microcopy-ux-writing-tips-non-ux-writers/
   summaryBullets:
-  - "Werdykt: krótko i konkretnie — microcopy działa, ale trzeba testować."
-  - "Dla kogo: ma sens od MVP po dojrzałe sklepy — największy ROI w formularzach i\
-    \ checkout."
-  - "Start: zmierz, napisz wariant, uruchom A/B test w 1–2 tygodnie."
+    - 'Werdykt: krótko i konkretnie — microcopy działa, ale trzeba testować.'
+    - >-
+      Dla kogo: ma sens od MVP po dojrzałe sklepy — największy ROI w
+      formularzach i checkout.
+    - 'Start: zmierz, napisz wariant, uruchom A/B test w 1–2 tygodnie.'
 taxonomy:
   categories:
-  - Design bez kodu
-  - UX Writing
+    - Design bez kodu
+    - UX Writing
 ---
 
 ## Decyzja dla kogo i co zrobisz teraz

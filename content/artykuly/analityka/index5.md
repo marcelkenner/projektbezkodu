@@ -1,23 +1,26 @@
 ---
-title: Plausible vs Matomo vs GA4 — co wybrać, jeśli zależy ci na prostocie i prywatności
+title: >-
+  Plausible vs Matomo vs GA4 — co wybrać, jeśli zależy ci na prostocie i
+  prywatności
 slug: analityka-5
 path: /analityka-5
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Plausible vs Matomo vs GA4 — prostota i prywatność
-  subheading: "Krótki, praktyczny wybór: który system pasuje do twojej strony i polityki\
-    \ prywatności"
+  subheading: >-
+    Krótki, praktyczny wybór: który system pasuje do twojej strony i polityki
+    prywatności
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /analityka-5
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwy
   duration: 5–60 min (zależnie od wyboru)
   author: Redakcja
@@ -25,19 +28,20 @@ meta:
   format: recenzja
 seo:
   title: Plausible vs Matomo vs GA4 — prostota i prywatność
-  description: "Porównanie Plausible, Matomo i Google Analytics 4 pod kątem prywatności,\
-    \ łatwości wdrożenia i typowych kompromisów. Krótki werdykt: co wybrać dla małej\
-    \ strony, co dla firmy."
+  description: >-
+    Porównanie Plausible, Matomo i Google Analytics 4 pod kątem prywatności,
+    łatwości wdrożenia i typowych kompromisów. Krótki werdykt: co wybrać dla
+    małej strony, co dla firmy.
   keywords:
-  - analityka
-  - Plausible
-  - Matomo
-  - GA4
-  - prywatność
+    - analityka
+    - Plausible
+    - Matomo
+    - GA4
+    - prywatność
 taxonomy:
   categories:
-  - analityka
-  - privacy
+    - analityka
+    - privacy
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

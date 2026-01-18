@@ -1,40 +1,43 @@
 ---
-title: "Dostępność cyfrowa w no-code: szybki start dla twórców stron i aplikacji"
+title: 'Dostępność cyfrowa w no-code: szybki start dla twórców stron i aplikacji'
 slug: dostepnosc-cyfrowa
-path: /dostepnosc-cyfrowa
+path: /artykuly/dostepnosc-cyfrowa/
 template: default
+type: hub
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Dostępność cyfrowa w no-code: szybki start dla twórców"
+  heading: 'Dostępność cyfrowa w no-code: szybki start dla twórców'
 seo:
   title: Dostępność cyfrowa w no-code — szybki przewodnik dla twórców
-  description: "Jak zacząć poprawiać dostępność swojej strony lub aplikacji zbudowanej\
-    \ w narzędziach no-code: konkretne kroki, szybkie kontrole i jednoznaczne werdykty."
+  description: >-
+    Jak zacząć poprawiać dostępność swojej strony lub aplikacji zbudowanej w
+    narzędziach no-code: konkretne kroki, szybkie kontrole i jednoznaczne
+    werdykty.
   keywords:
-  - dostępność cyfrowa
-  - no-code
-  - WCAG
-  - ATAG
-  - web accessibility
+    - dostępność cyfrowa
+    - no-code
+    - WCAG
+    - ATAG
+    - web accessibility
 meta:
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   summaryBullets:
-  - "Werdykt: Zacznij od kontrastu, alt i nawigacji klawiaturowej."
-  - "Szybki start: 5–30 minut kontroli dla pojedynczej podstrony."
-  - "Dla kogo: twórcy no-code, właściciele małych stron, product ownerzy."
+    - 'Werdykt: Zacznij od kontrastu, alt i nawigacji klawiaturowej.'
+    - 'Szybki start: 5–30 minut kontroli dla pojedynczej podstrony.'
+    - 'Dla kogo: twórcy no-code, właściciele małych stron, product ownerzy.'
   primaryCta:
     label: ATAG — W3C
     href: https://www.w3.org/WAI/standards-guidelines/atag/no-code/
 taxonomy:
   categories:
-  - dostępność
-  - no-code
+    - dostępność
+    - no-code
   tags:
-  - accessibility
-  - wcag
-  - no-code
+    - accessibility
+    - wcag
+    - no-code
 ---
 
 # Dostępność cyfrowa w no-code: szybki start dla twórców stron i aplikacji

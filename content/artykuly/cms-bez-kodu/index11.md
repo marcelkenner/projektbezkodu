@@ -1,47 +1,51 @@
 ---
-title: "Zarządzanie mediami w no-code CMS: obrazy, CDN i optymalizacja"
+title: 'Zarządzanie mediami w no-code CMS: obrazy, CDN i optymalizacja'
 slug: cms-bez-kodu-11
 path: /cms-bez-kodu-11
 template: default
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Zarządzanie mediami w no-code CMS
-  subheading: "Praktyczny przewodnik: formaty, CDN, responsywne obrazy i szybki start"
+  subheading: 'Praktyczny przewodnik: formaty, CDN, responsywne obrazy i szybki start'
 seo:
   title: Zarządzanie mediami w no-code CMS — obrazy, CDN, optymalizacja
-  description: "Jak podnieść wydajność strony z no-code CMS: konwersja formatów, CDN,\
-    \ srcset, lazy loading i koszty. Konkretne decyzje dla zespołów marketingu i product\
-    \ ownerów."
+  description: >-
+    Jak podnieść wydajność strony z no-code CMS: konwersja formatów, CDN,
+    srcset, lazy loading i koszty. Konkretne decyzje dla zespołów marketingu i
+    product ownerów.
   keywords:
-  - no-code CMS
-  - optymalizacja obrazów
-  - CDN
-  - WebP
-  - AVIF
-  - srcset
+    - no-code CMS
+    - optymalizacja obrazów
+    - CDN
+    - WebP
+    - AVIF
+    - srcset
 meta:
   summaryBullets:
-  - "Werdykt: CDN + automatyczna konwersja formatów to najniższy koszt operacyjny\
-    \ dla większości stron."
-  - "Dla kogo: małe zespoły marketingu i sklepy — jeśli priorytetem jest prostota\
-    \ i szybkość, CDN wygra."
-  - "Start: w 5 minut sprawdź, czy CMS oferuje integrację z CDN / Images API i włącz\
-    \ lazy-loading."
+    - >-
+      Werdykt: CDN + automatyczna konwersja formatów to najniższy koszt
+      operacyjny dla większości stron.
+    - >-
+      Dla kogo: małe zespoły marketingu i sklepy — jeśli priorytetem jest
+      prostota i szybkość, CDN wygra.
+    - >-
+      Start: w 5 minut sprawdź, czy CMS oferuje integrację z CDN / Images API i
+      włącz lazy-loading.
   primaryCta:
     label: Cloudflare Images — dokumentacja
     href: https://developers.cloudflare.com/images/
   hasAffiliateLinks: false
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - web
-  - no-code
-  - performance
+    - web
+    - no-code
+    - performance
   tags:
-  - obrazy
-  - CDN
-  - wydajność
+    - obrazy
+    - CDN
+    - wydajność
 ---
 
 ## Obietnica decyzji — kto powinien czytać to teraz

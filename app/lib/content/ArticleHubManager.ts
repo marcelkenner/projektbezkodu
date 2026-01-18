@@ -5,11 +5,16 @@ import { readMarkdownFile } from "@/app/lib/frontmatter";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { ArticleRepository, type ContentSummary } from "@/app/lib/content/repositories";
 
+export interface ArticleSummariesProvider {
+  listSummaries(): ContentSummary[];
+}
+
 export interface ArticleHubDescriptor {
   segments: string[];
   label: string;
   description?: string;
   href: string;
+  body?: string;
 }
 
 export interface ArticleHubPayload {
@@ -26,7 +31,7 @@ const SLUG_ALIASES: Record<string, string> = {
 
 export class ArticleHubManager {
   constructor(
-    private readonly repository = new ArticleRepository(),
+    private readonly repository: ArticleSummariesProvider = new ArticleRepository(),
     private readonly basePath = DEFAULT_BASE_PATH,
   ) {}
 
@@ -115,9 +120,17 @@ export class ArticleHubManager {
       return null;
     }
     const relativeIndexPath = path.relative(process.cwd(), indexPath);
-    const { frontmatter, content } = readMarkdownFile(relativeIndexPath);
-    const template = frontmatter.template;
-    if (template === "article" || template === "legal") {
+    let entry: ReturnType<typeof readMarkdownFile> | null = null;
+    try {
+      entry = readMarkdownFile(relativeIndexPath);
+    } catch {
+      return null;
+    }
+    const { frontmatter, content } = entry;
+    if (frontmatter.draft) {
+      return null;
+    }
+    if (!this.isHubType(frontmatter.type)) {
       return null;
     }
 
@@ -139,7 +152,15 @@ export class ArticleHubManager {
       label,
       description,
       href,
+      body: content,
     };
+  }
+
+  private isHubType(type: unknown): boolean {
+    if (typeof type !== "string") {
+      return false;
+    }
+    return type.trim().toLowerCase() === "hub";
   }
 
   private listArticles(prefixHref: string): ContentSummary[] {

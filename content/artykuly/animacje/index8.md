@@ -1,46 +1,49 @@
 ---
-title: "Animacje w e-commerce no-code: gdzie realnie podnoszą sprzedaż"
+title: 'Animacje w e-commerce no-code: gdzie realnie podnoszą sprzedaż'
 slug: animacje-8
 path: /animacje-8
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Animacje w e-commerce no-code: gdzie realnie podnoszą sprzedaż"
-  subheading: Praktyczny przewodnik dla sklepów Shopify i landingów tworzonych bez
-    kodu
+  heading: 'Animacje w e-commerce no-code: gdzie realnie podnoszą sprzedaż'
+  subheading: Praktyczny przewodnik dla sklepów Shopify i landingów tworzonych bez kodu
 seo:
   title: Animacje w e-commerce no-code — kiedy warto je dodać
-  description: "Krótko i konkretnie: które animacje w no-code naprawdę poprawiają\
-    \ wyniki sprzedażowe i jak to szybko przetestować."
+  description: >-
+    Krótko i konkretnie: które animacje w no-code naprawdę poprawiają wyniki
+    sprzedażowe i jak to szybko przetestować.
   keywords:
-  - ecommerce
-  - animacje
-  - no-code
-  - Shopify
-  - microinteractions
+    - ecommerce
+    - animacje
+    - no-code
+    - Shopify
+    - microinteractions
 meta:
   summaryBullets:
-  - "Werdykt: animacje pomagają, ale tylko w punktach styku z decyzją klienta."
-  - "Dla kogo: najlepiej dla sklepów z wariantami, wysoką liczbą odwiedzin mobilnych\
-    \ i problemami z rozumieniem produktu."
-  - "Start: najpierw dodaj 'add-to-cart' feedback i prosty podgląd wariantów, potem\
-    \ mierz."
+    - 'Werdykt: animacje pomagają, ale tylko w punktach styku z decyzją klienta.'
+    - >-
+      Dla kogo: najlepiej dla sklepów z wariantami, wysoką liczbą odwiedzin
+      mobilnych i problemami z rozumieniem produktu.
+    - >-
+      Start: najpierw dodaj 'add-to-cart' feedback i prosty podgląd wariantów,
+      potem mierz.
   primaryCta:
     label: Przeczytaj case study
-    href: https://www.conversionflow.com/cro-case-studies/cute-camera-add-to-cart-boost
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.conversionflow.com/cro-case-studies/cute-camera-add-to-cart-boost
+  updatedAt: '2026-01-14'
   author: Redakcja UX e‑commerce
   duration: 5 min
 taxonomy:
   categories:
-  - ecommerce
-  - CX
-  - no-code
+    - ecommerce
+    - CX
+    - no-code
   tags:
-  - animacje
-  - Shopify
-  - CRO
+    - animacje
+    - Shopify
+    - CRO
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

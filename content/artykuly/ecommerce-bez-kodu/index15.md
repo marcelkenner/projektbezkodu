@@ -1,45 +1,52 @@
 ---
-title: "Zdjęcia produktowe bez studia: workflow i narzędzia"
+title: 'Zdjęcia produktowe bez studia: workflow i narzędzia'
 slug: ecommerce-bez-kodu-15
 path: /ecommerce-bez-kodu-15
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Szybkie zdjęcia produktowe bez studia — workflow i narzędzia
-  subheading: Jak zrobić spójne zdjęcia na biały lub przezroczysty background z minimalnym
+  subheading: >-
+    Jak zrobić spójne zdjęcia na biały lub przezroczysty background z minimalnym
     budżetem
   primaryCta:
-    label: "Shopify: product photography"
-    href: https://help.shopify.com/en/manual/products/product-media/product-photography
+    label: 'Shopify: product photography'
+    href: >-
+      https://help.shopify.com/en/manual/products/product-media/product-photography
 seo:
   title: Zdjęcia produktowe bez studia — workflow, lightbox i formaty
-  description: "Praktyczny przewodnik: DIY lightbox, ustawienia, tła, optymalizacja\
-    \ plików i wymagania platform (Amazon, Shopify)."
+  description: >-
+    Praktyczny przewodnik: DIY lightbox, ustawienia, tła, optymalizacja plików i
+    wymagania platform (Amazon, Shopify).
   keywords:
-  - zdjęcia produktowe
-  - lightbox DIY
-  - ecommerce zdjęcia
-  - formaty obrazu
+    - zdjęcia produktowe
+    - lightbox DIY
+    - ecommerce zdjęcia
+    - formaty obrazu
 meta:
   summaryBullets:
-  - "Werdykt: szybkie i tanie rozwiązanie dla małych sklepów, z warunkiem kontroli\
-    \ kolorów."
-  - "Dla kogo: małe sklepy, sprzedawcy na marketplace i twórcy produktowi."
-  - "Start: zrób lightbox z tektury, weź jedną lampę dzienną i zrób test kolorów."
+    - >-
+      Werdykt: szybkie i tanie rozwiązanie dla małych sklepów, z warunkiem
+      kontroli kolorów.
+    - 'Dla kogo: małe sklepy, sprzedawcy na marketplace i twórcy produktowi.'
+    - >-
+      Start: zrób lightbox z tektury, weź jedną lampę dzienną i zrób test
+      kolorów.
   primaryCta:
-    label: "Shopify: product photography"
-    href: https://help.shopify.com/en/manual/products/product-media/product-photography
-  updatedAt: "2026-01-15"
+    label: 'Shopify: product photography'
+    href: >-
+      https://help.shopify.com/en/manual/products/product-media/product-photography
+  updatedAt: '2026-01-15'
   author: Redakcja E‑commerce Bez Kodu
 taxonomy:
   categories:
-  - E-commerce bez kodu
+    - E-commerce bez kodu
   tags:
-  - fotografia
-  - lightbox
-  - produkt
-  - optymalizacja
+    - fotografia
+    - lightbox
+    - produkt
+    - optymalizacja
 ---
 
 ## Obietnica i grupa docelowa

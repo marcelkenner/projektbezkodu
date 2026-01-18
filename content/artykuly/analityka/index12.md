@@ -1,48 +1,53 @@
 ---
-title: "Statystyka A/B bez doktoratu: próba, istotność i fałszywe zwycięstwa"
+title: 'Statystyka A/B bez doktoratu: próba, istotność i fałszywe zwycięstwa'
 slug: analityka-12
 path: /analityka-12
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Statystyka A/B bez doktoratu: próba, istotność i fałszywe zwycięstwa"
-  subheading: Szybkie reguły, co sprawdzać w wynikach testów i jak uniknąć fałszywych
+  heading: 'Statystyka A/B bez doktoratu: próba, istotność i fałszywe zwycięstwa'
+  subheading: >-
+    Szybkie reguły, co sprawdzać w wynikach testów i jak uniknąć fałszywych
     triumfów
   primaryCta:
     label: Czytaj o p-value (źródło)
     href: https://en.wikipedia.org/wiki/P-value
 seo:
-  title: "Statystyka A/B: próba, istotność i fałszywe zwycięstwa"
-  description: Praktyczny przewodnik po tym, jak czytać p-value, planować próbę i
-    unikać p-hackingu w testach A/B — bez matematycznego żargonu.
+  title: 'Statystyka A/B: próba, istotność i fałszywe zwycięstwa'
+  description: >-
+    Praktyczny przewodnik po tym, jak czytać p-value, planować próbę i unikać
+    p-hackingu w testach A/B — bez matematycznego żargonu.
   keywords:
-  - A/B testing
-  - p-value
-  - istotność statystyczna
-  - próba testu
-  - p-hacking
+    - A/B testing
+    - p-value
+    - istotność statystyczna
+    - próba testu
+    - p-hacking
 meta:
   summaryBullets:
-  - "Werdykt: naucz się kilku prostych zasad i test A/B przestanie być loterią."
-  - "Dla kogo: marketing, product i małe zespoły analityczne — kiedy to ma sens i\
-    \ kiedy nie."
-  - "Start: ustal cel, mierz konwersję, policz wymaganą próbę przed uruchomieniem."
+    - 'Werdykt: naucz się kilku prostych zasad i test A/B przestanie być loterią.'
+    - >-
+      Dla kogo: marketing, product i małe zespoły analityczne — kiedy to ma sens
+      i kiedy nie.
+    - >-
+      Start: ustal cel, mierz konwersję, policz wymaganą próbę przed
+      uruchomieniem.
   primaryCta:
     label: Więcej o p-value
     href: https://en.wikipedia.org/wiki/P-value
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja Analityka
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - analityka
-  - testy A/B
+    - analityka
+    - testy A/B
   tags:
-  - p-value
-  - statystyka
-  - A/B testing
+    - p-value
+    - statystyka
+    - A/B testing
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

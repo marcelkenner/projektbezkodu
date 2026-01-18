@@ -1,42 +1,44 @@
 ---
-title: "Pierwsza automatyzacja, która realnie oszczędza czas: lead → CRM → follow-up"
+title: 'Pierwsza automatyzacja, która realnie oszczędza czas: lead → CRM → follow-up'
 slug: automation-2
 path: /automation-2
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Pierwsza automatyzacja, która realnie oszczędza czas: lead → CRM → follow-up"
+  heading: 'Pierwsza automatyzacja, która realnie oszczędza czas: lead → CRM → follow-up'
   subheading: Krótkie, praktyczne wskazówki dla małych firm i soloprzedsiębiorców
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Otwórz szablon Zapier
-    href: https://help.zapier.com/hc/en-us/articles/35180670696461-Unified-lead-capture-template-guide
-  updatedAt: "2026-01-15"
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/35180670696461-Unified-lead-capture-template-guide
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 seo:
   title: Automatyzacja lead → CRM → follow-up — szybki start
-  description: "Jak w praktyce skonfigurować pierwszą automatyzację: od chwili gdy\
-    \ lead się pojawi do pierwszego follow-upu, tak żeby zaoszczędzić czas i nie tracić\
-    \ szans sprzedażowych."
+  description: >-
+    Jak w praktyce skonfigurować pierwszą automatyzację: od chwili gdy lead się
+    pojawi do pierwszego follow-upu, tak żeby zaoszczędzić czas i nie tracić
+    szans sprzedażowych.
   keywords:
-  - automatyzacja leadów
-  - CRM
-  - follow-up
-  - Zapier
-  - HubSpot
+    - automatyzacja leadów
+    - CRM
+    - follow-up
+    - Zapier
+    - HubSpot
 taxonomy:
   categories:
-  - automatyzacja
-  - CRM
+    - automatyzacja
+    - CRM
   tags:
-  - lead
-  - follow-up
-  - małe firmy
+    - lead
+    - follow-up
+    - małe firmy
 ---
 
 ## Obietnica: decyzja, którą podejmujesz teraz

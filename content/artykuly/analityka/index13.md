@@ -1,44 +1,46 @@
 ---
-title: "Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia — co wystarczy\
-  \ większości firm"
+title: >-
+  Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia — co wystarczy
+  większości firm
 slug: testy-landingow-vwo-optimizely
 path: /testy-landingow-vwo-optimizely
 template: default
 type: article
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia"
+  heading: 'Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia'
   subheading: Które narzędzie wystarczy większości firm — decyzja w 5 minut.
 seo:
-  title: "Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia"
-  description: "Krótka i praktyczna decyzja: kiedy wybrać VWO, kiedy Optimizely, a\
-    \ kiedy zostawić testy w narzędziach platformy."
+  title: 'Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia'
+  description: >-
+    Krótka i praktyczna decyzja: kiedy wybrać VWO, kiedy Optimizely, a kiedy
+    zostawić testy w narzędziach platformy.
   keywords:
-  - A/B testing
-  - VWO
-  - Optimizely
-  - landing page
-  - analityka
+    - A/B testing
+    - VWO
+    - Optimizely
+    - landing page
+    - analityka
   canonical: https://www.optimizely.com/optimization-glossary/ab-testing/
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do Optimizely — definicja A/B
     href: https://www.optimizely.com/optimization-glossary/ab-testing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - analityka
-  - marketing
+    - analityka
+    - marketing
   tags:
-  - A/B testing
-  - landing pages
-  - VWO
-  - Optimizely
+    - A/B testing
+    - landing pages
+    - VWO
+    - Optimizely
 ---
 
 ## Werdykt na start — komu to się przyda

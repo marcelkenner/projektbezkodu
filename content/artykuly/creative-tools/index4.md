@@ -1,43 +1,47 @@
 ---
-title: "Generowanie grafik AI bez kodu: praktyczne porównanie narzędzi i zastosowań"
+title: 'Generowanie grafik AI bez kodu: praktyczne porównanie narzędzi i zastosowań'
 slug: creative-tools-4
 path: /creative-tools-4
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Generowanie grafik AI bez kodu — który serwis wybrać i jak zacząć
   subheading: Krótki przewodnik dla twórców treści, marketerów i małych firm
 seo:
   title: Generowanie grafik AI bez kodu — porównanie narzędzi i zastosowań
-  description: "Praktyczne porównanie popularnych narzędzi no-code do generowania\
-    \ obrazów AI: DALL·E 3, Adobe Firefly, StableStudio/DreamStudio, Runway. Jak zacząć,\
-    \ typowe pułapki, rekomendacje dla różnych zastosowań."
+  description: >-
+    Praktyczne porównanie popularnych narzędzi no-code do generowania obrazów
+    AI: DALL·E 3, Adobe Firefly, StableStudio/DreamStudio, Runway. Jak zacząć,
+    typowe pułapki, rekomendacje dla różnych zastosowań.
   keywords:
-  - AI generative
-  - generowanie grafik
-  - no-code
-  - DALL·E 3
-  - Adobe Firefly
+    - AI generative
+    - generowanie grafik
+    - no-code
+    - DALL·E 3
+    - Adobe Firefly
 meta:
   summaryBullets:
-  - "Werdykt: Do szybkich postów w socialach najlepsze Firefly; do wyższej kontroli\
-    \ — StableStudio/DreamStudio."
-  - "Szybki start: konto + 5–15 minut, zwykle bez programowania."
-  - Koszty i licencje zmienne — sprawdź stronę dostawcy przed użyciem komercyjnym.
+    - >-
+      Werdykt: Do szybkich postów w socialach najlepsze Firefly; do wyższej
+      kontroli — StableStudio/DreamStudio.
+    - 'Szybki start: konto + 5–15 minut, zwykle bez programowania.'
+    - >-
+      Koszty i licencje zmienne — sprawdź stronę dostawcy przed użyciem
+      komercyjnym.
   primaryCta:
     label: Sprawdź Adobe Firefly
     href: https://www.adobe.com/products/firefly/features/text-to-image.html
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - generative-ai
-  - grafika
+    - no-code
+    - generative-ai
+    - grafika
 ---
 
 ## Obietnica decyzji

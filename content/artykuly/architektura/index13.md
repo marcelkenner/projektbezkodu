@@ -1,45 +1,54 @@
 ---
-title: "Idempotencja po ludzku: jak nie wysyłać klientowi dwóch faktur przez jeden\
-  \ błąd"
+title: >-
+  Idempotencja po ludzku: jak nie wysyłać klientowi dwóch faktur przez jeden
+  błąd
 slug: architektura-13
 path: /architektura-13
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Idempotencja po ludzku: jak nie wysyłać klientowi dwóch faktur przez jeden\
-    \ błąd"
+  heading: >-
+    Idempotencja po ludzku: jak nie wysyłać klientowi dwóch faktur przez jeden
+    błąd
   subheading: Proste praktyki techniczne i operacyjne, które ratują kasę i reputację.
 seo:
   title: Idempotencja i faktury — prosty przewodnik
-  description: Jak zaprojektować system fakturowania, żeby pojedynczy błąd nie wygenerował
+  description: >-
+    Jak zaprojektować system fakturowania, żeby pojedynczy błąd nie wygenerował
     dwóch faktur. Krótkie kroki techniczne i operacyjne.
   keywords:
-  - idempotencja
-  - faktury
-  - płatności
-  - duplikaty
-  - architektura
+    - idempotencja
+    - faktury
+    - płatności
+    - duplikaty
+    - architektura
 meta:
   summaryBullets:
-  - "Werdykt: proste zabezpieczenia (idempotency key + walidacja numerów) ratują najwięcej\
-    \ czasu."
-  - "Dla kogo: firmy fakturujące automatycznie lub integrujące bramki płatności."
-  - "Start: dodaj idempotency key do POSTów i zablokuj duplikaty po numerze faktury."
+    - >-
+      Werdykt: proste zabezpieczenia (idempotency key + walidacja numerów)
+      ratują najwięcej czasu.
+    - >-
+      Dla kogo: firmy fakturujące automatycznie lub integrujące bramki
+      płatności.
+    - >-
+      Start: dodaj idempotency key do POSTów i zablokuj duplikaty po numerze
+      faktury.
   primaryCta:
     label: Dokumentacja o idempotentnych żądaniach
-    href: https://dev.walleypay.com/docs/paymentsApi/getting-started/idempotent-requests/
-  updatedAt: "2026-01-15"
+    href: >-
+      https://dev.walleypay.com/docs/paymentsApi/getting-started/idempotent-requests/
+  updatedAt: '2026-01-15'
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - architektura
-  - płatności
+    - architektura
+    - płatności
   tags:
-  - idempotencja
-  - fakturowanie
-  - bezpieczeństwo
+    - idempotencja
+    - fakturowanie
+    - bezpieczeństwo
 ---
 
 ## Obietnica i werdykt

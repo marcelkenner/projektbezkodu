@@ -4,39 +4,41 @@ slug: cta
 path: /artykuly/biblioteka-komponentow/cta/
 type: template
 tags:
-- evergreen
-- biblioteka
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 template: default
 hero:
-  heading: "Sekcje: CTA"
-  subheading: "Praktyczny przewodnik: gdzie, kiedy i jak ustawić wezwanie do działania"
+  heading: 'Sekcje: CTA'
+  subheading: 'Praktyczny przewodnik: gdzie, kiedy i jak ustawić wezwanie do działania'
 seo:
   title: Sekcje CTA — przewodnik projektowy i przykłady
-  description: "Jak zaprojektować sekcję CTA (button, banner, pop-up) która działa:\
-    \ szybki start, najlepsze miejsca, testy i gotowe przykłady."
+  description: >-
+    Jak zaprojektować sekcję CTA (button, banner, pop-up) która działa: szybki
+    start, najlepsze miejsca, testy i gotowe przykłady.
   keywords:
-  - CTA
-  - call to action
-  - sekcja CTA
-  - przyciski konwersji
+    - CTA
+    - call to action
+    - sekcja CTA
+    - przyciski konwersji
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie — umieść prosty, jeden cel."
-  - "Dla kogo: przydatne dla product i growth, frustrujące dla stron z wieloma konkurencyjnymi\
-    \ celami."
-  - "Start: gotowy test A/B i jeden wariant live w 5–15 minut."
+    - 'Werdykt: krótko i konkretnie — umieść prosty, jeden cel.'
+    - >-
+      Dla kogo: przydatne dla product i growth, frustrujące dla stron z wieloma
+      konkurencyjnymi celami.
+    - 'Start: gotowy test A/B i jeden wariant live w 5–15 minut.'
   primaryCta:
     label: Pobrać szablony CTA
     href: https://offers.hubspot.com/call-to-action-templates
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja biblioteki komponentów
 taxonomy:
   categories:
-  - UX
-  - Design
-  - Conversion
+    - UX
+    - Design
+    - Conversion
 ---
 
 ## Obietnica decyzji (krótko)

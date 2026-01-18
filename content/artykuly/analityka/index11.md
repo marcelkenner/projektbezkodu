@@ -1,38 +1,38 @@
 ---
-title: "Eksperymenty A/B w no‑code: kiedy testować, a kiedy wdrożyć zmianę"
+title: 'Eksperymenty A/B w no‑code: kiedy testować, a kiedy wdrożyć zmianę'
 slug: eksperymenty-a-b-no-code-kiedy-testowac
 path: /artykuly/analityka/eksperymenty-a-b-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Eksperymenty A/B w no‑code: kiedy testować, a kiedy wdrożyć zmianę"
+  heading: 'Eksperymenty A/B w no‑code: kiedy testować, a kiedy wdrożyć zmianę'
   subheading: Szybkie reguły decyzji dla marketerów i właścicieli stron
 meta:
   summaryBullets:
-  - "Werdykt: testuj, gdy efekt jest niepewny i masz wystarczający ruch."
-  - "Dla kogo: małe serwisy z niższym ruchem vs zespoły z dużą skalą."
-  - "Start: najpierw sprawdź próg ruchu i oblicz wielkość próby."
+    - 'Werdykt: testuj, gdy efekt jest niepewny i masz wystarczający ruch.'
+    - 'Dla kogo: małe serwisy z niższym ruchem vs zespoły z dużą skalą.'
+    - 'Start: najpierw sprawdź próg ruchu i oblicz wielkość próby.'
   primaryCta:
     label: Przejdź do kalkulatora próby
     href: https://www.evanmiller.org/ab-testing/sample-size.html
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: Eksperymenty A/B w no‑code — kiedy testować, a kiedy wdrożyć
-  description: "Praktyczny przewodnik: kiedy przeprowadzić A/B test w narzędziach\
-    \ no‑code, a kiedy od razu wdrożyć zmianę. Proste reguły, przykłady i kalkulator\
-    \ próby."
+  description: >-
+    Praktyczny przewodnik: kiedy przeprowadzić A/B test w narzędziach no‑code, a
+    kiedy od razu wdrożyć zmianę. Proste reguły, przykłady i kalkulator próby.
   keywords:
-  - A/B testy
-  - no-code
-  - Webflow
-  - konwersje
+    - A/B testy
+    - no-code
+    - Webflow
+    - konwersje
 taxonomy:
   categories:
-  - analityka
+    - analityka
   tags:
-  - ab-testing
-  - no-code
+    - ab-testing
+    - no-code
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

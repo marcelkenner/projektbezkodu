@@ -1,45 +1,47 @@
 ---
-title: "Workflow publikacji treści w no-code CMS: role, statusy i akceptacje"
+title: 'Workflow publikacji treści w no-code CMS: role, statusy i akceptacje'
 slug: cms-bez-kodu-7
 path: /cms-bez-kodu-7
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Workflow publikacji treści w no-code CMS: role, statusy i akceptacje"
-  subheading: Jak zorganizować role i proces akceptacji w systemie no-code, żeby nie
+  heading: 'Workflow publikacji treści w no-code CMS: role, statusy i akceptacje'
+  subheading: >-
+    Jak zorganizować role i proces akceptacji w systemie no-code, żeby nie
     tracić kontroli nad treścią
 seo:
-  title: "Workflow publikacji treści w no-code CMS: role, statusy i akceptacje"
-  description: "Praktyczny przewodnik po rolach, statusach i mechanizmach akceptacji\
-    \ w no-code CMS. Krótkie decyzje: kto publikuje, co zostaje w szkicu, kiedy potrzebujesz\
-    \ approval flow."
+  title: 'Workflow publikacji treści w no-code CMS: role, statusy i akceptacje'
+  description: >-
+    Praktyczny przewodnik po rolach, statusach i mechanizmach akceptacji w
+    no-code CMS. Krótkie decyzje: kto publikuje, co zostaje w szkicu, kiedy
+    potrzebujesz approval flow.
   keywords:
-  - no-code CMS
-  - workflow publikacji
-  - role i akceptacje
-  - CMS bez kodu
+    - no-code CMS
+    - workflow publikacji
+    - role i akceptacje
+    - CMS bez kodu
 meta:
   summaryBullets:
-  - "Werdykt: praktyczne zasady wyboru ról i statusów"
-  - "Dla kogo: małe zespoły vs. Enterprise"
-  - "Start: mapa ról w 5 minut"
+    - 'Werdykt: praktyczne zasady wyboru ról i statusów'
+    - 'Dla kogo: małe zespoły vs. Enterprise'
+    - 'Start: mapa ról w 5 minut'
   primaryCta:
     label: Przejdź do artykułu
     href: https://webflow.com/updates/cms-draft-publishing-improvements
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - CMS
-  - No-code
-  - Procesy
+    - CMS
+    - No-code
+    - Procesy
   tags:
-  - workflow
-  - publikacja
-  - role
-  - akceptacje
+    - workflow
+    - publikacja
+    - role
+    - akceptacje
 ---
 
 ## Obietnica decyzji (dla kogo i co zrobisz)

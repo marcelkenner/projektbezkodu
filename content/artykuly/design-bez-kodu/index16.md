@@ -1,31 +1,32 @@
 ---
-title: "Dostępność (WCAG) w projektach no-code: minimum, które musisz znać"
+title: 'Dostępność (WCAG) w projektach no-code: minimum, które musisz znać'
 slug: design-bez-kodu-16
 path: /design-bez-kodu-16
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Dostępność (WCAG) w projektach no-code: minimum, które musisz znać"
+  heading: 'Dostępność (WCAG) w projektach no-code: minimum, które musisz znać'
 meta:
   summaryBullets:
-  - "Werdykt: konkretne minimum, które możesz wdrożyć w godzinę."
-  - "Dla kogo: projektanci no-code, product ownerzy, twórcy landingów."
-  - "Start: trzy szybkie kontrole, które odfiltrowują większość problemów."
+    - 'Werdykt: konkretne minimum, które możesz wdrożyć w godzinę.'
+    - 'Dla kogo: projektanci no-code, product ownerzy, twórcy landingów.'
+    - 'Start: trzy szybkie kontrole, które odfiltrowują większość problemów.'
   primaryCta:
     label: Dokumentacja WCAG — W3C
     href: https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
-  title: "Dostępność (WCAG) w projektach no-code: minimum, które musisz znać"
-  description: Kontrast, focus, klawiatura, etykiety, hierarchia nagłówków — praktyczne
+  title: 'Dostępność (WCAG) w projektach no-code: minimum, które musisz znać'
+  description: >-
+    Kontrast, focus, klawiatura, etykiety, hierarchia nagłówków — praktyczne
     minimum dla projektów no-code.
   keywords:
-  - WCAG
-  - dostępność
-  - no-code
-  - kontrast
-  - klawiatura
+    - WCAG
+    - dostępność
+    - no-code
+    - kontrast
+    - klawiatura
 type: article
 ---
 

@@ -1,44 +1,46 @@
 ---
-title: "Airtable automations vs zewnętrzne integratory: kiedy „wbudowane” wystarczy"
+title: 'Airtable automations vs zewnętrzne integratory: kiedy „wbudowane” wystarczy'
 slug: automation-8
 path: /automation-8
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Airtable automations vs zewnętrzne integratory: kiedy „wbudowane” wystarczy"
+  heading: 'Airtable automations vs zewnętrzne integratory: kiedy „wbudowane” wystarczy'
   subheading: Szybki werdykt, do kogo to pasuje i jak zacząć w 5 minut
 seo:
   title: Airtable automations vs integratory — kiedy wbudowane wystarczy
-  description: "Kiedy użyć wbudowanych automatyzacji Airtable, a kiedy wybrać zewnętrzny\
-    \ integrator (Zapier/Make)? Krótko: prostota → automations; wielosystemowość →\
-    \ integrator. Praktyczne wskazówki i szybki start."
+  description: >-
+    Kiedy użyć wbudowanych automatyzacji Airtable, a kiedy wybrać zewnętrzny
+    integrator (Zapier/Make)? Krótko: prostota → automations; wielosystemowość →
+    integrator. Praktyczne wskazówki i szybki start.
   keywords:
-  - Airtable automations
-  - integracje
-  - Zapier
-  - Make
-  - automatyzacja
+    - Airtable automations
+    - integracje
+    - Zapier
+    - Make
+    - automatyzacja
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Dokumentacja Airtable Automations
-    href: https://support.airtable.com/docs/getting-started-with-airtable-automations
-  updatedAt: "2026-01-14"
+    href: >-
+      https://support.airtable.com/docs/getting-started-with-airtable-automations
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - produktywność
-  - automatyzacja
+    - produktywność
+    - automatyzacja
   tags:
-  - Airtable
-  - integracje
-  - automations
+    - Airtable
+    - integracje
+    - automations
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

@@ -1,41 +1,42 @@
 ---
-title: "Opis produktu, który sprzedaje: struktura, język korzyści i FAQ"
+title: 'Opis produktu, który sprzedaje: struktura, język korzyści i FAQ'
 slug: ecommerce-bez-kodu-16
 path: /ecommerce-bez-kodu-16
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Opis produktu, który sprzedaje
-  subheading: "Krótkie zasady: SEO + konwersja, bez lania wody"
+  subheading: 'Krótkie zasady: SEO + konwersja, bez lania wody'
 seo:
   title: Opis produktu, który sprzedaje — struktura, język korzyści i FAQ
-  description: "Jak napisać opis produktu pod SEO i konwersję: co zostawić, co wyrzucić,\
-    \ jak zacząć w 5 minut."
+  description: >-
+    Jak napisać opis produktu pod SEO i konwersję: co zostawić, co wyrzucić, jak
+    zacząć w 5 minut.
   keywords:
-  - opis produktu
-  - SEO produktowe
-  - copy e‑commerce
-  - opisy produktow sklep
+    - opis produktu
+    - SEO produktowe
+    - copy e‑commerce
+    - opisy produktow sklep
 meta:
   summaryBullets:
-  - "Werdykt: konkretny opis sprzedaje, jeśli jest unikalny i ma jasny CTA."
-  - "Dla kogo: małe i średnie sklepy, które chcą poprawić organic i konwersję."
-  - "Start: najpierw 1 produkt — 5 minut, bez karty kredytowej."
+    - 'Werdykt: konkretny opis sprzedaje, jeśli jest unikalny i ma jasny CTA.'
+    - 'Dla kogo: małe i średnie sklepy, które chcą poprawić organic i konwersję.'
+    - 'Start: najpierw 1 produkt — 5 minut, bez karty kredytowej.'
   primaryCta:
-    label: "SEO: opis produktu — przewodnik"
+    label: 'SEO: opis produktu — przewodnik'
     href: https://www.webfx.com/blog/marketing/seo-product-descriptions/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: E‑commerce bez kodu
   duration: 5 min (szybki start)
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - E-commerce bez kodu
+    - E-commerce bez kodu
   tags:
-  - opis produktu
-  - SEO
-  - konwersja
+    - opis produktu
+    - SEO
+    - konwersja
 ---
 
 ## Obietnica decyzji dla sprzedawców

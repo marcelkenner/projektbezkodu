@@ -1,45 +1,58 @@
 ---
-title: Najczęstsze błędy przy wdrażaniu AI w no-code (i jak ich uniknąć bez doktoratu)
+title: >-
+  Najczęstsze błędy przy wdrażaniu AI w no-code (i jak ich uniknąć bez
+  doktoratu)
 slug: najczestsze-bledy-wdrazanie-ai-no-code
 path: /artykuly/ai/najczestsze-bledy-wdrazanie-ai-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: Najczęstsze błędy przy wdrażaniu AI w no-code (i jak ich uniknąć bez doktoratu)
-  subheading: Krótki, praktyczny przewodnik dla PM-ów, product ownerów i twórców prototypów.
+  heading: >-
+    Najczęstsze błędy przy wdrażaniu AI w no-code (i jak ich uniknąć bez
+    doktoratu)
+  subheading: >-
+    Krótki, praktyczny przewodnik dla PM-ów, product ownerów i twórców
+    prototypów.
 seo:
   title: Najczęstsze błędy przy wdrażaniu AI w no-code — przewodnik
-  description: Jakie pułapki czekają przy no-code + AI i co zrobić od pierwszego dnia,
-    żeby nie stracić czasu ani budżetu.
+  description: >-
+    Jakie pułapki czekają przy no-code + AI i co zrobić od pierwszego dnia, żeby
+    nie stracić czasu ani budżetu.
   keywords:
-  - no-code
-  - AI
-  - wdrażanie AI
-  - błędy
-  - poradnik
-  canonical: https://www.appstuck.com/blog/5-common-pitfalls-to-avoid-when-building-with-no-code-and-ai
+    - no-code
+    - AI
+    - wdrażanie AI
+    - błędy
+    - poradnik
+  canonical: >-
+    https://www.appstuck.com/blog/5-common-pitfalls-to-avoid-when-building-with-no-code-and-ai
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   format: recenzja
   summaryBullets:
-  - "Werdykt: no-code AI przyspiesza prototypy, ale frustruje przy skali i customizacji."
-  - "Dla kogo: dobre dla PM/UX testów i MVP; złe dla systemów regulowanych i high-throughput."
-  - "Start: najpierw dane i fallbacky, potem integracje z platformą."
+    - >-
+      Werdykt: no-code AI przyspiesza prototypy, ale frustruje przy skali i
+      customizacji.
+    - >-
+      Dla kogo: dobre dla PM/UX testów i MVP; złe dla systemów regulowanych i
+      high-throughput.
+    - 'Start: najpierw dane i fallbacky, potem integracje z platformą.'
   primaryCta:
     label: Czytaj źródło
-    href: https://www.appstuck.com/blog/5-common-pitfalls-to-avoid-when-building-with-no-code-and-ai
+    href: >-
+      https://www.appstuck.com/blog/5-common-pitfalls-to-avoid-when-building-with-no-code-and-ai
 taxonomy:
   categories:
-  - AI
-  - No-code
-  - Poradnik
+    - AI
+    - No-code
+    - Poradnik
   tags:
-  - wdrożenia
-  - MVP
-  - integracje
+    - wdrożenia
+    - MVP
+    - integracje
 ---
 
 ## Obietnica i decyzja — dla kogo ten tekst

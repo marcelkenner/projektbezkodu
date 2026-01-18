@@ -1,40 +1,42 @@
 ---
-title: "Badanie: skuteczność landingów tworzonych w no-code"
+title: 'Badanie: skuteczność landingów tworzonych w no-code'
 slug: badania-13
 path: /badania-13
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Badanie: skuteczność landingów tworzonych w no-code"
-  subheading: Czy szybkie wdrożenie oznacza kompromis w konwersji? Dane, wnioski,
+  heading: 'Badanie: skuteczność landingów tworzonych w no-code'
+  subheading: >-
+    Czy szybkie wdrożenie oznacza kompromis w konwersji? Dane, wnioski,
     praktyczne reguły.
 seo:
   title: Skuteczność landingów no-code — badanie i wnioski
-  description: Jak tempo wdrożeń i możliwość szybkich iteracji na platformach no-code
+  description: >-
+    Jak tempo wdrożeń i możliwość szybkich iteracji na platformach no-code
     wpływają na współczynnik konwersji i doświadczenie użytkownika.
   keywords:
-  - landing page
-  - no-code
-  - konwersja
-  - Webflow
-  - Unbounce
+    - landing page
+    - no-code
+    - konwersja
+    - Webflow
+    - Unbounce
   canonical: https://unbounce.com/average-conversion-rates-landing-pages/
 meta:
   author: Zespół badań
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   primaryCta:
     label: Unbounce Conversion Benchmark
     href: https://unbounce.com/average-conversion-rates-landing-pages/
   summaryBullets:
-  - "Werdykt: No-code działa — ale ma pułapki wydajności i kontroli."
-  - "Dla kogo: szybkie kampanie, zespoły marketingu bez devów, testy A/B."
-  - "Start: uruchom prosty test A/B i zmierz czas ładowania oraz konwersję."
+    - 'Werdykt: No-code działa — ale ma pułapki wydajności i kontroli.'
+    - 'Dla kogo: szybkie kampanie, zespoły marketingu bez devów, testy A/B.'
+    - 'Start: uruchom prosty test A/B i zmierz czas ładowania oraz konwersję.'
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
 ---
 
 ## Obietnica decyzji dla marketera

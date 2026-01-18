@@ -1,40 +1,42 @@
 ---
-title: "Heatmapy i nagrania sesji: Hotjar vs Microsoft Clarity — który wybrać"
+title: 'Heatmapy i nagrania sesji: Hotjar vs Microsoft Clarity — który wybrać'
 slug: heatmapy-hotjar-clarity
 path: /analityka/heatmapy-hotjar-clarity
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Heatmapy i nagrania sesji: Hotjar vs Microsoft Clarity"
-  subheading: "Krótki przewodnik: co działa w praktyce, dla kogo i jak szybko zacząć"
+  heading: 'Heatmapy i nagrania sesji: Hotjar vs Microsoft Clarity'
+  subheading: 'Krótki przewodnik: co działa w praktyce, dla kogo i jak szybko zacząć'
 seo:
   title: Hotjar vs Microsoft Clarity — heatmapy i nagrania sesji
-  description: "Porównanie Hotjar i Microsoft Clarity: funkcje, ograniczenia prywatności,\
-    \ cena i szybki plan startowy."
+  description: >-
+    Porównanie Hotjar i Microsoft Clarity: funkcje, ograniczenia prywatności,
+    cena i szybki plan startowy.
   keywords:
-  - hotjar
-  - microsoft clarity
-  - heatmapy
-  - nagrania sesji
-  - analityka behawioralna
+    - hotjar
+    - microsoft clarity
+    - heatmapy
+    - nagrania sesji
+    - analityka behawioralna
 meta:
   summaryBullets:
-  - "Werdykt: wybór zależy od celów — darmowa skala vs kompletna platforma."
-  - "Dla kogo: Clarity dla szybkiego, niskokosztowego monitoringu; Hotjar jeśli potrzebujesz\
-    \ ankiet, funnels i wsparcia."
-  - "Start: zainstaluj tag i sprawdź heatmapę w 5–15 minut."
+    - 'Werdykt: wybór zależy od celów — darmowa skala vs kompletna platforma.'
+    - >-
+      Dla kogo: Clarity dla szybkiego, niskokosztowego monitoringu; Hotjar jeśli
+      potrzebujesz ankiet, funnels i wsparcia.
+    - 'Start: zainstaluj tag i sprawdź heatmapę w 5–15 minut.'
   primaryCta:
     label: Porównanie Hotjar vs Clarity
     href: https://www.hotjar.com/blog/hotjar-vs-microsoft-clarity/
   secondaryCta:
     label: Strona Microsoft Clarity
     href: https://clarity.microsoft.com/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - analityka
-  - ux
+    - analityka
+    - ux
 ---
 
 ## Obietnica decyzji (co zrobisz w 5–15 minut)

@@ -1,41 +1,44 @@
 ---
-title: "Sekcje portfolio i case studies: jak napisać skuteczne przykłady projektów"
+title: 'Sekcje portfolio i case studies: jak napisać skuteczne przykłady projektów'
 slug: portfolio
 path: /artykuly/biblioteka-komponentow/portfolio/
 draft: true
 template: default
 type: template
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Sekcje portfolio i case studies
-  subheading: "Krótki przewodnik: co wrzucić, jak opisać i komu to sprzeda"
+  subheading: 'Krótki przewodnik: co wrzucić, jak opisać i komu to sprzeda'
 seo:
-  title: Sekcje portfolio i case studies — jak przygotować skuteczne przykłady projektów
-  description: "Praktyczny przewodnik do tworzenia case study i sekcji portfolio:\
-    \ co pokazywać, jak mierzyć efekt i jakie szablony warto wykorzystać."
+  title: >-
+    Sekcje portfolio i case studies — jak przygotować skuteczne przykłady
+    projektów
+  description: >-
+    Praktyczny przewodnik do tworzenia case study i sekcji portfolio: co
+    pokazywać, jak mierzyć efekt i jakie szablony warto wykorzystać.
   keywords:
-  - portfolio
-  - case study
-  - przykłady projektów
-  - case studies
-  - szablon case study
+    - portfolio
+    - case study
+    - przykłady projektów
+    - case studies
+    - szablon case study
 meta:
   summaryBullets:
-  - "Werdykt: konkretne, mierzalne case study działa najlepiej."
-  - "Dla kogo: freelancerzy, agencje i product teamy — różne formaty."
-  - "Start: wybierz 1 projekt, wyciągnij 3 metryki, zamieść cytat klienta."
+    - 'Werdykt: konkretne, mierzalne case study działa najlepiej.'
+    - 'Dla kogo: freelancerzy, agencje i product teamy — różne formaty.'
+    - 'Start: wybierz 1 projekt, wyciągnij 3 metryki, zamieść cytat klienta.'
   primaryCta:
     label: Pobierz szablon case study
     href: https://blog.hubspot.com/marketing/case-studies-template
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - biblioteka
-  - portfolio
+    - biblioteka
+    - portfolio
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Obietnica decyzji: szybko i praktycznie

@@ -1,49 +1,53 @@
 ---
-title: "E-mail marketing dla e-commerce: flow, które daje największy ROI"
+title: 'E-mail marketing dla e-commerce: flow, które daje największy ROI'
 slug: ecommerce-bez-kodu-10
 path: /ecommerce-bez-kodu-10
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "E-mail marketing dla e‑commerce: flow, które daje największy ROI"
-  subheading: Które automatyzacje uruchomić dziś — i w jakiej kolejności, żeby budżet
+  heading: 'E-mail marketing dla e‑commerce: flow, które daje największy ROI'
+  subheading: >-
+    Które automatyzacje uruchomić dziś — i w jakiej kolejności, żeby budżet
     pracował najbardziej efektywnie.
   primaryCta:
     label: Zobacz benchmarki Klaviyo
     href: https://help.klaviyo.com/hc/en-us/articles/360033669452
 seo:
   title: E-mail marketing dla e-commerce — które flow przynoszą największy ROI?
-  description: "Praktyczny przewodnik: które automatyzacje uruchomić najpierw (welcome,\
-    \ cart abandon, browse, post-purchase, winback), jak je mierzyć i czego się wystrzegać."
+  description: >-
+    Praktyczny przewodnik: które automatyzacje uruchomić najpierw (welcome, cart
+    abandon, browse, post-purchase, winback), jak je mierzyć i czego się
+    wystrzegać.
   keywords:
-  - e-mail marketing
-  - ecommerce
-  - abandoned cart
-  - welcome series
-  - email flows
+    - e-mail marketing
+    - ecommerce
+    - abandoned cart
+    - welcome series
+    - email flows
 meta:
   difficulty: Średni
   duration: 5–60 min (zależnie od flow)
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: zacznij od cart-abandon i welcome — to najniższy koszt wejścia i największy\
-    \ zwrot."
-  - "Dla kogo: małe i średnie sklepy D2C oraz marki z ruchem organicznym/paid."
-  - "Start: 5-min checklist do uruchomienia pierwszego flow."
+    - >-
+      Werdykt: zacznij od cart-abandon i welcome — to najniższy koszt wejścia i
+      największy zwrot.
+    - 'Dla kogo: małe i średnie sklepy D2C oraz marki z ruchem organicznym/paid.'
+    - 'Start: 5-min checklist do uruchomienia pierwszego flow.'
   primaryCta:
     label: Klaviyo benchmarky
     href: https://help.klaviyo.com/hc/en-us/articles/360033669452
 taxonomy:
   categories:
-  - E-commerce
-  - E-mail marketing
+    - E-commerce
+    - E-mail marketing
   tags:
-  - flows
-  - ROI
-  - abandoned cart
+    - flows
+    - ROI
+    - abandoned cart
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst i co dokładnie powiem

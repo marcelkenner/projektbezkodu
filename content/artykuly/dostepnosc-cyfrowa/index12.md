@@ -1,45 +1,52 @@
 ---
-title: "Plan wdrożenia dostępności: proces, role i Definition of Done dla no-code"
+title: 'Plan wdrożenia dostępności: proces, role i Definition of Done dla no-code'
 slug: dostepnosc-cyfrowa-12
 path: /dostepnosc-cyfrowa-12
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Plan wdrożenia dostępności: proces, role i Definition of Done dla no-code"
-  subheading: Praktyczny plan dla zespołów korzystających z narzędzi no-code — co
-    zrobić, kto za co odpowiada i jak zmierzyć gotowość.
+  heading: 'Plan wdrożenia dostępności: proces, role i Definition of Done dla no-code'
+  subheading: >-
+    Praktyczny plan dla zespołów korzystających z narzędzi no-code — co zrobić,
+    kto za co odpowiada i jak zmierzyć gotowość.
 seo:
   title: Plan wdrożenia dostępności dla no-code — proces, role, DoD
-  description: "Kompletny plan wdrożenia dostępności dla produktów tworzonych w no-code:\
-    \ proces, role, checklisty i Definition of Done."
+  description: >-
+    Kompletny plan wdrożenia dostępności dla produktów tworzonych w no-code:
+    proces, role, checklisty i Definition of Done.
   keywords:
-  - dostępność
-  - no-code
-  - WCAG
-  - audyt dostępności
-  - Definition of Done
+    - dostępność
+    - no-code
+    - WCAG
+    - audyt dostępności
+    - Definition of Done
 meta:
   difficulty: średni
   duration: 30-90 min
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: No-code można udostępnić, ale wymaga procesów i ręcznej weryfikacji."
-  - "Główne ryzyko: poleganie tylko na automacie (skanery wykrywają ~30–40% problemów)."
-  - "Krok po kroku: szybki audit automatyczny → manualne testy kluczowych przepływów\
-    \ → DoD zatwierdzony przez QA."
+    - >-
+      Werdykt: No-code można udostępnić, ale wymaga procesów i ręcznej
+      weryfikacji.
+    - >-
+      Główne ryzyko: poleganie tylko na automacie (skanery wykrywają ~30–40%
+      problemów).
+    - >-
+      Krok po kroku: szybki audit automatyczny → manualne testy kluczowych
+      przepływów → DoD zatwierdzony przez QA.
   primaryCta:
     label: Zobacz WCAG (W3C)
     href: https://www.w3.org/WAI/standards-guidelines/wcag/
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
+    - no-code
+    - accessibility
+    - wcag
 ---
 
 ## Obietnica decyzji i grupa docelowa

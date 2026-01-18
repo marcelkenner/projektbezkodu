@@ -1,45 +1,55 @@
 ---
-title: "Architektura no-code: jak zbudować system, który nie rozsypie się po 3 miesiącach"
+title: >-
+  Architektura no-code: jak zbudować system, który nie rozsypie się po 3
+  miesiącach
 slug: architektura
-path: /architektura
+path: /artykuly/architektura/
 template: default
+type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Architektura no-code: jak zbudować system, który nie rozsypie się po 3\
-    \ miesiącach"
-  subheading: Praktyczne reguły, decyzje i gotowe kroki dla osób budujących aplikacje
-    bez kodu
+  heading: >-
+    Architektura no-code: jak zbudować system, który nie rozsypie się po 3
+    miesiącach
+  subheading: >-
+    Praktyczne reguły, decyzje i gotowe kroki dla osób budujących aplikacje bez
+    kodu
 seo:
-  title: "Architektura no-code: jak zbudować system, który nie rozsypie się po 3 miesiącach"
-  description: Konkretne zasady projektowania systemów no-code — od modelu danych,
-    przez integracje, aż po governance i skalowanie.
+  title: >-
+    Architektura no-code: jak zbudować system, który nie rozsypie się po 3
+    miesiącach
+  description: >-
+    Konkretne zasady projektowania systemów no-code — od modelu danych, przez
+    integracje, aż po governance i skalowanie.
   keywords:
-  - no-code
-  - architektura
-  - Airtable
-  - Zapier
-  - governance
+    - no-code
+    - architektura
+    - Airtable
+    - Zapier
+    - governance
 meta:
   summaryBullets:
-  - "Werdykt: no-code działa, jeśli zaprojektujesz granice i zasady."
-  - "Dla kogo: najlepsze do MVP i wewnętrznych narzędzi; mniej dobre dla krytycznych\
-    \ systemów z dużymi danymi."
-  - "Start: model danych, granice integracji, plan migracji."
+    - 'Werdykt: no-code działa, jeśli zaprojektujesz granice i zasady.'
+    - >-
+      Dla kogo: najlepsze do MVP i wewnętrznych narzędzi; mniej dobre dla
+      krytycznych systemów z dużymi danymi.
+    - 'Start: model danych, granice integracji, plan migracji.'
   primaryCta:
-    label: "Zapier: best practices"
-    href: https://help.zapier.com/hc/en-us/articles/40368119010701-Best-practices-for-sharing-collaborating-on-and-maintaining-workflows-in-Zapier
-  updatedAt: "2026-01-14"
+    label: 'Zapier: best practices'
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/40368119010701-Best-practices-for-sharing-collaborating-on-and-maintaining-workflows-in-Zapier
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - nocode
-  - architektura
-  - poradnik
+    - nocode
+    - architektura
+    - poradnik
   tags:
-  - governance
-  - scalowalność
-  - integracje
+    - governance
+    - scalowalność
+    - integracje
 ---
 
 ## Obietnica decyzji

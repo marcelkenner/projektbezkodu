@@ -1,46 +1,54 @@
 ---
-title: "Make + OpenAI/LLM: jak budować stabilne workflowy (prompt, retry, limity,\
-  \ logi)"
+title: >-
+  Make + OpenAI/LLM: jak budować stabilne workflowy (prompt, retry, limity,
+  logi)
 slug: make-openai-llm-stabilne-workflowy
 path: /artykuly/ai/make-openai-llm-stabilne-workflowy
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Make + OpenAI: stabilne workflowy bez nadmiernych frustracji"
-  subheading: "Praktyczny poradnik: prompt, retry, limity i logi — co zrobić od razu,\
-    \ żeby przestało się psuć"
+  heading: 'Make + OpenAI: stabilne workflowy bez nadmiernych frustracji'
+  subheading: >-
+    Praktyczny poradnik: prompt, retry, limity i logi — co zrobić od razu, żeby
+    przestało się psuć
   primaryCta:
-    label: "OpenAI: Rate limits"
+    label: 'OpenAI: Rate limits'
     href: https://platform.openai.com/docs/guides/rate-limits
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: prosty stos — idempotencja + exponential backoff + limitowanie przychodzącego\
-    \ ruchu."
-  - "Dla kogo: integracje z webhookami i scenariusze Make, gdy zależy ci na niezawodności."
-  - "Start: zrób 3 rzeczy w 15 minut: acknowledge 2xx, dodaj logi, ustaw retry/backoff."
+    - >-
+      Werdykt: prosty stos — idempotencja + exponential backoff + limitowanie
+      przychodzącego ruchu.
+    - >-
+      Dla kogo: integracje z webhookami i scenariusze Make, gdy zależy ci na
+      niezawodności.
+    - >-
+      Start: zrób 3 rzeczy w 15 minut: acknowledge 2xx, dodaj logi, ustaw
+      retry/backoff.
   primaryCta:
     label: Przeczytaj dokumentację limitów OpenAI
     href: https://platform.openai.com/docs/guides/rate-limits
 seo:
   title: Make + OpenAI/LLM — jak zbudować stabilne workflowy
-  description: "Konkretny poradnik dla integratorów: jak obsługiwać retry, limity\
-    \ i logi przy łączeniu Make z OpenAI/LLM."
+  description: >-
+    Konkretny poradnik dla integratorów: jak obsługiwać retry, limity i logi
+    przy łączeniu Make z OpenAI/LLM.
   keywords:
-  - Make
-  - OpenAI
-  - webhook
-  - retry
-  - rate limits
+    - Make
+    - OpenAI
+    - webhook
+    - retry
+    - rate limits
 taxonomy:
   categories:
-  - AI
-  - Integracje
-  - Poradnik
+    - AI
+    - Integracje
+    - Poradnik
 ---
 
 ## Obietnica decyzji dla czytelnika

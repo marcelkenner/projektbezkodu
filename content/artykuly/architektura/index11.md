@@ -1,48 +1,54 @@
 ---
-title: "Wersjonowanie i zmiany: jak nie rozwalić działającego systemu jedną edycją\
-  \ workflow"
+title: >-
+  Wersjonowanie i zmiany: jak nie rozwalić działającego systemu jedną edycją
+  workflow
 slug: architektura-11
 path: /architektura-11
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Wersjonowanie i zmiany: jak nie rozwalić działającego systemu jedną edycją\
-    \ workflow"
-  subheading: Praktyczne zasady wersjonowania, branching i feature flags dla zespołów
+  heading: >-
+    Wersjonowanie i zmiany: jak nie rozwalić działającego systemu jedną edycją
+    workflow
+  subheading: >-
+    Praktyczne zasady wersjonowania, branching i feature flags dla zespołów
     odpowiedzialnych za automaty
 seo:
   title: Wersjonowanie i zmiany — dobre praktyki dla zespołów
-  description: "Jak wprowadzać zmiany w workflow bez ryzyka awarii: wersjonowanie,\
-    \ branching, feature flags i SemVer."
+  description: >-
+    Jak wprowadzać zmiany w workflow bez ryzyka awarii: wersjonowanie,
+    branching, feature flags i SemVer.
   keywords:
-  - wersjonowanie
-  - git
-  - feature flags
-  - SemVer
-  - branching
+    - wersjonowanie
+    - git
+    - feature flags
+    - SemVer
+    - branching
 meta:
   difficulty: średni
   duration: 5–30 min
   author: Redakcja Architektura
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Przewodnik: Strategia branchy"
+    label: 'Przewodnik: Strategia branchy'
     href: https://www.atlassian.com/agile/software-development/branching
   summaryBullets:
-  - "Werdykt: wersjonowanie i feature flags to minimum dla systemów produkcyjnych"
-  - "Dla kogo: zespoły z CI/CD i dowolną automatyzacją release'ów"
-  - "Start: zdefiniuj SemVer i wprowadź prosty feature flag"
+    - >-
+      Werdykt: wersjonowanie i feature flags to minimum dla systemów
+      produkcyjnych
+    - 'Dla kogo: zespoły z CI/CD i dowolną automatyzacją release''ów'
+    - 'Start: zdefiniuj SemVer i wprowadź prosty feature flag'
 taxonomy:
   categories:
-  - architektura
-  - devops
+    - architektura
+    - devops
   tags:
-  - wersjonowanie
-  - git
-  - semver
-  - feature-flags
+    - wersjonowanie
+    - git
+    - semver
+    - feature-flags
 ---
 
 ## Obietnica decyzji i grupa docelowa

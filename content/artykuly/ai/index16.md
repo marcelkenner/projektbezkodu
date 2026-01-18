@@ -1,58 +1,68 @@
 ---
-title: "AI i RODO w no‑code: minimalizacja danych, zgody i bezpieczne scenariusze\
-  \ dla polskich firm"
+title: >-
+  AI i RODO w no‑code: minimalizacja danych, zgody i bezpieczne scenariusze dla
+  polskich firm
 slug: ai-rodo-no-code-minimalizacja-zgody-bezpieczenstwo
 path: /artykuly/ai/ai-rodo-no-code-minimalizacja-zgody-bezpieczenstwo
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI i RODO w no‑code: jak bezpiecznie używać gotowych narzędzi"
-  subheading: Praktyczne reguły minimalizacji danych i zarządzania zgodami dla małych
-    i średnich firm w Polsce
+  heading: 'AI i RODO w no‑code: jak bezpiecznie używać gotowych narzędzi'
+  subheading: >-
+    Praktyczne reguły minimalizacji danych i zarządzania zgodami dla małych i
+    średnich firm w Polsce
   primaryCta:
     label: Wytyczne EDPS o generatywnej AI
-    href: https://edps.europa.eu/data-protection/our-work/publications/guidelines/2025-10-28-guidance-generative-ai-strengthening-data-protection-rapidly-changing-digital-era_en
+    href: >-
+      https://edps.europa.eu/data-protection/our-work/publications/guidelines/2025-10-28-guidance-generative-ai-strengthening-data-protection-rapidly-changing-digital-era_en
 seo:
   title: AI i RODO w no‑code — minimalizacja danych i zgody dla polskich firm
-  description: Konkretne scenariusze użycia AI w narzędziach no‑code, reguły minimalizacji
+  description: >-
+    Konkretne scenariusze użycia AI w narzędziach no‑code, reguły minimalizacji
     danych i jak ustawić zgody, by zmniejszyć ryzyko naruszeń RODO.
   keywords:
-  - AI
-  - RODO
-  - no-code
-  - minimalizacja danych
-  - zgoda
-  - Polska
+    - AI
+    - RODO
+    - no-code
+    - minimalizacja danych
+    - zgoda
+    - Polska
 meta:
   difficulty: średni
   duration: 6 min
   author: Recenzent Tech
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Wytyczne EDPB (Article 6 guidance)
-    href: https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en
+    href: >-
+      https://www.edpb.europa.eu/our-work-tools/documents/public-consultations/2024/guidelines-12024-processing-personal-data-based_en
   summaryBullets:
-  - "Werdykt: no-code + AI są użyteczne, ale wymagają minimalizacji i jasnych podstaw\
-    \ prawnych."
-  - "Dla kogo: małe firmy i zespoły produktowe bez działu IT; ryzyko rośnie przy danych\
-    \ wrażliwych."
-  - "Start: przeprowadź mapę danych, wybierz integracje, ustaw proces zgód i logów."
-  - "Ryzyko: model treningowy i udostępnianie danych zewnętrznym API — sprawdź umowy\
-    \ i anonimizację."
+    - >-
+      Werdykt: no-code + AI są użyteczne, ale wymagają minimalizacji i jasnych
+      podstaw prawnych.
+    - >-
+      Dla kogo: małe firmy i zespoły produktowe bez działu IT; ryzyko rośnie
+      przy danych wrażliwych.
+    - >-
+      Start: przeprowadź mapę danych, wybierz integracje, ustaw proces zgód i
+      logów.
+    - >-
+      Ryzyko: model treningowy i udostępnianie danych zewnętrznym API — sprawdź
+      umowy i anonimizację.
   license: CC-BY-4.0
 taxonomy:
   categories:
-  - prawo
-  - AI
-  - no-code
+    - prawo
+    - AI
+    - no-code
   tags:
-  - RODO
-  - GDPR
-  - no-code
-  - minimalizacja danych
+    - RODO
+    - GDPR
+    - no-code
+    - minimalizacja danych
 ---
 
 ## Obietnica decyzji i dla kogo

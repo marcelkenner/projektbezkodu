@@ -1,46 +1,48 @@
 ---
-title: "Koszty AI: jak liczyć tokeny, rozumieć limity i kiedy AI staje się drogie"
+title: 'Koszty AI: jak liczyć tokeny, rozumieć limity i kiedy AI staje się drogie'
 slug: ai-18
 path: /ai-18
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Koszty AI: praktyczny przewodnik dla użytkownika i firmy"
-  subheading: Ile naprawdę kosztuje prompt, embedding i długi kontekst — proste reguły
-    i szybki start
+  heading: 'Koszty AI: praktyczny przewodnik dla użytkownika i firmy'
+  subheading: >-
+    Ile naprawdę kosztuje prompt, embedding i długi kontekst — proste reguły i
+    szybki start
 seo:
   title: Koszty AI — jak liczyć tokeny i kiedy robi się drogo
-  description: "Praktyczny przewodnik: co to są tokeny, jak je policzyć, które operacje\
-    \ podbijają koszty i kiedy lepiej zmienić model albo architekturę."
+  description: >-
+    Praktyczny przewodnik: co to są tokeny, jak je policzyć, które operacje
+    podbijają koszty i kiedy lepiej zmienić model albo architekturę.
   keywords:
-  - koszty AI
-  - tokeny
-  - tiktoken
-  - OpenAI pricing
-  - embedding koszty
+    - koszty AI
+    - tokeny
+    - tiktoken
+    - OpenAI pricing
+    - embedding koszty
 meta:
   difficulty: średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz cennik OpenAI
     href: https://openai.com/api/pricing
   summaryBullets:
-  - "Werdykt: proste reguły, kiedy projekt stanie się kosztowny"
-  - "Dla kogo: developerzy, produktowcy i zespoły ML z ograniczonym budżetem"
-  - "Start: policz tokeny, sprawdź cennik i uruchom prototyp w 5 minut"
+    - 'Werdykt: proste reguły, kiedy projekt stanie się kosztowny'
+    - 'Dla kogo: developerzy, produktowcy i zespoły ML z ograniczonym budżetem'
+    - 'Start: policz tokeny, sprawdź cennik i uruchom prototyp w 5 minut'
 taxonomy:
   categories:
-  - AI
-  - Koszty
+    - AI
+    - Koszty
   tags:
-  - tokeny
-  - billing
-  - OpenAI
-  - poradnik
+    - tokeny
+    - billing
+    - OpenAI
+    - poradnik
 ---
 
 ## O czym ten tekst i dla kogo

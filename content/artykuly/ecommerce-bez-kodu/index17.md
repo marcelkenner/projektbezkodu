@@ -1,36 +1,37 @@
 ---
-title: "Zwroty i reklamacje: proces bez kodu, który nie zjada czasu"
+title: 'Zwroty i reklamacje: proces bez kodu, który nie zjada czasu'
 slug: ecommerce-bez-kodu-17
 path: /ecommerce-bez-kodu-17
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Zwroty i reklamacje: proces bez kodu, który nie zjada czasu"
+  heading: 'Zwroty i reklamacje: proces bez kodu, który nie zjada czasu'
   subheading: Formularze, etykiety, automatyczne statusy i komunikacja z klientem.
 seo:
-  title: "Zwroty i reklamacje: proces bez kodu, który nie zjada czasu"
-  description: Jak zorganizować zwroty i reklamacje bez programowania — szybki plan
+  title: 'Zwroty i reklamacje: proces bez kodu, który nie zjada czasu'
+  description: >-
+    Jak zorganizować zwroty i reklamacje bez programowania — szybki plan
     działania dla małego i średniego sklepu.
   keywords:
-  - zwroty
-  - reklamacje
-  - e-commerce
-  - no-code
-  - Shopify
+    - zwroty
+    - reklamacje
+    - e-commerce
+    - no-code
+    - Shopify
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj dokumentację Shopify
     href: https://help.shopify.com/en/manual/fulfillment/managing-orders/returns
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja E-commerce bez kodu
 taxonomy:
   categories:
-  - E-commerce bez kodu
+    - E-commerce bez kodu
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

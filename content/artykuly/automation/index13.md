@@ -1,46 +1,51 @@
 ---
-title: "Monitoring automatyzacji: jak wykryć, że coś przestało działać, zanim zauważy\
-  \ klient"
+title: >-
+  Monitoring automatyzacji: jak wykryć, że coś przestało działać, zanim zauważy
+  klient
 slug: automation-13
 path: /automation-13
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Monitoring automatyzacji: wykryj awarie zanim klient"
-  subheading: "Dla ownerów i ops: logi, powiadomienia, dzienny raport „co nie przeszło”"
+  heading: 'Monitoring automatyzacji: wykryj awarie zanim klient'
+  subheading: 'Dla ownerów i ops: logi, powiadomienia, dzienny raport „co nie przeszło”'
 seo:
-  title: "Monitoring automatyzacji: wykryj awarie zanim klient"
-  description: Praktyczny przewodnik dla właścicieli systemów i zespołów ops — heartbeat,
+  title: 'Monitoring automatyzacji: wykryj awarie zanim klient'
+  description: >-
+    Praktyczny przewodnik dla właścicieli systemów i zespołów ops — heartbeat,
     alerty, raporty dzienne i co zrobić najpierw.
   keywords:
-  - monitoring automatyzacji
-  - cron monitoring
-  - heartbeat
-  - alerting
-  - observability
+    - monitoring automatyzacji
+    - cron monitoring
+    - heartbeat
+    - alerting
+    - observability
 meta:
   summaryBullets:
-  - "Werdykt: zacznij od heartbeat + prostego alertu, potem dodaj logikę deduplikacji\
-    \ i eskalację."
-  - "Dla kogo: ma sens tam, gdzie zadania backendowe wpływają na UX, raporty finansowe\
-    \ lub backupy."
-  - "Start: 5 minut — podbij zadanie curlem/HTTP do serwisu heartbeat i ustaw powiadomienie\
-    \ e-mail."
+    - >-
+      Werdykt: zacznij od heartbeat + prostego alertu, potem dodaj logikę
+      deduplikacji i eskalację.
+    - >-
+      Dla kogo: ma sens tam, gdzie zadania backendowe wpływają na UX, raporty
+      finansowe lub backupy.
+    - >-
+      Start: 5 minut — podbij zadanie curlem/HTTP do serwisu heartbeat i ustaw
+      powiadomienie e-mail.
   primaryCta:
     label: Dokumentacja Dead Man's Snitch
     href: https://deadmanssnitch.com/docs/faq
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - DevOps
-  - Monitoring
+    - DevOps
+    - Monitoring
   tags:
-  - automation
-  - cron
-  - alerts
-  - heartbeat
+    - automation
+    - cron
+    - alerts
+    - heartbeat
 ---
 
 ## Obietnica decyzji

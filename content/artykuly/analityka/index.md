@@ -1,46 +1,53 @@
 ---
-title: "Analityka w no‑code: co naprawdę mierzyć (a nie tylko 'bo GA4')"
+title: 'Analityka w no‑code: co naprawdę mierzyć (a nie tylko ''bo GA4'')'
 slug: analityka
-path: /analityka
+path: /artykuly/analityka/
 template: default
+type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Analityka w no‑code: konkretne metryki, które dają decyzje"
-  subheading: "Krótko: co mierzyć na stronach i produktach zbudowanych no‑code, jak\
-    \ zacząć i czego unikać."
+  heading: 'Analityka w no‑code: konkretne metryki, które dają decyzje'
+  subheading: >-
+    Krótko: co mierzyć na stronach i produktach zbudowanych no‑code, jak zacząć
+    i czego unikać.
 meta:
   summaryBullets:
-  - "Werdykt: mierz konwersje i sygnały jakości, nie „wszystko co GA4 potrafi”."
-  - "Dla kogo: właściciele no‑code stron i PM‑y, którzy chcą szybkich decyzji bez\
-    \ dużego stacku."
-  - "Start: dodaj Measurement ID, włącz 3 kluczowe zdarzenia, sprawdź DebugView."
+    - 'Werdykt: mierz konwersje i sygnały jakości, nie „wszystko co GA4 potrafi”.'
+    - >-
+      Dla kogo: właściciele no‑code stron i PM‑y, którzy chcą szybkich decyzji
+      bez dużego stacku.
+    - >-
+      Start: dodaj Measurement ID, włącz 3 kluczowe zdarzenia, sprawdź
+      DebugView.
   primaryCta:
     label: Lista rekomendowanych zdarzeń GA4
-    href: https://developers.google.com/analytics/devguides/collection/ga4/reference/events
-  updatedAt: "2026-01-14"
+    href: >-
+      https://developers.google.com/analytics/devguides/collection/ga4/reference/events
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 seo:
   title: Analityka w no‑code — co mierzyć żeby to miało sens
-  description: "Praktyczny przewodnik dla twórców no‑code: jakie metryki priorytetyzować,\
-    \ jak zacząć i jak uniknąć pułapki 'mierzenia wszystkiego'."
+  description: >-
+    Praktyczny przewodnik dla twórców no‑code: jakie metryki priorytetyzować,
+    jak zacząć i jak uniknąć pułapki 'mierzenia wszystkiego'.
   keywords:
-  - analityka
-  - no-code
-  - GA4
-  - tracking
-  - metryki
+    - analityka
+    - no-code
+    - GA4
+    - tracking
+    - metryki
 taxonomy:
   categories:
-  - analityka
-  - no-code
+    - analityka
+    - no-code
   tags:
-  - GA4
-  - metryki
-  - webflow
-  - web analytics
+    - GA4
+    - metryki
+    - webflow
+    - web analytics
 ---
 
 ## Obietnica decyzji — dla kogo i jaki rezultat

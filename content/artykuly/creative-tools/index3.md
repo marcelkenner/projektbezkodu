@@ -1,53 +1,60 @@
 ---
-title: "Figma bez programowania: prototypy i design system dla no-code builderów"
+title: 'Figma bez programowania: prototypy i design system dla no-code builderów'
 slug: creative-tools-3
 path: /creative-tools-3
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 draft: false
 hero:
-  heading: "Figma bez kodu: jak robić prototypy i synchronizować design system z no-code\
-    \ builderami"
-  subheading: Krótkie, praktyczne wskazówki dla projektantów i osób budujących strony
-    w Webflow/innych narzędziach no-code
+  heading: >-
+    Figma bez kodu: jak robić prototypy i synchronizować design system z no-code
+    builderami
+  subheading: >-
+    Krótkie, praktyczne wskazówki dla projektantów i osób budujących strony w
+    Webflow/innych narzędziach no-code
 seo:
   title: Figma bez programowania — prototypy i design system dla no-code
-  description: Jak używać Figma do prototypowania i synchronizacji design systemu
-    z narzędziami no-code (np. Webflow). Praktyczny workflow, ograniczenia i szybki
-    start.
+  description: >-
+    Jak używać Figma do prototypowania i synchronizacji design systemu z
+    narzędziami no-code (np. Webflow). Praktyczny workflow, ograniczenia i
+    szybki start.
   keywords:
-  - Figma
-  - no-code
-  - Webflow
-  - design system
-  - prototypowanie
+    - Figma
+    - no-code
+    - Webflow
+    - design system
+    - prototypowanie
 meta:
   difficulty: średni
   duration: 5–60 min (zależnie od celu)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Figma + no-code to szybki sposób na działający prototyp i prostą stronę,\
-    \ ale ma ograniczenia przy złożonych stanach i logice."
-  - "Szybki start: 5–20 minut, jeśli pracujesz nad landingiem lub prototypem UI."
-  - "Najważniejsze: używaj Auto Layout, zmiennych (variables) i porządkuj komponenty\
-    \ — to ułatwia eksport do Webflow."
+    - >-
+      Werdykt: Figma + no-code to szybki sposób na działający prototyp i prostą
+      stronę, ale ma ograniczenia przy złożonych stanach i logice.
+    - >-
+      Szybki start: 5–20 minut, jeśli pracujesz nad landingiem lub prototypem
+      UI.
+    - >-
+      Najważniejsze: używaj Auto Layout, zmiennych (variables) i porządkuj
+      komponenty — to ułatwia eksport do Webflow.
   primaryCta:
-    label: "Figma → Webflow: szczegóły integracji"
+    label: 'Figma → Webflow: szczegóły integracji'
     href: https://webflow.com/feature/figma-to-webflow
   format: review
   topics:
-  - no-code
-  - design-systems
-  - prototypowanie
+    - no-code
+    - design-systems
+    - prototypowanie
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - figma
-  - webflow
+    - no-code
+    - figma
+    - webflow
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

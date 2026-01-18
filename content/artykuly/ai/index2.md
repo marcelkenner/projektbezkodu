@@ -1,41 +1,47 @@
 ---
-title: "Najlepsze zastosowania AI w małej firmie (no-code): 12 scenariuszy, które\
-  \ naprawdę oszczędzają czas"
+title: >-
+  Najlepsze zastosowania AI w małej firmie (no-code): 12 scenariuszy, które
+  naprawdę oszczędzają czas
 slug: ai-2
 path: /ai-2
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Najlepsze zastosowania AI w małej firmie (no-code)
   subheading: 12 praktycznych scenariuszy, które da się wdrożyć bez kodu
 meta:
   summaryBullets:
-  - "Werdykt: szybkie oszczędności czasu dla małych firm przy niskim progu wejścia"
-  - "Dla kogo: właściciele mikro- i małych firm, zespoły marketingu i obsługi klienta"
-  - "Start: wybierz 1 proces i zautomatyzuj go w 2–5 godzin"
+    - >-
+      Werdykt: szybkie oszczędności czasu dla małych firm przy niskim progu
+      wejścia
+    - >-
+      Dla kogo: właściciele mikro- i małych firm, zespoły marketingu i obsługi
+      klienta
+    - 'Start: wybierz 1 proces i zautomatyzuj go w 2–5 godzin'
   primaryCta:
     label: Czytaj o AI w Zapier
-    href: https://help.zapier.com/hc/en-us/articles/36180130221581-Big-changes-coming-to-AI-by-Zapier
-  updatedAt: "2026-01-14"
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/36180130221581-Big-changes-coming-to-AI-by-Zapier
+  updatedAt: '2026-01-14'
   difficulty: Łatwy — 1 osoba, kilkadziesiąt minut do kilku godzin
 seo:
   title: Zastosowania AI no-code w małej firmie — 12 scenariuszy, które działają
-  description: "Praktyczny przewodnik po 12 konkretach: od automatycznych maili i\
-    \ podsumowań spotkań po agentów sprzedaży — jak wdrożyć bez kodu i ile możesz\
-    \ zyskać."
+  description: >-
+    Praktyczny przewodnik po 12 konkretach: od automatycznych maili i podsumowań
+    spotkań po agentów sprzedaży — jak wdrożyć bez kodu i ile możesz zyskać.
   keywords:
-  - AI no-code
-  - automatyzacja małej firmy
-  - Airtable AI
-  - Zapier AI
-  - AI w biznesie
+    - AI no-code
+    - automatyzacja małej firmy
+    - Airtable AI
+    - Zapier AI
+    - AI w biznesie
 taxonomy:
   tags:
-  - AI
-  - no-code
-  - automatyzacja
-  - mała firma
+    - AI
+    - no-code
+    - automatyzacja
+    - mała firma
 ---
 
 ## Obietnica decyzji

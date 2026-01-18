@@ -1,45 +1,46 @@
 ---
-title: "Rive vs Lottie: co wybrać, jeśli chcesz animacje „jak w appce”"
+title: 'Rive vs Lottie: co wybrać, jeśli chcesz animacje „jak w appce”'
 slug: animacje-5
 path: /animacje-5
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Rive vs Lottie — szybki wybór dla zespołów produktowych
   subheading: Który format daje interaktywność, a który proste, lekkie ozdobniki
 seo:
   title: Rive czy Lottie — który wybrać dla interaktywnych animacji?
-  description: "Praktyczny przewodnik: kiedy użyć Rive, a kiedy Lottie. Krótkie kroki\
-    \ startowe i jasne werdykty dla zespołów produktowych."
+  description: >-
+    Praktyczny przewodnik: kiedy użyć Rive, a kiedy Lottie. Krótkie kroki
+    startowe i jasne werdykty dla zespołów produktowych.
   keywords:
-  - Rive
-  - Lottie
-  - animacje web
-  - interaktywne animacje
-  - dotLottie
+    - Rive
+    - Lottie
+    - animacje web
+    - interaktywne animacje
+    - dotLottie
 meta:
   summaryBullets:
-  - "Werdykt: Rive dla interakcji, Lottie dla prostych dekoracji."
-  - "Dla kogo: product/designer/dev — szybkie warunki wyboru."
-  - "Start: jak uruchomić test w 5 minut."
+    - 'Werdykt: Rive dla interakcji, Lottie dla prostych dekoracji.'
+    - 'Dla kogo: product/designer/dev — szybkie warunki wyboru.'
+    - 'Start: jak uruchomić test w 5 minut.'
   primaryCta:
     label: Rive — strona główna
     href: https://rive.app
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   format: recenzja
 taxonomy:
   categories:
-  - UX
-  - Frontend
-  - Animacje
+    - UX
+    - Frontend
+    - Animacje
   tags:
-  - Rive
-  - Lottie
-  - performance
-  - interactivity
+    - Rive
+    - Lottie
+    - performance
+    - interactivity
 ---
 
 ## Krótkie podsumowanie i obietnica decyzji

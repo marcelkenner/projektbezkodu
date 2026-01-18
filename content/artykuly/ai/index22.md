@@ -1,46 +1,53 @@
 ---
-title: "AI w arkuszach i bazach: szybkie czyszczenie, kategoryzacja i walidacje"
+title: 'AI w arkuszach i bazach: szybkie czyszczenie, kategoryzacja i walidacje'
 slug: ai-w-arkuszach-i-bazach
 path: /artykuly/ai/ai-w-arkuszach-i-bazach
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w arkuszach i bazach: szybkie czyszczenie, kategoryzacja i walidacje"
+  heading: 'AI w arkuszach i bazach: szybkie czyszczenie, kategoryzacja i walidacje'
   subheading: Jak szybko zacząć, kiedy ufać automatom i kiedy odpuścić
 meta:
   summaryBullets:
-  - "Werdykt: działa na szybkie, niskorisikowe porządki; nie zastąpi kontroli jakości."
-  - "Dla kogo: analitycy, PM-y i małe firmy — gdy priorytet to czas, nie absolutna\
-    \ precyzja."
-  - "Start: 5 minut — przygotuj próbkę, uruchom Copilot/Smart Fill lub skrypt pandas."
-  - "Uwaga: sprawdź dokładność na próbkach i politykę prywatności narzędzia."
+    - >-
+      Werdykt: działa na szybkie, niskorisikowe porządki; nie zastąpi kontroli
+      jakości.
+    - >-
+      Dla kogo: analitycy, PM-y i małe firmy — gdy priorytet to czas, nie
+      absolutna precyzja.
+    - >-
+      Start: 5 minut — przygotuj próbkę, uruchom Copilot/Smart Fill lub skrypt
+      pandas.
+    - 'Uwaga: sprawdź dokładność na próbkach i politykę prywatności narzędzia.'
   primaryCta:
-    label: "Instrukcja: czyszczenie w Excel"
-    href: https://support.microsoft.com/en-us/topic/clean-up-your-data-with-copilot-in-excel-b9d9b10d-5968-48a0-b43e-677c9f78119a
-  updatedAt: "2026-01-14"
+    label: 'Instrukcja: czyszczenie w Excel'
+    href: >-
+      https://support.microsoft.com/en-us/topic/clean-up-your-data-with-copilot-in-excel-b9d9b10d-5968-48a0-b43e-677c9f78119a
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 seo:
-  title: "AI w arkuszach: czyszczenie danych, kategoryzacja, walidacje"
-  description: "Praktyczny przewodnik: kiedy użyć AI do porządków w arkuszach i bazach,\
-    \ jak zacząć i które ograniczenia znać."
+  title: 'AI w arkuszach: czyszczenie danych, kategoryzacja, walidacje'
+  description: >-
+    Praktyczny przewodnik: kiedy użyć AI do porządków w arkuszach i bazach, jak
+    zacząć i które ograniczenia znać.
   keywords:
-  - AI arkusze
-  - czyszczenie danych
-  - Copilot Excel
-  - kategoryzacja danych
+    - AI arkusze
+    - czyszczenie danych
+    - Copilot Excel
+    - kategoryzacja danych
 taxonomy:
   categories:
-  - AI
-  - Produktywność
-  - Bazy danych
+    - AI
+    - Produktywność
+    - Bazy danych
   tags:
-  - Excel
-  - Google Sheets
-  - data-cleaning
-  - pandas
+    - Excel
+    - Google Sheets
+    - data-cleaning
+    - pandas
 ---
 
 ## Co obiecuję (krótko i praktycznie)

@@ -1,46 +1,49 @@
 ---
-title: "Obsługa błędów w automatyzacjach: retry, dead-letter, alerty i „plan B”"
+title: 'Obsługa błędów w automatyzacjach: retry, dead-letter, alerty i „plan B”'
 slug: automation-12
 path: /automation-12
 template: default
 draft: false
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Obsługa błędów w automatyzacjach: retry, dead-letter, alerty i „plan B”"
-  subheading: Praktyczne zasady, które pozwolą uniknąć awarii dotykających klientów
-    i pieniędzy
+  heading: 'Obsługa błędów w automatyzacjach: retry, dead-letter, alerty i „plan B”'
+  subheading: >-
+    Praktyczne zasady, które pozwolą uniknąć awarii dotykających klientów i
+    pieniędzy
 seo:
   title: Obsługa błędów w automatyzacjach — retry, DLQ, alerty
-  description: Jak zaprojektować retry, dead-letter queue i alerty, żeby automatyzacje
-    były niezawodne i łatwe w obsłudze
+  description: >-
+    Jak zaprojektować retry, dead-letter queue i alerty, żeby automatyzacje były
+    niezawodne i łatwe w obsłudze
   keywords:
-  - automatyzacje
-  - retry
-  - dead-letter
-  - DLQ
-  - monitoring
-  - alerty
+    - automatyzacje
+    - retry
+    - dead-letter
+    - DLQ
+    - monitoring
+    - alerty
 meta:
   summaryBullets:
-  - "Werdykt: konkretnie — retry plus DLQ plus alarmy."
-  - "Dla kogo: systemy z pieniędzmi/klientami lub długimi procesami."
-  - "Start: ustaw retry + DLQ + alarm na pierwszym tygodniu produkcji."
+    - 'Werdykt: konkretnie — retry plus DLQ plus alarmy.'
+    - 'Dla kogo: systemy z pieniędzmi/klientami lub długimi procesami.'
+    - 'Start: ustaw retry + DLQ + alarm na pierwszym tygodniu produkcji.'
   primaryCta:
     label: Dokumentacja AWS DLQ
-    href: https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html
-  updatedAt: "2026-01-14"
+    href: >-
+      https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - inżynieria
-  - automatyzacja
+    - inżynieria
+    - automatyzacja
   tags:
-  - retry
-  - dead-letter
-  - monitoring
-  - ops
+    - retry
+    - dead-letter
+    - monitoring
+    - ops
 ---
 
 ## Werdykt w skrócie — kto ma się tym przejmować

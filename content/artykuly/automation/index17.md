@@ -1,43 +1,48 @@
 ---
-title: "Automatyzacje rekrutacyjne: formularz → ATS/arkusz → mail → task dla hiring\
-  \ managera"
+title: >-
+  Automatyzacje rekrutacyjne: formularz → ATS/arkusz → mail → task dla hiring
+  managera
 slug: automation-17
 path: /automation-17
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automatyzacje rekrutacyjne: formularz → ATS/arkusz → mail → task dla hiring\
-    \ managera"
-  subheading: "Prosty przepływ dla firm rosnących: mniej ręcznej pracy, krótsze time-to-hire"
+  heading: >-
+    Automatyzacje rekrutacyjne: formularz → ATS/arkusz → mail → task dla hiring
+    managera
+  subheading: >-
+    Prosty przepływ dla firm rosnących: mniej ręcznej pracy, krótsze
+    time-to-hire
 seo:
   title: Automatyzacje rekrutacyjne — formularz do ATS i powiadomień
-  description: "Krok po kroku: jak podłączyć formularz do ATS/arkusza, wysłać e‑mail\
-    \ i utworzyć zadanie dla hiring managera. Kiedy to działa, a kiedy nie."
+  description: >-
+    Krok po kroku: jak podłączyć formularz do ATS/arkusza, wysłać e‑mail i
+    utworzyć zadanie dla hiring managera. Kiedy to działa, a kiedy nie.
   keywords:
-  - automatyzacje rekrutacyjne
-  - ATS
-  - formularz
-  - time-to-hire
-  - Zapier
+    - automatyzacje rekrutacyjne
+    - ATS
+    - formularz
+    - time-to-hire
+    - Zapier
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz przykłady automatyzacji
     href: https://zapier.com/automation/recruitment-automation
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - HR
-  - Automatyzacja
+    - HR
+    - Automatyzacja
   tags:
-  - ATS
-  - formularze
-  - Zapier
-  - rekrutacja
+    - ATS
+    - formularze
+    - Zapier
+    - rekrutacja
 ---
 
 ## Obietnica decyzji dla zespołów rekrutacyjnych

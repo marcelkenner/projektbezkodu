@@ -1,42 +1,42 @@
 ---
 slug: badania
-title: "Raport 2026: trendy na rynku narzędzi no-code"
-path: /badania
+title: 'Raport 2026: trendy na rynku narzędzi no-code'
+path: /artykuly/badania/
 template: default
+type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Raport 2026: trendy na rynku narzędzi no-code"
+  heading: 'Raport 2026: trendy na rynku narzędzi no-code'
   subheading: Szybkie decyzje dla menedżerów produktów i liderów IT
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do raportu Zapier
     href: https://zapier.com/blog/no-code-report
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 5–30 minut
   author: Redakcja
 seo:
-  title: "Raport 2026: trendy no-code — szybkie werdykty"
-  description: Krótka analiza trendów no-code w 2026 i rekomendacje dla PM-ów i liderów
-    IT.
+  title: 'Raport 2026: trendy no-code — szybkie werdykty'
+  description: Krótka analiza trendów no-code w 2026 i rekomendacje dla PM-ów i liderów IT.
   keywords:
-  - no-code
-  - automatyzacja
-  - AI
-  - citizen development
+    - no-code
+    - automatyzacja
+    - AI
+    - citizen development
 taxonomy:
   categories:
-  - badania
-  - no-code
+    - badania
+    - no-code
   tags:
-  - no-code
-  - AI
-  - governance
+    - no-code
+    - AI
+    - governance
 ---
 
 ## Obietnica decyzji i grupa docelowa

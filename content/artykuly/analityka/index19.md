@@ -1,48 +1,52 @@
 ---
-title: "QA analityki: jak sprawdzić, że eventy działają (debug, testy, checklisty)"
+title: 'QA analityki: jak sprawdzić, że eventy działają (debug, testy, checklisty)'
 slug: analityka-19
 path: /analityka-19
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "QA analityki: jak sprawdzić, że eventy działają (debug, testy, checklisty)"
-  subheading: Szybki przewodnik dla analityków i developerów — co sprawdzić najpierw,
-    jak debugować i czego unikać.
+  heading: 'QA analityki: jak sprawdzić, że eventy działają (debug, testy, checklisty)'
+  subheading: >-
+    Szybki przewodnik dla analityków i developerów — co sprawdzić najpierw, jak
+    debugować i czego unikać.
 seo:
-  title: "QA analityki: jak sprawdzić, że eventy działają"
-  description: Praktyczny przewodnik — od szybkiego testu w 5 minut po checklistę
-    dla wdrożenia eventów (GTM, GA4).
+  title: 'QA analityki: jak sprawdzić, że eventy działają'
+  description: >-
+    Praktyczny przewodnik — od szybkiego testu w 5 minut po checklistę dla
+    wdrożenia eventów (GTM, GA4).
   keywords:
-  - QA analityki
-  - GTM Debug
-  - GA4 DebugView
-  - testy eventów
-  - checklista analityka
+    - QA analityki
+    - GTM Debug
+    - GA4 DebugView
+    - testy eventów
+    - checklista analityka
   canonical: https://support.google.com/tagmanager/answer/6107056?hl=en-419
 meta:
   difficulty: średni
   duration: 10 min (szybki test) / 1–2 dni (pełne QA)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Preview i debug (GTM)
     href: https://support.google.com/tagmanager/answer/6107056?hl=en-419
   summaryBullets:
-  - "Werdykt: najpierw GTM Preview + GA4 DebugView; dopiero potem testy integracyjne."
-  - "Dla kogo: analitycy i developerzy wdrażający eventy przez GTM/gtag."
-  - "Start: włącz Preview GTM i potwierdź eventy w GA4 DebugView w 5 minut."
+    - >-
+      Werdykt: najpierw GTM Preview + GA4 DebugView; dopiero potem testy
+      integracyjne.
+    - 'Dla kogo: analitycy i developerzy wdrażający eventy przez GTM/gtag.'
+    - 'Start: włącz Preview GTM i potwierdź eventy w GA4 DebugView w 5 minut.'
 taxonomy:
   categories:
-  - analityka
-  - qa
-  - tracking
+    - analityka
+    - qa
+    - tracking
   tags:
-  - GTM
-  - GA4
-  - debug
-  - checklista
+    - GTM
+    - GA4
+    - debug
+    - checklista
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

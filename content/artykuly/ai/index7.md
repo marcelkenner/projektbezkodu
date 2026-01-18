@@ -1,47 +1,52 @@
 ---
-title: "RAG w no-code: jak zbudować asystenta na Twoich dokumentach bez zespołu ML"
+title: 'RAG w no-code: jak zbudować asystenta na Twoich dokumentach bez zespołu ML'
 slug: rag-no-code-asystent-na-dokumentach-bez-ml
 path: /rag-no-code-asystent-na-dokumentach
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Zbuduj asystenta na dokumentach bez zespołu ML
-  subheading: Praktyczny przepis na RAG w narzędziach no-code — szybki start, ograniczone
+  subheading: >-
+    Praktyczny przepis na RAG w narzędziach no-code — szybki start, ograniczone
     ryzyko.
   primaryCta:
     label: Co to jest RAG (wyjaśnienie)
     href: https://www.intel.com/content/www/us/en/learn/what-is-rag.html
 meta:
   summaryBullets:
-  - "Werdykt: RAG no-code działa świetnie do Q&A na dokumentach, jeśli masz czyste\
-    \ źródła i stosunkowo prosty zakres informacji."
-  - "Dla kogo: małe zespoły produktowe, helpdeski, firmy z dokumentacją wewnętrzną;\
-    \ nie dla superwrażliwych danych bez zabezpieczeń."
-  - "Start: 30–90 minut — przygotuj dokumenty, wrzuć do narzędzia no-code, włącz indeksowanie\
-    \ i testuj zapytania."
+    - >-
+      Werdykt: RAG no-code działa świetnie do Q&A na dokumentach, jeśli masz
+      czyste źródła i stosunkowo prosty zakres informacji.
+    - >-
+      Dla kogo: małe zespoły produktowe, helpdeski, firmy z dokumentacją
+      wewnętrzną; nie dla superwrażliwych danych bez zabezpieczeń.
+    - >-
+      Start: 30–90 minut — przygotuj dokumenty, wrzuć do narzędzia no-code,
+      włącz indeksowanie i testuj zapytania.
   primaryCta:
     label: Czytaj wyjaśnienie RAG
     href: https://www.intel.com/content/www/us/en/learn/what-is-rag.html
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   difficulty: Łatwy—średni
 seo:
-  title: "RAG no-code: przewodnik — asystent na dokumentach bez zespołu ML"
-  description: Jak w praktyce zbudować asystenta opierającego się na Retrieval‑Augmented
-    Generation przy użyciu narzędzi no-code. Krótki plan, ograniczenia, kiedy to ma
-    sens.
+  title: 'RAG no-code: przewodnik — asystent na dokumentach bez zespołu ML'
+  description: >-
+    Jak w praktyce zbudować asystenta opierającego się na Retrieval‑Augmented
+    Generation przy użyciu narzędzi no-code. Krótki plan, ograniczenia, kiedy to
+    ma sens.
   keywords:
-  - RAG
-  - no-code
-  - asystent dokumentów
-  - vector database
-  - retrieval-augmented generation
+    - RAG
+    - no-code
+    - asystent dokumentów
+    - vector database
+    - retrieval-augmented generation
 taxonomy:
   categories:
-  - AI
-  - No-code
-  - Produktywność
+    - AI
+    - No-code
+    - Produktywność
 ---
 
 ## Obietnica decyzji

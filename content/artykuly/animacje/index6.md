@@ -1,8 +1,10 @@
 ---
-title: "Mikrointerakcje, które robią robotę: hover, focus, loader, feedback po kliknięciu"
+title: >-
+  Mikrointerakcje, które robią robotę: hover, focus, loader, feedback po
+  kliknięciu
 slug: animacje-6
 path: /animacje-6
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 draft: false
 hero:
@@ -10,31 +12,37 @@ hero:
   subheading: Praktyczna lista must-have dla stron i web-appów no-code
 meta:
   summaryBullets:
-  - "Werdykt: krótkie, dostępne i mierzalne mikrointerakcje poprawiają użyteczność."
-  - "Dla kogo: projektanci UI, twórcy no-code i product ownerzy decydujący o priorytetach."
-  - "Start: wdrożysz 3 rzeczy w 5–15 minut bez dodatkowych narzędzi."
+    - >-
+      Werdykt: krótkie, dostępne i mierzalne mikrointerakcje poprawiają
+      użyteczność.
+    - >-
+      Dla kogo: projektanci UI, twórcy no-code i product ownerzy decydujący o
+      priorytetach.
+    - 'Start: wdrożysz 3 rzeczy w 5–15 minut bez dodatkowych narzędzi.'
   primaryCta:
-    label: "MDN: ARIA button role"
-    href: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
-  updatedAt: "2026-01-14"
+    label: 'MDN: ARIA button role'
+    href: >-
+      https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 seo:
-  title: "Mikrointerakcje: hover, focus, loader, feedback — co wdrożyć od razu"
-  description: Praktyczny przewodnik po mikrointerakcjach do wdrożenia w stronach
-    i web-appkach no-code. Co działa, co unikać, jak zachować dostępność.
+  title: 'Mikrointerakcje: hover, focus, loader, feedback — co wdrożyć od razu'
+  description: >-
+    Praktyczny przewodnik po mikrointerakcjach do wdrożenia w stronach i
+    web-appkach no-code. Co działa, co unikać, jak zachować dostępność.
   keywords:
-  - mikrointerakcje
-  - hover
-  - focus
-  - loader
-  - feedback
-  - accessibility
-  - no-code
+    - mikrointerakcje
+    - hover
+    - focus
+    - loader
+    - feedback
+    - accessibility
+    - no-code
 taxonomy:
   categories:
-  - UX
-  - Front-end
-  - No-code
+    - UX
+    - Front-end
+    - No-code
 ---
 
 ## Obietnica i grupa docelowa

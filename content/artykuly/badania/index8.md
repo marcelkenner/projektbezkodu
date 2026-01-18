@@ -1,33 +1,37 @@
 ---
-title: "Raport: bezpieczeństwo w narzędziach no-code — checklista i wnioski"
+title: 'Raport: bezpieczeństwo w narzędziach no-code — checklista i wnioski'
 slug: badania-8
 path: /badania-8
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Raport: bezpieczeństwo w narzędziach no-code — checklista i wnioski"
-  subheading: Szybka ocena dostawcy, uprawnień, SSO, audytów, logów i ryzyk danych
-    — co zrobić najpierw
+  heading: 'Raport: bezpieczeństwo w narzędziach no-code — checklista i wnioski'
+  subheading: >-
+    Szybka ocena dostawcy, uprawnień, SSO, audytów, logów i ryzyk danych — co
+    zrobić najpierw
 seo:
-  title: "Bezpieczeństwo w no‑code: checklista i wnioski"
-  description: Jak ocenić dostawcę no‑code, zabezpieczyć integracje, ustawić SSO/MFA,
+  title: 'Bezpieczeństwo w no‑code: checklista i wnioski'
+  description: >-
+    Jak ocenić dostawcę no‑code, zabezpieczyć integracje, ustawić SSO/MFA,
     zabezpieczyć logi i audyt oraz zminimalizować ryzyka danych.
   keywords:
-  - no-code bezpieczeństwo
-  - checklista bezpieczeństwa
-  - SSO no-code
-  - audyt logów
+    - no-code bezpieczeństwo
+    - checklista bezpieczeństwa
+    - SSO no-code
+    - audyt logów
 meta:
   summaryBullets:
-  - "Werdykt: konkretne kontrole, które szybko ujawnią największe ryzyka."
-  - "Dla kogo: zespoły produktowe i security, które dopuszczają citizen developers."
-  - "Start: co zrobić w pierwszych 30 minutach po wykryciu aplikacji no‑code."
+    - 'Werdykt: konkretne kontrole, które szybko ujawnią największe ryzyka.'
+    - >-
+      Dla kogo: zespoły produktowe i security, które dopuszczają citizen
+      developers.
+    - 'Start: co zrobić w pierwszych 30 minutach po wykryciu aplikacji no‑code.'
   primaryCta:
     label: Pełny przewodnik Kaspersky
     href: https://usa.kaspersky.com/blog/low-code-apps-security/28559/
   author: Zespół badań
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 ---
 
 ## Obietnica decyzji — co dowiesz się w 2 minuty

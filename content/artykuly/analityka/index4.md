@@ -1,51 +1,60 @@
 ---
-title: "Google Tag Manager bez paniki: minimalny setup dla no-code (Webflow / Framer\
-  \ / WordPress)"
+title: >-
+  Google Tag Manager bez paniki: minimalny setup dla no-code (Webflow / Framer /
+  WordPress)
 slug: analityka-4
 path: /analityka-4
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Google Tag Manager bez paniki: minimalny setup dla no-code"
-  subheading: Szybka instalacja GTM na Webflow, Framer i WordPress — 10–20 minut,
-    bez pisania kodu
+  heading: 'Google Tag Manager bez paniki: minimalny setup dla no-code'
+  subheading: >-
+    Szybka instalacja GTM na Webflow, Framer i WordPress — 10–20 minut, bez
+    pisania kodu
   primaryCta:
     label: Instrukcja integracji Webflow
     href: https://webflow.com/integrations/google-tag-manager
 seo:
   title: Minimalny setup Google Tag Manager dla Webflow, Framer i WordPress
-  description: "Praktyczny przewodnik: jak szybko zainstalować GTM na narzędziach\
-    \ no-code, co sprawdzić i kiedy to nie wystarczy."
+  description: >-
+    Praktyczny przewodnik: jak szybko zainstalować GTM na narzędziach no-code,
+    co sprawdzić i kiedy to nie wystarczy.
   keywords:
-  - Google Tag Manager
-  - GTM Webflow
-  - GTM WordPress
-  - instalacja GTM
-  - no-code analytics
+    - Google Tag Manager
+    - GTM Webflow
+    - GTM WordPress
+    - instalacja GTM
+    - no-code analytics
 meta:
   difficulty: Łatwy
   duration: 10-20 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: minimalny GTM wystarczy dla podstawowej analityki i tagów marketingowych."
-  - "Dla kogo: właściciele stron no-code, którzy potrzebują szybkiego pomiaru i retargetingu."
-  - "Start: załóż konto GTM, wklej ID w integracji/plug-inie, włącz tryb podglądu."
+    - >-
+      Werdykt: minimalny GTM wystarczy dla podstawowej analityki i tagów
+      marketingowych.
+    - >-
+      Dla kogo: właściciele stron no-code, którzy potrzebują szybkiego pomiaru i
+      retargetingu.
+    - >-
+      Start: załóż konto GTM, wklej ID w integracji/plug-inie, włącz tryb
+      podglądu.
   primaryCta:
     label: Przewodnik instalacji Webflow
     href: https://webflow.com/integrations/google-tag-manager
 taxonomy:
   categories:
-  - analityka
-  - no-code
+    - analityka
+    - no-code
   tags:
-  - GTM
-  - Webflow
-  - WordPress
-  - Framer
+    - GTM
+    - Webflow
+    - WordPress
+    - Framer
 ---
 
 ## Obietnica decyzji dla czytelnika

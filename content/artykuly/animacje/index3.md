@@ -1,46 +1,49 @@
 ---
-title: "Framer: animacje na landing page’u bez cierpienia"
+title: 'Framer: animacje na landing page’u bez cierpienia'
 slug: animacje-3
 path: /animacje-3
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Framer: animacje na landing page’u bez cierpienia"
-  subheading: Szybkie, no-code animacje dla design-led landingów — co działa, a co
-    może zawieść
+  heading: 'Framer: animacje na landing page’u bez cierpienia'
+  subheading: >-
+    Szybkie, no-code animacje dla design-led landingów — co działa, a co może
+    zawieść
 seo:
   title: Framer animacje — czy to dobre rozwiązanie dla landing page’a?
-  description: "Praktyczny przegląd: kiedy używać animacji Framer na stronie typu\
-    \ landing, jak zacząć i jakie ograniczenia CMS warto znać."
+  description: >-
+    Praktyczny przegląd: kiedy używać animacji Framer na stronie typu landing,
+    jak zacząć i jakie ograniczenia CMS warto znać.
   keywords:
-  - Framer
-  - animacje landing page
-  - Framer CMS
-  - no-code animations
+    - Framer
+    - animacje landing page
+    - Framer CMS
+    - no-code animations
   canonical: https://www.framerapp.com/features/animations/
 meta:
   difficulty: Średni
   duration: 5–30 min (pierwsze animacje)
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz animacje na Framer
     href: https://www.framerapp.com/features/animations/
   summaryBullets:
-  - "Werdykt: świetne dla design-led landingów; mniej dla rozbudowanych CMS-owych\
-    \ stron."
-  - "Dla kogo: marketing, micro-site, produkt w early-stage."
-  - "Start: 5 minut, no-code, spróbuj 'Appear' i 'Scroll' na jednym bloku."
+    - >-
+      Werdykt: świetne dla design-led landingów; mniej dla rozbudowanych
+      CMS-owych stron.
+    - 'Dla kogo: marketing, micro-site, produkt w early-stage.'
+    - 'Start: 5 minut, no-code, spróbuj ''Appear'' i ''Scroll'' na jednym bloku.'
 taxonomy:
   categories:
-  - design
-  - webdev
+    - design
+    - webdev
   tags:
-  - framer
-  - animacje
-  - landing-page
+    - framer
+    - animacje
+    - landing-page
 ---
 
 ## Obietnica decyzji — dla kogo to ma sens

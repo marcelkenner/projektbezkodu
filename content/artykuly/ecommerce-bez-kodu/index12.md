@@ -1,35 +1,37 @@
 ---
-title: "SEO dla sklepu bez kodu: technikalia i content, który działa"
+title: 'SEO dla sklepu bez kodu: technikalia i content, który działa'
 slug: ecommerce-bez-kodu-12
 path: /ecommerce-bez-kodu-12
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "SEO dla sklepu bez kodu: technikalia i content, który działa"
-  subheading: "Szybki plan: struktura, opisy, schema, szybkość i linkowanie"
+  heading: 'SEO dla sklepu bez kodu: technikalia i content, który działa'
+  subheading: 'Szybki plan: struktura, opisy, schema, szybkość i linkowanie'
 seo:
   title: SEO dla sklepu bez kodu — technikalia i content
-  description: "Jak zoptymalizować sklep zbudowany bez kodu: struktura kategorii,\
-    \ opisy produktów, schema, Core Web Vitals i linkowanie."
+  description: >-
+    Jak zoptymalizować sklep zbudowany bez kodu: struktura kategorii, opisy
+    produktów, schema, Core Web Vitals i linkowanie.
   keywords:
-  - seo sklepu
-  - no-code ecommerce
-  - schema product
-  - core web vitals
+    - seo sklepu
+    - no-code ecommerce
+    - schema product
+    - core web vitals
 meta:
   summaryBullets:
-  - "Werdykt: szybkie priorytety techniczne i contentowe"
-  - "Dla kogo: właściciele sklepów no-code i agencje"
-  - "Start: audyt 5-min i lista poprawek"
+    - 'Werdykt: szybkie priorytety techniczne i contentowe'
+    - 'Dla kogo: właściciele sklepów no-code i agencje'
+    - 'Start: audyt 5-min i lista poprawek'
   primaryCta:
     label: Dokumentacja Google o schema
-    href: https://developers.google.com/search/docs/appearance/structured-data/product-snippet
-  updatedAt: "2026-01-14"
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/product-snippet
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - E-commerce bez kodu
-  - SEO
+    - E-commerce bez kodu
+    - SEO
 ---
 
 ## Obietnica decyzji i dla kogo

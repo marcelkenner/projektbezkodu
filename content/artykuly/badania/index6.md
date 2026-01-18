@@ -1,42 +1,48 @@
 ---
-title: "Raport: koszty utrzymania projektów no-code po 12 miesiącach"
+title: 'Raport: koszty utrzymania projektów no-code po 12 miesiącach'
 slug: badania-6
 path: /badania-6
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Koszty utrzymania no‑code po roku — krótko i praktycznie
   subheading: Co realnie ciągnie rachunki w 12 miesiącu i jak temu zapobiegać
 seo:
   title: Koszty utrzymania projektów no-code po 12 miesiącach
-  description: "Analiza najczęstszych wydatków po starcie projektu no-code: subskrypcje,\
-    \ automatyzacje, dane, overage i wsparcie."
+  description: >-
+    Analiza najczęstszych wydatków po starcie projektu no-code: subskrypcje,
+    automatyzacje, dane, overage i wsparcie.
   keywords:
-  - no-code
-  - koszty utrzymania
-  - Bubble
-  - Airtable
-  - Zapier
+    - no-code
+    - koszty utrzymania
+    - Bubble
+    - Airtable
+    - Zapier
 meta:
   summaryBullets:
-  - "Werdykt: największe ryzyko to automatyzacje i modele rozliczeń (zadania/operacje)."
-  - "Dla kogo: startupy MVP→ok; produkcja przy rosnącym ruchu→trzeba planować budżet."
-  - "Start: 5‑minutowy audit billingowy i limity serwisów — najpierw policz taski\
-    \ i WU."
+    - >-
+      Werdykt: największe ryzyko to automatyzacje i modele rozliczeń
+      (zadania/operacje).
+    - >-
+      Dla kogo: startupy MVP→ok; produkcja przy rosnącym ruchu→trzeba planować
+      budżet.
+    - >-
+      Start: 5‑minutowy audit billingowy i limity serwisów — najpierw policz
+      taski i WU.
   primaryCta:
     label: Zobacz ceny Bubble
     href: https://bubble.io/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja badań
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - koszty
-  - raport
+    - no-code
+    - koszty
+    - raport
 ---
 
 ## Obietnica decyzji dla kogo i czego dotyczy ten raport

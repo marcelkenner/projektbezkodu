@@ -30,7 +30,9 @@ Last updated: 2025-12-15 by Codex. Keep this guide in sync with feature changes 
 
 ## 4. Articles (`content/artykuly/**`)
 
-- Lokalizacja fizyczna nie ma znaczenia — artykuł może żyć w dowolnym folderze `content/**`. Zadbaj tylko o `template: "article"` i poprawny `path`, bo `/artykuly` i sitemap bazują na tych polach.
+- Leaf articles can live anywhere under `content/**`, but `/artykuly` listings + sitemap rely on the canonical `path` being under `/artykuly/.../`.
+- Hub pages **must** live under `content/artykuly/**` as `index.md` with `type: hub` and `draft: false` (e.g. `content/artykuly/analityka/index.md` → `/artykuly/analityka/`). If a published leaf exists under a hub path, `npm run content:lint` enforces that the hub exists and is not draft.
+- Routing details (canonical URLs, aliases/redirects, hub vs leaf) live in `docs/frontmatter_and_routing.md`.
 - Use `taxonomy.categories` and `taxonomy.tags` slugs from `data/copy/articles.json`.
 - To introduce a new category/tag:
   1. Add it to the JSON with `slug`, `label`, optional `description`.

@@ -1,44 +1,46 @@
 ---
-title: "CMS bez kodu: co to jest i kiedy ma sens?"
+title: 'CMS bez kodu: co to jest i kiedy ma sens?'
 slug: cms-bez-kodu
-path: /cms-bez-kodu
-date: "2026-01-15"
+path: /artykuly/cms-bez-kodu/
+date: '2026-01-15'
 template: default
+type: hub
 draft: false
 hero:
-  heading: "CMS bez kodu: co to jest i kiedy ma sens?"
+  heading: 'CMS bez kodu: co to jest i kiedy ma sens?'
   subheading: Szybkie decyzje dla właścicieli, marketingu i małych zespołów
   primaryCta:
     label: Czytaj definicję no-code
     href: https://www.techtarget.com/searchsoftwarequality/definition/no-code
 seo:
   title: CMS bez kodu — co to jest i kiedy warto go wybrać?
-  description: "Prosty przewodnik: czym są no-code CMSy, kiedy działają, a kiedy będą\
-    \ utrapieniem. Konkretne wskazówki startowe."
+  description: >-
+    Prosty przewodnik: czym są no-code CMSy, kiedy działają, a kiedy będą
+    utrapieniem. Konkretne wskazówki startowe.
   keywords:
-  - CMS bez kodu
-  - no-code CMS
-  - headless CMS
-  - kiedy wybrać
+    - CMS bez kodu
+    - no-code CMS
+    - headless CMS
+    - kiedy wybrać
 meta:
   summaryBullets:
-  - "Werdykt: dobrze dla prostych stron i szybkich MVP."
-  - "Dla kogo: marketing, małe firmy, landing page'e."
-  - "Start: wybierz narzędzie, przetestuj szablon, sprawdź integracje."
+    - 'Werdykt: dobrze dla prostych stron i szybkich MVP.'
+    - 'Dla kogo: marketing, małe firmy, landing page''e.'
+    - 'Start: wybierz narzędzie, przetestuj szablon, sprawdź integracje.'
   primaryCta:
     label: Definicja no-code (TechTarget)
     href: https://www.techtarget.com/searchsoftwarequality/definition/no-code
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - web
+    - narzędzia
+    - web
   tags:
-  - no-code
-  - cms
-  - headless
-  - marketing
+    - no-code
+    - cms
+    - headless
+    - marketing
 ---
 
 ## Obietnica decyzji: krótko i praktycznie

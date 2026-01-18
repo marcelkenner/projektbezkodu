@@ -1,19 +1,20 @@
 ---
-title: "Figma bez frustracji: system plików, style i komponenty dla początkujących"
+title: 'Figma bez frustracji: system plików, style i komponenty dla początkujących'
 slug: design-bez-kodu-2
 path: /design-bez-kodu-2
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
-    label: "Figma: components i style"
-    href: https://www.figma.com/best-practices/components-styles-and-shared-libraries/
-  updatedAt: "2026-01-14"
+    label: 'Figma: components i style'
+    href: >-
+      https://www.figma.com/best-practices/components-styles-and-shared-libraries/
+  updatedAt: '2026-01-14'
 ---
 
 ## Obietnica decyzji i do kogo to kieruję

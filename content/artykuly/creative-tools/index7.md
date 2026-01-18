@@ -1,42 +1,45 @@
 ---
-title: "Brand kit bez kodu: jak spiąć kolory, fonty i komponenty w jednym miejscu"
+title: 'Brand kit bez kodu: jak spiąć kolory, fonty i komponenty w jednym miejscu'
 slug: creative-tools-7
 path: /creative-tools-7
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Brand kit bez kodu: kolory, fonty, komponenty w jednym miejscu"
+  heading: 'Brand kit bez kodu: kolory, fonty, komponenty w jednym miejscu'
   subheading: Praktyczny plan dla małych zespołów i product ownerów — bez programowania
 seo:
   title: Brand kit bez kodu — jak zbudować i utrzymać spójność
-  description: "Prosty przewodnik: co to jest brand kit, jak zacząć w 5 minut i które\
-    \ narzędzia no‑code warto rozważyć."
+  description: >-
+    Prosty przewodnik: co to jest brand kit, jak zacząć w 5 minut i które
+    narzędzia no‑code warto rozważyć.
   keywords:
-  - brand kit
-  - design tokens
-  - no-code
-  - Frontify
-  - zeroheight
+    - brand kit
+    - design tokens
+    - no-code
+    - Frontify
+    - zeroheight
 meta:
   summaryBullets:
-  - "Werdykt: Dla większości małych i średnich zespołów najlepszy start to Figma +\
-    \ zeroheight/Frontify."
-  - "Szybki start: 5–20 minut, bez karty kredytowej, jeśli masz konto Figma."
-  - "Największe ryzyko: brak automatycznego eksportu do kodu — sprawdź integracje\
-    \ przed wdrożeniem."
-  updatedAt: "2026-01-15"
+    - >-
+      Werdykt: Dla większości małych i średnich zespołów najlepszy start to
+      Figma + zeroheight/Frontify.
+    - 'Szybki start: 5–20 minut, bez karty kredytowej, jeśli masz konto Figma.'
+    - >-
+      Największe ryzyko: brak automatycznego eksportu do kodu — sprawdź
+      integracje przed wdrożeniem.
+  updatedAt: '2026-01-15'
   primaryCta:
     label: Przeczytaj poradnik Frontify o brand kitach
     href: https://www.frontify.com/en/guide/brand-kits
   author: Redakcja
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - brand-kit
-  - design-tokens
+    - no-code
+    - brand-kit
+    - design-tokens
 ---
 
 ## Werdykt na start (dla kogo i dlaczego)

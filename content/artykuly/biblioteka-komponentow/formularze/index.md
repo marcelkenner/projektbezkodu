@@ -1,40 +1,43 @@
 ---
-title: "Sekcje: Formularze"
+title: 'Sekcje: Formularze'
 slug: formularze
 path: /artykuly/biblioteka-komponentow/formularze/
 draft: true
 template: default
 type: template
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Sekcje: Formularze"
+  heading: 'Sekcje: Formularze'
   subheading: Jak grupować pola, żeby formularze były czytelne i dostępne
 seo:
   title: Sekcje w formularzach — jak i kiedy używać
-  description: "Praktyczny przewodnik po sekcjach formularzy: fieldset, legend, role\
-    \ ARIA i wzorce projektowe."
+  description: >-
+    Praktyczny przewodnik po sekcjach formularzy: fieldset, legend, role ARIA i
+    wzorce projektowe.
   keywords:
-  - formularze
-  - fieldset
-  - legend
-  - accessibility
-  - formularz sekcje
+    - formularze
+    - fieldset
+    - legend
+    - accessibility
+    - formularz sekcje
 meta:
   summaryBullets:
-  - "Werdykt: prosty wzorzec: fieldset + legend, gdy grupujesz powiązane kontrolki."
-  - "Dla kogo: zespoły UI/UX, frontend‑y, twórcy design systemów."
-  - "Start: sprawdź element <fieldset> na MDN i popraw brak legendy."
+    - >-
+      Werdykt: prosty wzorzec: fieldset + legend, gdy grupujesz powiązane
+      kontrolki.
+    - 'Dla kogo: zespoły UI/UX, frontend‑y, twórcy design systemów.'
+    - 'Start: sprawdź element <fieldset> na MDN i popraw brak legendy.'
   primaryCta:
-    label: "Dokumentacja MDN: fieldset"
+    label: 'Dokumentacja MDN: fieldset'
     href: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - biblioteka komponentów
-  - formularze
+    - biblioteka komponentów
+    - formularze
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Obietnica decyzji i grupa docelowa

@@ -1,45 +1,50 @@
 ---
-title: "No-code wideo: montaż, napisy i formaty pod TikTok/Shorts/Reels"
+title: 'No-code wideo: montaż, napisy i formaty pod TikTok/Shorts/Reels'
 slug: creative-tools-5
 path: /creative-tools-5
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybki przewodnik: jak w 10–30 minut przygotować pionowe wideo i napisy\
-    \ pod TikTok / Shorts / Reels"
-  subheading: "Praktyczny workflow no-code: formaty, eksport, auto-napisy i gotowe\
-    \ ustawienia"
+  heading: >-
+    Szybki przewodnik: jak w 10–30 minut przygotować pionowe wideo i napisy pod
+    TikTok / Shorts / Reels
+  subheading: >-
+    Praktyczny workflow no-code: formaty, eksport, auto-napisy i gotowe
+    ustawienia
 seo:
-  title: "No-code wideo: montaż, napisy i formaty pod TikTok/Shorts/Reels"
-  description: "Praktyczny przewodnik krok po kroku: ustawienia eksportu, rekomendowane\
-    \ narzędzia no-code i szablon workflow dla shortów pionowych."
+  title: 'No-code wideo: montaż, napisy i formaty pod TikTok/Shorts/Reels'
+  description: >-
+    Praktyczny przewodnik krok po kroku: ustawienia eksportu, rekomendowane
+    narzędzia no-code i szablon workflow dla shortów pionowych.
   keywords:
-  - no-code wideo
-  - TikTok specs
-  - YouTube Shorts
-  - Instagram Reels
-  - auto napisy
+    - no-code wideo
+    - TikTok specs
+    - YouTube Shorts
+    - Instagram Reels
+    - auto napisy
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dla szybkich shortów najlepsze są narzędzia z auto-subtitle i resize\
-    \ (CapCut, VEED, Descript)."
-  - "Szybki start: ustaw 1080×1920, H.264, AAC, 30fps — eksport w 5–10 min."
-  - "Uwaga: funkcje pro/limity mogą się zmieniać — sprawdź specyfikacje platformy\
-    \ przed kampanią."
+    - >-
+      Werdykt: dla szybkich shortów najlepsze są narzędzia z auto-subtitle i
+      resize (CapCut, VEED, Descript).
+    - 'Szybki start: ustaw 1080×1920, H.264, AAC, 30fps — eksport w 5–10 min.'
+    - >-
+      Uwaga: funkcje pro/limity mogą się zmieniać — sprawdź specyfikacje
+      platformy przed kampanią.
   primaryCta:
     label: Specyfikacje TikTok (szczegóły techniczne)
     href: https://riverside.com/blog/tiktok-video-size
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - video
-  - shorts
+    - no-code
+    - video
+    - shorts
 ---
 
 ## Obietnica decyzji

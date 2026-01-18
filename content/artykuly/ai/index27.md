@@ -1,37 +1,42 @@
 ---
-title: "Polityka użycia AI w firmie: prosty dokument zasad, który zapobiega chaosowi"
+title: 'Polityka użycia AI w firmie: prosty dokument zasad, który zapobiega chaosowi'
 slug: polityka-uzycia-ai-firmie
 path: /polityka-uzycia-ai-firmie
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Prosta polityka użycia AI dla zespołu
-  subheading: "Szablon działa: ogranicza ryzyko, pozostawia pole do innowacji"
+  subheading: 'Szablon działa: ogranicza ryzyko, pozostawia pole do innowacji'
 seo:
   title: Polityka użycia AI w firmie — prosty szablon i kroki wdrożenia
-  description: Jak napisać krótką, praktyczną politykę użycia AI w firmie — co zawrzeć,
+  description: >-
+    Jak napisać krótką, praktyczną politykę użycia AI w firmie — co zawrzeć,
     kogo objąć i jak zacząć w 5 minut.
   keywords:
-  - polityka AI
-  - AI w firmie
-  - szablon polityki AI
+    - polityka AI
+    - AI w firmie
+    - szablon polityki AI
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie — polityka minimalizuje ryzyko i zostawia autonomię."
-  - "Dla kogo: startups, PM-y, dział prawny; kiedy to ma sens i kiedy nie."
-  - "Start: 5 minut — zidentyfikuj narzędzia, opisz zakazy i zatwierdź."
-  - "Aktualizacja: przegląd co 12 miesięcy lub przy wdrożeniu nowego systemu AI."
+    - >-
+      Werdykt: krótko i konkretnie — polityka minimalizuje ryzyko i zostawia
+      autonomię.
+    - 'Dla kogo: startups, PM-y, dział prawny; kiedy to ma sens i kiedy nie.'
+    - 'Start: 5 minut — zidentyfikuj narzędzia, opisz zakazy i zatwierdź.'
+    - >-
+      Aktualizacja: przegląd co 12 miesięcy lub przy wdrożeniu nowego systemu
+      AI.
   primaryCta:
     label: Pobierz szablon AI Usage Policy (HubSpot)
     href: https://www.hubspot.com/startups/ai/ai-policy-template
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - AI
-  - Zarządzanie
-  - HR
+    - AI
+    - Zarządzanie
+    - HR
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

@@ -1,49 +1,58 @@
 ---
-title: "Porównanie modeli LLM do no-code: kiedy wystarczy tańszy model, a kiedy potrzebujesz\
-  \ jakości premium"
+title: >-
+  Porównanie modeli LLM do no-code: kiedy wystarczy tańszy model, a kiedy
+  potrzebujesz jakości premium
 slug: porownanie-llm-do-no-code-kiedy-tanszy-a-kiedy-premium
 path: /porownanie-llm-do-no-code-kiedy-tanszy-a-kiedy-potrzebujesz-jakosci-premium
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Krótkie i praktyczne porównanie: tani LLM vs jakość premium w narzędziach\
-    \ no-code"
-  subheading: Dla zespołów produktowych i osób budujących automatyzacje — jak podjąć
+  heading: >-
+    Krótkie i praktyczne porównanie: tani LLM vs jakość premium w narzędziach
+    no-code
+  subheading: >-
+    Dla zespołów produktowych i osób budujących automatyzacje — jak podjąć
     decyzję szybko
 meta:
   summaryBullets:
-  - "Werdykt: wybierz tani model, gdy zadania są przewidywalne i można zaakceptować\
-    \ drobne błędy."
-  - "Dla kogo: tani model dla prototypu i masowych, prostych zadań; premium dla krytycznych\
-    \ funkcji i jakości."
-  - "Start: uruchom test kosztów i jakości na 1–2 typowych zapytaniach w Twoim workflow."
+    - >-
+      Werdykt: wybierz tani model, gdy zadania są przewidywalne i można
+      zaakceptować drobne błędy.
+    - >-
+      Dla kogo: tani model dla prototypu i masowych, prostych zadań; premium dla
+      krytycznych funkcji i jakości.
+    - >-
+      Start: uruchom test kosztów i jakości na 1–2 typowych zapytaniach w Twoim
+      workflow.
   primaryCta:
     label: Zobacz przykładowe ceny modeli
     href: https://openai.com/api/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5–15 min
   author: Redakcja
 seo:
   title: Tani LLM czy jakość premium — jak wybrać dla no-code
-  description: Szybki przewodnik, kiedy w no-code wystarczy tańszy model LLM, a kiedy
-    warto zapłacić za wersję premium. Konkretne kryteria, kroki testowe i jasny werdykt.
+  description: >-
+    Szybki przewodnik, kiedy w no-code wystarczy tańszy model LLM, a kiedy warto
+    zapłacić za wersję premium. Konkretne kryteria, kroki testowe i jasny
+    werdykt.
   keywords:
-  - LLM
-  - no-code
-  - koszty AI
-  - OpenAI
-  - Zapier
-  - Make.com
+    - LLM
+    - no-code
+    - koszty AI
+    - OpenAI
+    - Zapier
+    - Make.com
 taxonomy:
   categories:
-  - AI
-  - No-code
-  - Poradniki
+    - AI
+    - No-code
+    - Poradniki
   tags:
-  - LLM
-  - koszty
-  - integracje
+    - LLM
+    - koszty
+    - integracje
 ---
 
 ## Obietnica i decyzja

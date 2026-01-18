@@ -1,36 +1,46 @@
 ---
-title: "AI do raportowania: streszczenia tygodniowe, insighty i alerty — jak zrobić\
-  \ to w Make/Zapier bez spamu"
+title: >-
+  AI do raportowania: streszczenia tygodniowe, insighty i alerty — jak zrobić to
+  w Make/Zapier bez spamu
 slug: ai-23
 path: /ai-23
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI do raportowania: streszczenia tygodniowe, insighty i alerty — jak zrobić\
-    \ to w Make/Zapier bez spamu"
-  subheading: "Praktyczny przewodnik: zrób pierwszy prototyp w 30–60 minut i unikaj\
-    \ niepotrzebnych powiadomień"
+  heading: >-
+    AI do raportowania: streszczenia tygodniowe, insighty i alerty — jak zrobić
+    to w Make/Zapier bez spamu
+  subheading: >-
+    Praktyczny przewodnik: zrób pierwszy prototyp w 30–60 minut i unikaj
+    niepotrzebnych powiadomień
 seo:
-  title: "AI do raportowania: streszczenia tygodniowe, insighty i alerty"
-  description: Jak zbudować automatyczne, przydatne tygodniowe raporty i alerty w
-    Make lub Zapier bez zalewu spamu — krótko, krok po kroku, z praktycznymi werdyktami.
+  title: 'AI do raportowania: streszczenia tygodniowe, insighty i alerty'
+  description: >-
+    Jak zbudować automatyczne, przydatne tygodniowe raporty i alerty w Make lub
+    Zapier bez zalewu spamu — krótko, krok po kroku, z praktycznymi werdyktami.
   keywords:
-  - AI raportowanie
-  - streszczenia tygodniowe
-  - Zapier
-  - Make
-  - automatyzacja raportów
+    - AI raportowanie
+    - streszczenia tygodniowe
+    - Zapier
+    - Make
+    - automatyzacja raportów
 meta:
   summaryBullets:
-  - "Werdykt: szybkie prototypy działają; skalowanie wymaga reglamentu filtrowania."
-  - "Dla kogo: małe zespoły i product ownerzy chcący monitorować metryki; nie dla\
-    \ każdego kanału komunikacji."
-  - "Start: 30–60 minut na proof-of-concept, użyj harmonogramu + modelu do streszczeń."
+    - >-
+      Werdykt: szybkie prototypy działają; skalowanie wymaga reglamentu
+      filtrowania.
+    - >-
+      Dla kogo: małe zespoły i product ownerzy chcący monitorować metryki; nie
+      dla każdego kanału komunikacji.
+    - >-
+      Start: 30–60 minut na proof-of-concept, użyj harmonogramu + modelu do
+      streszczeń.
   primaryCta:
     label: Szablony Zapier
-    href: https://zapier.com/automation/use-case/using-ai-summarize-weekly-activities-and-performance-metrics
-  updatedAt: "2026-01-14"
+    href: >-
+      https://zapier.com/automation/use-case/using-ai-summarize-weekly-activities-and-performance-metrics
+  updatedAt: '2026-01-14'
   author: Redakcja
 ---
 

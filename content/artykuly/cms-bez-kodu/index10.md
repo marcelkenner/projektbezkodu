@@ -1,45 +1,48 @@
 ---
-title: "CMS bez kodu dla wielojęzyczności: strategie i pułapki"
+title: 'CMS bez kodu dla wielojęzyczności: strategie i pułapki'
 slug: cms-bez-kodu-10
 path: /cms-bez-kodu-10
 template: default
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "CMS bez kodu dla wielojęzyczności: strategie i pułapki"
-  subheading: Szybkie decyzje dla zespołów marketingu i PM-ów — co działa, co gryzie,
-    jak zacząć
+  heading: 'CMS bez kodu dla wielojęzyczności: strategie i pułapki'
+  subheading: >-
+    Szybkie decyzje dla zespołów marketingu i PM-ów — co działa, co gryzie, jak
+    zacząć
 seo:
-  title: "CMS bez kodu dla wielojęzyczności: strategie i pułapki"
-  description: "Praktyczny przewodnik po podejściach no-code do wielojęzycznych serwisów:\
-    \ porównanie, typowe błędy i prosty plan startowy."
+  title: 'CMS bez kodu dla wielojęzyczności: strategie i pułapki'
+  description: >-
+    Praktyczny przewodnik po podejściach no-code do wielojęzycznych serwisów:
+    porównanie, typowe błędy i prosty plan startowy.
   keywords:
-  - CMS bez kodu
-  - wielojęzyczność
-  - hreflang
-  - lokalizacja
-  - Webflow
-  - Weglot
+    - CMS bez kodu
+    - wielojęzyczność
+    - hreflang
+    - lokalizacja
+    - Webflow
+    - Weglot
 meta:
   summaryBullets:
-  - "Werdykt: wybór zależy od skali i kontroli nad tłumaczeniami"
-  - "Dla kogo: małe strony i MVP → zewnętrzny service; duże portale → wbudowana lokalizacja\
-    \ lub headless"
-  - "Start: zrób mapę URL-i i politykę hreflang przed tłumaczeniami"
+    - 'Werdykt: wybór zależy od skali i kontroli nad tłumaczeniami'
+    - >-
+      Dla kogo: małe strony i MVP → zewnętrzny service; duże portale → wbudowana
+      lokalizacja lub headless
+    - 'Start: zrób mapę URL-i i politykę hreflang przed tłumaczeniami'
   primaryCta:
     label: Przeczytaj praktyczny przewodnik (Weglot)
     href: https://www.weglot.com/guides/multilingual-content
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - CMS
-  - lokalizacja
-  - SEO
+    - CMS
+    - lokalizacja
+    - SEO
   tags:
-  - wielojęzyczność
-  - no-code
-  - hreflang
+    - wielojęzyczność
+    - no-code
+    - hreflang
 ---
 
 ## Szybka decyzja dla Twojego zespołu

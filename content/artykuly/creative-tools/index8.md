@@ -1,41 +1,46 @@
 ---
-title: "No-code audio i podcast: nagranie, czyszczenie i publikacja krok po kroku"
+title: 'No-code audio i podcast: nagranie, czyszczenie i publikacja krok po kroku'
 slug: creative-tools-8
 path: /creative-tools-8
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "No-code audio i podcast: nagranie, czyszczenie i publikacja krok po kroku"
+  heading: 'No-code audio i podcast: nagranie, czyszczenie i publikacja krok po kroku'
   subheading: Szybki workflow od nagrania do publikacji bez programowania
 meta:
   summaryBullets:
-  - "Werdykt: Możesz uruchomić prosty podcast w kilka dni, używając narzędzi no-code."
-  - "Dla kogo: Twórcy solo, małe zespoły, edukatorzy i marketerzy."
-  - "Szybki start: nagraj 1 odcinek, oczyść w Auphonic, opublikuj przez Anchor/Spotify."
+    - >-
+      Werdykt: Możesz uruchomić prosty podcast w kilka dni, używając narzędzi
+      no-code.
+    - 'Dla kogo: Twórcy solo, małe zespoły, edukatorzy i marketerzy.'
+    - >-
+      Szybki start: nagraj 1 odcinek, oczyść w Auphonic, opublikuj przez
+      Anchor/Spotify.
   primaryCta:
     label: Alitu — no-code podcast maker
     href: https://alitu.com/toolbox
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 seo:
-  title: "No-code audio i podcast: nagranie, czyszczenie i publikacja"
-  description: "Praktyczny przewodnik krok po kroku: nagranie, czyszczenie dźwięku\
-    \ i publikacja podcastu przy użyciu narzędzi no-code."
+  title: 'No-code audio i podcast: nagranie, czyszczenie i publikacja'
+  description: >-
+    Praktyczny przewodnik krok po kroku: nagranie, czyszczenie dźwięku i
+    publikacja podcastu przy użyciu narzędzi no-code.
   keywords:
-  - podcast
-  - no-code
-  - Auphonic
-  - Alitu
-  - nagranie audio
+    - podcast
+    - no-code
+    - Auphonic
+    - Alitu
+    - nagranie audio
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - podcast
-  - audio
-  - Auphonic
-  - Alitu
+    - no-code
+    - podcast
+    - audio
+    - Auphonic
+    - Alitu
 ---
 
 Obietnica decyzji: jeśli chcesz zacząć podcast bez nauki DAW i skomplikowanego montażu, ten artykuł da ci konkretny workflow i wybory narzędzi — **która droga jest najszybsza**, a która da lepszą jakość przy minimalnym wysiłku.

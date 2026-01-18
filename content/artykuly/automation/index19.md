@@ -1,45 +1,46 @@
 ---
-title: "Automatyzacje dla agencji: brief, onboarding klienta, checklisty, raporty"
+title: 'Automatyzacje dla agencji: brief, onboarding klienta, checklisty, raporty'
 slug: automation-19
 path: /automation-19
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Automatyzacje dla agencji: brief, onboarding klienta, checklisty, raporty"
+  heading: 'Automatyzacje dla agencji: brief, onboarding klienta, checklisty, raporty'
   subheading: Szybkie decyzje, wzór startu i realne oszczędności czasu
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
-  updatedAt: "2026-01-14"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
+  updatedAt: '2026-01-14'
   primaryCta:
-    label: "Przykład: onboarding w 5 minut (Zapier)"
+    label: 'Przykład: onboarding w 5 minut (Zapier)'
     href: https://zapier.com/blog/how-our-agency-uses-zapier-to-onboard-clients
   difficulty: łatwy start
   duration: 5–60 min
   author: Redakcja
 seo:
   title: Automatyzacje dla agencji — brief, onboarding, checklisty, raporty
-  description: "Jak zautomatyzować front projektu: briefy, onboarding klienta, checklisty\
-    \ i raporty. Szybkie kroki startowe i decyzje, kiedy automatyzować, a kiedy nie."
+  description: >-
+    Jak zautomatyzować front projektu: briefy, onboarding klienta, checklisty i
+    raporty. Szybkie kroki startowe i decyzje, kiedy automatyzować, a kiedy nie.
   keywords:
-  - automatyzacje dla agencji
-  - onboarding klienta
-  - checklisty
-  - brief
-  - raporty automatyzacja
+    - automatyzacje dla agencji
+    - onboarding klienta
+    - checklisty
+    - brief
+    - raporty automatyzacja
 taxonomy:
   categories:
-  - automatyzacja
-  - agencje
-  - procesy
+    - automatyzacja
+    - agencje
+    - procesy
   tags:
-  - onboarding
-  - brief
-  - checklista
-  - raporty
+    - onboarding
+    - brief
+    - checklista
+    - raporty
 ---
 
 ## Obietnica decyzji

@@ -1,44 +1,51 @@
 ---
-title: "Dostępność na mobile: gesty, focus i responsywność w narzędziach no-code"
+title: 'Dostępność na mobile: gesty, focus i responsywność w narzędziach no-code'
 slug: dostepnosc-cyfrowa-9
 path: /dostepnosc-cyfrowa-9
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Dostępność na mobile: gesty, focus i responsywność w narzędziach no-code"
-  subheading: Praktyczny przewodnik dla zespołów produktowych używających kreatorów
-    bez kodu — co testować i jak naprawiać szybko.
+  heading: 'Dostępność na mobile: gesty, focus i responsywność w narzędziach no-code'
+  subheading: >-
+    Praktyczny przewodnik dla zespołów produktowych używających kreatorów bez
+    kodu — co testować i jak naprawiać szybko.
 meta:
   summaryBullets:
-  - "Werdykt: większość no-code daje podstawy, ale musisz dopracować gesty i focus."
-  - "Szybki start: 5–15 minut testów na urządzeniu + proste poprawki w edytorze."
-  - "Najważniejsze do sprawdzenia: alternatywy dla gestów, logiczny focus, skalowanie\
-    \ tekstu i cele dotykowe."
+    - >-
+      Werdykt: większość no-code daje podstawy, ale musisz dopracować gesty i
+      focus.
+    - >-
+      Szybki start: 5–15 minut testów na urządzeniu + proste poprawki w
+      edytorze.
+    - >-
+      Najważniejsze do sprawdzenia: alternatywy dla gestów, logiczny focus,
+      skalowanie tekstu i cele dotykowe.
   primaryCta:
     label: ATAG — No-code i dostępność (W3C)
     href: https://www.w3.org/WAI/standards-guidelines/atag/no-code/
   hasAffiliateLinks: false
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: Dostępność mobile w no-code — gesty, focus, responsywność
-  description: Jak sprawdzić i poprawić gesty, zarządzanie focus i responsywność w
+  description: >-
+    Jak sprawdzić i poprawić gesty, zarządzanie focus i responsywność w
     projektach tworzonych w narzędziach no-code. Konkretne kroki bez kodu.
   keywords:
-  - dostępność mobile
-  - no-code
-  - gesty
-  - focus
-  - WCAG
-  - ATAG
+    - dostępność mobile
+    - no-code
+    - gesty
+    - focus
+    - WCAG
+    - ATAG
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
-  - mobile
+    - no-code
+    - accessibility
+    - wcag
+    - mobile
 ---
 
 ## Obietnica i werdykt dla czytelnika

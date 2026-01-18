@@ -1,22 +1,22 @@
 ---
-title: "Sekcje: Hero"
+title: 'Sekcje: Hero'
 slug: hero
 path: /artykuly/biblioteka-komponentow/hero/
 type: template
 tags:
-- evergreen
-- biblioteka
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Sekcje: Hero"
+  heading: 'Sekcje: Hero'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 template: default
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/hero/

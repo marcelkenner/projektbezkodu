@@ -1,48 +1,52 @@
 ---
-title: "Automatyzacje z AI w no-code: gdzie to jest realna przewaga, a gdzie marketing"
+title: 'Automatyzacje z AI w no-code: gdzie to jest realna przewaga, a gdzie marketing'
 slug: automation-22
 path: /automation-22
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automatyzacje z AI w no-code: gdzie to jest realna przewaga, a gdzie marketing"
-  subheading: "Praktyczny przewodnik: co działa od razu, co wymaga kontroli, a czego\
-    \ lepiej unikać"
+  heading: >-
+    Automatyzacje z AI w no-code: gdzie to jest realna przewaga, a gdzie
+    marketing
+  subheading: >-
+    Praktyczny przewodnik: co działa od razu, co wymaga kontroli, a czego lepiej
+    unikać
 seo:
   title: Automatyzacje AI w no-code — przewaga vs marketing
-  description: Jakie zadania automatyzować w no-code przy pomocy AI, gdzie płaci się
-    to rzeczywiście czasem i pieniędzmi, a kiedy to jedynie chwyt marketingowy.
+  description: >-
+    Jakie zadania automatyzować w no-code przy pomocy AI, gdzie płaci się to
+    rzeczywiście czasem i pieniędzmi, a kiedy to jedynie chwyt marketingowy.
   keywords:
-  - automatyzacje
-  - AI
-  - no-code
-  - hallucinations
-  - Zapier
-  - Make
+    - automatyzacje
+    - AI
+    - no-code
+    - hallucinations
+    - Zapier
+    - Make
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj o Zapier Agents
     href: https://zapier.com/blog/introducing-zapier-ai-agents
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   difficulty: średni
   duration: 5–30 min (pierwsze testy)
   author: Redakcja
 taxonomy:
   categories:
-  - Automatyzacje
-  - AI
-  - no-code
+    - Automatyzacje
+    - AI
+    - no-code
   tags:
-  - automatyzacje
-  - no-code
-  - AI
-  - ryzyko
-  - przewaga
+    - automatyzacje
+    - no-code
+    - AI
+    - ryzyko
+    - przewaga
 ---
 
 Obietnica decyzji: powiem ci wprost — gdzie AI w no-code oszczędza realnie czas i pieniądze, a gdzie jest to głównie marketing. Na końcu masz prosty pierwszy krok, który zrobisz w mniej niż 15 minut.

@@ -4,40 +4,43 @@ slug: ai-15
 path: /ai-15
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Generowanie obrazów no-code dla marketingu — workflowy i spójność stylu
   subheading: Jak szybko wdrożyć obrazowanie AI w kampanii i uniknąć chaosu wizualnego
 meta:
   summaryBullets:
-  - "Werdykt: szybkie efekty, ale bez zasad będzie chaos."
-  - "Dla kogo: marketing z ograniczonym budżetem i potrzeby szybkiego contentu."
-  - "Start: zbuduj prosty \"prompt library\" i sprawdź spójność względem brand booka."
+    - 'Werdykt: szybkie efekty, ale bez zasad będzie chaos.'
+    - 'Dla kogo: marketing z ograniczonym budżetem i potrzeby szybkiego contentu.'
+    - >-
+      Start: zbuduj prosty "prompt library" i sprawdź spójność względem brand
+      booka.
   primaryCta:
     label: ASU AI guidelines — przeczytaj
     href: https://brandguide.asu.edu/execution-guidelines/ai-guidelines
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 10 min
   hasAffiliateLinks: false
 seo:
   title: Generowanie obrazów no-code dla marketingu — workflowy i spójność stylu
-  description: Konkretne workflowy no-code dla zespołów marketingu, jak pilnować spójności
+  description: >-
+    Konkretne workflowy no-code dla zespołów marketingu, jak pilnować spójności
     stylu i gdzie popełnia się błędy.
   keywords:
-  - generowanie obrazów
-  - no-code
-  - marketing
-  - spójność stylu
-  - prompt engineering
+    - generowanie obrazów
+    - no-code
+    - marketing
+    - spójność stylu
+    - prompt engineering
 taxonomy:
   categories:
-  - AI
-  - Marketing
+    - AI
+    - Marketing
   tags:
-  - no-code
-  - image-generation
-  - brand-consistency
+    - no-code
+    - image-generation
+    - brand-consistency
 ---
 
 ## Obietnica decyzji dla marketera

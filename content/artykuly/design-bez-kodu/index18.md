@@ -1,32 +1,34 @@
 ---
-title: "Strona narzędzi no-code: jak zaprojektować listing i filtry"
+title: 'Strona narzędzi no-code: jak zaprojektować listing i filtry'
 slug: design-bez-kodu-18
 path: /design-bez-kodu-18
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Strona narzędzi no-code: jak zaprojektować listing i filtry"
+  heading: 'Strona narzędzi no-code: jak zaprojektować listing i filtry'
   subheading: Karty narzędzi, tagi, sortowanie, wyszukiwarka i czytelna nawigacja.
 seo:
   title: Projektowanie listingu narzędzi no-code — filtry i SEO
-  description: "Jak zaprojektować czytelny listing narzędzi no-code: wybór filtrów,\
-    \ formy URL, oraz reguły indeksowania."
+  description: >-
+    Jak zaprojektować czytelny listing narzędzi no-code: wybór filtrów, formy
+    URL, oraz reguły indeksowania.
   keywords:
-  - no-code
-  - listing
-  - filtry
-  - UX
-  - SEO
+    - no-code
+    - listing
+    - filtry
+    - UX
+    - SEO
 meta:
   summaryBullets:
-  - "Werdykt: prosty listing z 5–8 kluczowymi filtrami zazwyczaj wystarczy"
-  - "Dla kogo: katalogi narzędzi, marketplace'y i blogi z recenzjami"
-  - "Start: skonfiguruj URL-e i reguły indeksowania przed dodaniem setek tagów"
+    - 'Werdykt: prosty listing z 5–8 kluczowymi filtrami zazwyczaj wystarczy'
+    - 'Dla kogo: katalogi narzędzi, marketplace''y i blogi z recenzjami'
+    - 'Start: skonfiguruj URL-e i reguły indeksowania przed dodaniem setek tagów'
   primaryCta:
     label: Wytyczne faceted navigation
-    href: https://www.searchenginejournal.com/ask-an-seo-how-to-implement-faceted-navigation-without-hurting-crawl-efficiency/545735/
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.searchenginejournal.com/ask-an-seo-how-to-implement-faceted-navigation-without-hurting-crawl-efficiency/545735/
+  updatedAt: '2026-01-14'
 ---
 
 Krótka decyzja dla twórców katalogów no-code: **zaprojektuj listing z wąskim zestawem kluczowych filtrów, czytelnymi URL-ami i jasno określonymi regułami indeksowania** — to minimalizuje chaos SEO i poprawia konwersję.  

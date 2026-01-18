@@ -1,47 +1,54 @@
 ---
-title: "Prompting dla nietechnicznych: 10 wzorców promptów, które działają w firmie"
+title: 'Prompting dla nietechnicznych: 10 wzorców promptów, które działają w firmie'
 slug: ai-19
 path: /ai-19
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Prompting dla nietechnicznych — proste wzorce, przewidywalne wyniki
-  subheading: 10 sprawdzonych schematów, szybki start i jasne decyzje dla zespołów
+  subheading: >-
+    10 sprawdzonych schematów, szybki start i jasne decyzje dla zespołów
     biznesowych
 seo:
   title: Prompting dla nietechnicznych — 10 wzorców promptów dla firm
-  description: Krótkie wyjaśnienie 10 wzorców promptów, jak je używać w firmie i kiedy
+  description: >-
+    Krótkie wyjaśnienie 10 wzorców promptów, jak je używać w firmie i kiedy
     unikać. Szybkie szablony startowe i praktyczny werdykt.
   keywords:
-  - prompting
-  - prompt patterns
-  - prompt templates
-  - prompting dla biznesu
-  - prompt engineering
+    - prompting
+    - prompt patterns
+    - prompt templates
+    - prompting dla biznesu
+    - prompt engineering
 meta:
   summaryBullets:
-  - "Werdykt: 10 wzorców, które dają przewidywalne wyniki w typowych zadaniach firmowych."
-  - "Dla kogo: osoby nietechniczne, product managerowie, marketing, HR — tam, gdzie\
-    \ trzeba wygenerować tekst, streszczenia lub checklisty."
-  - "Start: skopiuj 5-minutowy szablon, przetestuj z 3 przykładami, doprecyzuj format\
-    \ odpowiedzi."
+    - >-
+      Werdykt: 10 wzorców, które dają przewidywalne wyniki w typowych zadaniach
+      firmowych.
+    - >-
+      Dla kogo: osoby nietechniczne, product managerowie, marketing, HR — tam,
+      gdzie trzeba wygenerować tekst, streszczenia lub checklisty.
+    - >-
+      Start: skopiuj 5-minutowy szablon, przetestuj z 3 przykładami, doprecyzuj
+      format odpowiedzi.
   primaryCta:
-    label: "OpenAI Cookbook: meta-prompting"
-    href: https://cookbook.openai.com/examples/enhance_your_prompts_with_meta_prompting
-  updatedAt: "2026-01-14"
+    label: 'OpenAI Cookbook: meta-prompting'
+    href: >-
+      https://cookbook.openai.com/examples/enhance_your_prompts_with_meta_prompting
+  updatedAt: '2026-01-14'
   author: Redakcja
   difficulty: łatwy
   duration: 5–30 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - AI
-  - Produktywność
+    - AI
+    - Produktywność
   tags:
-  - prompting
-  - szablony
-  - biznes
+    - prompting
+    - szablony
+    - biznes
 ---
 
 ## Obietnica decyzji i grupa docelowa

@@ -1,40 +1,44 @@
 ---
-title: "AI do SEO w no-code: co działa, co szkodzi i jak unikać 'wato-treści'"
+title: 'AI do SEO w no-code: co działa, co szkodzi i jak unikać ''wato-treści'''
 slug: ai-12
 path: /ai-12
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI do SEO w no-code: co działa, co szkodzi i jak unikać 'wato-treści'"
+  heading: 'AI do SEO w no-code: co działa, co szkodzi i jak unikać ''wato-treści'''
   subheading: Krótki przewodnik decyzyjny dla właścicieli stron i marketerów
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: AI pomaga, gdy jest kontrolowane i dodaje wartość."
-  - "Dla kogo: małe firmy i twórcy treści, którzy chcą przyspieszyć pracę bez oszukiwania."
-  - "Start: wygeneruj szkic, popraw źródła, opublikuj z bylinem."
+    - 'Werdykt: AI pomaga, gdy jest kontrolowane i dodaje wartość.'
+    - >-
+      Dla kogo: małe firmy i twórcy treści, którzy chcą przyspieszyć pracę bez
+      oszukiwania.
+    - 'Start: wygeneruj szkic, popraw źródła, opublikuj z bylinem.'
   primaryCta:
-    label: "Google: guidance on generative AI"
-    href: https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
+    label: 'Google: guidance on generative AI'
+    href: >-
+      https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
 seo:
   title: AI w SEO no-code — decyzja dla właściciela strony
-  description: "Jak bezpiecznie używać AI w no-code do SEO: co działa, co szkodzi\
-    \ i prosty plan startowy zgodny z wytycznymi Google."
+  description: >-
+    Jak bezpiecznie używać AI w no-code do SEO: co działa, co szkodzi i prosty
+    plan startowy zgodny z wytycznymi Google.
   keywords:
-  - AI SEO
-  - no-code
-  - generative AI
-  - wato-tresc
+    - AI SEO
+    - no-code
+    - generative AI
+    - wato-tresc
 taxonomy:
   categories:
-  - SEO
-  - AI
+    - SEO
+    - AI
   tags:
-  - no-code
-  - AI-generated content
+    - no-code
+    - AI-generated content
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

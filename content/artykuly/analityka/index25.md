@@ -1,54 +1,63 @@
 ---
-title: "Ankiety w produkcie: Typeform vs Tally i jak interpretować wyniki bez samozakłamania"
+title: >-
+  Ankiety w produkcie: Typeform vs Tally i jak interpretować wyniki bez
+  samozakłamania
 slug: analityka-25
 path: /analityka-25
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Ankiety w produkcie: szybka decyzja i praktyczny start"
-  subheading: Porównanie Typeform i Tally oraz krótki przewodnik, jak nie przekłamać
+  heading: 'Ankiety w produkcie: szybka decyzja i praktyczny start'
+  subheading: >-
+    Porównanie Typeform i Tally oraz krótki przewodnik, jak nie przekłamać
     własnych wyników
   primaryCta:
     label: Zacznij z Tally (bezpłatnie)
     href: https://tally.so/features
 seo:
-  title: Ankiety w produkcie — Typeform vs Tally, jak czytać wyniki bez samozakłamania
-  description: "Szybkie porównanie Typeform i Tally oraz praktyczne reguły projektowania\
-    \ ankiet w produkcie: jak skonstruować pytania, skąd bierze się bias i jak go\
-    \ ograniczyć."
+  title: >-
+    Ankiety w produkcie — Typeform vs Tally, jak czytać wyniki bez
+    samozakłamania
+  description: >-
+    Szybkie porównanie Typeform i Tally oraz praktyczne reguły projektowania
+    ankiet w produkcie: jak skonstruować pytania, skąd bierze się bias i jak go
+    ograniczyć.
   keywords:
-  - ankiety w produkcie
-  - Typeform
-  - Tally
-  - projektowanie ankiet
-  - bias w ankietach
+    - ankiety w produkcie
+    - Typeform
+    - Tally
+    - projektowanie ankiet
+    - bias w ankietach
 meta:
   summaryBullets:
-  - "Werdykt: wybierz Tally jeśli chcesz tanio i szybko; wybierz Typeform jeśli zależy\
-    \ ci na designie, analizie i compliance."
-  - "Dla kogo: Tally — zespoły produktowe i growth z ograniczonym budżetem; Typeform\
-    \ — zespoły wymagające zaawansowanej analityki i integracji."
-  - "Start: opublikuj krótką ankietę 3‑pytań, sprawdź drop‑off i popraw pytania po\
-    \ pilotażu."
+    - >-
+      Werdykt: wybierz Tally jeśli chcesz tanio i szybko; wybierz Typeform jeśli
+      zależy ci na designie, analizie i compliance.
+    - >-
+      Dla kogo: Tally — zespoły produktowe i growth z ograniczonym budżetem;
+      Typeform — zespoły wymagające zaawansowanej analityki i integracji.
+    - >-
+      Start: opublikuj krótką ankietę 3‑pytań, sprawdź drop‑off i popraw pytania
+      po pilotażu.
   primaryCta:
     label: Sprawdź funkcje Tally
     href: https://tally.so/features
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 6 min
   author: Redakcja Analityka
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - analityka
-  - ux
-  - produkt
+    - analityka
+    - ux
+    - produkt
   tags:
-  - ankiety
-  - survey
-  - typeform
-  - tally
-  - badania-ux
+    - ankiety
+    - survey
+    - typeform
+    - tally
+    - badania-ux
 ---
 
 ## Obietnica decyzji: co wybrać teraz i dlaczego

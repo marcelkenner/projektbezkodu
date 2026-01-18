@@ -3,12 +3,27 @@ import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import type { ArticleHubPayload } from "@/app/lib/content/ArticleHubManager";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
 import { getCopy } from "@/app/lib/copy";
+import { MarkdownRenderer } from "@/app/ui/MarkdownRenderer";
 import styles from "./hub.module.css";
 
 const articlesCopy = getCopy("articles");
 
+class ArtykulyHubPageViewModel {
+  constructor(private readonly payload: ArticleHubPayload) {}
+
+  renderBody() {
+    const body = this.payload.hub.body?.trim() ?? "";
+    if (!body) {
+      return null;
+    }
+    const renderer = new MarkdownRenderer(body);
+    return <article className="prose">{renderer.render()}</article>;
+  }
+}
+
 export function ArtykulyHubPage({ payload }: { payload: ArticleHubPayload }) {
   const { hub, subcategories, articles } = payload;
+  const viewModel = new ArtykulyHubPageViewModel(payload);
 
   return (
     <section className={`${styles.scope} artykuly-hub`} id="content">
@@ -17,6 +32,8 @@ export function ArtykulyHubPage({ payload }: { payload: ArticleHubPayload }) {
           <h1>{hub.label}</h1>
           {hub.description ? <p>{hub.description}</p> : null}
         </header>
+
+        {viewModel.renderBody()}
 
         {subcategories.length ? (
           <nav
@@ -71,4 +88,3 @@ export function ArtykulyHubPage({ payload }: { payload: ArticleHubPayload }) {
     </section>
   );
 }
-

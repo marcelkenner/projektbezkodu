@@ -1,40 +1,42 @@
 ---
-title: "Badanie: najczęstsze błędy w automatyzacjach no-code"
+title: 'Badanie: najczęstsze błędy w automatyzacjach no-code'
 slug: badania-19
 path: /badania-19
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Najczęstsze błędy w automatyzacjach no-code
   subheading: Co psuje workflowy, jak to szybko zweryfikować i naprawić
 meta:
   summaryBullets:
-  - "Werdykt: konkretne błędy i szybkie decyzje"
-  - "Dla kogo: startupy, zespoły produktowe i marketing"
-  - "Start: 5-minutowy checklista zanim uruchomisz produkcję"
+    - 'Werdykt: konkretne błędy i szybkie decyzje'
+    - 'Dla kogo: startupy, zespoły produktowe i marketing'
+    - 'Start: 5-minutowy checklista zanim uruchomisz produkcję'
   primaryCta:
     label: Czytaj o webhookach
-    href: https://usstacked.com/connecting-no-code-apps-when-zapier-misses-the-details/
-  updatedAt: "2026-01-14"
+    href: >-
+      https://usstacked.com/connecting-no-code-apps-when-zapier-misses-the-details/
+  updatedAt: '2026-01-14'
 seo:
   title: Najczęstsze błędy w automatyzacjach no-code — badanie
-  description: "Analiza typowych usterek w triggerach, testach, limitach i obserwowalności.\
-    \ Szybkie rady: co sprawdzić od razu."
+  description: >-
+    Analiza typowych usterek w triggerach, testach, limitach i obserwowalności.
+    Szybkie rady: co sprawdzić od razu.
   keywords:
-  - no-code
-  - automatyzacje
-  - błędy
-  - monitoring
-  - Zapier
-  - Make
+    - no-code
+    - automatyzacje
+    - błędy
+    - monitoring
+    - Zapier
+    - Make
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - automatyzacje
-  - błędy
+    - no-code
+    - automatyzacje
+    - błędy
 ---
 
 ## Obietnica decyzji dla praktyków

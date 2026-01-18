@@ -1,43 +1,44 @@
 ---
-title: "Dostępne komponenty UI: przyciski, linki, modale — co najczęściej psuje UX"
+title: 'Dostępne komponenty UI: przyciski, linki, modale — co najczęściej psuje UX'
 slug: dostepnosc-cyfrowa-8
 path: /dostepnosc-cyfrowa-8
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Dostępne komponenty UI: przyciski, linki i modale"
+  heading: 'Dostępne komponenty UI: przyciski, linki i modale'
   subheading: Szybkie decyzje i konkretne kroki dla zespołów produktowych i projektantów
 meta:
   author: Zespół UX
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   primaryCta:
     label: W3C Dialog Pattern
     href: https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/
   summaryBullets:
-  - "Dla kogo to jest?: zespoły produktowe i frontend developerzy"
-  - "Najważniejsze naprawy: focus, semantyka, role ARIA"
-  - "Szybki start: 5-minutowy check z klawiatury"
+    - 'Dla kogo to jest?: zespoły produktowe i frontend developerzy'
+    - 'Najważniejsze naprawy: focus, semantyka, role ARIA'
+    - 'Szybki start: 5-minutowy check z klawiatury'
 seo:
   title: Dostępne komponenty UI — przyciski, linki, modale
-  description: Praktyczne wskazówki co psuje UX w przyciskach, linkach i modalach
-    oraz jak to szybko naprawić.
+  description: >-
+    Praktyczne wskazówki co psuje UX w przyciskach, linkach i modalach oraz jak
+    to szybko naprawić.
   keywords:
-  - dostępność
-  - UI
-  - przyciski
-  - modale
-  - linki
+    - dostępność
+    - UI
+    - przyciski
+    - modale
+    - linki
 taxonomy:
   categories:
-  - dostępność
+    - dostępność
   tags:
-  - accessibility
-  - ui
-  - wcag
-  - no-code
+    - accessibility
+    - ui
+    - wcag
+    - no-code
 ---
 
 ## Obietnica decyzji i dla kogo

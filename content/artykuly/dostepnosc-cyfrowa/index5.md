@@ -1,43 +1,47 @@
 ---
-title: "Nawigacja klawiaturą: jak testować stronę zrobioną w Webflow/Framer/Wix"
+title: 'Nawigacja klawiaturą: jak testować stronę zrobioną w Webflow/Framer/Wix'
 slug: dostepnosc-cyfrowa-5
 path: /dostepnosc-cyfrowa-5
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Nawigacja klawiaturą: szybki test dla Webflow, Framer, Wix"
+  heading: 'Nawigacja klawiaturą: szybki test dla Webflow, Framer, Wix'
   subheading: Konkretny, bezkodowy plan testów — co sprawdzić w 5–15 minut
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 10 min
   primaryCta:
     label: Checklist WCAG (WebAIM)
     href: https://webaim.org/standards/wcag/checklist
   summaryBullets:
-  - "Werdykt: szybkie testy klawiaturą wykrywają większość problemów w bezkodowych\
-    \ builderach."
-  - "Najważniejsze: focus, tab-order, keyboard traps — sprawdź w przeglądarce."
-  - "Start: 5 minut, bez konta deweloperskiego; dalej: poprawki w edytorze Webflow/Framer/Wix."
+    - >-
+      Werdykt: szybkie testy klawiaturą wykrywają większość problemów w
+      bezkodowych builderach.
+    - 'Najważniejsze: focus, tab-order, keyboard traps — sprawdź w przeglądarce.'
+    - >-
+      Start: 5 minut, bez konta deweloperskiego; dalej: poprawki w edytorze
+      Webflow/Framer/Wix.
 seo:
-  title: "Nawigacja klawiaturą: testy dla Webflow, Framer i Wix"
-  description: Krok po kroku jak przeprowadzić bezkodowy test klawiaturą dla stron
-    zbudowanych w Webflow, Framer i Wix. Szybkie kroki, typowe błędy, jednoznaczne
-    werdykty.
+  title: 'Nawigacja klawiaturą: testy dla Webflow, Framer i Wix'
+  description: >-
+    Krok po kroku jak przeprowadzić bezkodowy test klawiaturą dla stron
+    zbudowanych w Webflow, Framer i Wix. Szybkie kroki, typowe błędy,
+    jednoznaczne werdykty.
   keywords:
-  - nawigacja klawiaturą
-  - Webflow accessibility
-  - Framer accessibility
-  - Wix accessibility
-  - WCAG keyboard
+    - nawigacja klawiaturą
+    - Webflow accessibility
+    - Framer accessibility
+    - Wix accessibility
+    - WCAG keyboard
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
+    - no-code
+    - accessibility
+    - wcag
 ---
 
 ## Obietnica: decyzja i grupa

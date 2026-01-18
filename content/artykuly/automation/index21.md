@@ -1,45 +1,49 @@
 ---
-title: "Automatyzacje w projektach: zadania, statusy, powiadomienia — ale bez spamowania\
-  \ zespołu"
+title: >-
+  Automatyzacje w projektach: zadania, statusy, powiadomienia — ale bez
+  spamowania zespołu
 slug: automation-21
 path: /automation-21
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Automatyzacje w projektach: zadania, statusy, powiadomienia — bez spamowania"
+  heading: 'Automatyzacje w projektach: zadania, statusy, powiadomienia — bez spamowania'
   subheading: Jak skonfigurować reguły, żeby powiadomienia pomagały, a nie rozpraszały
 seo:
-  title: "Automatyzacje: powiadomienia bez spamowania zespołu"
-  description: "Praktyczny przewodnik: kiedy automatyzować zadania i statusy, jak\
-    \ ustawić powiadomienia, żeby były pomocne, nie uciążliwe."
+  title: 'Automatyzacje: powiadomienia bez spamowania zespołu'
+  description: >-
+    Praktyczny przewodnik: kiedy automatyzować zadania i statusy, jak ustawić
+    powiadomienia, żeby były pomocne, nie uciążliwe.
   keywords:
-  - automatyzacje
-  - powiadomienia
-  - zarządzanie projektami
-  - notification fatigue
+    - automatyzacje
+    - powiadomienia
+    - zarządzanie projektami
+    - notification fatigue
 meta:
   summaryBullets:
-  - "Werdykt: mniej, ale trafniej — ustaw reguły według ról i krytyczności."
-  - "Dla kogo: zespoły, które korzystają z narzędzi typu GitLab/Slack/Zapier."
-  - "Start: zrób 5-minutowy audit powiadomień; ustaw digesty i 'on mention'."
-  - "Normy: krytyczne alerty na live, reszta w digestach lub w kanałach tematycznych."
+    - 'Werdykt: mniej, ale trafniej — ustaw reguły według ról i krytyczności.'
+    - 'Dla kogo: zespoły, które korzystają z narzędzi typu GitLab/Slack/Zapier.'
+    - 'Start: zrób 5-minutowy audit powiadomień; ustaw digesty i ''on mention''.'
+    - >-
+      Normy: krytyczne alerty na live, reszta w digestach lub w kanałach
+      tematycznych.
   primaryCta:
     label: Przewodnik GitLab – ustawienia powiadomień
     href: https://docs.gitlab.com/user/profile/notifications/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - productivity
-  - project-management
+    - productivity
+    - project-management
   tags:
-  - automatyzacje
-  - powiadomienia
-  - best-practices
+    - automatyzacje
+    - powiadomienia
+    - best-practices
 ---
 
 ## W skrócie — decyzja dla zespołu
