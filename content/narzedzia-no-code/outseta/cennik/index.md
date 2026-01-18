@@ -4,32 +4,36 @@ slug: cennik
 path: /narzedzia/outseta/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Outseta – cennik w kontekście rosnącej bazy klientów
-  subheading: Sprawdzam, kiedy bardziej opłaca się pakiet all-in-one niż stos usług
+  subheading: >-
+    Sprawdzam, kiedy bardziej opłaca się pakiet all-in-one niż stos usług
     płatności, CRM i helpdesku.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Outseta – cennik i koszty utrzymania zaplecza SaaS
-  description: Zobacz, ile kosztuje Outseta na start i jak zmienia się cena wraz ze
+  description: >-
+    Zobacz, ile kosztuje Outseta na start i jak zmienia się cena wraz ze
     wzrostem liczby użytkowników i przychodu.
   keywords:
-  - Outseta
-  - cennik
-  - membership software
-  - koszty SaaS
+    - Outseta
+    - cennik
+    - membership software
+    - koszty SaaS
 meta:
   summaryBullets:
-  - "Werdykt: najlepsze dla bootstrappingu i małych firm z potrzebą prostego stacku."
-  - "Dla kogo: gdy chcesz zastąpić 3–5 narzędzi jednym rozwiązaniem."
-  - "Start: test 7 dni, potem policz transakcje zanim przejdziesz na produkcję."
+    - >-
+      Werdykt: najlepsze dla bootstrappingu i małych firm z potrzebą prostego
+      stacku.
+    - 'Dla kogo: gdy chcesz zastąpić 3–5 narzędzi jednym rozwiązaniem.'
+    - 'Start: test 7 dni, potem policz transakcje zanim przejdziesz na produkcję.'
   primaryCta:
     label: Zobacz cennik Outseta
     href: https://www.outseta.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Testy narzędzi
   duration: 5 min

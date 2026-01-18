@@ -4,39 +4,41 @@ slug: convertkit
 path: /narzedzia/convertkit/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: ConvertKit / Kit – newsletter i automaty dla twórców treści
-  subheading: Buduję proste lejki, sprzedaję produkty cyfrowe i prowadzę newsletter
-    bez rozpraszacza w postaci zbędnych funkcji.
+  subheading: >-
+    Buduję proste lejki, sprzedaję produkty cyfrowe i prowadzę newsletter bez
+    rozpraszacza w postaci zbędnych funkcji.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: ConvertKit (Kit) – czym różni się od klasycznych narzędzi do newslettera
-  description: "Przegląd funkcji ConvertKit / Kit: wizualne automatyzacje, tagowanie,\
-    \ sprzedaż produktów i subskrypcji, nacisk na twórców i soloprzedsiębiorców."
+  description: >-
+    Przegląd funkcji ConvertKit / Kit: wizualne automatyzacje, tagowanie,
+    sprzedaż produktów i subskrypcji, nacisk na twórców i soloprzedsiębiorców.
   keywords:
-  - convertkit
-  - newsletter
-  - email marketing
-  - kit commerce
-  - automatyzacje
+    - convertkit
+    - newsletter
+    - email marketing
+    - kit commerce
+    - automatyzacje
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://convertkit.com
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 5 min
 taxonomy:
   categories:
-  - narzędzia
-  - email marketing
+    - narzędzia
+    - email marketing
 ---
 
 ## Obietnica decyzji — kto powinien rozważyć ConvertKit

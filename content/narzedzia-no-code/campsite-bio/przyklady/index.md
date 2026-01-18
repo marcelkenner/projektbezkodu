@@ -1,43 +1,44 @@
 ---
-title: "Przykłady: kiedy i jak ich używać"
+title: 'Przykłady: kiedy i jak ich używać'
 slug: przyklady
 path: /przyklady
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Przykłady: kiedy i jak ich używać"
+  heading: 'Przykłady: kiedy i jak ich używać'
   subheading: Szybki przewodnik po typach przykładów i prosty plan startu
 seo:
   title: Przykłady — kiedy użyć i jak przygotować
-  description: Jak dobierać przykłady, które rzeczywiście wyjaśniają, a nie mylą.
-    Krótkie scenariusze dla nauczycieli, dokumentalistów i autorów technicznych.
+  description: >-
+    Jak dobierać przykłady, które rzeczywiście wyjaśniają, a nie mylą. Krótkie
+    scenariusze dla nauczycieli, dokumentalistów i autorów technicznych.
   keywords:
-  - przykłady
-  - jak pisać przykłady
-  - dokumentacja
-  - edukacja
+    - przykłady
+    - jak pisać przykłady
+    - dokumentacja
+    - edukacja
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przejdź do Wikipedii
     href: https://pl.wikipedia.org/
   summaryBullets:
-  - "Werdykt: prosty przykład działa lepiej niż długi opis."
-  - "Dla kogo: nauczyciele, twórcy dokumentacji, autorzy kursów."
-  - "Start: wybierz 1–2 krótkie przykłady i opisz je krok po kroku."
+    - 'Werdykt: prosty przykład działa lepiej niż długi opis.'
+    - 'Dla kogo: nauczyciele, twórcy dokumentacji, autorzy kursów.'
+    - 'Start: wybierz 1–2 krótkie przykłady i opisz je krok po kroku.'
 taxonomy:
   categories:
-  - poradnik
-  - pisanie
+    - poradnik
+    - pisanie
   tags:
-  - przykłady
-  - edukacja
-  - dokumentacja
+    - przykłady
+    - edukacja
+    - dokumentacja
 ---
 
 ## Obietnica i szybki werdykt dla czytelnika

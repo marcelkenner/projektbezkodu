@@ -1,9 +1,9 @@
 ---
-title: "Shopify — cennik 2026: szybki przewodnik i werdykt"
+title: 'Shopify — cennik 2026: szybki przewodnik i werdykt'
 slug: cennik
 path: /narzedzia/shopify/cennik/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: article
 hero:
@@ -14,34 +14,37 @@ hero:
     href: https://www.shopify.com/pl/pricing
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   difficulty: łatwy
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dla większości małych sklepów optymalny jest plan Basic/Grow."
-  - "Dla kogo: Basic = start; Grow = skalowanie; Advanced/Plus = wysokie wolumeny."
-  - "Start: załóż konto i sprawdź opłaty transakcyjne oraz koszty aplikacji."
+    - 'Werdykt: dla większości małych sklepów optymalny jest plan Basic/Grow.'
+    - >-
+      Dla kogo: Basic = start; Grow = skalowanie; Advanced/Plus = wysokie
+      wolumeny.
+    - 'Start: załóż konto i sprawdź opłaty transakcyjne oraz koszty aplikacji.'
   primaryCta:
     label: Zobacz oficjalny cennik
     href: https://www.shopify.com/pl/pricing
 seo:
   title: Shopify cennik 2026 — ceny, opłaty transakcyjne, który plan wybrać
-  description: "Praktyczny przewodnik po planach Shopify w 2026: co zawierają, ile\
-    \ kosztują i kiedy które rozwiązanie ma sens."
+  description: >-
+    Praktyczny przewodnik po planach Shopify w 2026: co zawierają, ile kosztują
+    i kiedy które rozwiązanie ma sens.
   keywords:
-  - Shopify cennik
-  - Shopify ceny 2026
-  - plan Shopify
-  - koszty sklepu online
+    - Shopify cennik
+    - Shopify ceny 2026
+    - plan Shopify
+    - koszty sklepu online
 taxonomy:
   categories:
-  - narzędzia
-  - ecommerce
+    - narzędzia
+    - ecommerce
   tags:
-  - shopify
-  - cennik
-  - poradnik
+    - shopify
+    - cennik
+    - poradnik
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

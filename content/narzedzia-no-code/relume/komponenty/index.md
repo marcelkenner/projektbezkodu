@@ -3,42 +3,44 @@ title: Relume Komponenty
 slug: komponenty
 path: /narzedzia/relume/komponenty/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: article
 hero:
   heading: Relume Komponenty
-  subheading: "Krótki przewodnik: kiedy warto korzystać z biblioteki Relume, jak zacząć\
-    \ i czego się spodziewać."
+  subheading: >-
+    Krótki przewodnik: kiedy warto korzystać z biblioteki Relume, jak zacząć i
+    czego się spodziewać.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Relume Komponenty — czy warto użyć biblioteki do Webflow?
-  description: "Praktyczny przewodnik po Relume: dla kogo są gotowe komponenty, jak\
-    \ szybko zacząć i jakie są typowe problemy przy wdrożeniu."
+  description: >-
+    Praktyczny przewodnik po Relume: dla kogo są gotowe komponenty, jak szybko
+    zacząć i jakie są typowe problemy przy wdrożeniu.
   keywords:
-  - Relume
-  - Relume komponenty
-  - Webflow komponenty
-  - biblioteka komponentów
+    - Relume
+    - Relume komponenty
+    - Webflow komponenty
+    - biblioteka komponentów
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybkie prototypy i strony marketingowe bez przepisywania HTML."
-  - "Dla kogo: freelancerzy i małe agencje, które używają Webflow."
-  - "Start: sklonuj style guide, zainstaluj rozszerzenie i wklej komponent."
+    - 'Werdykt: szybkie prototypy i strony marketingowe bez przepisywania HTML.'
+    - 'Dla kogo: freelancerzy i małe agencje, które używają Webflow.'
+    - 'Start: sklonuj style guide, zainstaluj rozszerzenie i wklej komponent.'
   primaryCta:
     label: Otwórz bibliotekę komponentów
     href: https://www.relume.io/components
 taxonomy:
   categories:
-  - narzędzia
-  - webflow
-  - design
+    - narzędzia
+    - webflow
+    - design
 ---
 
 ## Obietnica decyzji

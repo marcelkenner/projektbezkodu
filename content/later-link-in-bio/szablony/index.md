@@ -4,36 +4,37 @@ slug: szablony
 path: /szablony
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szablony: szybki przewodnik i jasny werdykt"
+  heading: 'Szablony: szybki przewodnik i jasny werdykt'
   subheading: Kiedy użyć gotowego wzoru, a kiedy zainwestować w indywidualny projekt
 seo:
   title: Szablony — wybór i zastosowanie
-  description: "Krótki poradnik dla twórców stron, marketerów i zespołów produktowych:\
-    \ co to są szablony, kiedy się opłacają i jak zacząć w 5 minut."
+  description: >-
+    Krótki poradnik dla twórców stron, marketerów i zespołów produktowych: co to
+    są szablony, kiedy się opłacają i jak zacząć w 5 minut.
   keywords:
-  - szablony
-  - template
-  - szablony stron
-  - szablony CMS
+    - szablony
+    - template
+    - szablony stron
+    - szablony CMS
 meta:
   summaryBullets:
-  - "Werdykt: szybko zbudujesz stronę, ale stracisz unikalność projektu."
-  - "Dla kogo: freelancerzy i małe firmy potrzebujące szybkiego MVP."
-  - "Start: wybierz responsywny szablon, przetestuj demo, sprawdź licencję."
+    - 'Werdykt: szybko zbudujesz stronę, ale stracisz unikalność projektu.'
+    - 'Dla kogo: freelancerzy i małe firmy potrzebujące szybkiego MVP.'
+    - 'Start: wybierz responsywny szablon, przetestuj demo, sprawdź licencję.'
   primaryCta:
     label: Dokumentacja szablonów MediaWiki
     href: https://www.mediawiki.org/wiki/Template%3ADocumentation/pl
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Poradniki
-  - Web
+    - Poradniki
+    - Web
   tags:
-  - szablony
-  - CMS
+    - szablony
+    - CMS
 ---
 
 ## Obietnica i szybki werdykt dla kogo

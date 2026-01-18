@@ -1,37 +1,39 @@
 ---
-title: "MailerLite — alternatywy: które narzędzie wybrać, gdy potrzebujesz więcej"
+title: 'MailerLite — alternatywy: które narzędzie wybrać, gdy potrzebujesz więcej'
 slug: alternatywy
 path: /narzedzia/mailerlite/alternatywy/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla MailerLite — co wybrać, gdy rośniesz lub potrzebujesz więcej
-  subheading: Porównanie MailerLite z konkurencją pod kątem ceny, automatyzacji i
+  subheading: >-
+    Porównanie MailerLite z konkurencją pod kątem ceny, automatyzacji i
     integracji.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: MailerLite — najlepsze alternatywy dla newsletterów i automatyzacji
-  description: Przegląd narzędzi podobnych do MailerLite, które lepiej sprawdzą się
-    w e-commerce, zaawansowanej analityce albo dużych bazach.
+  description: >-
+    Przegląd narzędzi podobnych do MailerLite, które lepiej sprawdzą się w
+    e-commerce, zaawansowanej analityce albo dużych bazach.
   keywords:
-  - MailerLite
-  - alternatywy
-  - email marketing
-  - ActiveCampaign
-  - ConvertKit
+    - MailerLite
+    - alternatywy
+    - email marketing
+    - ActiveCampaign
+    - ConvertKit
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz cennik MailerLite
     href: https://www.mailerlite.com/pricing
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 ---
 

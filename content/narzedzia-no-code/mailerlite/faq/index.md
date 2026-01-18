@@ -5,33 +5,36 @@ path: /narzedzia/mailerlite/faq/
 draft: false
 template: article
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: MailerLite – najczęstsze pytania przed startem z newsletterem
-  subheading: Od migracji kontaktów, przez limity, po RODO i integracje z innymi narzędziami.
+  subheading: >-
+    Od migracji kontaktów, przez limity, po RODO i integracje z innymi
+    narzędziami.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: MailerLite – FAQ dla osób przechodzących na tę platformę
-  description: "Zbieram odpowiedzi na powtarzające się pytania o MailerLite: bezpieczeństwo,\
-    \ wsparcie, deliverability i codzienną pracę z systemem."
+  description: >-
+    Zbieram odpowiedzi na powtarzające się pytania o MailerLite: bezpieczeństwo,
+    wsparcie, deliverability i codzienną pracę z systemem.
   keywords:
-  - MailerLite
-  - newsletter
-  - email marketing
-  - RODO
-  - dostarczałość
+    - MailerLite
+    - newsletter
+    - email marketing
+    - RODO
+    - dostarczałość
 meta:
   difficulty: Łatwy start
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: MailerLite to rozsądny wybór dla małych i średnich projektów."
-  - "Dla kogo: najlepsze gdy potrzebujesz prostoty i niskiego progu wejścia."
-  - "Start: załóż konto i prześlij pierwszą listę w 10 minut."
+    - 'Werdykt: MailerLite to rozsądny wybór dla małych i średnich projektów.'
+    - 'Dla kogo: najlepsze gdy potrzebujesz prostoty i niskiego progu wejścia.'
+    - 'Start: załóż konto i prześlij pierwszą listę w 10 minut.'
   primaryCta:
     label: Sprawdź ceny MailerLite
     href: https://www.mailerlite.com/pricing
@@ -40,17 +43,17 @@ meta:
     href: https://www.mailerlite.com/legal/data-processing-agreement
   format: FAQ
   topics:
-  - narzędzia
-  - email marketing
+    - narzędzia
+    - email marketing
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - MailerLite
-  - FAQ
-  - newsletter
-  - RODO
+    - MailerLite
+    - FAQ
+    - newsletter
+    - RODO
 ---
 
 ## Krótka obietnica decyzji dla kogoś, kto nie ma czasu

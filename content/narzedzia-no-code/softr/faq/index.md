@@ -5,46 +5,50 @@ path: /narzedzia/softr/faq/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Softr – odpowiedzi na pytania, które zwykle słyszę od klientów
-  subheading: Od pytania o wydajność po migrację danych z Airtable – zbieram wszystko
-    w jednym miejscu.
+  subheading: >-
+    Od pytania o wydajność po migrację danych z Airtable – zbieram wszystko w
+    jednym miejscu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Softr – FAQ o wydajności, ograniczeniach i integracjach
-  description: "Najczęstsze pytania o Softr: limity, role użytkowników, bezpieczeństwo\
-    \ danych i scenariusze, w których lepiej wybrać inne narzędzie."
+  description: >-
+    Najczęstsze pytania o Softr: limity, role użytkowników, bezpieczeństwo
+    danych i scenariusze, w których lepiej wybrać inne narzędzie.
   keywords:
-  - Softr
-  - Airtable
-  - no-code
-  - integracje
-  - wydajność
+    - Softr
+    - Airtable
+    - no-code
+    - integracje
+    - wydajność
 meta:
   difficulty: średni
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Dokumentacja Airtable + Softr
     href: https://docs.softr.io/data-sources/airtable
   summaryBullets:
-  - "Werdykt: dobry wybór dla portali i prostych aplikacji na Airtable."
-  - "Dla kogo: zespoły bez devów, małe i średnie serwisy."
-  - "Start: podłącz Airtable, przetestuj PAT i rozważ import do Softr Databases."
+    - 'Werdykt: dobry wybór dla portali i prostych aplikacji na Airtable.'
+    - 'Dla kogo: zespoły bez devów, małe i średnie serwisy.'
+    - >-
+      Start: podłącz Airtable, przetestuj PAT i rozważ import do Softr
+      Databases.
 taxonomy:
   categories:
-  - narzedzia
-  - no-code
-  - Softr
+    - narzedzia
+    - no-code
+    - Softr
   tags:
-  - Softr
-  - Airtable
-  - FAQ
+    - Softr
+    - Airtable
+    - FAQ
 ---
 
 ## Obietnica i decyzja

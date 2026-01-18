@@ -5,47 +5,49 @@ path: /narzedzia/relume/sitemap-ai/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Relume Sitemap AI
-  subheading: Generator sitemapy i wireframe'ów napędzany przez AI — co działa, a
-    co może wkurzać
+  subheading: >-
+    Generator sitemapy i wireframe'ów napędzany przez AI — co działa, a co może
+    wkurzać
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Relume Sitemap AI — czy warto użyć AI do planowania strony?
-  description: "Krótki, praktyczny przewodnik po Relume Sitemap AI: jak zacząć, jakie\
-    \ są ograniczenia i dla kogo to najlepsze rozwiązanie."
+  description: >-
+    Krótki, praktyczny przewodnik po Relume Sitemap AI: jak zacząć, jakie są
+    ograniczenia i dla kogo to najlepsze rozwiązanie.
   keywords:
-  - Relume
-  - sitemap
-  - AI
-  - Site Builder
-  - wireframe
+    - Relume
+    - sitemap
+    - AI
+    - Site Builder
+    - wireframe
 meta:
   difficulty: Łatwe
   duration: 5–15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybkie szkice architektury, nie zastąpi researchu"
-  - "Dla kogo: agencje, projektanci, freelanserzy szukający szybkiego startu"
-  - "Start: 5 minut od założenia konta, sprawdź import i język"
+    - 'Werdykt: szybkie szkice architektury, nie zastąpi researchu'
+    - 'Dla kogo: agencje, projektanci, freelanserzy szukający szybkiego startu'
+    - 'Start: 5 minut od założenia konta, sprawdź import i język'
   primaryCta:
     label: Dokumentacja Relume Sitemap AI
     href: https://www.relume.io/resources/docs/building-a-sitemap-with-ai
   format: Przewodnik + werdykt
 taxonomy:
   categories:
-  - narzędzia
-  - relume
-  - ai
+    - narzędzia
+    - relume
+    - ai
   tags:
-  - sitemap
-  - wireframe
-  - site-builder
+    - sitemap
+    - wireframe
+    - site-builder
 ---
 
 ## Obietnica i grupa: co tu dostajesz

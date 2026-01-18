@@ -4,42 +4,47 @@ slug: faq
 path: /narzedzia/zapier/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: Zapier – odpowiedzi na pytania, które pojawiają się przy pierwszych automatyzacjach
-  subheading: Wyjaśniam, co liczy się jako zadanie, jak działają triggery i ile sensownie
+  heading: >-
+    Zapier – odpowiedzi na pytania, które pojawiają się przy pierwszych
+    automatyzacjach
+  subheading: >-
+    Wyjaśniam, co liczy się jako zadanie, jak działają triggery i ile sensownie
     da się zrobić na darmowym planie.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Zapier – FAQ dla początkujących i zaawansowanych
-  description: "Najczęstsze pytania o Zapiera: bezpieczeństwo, integracje, limity,\
-    \ wersjonowanie scenariuszy i współpraca w zespole."
+  description: >-
+    Najczęstsze pytania o Zapiera: bezpieczeństwo, integracje, limity,
+    wersjonowanie scenariuszy i współpraca w zespole.
   keywords:
-  - Zapier
-  - automatyzacja
-  - zadania Zapier
-  - triggery
-  - plany Zapier
+    - Zapier
+    - automatyzacja
+    - zadania Zapier
+    - triggery
+    - plany Zapier
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź ograniczenia darmowego planu
-    href: https://help.zapier.com/hc/en-us/articles/32337438839565-What-s-included-in-Zapier-s-Free-Zaps-plan
-  updatedAt: "2026-01-14"
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/32337438839565-What-s-included-in-Zapier-s-Free-Zaps-plan
+  updatedAt: '2026-01-14'
   author: Redakcja Automatyzacje
 taxonomy:
   categories:
-  - narzędzia
-  - automatyzacja
+    - narzędzia
+    - automatyzacja
   tags:
-  - Zapier
-  - FAQ
-  - integracje
+    - Zapier
+    - FAQ
+    - integracje
 ---
 
 ## Obietnica decyzji dla Ciebie

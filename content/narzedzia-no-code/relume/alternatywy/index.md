@@ -5,46 +5,52 @@ path: /narzedzia/relume/alternatywy/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Relume — alternatywy i kiedy które narzędzie wybrać
-  subheading: "Krótka ściąga: kiedy Relume przyspieszy pracę, a kiedy lepiej sięgnąć\
-    \ po coś innego."
+  subheading: >-
+    Krótka ściąga: kiedy Relume przyspieszy pracę, a kiedy lepiej sięgnąć po coś
+    innego.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Relume — najlepsze alternatywy w 2026
-  description: "Porównanie Relume z alternatywami: Framer, Anima, Untitled UI i narzędzia\
-    \ dla Webflow. Kiedy wybrać które rozwiązanie."
+  description: >-
+    Porównanie Relume z alternatywami: Framer, Anima, Untitled UI i narzędzia
+    dla Webflow. Kiedy wybrać które rozwiązanie.
   keywords:
-  - Relume
-  - alternatywy Relume
-  - Webflow components
-  - Figma to code
-  - Anima
-  - Framer
+    - Relume
+    - alternatywy Relume
+    - Webflow components
+    - Figma to code
+    - Anima
+    - Framer
 meta:
   summaryBullets:
-  - "Werdykt: Relume przyspiesza Webflow, ale nie zawsze jest najlepszym wyborem."
-  - "Dla kogo: agencje i twórcy Webflow, którzy potrzebują gotowych komponentów."
-  - "Start: sprawdź darmowe komponenty i testuj eksport do Figma/Webflow."
+    - >-
+      Werdykt: Relume przyspiesza Webflow, ale nie zawsze jest najlepszym
+      wyborem.
+    - >-
+      Dla kogo: agencje i twórcy Webflow, którzy potrzebują gotowych
+      komponentów.
+    - 'Start: sprawdź darmowe komponenty i testuj eksport do Figma/Webflow.'
   primaryCta:
     label: Strona bibliotek Relume
     href: https://www.relume.io/libraries
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzedzia
-  - webflow
+    - narzedzia
+    - webflow
   tags:
-  - Relume
-  - alternatywy
-  - Webflow
-  - Figma
-  - Anima
-  - Framer
+    - Relume
+    - alternatywy
+    - Webflow
+    - Figma
+    - Anima
+    - Framer
 ---
 
 ## Na skróty — krótki werdykt

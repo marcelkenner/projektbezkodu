@@ -4,34 +4,36 @@ slug: plausible
 path: /narzedzia/plausible/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Plausible – prosty panel zamiast rozbudowanego Google Analytics
-  subheading: Chcę wiedzieć, skąd jest ruch i które treści dowożą, bez skomplikowanego
-    UI i śledzenia użytkowników.
+  subheading: >-
+    Chcę wiedzieć, skąd jest ruch i które treści dowożą, bez skomplikowanego UI
+    i śledzenia użytkowników.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Plausible Analytics – czym jest i dla kogo jest to narzędzie
-  description: "Opisuję Plausible jako lekką, przyjazną prywatności alternatywę dla\
-    \ Google Analytics: bez cookies, z anonimowymi danymi i hostingiem w UE."
+  description: >-
+    Opisuję Plausible jako lekką, przyjazną prywatności alternatywę dla Google
+    Analytics: bez cookies, z anonimowymi danymi i hostingiem w UE.
   keywords:
-  - Plausible Analytics
-  - analytics bez cookies
-  - GDPR
+    - Plausible Analytics
+    - analytics bez cookies
+    - GDPR
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do Plausible
     href: https://plausible.io/
 taxonomy:
   categories:
-  - narzędzia
-  - analityka
+    - narzędzia
+    - analityka
 ---
 
 ## Co deklaruję i dla kogo jest ten tekst

@@ -3,47 +3,50 @@ title: Veed — recenzja. Czy warto do krótkich filmów i AI?
 slug: recenzja
 path: /narzedzia/veed/recenzja/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: review
 hero:
   heading: Veed Recenzja
-  subheading: "Krótka, praktyczna ocena: dla kogo VEED działa, a kiedy będzie frustrujący."
+  subheading: 'Krótka, praktyczna ocena: dla kogo VEED działa, a kiedy będzie frustrujący.'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 10 min
   difficulty: łatwe
   summaryBullets:
-  - "Werdykt: dobre do szybkich materiałów social, ale uwaga na model kredytowy."
-  - "Dla kogo: twórcy shortów, zespoły marketingu, nauczyciele."
-  - "Start: załóż konto, sprawdź AI Playground i balans kredytów."
+    - >-
+      Werdykt: dobre do szybkich materiałów social, ale uwaga na model
+      kredytowy.
+    - 'Dla kogo: twórcy shortów, zespoły marketingu, nauczyciele.'
+    - 'Start: załóż konto, sprawdź AI Playground i balans kredytów.'
   primaryCta:
     label: Odwiedź stronę VEED
     href: https://www.veed.io/
   hasAffiliateLinks: false
   format: recenzja
 seo:
-  title: "Veed — recenzja: edycja wideo online z AI"
-  description: "Praktyczna recenzja VEED: jak zacząć, co działa najlepiej, gdzie pojawiają\
-    \ się problemy z kredytami AI i kiedy lepiej wybrać inne narzędzie."
+  title: 'Veed — recenzja: edycja wideo online z AI'
+  description: >-
+    Praktyczna recenzja VEED: jak zacząć, co działa najlepiej, gdzie pojawiają
+    się problemy z kredytami AI i kiedy lepiej wybrać inne narzędzie.
   keywords:
-  - veed recenzja
-  - veed opinia
-  - edytor wideo online
-  - AI video editor
+    - veed recenzja
+    - veed opinia
+    - edytor wideo online
+    - AI video editor
 taxonomy:
   categories:
-  - narzedzia
-  - wideo
-  - ai
+    - narzedzia
+    - wideo
+    - ai
   tags:
-  - veed
-  - recenzja
-  - edytor wideo
+    - veed
+    - recenzja
+    - edytor wideo
 ---
 
 ## Szybki werdykt

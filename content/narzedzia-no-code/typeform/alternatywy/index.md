@@ -5,47 +5,50 @@ path: /narzedzia/typeform/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Typeform – kiedy wystarczy prostsze narzędzie
-  subheading: Porównuję Typeform z Jotform, Tally, Paperform i innymi kreatorami formularzy.
+  subheading: >-
+    Porównuję Typeform z Jotform, Tally, Paperform i innymi kreatorami
+    formularzy.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Typeform – alternatywy i tańsze zamienniki
-  description: Zestawiam Typeform z alternatywami, które oferują podobny UX lub funkcje
+  description: >-
+    Zestawiam Typeform z alternatywami, które oferują podobny UX lub funkcje
     przy innych cenach i ograniczeniach.
   keywords:
-  - Typeform
-  - alternatywy
-  - formularze online
-  - Jotform
-  - Tally
-  - Paperform
+    - Typeform
+    - alternatywy
+    - formularze online
+    - Jotform
+    - Tally
+    - Paperform
   canonical: https://zapier.com/blog/jotform-vs-typeform/
 meta:
   difficulty: łatwe
   duration: 5–30 min (pierwszy formularz)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Porównanie Jotform vs Typeform
     href: https://zapier.com/blog/jotform-vs-typeform/
 taxonomy:
   categories:
-  - narzedzia
-  - formularze
+    - narzedzia
+    - formularze
   tags:
-  - Typeform
-  - Jotform
-  - Tally
-  - Paperform
+    - Typeform
+    - Jotform
+    - Tally
+    - Paperform
 ---
 
 ## Decyzja na start — kto co wybiera

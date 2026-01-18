@@ -5,45 +5,47 @@ path: /narzedzia/softr/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Softr – recenzja z perspektywy osoby od procesów, nie od pikseli
-  subheading: Interesuje mnie, czy klienci szybciej załatwią swoje sprawy, a zespół
+  subheading: >-
+    Interesuje mnie, czy klienci szybciej załatwią swoje sprawy, a zespół
     przestanie żyć w excelach.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Softr – recenzja po kilku wdrożeniach produkcyjnych
-  description: "Moje wrażenia z pracy w Softr: gdzie błyszczy, gdzie brakuje elastyczności\
-    \ i jak wypada w porównaniu z innymi builderami."
+  description: >-
+    Moje wrażenia z pracy w Softr: gdzie błyszczy, gdzie brakuje elastyczności i
+    jak wypada w porównaniu z innymi builderami.
   keywords:
-  - Softr
-  - no-code
-  - client portal
-  - Airtable
-  - recenzja
+    - Softr
+    - no-code
+    - client portal
+    - Airtable
+    - recenzja
   canonical: https://www.softr.io/
 meta:
   summaryBullets:
-  - "Werdykt: szybkie MVP dla procesów z danymi w Airtable/arkuszach"
-  - "Dla kogo: operatorzy, PM-y, małe zespoły produktowe"
-  - "Start: podłącz bazę, wybierz szablon, ustaw loginy"
+    - 'Werdykt: szybkie MVP dla procesów z danymi w Airtable/arkuszach'
+    - 'Dla kogo: operatorzy, PM-y, małe zespoły produktowe'
+    - 'Start: podłącz bazę, wybierz szablon, ustaw loginy'
   primaryCta:
     label: Softr — strona główna
     href: https://www.softr.io/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Autor recenzji
   duration: 10–30 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzedzia
-  - no-code
+    - narzedzia
+    - no-code
   tags:
-  - softr
-  - recenzja
-  - client-portal
+    - softr
+    - recenzja
+    - client-portal
 ---
 
 ## Obietnica: co dostaniesz i dla kogo to ma sens

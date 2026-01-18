@@ -5,41 +5,43 @@ path: /narzedzia/mailerlite/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: MailerLite — recenzja w stylu „co mam z tego ja”
-  subheading: Szybkie wnioski o kampaniach, automatyzacjach, segmentacji i landing
+  subheading: >-
+    Szybkie wnioski o kampaniach, automatyzacjach, segmentacji i landing
     page’ach — z perspektywy osoby, która robi email marketing sama.
 seo:
   title: MailerLite — recenzja dla małych firm i twórców
-  description: "Plusy i minusy MailerLite: ceny, ograniczenia Free planu, jakość automatyzacji\
-    \ i kiedy warto szukać alternatywy."
+  description: >-
+    Plusy i minusy MailerLite: ceny, ograniczenia Free planu, jakość
+    automatyzacji i kiedy warto szukać alternatywy.
   keywords:
-  - MailerLite
-  - recenzja
-  - email marketing
-  - landing pages
-  - automatyzacje
+    - MailerLite
+    - recenzja
+    - email marketing
+    - landing pages
+    - automatyzacje
   canonical: https://www.mailerlite.com
 meta:
   summaryBullets:
-  - "Werdykt: proste, tanie i skuteczne na starcie."
-  - "Dla kogo: twórcy, jednoosobowe firmy, małe sklepy."
-  - "Start: załóż konto i sprawdź limit 500 subskrybentów."
+    - 'Werdykt: proste, tanie i skuteczne na starcie.'
+    - 'Dla kogo: twórcy, jednoosobowe firmy, małe sklepy.'
+    - 'Start: załóż konto i sprawdź limit 500 subskrybentów.'
   primaryCta:
     label: Zobacz ceny MailerLite
     href: https://www.mailerlite.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - email-marketing
+    - narzędzia
+    - email-marketing
   tags:
-  - MailerLite
-  - recenzja
-  - marketing
+    - MailerLite
+    - recenzja
+    - marketing
 ---
 
 ## Krótkie decyzje: kto powinien rozważyć MailerLite

@@ -4,44 +4,46 @@ slug: alternatywy
 path: /narzedzia/zapier/alternatywy/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Co zamiast Zapiera, gdy ceny lub limity przestają się spinać
-  subheading: Zestawiam narzędzia, które lepiej radzą sobie z dużym ruchem, złożonymi
-    flow lub niższym budżetem.
+  subheading: >-
+    Zestawiam narzędzia, które lepiej radzą sobie z dużym ruchem, złożonymi flow
+    lub niższym budżetem.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Zapier – alternatywy no-code do integracji
-  description: "Porównanie kluczowych alternatyw dla Zapiera: różnice w cenie, funkcjach,\
-    \ modelu rozliczeń i poziomie trudności."
+  description: >-
+    Porównanie kluczowych alternatyw dla Zapiera: różnice w cenie, funkcjach,
+    modelu rozliczeń i poziomie trudności.
   keywords:
-  - Zapier alternatywy
-  - n8n
-  - Make
-  - Pipedream
-  - automatyzacja no-code
+    - Zapier alternatywy
+    - n8n
+    - Make
+    - Pipedream
+    - automatyzacja no-code
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj porównanie
     href: https://zapier.com/blog/pipedream-vs-zapier/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 10 min
   author: Redakcja
 taxonomy:
   categories:
-  - Narzędzia
-  - Integracje
+    - Narzędzia
+    - Integracje
   tags:
-  - Zapier
-  - alternatywy
-  - automatyzacja
+    - Zapier
+    - alternatywy
+    - automatyzacja
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

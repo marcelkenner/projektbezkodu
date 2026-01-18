@@ -4,40 +4,43 @@ slug: szablony
 path: /szablony
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szablony: szybki start i jasna decyzja dla osób tworzących treści"
+  heading: 'Szablony: szybki start i jasna decyzja dla osób tworzących treści'
   subheading: Kiedy brać gotowy układ, a kiedy zainwestować w projekt od zera
 meta:
   summaryBullets:
-  - "Werdykt: szablony oszczędzają czas, ale mogą ograniczać oryginalność."
-  - "Dla kogo: idealne dla małych firm, twórców i marketera z ograniczonym czasem."
-  - "Start: wybierz platformę i dopasuj 3 elementy marki pierwszego dnia."
+    - 'Werdykt: szablony oszczędzają czas, ale mogą ograniczać oryginalność.'
+    - >-
+      Dla kogo: idealne dla małych firm, twórców i marketera z ograniczonym
+      czasem.
+    - 'Start: wybierz platformę i dopasuj 3 elementy marki pierwszego dnia.'
   primaryCta:
     label: Przeglądaj szablony Canva
     href: https://www.canva.com/pl_pl/pro/bezplatne-szablony/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwe
   duration: 5–30 min
   tools:
-  - Canva
-  - Google Docs
-  - WordPress
+    - Canva
+    - Google Docs
+    - WordPress
   author: Redakcja
   hasAffiliateLinks: false
 seo:
   title: Szablony — kiedy użyć i jak zacząć szybko
-  description: "Praktyczny przewodnik po szablonach: kto na nich zyskuje, jak ruszyć\
-    \ w 5 minut i kiedy nie warto oszczędzać."
+  description: >-
+    Praktyczny przewodnik po szablonach: kto na nich zyskuje, jak ruszyć w 5
+    minut i kiedy nie warto oszczędzać.
   keywords:
-  - szablony
-  - Canva
-  - szablony do mediów społecznościowych
-  - gotowe projekty
+    - szablony
+    - Canva
+    - szablony do mediów społecznościowych
+    - gotowe projekty
 taxonomy:
   categories:
-  - Poradnik
-  - Productivity
+    - Poradnik
+    - Productivity
 ---
 
 ## Obietnica decyzji

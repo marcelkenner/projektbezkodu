@@ -5,49 +5,55 @@ path: /narzedzia/relume/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Relume
-  subheading: Biblioteka komponentów i narzędzia do szybkiego prototypowania dla Webflow,
+  subheading: >-
+    Biblioteka komponentów i narzędzia do szybkiego prototypowania dla Webflow,
     Figma i eksportu React.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Relume — czy warto używać biblioteki komponentów do Webflow i Figma?
-  description: "Szybkie wprowadzenie do Relume: co potrafi, jak zacząć, dla kogo to\
-    \ ma sens i jakie problemy możesz napotkać."
+  description: >-
+    Szybkie wprowadzenie do Relume: co potrafi, jak zacząć, dla kogo to ma sens
+    i jakie problemy możesz napotkać.
   keywords:
-  - Relume
-  - Relume Library
-  - Webflow components
-  - Style Guide Builder
-  - Relume import
+    - Relume
+    - Relume Library
+    - Webflow components
+    - Style Guide Builder
+    - Relume import
   canonical: https://www.relume.io/
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   primaryCta:
     label: Przeglądaj bibliotekę Relume
     href: https://www.relume.io/libraries
   summaryBullets:
-  - "Werdykt: przyspiesza pracę z Webflow, zwłaszcza przy powtarzalnych układach."
-  - "Dla kogo: agencje i freelancerzy Webflow; mniej sensu dla projektów pure React\
-    \ bez eksportu."
-  - "Start: 5 minut — załóż konto, spróbuj darmowych komponentów, zainstaluj rozszerzenie/chrome\
-    \ app."
+    - >-
+      Werdykt: przyspiesza pracę z Webflow, zwłaszcza przy powtarzalnych
+      układach.
+    - >-
+      Dla kogo: agencje i freelancerzy Webflow; mniej sensu dla projektów pure
+      React bez eksportu.
+    - >-
+      Start: 5 minut — załóż konto, spróbuj darmowych komponentów, zainstaluj
+      rozszerzenie/chrome app.
 taxonomy:
   categories:
-  - narzędzia
-  - webflow
-  - design
+    - narzędzia
+    - webflow
+    - design
   tags:
-  - Relume
-  - komponenty
-  - Figma
-  - Style Guide
+    - Relume
+    - komponenty
+    - Figma
+    - Style Guide
 ---
 
 ## Obietnica i kto skorzysta

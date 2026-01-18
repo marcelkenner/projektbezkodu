@@ -4,40 +4,42 @@ slug: cennik
 path: /narzedzia/typeform/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Typeform — cennik przełożony na liczbę odpowiedzi
-  subheading: Rozkład planów pod kątem limitów odpowiedzi, zespołów i dodatkowych
-    kosztów — szybki werdykt, kiedy warto płacić.
+  subheading: >-
+    Rozkład planów pod kątem limitów odpowiedzi, zespołów i dodatkowych kosztów
+    — szybki werdykt, kiedy warto płacić.
 seo:
   title: Typeform — cennik i opłacalność formularzy premium
-  description: Ile realnie kosztuje Typeform przy różnych wolumenach odpowiedzi i
-    czy da się zejść z kosztami na niższy plan.
+  description: >-
+    Ile realnie kosztuje Typeform przy różnych wolumenach odpowiedzi i czy da
+    się zejść z kosztami na niższy plan.
   keywords:
-  - Typeform
-  - cennik
-  - limity odpowiedzi
-  - formularze online
-  - opłacalność
+    - Typeform
+    - cennik
+    - limity odpowiedzi
+    - formularze online
+    - opłacalność
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz stronę cenową Typeform
     href: https://www.typeform.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
-  - marketing
+    - narzędzia
+    - formularze
+    - marketing
   tags:
-  - typeform
-  - cennik
-  - limity
+    - typeform
+    - cennik
+    - limity
 ---
 
 ## Obietnica decyzji (kto powinien płacić)

@@ -5,47 +5,52 @@ path: /narzedzia/unbounce/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Unbounce, gdy coś nie klika
-  subheading: Porównuję Unbounce z innymi kreatorami landing page'y, żeby dobrać narzędzie
+  subheading: >-
+    Porównuję Unbounce z innymi kreatorami landing page'y, żeby dobrać narzędzie
     pod budżet i sposób pracy.
 meta:
   summaryBullets:
-  - "Werdykt: Unbounce to potężne narzędzie. Dobre dla zespołów, które potrzebują\
-    \ testów i AI, ale koszt rośnie wraz z ruchem."
-  - "Najlepsze alternatywy: Leadpages (tańsze), Instapage (team/enterprise), Webflow\
-    \ (jeśli landing jest częścią serwisu)."
-  - "Start: szybki test w 30–60 minut — zbuduj prostą stronę, puść ruch z reklamy\
-    \ i sprawdź czas ładowania oraz konwersję."
+    - >-
+      Werdykt: Unbounce to potężne narzędzie. Dobre dla zespołów, które
+      potrzebują testów i AI, ale koszt rośnie wraz z ruchem.
+    - >-
+      Najlepsze alternatywy: Leadpages (tańsze), Instapage (team/enterprise),
+      Webflow (jeśli landing jest częścią serwisu).
+    - >-
+      Start: szybki test w 30–60 minut — zbuduj prostą stronę, puść ruch z
+      reklamy i sprawdź czas ładowania oraz konwersję.
   primaryCta:
     label: Sprawdź ceny Unbounce
     href: https://unbounce.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 5 min
   hasAffiliateLinks: false
 seo:
   title: Alternatywy dla Unbounce — przegląd i wskazówki
-  description: "Zestawienie Unbounce z Leadpages, Instapage i Webflow: kiedy opłaca\
-    \ się zostać, a kiedy zmienić narzędzie."
+  description: >-
+    Zestawienie Unbounce z Leadpages, Instapage i Webflow: kiedy opłaca się
+    zostać, a kiedy zmienić narzędzie.
   keywords:
-  - Unbounce
-  - alternatywy
-  - landing page
-  - Leadpages
-  - Instapage
-  - Webflow
+    - Unbounce
+    - alternatywy
+    - landing page
+    - Leadpages
+    - Instapage
+    - Webflow
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - landing page
-  - Unbounce
-  - Leadpages
-  - Instapage
-  - Webflow
+    - landing page
+    - Unbounce
+    - Leadpages
+    - Instapage
+    - Webflow
 ---
 
 ## Obietnica decyzji — dla kogo jest ten artykuł

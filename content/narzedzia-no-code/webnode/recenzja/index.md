@@ -5,42 +5,46 @@ path: /narzedzia/webnode/recenzja/
 draft: true
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Webnode Recenzja
-  subheading: "Krótki, praktyczny przewodnik: dla kogo to działa i jak szybko zacząć."
+  subheading: 'Krótki, praktyczny przewodnik: dla kogo to działa i jak szybko zacząć.'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webnode — szybka recenzja 2026
-  description: "Praktyczna recenzja Webnode: co dostaniesz na darmowym planie, kiedy\
-    \ wykupić Premium i kto powinien unikać tego narzędzia."
+  description: >-
+    Praktyczna recenzja Webnode: co dostaniesz na darmowym planie, kiedy wykupić
+    Premium i kto powinien unikać tego narzędzia.
   keywords:
-  - Webnode
-  - recenzja
-  - tworzenie stron
-  - webnode opinie
+    - Webnode
+    - recenzja
+    - tworzenie stron
+    - webnode opinie
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: proste i tanie dla początkujących, ograniczone dla skomplikowanych sklepów."
-  - "Dla kogo: blog, wizytówka, mały sklep — tak; agencja, rozbudowany serwis — raczej\
-    \ nie."
-  - "Start: konto, wybierz szablon, podłącz domenę (Premium)."
+    - >-
+      Werdykt: proste i tanie dla początkujących, ograniczone dla
+      skomplikowanych sklepów.
+    - >-
+      Dla kogo: blog, wizytówka, mały sklep — tak; agencja, rozbudowany serwis —
+      raczej nie.
+    - 'Start: konto, wybierz szablon, podłącz domenę (Premium).'
   primaryCta:
     label: Strona funkcji Webnode
     href: https://www.webnode.com/features/
 taxonomy:
   categories:
-  - narzędzia
-  - tworzenie stron
-  - recenzje
+    - narzędzia
+    - tworzenie stron
+    - recenzje
   tags:
-  - Webnode
-  - website-builder
-  - e-commerce
+    - Webnode
+    - website-builder
+    - e-commerce
 ---
 
 ## Szybki werdykt dla zabieganych

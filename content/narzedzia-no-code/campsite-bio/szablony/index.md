@@ -4,29 +4,30 @@ slug: szablony
 path: /szablony
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /szablony
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: Szablony — kiedy używać, jak zacząć
-  description: "Praktyczny przewodnik po szablonach: definicja, typy, szybki start\
-    \ i decyzje, które oszczędzają czas."
+  description: >-
+    Praktyczny przewodnik po szablonach: definicja, typy, szybki start i
+    decyzje, które oszczędzają czas.
   keywords:
-  - szablony
-  - template
-  - wzorce
-  - szablon dokumentu
+    - szablony
+    - template
+    - wzorce
+    - szablon dokumentu
 taxonomy:
   categories:
-  - poradnik
-  - produkcja treści
+    - poradnik
+    - produkcja treści
 ---
 
 ## Obietnica decyzji

@@ -4,40 +4,44 @@ slug: recenzja
 path: /narzedzia/memberstack/recenzja/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Memberstack – recenzja z perspektywy twórcy produktów cyfrowych
-  subheading: Czy wystarczy, byś mógł szybko sprzedawać dostęp bez budowy backendu
+  subheading: >-
+    Czy wystarczy, byś mógł szybko sprzedawać dostęp bez budowy backendu
     logowania
 seo:
-  title: "Memberstack — recenzja: czy opłaca się dla twórców produktów cyfrowych"
-  description: "Plusy i minusy Memberstack: plany cenowe, integracje z Webflow/WordPress,\
-    \ skalowalność i UX logowania."
+  title: 'Memberstack — recenzja: czy opłaca się dla twórców produktów cyfrowych'
+  description: >-
+    Plusy i minusy Memberstack: plany cenowe, integracje z Webflow/WordPress,
+    skalowalność i UX logowania.
   keywords:
-  - Memberstack
-  - recenzja
-  - Webflow
-  - członkostwa
-  - płatności
+    - Memberstack
+    - recenzja
+    - Webflow
+    - członkostwa
+    - płatności
 meta:
   summaryBullets:
-  - "Werdykt: szybkie MVP z dostępami — tak; duże SaaS-y z niestandardowym auth —\
-    \ raczej nie."
-  - "Start: załóż darmowe konto i przetestuj integrację z Webflow/WordPress."
-  - "Koszty: plany zaczynają się od kilkudziesięciu USD; sprawdź stronę cenową przed\
-    \ wdrożeniem."
+    - >-
+      Werdykt: szybkie MVP z dostępami — tak; duże SaaS-y z niestandardowym auth
+      — raczej nie.
+    - 'Start: załóż darmowe konto i przetestuj integrację z Webflow/WordPress.'
+    - >-
+      Koszty: plany zaczynają się od kilkudziesięciu USD; sprawdź stronę cenową
+      przed wdrożeniem.
   primaryCta:
     label: Zobacz cennik Memberstack
     href: https://www.memberstack.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - recenzje
-  - narzędzia
+    - recenzje
+    - narzędzia
   tags:
-  - membership
-  - no-code
+    - membership
+    - no-code
 ---
 
 ## Obietnica decyzji — krótko

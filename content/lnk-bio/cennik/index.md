@@ -1,39 +1,40 @@
 ---
-title: "Cennik: jak zrobić stronę z cenami, która sprzedaje"
+title: 'Cennik: jak zrobić stronę z cenami, która sprzedaje'
 slug: cennik
 path: /cennik
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Cennik: szybkie decyzje dla właścicieli produktów i usług"
+  heading: 'Cennik: szybkie decyzje dla właścicieli produktów i usług'
   subheading: Co zrobić najpierw, jakie pułapki omijać, i gotowy werdykt
 seo:
   title: Cennik — jak zaprojektować stronę cenową
-  description: "Krótki przewodnik po elementach cennika, który konwertuje: struktura,\
-    \ CTA, testy i narzędzia."
+  description: >-
+    Krótki przewodnik po elementach cennika, który konwertuje: struktura, CTA,
+    testy i narzędzia.
   keywords:
-  - cennik
-  - strona cenowa
-  - pricing page
-  - konwersja
+    - cennik
+    - strona cenowa
+    - pricing page
+    - konwersja
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj najlepsze praktyki
     href: https://blog.hubspot.com/marketing/best-practices-pricing-page
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - UX
-  - Marketing
+    - UX
+    - Marketing
   tags:
-  - cennik
-  - pricing
-  - konwersja
+    - cennik
+    - pricing
+    - konwersja
 ---
 
 ## Obietnica decyzji

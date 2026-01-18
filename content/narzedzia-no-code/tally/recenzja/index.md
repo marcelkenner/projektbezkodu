@@ -4,40 +4,45 @@ slug: recenzja
 path: /narzedzia/tally/recenzja/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Tally – recenzja w stylu „co mam z tego ja”
-  subheading: Odpalam darmowy plan, tworzę formularze i zbieram odpowiedzi bez kombinowania
-    z limitami.
+  subheading: >-
+    Odpalam darmowy plan, tworzę formularze i zbieram odpowiedzi bez
+    kombinowania z limitami.
 seo:
   title: Tally – recenzja z perspektywy małych zespołów i twórców
-  description: Sprawdzam, jak Tally sprawdza się w małych biznesach, newsletterach
-    i u solo twórców, którym zależy na prostocie i niskim koszcie.
+  description: >-
+    Sprawdzam, jak Tally sprawdza się w małych biznesach, newsletterach i u solo
+    twórców, którym zależy na prostocie i niskim koszcie.
   keywords:
-  - Tally
-  - formularze online
-  - recenzja
-  - formularz
-  - Tally.so
+    - Tally
+    - formularze online
+    - recenzja
+    - formularz
+    - Tally.so
 meta:
   summaryBullets:
-  - "Werdykt: świetne dla solo twórców i małych projektów, jeśli potrzebujesz prostych\
-    \ formularzy i nie chcesz limitów."
-  - "Dla kogo: freelancerzy, newslettery, MVP, małe zespoły bez rozbudowanej administracji."
-  - "Start: załóż konto i opublikuj pierwszy formularz w 5 minut."
+    - >-
+      Werdykt: świetne dla solo twórców i małych projektów, jeśli potrzebujesz
+      prostych formularzy i nie chcesz limitów.
+    - >-
+      Dla kogo: freelancerzy, newslettery, MVP, małe zespoły bez rozbudowanej
+      administracji.
+    - 'Start: załóż konto i opublikuj pierwszy formularz w 5 minut.'
   primaryCta:
     label: Odwiedź Tally (oficjalna strona)
     href: https://tally.so
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzedzia
-  - formularze
+    - narzedzia
+    - formularze
   tags:
-  - Tally
-  - recenzja
-  - formularz
+    - Tally
+    - recenzja
+    - formularz
 ---
 
 ## Obietnica decyzji — dla kogo to ma sens

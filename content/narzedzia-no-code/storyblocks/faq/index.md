@@ -3,45 +3,49 @@ title: Storyblocks FAQ — szybkie odpowiedzi i werdykt
 slug: faq
 path: /narzedzia/storyblocks/faq/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
   heading: Storyblocks Faq
-  subheading: Szybkie odpowiedzi na najważniejsze pytania o licencje, subskrypcje
-    i ograniczenia.
+  subheading: >-
+    Szybkie odpowiedzi na najważniejsze pytania o licencje, subskrypcje i
+    ograniczenia.
 seo:
   title: Storyblocks FAQ — licencje, subskrypcje, zwroty
-  description: Krótkie FAQ o tym, co można publikować z Storyblocks, kiedy masz prawa
-    do użycia, jak działa subskrypcja i kiedy możesz liczyć na zwrot.
+  description: >-
+    Krótkie FAQ o tym, co można publikować z Storyblocks, kiedy masz prawa do
+    użycia, jak działa subskrypcja i kiedy możesz liczyć na zwrot.
   keywords:
-  - Storyblocks
-  - licencja Storyblocks
-  - Storyblocks FAQ
-  - subskrypcja Storyblocks
+    - Storyblocks
+    - licencja Storyblocks
+    - Storyblocks FAQ
+    - subskrypcja Storyblocks
 meta:
   difficulty: łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Storyblocks to wygodna biblioteka z prostymi licencjami."
-  - "Dla kogo: freelancerzy i małe zespoły — Business przy większych wymaganiach."
-  - "Start: sprawdź plan, pobierz próbnie i zapisz datę odnowienia."
+    - 'Werdykt: Storyblocks to wygodna biblioteka z prostymi licencjami.'
+    - >-
+      Dla kogo: freelancerzy i małe zespoły — Business przy większych
+      wymaganiach.
+    - 'Start: sprawdź plan, pobierz próbnie i zapisz datę odnowienia.'
   primaryCta:
     label: Przejdź do pomocy Storyblocks
     href: https://help.storyblocks.com/en/collections/2099893-subscriptions
 taxonomy:
   categories:
-  - narzędzia
-  - stock
+    - narzędzia
+    - stock
   tags:
-  - storyblocks
-  - licencje
-  - subskrypcja
+    - storyblocks
+    - licencje
+    - subskrypcja
 ---
 
 ## Werdykt na start — komu to pasuje

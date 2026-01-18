@@ -4,40 +4,46 @@ slug: cennik
 path: /narzedzia/mailerlite/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: MailerLite – cennik rozpisany na realne listy i scenariusze
-  subheading: Patrzę, jak zmienia się koszt przy rosnącej liczbie subskrybentów i
-    jakie funkcje dostajesz w darmowym oraz płatnych planach.
+  subheading: >-
+    Patrzę, jak zmienia się koszt przy rosnącej liczbie subskrybentów i jakie
+    funkcje dostajesz w darmowym oraz płatnych planach.
 seo:
   title: MailerLite – cennik i opłacalność przy różnych wielkościach listy
-  description: "Tłumaczę model cenowy MailerLite: darmowy plan, skoki cenowe przy\
-    \ wzroście bazy oraz kiedy wyjdzie taniej niż u konkurencji."
+  description: >-
+    Tłumaczę model cenowy MailerLite: darmowy plan, skoki cenowe przy wzroście
+    bazy oraz kiedy wyjdzie taniej niż u konkurencji.
   keywords:
-  - MailerLite
-  - cennik
-  - email marketing
-  - plan darmowy
-  - koszty subskrybentów
+    - MailerLite
+    - cennik
+    - email marketing
+    - plan darmowy
+    - koszty subskrybentów
 meta:
   summaryBullets:
-  - "Werdykt: proste zasady — darmowy do 500 subskrybentów, potem od ok. $10/mies."
-  - "Dla kogo: startupy i małe newslettery do 500 subskrybentów; skalowanie wymaga\
-    \ porównania kosztów."
-  - "Start: załóż konto i sprawdź zakładkę Plan i billing, by zobaczyć dokładną wycenę\
-    \ dla twojej bazy."
+    - >-
+      Werdykt: proste zasady — darmowy do 500 subskrybentów, potem od ok.
+      $10/mies.
+    - >-
+      Dla kogo: startupy i małe newslettery do 500 subskrybentów; skalowanie
+      wymaga porównania kosztów.
+    - >-
+      Start: załóż konto i sprawdź zakładkę Plan i billing, by zobaczyć dokładną
+      wycenę dla twojej bazy.
   primaryCta:
     label: Zobacz aktualne ceny MailerLite
     href: https://www.mailerlite.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzędzia
-  - email-marketing
+    - narzędzia
+    - email-marketing
   tags:
-  - MailerLite
-  - cennik
-  - marketing
+    - MailerLite
+    - cennik
+    - marketing
 ---
 
 ## Obietnica i krótka decyzja

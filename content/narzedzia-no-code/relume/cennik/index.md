@@ -5,7 +5,7 @@ path: /narzedzia/relume/cennik/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Relume — cennik i szybki werdykt
   subheading: Który plan opłaca się kupić — dla freelancera, małego studia czy agencji?
@@ -14,27 +14,30 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Relume — cennik 2026, porównanie planów i krótki werdykt
-  description: Przejrzyste porównanie planów Relume (Free, Starter, Pro), kto na tym
+  description: >-
+    Przejrzyste porównanie planów Relume (Free, Starter, Pro), kto na tym
     zyskuje i jak zacząć w kilka minut.
   keywords:
-  - Relume
-  - Relume cennik
-  - Relume pricing
-  - Relume plany
+    - Relume
+    - Relume cennik
+    - Relume pricing
+    - Relume plany
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: najlepsze dla szybkiego prototypowania i eksportu do Webflow/Figma."
-  - "Dla kogo: freelancerzy i małe zespoły chcące przyspieszyć fazę projektową."
-  - "Start: załóż konto i wypróbuj Starter przez 7 dni."
+    - >-
+      Werdykt: najlepsze dla szybkiego prototypowania i eksportu do
+      Webflow/Figma.
+    - 'Dla kogo: freelancerzy i małe zespoły chcące przyspieszyć fazę projektową.'
+    - 'Start: załóż konto i wypróbuj Starter przez 7 dni.'
   primaryCta:
     label: Zobacz cennik Relume
     href: https://library.relume.io/pricing
 taxonomy:
   categories:
-  - narzedzia
-  - webdev
+    - narzedzia
+    - webdev
 ---
 
 ## Obietnica decyzji — kto powinien wybrać Relume

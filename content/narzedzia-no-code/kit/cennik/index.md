@@ -5,45 +5,49 @@ path: /narzedzia/convertkit/cennik/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: ConvertKit – cennik w kontekście przychodów z newslettera
-  subheading: Patrzę, ile kosztuje trzymanie rosnącej bazy, gdy zarabiasz na produktach,
+  subheading: >-
+    Patrzę, ile kosztuje trzymanie rosnącej bazy, gdy zarabiasz na produktach,
     subskrypcjach lub sponsoringach.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: ConvertKit – cennik i opłacalność dla twórców
-  description: Analiza cen ConvertKit (Kit) — jak koszty rosną z liczbą subskrybentów
-    i kiedy opłaca się przejść na plan płatny.
+  description: >-
+    Analiza cen ConvertKit (Kit) — jak koszty rosną z liczbą subskrybentów i
+    kiedy opłaca się przejść na plan płatny.
   keywords:
-  - ConvertKit cennik
-  - ceny ConvertKit
-  - Kit cennik
-  - newsletter koszt
+    - ConvertKit cennik
+    - ceny ConvertKit
+    - Kit cennik
+    - newsletter koszt
   canonical: https://convertkit.com/pricing
 meta:
   difficulty: łatwe do sprawdzenia
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz cennik ConvertKit
     href: https://convertkit.com/pricing
   summaryBullets:
-  - "Werdykt: najlepszy dla twórców, którzy zarabiają bezpośrednio z listy (produkty/subskrypcje)."
-  - "Dla kogo: małe i średnie listy monetizujące, nie dla tanich masówek."
-  - "Start: załóż darmowe konto i policz koszt na 1% konwersji płacących."
+    - >-
+      Werdykt: najlepszy dla twórców, którzy zarabiają bezpośrednio z listy
+      (produkty/subskrypcje).
+    - 'Dla kogo: małe i średnie listy monetizujące, nie dla tanich masówek.'
+    - 'Start: załóż darmowe konto i policz koszt na 1% konwersji płacących.'
 taxonomy:
   categories:
-  - narzędzia
-  - email marketing
+    - narzędzia
+    - email marketing
   tags:
-  - ConvertKit
-  - cennik
-  - newsletter
+    - ConvertKit
+    - cennik
+    - newsletter
 ---
 
 ## Szybki werdykt dla twórców

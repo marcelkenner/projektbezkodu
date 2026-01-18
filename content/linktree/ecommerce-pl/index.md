@@ -4,35 +4,38 @@ slug: ecommerce-pl
 path: /ecommerce-pl
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Ecommerce w Polsce: czy to jeszcze okazja?"
+  heading: 'Ecommerce w Polsce: czy to jeszcze okazja?'
   subheading: Krótki, uczciwy przegląd dla właścicieli sklepów i kierowników sprzedaży
   primaryCta:
-    label: "Raport PwC: prognozy rynku"
-    href: https://www.pwc.pl/pl/media/2024/2024-08-21-prognozy-strategyand-polski-rynek-e-commerce-bedzie-wart-192-mld-zl-w-2028-roku.html
+    label: 'Raport PwC: prognozy rynku'
+    href: >-
+      https://www.pwc.pl/pl/media/2024/2024-08-21-prognozy-strategyand-polski-rynek-e-commerce-bedzie-wart-192-mld-zl-w-2028-roku.html
 seo:
   title: Ecommerce w Polsce — 2026. Kogo to jeszcze opłaca?
-  description: "Praktyczny przegląd rynku e-commerce w Polsce: skala, kanały, koszty\
-    \ i szybkie decyzje dla przedsiębiorców."
+  description: >-
+    Praktyczny przegląd rynku e-commerce w Polsce: skala, kanały, koszty i
+    szybkie decyzje dla przedsiębiorców.
   keywords:
-  - ecommerce Polska
-  - handel online
-  - Allegro
-  - m-commerce
+    - ecommerce Polska
+    - handel online
+    - Allegro
+    - m-commerce
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Czytaj raport PwC
-    href: https://www.pwc.pl/pl/media/2024/2024-08-21-prognozy-strategyand-polski-rynek-e-commerce-bedzie-wart-192-mld-zl-w-2028-roku.html
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.pwc.pl/pl/media/2024/2024-08-21-prognozy-strategyand-polski-rynek-e-commerce-bedzie-wart-192-mld-zl-w-2028-roku.html
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - ecommerce
-  - handel
+    - ecommerce
+    - handel
 ---
 
 ## Obietnica i werdykt

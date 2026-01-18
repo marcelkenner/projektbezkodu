@@ -5,41 +5,42 @@ path: /narzedzia/shopify/
 draft: true
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shopify
-  subheading: "Krótki przewodnik: kiedy to dobry wybór, a kiedy sprawdzić alternatywy"
+  subheading: 'Krótki przewodnik: kiedy to dobry wybór, a kiedy sprawdzić alternatywy'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Shopify — czy warto w 2026? Krótki przewodnik
-  description: "Werdykt: dla kogo Shopify ma sens, jak zacząć i czego się spodziewać\
-    \ po cenach i funkcjach."
+  description: >-
+    Werdykt: dla kogo Shopify ma sens, jak zacząć i czego się spodziewać po
+    cenach i funkcjach.
   keywords:
-  - Shopify
-  - platforma e-commerce
-  - sklep internetowy
+    - Shopify
+    - platforma e-commerce
+    - sklep internetowy
 meta:
   difficulty: Łatwy do przetestowania
   duration: 5–60 minut (zależnie od zakresu)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dobry start dla większości sprzedających, zwłaszcza B2C."
-  - "Dla kogo: jednoosobowe sklepy i małe marki, które chcą szybko wystartować."
-  - "Start: załóż konto i sprawdź plan Basic w 30 minut."
+    - 'Werdykt: dobry start dla większości sprzedających, zwłaszcza B2C.'
+    - 'Dla kogo: jednoosobowe sklepy i małe marki, które chcą szybko wystartować.'
+    - 'Start: załóż konto i sprawdź plan Basic w 30 minut.'
   primaryCta:
     label: Zobacz plany Shopify
     href: https://www.shopify.com/pricing
 taxonomy:
   categories:
-  - narzędzia
-  - e-commerce
+    - narzędzia
+    - e-commerce
   tags:
-  - shopify
-  - sklep-internetowy
+    - shopify
+    - sklep-internetowy
 ---
 
 ## Obietnica decyzji — kogo to dotyczy

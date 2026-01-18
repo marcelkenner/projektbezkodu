@@ -4,46 +4,50 @@ slug: uploadcare
 path: /narzedzia/uploadcare/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Uploadcare – jedno miejsce na upload, przetwarzanie i CDN
-  subheading: Użytkownik wrzuca plik, a Ty dostajesz gotowy URL, miniatury i konwersje
+  subheading: >-
+    Użytkownik wrzuca plik, a Ty dostajesz gotowy URL, miniatury i konwersje
     serwowane z CDN bez grzebania w serwerach.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Uploadcare – czym jest i kiedy warto go użyć
-  description: "Praktyczny przegląd Uploadcare: co umie uploader, CDN, URL API i kiedy\
-    \ opłaca się oddelegować obsługę plików do chmury."
+  description: >-
+    Praktyczny przegląd Uploadcare: co umie uploader, CDN, URL API i kiedy
+    opłaca się oddelegować obsługę plików do chmury.
   keywords:
-  - Uploadcare
-  - CDN obrazów
-  - uploader plików
-  - URL API
-  - optymalizacja obrazów
+    - Uploadcare
+    - CDN obrazów
+    - uploader plików
+    - URL API
+    - optymalizacja obrazów
   canonical: https://uploadcare.com
 meta:
   summaryBullets:
-  - "Werdykt: dobre dla aplikacji z UGC i szybkim startem, mniej dla ultra-tanio skalu"
-  - "Dla kogo: MVP, sklepy, media i zespoły bez chęci budowy własnego CDN"
-  - "Start: 5 minut — załóż konto, przetestuj widget i zobacz wersje URL API"
+    - >-
+      Werdykt: dobre dla aplikacji z UGC i szybkim startem, mniej dla
+      ultra-tanio skalu
+    - 'Dla kogo: MVP, sklepy, media i zespoły bez chęci budowy własnego CDN'
+    - 'Start: 5 minut — załóż konto, przetestuj widget i zobacz wersje URL API'
   primaryCta:
     label: Zobacz cennik Uploadcare
     href: https://uploadcare.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 5 min
   difficulty: łatwy
 taxonomy:
   categories:
-  - narzędzia
-  - infrastruktura
+    - narzędzia
+    - infrastruktura
   tags:
-  - uploadcare
-  - cdn
-  - obrazy
-  - uploader
+    - uploadcare
+    - cdn
+    - obrazy
+    - uploader
 ---
 
 ## Obietnica decyzji: czy warto użyć Uploadcare i dla kogo to jest dobre

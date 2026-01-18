@@ -5,43 +5,45 @@ path: /narzedzia/zapier/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Zapier — klej, który spina Twoje aplikacje
-  subheading: "Szybkie automatyzacje bez programowania: co działa, kiedy to się opłaca\
-    \ i jak zacząć w 5 minut."
+  subheading: >-
+    Szybkie automatyzacje bez programowania: co działa, kiedy to się opłaca i
+    jak zacząć w 5 minut.
 seo:
   title: Zapier — jak wykorzystać go w codziennej pracy
-  description: "Jak wykorzystać Zapier w codziennej pracy: szybkie integracje i automatyzacja\
-    \ powtarzalnych zadań."
+  description: >-
+    Jak wykorzystać Zapier w codziennej pracy: szybkie integracje i
+    automatyzacja powtarzalnych zadań.
   keywords:
-  - Zapier
-  - automatyzacja
-  - integracje
-  - no-code
-  - workflow
+    - Zapier
+    - automatyzacja
+    - integracje
+    - no-code
+    - workflow
   canonical: https://zapier.com
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Odwiedź Zapier
     href: https://zapier.com
   summaryBullets:
-  - "Werdykt: prosty start, koszt przy skali"
-  - "Dla kogo: solo i zespoły z niskim/umiarkowanym wolumenem zadań"
-  - "Start: załóż konto i uruchom pierwszy Zap w 5 minut"
+    - 'Werdykt: prosty start, koszt przy skali'
+    - 'Dla kogo: solo i zespoły z niskim/umiarkowanym wolumenem zadań'
+    - 'Start: załóż konto i uruchom pierwszy Zap w 5 minut'
 taxonomy:
   categories:
-  - narzędzia
-  - automatyzacja
+    - narzędzia
+    - automatyzacja
   tags:
-  - Zapier
-  - integracje
-  - no-code
+    - Zapier
+    - integracje
+    - no-code
 ---
 
 ## Obietnica i szybki werdykt dla kogo

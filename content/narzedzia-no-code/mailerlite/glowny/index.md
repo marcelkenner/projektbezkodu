@@ -5,42 +5,44 @@ path: /narzedzia/mailerlite/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: MailerLite – prosty start z newsletterem i automatyzacją
-  subheading: Zakładam konto, importuję listę, ustawiam pierwsze automaty i kampanie,
-    a platforma pilnuje wysyłek i statystyk.
+  subheading: >-
+    Zakładam konto, importuję listę, ustawiam pierwsze automaty i kampanie, a
+    platforma pilnuje wysyłek i statystyk.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: MailerLite – czym jest i kiedy warto go użyć
-  description: "Przegląd funkcji MailerLite: kreator newsletterów, automatyzacje,\
-    \ strony docelowe, formularze i prosty cennik oparty o liczbę subskrybentów."
+  description: >-
+    Przegląd funkcji MailerLite: kreator newsletterów, automatyzacje, strony
+    docelowe, formularze i prosty cennik oparty o liczbę subskrybentów.
   keywords:
-  - MailerLite
-  - email marketing
-  - landing page
-  - automatyzacja
-  - newsletter
+    - MailerLite
+    - email marketing
+    - landing page
+    - automatyzacja
+    - newsletter
 meta:
   summaryBullets:
-  - "Werdykt: prosty start dla małych i średnich projektów"
-  - "Dla kogo: soloprzedsiębiorcy i zespoły marketingu z ograniczonym budżetem"
-  - "Start: konto, import listy, prosty automat powitalny"
+    - 'Werdykt: prosty start dla małych i średnich projektów'
+    - 'Dla kogo: soloprzedsiębiorcy i zespoły marketingu z ograniczonym budżetem'
+    - 'Start: konto, import listy, prosty automat powitalny'
   primaryCta:
     label: Zobacz landing pages
     href: https://www.mailerlite.com/features/landing-pages
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - email-marketing
+    - narzędzia
+    - email-marketing
   tags:
-  - MailerLite
-  - newsletter
-  - landing-pages
+    - MailerLite
+    - newsletter
+    - landing-pages
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

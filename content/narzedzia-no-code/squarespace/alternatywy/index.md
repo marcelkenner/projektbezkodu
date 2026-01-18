@@ -3,7 +3,7 @@ title: Squarespace Alternatywy
 slug: alternatywy
 path: /narzedzia/squarespace/alternatywy/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: Squarespace Alternatywy
@@ -13,34 +13,35 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Squarespace Alternatywy — który builder wybrać w 2026
-  description: "Porównanie alternatyw dla Squarespace: Wix, WordPress, Shopify, Webflow,\
-    \ Hostinger. Szybkie werdykty i plan migracji."
+  description: >-
+    Porównanie alternatyw dla Squarespace: Wix, WordPress, Shopify, Webflow,
+    Hostinger. Szybkie werdykty i plan migracji.
   keywords:
-  - Squarespace alternatywy
-  - alternatywa dla Squarespace
-  - najlepszy builder 2026
+    - Squarespace alternatywy
+    - alternatywa dla Squarespace
+    - najlepszy builder 2026
   canonical: https://www.techradar.com/best/alternatives-to-squarespace
 meta:
   difficulty: Łatwy
   duration: 10 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: wybór zależy od celu — design, e‑commerce, budżet."
-  - "Dla kogo: jasne rekomendacje per segment."
-  - "Start: 30-minutowy plan migracji i testów."
+    - 'Werdykt: wybór zależy od celu — design, e‑commerce, budżet.'
+    - 'Dla kogo: jasne rekomendacje per segment.'
+    - 'Start: 30-minutowy plan migracji i testów.'
   primaryCta:
     label: Przewodnik TechRadar
     href: https://www.techradar.com/best/alternatives-to-squarespace
 taxonomy:
   categories:
-  - narzedzia
-  - web
+    - narzedzia
+    - web
   tags:
-  - squarespace
-  - alternatywy
-  - website-builder
+    - squarespace
+    - alternatywy
+    - website-builder
 ---
 
 ## Krótka decyzja — dla kogo ten tekst

@@ -1,42 +1,45 @@
 ---
-title: "Przykłady: jak pisać skuteczne przykłady w dokumentacji"
+title: 'Przykłady: jak pisać skuteczne przykłady w dokumentacji'
 slug: przyklady
 path: /przyklady
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Przykłady, które działają: szybki przewodnik"
-  subheading: Jak konstruować przykłady w dokumentacji, żeby czytelnik zrobił to sam—bez
+  heading: 'Przykłady, które działają: szybki przewodnik'
+  subheading: >-
+    Jak konstruować przykłady w dokumentacji, żeby czytelnik zrobił to sam—bez
     zgadywania
 seo:
   title: Przykłady w dokumentacji — jak pisać praktyczne i działające przykłady
-  description: "Krótkie zasady tworzenia przykładów w dokumentacji: co działa, co\
-    \ frustruje i jak szybko sprawdzić poprawność."
+  description: >-
+    Krótkie zasady tworzenia przykładów w dokumentacji: co działa, co frustruje
+    i jak szybko sprawdzić poprawność.
   keywords:
-  - przykłady
-  - dokumentacja
-  - code examples
-  - best practices
+    - przykłady
+    - dokumentacja
+    - code examples
+    - best practices
 meta:
   summaryBullets:
-  - "Werdykt: zacznij od krótkiego, działającego przykładu."
-  - "Dla kogo: autorzy dokumentacji, developerzy, technical writerzy."
-  - "Start: 5 minut na działający fragment i opis krok po kroku."
+    - 'Werdykt: zacznij od krótkiego, działającego przykładu.'
+    - 'Dla kogo: autorzy dokumentacji, developerzy, technical writerzy.'
+    - 'Start: 5 minut na działający fragment i opis krok po kroku.'
   primaryCta:
     label: MDN — Writing style guide
-    href: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide
-  updatedAt: "2026-01-14"
+    href: >-
+      https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - poradnik
+    - poradnik
   tags:
-  - dokumentacja
-  - przykłady
-  - pisanie
+    - dokumentacja
+    - przykłady
+    - pisanie
 ---
 
 ## Obietnica i grupa

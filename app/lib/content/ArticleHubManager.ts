@@ -30,6 +30,10 @@ export class ArticleHubManager {
     private readonly basePath = DEFAULT_BASE_PATH,
   ) {}
 
+  listHubs(maxDepth = 2): ArticleHubDescriptor[] {
+    return this.listHubDescriptors(maxDepth);
+  }
+
   resolveSegments(segments: string[]): string[] {
     if (!segments.length) {
       return [];

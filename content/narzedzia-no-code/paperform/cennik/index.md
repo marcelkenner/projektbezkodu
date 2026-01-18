@@ -5,7 +5,7 @@ path: /narzedzia/paperform/cennik/
 draft: false
 template: article
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Paperform – cennik przeliczony na projekty i zespoły
   subheading: Ile realnie zapłacisz za formularze, płatności i strony w Paperform
@@ -14,33 +14,35 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Paperform – cennik i opłacalność planów
-  description: "Rozkładam cennik Paperform na konkretne zastosowania: strony zapisów,\
-    \ sprzedaż produktów, formularze zgłoszeniowe."
+  description: >-
+    Rozkładam cennik Paperform na konkretne zastosowania: strony zapisów,
+    sprzedaż produktów, formularze zgłoszeniowe.
   keywords:
-  - Paperform
-  - cennik
-  - formularze
-  - płatności
-  - formularz online
+    - Paperform
+    - cennik
+    - formularze
+    - płatności
+    - formularz online
 meta:
   summaryBullets:
-  - "Werdykt: jasny wybór dla małych projektów i testów; dla dużych zespołów sprawdź\
-    \ limity zgłoszeń."
-  - "Dla kogo: freelancerzy, małe firmy, zespoły produktowe."
-  - "Start: załóż konto i przetestuj plan Free lub 7-dniowy trial Pro."
+    - >-
+      Werdykt: jasny wybór dla małych projektów i testów; dla dużych zespołów
+      sprawdź limity zgłoszeń.
+    - 'Dla kogo: freelancerzy, małe firmy, zespoły produktowe.'
+    - 'Start: załóż konto i przetestuj plan Free lub 7-dniowy trial Pro.'
   primaryCta:
     label: Sprawdź cennik Paperform
     href: https://paperform.co/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - Paperform
-  - cennik
-  - płatności
+    - Paperform
+    - cennik
+    - płatności
 ---
 
 ## Obietnica decyzji: kto powinien wybrać Paperform

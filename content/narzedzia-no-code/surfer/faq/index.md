@@ -4,38 +4,41 @@ slug: faq
 path: /narzedzia/surfer/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Surfer – odpowiedzi na najczęstsze pytania
-  subheading: Content Score, integracje, limity, języki, współpraca z copywriterami
-    i migracja z innych procesów SEO.
+  subheading: >-
+    Content Score, integracje, limity, języki, współpraca z copywriterami i
+    migracja z innych procesów SEO.
 seo:
   title: Surfer – FAQ dla osób testujących narzędzie
-  description: "Odpowiadam na powtarzające się pytania o Surfer: jak działa Content\
-    \ Editor, jak interpretować sugestie, jak dzielić dostęp w zespole i jak nie przepłacać."
+  description: >-
+    Odpowiadam na powtarzające się pytania o Surfer: jak działa Content Editor,
+    jak interpretować sugestie, jak dzielić dostęp w zespole i jak nie
+    przepłacać.
   keywords:
-  - Surfer
-  - Surfer FAQ
-  - Content Score
-  - Surfer integracje
-  - Surfer ceny
+    - Surfer
+    - Surfer FAQ
+    - Content Score
+    - Surfer integracje
+    - Surfer ceny
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Strona z planami Surfer
     href: https://surferseo.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzedzia
-  - seo
+    - narzedzia
+    - seo
   tags:
-  - Surfer
-  - content-score
-  - integracje
+    - Surfer
+    - content-score
+    - integracje
 ---
 
 ## Obietnica decyzji dla testera

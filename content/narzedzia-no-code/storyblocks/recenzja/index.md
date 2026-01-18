@@ -1,11 +1,11 @@
 ---
-title: "Storyblocks — recenzja i poradnik: czy warto subskrybować?"
+title: 'Storyblocks — recenzja i poradnik: czy warto subskrybować?'
 slug: recenzja
 path: /narzedzia/storyblocks/recenzja/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Storyblocks — recenzja i poradnik
   subheading: Szybkie wnioski dla twórców wideo i małych agencji
@@ -13,37 +13,39 @@ hero:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Storyblocks — recenzja: ceny, licencja, kiedy warto"
-  description: "Praktyczna recenzja Storyblocks: ceny, rodzaje licencji, największe\
-    \ ograniczenia i kto na tym zyska."
+  title: 'Storyblocks — recenzja: ceny, licencja, kiedy warto'
+  description: >-
+    Praktyczna recenzja Storyblocks: ceny, rodzaje licencji, największe
+    ograniczenia i kto na tym zyska.
   keywords:
-  - Storyblocks
-  - stock video
-  - recenzja
-  - licencja
-  - cennik
+    - Storyblocks
+    - stock video
+    - recenzja
+    - licencja
+    - cennik
 meta:
   difficulty: Łatwe do sprawdzenia
   duration: 5–10 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz aktualny cennik Storyblocks
     href: https://www.storyblocks.com/pricing
   summaryBullets:
-  - "Werdykt: dobre dla osób produkujących dużo materiału; nie dla poszukujących unikatowych\
-    \ premium-klipów."
-  - "Dla kogo: twórcy wideo, YT, niewielkie agencje, freelancerzy pakietowi."
-  - "Start: konto + wybór planu = pierwsze pobranie w 5–10 minut."
+    - >-
+      Werdykt: dobre dla osób produkujących dużo materiału; nie dla
+      poszukujących unikatowych premium-klipów.
+    - 'Dla kogo: twórcy wideo, YT, niewielkie agencje, freelancerzy pakietowi.'
+    - 'Start: konto + wybór planu = pierwsze pobranie w 5–10 minut.'
 taxonomy:
   categories:
-  - narzędzia
-  - stock
+    - narzędzia
+    - stock
   tags:
-  - Storyblocks
-  - wideo
-  - licencje
+    - Storyblocks
+    - wideo
+    - licencje
 ---
 
 ## Obietnica decyzji — komu to pasuje i kto powinien uważać

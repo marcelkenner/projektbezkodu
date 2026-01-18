@@ -5,44 +5,51 @@ path: /narzedzia/squarespace/szablony/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Squarespace Szablony
-  subheading: "Krótki przewodnik: kiedy użyć oficjalnego szablonu, kiedy kupić gotowy\
-    \ motyw, a kiedy zatrudnić projektanta."
+  subheading: >-
+    Krótki przewodnik: kiedy użyć oficjalnego szablonu, kiedy kupić gotowy
+    motyw, a kiedy zatrudnić projektanta.
 seo:
-  title: "Squarespace Szablony: wybór, start, werdykt"
-  description: Praktyczny przewodnik po szablonach Squarespace — oficjalne szablony,
-    motywy firm trzecich, różnice wersji i szybki plan startowy.
+  title: 'Squarespace Szablony: wybór, start, werdykt'
+  description: >-
+    Praktyczny przewodnik po szablonach Squarespace — oficjalne szablony, motywy
+    firm trzecich, różnice wersji i szybki plan startowy.
   keywords:
-  - Squarespace szablony
-  - szablony strony
-  - Squarespace templates
-  - jak wybrać szablon
+    - Squarespace szablony
+    - szablony strony
+    - Squarespace templates
+    - jak wybrać szablon
   canonical: https://www.squarespace.com/websites/designer-templates
 meta:
   difficulty: łatwe
   duration: 10–45 min (pierwszy wybór + podstawowa konfiguracja)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz oficjalne szablony Squarespace
     href: https://www.squarespace.com/websites/designer-templates
   summaryBullets:
-  - "Werdykt: szybki start z oficjalnym szablonem, premium tylko gdy potrzebujesz\
-    \ unikalności."
-  - "Dla kogo: kreatywni, sklepy, portfolio — gdy zależy Ci na czasie i responsywności."
-  - "Start: załóż trial, wybierz kategorię, podmień treści i testuj na telefonie."
+    - >-
+      Werdykt: szybki start z oficjalnym szablonem, premium tylko gdy
+      potrzebujesz unikalności.
+    - >-
+      Dla kogo: kreatywni, sklepy, portfolio — gdy zależy Ci na czasie i
+      responsywności.
+    - >-
+      Start: załóż trial, wybierz kategorię, podmień treści i testuj na
+      telefonie.
 taxonomy:
   categories:
-  - narzędzia
-  - web
+    - narzędzia
+    - web
   tags:
-  - Squarespace
-  - szablony
-  - CMS
-  - design
+    - Squarespace
+    - szablony
+    - CMS
+    - design
 ---
 
 ## Obietnica i decyzja na początku

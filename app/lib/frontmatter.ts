@@ -20,8 +20,8 @@ const OptionalStringOrDateSchema = z
   });
 
 const FrontmatterSEOSchema = z.object({
-  title: z.string(),
-  description: z.string(),
+  title: OptionalStringSchema,
+  description: OptionalStringSchema,
   keywords: z.array(z.string()).optional(),
   canonical: OptionalStringSchema,
   image: OptionalStringSchema,
@@ -95,8 +95,8 @@ const FrontmatterTaxonomySchema = z.object({
 const HeroContentSchema = z.object({
   heading: z.string(),
   subheading: OptionalStringSchema,
-  primaryCta: OptionalStringSchema,
-  secondaryCta: OptionalStringSchema,
+  primaryCta: z.union([OptionalStringSchema, FrontmatterActionLinkSchema]),
+  secondaryCta: z.union([OptionalStringSchema, FrontmatterActionLinkSchema]),
   trustLogos: z.array(z.string()).optional(),
   image: z
     .object({
@@ -125,8 +125,8 @@ const FrontmatterSchema = z
   .passthrough();
 
 export interface FrontmatterSEO {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   keywords?: string[];
   canonical?: string;
   image?: string;
@@ -186,8 +186,8 @@ export interface FrontmatterTaxonomy {
 export interface HeroContent {
   heading: string;
   subheading?: string;
-  primaryCta?: string;
-  secondaryCta?: string;
+  primaryCta?: string | FrontmatterActionLink;
+  secondaryCta?: string | FrontmatterActionLink;
   trustLogos?: string[];
   image?: {
     src: string;
@@ -245,10 +245,16 @@ function normalizeStringArray(
 }
 
 function normalizePath(input: string | undefined, slug: string): string {
-  const raw = input && input.trim().length ? input : `/${slug}`;
-  // Collapse duplicate slashes and ensure a single leading slash.
-  const collapsed = raw.replace(/\/{2,}/g, "/");
-  return collapsed.startsWith("/") ? collapsed : `/${collapsed}`;
+  const raw = input && input.trim().length ? input.trim() : `/${slug}`;
+  const withoutDomain = raw.replace(/^https?:\/\/[^/]+/i, "");
+  const match = withoutDomain.match(/^([^?#]*)([?#].*)?$/);
+  const pathPart = match?.[1] ?? withoutDomain;
+  const suffix = match?.[2] ?? "";
+
+  const collapsed = pathPart.replace(/\/{2,}/g, "/");
+  const withLeading = collapsed.startsWith("/") ? collapsed : `/${collapsed}`;
+  const withTrailing = withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
+  return `${withTrailing}${suffix}`;
 }
 
 function dedupe(values?: string[]): string[] | undefined {

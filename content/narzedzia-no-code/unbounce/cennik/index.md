@@ -4,42 +4,48 @@ slug: cennik
 path: /narzedzia/unbounce/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Unbounce — cennik po ludzku
-  subheading: "Rozbieram plany Unbounce na części pierwsze: limity ruchu, testy A/B,\
-    \ koszty w praktyce."
+  subheading: >-
+    Rozbieram plany Unbounce na części pierwsze: limity ruchu, testy A/B, koszty
+    w praktyce.
 seo:
   title: Unbounce — cennik i opłacalność
-  description: "Krótka analiza: które plany Unbounce mają sens przy Twoim ruchu, budżecie\
-    \ i liczbie kampanii."
+  description: >-
+    Krótka analiza: które plany Unbounce mają sens przy Twoim ruchu, budżecie i
+    liczbie kampanii.
   keywords:
-  - Unbounce
-  - cennik Unbounce
-  - landing pages
-  - A/B testy
-  - limity odwiedzin
+    - Unbounce
+    - cennik Unbounce
+    - landing pages
+    - A/B testy
+    - limity odwiedzin
 meta:
   summaryBullets:
-  - "Werdykt: Unbounce opłaca się przy stałym ruchu powyżej kilku tysięcy m/m i jeśli\
-    \ rzeczywiście testujesz."
-  - "Czego pilnować: limitów unikalnych odwiedzin na planie i kosztu dopłat przy przekroczeniu."
-  - "Start w 5 minut: bezpłatne 14-dniowe konto i szybkie opublikowanie pierwszej\
-    \ landing page."
+    - >-
+      Werdykt: Unbounce opłaca się przy stałym ruchu powyżej kilku tysięcy m/m i
+      jeśli rzeczywiście testujesz.
+    - >-
+      Czego pilnować: limitów unikalnych odwiedzin na planie i kosztu dopłat
+      przy przekroczeniu.
+    - >-
+      Start w 5 minut: bezpłatne 14-dniowe konto i szybkie opublikowanie
+      pierwszej landing page.
   primaryCta:
     label: Zobacz aktualny cennik Unbounce
     href: https://unbounce.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - landing-pages
-  - CRO
-  - Unbounce
+    - landing-pages
+    - CRO
+    - Unbounce
 ---
 
 ## Obietnica decyzji — komu ten artykuł pomoże

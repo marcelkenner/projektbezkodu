@@ -4,47 +4,51 @@ slug: szablony
 path: /szablony
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Szablony — kiedy warto ich używać i jak zacząć
-  subheading: "Krótki przewodnik dla osób, zespołów i freelancerów: decyzja, pierwszy\
-    \ krok, typowe pułapki."
+  subheading: >-
+    Krótki przewodnik dla osób, zespołów i freelancerów: decyzja, pierwszy krok,
+    typowe pułapki.
   primaryCta:
     label: Przeglądaj szablony Notion
     href: https://www.notion.com/templates
 seo:
-  title: "Szablony: kiedy używać, jak wybierać i od czego zacząć"
-  description: "Praktyczny przewodnik po szablonach: czym są, jak oszczędzają czas\
-    \ i kiedy lepiej zrobić własny proces zamiast kopiować gotowiec."
+  title: 'Szablony: kiedy używać, jak wybierać i od czego zacząć'
+  description: >-
+    Praktyczny przewodnik po szablonach: czym są, jak oszczędzają czas i kiedy
+    lepiej zrobić własny proces zamiast kopiować gotowiec.
   keywords:
-  - szablony
-  - template
-  - wydajność
-  - Notion
-  - email templates
+    - szablony
+    - template
+    - wydajność
+    - Notion
+    - email templates
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz galerię szablonów Notion
     href: https://www.notion.com/templates
   summaryBullets:
-  - "Werdykt: szablony oszczędzają czas, ale nie rozwiązują złej struktury."
-  - "Dla kogo: osoby i zespoły, które powtarzają zadania i potrzebują spójności."
-  - "Start: wybierz jeden prosty szablon i dostosuj go w 15–30 minut."
+    - 'Werdykt: szablony oszczędzają czas, ale nie rozwiązują złej struktury.'
+    - >-
+      Dla kogo: osoby i zespoły, które powtarzają zadania i potrzebują
+      spójności.
+    - 'Start: wybierz jeden prosty szablon i dostosuj go w 15–30 minut.'
 taxonomy:
   categories:
-  - produkcja
-  - narzędzia
-  - poradnik
+    - produkcja
+    - narzędzia
+    - poradnik
   tags:
-  - szablony
-  - produktywność
-  - Notion
-  - e-mail
+    - szablony
+    - produktywność
+    - Notion
+    - e-mail
 ---
 
 ## Obietnica decyzji — co dostaniesz w 2 minuty

@@ -4,45 +4,50 @@ slug: cennik
 path: /narzedzia/leadpages/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Leadpages – cennik bez gwiazdek
-  subheading: "Rozkładam plany Leadpages na czynniki pierwsze: liczba stron, ruch,\
-    \ integracje i funkcje, które realnie coś zmieniają."
+  subheading: >-
+    Rozkładam plany Leadpages na czynniki pierwsze: liczba stron, ruch,
+    integracje i funkcje, które realnie coś zmieniają.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Leadpages – cennik i który plan wybrać
-  description: "Pomagam wybrać plan Leadpages: omawiam ceny, limity, różnice między\
-    \ pakietami i to, co dostajesz w zamian."
+  description: >-
+    Pomagam wybrać plan Leadpages: omawiam ceny, limity, różnice między
+    pakietami i to, co dostajesz w zamian.
   keywords:
-  - Leadpages
-  - Leadpages cennik
-  - landing page
-  - ceny Leadpages
+    - Leadpages
+    - Leadpages cennik
+    - landing page
+    - ceny Leadpages
 meta:
   summaryBullets:
-  - "Jak analizuję ceny Leadpages?: Patrzę m.in. na: limity stron, liczbę domen i\
-    \ testy A/B."
-  - "Który plan ma sens?: Dzielę rozwiązania według scenariuszy: solo twórca, mała\
-    \ firma, agencja."
-  - "Start: co zrobić jako pierwsze: sprawdź tryb rozliczenia (monthly/yearly) i skorzystaj\
-    \ z 14-dniowego triala."
+    - >-
+      Jak analizuję ceny Leadpages?: Patrzę m.in. na: limity stron, liczbę domen
+      i testy A/B.
+    - >-
+      Który plan ma sens?: Dzielę rozwiązania według scenariuszy: solo twórca,
+      mała firma, agencja.
+    - >-
+      Start: co zrobić jako pierwsze: sprawdź tryb rozliczenia (monthly/yearly)
+      i skorzystaj z 14-dniowego triala.
   primaryCta:
     label: Zobacz cennik Leadpages
     href: https://www.leadpages.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - leadpages
-  - cennik
-  - landing pages
+    - leadpages
+    - cennik
+    - landing pages
 ---
 
 ## Obietnica decyzji — komu to pomoże

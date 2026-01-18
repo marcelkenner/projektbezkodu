@@ -5,43 +5,48 @@ path: /narzedzia/make/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Make – recenzja z perspektywy codziennej pracy
-  subheading: Liczy się to, ile kliknięć oszczędzam dziennie, a nie to, ile konektorów
+  subheading: >-
+    Liczy się to, ile kliknięć oszczędzam dziennie, a nie to, ile konektorów
     jest w katalogu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Make – recenzja oparta na realnych wdrożeniach
-  description: "Moje doświadczenia z Make: co automatyzuje dobrze, gdzie potrafi zaskoczyć\
-    \ i kiedy lepiej wybrać inne narzędzie."
+  description: >-
+    Moje doświadczenia z Make: co automatyzuje dobrze, gdzie potrafi zaskoczyć i
+    kiedy lepiej wybrać inne narzędzie.
   keywords:
-  - Make
-  - Integromat
-  - automatyzacja
-  - recenzja
-  - no-code
+    - Make
+    - Integromat
+    - automatyzacja
+    - recenzja
+    - no-code
 meta:
   summaryBullets:
-  - "Werdykt: dobry wybór dla osób, które potrzebują wizualnego budowania złożonych\
-    \ przepływów."
-  - "Dla kogo: freelancerzy i zespoły SMB chcące zautomatyzować procesy bez kodu."
-  - "Start: konto na darmowym planie i pierwszy scenariusz w 10–30 minut."
+    - >-
+      Werdykt: dobry wybór dla osób, które potrzebują wizualnego budowania
+      złożonych przepływów.
+    - >-
+      Dla kogo: freelancerzy i zespoły SMB chcące zautomatyzować procesy bez
+      kodu.
+    - 'Start: konto na darmowym planie i pierwszy scenariusz w 10–30 minut.'
   primaryCta:
     label: Zobacz plany Make
     href: https://www.make.com/en/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzedzia
-  - automatyzacje
+    - narzedzia
+    - automatyzacje
   tags:
-  - Make
-  - Integromat
-  - no-code
+    - Make
+    - Integromat
+    - no-code
 ---
 
 ## Obietnica i werdykt na start

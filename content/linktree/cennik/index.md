@@ -1,36 +1,38 @@
 ---
-title: "Cennik: jak napisać ofertę cenową na stronie"
+title: 'Cennik: jak napisać ofertę cenową na stronie'
 slug: cennik
 path: /cennik
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Cennik: czytelnie, szybko, sprzedażowo"
-  subheading: Co pokazać, jak komunikować ceny i które elementy realnie zwiększają
+  heading: 'Cennik: czytelnie, szybko, sprzedażowo'
+  subheading: >-
+    Co pokazać, jak komunikować ceny i które elementy realnie zwiększają
     konwersję
 seo:
   title: Jak zrobić cennik na stronie — praktyczny poradnik
-  description: "Praktyczny przewodnik: struktura cennika, elementy zaufania, rozmieszczenie\
-    \ CTA i szybkie werdykty dla różnych segmentów klientów."
+  description: >-
+    Praktyczny przewodnik: struktura cennika, elementy zaufania, rozmieszczenie
+    CTA i szybkie werdykty dla różnych segmentów klientów.
   keywords:
-  - cennik
-  - pricing
-  - strona cennik
+    - cennik
+    - pricing
+    - strona cennik
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj praktyczne wskazówki HubSpot
     href: https://blog.hubspot.com/marketing/best-practices-pricing-page
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - marketing
-  - UX
+    - marketing
+    - UX
 ---
 
 ## Obietnica decyzji

@@ -3,7 +3,7 @@ title: Relume Faq
 slug: faq
 path: /narzedzia/relume/faq/
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   image:
     src: /img/article_image.jpeg
@@ -13,26 +13,27 @@ hero:
 template: default
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Relume FAQ
     href: https://www.relume.io/resources/faqs
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 seo:
   title: Relume — FAQ i szybki przewodnik
-  description: "Krótki przewodnik: co to jest Relume, jak szybko zacząć, ceny i typowe\
-    \ problemy."
+  description: >-
+    Krótki przewodnik: co to jest Relume, jak szybko zacząć, ceny i typowe
+    problemy.
   keywords:
-  - Relume
-  - Relume FAQ
-  - Relume Webflow
+    - Relume
+    - Relume FAQ
+    - Relume Webflow
 taxonomy:
   categories:
-  - narzędzia
-  - webdesign
+    - narzędzia
+    - webdesign
 ---
 
 ## Obietnica i werdykt dla kogo

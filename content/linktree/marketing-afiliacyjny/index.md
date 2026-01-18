@@ -1,41 +1,44 @@
 ---
 slug: marketing-afiliacyjny
-title: "Marketing afiliacyjny: szybki przewodnik i decyzja dla wydawcy lub małej firmy"
+title: 'Marketing afiliacyjny: szybki przewodnik i decyzja dla wydawcy lub małej firmy'
 path: /marketing-afiliacyjny
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Marketing afiliacyjny — czy to ma sens dla Ciebie?
-  subheading: "Krótko: jak zacząć, czego się wystrzegać, kto zarobi"
+  subheading: 'Krótko: jak zacząć, czego się wystrzegać, kto zarobi'
 seo:
   title: Marketing afiliacyjny — przewodnik dla wydawców i małych firm
-  description: "Praktyczny przewodnik po marketingu afiliacyjnym: czym jest, jak zacząć,\
-    \ modele rozliczeń i szybki werdykt kto powinien próbować."
+  description: >-
+    Praktyczny przewodnik po marketingu afiliacyjnym: czym jest, jak zacząć,
+    modele rozliczeń i szybki werdykt kto powinien próbować.
   keywords:
-  - marketing afiliacyjny
-  - programy partnerskie
-  - afiliacja
-  - zarabianie online
+    - marketing afiliacyjny
+    - programy partnerskie
+    - afiliacja
+    - zarabianie online
 meta:
   summaryBullets:
-  - "Werdykt: dobry kanał dochodu pasywy dla twórców z ruchem."
-  - "Dla kogo: blogerzy, właściciele sklepów, twórcy treści; nie dla instant-szybkich\
-    \ zysków."
-  - "Start: wybierz niszę, dołącz do sieci, przygotuj 2–3 treści konwertujące."
+    - 'Werdykt: dobry kanał dochodu pasywy dla twórców z ruchem.'
+    - >-
+      Dla kogo: blogerzy, właściciele sklepów, twórcy treści; nie dla
+      instant-szybkich zysków.
+    - 'Start: wybierz niszę, dołącz do sieci, przygotuj 2–3 treści konwertujące.'
   primaryCta:
     label: Dowiedz się więcej o modelach rozliczeń
-    href: https://www.awin.com/pl/marketing-afiliacyjny/czym-jest-marketing-afiliacyjny
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.awin.com/pl/marketing-afiliacyjny/czym-jest-marketing-afiliacyjny
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - marketing
-  - ecommerce
+    - marketing
+    - ecommerce
   tags:
-  - afiliacja
-  - programy partnerskie
-  - zarabianie
+    - afiliacja
+    - programy partnerskie
+    - zarabianie
 ---
 
 ## Obietnica decyzji: kto powinien zacząć z afiliacją teraz

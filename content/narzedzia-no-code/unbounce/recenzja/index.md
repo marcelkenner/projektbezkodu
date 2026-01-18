@@ -1,43 +1,49 @@
 ---
-title: "Unbounce — recenzja: czy to narzędzie dowozi konwersje?"
+title: 'Unbounce — recenzja: czy to narzędzie dowozi konwersje?'
 slug: recenzja
 path: /narzedzia/unbounce/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Unbounce – recenzja z perspektywy 'co z tego mam'
   subheading: Tworzę landing page'e, odpalam testy A/B i nie dotykam kodu ani WordPressa.
 seo:
   title: Unbounce — recenzja skupiona na efektach
-  description: "Dowiedz się, kiedy Unbounce dowozi wynik: więcej leadów, lepsze testy\
-    \ A/B i szybkie podpięcie CRM."
+  description: >-
+    Dowiedz się, kiedy Unbounce dowozi wynik: więcej leadów, lepsze testy A/B i
+    szybkie podpięcie CRM.
   keywords:
-  - Unbounce
-  - landing page
-  - A/B testing
-  - Smart Traffic
-  - recenzja
+    - Unbounce
+    - landing page
+    - A/B testing
+    - Smart Traffic
+    - recenzja
 meta:
   summaryBullets:
-  - "Werdykt: Dobre dla zespołów marketingu, które regularnie uruchamiają kampanie."
-  - "Co testowałem w praktyce: landingi pod kampanie Facebook/Google, A/B, integracje\
-    \ leadów."
-  - "Start: 14-dniowy trial, bez karty — sprawdź integracje i limit ruchu przed migracją."
+    - >-
+      Werdykt: Dobre dla zespołów marketingu, które regularnie uruchamiają
+      kampanie.
+    - >-
+      Co testowałem w praktyce: landingi pod kampanie Facebook/Google, A/B,
+      integracje leadów.
+    - >-
+      Start: 14-dniowy trial, bez karty — sprawdź integracje i limit ruchu przed
+      migracją.
   primaryCta:
     label: Sprawdź plany Unbounce
     href: https://unbounce.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Recenzent marketingowy
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - landing pages
-  - A/B testy
-  - Unbounce
+    - landing pages
+    - A/B testy
+    - Unbounce
 ---
 
 ## Obietnica decyzji — dla kogo jest Unbounce

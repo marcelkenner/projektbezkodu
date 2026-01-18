@@ -3,48 +3,55 @@ title: Relume — recenzja
 slug: recenzja
 path: /narzedzia/relume/recenzja/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: Relume — recenzja
-  subheading: "Praktyczny przewodnik: kiedy Relume przyspieszy pracę, a kiedy będzie\
-    \ źródłem frustracji."
+  subheading: >-
+    Praktyczny przewodnik: kiedy Relume przyspieszy pracę, a kiedy będzie
+    źródłem frustracji.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: szybkie prototypy i Webflow — tak; pełne customowe aplikacje — raczej\
-    \ nie."
-  - "Dla kogo: agencje Webflow, freelancerzy, projektanci UX chcący przyspieszyć front-end."
-  - "Start: załóż konto, dołącz Slack, sklonuj Style Guide i skopiuj komponent w 10\
-    \ min."
+    - >-
+      Werdykt: szybkie prototypy i Webflow — tak; pełne customowe aplikacje —
+      raczej nie.
+    - >-
+      Dla kogo: agencje Webflow, freelancerzy, projektanci UX chcący
+      przyspieszyć front-end.
+    - >-
+      Start: załóż konto, dołącz Slack, sklonuj Style Guide i skopiuj komponent
+      w 10 min.
   primaryCta:
     label: Strona Relume
     href: https://www.relume.io/
   hasAffiliateLinks: false
 seo:
-  title: Relume — czy warto? Recenzja narzędzia do bibliotek komponentów i AI Site
+  title: >-
+    Relume — czy warto? Recenzja narzędzia do bibliotek komponentów i AI Site
     Builder
-  description: "Krótka, rzeczowa recenzja Relume: co potrafi biblioteka komponentów,\
-    \ jak działa eksport do Webflow/Figma/React i kiedy warto ją wdrożyć."
+  description: >-
+    Krótka, rzeczowa recenzja Relume: co potrafi biblioteka komponentów, jak
+    działa eksport do Webflow/Figma/React i kiedy warto ją wdrożyć.
   keywords:
-  - Relume
-  - Relume recenzja
-  - Relume Webflow
-  - biblioteka komponentów
-  - AI Site Builder
+    - Relume
+    - Relume recenzja
+    - Relume Webflow
+    - biblioteka komponentów
+    - AI Site Builder
 taxonomy:
   categories:
-  - narzedzia
-  - webflow
+    - narzedzia
+    - webflow
   tags:
-  - Relume
-  - Webflow
-  - Figma
-  - komponenty
+    - Relume
+    - Webflow
+    - Figma
+    - komponenty
 ---
 
 ## Obietnica decyzji — kto powinien czytać ten tekst

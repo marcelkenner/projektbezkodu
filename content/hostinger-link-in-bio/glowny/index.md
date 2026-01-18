@@ -4,35 +4,38 @@ slug: glowny
 path: /glowny
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Główny: kiedy używać tego słowa i co z niego wynika"
+  heading: 'Główny: kiedy używać tego słowa i co z niego wynika'
   subheading: Krótkie wyjaśnienie, szybkie decyzje, jasny start
 seo:
   title: Główny — definicja, przykłady, kiedy używać
-  description: Jak poprawnie używać słowa "główny", kiedy wybierać alternatywy i co
-    to znaczy w praktyce.
+  description: >-
+    Jak poprawnie używać słowa "główny", kiedy wybierać alternatywy i co to
+    znaczy w praktyce.
   keywords:
-  - główny
-  - znaczenie główny
-  - użycie główny
+    - główny
+    - znaczenie główny
+    - użycie główny
 meta:
   summaryBullets:
-  - "Werdykt: używaj, gdy coś jest najważniejsze lub centralne."
-  - "Dla kogo: redaktorzy, twórcy treści, autorzy dokumentów."
-  - "Start: sprawdź kontekst i możliwe alternatywy (główny vs. główna vs. podstawowy)."
+    - 'Werdykt: używaj, gdy coś jest najważniejsze lub centralne.'
+    - 'Dla kogo: redaktorzy, twórcy treści, autorzy dokumentów.'
+    - >-
+      Start: sprawdź kontekst i możliwe alternatywy (główny vs. główna vs.
+      podstawowy).
   primaryCta:
     label: Definicja w Cambridge
     href: https://dictionary.cambridge.org/us/dictionary/polish-english/glowny
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - język
-  - copywriting
+    - język
+    - copywriting
   tags:
-  - język polski
-  - edytorstwo
-  - dobre praktyki
+    - język polski
+    - edytorstwo
+    - dobre praktyki
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

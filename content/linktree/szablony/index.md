@@ -4,43 +4,44 @@ slug: szablony
 path: /szablony
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Szablony — gotowe wzorce, których używasz codziennie
-  subheading: "Krótki przewodnik: co to jest, kiedy się opłaca i jak zacząć w 5 minut"
+  subheading: 'Krótki przewodnik: co to jest, kiedy się opłaca i jak zacząć w 5 minut'
   primaryCta:
     label: Przeczytaj definicję szablonu
     href: https://wsjp.pl/haslo/podglad/9234/szablon/4923791/wzor
 seo:
   title: Szablony — co to jest, kiedy używać i jak zacząć
-  description: "Praktyczny przewodnik po szablonach: definicja, przykłady zastosowań,\
-    \ szybki start i rekomendacje dla różnych użytkowników."
+  description: >-
+    Praktyczny przewodnik po szablonach: definicja, przykłady zastosowań, szybki
+    start i rekomendacje dla różnych użytkowników.
   keywords:
-  - szablony
-  - szablon
-  - template
-  - szablony dokumentów
+    - szablony
+    - szablon
+    - template
+    - szablony dokumentów
 meta:
   difficulty: Łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przeczytaj definicję szablonu
     href: https://wsjp.pl/haslo/podglad/9234/szablon/4923791/wzor
   summaryBullets:
-  - "Werdykt: szablony skracają czas pracy, ale mogą ograniczać elastyczność."
-  - "Dla kogo: dobre dla tworzących powtarzalne materiały i zespołów."
-  - "Start: otwórz gotowy szablon, dostosuj nagłówki i zapisz kopię."
+    - 'Werdykt: szablony skracają czas pracy, ale mogą ograniczać elastyczność.'
+    - 'Dla kogo: dobre dla tworzących powtarzalne materiały i zespołów.'
+    - 'Start: otwórz gotowy szablon, dostosuj nagłówki i zapisz kopię.'
 taxonomy:
   categories:
-  - poradniki
-  - produktywność
+    - poradniki
+    - produktywność
   tags:
-  - szablony
-  - dokumenty
-  - workflow
+    - szablony
+    - dokumenty
+    - workflow
 ---
 
 ## Obietnica decyzji i grupa docelowa

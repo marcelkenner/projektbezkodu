@@ -5,50 +5,52 @@ path: /narzedzia/semrush/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Semrush – kiedy wystarczy lżejsze narzędzie
-  subheading: Porównuję Semrush z innymi platformami SEO pod kątem zakresu danych,
+  subheading: >-
+    Porównuję Semrush z innymi platformami SEO pod kątem zakresu danych,
     łatwości obsługi i kosztów długoterminowych.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Semrush – najlepsze alternatywy dla różnych typów projektów
-  description: Pokazuję, kiedy zamiast Semrush warto wybrać prostszy pakiet SEO, tańsze
+  description: >-
+    Pokazuję, kiedy zamiast Semrush warto wybrać prostszy pakiet SEO, tańsze
     narzędzie do keyword researchu albo specjalistyczny kombajn dla agencji.
   keywords:
-  - Semrush alternatywy
-  - narzędzia SEO porównanie
-  - Ahrefs vs Semrush
-  - najlepsze narzędzia SEO 2026
+    - Semrush alternatywy
+    - narzędzia SEO porównanie
+    - Ahrefs vs Semrush
+    - najlepsze narzędzia SEO 2026
 meta:
   difficulty: średniozaawansowany
   duration: 5–20 min (szybkie porównanie)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź ceny Semrush
     href: https://www.semrush.com/kb/140-how-much-does-semrush-cost
   format: porównanie
   topics:
-  - narzędzia SEO
-  - marketing
-  - porównania
+    - narzędzia SEO
+    - marketing
+    - porównania
 taxonomy:
   categories:
-  - Narzędzia
-  - SEO
+    - Narzędzia
+    - SEO
   tags:
-  - Semrush
-  - alternatywy
-  - Ahrefs
-  - SpyFu
+    - Semrush
+    - alternatywy
+    - Ahrefs
+    - SpyFu
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

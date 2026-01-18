@@ -4,43 +4,45 @@ slug: faq
 path: /narzedzia/semrush/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Semrush – odpowiedzi na najczęstsze pytania
-  subheading: Limity, dane słów kluczowych, integracje, rozliczenia i praca zespołowa
-    – w jednym miejscu.
+  subheading: >-
+    Limity, dane słów kluczowych, integracje, rozliczenia i praca zespołowa – w
+    jednym miejscu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Semrush – FAQ dla osób testujących i wdrażających narzędzie
-  description: "Zbieram najczęstsze pytania o Semrush: dokładność danych, różnice\
-    \ między planami, bezpieczeństwo, rozliczanie użytkowników i migrację z innych\
-    \ narzędzi."
+  description: >-
+    Zbieram najczęstsze pytania o Semrush: dokładność danych, różnice między
+    planami, bezpieczeństwo, rozliczanie użytkowników i migrację z innych
+    narzędzi.
   keywords:
-  - Semrush
-  - Semrush FAQ
-  - Semrush ceny
-  - Semrush limity
+    - Semrush
+    - Semrush FAQ
+    - Semrush ceny
+    - Semrush limity
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź ceny i subskrypcje
     href: https://www.semrush.com/kb/1011-subscriptions
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Narzędzia SEO
-  - Semrush
+    - Narzędzia SEO
+    - Semrush
   tags:
-  - FAQ
-  - Semrush
-  - SEO
+    - FAQ
+    - Semrush
+    - SEO
 ---
 
 ## Obietnica decyzji dla wdrażających i testujących

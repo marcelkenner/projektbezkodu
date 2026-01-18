@@ -5,40 +5,42 @@ path: /narzedzia/plausible/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Plausible – recenzja z punktu widzenia właściciela małego serwisu
-  subheading: Sprawdzam, czy minimalistyczne statystyki Plausible wystarczą do podejmowania
-    sensownych decyzji o treściach i kampaniach.
+  subheading: >-
+    Sprawdzam, czy minimalistyczne statystyki Plausible wystarczą do
+    podejmowania sensownych decyzji o treściach i kampaniach.
 seo:
   title: Plausible – recenzja skoncentrowana na prostocie i prywatności
-  description: "Plusy i minusy Plausible: przejrzystość panelu, brak ciasteczek, zgodność\
-    \ z przepisami oraz ograniczenia względem klasycznych, rozbudowanych narzędzi."
+  description: >-
+    Plusy i minusy Plausible: przejrzystość panelu, brak ciasteczek, zgodność z
+    przepisami oraz ograniczenia względem klasycznych, rozbudowanych narzędzi.
   keywords:
-  - Plausible
-  - Plausible recenzja
-  - analytics prywatność
-  - cookieless analytics
-  - alternatywa Google Analytics
+    - Plausible
+    - Plausible recenzja
+    - analytics prywatność
+    - cookieless analytics
+    - alternatywa Google Analytics
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   summaryBullets:
-  - "Werdykt: proste i prywatne — dobre dla małych serwisów i blogów"
-  - "Dla kogo: gdy chcesz statystyki bez cookie-banneru"
-  - "Start: 5 minut, darmowy trial lub self-host"
+    - 'Werdykt: proste i prywatne — dobre dla małych serwisów i blogów'
+    - 'Dla kogo: gdy chcesz statystyki bez cookie-banneru'
+    - 'Start: 5 minut, darmowy trial lub self-host'
   primaryCta:
     label: Strona Plausible
     href: https://plausible.io
 taxonomy:
   categories:
-  - narzędzia
-  - analityka
+    - narzędzia
+    - analityka
   tags:
-  - Plausible
-  - privacy
-  - analytics
+    - Plausible
+    - privacy
+    - analytics
 ---
 
 ## Obietnica i kto skorzysta (krótko)

@@ -4,35 +4,41 @@ slug: surfer
 path: /narzedzia/surfer/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Surfer – edytor treści, który wie, co lubi Google
-  subheading: Piszę artykuł, a Surfer podpowiada nagłówki, słowa kluczowe i długość
-    na podstawie stron z TOP10.
+  subheading: >-
+    Piszę artykuł, a Surfer podpowiada nagłówki, słowa kluczowe i długość na
+    podstawie stron z TOP10.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Surfer – czym jest i jak pomaga w content SEO
-  description: Opisuję, jak Surfer analizuje wyniki wyszukiwania i podpowiada optymalizacje
+  description: >-
+    Opisuję, jak Surfer analizuje wyniki wyszukiwania i podpowiada optymalizacje
     treści, żeby zwiększyć szanse na widoczność w Google i AI czatach.
   keywords:
-  - Surfer
-  - Surfer AI
-  - content editor
-  - SEO
-  - optymalizacja treści
+    - Surfer
+    - Surfer AI
+    - content editor
+    - SEO
+    - optymalizacja treści
 meta:
   summaryBullets:
-  - "Werdykt: szybkie produkowanie gotowych do publikacji szkiców, ale wymaga nadzoru\
-    \ redakcyjnego."
-  - "Dla kogo: agencje i zespoły contentowe, które chcą skalować; nie dla projektów\
-    \ gdzie każda linia musi być ręcznie napisana."
-  - "Start: 10–20 minut do pierwszego szkicu; potrzebne konto Surfer + kredyty AI."
+    - >-
+      Werdykt: szybkie produkowanie gotowych do publikacji szkiców, ale wymaga
+      nadzoru redakcyjnego.
+    - >-
+      Dla kogo: agencje i zespoły contentowe, które chcą skalować; nie dla
+      projektów gdzie każda linia musi być ręcznie napisana.
+    - >-
+      Start: 10–20 minut do pierwszego szkicu; potrzebne konto Surfer + kredyty
+      AI.
   primaryCta:
     label: Wypróbuj Surfer AI
     href: https://surferseo.com/ai/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwy do średniego
   duration: 5–20 min
   author: Redakcja
@@ -43,13 +49,13 @@ meta:
     author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - SEO
+    - narzędzia
+    - SEO
   tags:
-  - Surfer
-  - SEO
-  - AI
-  - content
+    - Surfer
+    - SEO
+    - AI
+    - content
 ---
 
 ## Krótko — decyzja dla zajętych

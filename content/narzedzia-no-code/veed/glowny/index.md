@@ -3,52 +3,57 @@ title: Veed — szybki przegląd i werdykt
 slug: veed
 path: /narzedzia/veed/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: article
 hero:
   heading: Veed — co warto wiedzieć przed użyciem
-  subheading: "Krótki, praktyczny przewodnik: dla kogo VEED działa najlepiej i gdzie\
-    \ są pułapki."
+  subheading: >-
+    Krótki, praktyczny przewodnik: dla kogo VEED działa najlepiej i gdzie są
+    pułapki.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Veed — przegląd funkcji, ceny i werdykt
-  description: "Szybki przewodnik po VEED: co potrafi, jak zacząć i kiedy warto zapłacić.\
-    \ Zawiera źródła i prosty werdykt dla twórców i zespołów."
+  description: >-
+    Szybki przewodnik po VEED: co potrafi, jak zacząć i kiedy warto zapłacić.
+    Zawiera źródła i prosty werdykt dla twórców i zespołów.
   keywords:
-  - Veed
-  - Veed.io
-  - edytor wideo online
-  - auto subtitles
-  - AI video
+    - Veed
+    - Veed.io
+    - edytor wideo online
+    - auto subtitles
+    - AI video
   canonical: https://www.veed.io/
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dobre dla szybkich social i lokalizacji, ostrożnie przy intensywnym\
-    \ generowaniu AI."
-  - "Dla kogo: samodzielni twórcy i małe zespoły, jeśli nie zależy ci na pełnej kontroli\
-    \ nad kosztami AI."
-  - "Start: otwórz konto, przetestuj auto-subtitles i sprawdź dostępność modeli AI\
-    \ w panelu Pricing."
+    - >-
+      Werdykt: dobre dla szybkich social i lokalizacji, ostrożnie przy
+      intensywnym generowaniu AI.
+    - >-
+      Dla kogo: samodzielni twórcy i małe zespoły, jeśli nie zależy ci na pełnej
+      kontroli nad kosztami AI.
+    - >-
+      Start: otwórz konto, przetestuj auto-subtitles i sprawdź dostępność modeli
+      AI w panelu Pricing.
   primaryCta:
     label: Odwiedź stronę Veed
     href: https://www.veed.io/
 taxonomy:
   categories:
-  - narzędzia
-  - wideo
+    - narzędzia
+    - wideo
   tags:
-  - Veed
-  - edytory
-  - AI
-  - subtitles
+    - Veed
+    - edytory
+    - AI
+    - subtitles
 ---
 
 ## Obietnica decyzji + dla kogo ten tekst

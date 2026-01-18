@@ -5,40 +5,42 @@ path: /narzedzia/glide/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Glide – najszybszy sposób na mobilną aplikację z danych w arkuszu
-  subheading: Buduję proste aplikacje dla zespołu i klientów, startując od Google
-    Sheets lub Airtable zamiast od repozytorium.
+  subheading: >-
+    Buduję proste aplikacje dla zespołu i klientów, startując od Google Sheets
+    lub Airtable zamiast od repozytorium.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Glide – kiedy używam go w projektach
-  description: "Pokazuję, w jakich sytuacjach Glide sprawdza się najlepiej: proste\
-    \ CRM-y, katalogi, checklisty i aplikacje wewnętrzne."
+  description: >-
+    Pokazuję, w jakich sytuacjach Glide sprawdza się najlepiej: proste CRM-y,
+    katalogi, checklisty i aplikacje wewnętrzne.
   keywords:
-  - Glide
-  - no-code
-  - Google Sheets
-  - Airtable
-  - aplikacje z arkusza
+    - Glide
+    - no-code
+    - Google Sheets
+    - Airtable
+    - aplikacje z arkusza
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Odwiedź Glide
     href: https://www.glideapps.com
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   format: recenzja
   topics:
-  - narzędzia
-  - no-code
-  - produktywność
+    - narzędzia
+    - no-code
+    - produktywność
   review:
     productName: Glide
     productUrl: https://www.glideapps.com
@@ -47,20 +49,20 @@ meta:
     worstRating: 1
     author: Redakcja
     pros:
-    - Szybkie prototypowanie
-    - Integracja z arkuszami
-    - Prosty interfejs dla użytkowników nietechnicznych
+      - Szybkie prototypowanie
+      - Integracja z arkuszami
+      - Prosty interfejs dla użytkowników nietechnicznych
     cons:
-    - Ograniczenia darmowego planu przy syncu
-    - Skalowanie i logika warunkowa bywają niewygodne
+      - Ograniczenia darmowego planu przy syncu
+      - Skalowanie i logika warunkowa bywają niewygodne
 taxonomy:
   categories:
-  - narzedzia
-  - no-code
+    - narzedzia
+    - no-code
   tags:
-  - Glide
-  - Airtable
-  - Google Sheets
+    - Glide
+    - Airtable
+    - Google Sheets
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

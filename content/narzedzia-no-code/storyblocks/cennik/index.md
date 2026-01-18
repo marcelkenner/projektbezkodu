@@ -1,49 +1,53 @@
 ---
-title: "Storyblocks — ceny i decyzja: czy warto dla twoich projektów w 2026"
+title: 'Storyblocks — ceny i decyzja: czy warto dla twoich projektów w 2026'
 slug: cennik
 path: /narzedzia/storyblocks/cennik/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Storyblocks — ceny i decyzja: czy warto dla twoich projektów"
+  heading: 'Storyblocks — ceny i decyzja: czy warto dla twoich projektów'
   subheading: Szybki werdykt, komu pasuje który plan i co sprawdzić przed zakupem.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Storyblocks — cennik 2026 i szybki werdykt
-  description: Przegląd planów Storyblocks, jak zacząć i dla kogo który plan ma sens.
+  description: >-
+    Przegląd planów Storyblocks, jak zacząć i dla kogo który plan ma sens.
     Zaktualizowane informacje o opcjach płatności i narzędziach.
   keywords:
-  - Storyblocks
-  - Storyblocks cennik
-  - plany storyblocks
-  - licencja stock
-  - Maker Storyblocks
+    - Storyblocks
+    - Storyblocks cennik
+    - plany storyblocks
+    - licencja stock
+    - Maker Storyblocks
   canonical: https://www.storyblocks.com/pricing
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz cennik Storyblocks
     href: https://www.storyblocks.com/pricing
   summaryBullets:
-  - "Werdykt: opłaca się jeśli potrzebujesz dużo materiałów wideo/zdjęć lub dostępu\
-    \ do narzędzi AI."
-  - "Dla kogo: freelancerzy z regularnymi projektami vs zespoły — wybór planu zmienia\
-    \ zakres licencji."
-  - "Start: sprawdź miesięczną opcję, testuj Maker i porównaj licencję indywidualną\
-    \ z biznesową."
+    - >-
+      Werdykt: opłaca się jeśli potrzebujesz dużo materiałów wideo/zdjęć lub
+      dostępu do narzędzi AI.
+    - >-
+      Dla kogo: freelancerzy z regularnymi projektami vs zespoły — wybór planu
+      zmienia zakres licencji.
+    - >-
+      Start: sprawdź miesięczną opcję, testuj Maker i porównaj licencję
+      indywidualną z biznesową.
   format: recenzja
   topics:
-  - narzędzia wideo
-  - stock media
-  - licencje
+    - narzędzia wideo
+    - stock media
+    - licencje
   review:
     productName: Storyblocks
     productUrl: https://www.storyblocks.com/pricing
@@ -52,20 +56,20 @@ meta:
     worstRating: 1
     author: Redakcja
     pros:
-    - Duża biblioteka multimediów i pakiet narzędzi workflow.
-    - Plany z nieograniczonymi pobraniami (wybrane).
+      - Duża biblioteka multimediów i pakiet narzędzi workflow.
+      - Plany z nieograniczonymi pobraniami (wybrane).
     cons:
-    - Licencje indywidualne mogą nie wystarczyć dla broadcastu/klientów.
-    - Koszt rośnie przy opcjach biznesowych/enterprise.
+      - Licencje indywidualne mogą nie wystarczyć dla broadcastu/klientów.
+      - Koszt rośnie przy opcjach biznesowych/enterprise.
 taxonomy:
   categories:
-  - narzędzia
-  - wideo
-  - stock
+    - narzędzia
+    - wideo
+    - stock
   tags:
-  - Storyblocks
-  - cennik
-  - licencje
+    - Storyblocks
+    - cennik
+    - licencje
 ---
 
 ## Obietnica i szybka decyzja dla kogo

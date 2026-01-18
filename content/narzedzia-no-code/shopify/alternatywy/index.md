@@ -3,39 +3,40 @@ title: Shopify Alternatywy
 slug: alternatywy
 path: /narzedzia/shopify/alternatywy/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shopify Alternatywy
-  subheading: "Krótki przewodnik: kiedy odejść od Shopify i dokąd iść dalej"
+  subheading: 'Krótki przewodnik: kiedy odejść od Shopify i dokąd iść dalej'
 template: default
 meta:
   summaryBullets:
-  - "Werdykt: wybierz platformę według skali i kontroli kosztów."
-  - "Dla kogo: jasne wskazania dla małych, rosnących i enterprise."
-  - "Start: szybkie kroki migracji i co sprawdzić przed wyborem."
+    - 'Werdykt: wybierz platformę według skali i kontroli kosztów.'
+    - 'Dla kogo: jasne wskazania dla małych, rosnących i enterprise.'
+    - 'Start: szybkie kroki migracji i co sprawdzić przed wyborem.'
   primaryCta:
     label: Porównanie platform (BigCommerce)
     href: https://www.bigcommerce.com/blog/shopify-alternatives/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: Shopify alternatywy — jak wybrać platformę e‑commerce w 2026
-  description: "Praktyczny przewodnik po najczęściej wybieranych alternatywach dla\
-    \ Shopify: kiedy zmiana ma sens, jak zacząć i który system pasuje do Twojego wariantu\
-    \ biznesu."
+  description: >-
+    Praktyczny przewodnik po najczęściej wybieranych alternatywach dla Shopify:
+    kiedy zmiana ma sens, jak zacząć i który system pasuje do Twojego wariantu
+    biznesu.
   keywords:
-  - Shopify alternatywy
-  - platformy e-commerce
-  - WooCommerce
-  - BigCommerce
-  - Wix
+    - Shopify alternatywy
+    - platformy e-commerce
+    - WooCommerce
+    - BigCommerce
+    - Wix
 taxonomy:
   categories:
-  - narzedzia
-  - ecommerce
+    - narzedzia
+    - ecommerce
   tags:
-  - Shopify
-  - alternatywy
-  - porownanie
+    - Shopify
+    - alternatywy
+    - porownanie
 ---
 
 ## Obietnica decyzji — co tu znajdziesz

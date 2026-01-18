@@ -5,47 +5,53 @@ path: /narzedzia/leadpages/faq/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Leadpages – odpowiedzi na najczęstsze pytania
-  subheading: "Zapisuję to, o co ludzie zwykle pytają: limity, integracje, bezpieczeństwo\
-    \ i pierwsze kroki w Leadpages."
+  subheading: >-
+    Zapisuję to, o co ludzie zwykle pytają: limity, integracje, bezpieczeństwo i
+    pierwsze kroki w Leadpages.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Leadpages – FAQ po polsku
-  description: "Krótkie odpowiedzi na częste pytania o Leadpages: czy nadaje się na\
-    \ stronę główną, jak działa integracja z mailingiem i co z SEO."
+  description: >-
+    Krótkie odpowiedzi na częste pytania o Leadpages: czy nadaje się na stronę
+    główną, jak działa integracja z mailingiem i co z SEO.
   keywords:
-  - Leadpages
-  - FAQ
-  - landing page
-  - domena
-  - SEO
+    - Leadpages
+    - FAQ
+    - landing page
+    - domena
+    - SEO
 meta:
   summaryBullets:
-  - "Czy mogę użyć Leadpages jako głównej strony firmowej?: Tak, ale najlepiej jako\
-    \ landing lub prostą stronę ofertową."
-  - "Jak wygląda SEO w Leadpages?: Możesz ustawić tytuły i meta opisy, ale to nie\
-    \ zastąpi CMS-a z dużą ilością treści."
-  - "Jak trudno jest zacząć?: 5–15 minut na pierwszy landing — wybierz szablon, podmień\
-    \ treści, podłącz domenę i mailing."
+    - >-
+      Czy mogę użyć Leadpages jako głównej strony firmowej?: Tak, ale najlepiej
+      jako landing lub prostą stronę ofertową.
+    - >-
+      Jak wygląda SEO w Leadpages?: Możesz ustawić tytuły i meta opisy, ale to
+      nie zastąpi CMS-a z dużą ilością treści.
+    - >-
+      Jak trudno jest zacząć?: 5–15 minut na pierwszy landing — wybierz szablon,
+      podmień treści, podłącz domenę i mailing.
   primaryCta:
     label: Instrukcja podpięcia domeny
-    href: https://support.leadpages.com/hc/en-us/articles/218820517-Connect-your-domain
-  updatedAt: "2026-01-14"
+    href: >-
+      https://support.leadpages.com/hc/en-us/articles/218820517-Connect-your-domain
+  updatedAt: '2026-01-14'
   difficulty: Łatwy
   duration: 5–15 min
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - leadpages
-  - landing pages
-  - FAQ
+    - leadpages
+    - landing pages
+    - FAQ
 ---
 
 Leadpages to proste narzędzie do tworzenia landing page'y i prostych stron sprzedażowych. Ten tekst daje szybkie odpowiedzi i decyzje: kiedy użyć Leadpages, czego się spodziewać przy SEO i jak szybko wystartujesz.

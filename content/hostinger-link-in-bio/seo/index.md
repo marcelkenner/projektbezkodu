@@ -1,40 +1,43 @@
 ---
-title: "SEO: szybki przewodnik decyzji dla właściciela strony"
+title: 'SEO: szybki przewodnik decyzji dla właściciela strony'
 slug: seo
 path: /seo
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "SEO: szybki przewodnik decyzji dla właściciela strony"
+  heading: 'SEO: szybki przewodnik decyzji dla właściciela strony'
   subheading: Co zrobić najpierw, czego unikać i kiedy zatrudnić specjalistę
 seo:
-  title: "SEO: szybki przewodnik decyzji dla właściciela strony"
-  description: "Krótkie decyzje: co warto zrobić od razu, ile to trwa i dla kogo SEO\
-    \ ma sens."
+  title: 'SEO: szybki przewodnik decyzji dla właściciela strony'
+  description: >-
+    Krótkie decyzje: co warto zrobić od razu, ile to trwa i dla kogo SEO ma
+    sens.
   keywords:
-  - SEO
-  - pozycjonowanie
-  - optymalizacja
-  - Google Search Central
+    - SEO
+    - pozycjonowanie
+    - optymalizacja
+    - Google Search Central
 meta:
   summaryBullets:
-  - "Werdykt: zacznij od Search Console i prostych poprawek na stronie."
-  - "Dla kogo: małe strony i sklepy — opłaca się, jeśli masz czas 3–12 miesięcy."
-  - "Start: 5 minut — zgłoś witrynę do Search Console i sprawdź tytuły stron."
+    - 'Werdykt: zacznij od Search Console i prostych poprawek na stronie.'
+    - >-
+      Dla kogo: małe strony i sklepy — opłaca się, jeśli masz czas 3–12
+      miesięcy.
+    - 'Start: 5 minut — zgłoś witrynę do Search Console i sprawdź tytuły stron.'
   primaryCta:
     label: Przeczytaj SEO Starter Guide
     href: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - marketing
-  - seo
+    - marketing
+    - seo
   tags:
-  - seo
-  - przewodnik
-  - google
+    - seo
+    - przewodnik
+    - google
 ---
 
 ## Obietnica decyzji dla Ciebie

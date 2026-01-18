@@ -5,7 +5,7 @@ path: /narzedzia/paperform/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Paperform – formularze, które wyglądają jak strony sprzedażowe
   subheading: Połączenie pytań, treści i płatności w jednym, estetycznym formularzu.
@@ -14,31 +14,32 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Paperform – czym jest i kiedy ma przewagę nad zwykłymi formularzami
-  description: Jak Paperform pozwala zbudować estetyczne formularze/mini-landing pages
-    z płatnościami i automatyzacjami.
+  description: >-
+    Jak Paperform pozwala zbudować estetyczne formularze/mini-landing pages z
+    płatnościami i automatyzacjami.
   keywords:
-  - Paperform
-  - formularze
-  - landing page
-  - formularze płatności
+    - Paperform
+    - formularze
+    - landing page
+    - formularze płatności
 meta:
   difficulty: Łatwy do wypróbowania
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: świetne, jeśli chcesz formularz = strona sprzedażowa."
-  - "Dla kogo: kreatywni twórcy, małe firmy, product-led marketing."
-  - "Start: załóż konto i odpal szablon lub sklonuj demo."
+    - 'Werdykt: świetne, jeśli chcesz formularz = strona sprzedażowa.'
+    - 'Dla kogo: kreatywni twórcy, małe firmy, product-led marketing.'
+    - 'Start: załóż konto i odpal szablon lub sklonuj demo.'
   primaryCta:
     label: Sprawdź cennik Paperform
     href: https://paperform.co/pricing/
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
-  - marketing
+    - narzędzia
+    - formularze
+    - marketing
 ---
 
 Co dostaniesz z tej recenzji: krótką decyzję dla konkretnego użytkownika i praktyczny plan startowy. Jeśli szukasz formularza, który wygląda jak mała strona sprzedażowa — **łatwo podejmiesz decyzję** po przeczytaniu.  

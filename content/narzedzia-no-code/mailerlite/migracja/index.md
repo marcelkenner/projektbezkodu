@@ -5,47 +5,53 @@ path: /narzedzia/mailerlite/migracja/
 draft: false
 template: article
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Migracja do MailerLite – jak przenieść listę, szablony i automaty
-  subheading: Scenariusze przejścia z Mailchimp, GetResponse, ConvertKit i innych
-    — bez blokowania wysyłek
+  subheading: >-
+    Scenariusze przejścia z Mailchimp, GetResponse, ConvertKit i innych — bez
+    blokowania wysyłek
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: MailerLite – poradnik migracji krok po kroku
-  description: Jak przygotować eksport, oczyścić bazę, odwzorować segmenty i automaty,
-    żeby zmiana na MailerLite była możliwie bezbolesna.
+  description: >-
+    Jak przygotować eksport, oczyścić bazę, odwzorować segmenty i automaty, żeby
+    zmiana na MailerLite była możliwie bezbolesna.
   keywords:
-  - MailerLite
-  - migracja
-  - import subskrybentów
-  - automatyzacje
-  - szablony email
+    - MailerLite
+    - migracja
+    - import subskrybentów
+    - automatyzacje
+    - szablony email
 meta:
   difficulty: Średni (zależnie od rozmiaru i automatyzacji)
   duration: 30–180 min (pierwsze kroki) + testy
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybkość i prostota dla list, konieczna ręczna praca przy automatach"
-  - "Dla kogo: małe i średnie listy oraz zespoły, które mogą sprawdzić automaty ręcznie"
-  - "Start: eksport CSV, czyszczenie, import do grup i testy wysyłki"
+    - >-
+      Werdykt: szybkość i prostota dla list, konieczna ręczna praca przy
+      automatach
+    - >-
+      Dla kogo: małe i średnie listy oraz zespoły, które mogą sprawdzić automaty
+      ręcznie
+    - 'Start: eksport CSV, czyszczenie, import do grup i testy wysyłki'
   primaryCta:
     label: Oficjalny przewodnik importu
     href: https://www.mailerlite.com/help/how-to-import-subscribers
 taxonomy:
   categories:
-  - narzędzia
-  - email
-  - migracja
+    - narzędzia
+    - email
+    - migracja
   tags:
-  - MailerLite
-  - migracja
-  - przenosiny
-  - email marketing
+    - MailerLite
+    - migracja
+    - przenosiny
+    - email marketing
 ---
 
 ## Obietnica decyzji: czy migracja do MailerLite ma sens dla Ciebie

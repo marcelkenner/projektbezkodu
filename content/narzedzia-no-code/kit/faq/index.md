@@ -4,42 +4,44 @@ slug: faq
 path: /narzedzia/convertkit/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: ConvertKit – odpowiedzi na pytania twórców newsletterów
-  subheading: Jak działa tagowanie, płatne newslettery, sprzedaż produktów i integracje
-    z platformami dla twórców.
+  subheading: >-
+    Jak działa tagowanie, płatne newslettery, sprzedaż produktów i integracje z
+    platformami dla twórców.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: ConvertKit – FAQ dla osób przenoszących newsletter
-  description: "Przegląd najczęstszych pytań o ConvertKit: migracja z innych narzędzi,\
-    \ płatności, RODO, deliverability i obsługa wielu projektów."
+  description: >-
+    Przegląd najczęstszych pytań o ConvertKit: migracja z innych narzędzi,
+    płatności, RODO, deliverability i obsługa wielu projektów.
   keywords:
-  - ConvertKit
-  - ConvertKit FAQ
-  - płatny newsletter
-  - tagi ConvertKit
-  - migracja newslettera
+    - ConvertKit
+    - ConvertKit FAQ
+    - płatny newsletter
+    - tagi ConvertKit
+    - migracja newslettera
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz stronę cenową
     href: https://kit.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - newsletter
+    - narzędzia
+    - newsletter
   tags:
-  - ConvertKit
-  - FAQ
-  - email-marketing
+    - ConvertKit
+    - FAQ
+    - email-marketing
 ---
 
 ## Decyzja na start — dla kogo to dobre?

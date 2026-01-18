@@ -3,44 +3,45 @@ title: Shopify — recenzja praktyczna
 slug: recenzja
 path: /narzedzia/shopify/recenzja/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: review
 hero:
   heading: Shopify — recenzja praktyczna
-  subheading: "Krótko: kiedy Shopify oszczędza twój czas i kiedy kosztuje zbyt dużo"
+  subheading: 'Krótko: kiedy Shopify oszczędza twój czas i kiedy kosztuje zbyt dużo'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Shopify — praktyczna recenzja 2026
-  description: "Recenzja Shopify: ceny, najważniejsze funkcje, dla kogo to sensowny\
-    \ wybór i jak zacząć w 5 minut."
+  description: >-
+    Recenzja Shopify: ceny, najważniejsze funkcje, dla kogo to sensowny wybór i
+    jak zacząć w 5 minut.
   keywords:
-  - Shopify
-  - recenzja
-  - sklep internetowy
-  - ecommerce
-  - platforma sprzedażowa
+    - Shopify
+    - recenzja
+    - sklep internetowy
+    - ecommerce
+    - platforma sprzedażowa
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   summaryBullets:
-  - "Werdykt: najlepsze dla szybkiego startu i skalowania do średnich obrotów."
-  - "Dla kogo: jednoosobowe sklepy i marki, które chcą sprzedać wielokanałowo."
-  - "Start: załóż konto i sprawdź plan Basic - pierwszy test w 5 minut."
+    - 'Werdykt: najlepsze dla szybkiego startu i skalowania do średnich obrotów.'
+    - 'Dla kogo: jednoosobowe sklepy i marki, które chcą sprzedać wielokanałowo.'
+    - 'Start: załóż konto i sprawdź plan Basic - pierwszy test w 5 minut.'
   primaryCta:
     label: Zobacz plany i ceny
     href: https://www.shopify.com/pricing
 taxonomy:
   categories:
-  - narzędzia
-  - ecommerce
+    - narzędzia
+    - ecommerce
   tags:
-  - shopify
-  - recenzja
-  - platformy sklepu
+    - shopify
+    - recenzja
+    - platformy sklepu
 ---
 
 ## Obietnica decyzji: kto powinien wybrać Shopify (teraz)

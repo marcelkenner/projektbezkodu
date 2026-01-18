@@ -5,43 +5,46 @@ path: /narzedzia/tally/cennik/
 draft: false
 template: article
 type: review
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Tally – cennik z naciskiem na darmowy plan
-  subheading: Rozpisuję, co realnie dostajesz za darmo, a za co trzeba dopłacić w
-    płatnych planach.
+  subheading: >-
+    Rozpisuję, co realnie dostajesz za darmo, a za co trzeba dopłacić w płatnych
+    planach.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Tally – cennik i różnice między darmowym a płatnym planem
-  description: Pomagam ocenić, czy wystarczy Ci darmowy Tally, czy warto przeskoczyć
-    na płatną wersję przy większej skali.
+  description: >-
+    Pomagam ocenić, czy wystarczy Ci darmowy Tally, czy warto przeskoczyć na
+    płatną wersję przy większej skali.
   keywords:
-  - Tally
-  - Tally cennik
-  - formularze online
-  - Tally Pro
-  - Tally Business
+    - Tally
+    - Tally cennik
+    - formularze online
+    - Tally Pro
+    - Tally Business
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz stronę cenową Tally
     href: https://tally.so/help/plans-and-pricing
   summaryBullets:
-  - "Werdykt: darmowy plan wystarcza dla większości prostych zastosowań."
-  - "Dla kogo: Pro przy brandingu i współpracy zespołowej; Business przy kontroli\
-    \ danych."
-  - "Start: załóż formę i sprawdź ograniczenia pod ruch; potem ew. upgrade."
+    - 'Werdykt: darmowy plan wystarcza dla większości prostych zastosowań.'
+    - >-
+      Dla kogo: Pro przy brandingu i współpracy zespołowej; Business przy
+      kontroli danych.
+    - 'Start: załóż formę i sprawdź ograniczenia pod ruch; potem ew. upgrade.'
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
-  - oprogramowanie
+    - narzędzia
+    - formularze
+    - oprogramowanie
 ---
 
 ## Obietnica decyzji: czy darmowy Tally wystarczy?

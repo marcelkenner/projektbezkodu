@@ -4,39 +4,41 @@ slug: faq
 path: /faq
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 type: article
 hero:
-  heading: "FAQ: szybkie odpowiedzi i jasna decyzja"
+  heading: 'FAQ: szybkie odpowiedzi i jasna decyzja'
   subheading: Krótkie zasady, kto powinien robić FAQ i jak zacząć w 5 minut
 seo:
   title: FAQ — jak pisać, gdzie umieścić i kto na tym zyska
-  description: "Prosty przewodnik po FAQ: definicja, najlepsze praktyki, formaty i\
-    \ decyzja: kiedy warto mieć stronę FAQ."
+  description: >-
+    Prosty przewodnik po FAQ: definicja, najlepsze praktyki, formaty i decyzja:
+    kiedy warto mieć stronę FAQ.
   keywords:
-  - FAQ
-  - jak pisać FAQ
-  - najczęściej zadawane pytania
-  - FAQ SEO
+    - FAQ
+    - jak pisać FAQ
+    - najczęściej zadawane pytania
+    - FAQ SEO
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Jak pisać FAQ?
-    href: https://www.ideoforce.pl/akademia/jak-pisac-faq-top10-porad-jak-tworzyc-angazujace-pytania-i-odpowiedzi%2C901.html
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.ideoforce.pl/akademia/jak-pisac-faq-top10-porad-jak-tworzyc-angazujace-pytania-i-odpowiedzi%2C901.html
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - content
-  - ux
+    - content
+    - ux
   tags:
-  - faq
-  - seo
-  - obsługa klienta
+    - faq
+    - seo
+    - obsługa klienta
 ---
 
 ## Obietnica decyzji: dla kogo ten tekst

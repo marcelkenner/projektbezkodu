@@ -5,36 +5,37 @@ path: /alternatywy
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Alternatywy: prosty przewodnik decyzji"
+  heading: 'Alternatywy: prosty przewodnik decyzji'
   subheading: Kiedy zostać, kiedy zamienić i jak to zrobić szybko
 seo:
   title: Alternatywy — kiedy wybrać zamiennik i jak to przetestować
-  description: "Krótki poradnik decyzji: definicja, szybkie kryteria wyboru i proste\
-    \ kroki do sprawdzenia zamiennika."
+  description: >-
+    Krótki poradnik decyzji: definicja, szybkie kryteria wyboru i proste kroki
+    do sprawdzenia zamiennika.
   keywords:
-  - alternatywy
-  - zamienniki
-  - wybór
-  - poradnik
+    - alternatywy
+    - zamienniki
+    - wybór
+    - poradnik
 meta:
   summaryBullets:
-  - "Werdykt: proste zasady, kiedy zmieniać i kiedy nie"
-  - "Dla kogo: decyzje produktowe, osobiste i procesowe"
-  - "Start: jak przetestować alternatywę w 30–60 min"
+    - 'Werdykt: proste zasady, kiedy zmieniać i kiedy nie'
+    - 'Dla kogo: decyzje produktowe, osobiste i procesowe'
+    - 'Start: jak przetestować alternatywę w 30–60 min'
   primaryCta:
     label: Sprawdź słownik SJP
     href: https://sjp.pl/alternatywa
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - poradniki
+    - poradniki
   tags:
-  - alternatywy
-  - decyzje
-  - poradnik
+    - alternatywy
+    - decyzje
+    - poradnik
 ---
 
 ## Obietnica i grupa docelowa

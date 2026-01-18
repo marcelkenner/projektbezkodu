@@ -1,11 +1,11 @@
 ---
-title: "Tally — FAQ: Domeny, limity, integracje i embed"
+title: 'Tally — FAQ: Domeny, limity, integracje i embed'
 slug: faq
 path: /narzedzia/tally/faq/
 draft: false
 template: article
 type: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Tally — najczęstsze pytania i odpowiedzi
   subheading: Domeny, limity, integracje, płatności i embed formularzy na stronie.
@@ -14,33 +14,34 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Tally – FAQ dla osób zaczynających z tym narzędziem
-  description: "Odpowiadam na praktyczne pytania o Tally: co jest darmowe, jakie są\
-    \ ograniczenia i jak połączyć formularze z innymi usługami."
+  description: >-
+    Odpowiadam na praktyczne pytania o Tally: co jest darmowe, jakie są
+    ograniczenia i jak połączyć formularze z innymi usługami.
   keywords:
-  - Tally
-  - formularze online
-  - embed
-  - integracje
-  - custom domain
+    - Tally
+    - formularze online
+    - embed
+    - integracje
+    - custom domain
 meta:
   summaryBullets:
-  - "Werdykt: szybki przewodnik kto powinien używać Tally."
-  - "Dla kogo: kiedy Tally jest dobrym wyborem, a kiedy nie."
-  - "Start: co zrobić w pierwszych 5 minutach."
+    - 'Werdykt: szybki przewodnik kto powinien używać Tally.'
+    - 'Dla kogo: kiedy Tally jest dobrym wyborem, a kiedy nie.'
+    - 'Start: co zrobić w pierwszych 5 minutach.'
   primaryCta:
-    label: "Dokumentacja: Embed your form"
+    label: 'Dokumentacja: Embed your form'
     href: https://tally.so/help/embed-your-form
-  updatedAt: "2024-12-09"
+  updatedAt: '2024-12-09'
   author: Redakcja
   duration: 5 min
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - Tally
-  - FAQ
-  - integracje
+    - Tally
+    - FAQ
+    - integracje
 ---
 
 ## Obietnica decyzji dla czytelnika

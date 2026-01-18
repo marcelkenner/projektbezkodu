@@ -3,7 +3,7 @@ title: Envato Elements — uczciwa recenzja
 slug: recenzja
 path: /narzedzia/envato-elements/recenzja/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: review
 hero:
@@ -13,38 +13,39 @@ hero:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Envato Elements — recenzja 2026: cena, licencja, czy warto?"
-  description: Szybkie wnioski o cenie, licencji i praktycznych ograniczeniach Envato
+  title: 'Envato Elements — recenzja 2026: cena, licencja, czy warto?'
+  description: >-
+    Szybkie wnioski o cenie, licencji i praktycznych ograniczeniach Envato
     Elements. Dla kogo to działa, a kto powinien uważać.
   keywords:
-  - Envato Elements
-  - recenzja
-  - licencja
-  - stock
-  - grafika
+    - Envato Elements
+    - recenzja
+    - licencja
+    - stock
+    - grafika
   canonical: https://elements.envato.com
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwe do sprawdzenia
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz cennik Envato Elements
     href: https://elements.envato.com/pricing
 taxonomy:
   categories:
-  - narzędzia
-  - grafika
-  - stock
+    - narzędzia
+    - grafika
+    - stock
   tags:
-  - envato
-  - recenzja
-  - licencja
+    - envato
+    - recenzja
+    - licencja
 ---
 
 ## Obietnica decyzji dla kogo i dlaczego

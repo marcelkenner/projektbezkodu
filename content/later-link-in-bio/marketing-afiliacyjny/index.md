@@ -1,47 +1,48 @@
 ---
-title: "Marketing afiliacyjny: szybki przewodnik i werdykt"
+title: 'Marketing afiliacyjny: szybki przewodnik i werdykt'
 slug: marketing-afiliacyjny
 path: /marketing-afiliacyjny
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Marketing afiliacyjny: szybki przewodnik"
+  heading: 'Marketing afiliacyjny: szybki przewodnik'
   subheading: Czy warto zaczynać, jak działa i co zrobić jako pierwsze
   primaryCta:
     label: Przejdź do poradnika IAB
     href: https://www.iab.org.pl/baza-wiedzy/poradnik-marketing-afiliacyjny/
 seo:
   title: Marketing afiliacyjny — przewodnik dla wydawców i reklamodawców
-  description: "Krótki, praktyczny przewodnik: definicja, modele rozliczeń, koszty\
-    \ startu i werdykt kto powinien inwestować w afiliację."
+  description: >-
+    Krótki, praktyczny przewodnik: definicja, modele rozliczeń, koszty startu i
+    werdykt kto powinien inwestować w afiliację.
   keywords:
-  - marketing afiliacyjny
-  - afiliacja
-  - programy partnerskie
-  - CPS
-  - CPA
+    - marketing afiliacyjny
+    - afiliacja
+    - programy partnerskie
+    - CPS
+    - CPA
 meta:
   difficulty: łatwy do startu
   duration: 5–60 min (pierwsze kroki)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Pobierz poradnik IAB
     href: https://www.iab.org.pl/baza-wiedzy/poradnik-marketing-afiliacyjny/
   summaryBullets:
-  - "Werdykt: skuteczny, jeśli masz niszę i kanał zaufania"
-  - "Dla kogo: blogerzy, twórcy, sklepy e‑commerce z marżą"
-  - "Start: wybierz sieć afiliacyjną i przetestuj jedną kampanię"
+    - 'Werdykt: skuteczny, jeśli masz niszę i kanał zaufania'
+    - 'Dla kogo: blogerzy, twórcy, sklepy e‑commerce z marżą'
+    - 'Start: wybierz sieć afiliacyjną i przetestuj jedną kampanię'
 taxonomy:
   categories:
-  - marketing
-  - ecommerce
+    - marketing
+    - ecommerce
   tags:
-  - afiliacja
-  - zarabianie
-  - wydawca
+    - afiliacja
+    - zarabianie
+    - wydawca
 ---
 
 ## Obietnica i werdykt dla kogo

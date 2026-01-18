@@ -1,40 +1,42 @@
 ---
-title: "SEO: szybkie decyzje dla właściciela strony"
+title: 'SEO: szybkie decyzje dla właściciela strony'
 slug: seo
 path: /seo
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "SEO w praktyce: co zrobić najpierw"
-  subheading: Krótko, konkretnie, na start — dla właścicieli małych stron i osób planujących
-    rozwój
+  heading: 'SEO w praktyce: co zrobić najpierw'
+  subheading: >-
+    Krótko, konkretnie, na start — dla właścicieli małych stron i osób
+    planujących rozwój
 seo:
-  title: "SEO: szybkie decyzje i pierwszy plan działania"
-  description: "Praktyczny przewodnik startowy: co sprawdzić, co poprawić i kiedy\
-    \ zainwestować w SEO."
+  title: 'SEO: szybkie decyzje i pierwszy plan działania'
+  description: >-
+    Praktyczny przewodnik startowy: co sprawdzić, co poprawić i kiedy
+    zainwestować w SEO.
   keywords:
-  - SEO
-  - przewodnik SEO
-  - jak zacząć SEO
+    - SEO
+    - przewodnik SEO
+    - jak zacząć SEO
 meta:
   summaryBullets:
-  - "Werdykt: Zacznij od techniki i treści — zrób to sam w kilka godzin."
-  - "Dla kogo: Małe strony i sklepy, które chcą ruchu bez płatnych reklam."
-  - "Start: 3 konkretne kroki, które zrobisz w 30–120 minut."
+    - 'Werdykt: Zacznij od techniki i treści — zrób to sam w kilka godzin.'
+    - 'Dla kogo: Małe strony i sklepy, które chcą ruchu bez płatnych reklam.'
+    - 'Start: 3 konkretne kroki, które zrobisz w 30–120 minut.'
   primaryCta:
     label: Przeczytaj przewodnik Google
     href: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - Marketing
-  - SEO
+    - Marketing
+    - SEO
   tags:
-  - seo
-  - poradnik
-  - start
+    - seo
+    - poradnik
+    - start
 ---
 
 ## Obietnica: decyzja na dziś

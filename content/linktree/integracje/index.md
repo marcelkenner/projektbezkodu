@@ -4,41 +4,42 @@ slug: integracje
 path: /integracje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Integracje: jak wybrać narzędzie i zacząć w 5 minut"
+  heading: 'Integracje: jak wybrać narzędzie i zacząć w 5 minut'
   subheading: Krótki werdykt dla Zapier, Make, n8n i integracji własnych
 seo:
-  title: "Integracje: Zapier, Make, n8n — porównanie i decyzja"
-  description: "Praktyczny przewodnik po integracjach: kiedy użyć gotowego narzędzia,\
-    \ kiedy budować API, jak zacząć i czego unikać."
+  title: 'Integracje: Zapier, Make, n8n — porównanie i decyzja'
+  description: >-
+    Praktyczny przewodnik po integracjach: kiedy użyć gotowego narzędzia, kiedy
+    budować API, jak zacząć i czego unikać.
   keywords:
-  - integracje
-  - API
-  - webhooks
-  - automatyzacja
-  - Zapier
-  - n8n
-  - Make
+    - integracje
+    - API
+    - webhooks
+    - automatyzacja
+    - Zapier
+    - n8n
+    - Make
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Jak działa Zapier — dokumentacja
     href: https://docs.zapier.com/platform/quickstart/how-zapier-works
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Integracje
-  - Poradniki
+    - Integracje
+    - Poradniki
   tags:
-  - API
-  - webhook
-  - automatyzacja
+    - API
+    - webhook
+    - automatyzacja
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

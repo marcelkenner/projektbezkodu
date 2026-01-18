@@ -4,42 +4,44 @@ slug: recenzja
 path: /narzedzia/semrush/recenzja/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Semrush – recenzja w stylu „co mam z tego ja”
-  subheading: Sprawdzam, czy Semrush faktycznie dowozi więcej ruchu z Google i lepsze
+  subheading: >-
+    Sprawdzam, czy Semrush faktycznie dowozi więcej ruchu z Google i lepsze
     decyzje SEO, czy kończy się na ładnych wykresach.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Semrush – recenzja z perspektywy praktyka SEO
-  description: "Plusy i minusy Semrush: jakość danych w keyword research, raporty\
-    \ konkurencji, site audit, rank tracking oraz próg wejścia i koszty licencji."
+  description: >-
+    Plusy i minusy Semrush: jakość danych w keyword research, raporty
+    konkurencji, site audit, rank tracking oraz próg wejścia i koszty licencji.
   keywords:
-  - semrush
-  - recenzja semrush
-  - narzędzia SEO
+    - semrush
+    - recenzja semrush
+    - narzędzia SEO
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź cennik Semrush
     href: https://www.semrush.com/kb/140-how-much-does-semrush-cost
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5–30 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Narzędzia SEO
+    - Narzędzia SEO
   tags:
-  - semrush
-  - recenzja
-  - seo
-  - narzędzia
+    - semrush
+    - recenzja
+    - seo
+    - narzędzia
 ---
 
 ## Werdykt na start — dla kogo to ma sens

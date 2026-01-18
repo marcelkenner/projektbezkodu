@@ -5,46 +5,48 @@ path: /narzedzia/memberstack/faq/
 draft: false
 template: article
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Memberstack – odpowiedzi na pytania przed startem społeczności
-  subheading: Wyjaśniam, jak działa logowanie, płatności, migracja użytkowników i
+  subheading: >-
+    Wyjaśniam, jak działa logowanie, płatności, migracja użytkowników i
     integracje z istniejącą stroną.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Memberstack – FAQ o logowaniu, płatnościach i integracjach
-  description: "Najczęstsze pytania o Memberstack: obsługa planów, bezpieczeństwo\
-    \ danych, zgodność z RODO i współpraca z różnymi builderami."
+  description: >-
+    Najczęstsze pytania o Memberstack: obsługa planów, bezpieczeństwo danych,
+    zgodność z RODO i współpraca z różnymi builderami.
   keywords:
-  - Memberstack
-  - logowanie
-  - płatności
-  - migracja użytkowników
-  - integracje
-  - RODO
+    - Memberstack
+    - logowanie
+    - płatności
+    - migracja użytkowników
+    - integracje
+    - RODO
 meta:
   summaryBullets:
-  - "Werdykt: kiedy użyć Memberstack, kiedy nie."
-  - "Start: jak zacząć w 5 minut."
-  - "Migracja: co można importować, a czego nie."
+    - 'Werdykt: kiedy użyć Memberstack, kiedy nie.'
+    - 'Start: jak zacząć w 5 minut.'
+    - 'Migracja: co można importować, a czego nie.'
   primaryCta:
     label: Dokumentacja Memberstack (centrum pomocy)
     href: https://docs.memberstack.com/hc/en-us
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - membership
+    - narzędzia
+    - membership
   tags:
-  - Memberstack
-  - FAQ
-  - płatności
-  - migracja
-  - RODO
+    - Memberstack
+    - FAQ
+    - płatności
+    - migracja
+    - RODO
 ---
 
 ## Obietnica decyzji i dla kogo ten tekst

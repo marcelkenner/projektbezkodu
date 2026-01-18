@@ -4,38 +4,40 @@ slug: automatyzacje
 path: /narzedzia/mailerlite/automatyzacje/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Automatyzacje w MailerLite — co da się zautomatyzować bez developera
-  subheading: Prosty przegląd typowych triggerów, kroków warunkowych i e‑commerce
-    — co działa od ręki, a co wymaga integracji
+  subheading: >-
+    Prosty przegląd typowych triggerów, kroków warunkowych i e‑commerce — co
+    działa od ręki, a co wymaga integracji
 seo:
   title: MailerLite – przykłady automatyzacji i dobre praktyki
-  description: Przegląd najważniejszych typów automatyzacji w MailerLite, gotowe scenariusze
-    i wskazówki, jak nie utonąć w zbyt skomplikowanych ścieżkach.
+  description: >-
+    Przegląd najważniejszych typów automatyzacji w MailerLite, gotowe
+    scenariusze i wskazówki, jak nie utonąć w zbyt skomplikowanych ścieżkach.
   keywords:
-  - MailerLite
-  - automatyzacje
-  - workflow
-  - marketing automation
+    - MailerLite
+    - automatyzacje
+    - workflow
+    - marketing automation
 meta:
   summaryBullets:
-  - "Werdykt: prosty start, rozsądne ograniczenia."
-  - "Dla kogo: małe firmy, newslettery, sklepy z podstawową integracją."
-  - "Start: 5 minut — stwórz grupę, formularz i prostą sekwencję powitalną."
+    - 'Werdykt: prosty start, rozsądne ograniczenia.'
+    - 'Dla kogo: małe firmy, newslettery, sklepy z podstawową integracją.'
+    - 'Start: 5 minut — stwórz grupę, formularz i prostą sekwencję powitalną.'
   primaryCta:
-    label: "Dokumentacja MailerLite: Triggery automatyzacji"
+    label: 'Dokumentacja MailerLite: Triggery automatyzacji'
     href: https://www.mailerlite.com/help/how-to-set-up-automation-triggers
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - e-mail marketing
+    - narzędzia
+    - e-mail marketing
   tags:
-  - MailerLite
-  - automatyzacje
-  - workflow
+    - MailerLite
+    - automatyzacje
+    - workflow
 ---
 
 ## Obietnica i do kogo to jest

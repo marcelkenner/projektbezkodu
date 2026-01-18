@@ -4,39 +4,41 @@ slug: leadpages
 path: /narzedzia/leadpages/
 draft: false
 template: article
-date: "2025-11-09"
+date: '2025-11-09'
 hero:
   heading: Leadpages – strony lądowania bez kombinowania
-  subheading: Szybkie strony pod kampanie i lead magnety z gotowymi blokami zamiast
+  subheading: >-
+    Szybkie strony pod kampanie i lead magnety z gotowymi blokami zamiast
     dłubania w motywach.
 seo:
   title: Leadpages – narzędzie do prostych landing page'y
-  description: Jak szybko zbudować stronę pod lead magnet, newsletter i kampanie bez
+  description: >-
+    Jak szybko zbudować stronę pod lead magnet, newsletter i kampanie bez
     programisty — proste porównanie funkcji i kosztów.
   keywords:
-  - Leadpages
-  - landing page
-  - strony lądowania
-  - lead magnet
-  - narzędzia marketingowe
+    - Leadpages
+    - landing page
+    - strony lądowania
+    - lead magnet
+    - narzędzia marketingowe
 meta:
   summaryBullets:
-  - "Werdykt: świetne do prostych stron i testów reklamowych."
-  - "Koszty: mały próg wejścia, ale za pełne możliwości zapłacisz więcej."
-  - "Start w 15 minut: szablon → domena → formularz."
+    - 'Werdykt: świetne do prostych stron i testów reklamowych.'
+    - 'Koszty: mały próg wejścia, ale za pełne możliwości zapłacisz więcej.'
+    - 'Start w 15 minut: szablon → domena → formularz.'
   primaryCta:
     label: Strona cenowa Leadpages
     href: https://www.leadpages.com/price
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - landing page
-  - lead magnet
-  - Leadpages
+    - landing page
+    - lead magnet
+    - Leadpages
 ---
 
 ## Obietnica decyzji — komu to pasuje

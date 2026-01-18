@@ -14,9 +14,13 @@
       "links": [
         { "label": "Strona główna", "href": "/" },
         { "label": "O nas", "href": "/o-nas/" },
-        { "label": "Artykuły i poradniki", "href": "/artykuly/" },
+        { "label": "Artykuły", "href": "/artykuly/" },
+        { "label": "Poradniki", "href": "/poradniki/" },
+        { "label": "Porównania", "href": "/porownania/" },
         { "label": "Narzędzia no-code", "href": "/narzedzia/" },
         { "label": "Szablony i sekcje", "href": "/szablony/" },
+        { "label": "Zasoby", "href": "/zasoby/" },
+        { "label": "Słownik", "href": "/glossary/" },
         { "label": "Newsletter 80/20", "href": "/newsletter/" },
         { "label": "FAQ", "href": "/faq/" },
         { "label": "Kontakt", "href": "/kontakt/" }

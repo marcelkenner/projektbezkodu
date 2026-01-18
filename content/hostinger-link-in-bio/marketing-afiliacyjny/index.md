@@ -1,43 +1,49 @@
 ---
-title: "Marketing afiliacyjny: prosty przewodnik i werdykt"
+title: 'Marketing afiliacyjny: prosty przewodnik i werdykt'
 slug: marketing-afiliacyjny
 path: /marketing-afiliacyjny
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Marketing afiliacyjny: co działa, kiedy warto i jak zacząć"
+  heading: 'Marketing afiliacyjny: co działa, kiedy warto i jak zacząć'
   subheading: Krótka decyzja dla reklamodawców i afiliantów — bez lania wody
 meta:
   summaryBullets:
-  - "Werdykt: skuteczny, jeśli potrafisz mierzyć konwersje i akceptujesz zmienność\
-    \ prowizji."
-  - "Dla kogo: detal e-commerce i twórcy treści z ruchem; nie dla firm bez śledzenia\
-    \ konwersji."
-  - "Start: wybierz program sieciowy, ustaw tracking, przetestuj 1 kampanię w 30 dni."
+    - >-
+      Werdykt: skuteczny, jeśli potrafisz mierzyć konwersje i akceptujesz
+      zmienność prowizji.
+    - >-
+      Dla kogo: detal e-commerce i twórcy treści z ruchem; nie dla firm bez
+      śledzenia konwersji.
+    - >-
+      Start: wybierz program sieciowy, ustaw tracking, przetestuj 1 kampanię w
+      30 dni.
   primaryCta:
     label: Awin — czym jest marketing afiliacyjny
-    href: https://www.awin.com/pl/marketing-afiliacyjny/czym-jest-marketing-afiliacyjny
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.awin.com/pl/marketing-afiliacyjny/czym-jest-marketing-afiliacyjny
+  updatedAt: '2026-01-14'
   duration: 5–10 min
   author: Redakcja
 seo:
   title: Marketing afiliacyjny — definicja, modele i szybki werdykt
-  description: "Praktyczny przewodnik po marketingu afiliacyjnym: jak działa, kiedy\
-    \ warto, jak zacząć i kto na tym traci."
+  description: >-
+    Praktyczny przewodnik po marketingu afiliacyjnym: jak działa, kiedy warto,
+    jak zacząć i kto na tym traci.
   keywords:
-  - marketing afiliacyjny
-  - afiliacja
-  - CPA
-  - CPC
-  - CPS
+    - marketing afiliacyjny
+    - afiliacja
+    - CPA
+    - CPC
+    - CPS
 taxonomy:
   categories:
-  - marketing
+    - marketing
   tags:
-  - afiliacje
-  - e-commerce
-  - performance
+    - afiliacje
+    - e-commerce
+    - performance
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

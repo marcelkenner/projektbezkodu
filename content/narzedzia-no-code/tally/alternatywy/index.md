@@ -5,44 +5,46 @@ path: /narzedzia/tally/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Tally – kiedy potrzebujesz czegoś innego
-  subheading: Porównuję Tally z Jotform, Typeform, Paperform i innymi narzędziami
-    pod kątem funkcji i ograniczeń.
+  subheading: >-
+    Porównuję Tally z Jotform, Typeform, Paperform i innymi narzędziami pod
+    kątem funkcji i ograniczeń.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Tally – alternatywy i inne rozwiązania do formularzy
-  description: Zestawiam Tally z konkurencją, żebyś łatwiej dobrał narzędzie do ankiet,
+  description: >-
+    Zestawiam Tally z konkurencją, żebyś łatwiej dobrał narzędzie do ankiet,
     zapisów i sprzedaży.
   keywords:
-  - Tally
-  - formularze
-  - alternatywy
-  - Typeform
-  - Jotform
+    - Tally
+    - formularze
+    - alternatywy
+    - Typeform
+    - Jotform
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do strony Tally
     href: https://tally.so/help/tally-a-free-typeform-alternative
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - Tally
-  - Typeform
-  - Jotform
-  - Paperform
+    - Tally
+    - Typeform
+    - Jotform
+    - Paperform
 ---
 
 ## Obietnica decyzji — co przeczytasz i dlaczego to ważne

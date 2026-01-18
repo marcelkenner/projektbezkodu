@@ -4,40 +4,41 @@ slug: ecommerce-pl
 path: /ecommerce-pl
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Ecommerce w Polsce — szybko, konkretnie
-  subheading: "Kto wygra: marketplace czy własny sklep? Co zrobić jako pierwsze"
+  subheading: 'Kto wygra: marketplace czy własny sklep? Co zrobić jako pierwsze'
 seo:
-  title: "Ecommerce w Polsce: rynek, platformy, decyzja"
-  description: "Szybki przewodnik dla właścicieli sklepów i menedżerów: gdzie sprzedawać\
-    \ w Polsce i jak zacząć. Dane rynkowe i praktyczne kroki."
+  title: 'Ecommerce w Polsce: rynek, platformy, decyzja'
+  description: >-
+    Szybki przewodnik dla właścicieli sklepów i menedżerów: gdzie sprzedawać w
+    Polsce i jak zacząć. Dane rynkowe i praktyczne kroki.
   keywords:
-  - ecommerce Polska
-  - sklep internetowy
-  - Allegro
-  - płatności online
+    - ecommerce Polska
+    - sklep internetowy
+    - Allegro
+    - płatności online
 meta:
   difficulty: średniozaawansowany
   duration: 10 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Artykuł: polski rynek e-commerce (EcommerceNews)"
+    label: 'Artykuł: polski rynek e-commerce (EcommerceNews)'
     href: https://ecommercenews.eu/polish-ecommerce-to-exceed-e7-billion-this-year/
   summaryBullets:
-  - "Werdykt: konkretna decyzja dla sprzedawców w PL"
-  - "Dla kogo: marketplace czy własny sklep"
-  - "Start: pierwszy krok w 5 minut"
+    - 'Werdykt: konkretna decyzja dla sprzedawców w PL'
+    - 'Dla kogo: marketplace czy własny sklep'
+    - 'Start: pierwszy krok w 5 minut'
 taxonomy:
   categories:
-  - ecommerce
-  - handel
+    - ecommerce
+    - handel
   tags:
-  - Allegro
-  - płatności
-  - platformy
+    - Allegro
+    - płatności
+    - platformy
 ---
 
 Obietnica: dasz radę — po 5 minutach wiesz, gdzie wystawić ofertę w Polsce i jaki będzie pierwszy realny krok. Artykuł dla właścicieli małych i średnich firm, menedżerów e‑commerce i osób planujących wejść na rynek PL.

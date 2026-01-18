@@ -4,45 +4,47 @@ slug: cennik
 path: /narzedzia/semrush/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Semrush – cennik przełożony na realne projekty
-  subheading: "Rozpisuję plany Semrush na scenariusze: freelancer, mała agencja, większy\
-    \ dział SEO – zamiast wklejać samą tabelkę z cenami."
+  subheading: >-
+    Rozpisuję plany Semrush na scenariusze: freelancer, mała agencja, większy
+    dział SEO – zamiast wklejać samą tabelkę z cenami.
   primaryCta:
     label: Zobacz cennik Semrush
     href: https://www.semrush.com/pricing/
 seo:
   title: Semrush – cennik i opłacalność przy różnych skalach biznesu
-  description: Tłumaczę, jak działają poziomy cenowe Semrush, skąd biorą się limity
-    zapytań i projektów oraz kiedy wydatek zaczyna się zwracać w wynikach.
+  description: >-
+    Tłumaczę, jak działają poziomy cenowe Semrush, skąd biorą się limity zapytań
+    i projektów oraz kiedy wydatek zaczyna się zwracać w wynikach.
   keywords:
-  - Semrush
-  - cennik
-  - SEO
-  - narzędzia SEO
-  - koszty Semrush
+    - Semrush
+    - cennik
+    - SEO
+    - narzędzia SEO
+    - koszty Semrush
 meta:
   difficulty: łatwe do szybkiego sprawdzenia
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz cennik Semrush
     href: https://www.semrush.com/pricing/
   summaryBullets:
-  - "Werdykt: dla kogo się opłaca i kiedy przestać płacić"
-  - "Dla kogo: freelancer, mała agencja, duży dział SEO"
-  - "Start: 7-dniowy trial i co koniecznie przetestować"
+    - 'Werdykt: dla kogo się opłaca i kiedy przestać płacić'
+    - 'Dla kogo: freelancer, mała agencja, duży dział SEO'
+    - 'Start: 7-dniowy trial i co koniecznie przetestować'
 taxonomy:
   categories:
-  - narzedzia
-  - SEO
+    - narzedzia
+    - SEO
   tags:
-  - Semrush
-  - cennik
-  - poradnik
+    - Semrush
+    - cennik
+    - poradnik
 ---
 
 ## Szybki werdykt — kto powinien płacić za Semrush

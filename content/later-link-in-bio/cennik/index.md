@@ -4,7 +4,7 @@ slug: cennik
 path: /cennik
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Cennik — jak zaprojektować ceny które sprzedają
   subheading: Praktyczny przewodnik dla właścicieli produktów i usług
@@ -13,34 +13,36 @@ hero:
     href: https://mamstartup.pl/jak-ustalic-cene-produktu-pricing-w-saasie/
 seo:
   title: Cennik — projektowanie, testowanie, decyzje
-  description: Krótki, praktyczny przewodnik po modelach cenowych, testach i typowych
+  description: >-
+    Krótki, praktyczny przewodnik po modelach cenowych, testach i typowych
     pułapkach — dla SaaS, usług i produktów cyfrowych.
   keywords:
-  - cennik
-  - pricing
-  - SaaS
-  - jak ustalić cenę
+    - cennik
+    - pricing
+    - SaaS
+    - jak ustalić cenę
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: proste plany + jasno mierzone korzyści działają najlepiej."
-  - "Dla kogo: małe SaaS, agencje i usługi B2B — kiedy zastosować model użytkownika\
-    \ vs. wykorzystania."
-  - "Start: zacznij od testu cenowego i prostej value metric w 5 dni."
+    - 'Werdykt: proste plany + jasno mierzone korzyści działają najlepiej.'
+    - >-
+      Dla kogo: małe SaaS, agencje i usługi B2B — kiedy zastosować model
+      użytkownika vs. wykorzystania.
+    - 'Start: zacznij od testu cenowego i prostej value metric w 5 dni.'
   primaryCta:
     label: Przeczytaj więcej o pricingu (źródło)
     href: https://mamstartup.pl/jak-ustalic-cene-produktu-pricing-w-saasie/
 taxonomy:
   categories:
-  - biznes
-  - product
+    - biznes
+    - product
   tags:
-  - cennik
-  - pricing
-  - SaaS
+    - cennik
+    - pricing
+    - SaaS
 ---
 
 ## Obietnica decyzji — komu to pomoże i co wybierzesz

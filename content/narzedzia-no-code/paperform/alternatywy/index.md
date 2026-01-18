@@ -1,52 +1,54 @@
 ---
-title: "Paperform — alternatywy: co wybrać zamiast"
+title: 'Paperform — alternatywy: co wybrać zamiast'
 slug: alternatywy
 path: /narzedzia/paperform/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Paperform – co wybrać zamiast
-  subheading: Porównuję Paperform z Jotform, Typeform, Tally i innymi narzędziami,
-    które pozwalają budować formularze i mini strony.
+  subheading: >-
+    Porównuję Paperform z Jotform, Typeform, Tally i innymi narzędziami, które
+    pozwalają budować formularze i mini strony.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Paperform – alternatywy i narzędzia o podobnym podejściu
-  description: Zestawiam Paperform z konkurencją, żebyś dobrał rozwiązanie do swojego
+  description: >-
+    Zestawiam Paperform z konkurencją, żebyś dobrał rozwiązanie do swojego
     budżetu i stylu pracy.
   keywords:
-  - Paperform
-  - alternatywy Paperform
-  - formularze online
-  - Jotform
-  - Typeform
-  - Tally
+    - Paperform
+    - alternatywy Paperform
+    - formularze online
+    - Jotform
+    - Typeform
+    - Tally
   canonical: https://www.jotform.com/blog/paperform-alternatives/
 meta:
   summaryBullets:
-  - "Werdykt: krótkie porównanie i decyzja"
-  - "Dla kogo: kiedy zmienić Paperform, a kiedy zostać"
-  - "Start: co przetestować w 10 minut"
+    - 'Werdykt: krótkie porównanie i decyzja'
+    - 'Dla kogo: kiedy zmienić Paperform, a kiedy zostać'
+    - 'Start: co przetestować w 10 minut'
   primaryCta:
     label: Zobacz listę alternatyw
     href: https://www.jotform.com/blog/paperform-alternatives/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: łatwy
   duration: 10 minut
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - Paperform
-  - Jotform
-  - Typeform
-  - Tally
+    - Paperform
+    - Jotform
+    - Typeform
+    - Tally
 ---
 
 ## Obietnica: decyzja w 10 minut

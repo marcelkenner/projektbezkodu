@@ -5,45 +5,50 @@ path: /narzedzia/relume/webflow-integracja/
 draft: false
 template: default
 type: article
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
   heading: Relume Webflow Integracja
-  subheading: "Szybki przewodnik: kiedy użyć Relume, jak zacząć i czego się spodziewać."
+  subheading: 'Szybki przewodnik: kiedy użyć Relume, jak zacząć i czego się spodziewać.'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Relume i Webflow — jak integrować, kiedy warto i co trzeba wiedzieć
-  description: "Praktyczny przewodnik po integracji Relume z Webflow: metody importu,\
-    \ ograniczenia, typowe pułapki i rekomendacje dla różnych typów projektów."
+  description: >-
+    Praktyczny przewodnik po integracji Relume z Webflow: metody importu,
+    ograniczenia, typowe pułapki i rekomendacje dla różnych typów projektów.
   keywords:
-  - Relume
-  - Webflow
-  - Relume Webflow integracja
-  - Relume Library
-  - Relume app
+    - Relume
+    - Webflow
+    - Relume Webflow integracja
+    - Relume Library
+    - Relume app
 meta:
   summaryBullets:
-  - "Werdykt: szybkie prototypy i marketingowe strony — tak; aplikacje produktowe\
-    \ — z zastrzeżeniami."
-  - "Dla kogo: freelancerzy i zespoły marketingu chcą skrócić czas produkcji."
-  - "Start: sklonuj style guide, potem importuj sekcje; link do instrukcji poniżej."
+    - >-
+      Werdykt: szybkie prototypy i marketingowe strony — tak; aplikacje
+      produktowe — z zastrzeżeniami.
+    - 'Dla kogo: freelancerzy i zespoły marketingu chcą skrócić czas produkcji.'
+    - >-
+      Start: sklonuj style guide, potem importuj sekcje; link do instrukcji
+      poniżej.
   primaryCta:
     label: Relume — instrukcja importu do Webflow
-    href: https://www.relume.io/resources/docs/using-the-relume-site-builder-import-webflow-app
+    href: >-
+      https://www.relume.io/resources/docs/using-the-relume-site-builder-import-webflow-app
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   format: recenzja
 taxonomy:
   categories:
-  - narzedzia
-  - webflow
-  - relume
+    - narzedzia
+    - webflow
+    - relume
   tags:
-  - integracja
-  - no-code
-  - komponenty
+    - integracja
+    - no-code
+    - komponenty
 ---
 
 ## Obietnica decyzji — komu to pomaga i kiedy nie

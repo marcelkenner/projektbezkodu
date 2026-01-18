@@ -1,48 +1,53 @@
 ---
-title: "FAQ: jak pisać i kiedy stosować"
+title: 'FAQ: jak pisać i kiedy stosować'
 slug: faq
 path: /faq
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "FAQ: szybkie wytyczne dla treści i SEO"
+  heading: 'FAQ: szybkie wytyczne dla treści i SEO'
   subheading: Kiedy warto robić stronę FAQ, jak ją strukturyzować i co sprawdzić
   primaryCta:
     label: Przeczytaj wytyczne Google
-    href: https://developers.google.com/search/docs/appearance/structured-data/faqpage
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/faqpage
 seo:
-  title: "FAQ: jak pisać FAQ dla użytkownika i SEO"
-  description: "Praktyczny przewodnik: kiedy tworzyć FAQ, jak oznaczać je schema.org\
-    \ i co sprawdzić w Search Console."
+  title: 'FAQ: jak pisać FAQ dla użytkownika i SEO'
+  description: >-
+    Praktyczny przewodnik: kiedy tworzyć FAQ, jak oznaczać je schema.org i co
+    sprawdzić w Search Console.
   keywords:
-  - FAQ
-  - FAQPage
-  - schema.org
-  - SEO
-  - structured data
+    - FAQ
+    - FAQPage
+    - schema.org
+    - SEO
+    - structured data
 meta:
   difficulty: łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: FAQ opłaca się głównie dla obsługi klienta i dokumentacji produktu."
-  - "Dla kogo: kiedy masz powtarzające się pytania i pełne, stałe odpowiedzi."
-  - "Start: opublikuj 5–10 pytań, dodaj JSON-LD i testuj w Rich Results Test."
+    - >-
+      Werdykt: FAQ opłaca się głównie dla obsługi klienta i dokumentacji
+      produktu.
+    - 'Dla kogo: kiedy masz powtarzające się pytania i pełne, stałe odpowiedzi.'
+    - 'Start: opublikuj 5–10 pytań, dodaj JSON-LD i testuj w Rich Results Test.'
   primaryCta:
-    label: "Wytyczne Google: FAQPage"
-    href: https://developers.google.com/search/docs/appearance/structured-data/faqpage
+    label: 'Wytyczne Google: FAQPage'
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/faqpage
 taxonomy:
   categories:
-  - SEO
-  - Content
+    - SEO
+    - Content
   tags:
-  - faq
-  - faqpage
-  - schema
-  - seo
+    - faq
+    - faqpage
+    - schema
+    - seo
 ---
 
 ## Obietnica decyzji

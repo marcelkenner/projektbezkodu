@@ -5,7 +5,7 @@ path: /narzedzia/tally/kody-znizkowe/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Tally – kody zniżkowe i promocje
   subheading: Zebrane aktualne sposoby na obniżenie kosztów płatnych planów Tally.
@@ -14,30 +14,31 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Tally – kody zniżkowe, promocje i tańsze plany
-  description: "Jak obniżyć koszt Tally: referral, roczne rozliczenie, oferty partnerskie\
-    \ i gdzie sprawdzić kody."
+  description: >-
+    Jak obniżyć koszt Tally: referral, roczne rozliczenie, oferty partnerskie i
+    gdzie sprawdzić kody.
   keywords:
-  - Tally kody zniżkowe
-  - Tally promocje
-  - Tally rabat
+    - Tally kody zniżkowe
+    - Tally promocje
+    - Tally rabat
 meta:
   summaryBullets:
-  - "Werdykt: najpewniejszy sposób to referral i roczne rozliczenie"
-  - "Dla kogo: twórcy i małe firmy, które potrzebują funkcji Pro/Business"
-  - "Start: sprawdź konto Tally i zakładkę Rewards / plany"
+    - 'Werdykt: najpewniejszy sposób to referral i roczne rozliczenie'
+    - 'Dla kogo: twórcy i małe firmy, które potrzebują funkcji Pro/Business'
+    - 'Start: sprawdź konto Tally i zakładkę Rewards / plany'
   primaryCta:
     label: Sprawdź oficjalne ceny i rabaty
     href: https://tally.so/help/plans-and-pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - tally
+    - narzędzia
+    - tally
   tags:
-  - kody
-  - zniżki
-  - promocje
+    - kody
+    - zniżki
+    - promocje
 ---
 
 ## Obietnica decyzji

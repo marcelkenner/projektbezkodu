@@ -5,40 +5,42 @@ path: /narzedzia/memberstack/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Memberstack — szybko dodaj logowanie i płatne treści do istniejącej strony
-  subheading: Budujesz strefy członkowskie na Webflow i innych builderach bez własnego
+  subheading: >-
+    Budujesz strefy członkowskie na Webflow i innych builderach bez własnego
     backendu
 seo:
   title: Memberstack — kiedy go używam
-  description: "Pokazuję, kiedy Memberstack ma sens: płatne treści, społeczności,\
-    \ proste SaaS-y i programy członkowskie."
+  description: >-
+    Pokazuję, kiedy Memberstack ma sens: płatne treści, społeczności, proste
+    SaaS-y i programy członkowskie.
   keywords:
-  - Memberstack
-  - Webflow
-  - logowanie
-  - płatne treści
-  - no-code
-  - subskrypcje
+    - Memberstack
+    - Webflow
+    - logowanie
+    - płatne treści
+    - no-code
+    - subskrypcje
 meta:
   summaryBullets:
-  - "Werdykt: szybkie wdrożenie dla prostych stref członkowskich"
-  - "Dla kogo: Webflow/no-code makerzy, małe kursy, proste SaaS"
-  - "Start: 10–30 minut, darmowe konto, połączenie Stripe"
+    - 'Werdykt: szybkie wdrożenie dla prostych stref członkowskich'
+    - 'Dla kogo: Webflow/no-code makerzy, małe kursy, proste SaaS'
+    - 'Start: 10–30 minut, darmowe konto, połączenie Stripe'
   primaryCta:
     label: Zobacz integrację z Webflow
     href: https://www.memberstack.com/with/webflow
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - no-code
+    - narzędzia
+    - no-code
   tags:
-  - memberstack
-  - webflow
-  - subskrypcje
+    - memberstack
+    - webflow
+    - subskrypcje
 ---
 
 ## Decyzja na start — komu to pasuje

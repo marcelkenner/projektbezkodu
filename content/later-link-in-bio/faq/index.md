@@ -1,48 +1,52 @@
 ---
-title: "FAQ: jak zaprojektować stronę pytań i odpowiedzi, która pomaga użytkownikom\
-  \ (i nie szkodzi SEO)"
+title: >-
+  FAQ: jak zaprojektować stronę pytań i odpowiedzi, która pomaga użytkownikom (i
+  nie szkodzi SEO)
 slug: faq
 path: /faq
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "FAQ: co robić krok po kroku"
+  heading: 'FAQ: co robić krok po kroku'
   subheading: Szybkie decyzje dla właściciela strony i redaktora
   primaryCta:
     label: Wytyczne Google dla FAQPage
-    href: https://developers.google.com/search/docs/appearance/structured-data/faqpage
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/faqpage
 seo:
   title: FAQ — jak zrobić stronę FAQ przyjazną użytkownikom i zgodną z SEO
-  description: "Praktyczne wskazówki: kiedy FAQ pomaga, kiedy nie, jak zacząć i jak\
-    \ korzystać ze schema. Krótko, bez marketingu."
+  description: >-
+    Praktyczne wskazówki: kiedy FAQ pomaga, kiedy nie, jak zacząć i jak
+    korzystać ze schema. Krótko, bez marketingu.
   keywords:
-  - FAQ
-  - FAQPage
-  - schema
-  - SEO
-  - FAQ schema
+    - FAQ
+    - FAQPage
+    - schema
+    - SEO
+    - FAQ schema
 meta:
   difficulty: łatwe
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Wytyczne Google dla FAQPage
-    href: https://developers.google.com/search/docs/appearance/structured-data/faqpage
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/faqpage
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
 taxonomy:
   categories:
-  - SEO
-  - Content
+    - SEO
+    - Content
   tags:
-  - FAQ
-  - structured-data
-  - poradnik
+    - FAQ
+    - structured-data
+    - poradnik
 ---
 
 ## Obietnica decyzji — kto skorzysta

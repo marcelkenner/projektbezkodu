@@ -1,50 +1,54 @@
 ---
-title: "E-commerce w Polsce: co działa, dla kogo i jak zacząć"
+title: 'E-commerce w Polsce: co działa, dla kogo i jak zacząć'
 slug: ecommerce-pl
 path: /ecommerce-pl
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybki przewodnik po polskim e‑commerce: decyzja, start, priorytety"
-  subheading: Krótkie werdykty dla właścicieli sklepów, twórców marek i menedżerów
+  heading: 'Szybki przewodnik po polskim e‑commerce: decyzja, start, priorytety'
+  subheading: >-
+    Krótkie werdykty dla właścicieli sklepów, twórców marek i menedżerów
     sprzedaży.
 seo:
-  title: "E-commerce w Polsce: co działa i jak zacząć"
-  description: Praktyczny przegląd rynku e‑commerce w Polsce — kluczowe liczby, segmenty,
+  title: 'E-commerce w Polsce: co działa i jak zacząć'
+  description: >-
+    Praktyczny przegląd rynku e‑commerce w Polsce — kluczowe liczby, segmenty,
     szybki plan startu i jasne werdykty dla różnych grup.
   keywords:
-  - ecommerce Polska
-  - sklep internetowy
-  - sprzedaż online
-  - Allegro
-  - logistyka e-commerce
+    - ecommerce Polska
+    - sklep internetowy
+    - sprzedaż online
+    - Allegro
+    - logistyka e-commerce
   canonical: https://www.trade.gov.pl/en/news/e-commerce-in-poland/
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwy
   duration: 7 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: rynek dojrzały, ale kanał wymaga optymalizacji — wybierz strategię według\
-    \ zasobów."
-  - "Dla kogo: marketplace = szybki start, własny sklep = kontrola marży, social commerce\
-    \ = eksperyment."
-  - "Start: pierwsze 5 kroków w 60–120 minut, bez złożonych integracji."
+    - >-
+      Werdykt: rynek dojrzały, ale kanał wymaga optymalizacji — wybierz
+      strategię według zasobów.
+    - >-
+      Dla kogo: marketplace = szybki start, własny sklep = kontrola marży,
+      social commerce = eksperyment.
+    - 'Start: pierwsze 5 kroków w 60–120 minut, bez złożonych integracji.'
   primaryCta:
     label: Raport o e‑commerce w Polsce
     href: https://www.trade.gov.pl/en/news/e-commerce-in-poland/
 taxonomy:
   categories:
-  - ecommerce
-  - biznes
-  - marketing
+    - ecommerce
+    - biznes
+    - marketing
   tags:
-  - sprzedaż online
-  - Allegro
-  - logistyka
+    - sprzedaż online
+    - Allegro
+    - logistyka
 ---
 
 ## Obietnica decyzji

@@ -5,47 +5,49 @@ path: /narzedzia/make/
 draft: false
 template: article
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Make – centrum automatyzacji dla rozsypanych narzędzi
-  subheading: Łączę CRM-y, maile i arkusze w jeden sensowny proces, bez dotykania
-    API czy kodu.
+  subheading: >-
+    Łączę CRM-y, maile i arkusze w jeden sensowny proces, bez dotykania API czy
+    kodu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Make – jak używam go do automatyzacji procesów
-  description: "Zobacz, jak Make pomaga mi ogarniać powtarzalne zadania: integracje,\
-    \ scenariusze i automatyzacje w małym i większym biznesie."
+  description: >-
+    Zobacz, jak Make pomaga mi ogarniać powtarzalne zadania: integracje,
+    scenariusze i automatyzacje w małym i większym biznesie.
   keywords:
-  - Make
-  - Integromat
-  - automatyzacja no-code
-  - scenariusze
-  - integracje
+    - Make
+    - Integromat
+    - automatyzacja no-code
+    - scenariusze
+    - integracje
   canonical: https://www.make.com
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Odwiedź stronę Make
     href: https://www.make.com/en/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
   difficulty: średni
   duration: 10–30 min
 taxonomy:
   categories:
-  - narzędzia
-  - automatyzacja
-  - no-code
+    - narzędzia
+    - automatyzacja
+    - no-code
   tags:
-  - Make
-  - Integromat
-  - scenariusze
+    - Make
+    - Integromat
+    - scenariusze
 ---
 
 ## Obietnica i werdykt

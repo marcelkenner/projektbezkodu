@@ -5,44 +5,45 @@ path: /narzedzia/shutterstock/alternatywy/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shutterstock Alternatywy
-  subheading: "Szybki przegląd opcji: kiedy przejść z Shutterstock i na co uważać."
+  subheading: 'Szybki przegląd opcji: kiedy przejść z Shutterstock i na co uważać.'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Shutterstock alternatywy — które serwisy wybrać w 2026
-  description: "Porównanie alternatyw dla Shutterstock: płatne biblioteki, subskrypcje\
-    \ 'all-you-can-download' i darmowe banki zdjęć. Krótkie wnioski i jak zacząć w\
-    \ 5 minut."
+  description: >-
+    Porównanie alternatyw dla Shutterstock: płatne biblioteki, subskrypcje
+    'all-you-can-download' i darmowe banki zdjęć. Krótkie wnioski i jak zacząć w
+    5 minut.
   keywords:
-  - Shutterstock alternatywy
-  - stock photo
-  - depositphotos
-  - envato
-  - unsplash
+    - Shutterstock alternatywy
+    - stock photo
+    - depositphotos
+    - envato
+    - unsplash
 meta:
   summaryBullets:
-  - "Werdykt: wybór zależy od budżetu i skali użycia."
-  - "Dla kogo: freelancer, agencja, bloger — krótkie rekomendacje."
-  - "Start: testy bez karty, sprawdź licencję i filtrowanie."
+    - 'Werdykt: wybór zależy od budżetu i skali użycia.'
+    - 'Dla kogo: freelancer, agencja, bloger — krótkie rekomendacje.'
+    - 'Start: testy bez karty, sprawdź licencję i filtrowanie.'
   primaryCta:
     label: Pełna lista alternatyw
     href: https://www.experte.com/stock-photos/shutterstock-alternatives
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - grafika
-  - stock
+    - narzędzia
+    - grafika
+    - stock
   tags:
-  - shutterstock
-  - stock-images
-  - alternatywy
+    - shutterstock
+    - stock-images
+    - alternatywy
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

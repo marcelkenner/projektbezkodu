@@ -5,47 +5,54 @@ path: /narzedzia/make/alternatywy/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Make, gdy potrzebujesz czegoś prostszego lub mocniejszego
-  subheading: Porównuję inne platformy automatyzacji, żeby dobrać narzędzie do skali
+  subheading: >-
+    Porównuję inne platformy automatyzacji, żeby dobrać narzędzie do skali
     projektu, zespołu i budżetu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Make – alternatywy dla różnych typów projektów
-  description: Przegląd narzędzi, które mogą zastąpić Make w małych automatyzacjach,
+  description: >-
+    Przegląd narzędzi, które mogą zastąpić Make w małych automatyzacjach,
     integracjach korporacyjnych i projektach no-code.
   keywords:
-  - Make alternatywy
-  - automatyzacja
-  - n8n
-  - Zapier
-  - Pipedream
+    - Make alternatywy
+    - automatyzacja
+    - n8n
+    - Zapier
+    - Pipedream
   canonical: https://www.make.com/en/pricing
 meta:
   summaryBullets:
-  - "Werdykt: które narzędzie wybrać zależy od skali, kompetencji dev i budżetu."
-  - "Dla kogo: szybkie automatyzacje → Zapier/Make; developerzy → Pipedream/n8n; korporacje\
-    \ → Power Automate/Workato."
-  - "Start: 5-minutowy test, porównaj koszty operacji/wykonań, sprawdź SLA i hostowanie."
+    - >-
+      Werdykt: które narzędzie wybrać zależy od skali, kompetencji dev i
+      budżetu.
+    - >-
+      Dla kogo: szybkie automatyzacje → Zapier/Make; developerzy →
+      Pipedream/n8n; korporacje → Power Automate/Workato.
+    - >-
+      Start: 5-minutowy test, porównaj koszty operacji/wykonań, sprawdź SLA i
+      hostowanie.
   primaryCta:
     label: Strona cenowa Make
     href: https://www.make.com/en/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - automatyzacja
-  - no-code
+    - narzędzia
+    - automatyzacja
+    - no-code
   tags:
-  - Make
-  - alternatywy
-  - Zapier
-  - n8n
-  - Pipedream
+    - Make
+    - alternatywy
+    - Zapier
+    - n8n
+    - Pipedream
 ---
 
 ## Obietnica decyzji

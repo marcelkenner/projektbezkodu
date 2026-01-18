@@ -45,7 +45,9 @@ All markdown lives under `content/**`. Each file **must**:
 
 The `/artykuly` listing now aggregates every markdown file with `template: "article"` (and `draft: false`) no matter where it lives under `content/**`. Keep `template` + `path` accurate whenever you expect a piece to appear in that listing.
 
-Content routing: canonical URLs always end with the slugified frontmatter `title` (the final segment is derived from `title`, not from folder/file names). Existing/legacy paths remain supported and redirect to the canonical URL.
+Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.
+
+SEO helpers: XML sitemap lives at `/sitemap.xml` (`app/sitemap.ts`), and `robots.txt` is generated at `/robots.txt` (`app/robots.ts`).
 
 Tool hubs: `/narzedzia/<tool>/` is a grid listing, while the tool’s main guide is readable at `/narzedzia/<tool>/glowny/` and sourced from `content/narzedzia-no-code/<tool>/glowny/index.md`.
 

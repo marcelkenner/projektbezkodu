@@ -4,46 +4,49 @@ slug: ecommerce-pl
 path: /ecommerce-pl
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: E-commerce w Polsce — szybki przewodnik
-  subheading: Co działa dziś, gdzie szukać wzrostu i jak zacząć sprzedaż online w
-    5 minut
+  subheading: Co działa dziś, gdzie szukać wzrostu i jak zacząć sprzedaż online w 5 minut
   primaryCta:
     label: Pobierz raport IAB
-    href: https://www.iab.org.pl/aktualnosci/zakupy-zagraniczne-produkty-uzywane-i-platnosci-blikiem-raport-e-commerce-w-polsce-2024/
+    href: >-
+      https://www.iab.org.pl/aktualnosci/zakupy-zagraniczne-produkty-uzywane-i-platnosci-blikiem-raport-e-commerce-w-polsce-2024/
 seo:
   title: E-commerce w Polsce — przewodnik 2026 dla sprzedawców
-  description: "Krótki, praktyczny przewodnik po rynku e‑commerce w Polsce: kluczowe\
-    \ dane, szybkie decyzje, dla kogo które kanały działają."
+  description: >-
+    Krótki, praktyczny przewodnik po rynku e‑commerce w Polsce: kluczowe dane,
+    szybkie decyzje, dla kogo które kanały działają.
   keywords:
-  - ecommerce Polska
-  - handel online
-  - sprzedaż internetowa
-  - m-commerce
+    - ecommerce Polska
+    - handel online
+    - sprzedaż internetowa
+    - m-commerce
   canonical: https://example.com/ecommerce-pl
 meta:
   difficulty: Beginner–Intermediate
   duration: 5 min read
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Pełny raport IAB
-    href: https://www.iab.org.pl/aktualnosci/zakupy-zagraniczne-produkty-uzywane-i-platnosci-blikiem-raport-e-commerce-w-polsce-2024/
+    href: >-
+      https://www.iab.org.pl/aktualnosci/zakupy-zagraniczne-produkty-uzywane-i-platnosci-blikiem-raport-e-commerce-w-polsce-2024/
   summaryBullets:
-  - "Werdykt: rynek stabilny, rosną szanse w cross‑border i m‑commerce"
-  - "Dla kogo: małe sklepy — mobile + marketplace; duzi — retail media i logistyczne\
-    \ przewagi"
-  - "Start: 5 minut — sprawdź integrację płatności i politykę zwrotów"
+    - 'Werdykt: rynek stabilny, rosną szanse w cross‑border i m‑commerce'
+    - >-
+      Dla kogo: małe sklepy — mobile + marketplace; duzi — retail media i
+      logistyczne przewagi
+    - 'Start: 5 minut — sprawdź integrację płatności i politykę zwrotów'
 taxonomy:
   categories:
-  - E‑commerce
-  - Biznes
+    - E‑commerce
+    - Biznes
   tags:
-  - rynek
-  - poradnik
-  - Polska
+    - rynek
+    - poradnik
+    - Polska
 ---
 
 ## Obietnica decyzji: dla kogo ten tekst

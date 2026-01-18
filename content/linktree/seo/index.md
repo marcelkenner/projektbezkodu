@@ -1,45 +1,48 @@
 ---
-title: "SEO: szybki przewodnik decyzji dla właściciela strony"
+title: 'SEO: szybki przewodnik decyzji dla właściciela strony'
 slug: seo
 path: /seo
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "SEO: co robić najpierw, a co możesz zostawić na później"
+  heading: 'SEO: co robić najpierw, a co możesz zostawić na później'
   subheading: Krótki plan dla małych serwisów, sklepów i autorów treści
 seo:
   title: SEO — szybki plan działania dla właścicieli stron
-  description: "Praktyczny przewodnik: co zrobić w pierwszych 5–60 minut, co wymaga\
-    \ czasu i jakie efekty możesz realistycznie oczekiwać."
+  description: >-
+    Praktyczny przewodnik: co zrobić w pierwszych 5–60 minut, co wymaga czasu i
+    jakie efekty możesz realistycznie oczekiwać.
   keywords:
-  - seo
-  - optymalizacja
-  - pozycjonowanie
-  - search console
-  - meta description
+    - seo
+    - optymalizacja
+    - pozycjonowanie
+    - search console
+    - meta description
   canonical: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
 meta:
   difficulty: beginner
   duration: 5–60 minut (pierwsze kroki)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przeczytaj przewodnik Google
     href: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
   summaryBullets:
-  - "Werdykt: zacznij od podstaw — title, meta description, widoczność w Search Console."
-  - "Dla kogo: małe strony i osoby publikujące treści regularnie."
-  - "Start: sprawdź indeksację i dodaj sensowne tytuły oraz opis strony."
+    - >-
+      Werdykt: zacznij od podstaw — title, meta description, widoczność w Search
+      Console.
+    - 'Dla kogo: małe strony i osoby publikujące treści regularnie.'
+    - 'Start: sprawdź indeksację i dodaj sensowne tytuły oraz opis strony.'
 taxonomy:
   categories:
-  - marketing
-  - seo
+    - marketing
+    - seo
   tags:
-  - poradnik
-  - start
-  - optymalizacja
+    - poradnik
+    - start
+    - optymalizacja
 ---
 
 ## Obietnica decyzji dla kogoś, kto chce szybkich rezultatów

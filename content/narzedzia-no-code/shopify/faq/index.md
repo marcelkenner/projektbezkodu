@@ -5,10 +5,11 @@ path: /narzedzia/shopify/faq/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shopify FAQ — szybkie odpowiedzi i decyzje
-  subheading: Najczęściej zadawane pytania i klarowne wskazówki dla startujących i
+  subheading: >-
+    Najczęściej zadawane pytania i klarowne wskazówki dla startujących i
     skalujących sklepy.
   image:
     src: /img/article_image.jpeg
@@ -16,36 +17,42 @@ hero:
     width: 1200
     height: 628
 seo:
-  title: "Shopify FAQ: jak zacząć, ile kosztuje, co sprawdzić"
-  description: "Szybkie odpowiedzi na najważniejsze pytania o Shopify: rejestracja,\
-    \ plany cenowe, integracje, opłaty transakcyjne i typowe pułapki."
+  title: 'Shopify FAQ: jak zacząć, ile kosztuje, co sprawdzić'
+  description: >-
+    Szybkie odpowiedzi na najważniejsze pytania o Shopify: rejestracja, plany
+    cenowe, integracje, opłaty transakcyjne i typowe pułapki.
   keywords:
-  - Shopify
-  - Shopify FAQ
-  - sklep internetowy
-  - jak zacząć
-  - cennik Shopify
+    - Shopify
+    - Shopify FAQ
+    - sklep internetowy
+    - jak zacząć
+    - cennik Shopify
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Instrukcja: załóż sklep (Help Center)"
-    href: https://help.shopify.com/en/manual/intro-to-shopify/initial-setup/setup-your-store
+    label: 'Instrukcja: załóż sklep (Help Center)'
+    href: >-
+      https://help.shopify.com/en/manual/intro-to-shopify/initial-setup/setup-your-store
   summaryBullets:
-  - "Werdykt: dobry wybór dla większości sklepów, jeśli zaakceptujesz opłaty za aplikacje."
-  - "Dla kogo: solo i małe firmy — start; firmy skalujące — ocenić koszty dodatków."
-  - "Start: załóż konto i dodaj pierwszy produkt w 5–10 minut."
+    - >-
+      Werdykt: dobry wybór dla większości sklepów, jeśli zaakceptujesz opłaty za
+      aplikacje.
+    - >-
+      Dla kogo: solo i małe firmy — start; firmy skalujące — ocenić koszty
+      dodatków.
+    - 'Start: załóż konto i dodaj pierwszy produkt w 5–10 minut.'
 taxonomy:
   categories:
-  - narzędzia
-  - ecommerce
+    - narzędzia
+    - ecommerce
   tags:
-  - Shopify
-  - FAQ
-  - sklep
+    - Shopify
+    - FAQ
+    - sklep
 ---
 
 ## Obietnica decyzji — komu to pomoże i dlaczego

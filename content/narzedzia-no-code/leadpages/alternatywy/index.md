@@ -4,44 +4,47 @@ slug: alternatywy
 path: /narzedzia/leadpages/alternatywy/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: Alternatywy dla Leadpages, jeśli chcesz więcej kontroli lub mniejszego
+  heading: >-
+    Alternatywy dla Leadpages, jeśli chcesz więcej kontroli lub mniejszego
     rachunku
-  subheading: "Porównanie kilku realnych zamienników: kiedy wybrać Unbounce, Instapage,\
-    \ Webflow lub tańsze rozwiązania."
+  subheading: >-
+    Porównanie kilku realnych zamienników: kiedy wybrać Unbounce, Instapage,
+    Webflow lub tańsze rozwiązania.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Alternatywy dla Leadpages – lista narzędzi
-  description: "Sprawdź, czym różnią się od Leadpages inne kreatory: Unbounce, Instapage,\
-    \ Webflow i tańsze narzędzia do landing page'y."
+  description: >-
+    Sprawdź, czym różnią się od Leadpages inne kreatory: Unbounce, Instapage,
+    Webflow i tańsze narzędzia do landing page'y.
   keywords:
-  - Leadpages
-  - alternatywy
-  - landing page
-  - Unbounce
-  - Instapage
-  - Webflow
+    - Leadpages
+    - alternatywy
+    - landing page
+    - Unbounce
+    - Instapage
+    - Webflow
 meta:
   summaryBullets:
-  - "Werdykt: Unbounce — najlepsze dla testów i optymalizacji (CRO)."
-  - "Werdykt: Instapage — gdy potrzebujesz zaawansowanej współpracy i testów."
-  - "Werdykt: Webflow — gdy priorytetem jest pełna kontrola projektu i CMS."
+    - 'Werdykt: Unbounce — najlepsze dla testów i optymalizacji (CRO).'
+    - 'Werdykt: Instapage — gdy potrzebujesz zaawansowanej współpracy i testów.'
+    - 'Werdykt: Webflow — gdy priorytetem jest pełna kontrola projektu i CMS.'
   primaryCta:
     label: Lista alternatyw na G2
     href: https://www.g2.com/products/leadpages/competitors/alternatives
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - leadpages
-  - landing-pages
-  - alternatywy
+    - leadpages
+    - landing-pages
+    - alternatywy
 ---
 
 ## Obietnica decyzji dla Ciebie

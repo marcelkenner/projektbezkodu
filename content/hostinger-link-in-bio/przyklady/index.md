@@ -1,39 +1,44 @@
 ---
-title: "Przykłady: jak pisać je tak, żeby działały"
+title: 'Przykłady: jak pisać je tak, żeby działały'
 slug: przyklady
 path: /przyklady
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Przykłady: krótkie reguły i natychmiastowy werdykt"
-  subheading: Jak używać przykładów w tekstach użytkowych i SEO, żeby czytelnik się
-    nie zgubił.
+  heading: 'Przykłady: krótkie reguły i natychmiastowy werdykt'
+  subheading: >-
+    Jak używać przykładów w tekstach użytkowych i SEO, żeby czytelnik się nie
+    zgubił.
 seo:
   title: Przykłady — jak pisać skuteczne przykłady w treściach
-  description: "Praktyczny przewodnik: kiedy wstawić przykład, jak go zbudować i które\
-    \ typy działają w SEO i dla czytelnika."
+  description: >-
+    Praktyczny przewodnik: kiedy wstawić przykład, jak go zbudować i które typy
+    działają w SEO i dla czytelnika.
   keywords:
-  - przykłady w tekście
-  - jak pisać przykłady
-  - przykłady SEO
+    - przykłady w tekście
+    - jak pisać przykłady
+    - przykłady SEO
 meta:
   summaryBullets:
-  - "Werdykt: proste, konkretne przykłady działają lepiej niż długie ilustracje."
-  - "Dla kogo: autorzy poradników, copywriterzy SEO i tworzący dokumentację."
-  - "Start: wybierz 1 kanał (tekst, obraz, kod) i dodaj 1 przykład w pierwszych 300\
-    \ słowach."
+    - >-
+      Werdykt: proste, konkretne przykłady działają lepiej niż długie
+      ilustracje.
+    - 'Dla kogo: autorzy poradników, copywriterzy SEO i tworzący dokumentację.'
+    - >-
+      Start: wybierz 1 kanał (tekst, obraz, kod) i dodaj 1 przykład w pierwszych
+      300 słowach.
   primaryCta:
     label: SEO Starter Guide — Google
     href: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - pisanie
-  - SEO
-  - content
+    - pisanie
+    - SEO
+    - content
 ---
 
 ## Obietnica decyzji: komu to pomoże i dlaczego

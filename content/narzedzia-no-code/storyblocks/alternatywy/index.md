@@ -1,45 +1,47 @@
 ---
-title: "Alternatywy dla Storyblocks: który serwis wybrać w 2026"
+title: 'Alternatywy dla Storyblocks: który serwis wybrać w 2026'
 slug: alternatywy
 path: /narzedzia/storyblocks/alternatywy/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: Alternatywy dla Storyblocks
-  subheading: "Krótki przewodnik po opcjach: cena, licencje, jakość"
+  subheading: 'Krótki przewodnik po opcjach: cena, licencje, jakość'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 meta:
   author: Redakcja
   duration: 5 min
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: który serwis ma sens w konkretnych przypadkach"
-  - "Dla kogo: kiedy warto przepłacić, a kiedy wystarczy darmowe źródło"
-  - "Start: szybkie kroki do sprawdzenia licencji i jakości"
+    - 'Werdykt: który serwis ma sens w konkretnych przypadkach'
+    - 'Dla kogo: kiedy warto przepłacić, a kiedy wystarczy darmowe źródło'
+    - 'Start: szybkie kroki do sprawdzenia licencji i jakości'
   primaryCta:
     label: Zobacz porównanie
     href: https://photutorial.com/best-storyblocks-alternatives/
 seo:
-  title: "Alternatywy dla Storyblocks: przegląd 2026"
-  description: Porównanie głównych alternatyw dla Storyblocks — Envato, Artgrid, Motion
-    Array, Adobe/Shutterstock i darmowe źródła. Krótkie werdykty dla twórców i zespołów.
+  title: 'Alternatywy dla Storyblocks: przegląd 2026'
+  description: >-
+    Porównanie głównych alternatyw dla Storyblocks — Envato, Artgrid, Motion
+    Array, Adobe/Shutterstock i darmowe źródła. Krótkie werdykty dla twórców i
+    zespołów.
   keywords:
-  - Storyblocks alternatywy
-  - stock video 2026
-  - Envato Elements
+    - Storyblocks alternatywy
+    - stock video 2026
+    - Envato Elements
   canonical: https://photutorial.com/best-storyblocks-alternatives/
 taxonomy:
   categories:
-  - narzędzia
-  - multimedia
+    - narzędzia
+    - multimedia
   tags:
-  - stock footage
-  - wideo
-  - licencje
+    - stock footage
+    - wideo
+    - licencje
 ---
 
 ## Obietnica i grupa docelowa

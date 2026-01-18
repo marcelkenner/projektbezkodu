@@ -4,7 +4,7 @@ slug: faq
 path: /narzedzia/squarespace/faq/
 draft: true
 template: default
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Squarespace FAQ
   subheading: Najczęstsze pytania i szybkie werdykty
@@ -13,31 +13,34 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Squarespace FAQ — najczęściej zadawane pytania i szybkie odpowiedzi
-  description: "Krótki przewodnik po najważniejszych pytaniach o Squarespace: wsparcie,\
-    \ start, ograniczenia i dla kogo to się opłaca."
+  description: >-
+    Krótki przewodnik po najważniejszych pytaniach o Squarespace: wsparcie,
+    start, ograniczenia i dla kogo to się opłaca.
   keywords:
-  - Squarespace FAQ
-  - Squarespace support
-  - jak zacząć Squarespace
+    - Squarespace FAQ
+    - Squarespace support
+    - jak zacząć Squarespace
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dobry wybór dla prostych stron i sklepów do średniej skali"
-  - "Dla kogo: blogerzy, freelancerzy, małe sklepy; gorzej dla niestandardowych platform"
-  - "Start: konto + szablon + publikacja — można zacząć w 5 minut"
+    - 'Werdykt: dobry wybór dla prostych stron i sklepów do średniej skali'
+    - >-
+      Dla kogo: blogerzy, freelancerzy, małe sklepy; gorzej dla niestandardowych
+      platform
+    - 'Start: konto + szablon + publikacja — można zacząć w 5 minut'
   primaryCta:
     label: Centrum pomocy Squarespace
     href: https://help.squarespace.com/
 taxonomy:
   categories:
-  - Narzedzia
-  - CMS
+    - Narzedzia
+    - CMS
   tags:
-  - Squarespace
-  - FAQ
-  - hosting
+    - Squarespace
+    - FAQ
+    - hosting
 ---
 
 ## Obietnica i dla kogo

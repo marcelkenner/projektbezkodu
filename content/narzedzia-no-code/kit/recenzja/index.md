@@ -5,27 +5,29 @@ path: /narzedzia/convertkit/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: ConvertKit – recenzja pod kątem pracy twórcy
-  subheading: Sprawdzam, jak wygodnie da się ogarniać newsletter, sprzedaż produktów
-    i automaty, kiedy działasz solo lub z małym zespołem.
+  subheading: >-
+    Sprawdzam, jak wygodnie da się ogarniać newsletter, sprzedaż produktów i
+    automaty, kiedy działasz solo lub z małym zespołem.
 seo:
   title: ConvertKit – recenzja dla twórców i twórczyń
-  description: "Plusy i minusy ConvertKit (Kit) z perspektywy pojedynczego twórcy:\
-    \ prosty edytor, tagowanie, ograniczenia raportów, i jak policzyć koszty."
+  description: >-
+    Plusy i minusy ConvertKit (Kit) z perspektywy pojedynczego twórcy: prosty
+    edytor, tagowanie, ograniczenia raportów, i jak policzyć koszty.
   keywords:
-  - ConvertKit
-  - Kit
-  - recenzja
-  - newsletter
-  - email marketing
+    - ConvertKit
+    - Kit
+    - recenzja
+    - newsletter
+    - email marketing
 meta:
   summaryBullets:
-  - "Werdykt: przyjazny start dla creatorów, koszt rośnie z listą"
-  - "Dla kogo: solo i małe zespoły, o ile zaakceptujesz skalowanie ceny"
-  - "Start: rejestracja + pierwszy formularz w 5–10 minut"
-  updatedAt: "2026-01-14"
+    - 'Werdykt: przyjazny start dla creatorów, koszt rośnie z listą'
+    - 'Dla kogo: solo i małe zespoły, o ile zaakceptujesz skalowanie ceny'
+    - 'Start: rejestracja + pierwszy formularz w 5–10 minut'
+  updatedAt: '2026-01-14'
   primaryCta:
     label: Sprawdź aktualny cennik Kit
     href: https://www.emailtooltester.com/en/reviews/convertkit/pricing/
@@ -33,13 +35,13 @@ meta:
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - email
-  - recenzje
+    - narzędzia
+    - email
+    - recenzje
   tags:
-  - ConvertKit
-  - Kit
-  - newsletter
+    - ConvertKit
+    - Kit
+    - newsletter
 ---
 
 ## Obietnica i finalny werdykt

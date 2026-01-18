@@ -1,42 +1,46 @@
 ---
-title: "FAQ: jak zrobić stronę z najczęściej zadawanymi pytaniami"
+title: 'FAQ: jak zrobić stronę z najczęściej zadawanymi pytaniami'
 slug: faq
 path: /faq
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "FAQ: szybki przewodnik i decyzja"
-  subheading: Jak zbudować użyteczną sekcję pytań i odpowiedzi, która pomaga klientom
-    i SEO
+  heading: 'FAQ: szybki przewodnik i decyzja'
+  subheading: >-
+    Jak zbudować użyteczną sekcję pytań i odpowiedzi, która pomaga klientom i
+    SEO
 seo:
   title: FAQ — jak przygotować skuteczną stronę pytań i odpowiedzi
-  description: "Krótki przewodnik: kiedy warto mieć FAQ, jak zacząć i jaki format\
-    \ działa w praktyce dla różnych serwisów."
+  description: >-
+    Krótki przewodnik: kiedy warto mieć FAQ, jak zacząć i jaki format działa w
+    praktyce dla różnych serwisów.
   keywords:
-  - FAQ
-  - najczęściej zadawane pytania
-  - sekcja FAQ
-  - poradnik SEO
-  canonical: https://www.sempire.pl/co-to-jest-faq-i-jak-przygotowac-sekcje-najczesciej-zadawanych-pytan.html
+    - FAQ
+    - najczęściej zadawane pytania
+    - sekcja FAQ
+    - poradnik SEO
+  canonical: >-
+    https://www.sempire.pl/co-to-jest-faq-i-jak-przygotowac-sekcje-najczesciej-zadawanych-pytan.html
 meta:
   difficulty: Łatwy
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Jak przygotować FAQ (poradnik)
-    href: https://www.sempire.pl/co-to-jest-faq-i-jak-przygotowac-sekcje-najczesciej-zadawanych-pytan.html
+    href: >-
+      https://www.sempire.pl/co-to-jest-faq-i-jak-przygotowac-sekcje-najczesciej-zadawanych-pytan.html
 taxonomy:
   categories:
-  - UX
-  - Content
-  - SEO
+    - UX
+    - Content
+    - SEO
 ---
 
 ## Obietnica decyzji — dla kogo ten artykuł

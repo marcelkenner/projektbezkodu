@@ -5,41 +5,43 @@ path: /narzedzia/make/cennik/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Make – cennik i limity policzone na scenariusze
-  subheading: Przeliczam kredyty i operacje na konkretnych przepływach, żebyś wiedział,
+  subheading: >-
+    Przeliczam kredyty i operacje na konkretnych przepływach, żebyś wiedział,
     czy plan wystarczy do końca miesiąca.
 seo:
   title: Make – cennik i koszty utrzymania automatyzacji
-  description: Ile kosztuje Make przy różnych wolumenach zadań i integracjach. Konkretne
+  description: >-
+    Ile kosztuje Make przy różnych wolumenach zadań i integracjach. Konkretne
     przykłady i szybkie decyzje.
   keywords:
-  - Make
-  - Make cennik
-  - make pricing
-  - automatyzacja
-  - operacje
-  - kredyty
+    - Make
+    - Make cennik
+    - make pricing
+    - automatyzacja
+    - operacje
+    - kredyty
   canonical: https://www.make.com/en/pricing
 meta:
   summaryBullets:
-  - "Werdykt: przy małych wolumenach opłaca się zacząć na Free/Core"
-  - "Dla kogo: freelancerzy vs zespoły — jasne kryteria wyboru"
-  - "Start: szybkie policzenie miesięcznych operacji (wzór i przykład)"
+    - 'Werdykt: przy małych wolumenach opłaca się zacząć na Free/Core'
+    - 'Dla kogo: freelancerzy vs zespoły — jasne kryteria wyboru'
+    - 'Start: szybkie policzenie miesięcznych operacji (wzór i przykład)'
   primaryCta:
     label: Strona cennika Make
     href: https://www.make.com/en/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzedzia
-  - automatyzacja
+    - narzedzia
+    - automatyzacja
   tags:
-  - make
-  - cennik
-  - integracje
+    - make
+    - cennik
+    - integracje
 ---
 
 ## Obietnica: decyzja budżetowa w 5 minut

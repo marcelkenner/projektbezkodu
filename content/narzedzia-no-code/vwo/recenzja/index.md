@@ -3,44 +3,46 @@ title: VWO — recenzja (A/B testing i eksperymenty)
 slug: recenzja
 path: /narzedzia/vwo/recenzja/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: VWO — recenzja
-  subheading: Krótki przewodnik po funkcjach, kosztach i sytuacjach, w których warto
+  subheading: >-
+    Krótki przewodnik po funkcjach, kosztach i sytuacjach, w których warto
     wybrać VWO.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: VWO recenzja — A/B testing, cena, dla kogo
-  description: "Szczera recenzja VWO: co potrafi, jak zacząć, kiedy to ma sens. Porównanie\
-    \ dla startupów, zespołów produktowych i agencji."
+  description: >-
+    Szczera recenzja VWO: co potrafi, jak zacząć, kiedy to ma sens. Porównanie
+    dla startupów, zespołów produktowych i agencji.
   keywords:
-  - VWO
-  - A/B testing
-  - CRO
-  - recenzja
+    - VWO
+    - A/B testing
+    - CRO
+    - recenzja
 meta:
   summaryBullets:
-  - "Werdykt: dobre dla zespołów z ruchem i potrzebą kompleksowego stacka."
-  - "Dla kogo: produkt, marketing, agencje; mniej sensu przy mikro-ruchem."
-  - "Start: instalacja SmartCode → pierwszy A/B test w ~30 min."
+    - 'Werdykt: dobre dla zespołów z ruchem i potrzebą kompleksowego stacka.'
+    - 'Dla kogo: produkt, marketing, agencje; mniej sensu przy mikro-ruchem.'
+    - 'Start: instalacja SmartCode → pierwszy A/B test w ~30 min.'
   primaryCta:
     label: Strona produktu VWO Testing
     href: https://vwo.com/testing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 30 min
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - CRO
+    - narzędzia
+    - CRO
   tags:
-  - VWO
-  - A/B testing
-  - testy
+    - VWO
+    - A/B testing
+    - testy
 ---
 
 ## Obietnica decyzji — kogo interesuje ta recenzja

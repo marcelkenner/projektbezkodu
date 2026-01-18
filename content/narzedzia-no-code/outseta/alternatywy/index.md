@@ -4,43 +4,45 @@ slug: alternatywy
 path: /narzedzia/outseta/alternatywy/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Outseta, gdy chcesz większą kontrolę nad stackiem
-  subheading: Porównuję rozwiązania, które pozwalają samodzielnie dobrać moduły płatności,
+  subheading: >-
+    Porównuję rozwiązania, które pozwalają samodzielnie dobrać moduły płatności,
     CRM i wsparcia zamiast brać pakiet w całości.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Outseta – alternatywy dla zaplecza SaaS
-  description: Przegląd narzędzi, które mogą zastąpić Outseta przy produktach subskrypcyjnych,
-    społecznościach i aplikacjach webowych.
+  description: >-
+    Przegląd narzędzi, które mogą zastąpić Outseta przy produktach
+    subskrypcyjnych, społecznościach i aplikacjach webowych.
   keywords:
-  - Outseta
-  - alternatywy
-  - membership
-  - CRM
-  - stack
+    - Outseta
+    - alternatywy
+    - membership
+    - CRM
+    - stack
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
-  updatedAt: "2026-01-14"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
+  updatedAt: '2026-01-14'
   primaryCta:
     label: Przeczytaj listę alternatyw
     href: https://www.outseta.com/posts/best-memberstack-alternatives
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - membership
+    - narzędzia
+    - membership
   tags:
-  - Outseta
-  - alternatywy
-  - CRM
-  - płatności
+    - Outseta
+    - alternatywy
+    - CRM
+    - płatności
 ---
 
 ## Obietnica decyzji — komu to pomoże

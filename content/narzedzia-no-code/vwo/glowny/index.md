@@ -1,50 +1,55 @@
 ---
-title: "VWO — A/B testing i optymalizacja: szybki werdykt"
+title: 'VWO — A/B testing i optymalizacja: szybki werdykt'
 slug: vwo
 path: /narzedzia/vwo/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: VWO — A/B testing i optymalizacja konwersji
-  subheading: "Szybki, uczciwy przegląd: dla kogo działa, gdzie kuleje"
+  subheading: 'Szybki, uczciwy przegląd: dla kogo działa, gdzie kuleje'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: VWO — czy warto? A/B testing, pricing i kto powinien wybrać
-  description: "Krótkie podsumowanie VWO: model rozliczeń, najważniejsze funkcje,\
-    \ ograniczenia i rekomendacja dla segmentów rynku."
+  description: >-
+    Krótkie podsumowanie VWO: model rozliczeń, najważniejsze funkcje,
+    ograniczenia i rekomendacja dla segmentów rynku.
   keywords:
-  - VWO
-  - A/B testing
-  - CRO
-  - optymalizacja konwersji
-  - VWO pricing
+    - VWO
+    - A/B testing
+    - CRO
+    - optymalizacja konwersji
+    - VWO pricing
 meta:
   summaryBullets:
-  - "Werdykt: dobre dla zespołów CRO i średnich firm; nie zawsze idealne dla surowych\
-    \ rozwiązań enterprise."
-  - "Dla kogo: marketerzy i product managerowie, którzy chcą szybciej uruchamiać testy."
-  - "Start: rejestracja i pierwsze testy możliwe w kilkanaście minut; sprawdź limity\
-    \ MTU i politykę prywatności."
+    - >-
+      Werdykt: dobre dla zespołów CRO i średnich firm; nie zawsze idealne dla
+      surowych rozwiązań enterprise.
+    - >-
+      Dla kogo: marketerzy i product managerowie, którzy chcą szybciej
+      uruchamiać testy.
+    - >-
+      Start: rejestracja i pierwsze testy możliwe w kilkanaście minut; sprawdź
+      limity MTU i politykę prywatności.
   primaryCta:
     label: Zobacz cennik VWO
     href: https://vwo.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Recenzent Narzędzi
   difficulty: Łatwy start
   duration: 5 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - CRO
+    - narzędzia
+    - CRO
   tags:
-  - VWO
-  - A/B testing
-  - optymalizacja
+    - VWO
+    - A/B testing
+    - optymalizacja
 ---
 
 ## Werdykt i dla kogo ten tekst

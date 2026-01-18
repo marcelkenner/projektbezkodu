@@ -5,42 +5,44 @@ path: /narzedzia/tally/
 draft: false
 template: article
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Tally – formularze jak w Notion, bez limitów na start
-  subheading: Piszę pytania jak w dokumencie, dodaję logikę i mam gotowy formularz,
-    który nie zjada budżetu.
+  subheading: >-
+    Piszę pytania jak w dokumencie, dodaję logikę i mam gotowy formularz, który
+    nie zjada budżetu.
 seo:
   title: Tally – czym jest i dla kogo ma sens
-  description: Zobacz, jak Tally pozwala tworzyć formularze w stylu Notion z bardzo
+  description: >-
+    Zobacz, jak Tally pozwala tworzyć formularze w stylu Notion z bardzo
     użytecznym darmowym planem.
   keywords:
-  - Tally
-  - formularze
-  - formularze online
-  - darmowy plan
-  - Notion forms
+    - Tally
+    - formularze
+    - formularze online
+    - darmowy plan
+    - Notion forms
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Cennik i plany
     href: https://tally.so/help/plans-and-pricing
   summaryBullets:
-  - "Werdykt: prosty start, niskie ryzyko budżetowe."
-  - "Dla kogo: freelancerzy i małe zespoły; nie dla 50k+ zgłoszeń/miesiąc."
-  - "Start: załóż konto, wstaw pytania, opublikuj — w kilka minut."
+    - 'Werdykt: prosty start, niskie ryzyko budżetowe.'
+    - 'Dla kogo: freelancerzy i małe zespoły; nie dla 50k+ zgłoszeń/miesiąc.'
+    - 'Start: załóż konto, wstaw pytania, opublikuj — w kilka minut.'
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - tally
-  - formbuilder
-  - notion
+    - tally
+    - formbuilder
+    - notion
 ---
 
 ## Obietnica decyzji

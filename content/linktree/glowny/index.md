@@ -1,43 +1,43 @@
 ---
-title: "Strona główna, która konwertuje: szybki przewodnik"
+title: 'Strona główna, która konwertuje: szybki przewodnik'
 slug: glowny
 path: /glowny
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybka decyzja: czy Twoja strona główna pracuje na sprzedaż?"
-  subheading: Praktyczne wskazówki, od czego zacząć i kiedy lepiej zrobić landing
-    page
+  heading: 'Szybka decyzja: czy Twoja strona główna pracuje na sprzedaż?'
+  subheading: Praktyczne wskazówki, od czego zacząć i kiedy lepiej zrobić landing page
 seo:
   title: Strona główna — jak projektować, żeby konwertowała
-  description: "Krótki przewodnik: co musi być na stronie głównej, jak sprawdzić efektywność\
-    \ i kiedy wybrać landing page zamiast rozbudowanego home."
+  description: >-
+    Krótki przewodnik: co musi być na stronie głównej, jak sprawdzić efektywność
+    i kiedy wybrać landing page zamiast rozbudowanego home.
   keywords:
-  - strona główna
-  - landing page
-  - konwersja
-  - projektowanie UX
-  - optymalizacja SEO
+    - strona główna
+    - landing page
+    - konwersja
+    - projektowanie UX
+    - optymalizacja SEO
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj najlepsze praktyki
     href: https://unbounce.com/landing-page-articles/landing-page-best-practices/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5–30 min (pierwsze zmiany)
 taxonomy:
   categories:
-  - web
-  - ux
-  - marketing
+    - web
+    - ux
+    - marketing
   tags:
-  - strona główna
-  - konwersja
-  - landing page
+    - strona główna
+    - konwersja
+    - landing page
 ---
 
 ## Obietnica decyzji — dla kogo i co tu znajdziesz

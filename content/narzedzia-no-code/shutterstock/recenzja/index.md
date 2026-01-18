@@ -3,7 +3,7 @@ title: Shutterstock — szybka recenzja i werdykt
 slug: recenzja
 path: /narzedzia/shutterstock/recenzja/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: review
 hero:
@@ -16,29 +16,32 @@ hero:
     height: 630
 seo:
   title: Shutterstock recenzja 2026 — ceny, licencje, czy warto?
-  description: "Praktyczna recenzja Shutterstock: cennik, rodzaje licencji, plusy\
-    \ i minusy dla marketerów, agencji i freelancera."
+  description: >-
+    Praktyczna recenzja Shutterstock: cennik, rodzaje licencji, plusy i minusy
+    dla marketerów, agencji i freelancera.
   keywords:
-  - Shutterstock
-  - stock zdjęcia
-  - licencje
-  - recenzja
-  - ceny Shutterstock
+    - Shutterstock
+    - stock zdjęcia
+    - licencje
+    - recenzja
+    - ceny Shutterstock
 meta:
   summaryBullets:
-  - "Werdykt: dobry wybór gdy potrzebujesz dużej biblioteki i pewnych licencji"
-  - "Dla kogo: marketerzy i zespoły, mniej opłacalny dla pojedynczych projektów niskobudżetowych"
-  - "Start: sprawdź cennik i rodzaj licencji przed pobraniem"
+    - 'Werdykt: dobry wybór gdy potrzebujesz dużej biblioteki i pewnych licencji'
+    - >-
+      Dla kogo: marketerzy i zespoły, mniej opłacalny dla pojedynczych projektów
+      niskobudżetowych
+    - 'Start: sprawdź cennik i rodzaj licencji przed pobraniem'
   primaryCta:
     label: Zobacz plany Shutterstock
     href: https://www.shutterstock.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - grafika
-  - recenzje
+    - narzędzia
+    - grafika
+    - recenzje
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

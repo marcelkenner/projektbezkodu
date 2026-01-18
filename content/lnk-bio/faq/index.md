@@ -4,40 +4,46 @@ slug: faq
 path: /faq
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: FAQ — kiedy warto mieć stronę pytań i odpowiedzi
-  subheading: "Krótki przewodnik: kto powinien, jak zacząć, czego unikać"
+  subheading: 'Krótki przewodnik: kto powinien, jak zacząć, czego unikać'
 seo:
-  title: "FAQ: kiedy, jak i dla kogo — praktyczny przewodnik"
-  description: "Prosty przewodnik po budowie strony FAQ: kiedy ją zrobić, jakie formaty\
-    \ znają wyszukiwarki i jak zacząć w 5 minut."
+  title: 'FAQ: kiedy, jak i dla kogo — praktyczny przewodnik'
+  description: >-
+    Prosty przewodnik po budowie strony FAQ: kiedy ją zrobić, jakie formaty
+    znają wyszukiwarki i jak zacząć w 5 minut.
   keywords:
-  - FAQ
-  - FAQPage
-  - QAPage
-  - strona z pytaniami i odpowiedziami
-  - SEO
+    - FAQ
+    - FAQPage
+    - QAPage
+    - strona z pytaniami i odpowiedziami
+    - SEO
   canonical: https://developers.google.com/search/docs/appearance/structured-data/faqpage
 meta:
   summaryBullets:
-  - "Werdykt: prosta FAQ warto mieć, ale nie dla każdego projektu."
-  - "Dla kogo: dobre dla stron usługowych, produktowych i supportu; słabo dla forów."
-  - "Start: napisz 5 najczęściej zadawanych pytań i opublikuj, opcjonalnie dodaj markup."
+    - 'Werdykt: prosta FAQ warto mieć, ale nie dla każdego projektu.'
+    - >-
+      Dla kogo: dobre dla stron usługowych, produktowych i supportu; słabo dla
+      forów.
+    - >-
+      Start: napisz 5 najczęściej zadawanych pytań i opublikuj, opcjonalnie
+      dodaj markup.
   primaryCta:
     label: Wytyczne FAQPage
-    href: https://developers.google.com/search/docs/appearance/structured-data/faqpage
-  updatedAt: "2026-01-14"
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/faqpage
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - UX
-  - SEO
-  - Content
+    - UX
+    - SEO
+    - Content
   tags:
-  - FAQ
-  - poradnik
-  - structured-data
+    - FAQ
+    - poradnik
+    - structured-data
 ---
 
 ## Obietnica decyzji

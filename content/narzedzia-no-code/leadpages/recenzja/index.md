@@ -5,7 +5,7 @@ path: /narzedzia/leadpages/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Leadpages – recenzja skupiona na tym, co zyskuję
   subheading: Buduję strony pod leady, wpinam maile i płatności, nie dotykając kodu
@@ -14,31 +14,35 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Leadpages – recenzja oczami twórcy landing page'y
-  description: "Sprawdzam, kiedy Leadpages jest wystarczający, a kiedy zaczyna brakować\
-    \ funkcji: szablony, integracje, konwersje i ograniczenia."
+  description: >-
+    Sprawdzam, kiedy Leadpages jest wystarczający, a kiedy zaczyna brakować
+    funkcji: szablony, integracje, konwersje i ograniczenia.
   keywords:
-  - leadpages
-  - landing pages
-  - tworzenie stron
-  - lead generation
+    - leadpages
+    - landing pages
+    - tworzenie stron
+    - lead generation
 meta:
   difficulty: Łatwe
   duration: 15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz ceny Leadpages
     href: https://www.leadpages.com/price
   summaryBullets:
-  - "Werdykt: Dobry wybór gdy potrzebujesz szybkiego landing page'a bez kodowania."
-  - "Werdykt: Nie nadaje się, jeśli potrzebujesz rozbudowanego CMS-a lub pełnej kontroli\
-    \ layoutu."
-  - "Start: wypróbuj 14-dniowy trial i sprawdź integracje z twoim ESP."
+    - >-
+      Werdykt: Dobry wybór gdy potrzebujesz szybkiego landing page'a bez
+      kodowania.
+    - >-
+      Werdykt: Nie nadaje się, jeśli potrzebujesz rozbudowanego CMS-a lub pełnej
+      kontroli layoutu.
+    - 'Start: wypróbuj 14-dniowy trial i sprawdź integracje z twoim ESP.'
 taxonomy:
   categories:
-  - narzędzia
-  - landing-pages
+    - narzędzia
+    - landing-pages
 ---
 
 # Leadpages – recenzja i szybki werdykt

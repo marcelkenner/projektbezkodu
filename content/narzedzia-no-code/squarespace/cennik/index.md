@@ -5,39 +5,45 @@ path: /narzedzia/squarespace/cennik/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Squarespace cennik
-  subheading: Szybki przewodnik po planach, opłatach transakcyjnych i tym, kto zyska
+  subheading: >-
+    Szybki przewodnik po planach, opłatach transakcyjnych i tym, kto zyska
     najwięcej.
 seo:
   title: Squarespace cennik 2026 — ceny, różnice i rekomendacje
-  description: "Porównanie planów Squarespace (Basic, Core, Plus, Advanced): ceny\
-    \ przy rozliczeniu rocznym i miesięcznym, opłaty transakcyjne oraz rekomendacje\
-    \ dla twórców, małych firm i e‑commerce."
+  description: >-
+    Porównanie planów Squarespace (Basic, Core, Plus, Advanced): ceny przy
+    rozliczeniu rocznym i miesięcznym, opłaty transakcyjne oraz rekomendacje dla
+    twórców, małych firm i e‑commerce.
   keywords:
-  - Squarespace cennik
-  - Squarespace ceny
-  - Squarespace plan
-  - squarespace porównanie
+    - Squarespace cennik
+    - Squarespace ceny
+    - Squarespace plan
+    - squarespace porównanie
   canonical: https://www.squarespace.com/pricing
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz oficjalny cennik
     href: https://www.squarespace.com/pricing
   summaryBullets:
-  - "Werdykt: dobry wybór dla twórców i małych sklepów; wybierz plan w zależności\
-    \ od wolumenu sprzedaży."
-  - "Dla kogo: Basic — proste portfolio; Core/Plus — mały sklep; Advanced — wysokie\
-    \ wolumeny."
-  - "Start: 14‑dniowy trial, porównaj opłaty transakcyjne i koszty przetwarzania."
+    - >-
+      Werdykt: dobry wybór dla twórców i małych sklepów; wybierz plan w
+      zależności od wolumenu sprzedaży.
+    - >-
+      Dla kogo: Basic — proste portfolio; Core/Plus — mały sklep; Advanced —
+      wysokie wolumeny.
+    - >-
+      Start: 14‑dniowy trial, porównaj opłaty transakcyjne i koszty
+      przetwarzania.
 taxonomy:
   categories:
-  - narzędzia
-  - ecommerce
+    - narzędzia
+    - ecommerce
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

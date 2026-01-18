@@ -1,53 +1,60 @@
 ---
-title: "Uploadcare — recenzja: co zyskasz dodając widget uploadu"
+title: 'Uploadcare — recenzja: co zyskasz dodając widget uploadu'
 slug: recenzja
 path: /narzedzia/uploadcare/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Uploadcare — recenzja w stylu „co mam z tego ja”
-  subheading: Dodajesz widget uploadu, pliki lądują w chmurze, a obrazy same dopasowują
+  subheading: >-
+    Dodajesz widget uploadu, pliki lądują w chmurze, a obrazy same dopasowują
     się do urządzenia i formatu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Uploadcare — recenzja skupiona na efektach: widget, CDN, przetwarzanie obrazów"
-  description: "Sprawdzam, co realnie zyskasz z Uploadcare: prosty widget do uploadu,\
-    \ transformacje obrazów w URL, multi‑vendor CDN i mniejsza obsługa serwera."
+  title: >-
+    Uploadcare — recenzja skupiona na efektach: widget, CDN, przetwarzanie
+    obrazów
+  description: >-
+    Sprawdzam, co realnie zyskasz z Uploadcare: prosty widget do uploadu,
+    transformacje obrazów w URL, multi‑vendor CDN i mniejsza obsługa serwera.
   keywords:
-  - Uploadcare
-  - widget uploadu
-  - CDN obrazów
-  - optymalizacja obrazów
-  - integracja upload
+    - Uploadcare
+    - widget uploadu
+    - CDN obrazów
+    - optymalizacja obrazów
+    - integracja upload
   canonical: https://uploadcare.com/
 meta:
-  difficulty: średni — podstawowa integracja 5–20 min; zaawansowane workflowy wymagają
+  difficulty: >-
+    średni — podstawowa integracja 5–20 min; zaawansowane workflowy wymagają
     devu
   duration: 5–30 minut (podstawowa integracja)
   author: Recenzent Techniczny
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Wypróbuj widget
     href: https://uploadcare.com/widget-demo/
   summaryBullets:
-  - "Werdykt: szybkie odsunięcie części pracy obrazu i uploadu od backendu."
-  - "Dla kogo: ma sens, jeśli potrzebujesz gotowego widgetu i CDN z transformacjami."
-  - "Start: wklej skrypt, ustaw subdomain, sprawdź demo i połącz z CDN."
+    - 'Werdykt: szybkie odsunięcie części pracy obrazu i uploadu od backendu.'
+    - >-
+      Dla kogo: ma sens, jeśli potrzebujesz gotowego widgetu i CDN z
+      transformacjami.
+    - 'Start: wklej skrypt, ustaw subdomain, sprawdź demo i połącz z CDN.'
 taxonomy:
   categories:
-  - narzędzia
-  - backend
-  - cdn
+    - narzędzia
+    - backend
+    - cdn
   tags:
-  - uploadcare
-  - cdn
-  - image-optimization
-  - widget
+    - uploadcare
+    - cdn
+    - image-optimization
+    - widget
 ---
 
 ## Obietnica decyzji (dla kogo to działa)

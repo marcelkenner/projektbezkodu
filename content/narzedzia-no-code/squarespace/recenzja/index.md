@@ -1,44 +1,51 @@
 ---
-title: "Squarespace — recenzja 2026: czy to dobry wybór dla Twojej strony?"
+title: 'Squarespace — recenzja 2026: czy to dobry wybór dla Twojej strony?'
 slug: recenzja
 path: /narzedzia/squarespace/recenzja/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
   heading: Squarespace Recenzja
-  subheading: "Szybkie, uczciwe spojrzenie: dla kogo to działa, a kiedy lepiej wybrać\
-    \ coś innego"
+  subheading: >-
+    Szybkie, uczciwe spojrzenie: dla kogo to działa, a kiedy lepiej wybrać coś
+    innego
 meta:
   summaryBullets:
-  - "Werdykt: prosty start i ładny design, ale ograniczona swoboda dla dużych sklepów"
-  - "Dla kogo: kreatywni, małe sklepy, portfolio; _nie_ dla dużej sprzedaży z niestandardowymi\
-    \ integracjami"
-  - "Start: 14‑dniowy trial, sprawdź szablony i testowe płatności zanim zapłacisz"
+    - >-
+      Werdykt: prosty start i ładny design, ale ograniczona swoboda dla dużych
+      sklepów
+    - >-
+      Dla kogo: kreatywni, małe sklepy, portfolio; _nie_ dla dużej sprzedaży z
+      niestandardowymi integracjami
+    - >-
+      Start: 14‑dniowy trial, sprawdź szablony i testowe płatności zanim
+      zapłacisz
   primaryCta:
     label: Zobacz plany i ceny
     href: https://www.squarespace.com/pricing
 seo:
   title: Squarespace recenzja 2026 — czy warto?
-  description: "Krótka i praktyczna recenzja Squarespace: ceny, ograniczenia, kto\
-    \ skorzysta najbardziej i jak zacząć w 5 minut."
+  description: >-
+    Krótka i praktyczna recenzja Squarespace: ceny, ograniczenia, kto skorzysta
+    najbardziej i jak zacząć w 5 minut.
   keywords:
-  - Squarespace
-  - recenzja
-  - tworzenie stron
-  - ecommerce
-  - szablony
+    - Squarespace
+    - recenzja
+    - tworzenie stron
+    - ecommerce
+    - szablony
 taxonomy:
   categories:
-  - narzędzia
-  - web
+    - narzędzia
+    - web
   tags:
-  - squarespace
-  - recenzja
-  - website-builder
+    - squarespace
+    - recenzja
+    - website-builder
 ---
 
 ## Obietnica i werdykt (1 zdanie)

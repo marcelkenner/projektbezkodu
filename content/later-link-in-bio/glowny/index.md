@@ -1,47 +1,51 @@
 ---
-title: "Główna strona: jak zbudować stronę główną, która konwertuje"
+title: 'Główna strona: jak zbudować stronę główną, która konwertuje'
 slug: glowny
 path: /glowny
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybki przewodnik: strona główna, która działa"
-  subheading: Co zrobić w pierwszych 15–60 minutach, by zmniejszyć bounce i zwiększyć
+  heading: 'Szybki przewodnik: strona główna, która działa'
+  subheading: >-
+    Co zrobić w pierwszych 15–60 minutach, by zmniejszyć bounce i zwiększyć
     konwersję
 seo:
-  title: "Strona główna: projekt, treść i szybki plan działania"
-  description: "Praktyczny przewodnik dla właścicieli stron i marketerów: jak zaprojektować\
-    \ stronę główną, która jasno komunikuje ofertę i poprawia konwersję."
+  title: 'Strona główna: projekt, treść i szybki plan działania'
+  description: >-
+    Praktyczny przewodnik dla właścicieli stron i marketerów: jak zaprojektować
+    stronę główną, która jasno komunikuje ofertę i poprawia konwersję.
   keywords:
-  - strona główna
-  - homepage
-  - ux
-  - konwersja
-  - seo
+    - strona główna
+    - homepage
+    - ux
+    - konwersja
+    - seo
 meta:
   difficulty: średni
   duration: 15–60 minut na pierwszy test
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przeczytaj praktyczne wskazówki
     href: https://www.convert.com/blog/ux/ux-best-practices/
   summaryBullets:
-  - "Werdykt: Zrób to, jeśli chcesz szybciej konwertować ruch organiczny i płatny."
-  - "Dla kogo: małe sklepy, usługodawcy i SaaS z ograniczonym budżetem na UX."
-  - "Start: popraw nagłówek i przycisk CTA w 15 minut."
+    - >-
+      Werdykt: Zrób to, jeśli chcesz szybciej konwertować ruch organiczny i
+      płatny.
+    - 'Dla kogo: małe sklepy, usługodawcy i SaaS z ograniczonym budżetem na UX.'
+    - 'Start: popraw nagłówek i przycisk CTA w 15 minut.'
 taxonomy:
   categories:
-  - web
-  - ux
-  - seo
+    - web
+    - ux
+    - seo
   tags:
-  - homepage
-  - konwersja
-  - projektowanie
+    - homepage
+    - konwersja
+    - projektowanie
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

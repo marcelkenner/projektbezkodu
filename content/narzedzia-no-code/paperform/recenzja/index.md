@@ -4,49 +4,51 @@ slug: recenzja
 path: /narzedzia/paperform/recenzja/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Paperform – recenzja w stylu „co mam z tego ja”
-  subheading: Formularz, który może wyglądać jak strona, przyjmować płatności i zbierać
+  subheading: >-
+    Formularz, który może wyglądać jak strona, przyjmować płatności i zbierać
     leady bez osobnego landing page.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Paperform – recenzja z perspektywy estetyki i funkcji
-  description: Oceniam, jak Paperform wypada pod kątem wyglądu, integracji, płatności
-    i kosztów w porównaniu z innymi kreatorami formularzy.
+  description: >-
+    Oceniam, jak Paperform wypada pod kątem wyglądu, integracji, płatności i
+    kosztów w porównaniu z innymi kreatorami formularzy.
   keywords:
-  - Paperform
-  - recenzja
-  - formularze online
-  - płatności online
+    - Paperform
+    - recenzja
+    - formularze online
+    - płatności online
   canonical: https://paperform.co/
 meta:
   difficulty: łatwe do sprawdzenia
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz ceny Paperform
     href: https://paperform.co/pricing/
   topics:
-  - narzędzia
-  - formularze
-  - płatności
+    - narzędzia
+    - formularze
+    - płatności
 taxonomy:
   categories:
-  - recenzje
-  - narzędzia
+    - recenzje
+    - narzędzia
   tags:
-  - Paperform
-  - formularze
-  - integracje
+    - Paperform
+    - formularze
+    - integracje
 ---
 
 ## Obietnica decyzji: co tu wyjdzie i dla kogo to ma sens

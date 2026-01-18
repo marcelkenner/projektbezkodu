@@ -4,7 +4,7 @@ slug: alternatywy
 path: /narzedzia/surfer/alternatywy/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy dla Surfer — inne podejścia do content SEO
   subheading: Porównanie narzędzi, kiedy oszczędzać, a kiedy zostać przy Surferze
@@ -13,29 +13,30 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Surfer – przegląd alternatyw do optymalizacji treści
-  description: Kiedy zamiast Surfer wybrać prostsze narzędzie SEO, kombajn z edytorem
-    AI, a kiedy klasyczny research + ręczna analiza SERP-ów.
+  description: >-
+    Kiedy zamiast Surfer wybrać prostsze narzędzie SEO, kombajn z edytorem AI, a
+    kiedy klasyczny research + ręczna analiza SERP-ów.
   keywords:
-  - Surfer
-  - alternatywy Surfer
-  - narzędzia content SEO
-  - Frase
-  - Clearscope
+    - Surfer
+    - alternatywy Surfer
+    - narzędzia content SEO
+    - Frase
+    - Clearscope
 meta:
   summaryBullets:
-  - "Werdykt: nie ma uniwersalnego zwycięzcy — wybierz według priorytetu."
-  - "Dla kogo: freelancer, agencja, startup, enterprise — inna rekomendacja."
-  - "Start: test w 5 dni — jeden artykuł, porównanie metryk i realnych wyników."
+    - 'Werdykt: nie ma uniwersalnego zwycięzcy — wybierz według priorytetu.'
+    - 'Dla kogo: freelancer, agencja, startup, enterprise — inna rekomendacja.'
+    - 'Start: test w 5 dni — jeden artykuł, porównanie metryk i realnych wyników.'
   primaryCta:
     label: Sprawdź ceny Surfer
     href: https://surferseo.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - content-seo
+    - narzędzia
+    - content-seo
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

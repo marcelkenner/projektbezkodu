@@ -5,45 +5,47 @@ path: /narzedzia/plausible/faq/
 draft: false
 template: article
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Plausible – najczęstsze pytania o wdrożenie i prywatność
-  subheading: Jak działa brak cookies, gdzie są przetwarzane dane, jak wdrożyć skrypt
-    i co z RODO.
+  subheading: >-
+    Jak działa brak cookies, gdzie są przetwarzane dane, jak wdrożyć skrypt i co
+    z RODO.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Plausible – FAQ dla osób przechodzących z Google Analytics
-  description: "Szybkie odpowiedzi: co Plausible zbiera, jak to wygląda z RODO i jak\
-    \ szybko przenieść podstawowe metryki z GA."
+  description: >-
+    Szybkie odpowiedzi: co Plausible zbiera, jak to wygląda z RODO i jak szybko
+    przenieść podstawowe metryki z GA.
   keywords:
-  - Plausible
-  - Plausible FAQ
-  - analiza ruchu
-  - RODO
-  - Google Analytics alternatywa
+    - Plausible
+    - Plausible FAQ
+    - analiza ruchu
+    - RODO
+    - Google Analytics alternatywa
 meta:
   summaryBullets:
-  - "Werdykt: proste strony i sklepy – zwykle tak."
-  - "Dla kogo: kiedy warto przejść i kiedy Google/GA4 ma przewagę."
-  - "Start: instalacja w 5 minut i co sprawdzić najpierw."
+    - 'Werdykt: proste strony i sklepy – zwykle tak.'
+    - 'Dla kogo: kiedy warto przejść i kiedy Google/GA4 ma przewagę.'
+    - 'Start: instalacja w 5 minut i co sprawdzić najpierw.'
   primaryCta:
     label: Polityka prywatności Plausible
     href: https://plausible.io/privacy
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   difficulty: łatwe
   duration: 5 min
 taxonomy:
   categories:
-  - narzędzia
-  - analityka
-  - prywatność
+    - narzędzia
+    - analityka
+    - prywatność
   tags:
-  - plausible
-  - GA4
-  - gdpr
+    - plausible
+    - GA4
+    - gdpr
 ---
 
 ## Obietnica decyzji i grupa docelowa

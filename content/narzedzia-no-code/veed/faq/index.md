@@ -5,44 +5,48 @@ path: /narzedzia/veed/faq/
 draft: false
 template: article
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Veed — FAQ z perspektywy użytkownika
-  subheading: "Zebrałem najczęstsze pytania: od limitów wersji darmowej, przez napisy\
-    \ i AI, po eksport bez utraty jakości."
+  subheading: >-
+    Zebrałem najczęstsze pytania: od limitów wersji darmowej, przez napisy i AI,
+    po eksport bez utraty jakości.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Veed – najczęstsze pytania (FAQ)
-  description: "Praktyczne odpowiedzi o Veed: plany, limity darmowej wersji, napisy,\
-    \ AI i eksport."
+  description: >-
+    Praktyczne odpowiedzi o Veed: plany, limity darmowej wersji, napisy, AI i
+    eksport.
   keywords:
-  - Veed
-  - Veed FAQ
-  - auto subtitles
-  - video editor
-  - napisy
-  - eksport wideo
+    - Veed
+    - Veed FAQ
+    - auto subtitles
+    - video editor
+    - napisy
+    - eksport wideo
 meta:
   summaryBullets:
-  - "Werdykt: szybkie decyzje dla twórców i zespołów."
-  - "Dla kogo: kiedy warto korzystać z darmowego, a kiedy przesiąść się na Pro/Business."
-  - "Start: trzy kroki, żeby przetestować i uniknąć najczęstszych pułapek."
+    - 'Werdykt: szybkie decyzje dla twórców i zespołów.'
+    - >-
+      Dla kogo: kiedy warto korzystać z darmowego, a kiedy przesiąść się na
+      Pro/Business.
+    - 'Start: trzy kroki, żeby przetestować i uniknąć najczęstszych pułapek.'
   primaryCta:
     label: Cennik VEED
     href: https://www.veed.io/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzedzia
-  - wideo
+    - narzedzia
+    - wideo
   tags:
-  - veed
-  - faq
-  - napisy
-  - AI
+    - veed
+    - faq
+    - napisy
+    - AI
 ---
 
 ## Krótki werdykt: kto zyska, kto się rozczaruje

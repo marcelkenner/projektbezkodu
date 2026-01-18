@@ -4,40 +4,42 @@ slug: typeform
 path: /narzedzia/typeform/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Typeform – formularze, które wyglądają jak rozmowa
-  subheading: Zamiast ściany pól użytkownik widzi jedno pytanie na raz i chętniej
-    dociąga ankietę do końca.
+  subheading: >-
+    Zamiast ściany pól użytkownik widzi jedno pytanie na raz i chętniej dociąga
+    ankietę do końca.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Typeform – czym jest i kiedy ma przewagę nad zwykłymi formularzami
-  description: Sprawdź, jak Typeform pomaga zwiększyć wypełnialność ankiet i formularzy
+  description: >-
+    Sprawdź, jak Typeform pomaga zwiększyć wypełnialność ankiet i formularzy
     dzięki interfejsowi w stylu rozmowy.
   keywords:
-  - Typeform
-  - formularze online
-  - ankiety
-  - UX
-  - formularze konwersacyjne
+    - Typeform
+    - formularze online
+    - ankiety
+    - UX
+    - formularze konwersacyjne
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Odwiedź Typeform
     href: https://www.typeform.com
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - ux
-  - ankiety
+    - narzędzia
+    - ux
+    - ankiety
 ---
 
 ## Krótki werdykt dla kogo i dlaczego

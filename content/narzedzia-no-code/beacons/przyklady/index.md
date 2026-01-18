@@ -1,20 +1,22 @@
 ---
-title: "Przykłady, które działają: szybki przewodnik dla autorów dokumentacji"
+title: 'Przykłady, które działają: szybki przewodnik dla autorów dokumentacji'
 slug: przyklady
 path: /przyklady
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Jak pisać przykłady, które czytelnik skopiuje i użyje
   subheading: Krótkie, poprawne i od razu uruchamialne — co liczy się najbardziej
 meta:
   summaryBullets:
-  - "Werdykt: prosty, poprawny przykład bije długi opis."
-  - "Dla kogo: autorzy dokumentacji, tutoriali i aplikacji API."
-  - "Start: 5 minut — napisz mały, działający snippet."
-  - "Jak weryfikować: uruchom, sprawdź zależności, dodaj komentarz o ograniczeniach."
-  updatedAt: "2026-01-14"
+    - 'Werdykt: prosty, poprawny przykład bije długi opis.'
+    - 'Dla kogo: autorzy dokumentacji, tutoriali i aplikacji API.'
+    - 'Start: 5 minut — napisz mały, działający snippet.'
+    - >-
+      Jak weryfikować: uruchom, sprawdź zależności, dodaj komentarz o
+      ograniczeniach.
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
   primaryCta:
@@ -22,21 +24,22 @@ meta:
     href: https://developers.google.com/tech-writing/two/sample-code
 seo:
   title: Przykłady w dokumentacji — jak pisać, żeby działały
-  description: "Praktyczny przewodnik: co robić najpierw, jak zbudować działający\
-    \ przykład i komu to się najbardziej opłaca."
+  description: >-
+    Praktyczny przewodnik: co robić najpierw, jak zbudować działający przykład i
+    komu to się najbardziej opłaca.
   keywords:
-  - przykłady
-  - dokumentacja
-  - samples
-  - code examples
+    - przykłady
+    - dokumentacja
+    - samples
+    - code examples
 taxonomy:
   categories:
-  - dokumentacja
-  - ux
-  - developer
+    - dokumentacja
+    - ux
+    - developer
   tags:
-  - przykłady
-  - best-practices
+    - przykłady
+    - best-practices
 ---
 
 ## Obietnica i grupa czytelników

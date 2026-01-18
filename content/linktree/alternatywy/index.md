@@ -1,46 +1,47 @@
 ---
-title: "Alternatywy: jak wybrać i kiedy szukać innej opcji"
+title: 'Alternatywy: jak wybrać i kiedy szukać innej opcji'
 slug: alternatywy
 path: /alternatywy
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Praktyczny przewodnik po alternatywach — szybkie decyzje, bez paraliżu
   subheading: Kiedy zostać przy pierwszym rozwiązaniu, a kiedy szukać lepszej opcji
 seo:
-  title: "Alternatywy: jak wybierać i kiedy zmienić decyzję"
-  description: "Krótki, praktyczny przewodnik po alternatywach: definicja, szybki\
-    \ start i werdykty dla typowych sytuacji."
+  title: 'Alternatywy: jak wybierać i kiedy zmienić decyzję'
+  description: >-
+    Krótki, praktyczny przewodnik po alternatywach: definicja, szybki start i
+    werdykty dla typowych sytuacji.
   keywords:
-  - alternatywy
-  - wybór
-  - opcje
-  - decyzje
-  - poradnik
+    - alternatywy
+    - wybór
+    - opcje
+    - decyzje
+    - poradnik
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Definicja w SJP
     href: https://sjp.pl/ALTERNATYWA
 taxonomy:
   categories:
-  - poradnik
-  - język
-  - decyzje
+    - poradnik
+    - język
+    - decyzje
   tags:
-  - alternatywy
-  - wybór
-  - porady
+    - alternatywy
+    - wybór
+    - porady
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

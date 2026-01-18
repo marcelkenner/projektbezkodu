@@ -5,27 +5,31 @@ path: /narzedzia/unbounce/faq/
 draft: false
 template: article
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Unbounce – najczęstsze pytania po polsku
   subheading: Odpowiedzi o limitach, integracjach, wydajności i rozliczeniach.
 seo:
   title: Unbounce – FAQ i odpowiedzi
-  description: "Krótko i konkretnie: czy Unbounce nadaje się na stronę główną, jak\
-    \ działają integracje, co z wydajnością i jak zacząć."
+  description: >-
+    Krótko i konkretnie: czy Unbounce nadaje się na stronę główną, jak działają
+    integracje, co z wydajnością i jak zacząć.
   keywords:
-  - Unbounce
-  - landing page
-  - integracje
-  - wydajność
-  - FAQ
+    - Unbounce
+    - landing page
+    - integracje
+    - wydajność
+    - FAQ
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: Świetne do pojedynczych landing page'y i testów; słabsze jako pełen\
-    \ CMS."
-  - "Werdykt: Integracje są szerokie — wbudowane plus Zapier/Webhooks."
-  - "Werdykt: Szybkość to atut, ale musisz pilnować obrazów i zewnętrznych skryptów."
+    - >-
+      Werdykt: Świetne do pojedynczych landing page'y i testów; słabsze jako
+      pełen CMS.
+    - 'Werdykt: Integracje są szerokie — wbudowane plus Zapier/Webhooks.'
+    - >-
+      Werdykt: Szybkość to atut, ale musisz pilnować obrazów i zewnętrznych
+      skryptów.
   primaryCta:
     label: Zobacz integracje Unbounce
     href: https://unbounce.com/product/integrations/
@@ -33,8 +37,8 @@ meta:
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
 ---
 
 ## Obietnica decyzji — dla kogo ten FAQ

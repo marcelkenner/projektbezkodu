@@ -3,45 +3,46 @@ title: Webnode — cennik w pigułce
 slug: cennik
 path: /narzedzia/webnode/cennik/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: article
 hero:
   heading: Webnode — cennik w pigułce
-  subheading: "Szybkie decyzje: kiedy opłaca się płacić, a kiedy zatrzymać darmowy\
-    \ plan."
+  subheading: 'Szybkie decyzje: kiedy opłaca się płacić, a kiedy zatrzymać darmowy plan.'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webnode cennik 2026 — przegląd planów i rekomendacje
-  description: "Krótki przewodnik po planach Webnode: co dostajesz w darmowym i płatnym\
-    \ pakiecie, dla kogo który plan ma sens i jak szybko sprawdzić aktualne ceny."
+  description: >-
+    Krótki przewodnik po planach Webnode: co dostajesz w darmowym i płatnym
+    pakiecie, dla kogo który plan ma sens i jak szybko sprawdzić aktualne ceny.
   keywords:
-  - Webnode
-  - Webnode cennik
-  - cennik Webnode 2026
-  - tworzenie strony
+    - Webnode
+    - Webnode cennik
+    - cennik Webnode 2026
+    - tworzenie strony
 meta:
   summaryBullets:
-  - "Werdykt: prosty wybór dla prostych stron; uważaj przy e‑commerce."
-  - "Dla kogo: najlepsze dla portfolio i stron osobistych; średnie sklepy wymagają\
-    \ wyższego planu."
-  - "Start: załóż konto i sprawdź ceny w panelu — to zajmie 5 minut."
+    - 'Werdykt: prosty wybór dla prostych stron; uważaj przy e‑commerce.'
+    - >-
+      Dla kogo: najlepsze dla portfolio i stron osobistych; średnie sklepy
+      wymagają wyższego planu.
+    - 'Start: załóż konto i sprawdź ceny w panelu — to zajmie 5 minut.'
   primaryCta:
     label: Zobacz oficjalne informacje o planach
     href: https://www.webnode.com/support/paid-and-unpaid-services/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - web
+    - narzędzia
+    - web
   tags:
-  - webnode
-  - cennik
-  - strony-www
+    - webnode
+    - cennik
+    - strony-www
 ---
 
 ## Obietnica decyzji: kogo Webnode przekona, a kto powinien szukać dalej

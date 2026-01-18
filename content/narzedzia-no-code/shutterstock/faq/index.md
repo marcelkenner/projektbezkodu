@@ -4,38 +4,40 @@ slug: faq
 path: /narzedzia/shutterstock/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shutterstock – FAQ, które oszczędza Ci czytania regulaminu
-  subheading: Najczęstsze pytania o licencje, wykorzystanie komercyjne, social media
-    i projekty dla klientów.
+  subheading: >-
+    Najczęstsze pytania o licencje, wykorzystanie komercyjne, social media i
+    projekty dla klientów.
 seo:
   title: Shutterstock — FAQ o licencjach i wykorzystaniu
-  description: Praktyczne odpowiedzi na najczęściej zadawane pytania o licencje Shutterstock,
-    użycie editorial vs commercial i gdzie szukać zgód.
+  description: >-
+    Praktyczne odpowiedzi na najczęściej zadawane pytania o licencje
+    Shutterstock, użycie editorial vs commercial i gdzie szukać zgód.
   keywords:
-  - Shutterstock
-  - licencja
-  - editorial
-  - komercyjne
-  - social media
+    - Shutterstock
+    - licencja
+    - editorial
+    - komercyjne
+    - social media
 meta:
   summaryBullets:
-  - "Werdykt: szybko sprawdzisz, kiedy możesz użyć zdjęcia komercyjnie"
-  - "Dla kogo: marketing, redakcje, freelanserzy"
-  - "Start: sprawdź etykietę 'Editorial Use Only' i warunki licencji"
+    - 'Werdykt: szybko sprawdzisz, kiedy możesz użyć zdjęcia komercyjnie'
+    - 'Dla kogo: marketing, redakcje, freelanserzy'
+    - 'Start: sprawdź etykietę ''Editorial Use Only'' i warunki licencji'
   primaryCta:
     label: Zobacz warunki licencji Shutterstock
     href: https://www.shutterstock.com/license
 taxonomy:
   categories:
-  - narzedzia
-  - prawo
-  - grafika
+    - narzedzia
+    - prawo
+    - grafika
   tags:
-  - Shutterstock
-  - licencje
-  - FAQ
+    - Shutterstock
+    - licencje
+    - FAQ
 ---
 
 ## Obietnica decyzji — dla kogo to FAQ

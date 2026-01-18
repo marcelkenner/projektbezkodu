@@ -1,38 +1,39 @@
 ---
-title: "Przykłady: jak pisać i używać przykładów w treści"
+title: 'Przykłady: jak pisać i używać przykładów w treści'
 slug: przyklady
 path: /przyklady
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Przykłady: szybki przewodnik"
+  heading: 'Przykłady: szybki przewodnik'
   subheading: Kiedy przykład pomaga, a kiedy wprowadza w błąd
 seo:
   title: Przykłady — jak używać przykładów w tekstach i prezentacjach
-  description: "Krótki przewodnik dla twórców treści: kiedy używać przykładu, jak\
-    \ zaprojektować najbardziej użyteczny przykład i kiedy go unikać."
+  description: >-
+    Krótki przewodnik dla twórców treści: kiedy używać przykładu, jak
+    zaprojektować najbardziej użyteczny przykład i kiedy go unikać.
   keywords:
-  - przykłady
-  - pisanie treści
-  - edukacja
+    - przykłady
+    - pisanie treści
+    - edukacja
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: przykłady zwiększają zrozumienie, ale tylko gdy są konkretne."
-  - "Dla kogo: twórcy treści, nauczyciele, UX-writerzy."
-  - "Start: wybierz jeden konkretny scenariusz i opisz go w 2–3 zdaniach."
+    - 'Werdykt: przykłady zwiększają zrozumienie, ale tylko gdy są konkretne.'
+    - 'Dla kogo: twórcy treści, nauczyciele, UX-writerzy.'
+    - 'Start: wybierz jeden konkretny scenariusz i opisz go w 2–3 zdaniach.'
   primaryCta:
-    label: "Definicja i użycie: WSJP"
+    label: 'Definicja i użycie: WSJP'
     href: https://wsjp.pl/haslo/podglad/34415/przyklad/5011825/czlowiek
 taxonomy:
   categories:
-  - pisanie
-  - edukacja
+    - pisanie
+    - edukacja
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

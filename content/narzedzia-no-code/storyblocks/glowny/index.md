@@ -1,45 +1,47 @@
 ---
-title: "Storyblocks — subskrypcja stockowa: czy się opłaca?"
+title: 'Storyblocks — subskrypcja stockowa: czy się opłaca?'
 slug: storyblocks
 path: /narzedzia/storyblocks/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Storyblocks
-  subheading: "Szybkie podejście: dla kogo działa subskrypcja i co sprawdzić na starcie."
+  subheading: 'Szybkie podejście: dla kogo działa subskrypcja i co sprawdzić na starcie.'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Storyblocks — recenzja subskrypcji stockowej i krótki przewodnik
-  description: "Praktyczna recenzja Storyblocks: dla kogo to rozwiązanie, jak szybko\
-    \ zacząć i kiedy lepiej poszukać alternatywy."
+  description: >-
+    Praktyczna recenzja Storyblocks: dla kogo to rozwiązanie, jak szybko zacząć
+    i kiedy lepiej poszukać alternatywy.
   keywords:
-  - Storyblocks
-  - stock footage
-  - subskrypcja wideo
-  - royalty-free
-  - porównanie
+    - Storyblocks
+    - stock footage
+    - subskrypcja wideo
+    - royalty-free
+    - porównanie
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: łatwe
   duration: 5 minut
   summaryBullets:
-  - "Werdykt: dobre narzędzie dla twórców wideo, którzy potrzebują nieograniczonych\
-    \ pobrań."
-  - "Dla kogo: jednostki i małe zespoły z częstymi potrzebami kontentu wideo."
-  - "Start: sprawdź plany i licencje na stronie cenowej przed zakupem."
+    - >-
+      Werdykt: dobre narzędzie dla twórców wideo, którzy potrzebują
+      nieograniczonych pobrań.
+    - 'Dla kogo: jednostki i małe zespoły z częstymi potrzebami kontentu wideo.'
+    - 'Start: sprawdź plany i licencje na stronie cenowej przed zakupem.'
   primaryCta:
     label: Zobacz cennik Storyblocks
     href: https://www.storyblocks.com/pricing
 taxonomy:
   categories:
-  - narzędzia
-  - stock
-  - wideo
+    - narzędzia
+    - stock
+    - wideo
 ---
 
 ## Obietnica decyzji (1 zdanie)

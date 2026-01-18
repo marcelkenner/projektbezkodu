@@ -5,41 +5,43 @@ path: /narzedzia/surfer/recenzja/
 draft: false
 template: article
 type: review
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Surfer – recenzja z perspektywy osoby piszącej treści
-  subheading: Sprawdzam, czy Content Editor i Audyt faktycznie pomagają pisać lepsze
+  subheading: >-
+    Sprawdzam, czy Content Editor i Audyt faktycznie pomagają pisać lepsze
     teksty, czy tylko dorzucają kolejny pasek „Content Score”.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Surfer – recenzja skoncentrowana na pracy copywritera i SEO
-  description: "Plusy i minusy Surfer: jakość rekomendacji, wpływ na wyniki, wygoda\
-    \ edytora, integracje i to, kiedy narzędzie bywa przesadnie „sztywne” w wytycznych."
+  description: >-
+    Plusy i minusy Surfer: jakość rekomendacji, wpływ na wyniki, wygoda edytora,
+    integracje i to, kiedy narzędzie bywa przesadnie „sztywne” w wytycznych.
   keywords:
-  - Surfer
-  - Surfer SEO
-  - Content Editor
-  - Content Audit
-  - recenzja
+    - Surfer
+    - Surfer SEO
+    - Content Editor
+    - Content Audit
+    - recenzja
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Odwiedź stronę Surfer
     href: https://surferseo.com/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
   duration: 10–30 min
 taxonomy:
   categories:
-  - narzędzia
-  - SEO
-  - copywriting
+    - narzędzia
+    - SEO
+    - copywriting
 ---
 
 ## Krótkie podsumowanie i werdykt

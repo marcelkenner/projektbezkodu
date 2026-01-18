@@ -4,34 +4,35 @@ slug: cennik
 path: /cennik
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Cennik: co ma działać, a co tylko wygląda dobrze"
+  heading: 'Cennik: co ma działać, a co tylko wygląda dobrze'
   subheading: Szybki przewodnik dla właścicieli małych firm i product managerów
 seo:
   title: Cennik — jak zaprojektować stronę cenową
-  description: "Praktyczny poradnik: co pokazać na stronie 'Cennik', jak układać plany,\
-    \ jakie triki cenowe działają i kiedy ich unikać."
+  description: >-
+    Praktyczny poradnik: co pokazać na stronie 'Cennik', jak układać plany,
+    jakie triki cenowe działają i kiedy ich unikać.
   keywords:
-  - cennik
-  - strona cenowa
-  - psychologia cen
-  - pricing page
+    - cennik
+    - strona cenowa
+    - psychologia cen
+    - pricing page
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj poradnik HubSpot
     href: https://blog.hubspot.com/marketing/best-practices-pricing-page
 taxonomy:
   categories:
-  - marketing
-  - produkt
+    - marketing
+    - produkt
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

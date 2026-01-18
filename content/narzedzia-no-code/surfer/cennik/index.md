@@ -4,28 +4,30 @@ slug: cennik
 path: /narzedzia/surfer/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Surfer – cennik w odniesieniu do liczby treści i zespołu
-  subheading: Patrzę, jak plany skalują się wraz z liczbą briefów, projektów i osób
+  subheading: >-
+    Patrzę, jak plany skalują się wraz z liczbą briefów, projektów i osób
     korzystających z narzędzia.
 seo:
   title: Surfer – cennik i opłacalność dla content teams
-  description: "Analiza cen Surfer: ile płacisz przy solo projekcie, małym zespole\
-    \ i większej produkcji treści."
+  description: >-
+    Analiza cen Surfer: ile płacisz przy solo projekcie, małym zespole i
+    większej produkcji treści.
   keywords:
-  - Surfer cennik
-  - Surfer pricing
-  - Surfer SEO ceny
+    - Surfer cennik
+    - Surfer pricing
+    - Surfer SEO ceny
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź oferty Surfer
     href: https://surferseo.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 ---
 

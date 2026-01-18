@@ -4,43 +4,49 @@ slug: alternatywy
 path: /alternatywy
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy — prosto, praktycznie, z werdyktem
-  subheading: "Krótki przewodnik: co oznacza, kiedy mówić 'alternatywa' i jak uniknąć\
-    \ błędów"
+  subheading: >-
+    Krótki przewodnik: co oznacza, kiedy mówić 'alternatywa' i jak uniknąć
+    błędów
 seo:
   title: Alternatywy — definicja, przykłady, kiedy używać
-  description: Wyjaśnienie znaczeń słowa 'alternatywa', typowe pomyłki i jasne werdykty
-    dla codziennego użycia.
+  description: >-
+    Wyjaśnienie znaczeń słowa 'alternatywa', typowe pomyłki i jasne werdykty dla
+    codziennego użycia.
   keywords:
-  - alternatywa
-  - definicja alternatywy
-  - użycie alternatywy
-  - alternatywka
+    - alternatywa
+    - definicja alternatywy
+    - użycie alternatywy
+    - alternatywka
   canonical: https://sjp.pl/ALTERNATYWA
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: mów 'alternatywa' gdy chodzi o wybór między możliwościami — precyzuj\
-    \ kontekst."
-  - "Dla kogo: dla autorów tekstów, prezentacji i osób, które chcą mówić precyzyjnie."
-  - "Start: sprawdź, czy opcje się wykluczają; jeśli nie — użyj 'możliwości' zamiast\
-    \ 'alternatywy'."
+    - >-
+      Werdykt: mów 'alternatywa' gdy chodzi o wybór między możliwościami —
+      precyzuj kontekst.
+    - >-
+      Dla kogo: dla autorów tekstów, prezentacji i osób, które chcą mówić
+      precyzyjnie.
+    - >-
+      Start: sprawdź, czy opcje się wykluczają; jeśli nie — użyj 'możliwości'
+      zamiast 'alternatywy'.
   primaryCta:
     label: Zobacz definicję w Słowniku SJP
     href: https://sjp.pl/ALTERNATYWA
 taxonomy:
   categories:
-  - język
-  - poradnik
+    - język
+    - poradnik
   tags:
-  - alternatywa
-  - język polski
+    - alternatywa
+    - język polski
 ---
 
 ## Obietnica decyzji i grupa czytelników

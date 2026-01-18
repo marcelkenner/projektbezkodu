@@ -1,39 +1,41 @@
 ---
-title: "Integracje: kiedy warto łączyć narzędzia i jak zacząć"
+title: 'Integracje: kiedy warto łączyć narzędzia i jak zacząć'
 slug: integracje
 path: /integracje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Integracje: kiedy warto łączyć narzędzia i jak zacząć"
-  subheading: Praktyczny przewodnik dla PM-ów, właścicieli firm i ludzi odpowiedzialnych
+  heading: 'Integracje: kiedy warto łączyć narzędzia i jak zacząć'
+  subheading: >-
+    Praktyczny przewodnik dla PM-ów, właścicieli firm i ludzi odpowiedzialnych
     za IT
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejrzyj katalog integracji (przykład)
     href: https://zapier.com/apps
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 seo:
-  title: "Integracje: kiedy łączyć narzędzia, a kiedy odpuścić"
-  description: "Praktyczny przewodnik po integracjach: co to jest, które podejście\
-    \ wybrać i jak szybko wystartować."
+  title: 'Integracje: kiedy łączyć narzędzia, a kiedy odpuścić'
+  description: >-
+    Praktyczny przewodnik po integracjach: co to jest, które podejście wybrać i
+    jak szybko wystartować.
   keywords:
-  - integracje
-  - API
-  - automatyzacja
-  - Zapier
-  - webhook
+    - integracje
+    - API
+    - automatyzacja
+    - Zapier
+    - webhook
 taxonomy:
   categories:
-  - technologia
-  - zarządzanie
+    - technologia
+    - zarządzanie
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

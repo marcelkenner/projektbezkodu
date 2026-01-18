@@ -5,45 +5,51 @@ path: /narzedzia/zapier/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Zapier – recenzja z punktu widzenia małej firmy
-  subheading: Patrzę, ile czasu i błędów oszczędza mi Zapier w prostych, ale krytycznych
+  subheading: >-
+    Patrzę, ile czasu i błędów oszczędza mi Zapier w prostych, ale krytycznych
     procesach.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Zapier – recenzja po latach używania
-  description: "Plusy i minusy korzystania z Zapiera: wygoda, ograniczenia, stabilność\
-    \ i moment, w którym warto szukać czegoś innego."
+  description: >-
+    Plusy i minusy korzystania z Zapiera: wygoda, ograniczenia, stabilność i
+    moment, w którym warto szukać czegoś innego.
   keywords:
-  - Zapier
-  - automatyzacja
-  - recenzja
-  - mała firma
-  - integracje
+    - Zapier
+    - automatyzacja
+    - recenzja
+    - mała firma
+    - integracje
 meta:
   summaryBullets:
-  - "Werdykt: działa szybko dla prostych procesów, koszt rośnie przy dużej skali"
-  - "Dla kogo: małe firmy i freelancerzy z regularnymi, niskowolumenowymi zadaniami"
-  - "Start: załóż konto i przetestuj automatyzację na free tier"
+    - >-
+      Werdykt: działa szybko dla prostych procesów, koszt rośnie przy dużej
+      skali
+    - >-
+      Dla kogo: małe firmy i freelancerzy z regularnymi, niskowolumenowymi
+      zadaniami
+    - 'Start: załóż konto i przetestuj automatyzację na free tier'
   primaryCta:
     label: Zobacz cennik Zapier
     href: https://zapier.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   difficulty: niski
   duration: 5–30 min
   author: Recenzent
 taxonomy:
   categories:
-  - narzędzia
-  - automatyzacja
+    - narzędzia
+    - automatyzacja
   tags:
-  - Zapier
-  - integracje
-  - workflow
+    - Zapier
+    - integracje
+    - workflow
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

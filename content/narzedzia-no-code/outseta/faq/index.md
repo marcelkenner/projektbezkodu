@@ -4,31 +4,33 @@ slug: faq
 path: /narzedzia/outseta/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Outseta – odpowiedzi na najczęstsze pytania przed wyborem platformy
-  subheading: Rozjaśniam kwestie podatków, walut, migracji z innych systemów i integracji
+  subheading: >-
+    Rozjaśniam kwestie podatków, walut, migracji z innych systemów i integracji
     z narzędziami no-code.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Outseta – FAQ o rozliczeniach, integracjach i migracjach
-  description: "Najczęstsze pytania o Outseta: obsługa wielu walut, integracje z builderami,\
-    \ migracja subskrypcji i bezpieczeństwo danych."
+  description: >-
+    Najczęstsze pytania o Outseta: obsługa wielu walut, integracje z builderami,
+    migracja subskrypcji i bezpieczeństwo danych.
   keywords:
-  - Outseta
-  - Outseta FAQ
-  - płatności
-  - migracja subskrypcji
-  - integracje no-code
+    - Outseta
+    - Outseta FAQ
+    - płatności
+    - migracja subskrypcji
+    - integracje no-code
   canonical: https://www.outseta.com/
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
-  updatedAt: "2026-01-14"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
+  updatedAt: '2026-01-14'
   primaryCta:
     label: Zobacz cennik Outseta
     href: https://www.outseta.com/pricing
@@ -44,13 +46,13 @@ meta:
     worstRating: 1
 taxonomy:
   categories:
-  - narzedzia
-  - SaaS
+    - narzedzia
+    - SaaS
   tags:
-  - Outseta
-  - FAQ
-  - płatności
-  - migracja
+    - Outseta
+    - FAQ
+    - płatności
+    - migracja
 ---
 
 ## Obietnica decyzji: czy Outseta warto rozważyć?

@@ -1,44 +1,47 @@
 ---
-title: "Recenzja: jak czytać i ocenić recenzję produktu"
+title: 'Recenzja: jak czytać i ocenić recenzję produktu'
 slug: recenzja
 path: /recenzja
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Recenzja: krótki przewodnik decyzyjny"
+  heading: 'Recenzja: krótki przewodnik decyzyjny'
   subheading: Jak odróżnić porządne testy od marketingu i co zrobić jako pierwsze
 seo:
-  title: "Recenzja: jak czytać i ocenić recenzję produktu"
-  description: "Praktyczny przewodnik: co sprawdzać w recenzjach, jak rozpocząć własne\
-    \ testy i kto komu ufa."
+  title: 'Recenzja: jak czytać i ocenić recenzję produktu'
+  description: >-
+    Praktyczny przewodnik: co sprawdzać w recenzjach, jak rozpocząć własne testy
+    i kto komu ufa.
   keywords:
-  - recenzja produktu
-  - jak czytać recenzje
-  - metodologia testów
-  - Consumer Reports
+    - recenzja produktu
+    - jak czytać recenzje
+    - metodologia testów
+    - Consumer Reports
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz metodologię Consumer Reports
     href: https://www.consumerreports.org/about-us/what-we-do/research-and-testing/
   summaryBullets:
-  - "Werdykt: prosty sposób na ocenę wiarygodności recenzji."
-  - "Dla kogo: kupujący, którzy chcą uniknąć błędnych decyzji zakupowych."
-  - "Start: sprawdź metodologię testu i czy redakcja kupiła egzemplarze do testu."
+    - 'Werdykt: prosty sposób na ocenę wiarygodności recenzji.'
+    - 'Dla kogo: kupujący, którzy chcą uniknąć błędnych decyzji zakupowych.'
+    - >-
+      Start: sprawdź metodologię testu i czy redakcja kupiła egzemplarze do
+      testu.
 taxonomy:
   categories:
-  - recenzje
-  - poradniki
+    - recenzje
+    - poradniki
   tags:
-  - kupowanie
-  - testy
-  - metodologia
+    - kupowanie
+    - testy
+    - metodologia
 ---
 
 ## Obietnica decyzji

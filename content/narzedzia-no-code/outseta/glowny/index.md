@@ -5,43 +5,45 @@ path: /narzedzia/outseta/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Outseta – logowanie, subskrypcje i CRM w jednym miejscu
-  subheading: Zamiast kleić wiele usług, ogarniam płatności, konta użytkowników i
-    wsparcie klienta w jednym panelu.
+  subheading: >-
+    Zamiast kleić wiele usług, ogarniam płatności, konta użytkowników i wsparcie
+    klienta w jednym panelu.
   primaryCta:
     label: Przejdź na stronę Outseta
     href: https://www.outseta.com/
 seo:
   title: Outseta – do czego wykorzystuję ją w projektach SaaS
-  description: "Opisuję, kiedy Outseta ma największy sens: produkty subskrypcyjne,\
-    \ społeczności, aplikacje SaaS i projekty członkowskie."
+  description: >-
+    Opisuję, kiedy Outseta ma największy sens: produkty subskrypcyjne,
+    społeczności, aplikacje SaaS i projekty członkowskie.
   keywords:
-  - Outseta
-  - membership
-  - CRM
-  - SaaS
-  - billing
+    - Outseta
+    - membership
+    - CRM
+    - SaaS
+    - billing
 meta:
   summaryBullets:
-  - "Werdykt: dobre dla małych i rosnących SaaS, które chcą ograniczyć stack."
-  - "Start: test w 5–15 minut, 7-dniowy trial."
-  - "Ryzyko: opłaty transakcyjne i brak bardziej zaawansowanych automatyzacji."
+    - 'Werdykt: dobre dla małych i rosnących SaaS, które chcą ograniczyć stack.'
+    - 'Start: test w 5–15 minut, 7-dniowy trial.'
+    - 'Ryzyko: opłaty transakcyjne i brak bardziej zaawansowanych automatyzacji.'
   primaryCta:
     label: Zobacz cennik Outseta
     href: https://www.outseta.com/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - SaaS
+    - narzędzia
+    - SaaS
   tags:
-  - Outseta
-  - CRM
-  - billing
-  - membership
+    - Outseta
+    - CRM
+    - billing
+    - membership
 ---
 
 ## Obietnica i werdykt na start

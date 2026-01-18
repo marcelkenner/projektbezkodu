@@ -3,48 +3,53 @@ title: InPost Pay w sklepie Shopify — płatność i dostawa w jednym przycisku
 slug: platnosci-pl-inpost
 path: /narzedzia/shopify/platnosci-pl-inpost/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: InPost Pay w sklepie Shopify — płatność i dostawa w jednym przycisku
-  subheading: "Krótki przewodnik: dla kogo ma sens, jak zacząć i czego się spodziewać\
-    \ po wdrożeniu."
+  subheading: >-
+    Krótki przewodnik: dla kogo ma sens, jak zacząć i czego się spodziewać po
+    wdrożeniu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: proste przyspieszenie checkoutu, najwięcej zyskują sklepy z dostawą\
-    \ do paczkomatów."
-  - "Dla kogo: małe i średnie sklepy sprzedające w Polsce oraz sklepy z szybką wysyłką\
-    \ do paczkomatów."
-  - "Start: podpisz umowę z InPost i sprawdź dokumentację integracji."
+    - >-
+      Werdykt: proste przyspieszenie checkoutu, najwięcej zyskują sklepy z
+      dostawą do paczkomatów.
+    - >-
+      Dla kogo: małe i średnie sklepy sprzedające w Polsce oraz sklepy z szybką
+      wysyłką do paczkomatów.
+    - 'Start: podpisz umowę z InPost i sprawdź dokumentację integracji.'
   primaryCta:
     label: Sprawdź dokumentację InPost Pay
     href: https://inpost.pl/inpostpay
 seo:
   title: InPost Pay w Shopify — jak wdrożyć płatność i dostawę jednym przyciskiem
-  description: Jak działa InPost Pay w sklepie Shopify, kto zyska najwięcej i jak
-    zacząć krok po kroku. Krótkie porównanie opłacalności dla małych i średnich sklepów.
+  description: >-
+    Jak działa InPost Pay w sklepie Shopify, kto zyska najwięcej i jak zacząć
+    krok po kroku. Krótkie porównanie opłacalności dla małych i średnich
+    sklepów.
   keywords:
-  - InPost Pay
-  - Shopify
-  - płatności Polska
-  - paczkomaty
+    - InPost Pay
+    - Shopify
+    - płatności Polska
+    - paczkomaty
 taxonomy:
   categories:
-  - Narzędzia
-  - E‑commerce
-  - Shopify
+    - Narzędzia
+    - E‑commerce
+    - Shopify
   tags:
-  - InPost
-  - płatności
-  - checkout
-  - Polska
+    - InPost
+    - płatności
+    - checkout
+    - Polska
 ---
 
 ## Obietnica decyzji dla kogo i co zrobić teraz

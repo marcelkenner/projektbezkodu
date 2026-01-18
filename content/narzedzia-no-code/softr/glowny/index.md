@@ -4,43 +4,46 @@ slug: softr
 path: /narzedzia/softr/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Softr — najszybsza droga od tabelki do aplikacji webowej
-  subheading: Zamiast briefować developerów, zbudujesz portal klienta lub panel wewnętrzny
+  subheading: >-
+    Zamiast briefować developerów, zbudujesz portal klienta lub panel wewnętrzny
     prosto na danych z Airtable
 seo:
   title: Softr — do czego używam go w projektach
-  description: "Kiedy Softr się sprawdza: portale klientów, wewnętrzne panele, katalogi\
-    \ i szybkie MVP oparte na Airtable."
+  description: >-
+    Kiedy Softr się sprawdza: portale klientów, wewnętrzne panele, katalogi i
+    szybkie MVP oparte na Airtable.
   keywords:
-  - Softr
-  - Airtable
-  - no-code
-  - portal klienta
-  - narzędzia bez kodu
+    - Softr
+    - Airtable
+    - no-code
+    - portal klienta
+    - narzędzia bez kodu
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Strona integracji z Airtable
     href: https://www.softr.io/data-sources/airtable
   summaryBullets:
-  - "Werdykt: szybkie portale i panele z Airtable — często wystarczy Softr."
-  - "Dla kogo: freelancerzy, agencje, zespoły produktowe; kiedy nie: skomplikowane\
-    \ workflowy i niestandardowe backendy."
-  - "Start: przygotuj schemat bazy w Airtable i skorzystaj z gotowego szablonu."
+    - 'Werdykt: szybkie portale i panele z Airtable — często wystarczy Softr.'
+    - >-
+      Dla kogo: freelancerzy, agencje, zespoły produktowe; kiedy nie:
+      skomplikowane workflowy i niestandardowe backendy.
+    - 'Start: przygotuj schemat bazy w Airtable i skorzystaj z gotowego szablonu.'
 taxonomy:
   categories:
-  - narzędzia
-  - nocode
+    - narzędzia
+    - nocode
   tags:
-  - Softr
-  - Airtable
-  - portal klienta
+    - Softr
+    - Airtable
+    - portal klienta
 ---
 
 ## Obietnica decyzji

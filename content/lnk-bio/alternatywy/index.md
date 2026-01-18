@@ -1,44 +1,45 @@
 ---
-title: "Alternatywy: jak wybierać i porównywać opcje"
+title: 'Alternatywy: jak wybierać i porównywać opcje'
 slug: alternatywy
 path: /alternatywy
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Alternatywy — szybki przewodnik decyzji
   subheading: Jak wybrać opcję, która działa w praktyce
 seo:
-  title: "Alternatywy: jak wybierać i porównywać opcje"
-  description: "Praktyczny poradnik wyboru alternatyw: metody oceny, proste narzędzia\
-    \ i pierwszy plan działania."
+  title: 'Alternatywy: jak wybierać i porównywać opcje'
+  description: >-
+    Praktyczny poradnik wyboru alternatyw: metody oceny, proste narzędzia i
+    pierwszy plan działania.
   keywords:
-  - alternatywy
-  - ocena opcji
-  - decision matrix
-  - Pugh
-  - MCDA
+    - alternatywy
+    - ocena opcji
+    - decision matrix
+    - Pugh
+    - MCDA
 meta:
   difficulty: średni
   duration: 15-30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do przewodnika ECHA
     href: https://echa.europa.eu/pl/assess-compare-and-select-alternatives
 taxonomy:
   categories:
-  - decisions
-  - productivity
+    - decisions
+    - productivity
   tags:
-  - alternatywy
-  - wybór
-  - ocena
+    - alternatywy
+    - wybór
+    - ocena
 ---
 
 ## Obietnica decyzji dla konkretnego czytelnika

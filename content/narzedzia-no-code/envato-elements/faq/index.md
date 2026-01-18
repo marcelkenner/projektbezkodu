@@ -3,12 +3,12 @@ title: Envato Elements — FAQ i szybkie decyzje
 slug: faq
 path: /narzedzia/envato-elements/faq/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: article
 hero:
   heading: Envato Elements FAQ
-  subheading: "Krótko: licencje, ograniczenia, co warto sprawdzić"
+  subheading: 'Krótko: licencje, ograniczenia, co warto sprawdzić'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
@@ -16,32 +16,37 @@ hero:
     height: 628
 seo:
   title: Envato Elements FAQ — licencje i zastosowania
-  description: "Szybkie odpowiedzi: co obejmuje licencja Envato Elements, kiedy można\
-    \ używać assetów w projektach komercyjnych i jak zabezpieczyć klienta."
+  description: >-
+    Szybkie odpowiedzi: co obejmuje licencja Envato Elements, kiedy można używać
+    assetów w projektach komercyjnych i jak zabezpieczyć klienta.
   keywords:
-  - Envato Elements
-  - licencja
-  - FAQ
-  - stock assets
+    - Envato Elements
+    - licencja
+    - FAQ
+    - stock assets
 meta:
   summaryBullets:
-  - "Werdykt: szybko — dobre dla szybkich projektów i materiałów marketingowych."
-  - "Dla kogo: freelancerzy i zespoły, jeśli projekt jest ukończony przed wygaśnięciem\
-    \ subskrypcji."
-  - "Start: pobierz i pobierz certyfikat licencji z \"My Downloads\"."
+    - >-
+      Werdykt: szybko — dobre dla szybkich projektów i materiałów
+      marketingowych.
+    - >-
+      Dla kogo: freelancerzy i zespoły, jeśli projekt jest ukończony przed
+      wygaśnięciem subskrypcji.
+    - 'Start: pobierz i pobierz certyfikat licencji z "My Downloads".'
   primaryCta:
     label: Envato Elements License FAQ
-    href: https://help.elements.envato.com/hc/en-us/articles/360000629346-Envato-Elements-License-FAQ
+    href: >-
+      https://help.elements.envato.com/hc/en-us/articles/360000629346-Envato-Elements-License-FAQ
   hasAffiliateLinks: false
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzędzia
-  - stock
+    - narzędzia
+    - stock
   tags:
-  - Envato
-  - licencje
-  - FAQ
+    - Envato
+    - licencje
+    - FAQ
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

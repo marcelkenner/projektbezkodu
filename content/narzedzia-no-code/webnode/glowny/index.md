@@ -4,7 +4,7 @@ slug: webnode
 path: /narzedzia/webnode/
 draft: true
 template: default
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Webnode
   subheading: Prosty kreator stron dla małych firm i szybkich projektów
@@ -13,33 +13,37 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Webnode — czy warto wybrać kreator stron dla małej firmy?
-  description: "Praktyczny przewodnik: założenia Webnode, jak zacząć, główne ograniczenia\
-    \ i dla kogo to rozwiązanie się opłaca."
+  description: >-
+    Praktyczny przewodnik: założenia Webnode, jak zacząć, główne ograniczenia i
+    dla kogo to rozwiązanie się opłaca.
   keywords:
-  - Webnode
-  - kreator stron
-  - tworzenie strony
-  - Webnode recenzja
+    - Webnode
+    - kreator stron
+    - tworzenie strony
+    - Webnode recenzja
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Sprawdź stronę Webnode
     href: https://www.webnode.com/
   summaryBullets:
-  - "Werdykt: prosty start dla początkujących; nie zawsze wystarczy dla rozbudowanego\
-    \ e‑commerce."
-  - "Dla kogo: freelancerzy, mikrofirmy, osoby potrzebujące szybkiej wizytówki online."
-  - "Start: załóż bezpłatne konto i przetestuj edytor przez 5–10 minut."
+    - >-
+      Werdykt: prosty start dla początkujących; nie zawsze wystarczy dla
+      rozbudowanego e‑commerce.
+    - >-
+      Dla kogo: freelancerzy, mikrofirmy, osoby potrzebujące szybkiej wizytówki
+      online.
+    - 'Start: załóż bezpłatne konto i przetestuj edytor przez 5–10 minut.'
 taxonomy:
   categories:
-  - narzędzia
-  - kreatory
+    - narzędzia
+    - kreatory
   tags:
-  - webnode
-  - kreator stron
-  - poradnik
+    - webnode
+    - kreator stron
+    - poradnik
 ---
 
 ## Szybki werdykt i dla kogo

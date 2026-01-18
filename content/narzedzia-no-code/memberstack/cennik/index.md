@@ -5,43 +5,49 @@ path: /narzedzia/memberstack/cennik/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Memberstack – cennik rozpisany na małe i większe społeczności
-  subheading: Przeliczam koszty na liczbę członków i przychód z subskrypcji, zamiast
+  subheading: >-
+    Przeliczam koszty na liczbę członków i przychód z subskrypcji, zamiast
     patrzeć tylko na limit projektów.
 seo:
   title: Memberstack — cennik i opłacalność przy różnych skalach
-  description: Dowiedz się, jak działa cennik Memberstack i kiedy prowizje oraz limity
+  description: >-
+    Dowiedz się, jak działa cennik Memberstack i kiedy prowizje oraz limity
     zaczynają mocno wpływać na marżę.
   keywords:
-  - Memberstack
-  - cennik
-  - memberstack ceny
-  - opłacalność
-  - membership software
+    - Memberstack
+    - cennik
+    - memberstack ceny
+    - opłacalność
+    - membership software
   canonical: https://www.memberstack.com/pricing
 meta:
   difficulty: Łatwy do porównania
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz oficjalny cennik Memberstack
     href: https://www.memberstack.com/pricing
   summaryBullets:
-  - "Werdykt: jasne progi, opłaca się przy niskiej prowizji lub gdy masz wysokie ARPU."
-  - "Dla kogo: od 200 użytkowników (wysokie ARPU) do 10k+ (skala z opłatą miesięczną)."
-  - "Start: załóż konto, testuj w trybie free, policz prowizje od przychodu."
+    - >-
+      Werdykt: jasne progi, opłaca się przy niskiej prowizji lub gdy masz
+      wysokie ARPU.
+    - >-
+      Dla kogo: od 200 użytkowników (wysokie ARPU) do 10k+ (skala z opłatą
+      miesięczną).
+    - 'Start: załóż konto, testuj w trybie free, policz prowizje od przychodu.'
 taxonomy:
   categories:
-  - narzędzia
-  - membership
+    - narzędzia
+    - membership
   tags:
-  - Memberstack
-  - cennik
-  - subskrypcje
+    - Memberstack
+    - cennik
+    - subskrypcje
 ---
 
 ## Obietnica decyzji (kto powinien czytać)

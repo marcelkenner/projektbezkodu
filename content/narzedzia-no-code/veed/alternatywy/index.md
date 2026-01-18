@@ -3,45 +3,47 @@ title: Veed — alternatywy i kiedy z nich korzystać
 slug: alternatywy
 path: /narzedzia/veed/alternatywy/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: article
 hero:
   heading: Veed — alternatywy i kiedy z nich korzystać
-  subheading: "Krótki przewodnik: które narzędzie wybrać zamiast VEED, w zależności\
-    \ od potrzeb"
+  subheading: >-
+    Krótki przewodnik: które narzędzie wybrać zamiast VEED, w zależności od
+    potrzeb
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "Veed — alternatywy: Clipchamp, Descript, Synthesia i inne"
-  description: Porównanie najpopularniejszych alternatyw dla VEED — kiedy wybrać Clipchamp,
+  title: 'Veed — alternatywy: Clipchamp, Descript, Synthesia i inne'
+  description: >-
+    Porównanie najpopularniejszych alternatyw dla VEED — kiedy wybrać Clipchamp,
     kiedy Descript, a kiedy szukać narzędzi AI.
   keywords:
-  - VEED alternatywy
-  - edytory wideo online
-  - Descript vs VEED
-  - Clipchamp
-  - Synthesia
+    - VEED alternatywy
+    - edytory wideo online
+    - Descript vs VEED
+    - Clipchamp
+    - Synthesia
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybkie decyzje na podstawie realnych przypadków użycia."
-  - "Dla kogo: rozbijamy wybór na 3 typy użytkowników."
-  - "Start: jak przetestować alternatywy w 5–30 minut."
+    - 'Werdykt: szybkie decyzje na podstawie realnych przypadków użycia.'
+    - 'Dla kogo: rozbijamy wybór na 3 typy użytkowników.'
+    - 'Start: jak przetestować alternatywy w 5–30 minut.'
   primaryCta:
-    label: "Artykuł Descript: alternatywy VEED"
+    label: 'Artykuł Descript: alternatywy VEED'
     href: https://www.descript.com/blog/article/veed-io-alternatives
 taxonomy:
   categories:
-  - narzędzia
-  - wideo
+    - narzędzia
+    - wideo
   tags:
-  - VEED
-  - alternatywy
-  - edytory wideo
+    - VEED
+    - alternatywy
+    - edytory wideo
 ---
 
 ## Werdykt na start (dla kogo co)

@@ -5,42 +5,44 @@ path: /narzedzia/typeform/recenzja/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Typeform – recenzja w stylu "co mam z tego ja"
-  subheading: Podmieniam klasyczny formularz na Typeform i sprawdzam, co realnie zmienia
-    w liczbie dokończonych odpowiedzi.
+  subheading: >-
+    Podmieniam klasyczny formularz na Typeform i sprawdzam, co realnie zmienia w
+    liczbie dokończonych odpowiedzi.
 seo:
   title: Typeform – recenzja z naciskiem na doświadczenie użytkownika
-  description: Oceniam, ile Typeform faktycznie poprawia UX formularzy, jak działa
-    logika pytań i co dostajesz w płatnych planach.
+  description: >-
+    Oceniam, ile Typeform faktycznie poprawia UX formularzy, jak działa logika
+    pytań i co dostajesz w płatnych planach.
   keywords:
-  - Typeform
-  - formularze online
-  - recenzja Typeform
-  - formularze konwersja
+    - Typeform
+    - formularze online
+    - recenzja Typeform
+    - formularze konwersja
   canonical: https://www.typeform.com
 meta:
   difficulty: łatwy start
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Zobacz plany Typeform
     href: https://www.typeform.com/pricing/
   summaryBullets:
-  - "Werdykt: dobrze gdy zależy Ci na UX i prostych integracjach"
-  - "Dla kogo: marketing, HR, małe zespoły"
-  - "Start: darmowe konto i szybki formularz w 5 minut"
+    - 'Werdykt: dobrze gdy zależy Ci na UX i prostych integracjach'
+    - 'Dla kogo: marketing, HR, małe zespoły'
+    - 'Start: darmowe konto i szybki formularz w 5 minut'
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - typeform
-  - recenzja
-  - formularze
+    - typeform
+    - recenzja
+    - formularze
 ---
 
 ## Obietnica decyzji — komu to się opłaca

@@ -3,12 +3,12 @@ title: Webnode — najlepsze alternatywy i kiedy je wybrać
 slug: alternatywy
 path: /narzedzia/webnode/alternatywy/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: review
 hero:
   heading: Webnode — alternatywy
-  subheading: "Szybkie porównanie: kiedy warto zmienić builder i co testować najpierw"
+  subheading: 'Szybkie porównanie: kiedy warto zmienić builder i co testować najpierw'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
@@ -16,33 +16,34 @@ hero:
     height: 628
 seo:
   title: Webnode — najlepsze alternatywy 2026
-  description: "Porównanie Webnode z Wix, WordPress, Shopify i Webflow: dla kogo która\
-    \ platforma ma sens."
+  description: >-
+    Porównanie Webnode z Wix, WordPress, Shopify i Webflow: dla kogo która
+    platforma ma sens.
   keywords:
-  - Webnode alternatywy
-  - Webnode vs Wix
-  - tworzenie strony
-  - platformy WWW
+    - Webnode alternatywy
+    - Webnode vs Wix
+    - tworzenie strony
+    - platformy WWW
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: proste reguły decyzji"
-  - "Dla kogo: segmentacja potrzeb"
-  - "Start: testy i szybkie kryteria do sprawdzenia"
+    - 'Werdykt: proste reguły decyzji'
+    - 'Dla kogo: segmentacja potrzeb'
+    - 'Start: testy i szybkie kryteria do sprawdzenia'
   primaryCta:
     label: Przegląd alternatyw Webnode
     href: https://elementor.com/blog/webnode-alternatives/
 taxonomy:
   categories:
-  - narzedzia
-  - web
+    - narzedzia
+    - web
   tags:
-  - Webnode
-  - alternatywy
-  - buildery
+    - Webnode
+    - alternatywy
+    - buildery
 ---
 
 ## Szybki werdykt (dla kogo ten tekst)

@@ -1,41 +1,47 @@
 ---
-title: "Recenzja: krótki przewodnik i jednoznaczny werdykt"
+title: 'Recenzja: krótki przewodnik i jednoznaczny werdykt'
 slug: recenzja
 path: /recenzja
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Szybka recenzja — co musisz wiedzieć zanim opublikujesz
   subheading: Kogo przekonuje, co poprawić, jak uruchomić w 5 minut.
 seo:
-  title: "Recenzja produktu: szybki werdykt i praktyczne kroki"
-  description: "Krótka recenzja z jasnym werdyktem: dla kogo to działa, jakie są ryzyka\
-    \ i jak zacząć krok po kroku."
+  title: 'Recenzja produktu: szybki werdykt i praktyczne kroki'
+  description: >-
+    Krótka recenzja z jasnym werdyktem: dla kogo to działa, jakie są ryzyka i
+    jak zacząć krok po kroku.
   keywords:
-  - recenzja
-  - review schema
-  - SEO recenzje
-  - structured data
+    - recenzja
+    - review schema
+    - SEO recenzje
+    - structured data
 meta:
   difficulty: łatwe
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
-    label: "Dokumentacja Google: Product snippet"
-    href: https://developers.google.com/search/docs/appearance/structured-data/product-snippet
+    label: 'Dokumentacja Google: Product snippet'
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/product-snippet
   summaryBullets:
-  - "Werdykt: użyteczne, jeśli masz tekstowe recenzje i liczbową ocenę; zwiększa szansę\
-    \ na wyższy CTR."
-  - "Dla kogo: blogi produktowe i serwisy porównawcze. Mniej sensu dla stron publikujących\
-    \ tylko własne, promocyjne oceny."
-  - "Start: w 5 minut dodasz minimalny JSON‑LD i sprawdzisz go w Rich Results Test."
+    - >-
+      Werdykt: użyteczne, jeśli masz tekstowe recenzje i liczbową ocenę;
+      zwiększa szansę na wyższy CTR.
+    - >-
+      Dla kogo: blogi produktowe i serwisy porównawcze. Mniej sensu dla stron
+      publikujących tylko własne, promocyjne oceny.
+    - >-
+      Start: w 5 minut dodasz minimalny JSON‑LD i sprawdzisz go w Rich Results
+      Test.
 taxonomy:
   categories:
-  - Recenzje
-  - SEO
+    - Recenzje
+    - SEO
 ---
 
 ## Obietnica i grupa docelowa

@@ -4,45 +4,49 @@ slug: ecommerce-pl
 path: /ecommerce-pl
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Ecommerce w Polsce — szybki werdykt i praktyczny start
   subheading: Co działa, co frustruje i od czego zacząć sprzedaż online w 2026 roku
 seo:
   title: Ecommerce w Polsce 2026 — przewodnik dla właścicieli sklepów
-  description: "Krótkie decyzje i praktyczny plan startu dla e‑commerce w Polsce:\
-    \ kto powinien sprzedawać na Allegro, kiedy kanały własne mają sens i jak uruchomić\
-    \ sklep w 5 minut."
+  description: >-
+    Krótkie decyzje i praktyczny plan startu dla e‑commerce w Polsce: kto
+    powinien sprzedawać na Allegro, kiedy kanały własne mają sens i jak
+    uruchomić sklep w 5 minut.
   keywords:
-  - ecommerce Polska
-  - handel elektroniczny
-  - Allegro
-  - Blik
-  - start sklepu online
+    - ecommerce Polska
+    - handel elektroniczny
+    - Allegro
+    - Blik
+    - start sklepu online
 meta:
   difficulty: średni
   duration: 5–60 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Pełny raport IAB/Gemius
-    href: https://www.iab.org.pl/aktualnosci/zakupy-zagraniczne-produkty-uzywane-i-platnosci-blikiem-raport-e-commerce-w-polsce-2024/
+    href: >-
+      https://www.iab.org.pl/aktualnosci/zakupy-zagraniczne-produkty-uzywane-i-platnosci-blikiem-raport-e-commerce-w-polsce-2024/
   summaryBullets:
-  - "Werdykt: sprzedawaj tam, gdzie są twoi klienci; Allegro + własny kanał to najczęstsza\
-    \ para."
-  - "Dla kogo: małe marki powinny zacząć od marketplace; marki kontrolujące marżę\
-    \ — od sklepu własnego."
-  - "Start: landing + płatność Blik = pierwszy test w 5 minut."
+    - >-
+      Werdykt: sprzedawaj tam, gdzie są twoi klienci; Allegro + własny kanał to
+      najczęstsza para.
+    - >-
+      Dla kogo: małe marki powinny zacząć od marketplace; marki kontrolujące
+      marżę — od sklepu własnego.
+    - 'Start: landing + płatność Blik = pierwszy test w 5 minut.'
 taxonomy:
   categories:
-  - ecommerce
-  - poradnik
+    - ecommerce
+    - poradnik
   tags:
-  - Allegro
-  - Blik
-  - start sklepu
-  - marketplace
+    - Allegro
+    - Blik
+    - start sklepu
+    - marketplace
 ---
 
 ## Obietnica i jasny werdykt dla właściciela sklepu

@@ -1,45 +1,46 @@
 ---
-title: "Integracje: jak wybrać i zacząć — szybki przewodnik"
+title: 'Integracje: jak wybrać i zacząć — szybki przewodnik'
 slug: integracje
 path: /integracje
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Integracje: co działa szybko, a co wymaga pracy"
+  heading: 'Integracje: co działa szybko, a co wymaga pracy'
   subheading: Szybkie decyzje dla zespołów produktowych, marketingu i małych firm
 seo:
   title: Integracje — przewodnik wyboru i startu
-  description: "Praktyczny przewodnik po integracjach aplikacji: kiedy użyć no‑code,\
-    \ kiedy robić integrację natywną, jak zacząć i jakie pułapki przewidzieć."
+  description: >-
+    Praktyczny przewodnik po integracjach aplikacji: kiedy użyć no‑code, kiedy
+    robić integrację natywną, jak zacząć i jakie pułapki przewidzieć.
   keywords:
-  - integracje
-  - API
-  - webhook
-  - automatyzacja
-  - Zapier
+    - integracje
+    - API
+    - webhook
+    - automatyzacja
+    - Zapier
 meta:
   difficulty: średni
   duration: 10–60 min (pierwsze testy)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
-    label: "Przewodnik Zapier: build integration"
+    label: 'Przewodnik Zapier: build integration'
     href: https://docs.zapier.com/platform/quickstart/build-integration
 taxonomy:
   categories:
-  - Integracje
-  - SaaS
+    - Integracje
+    - SaaS
   tags:
-  - API
-  - automatyzacja
-  - no-code
+    - API
+    - automatyzacja
+    - no-code
 ---
 
 ## Obietnica decyzji i grupa docelowa

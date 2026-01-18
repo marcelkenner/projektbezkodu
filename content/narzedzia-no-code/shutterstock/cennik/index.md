@@ -1,35 +1,36 @@
 ---
-title: "Shutterstock Cennik 2026: plany, pakiety i jak wybrać"
+title: 'Shutterstock Cennik 2026: plany, pakiety i jak wybrać'
 slug: cennik
 path: /narzedzia/shutterstock/cennik/
 draft: false
 template: default
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shutterstock Cennik
   subheading: Szybkie porównanie planów i kiedy który opłaca się wybrać
 seo:
   title: Shutterstock cennik 2026 — plany i porównanie
-  description: "Przewodnik po cenach Shutterstock: subskrypcje, pakiety na żądanie,\
-    \ plany dla zespołów i Flex. Konkretne przykłady i werdykty."
+  description: >-
+    Przewodnik po cenach Shutterstock: subskrypcje, pakiety na żądanie, plany
+    dla zespołów i Flex. Konkretne przykłady i werdykty.
   keywords:
-  - Shutterstock cennik
-  - ceny Shutterstock
-  - Shutterstock pakiety
+    - Shutterstock cennik
+    - ceny Shutterstock
+    - Shutterstock pakiety
 meta:
   summaryBullets:
-  - "Werdykt: który plan wybrać zależy od liczby pobrań miesięcznie."
-  - "Dla kogo: freelancerzy, małe agencje, zespoły i jednorazowe projekty."
-  - "Start: sprawdź limity miesięczne i typ licencji na stronie cennika."
+    - 'Werdykt: który plan wybrać zależy od liczby pobrań miesięcznie.'
+    - 'Dla kogo: freelancerzy, małe agencje, zespoły i jednorazowe projekty.'
+    - 'Start: sprawdź limity miesięczne i typ licencji na stronie cennika.'
   primaryCta:
     label: Zobacz cennik Shutterstock
     href: https://www.shutterstock.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzędzia
-  - grafika
-  - stock
+    - narzędzia
+    - grafika
+    - stock
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

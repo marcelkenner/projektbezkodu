@@ -5,42 +5,44 @@ path: /narzedzia/zapier/oferta-uslug/
 draft: false
 template: article
 type: service-offer
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Pomagam poukładać automatyzacje w Zapier tak, żeby naprawdę odciążyły zespół
-  subheading: Mapuję procesy, projektuję Zapy, wdrażam je na produkcję i zostawiam
+  subheading: >-
+    Mapuję procesy, projektuję Zapy, wdrażam je na produkcję i zostawiam
     dokumentację zamiast chaosu.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Usługi wdrożenia Zapiera – projektowanie automatyzacji dla Twojej firmy
-  description: "Zobacz, jak mogę pomóc Ci poukładać automatyzacje w Zapier: od audytu\
-    \ procesów po stałe wsparcie i rozwój integracji."
+  description: >-
+    Zobacz, jak mogę pomóc Ci poukładać automatyzacje w Zapier: od audytu
+    procesów po stałe wsparcie i rozwój integracji.
   keywords:
-  - Zapier
-  - wdrożenia
-  - automatyzacja
-  - integracje
+    - Zapier
+    - wdrożenia
+    - automatyzacja
+    - integracje
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: konkretne wskazówki kto powinien zatrudnić specjalistę"
-  - "Dla kogo: kiedy samodzielnie, kiedy z partnerem"
-  - "Start: 3 kroki do pierwszego użytecznego Zapa"
+    - 'Werdykt: konkretne wskazówki kto powinien zatrudnić specjalistę'
+    - 'Dla kogo: kiedy samodzielnie, kiedy z partnerem'
+    - 'Start: 3 kroki do pierwszego użytecznego Zapa'
   primaryCta:
     label: Zobacz partnerów Zapier
     href: https://zapier.com/partnerdirectory
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzedzia
-  - automatyzacja
+    - narzedzia
+    - automatyzacja
   tags:
-  - Zapier
-  - wdrożenia
-  - usługi
+    - Zapier
+    - wdrożenia
+    - usługi
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

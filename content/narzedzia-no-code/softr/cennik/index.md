@@ -5,50 +5,55 @@ path: /narzedzia/softr/cennik/
 draft: false
 template: article
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Softr — cennik przeliczony na realne projekty
-  subheading: Ile zapłacisz za portal klienta, mały intranet i MVP SaaS — konkretne
+  subheading: >-
+    Ile zapłacisz za portal klienta, mały intranet i MVP SaaS — konkretne
     liczby, limity i pułapki.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Softr — cennik i koszty utrzymania aplikacji
-  description: Zobacz, jak kształtują się koszty Softr przy różnych liczbach użytkowników,
+  description: >-
+    Zobacz, jak kształtują się koszty Softr przy różnych liczbach użytkowników,
     widoków, integracji i środowisk.
   keywords:
-  - Softr
-  - Softr cennik
-  - no-code
-  - portal klienta
-  - intranet
+    - Softr
+    - Softr cennik
+    - no-code
+    - portal klienta
+    - intranet
 meta:
   difficulty: łatwe do sprawdzenia
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dobry wybór dla portali do ~500 aktywnych użytkowników; koszt rośnie\
-    \ przy dużej liczbie kont."
-  - "Dla kogo: MVP i wewnętrzne narzędzia; nie dla masowego SaaS z milionami rekordów\
-    \ bez negocjacji Enterprise."
-  - "Start: uruchom prototyp na planie Free, policz App Users i Workflows, potem skaluj\
-    \ do Professional/Business."
+    - >-
+      Werdykt: dobry wybór dla portali do ~500 aktywnych użytkowników; koszt
+      rośnie przy dużej liczbie kont.
+    - >-
+      Dla kogo: MVP i wewnętrzne narzędzia; nie dla masowego SaaS z milionami
+      rekordów bez negocjacji Enterprise.
+    - >-
+      Start: uruchom prototyp na planie Free, policz App Users i Workflows,
+      potem skaluj do Professional/Business.
   primaryCta:
     label: Zobacz aktualne ceny na stronie Softr
     href: https://www.softr.io/pricing
   format: artykuł
 taxonomy:
   categories:
-  - narzędzia
-  - no-code
-  - cennik
+    - narzędzia
+    - no-code
+    - cennik
   tags:
-  - Softr
-  - cennik
-  - portal klienta
+    - Softr
+    - cennik
+    - portal klienta
 ---
 
 ## Obietnica decyzji

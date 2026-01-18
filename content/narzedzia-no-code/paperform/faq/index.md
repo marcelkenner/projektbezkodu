@@ -5,43 +5,44 @@ path: /narzedzia/paperform/faq/
 draft: false
 template: article
 type: guide
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Paperform – najczęstsze pytania i odpowiedzi
   subheading: Szablony, integracje, płatności, własna domena i migracja z innych narzędzi.
 seo:
   title: Paperform – FAQ dla osób testujących narzędzie
-  description: "Zebrane odpowiedzi na najważniejsze pytania o Paperform: ograniczenia,\
-    \ płatności, integracje i bezpieczeństwo."
+  description: >-
+    Zebrane odpowiedzi na najważniejsze pytania o Paperform: ograniczenia,
+    płatności, integracje i bezpieczeństwo.
   keywords:
-  - Paperform
-  - formularze online
-  - płatności
-  - integracje
-  - FAQ
+    - Paperform
+    - formularze online
+    - płatności
+    - integracje
+    - FAQ
   canonical: https://paperform.co/pricing/
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Recenzja crowd-smart
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz cennik Paperform
     href: https://paperform.co/pricing/
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
+    - narzędzia
+    - formularze
   tags:
-  - paperform
-  - faq
-  - płatności
-  - integracje
+    - paperform
+    - faq
+    - płatności
+    - integracje
 ---
 
 ## Werdykt na start — dla kogo ten tekst

@@ -3,7 +3,7 @@ title: VWO — cennik i jak go czytać
 slug: cennik
 path: /narzedzia/vwo/cennik/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 type: review
 hero:
@@ -14,30 +14,31 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: VWO cennik — ile kosztuje VWO i kto powinien płacić
-  description: Praktyczny przewodnik po modelu rozliczeń VWO, wyjaśnienie MTU, przykładowe
+  description: >-
+    Praktyczny przewodnik po modelu rozliczeń VWO, wyjaśnienie MTU, przykładowe
     widełki z rynku i szybka lista pytań do handlowca.
   keywords:
-  - VWO cennik
-  - VWO pricing
-  - MTU
-  - A/B testing cena
+    - VWO cennik
+    - VWO pricing
+    - MTU
+    - A/B testing cena
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: VWO to produkt na budżet średni–wysoki; sprawdź MTU."
-  - "Dla kogo: małe zespoły Growth/Pro, duże organizacje Enterprise."
-  - "Start: otwórz stronę cennika i umów demo."
+    - 'Werdykt: VWO to produkt na budżet średni–wysoki; sprawdź MTU.'
+    - 'Dla kogo: małe zespoły Growth/Pro, duże organizacje Enterprise.'
+    - 'Start: otwórz stronę cennika i umów demo.'
   primaryCta:
     label: Zobacz cennik VWO
     href: https://vwo.com/pricing/
 taxonomy:
   categories:
-  - Narzędzia
-  - Optymalizacja konwersji
+    - Narzędzia
+    - Optymalizacja konwersji
 ---
 
 ## Szybka decyzja dla kogo i dlaczego

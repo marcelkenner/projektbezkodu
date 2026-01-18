@@ -4,44 +4,46 @@ slug: semrush
 path: /narzedzia/semrush/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Semrush – jedno konto do SEO, contentu i reklam
-  subheading: Sprawdzam słowa kluczowe, konkurencję, linki i kondycję techniczną serwisu
+  subheading: >-
+    Sprawdzam słowa kluczowe, konkurencję, linki i kondycję techniczną serwisu
     bez ręcznego przeklikiwania się przez dziesiątki raportów.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Semrush – czym jest i jak pomaga w SEO
-  description: Opisuję, jak Semrush łączy keyword research, analizę konkurencji, audyty
+  description: >-
+    Opisuję, jak Semrush łączy keyword research, analizę konkurencji, audyty
     techniczne, link building, rank tracking i kampanie płatne w jednym panelu.
   keywords:
-  - Semrush
-  - SEO
-  - audyt strony
-  - keyword research
-  - narzędzia marketingowe
+    - Semrush
+    - SEO
+    - audyt strony
+    - keyword research
+    - narzędzia marketingowe
 meta:
   summaryBullets:
-  - "Werdykt: kiedy Semrush się opłaca, a kiedy nie"
-  - "Dla kogo: segmenty użytkowników i typowe ograniczenia"
-  - "Start: co zrobić w pierwsze 5–30 minut"
+    - 'Werdykt: kiedy Semrush się opłaca, a kiedy nie'
+    - 'Dla kogo: segmenty użytkowników i typowe ograniczenia'
+    - 'Start: co zrobić w pierwsze 5–30 minut'
   primaryCta:
     label: Zobacz moduły Semrush
     href: https://www.semrush.com/features/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5–15 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Narzędzia SEO
-  - Marketing
+    - Narzędzia SEO
+    - Marketing
   tags:
-  - Semrush
-  - audyt
-  - keyword research
+    - Semrush
+    - audyt
+    - keyword research
 ---
 
 ## Obietnica i werdykt w skrócie

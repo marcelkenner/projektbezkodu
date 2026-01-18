@@ -4,47 +4,49 @@ slug: cennik
 path: /narzedzia/uploadcare/cennik/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 type: review
 hero:
   heading: Uploadcare — cennik przełożony na realne projekty
-  subheading: Ile zapłacisz za upload, przetwarzanie i CDN w małym SaaS-ie, sklepie
-    i serwisie contentowym.
+  subheading: >-
+    Ile zapłacisz za upload, przetwarzanie i CDN w małym SaaS-ie, sklepie i
+    serwisie contentowym.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Uploadcare — cennik i opłacalność w praktyce
-  description: Rozbijam ceny Uploadcare na konkretne scenariusze użycia, żebyś zobaczył,
+  description: >-
+    Rozbijam ceny Uploadcare na konkretne scenariusze użycia, żebyś zobaczył,
     kiedy to się spina finansowo, a kiedy lepiej szukać alternatywy.
   keywords:
-  - Uploadcare
-  - cennik
-  - przechowywanie plików
-  - CDN
-  - operacje uploadu
+    - Uploadcare
+    - cennik
+    - przechowywanie plików
+    - CDN
+    - operacje uploadu
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Zobacz cennik Uploadcare
     href: https://uploadcare.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   difficulty: średni
   duration: 10 min
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - cenniki
+    - narzędzia
+    - cenniki
   tags:
-  - Uploadcare
-  - CDN
-  - upload
-  - pricing
+    - Uploadcare
+    - CDN
+    - upload
+    - pricing
 ---
 
 ## Obietnica decyzji — dla kogo ten artykuł

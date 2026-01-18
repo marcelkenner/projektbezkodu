@@ -1,41 +1,43 @@
 ---
-title: "Recenzja: jak napisać recenzję zgodną z SEO i oczekiwaniami czytelników"
+title: 'Recenzja: jak napisać recenzję zgodną z SEO i oczekiwaniami czytelników'
 slug: recenzja
 path: /recenzja
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Recenzja: szybki werdykt i instrukcja startu"
+  heading: 'Recenzja: szybki werdykt i instrukcja startu'
   subheading: Praktyczny przewodnik dla blogerów, sklepów i serwisów porównawczych
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretne — co działa, a co frustruje"
-  - "Dla kogo: kiedy ta forma się opłaca i kiedy lepiej wybrać inną"
-  - "Start: szybki plan wdrożenia w 5 minut"
+    - 'Werdykt: krótko i konkretne — co działa, a co frustruje'
+    - 'Dla kogo: kiedy ta forma się opłaca i kiedy lepiej wybrać inną'
+    - 'Start: szybki plan wdrożenia w 5 minut'
   primaryCta:
-    label: "Wytyczne Google: jak pisać recenzje"
-    href: https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews
-  updatedAt: "2026-01-14"
+    label: 'Wytyczne Google: jak pisać recenzje'
+    href: >-
+      https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 seo:
   title: Recenzja — jak napisać recenzję przyjazną SEO i czytelnikom
-  description: "Praktyczna recenzja z werdyktem: kto zyska na recenzjach, jak zacząć\
-    \ w 5 minut i czego unikać wg wytycznych Google."
+  description: >-
+    Praktyczna recenzja z werdyktem: kto zyska na recenzjach, jak zacząć w 5
+    minut i czego unikać wg wytycznych Google.
   keywords:
-  - recenzja
-  - recenzja SEO
-  - jak pisać recenzję
-  - rich snippets
+    - recenzja
+    - recenzja SEO
+    - jak pisać recenzję
+    - rich snippets
 taxonomy:
   categories:
-  - SEO
-  - Content
+    - SEO
+    - Content
   tags:
-  - recenzja
-  - poradnik
-  - SEO
+    - recenzja
+    - poradnik
+    - SEO
 ---
 
 ## Obietnica: co tu znajdziesz i dla kogo to ma sens

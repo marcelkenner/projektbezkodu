@@ -4,30 +4,32 @@ slug: alternatywy
 path: /narzedzia/uploadcare/alternatywy/
 draft: false
 template: article
-date: "2024-12-09"
+date: '2024-12-09'
 hero:
   heading: Alternatywy dla Uploadcare – co wybrać zamiast i kiedy
-  subheading: Porównuję Uploadcare z innymi usługami uploadu i obrazów w chmurze pod
-    kątem ceny, wygody i elastyczności.
+  subheading: >-
+    Porównuję Uploadcare z innymi usługami uploadu i obrazów w chmurze pod kątem
+    ceny, wygody i elastyczności.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Uploadcare – najlepsze alternatywy i porównanie
-  description: Zestawiam Uploadcare z innymi narzędziami do uploadu i CDN dla obrazów,
-    żeby łatwiej było dobrać usługę pod Twój projekt.
+  description: >-
+    Zestawiam Uploadcare z innymi narzędziami do uploadu i CDN dla obrazów, żeby
+    łatwiej było dobrać usługę pod Twój projekt.
   keywords:
-  - Uploadcare
-  - alternatywy
-  - CDN obrazów
-  - upload plików
-  - Cloudinary
-  - Cloudflare Images
+    - Uploadcare
+    - alternatywy
+    - CDN obrazów
+    - upload plików
+    - Cloudinary
+    - Cloudflare Images
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Sprawdź cennik Uploadcare
     href: https://uploadcare.com/pricing/

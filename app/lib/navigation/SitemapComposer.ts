@@ -1,7 +1,9 @@
 import {
   ArticleRepository,
+  ComparisonRepository,
   GlossaryRepository,
   ResourceRepository,
+  TutorialRepository,
   CaseStudyRepository,
 } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
@@ -10,6 +12,7 @@ import { TemplateCatalog } from "@/app/lib/content/templateCatalog";
 import { ToolCatalog } from "@/app/lib/content/toolCatalog";
 import { LeadMagnetCatalog } from "@/app/lib/content/leadMagnetCatalog";
 import { getCopy } from "@/app/lib/copy";
+import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
 
 export interface SitemapLink {
   label: string;
@@ -45,9 +48,12 @@ export class SitemapSection {
 
 export class SitemapComposer {
   private readonly articleRepository = new ArticleRepository();
+  private readonly comparisonRepository = new ComparisonRepository();
   private readonly glossaryRepository = new GlossaryRepository();
   private readonly resourceRepository = new ResourceRepository();
+  private readonly tutorialRepository = new TutorialRepository();
   private readonly caseStudyRepository = new CaseStudyRepository();
+  private readonly articleHubManager = new ArticleHubManager();
   private readonly templateCatalog = new TemplateCatalog();
   private readonly toolCatalog = new ToolCatalog();
   private readonly tagDirectory = new TagDirectory();
@@ -78,6 +84,8 @@ export class SitemapComposer {
     const dynamicSections = [
       new SitemapSection("Kategorie artykułów", this.getCategoryLinks()),
       new SitemapSection("Artykuły", this.getArticleLinks()),
+      new SitemapSection("Poradniki", this.getTutorialLinks()),
+      new SitemapSection("Porównania", this.getComparisonLinks()),
       new SitemapSection("Tagi treści", this.getTagLinks()),
       new SitemapSection("Narzędzia", this.getToolLinks()),
       new SitemapSection("Szablony", this.getTemplateLinks()),
@@ -106,6 +114,13 @@ export class SitemapComposer {
   }
 
   private getCategoryLinks(): SitemapLink[] {
+    const hubs = this.articleHubManager.listHubs(4);
+    if (hubs.length) {
+      return hubs.map((hub) => ({
+        label: hub.label,
+        href: hub.href,
+      }));
+    }
     return articleTaxonomyCatalog.listCategories().map((category) => ({
       label: category.label,
       href: `/artykuly/${category.slug}/`,
@@ -116,6 +131,20 @@ export class SitemapComposer {
     return this.articleRepository.listSummaries().map((article) => ({
       label: article.title,
       href: article.path,
+    }));
+  }
+
+  private getTutorialLinks(): SitemapLink[] {
+    return this.tutorialRepository.listSummaries().map((entry) => ({
+      label: entry.title,
+      href: entry.path,
+    }));
+  }
+
+  private getComparisonLinks(): SitemapLink[] {
+    return this.comparisonRepository.listSummaries().map((entry) => ({
+      label: entry.title,
+      href: entry.path,
     }));
   }
 

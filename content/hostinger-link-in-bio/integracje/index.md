@@ -1,46 +1,49 @@
 ---
-title: "Integracje: kiedy je wdrożyć i jak nie popełnić błędu"
+title: 'Integracje: kiedy je wdrożyć i jak nie popełnić błędu'
 slug: integracje
 path: /integracje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Integracje: szybki przewodnik decyzji"
+  heading: 'Integracje: szybki przewodnik decyzji'
   subheading: Kiedy łączyć systemy, czego się spodziewać i jak wystartować w 30 minut
 seo:
-  title: "Integracje: kiedy wdrożyć i jak zacząć"
-  description: Praktyczny przewodnik o integracjach systemów — czym są, kiedy dają
-    ROI i jak szybko sprawdzić pomysł.
+  title: 'Integracje: kiedy wdrożyć i jak zacząć'
+  description: >-
+    Praktyczny przewodnik o integracjach systemów — czym są, kiedy dają ROI i
+    jak szybko sprawdzić pomysł.
   keywords:
-  - integracje
-  - API
-  - integracja systemów
-  - EDI
-  - RPA
+    - integracje
+    - API
+    - integracja systemów
+    - EDI
+    - RPA
 meta:
   difficulty: średni
   duration: 5–30 minut startu
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przewodnik o integracjach
     href: https://impicode.pl/integracja-systemow-informatycznych/
   summaryBullets:
-  - "Werdykt: opłaca się, gdy eliminuje ręczne powtarzalne zadania"
-  - "Dla kogo: e‑commerce, księgowość, obsługa klienta — ale nie zawsze każdy proces"
-  - "Start: 3 kroki w 30 minut, by zweryfikować wartość integracji"
+    - 'Werdykt: opłaca się, gdy eliminuje ręczne powtarzalne zadania'
+    - >-
+      Dla kogo: e‑commerce, księgowość, obsługa klienta — ale nie zawsze każdy
+      proces
+    - 'Start: 3 kroki w 30 minut, by zweryfikować wartość integracji'
 taxonomy:
   categories:
-  - IT
-  - Integracje
-  - Poradnik
+    - IT
+    - Integracje
+    - Poradnik
   tags:
-  - API
-  - EDI
-  - RPA
-  - automatyzacja
+    - API
+    - EDI
+    - RPA
+    - automatyzacja
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

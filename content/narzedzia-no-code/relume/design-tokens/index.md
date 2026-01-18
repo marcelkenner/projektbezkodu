@@ -5,7 +5,7 @@ path: /narzedzia/relume/design-tokens/
 draft: true
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Relume Design Tokens
   subheading: Co to daje w praktyce i kiedy warto wdrażać
@@ -14,44 +14,51 @@ hero:
     href: https://www.relume.io/resources/docs/essential-tools-to-get-started
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: przyspiesza prace przy Webflow/Figma, ale wymaga porządku w projekcie."
-  - "Dla kogo: agencje i deweloperzy Webflow, którzy kopiują komponenty z Relume."
-  - "Start: sklonuj Style Guide i sprawdź import do Webflow w testowym projekcie."
+    - >-
+      Werdykt: przyspiesza prace przy Webflow/Figma, ale wymaga porządku w
+      projekcie.
+    - >-
+      Dla kogo: agencje i deweloperzy Webflow, którzy kopiują komponenty z
+      Relume.
+    - >-
+      Start: sklonuj Style Guide i sprawdź import do Webflow w testowym
+      projekcie.
   primaryCta:
     label: Dokumentacja Relume — Essential Tools
     href: https://www.relume.io/resources/docs/essential-tools-to-get-started
   format: recenzja
   topics:
-  - design-system
-  - webflow
-  - figma
+    - design-system
+    - webflow
+    - figma
   review:
     productName: Relume Design Tokens
     productUrl: https://www.relume.io/components
     author: Redakcja
 taxonomy:
   categories:
-  - narzedzia
-  - design-system
+    - narzedzia
+    - design-system
   tags:
-  - Relume
-  - Design Tokens
-  - Webflow
-  - Figma
+    - Relume
+    - Design Tokens
+    - Webflow
+    - Figma
 seo:
   title: Relume Design Tokens — szybki przewodnik i werdykt
-  description: Co to są Relume Design Tokens, jak zacząć i dla kogo to ma sens. Krótko,
-    na faktach, z linkami do dokumentacji.
+  description: >-
+    Co to są Relume Design Tokens, jak zacząć i dla kogo to ma sens. Krótko, na
+    faktach, z linkami do dokumentacji.
   keywords:
-  - Relume
-  - design tokens
-  - Webflow
-  - Figma
-  - design system
+    - Relume
+    - design tokens
+    - Webflow
+    - Figma
+    - design system
 ---
 
 ## Obietnica decyzji — komu to się opłaca

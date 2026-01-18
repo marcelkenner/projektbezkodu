@@ -191,11 +191,13 @@ function validateDerivedPath(frontmatter, filePath) {
   if (existing && existing !== relativeFile) {
     registerError(
       filePath,
-      `Derived route path collision for ${derivedPath} (also used by ${existing}). Ensure each markdown page has a unique path/title.`,
+      `Derived route path collision for ${derivedPath} (also used by ${existing}). Ensure each markdown page has a unique path.`,
     );
     return;
   }
   derivedPathIndex.set(derivedPath, relativeFile);
+
+  validateArticleHubHierarchy(derivedPath, filePath);
 }
 
 function deriveNormalizedPath(frontmatter, filePath) {
@@ -208,8 +210,7 @@ function deriveNormalizedPath(frontmatter, filePath) {
   if (!derived) {
     return null;
   }
-  const title = typeof frontmatter?.title === "string" ? frontmatter.title : "";
-  return ensureTitleSlug(derived, title);
+  return derived;
 }
 
 function normalizeFrontmatterPath(rawPath) {
@@ -247,33 +248,44 @@ function derivePathFromSource(sourcePath) {
   return ensureWrappedSlashes(segments.join("/"));
 }
 
-function ensureTitleSlug(normalizedPath, title) {
-  const slug = slugify(title);
-  if (!slug) {
-    return normalizedPath;
-  }
-  const segments = normalizedPath.split("/").filter(Boolean);
-  if (!segments.length) {
-    return ensureWrappedSlashes(slug);
-  }
-  const nextSegments = [...segments];
-  nextSegments[nextSegments.length - 1] = slug;
-  return ensureWrappedSlashes(nextSegments.join("/"));
-}
-
 function ensureWrappedSlashes(value) {
   const withLeading = value.startsWith("/") ? value : `/${value}`;
   return withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
 }
 
-function slugify(value) {
-  if (typeof value !== "string") {
-    return "";
+function validateArticleHubHierarchy(derivedPath, filePath) {
+  if (!derivedPath.startsWith("/artykuly/")) {
+    return;
   }
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+  const segments = derivedPath.split("/").filter(Boolean);
+  if (segments.length < 3) {
+    return;
+  }
+
+  const category = segments[1];
+  const categoryIndex = path.join(CONTENT_DIR, "artykuly", category, "index.md");
+  if (!fs.existsSync(categoryIndex)) {
+    registerWarning(
+      filePath,
+      `Missing hub page for /artykuly/${category}/ (expected ${path.relative(PROJECT_ROOT, categoryIndex)}).`,
+    );
+  }
+
+  if (segments.length < 4) {
+    return;
+  }
+  const subcategory = segments[2];
+  const subcategoryIndex = path.join(
+    CONTENT_DIR,
+    "artykuly",
+    category,
+    subcategory,
+    "index.md",
+  );
+  if (!fs.existsSync(subcategoryIndex)) {
+    registerWarning(
+      filePath,
+      `Missing hub page for /artykuly/${category}/${subcategory}/ (expected ${path.relative(PROJECT_ROOT, subcategoryIndex)}).`,
+    );
+  }
 }

@@ -4,39 +4,41 @@ slug: faq
 path: /narzedzia/typeform/faq/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Typeform – najczęstsze pytania i odpowiedzi
-  subheading: Pytania o limity odpowiedzi, język formularzy, wstawianie na stronę
-    i zgodność z RODO.
+  subheading: >-
+    Pytania o limity odpowiedzi, język formularzy, wstawianie na stronę i
+    zgodność z RODO.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Typeform – FAQ dla osób wdrażających formularze
-  description: "Odpowiadam na najczęstsze pytania: embed na stronie, integracje, bezpieczeństwo\
-    \ danych i rozliczenia w Typeform."
+  description: >-
+    Odpowiadam na najczęstsze pytania: embed na stronie, integracje,
+    bezpieczeństwo danych i rozliczenia w Typeform.
   keywords:
-  - typeform
-  - formularze online
-  - embed
-  - RODO
-  - limity odpowiedzi
+    - typeform
+    - formularze online
+    - embed
+    - RODO
+    - limity odpowiedzi
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Centrum pomocy Typeform
     href: https://help.typeform.com/hc/en-us
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - formularze
-  - pracamagazyn
+    - narzędzia
+    - formularze
+    - pracamagazyn
 ---
 
 ## Decyzja na start — dla kogo ten FAQ

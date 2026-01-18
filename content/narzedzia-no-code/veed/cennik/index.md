@@ -5,7 +5,7 @@ path: /narzedzia/veed/cennik/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Veed — cennik i kiedy się opłaca
   subheading: Szybki przegląd planów, systemu kredytów AI i kto dostanie realną wartość.
@@ -14,36 +14,42 @@ hero:
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Veed — aktualny cennik, plany i dla kogo warto
-  description: "Przejrzysty przewodnik po planach Veed: co zawiera darmowy plan, kiedy\
-    \ opłaca się Pro i jakie są koszty kredytów AI. Link do oficjalnej strony VEED."
+  description: >-
+    Przejrzysty przewodnik po planach Veed: co zawiera darmowy plan, kiedy
+    opłaca się Pro i jakie są koszty kredytów AI. Link do oficjalnej strony
+    VEED.
   keywords:
-  - Veed cennik
-  - Veed ceny
-  - Veed plany
-  - edytor wideo AI
+    - Veed cennik
+    - Veed ceny
+    - Veed plany
+    - edytor wideo AI
 meta:
   summaryBullets:
-  - "Werdykt: Veed opłaca się twórcom szukającym prostego edytora z funkcjami AI,\
-    \ nie dla zaawansowanego montażu."
-  - "Dla kogo: hobbyści → Free/Lite; twórcy zarabiający → Pro; zespoły → Business/Enterprise."
-  - "Start: załóż konto i przetestuj darmowy plan; sprawdź limity eksportu i kredyty\
-    \ AI na stronie VEED."
+    - >-
+      Werdykt: Veed opłaca się twórcom szukającym prostego edytora z funkcjami
+      AI, nie dla zaawansowanego montażu.
+    - >-
+      Dla kogo: hobbyści → Free/Lite; twórcy zarabiający → Pro; zespoły →
+      Business/Enterprise.
+    - >-
+      Start: załóż konto i przetestuj darmowy plan; sprawdź limity eksportu i
+      kredyty AI na stronie VEED.
   primaryCta:
     label: Zobacz oficjalny cennik VEED
     href: https://www.veed.io/pricing
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - wideo
-  - edytory
+    - narzędzia
+    - wideo
+    - edytory
   tags:
-  - veed
-  - cennik
-  - ai
-  - edytor-wideo
+    - veed
+    - cennik
+    - ai
+    - edytor-wideo
 ---
 
 ## Obietnica i werdykt na start

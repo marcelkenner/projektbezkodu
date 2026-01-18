@@ -5,42 +5,46 @@ path: /narzedzia/squarespace/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Squarespace
-  subheading: "Przegląd: dla kogo, jak zacząć i kiedy poszukać alternatywy"
+  subheading: 'Przegląd: dla kogo, jak zacząć i kiedy poszukać alternatywy'
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Squarespace — przewodnik i werdykt dla małych firm i twórców
-  description: "Krótka i praktyczna recenzja Squarespace: czym jest, jak zacząć, kto\
-    \ na tym zyska, a kto powinien wybrać inną platformę."
+  description: >-
+    Krótka i praktyczna recenzja Squarespace: czym jest, jak zacząć, kto na tym
+    zyska, a kto powinien wybrać inną platformę.
   keywords:
-  - Squarespace
-  - tworzenie stron
-  - hosting
-  - e-commerce
-  - web builder
+    - Squarespace
+    - tworzenie stron
+    - hosting
+    - e-commerce
+    - web builder
   canonical: https://www.squarespace.com/
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwy
   duration: 5–30 min (pierwszy szkic)
   summaryBullets:
-  - "Werdykt: dobry wybór dla prostych stron i małych sklepów."
-  - "Dla kogo: twórcy treści, freelancerzy, małe firmy bez skomplikowanych procesów\
-    \ sprzedaży."
-  - "Start: załóż konto i wypróbuj darmowy trial; po 5–30 minut masz działający szkic."
+    - 'Werdykt: dobry wybór dla prostych stron i małych sklepów.'
+    - >-
+      Dla kogo: twórcy treści, freelancerzy, małe firmy bez skomplikowanych
+      procesów sprzedaży.
+    - >-
+      Start: załóż konto i wypróbuj darmowy trial; po 5–30 minut masz działający
+      szkic.
   primaryCta:
     label: Odwiedź Squarespace
     href: https://www.squarespace.com/
 taxonomy:
   categories:
-  - narzędzia
-  - hosting
-  - e-commerce
+    - narzędzia
+    - hosting
+    - e-commerce
 ---
 
 ## Krótkie obietnica decyzji

@@ -3,38 +3,43 @@ title: VWO — FAQ i szybki przewodnik
 slug: faq
 path: /narzedzia/vwo/faq/
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: VWO — FAQ i szybki przewodnik
-  subheading: "Krótko: kiedy VWO ma sens, jak szybko zacząć i czego się spodziewać."
+  subheading: 'Krótko: kiedy VWO ma sens, jak szybko zacząć i czego się spodziewać.'
 seo:
   title: VWO FAQ — czy warto użyć VWO do A/B testów i personalizacji?
-  description: "Szybki przewodnik po VWO: co to jest, jak zacząć, główne ograniczenia\
-    \ i kto powinien wybrać to narzędzie."
+  description: >-
+    Szybki przewodnik po VWO: co to jest, jak zacząć, główne ograniczenia i kto
+    powinien wybrać to narzędzie.
   keywords:
-  - VWO
-  - A/B testing
-  - CRO
-  - VWO FAQ
+    - VWO
+    - A/B testing
+    - CRO
+    - VWO FAQ
 meta:
   summaryBullets:
-  - "Werdykt: dobry wybór dla zespołów CRO i marketingu, które potrzebują kompletnego\
-    \ zestawu do testów."
-  - "Dla kogo: firmy średnie i większe, które chcą testować front- i back-end oraz\
-    \ korzystać z heatmap i nagrań."
-  - "Start: instalacja SmartCode i uruchomienie prostego A/B testu w około 30–60 minut."
+    - >-
+      Werdykt: dobry wybór dla zespołów CRO i marketingu, które potrzebują
+      kompletnego zestawu do testów.
+    - >-
+      Dla kogo: firmy średnie i większe, które chcą testować front- i back-end
+      oraz korzystać z heatmap i nagrań.
+    - >-
+      Start: instalacja SmartCode i uruchomienie prostego A/B testu w około
+      30–60 minut.
   primaryCta:
     label: Strona VWO Testing
     href: https://vwo.com/testing/
 taxonomy:
   categories:
-  - narzędzia
-  - CRO
+    - narzędzia
+    - CRO
   tags:
-  - VWO
-  - A/B testing
-  - FAQ
+    - VWO
+    - A/B testing
+    - FAQ
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

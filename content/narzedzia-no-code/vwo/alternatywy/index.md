@@ -3,44 +3,49 @@ title: VWO — alternatywy i jak wybrać
 slug: alternatywy
 path: /narzedzia/vwo/alternatywy/
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 hero:
   heading: VWO — alternatywy i jak wybrać
-  subheading: Szybkie porównanie opcji do testów i personalizacji, skondensowany werdykt
+  subheading: >-
+    Szybkie porównanie opcji do testów i personalizacji, skondensowany werdykt
     dla różnych zespołów.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
-  title: "VWO — alternatywy: Optimizely, Convert, Kameleoon i inne"
-  description: Porównanie najważniejszych alternatyw dla VWO i praktyczne wskazówki,
-    która platforma pasuje do Twojego zespołu.
+  title: 'VWO — alternatywy: Optimizely, Convert, Kameleoon i inne'
+  description: >-
+    Porównanie najważniejszych alternatyw dla VWO i praktyczne wskazówki, która
+    platforma pasuje do Twojego zespołu.
   keywords:
-  - VWO alternatywy
-  - A/B testing
-  - Optimizely
-  - Convert
-  - Kameleoon
+    - VWO alternatywy
+    - A/B testing
+    - Optimizely
+    - Convert
+    - Kameleoon
 meta:
   summaryBullets:
-  - "Werdykt: wybór zależy od budżetu i podejścia (marketing vs engineering)."
-  - "Dla kogo: SMB → Convert/Unbounce; Enterprise → Optimizely/Adobe; Dev-first →\
-    \ GrowthBook/LaunchDarkly."
-  - "Start: uruchom 30-dniowy trial i przetestuj 1 krytyczny scenariusz konwersji."
+    - 'Werdykt: wybór zależy od budżetu i podejścia (marketing vs engineering).'
+    - >-
+      Dla kogo: SMB → Convert/Unbounce; Enterprise → Optimizely/Adobe; Dev-first
+      → GrowthBook/LaunchDarkly.
+    - >-
+      Start: uruchom 30-dniowy trial i przetestuj 1 krytyczny scenariusz
+      konwersji.
   primaryCta:
     label: Odwiedź VWO
     href: https://vwo.com/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzedzia
-  - CRO
+    - narzedzia
+    - CRO
   tags:
-  - VWO
-  - A/B testing
-  - alternatywy
+    - VWO
+    - A/B testing
+    - alternatywy
 ---
 
 ## Obietnica decyzji

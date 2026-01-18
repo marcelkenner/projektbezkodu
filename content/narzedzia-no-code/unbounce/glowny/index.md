@@ -4,43 +4,45 @@ slug: unbounce
 path: /narzedzia/unbounce/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Unbounce – landing page'y nastawione na konwersję
-  subheading: Buduję landing page'e pod kampanie, testuję warianty i spinam je z lejkiem
+  subheading: >-
+    Buduję landing page'e pod kampanie, testuję warianty i spinam je z lejkiem
     marketingowym – bez kodu i bez WordPressa.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Unbounce – narzędzie do tworzenia landing page'y
-  description: "Sprawdź, jak Unbounce pomaga szybko stawiać strony docelowe nastawione\
-    \ na konwersję: szablony, testy A/B i integracje marketingowe."
+  description: >-
+    Sprawdź, jak Unbounce pomaga szybko stawiać strony docelowe nastawione na
+    konwersję: szablony, testy A/B i integracje marketingowe.
   keywords:
-  - Unbounce
-  - landing page
-  - konwersja
-  - testy A/B
-  - Smart Traffic
+    - Unbounce
+    - landing page
+    - konwersja
+    - testy A/B
+    - Smart Traffic
   canonical: https://unbounce.com/
 meta:
   summaryBullets:
-  - "Co jest w artykule: szybki werdykt, dla kogo ma sens, jak zacząć."
-  - "Główne funkcje: kreator, testy A/B, pop-upy, Smart Traffic."
-  - "Start: 14-dniowy trial i strona cenowa do sprawdzenia przed zakupem."
+    - 'Co jest w artykule: szybki werdykt, dla kogo ma sens, jak zacząć.'
+    - 'Główne funkcje: kreator, testy A/B, pop-upy, Smart Traffic.'
+    - 'Start: 14-dniowy trial i strona cenowa do sprawdzenia przed zakupem.'
   primaryCta:
     label: Zobacz cennik Unbounce
     href: https://unbounce.com/pricing/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - narzędzia
-  - marketing
+    - narzędzia
+    - marketing
   tags:
-  - landing page
-  - CRO
-  - Unbounce
+    - landing page
+    - CRO
+    - Unbounce
 ---
 
 ## Obietnica decyzji — dla kogo to czytasz

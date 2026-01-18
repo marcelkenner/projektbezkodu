@@ -5,45 +5,49 @@ path: /narzedzia/shutterstock/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Shutterstock
-  subheading: "Co warto wiedzieć przed płatnością: baza, ceny, typowe problemy i jednoznaczny\
-    \ werdykt."
+  subheading: >-
+    Co warto wiedzieć przed płatnością: baza, ceny, typowe problemy i
+    jednoznaczny werdykt.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Shutterstock — przegląd, ceny i kto powinien kupić
-  description: "Krótki, praktyczny przewodnik po Shutterstock: rozmiar biblioteki,\
-    \ modele cenowe, szybki start i kiedy lepiej poszukać alternatywy."
+  description: >-
+    Krótki, praktyczny przewodnik po Shutterstock: rozmiar biblioteki, modele
+    cenowe, szybki start i kiedy lepiej poszukać alternatywy.
   keywords:
-  - Shutterstock
-  - stock zdjęcia
-  - stock wideo
-  - licencje zdjęć
+    - Shutterstock
+    - stock zdjęcia
+    - stock wideo
+    - licencje zdjęć
   canonical: https://www.shutterstock.com/
 meta:
   difficulty: Łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: solidna platforma dla regularnych użytkowników i zespołów."
-  - "Dla kogo: marketing, agencje, producenci treści, zespoły potrzebujące licencji."
-  - "Start: załóż konto i sprawdź cennik zanim wydasz więcej niż jednorazowo."
+    - 'Werdykt: solidna platforma dla regularnych użytkowników i zespołów.'
+    - >-
+      Dla kogo: marketing, agencje, producenci treści, zespoły potrzebujące
+      licencji.
+    - 'Start: załóż konto i sprawdź cennik zanim wydasz więcej niż jednorazowo.'
   primaryCta:
     label: Sprawdź cennik Shutterstock
     href: https://www.shutterstock.com/pricing/
 taxonomy:
   categories:
-  - narzedzia
-  - stock
+    - narzedzia
+    - stock
   tags:
-  - Shutterstock
-  - zdjęcia
-  - wideo
+    - Shutterstock
+    - zdjęcia
+    - wideo
 ---
 
 ## Werdykt w 30 sekund — dla kogo to ma sens

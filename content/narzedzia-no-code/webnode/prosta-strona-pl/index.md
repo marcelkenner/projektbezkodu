@@ -1,50 +1,53 @@
 ---
-title: "Webnode: jak szybko postawić prostą stronę (PL)"
+title: 'Webnode: jak szybko postawić prostą stronę (PL)'
 slug: prosta-strona-pl
 path: /narzedzia/webnode/prosta-strona-pl/
 draft: false
 template: default
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
-  heading: "Webnode: jak szybko postawić prostą stronę (PL)"
-  subheading: Krótka recenzja — kiedy warto użyć Webnode, a kiedy poszukać innego
+  heading: 'Webnode: jak szybko postawić prostą stronę (PL)'
+  subheading: >-
+    Krótka recenzja — kiedy warto użyć Webnode, a kiedy poszukać innego
     narzędzia.
 seo:
-  title: "Webnode — prosty kreator stron: szybko, tanio, dla kogo"
-  description: "Krótka, praktyczna recenzja Webnode: co dostaniesz w darmowym planie,\
-    \ jakie są ograniczenia i kto na tym zaoszczędzi czas."
+  title: 'Webnode — prosty kreator stron: szybko, tanio, dla kogo'
+  description: >-
+    Krótka, praktyczna recenzja Webnode: co dostaniesz w darmowym planie, jakie
+    są ograniczenia i kto na tym zaoszczędzi czas.
   keywords:
-  - Webnode
-  - kreator stron
-  - tworzenie strony
-  - Webnode Polska
+    - Webnode
+    - kreator stron
+    - tworzenie strony
+    - Webnode Polska
   canonical: https://www.webnode.com/pl/
 meta:
   difficulty: łatwy
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Odwiedź Webnode (PL)
     href: https://www.webnode.com/pl/
   summaryBullets:
-  - "Werdykt: szybkie MVP i proste strony — tak."
-  - "Dla kogo: osoby bez doświadczenia i małe firmy, które nie potrzebują niestandardowych\
-    \ funkcji."
-  - "Start: rejestracja i gotowy szkic w <5 minut."
+    - 'Werdykt: szybkie MVP i proste strony — tak.'
+    - >-
+      Dla kogo: osoby bez doświadczenia i małe firmy, które nie potrzebują
+      niestandardowych funkcji.
+    - 'Start: rejestracja i gotowy szkic w <5 minut.'
 taxonomy:
   categories:
-  - narzędzia
-  - kreatory stron
+    - narzędzia
+    - kreatory stron
   tags:
-  - Webnode
-  - CMS
-  - strona-wizytówka
+    - Webnode
+    - CMS
+    - strona-wizytówka
 ---
 
 ## Obietnica decyzji — co dostaniesz po 2 minutach czytania

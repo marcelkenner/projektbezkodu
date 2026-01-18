@@ -5,7 +5,7 @@ path: /narzedzia/webnode/faq/
 draft: false
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Webnode FAQ
   subheading: Jak dodać sekcję FAQ, kiedy użyć widgetu i co z SEO
@@ -16,41 +16,45 @@ hero:
     height: 630
 seo:
   title: Webnode FAQ — jak dodać sekcję FAQ i czy to ma sens
-  description: "Krótki przewodnik: wbudowana sekcja FAQ w Webnode, alternatywy z widgetami,\
-    \ wpływ na SEO i rekomendacje dla małych firm."
+  description: >-
+    Krótki przewodnik: wbudowana sekcja FAQ w Webnode, alternatywy z widgetami,
+    wpływ na SEO i rekomendacje dla małych firm.
   keywords:
-  - Webnode FAQ
-  - jak dodać FAQ Webnode
-  - FAQ sekcja Webnode
+    - Webnode FAQ
+    - jak dodać FAQ Webnode
+    - FAQ sekcja Webnode
   canonical: https://www.webnode.com/support/add-faq-section/
 meta:
   difficulty: Łatwy
   duration: 5–15 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Webnode ma prostą, wbudowaną sekcję FAQ — wystarczy, jeśli chcesz szybki\
-    \ accordion bez dodatkowych integracji."
-  - "Dla kogo: idealne dla małych firm i prostych stron; dla rozbudowanego FAQ lepszy\
-    \ widget lub osobna strona."
-  - "Start: dodaj blok FAQ w edytorze i przetestuj w Rich Results Test, jeśli zależy\
-    \ Ci na schema."
+    - >-
+      Werdykt: Webnode ma prostą, wbudowaną sekcję FAQ — wystarczy, jeśli chcesz
+      szybki accordion bez dodatkowych integracji.
+    - >-
+      Dla kogo: idealne dla małych firm i prostych stron; dla rozbudowanego FAQ
+      lepszy widget lub osobna strona.
+    - >-
+      Start: dodaj blok FAQ w edytorze i przetestuj w Rich Results Test, jeśli
+      zależy Ci na schema.
   primaryCta:
-    label: "Instrukcja Webnode: dodaj FAQ"
+    label: 'Instrukcja Webnode: dodaj FAQ'
     href: https://www.webnode.com/support/add-faq-section/
   format: poradnik
   topics:
-  - web
-  - narzędzia
-  - SEO
+    - web
+    - narzędzia
+    - SEO
 taxonomy:
   categories:
-  - Narzędzia
+    - Narzędzia
   tags:
-  - Webnode
-  - FAQ
-  - SEO
+    - Webnode
+    - FAQ
+    - SEO
 ---
 
 ## Szybki werdykt — dla kogo ten tekst

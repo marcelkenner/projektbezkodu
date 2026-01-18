@@ -4,43 +4,45 @@ slug: keyword-research
 path: /narzedzia/semrush/keyword-research/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Keyword research w Semrush – od pierwszej listy do gotowej strategii
-  subheading: Buduję listy fraz, oceniam potencjał, trudność i intencję, a potem spinam
-    to z contentem i linkami.
+  subheading: >-
+    Buduję listy fraz, oceniam potencjał, trudność i intencję, a potem spinam to
+    z contentem i linkami.
   image:
     src: /img/article_image.jpeg
     alt: Abstrakcyjna wizualizacja danych i dashboardów na tle jeziora
 seo:
   title: Semrush – jak robić keyword research krok po kroku
-  description: "Przewodnik po keyword research w Semrush: jak czytać wolumen, trudność,\
-    \ SERP features, dane o konkurencji i jak przekładać to na konkretne treści."
+  description: >-
+    Przewodnik po keyword research w Semrush: jak czytać wolumen, trudność, SERP
+    features, dane o konkurencji i jak przekładać to na konkretne treści.
   keywords:
-  - keyword research
-  - Semrush
-  - Keyword Magic Tool
-  - analiza słów kluczowych
+    - keyword research
+    - Semrush
+    - Keyword Magic Tool
+    - analiza słów kluczowych
 meta:
   summaryBullets:
-  - "Werdykt: konkretna i szybka droga od frazy do planu contentowego."
-  - "Dla kogo: SEO-wykonawcy, content managerowie, mniejsze agencje."
-  - "Start: pierwsze 30 minut — listy, filtry, eksport."
+    - 'Werdykt: konkretna i szybka droga od frazy do planu contentowego.'
+    - 'Dla kogo: SEO-wykonawcy, content managerowie, mniejsze agencje.'
+    - 'Start: pierwsze 30 minut — listy, filtry, eksport.'
   primaryCta:
     label: Semrush — Keyword Research
     href: https://www.semrush.com/features/keyword-research/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - narzędzia
-  - SEO
-  - Semrush
+    - narzędzia
+    - SEO
+    - Semrush
   tags:
-  - keyword-research
-  - seo-tools
-  - strategia
+    - keyword-research
+    - seo-tools
+    - strategia
 ---
 
 ## Obietnica i decyzja w 30 sekund

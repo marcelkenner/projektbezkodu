@@ -1,42 +1,46 @@
 ---
-title: "Make — scenariusze: kiedy skopiować gotowy szablon, a kiedy zbudować od zera"
+title: 'Make — scenariusze: kiedy skopiować gotowy szablon, a kiedy zbudować od zera'
 slug: scenariusze
 path: /narzedzia/make/scenariusze/
 draft: false
 template: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Make — gotowe scenariusze, które możesz skopiować do swojego konta
-  subheading: "Praktyczne wzorce automatyzacji: od formularzy leadów po raporty i\
-    \ alerty — co działa od ręki, a co wymaga przeróbek."
+  subheading: >-
+    Praktyczne wzorce automatyzacji: od formularzy leadów po raporty i alerty —
+    co działa od ręki, a co wymaga przeróbek.
 seo:
   title: Make – przykładowe scenariusze automatyzacji
-  description: Zainspiruj się konkretnymi scenariuszami Make do marketingu, sprzedaży,
+  description: >-
+    Zainspiruj się konkretnymi scenariuszami Make do marketingu, sprzedaży,
     obsługi klienta i operacji w firmie.
   keywords:
-  - Make
-  - scenariusze
-  - automatyzacja
-  - szablony
+    - Make
+    - scenariusze
+    - automatyzacja
+    - szablony
 meta:
   summaryBullets:
-  - "Werdykt: szybko z szablonu, jeśli rutyna; buduj od zera, gdy logika biznesowa\
-    \ jest niestandardowa."
-  - "Dla kogo: marketerzy i zespoły operacyjne oszczędzające czas; nie dla systemów\
-    \ z restrykcyjnymi limitami API."
-  - "Start: importuj blueprint, podłącz konto, uruchom test — 10–20 minut."
+    - >-
+      Werdykt: szybko z szablonu, jeśli rutyna; buduj od zera, gdy logika
+      biznesowa jest niestandardowa.
+    - >-
+      Dla kogo: marketerzy i zespoły operacyjne oszczędzające czas; nie dla
+      systemów z restrykcyjnymi limitami API.
+    - 'Start: importuj blueprint, podłącz konto, uruchom test — 10–20 minut.'
   primaryCta:
     label: Zobacz szablony Make
     href: https://www.make.com/en/templates
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - narzędzia
-  - automatyzacja
+    - narzędzia
+    - automatyzacja
   tags:
-  - Make
-  - scenariusze
-  - szablony
+    - Make
+    - scenariusze
+    - szablony
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)
