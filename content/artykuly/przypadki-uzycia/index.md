@@ -1,47 +1,53 @@
 ---
-title: "No-code w praktyce: 10 przypadków użycia, które realnie oszczędzają czas i\
-  \ nerwy"
+title: >-
+  No-code w praktyce: 10 przypadków użycia, które realnie oszczędzają czas i
+  nerwy
 slug: no-code-w-praktyce-10-przypadkow
 path: /no-code-w-praktyce-10-przypadkow
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "No-code w praktyce: 10 przypadków użycia, które realnie oszczędzają czas\
-    \ i nerwy"
-  subheading: "Konkretne scenariusze, proste stacki i decyzje: co wdrożyć, kiedy to\
-    \ ma sens i czego unikać."
+  heading: >-
+    No-code w praktyce: 10 przypadków użycia, które realnie oszczędzają czas i
+    nerwy
+  subheading: >-
+    Konkretne scenariusze, proste stacki i decyzje: co wdrożyć, kiedy to ma sens
+    i czego unikać.
 seo:
-  title: "No-code: 10 praktycznych przypadków użycia oszczędzających czas"
-  description: Lista 10 konkretnych zastosowań no-code z krótką instrukcją startu,
-    skutkami biznesowymi i jasnym werdyktem dla różnych ról.
+  title: 'No-code: 10 praktycznych przypadków użycia oszczędzających czas'
+  description: >-
+    Lista 10 konkretnych zastosowań no-code z krótką instrukcją startu, skutkami
+    biznesowymi i jasnym werdyktem dla różnych ról.
   keywords:
-  - no-code
-  - automatyzacje
-  - Webflow
-  - Airtable
-  - Zapier
-  - przykłady
+    - no-code
+    - automatyzacje
+    - Webflow
+    - Airtable
+    - Zapier
+    - przykłady
 meta:
   difficulty: Łatwy
   duration: 10–40 min (first prototype)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: No-code to najczęściej najszybszy sposób na prototyp i automatyzację\
-    \ bez programowania."
-  - "Werdykt: Unikaj no-code tam, gdzie wymagana jest ultra-skala lub niestandardowe\
-    \ bezpieczeństwo."
+    - >-
+      Werdykt: No-code to najczęściej najszybszy sposób na prototyp i
+      automatyzację bez programowania.
+    - >-
+      Werdykt: Unikaj no-code tam, gdzie wymagana jest ultra-skala lub
+      niestandardowe bezpieczeństwo.
 taxonomy:
   categories:
-  - Narzędzia
-  - No-code
+    - Narzędzia
+    - No-code
   tags:
-  - automatyzacja
-  - Airtable
-  - Webflow
-  - Zapier
+    - automatyzacja
+    - Airtable
+    - Webflow
+    - Zapier
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

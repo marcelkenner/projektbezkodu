@@ -1,25 +1,26 @@
 ---
-title: "Badanie: migracje z no-code do kodu — przyczyny i wzorce"
+title: 'Badanie: migracje z no-code do kodu — przyczyny i wzorce'
 slug: migracje-no-code-do-kodu
 path: /badania/migracje-no-code-do-kodu
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Migracje z no-code do kodu: szybki werdykt i jak zacząć"
-  subheading: Kiedy warto zostać na no-code, a kiedy zaplanować przejście — krótkie
+  heading: 'Migracje z no-code do kodu: szybki werdykt i jak zacząć'
+  subheading: >-
+    Kiedy warto zostać na no-code, a kiedy zaplanować przejście — krótkie
     wskazówki i konkretne kroki.
 meta:
   summaryBullets:
-  - "Werdykt: kiedy migracja ma sens i jak jej nie spieprzyć"
-  - "Dla kogo: startupy, produktowe zespoły i działy operacyjne"
-  - "Start: pierwsze 3 kroki, które robisz dziś"
+    - 'Werdykt: kiedy migracja ma sens i jak jej nie spieprzyć'
+    - 'Dla kogo: startupy, produktowe zespoły i działy operacyjne'
+    - 'Start: pierwsze 3 kroki, które robisz dziś'
   primaryCta:
     label: Przewodnik o skalowaniu i kosztach
     href: https://www.webstacks.com/blog/no-code-vs-custom-development
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
 ---
 
 ## Obietnica decyzji: kto powinien myśleć o migracji

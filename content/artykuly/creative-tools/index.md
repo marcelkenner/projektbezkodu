@@ -1,14 +1,14 @@
 ---
 slug: najlepsze-no-code-narzedzia-kreatywne-na-start
-title: "Najlepsze no-code narzędzia kreatywne na start: grafika, wideo i audio"
+title: 'Najlepsze no-code narzędzia kreatywne na start: grafika, wideo i audio'
 path: /najlepsze-no-code-narzedzia-kreatywne-na-start
 template: default
 draft: false
 meta:
   summaryBullets:
-  - "Dla kogo to jest?: -"
-  - "Narzędzia (no-code), których użyjemy: -"
-  - "Krok po kroku: 1"
+    - 'Dla kogo to jest?: -'
+    - 'Narzędzia (no-code), których użyjemy: -'
+    - 'Krok po kroku: 1'
   primaryCta:
     label: Przejdź do artykułu
     href: /creative-tools

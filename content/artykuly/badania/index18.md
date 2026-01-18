@@ -1,47 +1,51 @@
 ---
-title: "Raport: najlepsze praktyki dokumentacji projektów no-code"
+title: 'Raport: najlepsze praktyki dokumentacji projektów no-code'
 slug: raport-dokumentacja-projektow-no-code
 path: /raport-dokumentacja-projektow-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Jak dokumentować automatyzacje, bazy i uprawnienia w projektach no-code
   subheading: Praktyczne zasady, szybki start i konkretne decyzje dla zespołów
 seo:
   title: Najlepsze praktyki dokumentacji projektów no-code
-  description: "Krótki raport: co zapisać w automatyzacjach, bazach i interfejsach,\
-    \ jak zacząć w 5 minut i kiedy dokumentacja naprawdę się opłaca."
+  description: >-
+    Krótki raport: co zapisać w automatyzacjach, bazach i interfejsach, jak
+    zacząć w 5 minut i kiedy dokumentacja naprawdę się opłaca.
   keywords:
-  - no-code
-  - dokumentacja
-  - automatyzacje
-  - Airtable
-  - Zapier
-  - Notion
+    - no-code
+    - dokumentacja
+    - automatyzacje
+    - Airtable
+    - Zapier
+    - Notion
 meta:
   difficulty: średni
   duration: 5–60 min (zależnie od zakresu)
   author: Zespół badań
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie — dokumentacja musi być użyteczna, nie kompletna\
-    \ za wszelką cenę."
-  - "Dla kogo: ma sens dla projektów >1 właściciela, produkcyjnych automatyzacji i\
-    \ baz krytycznych."
-  - "Start: pierwsze 5 minut — opis celu, właściciel, miejsce przechowywania."
+    - >-
+      Werdykt: krótko i konkretnie — dokumentacja musi być użyteczna, nie
+      kompletna za wszelką cenę.
+    - >-
+      Dla kogo: ma sens dla projektów >1 właściciela, produkcyjnych
+      automatyzacji i baz krytycznych.
+    - 'Start: pierwsze 5 minut — opis celu, właściciel, miejsce przechowywania.'
   primaryCta:
-    label: "Przykład: Zap notes"
-    href: https://help.zapier.com/hc/en-us/articles/16986667521037-Document-your-Zapier-workflows-with-step-notes
+    label: 'Przykład: Zap notes'
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/16986667521037-Document-your-Zapier-workflows-with-step-notes
 taxonomy:
   categories:
-  - Badania i raporty
-  - No-code
+    - Badania i raporty
+    - No-code
   tags:
-  - dokumentacja
-  - automatyzacje
-  - best-practices
+    - dokumentacja
+    - automatyzacje
+    - best-practices
 ---
 
 ## Obietnica decyzji i grupa czytelników

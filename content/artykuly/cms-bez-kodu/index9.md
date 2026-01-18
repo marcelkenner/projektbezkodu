@@ -1,19 +1,19 @@
 ---
 slug: cms-bez-kodu-ecommerce-opcje-i-ograniczenia
-title: "CMS bez kodu dla e-commerce: opcje i ograniczenia"
+title: 'CMS bez kodu dla e-commerce: opcje i ograniczenia'
 path: /cms-bez-kodu-ecommerce-opcje-i-ograniczenia
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://webflow.com/updates/ecommerce-scale
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 ---
 
 ## Obietnica decyzji dla właścicieli sklepów nie-programistów

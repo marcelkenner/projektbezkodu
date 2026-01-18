@@ -1,42 +1,45 @@
 ---
-title: "Framer vs Webflow: który lepszy do designu bez kodu"
+title: 'Framer vs Webflow: który lepszy do designu bez kodu'
 slug: framer-vs-webflow-bez-kodu
 path: /framer-vs-webflow-bez-kodu
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Framer vs Webflow — szybki przewodnik wyboru
   subheading: Krótkie decyzje dla projektantów, marketerów i właścicieli stron
 seo:
   title: Framer czy Webflow — który lepszy do designu bez kodu
-  description: "Porównanie podejścia, animacji, CMS, wydajności i kosztów. Krótki\
-    \ werdykt: dla kogo który wybór ma sens."
+  description: >-
+    Porównanie podejścia, animacji, CMS, wydajności i kosztów. Krótki werdykt:
+    dla kogo który wybór ma sens.
   keywords:
-  - Framer
-  - Webflow
-  - no-code
-  - design bez kodu
-  - CMS
-  - animacje
+    - Framer
+    - Webflow
+    - no-code
+    - design bez kodu
+    - CMS
+    - animacje
 meta:
   summaryBullets:
-  - "Werdykt: Framer = design-first, Webflow = skalowalny CMS i ekosystem."
-  - "Dla kogo: Framer dla zespołów projektowych; Webflow dla content-heavy firm."
-  - "Start: 5–10 minut testowego projektu, potem wybierz plan."
+    - 'Werdykt: Framer = design-first, Webflow = skalowalny CMS i ekosystem.'
+    - >-
+      Dla kogo: Framer dla zespołów projektowych; Webflow dla content-heavy
+      firm.
+    - 'Start: 5–10 minut testowego projektu, potem wybierz plan.'
   primaryCta:
     label: Porównanie na Zapier
     href: https://zapier.com/blog/framer-vs-webflow/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - Framer
-  - Webflow
-  - no-code
-  - porównanie
+    - Framer
+    - Webflow
+    - no-code
+    - porównanie
 ---
 
 ## Krótkie obietnica i decyzja

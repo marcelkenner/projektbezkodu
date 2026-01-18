@@ -1,39 +1,40 @@
 ---
-title: "Sekcje: Referencje i social proof"
+title: 'Sekcje: Referencje i social proof'
 slug: sekcje-referencje-social-proof
 path: /artykuly/biblioteka-komponentow/sekcje-referencje-social-proof/
 draft: true
 template: default
 type: template
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Sekcje: Referencje i social proof"
+  heading: 'Sekcje: Referencje i social proof'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 seo:
-  title: "Sekcje: Referencje i social proof — szybki werdykt i jak zacząć"
-  description: Jak zaprojektować sekcję referencji, które realnie konwertują — krótki
+  title: 'Sekcje: Referencje i social proof — szybki werdykt i jak zacząć'
+  description: >-
+    Jak zaprojektować sekcję referencji, które realnie konwertują — krótki
     przewodnik z typowymi błędami i natychmiastowym startem.
   keywords:
-  - referencje
-  - social proof
-  - testimonials
-  - UX
-  - landing page
+    - referencje
+    - social proof
+    - testimonials
+    - UX
+    - landing page
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przykłady i wskazówki
     href: https://blog.hubspot.com/marketing/social-proof-examples-landing-pages
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Obietnica decyzji (dla kogo i co dostaniesz)

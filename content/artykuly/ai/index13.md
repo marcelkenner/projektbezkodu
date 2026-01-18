@@ -1,43 +1,46 @@
 ---
-title: "AI do tworzenia landingów: szybkie szkice i copy, ale z zasadami brandu"
+title: 'AI do tworzenia landingów: szybkie szkice i copy, ale z zasadami brandu'
 slug: ai-landingow-szkice-copy-zasady-brandu
 path: /artykuly/ai/ai-landingow-szkice-copy-zasady-brandu
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI do landingów: szybkie szkice, warianty i teksty"
+  heading: 'AI do landingów: szybkie szkice, warianty i teksty'
   subheading: Kiedy użyć AI, a kiedy trzymać się brand booka
 seo:
   title: AI do tworzenia landingów — kiedy wystarczy szkic, kiedy potrzebny człowiek
-  description: "Praktyczny przewodnik: jak używać AI do szybkiego szkicowania landingów,\
-    \ testowania wariantów i zachowania zasad brandu."
+  description: >-
+    Praktyczny przewodnik: jak używać AI do szybkiego szkicowania landingów,
+    testowania wariantów i zachowania zasad brandu.
   keywords:
-  - AI landing page
-  - landing page generator
-  - copywriting AI
-  - konwersje
+    - AI landing page
+    - landing page generator
+    - copywriting AI
+    - konwersje
 meta:
   difficulty: Łatwy start
   duration: 5–60 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Wypróbuj HubSpot Landing Page Generator
     href: https://www.hubspot.com/free-business-tools/landing-page-gpt
   summaryBullets:
-  - "Werdykt: AI świetnie szkicuje i generuje warianty, ale wymaga reguł brandu."
-  - "Dla kogo: marketing, growth i małe zespoły bez budżetu na copywritera."
-  - "Start: w 30 minut masz szkic, w 1–2 dni zoptymalizowany wariant do testu."
+    - >-
+      Werdykt: AI świetnie szkicuje i generuje warianty, ale wymaga reguł
+      brandu.
+    - 'Dla kogo: marketing, growth i małe zespoły bez budżetu na copywritera.'
+    - 'Start: w 30 minut masz szkic, w 1–2 dni zoptymalizowany wariant do testu.'
 taxonomy:
   categories:
-  - AI
-  - Marketing
+    - AI
+    - Marketing
   tags:
-  - landing page
-  - AI
-  - copywriting
+    - landing page
+    - AI
+    - copywriting
 ---
 
 ## Obietnica decyzji — kto powinien używać AI do landingów (i kiedy)

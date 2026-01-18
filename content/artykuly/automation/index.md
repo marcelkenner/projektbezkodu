@@ -1,39 +1,41 @@
 ---
-title: "Automation w no-code: dla kogo to jest i kiedy naprawdę się opłaca"
+title: 'Automation w no-code: dla kogo to jest i kiedy naprawdę się opłaca'
 slug: automatyzacja-no-code-dla-kogo-kiedy-oplaca
 path: /automatyzacja-no-code-dla-kogo-kiedy-oplaca
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automation w no-code: dla kogo i kiedy się opłaca"
+  heading: 'Automation w no-code: dla kogo i kiedy się opłaca'
   subheading: Szybki werdykt, kryteria decyzji i 5‑minutowy test startowy
 seo:
   title: Automation w no-code — kiedy warto automatyzować?
-  description: "Praktyczny przewodnik: kiedy no-code automation daje oszczędności,\
-    \ a kiedy wprowadza ryzyko. Kryteria, checklist i mini‑werdykt dla startupów,\
-    \ SMB i dużych firm."
+  description: >-
+    Praktyczny przewodnik: kiedy no-code automation daje oszczędności, a kiedy
+    wprowadza ryzyko. Kryteria, checklist i mini‑werdykt dla startupów, SMB i
+    dużych firm.
   keywords:
-  - no-code
-  - automation
-  - automatyzacja procesów
-  - ROI
-  - Zapier
+    - no-code
+    - automation
+    - automatyzacja procesów
+    - ROI
+    - Zapier
 meta:
   summaryBullets:
-  - "Werdykt: automatyzuj powtarzalne procesy o mierzalnych kosztach błędu."
-  - "Dla kogo: najlepsze dla startupów i SMB przy stabilnych procesach; ostrożnie\
-    \ w środowiskach szybko zmieniających się."
-  - "Start: 5-minutowy test, dokumentacja i monitorowanie."
+    - 'Werdykt: automatyzuj powtarzalne procesy o mierzalnych kosztach błędu.'
+    - >-
+      Dla kogo: najlepsze dla startupów i SMB przy stabilnych procesach;
+      ostrożnie w środowiskach szybko zmieniających się.
+    - 'Start: 5-minutowy test, dokumentacja i monitorowanie.'
   primaryCta:
     label: Przejdź do artykułu
     href: https://zapier.com/blog/no-code-automation
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - no-code
-  - automation
+    - no-code
+    - automation
 ---
 
 ## Werdykt na start — krótkie decyzje dla zabieganych

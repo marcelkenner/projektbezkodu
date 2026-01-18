@@ -1,44 +1,46 @@
 ---
-title: "Audit UI: 25 rzeczy do sprawdzenia przed publikacją"
+title: 'Audit UI: 25 rzeczy do sprawdzenia przed publikacją'
 slug: audyt-ui-25-rzeczy
 path: /audyt-ui-25-rzeczy
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Audit UI: 25 rzeczy do sprawdzenia przed publikacją"
-  subheading: Szybka checklista jakości — spójność, stany, dostępność i drobne błędy,
+  heading: 'Audit UI: 25 rzeczy do sprawdzenia przed publikacją'
+  subheading: >-
+    Szybka checklista jakości — spójność, stany, dostępność i drobne błędy,
     które kosztują konwersję
 seo:
-  title: "Audit UI: 25 rzeczy do sprawdzenia przed publikacją"
-  description: Krótkie, praktyczne punkty do szybkiego przeglądu interfejsu przed
+  title: 'Audit UI: 25 rzeczy do sprawdzenia przed publikacją'
+  description: >-
+    Krótkie, praktyczne punkty do szybkiego przeglądu interfejsu przed
     wypuszczeniem produktu. Z naciskiem na dostępność i typowe wpadki UX.
   keywords:
-  - audit UI
-  - checklista UI
-  - dostępność
-  - UX przed publikacją
+    - audit UI
+    - checklista UI
+    - dostępność
+    - UX przed publikacją
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: WCAG checklist
     href: https://webaim.org/standards/wcag/checklist
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja Design Bez Kodu
   difficulty: Średni
   duration: 30–90 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Design bez kodu
-  - UX
+    - Design bez kodu
+    - UX
   tags:
-  - audit
-  - checklista
-  - accessibility
+    - audit
+    - checklista
+    - accessibility
 ---
 
 ## Obietnica decyzji — dla kogo i co tu znajdziesz

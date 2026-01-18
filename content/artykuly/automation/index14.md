@@ -1,41 +1,42 @@
 ---
-title: "Bezpieczeństwo i uprawnienia w automatyzacjach: tokeny, role, dostępy"
+title: 'Bezpieczeństwo i uprawnienia w automatyzacjach: tokeny, role, dostępy'
 slug: bezpieczenstwo-uprawnienia-automatyzacje-tokeny-role-dostepy
 path: /bezpieczenstwo-uprawnienia-automatyzacje-tokeny-role-dostepy
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Bezpieczeństwo i uprawnienia w automatyzacjach
-  subheading: Jak ustawić tokeny, role i dostęp, żeby automatyzacje nie zagrażały
-    firmie
+  subheading: Jak ustawić tokeny, role i dostęp, żeby automatyzacje nie zagrażały firmie
 seo:
   title: Bezpieczeństwo automatyzacji — tokeny, role, dostępy
-  description: "Praktyczny przewodnik po politykach dostępu dla automatyzacji: tokeny,\
-    \ role, rotacja, ograniczenia scope i audyt."
+  description: >-
+    Praktyczny przewodnik po politykach dostępu dla automatyzacji: tokeny, role,
+    rotacja, ograniczenia scope i audyt.
   keywords:
-  - automations security
-  - tokeny
-  - uprawnienia
-  - no-code
-  - OAuth
+    - automations security
+    - tokeny
+    - uprawnienia
+    - no-code
+    - OAuth
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do oficjalnych praktyk OAuth
-    href: https://developers.google.com/identity/protocols/oauth2/resources/best-practices
-  updatedAt: "2026-01-15"
+    href: >-
+      https://developers.google.com/identity/protocols/oauth2/resources/best-practices
+  updatedAt: '2026-01-15'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 type: article
 taxonomy:
   categories:
-  - security
-  - automation
+    - security
+    - automation
 ---
 
 ## Obietnica decyzji dla kogo i co tu znajdziesz

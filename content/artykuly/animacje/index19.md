@@ -1,40 +1,45 @@
 ---
-title: "Jak testować, czy animacje pomagają: prosty plan A/B bez doktoratu z analityki"
+title: 'Jak testować, czy animacje pomagają: prosty plan A/B bez doktoratu z analityki'
 slug: testowanie-animacji-ab
 path: /analityka/testowanie-animacji-ab
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Jak testować, czy animacje pomagają: prosty plan A/B bez doktoratu z analityki"
-  subheading: Dla marketerów i product managerów — jedno mierzalne pytanie, jeden
-    wariant, jasny wynik
+  heading: >-
+    Jak testować, czy animacje pomagają: prosty plan A/B bez doktoratu z
+    analityki
+  subheading: >-
+    Dla marketerów i product managerów — jedno mierzalne pytanie, jeden wariant,
+    jasny wynik
 seo:
-  title: "Testowanie animacji w A/B: prosty plan i kiedy to działa"
-  description: "Krótkie, praktyczne podejście do testów A/B dla animacji: co mierzyć,\
-    \ jak ustawić warianty i kiedy animacja rzeczywiście ma sens."
+  title: 'Testowanie animacji w A/B: prosty plan i kiedy to działa'
+  description: >-
+    Krótkie, praktyczne podejście do testów A/B dla animacji: co mierzyć, jak
+    ustawić warianty i kiedy animacja rzeczywiście ma sens.
   keywords:
-  - A/B testy
-  - animacje
-  - ux
-  - konwersja
-  - eksperymenty
+    - A/B testy
+    - animacje
+    - ux
+    - konwersja
+    - eksperymenty
 meta:
   summaryBullets:
-  - "Werdykt: testuj mało, ale sensownie."
-  - "Dla kogo: kiedy animacje mają szansę poprawić wynik, a kiedy ryzykują utratę\
-    \ konwersji."
-  - "Start: gotowy 5-minutowy plan do pierwszego eksperymentu."
+    - 'Werdykt: testuj mało, ale sensownie.'
+    - >-
+      Dla kogo: kiedy animacje mają szansę poprawić wynik, a kiedy ryzykują
+      utratę konwersji.
+    - 'Start: gotowy 5-minutowy plan do pierwszego eksperymentu.'
   primaryCta:
     label: Przejdź do artykułu
     href: /animacje-19
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - UX
-  - Eksperymenty
-  - Marketing
+    - UX
+    - Eksperymenty
+    - Marketing
 ---
 
 ## Obietnica decyzji

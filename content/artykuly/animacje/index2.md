@@ -1,43 +1,50 @@
 ---
-title: "Webflow Interactions w praktyce: co da się zrobić bez kodu (i gdzie jest sufit)"
+title: >-
+  Webflow Interactions w praktyce: co da się zrobić bez kodu (i gdzie jest
+  sufit)
 slug: webflow-interactions-bez-kodu
 path: /animacje/webflow-interactions-bez-kodu
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Webflow Interactions w praktyce: co da się zrobić bez kodu (i gdzie jest\
-    \ sufit)"
-  subheading: Krótkie, konkretne wnioski dla freelancerów i małych agencji — co zrobisz
-    w designerze, a kiedy trzeba wyjąć kod.
+  heading: >-
+    Webflow Interactions w praktyce: co da się zrobić bez kodu (i gdzie jest
+    sufit)
+  subheading: >-
+    Krótkie, konkretne wnioski dla freelancerów i małych agencji — co zrobisz w
+    designerze, a kiedy trzeba wyjąć kod.
 seo:
   title: Webflow Interactions — co zrobisz bez kodu i gdzie są ograniczenia
-  description: "Praktyczny przewodnik: możliwości Interactions (GSAP), Lottie, limity\
-    \ custom code i wpływ animacji na wydajność."
+  description: >-
+    Praktyczny przewodnik: możliwości Interactions (GSAP), Lottie, limity custom
+    code i wpływ animacji na wydajność.
   keywords:
-  - Webflow Interactions
-  - animacje bez kodu
-  - Webflow Lottie
-  - wydajność animacji
+    - Webflow Interactions
+    - animacje bez kodu
+    - Webflow Lottie
+    - wydajność animacji
 meta:
   difficulty: Intermediate
   duration: 5 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: silne narzędzie no-code, ale sufit jest realny"
-  - "Dla kogo: freelancerzy/agencje mniejsze — przyspiesza prototypowanie i wdrożenia"
-  - "Start: zacznij od prostych triggerów i testów wydajności"
+    - 'Werdykt: silne narzędzie no-code, ale sufit jest realny'
+    - >-
+      Dla kogo: freelancerzy/agencje mniejsze — przyspiesza prototypowanie i
+      wdrożenia
+    - 'Start: zacznij od prostych triggerów i testów wydajności'
   primaryCta:
     label: Kurs Interactions (Webflow University)
     href: https://university.webflow.com/courses/interactions-and-animations-course
 taxonomy:
   categories:
-  - Webflow
-  - Animacje
-  - Poradnik
+    - Webflow
+    - Animacje
+    - Poradnik
 ---
 
 ## Obietnica decyzji dla freelancerów i małych agencji

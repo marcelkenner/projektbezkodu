@@ -1,41 +1,42 @@
 ---
-title: "Teksty alternatywne obrazów: checklisty i proces dla zespołów no-code"
+title: 'Teksty alternatywne obrazów: checklisty i proces dla zespołów no-code'
 slug: teksty-alternatywne-obrazow-no-code
 path: /dostepnosc/teksty-alternatywne-obrazow-no-code
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Teksty alternatywne obrazów: checklisty i proces"
+  heading: 'Teksty alternatywne obrazów: checklisty i proces'
   subheading: Praktyczny przewodnik dla zespołów no-code
 meta:
   summaryBullets:
-  - "Krótkie reguły pisania altów: kiedy opisać, kiedy pominąć."
-  - "Proces weryfikacji altów bez kodu: checklisty i role."
-  - Najczęstsze błędy i szybkie poprawki do wdrożenia.
+    - 'Krótkie reguły pisania altów: kiedy opisać, kiedy pominąć.'
+    - 'Proces weryfikacji altów bez kodu: checklisty i role.'
+    - Najczęstsze błędy i szybkie poprawki do wdrożenia.
   primaryCta:
-    label: "W3C: Teksty alternatywne"
+    label: 'W3C: Teksty alternatywne'
     href: https://www.w3.org/WAI/alt/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   duration: 5–15 min
   author: Redakcja
 seo:
   title: Teksty alternatywne obrazów — checklisty i proces dla zespołów no-code
-  description: Konkretna instrukcja pisania i weryfikacji altów dla zespołów no-code.
+  description: >-
+    Konkretna instrukcja pisania i weryfikacji altów dla zespołów no-code.
     Checklisty, przykłady, typowe pułapki i proste testy.
   keywords:
-  - alt text
-  - accessibility
-  - no-code
-  - WCAG
-  - dostępność cyfrowa
+    - alt text
+    - accessibility
+    - no-code
+    - WCAG
+    - dostępność cyfrowa
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
+    - no-code
+    - accessibility
+    - wcag
 ---
 
 Dostaniesz prosty proces i checklistę, żeby zespół no-code (designer + PM + content) mógł napisać i zweryfikować alt-y obrazów w 5–15 minut na stronę/sekcję. **Jeżeli chcesz minimalnego ryzyka zgodności z WCAG → stosuj reguły tu opisane.**

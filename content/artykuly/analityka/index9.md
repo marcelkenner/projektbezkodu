@@ -1,51 +1,56 @@
 ---
-title: "Dashboard bez zespołu BI: Looker Studio czy Metabase — jak zbudować no-code\
-  \ dashboard"
+title: >-
+  Dashboard bez zespołu BI: Looker Studio czy Metabase — jak zbudować no-code
+  dashboard
 slug: dashboard-bez-bi-looker-studio-vs-metabase
 path: /analityka/dashboard-bez-bi-looker-studio-vs-metabase
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Dashboard bez zespołu BI: praktyczny przewodnik"
-  subheading: "Krótko: wybierz narzędzie, ustaw źródła danych i opublikuj prosty dashboard\
-    \ w kilka godzin."
+  heading: 'Dashboard bez zespołu BI: praktyczny przewodnik'
+  subheading: >-
+    Krótko: wybierz narzędzie, ustaw źródła danych i opublikuj prosty dashboard
+    w kilka godzin.
   primaryCta:
     label: Dokumentacja Metabase — Dashboards
     href: https://www.metabase.com/docs/latest/dashboards/introduction
 seo:
   title: Dashboard bez zespołu BI — Looker Studio vs Metabase, szybki start
-  description: Jak zbudować dashboard bez zespołu BI — porównanie Looker Studio i
-    Metabase, ścieżka startowa, typowe problemy i jednoznaczne werdykty.
+  description: >-
+    Jak zbudować dashboard bez zespołu BI — porównanie Looker Studio i Metabase,
+    ścieżka startowa, typowe problemy i jednoznaczne werdykty.
   keywords:
-  - dashboard
-  - Looker Studio
-  - Metabase
-  - no-code
-  - analityka
+    - dashboard
+    - Looker Studio
+    - Metabase
+    - no-code
+    - analityka
 meta:
   difficulty: Średni
   duration: 30–180 minut (pierwszy dashboard)
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Dokumentacja Metabase — Dashboards
     href: https://www.metabase.com/docs/latest/dashboards/introduction
   summaryBullets:
-  - "Werdykt: dla szybkiego, bezpłatnego raportu — Looker Studio; dla rosnącej analityki\
-    \ i interakcji — Metabase."
-  - "Dla kogo: Looker Studio jeśli siedzisz w Google Workspace; Metabase jeśli chcesz\
-    \ skalować poza arkusz."
-  - "Start: podłącz jedno źródło, stwórz 3 KPI, opublikuj link."
+    - >-
+      Werdykt: dla szybkiego, bezpłatnego raportu — Looker Studio; dla rosnącej
+      analityki i interakcji — Metabase.
+    - >-
+      Dla kogo: Looker Studio jeśli siedzisz w Google Workspace; Metabase jeśli
+      chcesz skalować poza arkusz.
+    - 'Start: podłącz jedno źródło, stwórz 3 KPI, opublikuj link.'
 taxonomy:
   categories:
-  - analityka
+    - analityka
   tags:
-  - dashboard
-  - looker-studio
-  - metabase
-  - no-code
+    - dashboard
+    - looker-studio
+    - metabase
+    - no-code
 ---
 
 ## Obietnica decyzji

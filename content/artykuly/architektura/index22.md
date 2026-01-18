@@ -1,44 +1,45 @@
 ---
-title: "Audyt architektury no-code: checklista 30 minut, która pokazuje, gdzie boli"
+title: 'Audyt architektury no-code: checklista 30 minut, która pokazuje, gdzie boli'
 slug: audyt-architektury-no-code-30-min
 path: /architektura/audyt-architektury-no-code-30-min
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Audyt architektury no-code: checklista 30 minut, która pokazuje, gdzie\
-    \ boli"
-  subheading: Szybka diagnoza dla PM-ów, założycieli i właścicieli procesów — bez
-    długich warsztatów.
+  heading: 'Audyt architektury no-code: checklista 30 minut, która pokazuje, gdzie boli'
+  subheading: >-
+    Szybka diagnoza dla PM-ów, założycieli i właścicieli procesów — bez długich
+    warsztatów.
 seo:
   title: Audyt architektury no-code — 30-minutowa checklista
-  description: "Krótkie, praktyczne kroki do zdiagnozowania problemów w stacku no-code:\
-    \ dane, integracje, bezpieczeństwo, monitoring, koszty, limity, zależności."
+  description: >-
+    Krótkie, praktyczne kroki do zdiagnozowania problemów w stacku no-code:
+    dane, integracje, bezpieczeństwo, monitoring, koszty, limity, zależności.
   keywords:
-  - no-code
-  - audyt
-  - architektura
-  - checklista
-  - integracje
+    - no-code
+    - audyt
+    - architektura
+    - checklista
+    - integracje
 meta:
   summaryBullets:
-  - "Werdykt: szybko zidentyfikujesz największe ryzyka i punkty bólu"
-  - "Dla kogo: PM, founder, ops — gdy używacie 2+ narzędzi no-code"
-  - "Start: wyciągnij listę integracji i fakturę za ostatnie 3 miesiące"
+    - 'Werdykt: szybko zidentyfikujesz największe ryzyka i punkty bólu'
+    - 'Dla kogo: PM, founder, ops — gdy używacie 2+ narzędzi no-code'
+    - 'Start: wyciągnij listę integracji i fakturę za ostatnie 3 miesiące'
   primaryCta:
     label: Przeczytaj wymagania audytu
     href: https://www.creatio.com/no-code/toolkit/application-audit
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - no-code
-  - audyt
-  - architektura
+    - no-code
+    - audyt
+    - architektura
   tags:
-  - checklista
-  - monitoring
-  - koszty
+    - checklista
+    - monitoring
+    - koszty
 ---
 
 ## Obietnica i grupa docelowa

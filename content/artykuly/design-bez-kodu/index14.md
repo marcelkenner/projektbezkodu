@@ -1,44 +1,48 @@
 ---
-title: "Prototypowanie w Figmie: klikany prototyp do testów w 30 minut"
+title: 'Prototypowanie w Figmie: klikany prototyp do testów w 30 minut'
 slug: prototypowanie-figmie-30-min
 path: /prototypowanie-figmie-30-min
-date: "2026-01-15"
+date: '2026-01-15'
 template: default
 draft: false
 hero:
-  heading: "Prototypowanie w Figmie: klikany prototyp do testów w 30 minut"
-  subheading: Krótki, sprawdzony workflow, żeby z gotowych ekranów wyciągnąć testowalny
+  heading: 'Prototypowanie w Figmie: klikany prototyp do testów w 30 minut'
+  subheading: >-
+    Krótki, sprawdzony workflow, żeby z gotowych ekranów wyciągnąć testowalny
     prototyp w pół godziny.
 seo:
   title: Prototypowanie w Figmie — klikany prototyp w 30 minut
-  description: "Praktyczny przewodnik: co przygotować, jak szybko złożyć klikalny\
-    \ prototyp i jak go udostępnić do testów."
+  description: >-
+    Praktyczny przewodnik: co przygotować, jak szybko złożyć klikalny prototyp i
+    jak go udostępnić do testów.
   keywords:
-  - Figma
-  - prototypowanie
-  - prototyp klikany
-  - rapid prototyping
-  - testy użyteczności
+    - Figma
+    - prototypowanie
+    - prototyp klikany
+    - rapid prototyping
+    - testy użyteczności
 meta:
   summaryBullets:
-  - "Werdykt: szybki prototyp w 30 minut działa, jeśli masz gotowe ekrany/komponenty."
-  - "Dla kogo: produktowe testy konceptu i wczesne usability — nie pełen MVP."
-  - "Start: zduplikuj plik, ustaw flow, dodaj hotspoty, udostępnij link."
+    - >-
+      Werdykt: szybki prototyp w 30 minut działa, jeśli masz gotowe
+      ekrany/komponenty.
+    - 'Dla kogo: produktowe testy konceptu i wczesne usability — nie pełen MVP.'
+    - 'Start: zduplikuj plik, ustaw flow, dodaj hotspoty, udostępnij link.'
   primaryCta:
-    label: "Figma: Prototyping"
+    label: 'Figma: Prototyping'
     href: https://www.figma.com/prototyping/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   duration: 30 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - figma
-  - prototyp
-  - ux
-  - testy
+    - figma
+    - prototyp
+    - ux
+    - testy
 ---
 
 ## Obietnica decyzji — kto powinien to zrobić teraz

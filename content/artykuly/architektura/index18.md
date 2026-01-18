@@ -1,40 +1,43 @@
 ---
-title: "Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie"
+title: 'Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie'
 slug: vendor-lock-in-projektowanie-zmiana-narzedzia
 path: /vendor-lock-in-projektowanie-zmiana-narzedzia
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie"
-  subheading: Praktyczne decyzje architektoniczne — eksport, integracje, granice używania
+  heading: 'Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie'
+  subheading: >-
+    Praktyczne decyzje architektoniczne — eksport, integracje, granice używania
     'magii' dostawcy
 seo:
-  title: "Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie"
-  description: Krótkie i konkretne praktyki projektowe, które zmniejszą koszty i ryzyko
+  title: 'Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie'
+  description: >-
+    Krótkie i konkretne praktyki projektowe, które zmniejszą koszty i ryzyko
     migracji — eksport danych, warstwy integracyjne, standardy.
   keywords:
-  - vendor lock-in
-  - portability
-  - data export
-  - API abstraction
-  - architektura
+    - vendor lock-in
+    - portability
+    - data export
+    - API abstraction
+    - architektura
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
-    href: https://www.cio.com/article/217618/6-strategies-for-avoiding-cloud-vendor-lock-in.html
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.cio.com/article/217618/6-strategies-for-avoiding-cloud-vendor-lock-in.html
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - architektura
-  - devops
+    - architektura
+    - devops
 ---
 
 Decyzja dla zespołu: **projektuj tak, żeby zmiana dostawcy nie była kryzysem** — nawet jeśli w day‑to‑day wybierzesz wygodę, dołóż minimalne zabezpieczenia, które da się wdrożyć w 1–2 sprinty.

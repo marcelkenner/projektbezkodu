@@ -1,43 +1,49 @@
 ---
-title: "Raport: wydajność aplikacji no-code — benchmark i dobre praktyki"
+title: 'Raport: wydajność aplikacji no-code — benchmark i dobre praktyki'
 slug: raport-wydajnosc-no-code
 path: /raporty/wydajnosc-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Raport: wydajność aplikacji no-code — benchmark i dobre praktyki"
-  subheading: Co spowalnia aplikacje no-code i jakie szybkie kroki przynoszą największy
+  heading: 'Raport: wydajność aplikacji no-code — benchmark i dobre praktyki'
+  subheading: >-
+    Co spowalnia aplikacje no-code i jakie szybkie kroki przynoszą największy
     efekt
 seo:
   title: Wydajność aplikacji no-code — benchmark i praktyczne wskazówki
-  description: Analiza typowych wąskich gardeł w aplikacjach no-code (baz danych,
-    API, komponenty), benchmarky i lista działań, które możesz wprowadzić w godzinę.
+  description: >-
+    Analiza typowych wąskich gardeł w aplikacjach no-code (baz danych, API,
+    komponenty), benchmarky i lista działań, które możesz wprowadzić w godzinę.
   keywords:
-  - no-code
-  - wydajność
-  - benchmark
-  - Airtable
-  - Bubble
+    - no-code
+    - wydajność
+    - benchmark
+    - Airtable
+    - Bubble
 meta:
   summaryBullets:
-  - "Werdykt: no-code działa świetnie dla MVP i narzędzi wewnętrznych, ale wymaga\
-    \ projektowania od początku."
-  - "Dla kogo: produktowo — szybki prototyp; technicznie — mały zespół z mechanizmem\
-    \ monitoringu."
-  - "Start: sprawdź zapytania i limity API, wprowadź caching, przełącz ciężkie operacje\
-    \ na backend."
+    - >-
+      Werdykt: no-code działa świetnie dla MVP i narzędzi wewnętrznych, ale
+      wymaga projektowania od początku.
+    - >-
+      Dla kogo: produktowo — szybki prototyp; technicznie — mały zespół z
+      mechanizmem monitoringu.
+    - >-
+      Start: sprawdź zapytania i limity API, wprowadź caching, przełącz ciężkie
+      operacje na backend.
   primaryCta:
     label: Dokumentacja Bubble — performance
-    href: https://manual.bubble.io/help-guides/maintaining-an-application/performance-and-scaling
-  updatedAt: "2026-01-14"
+    href: >-
+      https://manual.bubble.io/help-guides/maintaining-an-application/performance-and-scaling
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - wydajność
-  - benchmark
+    - no-code
+    - wydajność
+    - benchmark
 ---
 
 ## Obietnica decyzji — dla kogo ten raport

@@ -1,40 +1,40 @@
 ---
-title: "Typografia na webie bez kodu: jak dobrać fonty i skalę"
+title: 'Typografia na webie bez kodu: jak dobrać fonty i skalę'
 slug: typografia-na-webie-bez-kodu-fonty-skala
 path: /typografia-na-webie-bez-kodu-fonty-skala
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Typografia na webie bez kodu: jak dobrać fonty i skalę"
-  subheading: Proste reguły doboru krojów, wielkości i interlinii bez grzebania w
-    CSS
+  heading: 'Typografia na webie bez kodu: jak dobrać fonty i skalę'
+  subheading: Proste reguły doboru krojów, wielkości i interlinii bez grzebania w CSS
 seo:
   title: Typografia na webie bez kodu — dobór fontów i skali
-  description: Konkretne zasady typograficzne, które możesz wdrożyć w narzędziach
-    no-code — od bazy 16px po prosty system skalowania.
+  description: >-
+    Konkretne zasady typograficzne, które możesz wdrożyć w narzędziach no-code —
+    od bazy 16px po prosty system skalowania.
   keywords:
-  - typografia web
-  - dobór fontów
-  - type scale
-  - no-code design
+    - typografia web
+    - dobór fontów
+    - type scale
+    - no-code design
 meta:
   summaryBullets:
-  - "Werdykt: prosta skala + 1–2 fonty wystarczy w większości stron."
-  - "Dla kogo: właściciele stron, osoby pracujące w no-code, marketerzy."
-  - "Start: ustaw bazę 16px, dobierz ratio 1.25–1.33, sprawdź 66ch."
+    - 'Werdykt: prosta skala + 1–2 fonty wystarczy w większości stron.'
+    - 'Dla kogo: właściciele stron, osoby pracujące w no-code, marketerzy.'
+    - 'Start: ustaw bazę 16px, dobierz ratio 1.25–1.33, sprawdź 66ch.'
   primaryCta:
     label: Przewodnik web.dev o typografii
     href: https://web.dev/learn/design/typography
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - typografia
-  - no-code
-  - web
+    - typografia
+    - no-code
+    - web
 ---
 
 ## Co obiecuję i komu to pomaga

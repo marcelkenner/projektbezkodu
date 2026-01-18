@@ -1,44 +1,50 @@
 ---
-title: "Notion jako centrum operacyjne: automatyzacje, które mają sens (i te, które\
-  \ nie)"
+title: >-
+  Notion jako centrum operacyjne: automatyzacje, które mają sens (i te, które
+  nie)
 slug: notion-centrum-operacyjne-automatyzacje
 path: /notion-centrum-operacyjne-automatyzacje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Notion jako centrum operacyjne: automatyzacje, które mają sens"
-  subheading: Praktyczne wskazówki — co automatyzować w Notion, a czego lepiej nie
+  heading: 'Notion jako centrum operacyjne: automatyzacje, które mają sens'
+  subheading: >-
+    Praktyczne wskazówki — co automatyzować w Notion, a czego lepiej nie
     próbować
 seo:
   title: Notion jako centrum operacyjne — automatyzacje które działają
-  description: "Przewodnik po automatyzacjach w Notion: co warto zautomatyzować, kiedy\
-    \ sięgnąć po integratorów, a kiedy wybrać inne narzędzie."
+  description: >-
+    Przewodnik po automatyzacjach w Notion: co warto zautomatyzować, kiedy
+    sięgnąć po integratorów, a kiedy wybrać inne narzędzie.
   keywords:
-  - Notion
-  - automatyzacje
-  - integracje
-  - workflow
-  - synced databases
+    - Notion
+    - automatyzacje
+    - integracje
+    - workflow
+    - synced databases
 meta:
   summaryBullets:
-  - "Werdykt: Notion świetne do orchestrationu informacji, nie do transakcyjnego ERP."
-  - "Dla kogo: małe zespoły i product/marketing — tak. Duże systemy zamówień — raczej\
-    \ nie."
-  - "Start: zrób 10-minutowy audit bazy i ustaw jedno proste trigger-action."
+    - >-
+      Werdykt: Notion świetne do orchestrationu informacji, nie do
+      transakcyjnego ERP.
+    - >-
+      Dla kogo: małe zespoły i product/marketing — tak. Duże systemy zamówień —
+      raczej nie.
+    - 'Start: zrób 10-minutowy audit bazy i ustaw jedno proste trigger-action.'
   primaryCta:
     label: Zobacz integracje Notion
     href: https://www.notion.com/integrations
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - productivity
-  - automation
+    - productivity
+    - automation
   tags:
-  - Notion
-  - automatyzacje
-  - integracje
+    - Notion
+    - automatyzacje
+    - integracje
 ---
 
 ## Obietnica decyzji dla kogoś, kto chce użyć Notion jako hubu operacyjnego

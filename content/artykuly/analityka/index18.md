@@ -1,48 +1,52 @@
 ---
-title: "Consent Mode v2 i zgody: jak mierzyć uczciwie mimo ograniczeń cookies"
+title: 'Consent Mode v2 i zgody: jak mierzyć uczciwie mimo ograniczeń cookies'
 slug: consent-mode-v2-mierzenie-zgody
 path: /analityka/consent-mode-v2-mierzenie-zgody
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Consent Mode v2 i zgody: jak mierzyć uczciwie mimo ograniczeń cookies"
-  subheading: "Praktyczny przewodnik: co zmienia v2, kiedy modelowanie działa i co\
-    \ zrobić w małym sklepie"
+  heading: 'Consent Mode v2 i zgody: jak mierzyć uczciwie mimo ograniczeń cookies'
+  subheading: >-
+    Praktyczny przewodnik: co zmienia v2, kiedy modelowanie działa i co zrobić w
+    małym sklepie
   primaryCta:
     label: Oficjalny przewodnik Google
     href: https://developers.google.com/tag-platform/security/guides/consent
 seo:
   title: Consent Mode v2 — jak mierzyć przy ograniczeniach cookies
-  description: "Krótko i praktycznie: co to jest Consent Mode v2, jakie są tryby,\
-    \ progi modelowania GA4 i jak ustawić CMP by nie stracić danych."
+  description: >-
+    Krótko i praktycznie: co to jest Consent Mode v2, jakie są tryby, progi
+    modelowania GA4 i jak ustawić CMP by nie stracić danych.
   keywords:
-  - consent mode v2
-  - GA4
-  - modelowanie konwersji
-  - CMP
-  - analityka prywatność
+    - consent mode v2
+    - GA4
+    - modelowanie konwersji
+    - CMP
+    - analityka prywatność
 meta:
   summaryBullets:
-  - "Werdykt: implementuj v2, ale dobierz tryb do ruchu i potrzeb modelowania."
-  - "Dla kogo: duże serwisy i reklamodawcy → Advanced; małe sklepy → proste cele i\
-    \ serwer-side."
-  - "Start: w pierwszej kolejności sprawdź progi modelowania i ustaw CMP tak, by tagi\
-    \ ładowały się przed bannerem."
+    - 'Werdykt: implementuj v2, ale dobierz tryb do ruchu i potrzeb modelowania.'
+    - >-
+      Dla kogo: duże serwisy i reklamodawcy → Advanced; małe sklepy → proste
+      cele i serwer-side.
+    - >-
+      Start: w pierwszej kolejności sprawdź progi modelowania i ustaw CMP tak,
+      by tagi ładowały się przed bannerem.
   primaryCta:
     label: Przejdź do dokumentacji Google
     href: https://developers.google.com/tag-platform/security/guides/consent
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - analityka
-  - prywatność
+    - analityka
+    - prywatność
   tags:
-  - consent-mode
-  - GA4
-  - CMP
-  - cookieless
+    - consent-mode
+    - GA4
+    - CMP
+    - cookieless
 ---
 
 ## Obietnica i szybki werdykt

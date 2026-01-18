@@ -1,45 +1,51 @@
 ---
-title: "Raport: ROI no-code w dziale operacji"
+title: 'Raport: ROI no-code w dziale operacji'
 slug: raport-roi-no-code-operacji
 path: /raporty/roi-no-code-operacji
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Raport: ROI no-code w dziale operacji"
-  subheading: "Jak liczyć zwrot z projektów no-code: czas, błędy, lead time i koszty\
-    \ narzędzi."
+  heading: 'Raport: ROI no-code w dziale operacji'
+  subheading: >-
+    Jak liczyć zwrot z projektów no-code: czas, błędy, lead time i koszty
+    narzędzi.
 seo:
   title: ROI no-code w operacjach — krótki raport
-  description: Praktyczny przewodnik po tym, jak liczyć zwrot z inwestycji w narzędzia
+  description: >-
+    Praktyczny przewodnik po tym, jak liczyć zwrot z inwestycji w narzędzia
     no-code w dziale operacji, z przykładami i źródłami.
   keywords:
-  - no-code
-  - ROI
-  - operacje
-  - automatyzacja
-  - efficiency
+    - no-code
+    - ROI
+    - operacje
+    - automatyzacja
+    - efficiency
 meta:
   summaryBullets:
-  - "Werdykt: no-code daje najszybszy zwrot tam, gdzie liczy się czas i powtarzalność."
-  - "Dla kogo: najlepsze dla zespołów operacyjnych z powtarzalnymi procesami i krótkim\
-    \ time-to-value."
-  - "Start: prototyp w 1–2 tygodnie, prosty kalkulator ROI i pomiar czasu."
+    - >-
+      Werdykt: no-code daje najszybszy zwrot tam, gdzie liczy się czas i
+      powtarzalność.
+    - >-
+      Dla kogo: najlepsze dla zespołów operacyjnych z powtarzalnymi procesami i
+      krótkim time-to-value.
+    - 'Start: prototyp w 1–2 tygodnie, prosty kalkulator ROI i pomiar czasu.'
   primaryCta:
     label: Przeczytaj o ROI automatyzacji
     href: https://zapier.com/blog/roi-of-automation
   secondaryCta:
     label: Przykład TEI (Forrester)
-    href: https://www.businesswire.com/news/home/20250618188785/en/Total-Economic-Impact-TEI-Study-Reveals-181-ROI-and-Payback-in-Less-than-6-Months-for-Enterprises-Using-the-SnapLogic-Platform
-  updatedAt: "2026-01-15"
+    href: >-
+      https://www.businesswire.com/news/home/20250618188785/en/Total-Economic-Impact-TEI-Study-Reveals-181-ROI-and-Payback-in-Less-than-6-Months-for-Enterprises-Using-the-SnapLogic-Platform
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - ROI
-  - operacje
-  - automatyzacja
+    - no-code
+    - ROI
+    - operacje
+    - automatyzacja
 ---
 
 ## Obietnica decyzji i grupa czytelników

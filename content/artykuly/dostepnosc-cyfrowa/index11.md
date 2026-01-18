@@ -1,43 +1,45 @@
 ---
-title: "PDF i dokumenty na stronie: jak publikować treści w sposób dostępny"
+title: 'PDF i dokumenty na stronie: jak publikować treści w sposób dostępny'
 slug: pdf-i-dokumenty-na-stronie-dostepne
 path: /dostepnosc/pdf-i-dokumenty-na-stronie-dostepne
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "PDF i dokumenty na stronie: jak publikować treści w sposób dostępny"
-  subheading: "Praktyczny przewodnik: kiedy użyć PDF, jak go poprawić i jak szybko\
-    \ przetestować"
+  heading: 'PDF i dokumenty na stronie: jak publikować treści w sposób dostępny'
+  subheading: >-
+    Praktyczny przewodnik: kiedy użyć PDF, jak go poprawić i jak szybko
+    przetestować
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 15 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: HTML jest pierwszym wyborem; PDF tylko jeśli konieczny."
-  - "Szybkie działania: tagowanie, alt-text, poprawny porządek lektury."
-  - "Testy: użyj PAC i/lub Adobe Acrobat Pro do walidacji."
+    - 'Werdykt: HTML jest pierwszym wyborem; PDF tylko jeśli konieczny.'
+    - 'Szybkie działania: tagowanie, alt-text, poprawny porządek lektury.'
+    - 'Testy: użyj PAC i/lub Adobe Acrobat Pro do walidacji.'
   primaryCta:
     label: PDF Techniques (W3C)
     href: https://www.w3.org/TR/WCAG-TECHS/pdf.html
 seo:
-  title: "PDF i dokumenty: publikowanie dostępnych treści"
-  description: Jak zdecydować, czy publikować PDF, jak go poprawić pod WCAG/PDF/UA
-    i jak przetestować w 15 minut.
+  title: 'PDF i dokumenty: publikowanie dostępnych treści'
+  description: >-
+    Jak zdecydować, czy publikować PDF, jak go poprawić pod WCAG/PDF/UA i jak
+    przetestować w 15 minut.
   keywords:
-  - PDF dostępność
-  - WCAG
-  - PDF/UA
-  - dostępność cyfrowa
+    - PDF dostępność
+    - WCAG
+    - PDF/UA
+    - dostępność cyfrowa
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
+    - no-code
+    - accessibility
+    - wcag
 ---
 
 ## Obietnica i dla kogo

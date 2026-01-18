@@ -1,45 +1,49 @@
 ---
-title: "\"Human-in-the-loop\": jak zbudować automatyzację, która nie podejmuje ryzykownych\
-  \ decyzji sama"
+title: >-
+  "Human-in-the-loop": jak zbudować automatyzację, która nie podejmuje
+  ryzykownych decyzji sama
 slug: human-in-the-loop-bezpieczna-automatyzacja
 path: /automatyzacje/human-in-the-loop-bezpieczna-automatyzacja
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "\"Human-in-the-loop\": jak zbudować automatyzację, która nie podejmuje\
-    \ ryzykownych decyzji sama"
-  subheading: "Praktyczny przewodnik: kiedy automatyzować pre-work, a kiedy wymagać\
-    \ zatwierdzenia człowieka"
+  heading: >-
+    "Human-in-the-loop": jak zbudować automatyzację, która nie podejmuje
+    ryzykownych decyzji sama
+  subheading: >-
+    Praktyczny przewodnik: kiedy automatyzować pre-work, a kiedy wymagać
+    zatwierdzenia człowieka
 seo:
-  title: "\"Human-in-the-loop\": jak zbudować bezpieczną automatyzację"
-  description: "Kiedy trzymać człowieka w pętli decyzji: konkretne kryteria, szybkie\
-    \ starty i szablony akceptacji."
+  title: '"Human-in-the-loop": jak zbudować bezpieczną automatyzację'
+  description: >-
+    Kiedy trzymać człowieka w pętli decyzji: konkretne kryteria, szybkie starty
+    i szablony akceptacji.
   keywords:
-  - human-in-the-loop
-  - automatyzacja
-  - zatwierdzenia
-  - workflow
-  - HITL
+    - human-in-the-loop
+    - automatyzacja
+    - zatwierdzenia
+    - workflow
+    - HITL
 meta:
   summaryBullets:
-  - "Werdykt: stosuj HITL tam, gdzie błąd kosztuje więcej niż opóźnienie."
-  - "Dla kogo: procesy wrażliwe, zgodność, eskalacje decyzji."
-  - "Start: 5-minutowy checklist do wdrożenia kolejki akceptacji."
+    - 'Werdykt: stosuj HITL tam, gdzie błąd kosztuje więcej niż opóźnienie.'
+    - 'Dla kogo: procesy wrażliwe, zgodność, eskalacje decyzji.'
+    - 'Start: 5-minutowy checklist do wdrożenia kolejki akceptacji.'
   primaryCta:
     label: Przeczytaj raport NIST o Human-in-the-loop
     href: https://doi.org/10.6028/NIST.TN.2287
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - automatyzacja
-  - zarządzanie
+    - automatyzacja
+    - zarządzanie
   tags:
-  - HITL
-  - workflow
-  - compliance
+    - HITL
+    - workflow
+    - compliance
 ---
 
 ## Obietnica decyzji dla konkretnego czytelnika

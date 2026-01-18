@@ -1,42 +1,45 @@
 ---
-title: "WCAG w praktyce (no-code): jak spełniać wymagania bez programowania"
+title: 'WCAG w praktyce (no-code): jak spełniać wymagania bez programowania'
 slug: wcag-w-praktyce-no-code
 path: /dostepnosc/wcag-w-praktyce-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "WCAG w praktyce (no-code): jak spełniać wymagania bez programowania"
-  subheading: Krótkie, praktyczne kroki i checklisty dla osób, które nie chcą/delegują
+  heading: 'WCAG w praktyce (no-code): jak spełniać wymagania bez programowania'
+  subheading: >-
+    Krótkie, praktyczne kroki i checklisty dla osób, które nie chcą/delegują
     kodowanie
 seo:
   title: WCAG no-code — jak spełnić wymagania dostępności bez programowania
-  description: "Praktyczny przewodnik: co sprawdzić, jak poprawić i jakie narzędzia\
-    \ no-code użyć, żeby spełnić większość kryteriów WCAG."
+  description: >-
+    Praktyczny przewodnik: co sprawdzić, jak poprawić i jakie narzędzia no-code
+    użyć, żeby spełnić większość kryteriów WCAG.
   keywords:
-  - WCAG
-  - dostępność
-  - no-code
-  - kontrast
-  - alt text
+    - WCAG
+    - dostępność
+    - no-code
+    - kontrast
+    - alt text
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: Większość wymagań WCAG da się pokryć bez programowania."
-  - "Werdykt: Kryteria techniczne (np. ARIA, focus management) mogą wymagać wsparcia\
-    \ dev."
-  - "Krok po kroku: audit → priorytety → poprawki no-code → testy manualne."
+    - 'Werdykt: Większość wymagań WCAG da się pokryć bez programowania.'
+    - >-
+      Werdykt: Kryteria techniczne (np. ARIA, focus management) mogą wymagać
+      wsparcia dev.
+    - 'Krok po kroku: audit → priorytety → poprawki no-code → testy manualne.'
   primaryCta:
     label: Oficjalne WCAG (W3C)
     href: https://www.w3.org/WAI/standards-guidelines/wcag/
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - wcag
-  - accessibility
+    - no-code
+    - wcag
+    - accessibility
 ---
 
 ## Obietnica i grupa docelowa

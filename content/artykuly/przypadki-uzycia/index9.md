@@ -1,34 +1,37 @@
 ---
-title: Dashboard KPI dla marketingu — dane w jednym miejscu bez ręcznego klejenia
+title: >-
+  Dashboard KPI dla marketingu — dane w jednym miejscu bez ręcznego klejenia
   arkuszy
 slug: dashboard-kpi-marketingu
 path: /analityka/dashboard-kpi-marketingu
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: Dashboard KPI dla marketingu — dane w jednym miejscu bez ręcznego klejenia
+  heading: >-
+    Dashboard KPI dla marketingu — dane w jednym miejscu bez ręcznego klejenia
     arkuszy
   subheading: Spójne KPI, mniej ręcznej pracy, szybsze decyzje
 seo:
   title: Dashboard KPI dla marketingu — jak zbudować raport, który działa
-  description: Jak połączyć dane z reklam, GA4 i CRM do jednego dashboardu, ograniczyć
+  description: >-
+    Jak połączyć dane z reklam, GA4 i CRM do jednego dashboardu, ograniczyć
     ręczne prace i wybrać 5–7 KPI, które rzeczywiście napędzają decyzje.
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 10 min
   hasAffiliateLinks: false
   topics:
-  - dashboard
-  - KPI
-  - marketing
+    - dashboard
+    - KPI
+    - marketing
 taxonomy:
   categories:
-  - Marketing
+    - Marketing
   tags:
-  - KPI
-  - Dashboard
+    - KPI
+    - Dashboard
 ---
 
 ## Obietnica decyzji dla kogo i dlaczego

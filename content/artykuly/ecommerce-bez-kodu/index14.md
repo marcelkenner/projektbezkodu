@@ -1,42 +1,44 @@
 ---
-title: "Cennik i promocje: jak ustawiać rabaty bez psucia marży"
+title: 'Cennik i promocje: jak ustawiać rabaty bez psucia marży'
 slug: cennik-promocje-rabaty-bez-psucia-marza
 path: /cennik-promocje-rabaty-bez-psucia-marza
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Cennik i promocje: jak ustawiać rabaty bez psucia marży"
-  subheading: Praktyczne reguły dla sklepów online — kiedy rabat pomaga, a kiedy zabija
+  heading: 'Cennik i promocje: jak ustawiać rabaty bez psucia marży'
+  subheading: >-
+    Praktyczne reguły dla sklepów online — kiedy rabat pomaga, a kiedy zabija
     zysk.
 seo:
-  title: "Cennik i promocje: jak ustawiać rabaty bez psucia marży"
-  description: Sposoby na rabaty, progi, bundling i kupony tak, żeby nie niszczyć
+  title: 'Cennik i promocje: jak ustawiać rabaty bez psucia marży'
+  description: >-
+    Sposoby na rabaty, progi, bundling i kupony tak, żeby nie niszczyć
     unit-economics.
   keywords:
-  - rabaty
-  - marża
-  - promocje ecommerce
-  - bundling
-  - darmowa dostawa
+    - rabaty
+    - marża
+    - promocje ecommerce
+    - bundling
+    - darmowa dostawa
 meta:
   summaryBullets:
-  - "Werdykt: proste reguły, które chronią marżę"
-  - "Dla kogo: małe i średnie sklepy, chcące skalować bez utraty zysku"
-  - "Start: trzy szybkie kroki do wdrożenia"
+    - 'Werdykt: proste reguły, które chronią marżę'
+    - 'Dla kogo: małe i średnie sklepy, chcące skalować bez utraty zysku'
+    - 'Start: trzy szybkie kroki do wdrożenia'
   primaryCta:
     label: Shopify — zarządzanie rabatami
     href: https://help.shopify.com/en/manual/discounts/managing-discounts
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja e‑commerce
 taxonomy:
   categories:
-  - E-commerce
+    - E-commerce
   tags:
-  - cennik
-  - promocje
-  - marża
-  - pricing
+    - cennik
+    - promocje
+    - marża
+    - pricing
 ---
 
 ## Obietnica decyzji — co zrobisz w 10 minut

@@ -1,39 +1,39 @@
 ---
-title: "Sekcje: Oferta i korzyści"
+title: 'Sekcje: Oferta i korzyści'
 slug: sekcje-oferta-korzysci
 path: /artykuly/biblioteka-komponentow/sekcje-oferta-korzysci/
 type: template
 template: default
 draft: true
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Sekcje: Oferta i korzyści"
-  subheading: "Krótki przewodnik: jak zbudować sekcję, która sprzedaje (bez lania\
-    \ wody)"
+  heading: 'Sekcje: Oferta i korzyści'
+  subheading: 'Krótki przewodnik: jak zbudować sekcję, która sprzedaje (bez lania wody)'
 meta:
   summaryBullets:
-  - "Werdykt: korzyści > cechy, ale z dowodem i kontekstem."
-  - "Dla kogo: najlepsze dla stron produktowych i landingów sprzedażowych."
-  - "Start: napisz 3 konkretnych korzyści w 10 minut i przetestuj."
+    - 'Werdykt: korzyści > cechy, ale z dowodem i kontekstem.'
+    - 'Dla kogo: najlepsze dla stron produktowych i landingów sprzedażowych.'
+    - 'Start: napisz 3 konkretnych korzyści w 10 minut i przetestuj.'
   primaryCta:
     label: Jak napisać ofertę sprzedażową
     href: https://internetoweportfolio.pl/jak-napisac-oferte-sprzedazowa/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   author: Redakcja
 seo:
-  title: "Sekcje: Oferta i korzyści — jak pisać, testować, mierzyć"
-  description: "Praktyczny przewodnik po sekcji 'Oferta i korzyści' na stronie: co\
-    \ napisać, w jakiej kolejności i jak sprawdzić, czy działa."
+  title: 'Sekcje: Oferta i korzyści — jak pisać, testować, mierzyć'
+  description: >-
+    Praktyczny przewodnik po sekcji 'Oferta i korzyści' na stronie: co napisać,
+    w jakiej kolejności i jak sprawdzić, czy działa.
   keywords:
-  - oferta
-  - korzyści
-  - copywriting
-  - landing page
+    - oferta
+    - korzyści
+    - copywriting
+    - landing page
 taxonomy:
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Obietnica: co z tego wyniknie i dla kogo to działa

@@ -1,41 +1,46 @@
 ---
-title: "Animacje bez kodu: kiedy pomagają, a kiedy przeszkadzają"
+title: 'Animacje bez kodu: kiedy pomagają, a kiedy przeszkadzają'
 slug: animacje-bez-kodu-pomagaja-czy-przeszkadzaja
 path: /animacje/bez-kodu-pomagaja-czy-przeszkadzaja
 template: default
-date: "2026-01-15"
+date: '2026-01-15'
 draft: false
 hero:
-  heading: "Animacje bez kodu: kiedy pomagają, a kiedy przeszkadzają"
+  heading: 'Animacje bez kodu: kiedy pomagają, a kiedy przeszkadzają'
   subheading: Jak używać ruchu, żeby zwiększyć użyteczność, a nie ją zniszczyć
 seo:
   title: Animacje bez kodu — kiedy stosować animacje w UX
-  description: "Praktyczny przewodnik po animacjach bez kodu: kiedy dodają wartość,\
-    \ a kiedy przeszkadzają. Zasady, przykłady i pierwszy krok."
+  description: >-
+    Praktyczny przewodnik po animacjach bez kodu: kiedy dodają wartość, a kiedy
+    przeszkadzają. Zasady, przykłady i pierwszy krok.
   keywords:
-  - animacje bez kodu
-  - motion design
-  - Lottie
-  - prefers-reduced-motion
+    - animacje bez kodu
+    - motion design
+    - Lottie
+    - prefers-reduced-motion
 meta:
   summaryBullets:
-  - "Werdykt: używaj do informacji i feedbacku, unikaj do ozdoby."
-  - "Dla kogo: product designerzy i właściciele stron, którzy chcą szybko prototypować\
-    \ ruch."
-  - "Start: osadzaj Lottie jako embed i ustaw wykrywanie preferencji reduced-motion."
+    - 'Werdykt: używaj do informacji i feedbacku, unikaj do ozdoby.'
+    - >-
+      Dla kogo: product designerzy i właściciele stron, którzy chcą szybko
+      prototypować ruch.
+    - >-
+      Start: osadzaj Lottie jako embed i ustaw wykrywanie preferencji
+      reduced-motion.
   primaryCta:
     label: LottieFiles — embed bez kodu
-    href: https://lottiefiles.com/blog/working-with-lottie-animations/embed-lottie-animations-without-code
-  updatedAt: "2026-01-15"
+    href: >-
+      https://lottiefiles.com/blog/working-with-lottie-animations/embed-lottie-animations-without-code
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - Design bez kodu
-  - Motion
+    - Design bez kodu
+    - Motion
   tags:
-  - animacje
-  - UX
-  - accessibility
+    - animacje
+    - UX
+    - accessibility
 ---
 
 ## Obietnica decyzji — dla kogo i co tu znajdziesz

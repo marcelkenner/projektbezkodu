@@ -1,42 +1,45 @@
 ---
-title: "Content architecture: CMS w no-code (Webflow/WordPress/Headless) i prawdziwe\
-  \ konsekwencje wyboru"
+title: >-
+  Content architecture: CMS w no-code (Webflow/WordPress/Headless) i prawdziwe
+  konsekwencje wyboru
 slug: architektura-tresci-cms-no-code-konsekwencje
 path: /architektura/architektura-tresci-cms-no-code-konsekwencje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Content architecture: CMS w no-code (Webflow/WordPress/Headless) i prawdziwe\
-    \ konsekwencje wyboru"
+  heading: >-
+    Content architecture: CMS w no-code (Webflow/WordPress/Headless) i prawdziwe
+    konsekwencje wyboru
   subheading: Krótki przewodnik decyzji dla zespołów content marketingu i produktowych
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Dokumentacja Webflow CMS
     href: https://webflow.com/cms
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
-  title: "Content architecture: Webflow, WordPress czy Headless — co wybrać?"
-  description: "Porównanie konsekwencji wyboru Webflow, WordPress i headless CMS dla\
-    \ content marketingu: kontrola designu, workflow, integracje, koszty i czas wdrożenia."
+  title: 'Content architecture: Webflow, WordPress czy Headless — co wybrać?'
+  description: >-
+    Porównanie konsekwencji wyboru Webflow, WordPress i headless CMS dla content
+    marketingu: kontrola designu, workflow, integracje, koszty i czas wdrożenia.
   keywords:
-  - content architecture
-  - Webflow
-  - WordPress
-  - headless CMS
-  - CMS no-code
+    - content architecture
+    - Webflow
+    - WordPress
+    - headless CMS
+    - CMS no-code
 taxonomy:
   categories:
-  - content
-  - tech
+    - content
+    - tech
   tags:
-  - CMS
-  - No-code
-  - Headless
+    - CMS
+    - No-code
+    - Headless
 ---
 
 ## Obietnica decyzji

@@ -1,47 +1,52 @@
 ---
-title: "Tworzenie miniatur i okładek bez kodu: szablony, zasady, automatyzacje"
+title: 'Tworzenie miniatur i okładek bez kodu: szablony, zasady, automatyzacje'
 slug: miniatury-okladki-bez-kodu
 path: /miniatury-okladki-bez-kodu
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Tworzenie miniatur i okładek bez kodu: szablony, zasady, automatyzacje"
-  subheading: Szybkie przepisy na klikające miniatury i powtarzalny workflow bez programowania
+  heading: 'Tworzenie miniatur i okładek bez kodu: szablony, zasady, automatyzacje'
+  subheading: >-
+    Szybkie przepisy na klikające miniatury i powtarzalny workflow bez
+    programowania
 seo:
   title: Tworzenie miniatur i okładek bez kodu — szablony i automatyzacje
-  description: Jak z szablonów w Canva/Adobe Express zbudować szybki, powtarzalny
-    proces tworzenia miniatur i okładek — bez kodu.
+  description: >-
+    Jak z szablonów w Canva/Adobe Express zbudować szybki, powtarzalny proces
+    tworzenia miniatur i okładek — bez kodu.
   keywords:
-  - miniatury
-  - okładki
-  - no-code
-  - szablony
-  - automatyzacje
+    - miniatury
+    - okładki
+    - no-code
+    - szablony
+    - automatyzacje
   canonical: https://www.adobe.com/express/create/thumbnail/youtube
 meta:
   difficulty: Łatwy — podstawy w 15 min
   duration: 15-60 min (pierwszy szablon 15 min)
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   primaryCta:
     label: Zacznij w Adobe Express — darmowe szablony
     href: https://www.adobe.com/express/create/thumbnail/youtube
   summaryBullets:
-  - "Szybki werdykt: da się tworzyć profesjonalne miniatury bez kodu; najwięcej wygody\
-    \ dają szablony + proste automatyzacje."
-  - "Start w 5–15 min: wybierz szablon, podmień grafikę, ustal warstwy brandu."
-  - "Automatyzacje: proste eksporty i zapisy są łatwe, masowa generacja wymaga narzędzia\
-    \ specjalistycznego."
+    - >-
+      Szybki werdykt: da się tworzyć profesjonalne miniatury bez kodu; najwięcej
+      wygody dają szablony + proste automatyzacje.
+    - 'Start w 5–15 min: wybierz szablon, podmień grafikę, ustal warstwy brandu.'
+    - >-
+      Automatyzacje: proste eksporty i zapisy są łatwe, masowa generacja wymaga
+      narzędzia specjalistycznego.
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - miniatury
-  - szablony
-  - automatyzacje
+    - no-code
+    - miniatury
+    - szablony
+    - automatyzacje
 ---
 
 ## Obietnica decyzji

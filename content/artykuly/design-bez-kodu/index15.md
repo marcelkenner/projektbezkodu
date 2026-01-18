@@ -1,38 +1,38 @@
 ---
-title: "Testy użyteczności „na szybko”: scenariusz i checklisty"
+title: 'Testy użyteczności „na szybko”: scenariusz i checklisty'
 slug: testy-uzytecznosci-na-szybko-scenariusz-checklisty
 path: /testy-uzytecznosci-na-szybko-scenariusz-checklisty
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Testy użyteczności „na szybko”: scenariusz i checklisty"
+  heading: 'Testy użyteczności „na szybko”: scenariusz i checklisty'
   subheading: Szybkie scenariusze i checklisty, które da się wdrożyć w godzinę.
 seo:
   title: Testy użyteczności na szybko — scenariusz, checklisty, szybki start
   description: Jak zebrać feedback bez budżetu i nie pogubić się w wnioskach.
   keywords:
-  - testy użyteczności
-  - guerrilla testing
-  - checklista UX
-  - szybkie testy
+    - testy użyteczności
+    - guerrilla testing
+    - checklista UX
+    - szybkie testy
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przeczytaj przewodnik Guerrilla Testing
     href: https://maze.co/guides/usability-testing/guerilla
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - Design bez kodu
-  - UX
+    - Design bez kodu
+    - UX
   tags:
-  - usability
-  - research
-  - checklista
+    - usability
+    - research
+    - checklista
 ---
 
 ## Obietnica i dla kogo to działa

@@ -1,46 +1,52 @@
 ---
-title: "Formularze dostępne dla wszystkich: walidacje, etykiety i komunikaty błędów"
+title: 'Formularze dostępne dla wszystkich: walidacje, etykiety i komunikaty błędów'
 slug: dostepnosc-formularze-walidacje-etykiety-bledy
 path: /dostepnosc/formularze-walidacje-etykiety-bledy
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Formularze dostępne dla wszystkich: walidacje, etykiety i komunikaty błędów"
-  subheading: Praktyczne zasady, które skracają czas naprawy formularza i zmniejszają
+  heading: 'Formularze dostępne dla wszystkich: walidacje, etykiety i komunikaty błędów'
+  subheading: >-
+    Praktyczne zasady, które skracają czas naprawy formularza i zmniejszają
     liczbę porzuceń
 seo:
-  title: "Formularze dostępne: walidacje, etykiety, komunikaty błędów"
-  description: Jak zrobić formularz, który działa dla wszystkich — krótkie zasady
-    dotyczące etykiet, required/aria, walidacji i przyjaznych komunikatów błędów.
+  title: 'Formularze dostępne: walidacje, etykiety, komunikaty błędów'
+  description: >-
+    Jak zrobić formularz, który działa dla wszystkich — krótkie zasady dotyczące
+    etykiet, required/aria, walidacji i przyjaznych komunikatów błędów.
   keywords:
-  - formularze dostępność
-  - walidacja formularzy
-  - etykiety ARIA
-  - komunikaty błędów
+    - formularze dostępność
+    - walidacja formularzy
+    - etykiety ARIA
+    - komunikaty błędów
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 8 min
   difficulty: łatwy dla productu / średni dla implementacji
   summaryBullets:
-  - "Werdykt: Zrób label dla każdego pola — to najtańsza i najskuteczniejsza poprawka."
-  - "Werdykt: Walidacja powinna być przyjazna i możliwa bez JavaScript — priorytet:\
-    \ server-side + klient-friendly UI."
-  - "Werdykt: Komunikaty błędów muszą być programowo powiązane z polem i kierować\
-    \ do poprawki."
+    - >-
+      Werdykt: Zrób label dla każdego pola — to najtańsza i najskuteczniejsza
+      poprawka.
+    - >-
+      Werdykt: Walidacja powinna być przyjazna i możliwa bez JavaScript —
+      priorytet: server-side + klient-friendly UI.
+    - >-
+      Werdykt: Komunikaty błędów muszą być programowo powiązane z polem i
+      kierować do poprawki.
   primaryCta:
     label: Przeczytaj wytyczne o walidacji i odzyskiwaniu błędów
     href: https://webaim.org/techniques/formvalidation/
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
+    - no-code
+    - accessibility
+    - wcag
 ---
 
 ## Obietnica decyzji: co zrobisz po 5–15 minutach

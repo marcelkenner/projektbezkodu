@@ -1,55 +1,65 @@
 ---
-title: "AI w no-code dla freelancerów: najszybsze automaty, które realnie zdejmują\
-  \ z głowy rutynę"
+title: >-
+  AI w no-code dla freelancerów: najszybsze automaty, które realnie zdejmują z
+  głowy rutynę
 slug: ai-no-code-freelancerzy-automaty
 path: /artykuly/ai/ai-no-code-freelancerzy-automaty
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w no-code dla freelancerów: najszybsze automaty, które realnie zdejmują\
-    \ z głowy rutynę"
-  subheading: Krótkie przepisy na automaty, które oszczędzają czas i nie wymagają
+  heading: >-
+    AI w no-code dla freelancerów: najszybsze automaty, które realnie zdejmują z
+    głowy rutynę
+  subheading: >-
+    Krótkie przepisy na automaty, które oszczędzają czas i nie wymagają
     programowania.
   primaryCta:
     label: Czytaj ranking platform
-    href: https://nocodemaster.pl/no-code/top-10-najlepszych-platform-no-code-do-automatyzacji-w-2025-kompletny-ranking/
+    href: >-
+      https://nocodemaster.pl/no-code/top-10-najlepszych-platform-no-code-do-automatyzacji-w-2025-kompletny-ranking/
 seo:
   title: AI w no-code dla freelancerów — szybkie automaty i konkretne wskazówki
-  description: Praktyczny przewodnik po narzędziach no-code + AI dla freelancerów.
-    Co automatyzować, jak zacząć w 10–30 minut i które rozwiązanie wybrać do prostych
-    zadań.
+  description: >-
+    Praktyczny przewodnik po narzędziach no-code + AI dla freelancerów. Co
+    automatyzować, jak zacząć w 10–30 minut i które rozwiązanie wybrać do
+    prostych zadań.
   keywords:
-  - no-code
-  - automatyzacja
-  - freelancer
-  - AI
-  - Zapier
-  - Make
-  - n8n
+    - no-code
+    - automatyzacja
+    - freelancer
+    - AI
+    - Zapier
+    - Make
+    - n8n
 meta:
   summaryBullets:
-  - "Werdykt: realne oszczędności czasu dla freelancerów wydających >3 godziny tygodniowo\
-    \ na rutynę."
-  - "Dla kogo: freelancer, który chce zautomatyzować ofertowanie, faktury, klienta\
-    \ onboarding."
-  - "Start: zrób pierwszy 'zap' lub scenariusz w 30 minut — instrukcja w tekście."
+    - >-
+      Werdykt: realne oszczędności czasu dla freelancerów wydających >3 godziny
+      tygodniowo na rutynę.
+    - >-
+      Dla kogo: freelancer, który chce zautomatyzować ofertowanie, faktury,
+      klienta onboarding.
+    - >-
+      Start: zrób pierwszy 'zap' lub scenariusz w 30 minut — instrukcja w
+      tekście.
   primaryCta:
     label: Pełny ranking narzędzi no-code
-    href: https://nocodemaster.pl/no-code/top-10-najlepszych-platform-no-code-do-automatyzacji-w-2025-kompletny-ranking/
-  updatedAt: "2026-01-14"
+    href: >-
+      https://nocodemaster.pl/no-code/top-10-najlepszych-platform-no-code-do-automatyzacji-w-2025-kompletny-ranking/
+  updatedAt: '2026-01-14'
   duration: 10-60 min (pierwszy automatyzacja)
   author: Redakcja
 taxonomy:
   categories:
-  - AI
-  - No-code
-  - Freelancing
+    - AI
+    - No-code
+    - Freelancing
   tags:
-  - automatyzacja
-  - zapier
-  - make
-  - n8n
+    - automatyzacja
+    - zapier
+    - make
+    - n8n
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

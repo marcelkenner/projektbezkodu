@@ -1,48 +1,53 @@
 ---
-title: "Architektura danych: schematy, relacje, normalizacja — w no-code też ma znaczenie"
+title: >-
+  Architektura danych: schematy, relacje, normalizacja — w no-code też ma
+  znaczenie
 slug: architektura-danych-no-code
 path: /architektura/architektura-danych-no-code
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Architektura danych: schematy, relacje, normalizacja — w no-code też ma\
-    \ znaczenie"
-  subheading: Jak projektować tabele i relacje tak, by nie tworzyć długotrwałych hacków,
+  heading: >-
+    Architektura danych: schematy, relacje, normalizacja — w no-code też ma
+    znaczenie
+  subheading: >-
+    Jak projektować tabele i relacje tak, by nie tworzyć długotrwałych hacków,
     także w narzędziach no‑code
 meta:
   summaryBullets:
-  - "Werdykt: proste reguły projektu ratują czas i koszty."
-  - "Dla kogo: zespoły produktowe, analitycy, budowniczowie no‑code."
-  - "Start: zrób model na papierze, potem importuj — nie na odwrót."
+    - 'Werdykt: proste reguły projektu ratują czas i koszty.'
+    - 'Dla kogo: zespoły produktowe, analitycy, budowniczowie no‑code.'
+    - 'Start: zrób model na papierze, potem importuj — nie na odwrót.'
   primaryCta:
-    label: "Przewodnik: Projektowanie w Airtable"
+    label: 'Przewodnik: Projektowanie w Airtable'
     href: https://www.airtable.com/guides/build
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: średni
   duration: 15–45 min
   author: Redakcja
   hasAffiliateLinks: false
 seo:
-  title: "Architektura danych: schematy i normalizacja — także w no‑code"
-  description: Praktyczny przewodnik po projektowaniu schematów i relacji danych —
-    kiedy normalizować, kiedy denormalizować i jak to działa w narzędziach no‑code.
+  title: 'Architektura danych: schematy i normalizacja — także w no‑code'
+  description: >-
+    Praktyczny przewodnik po projektowaniu schematów i relacji danych — kiedy
+    normalizować, kiedy denormalizować i jak to działa w narzędziach no‑code.
   keywords:
-  - architektura danych
-  - normalizacja
-  - no-code
-  - schemat danych
-  - relacje
+    - architektura danych
+    - normalizacja
+    - no-code
+    - schemat danych
+    - relacje
 taxonomy:
   categories:
-  - Dane
-  - No‑Code
-  - Architektura
+    - Dane
+    - No‑Code
+    - Architektura
   tags:
-  - normalizacja
-  - denormalizacja
-  - Airtable
-  - Notion
+    - normalizacja
+    - denormalizacja
+    - Airtable
+    - Notion
 ---
 
 ## Obietnica decyzji (dla kogo i co zrobisz)

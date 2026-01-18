@@ -1,46 +1,52 @@
 ---
-title: "Biblioteka zasobów kreatywnych: ikony, ilustracje, mockupy i jak je ogarniać"
+title: 'Biblioteka zasobów kreatywnych: ikony, ilustracje, mockupy i jak je ogarniać'
 slug: zasoby-kreatywne-ikony-mockupy
 path: /zasoby-kreatywne-ikony-mockupy
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: Jak zorganizować bibliotekę ikon, ilustracji i mockupów, żeby nie kreować
+  heading: >-
+    Jak zorganizować bibliotekę ikon, ilustracji i mockupów, żeby nie kreować
     bałaganu
-  subheading: Praktyczny przewodnik dla projektantów, marketerów i właścicieli małych
-    firm
+  subheading: Praktyczny przewodnik dla projektantów, marketerów i właścicieli małych firm
 meta:
   summaryBullets:
-  - "Werdykt: Szybki porządek w bibliotece zasobów to mniej czasu do produkcji i mniejsze\
-    \ ryzyko problemów licencyjnych."
-  - "Najważniejsze decyzje: wybierz źródła pod kątem licencji, formatu i procesu aktualizacji."
-  - "Start w 15 minut: struktura folderów + manifest plików + podstawowa polityka\
-    \ licencyjna."
+    - >-
+      Werdykt: Szybki porządek w bibliotece zasobów to mniej czasu do produkcji
+      i mniejsze ryzyko problemów licencyjnych.
+    - >-
+      Najważniejsze decyzje: wybierz źródła pod kątem licencji, formatu i
+      procesu aktualizacji.
+    - >-
+      Start w 15 minut: struktura folderów + manifest plików + podstawowa
+      polityka licencyjna.
   primaryCta:
     label: Czytaj o Canva Mockups
-    href: https://www.canva.com/newsroom/news/canva-launches-smartmockups-tool-to-bring-your-designs-to-life/
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.canva.com/newsroom/news/canva-launches-smartmockups-tool-to-bring-your-designs-to-life/
+  updatedAt: '2026-01-14'
   author: Redakcja
   duration: 7 min
   hasAffiliateLinks: false
 seo:
   title: Biblioteka zasobów kreatywnych — ikony, ilustracje, mockupy
-  description: Jak zorganizować, licencjonować i szybko używać ikon, ilustracji i
-    mockupów w projektach — proste reguły i checklisty.
+  description: >-
+    Jak zorganizować, licencjonować i szybko używać ikon, ilustracji i mockupów
+    w projektach — proste reguły i checklisty.
   keywords:
-  - ikony
-  - illustracje
-  - mockupy
-  - biblioteka zasobów
-  - licencje
-  - design system
+    - ikony
+    - illustracje
+    - mockupy
+    - biblioteka zasobów
+    - licencje
+    - design system
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - creative
+    - no-code
+    - creative
 ---
 
 Obietnica decyzji: po przeczytaniu wiesz, które źródła wybrać i jak uporządkować bibliotekę, żebyś szybciej tworzył materiały i nie wpadł w pułapki licencyjne.

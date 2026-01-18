@@ -1,41 +1,44 @@
 ---
-title: "Bezpieczeństwo i uprawnienia w CMS bez kodu: praktyczny przewodnik"
+title: 'Bezpieczeństwo i uprawnienia w CMS bez kodu: praktyczny przewodnik'
 slug: bezpieczenstwo-uprawnien-cms-no-code
 path: /bezpieczenstwo-uprawnien-cms-no-code
 template: default
 draft: true
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Bezpieczeństwo i uprawnienia w CMS bez kodu: praktyczny przewodnik"
-  subheading: Jak skonfigurować dostęp, uniknąć przecieku danych i trzymać porządek
-    ról bez pisania kodu
+  heading: 'Bezpieczeństwo i uprawnienia w CMS bez kodu: praktyczny przewodnik'
+  subheading: >-
+    Jak skonfigurować dostęp, uniknąć przecieku danych i trzymać porządek ról
+    bez pisania kodu
 seo:
   title: Bezpieczeństwo i uprawnienia w CMS bez kodu — poradnik
-  description: "Praktyczne decyzje i kroki dla zespołów używających no-code CMS: model\
-    \ uprawnień, uwierzytelnianie, ochrona zasobów i integracje."
+  description: >-
+    Praktyczne decyzje i kroki dla zespołów używających no-code CMS: model
+    uprawnień, uwierzytelnianie, ochrona zasobów i integracje.
   keywords:
-  - CMS bez kodu
-  - bezpieczeństwo CMS
-  - uprawnienia
-  - RBAC
-  - no-code security
+    - CMS bez kodu
+    - bezpieczeństwo CMS
+    - uprawnienia
+    - RBAC
+    - no-code security
 meta:
   summaryBullets:
-  - "Werdykt: praktyczne decyzje dla małych i średnich zespołów."
-  - "Dla kogo: redakcje, marketing, agencje, małe sklepy."
-  - "Start: 5-minutowy checklist i jedno krytyczne ustawienie."
+    - 'Werdykt: praktyczne decyzje dla małych i średnich zespołów.'
+    - 'Dla kogo: redakcje, marketing, agencje, małe sklepy.'
+    - 'Start: 5-minutowy checklist i jedno krytyczne ustawienie.'
   primaryCta:
     label: Zobacz wytyczne OWASP
-    href: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-  updatedAt: "2026-01-15"
+    href: >-
+      https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+  updatedAt: '2026-01-15'
   duration: 10 min
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - bezpieczenstwo
-  - cms
-  - no-code
+    - bezpieczenstwo
+    - cms
+    - no-code
 ---
 
 ## Obietnica i do kogo to skierowane

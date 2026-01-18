@@ -1,36 +1,37 @@
 ---
 slug: skalowanie-mvp-bez-przepisywania
-title: "Skalowanie: jak rosnąć z MVP do produktu bez przepisywania wszystkiego"
+title: 'Skalowanie: jak rosnąć z MVP do produktu bez przepisywania wszystkiego'
 path: /skalowanie-mvp-bez-przepisywania
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Skalowanie: jak rosnąć z MVP do produktu bez przepisywania wszystkiego"
+  heading: 'Skalowanie: jak rosnąć z MVP do produktu bez przepisywania wszystkiego'
   subheading: Praktyczne decyzje architektoniczne i pierwszy krok
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://martinfowler.com/bliki/StranglerFigApplication.html
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   title: Skalowanie MVP do produktu bez przepisywania wszystkiego
-  description: "Kiedy i jak rosnąć z MVP do produktu: stopniowe podejście, single\
-    \ source of truth i strangler pattern."
+  description: >-
+    Kiedy i jak rosnąć z MVP do produktu: stopniowe podejście, single source of
+    truth i strangler pattern.
   keywords:
-  - MVP
-  - skala produktu
-  - strangler pattern
-  - single source of truth
-  - architektura
+    - MVP
+    - skala produktu
+    - strangler pattern
+    - single source of truth
+    - architektura
 taxonomy:
   categories:
-  - architektura
-  - skala
+    - architektura
+    - skala
 ---
 
 ## Obietnica decyzji dla zespołu technicznym i produktowym

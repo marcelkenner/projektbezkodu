@@ -1,30 +1,33 @@
 ---
-title: "Zbieranie leadów i automatyzacje: formularz, scoring i follow-up bez kodu"
+title: 'Zbieranie leadów i automatyzacje: formularz, scoring i follow-up bez kodu'
 slug: zbieranie-leadow-formularz-scoring-follow-up-bez-kodu
 path: /zbieranie-leadow/formularz-scoring-follow-up-bez-kodu
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Zbieranie leadów i automatyzacje: formularz, scoring i follow-up bez kodu"
-  subheading: "Szybki przewodnik: od formularza do przekazania leadu — bez programisty"
+  heading: 'Zbieranie leadów i automatyzacje: formularz, scoring i follow-up bez kodu'
+  subheading: 'Szybki przewodnik: od formularza do przekazania leadu — bez programisty'
 seo:
   title: Zbieranie leadów i automatyzacje — formularz, scoring i follow-up
-  description: Jak zebrać i rozsegregować leady oraz ustawić automatyczny follow-up
-    bez grzebania w kodzie.
+  description: >-
+    Jak zebrać i rozsegregować leady oraz ustawić automatyczny follow-up bez
+    grzebania w kodzie.
 meta:
   difficulty: początkujący-średni
   duration: 15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybkie wdrożenie bez kodu — najlepsze dla marketingu SMB i startupów."
-  - "Największe ryzyko: brak integracji z niestandardowym systemem CRM."
+    - >-
+      Werdykt: szybkie wdrożenie bez kodu — najlepsze dla marketingu SMB i
+      startupów.
+    - 'Największe ryzyko: brak integracji z niestandardowym systemem CRM.'
 taxonomy:
   categories:
-  - marketing
-  - automatyzacje
+    - marketing
+    - automatyzacje
 ---
 
 ## Krótka obietnica i dla kogo to jest

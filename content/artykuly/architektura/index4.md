@@ -1,41 +1,45 @@
 ---
-title: "Single source of truth: gdzie trzymać dane, żeby nie zabić się duplikatami"
+title: 'Single source of truth: gdzie trzymać dane, żeby nie zabić się duplikatami'
 slug: single-source-of-truth-gdzie-trzymac-dane-bez-duplikatow
 path: /single-source-of-truth-gdzie-trzymac-dane-bez-duplikatow
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Single source of truth: gdzie trzymać dane, żeby nie zabić się duplikatami"
-  subheading: Proste reguły wyboru miejsca przechowywania danych — dla zespołów produktowych
-    i architektów
+  heading: 'Single source of truth: gdzie trzymać dane, żeby nie zabić się duplikatami'
+  subheading: >-
+    Proste reguły wyboru miejsca przechowywania danych — dla zespołów
+    produktowych i architektów
 seo:
   title: Single source of truth — jak i gdzie trzymać dane
-  description: "Praktyczny przewodnik: SSOT, MDM, event store i data warehouse — kiedy\
-    \ wybrać które rozwiązanie."
+  description: >-
+    Praktyczny przewodnik: SSOT, MDM, event store i data warehouse — kiedy
+    wybrać które rozwiązanie.
   keywords:
-  - single source of truth
-  - SSOT
-  - master data management
-  - data architecture
+    - single source of truth
+    - SSOT
+    - master data management
+    - data architecture
 meta:
   summaryBullets:
-  - "Werdykt: jedno źródło prawdy działa najlepiej, jeśli zaakceptujesz kompromisy"
-  - "Dla kogo: ma sens dla systemów z wieloma konsumentami danych"
-  - "Start: wybierz system rekordu i wyegzekwuj przepływy"
-  - "Ryzyko: vendor lock-in i koszty synchronizacji"
+    - >-
+      Werdykt: jedno źródło prawdy działa najlepiej, jeśli zaakceptujesz
+      kompromisy
+    - 'Dla kogo: ma sens dla systemów z wieloma konsumentami danych'
+    - 'Start: wybierz system rekordu i wyegzekwuj przepływy'
+    - 'Ryzyko: vendor lock-in i koszty synchronizacji'
   primaryCta:
     label: Czytaj o różnicy SOR i SOT
     href: https://www.ibm.com/think/topics/system-of-record-vs-source-of-truth
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - architektura
-  - data
+    - architektura
+    - data
   tags:
-  - SSOT
-  - MDM
-  - event-sourcing
+    - SSOT
+    - MDM
+    - event-sourcing
 ---
 
 ## Obietnica decyzji dla kogo i po co

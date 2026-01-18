@@ -1,47 +1,53 @@
 ---
-title: "Koszty architektury no-code: gdzie uciekają budżety (operacje, taski, transfer,\
-  \ limity)"
+title: >-
+  Koszty architektury no-code: gdzie uciekają budżety (operacje, taski,
+  transfer, limity)
 slug: koszty-architektury-no-code
 path: /architektura/koszty-architektury-no-code
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Koszty architektury no-code: gdzie uciekają budżety (operacje, taski,\
-    \ transfer, limity)"
-  subheading: "Krótki przewodnik dla founderów: co monitorować, żeby automatyzacje\
-    \ nie zjadły budżetu"
+  heading: >-
+    Koszty architektury no-code: gdzie uciekają budżety (operacje, taski,
+    transfer, limity)
+  subheading: >-
+    Krótki przewodnik dla founderów: co monitorować, żeby automatyzacje nie
+    zjadły budżetu
   primaryCta:
     label: Sprawdź cenniki Zapier
     href: https://zapier.com/blog/zapier-pricing/
 seo:
   title: Koszty architektury no-code — gdzie uciekają budżety
-  description: Jak operacje, taski, transfer i limity zmieniają się w koszty na Zapier,
+  description: >-
+    Jak operacje, taski, transfer i limity zmieniają się w koszty na Zapier,
     Make i Bubble. Co monitorować i jak zacząć.
   keywords:
-  - no-code koszty
-  - zapier taski
-  - make operacje
-  - bubble workload
-  - architektura no-code
+    - no-code koszty
+    - zapier taski
+    - make operacje
+    - bubble workload
+    - architektura no-code
   canonical: https://zapier.com/blog/zapier-pricing/
 meta:
   difficulty: średni
   duration: 5-30 min
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   primaryCta:
     label: Sprawdź cenniki Zapier
     href: https://zapier.com/blog/zapier-pricing/
   summaryBullets:
-  - "Werdykt: na start tanio, na skali bolesne koszty operacyjne"
-  - "Dla kogo: founderzy MVP, produkty z dużym wolumenem zdarzeń i zespoły operacyjne"
-  - "Start: policz taski/operacje, ustaw alerty i testuj przyrost kosztów"
+    - 'Werdykt: na start tanio, na skali bolesne koszty operacyjne'
+    - >-
+      Dla kogo: founderzy MVP, produkty z dużym wolumenem zdarzeń i zespoły
+      operacyjne
+    - 'Start: policz taski/operacje, ustaw alerty i testuj przyrost kosztów'
   topics:
-  - no-code
-  - koszty
-  - automatyzacje
+    - no-code
+    - koszty
+    - automatyzacje
 ---
 
 ## Szybki werdykt dla founderów

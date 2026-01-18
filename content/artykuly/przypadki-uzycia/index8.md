@@ -1,48 +1,55 @@
 ---
-title: "Onboarding użytkownika: maile, checklisty i onboarding flow, które dowożą\
-  \ aktywację"
+title: >-
+  Onboarding użytkownika: maile, checklisty i onboarding flow, które dowożą
+  aktywację
 slug: onboarding-uzytkownika-maile-checklisty-aktywacja
 path: /onboarding/uzytkownika-maile-checklisty-aktywacja
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Onboarding użytkownika: maile, checklisty i onboarding flow, które dowożą\
-    \ aktywację"
-  subheading: Praktyczny przewodnik dla PM-ów i product-led growth—szybkie decyzje
-    i konkretne kroki.
+  heading: >-
+    Onboarding użytkownika: maile, checklisty i onboarding flow, które dowożą
+    aktywację
+  subheading: >-
+    Praktyczny przewodnik dla PM-ów i product-led growth—szybkie decyzje i
+    konkretne kroki.
 seo:
-  title: "Onboarding: maile, checklisty i flow, które dowożą aktywację"
-  description: Jak zbudować sekwencję maili, checklistę i flow w aplikacji, które
-    skracają Time-to-Value i podnoszą activation rate.
+  title: 'Onboarding: maile, checklisty i flow, które dowożą aktywację'
+  description: >-
+    Jak zbudować sekwencję maili, checklistę i flow w aplikacji, które skracają
+    Time-to-Value i podnoszą activation rate.
   keywords:
-  - onboarding
-  - activation rate
-  - checklist
-  - onboarding emails
-  - product-led
+    - onboarding
+    - activation rate
+    - checklist
+    - onboarding emails
+    - product-led
 meta:
   difficulty: średniozaawansowany
   duration: 10 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: Najszybszy wzrost aktywacji dostaniesz, łącząc prosty welcome mail z\
-    \ 3–5‑punktową checklistą in‑app."
-  - "Werdykt: Emaily same w sobie rzadko wystarczą; działają jako przypomnienie i\
-    \ traffic bridge."
-  - "Werdykt: Checklista widoczna w produkcie jest najlepsza do doprowadzenia użytkownika\
-    \ do 'aha'."
+    - >-
+      Werdykt: Najszybszy wzrost aktywacji dostaniesz, łącząc prosty welcome
+      mail z 3–5‑punktową checklistą in‑app.
+    - >-
+      Werdykt: Emaily same w sobie rzadko wystarczą; działają jako przypomnienie
+      i traffic bridge.
+    - >-
+      Werdykt: Checklista widoczna w produkcie jest najlepsza do doprowadzenia
+      użytkownika do 'aha'.
 taxonomy:
   categories:
-  - Product
-  - Growth
+    - Product
+    - Growth
   tags:
-  - onboarding
-  - activation
-  - checklist
-  - emails
+    - onboarding
+    - activation
+    - checklist
+    - emails
 ---
 
 ## Obietnica decyzji dla kogo

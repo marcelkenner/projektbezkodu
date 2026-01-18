@@ -1,43 +1,49 @@
 ---
-title: "AI w rekrutacji: screening CV, pytania i notatki z rozmów — co jest OK, a\
-  \ co ryzykowne"
+title: >-
+  AI w rekrutacji: screening CV, pytania i notatki z rozmów — co jest OK, a co
+  ryzykowne
 slug: ai-w-rekrutacji-screening-cv-pytania-ryzyko
 path: /artykuly/ai/ai-w-rekrutacji-screening-cv-pytania-ryzyko
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Krótki przewodnik: kiedy AI pomaga w rekrutacji, a kiedy ryzykuje sprawę"
+  heading: 'Krótki przewodnik: kiedy AI pomaga w rekrutacji, a kiedy ryzykuje sprawę'
   subheading: Praktyczne decyzje dla HR i menedżerów rekrutacji
 meta:
   summaryBullets:
-  - "Werdykt: używaj AI tam, gdzie oszczędza czas i nie decyduje samodzielnie."
-  - "Dla kogo: ma sens dla zespołów potrzebujących skalowalnego przeglądu CV; nie\
-    \ dla ról oceniających niuansów miękkich."
-  - "Start: dodaj informację o użyciu AI w opisie oferty i testuj na realnych danych."
+    - 'Werdykt: używaj AI tam, gdzie oszczędza czas i nie decyduje samodzielnie.'
+    - >-
+      Dla kogo: ma sens dla zespołów potrzebujących skalowalnego przeglądu CV;
+      nie dla ról oceniających niuansów miękkich.
+    - >-
+      Start: dodaj informację o użyciu AI w opisie oferty i testuj na realnych
+      danych.
   primaryCta:
     label: Przeczytaj wytyczne GOV.UK
-    href: https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment
-  updatedAt: "2026-01-14"
+    href: >-
+      https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment
+  updatedAt: '2026-01-14'
 seo:
   title: AI w rekrutacji — kiedy usprawnia, kiedy szkodzi
-  description: "Przewodnik dla rekruterów: które zastosowania AI są bezpieczne, jakie\
-    \ mają ryzyka i jak zacząć z minimalnym ryzykiem prawnym i reputacyjnym."
+  description: >-
+    Przewodnik dla rekruterów: które zastosowania AI są bezpieczne, jakie mają
+    ryzyka i jak zacząć z minimalnym ryzykiem prawnym i reputacyjnym.
   keywords:
-  - AI w rekrutacji
-  - screening CV
-  - etyka AI
-  - EEOC
-  - ICO
+    - AI w rekrutacji
+    - screening CV
+    - etyka AI
+    - EEOC
+    - ICO
 taxonomy:
   categories:
-  - HR
-  - Prawo i etyka
-  - AI
+    - HR
+    - Prawo i etyka
+    - AI
   tags:
-  - rekrutacja
-  - algorytmy
-  - compliance
+    - rekrutacja
+    - algorytmy
+    - compliance
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

@@ -1,47 +1,48 @@
 ---
-title: "Formularze bez kodu: UX zasady, walidacja i komunikaty"
+title: 'Formularze bez kodu: UX zasady, walidacja i komunikaty'
 slug: formularze-bez-kodu-ux-walidacja-komunikaty
 path: /formularze-bez-kodu-ux-walidacja-komunikaty
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Formularze bez kodu: UX zasady, walidacja i komunikaty"
+  heading: 'Formularze bez kodu: UX zasady, walidacja i komunikaty'
   subheading: Jak zaprojektować pola i komunikaty, żeby użytkownik kończył proces
   primaryCta:
-    label: "Wytyczne: błędy (Material Design)"
+    label: 'Wytyczne: błędy (Material Design)'
     href: https://m1.material.io/patterns/errors.html
 seo:
   title: Formularze bez kodu — zasady walidacji i komunikatów UX
-  description: "Praktyczny przewodnik po projektowaniu walidacji i komunikatów w formularzach\
-    \ bez kodu: co wybrać, kiedy walidować, jak pisać komunikaty."
+  description: >-
+    Praktyczny przewodnik po projektowaniu walidacji i komunikatów w
+    formularzach bez kodu: co wybrać, kiedy walidować, jak pisać komunikaty.
   keywords:
-  - formularze
-  - walidacja
-  - UX
-  - komunikaty
-  - form design
+    - formularze
+    - walidacja
+    - UX
+    - komunikaty
+    - form design
 meta:
   difficulty: średni
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Sprawdź wytyczne Material Design
     href: https://m1.material.io/patterns/errors.html
   summaryBullets:
-  - "Werdykt: proste zasady poprawiają konwersję i zmniejszają porzucenia"
-  - "Dla kogo: produkty no-code, landing page, formularze rejestracyjne"
-  - "Start: najpierw zredukuj niepewność, potem dodaj walidację"
+    - 'Werdykt: proste zasady poprawiają konwersję i zmniejszają porzucenia'
+    - 'Dla kogo: produkty no-code, landing page, formularze rejestracyjne'
+    - 'Start: najpierw zredukuj niepewność, potem dodaj walidację'
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - formularze
-  - walidacja
-  - UX
-  - komunikaty
+    - formularze
+    - walidacja
+    - UX
+    - komunikaty
 ---
 
 ## Obietnica decyzji (kto powinien czytać)

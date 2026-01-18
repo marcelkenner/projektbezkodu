@@ -1,40 +1,42 @@
 ---
-title: "Animacje w no-code: kiedy podnoszą konwersję, a kiedy robią tani chaos"
+title: 'Animacje w no-code: kiedy podnoszą konwersję, a kiedy robią tani chaos'
 slug: animacje-no-code-konwersja-chaos
 path: /animacje-no-code-konwersja-chaos
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Animacje w no-code: kiedy podnoszą konwersję, a kiedy robią tani chaos"
-  subheading: Ruch, który wyjaśnia — nie odciąga. Praktyczne reguły dla marketingu
-    i founderów.
+  heading: 'Animacje w no-code: kiedy podnoszą konwersję, a kiedy robią tani chaos'
+  subheading: >-
+    Ruch, który wyjaśnia — nie odciąga. Praktyczne reguły dla marketingu i
+    founderów.
 seo:
-  title: "Animacje w no-code: konwersja vs chaos"
-  description: Kiedy animacje pomagają w konwersji, a kiedy szkodzą — praktyczne reguły
-    i szybki plan wdrożenia dla marketingu i founderów.
+  title: 'Animacje w no-code: konwersja vs chaos'
+  description: >-
+    Kiedy animacje pomagają w konwersji, a kiedy szkodzą — praktyczne reguły i
+    szybki plan wdrożenia dla marketingu i founderów.
   keywords:
-  - animacje no-code
-  - konwersja
-  - UX
-  - motion design
-  - no-code
+    - animacje no-code
+    - konwersja
+    - UX
+    - motion design
+    - no-code
 meta:
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Material Motion — zasady
     href: https://m1.material.io/motion/material-motion.html
 taxonomy:
   categories:
-  - UX
-  - No-code
-  - Marketing
+    - UX
+    - No-code
+    - Marketing
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

@@ -1,43 +1,47 @@
 ---
-title: "Animacje przewijania (scroll): jak je robić z klasą i bez mdłości"
+title: 'Animacje przewijania (scroll): jak je robić z klasą i bez mdłości'
 slug: animacje-przewijania-bez-mdlosci
 path: /animacje/przewijania-bez-mdlosci
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Animacje przewijania (scroll): jak je robić z klasą i bez mdłości"
-  subheading: Praktyczne zasady, szybki start i decyzje dla portfolio, stron usługowych
-    i landingu
+  heading: 'Animacje przewijania (scroll): jak je robić z klasą i bez mdłości'
+  subheading: >-
+    Praktyczne zasady, szybki start i decyzje dla portfolio, stron usługowych i
+    landingu
 seo:
-  title: "Animacje przewijania: zasady, dostępność i szybki checklist"
-  description: Jak projektować scroll-animacje które prowadzą wzrok, a nie wywołują
-    mdłości — z technicznymi wskazówkami i testami.
+  title: 'Animacje przewijania: zasady, dostępność i szybki checklist'
+  description: >-
+    Jak projektować scroll-animacje które prowadzą wzrok, a nie wywołują mdłości
+    — z technicznymi wskazówkami i testami.
   keywords:
-  - animacje przewijania
-  - prefers-reduced-motion
-  - parallax
-  - accessibility
-  - scroll animation
+    - animacje przewijania
+    - prefers-reduced-motion
+    - parallax
+    - accessibility
+    - scroll animation
 meta:
   summaryBullets:
-  - "Werdykt: używaj oszczędnie i z obsługą preferencji ruchu."
-  - "Dla kogo: dobre dla landingu i portfolio; złe dla treści długich i krytycznych."
-  - "Start: dodaj prefers-reduced-motion i przetestuj w DevTools."
+    - 'Werdykt: używaj oszczędnie i z obsługą preferencji ruchu.'
+    - >-
+      Dla kogo: dobre dla landingu i portfolio; złe dla treści długich i
+      krytycznych.
+    - 'Start: dodaj prefers-reduced-motion i przetestuj w DevTools.'
   primaryCta:
     label: Przejdź do artykułu
     href: /animacje-7
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja UX
   duration: 5 min
 taxonomy:
   categories:
-  - UX
-  - Front-end
+    - UX
+    - Front-end
   tags:
-  - animacje
-  - accessibility
-  - parallax
+    - animacje
+    - accessibility
+    - parallax
 ---
 
 ## Obietnica decyzji — krótko dla kogo

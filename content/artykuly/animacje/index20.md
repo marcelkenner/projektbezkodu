@@ -1,42 +1,48 @@
 ---
-title: "Animacje a SEO: co jest mitem, a co realnym ryzykiem"
+title: 'Animacje a SEO: co jest mitem, a co realnym ryzykiem'
 slug: animacje-seo-mity-ryzyko
 path: /animacje/seo-mity-ryzyko
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Animacje a SEO: co jest mitem, a co realnym ryzykiem"
+  heading: 'Animacje a SEO: co jest mitem, a co realnym ryzykiem'
   subheading: Krótka decyzja dla właścicieli stron i zespołów produktowych
 seo:
   title: Animacje a SEO — fakty i praktyczne kroki
-  description: Czy animacje szkodzą SEO? Wyjaśniam, co naprawdę wpływa na widoczność
-    i jak zacząć optymalizację w 5 minut.
+  description: >-
+    Czy animacje szkodzą SEO? Wyjaśniam, co naprawdę wpływa na widoczność i jak
+    zacząć optymalizację w 5 minut.
   keywords:
-  - animacje
-  - SEO
-  - CLS
-  - Core Web Vitals
-  - wydajność
+    - animacje
+    - SEO
+    - CLS
+    - Core Web Vitals
+    - wydajność
 meta:
   summaryBullets:
-  - "Werdykt: same animacje rzadko zabijają SEO — to wydajność i przesunięcia layoutu\
-    \ są problemem."
-  - "Dla kogo: e‑commerce i content-heavy — sprawdź CLS i rezerwowanie przestrzeni."
-  - "Start: sprawdź Lighthouse/Chrome DevTools w 5 minut i zamień top/left na transform."
+    - >-
+      Werdykt: same animacje rzadko zabijają SEO — to wydajność i przesunięcia
+      layoutu są problemem.
+    - >-
+      Dla kogo: e‑commerce i content-heavy — sprawdź CLS i rezerwowanie
+      przestrzeni.
+    - >-
+      Start: sprawdź Lighthouse/Chrome DevTools w 5 minut i zamień top/left na
+      transform.
   primaryCta:
     label: Optimize Cumulative Layout Shift
     href: https://web.dev/articles/optimize-cls
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - SEO
-  - Front-end
+    - SEO
+    - Front-end
   tags:
-  - animacje
-  - performance
-  - core-web-vitals
+    - animacje
+    - performance
+    - core-web-vitals
 ---
 
 Krótko: **animacje same w sobie nie zabijają SEO**; realne ryzyko pochodzi z wolnego JavaScriptu, layout‑shifts (CLS) i blokowania renderu. Poniżej szybkie pytania, diagnoza i plan działań.

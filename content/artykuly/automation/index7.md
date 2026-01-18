@@ -1,46 +1,52 @@
 ---
-title: "Automatyzacje w e-commerce: statusy zamówień, zwroty, faktury, komunikacja"
+title: 'Automatyzacje w e-commerce: statusy zamówień, zwroty, faktury, komunikacja'
 slug: ecommerce-automatyzacje-zamowienia-zwroty-faktury
 path: /automatyzacje/ecommerce-zamowienia-zwroty-faktury
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automatyzacje w e-commerce: statusy zamówień, zwroty, faktury, komunikacja"
-  subheading: "Praktyczny przewodnik: co automatyzować, kiedy zatrzymać człowieka\
-    \ i jak zacząć w 30–90 minut"
+  heading: 'Automatyzacje w e-commerce: statusy zamówień, zwroty, faktury, komunikacja'
+  subheading: >-
+    Praktyczny przewodnik: co automatyzować, kiedy zatrzymać człowieka i jak
+    zacząć w 30–90 minut
 seo:
-  title: "Automatyzacje w e‑commerce: statusy, zwroty, faktury i komunikacja — przewodnik"
-  description: "Szybkie decyzje dla właściciela sklepu: które procesy automatyzować,\
-    \ jakie ryzyka uwzględnić i jak wdrożyć pierwsze reguły."
+  title: >-
+    Automatyzacje w e‑commerce: statusy, zwroty, faktury i komunikacja —
+    przewodnik
+  description: >-
+    Szybkie decyzje dla właściciela sklepu: które procesy automatyzować, jakie
+    ryzyka uwzględnić i jak wdrożyć pierwsze reguły.
   keywords:
-  - ecommerce automation
-  - zwroty
-  - faktury
-  - statusy zamówień
-  - powiadomienia
+    - ecommerce automation
+    - zwroty
+    - faktury
+    - statusy zamówień
+    - powiadomienia
 meta:
   summaryBullets:
-  - "Werdykt: automatyzuj powiadomienia i fakturowanie; zwroty—tylko częściowo."
-  - "Dla kogo: małe i średnie sklepy z >50 zam./dzień; inaczej zacznij od prostych\
-    \ reguł."
-  - "Start: 30–90 minut — ustaw powiadomienia, automatyczne faktury i pola RMA."
+    - 'Werdykt: automatyzuj powiadomienia i fakturowanie; zwroty—tylko częściowo.'
+    - >-
+      Dla kogo: małe i średnie sklepy z >50 zam./dzień; inaczej zacznij od
+      prostych reguł.
+    - 'Start: 30–90 minut — ustaw powiadomienia, automatyczne faktury i pola RMA.'
   primaryCta:
     label: Ustawienia powiadomień Shopify
-    href: https://help.shopify.com/en/manual/fulfillment/setup/notifications/customer-notifications
-  updatedAt: "2026-01-15"
+    href: >-
+      https://help.shopify.com/en/manual/fulfillment/setup/notifications/customer-notifications
+  updatedAt: '2026-01-15'
   difficulty: średni
   duration: 30-90 minut
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - ecommerce
-  - automatyzacje
+    - ecommerce
+    - automatyzacje
   tags:
-  - statusy
-  - zwroty
-  - faktury
-  - powiadomienia
+    - statusy
+    - zwroty
+    - faktury
+    - powiadomienia
 ---
 
 ## Obietnica i dla kogo

@@ -1,14 +1,14 @@
 ---
 slug: mobile-first-bez-bolu
-title: "Mobile-first bez bólu: jak projektować responsywność w no-code"
+title: 'Mobile-first bez bólu: jak projektować responsywność w no-code'
 path: /projektowanie/mobile-first-bez-bolu
 template: default
 draft: false
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /design-bez-kodu-17

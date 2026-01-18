@@ -1,44 +1,47 @@
 ---
-title: "Ile to kosztuje: jak wycenić animacje w projektach no-code"
+title: 'Ile to kosztuje: jak wycenić animacje w projektach no-code'
 slug: wycena-animacji-no-code
 path: /wycena-animacji-no-code
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Ile to kosztuje: jak wycenić animacje w projektach no-code"
-  subheading: Praktyczny model wyceny dla freelancera i agencji — zakres, złożoność,
+  heading: 'Ile to kosztuje: jak wycenić animacje w projektach no-code'
+  subheading: >-
+    Praktyczny model wyceny dla freelancera i agencji — zakres, złożoność,
     format, testy
 meta:
   summaryBullets:
-  - "Werdykt: proste komponenty od kilkudziesięciu do kilkuset dolarów; systemy i\
-    \ interakcje drożej."
-  - "Dla kogo: freelancing, małe agencje, produktowe zespoły no-code."
-  - "Start: policz komponenty, ustal złożoność stanów i responsywność."
+    - >-
+      Werdykt: proste komponenty od kilkudziesięciu do kilkuset dolarów; systemy
+      i interakcje drożej.
+    - 'Dla kogo: freelancing, małe agencje, produktowe zespoły no-code.'
+    - 'Start: policz komponenty, ustal złożoność stanów i responsywność.'
   primaryCta:
     label: Zobacz cennik narzędzi do Lottie
     href: https://lottiefiles.com/pricing
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
   duration: 7 min
 seo:
   title: Ile kosztuje animacja w projektach no-code — prosty model wyceny
-  description: "Jak wyceniać animacje no-code: od prostych ikon Lottie po interaktywne\
-    \ sekwencje. Konkretne widełki, kiedy odmówić, jak zacząć."
+  description: >-
+    Jak wyceniać animacje no-code: od prostych ikon Lottie po interaktywne
+    sekwencje. Konkretne widełki, kiedy odmówić, jak zacząć.
   keywords:
-  - animacje no-code
-  - wycena animacji
-  - Lottie
-  - Rive
-  - freelance cennik
+    - animacje no-code
+    - wycena animacji
+    - Lottie
+    - Rive
+    - freelance cennik
 taxonomy:
   categories:
-  - design
-  - freelance
+    - design
+    - freelance
   tags:
-  - animacja
-  - no-code
-  - wycena
+    - animacja
+    - no-code
+    - wycena
 ---
 
 ## Obietnica decyzji

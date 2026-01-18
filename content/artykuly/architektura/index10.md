@@ -1,42 +1,45 @@
 ---
-title: "Środowiska dev/stage/prod w no-code: jak to zrobić, skoro „nie ma deploya”"
+title: 'Środowiska dev/stage/prod w no-code: jak to zrobić, skoro „nie ma deploya”'
 slug: srodowiska-dev-stage-prod-no-code-bez-deploya
 path: /architektura/srodowiska-dev-stage-prod-no-code-bez-deploya
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Środowiska dev/stage/prod w no-code: jak to zrobić"
-  subheading: "Praktyczny przewodnik: mniej wpadek na produkcji, szybsze testy, spokojniejszy\
-    \ zespół"
+  heading: 'Środowiska dev/stage/prod w no-code: jak to zrobić'
+  subheading: >-
+    Praktyczny przewodnik: mniej wpadek na produkcji, szybsze testy,
+    spokojniejszy zespół
 seo:
   title: Środowiska dev/stage/prod w no-code — poradnik
-  description: Jak zorganizować dev/stage/prod w narzędziach no-code. Praktyczne wzorce,
+  description: >-
+    Jak zorganizować dev/stage/prod w narzędziach no-code. Praktyczne wzorce,
     decyzje i szybki start.
   keywords:
-  - no-code
-  - staging
-  - dev stage prod
-  - Webflow
-  - best practices
+    - no-code
+    - staging
+    - dev stage prod
+    - Webflow
+    - best practices
 meta:
   summaryBullets:
-  - "Werdykt: praktyczne podejście dla małych i średnich zespołów"
-  - "Dla kogo: product ownerzy, no-code devy, PM"
-  - "Start: opublikuj na subdomenie staging i ustaw role"
+    - 'Werdykt: praktyczne podejście dla małych i średnich zespołów'
+    - 'Dla kogo: product ownerzy, no-code devy, PM'
+    - 'Start: opublikuj na subdomenie staging i ustaw role'
   primaryCta:
-    label: "Dokumentacja Webflow: Publishing workflow"
-    href: https://help.webflow.com/hc/en-us/articles/33961266935187-Publishing-workflow
-  updatedAt: "2026-01-15"
+    label: 'Dokumentacja Webflow: Publishing workflow'
+    href: >-
+      https://help.webflow.com/hc/en-us/articles/33961266935187-Publishing-workflow
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - architektura
+    - architektura
   tags:
-  - no-code
-  - staging
-  - webflow
-  - devops
+    - no-code
+    - staging
+    - webflow
+    - devops
 ---
 
 ## Obietnica decyzji

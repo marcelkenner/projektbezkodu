@@ -1,45 +1,50 @@
 ---
-title: "No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype"
+title: 'No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype'
 slug: no-code-stack-dobor-narzedzi-pod-produkt
 path: /no-code-stack/dobor-narzedzi-pod-produkt
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype"
-  subheading: "Krótki przewodnik dla founderów i marketerów: kiedy i jakie narzędzia\
-    \ wybierać, żeby szybciej sprzedawać, a nie przepalać budżetu."
+  heading: 'No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype'
+  subheading: >-
+    Krótki przewodnik dla founderów i marketerów: kiedy i jakie narzędzia
+    wybierać, żeby szybciej sprzedawać, a nie przepalać budżetu.
 seo:
-  title: "No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype"
-  description: Praktyczny poradnik dla osób budujących MVP i produkt — kryteria doboru
+  title: 'No-code stack: jak dobrać narzędzia pod produkt, a nie pod hype'
+  description: >-
+    Praktyczny poradnik dla osób budujących MVP i produkt — kryteria doboru
     narzędzi no-code, przykładowe zestawy i proste reguły decyzyjne.
   keywords:
-  - no-code
-  - MVP
-  - stack
-  - Webflow
-  - Bubble
-  - Airtable
+    - no-code
+    - MVP
+    - stack
+    - Webflow
+    - Bubble
+    - Airtable
 meta:
   summaryBullets:
-  - "Werdykt: wybieraj według ryzyka i wymagań, nie według popularności."
-  - "Dla kogo: founderzy i marketerzy testujący produkt, zespoły wewnętrzne z ograniczonym\
-    \ budżetem."
-  - "Start: zdefiniuj krytyczne założenie biznesowe i mierz koszt wyjścia."
-  - "Implementacja: zacznij od jednego hosta, jednej bazy i jednej warstwy autoryzacji."
+    - 'Werdykt: wybieraj według ryzyka i wymagań, nie według popularności.'
+    - >-
+      Dla kogo: founderzy i marketerzy testujący produkt, zespoły wewnętrzne z
+      ograniczonym budżetem.
+    - 'Start: zdefiniuj krytyczne założenie biznesowe i mierz koszt wyjścia.'
+    - >-
+      Implementacja: zacznij od jednego hosta, jednej bazy i jednej warstwy
+      autoryzacji.
   primaryCta:
     label: Porównanie Webflow vs Bubble
     href: https://bubble.io/blog/bubble-vs-webflow-comparison/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - no-code
-  - product
+    - no-code
+    - product
   tags:
-  - MVP
-  - stack
-  - narzędzia
+    - MVP
+    - stack
+    - narzędzia
 ---
 
 ## Obietnica decyzyjna

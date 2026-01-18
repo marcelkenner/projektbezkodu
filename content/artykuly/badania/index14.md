@@ -1,39 +1,45 @@
 ---
-title: "Raport: no-code w e-commerce — narzędzia, integracje, ryzyka"
+title: 'Raport: no-code w e-commerce — narzędzia, integracje, ryzyka'
 slug: raport-no-code-ecommerce-narzedzia-integracje-ryzyka
 path: /raport-no-code-ecommerce-narzedzia-integracje-ryzyka
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Raport: no-code w e-commerce — narzędzia, integracje, ryzyka"
-  subheading: Które platformy działają najsprawniej, gdzie stoją wąskie gardła i jak
-    ich unikać.
+  heading: 'Raport: no-code w e-commerce — narzędzia, integracje, ryzyka'
+  subheading: >-
+    Które platformy działają najsprawniej, gdzie stoją wąskie gardła i jak ich
+    unikać.
 seo:
-  title: "No-code w e-commerce — raport: narzędzia, integracje, ryzyka"
-  description: Praktyczny przegląd najpopularniejszych narzędzi no-code dla sklepów
-    online, typowych integracji oraz największych ryzyk wdrożeniowych.
+  title: 'No-code w e-commerce — raport: narzędzia, integracje, ryzyka'
+  description: >-
+    Praktyczny przegląd najpopularniejszych narzędzi no-code dla sklepów online,
+    typowych integracji oraz największych ryzyk wdrożeniowych.
   keywords:
-  - no-code e-commerce
-  - Webflow ecommerce
-  - Shopify integracje
+    - no-code e-commerce
+    - Webflow ecommerce
+    - Shopify integracje
 meta:
   summaryBullets:
-  - "Werdykt: no-code jest opłacalny dla 80% małych i średnich sklepów, jeśli priorytetem\
-    \ jest szybkość wdrożenia."
-  - "Dla kogo: najlepsze dla brandów o prostych katalogach i marketerów, którzy chcą\
-    \ szybko testować hipotezy."
-  - "Start: uruchom prototyp na Webflow lub Shopify + Zapier w ciągu kilku godzin."
+    - >-
+      Werdykt: no-code jest opłacalny dla 80% małych i średnich sklepów, jeśli
+      priorytetem jest szybkość wdrożenia.
+    - >-
+      Dla kogo: najlepsze dla brandów o prostych katalogach i marketerów, którzy
+      chcą szybko testować hipotezy.
+    - >-
+      Start: uruchom prototyp na Webflow lub Shopify + Zapier w ciągu kilku
+      godzin.
   primaryCta:
     label: Webflow Ecommerce — funkcje
     href: https://webflow.com/feature/ecommerce
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - ecommerce
-  - integracje
+    - no-code
+    - ecommerce
+    - integracje
 ---
 
 ## Obietnica decyzji i grupa odbiorców

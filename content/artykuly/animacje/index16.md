@@ -1,48 +1,54 @@
 ---
-title: "SVG animacje no-code: kiedy SVGator ma sens, a kiedy lepiej Lottie"
+title: 'SVG animacje no-code: kiedy SVGator ma sens, a kiedy lepiej Lottie'
 slug: svgator-vs-lottie
 path: /animacje/svgator-vs-lottie
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: SVGator vs Lottie — wybierz narzędzie pod konkretny przypadek użycia
-  subheading: "Krótki przewodnik: ikonki i proste ilustracje — SVG; złożone timeliney\
-    \ i mobile — Lottie"
+  subheading: >-
+    Krótki przewodnik: ikonki i proste ilustracje — SVG; złożone timeliney i
+    mobile — Lottie
 seo:
-  title: "SVG animacje no-code: SVGator czy Lottie — kiedy które wybrać"
-  description: "Porównanie praktyczne: co lepiej użyć dla ikon, micro-interakcji i\
-    \ rozbudowanych scen — eksport, rozmiar, wydajność i implementacja."
+  title: 'SVG animacje no-code: SVGator czy Lottie — kiedy które wybrać'
+  description: >-
+    Porównanie praktyczne: co lepiej użyć dla ikon, micro-interakcji i
+    rozbudowanych scen — eksport, rozmiar, wydajność i implementacja.
   keywords:
-  - SVGator
-  - Lottie
-  - SVG animacje
-  - animacje no-code
-  - web animations
+    - SVGator
+    - Lottie
+    - SVG animacje
+    - animacje no-code
+    - web animations
 meta:
   summaryBullets:
-  - "Werdykt: SVG do ikon i prostych ilustracji; Lottie do złożonych scen i mobilnych\
-    \ appek."
-  - "Dla kogo: wybór zależy od skali animacji, wymogów interakcji i ekosystemu (web\
-    \ vs mobile)."
-  - "Start: wygeneruj testową animację i porównaj rozmiar + CPU na docelowych urządzeniach."
+    - >-
+      Werdykt: SVG do ikon i prostych ilustracji; Lottie do złożonych scen i
+      mobilnych appek.
+    - >-
+      Dla kogo: wybór zależy od skali animacji, wymogów interakcji i ekosystemu
+      (web vs mobile).
+    - >-
+      Start: wygeneruj testową animację i porównaj rozmiar + CPU na docelowych
+      urządzeniach.
   primaryCta:
     label: SVGator — narzędzie do SVG
     href: https://www.svgator.com/svg-animation-tool
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - animacje
-  - front-end
-  - design
+    - animacje
+    - front-end
+    - design
   tags:
-  - SVG
-  - Lottie
-  - SVGator
-  - Rive
-  - performance
+    - SVG
+    - Lottie
+    - SVGator
+    - Rive
+    - performance
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

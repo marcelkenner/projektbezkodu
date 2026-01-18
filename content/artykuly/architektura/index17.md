@@ -1,14 +1,14 @@
 ---
 slug: frontend-vs-backend-no-code-ui-vs-logika-serwera
-title: "Frontend vs backend w no-code: co trzymać w UI, a co w logice serwera"
+title: 'Frontend vs backend w no-code: co trzymać w UI, a co w logice serwera'
 path: /architektura/frontend-vs-backend-no-code-ui-vs-logika-serwera
 template: default
 draft: false
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: /architektura-17

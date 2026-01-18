@@ -1,44 +1,45 @@
 ---
-title: "Webhooki dla nietechnicznych: jak to działa i jak to testować bez bólu"
+title: 'Webhooki dla nietechnicznych: jak to działa i jak to testować bez bólu'
 slug: webhooki-dla-nietechnicznych
 path: /webhooki-dla-nietechnicznych
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Webhooki dla nietechnicznych: jak to działa i jak to testować bez bólu"
-  subheading: "Prosty plan: wyślij test, obejrzyj payload, napraw błąd"
+  heading: 'Webhooki dla nietechnicznych: jak to działa i jak to testować bez bólu'
+  subheading: 'Prosty plan: wyślij test, obejrzyj payload, napraw błąd'
 seo:
   title: Webhooki dla nietechnicznych — szybkie testy i debug
-  description: "Praktyczny przewodnik: czym są webhooki, jak szybko je testować (webhook.site,\
-    \ ngrok, Beeceptor) i jak debugować typowe błędy."
+  description: >-
+    Praktyczny przewodnik: czym są webhooki, jak szybko je testować
+    (webhook.site, ngrok, Beeceptor) i jak debugować typowe błędy.
   keywords:
-  - webhooki
-  - testowanie webhooków
-  - webhook.site
-  - ngrok
-  - Beeceptor
+    - webhooki
+    - testowanie webhooków
+    - webhook.site
+    - ngrok
+    - Beeceptor
 meta:
   difficulty: Beginner
   duration: 5 min start, 20–60 min praktyczne testy
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Wypróbuj Webhook.site
     href: https://webhook.site
   summaryBullets:
-  - "Werdykt: szybkie testy → webhook.site; lokalny dev → ngrok/Beeceptor"
-  - "Dla kogo: nietechniczni testerzy, product ownerzy, support"
-  - "Start: w 5 minut masz publiczny URL i pierwsze payloady"
+    - 'Werdykt: szybkie testy → webhook.site; lokalny dev → ngrok/Beeceptor'
+    - 'Dla kogo: nietechniczni testerzy, product ownerzy, support'
+    - 'Start: w 5 minut masz publiczny URL i pierwsze payloady'
 taxonomy:
   categories:
-  - automation
-  - devops
+    - automation
+    - devops
   tags:
-  - webhook
-  - testing
-  - integrations
+    - webhook
+    - testing
+    - integrations
 ---
 
 ## Obietnica decyzji dla nietechnicznych

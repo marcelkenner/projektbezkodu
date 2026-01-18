@@ -1,46 +1,52 @@
 ---
-title: "Automatyzacje w sprzedaży: pipeline, przypomnienia, taski i handover między\
-  \ ludźmi"
+title: >-
+  Automatyzacje w sprzedaży: pipeline, przypomnienia, taski i handover między
+  ludźmi
 slug: automatyzacje-sprzedaz-pipeline-przypomnienia-taski-handover
 path: /automatyzacje/sprzedaz-pipeline-przypomnienia-taski-handover
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Automatyzacje, które ratują leady i ułatwiają przekazanie konta
-  subheading: Praktyczny przewodnik dla zespołów sprzedaży — co ustawić najpierw i
-    czego unikać
+  subheading: >-
+    Praktyczny przewodnik dla zespołów sprzedaży — co ustawić najpierw i czego
+    unikać
 seo:
   title: Automatyzacje w sprzedaży — pipeline, przypomnienia, taski, handover
-  description: Jak zbudować pipeline, przypomnienia i handover tak, żeby mniej leadów
+  description: >-
+    Jak zbudować pipeline, przypomnienia i handover tak, żeby mniej leadów
     ginęło, a onboarding nowych sprzedawców był krótszy.
   keywords:
-  - automatyzacja sprzedaży
-  - pipeline
-  - handover
-  - CRM
-  - przypomnienia
+    - automatyzacja sprzedaży
+    - pipeline
+    - handover
+    - CRM
+    - przypomnienia
 meta:
   summaryBullets:
-  - "Werdykt: proste automatyzacje ratują ściślejsze procesy sprzedażowe i redukują\
-    \ utratę leadów."
-  - "Dla kogo: zespoły z powtarzalnym ruchem leadów i zmianami właścicieli kont."
-  - "Start: ustal 3 obowiązkowe pola w CRM i ustaw trigger przy 'Closed-Won'."
+    - >-
+      Werdykt: proste automatyzacje ratują ściślejsze procesy sprzedażowe i
+      redukują utratę leadów.
+    - >-
+      Dla kogo: zespoły z powtarzalnym ruchem leadów i zmianami właścicieli
+      kont.
+    - 'Start: ustal 3 obowiązkowe pola w CRM i ustaw trigger przy ''Closed-Won''.'
   primaryCta:
     label: Przeczytaj playbook automatyzacji
     href: https://www.copper.com/sales-delivery-playbook
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   difficulty: Średni
   duration: 10–45 min
   author: Redakcja
 taxonomy:
   categories:
-  - sprzedaż
-  - automatyzacja
+    - sprzedaż
+    - automatyzacja
   tags:
-  - crm
-  - handover
-  - pipeline
+    - crm
+    - handover
+    - pipeline
 ---
 
 ## Obietnica decyzji (krótko)

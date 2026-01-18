@@ -1,46 +1,52 @@
 ---
-title: "Badanie: kto buduje w no-code — role, kompetencje, model współpracy"
+title: 'Badanie: kto buduje w no-code — role, kompetencje, model współpracy'
 slug: badanie-kto-buduje-no-code-role-kompetencje
 path: /badania/badanie-kto-buduje-no-code-role-kompetencje
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Badanie: kto buduje w no-code — role, kompetencje, model współpracy"
-  subheading: Krótkie decyzje dla menedżerów produktu, IT i marketingu — kto powinien
+  heading: 'Badanie: kto buduje w no-code — role, kompetencje, model współpracy'
+  subheading: >-
+    Krótkie decyzje dla menedżerów produktu, IT i marketingu — kto powinien
     budować, komu dać narzędzia, a kiedy wymagać wsparcia technicznego.
 seo:
   title: Kto buduje w no-code — role i model współpracy
-  description: Jak organizacje rozdzielają odpowiedzialności między citizen developers,
+  description: >-
+    Jak organizacje rozdzielają odpowiedzialności między citizen developers,
     product ops, marketing i IT. Praktyczne rekomendacje i szybki start.
   keywords:
-  - no-code
-  - citizen developer
-  - product ops
-  - center of excellence
-  - kompetencje no-code
+    - no-code
+    - citizen developer
+    - product ops
+    - center of excellence
+    - kompetencje no-code
 meta:
   summaryBullets:
-  - "Werdykt: no-code warto udostępniać szeroko, ale z jasnymi regułami i jedną osobą/zespołem\
-    \ odpowiedzialnym za governance."
-  - "Dla kogo: najlepsze dla zespołów, które muszą szybko automatyzować procesy i\
-    \ mają niski poziom integracji z systemami krytycznymi."
-  - "Start: wyznacz 1 osobę odpowiedzialną za standardy, uruchom 2–3 piloty i zmierz\
-    \ efekt w 3 miesiące."
+    - >-
+      Werdykt: no-code warto udostępniać szeroko, ale z jasnymi regułami i jedną
+      osobą/zespołem odpowiedzialnym za governance.
+    - >-
+      Dla kogo: najlepsze dla zespołów, które muszą szybko automatyzować procesy
+      i mają niski poziom integracji z systemami krytycznymi.
+    - >-
+      Start: wyznacz 1 osobę odpowiedzialną za standardy, uruchom 2–3 piloty i
+      zmierz efekt w 3 miesiące.
   primaryCta:
     label: Definicja citizen developer (Gartner)
-    href: https://www.gartner.com/en/information-technology/glossary/citizen-developer
-  updatedAt: "2026-01-15"
+    href: >-
+      https://www.gartner.com/en/information-technology/glossary/citizen-developer
+  updatedAt: '2026-01-15'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
   tags:
-  - no-code
-  - citizen developer
-  - organizacja
-  - kompetencje
+    - no-code
+    - citizen developer
+    - organizacja
+    - kompetencje
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

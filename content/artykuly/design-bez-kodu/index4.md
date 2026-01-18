@@ -1,26 +1,26 @@
 ---
-title: "UI kit dla strony o narzędziach no-code: co warto mieć na start"
+title: 'UI kit dla strony o narzędziach no-code: co warto mieć na start'
 slug: ui-kit-no-code-start
 path: /ui-kit-no-code-start
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://www.framer.com/free-saas-ui-kit/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 seo:
   keywords:
-  - ui kit
-  - no-code
-  - design bez kodu
+    - ui kit
+    - no-code
+    - design bez kodu
 hero:
-  heading: "UI kit dla strony o narzędziach no-code: co warto mieć na start"
+  heading: 'UI kit dla strony o narzędziach no-code: co warto mieć na start'
   subheading: Sekcje, karty, tabele, CTA, FAQ, porównania i listing narzędzi.
 ---
 

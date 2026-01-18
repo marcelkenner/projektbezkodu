@@ -1,46 +1,49 @@
 ---
-title: "Migracja treści do CMS bez kodu: checklista krok po kroku"
+title: 'Migracja treści do CMS bez kodu: checklista krok po kroku'
 slug: migracja-tresci-do-cms-bez-kodu
 path: /migracja-tresci-do-cms-bez-kodu
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Migracja treści do CMS bez kodu: checklista krok po kroku"
-  subheading: Szybki przewodnik dla osób i zespołów, które chcą przenieść zawartość
-    bez programowania
+  heading: 'Migracja treści do CMS bez kodu: checklista krok po kroku'
+  subheading: >-
+    Szybki przewodnik dla osób i zespołów, które chcą przenieść zawartość bez
+    programowania
 seo:
   title: Migracja treści do CMS bez kodu — checklista
-  description: "Praktyczna checklista do migracji treści do no-code CMS: przygotowanie,\
-    \ eksport, import, SEO i testy."
+  description: >-
+    Praktyczna checklista do migracji treści do no-code CMS: przygotowanie,
+    eksport, import, SEO i testy.
   keywords:
-  - migracja treści
-  - no-code CMS
-  - Webflow
-  - migracja CMS
-  - checklista
+    - migracja treści
+    - no-code CMS
+    - Webflow
+    - migracja CMS
+    - checklista
 meta:
   difficulty: średni
   duration: od 1 dnia do kilku tygodni
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przewodnik migracji (Webflow)
     href: https://webflow.com/blog/wordpress-migration
   summaryBullets:
-  - "Werdykt: szybka migracja jest możliwa, jeśli uporządkujesz treść i przetestujesz\
-    \ import."
-  - "Dla kogo: małe firmy i marketingowe zespoły bez zasobów deweloperskich."
-  - "Start: zrób eksport, mapowanie pól i testowy import."
+    - >-
+      Werdykt: szybka migracja jest możliwa, jeśli uporządkujesz treść i
+      przetestujesz import.
+    - 'Dla kogo: małe firmy i marketingowe zespoły bez zasobów deweloperskich.'
+    - 'Start: zrób eksport, mapowanie pól i testowy import.'
 taxonomy:
   categories:
-  - CMS
-  - Migracja
+    - CMS
+    - Migracja
   tags:
-  - no-code
-  - Webflow
-  - migracja
+    - no-code
+    - Webflow
+    - migracja
 ---
 
 ## Obietnica: decyzja i dla kogo

@@ -1,37 +1,39 @@
 ---
-title: "No-code w firmie: kto odpowiada za procesy, automaty i zmiany"
+title: 'No-code w firmie: kto odpowiada za procesy, automaty i zmiany'
 slug: no-code-w-firmie-kto-odpowiada
 path: /no-code-w-firmie-kto-odpowiada
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: No-code w firmie — architektura procesu, odpowiedzialności i ownership
   subheading: Krótkie decyzje dla menedżerów, IT i liderów biznesu
 seo:
-  title: "No-code: kto odpowiada za procesy i automaty w organizacji"
-  description: "Jak podzielić odpowiedzialności za no-code: Center of Excellence,\
-    \ właściciele aplikacji, IT i citizen developers — szybki plan wdrożenia."
+  title: 'No-code: kto odpowiada za procesy i automaty w organizacji'
+  description: >-
+    Jak podzielić odpowiedzialności za no-code: Center of Excellence,
+    właściciele aplikacji, IT i citizen developers — szybki plan wdrożenia.
   keywords:
-  - no-code
-  - governance
-  - citizen development
-  - center of excellence
+    - no-code
+    - governance
+    - citizen development
+    - center of excellence
 meta:
   summaryBullets:
-  - "Werdykt: kto ma prawo wdrażać i kto utrzymuje"
-  - "Dla kogo: kiedy CoE jest konieczne, a kiedy wystarczy polityka"
-  - "Start: pierwszy krok w 5–10 minut"
+    - 'Werdykt: kto ma prawo wdrażać i kto utrzymuje'
+    - 'Dla kogo: kiedy CoE jest konieczne, a kiedy wystarczy polityka'
+    - 'Start: pierwszy krok w 5–10 minut'
   primaryCta:
     label: Poradnik CIO o zarządzaniu citizen developers
-    href: https://www.cio.com/article/189651/8-tips-for-managing-low-code-citizen-developers.html
-  updatedAt: "2026-01-15"
+    href: >-
+      https://www.cio.com/article/189651/8-tips-for-managing-low-code-citizen-developers.html
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - no-code
-  - governance
-  - IT
+    - no-code
+    - governance
+    - IT
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst

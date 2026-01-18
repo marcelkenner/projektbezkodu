@@ -1,43 +1,47 @@
 ---
-title: "Lottie od A do Z: jak wdrożyć animacje, żeby nie zabić szybkości strony"
+title: 'Lottie od A do Z: jak wdrożyć animacje, żeby nie zabić szybkości strony'
 slug: lottie-od-a-do-z
 path: /animacje/lottie-od-a-do-z
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Lottie od A do Z: jak wdrożyć animacje, żeby nie zabić szybkości strony"
-  subheading: Praktyczny przewodnik dla marketerów, designerów i developerów — co
+  heading: 'Lottie od A do Z: jak wdrożyć animacje, żeby nie zabić szybkości strony'
+  subheading: >-
+    Praktyczny przewodnik dla marketerów, designerów i developerów — co
     eksportować, kiedy lazy-loadować i jak testować wpływ na Core Web Vitals
 seo:
-  title: "Lottie: optymalizacja animacji bez utraty szybkości"
-  description: Jak wdrożyć Lottie tak, żeby nie pogorszyć Core Web Vitals — konkretne
+  title: 'Lottie: optymalizacja animacji bez utraty szybkości'
+  description: >-
+    Jak wdrożyć Lottie tak, żeby nie pogorszyć Core Web Vitals — konkretne
     techniki eksportu, optymalizacji i testowania.
   keywords:
-  - Lottie
-  - optymalizacja animacji
-  - Core Web Vitals
-  - PageSpeed
-  - Bodymovin
+    - Lottie
+    - optymalizacja animacji
+    - Core Web Vitals
+    - PageSpeed
+    - Bodymovin
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 10 minut
   hasAffiliateLinks: false
   primaryCta:
     label: Optymalizacja Lottie (LottieFiles)
     href: https://lottiefiles.com/features/optimize-lottie
   summaryBullets:
-  - "Werdykt: używaj Lottie tam, gdzie zastępuje ciężkie GIFy/wideo, ale kontroluj\
-    \ zasoby."
-  - "Dla kogo: świetne dla micro-animacji i interakcji; złe dla skomplikowanych obrazowych\
-    \ sekwencji."
-  - "Start: najpierw audit PageSpeed + zminimalizuj obrazy w JSON."
+    - >-
+      Werdykt: używaj Lottie tam, gdzie zastępuje ciężkie GIFy/wideo, ale
+      kontroluj zasoby.
+    - >-
+      Dla kogo: świetne dla micro-animacji i interakcji; złe dla skomplikowanych
+      obrazowych sekwencji.
+    - 'Start: najpierw audit PageSpeed + zminimalizuj obrazy w JSON.'
 taxonomy:
   categories:
-  - frontend
-  - performance
-  - design
+    - frontend
+    - performance
+    - design
 ---
 
 ## Obietnica i werdykt dla kogo

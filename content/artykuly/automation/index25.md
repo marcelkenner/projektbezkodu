@@ -1,37 +1,40 @@
 ---
-title: "Checklisty wdrożenia automatyzacji w firmie: od mapy procesu do utrzymania"
+title: 'Checklisty wdrożenia automatyzacji w firmie: od mapy procesu do utrzymania'
 slug: checklisty-wdrozenia-automatyzacji
 path: /checklisty-wdrozenia-automatyzacji
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Checklisty wdrożenia automatyzacji: od mapy procesu do utrzymania"
+  heading: 'Checklisty wdrożenia automatyzacji: od mapy procesu do utrzymania'
   subheading: Konkretne kroki, kto za co odpowiada i co monitorować po wdrożeniu
 seo:
   title: Checklisty wdrożenia automatyzacji w firmie
-  description: "Krótkie i praktyczne checklisty: mapa procesu, pilot, produkcja i\
-    \ utrzymanie automatyzacji."
+  description: >-
+    Krótkie i praktyczne checklisty: mapa procesu, pilot, produkcja i utrzymanie
+    automatyzacji.
   keywords:
-  - automatyzacja
-  - checklista
-  - mapa procesu
-  - RPA
-  - utrzymanie automatyzacji
+    - automatyzacja
+    - checklista
+    - mapa procesu
+    - RPA
+    - utrzymanie automatyzacji
 meta:
   summaryBullets:
-  - "Werdykt: automatyzacja potrzebuje właściciela procesu, inaczej zgaśnie."
-  - "Dla kogo: zespoły operacyjne i IT planujące pilotaż i skalowanie."
-  - "Start: narysuj mapę procesu w 1 dzień, wyznacz właściciela i uruchom pilotaż."
+    - 'Werdykt: automatyzacja potrzebuje właściciela procesu, inaczej zgaśnie.'
+    - 'Dla kogo: zespoły operacyjne i IT planujące pilotaż i skalowanie.'
+    - >-
+      Start: narysuj mapę procesu w 1 dzień, wyznacz właściciela i uruchom
+      pilotaż.
   primaryCta:
     label: Checklista RPA - gotowy szablon
     href: https://www.process.st/templates/rpa-process-improvement-checklist/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - Automatyzacja
-  - Operacje
-  - IT
+    - Automatyzacja
+    - Operacje
+    - IT
 ---
 
 ## Obietnica decyzji — co i dla kogo

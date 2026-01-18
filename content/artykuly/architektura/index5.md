@@ -1,42 +1,46 @@
 ---
-title: "Granice no-code: kiedy architektura mówi „dość” i trzeba dołożyć kod"
+title: 'Granice no-code: kiedy architektura mówi „dość” i trzeba dołożyć kod'
 slug: granice-no-code-kiedy-dolozyc-kod
 path: /architektura/granice-no-code-kiedy-dolozyc-kod
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Granice no-code: kiedy architektura mówi „dość”"
+  heading: 'Granice no-code: kiedy architektura mówi „dość”'
   subheading: Krótkie kryteria decyzyjne dla PM-ów, CTO i zespołów produktowych
 seo:
   title: Granice no-code — kiedy przejść do kodu
-  description: "Kiedy no‑code wystarcza, a kiedy architektura wymaga kodu — praktyczne\
-    \ kryteria: wydajność, bezpieczeństwo, uprawnienia, integracje, vendor lock‑in."
+  description: >-
+    Kiedy no‑code wystarcza, a kiedy architektura wymaga kodu — praktyczne
+    kryteria: wydajność, bezpieczeństwo, uprawnienia, integracje, vendor
+    lock‑in.
   keywords:
-  - no-code
-  - vendor lock-in
-  - skalowalność
-  - architektura
-  - integracje
+    - no-code
+    - vendor lock-in
+    - skalowalność
+    - architektura
+    - integracje
 meta:
   summaryBullets:
-  - "Werdykt: no-code dobrze startuje, ale przy kilku warunkach trzeba kodować."
-  - "Dla kogo: MVP i procesy HR/marketing — tak; globalny SaaS z unikatową logiką\
-    \ — raczej nie."
-  - "Start: test integracji i limitów wydajności w 1. tygodniu prototypu."
+    - 'Werdykt: no-code dobrze startuje, ale przy kilku warunkach trzeba kodować.'
+    - >-
+      Dla kogo: MVP i procesy HR/marketing — tak; globalny SaaS z unikatową
+      logiką — raczej nie.
+    - 'Start: test integracji i limitów wydajności w 1. tygodniu prototypu.'
   primaryCta:
     label: Czytaj dalej — dyskusja o no-code
-    href: https://baldbold.eu/2025/06/20/czy-aplikacje-no-code-to-pulapka-czy-przyszlosc/
-  updatedAt: "2026-01-15"
+    href: >-
+      https://baldbold.eu/2025/06/20/czy-aplikacje-no-code-to-pulapka-czy-przyszlosc/
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - architektura
-  - no-code
+    - architektura
+    - no-code
   tags:
-  - no-code
-  - architektura
-  - skalowalność
+    - no-code
+    - architektura
+    - skalowalność
 ---
 
 ## Obietnica decyzji

@@ -1,39 +1,40 @@
 ---
-title: "Webflow CMS vs Wix CMS: który wybrać do bloga bez kodu?"
+title: 'Webflow CMS vs Wix CMS: który wybrać do bloga bez kodu?'
 slug: webflow-vs-wix-cms-dla-bloga-bez-kodu
 path: /webflow-vs-wix-cms-dla-bloga-bez-kodu
 template: default
 draft: true
 type: review
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Webflow CMS vs Wix CMS: który wybrać do bloga bez kodu?"
+  heading: 'Webflow CMS vs Wix CMS: który wybrać do bloga bez kodu?'
   subheading: Krótki werdykt i praktyczne wskazówki, żebyś nie tracił czasu na testy
 meta:
   summaryBullets:
-  - "Werdykt: Webflow dla kontroli i skalowania; Wix dla szybkiego startu."
-  - "Dla kogo: decyzja zależy od skali, budżetu i chęci uczenia się."
-  - "Start: załóż darmowe konto i opublikuj pierwszy post w ciągu godziny."
+    - 'Werdykt: Webflow dla kontroli i skalowania; Wix dla szybkiego startu.'
+    - 'Dla kogo: decyzja zależy od skali, budżetu i chęci uczenia się.'
+    - 'Start: załóż darmowe konto i opublikuj pierwszy post w ciągu godziny.'
   primaryCta:
     label: Zobacz Webflow CMS
     href: https://webflow.com/feature/cms
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   author: Redakcja
 seo:
   title: Webflow CMS vs Wix CMS — wybór do bloga bez kodu
-  description: Porównanie Webflow CMS i Wix CMS pod kątem blogowania bez programowania.
+  description: >-
+    Porównanie Webflow CMS i Wix CMS pod kątem blogowania bez programowania.
     Szybki werdykt, kto wygra w SEO, łatwości obsługi i skalowaniu.
   keywords:
-  - Webflow
-  - Wix
-  - CMS bez kodu
-  - blog
-  - porównanie
+    - Webflow
+    - Wix
+    - CMS bez kodu
+    - blog
+    - porównanie
 taxonomy:
   categories:
-  - CMS
-  - bez-kodu
+    - CMS
+    - bez-kodu
 ---
 
 ## Obietnica i werdykt na start

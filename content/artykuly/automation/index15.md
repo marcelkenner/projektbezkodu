@@ -1,41 +1,42 @@
 ---
-title: "RODO/GDPR w automatyzacjach: minimalizacja danych i legalne scenariusze"
+title: 'RODO/GDPR w automatyzacjach: minimalizacja danych i legalne scenariusze'
 slug: rodo-gdpr-automatyzacje-minimalizacja
 path: /rodo-gdpr-automatyzacje-minimalizacja
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "RODO w automatyzacjach: minimalizacja i legalne scenariusze"
+  heading: 'RODO w automatyzacjach: minimalizacja i legalne scenariusze'
   subheading: Praktyczne zasady do wdrożenia w małej firmie — szybko i bez paniki
 seo:
   title: RODO w automatyzacjach — minimalizacja danych i legalne scenariusze
-  description: Jak stosować zasadę minimalizacji danych w automatyzacjach i kiedy
+  description: >-
+    Jak stosować zasadę minimalizacji danych w automatyzacjach i kiedy
     automatyczne decyzje wymagają zgody lub ingerencji człowieka.
   keywords:
-  - RODO
-  - GDPR
-  - minimalizacja danych
-  - automatyzacje
-  - profilowanie
+    - RODO
+    - GDPR
+    - minimalizacja danych
+    - automatyzacje
+    - profilowanie
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do materiału UODO o minimalizacji
     href: https://uodo.gov.pl/pl/329/1451
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
 taxonomy:
   categories:
-  - prawo
-  - RODO
-  - automatyzacje
+    - prawo
+    - RODO
+    - automatyzacje
   tags:
-  - minimalizacja
-  - profilowanie
-  - automatyzacja
+    - minimalizacja
+    - profilowanie
+    - automatyzacja
 ---
 
 ## Obietnica decyzji — dla kogo ten tekst i co z niego wyniesiesz

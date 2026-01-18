@@ -1,46 +1,47 @@
 ---
-title: "Siatka i odstępy: jak robić „czysto” w Webflow/Framer"
+title: 'Siatka i odstępy: jak robić „czysto” w Webflow/Framer'
 slug: siatka-odstepy-webflow-framer
 path: /siatka-odstepy-webflow-framer
-date: "2026-01-14"
+date: '2026-01-14'
 draft: false
 template: default
 type: article
 hero:
-  heading: "Siatka i odstępy: jak robić „czysto” w Webflow/Framer"
+  heading: 'Siatka i odstępy: jak robić „czysto” w Webflow/Framer'
   subheading: Praktyczny przewodnik po gridach, gapach i breakpointach
   primaryCta:
-    label: "Dokumentacja: Grid w Webflow"
+    label: 'Dokumentacja: Grid w Webflow'
     href: https://help.webflow.com/hc/en-us/articles/33961365794451-Grid
 seo:
   title: Siatka i odstępy w Webflow i Framer — praktyczny przewodnik
-  description: Spacing system, breakpoints i najczęstsze błędy przy układach. Krótkie
+  description: >-
+    Spacing system, breakpoints i najczęstsze błędy przy układach. Krótkie
     zasady, przykłady i gotowe decyzje.
   keywords:
-  - Webflow
-  - Framer
-  - siatka
-  - spacing
-  - grid
-  - breakpoints
+    - Webflow
+    - Framer
+    - siatka
+    - spacing
+    - grid
+    - breakpoints
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: proste reguły wystarczą dla większości stron"
-  - "Dla kogo: projektanci UI, autorzy stron w Webflow i Framer"
-  - "Start: ustaw 4–8 punktów odstępów i jedno źródło prawdy"
+    - 'Werdykt: proste reguły wystarczą dla większości stron'
+    - 'Dla kogo: projektanci UI, autorzy stron w Webflow i Framer'
+    - 'Start: ustaw 4–8 punktów odstępów i jedno źródło prawdy'
   primaryCta:
     label: Sprawdź dokumentację Webflow
     href: https://help.webflow.com/hc/en-us/articles/33961365794451-Grid
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - siatka
-  - spacing
-  - Webflow
-  - Framer
+    - siatka
+    - spacing
+    - Webflow
+    - Framer
 ---
 
 # Siatka i odstępy: jak robić „czysto” w Webflow/Framer

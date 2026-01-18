@@ -1,45 +1,46 @@
 ---
-title: "UTM-y bez chaosu: standardy, które ratują marketing"
+title: 'UTM-y bez chaosu: standardy, które ratują marketing'
 slug: utm-y-bez-chaosu-standardy
 path: /analityka/utm-y-bez-chaosu-standardy
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "UTM-y bez chaosu: standardy, które ratują marketing"
-  subheading: "Praktyczny przewodnik: jak nazwać, egzekwować i nie zepsuć raportów\
-    \ w GA4"
+  heading: 'UTM-y bez chaosu: standardy, które ratują marketing'
+  subheading: 'Praktyczny przewodnik: jak nazwać, egzekwować i nie zepsuć raportów w GA4'
 seo:
   title: UTM-y bez chaosu — standardy nazewnictwa i szybki start
-  description: Jak ustalić prostą konwencję UTM, dlaczego to ważne i jak wdrożyć w
-    5 minut bez paranoi o SEO i auto-tagging.
+  description: >-
+    Jak ustalić prostą konwencję UTM, dlaczego to ważne i jak wdrożyć w 5 minut
+    bez paranoi o SEO i auto-tagging.
   keywords:
-  - UTM
-  - GA4
-  - naming conventions
-  - analityka
-  - tracking
+    - UTM
+    - GA4
+    - naming conventions
+    - analityka
+    - tracking
 meta:
   summaryBullets:
-  - "Werdykt: proste zasady + egzekucja beats ad-hoc tagging."
-  - "Dla kogo: zespoły marketingu i growth, które analizują kampanie w GA4."
-  - "Start: zbuduj 3 reguły i jedną szablonową wartość w 5 minut."
+    - 'Werdykt: proste zasady + egzekucja beats ad-hoc tagging.'
+    - 'Dla kogo: zespoły marketingu i growth, które analizują kampanie w GA4.'
+    - 'Start: zbuduj 3 reguły i jedną szablonową wartość w 5 minut.'
   primaryCta:
     label: Przeczytaj przewodnik GA4 o URL Builder
-    href: https://influenceflow.io/resources/google-analytics-url-builder-the-complete-2026-guide-to-tracking-campaigns/
-  updatedAt: "2026-01-14"
+    href: >-
+      https://influenceflow.io/resources/google-analytics-url-builder-the-complete-2026-guide-to-tracking-campaigns/
+  updatedAt: '2026-01-14'
   author: Redakcja Analityka
   difficulty: Łatwy
   duration: 5–30 min
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - analityka
-  - marketing
+    - analityka
+    - marketing
   tags:
-  - UTM
-  - GA4
-  - naming
+    - UTM
+    - GA4
+    - naming
 ---
 
 ## Krótka decyzja dla zabieganych

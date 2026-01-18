@@ -1,15 +1,15 @@
 ---
 slug: animacje-formularze-onboarding-porzucenia
-title: "Animacje w formularzach i onboardingach: jak zmniejszyć porzucenia"
+title: 'Animacje w formularzach i onboardingach: jak zmniejszyć porzucenia'
 path: /animacje/formularze-onboarding-porzucenia
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
     href: https://design.google/library/making-motion-meaningful

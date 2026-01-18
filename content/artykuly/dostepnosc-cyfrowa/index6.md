@@ -1,47 +1,51 @@
 ---
-title: "Semantyka i nagłówki: struktura treści pod czytniki ekranu w no-code CMS"
+title: 'Semantyka i nagłówki: struktura treści pod czytniki ekranu w no-code CMS'
 slug: semantyka-naglowkow-dla-czytnikow-ekranu
 path: /dostepnosc/semantyka-naglowkow-dla-czytnikow-ekranu
-date: "2026-01-14"
+date: '2026-01-14'
 template: default
 draft: false
 type: article
 hero:
-  heading: "Semantyka i nagłówki: struktura treści pod czytniki ekranu"
+  heading: 'Semantyka i nagłówki: struktura treści pod czytniki ekranu'
   subheading: Szybkie praktyczne wskazówki dla użytkowników no-code CMS
 meta:
   summaryBullets:
-  - "Werdykt: Poprawne nagłówki to najtańszy i najszybszy sposób na lepszą nawigację\
-    \ dla osób korzystających z czytników ekranu."
-  - "Szybki start: w 5 minut ustawisz H1–H3 w edytorze i sprawdzisz wynik narzędziem\
-    \ WAVE/axe."
-  - "Kiedy to przestaje działać: przy kopiowaniu treści z Worda/Google Docs lub przy\
-    \ stosowaniu stylów zamiast semantyki."
+    - >-
+      Werdykt: Poprawne nagłówki to najtańszy i najszybszy sposób na lepszą
+      nawigację dla osób korzystających z czytników ekranu.
+    - >-
+      Szybki start: w 5 minut ustawisz H1–H3 w edytorze i sprawdzisz wynik
+      narzędziem WAVE/axe.
+    - >-
+      Kiedy to przestaje działać: przy kopiowaniu treści z Worda/Google Docs lub
+      przy stosowaniu stylów zamiast semantyki.
   primaryCta:
     label: WebAIM — Headings
     href: https://webaim.org/techniques/headings/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: beginner
   duration: 5 min
   author: Redakcja
   hasAffiliateLinks: false
 seo:
   title: Semantyka i nagłówki w no-code CMS — jak pisać pod czytniki ekranu
-  description: "Praktyczny przewodnik: dlaczego nagłówki (H1–H6) są ważne dla dostępności,\
-    \ jak ustawić je w no-code CMS i jak szybko przetestować strukturę."
+  description: >-
+    Praktyczny przewodnik: dlaczego nagłówki (H1–H6) są ważne dla dostępności,
+    jak ustawić je w no-code CMS i jak szybko przetestować strukturę.
   keywords:
-  - dostępność
-  - nagłówki
-  - no-code
-  - screen reader
-  - WCAG
+    - dostępność
+    - nagłówki
+    - no-code
+    - screen reader
+    - WCAG
 taxonomy:
   categories:
-  - dostepnosc-cyfrowa
+    - dostepnosc-cyfrowa
   tags:
-  - no-code
-  - accessibility
-  - wcag
+    - no-code
+    - accessibility
+    - wcag
 ---
 
 Decyzja na start: **jeśli chcesz, żeby osoby korzystające z czytników ekranu mogły szybko znaleźć i zrozumieć treść**, używaj rzeczywistych znaczników nagłówków (H1–H6), a nie tylko stylów wizualnych. Dlaczego: nagłówki tworzą mapę strony, po której skaczą czytniki ekranu — to bezpośrednio wpływa na użyteczność. [WebAIM: Headings](https://webaim.org/techniques/headings/). ([[webaim.org](https://webaim.org/techniques](https://webaim.org/techniques/headings/?utm_source=openai)/headings/?utm_source=openai))

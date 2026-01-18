@@ -1,23 +1,24 @@
 ---
-title: "Automatyzacja obsługi klienta: tagowanie zgłoszeń, SLA i eskalacje bez chaosu"
+title: 'Automatyzacja obsługi klienta: tagowanie zgłoszeń, SLA i eskalacje bez chaosu'
 slug: automatyzacja-obslugi-klienta-tagowanie-sla-eskalacje
 path: /automatyzacja-obslugi-klienta-tagowanie-sla-eskalacje
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automatyzacja obsługi klienta: tagowanie zgłoszeń, SLA i eskalacje bez\
-    \ chaosu"
+  heading: >-
+    Automatyzacja obsługi klienta: tagowanie zgłoszeń, SLA i eskalacje bez
+    chaosu
   subheading: Proste reguły, jasne SLA, eskalacje które nie powodują bałaganu
 meta:
   summaryBullets:
-  - "Werdykt: proste reguły działają lepiej niż skomplikowane AI na start."
-  - "Dla kogo: zespoły supportu od 5 do 200 agentów."
-  - "Start: zrób mapę priorytetów i trzy proste tagi."
+    - 'Werdykt: proste reguły działają lepiej niż skomplikowane AI na start.'
+    - 'Dla kogo: zespoły supportu od 5 do 200 agentów.'
+    - 'Start: zrób mapę priorytetów i trzy proste tagi.'
   primaryCta:
     label: Przejdź do artykułu
     href: https://www.zendesk.com/it/blog/6-keys-ticket-escalation/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 ---
 

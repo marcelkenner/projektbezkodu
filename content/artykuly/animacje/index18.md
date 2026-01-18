@@ -1,48 +1,51 @@
 ---
-title: "No-code w aplikacjach: animacje w FlutterFlow/Bubble — co jest realne, a co\
-  \ jest marketingiem"
+title: >-
+  No-code w aplikacjach: animacje w FlutterFlow/Bubble — co jest realne, a co
+  jest marketingiem
 slug: animacje-flutterflow-bubble
 path: /animacje/flutterflow-bubble-realne-vs-marketing
 template: default
 draft: false
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Animacje w no-code — co naprawdę działa w FlutterFlow i Bubble
-  subheading: "Szybki przewodnik dla founderów robiących MVP: kiedy animacje przynoszą\
-    \ wartość, a kiedy hamują rozwój"
+  subheading: >-
+    Szybki przewodnik dla founderów robiących MVP: kiedy animacje przynoszą
+    wartość, a kiedy hamują rozwój
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5 min
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Dokumentacja FlutterFlow — Animacje
     href: https://docs.flutterflow.io/concepts/animations/
   hasAffiliateLinks: false
 seo:
   title: Animacje w FlutterFlow i Bubble — realia vs marketing
-  description: Porównanie możliwości animacji w FlutterFlow i Bubble, praktyczne wskazówki
-    dla MVP oraz krótki werdykt kto powinien iść no-code, a kto zatrzymać się przy
-    custom.
+  description: >-
+    Porównanie możliwości animacji w FlutterFlow i Bubble, praktyczne wskazówki
+    dla MVP oraz krótki werdykt kto powinien iść no-code, a kto zatrzymać się
+    przy custom.
   keywords:
-  - FlutterFlow
-  - Bubble
-  - animacje
-  - no-code
+    - FlutterFlow
+    - Bubble
+    - animacje
+    - no-code
 taxonomy:
   categories:
-  - no-code
-  - mobile
-  - poradnik
+    - no-code
+    - mobile
+    - poradnik
   tags:
-  - FlutterFlow
-  - Bubble
-  - animacje
-  - MVP
+    - FlutterFlow
+    - Bubble
+    - animacje
+    - MVP
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

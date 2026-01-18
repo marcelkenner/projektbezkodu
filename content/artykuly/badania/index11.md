@@ -1,49 +1,50 @@
 ---
-title: "Badanie: popularność baz danych no-code — Airtable, Baserow, Notion"
+title: 'Badanie: popularność baz danych no-code — Airtable, Baserow, Notion'
 slug: badanie-popularnosci-baz-no-code-airtable-baserow-notion
 path: /badania/badanie-popularnosci-baz-no-code-airtable-baserow-notion
 template: default
 draft: false
 type: badanie
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Która no-code baza danych ma sens dla zespołu operacyjnego i produktowego?
   subheading: Szybki werdykt, jak zacząć i co sprawdzić zanim wdrożysz.
 seo:
   title: Popularność baz danych no-code — Airtable, Baserow, Notion
-  description: Porównanie zastosowań, ograniczeń i rekomendacje dla zespołów operacyjnych
-    i produktowych.
+  description: >-
+    Porównanie zastosowań, ograniczeń i rekomendacje dla zespołów operacyjnych i
+    produktowych.
   keywords:
-  - no-code
-  - Airtable
-  - Baserow
-  - Notion
-  - bazy danych
-  - operacje
-  - produkt
+    - no-code
+    - Airtable
+    - Baserow
+    - Notion
+    - bazy danych
+    - operacje
+    - produkt
 meta:
   difficulty: średni
   duration: 5–15 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: wybierz według priorytetu — integracje, self-hosting, koszt."
-  - "Dla kogo: operacje, produkt, IT z potrzebą kontroli danych."
-  - "Start: zrób prototyp w 30 min i sprawdź integracje."
+    - 'Werdykt: wybierz według priorytetu — integracje, self-hosting, koszt.'
+    - 'Dla kogo: operacje, produkt, IT z potrzebą kontroli danych.'
+    - 'Start: zrób prototyp w 30 min i sprawdź integracje.'
   primaryCta:
     label: Baserow — roczny raport 2024
     href: https://baserow.io/blog/year-in-review-2024
 taxonomy:
   categories:
-  - Badania i raporty
-  - No-code
+    - Badania i raporty
+    - No-code
   tags:
-  - Airtable
-  - Baserow
-  - Notion
-  - no-code
-  - bazy danych
+    - Airtable
+    - Baserow
+    - Notion
+    - no-code
+    - bazy danych
 ---
 
 ## Obietnica decyzji dla konkretnej grupy

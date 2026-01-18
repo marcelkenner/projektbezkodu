@@ -1,36 +1,39 @@
 ---
-title: "Katalog produktów i filtry: jak projektować nawigację w sklepie"
+title: 'Katalog produktów i filtry: jak projektować nawigację w sklepie'
 slug: katalog-produktow-filtry-nawigacja
 path: /katalog-produktow-filtry-nawigacja
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Katalog produktów i filtry: jak projektować nawigację w sklepie"
+  heading: 'Katalog produktów i filtry: jak projektować nawigację w sklepie'
   subheading: Proste reguły, żeby klient szybciej znalazł i kupił produkt
 seo:
   title: Katalog i filtry — projektowanie nawigacji sklepu
-  description: "Kategorie, tagi, sortowanie, wyszukiwarka i filtry: co wdrożyć najpierw,\
-    \ a co odpuścić."
+  description: >-
+    Kategorie, tagi, sortowanie, wyszukiwarka i filtry: co wdrożyć najpierw, a
+    co odpuścić.
   keywords:
-  - katalog produktów
-  - filtry e-commerce
-  - nawigacja sklepu
-  - UX sklep internetowy
+    - katalog produktów
+    - filtry e-commerce
+    - nawigacja sklepu
+    - UX sklep internetowy
 meta:
   summaryBullets:
-  - "Werdykt: proste filtry ponad wszystkimi — poprawa konwersji przy niskim koszcie"
-  - "Dla kogo: małe i średnie sklepy; przy katalogu >5k produktów inaczej"
-  - "Start: zidentyfikuj 5 najważniejszych atrybutów i udostępnij je w 15 minut"
+    - >-
+      Werdykt: proste filtry ponad wszystkimi — poprawa konwersji przy niskim
+      koszcie
+    - 'Dla kogo: małe i średnie sklepy; przy katalogu >5k produktów inaczej'
+    - 'Start: zidentyfikuj 5 najważniejszych atrybutów i udostępnij je w 15 minut'
   primaryCta:
     label: Zobacz badanie Baymard o listach produktów
     href: https://baymard.com/blog/current-state-product-list-and-filtering
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Redakcja
 taxonomy:
   categories:
-  - E-commerce
-  - UX
+    - E-commerce
+    - UX
 ---
 
 ## Obietnica decyzji i grupa docelowa

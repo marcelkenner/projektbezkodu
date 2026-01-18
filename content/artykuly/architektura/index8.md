@@ -1,45 +1,50 @@
 ---
-title: "Projektowanie integracji: API-first vs “klikane integracje” — co jest stabilniejsze"
+title: >-
+  Projektowanie integracji: API-first vs “klikane integracje” — co jest
+  stabilniejsze
 slug: integracje-api-first-vs-klikane-stabilnosc
 path: /integracje/api-first-vs-klikane-stabilnosc
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: API-first vs klikane integracje — co wybrać, gdy stabilność ma znaczenie
   subheading: Krótki werdykt i praktyczne kroki dla zespołów produktowych i inżynieryjnych
 seo:
   title: API-first czy klikane integracje — który sposób daje większą stabilność?
-  description: Analiza zalet i ograniczeń API-first oraz no-code/klikanych integracji
-    z naciskiem na stabilność, operacje i skalowanie.
+  description: >-
+    Analiza zalet i ograniczeń API-first oraz no-code/klikanych integracji z
+    naciskiem na stabilność, operacje i skalowanie.
   keywords:
-  - API-first
-  - integracje
-  - iPaaS
-  - no-code
-  - stabilność integracji
+    - API-first
+    - integracje
+    - iPaaS
+    - no-code
+    - stabilność integracji
 meta:
   summaryBullets:
-  - "Werdykt: API-first bywa stabilniejsze przy skali i krytycznych procesach."
-  - "Dla kogo: API-first dla inżynierów/produktów; klikane integracje dla szybkich\
-    \ prototypów i małych automatyzacji."
-  - "Start: zdefiniuj kontrakt API (OpenAPI), potem integruj; dla klikanych integracji:\
-    \ monitoruj limity i retry."
+    - 'Werdykt: API-first bywa stabilniejsze przy skali i krytycznych procesach.'
+    - >-
+      Dla kogo: API-first dla inżynierów/produktów; klikane integracje dla
+      szybkich prototypów i małych automatyzacji.
+    - >-
+      Start: zdefiniuj kontrakt API (OpenAPI), potem integruj; dla klikanych
+      integracji: monitoruj limity i retry.
   primaryCta:
     label: Co to jest API-first (definicja)
     href: https://openapispec.com/docs/what/what-is-api-first/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja Architektury
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - architektura
-  - integracje
+    - architektura
+    - integracje
   tags:
-  - api-first
-  - no-code
-  - iPaaS
-  - stabilność
+    - api-first
+    - no-code
+    - iPaaS
+    - stabilność
 ---
 
 ## Obietnica decyzji (dla kogo ten tekst)

@@ -1,36 +1,39 @@
 ---
-title: "CRM dla freelancera bez wdrożeń: prosty pipeline, który ogarniesz w jedno\
-  \ popołudnie"
+title: >-
+  CRM dla freelancera bez wdrożeń: prosty pipeline, który ogarniesz w jedno
+  popołudnie
 slug: crm-dla-freelancera-bez-wdrozen
 path: /crm-dla-freelancera-bez-wdrozen
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: CRM dla freelancera bez wdrożeń
   subheading: Prosty pipeline, który ogarniesz w jedno popołudnie
 seo:
   title: CRM dla freelancera — prosty pipeline na jedno popołudnie
-  description: "Jak zbudować minimalny CRM w godziny: kontakty, pipeline, przypomnienia\
-    \ i prosty monitoring płatności."
+  description: >-
+    Jak zbudować minimalny CRM w godziny: kontakty, pipeline, przypomnienia i
+    prosty monitoring płatności.
 meta:
   difficulty: łatwy
   duration: 1 popołudnie
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: najlepsze dla freelancerów, którzy chcą porządku w kontaktach i follow-upach\
-    \ bez długiego wdrożenia."
+    - >-
+      Werdykt: najlepsze dla freelancerów, którzy chcą porządku w kontaktach i
+      follow-upach bez długiego wdrożenia.
 taxonomy:
   categories:
-  - produktywność
-  - biznes
+    - produktywność
+    - biznes
   tags:
-  - CRM
-  - freelancer
-  - pipeline
-  - narzędzia
+    - CRM
+    - freelancer
+    - pipeline
+    - narzędzia
 ---
 
 ## Obietnica decyzji dla freelancera

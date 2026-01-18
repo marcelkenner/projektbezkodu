@@ -1,38 +1,43 @@
 ---
-title: "Badanie: gdzie no-code się nie sprawdza"
+title: 'Badanie: gdzie no-code się nie sprawdza'
 slug: badanie-ograniczenia-no-code
 path: /badanie-ograniczenia-no-code
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Gdzie no-code się nie sprawdza
-  subheading: Złożone reguły, nietypowe UI, wydajność i wymogi prawne — kiedy warto
-    wybrać kod
+  subheading: >-
+    Złożone reguły, nietypowe UI, wydajność i wymogi prawne — kiedy warto wybrać
+    kod
 seo:
   title: Gdzie no-code się nie sprawdza — krótki przegląd
-  description: "Praktyczny przewodnik po sytuacjach, w których no-code zawiedzie:\
-    \ co sprawdzić, jak przetestować i kiedy zaplanować przeniesienie na custom code."
+  description: >-
+    Praktyczny przewodnik po sytuacjach, w których no-code zawiedzie: co
+    sprawdzić, jak przetestować i kiedy zaplanować przeniesienie na custom code.
   keywords:
-  - no-code
-  - ograniczenia
-  - vendor lock-in
-  - wydajność
-  - compliance
+    - no-code
+    - ograniczenia
+    - vendor lock-in
+    - wydajność
+    - compliance
 meta:
   summaryBullets:
-  - "Werdykt: no-code działa świetnie dla szybkich MVP i prostych automatyzacji."
-  - "Dla kogo: nie dla systemów złożonych reguł biznesowych, krytycznej wydajności\
-    \ lub twardych wymogów prawnych."
-  - "Start: zrób POC, sprawdź eksport danych i SLA dostawcy."
+    - >-
+      Werdykt: no-code działa świetnie dla szybkich MVP i prostych
+      automatyzacji.
+    - >-
+      Dla kogo: nie dla systemów złożonych reguł biznesowych, krytycznej
+      wydajności lub twardych wymogów prawnych.
+    - 'Start: zrób POC, sprawdź eksport danych i SLA dostawcy.'
   primaryCta:
-    label: "Dokumentacja: limity Zapier"
+    label: 'Dokumentacja: limity Zapier'
     href: https://help.zapier.com/hc/en-us/articles/8496181445261-Zap-limits
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   author: Zespół badań
 taxonomy:
   categories:
-  - Badania i raporty
+    - Badania i raporty
 ---
 
 ## Obietnica i szybki werdykt

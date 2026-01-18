@@ -1,45 +1,49 @@
 ---
-title: "Eksperymenty onboardingowe: co mierzyć i jak skracać time-to-value"
+title: 'Eksperymenty onboardingowe: co mierzyć i jak skracać time-to-value'
 slug: eksperymenty-onboardingowe-mierzyc-time-to-value
 path: /analityka/eksperymenty-onboardingowe-mierzyc-time-to-value
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Eksperymenty onboardingowe: co mierzyć i jak skracać time-to-value"
-  subheading: Konkretny plan dla PM-ów, CS i zespołów growth, którzy chcą szybciej
+  heading: 'Eksperymenty onboardingowe: co mierzyć i jak skracać time-to-value'
+  subheading: >-
+    Konkretny plan dla PM-ów, CS i zespołów growth, którzy chcą szybciej
     doprowadzać użytkownika do pierwszej wartości.
 seo:
   title: Eksperymenty onboardingowe — jak mierzyć i skrócić Time-to-Value
-  description: Praktyczny przewodnik po metrykach onboardingowych, eksperymentach
-    i szybkim startowaniu testów skracających Time-to-Value.
+  description: >-
+    Praktyczny przewodnik po metrykach onboardingowych, eksperymentach i szybkim
+    startowaniu testów skracających Time-to-Value.
   keywords:
-  - onboarding
-  - time-to-value
-  - TTV
-  - metryki
-  - eksperymenty
-  - SaaS
+    - onboarding
+    - time-to-value
+    - TTV
+    - metryki
+    - eksperymenty
+    - SaaS
 meta:
   summaryBullets:
-  - "Werdykt: skup się najpierw na Time-to-Value i Activation Rate."
-  - "Dla kogo: B2B SaaS, PLG i zespoły CS, które mierzą retencję i konwersję."
-  - "Start: 1 wskaźnik, 1 eksperyment, 1 sprint — instrumentuj i mierz medianę TTV."
+    - 'Werdykt: skup się najpierw na Time-to-Value i Activation Rate.'
+    - 'Dla kogo: B2B SaaS, PLG i zespoły CS, które mierzą retencję i konwersję.'
+    - >-
+      Start: 1 wskaźnik, 1 eksperyment, 1 sprint — instrumentuj i mierz medianę
+      TTV.
   primaryCta:
     label: Top onboarding metrics — Mixpanel
     href: https://mixpanel.com/blog/top-user-onboarding-metrics/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja Analityka
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - analityka
-  - onboarding
+    - analityka
+    - onboarding
   tags:
-  - TTV
-  - eksperymenty
-  - metryki
-  - SaaS
+    - TTV
+    - eksperymenty
+    - metryki
+    - SaaS
 ---
 
 Krótko: ten tekst powie Ci, które metryki testować, jak zdefiniować moment wartości i jak zaprojektować eksperyment, który realnie skróci Time-to-Value (TTV). Adresat: PM-y, zespoły Customer Success i growth w produktach cyfrowych.

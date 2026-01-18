@@ -1,48 +1,52 @@
 ---
-title: "Logowanie i monitoring: jak projektować system, który mówi Ci, że coś nie\
-  \ działa"
+title: >-
+  Logowanie i monitoring: jak projektować system, który mówi Ci, że coś nie
+  działa
 slug: logowanie-monitoring-alerty
 path: /logowanie-monitoring-alerty
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Logowanie i monitoring: jak projektować system, który mówi Ci, że coś\
-    \ nie działa"
-  subheading: Praktyczny przewodnik — co mierzyć, jak alarmować, jak unikać fałszywych
+  heading: >-
+    Logowanie i monitoring: jak projektować system, który mówi Ci, że coś nie
+    działa
+  subheading: >-
+    Praktyczny przewodnik — co mierzyć, jak alarmować, jak unikać fałszywych
     sygnałów
 meta:
   summaryBullets:
-  - "Werdykt: prosty monitoring + sensowne logi to minimalne wymaganie."
-  - "Dla kogo: zespoły, które chcą szybciej wykrywać i naprawiać awarie."
-  - "Start: trzy szybkie kroki, które wdroisz w 1 dzień."
+    - 'Werdykt: prosty monitoring + sensowne logi to minimalne wymaganie.'
+    - 'Dla kogo: zespoły, które chcą szybciej wykrywać i naprawiać awarie.'
+    - 'Start: trzy szybkie kroki, które wdroisz w 1 dzień.'
   primaryCta:
     label: OpenTelemetry — specyfikacja logów
     href: https://opentelemetry.io/docs/specs/otel/logs/
   duration: 5 min
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
   format: recenzja
 taxonomy:
   categories:
-  - Architektura
-  - Observability
+    - Architektura
+    - Observability
   tags:
-  - monitoring
-  - logi
-  - SRE
-  - OpenTelemetry
+    - monitoring
+    - logi
+    - SRE
+    - OpenTelemetry
 seo:
   title: Logowanie i monitoring — praktyczny przewodnik
-  description: Jak zaprojektować system obserwowalności, który naprawdę wykrywa problemy
-    — metryki, alerty, logi, korelacja sygnałów.
+  description: >-
+    Jak zaprojektować system obserwowalności, który naprawdę wykrywa problemy —
+    metryki, alerty, logi, korelacja sygnałów.
   keywords:
-  - monitoring
-  - logi
-  - alerting
-  - OpenTelemetry
-  - SRE
+    - monitoring
+    - logi
+    - alerting
+    - OpenTelemetry
+    - SRE
 ---
 
 ## Obietnica i werdykt

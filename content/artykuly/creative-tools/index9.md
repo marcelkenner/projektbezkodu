@@ -1,48 +1,52 @@
 ---
-title: "Tworzenie prezentacji bez kodu: szybkie decki do sprzedaży i pitchów"
+title: 'Tworzenie prezentacji bez kodu: szybkie decki do sprzedaży i pitchów'
 slug: prezentacje-bez-kodu-szybkie-decki
 path: /prezentacje-bez-kodu-szybkie-decki
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Szybkie decki bez kodu: sprzedaż i pitchy, które działają"
-  subheading: Jak zbudować profesjonalną prezentację w 30–60 minut używając narzędzi
+  heading: 'Szybkie decki bez kodu: sprzedaż i pitchy, które działają'
+  subheading: >-
+    Jak zbudować profesjonalną prezentację w 30–60 minut używając narzędzi
     no‑code
 seo:
   title: Tworzenie prezentacji bez kodu — szybkie decki do sprzedaży i pitchów
-  description: "Praktyczny przewodnik: które narzędzia no‑code wybrać, jak zaprojektować\
-    \ pitch i jak szybko przygotować wersję gotową do wysyłki lub prezentacji."
+  description: >-
+    Praktyczny przewodnik: które narzędzia no‑code wybrać, jak zaprojektować
+    pitch i jak szybko przygotować wersję gotową do wysyłki lub prezentacji.
   keywords:
-  - prezentacje
-  - no-code
-  - pitch deck
-  - sprzedaż
-  - Canva
-  - Pitch
+    - prezentacje
+    - no-code
+    - pitch deck
+    - sprzedaż
+    - Canva
+    - Pitch
 meta:
   difficulty: łatwe
   duration: 30-60 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przejdź do Canva Presentations
     href: https://www.canva.com/presentations/
   summaryBullets:
-  - "Werdykt: Jeśli potrzebujesz szybko ładnego decku — wybierz Canva."
-  - "Werdykt: Dla zespołów pracujących nad ofertami i follow-upami — Pitch daje narzędzia\
-    \ analityczne."
-  - "Werdykt: Dla osób, które chcą AI do draftu treści i layoutu — warto rozważyć\
-    \ Beautiful.ai."
+    - 'Werdykt: Jeśli potrzebujesz szybko ładnego decku — wybierz Canva.'
+    - >-
+      Werdykt: Dla zespołów pracujących nad ofertami i follow-upami — Pitch daje
+      narzędzia analityczne.
+    - >-
+      Werdykt: Dla osób, które chcą AI do draftu treści i layoutu — warto
+      rozważyć Beautiful.ai.
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - presentations
-  - sales
-  - pitch
+    - no-code
+    - presentations
+    - sales
+    - pitch
 ---
 
 ## Obietnica decyzji i grupa

@@ -1,39 +1,43 @@
 ---
-title: "Subskrypcje i płatności cykliczne w sklepie: jak to wdrożyć bez kodu"
+title: 'Subskrypcje i płatności cykliczne w sklepie: jak to wdrożyć bez kodu'
 slug: ecommerce-bez-kodu-19
 path: /ecommerce-bez-kodu-19
 template: default
 draft: false
-date: "2026-01-18"
+date: '2026-01-18'
 hero:
   heading: Subskrypcje i płatności cykliczne bez kodu
   subheading: Szybki start, typowe pułapki i jasny werdykt dla małych sklepów
 seo:
   title: Subskrypcje bez kodu — jak wdrożyć płatności cykliczne w sklepie
-  description: "Praktyczny przewodnik: modele subskrypcji, narzędzia no-code i ryzyka\
-    \ (SCA, off‑session)."
+  description: >-
+    Praktyczny przewodnik: modele subskrypcji, narzędzia no-code i ryzyka (SCA,
+    off‑session).
   keywords:
-  - subskrypcje
-  - płatności cykliczne
-  - ecommerce bez kodu
-  - Stripe
-  - Przelewy24
+    - subskrypcje
+    - płatności cykliczne
+    - ecommerce bez kodu
+    - Stripe
+    - Przelewy24
 meta:
   author: Redakcja
-  updatedAt: "2026-01-18"
+  updatedAt: '2026-01-18'
   duration: 15 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: szybki start bez kodu jest możliwy, ale ma ograniczenia."
-  - "Dla kogo: najlepiej dla serwisów z prostymi abonamentami i sklepów na Shopify."
-  - "Start: stwórz produkt subskrypcyjny w Stripe albo użyj aplikacji subskrypcyjnej\
-    \ w Shopify."
+    - 'Werdykt: szybki start bez kodu jest możliwy, ale ma ograniczenia.'
+    - >-
+      Dla kogo: najlepiej dla serwisów z prostymi abonamentami i sklepów na
+      Shopify.
+    - >-
+      Start: stwórz produkt subskrypcyjny w Stripe albo użyj aplikacji
+      subskrypcyjnej w Shopify.
   primaryCta:
-    label: "Stripe: Recurring payments"
+    label: 'Stripe: Recurring payments'
     href: https://docs.stripe.com/recurring-payments
 taxonomy:
   categories:
-  - E-commerce bez kodu
+    - E-commerce bez kodu
 ---
 
 ## Werdykt na start (dla kogo to działa)

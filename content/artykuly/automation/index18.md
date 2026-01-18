@@ -1,44 +1,52 @@
 ---
-title: "Automatyzacja faktur i płatności: przypomnienia, statusy, księgowość bez gonitwy"
+title: >-
+  Automatyzacja faktur i płatności: przypomnienia, statusy, księgowość bez
+  gonitwy
 slug: automatyzacja-faktur-platnosci
 path: /automatyzacja/faktur-platnosci-przypomnienia-statusy-ksiegowosc
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automatyzacja faktur i płatności: przypomnienia, statusy, księgowość bez\
-    \ gonitwy"
-  subheading: Praktyczny przewodnik dla firm B2B — co opłaca się zautomatyzować i
-    jak zacząć
+  heading: >-
+    Automatyzacja faktur i płatności: przypomnienia, statusy, księgowość bez
+    gonitwy
+  subheading: >-
+    Praktyczny przewodnik dla firm B2B — co opłaca się zautomatyzować i jak
+    zacząć
 seo:
   title: Automatyzacja faktur i płatności — przewodnik B2B
-  description: Jak ustawić przypomnienia, monitorować statusy i zautomatyzować księgowość,
+  description: >-
+    Jak ustawić przypomnienia, monitorować statusy i zautomatyzować księgowość,
     żeby przestać gonić za płatnościami.
   keywords:
-  - automatyzacja faktur
-  - przypomnienia o płatnościach
-  - AP automation
-  - księgowość automatyczna
+    - automatyzacja faktur
+    - przypomnienia o płatnościach
+    - AP automation
+    - księgowość automatyczna
 meta:
   summaryBullets:
-  - "Werdykt: oszczędność czasu i mniej błędów, ale wymaga nadzoru."
-  - "Dla kogo: firmy B2B ze stałym cyklem fakturowania i powtarzalnymi płatnościami."
-  - "Start: włącz przypomnienia, zdefiniuj workflow, przetestuj na 30 dni."
+    - 'Werdykt: oszczędność czasu i mniej błędów, ale wymaga nadzoru.'
+    - >-
+      Dla kogo: firmy B2B ze stałym cyklem fakturowania i powtarzalnymi
+      płatnościami.
+    - 'Start: włącz przypomnienia, zdefiniuj workflow, przetestuj na 30 dni.'
   primaryCta:
     label: Instrukcja przypomnień QuickBooks
-    href: https://quickbooks.intuit.com/learn-support/en-us/manage-customers-and-income/send-email-payment-reminders-for-your-invoices/00/262904
-  updatedAt: "2026-01-15"
+    href: >-
+      https://quickbooks.intuit.com/learn-support/en-us/manage-customers-and-income/send-email-payment-reminders-for-your-invoices/00/262904
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   duration: 15 min
   author: Redakcja
 taxonomy:
   categories:
-  - automatyzacja
-  - finanse
+    - automatyzacja
+    - finanse
   tags:
-  - faktury
-  - reminders
-  - księgowość
+    - faktury
+    - reminders
+    - księgowość
 ---
 
 ## Obietnica decyzji dla działów finansów i właścicieli B2B

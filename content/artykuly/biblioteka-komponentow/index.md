@@ -6,7 +6,7 @@ type: hub
 tags:
   - evergreen
   - patterns
-draft: true
+draft: false
 date: '2025-11-05'
 hero:
   heading: Biblioteka sekcji i wzorców

@@ -1,41 +1,43 @@
 ---
-title: "AI w content marketingu: od briefu do publikacji no-code z kontrolą jakości"
+title: 'AI w content marketingu: od briefu do publikacji no-code z kontrolą jakości'
 slug: ai-w-content-marketingu-no-code-kontrola-jakosci
 path: /artykuly/ai/ai-w-content-marketingu-no-code-kontrola-jakosci
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w content marketingu: od briefu do publikacji no-code z kontrolą jakości"
+  heading: 'AI w content marketingu: od briefu do publikacji no-code z kontrolą jakości'
 seo:
   title: AI w content marketingu — proces od briefu do publikacji
-  description: "Praktyczny przewodnik: kiedy używać AI w content marketingu, jak skonstruować\
-    \ brief, wdrożyć no-code publikację i zachować kontrolę jakości."
+  description: >-
+    Praktyczny przewodnik: kiedy używać AI w content marketingu, jak
+    skonstruować brief, wdrożyć no-code publikację i zachować kontrolę jakości.
   keywords:
-  - AI w marketingu
-  - content marketing
-  - no-code
-  - kontrola jakości
+    - AI w marketingu
+    - content marketing
+    - no-code
+    - kontrola jakości
 meta:
   summaryBullets:
-  - "Werdykt: działa szybko, ale wymaga ludzkiego nadzoru."
-  - "Dla kogo: małe zespoły chcące skalować produkcję i średnie zespoły z procesami\
-    \ QA."
-  - "Start: przygotuj jasny brief, szablony i checkpointy zatwierdzeń."
+    - 'Werdykt: działa szybko, ale wymaga ludzkiego nadzoru.'
+    - >-
+      Dla kogo: małe zespoły chcące skalować produkcję i średnie zespoły z
+      procesami QA.
+    - 'Start: przygotuj jasny brief, szablony i checkpointy zatwierdzeń.'
   primaryCta:
     label: Przykład Human-in-the-loop
     href: https://knak.com/blog/human-in-the-loop-examples
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - AI
-  - Content marketing
+    - AI
+    - Content marketing
   tags:
-  - no-code
-  - workflow
-  - QA
-  - brief
+    - no-code
+    - workflow
+    - QA
+    - brief
 ---
 
 ## Obietnica decyzji i kto skorzysta

@@ -1,43 +1,46 @@
 ---
-title: "Projektowanie stron w Webflow: wzorce sekcji, które działają"
+title: 'Projektowanie stron w Webflow: wzorce sekcji, które działają'
 slug: webflow-wzorce-sekcji
 path: /webflow/wzorce-sekcji
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Projektowanie stron w Webflow: wzorce sekcji, które działają"
-  subheading: Jak zbudować hero, social proof, feature list, pricing i case studies,
-    żeby konwertowały
+  heading: 'Projektowanie stron w Webflow: wzorce sekcji, które działają'
+  subheading: >-
+    Jak zbudować hero, social proof, feature list, pricing i case studies, żeby
+    konwertowały
 meta:
   summaryBullets:
-  - "Werdykt: szybkie wzorce, które oszczędzają czas i poprawiają konwersję"
-  - "Dla kogo: osoby tworzące landing page, strony produktowe, małe agencje"
-  - "Start: otwórz Starter Library i sklonuj gotowe sekcje"
+    - 'Werdykt: szybkie wzorce, które oszczędzają czas i poprawiają konwersję'
+    - 'Dla kogo: osoby tworzące landing page, strony produktowe, małe agencje'
+    - 'Start: otwórz Starter Library i sklonuj gotowe sekcje'
   primaryCta:
     label: Webflow Starter Library
     href: https://help.webflow.com/hc/en-us/articles/33961353022739
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
 seo:
-  title: Projektowanie stron w Webflow — wzorce sekcji (hero, social proof, feature,
+  title: >-
+    Projektowanie stron w Webflow — wzorce sekcji (hero, social proof, feature,
     pricing)
-  description: "Praktyczny przewodnik po wzorcach sekcji w Webflow: co działa, dlaczego\
-    \ działa i jak zacząć krok po kroku."
+  description: >-
+    Praktyczny przewodnik po wzorcach sekcji w Webflow: co działa, dlaczego
+    działa i jak zacząć krok po kroku.
   keywords:
-  - Webflow
-  - hero section
-  - wzorce sekcji
-  - landing page
-  - web design
+    - Webflow
+    - hero section
+    - wzorce sekcji
+    - landing page
+    - web design
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - Webflow
-  - wzorce
-  - hero
-  - landing
+    - Webflow
+    - wzorce
+    - hero
+    - landing
 ---
 
 ## Obietnica decyzji (dla kogo i co dostaniesz)

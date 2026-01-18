@@ -1,45 +1,53 @@
 ---
-title: "Automatyzacje kreatywne: generuj grafiki i treści w pipeline (bez programowania)"
+title: >-
+  Automatyzacje kreatywne: generuj grafiki i treści w pipeline (bez
+  programowania)
 slug: automatyzacje-kreatywne-grafiki-tresci-bez-programowania
 path: /automatyzacje-kreatywne-grafiki-tresci-bez-programowania
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Automatyzacje kreatywne: grafiki i treści w pipeline bez kodu"
-  subheading: "Praktyczny przewodnik: narzędzia, kroki i gotowy workflow"
+  heading: 'Automatyzacje kreatywne: grafiki i treści w pipeline bez kodu'
+  subheading: 'Praktyczny przewodnik: narzędzia, kroki i gotowy workflow'
 seo:
-  title: "Automatyzacje kreatywne: generuj grafiki i treści bez kodowania"
-  description: Jak zbudować pipeline do automatycznego generowania obrazów i tekstów
-    przy użyciu narzędzi no-code.
+  title: 'Automatyzacje kreatywne: generuj grafiki i treści bez kodowania'
+  description: >-
+    Jak zbudować pipeline do automatycznego generowania obrazów i tekstów przy
+    użyciu narzędzi no-code.
   keywords:
-  - automatyzacje kreatywne
-  - no-code
-  - generowanie obrazów
-  - workflow
-  - OpenAI
-  - Zapier
-  - Make
+    - automatyzacje kreatywne
+    - no-code
+    - generowanie obrazów
+    - workflow
+    - OpenAI
+    - Zapier
+    - Make
 meta:
   difficulty: Średni
   duration: 10–60 minut
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przeczytaj instrukcję Zapier
-    href: https://help.zapier.com/hc/en-us/articles/20965564549005-Use-Zapier-with-your-OpenAI-GPTs
+    href: >-
+      https://help.zapier.com/hc/en-us/articles/20965564549005-Use-Zapier-with-your-OpenAI-GPTs
   summaryBullets:
-  - "Werdykt: Szybkie prototypy marketingowe i social — tak."
-  - "Werdykt: Produkcja masowa produktów z katalogu — wymaga uwagi na koszty i licencje."
-  - "Werdykt: Pełna zastępowalność zespołu kreatywnego — nie, ale przyspiesza iterację."
+    - 'Werdykt: Szybkie prototypy marketingowe i social — tak.'
+    - >-
+      Werdykt: Produkcja masowa produktów z katalogu — wymaga uwagi na koszty i
+      licencje.
+    - >-
+      Werdykt: Pełna zastępowalność zespołu kreatywnego — nie, ale przyspiesza
+      iterację.
 taxonomy:
   categories:
-  - creative-tools
+    - creative-tools
   tags:
-  - no-code
-  - creative
-  - automation
+    - no-code
+    - creative
+    - automation
 ---
 
 Obietnica decyzji: jeśli chcesz szybko produkować grafiki i treści do social/media/produktów bez programowania, ten tekst da ci konkretny workflow, decyzje i prosty start. Grupa: marketerzy, właściciele małych sklepów, twórcy treści i product managerowie.

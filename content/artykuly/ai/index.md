@@ -1,51 +1,55 @@
 ---
-title: "AI w no-code: kiedy to realna przewaga, a kiedy tylko ładny przycisk"
+title: 'AI w no-code: kiedy to realna przewaga, a kiedy tylko ładny przycisk'
 slug: ai-w-no-code-kiedy-to-realna-przewaga-a-kiedy-tylko-ladny-przycisk
 path: /ai-w-no-code-kiedy-to-realna-przewaga-a-kiedy-tylko-ladny-przycisk
 template: default
+type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: AI w no-code — krótki werdykt i jak zacząć
-  subheading: "Praktyczne wskazówki: kto zyska, a kto się rozczaruje"
+  subheading: 'Praktyczne wskazówki: kto zyska, a kto się rozczaruje'
   primaryCta:
     label: Przeczytaj ogłoszenie Bubble
     href: https://bubble.io/blog/bubble-tour-founder-keynote-2025/
 seo:
   title: AI w no-code — kiedy to przewaga, a kiedy przycisk
-  description: "Szybki werdykt: kiedy AI w narzędziach no-code przyspieszy produkt,\
-    \ a kiedy będzie tylko dodatkiem. Krótko, z przykładami i linkami."
+  description: >-
+    Szybki werdykt: kiedy AI w narzędziach no-code przyspieszy produkt, a kiedy
+    będzie tylko dodatkiem. Krótko, z przykładami i linkami.
   keywords:
-  - AI no-code
-  - no-code
-  - AI w aplikacjach
-  - automatyzacja bez kodu
+    - AI no-code
+    - no-code
+    - AI w aplikacjach
+    - automatyzacja bez kodu
   canonical: https://bubble.io/blog/bubble-tour-founder-keynote-2025/
 meta:
   difficulty: łatwe do zrozumienia
   duration: 5–30 min
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   primaryCta:
     label: Przeczytaj ogłoszenie Bubble
     href: https://bubble.io/blog/bubble-tour-founder-keynote-2025/
   summaryBullets:
-  - "Werdykt: AI w no-code pomaga najszybciej przy prototypowaniu i automatyzacji\
-    \ powtarzalnych zadań."
-  - "Dla kogo: firmy bez zespołu dev, startupy MVP, zespoły produktowe z ograniczonym\
-    \ budżetem."
-  - "Start: zbuduj prosty prototyp w 1 dzień i przetestuj z 10 użytkownikami."
+    - >-
+      Werdykt: AI w no-code pomaga najszybciej przy prototypowaniu i
+      automatyzacji powtarzalnych zadań.
+    - >-
+      Dla kogo: firmy bez zespołu dev, startupy MVP, zespoły produktowe z
+      ograniczonym budżetem.
+    - 'Start: zbuduj prosty prototyp w 1 dzień i przetestuj z 10 użytkownikami.'
 taxonomy:
   categories:
-  - AI
-  - No-code
-  - Poradnik
+    - AI
+    - No-code
+    - Poradnik
   tags:
-  - AI
-  - no-code
-  - Bubble
-  - automatyzacja
+    - AI
+    - no-code
+    - Bubble
+    - automatyzacja
 ---
 
 ## Obietnica decyzji: krótki werdykt i grupa docelowa

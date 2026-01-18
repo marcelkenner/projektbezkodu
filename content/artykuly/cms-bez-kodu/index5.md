@@ -1,42 +1,43 @@
 ---
-title: "Airtable jako CMS: struktura bazy, widoki i publikacja treści"
+title: 'Airtable jako CMS: struktura bazy, widoki i publikacja treści'
 slug: airtable-jako-cms-struktura-widoki-publikacja
 path: /airtable/airtable-jako-cms-struktura-widoki-publikacja
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Airtable jako CMS: struktura bazy, widoki i publikacja treści"
-  subheading: "Szybki przewodnik: jak zbudować workflow publikacji i czego się wystrzegać"
+  heading: 'Airtable jako CMS: struktura bazy, widoki i publikacja treści'
+  subheading: 'Szybki przewodnik: jak zbudować workflow publikacji i czego się wystrzegać'
 seo:
   title: Airtable jako CMS — struktura bazy, widoki, publikacja
-  description: "Praktyczny poradnik: baza, widoki, udostępnianie i publikowanie treści\
-    \ z Airtable — co działa, co ogranicza i jak zacząć."
+  description: >-
+    Praktyczny poradnik: baza, widoki, udostępnianie i publikowanie treści z
+    Airtable — co działa, co ogranicza i jak zacząć.
   keywords:
-  - Airtable
-  - CMS
-  - publikacja treści
-  - view share
-  - API
+    - Airtable
+    - CMS
+    - publikacja treści
+    - view share
+    - API
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
-    label: "Airtable: View share docs"
+    label: 'Airtable: View share docs'
     href: https://support.airtable.com/v1/docs/using-the-view-share-menu-in-airtable
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - CMS
-  - No-code
+    - CMS
+    - No-code
   tags:
-  - Airtable
-  - publikacja
-  - CMS
+    - Airtable
+    - publikacja
+    - CMS
 ---
 
 ## Obietnica decyzji i grupa odbiorców

@@ -1,40 +1,41 @@
 ---
-title: "Kolory w interfejsie: paleta, kontrast i dostępność w praktyce"
+title: 'Kolory w interfejsie: paleta, kontrast i dostępność w praktyce'
 slug: kolory-w-interfejsie-paleta-kontrast-dostepnosc
 path: /kolory-w-interfejsie-paleta-kontrast-dostepnosc
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Kolory w interfejsie: paleta, kontrast i dostępność w praktyce"
+  heading: 'Kolory w interfejsie: paleta, kontrast i dostępność w praktyce'
   subheading: Praktyczne zasady do wyboru palety i sprawdzania kontrastu
 seo:
   title: Kolory w interfejsie — paleta, kontrast i dostępność
-  description: Jak tworzyć palety, testować kontrast zgodnie z WCAG i unikać najczęstszych
+  description: >-
+    Jak tworzyć palety, testować kontrast zgodnie z WCAG i unikać najczęstszych
     błędów projektowych.
   keywords:
-  - kolory UI
-  - kontrast
-  - WCAG
-  - dostępność
-  - paleta kolorów
+    - kolory UI
+    - kontrast
+    - WCAG
+    - dostępność
+    - paleta kolorów
 meta:
   summaryBullets:
-  - "Werdykt: prosty zestaw zasad, które od razu poprawiają czytelność."
-  - "Dla kogo: projektanci UI, produktowcy, frontendziści."
-  - "Start: zmierz kontrast i ustaw priorytet dla tekstu."
+    - 'Werdykt: prosty zestaw zasad, które od razu poprawiają czytelność.'
+    - 'Dla kogo: projektanci UI, produktowcy, frontendziści.'
+    - 'Start: zmierz kontrast i ustaw priorytet dla tekstu.'
   primaryCta:
     label: Wytyczne WCAG
     href: https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - Design bez kodu
+    - Design bez kodu
   tags:
-  - kolory
-  - kontrast
-  - accessible design
+    - kolory
+    - kontrast
+    - accessible design
 ---
 
 ## Obietnica decyzji dla czytelnika

@@ -1,46 +1,49 @@
 ---
-title: "Automatyzacje dla freelancerów: od zapytania do płatności bez ręcznego pilnowania"
+title: >-
+  Automatyzacje dla freelancerów: od zapytania do płatności bez ręcznego
+  pilnowania
 slug: automatyzacje-dla-freelancerow-zapytanie-do-platnosci
 path: /automatyzacje-dla-freelancerow-zapytanie-do-platnosci
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Automatyzacje dla freelancerów: od zapytania do płatności bez ręcznego\
-    \ pilnowania"
-  subheading: Jeden formularz, jeden workflow — minimalny setup, realne oszczędności
-    czasu
+  heading: >-
+    Automatyzacje dla freelancerów: od zapytania do płatności bez ręcznego
+    pilnowania
+  subheading: Jeden formularz, jeden workflow — minimalny setup, realne oszczędności czasu
 seo:
   title: Automatyzacje dla freelancerów — od zapytania do płatności
-  description: Jak zautomatyzować intake klienta, wystawienie faktury i płatność korzystając
-    z formularza + platformy integracyjnej (Zapier/Make).
+  description: >-
+    Jak zautomatyzować intake klienta, wystawienie faktury i płatność
+    korzystając z formularza + platformy integracyjnej (Zapier/Make).
   keywords:
-  - automatyzacja freelancer
-  - formularz intake
-  - Zapier
-  - Stripe
-  - fakturowanie
-  - workflow
+    - automatyzacja freelancer
+    - formularz intake
+    - Zapier
+    - Stripe
+    - fakturowanie
+    - workflow
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
-    label: "Przewodnik: automatyzuj faktury z Zapier"
+    label: 'Przewodnik: automatyzuj faktury z Zapier'
     href: https://zapier.com/blog/automate-quickbooks-invoices-with-zapier/
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   author: Redakcja
 taxonomy:
   categories:
-  - automatyzacje
-  - freelancer
+    - automatyzacje
+    - freelancer
   tags:
-  - workflow
-  - płatności
-  - formularz
-  - Zapier
+    - workflow
+    - płatności
+    - formularz
+    - Zapier
 ---
 
 ## Obietnica i decyzja (dla kogo ten artykuł)

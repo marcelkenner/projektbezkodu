@@ -1,46 +1,51 @@
 ---
-title: "AI w e-commerce: opisy produktów, Q&A i rekomendacje — gdzie pomaga, a gdzie\
-  \ szkodzi"
+title: >-
+  AI w e-commerce: opisy produktów, Q&A i rekomendacje — gdzie pomaga, a gdzie
+  szkodzi
 slug: ai-e-commerce-opisy-produktow-qa-rekomendacje
 path: /artykuly/ai/ai-e-commerce-opisy-produktow-qa-rekomendacje
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w e‑commerce: decyzja dla właściciela sklepu"
+  heading: 'AI w e‑commerce: decyzja dla właściciela sklepu'
   subheading: Szybkie wskazówki — kiedy używać AI, a kiedy trzymać się ręcznego podejścia
 seo:
   title: AI w e-commerce — opisy, chatboty, rekomendacje. Kiedy to działa
-  description: "Praktyczny przewodnik dla właścicieli sklepów: co zyskać, jakie ryzyka\
-    \ i jak zacząć testy AI bez większego ryzyka."
+  description: >-
+    Praktyczny przewodnik dla właścicieli sklepów: co zyskać, jakie ryzyka i jak
+    zacząć testy AI bez większego ryzyka.
   keywords:
-  - AI e-commerce
-  - opisy produktów
-  - chatboty
-  - rekomendacje
-  - konwersje
+    - AI e-commerce
+    - opisy produktów
+    - chatboty
+    - rekomendacje
+    - konwersje
 meta:
   summaryBullets:
-  - "Werdykt: szybkie oszczędności czasu, ale sprawdź dokładność."
-  - "Dla kogo: duże katalogi i zespoły z ograniczonym czasem; nie dla produktów wymagających\
-    \ precyzyjnych danych technicznych."
-  - "Start: ustaw A/B testy i ręczną weryfikację pierwszych 50 generowanych opisów."
+    - 'Werdykt: szybkie oszczędności czasu, ale sprawdź dokładność.'
+    - >-
+      Dla kogo: duże katalogi i zespoły z ograniczonym czasem; nie dla produktów
+      wymagających precyzyjnych danych technicznych.
+    - >-
+      Start: ustaw A/B testy i ręczną weryfikację pierwszych 50 generowanych
+      opisów.
   primaryCta:
     label: Artykuł Shopify o AI
     href: https://www.shopify.com/blog/ai-product-descriptions
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   difficulty: Łatwy do wdrożenia
   duration: 5–60 min (pilotaż)
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - e-commerce
-  - AI
+    - e-commerce
+    - AI
   tags:
-  - opisy produktów
-  - chatboty
-  - rekomendacje
+    - opisy produktów
+    - chatboty
+    - rekomendacje
 ---
 
 ## Obietnica decyzji: dla kogo ten tekst

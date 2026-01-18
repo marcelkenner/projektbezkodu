@@ -1,42 +1,43 @@
 ---
-title: "Notion jako CMS: plusy, minusy i typowe zastosowania"
+title: 'Notion jako CMS: plusy, minusy i typowe zastosowania'
 slug: notion-jako-cms-plusy-minusy-zastosowania
 path: /notion-jako-cms-plusy-minusy-zastosowania
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Notion jako CMS: plusy, minusy i typowe zastosowania"
+  heading: 'Notion jako CMS: plusy, minusy i typowe zastosowania'
   subheading: Szybki przegląd, komu to działa, a co lepiej pominąć
   primaryCta:
     label: Dokumentacja Notion API — limity
     href: https://developers.notion.com/reference/request-limits
 seo:
-  title: "Notion jako CMS: kiedy użyć, a kiedy unikać"
-  description: "Krótkie i praktyczne podsumowanie: kto zyska na Notion jako CMS, jakie\
-    \ są ograniczenia (API, SEO, wydajność) i jak zacząć w 5 minut."
+  title: 'Notion jako CMS: kiedy użyć, a kiedy unikać'
+  description: >-
+    Krótkie i praktyczne podsumowanie: kto zyska na Notion jako CMS, jakie są
+    ograniczenia (API, SEO, wydajność) i jak zacząć w 5 minut.
   keywords:
-  - Notion
-  - CMS
-  - Notion jako CMS
-  - no-code CMS
+    - Notion
+    - CMS
+    - Notion jako CMS
+    - no-code CMS
 meta:
   author: Redakcja
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-  - "Werdykt: dobry jako szybki repozytorium treści dla małych projektów"
-  - "Dla kogo: soloprzedsiębiorcy, landingi, wewnętrzne bazy wiedzy"
-  - "Start: 5-minutowy proof-of-concept z publiczną stroną"
+    - 'Werdykt: dobry jako szybki repozytorium treści dla małych projektów'
+    - 'Dla kogo: soloprzedsiębiorcy, landingi, wewnętrzne bazy wiedzy'
+    - 'Start: 5-minutowy proof-of-concept z publiczną stroną'
   primaryCta:
     label: Sprawdź limity API
     href: https://developers.notion.com/reference/request-limits
 taxonomy:
   categories:
-  - CMS
-  - No-code
-  - Web
+    - CMS
+    - No-code
+    - Web
 ---
 
 ## Obietnica decyzji — komu to ma sens

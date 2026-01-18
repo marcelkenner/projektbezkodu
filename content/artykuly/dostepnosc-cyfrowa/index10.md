@@ -1,17 +1,17 @@
 ---
-title: "Testy dostępności bez kodu: darmowe narzędzia, audyt i raport w 60 minut"
+title: 'Testy dostępności bez kodu: darmowe narzędzia, audyt i raport w 60 minut'
 slug: testy-dostepnosci-bez-kodu-60-min
 path: /testy-dostepnosci-bez-kodu-60-min
 template: default
 type: article
-date: "2026-01-14"
+date: '2026-01-14'
 draft: false
 hero:
-  heading: "Testy dostępności bez kodu: darmowe narzędzia, audyt i raport w 60 minut"
+  heading: 'Testy dostępności bez kodu: darmowe narzędzia, audyt i raport w 60 minut'
   subheading: Szybki no-code audit dla product ownerów, marketerów i małych zespołów
 meta:
   author: Redakcja
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 60 min
   difficulty: podstawowy
   hasAffiliateLinks: false
@@ -19,30 +19,33 @@ meta:
     label: Zobacz WCAG (W3C)
     href: https://www.w3.org/WAI/standards-guidelines/wcag/
   summaryBullets:
-  - "Werdykt: W 60 minut zrobisz sensowny, niepełny audyt — wystarczający na decyzję\
-    \ o priorytetach."
-  - "Dla kogo: Product owner, UX, content marketer, właściciel małego serwisu."
-  - "Co dostaniesz: lista krytycznych błędów, eksport wyników i 1-stronicowy raport\
-    \ rekomendacji."
+    - >-
+      Werdykt: W 60 minut zrobisz sensowny, niepełny audyt — wystarczający na
+      decyzję o priorytetach.
+    - 'Dla kogo: Product owner, UX, content marketer, właściciel małego serwisu.'
+    - >-
+      Co dostaniesz: lista krytycznych błędów, eksport wyników i 1-stronicowy
+      raport rekomendacji.
 seo:
   title: Testy dostępności bez kodu — darmowe narzędzia i audyt w 60 minut
-  description: "Jak przeprowadzić szybki audyt dostępności bez programowania: narzędzia,\
-    \ kolejność kroków, przykładowy raport i lista priorytetów."
+  description: >-
+    Jak przeprowadzić szybki audyt dostępności bez programowania: narzędzia,
+    kolejność kroków, przykładowy raport i lista priorytetów.
   keywords:
-  - dostępność
-  - audyt dostępności
-  - WCAG
-  - no-code
-  - WAVE
-  - Lighthouse
+    - dostępność
+    - audyt dostępności
+    - WCAG
+    - no-code
+    - WAVE
+    - Lighthouse
 taxonomy:
   categories:
-  - dostępność
+    - dostępność
   tags:
-  - no-code
-  - wcag
-  - audyt
-  - accessibility
+    - no-code
+    - wcag
+    - audyt
+    - accessibility
 ---
 
 ## Obietnica i dla kogo

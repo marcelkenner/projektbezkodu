@@ -1,42 +1,43 @@
 ---
-title: "Automatyzacja marketingu bez spamu: jak ustawić zasady, żeby nie spalić domeny"
+title: 'Automatyzacja marketingu bez spamu: jak ustawić zasady, żeby nie spalić domeny'
 slug: automatyzacja-marketingu-bez-spamu
 path: /automatyzacja-marketingu-bez-spamu
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Automatyzacja marketingu bez spamu
   subheading: Jak zbudować reguły wysyłki, które chronią domenę i nie irytują odbiorców
 seo:
   title: Automatyzacja marketingu bez spamu — zasady ochrony domeny
-  description: "Praktyczny przewodnik: uwierzytelnianie, list-unsubscribe, rozgrzewanie\
-    \ domeny i reguły segmentacji."
+  description: >-
+    Praktyczny przewodnik: uwierzytelnianie, list-unsubscribe, rozgrzewanie
+    domeny i reguły segmentacji.
   keywords:
-  - automatyzacja marketingu
-  - deliverability
-  - rozgrzewanie domeny
-  - SPF
-  - DKIM
-  - DMARC
+    - automatyzacja marketingu
+    - deliverability
+    - rozgrzewanie domeny
+    - SPF
+    - DKIM
+    - DMARC
 meta:
   summaryBullets:
-  - "Werdykt: automatyzacja działa, jeśli są zasady higieny."
-  - "Dla kogo: B2B i e‑commerce, różne priorytety."
-  - "Start: uwierzytelnij, ustaw unsubscribe, zacznij od małej grupy."
+    - 'Werdykt: automatyzacja działa, jeśli są zasady higieny.'
+    - 'Dla kogo: B2B i e‑commerce, różne priorytety.'
+    - 'Start: uwierzytelnij, ustaw unsubscribe, zacznij od małej grupy.'
   primaryCta:
     label: Google Postmaster Tools
     href: https://gmail.com/postmaster/
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
 taxonomy:
   categories:
-  - marketing
-  - deliverability
+    - marketing
+    - deliverability
   tags:
-  - automation
-  - email
-  - deliverability
-  - domain-warmup
+    - automation
+    - email
+    - deliverability
+    - domain-warmup
 ---
 
 ## Obietnica i szybki werdykt dla kogo

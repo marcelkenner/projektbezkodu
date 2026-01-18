@@ -1,43 +1,46 @@
 ---
-title: "Design bez kodu: od pomysłu do gotowego interfejsu w 7 krokach"
+title: 'Design bez kodu: od pomysłu do gotowego interfejsu w 7 krokach'
 slug: design-bez-kodu-7-krokow
 path: /design-bez-kodu-7-krokow
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "Design bez kodu: od pomysłu do gotowego interfejsu w 7 krokach"
-  subheading: "Praktyczny proces: brief → moodboard → komponenty → makiety → prototyp\
-    \ → testy → wdrożenie."
+  heading: 'Design bez kodu: od pomysłu do gotowego interfejsu w 7 krokach'
+  subheading: >-
+    Praktyczny proces: brief → moodboard → komponenty → makiety → prototyp →
+    testy → wdrożenie.
 seo:
-  title: "Design bez kodu: proces 7 kroków"
-  description: Jak zaprojektować i wdrożyć interfejs bez pisania kodu — konkretne
-    kroki, kiedy to się opłaca i jak zacząć.
+  title: 'Design bez kodu: proces 7 kroków'
+  description: >-
+    Jak zaprojektować i wdrożyć interfejs bez pisania kodu — konkretne kroki,
+    kiedy to się opłaca i jak zacząć.
   keywords:
-  - design bez kodu
-  - no-code design
-  - prototypowanie
-  - Webflow
-  - Figma
+    - design bez kodu
+    - no-code design
+    - prototypowanie
+    - Webflow
+    - Figma
 meta:
   summaryBullets:
-  - "Werdykt: szybki sposób na MVP i strony marketingowe"
-  - "Dla kogo: startupy, product designerzy, marketerzy"
-  - "Start: przygotuj brief i wybierz narzędzie prototypowe"
+    - 'Werdykt: szybki sposób na MVP i strony marketingowe'
+    - 'Dla kogo: startupy, product designerzy, marketerzy'
+    - 'Start: przygotuj brief i wybierz narzędzie prototypowe'
   primaryCta:
-    label: "Przewodnik: prototypowanie w Figma"
-    href: https://help.figma.com/hc/en-us/articles/360040314193-Getting-Started-with-Prototyping
-  updatedAt: "2026-01-14"
+    label: 'Przewodnik: prototypowanie w Figma'
+    href: >-
+      https://help.figma.com/hc/en-us/articles/360040314193-Getting-Started-with-Prototyping
+  updatedAt: '2026-01-14'
   author: Redakcja
 taxonomy:
   categories:
-  - Design
-  - No-code
+    - Design
+    - No-code
   tags:
-  - projektowanie
-  - prototypowanie
-  - Webflow
-  - Figma
+    - projektowanie
+    - prototypowanie
+    - Webflow
+    - Figma
 ---
 
 ## Obietnica i grupa docelowa

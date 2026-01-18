@@ -1,48 +1,53 @@
 ---
-title: "Animowane logo i hero: jak zrobić efekt „premium”, nie robiąc tandety"
+title: 'Animowane logo i hero: jak zrobić efekt „premium”, nie robiąc tandety'
 slug: animowane-logo-hero-premium
 path: /animacje/animowane-logo-hero-premium
 template: default
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
-  heading: "Animowane logo i hero: jak zrobić efekt „premium”, nie robiąc tandety"
+  heading: 'Animowane logo i hero: jak zrobić efekt „premium”, nie robiąc tandety'
   subheading: Praktyczne zasady długości, rytmu, dostępności i wdrożenia
 seo:
   title: Animowane logo i hero — jak osiągnąć efekt premium bez kiczu
-  description: "Krótki przewodnik: kiedy animować logo/hero, jak to zrobić wydajnie\
-    \ i dostępnie oraz jak nie odciągać uwagi od CTA."
+  description: >-
+    Krótki przewodnik: kiedy animować logo/hero, jak to zrobić wydajnie i
+    dostępnie oraz jak nie odciągać uwagi od CTA.
   keywords:
-  - animowane logo
-  - hero
-  - Lottie
-  - web animation
-  - dostępność
-  - performance
-  canonical: https://lottiefiles.com/blog/design-inspiration/speed-vs-style-how-to-optimize-load-times-without-sacrificing-animation-design
+    - animowane logo
+    - hero
+    - Lottie
+    - web animation
+    - dostępność
+    - performance
+  canonical: >-
+    https://lottiefiles.com/blog/design-inspiration/speed-vs-style-how-to-optimize-load-times-without-sacrificing-animation-design
 meta:
   summaryBullets:
-  - "Werdykt: subtelna, krótkotrwała animacja zwykle działa najlepiej."
-  - "Dla kogo: marki osobiste i studia kreatywne; nie dla stron nastawionych na maksymalny\
-    \ CTR z minimalnym ładunkiem wizualnym."
-  - "Start: zrób prototyp w 5 minut z Lottie/SVG, testuj preferencje ruchu i wpływ\
-    \ na ładowanie."
+    - 'Werdykt: subtelna, krótkotrwała animacja zwykle działa najlepiej.'
+    - >-
+      Dla kogo: marki osobiste i studia kreatywne; nie dla stron nastawionych na
+      maksymalny CTR z minimalnym ładunkiem wizualnym.
+    - >-
+      Start: zrób prototyp w 5 minut z Lottie/SVG, testuj preferencje ruchu i
+      wpływ na ładowanie.
   primaryCta:
     label: Przeczytaj o optymalizacji animacji
-    href: https://lottiefiles.com/blog/design-inspiration/speed-vs-style-how-to-optimize-load-times-without-sacrificing-animation-design
-  updatedAt: "2026-01-15"
+    href: >-
+      https://lottiefiles.com/blog/design-inspiration/speed-vs-style-how-to-optimize-load-times-without-sacrificing-animation-design
+  updatedAt: '2026-01-15'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   categories:
-  - design
-  - frontend
+    - design
+    - frontend
   tags:
-  - animacje
-  - logo
-  - hero
-  - Lottie
-  - performance
+    - animacje
+    - logo
+    - hero
+    - Lottie
+    - performance
 ---
 
 ## Krótkie werdykt i dla kogo to ma sens

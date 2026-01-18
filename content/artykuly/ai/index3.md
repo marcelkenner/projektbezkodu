@@ -1,49 +1,55 @@
 ---
-title: "AI w automatyzacjach: klasyfikacja leadów, routing i follow-up — jak nie spalić\
-  \ relacji"
+title: >-
+  AI w automatyzacjach: klasyfikacja leadów, routing i follow-up — jak nie
+  spalić relacji
 slug: ai-automatyzacje-klasyfikacja-leadow
 path: /artykuly/ai/ai-automatyzacje-klasyfikacja-leadow
 template: default
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
-  heading: "AI w automatyzacjach: klasyfikacja leadów, routing i follow-up"
-  subheading: "Praktyczny przewodnik: co zrobić najpierw, czego unikać i dla kogo\
-    \ to naprawdę działa"
+  heading: 'AI w automatyzacjach: klasyfikacja leadów, routing i follow-up'
+  subheading: >-
+    Praktyczny przewodnik: co zrobić najpierw, czego unikać i dla kogo to
+    naprawdę działa
 meta:
   summaryBullets:
-  - "Werdykt: AI pomaga skalować routing i priorytetyzację, ale psuje relacje przy\
-    \ złej konfiguracji."
-  - "Dla kogo: warto dla high-volume inbound, mniej opłacalne dla mikro-B2B bez procesów\
-    \ sprzedażowych."
-  - "Start: zrób test 14-dniowy na jedną kampanię i monitoruj speed-to-lead + satysfakcję\
-    \ klientów."
+    - >-
+      Werdykt: AI pomaga skalować routing i priorytetyzację, ale psuje relacje
+      przy złej konfiguracji.
+    - >-
+      Dla kogo: warto dla high-volume inbound, mniej opłacalne dla mikro-B2B bez
+      procesów sprzedażowych.
+    - >-
+      Start: zrób test 14-dniowy na jedną kampanię i monitoruj speed-to-lead +
+      satysfakcję klientów.
   primaryCta:
-    label: "Dokumentacja: budowanie scoringu AI"
+    label: 'Dokumentacja: budowanie scoringu AI'
     href: https://knowledge.hubspot.com/scoring/build-lead-scores-with-ai
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   duration: 5–10 minut (szybki plan wdrożenia)
   author: Redakcja
   hasAffiliateLinks: false
 seo:
-  title: "AI w automatyzacjach: klasyfikacja leadów i routing — jak nie spalić relacji"
-  description: Krótkie wytyczne do wdrożenia AI w lead scoringu, routing’u i follow-upach
-    — co testować, co mierzyć i kiedy odpuścić.
+  title: 'AI w automatyzacjach: klasyfikacja leadów i routing — jak nie spalić relacji'
+  description: >-
+    Krótkie wytyczne do wdrożenia AI w lead scoringu, routing’u i follow-upach —
+    co testować, co mierzyć i kiedy odpuścić.
   keywords:
-  - AI lead scoring
-  - lead routing
-  - automatyzacje sprzedaży
-  - follow-up
-  - speed-to-lead
+    - AI lead scoring
+    - lead routing
+    - automatyzacje sprzedaży
+    - follow-up
+    - speed-to-lead
 taxonomy:
   categories:
-  - automatyzacje
-  - sales
-  - AI
+    - automatyzacje
+    - sales
+    - AI
   tags:
-  - lead scoring
-  - routing
-  - follow-up
+    - lead scoring
+    - routing
+    - follow-up
 ---
 
 ## Obietnica decyzji i grupa docelowa
