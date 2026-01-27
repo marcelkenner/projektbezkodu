@@ -7,7 +7,7 @@ type: hub
 draft: false
 date: '2026-01-14'
 hero:
-  heading: AI w no-code — krótki werdykt i jak zacząć
+  heading: AI w no-code
   subheading: 'Praktyczne wskazówki: kto zyska, a kto się rozczaruje'
   primaryCta:
     label: Przeczytaj ogłoszenie Bubble

@@ -1,13 +1,13 @@
 ---
 title: 'E-commerce bez kodu: jak wystartować sklep w weekend'
 slug: sklep-w-weekend-bez-kodu
-path: /sklep-w-weekend-bez-kodu
+path: /artykuly/ecommerce-bez-kodu
 template: default
 draft: false
 type: article
 date: '2026-01-15'
 hero:
-  heading: 'E-commerce bez kodu: sklep działający w weekend'
+  heading: E-commerce bez kodu
   subheading: 'Praktyczny plan startu: platforma, płatności, dostawy i pierwsza kampania'
 seo:
   title: E-commerce bez kodu — jak wystartować sklep w weekend

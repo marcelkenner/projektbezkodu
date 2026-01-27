@@ -3,14 +3,12 @@ title: >-
   Architektura no-code: jak zbudować system, który nie rozsypie się po 3
   miesiącach
 slug: architektura-no-code-stabilnosc
-path: /architektura-no-code-stabilnosc
+path: /artykuly/architektura
 template: default
 draft: false
 date: '2026-01-14'
 hero:
-  heading: >-
-    Architektura no-code: jak zbudować system, który nie rozsypie się po 3
-    miesiącach
+  heading: Architektura no-code
   subheading: >-
     Praktyczne reguły, decyzje i gotowe kroki dla osób budujących aplikacje bez
     kodu

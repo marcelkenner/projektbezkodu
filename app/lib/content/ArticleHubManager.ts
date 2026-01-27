@@ -4,6 +4,7 @@ import path from "path";
 import { readMarkdownFile } from "@/app/lib/frontmatter";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { ArticleRepository, type ContentSummary } from "@/app/lib/content/repositories";
+import { SlugHumanizer } from "@/app/lib/text/SlugHumanizer";
 
 export interface ArticleSummariesProvider {
   listSummaries(): ContentSummary[];
@@ -30,10 +31,14 @@ const SLUG_ALIASES: Record<string, string> = {
 };
 
 export class ArticleHubManager {
+  private readonly humanizer: SlugHumanizer;
+
   constructor(
     private readonly repository: ArticleSummariesProvider = new ArticleRepository(),
     private readonly basePath = DEFAULT_BASE_PATH,
-  ) {}
+  ) {
+    this.humanizer = new SlugHumanizer();
+  }
 
   listHubs(maxDepth = 2): ArticleHubDescriptor[] {
     return this.listHubDescriptors(maxDepth);
@@ -141,7 +146,7 @@ export class ArticleHubManager {
     const label =
       labelFromIndex ??
       titleFromCategory?.label ??
-      this.humanize(segments.at(-1) ?? "Artykuły");
+      this.humanizer.humanize(segments.at(-1) ?? "Artykuły");
     const description =
       frontmatter.hero?.subheading ??
       titleFromCategory?.description ??
@@ -152,7 +157,6 @@ export class ArticleHubManager {
       label,
       description,
       href,
-      body: content,
     };
   }
 
@@ -195,16 +199,6 @@ export class ArticleHubManager {
       ? withoutDomain
       : `/${withoutDomain}`;
     return withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
-  }
-
-  private humanize(value: string): string {
-    return value
-      .split("-")
-      .map((part) =>
-        part ? `${part.charAt(0).toUpperCase()}${part.slice(1)}` : "",
-      )
-      .filter(Boolean)
-      .join(" ");
   }
 
   private createExcerpt(content: string, limit = 140): string | undefined {

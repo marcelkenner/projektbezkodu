@@ -1,12 +1,12 @@
 ---
 title: 'CMS bez kodu: co to jest i kiedy ma sens?'
 slug: cms-bez-kodu-co-to-jest-i-kiedy-ma-sens
-path: /cms-bez-kodu/co-to-jest-i-kiedy-ma-sens
+path: /artykuly/cms-bez-kodu
 date: '2026-01-15'
 template: default
 draft: false
 hero:
-  heading: 'CMS bez kodu: co to jest i kiedy ma sens?'
+  heading: CMS bez kodu
   subheading: Szybkie decyzje dla właścicieli, marketingu i małych zespołów
   primaryCta:
     label: Czytaj definicję no-code

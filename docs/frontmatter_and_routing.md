@@ -75,7 +75,7 @@ Rules:
 - **Hubs are explicit:** a directory under `content/artykuly/**` is a hub only if it has `index.md` with `type: hub` and `draft: false`.
 - **Hub wins over leaf:** if a path can be interpreted as both, hub is rendered.
 - **Depth limit:** `/artykuly` rejects paths deeper than 3 segments after `/artykuly/`.
-- **Hub body rendering:** hub `index.md` body is rendered above subcategory + article cards.
+- **Hub body rendering:** hub `index.md` body is ignored; hub pages show only the article-card listing.
 - **Leaf pages:** under `/artykuly/`, anything that is not a hub (`type !== hub`) and not a draft is treated as an “article-style” leaf.
 
 ## 5) Drafts
@@ -95,4 +95,3 @@ Rules:
 - Keep `hero.heading` and `seo.description` meaningful — they feed listing cards and metadata.
 - Before publishing new `/artykuly/...` pages, ensure required hub `index.md` pages exist and are `type: hub`.
 - Run `source ~/.nvm/nvm.sh && npm run content:lint` before opening a PR.
-

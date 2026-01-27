@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getCopy } from "../lib/copy";
 import { articleTaxonomyCatalog } from "../lib/content/articleTaxonomy";
+import { ArticleCategoryFolderDirectory } from "../lib/content/ArticleCategoryFolderDirectory";
+import { SlugHumanizer } from "../lib/text/SlugHumanizer";
 import "./ui.css";
 
 interface FooterColumn {
@@ -78,11 +80,13 @@ function buildColumns(
 }
 
 function getCategoryLinks(navigation: ArticlesNavigation): FooterLink[] {
-  const categoryLinks = articleTaxonomyCatalog.listCategories().map(
-    (category) =>
+  const directory = new ArticleCategoryFolderDirectory();
+  const humanizer = new SlugHumanizer();
+  const categoryLinks = directory.listSlugs().map(
+    (slug) =>
       ({
-        href: `/artykuly/${category.slug}/`,
-        label: category.label,
+        href: `/artykuly/${slug}/`,
+        label: humanizer.humanize(slug),
       }) satisfies FooterLink,
   );
 

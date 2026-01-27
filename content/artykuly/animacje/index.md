@@ -1,12 +1,12 @@
 ---
 title: 'Animacje w no-code: kiedy podnoszą konwersję, a kiedy robią tani chaos'
 slug: animacje-no-code-konwersja-chaos
-path: /animacje-no-code-konwersja-chaos
+path: /artykuly/animacje
 template: default
 draft: false
 date: '2026-01-15'
 hero:
-  heading: 'Animacje w no-code: kiedy podnoszą konwersję, a kiedy robią tani chaos'
+  heading: Animacje w no-code
   subheading: >-
     Ruch, który wyjaśnia — nie odciąga. Praktyczne reguły dla marketingu i
     founderów.

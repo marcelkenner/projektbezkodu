@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 
 import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
+import { ArticleCategoryFolderDirectory } from "@/app/lib/content/ArticleCategoryFolderDirectory";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { ArtykulyHubPage } from "../ArtykulyHubPage";
@@ -9,6 +10,7 @@ import { buildArticleDetailMetadata } from "../article/ArticleDetailMetadata";
 import { ArticleDetailPage } from "../article/ArticleDetailPage";
 
 const hubManager = new ArticleHubManager();
+const categoryFolderDirectory = new ArticleCategoryFolderDirectory();
 const articleRepository = new ArticleRepository();
 const contentLibrary = new ContentLibrary();
 const summaries = articleRepository.listSummaries();
@@ -23,6 +25,10 @@ export function generateStaticParams() {
     .filter((entry) => entry.segments.length >= 1)
     .map((entry) => ({ segments: entry.segments }));
 
+  const categoryFolders = categoryFolderDirectory
+    .listSlugs()
+    .map((slug) => ({ segments: [slug] }));
+
   const articleParams = summaries
     .map((summary) => summary.path)
     .filter((pathname) => pathname.startsWith("/artykuly/"))
@@ -30,7 +36,21 @@ export function generateStaticParams() {
     .filter((segments) => segments.length >= 2)
     .map((segments) => ({ segments }));
 
-  return [...hubs, ...articleParams];
+  return dedupeStaticParams([...hubs, ...categoryFolders, ...articleParams]);
+}
+
+function dedupeStaticParams(entries: Array<{ segments: string[] }>) {
+  const seen = new Set<string>();
+  const resolved: Array<{ segments: string[] }> = [];
+  entries.forEach((entry) => {
+    const key = entry.segments.join("/");
+    if (!key || seen.has(key)) {
+      return;
+    }
+    seen.add(key);
+    resolved.push(entry);
+  });
+  return resolved;
 }
 
 export async function generateMetadata({

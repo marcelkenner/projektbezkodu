@@ -1,13 +1,13 @@
 ---
 title: 'Analityka w no‑code: co naprawdę mierzyć (a nie tylko ''bo GA4'')'
 slug: analityka-no-code-co-mierzyc
-path: /analityka-no-code-co-mierzyc
+path: /artykuly/analityka
 template: default
 type: hub
 draft: false
 date: '2026-01-14'
 hero:
-  heading: 'Analityka w no‑code: konkretne metryki, które dają decyzje'
+  heading: Analityka w no‑code
   subheading: >-
     Krótko: co mierzyć na stronach i produktach zbudowanych no‑code, jak zacząć
     i czego unikać.
