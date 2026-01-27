@@ -5,11 +5,12 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 ## Quick Start
 
 1. `source ~/.nvm/nvm.sh && npm install`
-2. `npm run dev` – starts the site on `http://localhost:3000`
-3. `npm run content:lint` – validates every `content/**/*.md` front matter. This now runs automatically before `npm run build`.
-4. `npm run build && npm run start` – production preview
+2. `source ~/.nvm/nvm.sh && npm run dev` – starts the site on `http://localhost:3000`
+3. `source ~/.nvm/nvm.sh && npm run content:lint` – validates every `content/**/*.md` front matter. This now runs automatically before `npm run build`.
+4. `source ~/.nvm/nvm.sh && npm run build && npm run start` – production preview
 
 > **Note:** run all shell commands with `source ~/.nvm/nvm.sh && …` per repository policy.
+> **Node.js:** Next.js 16 requires Node.js `>= 20.9.0`. Use `source ~/.nvm/nvm.sh && nvm install --lts && nvm use --lts` if `node` or `npm` is missing.
 
 ## Scripts
 
