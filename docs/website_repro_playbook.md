@@ -183,7 +183,7 @@ Comprehensive checklist for spinning up a website that mirrors the ProjektBezKod
 1. Ensure `.env.local` derived from production settings (copy `.env.production`).
 2. Verify design tokens committed.
 3. Update `brand/CHANGELOG.md` with notable changes.
-4. XML sitemap (`app/sitemap.ts`) and HTML map (`/mapa-strony/`) read from `SitemapComposer`; extend this builder when introducing new sections so feeds stay accurate.
+4. XML sitemap (`app/sitemap.ts`) reads from `SitemapComposer`; `/mapa-strony/` permanently redirects to `/sitemap.xml` so the XML feed stays authoritative.
 5. Railway blocks deploys on vulnerable dependencies; keep `next` and `eslint-config-next` on a patched `16.0.x` release and commit the updated `package-lock.json` after upgrades.
 
 ## 14. Cookie Consent Workflow
