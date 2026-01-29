@@ -1,6 +1,14 @@
 import type { MetadataRoute } from "next";
 
-import { SitemapComposer, type SitemapLink } from "@/app/lib/navigation/SitemapComposer";
+import type { SitemapLink } from "@/app/lib/navigation/SitemapComposer";
+import { SitemapAuthorLinkProvider } from "@/app/lib/seo/SitemapAuthorLinkProvider";
+import { SitemapContentRouteProvider } from "@/app/lib/seo/SitemapContentRouteProvider";
+import { SitemapGlossaryLinkProvider } from "@/app/lib/seo/SitemapGlossaryLinkProvider";
+import { SitemapLeadMagnetLinkProvider } from "@/app/lib/seo/SitemapLeadMagnetLinkProvider";
+import { SitemapLinkAggregator } from "@/app/lib/seo/SitemapLinkAggregator";
+import { SitemapStaticRouteProvider } from "@/app/lib/seo/SitemapStaticRouteProvider";
+import { SitemapTagLinkProvider } from "@/app/lib/seo/SitemapTagLinkProvider";
+import { SitemapTemplateLinkProvider } from "@/app/lib/seo/SitemapTemplateLinkProvider";
 import type { SiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 
@@ -15,7 +23,17 @@ export class SitemapGenerator {
   private readonly pathNormalizer = new SitemapPathNormalizer();
 
   constructor(
-    private readonly linkProvider: SitemapLinkProvider = new SitemapComposer(),
+    private readonly linkProvider: SitemapLinkProvider = new SitemapLinkAggregator(
+      [
+        new SitemapStaticRouteProvider(),
+        new SitemapContentRouteProvider(),
+        new SitemapGlossaryLinkProvider(),
+        new SitemapTagLinkProvider(),
+        new SitemapAuthorLinkProvider(),
+        new SitemapLeadMagnetLinkProvider(),
+        new SitemapTemplateLinkProvider(),
+      ],
+    ),
     private readonly urlFactory: SiteUrlFactory = defaultSiteUrlFactory,
     private readonly lastModifiedIndex: SitemapLastModifiedIndex = new SitemapLastModifiedIndex(),
   ) {}
@@ -82,4 +100,3 @@ export class SitemapGenerator {
     return this.lastModifiedIndex.resolveLatestUnderPrefix(prefix);
   }
 }
-

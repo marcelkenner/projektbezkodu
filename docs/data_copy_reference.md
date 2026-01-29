@@ -167,8 +167,8 @@ Each entry lists:
 
 - **Purpose**: Static sections of the sitemap plus metadata.
 - **Key Fields**: `seo`, `hero`, `sections`.
-- **Primary Consumers**: `app/lib/navigation/SitemapComposer.ts` (via `app/lib/seo/SitemapGenerator.ts`).
-- **Notes**: Dynamic sections (articles, tags, etc.) are injected at runtime; `/mapa-strony/` now redirects to `/sitemap.xml`.
+- **Primary Consumers**: `app/lib/navigation/SitemapComposer.ts` (legacy/manual sitemap copy).
+- **Notes**: XML sitemap generation now aggregates routes via dedicated providers; `/mapa-strony/` redirects to `/sitemap.xml` so the XML feed stays authoritative.
 
 ### `system-status.json`
 

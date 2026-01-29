@@ -57,7 +57,7 @@ The `/artykuly` listing aggregates markdown pages whose canonical `path` lives u
 
 Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.
 
-SEO helpers: XML sitemap lives at `/sitemap.xml` (`app/sitemap.ts`), `/mapa-strony/` permanently redirects to the XML feed, and `robots.txt` is generated at `/robots.txt` (`app/robots.ts`).
+SEO helpers: XML sitemap lives at `/sitemap.xml` (`app/sitemap.ts`) and aggregates static App Router pages, markdown-driven content routes, and dynamic directories (glossary, tags, authors, lead magnets, templates). `/mapa-strony/` permanently redirects to the XML feed, and `robots.txt` is generated at `/robots.txt` (`app/robots.ts`).
 
 Tool hubs: `/narzedzia/<tool>/` is a grid listing, while the tool’s main guide is readable at `/narzedzia/<tool>/glowny/` and sourced from `content/narzedzia-no-code/<tool>/glowny/index.md`.
 
