@@ -21,6 +21,7 @@ import {
 import { RandomArticlesSection } from "../../../components/RandomArticlesSection";
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { ToolGuideIndexingPolicy } from "@/app/lib/seo/ToolGuideIndexingPolicy";
 import "../../../artykuly/article.module.css";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 
@@ -31,6 +32,7 @@ const randomArticlesSelectionManager = new RandomArticlesSelectionManager(
   recommendationsRepository,
 );
 const breadcrumbComposer = new BreadcrumbComposer();
+const toolGuideIndexingPolicy = new ToolGuideIndexingPolicy();
 
 interface ToolArticleProps {
   params: Promise<{
@@ -65,11 +67,20 @@ export async function generateMetadata({
   if (!viewModel) {
     return {};
   }
-  return viewModel.getMetadata();
+  const metadata = viewModel.getMetadata();
+  const robots = toolGuideIndexingPolicy.resolveRobots(segments);
+  if (!robots) {
+    return metadata;
+  }
+  return {
+    ...metadata,
+    robots,
+  };
 }
 
 export default async function ToolArticle({ params }: ToolArticleProps) {
   const { slug, segments = [] } = await params;
+  const requestedPath = `/${buildSegments(slug, segments).filter(Boolean).join("/")}/`;
   const viewModel = coordinator.build(buildSegments(slug, segments));
   if (!viewModel) {
     notFound();
@@ -84,7 +95,6 @@ export default async function ToolArticle({ params }: ToolArticleProps) {
     ? "article-page__layout article-page__layout--with-toc"
     : "article-page__layout";
   const canonicalPath = viewModel.getPath();
-  const requestedPath = `/${buildSegments(slug, segments).filter(Boolean).join("/")}/`;
   if (requestedPath !== canonicalPath) {
     permanentRedirect(canonicalPath);
   }

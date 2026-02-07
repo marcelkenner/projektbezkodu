@@ -3,6 +3,7 @@ import { ArticleRepository } from "@/app/lib/content/repositories";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { ArticleDirectory } from "@/app/lib/content/articleDirectory";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
+import { ArticleListingIndexingPolicy } from "@/app/lib/seo/ArticleListingIndexingPolicy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
 import { getCopy } from "@/app/lib/copy";
 import { listContentCategories } from "@/app/lib/content/categoryDirectory";
@@ -12,6 +13,7 @@ import { ArticlesPagination } from "./ArticlesPagination";
 import styles from "./articles.module.css";
 
 const articleRepository = new ArticleRepository();
+const articleListingIndexingPolicy = new ArticleListingIndexingPolicy();
 const PAGE_SIZE = 12;
 
 type SearchParams = Record<string, string | string[] | undefined>;
@@ -23,9 +25,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const parser = new SearchParamParser(resolvedSearchParams);
-  const pageValue = parser.getSingle("page");
-  const pageNumber = pageValue ? Number(pageValue) : 1;
-  const isPaginated = Number.isFinite(pageNumber) && pageNumber > 1;
+  const robots = articleListingIndexingPolicy.resolveRobots({
+    page: parser.getSingle("page"),
+    query: parser.getSingle("q"),
+    category: parser.getSingle("kategoria"),
+    readingTime: parser.getSingle("czas"),
+    tags: parser.getAll("tag"),
+  });
 
   return {
     title: "Blog - poradniki no-code, SEO i automatyzacje | ProjektBezKodu",
@@ -34,12 +40,7 @@ export async function generateMetadata({
     alternates: {
       canonical: "/artykuly/",
     },
-    robots: isPaginated
-      ? {
-          index: false,
-          follow: true,
-        }
-      : undefined,
+    robots,
   };
 }
 

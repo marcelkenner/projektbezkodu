@@ -36,13 +36,13 @@ export async function generateMetadata({
 
 export default async function ToolPage({ params }: ToolPageProps) {
   const { slug } = await params;
+  const requestedPath = `/${baseSegments(slug).filter(Boolean).join("/")}/`;
   const viewModel = coordinator.build(baseSegments(slug));
   if (!viewModel) {
     notFound();
   }
 
   const canonicalPath = viewModel.getPath();
-  const requestedPath = `/${baseSegments(slug).filter(Boolean).join("/")}/`;
   if (requestedPath !== canonicalPath) {
     permanentRedirect(canonicalPath);
   }

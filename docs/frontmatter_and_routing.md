@@ -42,11 +42,13 @@ Routing behavior:
   - Tool pages are special: `/narzedzia/<tool>/...` with `type: tool` do not get title-slug aliases for the last segment.
 - **Redirects**
   - App Router pages typically compare the requested path with the canonical `path` and `permanentRedirect()` when they differ.
+  - Proxy (`proxy.ts`) recovers malformed merged redirect paths across site pages (for example `/<canonical>/, /<canonical>/`) and issues a clean `308` to the first canonical path before route matching.
 
 Special case: `content/**/glowny/index.md`
 
 - When deriving paths, `glowny/index.md` is treated as the parent route (so `.../glowny/index.md` derives to `.../`).
 - An explicit alias route at `.../glowny/` is also registered.
+- SEO policy: `/narzedzia/<tool>/glowny/` is intentionally indexable and emits explicit `robots: index,follow` metadata.
 
 ## 3) `template` vs `type` (what they mean here)
 

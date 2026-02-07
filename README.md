@@ -56,6 +56,8 @@ The `/artykuly` listing aggregates markdown pages whose canonical `path` lives u
 - The footer “Kategorie” column lists every `content/artykuly/<folder>/index.md` as `/artykuly/<folder>/` (folder-name URLs may redirect to a different canonical `path` when front matter overrides it).
 
 Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.
+Site pages additionally recover malformed merged redirect targets (for example `/<canonical>/, /<canonical>/`) to avoid 404s when crawlers encounter broken `Location` values.
+`/narzedzia/<tool>/glowny/` is intentionally indexable (explicit `index,follow` policy) because it is treated as the main long-form guide URL for each tool.
 
 SEO helpers: XML sitemap lives at `/sitemap.xml` (`app/sitemap.ts`) and aggregates static App Router pages, markdown-driven content routes, and dynamic directories (glossary, tags, authors, lead magnets, templates). `/mapa-strony/` permanently redirects to the XML feed, and `robots.txt` is generated at `/robots.txt` (`app/robots.ts`).
 
@@ -88,7 +90,7 @@ If you land on `/newsletter?error=listmonk-error` in production, check your Rail
 
 ## Asset routing hardening
 
-Chunk load failures caused by malformed `/_next//_next/...` URLs are auto-normalised by middleware and `next.config` rewrites. Keep any future rewrites consistent with this rule and avoid adding double slashes to asset paths.
+Chunk load failures caused by malformed `/_next//_next/...` URLs are auto-normalised by proxy and `next.config` rewrites. Proxy also recovers malformed merged page URLs (for example `/<canonical>/, /<canonical>/`) and issues a clean 308 redirect before route matching.
 
 ## Articles Copy & Taxonomy (`data/copy/articles.json`)
 
