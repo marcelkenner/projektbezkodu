@@ -1,13 +1,24 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
+import { CanonicalHostRedirectManager } from "@/app/lib/url/CanonicalHostRedirectManager";
 import { RedirectPathRecoveryManager } from "@/app/lib/url/RedirectPathRecoveryManager";
 
+const canonicalHostRedirectManager = new CanonicalHostRedirectManager();
 const redirectPathRecoveryManager = new RedirectPathRecoveryManager();
 
 export function proxy(req: NextRequest) {
   const { pathname, search } = req.nextUrl;
 
   const recoveredPath = redirectPathRecoveryManager.recover(pathname);
+  const canonicalHostRedirectUrl = canonicalHostRedirectManager.buildRedirectUrl(
+    req,
+    recoveredPath,
+    search,
+  );
+  if (canonicalHostRedirectUrl) {
+    return NextResponse.redirect(canonicalHostRedirectUrl, 308);
+  }
+
   if (recoveredPath !== pathname) {
     const url = req.nextUrl.clone();
     url.pathname = recoveredPath;

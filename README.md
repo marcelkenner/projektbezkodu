@@ -57,6 +57,7 @@ The `/artykuly` listing aggregates markdown pages whose canonical `path` lives u
 
 Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.
 Site pages additionally recover malformed merged redirect targets (for example `/<canonical>/, /<canonical>/`) to avoid 404s when crawlers encounter broken `Location` values.
+Proxy also canonicalizes `www`/apex host variants via `Host` / `X-Forwarded-Host` and returns a `308` to the configured canonical host.
 `/narzedzia/<tool>/glowny/` is intentionally indexable (explicit `index,follow` policy) because it is treated as the main long-form guide URL for each tool.
 
 SEO helpers: XML sitemap lives at `/sitemap.xml` (`app/sitemap.ts`) and aggregates static App Router pages, markdown-driven content routes, and dynamic directories (glossary, tags, authors, lead magnets, templates). `/mapa-strony/` permanently redirects to the XML feed, and `robots.txt` is generated at `/robots.txt` (`app/robots.ts`).
@@ -72,6 +73,7 @@ Listmonk calls are executed with `cache: "no-store"`, timeouts, and small retrie
 ## Build stability (Railway)
 
 Railway Metal builders can spawn a high worker count during `next build` (for example “Generating static pages using 31 workers”). If a deploy fails with `failed to solve: Canceled: context canceled`, it is often the builder process getting killed (OOM) or the build context being canceled mid-build. Static generation parallelism is capped in `next.config.ts` via `experimental.staticGenerationMaxConcurrency` and `experimental.staticGenerationMinPagesPerWorker`; tune only after verifying memory headroom.
+Set `CANONICAL_HOST` on the Next.js Railway service (for example `projektbezkodu.pl` to keep apex canonical, or `www.projektbezkodu.pl` to keep `www` canonical). If it is unset, proxy falls back to `NEXT_PUBLIC_SITE_URL`, then `https://projektbezkodu.pl`.
 
 ### Newsletter (Railway + Listmonk)
 

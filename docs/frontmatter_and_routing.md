@@ -43,6 +43,7 @@ Routing behavior:
 - **Redirects**
   - App Router pages typically compare the requested path with the canonical `path` and `permanentRedirect()` when they differ.
   - Proxy (`proxy.ts`) recovers malformed merged redirect paths across site pages (for example `/<canonical>/, /<canonical>/`) and issues a clean `308` to the first canonical path before route matching.
+  - Proxy also canonicalizes `www`/apex host variants using `Host` / `X-Forwarded-Host` and redirects to `CANONICAL_HOST` (fallback: `NEXT_PUBLIC_SITE_URL`).
 
 Special case: `content/**/glowny/index.md`
 
