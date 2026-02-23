@@ -73,7 +73,7 @@ Listmonk calls are executed with `cache: "no-store"`, timeouts, and small retrie
 ## Build stability (Railway)
 
 Railway Metal builders can spawn a high worker count during `next build` (for example “Generating static pages using 31 workers”). If a deploy fails with `failed to solve: Canceled: context canceled`, it is often the builder process getting killed (OOM) or the build context being canceled mid-build. Static generation parallelism is capped in `next.config.ts` via `experimental.staticGenerationMaxConcurrency` and `experimental.staticGenerationMinPagesPerWorker`; tune only after verifying memory headroom.
-Set `CANONICAL_HOST` on the Next.js Railway service (for example `projektbezkodu.pl` to keep apex canonical, or `www.projektbezkodu.pl` to keep `www` canonical). If it is unset, proxy falls back to `NEXT_PUBLIC_SITE_URL`, then `https://projektbezkodu.pl`.
+Set `CANONICAL_HOST` on the Next.js Railway service (for example `projektbezkodu.pl` to keep apex canonical, or `www.projektbezkodu.pl` to keep `www` canonical). If it is unset, proxy falls back to `NEXT_PUBLIC_SITE_URL`, then `https://projektbezkodu.pl`. Use a public host/origin value (no internal app ports like `:8080`); proxy now strips non-local ports from canonical redirects as a safety net.
 
 ### Newsletter (Railway + Listmonk)
 

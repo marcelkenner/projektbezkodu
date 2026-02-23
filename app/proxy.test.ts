@@ -16,6 +16,18 @@ describe("proxy", () => {
     );
   });
 
+  it("drops request port when redirecting to canonical host", () => {
+    const request = new NextRequest(
+      "https://www.projektbezkodu.pl:8080/narzedzia/webflow/",
+    );
+
+    const response = proxy(request);
+    expect(response.status).toBe(308);
+    expect(response.headers.get("location")).toBe(
+      "https://projektbezkodu.pl/narzedzia/webflow/",
+    );
+  });
+
   it("combines host canonicalization with recovered merged paths", () => {
     const request = new NextRequest(
       "https://www.projektbezkodu.pl/narzedzia/bigcommerce/recenzja/,%20/narzedzia/bigcommerce/recenzja",

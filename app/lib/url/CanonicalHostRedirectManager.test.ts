@@ -32,6 +32,21 @@ describe("CanonicalHostRedirectManager", () => {
     expect(redirectUrl?.toString()).toBe("https://www.projektbezkodu.pl/artykuly/");
   });
 
+  it("strips non-local canonical ports from redirect targets", () => {
+    const manager = new CanonicalHostRedirectManager(
+      "https://projektbezkodu.pl:8080",
+    );
+    const request = new NextRequest("https://www.projektbezkodu.pl/kontakt/");
+
+    const redirectUrl = manager.buildRedirectUrl(
+      request,
+      request.nextUrl.pathname,
+      request.nextUrl.search,
+    );
+
+    expect(redirectUrl?.toString()).toBe("https://projektbezkodu.pl/kontakt/");
+  });
+
   it("uses x-forwarded-host when present", () => {
     const manager = new CanonicalHostRedirectManager("https://projektbezkodu.pl");
     const request = new NextRequest("https://projektbezkodu.pl/poradniki/", {

@@ -18,7 +18,7 @@ export class CanonicalHostRedirectManager {
       this.parseUrl(DEFAULT_CANONICAL_ORIGIN) ??
       new URL(DEFAULT_CANONICAL_ORIGIN);
 
-    this.canonicalHost = canonicalUrl.host.toLowerCase();
+    this.canonicalHost = this.resolveCanonicalHost(canonicalUrl);
     this.canonicalHostname = canonicalUrl.hostname.toLowerCase();
     this.alternateHostname = this.resolveAlternateHostname(
       this.canonicalHostname,
@@ -45,6 +45,7 @@ export class CanonicalHostRedirectManager {
 
     const url = request.nextUrl.clone();
     url.host = this.canonicalHost;
+    url.port = "";
     url.pathname = pathname;
     url.search = search;
     return url;
@@ -112,6 +113,21 @@ export class CanonicalHostRedirectManager {
     return (
       hostname === "localhost" || hostname === "127.0.0.1" || hostname === "[::1]"
     );
+  }
+
+  private resolveCanonicalHost(canonicalUrl: URL): string {
+    const normalizedHost = canonicalUrl.host.toLowerCase();
+    const normalizedHostname = canonicalUrl.hostname.toLowerCase();
+    if (this.isLocalHostname(normalizedHostname)) {
+      return normalizedHost;
+    }
+
+    if (!canonicalUrl.port) {
+      return normalizedHost;
+    }
+
+    // Never leak internal app ports (e.g. 8080) into public canonical redirects.
+    return normalizedHostname;
   }
 }
 
