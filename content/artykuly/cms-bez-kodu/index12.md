@@ -4,7 +4,7 @@ slug: bezpieczenstwo-uprawnien-cms-no-code
 path: >-
   /artykuly/cms-bez-kodu/bezpieczenstwo-i-uprawnienia-w-cms-bez-kodu-praktyczny-przewodnik/
 template: default
-draft: true
+draft: false
 date: '2026-01-15'
 hero:
   heading: 'Bezpieczeństwo i uprawnienia w CMS bez kodu: praktyczny przewodnik'

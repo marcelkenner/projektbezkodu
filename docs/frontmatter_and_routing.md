@@ -21,7 +21,7 @@ Normalization rules (implemented in `app/lib/frontmatter.ts`):
 - A trailing `/` is enforced.
 - Any query/hash suffix is preserved (but avoid these in `path` unless you really need them).
 
-If `path` is missing, the content router derives the canonical URL from the file location under `content/` (for example `content/artykuly/sciezki/index2.md` → `/artykuly/sciezki/index2/`).
+If `path` is missing, the content router derives the canonical URL from the file location under `content/` (for example `content/artykuly/sciezki/webflow-30-dni.md` → `/artykuly/sciezki/webflow-30-dni/`).
 
 Special rule for `content/artykuly/**`:
 
@@ -108,12 +108,13 @@ Authoring patterns:
 ## 6) Validation (run before build)
 
 - `npm run content:lint` parses and validates frontmatter across `content/**`.
-- It also enforces `/artykuly` hub hierarchy: category roots must be hubs, subcategory roots with published descendants must be hubs, and published article content under `content/artykuly/**` must keep canonical URLs under the matching `/artykuly/<category>/...` prefix.
+- It also enforces `/artykuly` hub hierarchy: category roots must be hubs, subcategory roots with published descendants must be hubs, published article content under `content/artykuly/**` must keep canonical URLs under the matching `/artykuly/<category>/...` prefix, and article slugs cannot use placeholder values like `index2`.
 
 ## 7) Authoring checklist
 
 - Always set `path` to the URL you want users (and Google) to index.
 - Avoid changing `path` after publishing (treat it as an ID, not a label).
+- Keep `slug` descriptive. Do not use placeholder values such as `index`, `index2`, or `index17`.
 - Keep `hero.heading` and `seo.description` meaningful — they feed listing cards and metadata.
 - Before publishing new `/artykuly/...` pages, ensure category `index.md` files are hubs and any subcategory folder with deeper published articles also has a hub `index.md`.
 - Prefer descriptive filenames such as `architektura-no-code-stabilnosc.md` over numbered names such as `index6.md` when adding new article leaves.

@@ -19,7 +19,6 @@ seo:
     stycznia 2026.
 ---
 
-```markdown
 Hotjar Cennik — szybki werdykt dla polskich zespołów i freelancerów
 Hotjar to narzędzie do analizy zachowań użytkowników (heatmapy, nagrania sesji, ankiety i testy z użytkownikami). Jeśli chcesz szybko sprawdzić UX i zachowania klientów bez budowania własnego stacku analitycznego, Hotjar jest jedną z najszybszych dróg — o ile jesteś gotów zapłacić za wyższe limity i funkcje AI w wyższych planach.
 

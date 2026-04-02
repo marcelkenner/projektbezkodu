@@ -1,15 +1,13 @@
 ---
-title: >-
-  Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej
-  agencji
+title: 'Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii'
 category: regulamin
-draft: true
-slug: index4
+draft: false
+slug: regulamin-ugc-i-komentarzy-proste-zasady-moderacji-bez-cenzorskiej-manii
 path: >-
-  /artykuly/regulamin/regulamin-us-ug-no-code-jasne-zasady-wspo-pracy-dla-freelancera-i-ma-ej-agencji/
+  /artykuly/regulamin/regulamin-ugc-i-komentarzy-proste-zasady-moderacji-bez-cenzorskiej-manii/
 ---
 
-# Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej agencji
+# Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

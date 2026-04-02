@@ -1,13 +1,13 @@
 ---
-title: 'Regulamin płatności i subskrypcji: jak to opisać, żeby użytkownik rozumiał'
+title: 'Regulamin testów beta w no-code: zasady, które oszczędzą ci dramatu'
 category: regulamin
-draft: true
-slug: index9
+draft: false
+slug: regulamin-testow-beta-w-no-code-zasady-ktore-oszczedza-ci-dramatu
 path: >-
-  /artykuly/regulamin/regulamin-p-atnosci-i-subskrypcji-jak-to-opisac-zeby-uzytkownik-rozumia/
+  /artykuly/regulamin/regulamin-testow-beta-w-no-code-zasady-ktore-oszczedza-ci-dramatu/
 ---
 
-# Regulamin płatności i subskrypcji: jak to opisać, żeby użytkownik rozumiał
+# Regulamin testów beta w no-code: zasady, które oszczędzą ci dramatu
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

@@ -1,13 +1,15 @@
 ---
-title: 'Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem'
+title: >-
+  Regulamin i odpowiedzialność za integracje: Zapier/Make/Stripe — gdzie kończy
+  się twoja wina
 category: regulamin
-draft: true
-slug: index2
+draft: false
+slug: regulamin-i-odpowiedzialnosc-za-integracje-zapier-make-stripe-gdzie-konczy-sie-twoja-wina
 path: >-
-  /artykuly/regulamin/regulamin-aplikacji-no-code-co-musi-byc-zeby-nie-obudzic-sie-z-problemem/
+  /artykuly/regulamin/regulamin-i-odpowiedzialnosc-za-integracje-zapier-make-stripe-gdzie-konczy-sie-twoja-wina/
 ---
 
-# Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem
+# Regulamin i odpowiedzialność za integracje: Zapier/Make/Stripe — gdzie kończy się twoja wina
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

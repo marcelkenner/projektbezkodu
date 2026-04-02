@@ -344,4 +344,104 @@ describe("scripts/validate-content.mjs", () => {
     const result = runContentValidation({ projectRoot: root });
     expect(result.errors).toEqual([]);
   });
+
+  it("rejects placeholder slug values like index2 inside /artykuly content", async () => {
+    const { root, contentRoot } = await createTempProject();
+    await writeMarkdown(
+      path.join(contentRoot, "artykuly", "regulamin", "index.md"),
+      [
+        "---",
+        "title: Regulamin",
+        "slug: regulamin",
+        "path: /artykuly/regulamin/",
+        "template: default",
+        "type: hub",
+        "draft: false",
+        "---",
+        "",
+      ].join("\n"),
+    );
+    await writeMarkdown(
+      path.join(contentRoot, "artykuly", "regulamin", "aplikacja.md"),
+      [
+        "---",
+        "title: Regulamin aplikacji",
+        "slug: index2",
+        "path: /artykuly/regulamin/regulamin-aplikacji/",
+        "template: default",
+        "draft: false",
+        "meta:",
+        "  summaryBullets:",
+        "    - One",
+        "    - Two",
+        "    - Three",
+        "  primaryCta:",
+        "    label: Start",
+        "    href: /kontakt/",
+        "---",
+        "",
+        "# Leaf article",
+        "",
+      ].join("\n"),
+    );
+
+    const modulePath = path.resolve(__dirname, "../../../scripts/validate-content.mjs");
+    const { runContentValidation } = (await import(modulePath)) as {
+      runContentValidation: (options: {
+        projectRoot: string;
+        strictMode?: boolean;
+      }) => {
+        errors: Array<{ file: string; message: string }>;
+      };
+    };
+
+    const result = runContentValidation({ projectRoot: root });
+    expect(
+      result.errors.some(
+        (entry) =>
+          entry.file === "content/artykuly/regulamin/aplikacja.md" &&
+          entry.message.includes('descriptive slug instead of placeholder value "index2"'),
+      ),
+    ).toBe(true);
+  });
+
+  it("rejects markdown fenced blocks declared as ```markdown inside content files", async () => {
+    const { root, contentRoot } = await createTempProject();
+    await writeMarkdown(
+      path.join(contentRoot, "narzedzia-no-code", "hotjar", "cennik", "index.md"),
+      [
+        "---",
+        "title: Hotjar Cennik",
+        "slug: cennik",
+        "path: /narzedzia/hotjar/cennik/",
+        "template: default",
+        "draft: false",
+        "---",
+        "",
+        "```markdown",
+        "To nie powinno przejsc.",
+        "```",
+        "",
+      ].join("\n"),
+    );
+
+    const modulePath = path.resolve(__dirname, "../../../scripts/validate-content.mjs");
+    const { runContentValidation } = (await import(modulePath)) as {
+      runContentValidation: (options: {
+        projectRoot: string;
+        strictMode?: boolean;
+      }) => {
+        errors: Array<{ file: string; message: string }>;
+      };
+    };
+
+    const result = runContentValidation({ projectRoot: root });
+    expect(
+      result.errors.some(
+        (entry) =>
+          entry.file === "content/narzedzia-no-code/hotjar/cennik/index.md" &&
+          entry.message.includes("Do not use ```markdown fenced blocks"),
+      ),
+    ).toBe(true);
+  });
 });

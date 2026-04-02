@@ -1,9 +1,9 @@
 ---
 title: 'CMS bez kodu dla wielojęzyczności: strategie i pułapki'
 slug: cms-bez-kodu-wielojezycznosc-strategie-pulapki
-path: /artykuly/cms-bez-kodu/cms-bez-kodu-dla-wielojezycznosci-strategie-i-pu-apki/
+path: /artykuly/cms-bez-kodu/cms-bez-kodu-dla-wielojezycznosci-strategie-i-pulapki/
 template: default
-draft: true
+draft: false
 date: '2026-01-14'
 hero:
   heading: 'CMS bez kodu dla wielojęzyczności: strategie i pułapki'

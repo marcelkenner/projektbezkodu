@@ -20,6 +20,7 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
    - `taxonomy` for articles (categories + tags defined in copy JSON).
 3. Validate syntax with `npm run content:lint` (this runs automatically before `npm run build`). It parses every markdown file, warns when `meta.summaryBullets` / `meta.primaryCta` are missing in article-driven folders, and points to the exact line when YAML is invalid. Set `CONTENT_LINT_STRICT=true` or append `--strict` if you want the warnings to fail CI.
 4. Callouts: to render a highlighted tip/warning box, start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]` (the marker is removed from output).
+5. Do not wrap article content in ` ```markdown ` fences. If you need a code block, use plain triple backticks or a real language such as ` ```ts ` or ` ```bash `.
 
 ## 3. Media Assets
 
@@ -36,7 +37,8 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 - If you need a subcategory, create a folder such as `content/artykuly/seo/audyty/`, put the subcategory hub in `index.md` with `type: hub`, and place article leaves below it (for example `content/artykuly/seo/audyty/checklista-audytu.md` → `/artykuly/seo/audyty/checklista-audytu/`).
 - Do not publish a leaf article at `content/artykuly/<kategoria>/index.md`; that file is reserved for the hub.
 - Avoid numbered filenames like `index6.md` for new article leaves. Use the article slug or another descriptive filename.
-- `npm run content:lint` now enforces the category hub contract and the `/artykuly/<kategoria>/...` canonical path prefix.
+- Use descriptive `slug` values as well. `slug: index2` and similar placeholders are invalid.
+- `npm run content:lint` now enforces the category hub contract, the `/artykuly/<kategoria>/...` canonical path prefix, and descriptive article slugs.
 - Routing details (canonical URLs, aliases/redirects, hub vs leaf) live in `docs/frontmatter_and_routing.md`.
 - Use `taxonomy.categories` and `taxonomy.tags` slugs from `data/copy/articles.json`.
 - To introduce a new category/tag:

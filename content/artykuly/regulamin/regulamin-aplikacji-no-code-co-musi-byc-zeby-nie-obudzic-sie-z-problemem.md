@@ -1,13 +1,13 @@
 ---
-title: 'Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii'
+title: 'Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem'
 category: regulamin
-draft: true
-slug: index10
+draft: false
+slug: regulamin-aplikacji-no-code-co-musi-byc-zeby-nie-obudzic-sie-z-problemem
 path: >-
-  /artykuly/regulamin/regulamin-ugc-i-komentarzy-proste-zasady-moderacji-bez-cenzorskiej-manii/
+  /artykuly/regulamin/regulamin-aplikacji-no-code-co-musi-byc-zeby-nie-obudzic-sie-z-problemem/
 ---
 
-# Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii
+# Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

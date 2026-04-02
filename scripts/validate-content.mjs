@@ -21,6 +21,8 @@ const MARKETING_META_TEMPLATES = new Set([
   "tutorial",
   "template",
 ]);
+const PLACEHOLDER_SLUG_PATTERN = /^index\d*$/i;
+const MARKDOWN_INFO_FENCE_PATTERN = /```markdown\b/i;
 
 export function runContentValidation({
   projectRoot = process.cwd(),
@@ -85,6 +87,7 @@ export function runContentValidation({
   function validateMarkdown(filePath) {
     try {
       const file = fs.readFileSync(filePath, "utf8");
+      validateMarkdownInfoFence(file, filePath);
       const parsed = matter(file);
       filesScanned += 1;
       applyFrontmatterRules(parsed.data ?? {}, filePath);
@@ -106,6 +109,7 @@ export function runContentValidation({
     if (segment === "artykuly") {
       validateArtykulyCanonicalPath(frontmatter, filePath);
       validateArticleIndexContracts(frontmatter, filePath);
+      validateArticleSlug(frontmatter, filePath);
     }
 
     if (isDraft(frontmatter) && !strictMode) {
@@ -196,6 +200,33 @@ export function runContentValidation({
     registerError(
       filePath,
       `Published markdown under content/artykuly must use a canonical path under /artykuly/ (found ${normalizedPath}).`,
+    );
+  }
+
+  function validateArticleSlug(frontmatter, filePath) {
+    if (typeof frontmatter?.slug !== "string") {
+      return;
+    }
+
+    const slug = frontmatter.slug.trim();
+    if (!slug || !PLACEHOLDER_SLUG_PATTERN.test(slug)) {
+      return;
+    }
+
+    registerError(
+      filePath,
+      `Markdown under content/artykuly must use a descriptive slug instead of placeholder value "${slug}".`,
+    );
+  }
+
+  function validateMarkdownInfoFence(fileContents, filePath) {
+    if (!MARKDOWN_INFO_FENCE_PATTERN.test(fileContents)) {
+      return;
+    }
+
+    registerError(
+      filePath,
+      "Do not use ```markdown fenced blocks in content markdown. Remove the markdown info string or use a real code language.",
     );
   }
 

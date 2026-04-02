@@ -1,13 +1,13 @@
 ---
-title: 'Regulamin promocji i kodów rabatowych: jak uniknąć sporów o „a mi się należy”'
+title: 'Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć'
 category: regulamin
-draft: true
-slug: index11
+draft: false
+slug: regulamin-konsultacji-jak-ustawic-granice-terminy-i-platnosci-bez-spiec
 path: >-
-  /artykuly/regulamin/regulamin-promocji-i-kodow-rabatowych-jak-uniknac-sporow-o-a-mi-sie-nalezy/
+  /artykuly/regulamin/regulamin-konsultacji-jak-ustawic-granice-terminy-i-platnosci-bez-spiec/
 ---
 
-# Regulamin promocji i kodów rabatowych: jak uniknąć sporów o „a mi się należy”
+# Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

@@ -1,15 +1,13 @@
 ---
-title: >-
-  Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie
-  obiecywać)
+title: 'Regulamin promocji i kodów rabatowych: jak uniknąć sporów o „a mi się należy”'
 category: regulamin
-draft: true
-slug: index8
+draft: false
+slug: regulamin-promocji-i-kodow-rabatowych-jak-uniknac-sporow-o-a-mi-sie-nalezy
 path: >-
-  /artykuly/regulamin/regulamin-kont-i-logowania-co-napisac-gdy-masz-rejestracje-i-czego-nie-obiecywac/
+  /artykuly/regulamin/regulamin-promocji-i-kodow-rabatowych-jak-uniknac-sporow-o-a-mi-sie-nalezy/
 ---
 
-# Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie obiecywać)
+# Regulamin promocji i kodów rabatowych: jak uniknąć sporów o „a mi się należy”
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

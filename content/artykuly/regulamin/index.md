@@ -7,7 +7,7 @@ path: /artykuly/regulamin/
 template: default
 type: hub
 category: regulamin
-draft: true
+draft: false
 ---
 
 # Regulamin strony i newslettera: prosty wzór dla twórcy no-code (bez prawniczego bełkotu)

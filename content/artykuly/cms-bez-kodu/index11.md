@@ -4,7 +4,7 @@ slug: zarzadzanie-mediami-no-code
 path: >-
   /artykuly/cms-bez-kodu/zarzadzanie-mediami-w-no-code-cms-obrazy-cdn-i-optymalizacja/
 template: default
-draft: true
+draft: false
 date: '2026-01-14'
 hero:
   heading: Zarządzanie mediami w no-code CMS

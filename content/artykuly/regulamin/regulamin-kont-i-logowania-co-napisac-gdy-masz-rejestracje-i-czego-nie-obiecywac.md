@@ -1,13 +1,15 @@
 ---
-title: 'Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi'
+title: >-
+  Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie
+  obiecywać)
 category: regulamin
-draft: true
-slug: index5
+draft: false
+slug: regulamin-kont-i-logowania-co-napisac-gdy-masz-rejestracje-i-czego-nie-obiecywac
 path: >-
-  /artykuly/regulamin/regulamin-kursu-online-zwroty-dostep-i-odpowiedzialnosc-wersja-dla-ludzi/
+  /artykuly/regulamin/regulamin-kont-i-logowania-co-napisac-gdy-masz-rejestracje-i-czego-nie-obiecywac/
 ---
 
-# Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi
+# Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie obiecywać)
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

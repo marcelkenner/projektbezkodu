@@ -1,13 +1,15 @@
 ---
-title: 'Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć'
+title: >-
+  Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej
+  agencji
 category: regulamin
-draft: true
-slug: index6
+draft: false
+slug: regulamin-uslug-no-code-jasne-zasady-wspolpracy-dla-freelancera-i-malej-agencji
 path: >-
-  /artykuly/regulamin/regulamin-konsultacji-jak-ustawic-granice-terminy-i-p-atnosci-bez-spiec/
+  /artykuly/regulamin/regulamin-uslug-no-code-jasne-zasady-wspolpracy-dla-freelancera-i-malej-agencji/
 ---
 
-# Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć
+# Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej agencji
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.

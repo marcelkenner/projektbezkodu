@@ -1,15 +1,13 @@
 ---
-title: >-
-  Regulamin i odpowiedzialność za integracje: Zapier/Make/Stripe — gdzie kończy
-  się twoja wina
+title: 'Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi'
 category: regulamin
-draft: true
-slug: index12
+draft: false
+slug: regulamin-kursu-online-zwroty-dostep-i-odpowiedzialnosc-wersja-dla-ludzi
 path: >-
-  /artykuly/regulamin/regulamin-i-odpowiedzialnosc-za-integracje-zapier-make-stripe-gdzie-konczy-sie-twoja-wina/
+  /artykuly/regulamin/regulamin-kursu-online-zwroty-dostep-i-odpowiedzialnosc-wersja-dla-ludzi/
 ---
 
-# Regulamin i odpowiedzialność za integracje: Zapier/Make/Stripe — gdzie kończy się twoja wina
+# Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi
 
 ## Lead
 **Werdykt:** Ten artykuł jest dla ciebie, jeśli chcesz mieć regulamin, który użytkownik rozumie i który nie obiecuje cudów. Jeśli potrzebujesz niestandardowych zapisów (np. medycyna/finanse/dane wrażliwe), i tak skonsultuj to z prawnikiem.
