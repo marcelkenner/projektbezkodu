@@ -8,6 +8,8 @@ export { Badge } from "./Badge";
 export { Stepper } from "./Stepper";
 export { FilterBar } from "./FilterBar";
 export { ContentFilterBar } from "./filters/ContentFilterBar";
+export { SiteSearchForm } from "./search/SiteSearchForm";
+export type { SiteSearchConfig } from "./search/SiteSearchForm";
 export { PricingCard } from "./PricingCard";
 export { ComparisonTable } from "./ComparisonTable";
 export { Modal } from "./Modal";

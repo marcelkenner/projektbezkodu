@@ -87,8 +87,9 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 
 ## 10. Search Page Content
 
-- `content/szukaj/index.md` stores metadata and page copy. Update hero text here; avoid editing the React page directly.
-- Search results combine markdown summaries. When you add new content types, confirm their frontmatter includes descriptive hero subheadings and `meta` fields for better matching.
+- `data/copy/search.json` stores the search page copy. Update labels, empty-state text, filter labels, and helper tips there; avoid hard-coding copy in the React page.
+- Search results combine markdown summaries from articles, tutorials, comparisons, glossary terms, and resources. When you add new content types later, confirm their repository is indexed by `ContentSearchEngine` and that `search.json.typeLabels` includes the new type.
+- Good search matches depend on strong frontmatter. For each searchable markdown file, prefer clear `hero.subheading`, meaningful taxonomy tags/categories, and useful `meta` fields such as `tools`, `format`, `topics`, `difficulty`, or `duration`.
 
 ## 11. Copy JSON (`data/copy/**`)
 
@@ -113,7 +114,9 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
    - `/artykuly` – new badges show correct labels.
    - `/poradniki` – filters include the new tutorial and counts update.
    - `/glossary` – search + anchors work for new terms.
-   - `/szukaj` – query returns new content with correct type labels.
+   - `/szukaj?q=api` – glossary entries appear.
+   - `/szukaj?q=meetupy` – the resource page under `/zasoby/wydarzenia-meetupy/` appears with the `Zasób` label.
+   - `/szukaj?q=webflow&typ=tutorial&sort=newest` – only tutorial results appear and URL filters stay selected.
 4. Capture any QA findings in `docs/operations/audit_checklist.md`.
 
 ## 14. Publishing Process

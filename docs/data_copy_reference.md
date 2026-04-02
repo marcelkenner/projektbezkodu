@@ -159,9 +159,9 @@ Each entry lists:
 ### `search.json`
 
 - **Purpose**: Search page hero, placeholder, labels, and result-state messaging.
-- **Key Fields**: `title`, `intro`, `placeholder`, `form`, `results`, `typeLabels`, `tips`.
+- **Key Fields**: `title`, `intro`, `placeholder`, `form`, `filters`, `results`, `typeLabels`, `tips`.
 - **Primary Consumers**: `app/(marketing)/(content)/szukaj/page.tsx`.
-- **Notes**: `typeLabels` must include every content type emitted by `ContentSearchEngine`.
+- **Notes**: `typeLabels` must include every content type emitted by `ContentSearchEngine`. `filters.typeOptions` must stay aligned with the allowed `typ` query parameter values, and `filters.sortOptions` must stay aligned with the allowed `sort` query parameter values.
 
 ### `sitemap.json`
 
