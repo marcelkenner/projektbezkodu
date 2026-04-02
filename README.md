@@ -42,6 +42,17 @@ The checked-in templates used by the live host are:
 
 The collision-avoidance rule is strict: `projektbezkodu` must keep its own Unix user, `/srv/www/projektbezkodu/*` directories, `projektbezkodu.service`, `projektbezkodu.conf`, and local port `3001`. Do not reuse CafeBadge paths or ports.
 
+Working deployment flow:
+
+1. Push the deployment commit to GitHub.
+2. On the OVH host, clone `git@github.com:marcelkenner/projektbezkodu.git` into `~/projektbezkodu-deploy`.
+3. Sync that checkout into `/srv/www/projektbezkodu/app/`.
+4. Create `/srv/www/projektbezkodu/shared/.env.production` and symlink it to `/srv/www/projektbezkodu/app/.env.production`.
+5. Run `npm ci`, `npm run test`, and `npm run build` as the `projektbezkodu` Unix user inside `/srv/www/projektbezkodu/app`.
+6. Start `projektbezkodu.service`, validate `http://127.0.0.1:3001/api/health`, then enable the Nginx site and TLS.
+
+The OVH host currently runs the app with system `node` and `npm` rather than loading `nvm` inside the systemd unit. Keep the host Node version aligned with `.nvmrc`.
+
 ## UI building blocks
 
 - Article and resource listings must use the shared `ArticleCard` + `ArticleGrid` from `app/ui/articles/ArticleCard.tsx`; do not recreate per-page card variants.
