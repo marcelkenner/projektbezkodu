@@ -10,7 +10,7 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 4. `source ~/.nvm/nvm.sh && npm run build && npm run start` – production preview
 
 > **Note:** run all shell commands with `source ~/.nvm/nvm.sh && …` per repository policy.
-> **Node.js:** Next.js 16 requires Node.js `>= 20.9.0`. Use `source ~/.nvm/nvm.sh && nvm install --lts && nvm use --lts` if `node` or `npm` is missing.
+> **Node.js:** the pinned runtime is in `.nvmrc` (`20.20.0`). Use `source ~/.nvm/nvm.sh && nvm install && nvm use` before local work or server builds.
 
 ## Scripts
 
@@ -29,6 +29,18 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 TypeScript builds intentionally exclude `vitest.config.ts` and `**/*.test.ts` so `npm run build` can run in environments that omit dev dependencies.
 
 If a build fails with TypeScript errors referencing `.next/dev/types/*`, delete `.next/` and rerun the build (those files can be left over from `next dev`).
+
+## OVH deployment
+
+The shared OVH deployment path for this app is documented in `docs/Implementation/Runbook_OVH_Production_Deployment_Junior.md`.
+
+The checked-in templates used by the live host are:
+
+- `ops/systemd/projektbezkodu.service.example`
+- `ops/nginx/projektbezkodu.conf.example`
+- `.env.example`
+
+The collision-avoidance rule is strict: `projektbezkodu` must keep its own Unix user, `/srv/www/projektbezkodu/*` directories, `projektbezkodu.service`, `projektbezkodu.conf`, and local port `3001`. Do not reuse CafeBadge paths or ports.
 
 ## UI building blocks
 
