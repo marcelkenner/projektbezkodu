@@ -1,5 +1,7 @@
 # ProjektBezKodu OVH Production Runbook
 
+Last verified on 2026-04-02 from the local workstation plus direct SSH inspection of the live OVH host.
+
 This runbook is the source of truth for deploying ProjektBezKodu on the shared OVH host without colliding with the already deployed CafeBadge application.
 
 Follow `docs/plans.md` conventions when updating this file: keep it self-contained, record live values explicitly, and update it whenever the deployment process changes.
@@ -17,6 +19,9 @@ Follow `docs/plans.md` conventions when updating this file: keep it self-contain
 - Local app port: `3001`
 - systemd unit: `projektbezkodu.service`
 - Nginx site: `/etc/nginx/sites-available/projektbezkodu.conf`
+- Deployed GitHub commit: `0a7c6be6`
+- HTTPS: active via Certbot on `projektbezkodu.pl` and `www.projektbezkodu.pl`
+- Current certificate expiry: `2026-07-01`
 
 These values intentionally do not reuse CafeBadge paths, users, or ports.
 
@@ -113,7 +118,9 @@ Public validation:
 Success means:
 
 - `projektbezkodu.service` is active.
+- `projektbezkodu.service` is enabled.
 - `curl http://127.0.0.1:3001/api/health` returns `{"ok":true}`.
+- `curl -I https://projektbezkodu.pl` returns HTTP `200`.
 - `www.projektbezkodu.pl` redirects to the canonical apex host.
 - CafeBadge continues to serve from its existing domain and port unchanged.
 
