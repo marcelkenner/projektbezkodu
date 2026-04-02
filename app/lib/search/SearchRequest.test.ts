@@ -19,7 +19,7 @@ describe("parseSearchRequest", () => {
     const request = parseSearchRequest(
       new SearchParamParser({
         q: "  webflow onboarding  ",
-        typ: "tutorial",
+        typ: "tool",
         sort: "newest",
       }),
     );
@@ -27,7 +27,7 @@ describe("parseSearchRequest", () => {
     expect(request).toEqual({
       kind: "query",
       query: "webflow onboarding",
-      type: "tutorial",
+      type: "tool",
       sort: "newest",
     });
   });

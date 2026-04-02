@@ -161,7 +161,7 @@ Each entry lists:
 - **Purpose**: Search page hero, placeholder, labels, and result-state messaging.
 - **Key Fields**: `title`, `intro`, `placeholder`, `form`, `filters`, `results`, `typeLabels`, `tips`.
 - **Primary Consumers**: `app/(marketing)/(content)/szukaj/page.tsx`.
-- **Notes**: `typeLabels` must include every content type emitted by `ContentSearchEngine`. `filters.typeOptions` must stay aligned with the allowed `typ` query parameter values, and `filters.sortOptions` must stay aligned with the allowed `sort` query parameter values.
+- **Notes**: `typeLabels` must include every content type emitted by `ContentSearchEngine`. `filters.typeOptions` must stay aligned with the allowed `typ` query parameter values, and `filters.sortOptions` must stay aligned with the allowed `sort` query parameter values. The current search index covers every public markdown-backed content route plus glossary entries, so labels must cover `article`, `tutorial`, `comparison`, `glossary`, `resource`, `tool`, and generic `page` results.
 
 ### `sitemap.json`
 

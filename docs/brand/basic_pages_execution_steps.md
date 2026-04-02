@@ -64,7 +64,7 @@ This checklist walks through turning the current placeholders into production-re
 
 1. Wybrać rozwiązanie wyszukiwania (finalnie: build-time `ContentSearchEngine` działający offline).
 2. Zaimplementować formularz z parametrem `q`, zasilany `data/copy/search.json`.
-3. Zindeksować artykuły, tutoriale, porównania i słownik (`ContentSearchEngine.search`) i renderować wyniki wraz z typami.
+3. Zindeksować wszystkie publiczne strony treściowe oparte na markdownzie oraz słownik (`ContentSearchEngine.search`) i renderować wyniki wraz z typami. Minimalne etykiety typów to: artykuł, poradnik, porównanie, słownik, zasób, narzędzie i ogólna strona.
 4. Document setup in `docs/brand/tooling.md` and update copy file `data/copy/search.json` (create if needed).
 
 ## Phase 7 – Legal Pages

@@ -7,6 +7,8 @@ export const SEARCH_CONTENT_TYPES = [
   "comparison",
   "glossary",
   "resource",
+  "tool",
+  "page",
 ] as const;
 
 export type SearchContentType = (typeof SEARCH_CONTENT_TYPES)[number];

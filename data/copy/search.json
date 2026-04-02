@@ -1,6 +1,6 @@
 {
   "title": "Szukaj w ProjekcieBezKodu",
-  "intro": "Przeszukaj w jednym miejscu artykuły, tutoriale, porównania i słownik pojęć – zamiast klikać po menu.",
+  "intro": "Przeszukaj w jednym miejscu artykuły, poradniki, porównania, narzędzia, zasoby, słownik i pozostałe publiczne strony z treścią.",
   "placeholder": "Wpisz temat, np. „Webflow onboarding”",
   "form": {
     "label": "Wyszukaj frazę",
@@ -16,7 +16,9 @@
       "tutorial": "Poradniki",
       "comparison": "Porównania",
       "glossary": "Słownik",
-      "resource": "Zasoby"
+      "resource": "Zasoby",
+      "tool": "Narzędzia",
+      "page": "Pozostałe strony"
     },
     "sortOptions": {
       "relevance": "Najtrafniejsze",
@@ -36,7 +38,9 @@
     "tutorial": "Tutorial",
     "comparison": "Porównanie",
     "glossary": "Słownik",
-    "resource": "Zasób"
+    "resource": "Zasób",
+    "tool": "Narzędzie",
+    "page": "Strona"
   },
   "tips": [
     {
@@ -45,7 +49,7 @@
     },
     {
       "title": "Wykorzystaj filtry na podstronach",
-      "body": "Wiele wyników prowadzi do list artykułów lub tutoriali z dodatkowymi filtrami. Dzięki temu szybko zawężysz wyniki do dokładnie takiego materiału, jakiego potrzebujesz."
+      "body": "Wiele wyników prowadzi do stron z dodatkowymi filtrami lub do całych serii materiałów o narzędziach. Dzięki temu szybciej zawężysz wyniki do dokładnie takiej treści, jakiej potrzebujesz."
     },
     {
       "title": "Zaproponuj nowy temat",
