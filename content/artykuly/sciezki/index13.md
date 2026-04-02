@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Sklep no-code — od produktu do płatności i automatyzacji (bez chaosu)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Sklep no-code — od produktu do płatności i automatyzacji (bez chaosu)

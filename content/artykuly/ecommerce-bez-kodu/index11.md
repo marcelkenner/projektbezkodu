@@ -1,7 +1,8 @@
 ---
 title: 'Katalog produktów i filtry: jak projektować nawigację w sklepie'
 slug: katalog-produktow-filtry-nawigacja
-path: /katalog-produktow-filtry-nawigacja
+path: >-
+  /artykuly/ecommerce-bez-kodu/katalog-produktow-i-filtry-jak-projektowac-nawigacje-w-sklepie/
 template: default
 draft: false
 date: '2026-01-15'

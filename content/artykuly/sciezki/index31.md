@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Lead scoring bez ML — reguły, punkty, progi (i zero magii)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Lead scoring bez ML — reguły, punkty, progi (i zero magii)

@@ -3,7 +3,8 @@ title: >-
   Dashboard KPI dla marketingu — dane w jednym miejscu bez ręcznego klejenia
   arkuszy
 slug: dashboard-kpi-marketingu
-path: /analityka/dashboard-kpi-marketingu
+path: >-
+  /artykuly/przypadki-uzycia/dashboard-kpi-dla-marketingu-dane-w-jednym-miejscu-bez-recznego-klejenia-arkuszy/
 template: default
 draft: false
 date: '2026-01-14'

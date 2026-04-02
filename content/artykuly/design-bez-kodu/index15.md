@@ -1,7 +1,8 @@
 ---
 title: 'Testy użyteczności „na szybko”: scenariusz i checklisty'
 slug: testy-uzytecznosci-na-szybko-scenariusz-checklisty
-path: /testy-uzytecznosci-na-szybko-scenariusz-checklisty
+path: >-
+  /artykuly/design-bez-kodu/testy-uzytecznosci-na-szybko-scenariusz-i-checklisty/
 template: default
 draft: false
 date: '2026-01-14'

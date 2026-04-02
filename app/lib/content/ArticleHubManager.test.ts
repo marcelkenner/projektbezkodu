@@ -113,4 +113,76 @@ describe("ArticleHubManager", () => {
     const hubs = manager.listHubs(2);
     expect(hubs.map((hub) => hub.href)).toEqual(["/artykuly/valid/"]);
   });
+
+  it("includes child hubs separately from direct articles", () => {
+    const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "pbk-hubs-"));
+    const categoryHub = path.join(tmpDir, "seo", "index.md");
+    const subcategoryHub = path.join(tmpDir, "seo", "audyty", "index.md");
+    const childLeaf = path.join(tmpDir, "seo", "audyty", "checklista.md");
+
+    writeFile(
+      categoryHub,
+      [
+        "---",
+        'title: "SEO"',
+        "slug: seo",
+        "path: /artykuly/seo/",
+        "template: default",
+        "type: hub",
+        "draft: false",
+        "---",
+        "",
+      ].join("\n"),
+    );
+
+    writeFile(
+      subcategoryHub,
+      [
+        "---",
+        'title: "Audyty SEO"',
+        "slug: audyty-seo",
+        "path: /artykuly/seo/audyty/",
+        "template: default",
+        "type: hub",
+        "draft: false",
+        "---",
+        "",
+      ].join("\n"),
+    );
+
+    writeFile(
+      childLeaf,
+      [
+        "---",
+        'title: "Checklista audytu"',
+        "slug: checklista-audytu",
+        "path: /artykuly/seo/audyty/checklista-audytu/",
+        "template: default",
+        "draft: false",
+        "---",
+        "",
+        "# Leaf page",
+        "",
+      ].join("\n"),
+    );
+
+    const summariesProvider = new StubSummariesProvider([
+      {
+        slug: "checklista-audytu",
+        title: "Checklista audytu",
+        path: "/artykuly/seo/audyty/checklista-audytu/",
+        description: "Leaf",
+        draft: false,
+      },
+    ]);
+
+    const manager = new ArticleHubManager(summariesProvider, tmpDir);
+    const hub = manager.getHub(["seo"]);
+    expect(hub?.subcategories.map((entry) => entry.href)).toEqual([
+      "/artykuly/seo/audyty/",
+    ]);
+    expect(hub?.articles.map((entry) => entry.path)).toEqual([
+      "/artykuly/seo/audyty/checklista-audytu/",
+    ]);
+  });
 });

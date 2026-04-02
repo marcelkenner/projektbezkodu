@@ -3,7 +3,8 @@ title: >-
   Automatyzacje w projektach: zadania, statusy, powiadomienia — ale bez
   spamowania zespołu
 slug: automatyzacje-zadania-statusy-bez-spamu
-path: /automatyzacje/zadania-statusy-bez-spamu
+path: >-
+  /artykuly/automation/automatyzacje-w-projektach-zadania-statusy-powiadomienia-ale-bez-spamowania-zespo-u/
 template: default
 draft: false
 type: article

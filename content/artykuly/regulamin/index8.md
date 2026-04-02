@@ -4,6 +4,9 @@ title: >-
   obiecywać)
 category: regulamin
 draft: true
+slug: index8
+path: >-
+  /artykuly/regulamin/regulamin-kont-i-logowania-co-napisac-gdy-masz-rejestracje-i-czego-nie-obiecywac/
 ---
 
 # Regulamin kont i logowania: co napisać, gdy masz rejestrację (i czego nie obiecywać)

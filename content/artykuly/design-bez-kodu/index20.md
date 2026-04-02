@@ -1,7 +1,7 @@
 ---
 title: 'Audit UI: 25 rzeczy do sprawdzenia przed publikacją'
 slug: audyt-ui-25-rzeczy
-path: /audyt-ui-25-rzeczy
+path: /artykuly/design-bez-kodu/audit-ui-25-rzeczy-do-sprawdzenia-przed-publikacja/
 template: default
 draft: false
 date: '2026-01-15'

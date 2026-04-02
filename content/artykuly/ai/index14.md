@@ -1,7 +1,8 @@
 ---
 title: 'AI w projektowaniu: Framer vs Webflow — gdzie przyspiesza, a gdzie przeszkadza'
 slug: ai-w-projektowaniu-framer-vs-webflow
-path: /ai-w-projektowaniu-framer-vs-webflow
+path: >-
+  /artykuly/ai/ai-w-projektowaniu-framer-vs-webflow-gdzie-przyspiesza-a-gdzie-przeszkadza/
 template: default
 draft: false
 date: '2026-01-14'

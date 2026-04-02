@@ -3,7 +3,8 @@ title: >-
   Konwersje w reklamach: Meta CAPI vs Google Enhanced Conversions — prosty
   przewodnik no-code
 slug: meta-capi-vs-google-enhanced-conversions-no-code
-path: /meta-capi-vs-google-enhanced-conversions
+path: >-
+  /artykuly/analityka/konwersje-w-reklamach-meta-capi-vs-google-enhanced-conversions-prosty-przewodnik-no-code/
 template: default
 draft: false
 date: '2026-01-15'

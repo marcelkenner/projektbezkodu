@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Uporządkowane pliki w Google Drive (naming, struktura, uprawnienia, porządek)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Uporządkowane pliki w Google Drive (naming, struktura, uprawnienia, porządek)

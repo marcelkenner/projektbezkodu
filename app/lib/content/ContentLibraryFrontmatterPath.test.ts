@@ -22,5 +22,24 @@ describe("ContentLibrary canonical paths", () => {
     ]);
     expect(legacy?.path).toBe(canonical);
   });
-});
 
+  it("derives the canonical path from source location when frontmatter.path is omitted", () => {
+    const library = new ContentLibrary({ excludedDirectories: ["glossary"] });
+    const canonical =
+      "/_examples/fixtures/content-library-derived-path/source-derived-canonical/";
+
+    const routes = library.listRoutes();
+    expect(routes.some((route) => route.path === canonical)).toBe(true);
+    expect(
+      routes.some((route) => route.path === "/source-derived-canonical/"),
+    ).toBe(false);
+
+    const direct = library.getEntry([
+      "_examples",
+      "fixtures",
+      "content-library-derived-path",
+      "source-derived-canonical",
+    ]);
+    expect(direct?.path).toBe(canonical);
+  });
+});

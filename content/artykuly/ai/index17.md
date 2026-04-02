@@ -1,7 +1,8 @@
 ---
 slug: bezpieczne-klucze-api-sekrety
 title: Jak bezpiecznie zarządzać kluczami API i sekretami — szybki przewodnik
-path: /bezpieczne-klucze-api-sekrety
+path: >-
+  /artykuly/ai/jak-bezpiecznie-zarzadzac-kluczami-api-i-sekretami-szybki-przewodnik/
 template: default
 draft: false
 type: article

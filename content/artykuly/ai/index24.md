@@ -3,7 +3,8 @@ title: >-
   Asystent firmowy w no-code: od FAQ do 'copilota' — realistyczna ścieżka
   wdrożenia
 slug: asystent-firmowy-no-code-copilot-ścieżka-wdrozenia
-path: /asystent-firmowy-no-code-copilot-sciezka-wdrozenia
+path: >-
+  /artykuly/ai/asystent-firmowy-w-no-code-od-faq-do-copilota-realistyczna-sciezka-wdrozenia/
 template: default
 draft: false
 date: '2026-01-14'

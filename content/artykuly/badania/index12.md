@@ -1,7 +1,7 @@
 ---
 title: 'Raport: integracje API w no-code — co działa najlepiej'
 slug: integracje-api-no-code-raport
-path: /integracje-api-no-code-raport
+path: /artykuly/badania/raport-integracje-api-w-no-code-co-dzia-a-najlepiej/
 template: default
 draft: false
 date: '2026-01-14'

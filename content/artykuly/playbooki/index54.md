@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Migracja z Google Sheets do Airtable (bez katastrofy i bez przestojów)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Migracja z Google Sheets do Airtable (bez katastrofy i bez przestojów)

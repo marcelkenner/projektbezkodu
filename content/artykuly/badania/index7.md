@@ -1,7 +1,7 @@
 ---
 title: 'Badanie: automatyzacje w firmach — Make kontra Zapier'
 slug: badanie-automatyzacje-make-vs-zapier
-path: /badania/automatyzacje-make-vs-zapier
+path: /artykuly/badania/badanie-automatyzacje-w-firmach-make-kontra-zapier/
 template: default
 draft: false
 type: article

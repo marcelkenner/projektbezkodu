@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Walidacja pomysłu w 48h — szybkie testy, które mówią prawdę'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Walidacja pomysłu w 48h — szybkie testy, które mówią prawdę

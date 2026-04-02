@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Rejestr decyzji (ADR) — koniec dyskusji w kółko w zespole'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Rejestr decyzji (ADR) — koniec dyskusji w kółko w zespole

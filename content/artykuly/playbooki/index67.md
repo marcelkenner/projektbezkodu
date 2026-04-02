@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: System rekrutacji bez ATS (formularz → scoring → terminy → feedback)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: System rekrutacji bez ATS (formularz → scoring → terminy → feedback)

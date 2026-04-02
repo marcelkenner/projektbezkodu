@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Audyt Make/Zapier — jak przyspieszyć, uprościć i uciąć koszty'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Audyt Make/Zapier — jak przyspieszyć, uprościć i uciąć koszty

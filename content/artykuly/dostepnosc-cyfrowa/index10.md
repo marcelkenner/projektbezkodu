@@ -1,7 +1,8 @@
 ---
 title: 'Testy dostępności bez kodu: darmowe narzędzia, audyt i raport w 60 minut'
 slug: testy-dostepnosci-bez-kodu-60-min
-path: /testy-dostepnosci-bez-kodu-60-min
+path: >-
+  /artykuly/dostepnosc-cyfrowa/testy-dostepnosci-bez-kodu-darmowe-narzedzia-audyt-i-raport-w-60-minut/
 template: default
 type: article
 date: '2026-01-14'

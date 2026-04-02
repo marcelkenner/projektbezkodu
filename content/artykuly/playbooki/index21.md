@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Uporządkowane zgłoszenia supportu bez helpdesku (na start)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Uporządkowane zgłoszenia supportu bez helpdesku (na start)

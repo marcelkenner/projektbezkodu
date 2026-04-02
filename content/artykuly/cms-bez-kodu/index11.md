@@ -1,7 +1,8 @@
 ---
 title: 'Zarządzanie mediami w no-code CMS: obrazy, CDN i optymalizacja'
 slug: zarzadzanie-mediami-no-code
-path: /artykuly/cms/zarzadzanie-mediami-no-code
+path: >-
+  /artykuly/cms-bez-kodu/zarzadzanie-mediami-w-no-code-cms-obrazy-cdn-i-optymalizacja/
 template: default
 draft: true
 date: '2026-01-14'

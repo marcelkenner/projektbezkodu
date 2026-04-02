@@ -1,7 +1,7 @@
 ---
 title: 'Raport: jakość danych w projektach no-code'
 slug: raport-jakosc-danych-no-code
-path: /raport-jakosc-danych-no-code
+path: /artykuly/badania/raport-jakosc-danych-w-projektach-no-code/
 template: default
 draft: false
 date: '2026-01-14'

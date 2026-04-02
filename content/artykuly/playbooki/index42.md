@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Zbieranie wymagań do projektu no-code (brief, scope, ryzyka, akceptacja)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Zbieranie wymagań do projektu no-code (brief, scope, ryzyka, akceptacja)

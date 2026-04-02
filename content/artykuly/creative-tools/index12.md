@@ -1,7 +1,8 @@
 ---
 title: 'Checklisty jakości: jak oceniać projekty kreatywne tworzone no-code'
 slug: checklisty-jakosci-no-code
-path: /checklisty-jakosci-no-code
+path: >-
+  /artykuly/creative-tools/checklisty-jakosci-jak-oceniac-projekty-kreatywne-tworzone-no-code/
 template: default
 draft: false
 date: '2026-01-15'

@@ -1,7 +1,8 @@
 ---
 title: 'Błędy analityczne: pułapki, przez które firmy podejmują złe decyzje'
 slug: bledy-analityczne-pulapki-decyzyjne
-path: /analityka/bledy-analityczne-pulapki-decyzyjne
+path: >-
+  /artykuly/analityka/b-edy-analityczne-pu-apki-przez-ktore-firmy-podejmuja-z-e-decyzje/
 template: default
 draft: false
 date: '2026-01-14'

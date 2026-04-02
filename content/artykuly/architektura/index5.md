@@ -1,7 +1,8 @@
 ---
 title: 'Granice no-code: kiedy architektura mówi „dość” i trzeba dołożyć kod'
 slug: granice-no-code-kiedy-dolozyc-kod
-path: /architektura/granice-no-code-kiedy-dolozyc-kod
+path: >-
+  /artykuly/architektura/granice-no-code-kiedy-architektura-mowi-dosc-i-trzeba-do-ozyc-kod/
 template: default
 draft: false
 date: '2026-01-15'

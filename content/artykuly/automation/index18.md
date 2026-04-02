@@ -3,7 +3,8 @@ title: >-
   Automatyzacja faktur i płatności: przypomnienia, statusy, księgowość bez
   gonitwy
 slug: automatyzacja-faktur-platnosci
-path: /automatyzacja/faktur-platnosci-przypomnienia-statusy-ksiegowosc
+path: >-
+  /artykuly/automation/automatyzacja-faktur-i-p-atnosci-przypomnienia-statusy-ksiegowosc-bez-gonitwy/
 template: default
 draft: false
 date: '2026-01-15'

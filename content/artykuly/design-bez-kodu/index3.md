@@ -1,7 +1,8 @@
 ---
 title: 'Design system w no-code: minimalny zestaw, który robi różnicę'
 slug: design-system-no-code-minimalny-zestaw
-path: /design-system-no-code-minimalny-zestaw
+path: >-
+  /artykuly/design-bez-kodu/design-system-w-no-code-minimalny-zestaw-ktory-robi-roznice/
 template: default
 draft: false
 date: '2026-01-15'

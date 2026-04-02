@@ -1,7 +1,8 @@
 ---
 title: 'WCAG w praktyce (no-code): jak spełniać wymagania bez programowania'
 slug: wcag-w-praktyce-no-code
-path: /dostepnosc/wcag-w-praktyce-no-code
+path: >-
+  /artykuly/dostepnosc-cyfrowa/wcag-w-praktyce-no-code-jak-spe-niac-wymagania-bez-programowania/
 template: default
 draft: false
 date: '2026-01-14'

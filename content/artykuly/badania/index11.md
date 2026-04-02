@@ -1,7 +1,8 @@
 ---
 title: 'Badanie: popularność baz danych no-code — Airtable, Baserow, Notion'
 slug: badanie-popularnosci-baz-no-code-airtable-baserow-notion
-path: /badania/badanie-popularnosci-baz-no-code-airtable-baserow-notion
+path: >-
+  /artykuly/badania/badanie-popularnosc-baz-danych-no-code-airtable-baserow-notion/
 template: default
 draft: false
 type: badanie

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Backup i odzyskiwanie danych — minimum bezpieczeństwa dla no-code stacku'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Backup i odzyskiwanie danych — minimum bezpieczeństwa dla no-code stacku

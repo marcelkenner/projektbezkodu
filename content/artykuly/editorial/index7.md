@@ -1,7 +1,7 @@
 ---
 title: 'Wersjonowanie treści bez kodu: historia zmian i akceptacje'
 slug: wersjonowanie-tresci-bez-kodu-historia-zmian-i-akceptacje
-path: /wersjonowanie-tresci-bez-kodu-historia-zmian-i-akceptacje
+path: /artykuly/editorial/wersjonowanie-tresci-bez-kodu-historia-zmian-i-akceptacje/
 template: default
 draft: false
 date: '2026-01-14'

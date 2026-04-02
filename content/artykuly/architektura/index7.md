@@ -1,7 +1,8 @@
 ---
 title: 'Eventy, webhooki i kolejki: jak myśleć o przepływie danych w no-code'
 slug: eventy-webhooki-kolejki-przeplyw-danych-no-code
-path: /eventy-webhooki-kolejki-przeplyw-danych-no-code
+path: >-
+  /artykuly/architektura/eventy-webhooki-i-kolejki-jak-myslec-o-przep-ywie-danych-w-no-code/
 template: default
 draft: false
 date: '2026-01-15'

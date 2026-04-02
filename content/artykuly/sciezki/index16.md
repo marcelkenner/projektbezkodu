@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: SEO dla no-code stron — rzeczy, które realnie robią różnicę'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: SEO dla no-code stron — rzeczy, które realnie robią różnicę

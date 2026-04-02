@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Zbieranie opinii klientów po projekcie (ankieta → referencja → publikacja)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Zbieranie opinii klientów po projekcie (ankieta → referencja → publikacja)

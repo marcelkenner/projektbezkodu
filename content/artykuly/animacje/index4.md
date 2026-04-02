@@ -1,7 +1,8 @@
 ---
 title: 'Lottie od A do Z: jak wdrożyć animacje, żeby nie zabić szybkości strony'
 slug: lottie-od-a-do-z
-path: /animacje/lottie-od-a-do-z
+path: >-
+  /artykuly/animacje/lottie-od-a-do-z-jak-wdrozyc-animacje-zeby-nie-zabic-szybkosci-strony/
 template: default
 draft: false
 date: '2026-01-14'

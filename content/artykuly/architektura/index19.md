@@ -3,7 +3,8 @@ title: >-
   Koszty architektury no-code: gdzie uciekają budżety (operacje, taski,
   transfer, limity)
 slug: koszty-architektury-no-code
-path: /architektura/koszty-architektury-no-code
+path: >-
+  /artykuly/architektura/koszty-architektury-no-code-gdzie-uciekaja-budzety-operacje-taski-transfer-limity/
 template: default
 draft: false
 date: '2026-01-15'

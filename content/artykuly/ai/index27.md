@@ -1,7 +1,8 @@
 ---
 title: 'Polityka użycia AI w firmie: prosty dokument zasad, który zapobiega chaosowi'
 slug: polityka-uzycia-ai-firmie
-path: /polityka-uzycia-ai-firmie
+path: >-
+  /artykuly/ai/polityka-uzycia-ai-w-firmie-prosty-dokument-zasad-ktory-zapobiega-chaosowi/
 template: default
 draft: false
 date: '2026-01-14'

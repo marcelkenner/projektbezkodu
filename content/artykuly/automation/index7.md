@@ -1,7 +1,8 @@
 ---
 title: 'Automatyzacje w e-commerce: statusy zamówień, zwroty, faktury, komunikacja'
 slug: ecommerce-automatyzacje-zamowienia-zwroty-faktury
-path: /automatyzacje/ecommerce-zamowienia-zwroty-faktury
+path: >-
+  /artykuly/automation/automatyzacje-w-e-commerce-statusy-zamowien-zwroty-faktury-komunikacja/
 template: default
 draft: false
 date: '2026-01-15'

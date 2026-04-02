@@ -1,7 +1,8 @@
 ---
 title: 'Analiza lejka: gdzie użytkownicy odpadają i jak to naprawić bez zgadywania'
 slug: analiza-lejka-bez-zgadywania
-path: /analityka/analiza-lejka-bez-zgadywania
+path: >-
+  /artykuly/analityka/analiza-lejka-gdzie-uzytkownicy-odpadaja-i-jak-to-naprawic-bez-zgadywania/
 template: default
 draft: false
 type: article

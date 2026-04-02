@@ -1,7 +1,8 @@
 ---
 slug: mobile-first-bez-bolu
 title: 'Mobile-first bez bólu: jak projektować responsywność w no-code'
-path: /projektowanie/mobile-first-bez-bolu
+path: >-
+  /artykuly/design-bez-kodu/mobile-first-bez-bolu-jak-projektowac-responsywnosc-w-no-code/
 template: default
 draft: false
 meta:

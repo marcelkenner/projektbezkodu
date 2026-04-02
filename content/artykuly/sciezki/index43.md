@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Wdrożenie AI w obsłudze klienta — FAQ, makra, eskalacje (bez kompromitacji)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Wdrożenie AI w obsłudze klienta — FAQ, makra, eskalacje (bez kompromitacji)

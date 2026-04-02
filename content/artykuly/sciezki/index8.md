@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Mini-CRM dla małej firmy — pipeline, follow-up, raporty (bez Salesforce)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Mini-CRM dla małej firmy — pipeline, follow-up, raporty (bez Salesforce)

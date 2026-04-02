@@ -1,7 +1,8 @@
 ---
 title: 'Zbieranie leadów i automatyzacje: formularz, scoring i follow-up bez kodu'
 slug: zbieranie-leadow-formularz-scoring-follow-up-bez-kodu
-path: /zbieranie-leadow/formularz-scoring-follow-up-bez-kodu
+path: >-
+  /artykuly/przypadki-uzycia/zbieranie-leadow-i-automatyzacje-formularz-scoring-i-follow-up-bez-kodu/
 template: default
 draft: false
 date: '2026-01-14'

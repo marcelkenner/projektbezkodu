@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Porzucony koszyk w no-code e-commerce (flow, treść, moment)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Porzucony koszyk w no-code e-commerce (flow, treść, moment)

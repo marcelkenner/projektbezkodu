@@ -1,7 +1,7 @@
 ---
 title: 'Badanie: gdzie no-code się nie sprawdza'
 slug: badanie-ograniczenia-no-code
-path: /badanie-ograniczenia-no-code
+path: /artykuly/badania/badanie-gdzie-no-code-sie-nie-sprawdza/
 template: default
 draft: false
 date: '2026-01-15'

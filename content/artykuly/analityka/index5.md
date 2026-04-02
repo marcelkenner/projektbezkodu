@@ -3,7 +3,8 @@ title: >-
   Plausible vs Matomo vs GA4 — co wybrać, jeśli zależy ci na prostocie i
   prywatności
 slug: plausible-matomo-ga4-prostota-prywatnosc
-path: /analityka/plausible-matomo-ga4-prostota-prywatnosc
+path: >-
+  /artykuly/analityka/plausible-vs-matomo-vs-ga4-co-wybrac-jesli-zalezy-ci-na-prostocie-i-prywatnosci/
 template: default
 draft: false
 date: '2026-01-14'

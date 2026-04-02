@@ -1,7 +1,8 @@
 ---
 title: 'Figma bez programowania: prototypy i design system dla no-code builderów'
 slug: figma-no-code-prototypy-design-system
-path: /figma-no-code-prototypy-design-system
+path: >-
+  /artykuly/creative-tools/figma-bez-programowania-prototypy-i-design-system-dla-no-code-builderow/
 date: '2026-01-14'
 template: default
 draft: false

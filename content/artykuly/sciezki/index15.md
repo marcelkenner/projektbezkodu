@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Dashboard KPI bez dłubaniny — Looker Studio + dobre UTM-y'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Dashboard KPI bez dłubaniny — Looker Studio + dobre UTM-y

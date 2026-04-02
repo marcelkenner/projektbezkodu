@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: "Single source of truth" dla projektów — Notion vs ClickUp vs Airtable (decyzja)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: "Single source of truth" dla projektów — Notion vs ClickUp vs Airtable (decyzja)

@@ -1,6 +1,6 @@
 # Editor Workflow Playbook – ProjektBezKodu
 
-Last updated: 2025-12-15 by Codex. Keep this guide in sync with feature changes (see `docs/website_repro_playbook.md` §11).
+Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes (see `docs/website_repro_playbook.md` §11).
 
 ## 1. Before You Start
 
@@ -30,8 +30,13 @@ Last updated: 2025-12-15 by Codex. Keep this guide in sync with feature changes 
 
 ## 4. Articles (`content/artykuly/**`)
 
-- Leaf articles can live anywhere under `content/**`, but `/artykuly` listings + sitemap rely on the canonical `path` being under `/artykuly/.../`.
-- Hub pages **must** live under `content/artykuly/**` as `index.md` with `type: hub` and `draft: false` (e.g. `content/artykuly/analityka/index.md` → `/artykuly/analityka/`). If a published leaf exists under a hub path, `npm run content:lint` enforces that the hub exists and is not draft.
+- Category hub pages **must** live under `content/artykuly/<kategoria>/index.md` with `type: hub` and `draft: false` (e.g. `content/artykuly/analityka/index.md` → `/artykuly/analityka/`).
+- Published article pages stored under `content/artykuly/<kategoria>/...` must keep their canonical `path` under `/artykuly/<kategoria>/...`.
+- If you need a direct article inside a category, create a descriptive file such as `content/artykuly/architektura/architektura-no-code-stabilnosc.md` with a path like `/artykuly/architektura/architektura-no-code-stabilnosc/`.
+- If you need a subcategory, create a folder such as `content/artykuly/seo/audyty/`, put the subcategory hub in `index.md` with `type: hub`, and place article leaves below it (for example `content/artykuly/seo/audyty/checklista-audytu.md` → `/artykuly/seo/audyty/checklista-audytu/`).
+- Do not publish a leaf article at `content/artykuly/<kategoria>/index.md`; that file is reserved for the hub.
+- Avoid numbered filenames like `index6.md` for new article leaves. Use the article slug or another descriptive filename.
+- `npm run content:lint` now enforces the category hub contract and the `/artykuly/<kategoria>/...` canonical path prefix.
 - Routing details (canonical URLs, aliases/redirects, hub vs leaf) live in `docs/frontmatter_and_routing.md`.
 - Use `taxonomy.categories` and `taxonomy.tags` slugs from `data/copy/articles.json`.
 - To introduce a new category/tag:

@@ -1,7 +1,6 @@
 ﻿---
 title: 'Playbook: Newsletter bez tarcia (pozyskanie → segmentacja → wysyłka)'
 category: 'playbooki'
-status: 'draft'
 draft: true
 ---
 

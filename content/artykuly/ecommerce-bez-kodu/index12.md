@@ -1,7 +1,8 @@
 ---
 title: 'SEO dla sklepu bez kodu: technikalia i content, który działa'
 slug: seo-dla-sklepu-bez-kodu-technikalia-content
-path: /seo-dla-sklepu-bez-kodu-technikalia-content
+path: >-
+  /artykuly/ecommerce-bez-kodu/seo-dla-sklepu-bez-kodu-technikalia-i-content-ktory-dzia-a/
 template: default
 draft: false
 date: '2026-01-14'

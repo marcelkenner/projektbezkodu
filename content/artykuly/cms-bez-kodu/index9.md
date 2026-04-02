@@ -1,7 +1,7 @@
 ---
 slug: cms-bez-kodu-ecommerce-opcje-i-ograniczenia
 title: 'CMS bez kodu dla e-commerce: opcje i ograniczenia'
-path: /cms-bez-kodu-ecommerce-opcje-i-ograniczenia
+path: /artykuly/cms-bez-kodu/cms-bez-kodu-dla-e-commerce-opcje-i-ograniczenia/
 template: default
 draft: false
 date: '2026-01-15'

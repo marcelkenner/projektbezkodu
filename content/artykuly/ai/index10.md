@@ -1,7 +1,8 @@
 ---
 title: 'AI w sprzedaży B2B: personalizacja, research i jak nie brzmieć jak bot'
 slug: ai-w-sprzedazy-b2b-personalizacja
-path: /ai-w-sprzedazy-b2b-personalizacja
+path: >-
+  /artykuly/ai/ai-w-sprzedazy-b2b-personalizacja-research-i-jak-nie-brzmiec-jak-bot/
 template: default
 draft: false
 date: '2026-01-14'

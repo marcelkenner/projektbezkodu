@@ -1,7 +1,7 @@
 ---
 title: 'Checklisty redakcyjne: jakość, SEO i spójność bez chaosu'
 slug: checklisty-redakcyjne-jakosc-seo-i-spojnosc-bez-chaosu
-path: /checklisty-redakcyjne-jakosc-seo-i-spojnosc-bez-chaosu
+path: /artykuly/editorial/checklisty-redakcyjne-jakosc-seo-i-spojnosc-bez-chaosu/
 template: default
 draft: false
 date: '2026-01-14'

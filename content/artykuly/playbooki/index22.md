@@ -1,7 +1,6 @@
 ﻿---
 title: 'Playbook: Biblioteka zasobów dla zespołu (linki, SOP-y, szablony, decyzje)'
 category: 'playbooki'
-status: 'draft'
 draft: true
 ---
 

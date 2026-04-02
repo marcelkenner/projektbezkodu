@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Onboarding pracownika — checklista, dostępy, automaty (bez dramatu)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Onboarding pracownika — checklista, dostępy, automaty (bez dramatu)

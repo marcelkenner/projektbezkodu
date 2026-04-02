@@ -3,7 +3,8 @@ title: >-
   GA4 dla nietechnicznych: eventy, konwersje i raporty, które naprawdę
   wykorzystasz
 slug: ga4-dla-nietechnicznych-eventy-konwersje
-path: /ga4-dla-nietechnicznych-eventy-konwersje
+path: >-
+  /artykuly/analityka/ga4-dla-nietechnicznych-eventy-konwersje-i-raporty-ktore-naprawde-wykorzystasz/
 template: default
 draft: false
 date: '2026-01-14'

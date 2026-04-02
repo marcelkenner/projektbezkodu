@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: MVP w 7 dni bez kodu (landing + formularz + CRM)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: MVP w 7 dni bez kodu (landing + formularz + CRM)

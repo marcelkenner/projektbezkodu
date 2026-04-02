@@ -3,7 +3,8 @@ slug: wzorce-architektury-no-code-hub-spoke-event-driven-modular
 title: >-
   Wzorce architektury no-code, które się sprawdzają: hub-and-spoke,
   event-driven, modular
-path: /architektura/wzorce-architektury-no-code-hub-spoke-event-driven-modular
+path: >-
+  /artykuly/architektura/wzorce-architektury-no-code-ktore-sie-sprawdzaja-hub-and-spoke-event-driven-modular/
 template: default
 date: '2026-01-15'
 type: article

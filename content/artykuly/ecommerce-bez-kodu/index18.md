@@ -1,7 +1,8 @@
 ---
 title: 'B2B e-commerce bez kodu: cenniki dla klientów, faktury i płatności'
 slug: b2b-ecommerce-bez-kodu-cenniki-faktury-platnosci
-path: /b2b-ecommerce-bez-kodu-cenniki-faktury-platnosci
+path: >-
+  /artykuly/ecommerce-bez-kodu/b2b-e-commerce-bez-kodu-cenniki-dla-klientow-faktury-i-p-atnosci/
 template: default
 draft: false
 date: '2026-01-14'

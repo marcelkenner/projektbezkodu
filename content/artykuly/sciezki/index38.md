@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Roadmapa produktu no-code — priorytety bez polityki i bez zgadywania'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Roadmapa produktu no-code — priorytety bez polityki i bez zgadywania

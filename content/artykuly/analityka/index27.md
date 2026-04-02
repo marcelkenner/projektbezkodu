@@ -1,7 +1,8 @@
 ---
 title: Alerty i dzienne raporty metryk w Slacku i e‑mailu — Make vs Zapier
 slug: alerty-dzienne-raporty-metryk-slack-email-make-zapier
-path: /analityka/alerty-dzienne-raporty-metryk-slack-email-make-zapier
+path: >-
+  /artykuly/analityka/alerty-i-dzienne-raporty-metryk-w-slacku-i-e-mailu-make-vs-zapier/
 template: default
 draft: false
 date: '2026-01-15'

@@ -1,7 +1,8 @@
 ---
 title: 'QA analityki: jak sprawdzić, że eventy działają (debug, testy, checklisty)'
 slug: qa-eventy-testy
-path: /analityka/qa-eventy-testy
+path: >-
+  /artykuly/analityka/qa-analityki-jak-sprawdzic-ze-eventy-dzia-aja-debug-testy-checklisty/
 template: default
 draft: false
 date: '2026-01-14'

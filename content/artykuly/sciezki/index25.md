@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Cold email bez wstydu — personalizacja, dane, automaty i sensowne KPI'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Cold email bez wstydu — personalizacja, dane, automaty i sensowne KPI

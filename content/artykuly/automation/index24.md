@@ -3,7 +3,8 @@ title: >-
   Biblioteka gotowych scenariuszy: 25 automatyzacji do skopiowania
   (marketing/sprzedaż/ops)
 slug: biblioteka-scenariuszy-25-automatyzacji
-path: /biblioteka-scenariuszy-25-automatyzacji
+path: >-
+  /artykuly/automation/biblioteka-gotowych-scenariuszy-25-automatyzacji-do-skopiowania-marketing-sprzedaz-ops/
 template: default
 draft: false
 date: '2026-01-15'

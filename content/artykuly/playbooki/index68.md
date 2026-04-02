@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Lead scoring bez ML (zasady, punkty, progi) w no-code'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Lead scoring bez ML (zasady, punkty, progi) w no-code

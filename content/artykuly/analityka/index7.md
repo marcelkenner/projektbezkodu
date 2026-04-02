@@ -1,7 +1,8 @@
 ---
 title: 'Heatmapy i nagrania sesji: Hotjar vs Microsoft Clarity — który wybrać'
 slug: heatmapy-hotjar-clarity
-path: /analityka/heatmapy-hotjar-clarity
+path: >-
+  /artykuly/analityka/heatmapy-i-nagrania-sesji-hotjar-vs-microsoft-clarity-ktory-wybrac/
 template: default
 draft: false
 date: '2026-01-15'

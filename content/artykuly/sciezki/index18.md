@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Customer support bez helpdesku — zgłoszenia, routing, SLA (na start)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Customer support bez helpdesku — zgłoszenia, routing, SLA (na start)

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Zarządzanie uprawnieniami i dostępami (kto ma co i dlaczego) w małej firmie'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Zarządzanie uprawnieniami i dostępami (kto ma co i dlaczego) w małej firmie

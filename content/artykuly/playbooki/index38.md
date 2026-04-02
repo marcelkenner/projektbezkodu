@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Biblioteka promptów dla zespołu (standardy, przykłady, wersjonowanie)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Biblioteka promptów dla zespołu (standardy, przykłady, wersjonowanie)

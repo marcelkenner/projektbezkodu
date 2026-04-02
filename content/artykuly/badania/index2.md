@@ -1,7 +1,7 @@
 ---
 title: 'Badanie: które platformy no-code wybierają polskie startupy'
 slug: badanie-platformy-no-code-polskie-startupy
-path: /badania/platformy-no-code-startupy
+path: /artykuly/badania/badanie-ktore-platformy-no-code-wybieraja-polskie-startupy/
 template: default
 draft: false
 date: '2026-01-15'

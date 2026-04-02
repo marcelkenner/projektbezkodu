@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Backup i odzyskiwanie danych w narzędziach no-code (minimum bezpieczeństwa)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Backup i odzyskiwanie danych w narzędziach no-code (minimum bezpieczeństwa)

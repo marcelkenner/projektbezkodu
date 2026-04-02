@@ -4,6 +4,9 @@ title: >-
   agencji
 category: regulamin
 draft: true
+slug: index4
+path: >-
+  /artykuly/regulamin/regulamin-us-ug-no-code-jasne-zasady-wspo-pracy-dla-freelancera-i-ma-ej-agencji/
 ---
 
 # Regulamin usług no-code: jasne zasady współpracy dla freelancera i małej agencji

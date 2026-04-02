@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Automatyzacje od podstaw — od 0 do działających scenariuszy w Make'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Automatyzacje od podstaw — od 0 do działających scenariuszy w Make

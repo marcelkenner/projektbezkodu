@@ -1,7 +1,7 @@
 ---
 title: 'Siatka i odstępy: jak robić „czysto” w Webflow/Framer'
 slug: siatka-odstepy-webflow-framer
-path: /siatka-odstepy-webflow-framer
+path: /artykuly/design-bez-kodu/siatka-i-odstepy-jak-robic-czysto-w-webflow-framer/
 date: '2026-01-14'
 draft: false
 template: default

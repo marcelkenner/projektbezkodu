@@ -1,7 +1,8 @@
 ---
 title: 'Tworzenie miniatur i okładek bez kodu: szablony, zasady, automatyzacje'
 slug: miniatury-okladki-bez-kodu
-path: /miniatury-okladki-bez-kodu
+path: >-
+  /artykuly/creative-tools/tworzenie-miniatur-i-ok-adek-bez-kodu-szablony-zasady-automatyzacje/
 template: default
 draft: false
 date: '2026-01-15'

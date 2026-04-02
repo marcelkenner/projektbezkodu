@@ -1,7 +1,8 @@
 ---
 title: 'Baza wiedzy i helpdesk: szybkie self-service, mniej pytań i więcej spokoju'
 slug: baza-wiedzy-helpdesk-self-service
-path: /baza-wiedzy-helpdesk-self-service
+path: >-
+  /artykuly/przypadki-uzycia/baza-wiedzy-i-helpdesk-szybkie-self-service-mniej-pytan-i-wiecej-spokoju/
 template: default
 draft: false
 date: '2026-01-14'

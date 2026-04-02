@@ -1,7 +1,8 @@
 ---
 title: 'Badanie: kto buduje w no-code — role, kompetencje, model współpracy'
 slug: badanie-kto-buduje-no-code-role-kompetencje
-path: /badania/badanie-kto-buduje-no-code-role-kompetencje
+path: >-
+  /artykuly/badania/badanie-kto-buduje-w-no-code-role-kompetencje-model-wspo-pracy/
 template: default
 draft: false
 date: '2026-01-15'

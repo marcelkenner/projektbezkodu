@@ -73,6 +73,7 @@ Store schema as reference for markdown generation scripts (`scripts/scaffold.ps1
 - YAML gotchas:
   - If a value contains `: ` (colon + space), quote it (e.g. `title: "FAQ: Depositphotos"`, `hero.heading: "Carrd: ..."`, `seo.description: "…: …"`).
   - Avoid duplicate keys (e.g. two `title:` entries) and ensure there is exactly one front matter block (`---` … `---`) per markdown file.
+- Drafts: use `draft: true`. `status: draft` is not part of the supported schema.
 - Routing: canonical URL paths come from frontmatter `path` (title changes must not change the URL). Legacy/title-slug URLs may still resolve via redirects/aliases, but new links should always use the canonical `path`.
 - Artykuły korzystają z definicji w `data/copy/articles.json`.
 - Tutoriale – `data/copy/tutorials.json` (`categories`/`tags`) + etykiety narzędzi z `data/tools.json`. Jeżeli materiał pełni rolę „pillar page”, pamiętaj o konfiguracji w `data/copy/pillar.json`.

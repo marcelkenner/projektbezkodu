@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Onboarding pracownika w małej firmie (z automatyzacją dostępu i checklistą)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Onboarding pracownika w małej firmie (z automatyzacją dostępu i checklistą)

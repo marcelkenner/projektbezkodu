@@ -1,7 +1,8 @@
 ---
 title: 'Biblioteka zasobów kreatywnych: ikony, ilustracje, mockupy i jak je ogarniać'
 slug: zasoby-kreatywne-ikony-mockupy
-path: /zasoby-kreatywne-ikony-mockupy
+path: >-
+  /artykuly/creative-tools/biblioteka-zasobow-kreatywnych-ikony-ilustracje-mockupy-i-jak-je-ogarniac/
 template: default
 draft: false
 date: '2026-01-14'

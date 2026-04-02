@@ -1,7 +1,8 @@
 ---
 title: 'Biblioteka wzorców motion dla no-code: 12 gotowców do skopiowania'
 slug: wzorce-motion-no-code-12
-path: /animacje/wzorce-motion-no-code-12
+path: >-
+  /artykuly/animacje/biblioteka-wzorcow-motion-dla-no-code-12-gotowcow-do-skopiowania/
 template: default
 draft: false
 date: '2026-01-15'

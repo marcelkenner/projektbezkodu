@@ -1,7 +1,8 @@
 ---
 title: 'Statystyka A/B bez doktoratu: próba, istotność i fałszywe zwycięstwa'
 slug: ab-statystyka-proba-istotnosc
-path: /analityka/ab-statystyka-proba-istotnosc
+path: >-
+  /artykuly/analityka/statystyka-a-b-bez-doktoratu-proba-istotnosc-i-fa-szywe-zwyciestwa/
 template: default
 draft: false
 date: '2026-01-14'

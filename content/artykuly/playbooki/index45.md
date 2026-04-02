@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Newsletter powitalny 5-mailowy (scenariusz, segmenty, wyzwalacze)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Newsletter powitalny 5-mailowy (scenariusz, segmenty, wyzwalacze)

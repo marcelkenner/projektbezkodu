@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Formularze i kwalifikacja leadów — od prostego zapisu do scoringu'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Formularze i kwalifikacja leadów — od prostego zapisu do scoringu

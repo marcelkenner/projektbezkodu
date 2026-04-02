@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Cold email z personalizacją bez bólu (szablony + dane + automaty)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Cold email z personalizacją bez bólu (szablony + dane + automaty)

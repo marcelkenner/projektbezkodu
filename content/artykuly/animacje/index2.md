@@ -3,7 +3,8 @@ title: >-
   Webflow Interactions w praktyce: co da się zrobić bez kodu (i gdzie jest
   sufit)
 slug: webflow-interactions-bez-kodu
-path: /animacje/webflow-interactions-bez-kodu
+path: >-
+  /artykuly/animacje/webflow-interactions-w-praktyce-co-da-sie-zrobic-bez-kodu-i-gdzie-jest-sufit/
 template: default
 draft: false
 type: article

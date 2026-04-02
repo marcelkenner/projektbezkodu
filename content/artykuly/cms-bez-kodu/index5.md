@@ -1,7 +1,8 @@
 ---
 title: 'Airtable jako CMS: struktura bazy, widoki i publikacja treści'
 slug: airtable-jako-cms-struktura-widoki-publikacja
-path: /airtable/airtable-jako-cms-struktura-widoki-publikacja
+path: >-
+  /artykuly/cms-bez-kodu/airtable-jako-cms-struktura-bazy-widoki-i-publikacja-tresci/
 template: default
 draft: false
 date: '2026-01-14'

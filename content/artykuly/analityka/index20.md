@@ -1,7 +1,7 @@
 ---
 title: 'Nazewnictwo eventów: konwencje, które skalują się w zespole'
 slug: nazewnictwo-eventow
-path: /analityka/nazewnictwo-eventow
+path: /artykuly/analityka/nazewnictwo-eventow-konwencje-ktore-skaluja-sie-w-zespole/
 template: default
 draft: false
 date: '2026-01-14'

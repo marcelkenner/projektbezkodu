@@ -1,7 +1,6 @@
 ﻿---
 title: 'Playbook: Airtable jako źródło prawdy dla marketingu (kampanie, statusy, KPI)'
 category: 'playbooki'
-status: 'draft'
 draft: true
 ---
 

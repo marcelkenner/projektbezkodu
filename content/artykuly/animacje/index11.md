@@ -1,7 +1,7 @@
 ---
 title: 'Ile to kosztuje: jak wycenić animacje w projektach no-code'
 slug: wycena-animacji-no-code
-path: /wycena-animacji-no-code
+path: /artykuly/animacje/ile-to-kosztuje-jak-wycenic-animacje-w-projektach-no-code/
 template: default
 draft: false
 date: '2026-01-15'

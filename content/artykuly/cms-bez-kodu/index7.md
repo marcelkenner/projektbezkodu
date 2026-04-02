@@ -1,7 +1,8 @@
 ---
 title: 'Workflow publikacji treści w no-code CMS: role, statusy i akceptacje'
 slug: workflow-publikacji-tresci-no-code
-path: /workflow-publikacji-tresci-no-code
+path: >-
+  /artykuly/cms-bez-kodu/workflow-publikacji-tresci-w-no-code-cms-role-statusy-i-akceptacje/
 template: default
 draft: false
 date: '2026-01-15'

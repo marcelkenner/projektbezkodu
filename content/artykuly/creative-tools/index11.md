@@ -3,7 +3,8 @@ title: >-
   Automatyzacje kreatywne: generuj grafiki i treści w pipeline (bez
   programowania)
 slug: automatyzacje-kreatywne-grafiki-tresci-bez-programowania
-path: /automatyzacje-kreatywne-grafiki-tresci-bez-programowania
+path: >-
+  /artykuly/creative-tools/automatyzacje-kreatywne-generuj-grafiki-i-tresci-w-pipeline-bez-programowania/
 template: default
 draft: false
 date: '2026-01-14'

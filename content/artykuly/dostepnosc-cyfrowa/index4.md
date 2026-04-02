@@ -1,7 +1,8 @@
 ---
 title: 'Teksty alternatywne obrazów: checklisty i proces dla zespołów no-code'
 slug: teksty-alternatywne-obrazow-no-code
-path: /dostepnosc/teksty-alternatywne-obrazow-no-code
+path: >-
+  /artykuly/dostepnosc-cyfrowa/teksty-alternatywne-obrazow-checklisty-i-proces-dla-zespo-ow-no-code/
 template: default
 draft: false
 date: '2026-01-15'

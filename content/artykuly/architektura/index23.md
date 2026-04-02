@@ -1,7 +1,8 @@
 ---
 title: 'Przykładowe architektury: MVP SaaS, e‑commerce, agencja, szkoła online'
 slug: przykladowe-architektury
-path: /architektura/przykladowe-architektury
+path: >-
+  /artykuly/architektura/przyk-adowe-architektury-mvp-saas-e-commerce-agencja-szko-a-online/
 template: default
 draft: false
 date: '2026-01-15'

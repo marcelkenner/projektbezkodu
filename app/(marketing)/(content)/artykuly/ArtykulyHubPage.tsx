@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { defaultHeroImageForPath } from "@/app/lib/content/heroImageResolver";
 import type { ArticleHubPayload } from "@/app/lib/content/ArticleHubManager";
 import { ArticleCard, ArticleGrid } from "@/app/ui";
@@ -7,12 +8,31 @@ import styles from "./hub.module.css";
 const articlesCopy = getCopy("articles");
 
 export function ArtykulyHubPage({ payload }: { payload: ArticleHubPayload }) {
-  const { hub, articles } = payload;
+  const { hub, subcategories, articles } = payload;
 
   return (
     <section className={`${styles.scope} artykuly-hub`} id="content">
       <div className="pbk-container pbk-stack pbk-stack--tight">
-        <h1 className="sr-only">{hub.label}</h1>
+        <header className="artykuly-hub__intro">
+          <h1>{hub.label}</h1>
+          {hub.description ? <p>{hub.description}</p> : null}
+        </header>
+
+        {subcategories.length ? (
+          <section
+            className="artykuly-hub__subcategories"
+            aria-labelledby="artykuly-hub-subcategories-heading"
+          >
+            <h2 id="artykuly-hub-subcategories-heading">Podkategorie</h2>
+            <ul className="artykuly-hub__subcategoriesList">
+              {subcategories.map((subcategory) => (
+                <li key={subcategory.href}>
+                  <Link href={subcategory.href}>{subcategory.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         {articles.length ? (
           <nav aria-label={`Artykuły: ${hub.label}`}>

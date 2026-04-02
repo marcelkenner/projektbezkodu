@@ -3,7 +3,8 @@ title: >-
   Testy na landingach: VWO vs Optimizely vs wbudowane narzędzia — co wystarczy
   większości firm
 slug: testy-landingow-vwo-optimizely
-path: /testy-landingow-vwo-optimizely
+path: >-
+  /artykuly/analityka/testy-na-landingach-vwo-vs-optimizely-vs-wbudowane-narzedzia-co-wystarczy-wiekszosci-firm/
 template: default
 type: article
 draft: false

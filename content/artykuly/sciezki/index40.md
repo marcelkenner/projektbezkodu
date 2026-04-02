@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Rekrutacja bez ATS — formularz, scoring, terminy, feedback (w 1 dzień)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Rekrutacja bez ATS — formularz, scoring, terminy, feedback (w 1 dzień)

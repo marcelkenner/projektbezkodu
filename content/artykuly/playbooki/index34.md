@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: UTM i atrybucja dla no-code marketerów (żeby wreszcie wiedzieć co działa)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: UTM i atrybucja dla no-code marketerów (żeby wreszcie wiedzieć co działa)

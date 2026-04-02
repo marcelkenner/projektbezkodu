@@ -1,7 +1,8 @@
 ---
 title: 'Jak przygotować treści do migracji: struktura, metadane, linkowanie'
 slug: jak-przygotowac-tresci-do-migracji-struktura-metadane-linkowanie
-path: /jak-przygotowac-tresci-do-migracji-struktura-metadane-linkowanie
+path: >-
+  /artykuly/editorial/jak-przygotowac-tresci-do-migracji-struktura-metadane-linkowanie/
 template: default
 draft: false
 date: '2026-01-14'

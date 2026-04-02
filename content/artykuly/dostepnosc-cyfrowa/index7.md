@@ -1,7 +1,8 @@
 ---
 title: 'Formularze dostępne dla wszystkich: walidacje, etykiety i komunikaty błędów'
 slug: dostepnosc-formularze-walidacje-etykiety-bledy
-path: /dostepnosc/formularze-walidacje-etykiety-bledy
+path: >-
+  /artykuly/dostepnosc-cyfrowa/formularze-dostepne-dla-wszystkich-walidacje-etykiety-i-komunikaty-b-edow/
 template: default
 draft: false
 type: article

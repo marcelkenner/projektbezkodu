@@ -3,7 +3,8 @@ title: >-
   Monitoring automatyzacji: jak wykryć, że coś przestało działać, zanim zauważy
   klient
 slug: monitoring-automatyzacji
-path: /monitoring-automatyzacji
+path: >-
+  /artykuly/automation/monitoring-automatyzacji-jak-wykryc-ze-cos-przesta-o-dzia-ac-zanim-zauwazy-klient/
 template: default
 draft: false
 date: '2026-01-15'

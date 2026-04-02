@@ -3,7 +3,8 @@ title: >-
   Onboarding użytkownika: maile, checklisty i onboarding flow, które dowożą
   aktywację
 slug: onboarding-uzytkownika-maile-checklisty-aktywacja
-path: /onboarding/uzytkownika-maile-checklisty-aktywacja
+path: >-
+  /artykuly/przypadki-uzycia/onboarding-uzytkownika-maile-checklisty-i-onboarding-flow-ktore-dowoza-aktywacje/
 template: default
 draft: false
 date: '2026-01-14'

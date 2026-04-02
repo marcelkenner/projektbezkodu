@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Sprzedaż usług przez formularz (kwalifikacja → wycena → termin) bez calla'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Sprzedaż usług przez formularz (kwalifikacja → wycena → termin) bez calla

@@ -1,7 +1,8 @@
 ---
 title: 'Panel klienta: dostęp do plików, statusów i płatności bez chaosu w mailach'
 slug: panel-klienta-dostep-plikow-statusow-platnosci
-path: /panel-klienta-dostep-plikow-statusow-platnosci
+path: >-
+  /artykuly/przypadki-uzycia/panel-klienta-dostep-do-plikow-statusow-i-p-atnosci-bez-chaosu-w-mailach/
 template: default
 draft: false
 date: '2026-01-14'

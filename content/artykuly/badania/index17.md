@@ -1,7 +1,7 @@
 ---
 title: 'Badanie: migracje z no-code do kodu — przyczyny i wzorce'
 slug: migracje-no-code-do-kodu
-path: /badania/migracje-no-code-do-kodu
+path: /artykuly/badania/badanie-migracje-z-no-code-do-kodu-przyczyny-i-wzorce/
 template: default
 draft: false
 date: '2026-01-15'

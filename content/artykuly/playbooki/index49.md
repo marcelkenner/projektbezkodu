@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Webinar od A do Z bez devów (rejestracja → reminder → follow-up → sprzedaż)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Webinar od A do Z bez devów (rejestracja → reminder → follow-up → sprzedaż)

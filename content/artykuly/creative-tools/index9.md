@@ -1,7 +1,8 @@
 ---
 title: 'Tworzenie prezentacji bez kodu: szybkie decki do sprzedaży i pitchów'
 slug: prezentacje-bez-kodu-szybkie-decki
-path: /prezentacje-bez-kodu-szybkie-decki
+path: >-
+  /artykuly/creative-tools/tworzenie-prezentacji-bez-kodu-szybkie-decki-do-sprzedazy-i-pitchow/
 template: default
 draft: false
 date: '2026-01-14'

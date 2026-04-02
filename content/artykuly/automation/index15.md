@@ -1,7 +1,8 @@
 ---
 title: 'RODO/GDPR w automatyzacjach: minimalizacja danych i legalne scenariusze'
 slug: rodo-gdpr-automatyzacje-minimalizacja
-path: /rodo-gdpr-automatyzacje-minimalizacja
+path: >-
+  /artykuly/automation/rodo-gdpr-w-automatyzacjach-minimalizacja-danych-i-legalne-scenariusze/
 template: default
 draft: false
 date: '2026-01-15'

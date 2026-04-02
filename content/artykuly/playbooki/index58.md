@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Rezerwacje konsultacji z płatnością z góry (bez "no-show")'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Rezerwacje konsultacji z płatnością z góry (bez "no-show")

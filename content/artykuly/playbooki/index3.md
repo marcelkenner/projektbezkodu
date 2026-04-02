@@ -1,7 +1,6 @@
 ﻿---
 title: 'Playbook: Baza treści w Notion jako mini-CMS (prosty, ale skuteczny)'
 category: 'playbooki'
-status: 'draft'
 draft: true
 ---
 

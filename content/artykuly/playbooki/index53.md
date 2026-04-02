@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: SEO dla stron no-code — co działa naprawdę, a co jest mitem'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: SEO dla stron no-code — co działa naprawdę, a co jest mitem

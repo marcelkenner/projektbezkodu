@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Content system w Notion — plan, produkcja, publikacja, recykling'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Content system w Notion — plan, produkcja, publikacja, recykling

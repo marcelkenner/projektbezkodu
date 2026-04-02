@@ -1,7 +1,6 @@
 ﻿---
 title: 'Playbook: Proces ofertowania freelancera bez chaosu (formularz → brief → oferta)'
 category: 'playbooki'
-status: 'draft'
 draft: true
 ---
 

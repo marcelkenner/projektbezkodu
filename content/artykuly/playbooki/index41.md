@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Rejestr błędów i requestów (bug triage bez Jira) dla małych zespołów'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Rejestr błędów i requestów (bug triage bez Jira) dla małych zespołów

@@ -3,7 +3,8 @@ title: >-
   Wersjonowanie i zmiany: jak nie rozwalić działającego systemu jedną edycją
   workflow
 slug: wersjonowanie-zmiany-workflow
-path: /wersjonowanie-zmiany-workflow
+path: >-
+  /artykuly/architektura/wersjonowanie-i-zmiany-jak-nie-rozwalic-dzia-ajacego-systemu-jedna-edycja-workflow/
 template: default
 draft: false
 date: '2026-01-15'

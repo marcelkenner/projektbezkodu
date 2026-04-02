@@ -3,7 +3,8 @@ title: >-
   Badania i analityka: jak łączyć dane ilościowe z jakościowymi (wywiady,
   ankiety)
 slug: badania-analityka-laczenie-danych
-path: /badania-analityka-laczenie-danych
+path: >-
+  /artykuly/analityka/badania-i-analityka-jak-aczyc-dane-ilosciowe-z-jakosciowymi-wywiady-ankiety/
 template: default
 draft: false
 date: '2026-01-14'

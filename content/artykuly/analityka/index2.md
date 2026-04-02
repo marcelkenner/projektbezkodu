@@ -1,7 +1,8 @@
 ---
 title: 'Plan pomiarowy dla produktu no‑code: eventy, cele i nazwy, które nie kłamią'
 slug: plan-pomiarowy-no-code
-path: /plan-pomiarowy-no-code
+path: >-
+  /artykuly/analityka/plan-pomiarowy-dla-produktu-no-code-eventy-cele-i-nazwy-ktore-nie-k-amia/
 template: default
 draft: false
 date: '2026-01-14'

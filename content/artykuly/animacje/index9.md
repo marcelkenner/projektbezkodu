@@ -1,7 +1,8 @@
 ---
 title: '„Prefer reduced motion”: jak robić animacje, które nie wkurzają i są dostępne'
 slug: prefer-reduced-motion-animacje-dostepne
-path: /animacje/prefer-reduced-motion
+path: >-
+  /artykuly/animacje/prefer-reduced-motion-jak-robic-animacje-ktore-nie-wkurzaja-i-sa-dostepne/
 template: default
 draft: false
 date: '2026-01-15'

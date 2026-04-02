@@ -1,7 +1,7 @@
 ---
 title: 'Raport: no-code vs low-code w praktyce zespołów produktowych'
 slug: no-code-vs-low-code-raport-zespoly-produktowe
-path: /no-code-vs-low-code-raport-zespoly-produktowe
+path: /artykuly/badania/raport-no-code-vs-low-code-w-praktyce-zespo-ow-produktowych/
 template: default
 draft: false
 date: '2026-01-14'

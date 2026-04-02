@@ -1,7 +1,7 @@
 ---
 title: 'Jak mierzyć efekty contentu: KPI, cele i raporty bez kodu'
 slug: jak-mierzyc-efekty-contentu-kpi-cele-i-raporty-bez-kodu
-path: /jak-mierzyc-efekty-contentu-kpi-cele-i-raporty-bez-kodu
+path: /artykuly/editorial/jak-mierzyc-efekty-contentu-kpi-cele-i-raporty-bez-kodu/
 template: default
 draft: false
 type: guide

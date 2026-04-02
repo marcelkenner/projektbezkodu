@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: NPS dla usług i SaaS (prosto, bez korpo-teatru)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: NPS dla usług i SaaS (prosto, bez korpo-teatru)

@@ -3,7 +3,8 @@ title: >-
   Notion jako centrum operacyjne: automatyzacje, które mają sens (i te, które
   nie)
 slug: notion-centrum-operacyjne-automatyzacje
-path: /notion-centrum-operacyjne-automatyzacje
+path: >-
+  /artykuly/automation/notion-jako-centrum-operacyjne-automatyzacje-ktore-maja-sens-i-te-ktore-nie/
 template: default
 draft: false
 date: '2026-01-14'

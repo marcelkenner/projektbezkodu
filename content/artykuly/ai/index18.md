@@ -1,7 +1,8 @@
 ---
 title: 'Koszty AI: jak liczyć tokeny, rozumieć limity i kiedy AI staje się drogie'
 slug: koszty-ai-tokeny-limity
-path: /koszty-ai-tokeny-limity
+path: >-
+  /artykuly/ai/koszty-ai-jak-liczyc-tokeny-rozumiec-limity-i-kiedy-ai-staje-sie-drogie/
 template: default
 draft: false
 date: '2026-01-15'

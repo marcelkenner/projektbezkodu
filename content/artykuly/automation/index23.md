@@ -3,7 +3,8 @@ title: >-
   "Human-in-the-loop": jak zbudować automatyzację, która nie podejmuje
   ryzykownych decyzji sama
 slug: human-in-the-loop-bezpieczna-automatyzacja
-path: /automatyzacje/human-in-the-loop-bezpieczna-automatyzacja
+path: >-
+  /artykuly/automation/human-in-the-loop-jak-zbudowac-automatyzacje-ktora-nie-podejmuje-ryzykownych-decyzji-sama/
 template: default
 draft: false
 date: '2026-01-15'

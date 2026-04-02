@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Landing pod webinar, który sprzedaje (struktura + social proof bez ściemy)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Landing pod webinar, który sprzedaje (struktura + social proof bez ściemy)

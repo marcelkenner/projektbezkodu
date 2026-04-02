@@ -1,7 +1,8 @@
 ---
 title: 'Statusy i role w redakcji: prosty workflow w Notion/Airtable'
 slug: statusy-i-role-w-redakcji-prosty-workflow-w-notion-airtable
-path: /statusy-i-role-w-redakcji-prosty-workflow-w-notion-airtable
+path: >-
+  /artykuly/editorial/statusy-i-role-w-redakcji-prosty-workflow-w-notion-airtable/
 template: default
 draft: false
 date: '2026-01-14'

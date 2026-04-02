@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Integracja Stripe + automaty (dostęp, faktury, onboarding) w no-code'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Integracja Stripe + automaty (dostęp, faktury, onboarding) w no-code

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: No-code od zera — pierwsza aplikacja w 7 dni (bez programisty)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: No-code od zera — pierwsza aplikacja w 7 dni (bez programisty)

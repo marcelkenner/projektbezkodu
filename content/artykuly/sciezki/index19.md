@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: SOP-y w tydzień — procesy, które ludzie faktycznie stosują'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: SOP-y w tydzień — procesy, które ludzie faktycznie stosują

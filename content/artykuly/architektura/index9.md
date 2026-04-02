@@ -3,7 +3,8 @@ title: >-
   Uprawnienia i role: architektura dostępu w no-code bez kompromitacji
   bezpieczeństwa
 slug: uprawnienia-role-architektura-dostepu-no-code
-path: /architektura/uprawnienia-role-architektura-dostepu-no-code
+path: >-
+  /artykuly/architektura/uprawnienia-i-role-architektura-dostepu-w-no-code-bez-kompromitacji-bezpieczenstwa/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: System zgód RODO (minimum, które musisz mieć) w no-code'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: System zgód RODO (minimum, które musisz mieć) w no-code

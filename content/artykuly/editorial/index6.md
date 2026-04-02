@@ -1,7 +1,8 @@
 ---
 title: 'Jak planować serie artykułów: klastry tematyczne i intencje'
 slug: jak-planowac-serie-artykulow-klastry-tematyczne-i-intencje
-path: /jak-planowac-serie-artykulow-klastry-tematyczne-i-intencje
+path: >-
+  /artykuly/editorial/jak-planowac-serie-artyku-ow-klastry-tematyczne-i-intencje/
 template: default
 draft: false
 date: '2026-01-14'

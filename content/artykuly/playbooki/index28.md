@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: HubSpot vs Pipedrive vs Airtable — wybór CRM w 30 minut (decyzyjnie)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: HubSpot vs Pipedrive vs Airtable — wybór CRM w 30 minut (decyzyjnie)

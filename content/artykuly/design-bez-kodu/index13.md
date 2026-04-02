@@ -1,7 +1,7 @@
 ---
 title: 'Ikony i ilustracje: skąd brać i jak spójnie używać'
 slug: ikony-ilustracje-zrodla-i-spojnosc
-path: /ikony-ilustracje-zrodla-i-spojnosc
+path: /artykuly/design-bez-kodu/ikony-i-ilustracje-skad-brac-i-jak-spojnie-uzywac/
 template: default
 draft: false
 date: '2026-01-14'

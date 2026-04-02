@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Subskrypcje i dostęp do treści (paywall no-code, uczciwie i stabilnie)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Subskrypcje i dostęp do treści (paywall no-code, uczciwie i stabilnie)

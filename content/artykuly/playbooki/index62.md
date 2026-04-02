@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Dokument decyzji (ADR) dla zespołów no-code (żeby nie dyskutować w kółko)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Dokument decyzji (ADR) dla zespołów no-code (żeby nie dyskutować w kółko)

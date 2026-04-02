@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Monitoring automatyzacji (alerty, retry, logi) — bez zaskoczeń'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Monitoring automatyzacji (alerty, retry, logi) — bez zaskoczeń

@@ -1,7 +1,8 @@
 ---
 slug: skalowanie-mvp-bez-przepisywania
 title: 'Skalowanie: jak rosnąć z MVP do produktu bez przepisywania wszystkiego'
-path: /skalowanie-mvp-bez-przepisywania
+path: >-
+  /artykuly/architektura/skalowanie-jak-rosnac-z-mvp-do-produktu-bez-przepisywania-wszystkiego/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Rejestr umów i terminów (żeby nic nie uciekło) — bez prawniczego chaosu'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Rejestr umów i terminów (żeby nic nie uciekło) — bez prawniczego chaosu

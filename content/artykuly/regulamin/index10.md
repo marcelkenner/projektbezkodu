@@ -2,6 +2,9 @@
 title: 'Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii'
 category: regulamin
 draft: true
+slug: index10
+path: >-
+  /artykuly/regulamin/regulamin-ugc-i-komentarzy-proste-zasady-moderacji-bez-cenzorskiej-manii/
 ---
 
 # Regulamin UGC i komentarzy: proste zasady moderacji bez cenzorskiej manii

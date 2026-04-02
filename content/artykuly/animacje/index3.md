@@ -1,7 +1,7 @@
 ---
 title: 'Framer: animacje na landing page’u bez cierpienia'
 slug: framer-animacje-landing
-path: /framer-animacje-landing
+path: /artykuly/animacje/framer-animacje-na-landing-page-u-bez-cierpienia/
 template: default
 draft: false
 date: '2026-01-15'

@@ -3,7 +3,8 @@ title: >-
   Content architecture: CMS w no-code (Webflow/WordPress/Headless) i prawdziwe
   konsekwencje wyboru
 slug: architektura-tresci-cms-no-code-konsekwencje
-path: /architektura/architektura-tresci-cms-no-code-konsekwencje
+path: >-
+  /artykuly/architektura/content-architecture-cms-w-no-code-webflow-wordpress-headless-i-prawdziwe-konsekwencje-wyboru/
 template: default
 draft: false
 date: '2026-01-14'

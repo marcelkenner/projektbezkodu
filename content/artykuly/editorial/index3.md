@@ -1,7 +1,7 @@
 ---
 title: 'Brief contentowy: szablon i przykłady dla zespołów no-code'
 slug: brief-contentowy-szablon-i-przyklady-dla-zespolow-no-code
-path: /brief-contentowy-szablon-i-przyklady-dla-zespolow-no-code
+path: /artykuly/editorial/brief-contentowy-szablon-i-przyk-ady-dla-zespo-ow-no-code/
 template: default
 draft: false
 date: '2026-01-14'

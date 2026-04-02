@@ -1,7 +1,8 @@
 ---
 slug: frontend-vs-backend-no-code-ui-vs-logika-serwera
 title: 'Frontend vs backend w no-code: co trzymać w UI, a co w logice serwera'
-path: /architektura/frontend-vs-backend-no-code-ui-vs-logika-serwera
+path: >-
+  /artykuly/architektura/frontend-vs-backend-w-no-code-co-trzymac-w-ui-a-co-w-logice-serwera/
 template: default
 draft: false
 meta:

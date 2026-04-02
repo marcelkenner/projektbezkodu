@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Mini-CRM w Notion dla freelancera (pipeline + follow-up + notatki)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Mini-CRM w Notion dla freelancera (pipeline + follow-up + notatki)

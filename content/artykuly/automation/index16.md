@@ -3,7 +3,8 @@ title: >-
   Kalkulator opłacalności automatyzacji: kiedy automatyzować, a kiedy uprościć
   proces
 slug: kalkulator-oplacalnosci-automatyzacji
-path: /narzedzia/kalkulator-oplacalnosci-automatyzacji
+path: >-
+  /artykuly/automation/kalkulator-op-acalnosci-automatyzacji-kiedy-automatyzowac-a-kiedy-uproscic-proces/
 template: default
 draft: false
 date: '2026-01-14'

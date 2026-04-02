@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: RODO minimum w no-code — zgody, logi, procesy (bez paranoi, ale serio)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: RODO minimum w no-code — zgody, logi, procesy (bez paranoi, ale serio)

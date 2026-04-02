@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Landing page, który sprzedaje — Webflow/Framer bez bólu i bez ściemy'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Landing page, który sprzedaje — Webflow/Framer bez bólu i bez ściemy

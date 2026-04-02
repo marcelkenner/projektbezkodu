@@ -1,7 +1,8 @@
 ---
 title: 'No-code wideo: montaż, napisy i formaty pod TikTok/Shorts/Reels'
 slug: wideo-montaz-napisy-tiktok-shorts-reels
-path: /wideo-montaz-napisy-tiktok-shorts-reels
+path: >-
+  /artykuly/creative-tools/no-code-wideo-montaz-napisy-i-formaty-pod-tiktok-shorts-reels/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Uporządkowany Google Drive — naming, struktura, uprawnienia, porządek'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Uporządkowany Google Drive — naming, struktura, uprawnienia, porządek

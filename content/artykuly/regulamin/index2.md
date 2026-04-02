@@ -2,6 +2,9 @@
 title: 'Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem'
 category: regulamin
 draft: true
+slug: index2
+path: >-
+  /artykuly/regulamin/regulamin-aplikacji-no-code-co-musi-byc-zeby-nie-obudzic-sie-z-problemem/
 ---
 
 # Regulamin aplikacji no-code: co musi być, żeby nie obudzić się z problemem

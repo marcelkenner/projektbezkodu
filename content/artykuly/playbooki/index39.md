@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Wdrożenie AI w obsłudze klienta bez wstydu (FAQ → makra → eskalacje)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Wdrożenie AI w obsłudze klienta bez wstydu (FAQ → makra → eskalacje)

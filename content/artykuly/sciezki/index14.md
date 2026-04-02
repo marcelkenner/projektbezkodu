@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Stripe + dostęp do treści — płatności, subskrypcje, onboarding użytkownika'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Stripe + dostęp do treści — płatności, subskrypcje, onboarding użytkownika

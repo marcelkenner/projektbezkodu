@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Retrospektywa projektu w 30 minut (wnioski, bez obwiniania)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Retrospektywa projektu w 30 minut (wnioski, bez obwiniania)

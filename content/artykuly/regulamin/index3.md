@@ -2,6 +2,9 @@
 title: 'Regulamin sklepu bez kodu: minimalny zestaw zapisów, który realnie cię chroni'
 category: regulamin
 draft: true
+slug: index3
+path: >-
+  /artykuly/regulamin/regulamin-sklepu-bez-kodu-minimalny-zestaw-zapisow-ktory-realnie-cie-chroni/
 ---
 
 # Regulamin sklepu bez kodu: minimalny zestaw zapisów, który realnie cię chroni

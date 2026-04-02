@@ -21,7 +21,17 @@ Normalization rules (implemented in `app/lib/frontmatter.ts`):
 - A trailing `/` is enforced.
 - Any query/hash suffix is preserved (but avoid these in `path` unless you really need them).
 
-If `path` is missing, the parser defaults to `/${slug}/` where `slug` is derived from the filename (or folder name for `index.md`).
+If `path` is missing, the content router derives the canonical URL from the file location under `content/` (for example `content/artykuly/sciezki/index2.md` → `/artykuly/sciezki/index2/`).
+
+Special rule for `content/artykuly/**`:
+
+- Published markdown stored under `content/artykuly/<category>/...` must keep its canonical URL under `/artykuly/<category>/...`.
+- `scripts/fix-artykuly-paths.mjs` normalizes those paths automatically and prefers the frontmatter `slug` when it has to derive a new article URL.
+
+Implementation note:
+
+- `readMarkdownFile()` still normalizes a local fallback path from the slug for direct consumers.
+- `ContentLibrary` ignores that generated fallback unless `frontmatter.path` was explicitly authored, so route canonicals still follow the source tree.
 
 ## 2) Routes, Aliases, Redirects (ContentLibrary)
 
@@ -75,26 +85,36 @@ This site supports:
 
 Rules:
 
+- **Category roots are always hubs:** `content/artykuly/<category>/index.md` is reserved for the category hub and must use `type: hub`.
+- **Subcategory roots are hubs only when they group deeper articles:** `content/artykuly/<category>/<subcategory>/index.md` must use `type: hub` if published article pages live below that folder.
 - **Hubs are explicit:** a directory under `content/artykuly/**` is a hub only if it has `index.md` with `type: hub` and `draft: false`.
 - **Hub wins over leaf:** if a path can be interpreted as both, hub is rendered.
 - **Depth limit:** `/artykuly` rejects paths deeper than 3 segments after `/artykuly/`.
-- **Hub body rendering:** hub `index.md` body is ignored; hub pages show only the article-card listing.
+- **Hub body rendering:** hub `index.md` body is ignored; hub pages show the hub intro, subcategory links when present, and the article-card listing.
 - **Leaf pages:** under `/artykuly/`, anything that is not a hub (`type !== hub`) and not a draft is treated as an “article-style” leaf.
+
+Authoring patterns:
+
+- Direct article under a category: `content/artykuly/<category>/<descriptive-file>.md` or `content/artykuly/<category>/<article-folder>/index.md` → `/artykuly/<category>/<article>/`.
+- Article inside a subcategory hub: `content/artykuly/<category>/<subcategory>/<descriptive-file>.md` → `/artykuly/<category>/<subcategory>/<article>/`.
+- Do not keep a published article at `content/artykuly/<category>/index.md`; that URL belongs to the hub.
 
 ## 5) Drafts
 
 - `draft: true` generally hides pages from listings.
+- Use `draft: true` for unpublished content. `status: draft` is not part of the supported schema and should not be used.
 - Some repositories return drafts only if **everything** in that section is draft (so staging previews still show content).
 
 ## 6) Validation (run before build)
 
 - `npm run content:lint` parses and validates frontmatter across `content/**`.
-- It also enforces `/artykuly` hub hierarchy: if published leaf pages exist under a hub path, the corresponding hub `index.md` must exist, must not be draft, and must declare `type: hub`.
+- It also enforces `/artykuly` hub hierarchy: category roots must be hubs, subcategory roots with published descendants must be hubs, and published article content under `content/artykuly/**` must keep canonical URLs under the matching `/artykuly/<category>/...` prefix.
 
 ## 7) Authoring checklist
 
 - Always set `path` to the URL you want users (and Google) to index.
 - Avoid changing `path` after publishing (treat it as an ID, not a label).
 - Keep `hero.heading` and `seo.description` meaningful — they feed listing cards and metadata.
-- Before publishing new `/artykuly/...` pages, ensure required hub `index.md` pages exist and are `type: hub`.
+- Before publishing new `/artykuly/...` pages, ensure category `index.md` files are hubs and any subcategory folder with deeper published articles also has a hub `index.md`.
+- Prefer descriptive filenames such as `architektura-no-code-stabilnosc.md` over numbered names such as `index6.md` when adding new article leaves.
 - Run `source ~/.nvm/nvm.sh && npm run content:lint` before opening a PR.

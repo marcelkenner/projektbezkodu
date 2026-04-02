@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Kalendarz treści na 90 dni (ideacja → produkcja → publikacja → recykling)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Kalendarz treści na 90 dni (ideacja → produkcja → publikacja → recykling)

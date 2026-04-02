@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Newsletter, który dowozi — od pozyskania maili do 5-mailowego onboardingu'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Newsletter, który dowozi — od pozyskania maili do 5-mailowego onboardingu

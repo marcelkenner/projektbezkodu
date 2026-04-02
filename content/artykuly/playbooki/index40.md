@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Helpdesk w Airtable/Notion — kiedy to ma sens, a kiedy to błąd'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Helpdesk w Airtable/Notion — kiedy to ma sens, a kiedy to błąd

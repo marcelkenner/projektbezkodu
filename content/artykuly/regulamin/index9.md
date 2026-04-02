@@ -2,6 +2,9 @@
 title: 'Regulamin płatności i subskrypcji: jak to opisać, żeby użytkownik rozumiał'
 category: regulamin
 draft: true
+slug: index9
+path: >-
+  /artykuly/regulamin/regulamin-p-atnosci-i-subskrypcji-jak-to-opisac-zeby-uzytkownik-rozumia/
 ---
 
 # Regulamin płatności i subskrypcji: jak to opisać, żeby użytkownik rozumiał

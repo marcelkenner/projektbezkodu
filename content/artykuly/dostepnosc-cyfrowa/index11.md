@@ -1,7 +1,8 @@
 ---
 title: 'PDF i dokumenty na stronie: jak publikować treści w sposób dostępny'
 slug: pdf-i-dokumenty-na-stronie-dostepne
-path: /dostepnosc/pdf-i-dokumenty-na-stronie-dostepne
+path: >-
+  /artykuly/dostepnosc-cyfrowa/pdf-i-dokumenty-na-stronie-jak-publikowac-tresci-w-sposob-dostepny/
 template: default
 draft: false
 type: article

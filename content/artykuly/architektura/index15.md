@@ -3,7 +3,8 @@ title: >-
   Architektura danych: schematy, relacje, normalizacja — w no-code też ma
   znaczenie
 slug: architektura-danych-no-code
-path: /architektura/architektura-danych-no-code
+path: >-
+  /artykuly/architektura/architektura-danych-schematy-relacje-normalizacja-w-no-code-tez-ma-znaczenie/
 template: default
 draft: false
 date: '2026-01-14'

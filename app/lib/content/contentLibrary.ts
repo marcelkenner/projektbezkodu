@@ -111,11 +111,15 @@ export class ContentLibrary {
       return undefined;
     }
 
-    const explicitPath = this.normalizeFrontmatterPath(
+    const normalizedFrontmatterPath = this.normalizeFrontmatterPath(
       document.frontmatter.path,
     );
+    const explicitPath = document.frontmatter.hasExplicitPath
+      ? normalizedFrontmatterPath
+      : undefined;
     const derivedFromSource = this.derivePathFromSource(document);
-    const canonicalPath = explicitPath ?? derivedFromSource;
+    const canonicalPath =
+      explicitPath ?? derivedFromSource ?? normalizedFrontmatterPath;
 
     if (!canonicalPath) {
       return undefined;

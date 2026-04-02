@@ -3,7 +3,8 @@ title: >-
   Mikrointerakcje, które robią robotę: hover, focus, loader, feedback po
   kliknięciu
 slug: mikrointerakcje-hover-focus-loader-feedback
-path: /animacje/mikrointerakcje-hover-focus-loader-feedback
+path: >-
+  /artykuly/animacje/mikrointerakcje-ktore-robia-robote-hover-focus-loader-feedback-po-kliknieciu/
 date: '2026-01-14'
 template: default
 draft: false

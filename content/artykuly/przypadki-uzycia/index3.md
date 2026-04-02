@@ -3,7 +3,8 @@ title: >-
   CRM dla freelancera bez wdrożeń: prosty pipeline, który ogarniesz w jedno
   popołudnie
 slug: crm-dla-freelancera-bez-wdrozen
-path: /crm-dla-freelancera-bez-wdrozen
+path: >-
+  /artykuly/przypadki-uzycia/crm-dla-freelancera-bez-wdrozen-prosty-pipeline-ktory-ogarniesz-w-jedno-popo-udnie/
 template: default
 draft: false
 date: '2026-01-14'

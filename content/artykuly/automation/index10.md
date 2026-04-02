@@ -3,7 +3,8 @@ title: >-
   Google Sheets jako „mózg” automatyzacji: dobre praktyki, które ratują przed
   bałaganem
 slug: google-sheets-mozg-automatyzacji
-path: /automatyzacja/google-sheets-mozg-automatyzacji
+path: >-
+  /artykuly/automation/google-sheets-jako-mozg-automatyzacji-dobre-praktyki-ktore-ratuja-przed-ba-aganem/
 template: default
 draft: false
 date: '2026-01-15'

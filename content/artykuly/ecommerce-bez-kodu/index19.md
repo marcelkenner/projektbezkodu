@@ -1,7 +1,8 @@
 ---
 title: 'Subskrypcje i płatności cykliczne w sklepie: jak to wdrożyć bez kodu'
 slug: ecommerce-bez-kodu-19
-path: /ecommerce-bez-kodu-19
+path: >-
+  /artykuly/ecommerce-bez-kodu/subskrypcje-i-p-atnosci-cykliczne-w-sklepie-jak-to-wdrozyc-bez-kodu/
 template: default
 draft: false
 date: '2026-01-18'

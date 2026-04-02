@@ -1,7 +1,7 @@
 ---
 title: 'Canva bez kodu: workflow do social mediów w 30 minut'
 slug: canva-bez-kodu-workflow-social-mediow-30-minut
-path: /canva-bez-kodu-workflow-social-mediow-30-minut
+path: /artykuly/creative-tools/canva-bez-kodu-workflow-do-social-mediow-w-30-minut/
 template: default
 draft: false
 date: '2026-01-14'

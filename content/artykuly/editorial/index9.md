@@ -1,7 +1,8 @@
 ---
 title: 'Automatyzacje editorialne: przypomnienia, zadania i publikacje'
 slug: automatyczje-editorialne-przypomnienia-zadania-i-publikacje
-path: /automatyczje-editorialne-przypomnienia-zadania-i-publikacje
+path: >-
+  /artykuly/editorial/automatyzacje-editorialne-przypomnienia-zadania-i-publikacje/
 template: default
 draft: false
 date: '2026-01-14'

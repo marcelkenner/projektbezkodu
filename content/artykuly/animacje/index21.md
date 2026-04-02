@@ -1,7 +1,8 @@
 ---
 title: '„Less motion, more money”: minimalistyczne animacje, które wyglądają drogo'
 slug: minimalistyczne-animacje-premium
-path: /animacje/minimalistyczne-animacje-premium
+path: >-
+  /artykuly/animacje/less-motion-more-money-minimalistyczne-animacje-ktore-wygladaja-drogo/
 template: default
 draft: false
 date: '2026-01-15'

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Automatyczne przypomnienia o płatnościach (faktura → przypomnienie → status)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Automatyczne przypomnienia o płatnościach (faktura → przypomnienie → status)

@@ -4,9 +4,24 @@ import { promises as fs } from "fs";
 import path from "path";
 import matter from "gray-matter";
 import yaml from "js-yaml";
+import { pathToFileURL } from "url";
 
-const CONTENT_ROOT = path.join(process.cwd(), "content", "artykuly");
 const FRONTMATTER_PATTERN = /^---\s*[\r\n]/;
+
+export async function runFixArtykulyPaths({
+  projectRoot = process.cwd(),
+  contentRoot = path.join(projectRoot, "content", "artykuly"),
+} = {}) {
+  const fixer = new ArtykulyPathFixer(contentRoot);
+  await fixer.run();
+  return {
+    updatedCount: fixer.updatedCount,
+    skippedCount: fixer.skippedCount,
+    failedFiles: fixer.failedFiles.map((filePath) =>
+      path.relative(projectRoot, filePath),
+    ),
+  };
+}
 
 class ArtykulyPathFixer {
   constructor(contentRoot) {
@@ -75,25 +90,39 @@ class ArtykulyPathFixer {
       return;
     }
 
-    await fs.writeFile(filePath, nextContent);
+    await fs.writeFile(filePath, nextContent, "utf8");
     this.updatedCount += 1;
   }
 
   applyPathDefaults(frontmatter, absolutePath) {
     const next = { ...frontmatter };
-    const relative = path.relative(CONTENT_ROOT, absolutePath);
+    const relative = path.relative(this.contentRoot, absolutePath);
     const parsed = path.parse(relative);
     const segments = parsed.dir
       ? parsed.dir.split(path.sep).filter(Boolean)
       : [];
     const fallbackSlug =
       parsed.name === "index" ? (segments.at(-1) ?? "artykul") : parsed.name;
-    const isCategoryIndex = parsed.name === "index" && segments.length === 1;
-    const legacyCategoryPath = `/${["artykuly", ...segments].join("/")}/`;
-    const normalizedLegacyPath = normalizePath(legacyCategoryPath);
-    const template = typeof next.template === "string" ? next.template : "";
-    const isHubIndex =
-      parsed.name === "index" && template !== "article" && template !== "legal";
+    const normalizedExistingPath = normalizePath(next.path);
+    const isHubType =
+      typeof next.type === "string" && next.type.trim().toLowerCase() === "hub";
+    const isIndex = parsed.name === "index";
+    const isCategoryIndex = isIndex && segments.length === 1;
+    const hubPath = normalizePath(`/${["artykuly", ...segments].join("/")}/`);
+    const categoryPrefix = segments.length
+      ? normalizePath(`/artykuly/${segments[0]}/`)
+      : "";
+    const hasExpectedCategoryPrefix =
+      !categoryPrefix || normalizedExistingPath.startsWith(categoryPrefix);
+    const shouldDeriveHubPath = isHubType && isIndex;
+    const shouldNormalizeLeafPath =
+      !shouldDeriveHubPath &&
+      (!normalizedExistingPath ||
+        !normalizedExistingPath.startsWith("/artykuly/") ||
+        !hasExpectedCategoryPrefix);
+    const shouldRepairLegacyPath =
+      !shouldDeriveHubPath &&
+      normalizedExistingPath === normalizePath(`/${["artykuly", ...segments].join("/")}/`);
 
     next.slug = next.slug || fallbackSlug;
 
@@ -101,53 +130,48 @@ class ArtykulyPathFixer {
       next.title = this.formatTitleFromSlug(next.slug);
     }
 
-    const normalizedExistingPath = normalizePath(next.path);
-    const hubPath = normalizePath(legacyCategoryPath);
-    const shouldRepairLegacyPath =
-      parsed.name !== "index" &&
-      normalizedExistingPath &&
-      normalizedExistingPath === normalizedLegacyPath;
-
-    if (isHubIndex && (!normalizedExistingPath || normalizedExistingPath !== hubPath)) {
+    if (shouldDeriveHubPath && normalizedExistingPath !== hubPath) {
       next.path = hubPath;
       return next;
     }
 
-    if (!normalizedExistingPath || shouldRepairLegacyPath) {
-      next.path = this.derivePath({
-        isIndex: parsed.name === "index",
-        isCategoryIndex,
+    if (isCategoryIndex && !isHubType) {
+      next.path = this.deriveLeafPath({
+        isIndex,
         segments,
         title: next.title,
-        fileSlug: fallbackSlug,
+        fileSlug: next.slug,
+      });
+      return next;
+    }
+
+    if (shouldNormalizeLeafPath || shouldRepairLegacyPath) {
+      next.path = this.deriveLeafPath({
+        isIndex,
+        segments,
+        title: next.title,
+        fileSlug: next.slug,
       });
     }
 
     return next;
   }
 
-  derivePath({ isIndex, isCategoryIndex, segments, title, fileSlug }) {
+  deriveLeafPath({ isIndex, segments, title, fileSlug }) {
     const safeSegments = Array.isArray(segments) ? segments.filter(Boolean) : [];
-    const wrapped = (value) => (value.endsWith("/") ? value : `${value}/`);
-
-    if (isCategoryIndex) {
-      return wrapped(`/${["artykuly", ...safeSegments].join("/")}/`);
-    }
-
-    const titleSlug = slugify(title);
     const fallback = slugify(fileSlug);
-    if (!titleSlug) {
-      return wrapped(`/${["artykuly", ...safeSegments].join("/")}/`);
+    const titleSlug = slugify(title);
+    const leafSlug = fallback || titleSlug;
+
+    if (!leafSlug) {
+      return normalizePath(`/${["artykuly", ...safeSegments].join("/")}/`);
     }
 
-    const last = safeSegments.at(-1);
-    const leafSlug = last && titleSlug === last && fallback
-      ? `${titleSlug}-${fallback}`
-      : titleSlug;
     const nextSegments = isIndex
       ? [...safeSegments.slice(0, -1), leafSlug]
       : [...safeSegments, leafSlug];
-    return wrapped(`/${["artykuly", ...nextSegments].join("/")}/`);
+
+    return normalizePath(`/${["artykuly", ...nextSegments].join("/")}/`);
   }
 
   formatTitleFromSlug(value) {
@@ -177,17 +201,6 @@ class ArtykulyPathFixer {
   }
 }
 
-async function main() {
-  const fixer = new ArtykulyPathFixer(CONTENT_ROOT);
-  await fixer.run();
-}
-
-main().catch((error) => {
-  console.error("[fix-artykuly-paths] Unexpected error.");
-  console.error(error);
-  process.exitCode = 1;
-});
-
 function slugify(value) {
   if (typeof value !== "string") {
     return "";
@@ -211,4 +224,16 @@ function normalizePath(value) {
   const withoutDomain = trimmed.replace(/^https?:\/\/[^/]+/i, "");
   const withLeading = withoutDomain.startsWith("/") ? withoutDomain : `/${withoutDomain}`;
   return withLeading.endsWith("/") ? withLeading : `${withLeading}/`;
+}
+
+const isCliInvocation =
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isCliInvocation) {
+  runFixArtykulyPaths().catch((error) => {
+    console.error("[fix-artykuly-paths] Unexpected error.");
+    console.error(error);
+    process.exitCode = 1;
+  });
 }

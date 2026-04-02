@@ -1,7 +1,8 @@
 ---
 title: 'MVP aplikacji usługowej: dowieźć wersję 1.0 i nie przepalić budżetu'
 slug: mvp-aplikacji-uslugowej-dowiezc-1-0
-path: /artykuly/mvp-aplikacji-uslugowej-dowiezc-1-0
+path: >-
+  /artykuly/przypadki-uzycia/mvp-aplikacji-us-ugowej-dowiezc-wersje-1-0-i-nie-przepalic-budzetu/
 template: default
 draft: false
 date: '2026-01-14'

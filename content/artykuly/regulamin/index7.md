@@ -2,6 +2,9 @@
 title: 'Regulamin testów beta w no-code: zasady, które oszczędzą ci dramatu'
 category: regulamin
 draft: true
+slug: index7
+path: >-
+  /artykuly/regulamin/regulamin-testow-beta-w-no-code-zasady-ktore-oszczedza-ci-dramatu/
 ---
 
 # Regulamin testów beta w no-code: zasady, które oszczędzą ci dramatu

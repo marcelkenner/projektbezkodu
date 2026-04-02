@@ -1,7 +1,7 @@
 ---
 title: 'Rive vs Lottie: co wybrać, jeśli chcesz animacje „jak w appce”'
 slug: rive-vs-lottie
-path: /animacje/rive-vs-lottie
+path: /artykuly/animacje/rive-vs-lottie-co-wybrac-jesli-chcesz-animacje-jak-w-appce/
 template: default
 draft: false
 date: '2026-01-14'

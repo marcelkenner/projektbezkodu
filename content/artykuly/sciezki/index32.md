@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Segmentacja bazy mailingowej — 3 segmenty, które robią robotę'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Segmentacja bazy mailingowej — 3 segmenty, które robią robotę

@@ -1,7 +1,8 @@
 ---
 title: 'Projektowanie stron w Webflow: wzorce sekcji, które działają'
 slug: webflow-wzorce-sekcji
-path: /webflow/wzorce-sekcji
+path: >-
+  /artykuly/design-bez-kodu/projektowanie-stron-w-webflow-wzorce-sekcji-ktore-dzia-aja/
 template: default
 draft: false
 date: '2026-01-15'

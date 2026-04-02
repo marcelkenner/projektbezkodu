@@ -1,7 +1,8 @@
 ---
 title: Najczęstsze błędy w automatyzacjach no-code (i jak ich uniknąć)
 slug: bledy-automatyzacji-no-code
-path: /automatyzacje/bledy-automatyzacji-no-code
+path: >-
+  /artykuly/automation/najczestsze-b-edy-w-automatyzacjach-no-code-i-jak-ich-uniknac/
 template: default
 draft: false
 date: '2026-01-14'

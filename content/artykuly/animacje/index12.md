@@ -1,7 +1,8 @@
 ---
 slug: animacje-formularze-onboarding-porzucenia
 title: 'Animacje w formularzach i onboardingach: jak zmniejszyć porzucenia'
-path: /animacje/formularze-onboarding-porzucenia
+path: >-
+  /artykuly/animacje/animacje-w-formularzach-i-onboardingach-jak-zmniejszyc-porzucenia/
 template: default
 draft: false
 date: '2026-01-15'

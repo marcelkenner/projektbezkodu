@@ -2,6 +2,9 @@
 title: 'Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi'
 category: regulamin
 draft: true
+slug: index5
+path: >-
+  /artykuly/regulamin/regulamin-kursu-online-zwroty-dostep-i-odpowiedzialnosc-wersja-dla-ludzi/
 ---
 
 # Regulamin kursu online: zwroty, dostęp i odpowiedzialność — wersja dla ludzi

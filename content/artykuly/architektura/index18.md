@@ -1,7 +1,8 @@
 ---
 title: 'Vendor lock-in: jak projektować, żeby dało się kiedyś zmienić narzędzie'
 slug: vendor-lock-in-projektowanie-zmiana-narzedzia
-path: /vendor-lock-in-projektowanie-zmiana-narzedzia
+path: >-
+  /artykuly/architektura/vendor-lock-in-jak-projektowac-zeby-da-o-sie-kiedys-zmienic-narzedzie/
 template: default
 draft: false
 date: '2026-01-14'

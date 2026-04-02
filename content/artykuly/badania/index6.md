@@ -1,7 +1,7 @@
 ---
 title: 'Raport: koszty utrzymania projektów no-code po 12 miesiącach'
 slug: raport-koszty-utrzymania-no-code-12-miesiecy
-path: /raport-koszty-utrzymania-no-code-12-miesiecy
+path: /artykuly/badania/raport-koszty-utrzymania-projektow-no-code-po-12-miesiacach/
 template: default
 draft: false
 date: '2026-01-14'

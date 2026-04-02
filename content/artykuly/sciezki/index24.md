@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Lead gen z LinkedIn bez spamu — proces, który nie niszczy reputacji'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Lead gen z LinkedIn bez spamu — proces, który nie niszczy reputacji

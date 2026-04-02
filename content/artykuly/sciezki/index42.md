@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Zbieranie opinii klientów — ankieta → referencja → publikacja (bez naciągania)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Zbieranie opinii klientów — ankieta → referencja → publikacja (bez naciągania)

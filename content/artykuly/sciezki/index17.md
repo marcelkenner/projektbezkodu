@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Migracja z Google Sheets — kiedy Airtable ma sens i jak zrobić to bez wpadek'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Migracja z Google Sheets — kiedy Airtable ma sens i jak zrobić to bez wpadek

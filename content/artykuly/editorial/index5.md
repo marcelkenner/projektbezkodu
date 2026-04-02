@@ -1,7 +1,7 @@
 ---
 title: 'Style guide dla treści: jak utrzymać spójny ton marki'
 slug: style-guide-dla-tresci-jak-utrzymac-spojny-ton-marki
-path: /style-guide-dla-tresci-jak-utrzymac-spojny-ton-marki
+path: /artykuly/editorial/style-guide-dla-tresci-jak-utrzymac-spojny-ton-marki/
 template: default
 draft: false
 date: '2026-01-14'

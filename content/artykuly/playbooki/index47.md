@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Prosty program partnerski bez platformy enterprise (tracking + wypłaty)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Prosty program partnerski bez platformy enterprise (tracking + wypłaty)

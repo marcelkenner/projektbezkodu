@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Onboarding klienta w usługach — od briefu do "go-live" bez tarcia'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Onboarding klienta w usługach — od briefu do "go-live" bez tarcia

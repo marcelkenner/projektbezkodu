@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: SOP-y (procedury) w 1 tydzień — bez "dokumentacji dla dokumentacji"'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: SOP-y (procedury) w 1 tydzień — bez "dokumentacji dla dokumentacji"

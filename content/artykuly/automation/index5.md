@@ -3,7 +3,8 @@ title: >-
   Automatyzacje w sprzedaży: pipeline, przypomnienia, taski i handover między
   ludźmi
 slug: automatyzacje-sprzedaz-pipeline-przypomnienia-taski-handover
-path: /automatyzacje/sprzedaz-pipeline-przypomnienia-taski-handover
+path: >-
+  /artykuly/automation/automatyzacje-w-sprzedazy-pipeline-przypomnienia-taski-i-handover-miedzy-ludzmi/
 template: default
 draft: false
 date: '2026-01-15'

@@ -1,7 +1,8 @@
 ---
 title: 'Raport: bezpieczeństwo w narzędziach no-code — checklista i wnioski'
 slug: raport-bezpieczenstwo-no-code-checklista-wnioski
-path: /raporty/bezpieczenstwo-no-code-checklista-wnioski
+path: >-
+  /artykuly/badania/raport-bezpieczenstwo-w-narzedziach-no-code-checklista-i-wnioski/
 template: default
 draft: false
 date: '2026-01-15'

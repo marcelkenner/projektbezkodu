@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Roadmapa produktu dla no-code SaaS (priorytety bez polityki)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Roadmapa produktu dla no-code SaaS (priorytety bez polityki)

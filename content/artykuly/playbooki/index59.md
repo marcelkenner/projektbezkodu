@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: System notatek ze spotkań (capture → decyzje → taski → follow-up)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: System notatek ze spotkań (capture → decyzje → taski → follow-up)

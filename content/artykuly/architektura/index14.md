@@ -3,7 +3,8 @@ title: >-
   Logowanie i monitoring: jak projektować system, który mówi Ci, że coś nie
   działa
 slug: logowanie-monitoring-alerty
-path: /logowanie-monitoring-alerty
+path: >-
+  /artykuly/architektura/logowanie-i-monitoring-jak-projektowac-system-ktory-mowi-ci-ze-cos-nie-dzia-a/
 template: default
 draft: false
 date: '2026-01-14'

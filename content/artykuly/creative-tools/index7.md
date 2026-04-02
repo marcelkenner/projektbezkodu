@@ -1,7 +1,8 @@
 ---
 title: 'Brand kit bez kodu: jak spiąć kolory, fonty i komponenty w jednym miejscu'
 slug: brand-kit-bez-kodu
-path: /brand-kit-bez-kodu
+path: >-
+  /artykuly/creative-tools/brand-kit-bez-kodu-jak-spiac-kolory-fonty-i-komponenty-w-jednym-miejscu/
 template: default
 draft: false
 date: '2026-01-15'

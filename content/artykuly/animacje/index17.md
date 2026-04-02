@@ -1,7 +1,8 @@
 ---
 slug: animacje-social-media-jitter-canva
 title: 'Animacje do sociali bez zespołu wideo: Jitter/Canva i realistyczne rezultaty'
-path: /animacje/social-media-jitter-canva
+path: >-
+  /artykuly/animacje/animacje-do-sociali-bez-zespo-u-wideo-jitter-canva-i-realistyczne-rezultaty/
 template: default
 draft: false
 date: '2026-01-15'

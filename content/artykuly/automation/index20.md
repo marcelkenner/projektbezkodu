@@ -3,7 +3,8 @@ title: >-
   Automatyzacje dla freelancerów: od zapytania do płatności bez ręcznego
   pilnowania
 slug: automatyzacje-dla-freelancerow-zapytanie-do-platnosci
-path: /automatyzacje-dla-freelancerow-zapytanie-do-platnosci
+path: >-
+  /artykuly/automation/automatyzacje-dla-freelancerow-od-zapytania-do-p-atnosci-bez-recznego-pilnowania/
 template: default
 draft: false
 date: '2026-01-15'

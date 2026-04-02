@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Porzucony koszyk — proste flow, które realnie odzyskuje sprzedaż'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Porzucony koszyk — proste flow, które realnie odzyskuje sprzedaż

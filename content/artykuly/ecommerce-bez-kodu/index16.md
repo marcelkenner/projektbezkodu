@@ -1,7 +1,8 @@
 ---
 title: 'Opis produktu, który sprzedaje: struktura, język korzyści i FAQ'
 slug: opis-produktu-ktory-sprzedaje
-path: /opis-produktu-ktory-sprzedaje
+path: >-
+  /artykuly/ecommerce-bez-kodu/opis-produktu-ktory-sprzedaje-struktura-jezyk-korzysci-i-faq/
 template: default
 draft: false
 date: '2026-01-15'

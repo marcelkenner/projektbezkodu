@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Airtable w praktyce — baza jako "source of truth" dla zespołu'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Airtable w praktyce — baza jako "source of truth" dla zespołu

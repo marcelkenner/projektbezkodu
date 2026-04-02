@@ -1,7 +1,7 @@
 ---
 title: 'Raport: ROI no-code w dziale operacji'
 slug: raport-roi-no-code-operacji
-path: /raporty/roi-no-code-operacji
+path: /artykuly/badania/raport-roi-no-code-w-dziale-operacji/
 template: default
 draft: false
 date: '2026-01-15'

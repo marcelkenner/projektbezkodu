@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Lead magnet, który realnie zbiera maile (bez "pustego PDF-a")'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Lead magnet, który realnie zbiera maile (bez "pustego PDF-a")

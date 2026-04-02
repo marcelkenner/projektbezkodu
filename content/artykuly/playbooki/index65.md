@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Audyt automatyzacji w Make/Zapier (przyspiesz, uprość, napraw koszty)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Audyt automatyzacji w Make/Zapier (przyspiesz, uprość, napraw koszty)

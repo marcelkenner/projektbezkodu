@@ -3,7 +3,8 @@ title: >-
   Idempotencja po ludzku: jak nie wysyłać klientowi dwóch faktur przez jeden
   błąd
 slug: idempotencja-po-ludzku
-path: /idempotencja-po-ludzku
+path: >-
+  /artykuly/architektura/idempotencja-po-ludzku-jak-nie-wysy-ac-klientowi-dwoch-faktur-przez-jeden-b-ad/
 template: default
 draft: false
 date: '2026-01-15'

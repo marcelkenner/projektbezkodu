@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Jak nie utopić się w narzędziach (stack no-code dla małej firmy: minimalny i skuteczny)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Jak nie utopić się w narzędziach (stack no-code dla małej firmy: minimalny i skuteczny)

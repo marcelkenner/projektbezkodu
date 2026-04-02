@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Sprzedaż B2B w małym zespole (pipeline + follow-up + raport) bez Salesforce'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Sprzedaż B2B w małym zespole (pipeline + follow-up + raport) bez Salesforce

@@ -1,7 +1,8 @@
 ---
 title: 'Automatyzacje dla agencji: brief, onboarding klienta, checklisty, raporty'
 slug: automatyzacje-dla-agencji-brief-onboarding-checklisty-raporty
-path: /automatyzacje-dla-agencji/brief-onboarding-checklisty-raporty
+path: >-
+  /artykuly/automation/automatyzacje-dla-agencji-brief-onboarding-klienta-checklisty-raporty/
 template: default
 draft: false
 date: '2026-01-14'

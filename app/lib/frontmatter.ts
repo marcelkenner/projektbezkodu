@@ -201,6 +201,7 @@ export interface Frontmatter {
   title: string;
   slug?: string;
   path: string;
+  hasExplicitPath: boolean;
   draft: boolean;
   template: string;
   type?: string;
@@ -313,6 +314,8 @@ function normalizeFrontmatter(
   relativePath: string,
 ): Frontmatter {
   const slug = raw.slug ?? getSlugFromPath(relativePath);
+  const hasExplicitPath =
+    typeof raw.path === "string" && raw.path.trim().length > 0;
   const title = normalizeTitle(raw.title, slug);
   const taxonomy: FrontmatterTaxonomy = {
     categories: dedupe(raw.taxonomy?.categories ?? []),
@@ -347,6 +350,7 @@ function normalizeFrontmatter(
     title,
     slug,
     path: normalizePath(raw.path, slug),
+    hasExplicitPath,
     draft: raw.draft ?? false,
     template: raw.template ?? "default",
     type: raw.type,

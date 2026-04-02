@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: "Single source of truth" dla projektów (Notion vs ClickUp vs Airtable — decyzja)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: "Single source of truth" dla projektów (Notion vs ClickUp vs Airtable — decyzja)

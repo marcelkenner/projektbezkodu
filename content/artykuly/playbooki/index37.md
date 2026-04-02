@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Antyspam w formularzach bez CAPTCHA-piekła (pułapki, limity, scoring)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Antyspam w formularzach bez CAPTCHA-piekła (pułapki, limity, scoring)

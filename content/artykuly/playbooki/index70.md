@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Zaproszenia na demo, które ludzie akceptują (krótko, konkretnie, bez ściemy)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Zaproszenia na demo, które ludzie akceptują (krótko, konkretnie, bez ściemy)

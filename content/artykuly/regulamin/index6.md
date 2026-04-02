@@ -2,6 +2,9 @@
 title: 'Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć'
 category: regulamin
 draft: true
+slug: index6
+path: >-
+  /artykuly/regulamin/regulamin-konsultacji-jak-ustawic-granice-terminy-i-p-atnosci-bez-spiec/
 ---
 
 # Regulamin konsultacji: jak ustawić granice, terminy i płatności bez spięć

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Rezerwacje i płatności dla usług lokalnych (bez devów)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Rezerwacje i płatności dla usług lokalnych (bez devów)

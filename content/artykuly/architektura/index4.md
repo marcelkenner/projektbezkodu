@@ -1,7 +1,8 @@
 ---
 title: 'Single source of truth: gdzie trzymać dane, żeby nie zabić się duplikatami'
 slug: single-source-of-truth-gdzie-trzymac-dane-bez-duplikatow
-path: /single-source-of-truth-gdzie-trzymac-dane-bez-duplikatow
+path: >-
+  /artykuly/architektura/single-source-of-truth-gdzie-trzymac-dane-zeby-nie-zabic-sie-duplikatami/
 template: default
 draft: false
 date: '2026-01-15'

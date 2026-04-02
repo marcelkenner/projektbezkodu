@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Formularze, które konwertują (pytania, logika, microcopy, anti-spam)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Formularze, które konwertują (pytania, logika, microcopy, anti-spam)

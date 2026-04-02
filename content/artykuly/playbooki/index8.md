@@ -1,7 +1,6 @@
 ﻿---
 title: 'Playbook: Onboarding klienta w usługach (checklista + automaty + umowa)'
 category: 'playbooki'
-status: 'draft'
 draft: true
 ---
 

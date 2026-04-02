@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Segmentacja bazy mailingowej (praktycznie: 3 segmenty, które robią robotę)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Segmentacja bazy mailingowej (praktycznie: 3 segmenty, które robią robotę)

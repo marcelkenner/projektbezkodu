@@ -3,7 +3,8 @@ title: >-
   Landing page, który sprzedaje: jak złożyć go w no-code bez „ładnych, ale
   pustych” sekcji
 slug: landing-page-ktory-sprzedaje-no-code-bez-pustych-sekcji
-path: /landing-page-ktory-sprzedaje-no-code-bez-pustych-sekcji
+path: >-
+  /artykuly/przypadki-uzycia/landing-page-ktory-sprzedaje-jak-z-ozyc-go-w-no-code-bez-adnych-ale-pustych-sekcji/
 template: default
 draft: false
 date: '2026-01-14'

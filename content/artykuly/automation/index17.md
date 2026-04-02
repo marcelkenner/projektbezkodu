@@ -3,7 +3,8 @@ title: >-
   Automatyzacje rekrutacyjne: formularz → ATS/arkusz → mail → task dla hiring
   managera
 slug: automatyzacje-rekrutacji-formularz-ats-arkusz-mail-task
-path: /rekrutacja/automatyzacje-rekrutacji-formularz-ats-arkusz-mail-task
+path: >-
+  /artykuly/automation/automatyzacje-rekrutacyjne-formularz-ats-arkusz-mail-task-dla-hiring-managera/
 template: default
 draft: false
 date: '2026-01-15'

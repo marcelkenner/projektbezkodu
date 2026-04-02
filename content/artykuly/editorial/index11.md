@@ -1,7 +1,8 @@
 ---
 title: 'Jak aktualizować stare artykuły: audyt, priorytety i harmonogram'
 slug: jak-aktualizowac-stare-artykuly-audyt-priorytety-i-harmonogram
-path: /jak-aktualizowac-stare-artykuly-audyt-priorytety-i-harmonogram
+path: >-
+  /artykuly/editorial/jak-aktualizowac-stare-artyku-y-audyt-priorytety-i-harmonogram/
 template: default
 draft: false
 date: '2026-01-14'

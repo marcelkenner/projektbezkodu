@@ -1,7 +1,8 @@
 ---
 title: 'No-code w firmie: kto odpowiada za procesy, automaty i zmiany'
 slug: no-code-w-firmie-kto-odpowiada
-path: /no-code-w-firmie-kto-odpowiada
+path: >-
+  /artykuly/architektura/no-code-w-firmie-kto-odpowiada-za-procesy-automaty-i-zmiany/
 template: default
 draft: false
 date: '2026-01-15'

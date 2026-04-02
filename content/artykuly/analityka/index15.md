@@ -3,7 +3,8 @@ title: >-
   Szybkie eksperymenty w e‑commerce: koszyk, dostawa i komunikaty które szybko
   podnoszą konwersję
 slug: eksperymenty-ecommerce-koszyk-dostawa-komunikaty
-path: /eksperymenty-ecommerce-koszyk-dostawa-komunikaty
+path: >-
+  /artykuly/analityka/szybkie-eksperymenty-w-e-commerce-koszyk-dostawa-i-komunikaty-ktore-szybko-podnosza-konwersje/
 template: default
 draft: false
 date: '2026-01-15'

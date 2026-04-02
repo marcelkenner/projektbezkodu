@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Rezerwacje + płatność z góry — koniec z "no-show" w usługach'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Rezerwacje + płatność z góry — koniec z "no-show" w usługach

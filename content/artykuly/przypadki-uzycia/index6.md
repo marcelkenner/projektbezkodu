@@ -3,7 +3,8 @@ title: >-
   System rezerwacji i płatności: kiedy no-code wystarczy, a kiedy zacznie Cię
   hamować
 slug: rezerwacje-platnosci-no-code-kiedy-wystarczy
-path: /rezerwacje-platnosci-no-code-kiedy-wystarczy
+path: >-
+  /artykuly/przypadki-uzycia/system-rezerwacji-i-p-atnosci-kiedy-no-code-wystarczy-a-kiedy-zacznie-cie-hamowac/
 template: default
 draft: false
 type: article

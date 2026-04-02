@@ -1,7 +1,8 @@
 ---
 title: 'Webhooki dla nietechnicznych: jak to działa i jak to testować bez bólu'
 slug: webhooki-dla-nietechnicznych
-path: /webhooki-dla-nietechnicznych
+path: >-
+  /artykuly/automation/webhooki-dla-nietechnicznych-jak-to-dzia-a-i-jak-to-testowac-bez-bolu/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,8 @@
 ---
 title: 'Typografia na webie bez kodu: jak dobrać fonty i skalę'
 slug: typografia-na-webie-bez-kodu-fonty-skala
-path: /typografia-na-webie-bez-kodu-fonty-skala
+path: >-
+  /artykuly/design-bez-kodu/typografia-na-webie-bez-kodu-jak-dobrac-fonty-i-skale/
 template: default
 draft: false
 date: '2026-01-15'

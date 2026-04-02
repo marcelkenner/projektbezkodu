@@ -1,7 +1,8 @@
 ---
 title: 'Automatyzacja obsługi klienta: tagowanie zgłoszeń, SLA i eskalacje bez chaosu'
 slug: automatyzacja-obslugi-klienta-tagowanie-sla-eskalacje
-path: /automatyzacja-obslugi-klienta-tagowanie-sla-eskalacje
+path: >-
+  /artykuly/automation/automatyzacja-obs-ugi-klienta-tagowanie-zg-oszen-sla-i-eskalacje-bez-chaosu/
 template: default
 draft: false
 date: '2026-01-15'

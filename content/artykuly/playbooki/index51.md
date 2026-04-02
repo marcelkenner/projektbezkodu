@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Recykling treści w 60 minut tygodniowo (1 materiał → 8 formatów)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Recykling treści w 60 minut tygodniowo (1 materiał → 8 formatów)

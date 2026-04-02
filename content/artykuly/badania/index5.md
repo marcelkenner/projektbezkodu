@@ -1,7 +1,7 @@
 ---
 title: 'Badanie: czas do pierwszej wersji produktu no-code'
 slug: czas-do-pierwszej-wersji-no-code
-path: /badania/czas-do-pierwszej-wersji-no-code
+path: /artykuly/badania/badanie-czas-do-pierwszej-wersji-produktu-no-code/
 template: default
 draft: false
 date: '2026-01-15'

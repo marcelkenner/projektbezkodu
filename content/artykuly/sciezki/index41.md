@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: System faktur i przypomnień — płatności, statusy, automatyczne follow-upy'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: System faktur i przypomnień — płatności, statusy, automatyczne follow-upy

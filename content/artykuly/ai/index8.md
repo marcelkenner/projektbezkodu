@@ -1,7 +1,8 @@
 ---
 title: Chatbot czy prosty formularz? Kiedy konwersacja pomaga, a kiedy szkodzi
 slug: chatbot-vs-form
-path: /chatbot-vs-form
+path: >-
+  /artykuly/ai/chatbot-czy-prosty-formularz-kiedy-konwersacja-pomaga-a-kiedy-szkodzi/
 template: default
 draft: false
 date: '2026-01-14'

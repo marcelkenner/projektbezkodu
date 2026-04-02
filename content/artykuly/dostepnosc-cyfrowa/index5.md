@@ -1,7 +1,8 @@
 ---
 title: 'Nawigacja klawiaturą: jak testować stronę zrobioną w Webflow/Framer/Wix'
 slug: nawigacja-klawiatura-testowanie-webflow-framer-wix
-path: /dostepnosc/nawigacja-klawiatura-testowanie-webflow-framer-wix
+path: >-
+  /artykuly/dostepnosc-cyfrowa/nawigacja-klawiatura-jak-testowac-strone-zrobiona-w-webflow-framer-wix/
 template: default
 draft: false
 date: '2026-01-14'

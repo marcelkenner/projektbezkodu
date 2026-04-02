@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Dashboard KPI w Looker Studio z danych no-code (bez dłubaniny co tydzień)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Dashboard KPI w Looker Studio z danych no-code (bez dłubaniny co tydzień)

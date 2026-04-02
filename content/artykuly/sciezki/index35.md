@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Monitoring automatyzacji — alerty, retry, logi (żeby nie obudzić się z ręką w nocniku)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Monitoring automatyzacji — alerty, retry, logi (żeby nie obudzić się z ręką w nocniku)

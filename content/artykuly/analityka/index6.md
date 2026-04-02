@@ -3,7 +3,8 @@ title: >-
   PostHog jako analityka produktowa w no-code: eventy, lejki, feature flags i
   eksperymenty
 slug: posthog-analityka-no-code
-path: /posthog-analityka-no-code
+path: >-
+  /artykuly/analityka/posthog-jako-analityka-produktowa-w-no-code-eventy-lejki-feature-flags-i-eksperymenty/
 template: default
 draft: false
 date: '2026-01-15'

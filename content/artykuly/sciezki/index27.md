@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Program partnerski bez platformy enterprise — tracking i wypłaty po ludzku'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Program partnerski bez platformy enterprise — tracking i wypłaty po ludzku

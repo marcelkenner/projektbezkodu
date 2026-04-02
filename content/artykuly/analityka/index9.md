@@ -3,7 +3,8 @@ title: >-
   Dashboard bez zespołu BI: Looker Studio czy Metabase — jak zbudować no-code
   dashboard
 slug: dashboard-bez-bi-looker-studio-vs-metabase
-path: /analityka/dashboard-bez-bi-looker-studio-vs-metabase
+path: >-
+  /artykuly/analityka/dashboard-bez-zespo-u-bi-looker-studio-czy-metabase-jak-zbudowac-no-code-dashboard/
 template: default
 draft: false
 date: '2026-01-14'

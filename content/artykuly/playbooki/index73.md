@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: Formularz zgłoszeń + routing (działy, priorytety, SLA) w 1 dzień'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: Formularz zgłoszeń + routing (działy, priorytety, SLA) w 1 dzień

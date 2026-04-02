@@ -1,7 +1,7 @@
 ---
 title: 'UTM-y bez chaosu: standardy, które ratują marketing'
 slug: utm-y-bez-chaosu-standardy
-path: /analityka/utm-y-bez-chaosu-standardy
+path: /artykuly/analityka/utm-y-bez-chaosu-standardy-ktore-ratuja-marketing/
 template: default
 draft: false
 date: '2026-01-14'

@@ -3,7 +3,8 @@ title: >-
   Human-in-the-loop: wzorzec, który ratuje AI w no-code przed kosztownymi
   wpadkami
 slug: human-in-the-loop-no-code
-path: /ai/human-in-the-loop-no-code
+path: >-
+  /artykuly/ai/human-in-the-loop-wzorzec-ktory-ratuje-ai-w-no-code-przed-kosztownymi-wpadkami/
 template: default
 draft: false
 date: '2026-01-14'

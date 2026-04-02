@@ -1,7 +1,8 @@
 ---
 title: 'Audyt architektury no-code: checklista 30 minut, która pokazuje, gdzie boli'
 slug: audyt-architektury-no-code-30-min
-path: /architektura/audyt-architektury-no-code-30-min
+path: >-
+  /artykuly/architektura/audyt-architektury-no-code-checklista-30-minut-ktora-pokazuje-gdzie-boli/
 template: default
 draft: false
 date: '2026-01-15'

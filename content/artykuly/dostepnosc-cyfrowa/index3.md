@@ -1,7 +1,8 @@
 ---
 title: 'Kontrast kolorów bez kodu: narzędzia i zasady dla UI/landing page'
 slug: dostepnosc-kontrast-bez-kodu
-path: /dostepnosc-kontrast-bez-kodu
+path: >-
+  /artykuly/dostepnosc-cyfrowa/kontrast-kolorow-bez-kodu-narzedzia-i-zasady-dla-ui-landing-page/
 template: default
 draft: false
 date: '2026-01-15'

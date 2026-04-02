@@ -17,5 +17,14 @@ describe("ArticleRepository", () => {
     expect(summaries.some((entry) => entry.path === "/artykuly/analityka/")).toBe(
       false,
     );
+    expect(
+      summaries.some((entry) => entry.path === "/artykuly/architektura/"),
+    ).toBe(false);
+    expect(
+      summaries.some(
+        (entry) =>
+          entry.path === "/artykuly/architektura/architektura-no-code-stabilnosc/",
+      ),
+    ).toBe(true);
   });
 });

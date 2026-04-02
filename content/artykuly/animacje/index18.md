@@ -3,7 +3,8 @@ title: >-
   No-code w aplikacjach: animacje w FlutterFlow/Bubble — co jest realne, a co
   jest marketingiem
 slug: animacje-flutterflow-bubble
-path: /animacje/flutterflow-bubble-realne-vs-marketing
+path: >-
+  /artykuly/animacje/no-code-w-aplikacjach-animacje-w-flutterflow-bubble-co-jest-realne-a-co-jest-marketingiem/
 template: default
 draft: false
 type: article

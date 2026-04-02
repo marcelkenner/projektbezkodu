@@ -1,7 +1,8 @@
 ---
 title: 'RAG w no-code: jak zbudować asystenta na Twoich dokumentach bez zespołu ML'
 slug: rag-no-code-asystent-na-dokumentach-bez-ml
-path: /rag-no-code-asystent-na-dokumentach
+path: >-
+  /artykuly/ai/rag-w-no-code-jak-zbudowac-asystenta-na-twoich-dokumentach-bez-zespo-u-ml/
 template: default
 draft: false
 date: '2026-01-14'

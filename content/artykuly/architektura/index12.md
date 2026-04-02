@@ -3,7 +3,8 @@ title: >-
   Obsługa błędów w architekturze no-code: retry, idempotencja, dead-letter i
   alerty
 slug: obsluga-bledow-no-code-retry-idempotencja-dead-letter-alerty
-path: /architektura/obsluga-bledow-no-code-retry-idempotencja-dead-letter-alerty
+path: >-
+  /artykuly/architektura/obs-uga-b-edow-w-architekturze-no-code-retry-idempotencja-dead-letter-i-alerty/
 template: default
 draft: false
 date: '2026-01-14'

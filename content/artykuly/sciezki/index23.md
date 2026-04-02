@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: System notatek ze spotkań — decyzje, taski, follow-up (zero znikających ustaleń)'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: System notatek ze spotkań — decyzje, taski, follow-up (zero znikających ustaleń)

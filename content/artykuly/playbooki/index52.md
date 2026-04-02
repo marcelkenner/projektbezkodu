@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: System publikacji na blogu bez bólu (brief → draft → redakcja → SEO → publish)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: System publikacji na blogu bez bólu (brief → draft → redakcja → SEO → publish)

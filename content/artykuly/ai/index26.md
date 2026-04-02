@@ -3,7 +3,8 @@ title: >-
   Porównanie modeli LLM do no-code: kiedy wystarczy tańszy model, a kiedy
   potrzebujesz jakości premium
 slug: porownanie-llm-do-no-code-kiedy-tanszy-a-kiedy-premium
-path: /porownanie-llm-do-no-code-kiedy-tanszy-a-kiedy-potrzebujesz-jakosci-premium
+path: >-
+  /artykuly/ai/porownanie-modeli-llm-do-no-code-kiedy-wystarczy-tanszy-model-a-kiedy-potrzebujesz-jakosci-premium/
 template: default
 draft: false
 date: '2026-01-14'

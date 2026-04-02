@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: MVP marketplace bez kodu — co da się zrobić, a co lepiej odpuścić'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: MVP marketplace bez kodu — co da się zrobić, a co lepiej odpuścić

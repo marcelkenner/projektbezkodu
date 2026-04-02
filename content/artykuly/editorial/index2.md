@@ -1,7 +1,7 @@
 ---
 title: 'Proces tworzenia treści w no-code: od briefu do publikacji'
 slug: proces-tworzenia-tresci-w-no-code-od-briefu-do-publikacji
-path: /proces-tworzenia-tresci-w-no-code-od-briefu-do-publikacji
+path: /artykuly/editorial/proces-tworzenia-tresci-w-no-code-od-briefu-do-publikacji/
 template: default
 draft: false
 date: '2026-01-14'

@@ -3,7 +3,8 @@ title: >-
   Ankiety w produkcie: Typeform vs Tally i jak interpretować wyniki bez
   samozakłamania
 slug: ankiety-typeform-tally-interpretacja
-path: /ankiety-typeform-tally-interpretacja
+path: >-
+  /artykuly/analityka/ankiety-w-produkcie-typeform-vs-tally-i-jak-interpretowac-wyniki-bez-samozak-amania/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ﻿---
 title: 'Playbook: System pozyskania klientów z LinkedIn bez spamu (DM → call → oferta)'
 category: 'playbooki'
-status: 'draft'
+draft: true
 ---
 
 # Playbook: System pozyskania klientów z LinkedIn bez spamu (DM → call → oferta)

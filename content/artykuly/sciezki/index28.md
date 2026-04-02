@@ -1,7 +1,7 @@
 ﻿---
 title: 'Ścieżka: Webinar od A do Z — rejestracja, reminder, follow-up, sprzedaż'
 category: 'sciezki'
-status: 'draft'
+draft: true
 ---
 
 # Ścieżka: Webinar od A do Z — rejestracja, reminder, follow-up, sprzedaż

@@ -1,7 +1,8 @@
 ---
 title: 'Automatyzacje z AI w no-code: gdzie to jest realna przewaga, a gdzie marketing'
 slug: ai-automatyzacje-realna-przewaga-czy-marketing
-path: /artykuly/ai/ai-automatyzacje-realna-przewaga-czy-marketing
+path: >-
+  /artykuly/automation/automatyzacje-z-ai-w-no-code-gdzie-to-jest-realna-przewaga-a-gdzie-marketing/
 template: default
 draft: false
 date: '2026-01-15'

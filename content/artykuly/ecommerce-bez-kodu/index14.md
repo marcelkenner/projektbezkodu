@@ -1,7 +1,8 @@
 ---
 title: 'Cennik i promocje: jak ustawiać rabaty bez psucia marży'
 slug: cennik-promocje-rabaty-bez-psucia-marza
-path: /cennik-promocje-rabaty-bez-psucia-marza
+path: >-
+  /artykuly/ecommerce-bez-kodu/cennik-i-promocje-jak-ustawiac-rabaty-bez-psucia-marzy/
 template: default
 draft: false
 date: '2026-01-14'
