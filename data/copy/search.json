@@ -1,15 +1,35 @@
 {
   "title": "Szukaj w ProjekcieBezKodu",
-  "intro": "Przeszukaj w jednym miejscu artykuły, tutoriale, porównania i słownik pojęć – zamiast klikać po menu.",
+  "intro": "Przeszukaj w jednym miejscu artykuły, poradniki, porównania, narzędzia, zasoby, słownik i pozostałe publiczne strony z treścią.",
   "placeholder": "Wpisz temat, np. „Webflow onboarding”",
   "form": {
     "label": "Wyszukaj frazę",
     "submitLabel": "Szukaj",
     "resetLabel": "Wyczyść"
   },
+  "filters": {
+    "typeLabel": "Typ treści",
+    "sortLabel": "Sortowanie",
+    "typeOptions": {
+      "all": "Wszystkie typy",
+      "article": "Artykuły",
+      "tutorial": "Poradniki",
+      "comparison": "Porównania",
+      "glossary": "Słownik",
+      "resource": "Zasoby",
+      "tool": "Narzędzia",
+      "page": "Pozostałe strony"
+    },
+    "sortOptions": {
+      "relevance": "Najtrafniejsze",
+      "newest": "Najnowsze"
+    }
+  },
   "results": {
     "prompt": "Wpisz wyszukiwaną frazę, żeby zobaczyć dopasowane treści.",
     "header": "Znaleziono {count} wyników",
+    "querySummary": "Dla frazy „{query}” znaleziono {count} wyników",
+    "emptyTitle": "Brak wyników dla „{query}”",
     "empty": "Nie znaleźliśmy żadnych treści pasujących do wpisanej frazy. Spróbuj użyć krótszego lub bardziej ogólnego hasła.",
     "readMoreLabel": "Zobacz szczegóły"
   },
@@ -17,7 +37,10 @@
     "article": "Artykuł",
     "tutorial": "Tutorial",
     "comparison": "Porównanie",
-    "glossary": "Słownik"
+    "glossary": "Słownik",
+    "resource": "Zasób",
+    "tool": "Narzędzie",
+    "page": "Strona"
   },
   "tips": [
     {
@@ -26,7 +49,7 @@
     },
     {
       "title": "Wykorzystaj filtry na podstronach",
-      "body": "Wiele wyników prowadzi do list artykułów lub tutoriali z dodatkowymi filtrami. Dzięki temu szybko zawężysz wyniki do dokładnie takiego materiału, jakiego potrzebujesz."
+      "body": "Wiele wyników prowadzi do stron z dodatkowymi filtrami lub do całych serii materiałów o narzędziach. Dzięki temu szybciej zawężysz wyniki do dokładnie takiej treści, jakiej potrzebujesz."
     },
     {
       "title": "Zaproponuj nowy temat",

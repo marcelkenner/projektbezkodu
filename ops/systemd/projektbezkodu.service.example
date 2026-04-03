@@ -1,0 +1,20 @@
+[Unit]
+Description=ProjektBezKodu Next.js application
+After=network.target
+
+[Service]
+Type=simple
+User=projektbezkodu
+Group=projektbezkodu
+WorkingDirectory=/srv/www/projektbezkodu/app
+Environment=NODE_ENV=production
+Environment=PORT=3001
+EnvironmentFile=/srv/www/projektbezkodu/shared/.env.production
+ExecStart=/usr/bin/npm run start -- --hostname 127.0.0.1 --port 3001
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/projektbezkodu/app.log
+StandardError=append:/var/log/projektbezkodu/app-error.log
+
+[Install]
+WantedBy=multi-user.target

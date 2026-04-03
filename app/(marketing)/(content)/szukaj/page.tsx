@@ -1,8 +1,11 @@
-import Link from "next/link";
+import type { Metadata } from "next";
 import { ContentSearchEngine } from "@/app/lib/search/ContentSearchEngine";
+import { getCopy } from "@/app/lib/copy";
 import { SearchParamParser } from "@/app/lib/url/SearchParamParser";
-import { Badge, Button, TextField } from "@/app/ui";
-import { getCopy } from "../../../lib/copy";
+import { parseSearchRequest } from "@/app/lib/search/SearchRequest";
+import { SearchControls } from "./SearchControls";
+import { SearchResultsList } from "./SearchResultsList";
+import styles from "./search.module.css";
 
 const searchEngine = new ContentSearchEngine();
 
@@ -10,89 +13,46 @@ interface SearchPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-function formatResultLabel(template: string, count: number): string {
-  return template.replace("{count}", String(count));
+interface SearchTip {
+  title: string;
+  body: string;
+}
+
+const copy = getCopy("search");
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: copy.title,
+    description: copy.intro,
+    alternates: {
+      canonical: "/szukaj/",
+    },
+    robots: {
+      index: false,
+      follow: true,
+    },
+  };
 }
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {
-  const copy = getCopy("search");
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const parser = new SearchParamParser(resolvedSearchParams);
-  const query = parser.getSingle("q") ?? "";
-  const hasQuery = query.trim().length > 0;
-  const results = hasQuery ? searchEngine.search(query) : [];
-  const hasResults = results.length > 0;
+  const request = parseSearchRequest(new SearchParamParser(resolvedSearchParams));
+  const results = searchEngine.search(request);
 
   return (
-    <section className="section section--surface">
+    <section className="section section--surface" id="content">
       <div className="pbk-container pbk-stack">
-        <div className="section__header">
+        <header className="section__header">
           <h1>{copy.title}</h1>
           <p>{copy.intro}</p>
-        </div>
-        <form className="pbk-stack pbk-stack--tight" method="get">
-          <TextField
-            id="search-query"
-            name="q"
-            type="search"
-            label={copy.form.label}
-            placeholder={copy.placeholder}
-            defaultValue={query}
-          />
-          <div className="pbk-inline-list">
-            <Button type="submit">{copy.form.submitLabel}</Button>
-            {hasQuery ? (
-              <Link
-                className="pbk-button pbk-button--tertiary"
-                href="/szukaj"
-                prefetch={false}
-              >
-                {copy.form.resetLabel}
-              </Link>
-            ) : null}
-          </div>
-        </form>
-        <div className="pbk-stack pbk-stack--tight">
-          {!hasQuery ? (
-            <p className="pbk-input__description">{copy.results.prompt}</p>
-          ) : hasResults ? (
-            <>
-              <p className="pbk-input__description">
-                {formatResultLabel(copy.results.header, results.length)}
-              </p>
-              <div className="section__grid">
-                {results.map((result) => (
-                  <div key={result.id} className="pbk-card">
-                    <div className="pbk-stack pbk-stack--tight">
-                      <Badge variant="accent">
-                        {copy.typeLabels[result.type] ?? result.type}
-                      </Badge>
-                      <h2>
-                        <Link href={result.path}>{result.title}</Link>
-                      </h2>
-                      {result.description ? <p>{result.description}</p> : null}
-                      <Link
-                        className="pbk-button pbk-button--tertiary"
-                        href={result.path}
-                      >
-                        {copy.results.readMoreLabel}
-                      </Link>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </>
-          ) : (
-            <div className="pbk-card">
-              <p>{copy.results.empty}</p>
-            </div>
-          )}
-        </div>
+        </header>
+        <SearchControls copy={copy} request={request} />
+        <SearchResultsSection request={request} results={results} />
         {(copy.tips ?? []).length ? (
-          <div className="section__grid">
-            {copy.tips.map((tip: { title: string; body: string }) => (
+          <div className={styles.tipsGrid}>
+            {copy.tips.map((tip: SearchTip) => (
               <div key={tip.title} className="pbk-card">
-                <h3>{tip.title}</h3>
+                <h2>{tip.title}</h2>
                 <p>{tip.body}</p>
               </div>
             ))}
@@ -101,4 +61,49 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       </div>
     </section>
   );
+}
+
+function SearchResultsSection({
+  request,
+  results,
+}: {
+  request: ReturnType<typeof parseSearchRequest>;
+  results: ReturnType<ContentSearchEngine["search"]>;
+}) {
+  if (request.kind === "empty") {
+    return <p className="pbk-input__description">{copy.results.prompt}</p>;
+  }
+
+  if (!results.length) {
+    return (
+      <div className={`pbk-card ${styles.emptyState}`}>
+        <h2>{formatTemplate(copy.results.emptyTitle, results.length, request.query)}</h2>
+        <p>{copy.results.empty}</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="pbk-stack pbk-stack--tight">
+      <p className="pbk-input__description" aria-live="polite">
+        {formatTemplate(copy.results.querySummary, results.length, request.query)}
+      </p>
+      <SearchResultsList
+        query={request.query}
+        results={results}
+        readMoreLabel={copy.results.readMoreLabel}
+        typeLabels={copy.typeLabels}
+      />
+    </div>
+  );
+}
+
+function formatTemplate(
+  template: string,
+  count: number,
+  query: string,
+): string {
+  return template
+    .replace("{count}", String(count))
+    .replace("{query}", query);
 }

@@ -2,11 +2,11 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import {
   ArrowRight,
-  MagnifyingGlass,
   Warning,
 } from "@phosphor-icons/react/dist/ssr";
 import { getCopy } from "@/app/lib/copy";
 import { ArticleRepository } from "@/app/lib/content/repositories";
+import { SiteSearchForm, type SiteSearchConfig } from "@/app/ui";
 import styles from "./not-found.module.css";
 
 const notFoundCopy = getCopy("not-found");
@@ -23,13 +23,6 @@ export const metadata: Metadata = {
 interface ShortcutLink {
   label: string;
   href: string;
-}
-
-interface SearchConfig {
-  label: string;
-  placeholder: string;
-  buttonLabel: string;
-  action: string;
 }
 
 interface ArticleSuggestion {
@@ -70,7 +63,7 @@ class NotFoundPageViewModel {
     return this.copy.secondaryCta;
   }
 
-  getSearchConfig(): SearchConfig {
+  getSearchConfig(): SiteSearchConfig {
     return this.copy.search;
   }
 
@@ -156,7 +149,14 @@ export default function NotFoundPage() {
             {viewModel.getSecondaryCta().label}
           </Link>
         </div>
-        <SearchForm config={viewModel.getSearchConfig()} />
+        <SiteSearchForm
+          config={viewModel.getSearchConfig()}
+          className={styles["not-found__search"]}
+          buttonClassName={styles["not-found__searchButton"] ?? ""}
+          inputId="not-found-query"
+          minLength={2}
+          required
+        />
         {viewModel.hasShortcuts() ? <ShortcutLinks links={shortcuts} /> : null}
       </div>
       <div className="pbk-container">
@@ -169,32 +169,6 @@ export default function NotFoundPage() {
         />
       </div>
     </section>
-  );
-}
-
-function SearchForm({ config }: { config: SearchConfig }) {
-  return (
-    <form
-      className={styles["not-found__search"]}
-      method="get"
-      role="search"
-      aria-label={config.label}
-      action={config.action}
-    >
-      <label className="sr-only" htmlFor="not-found-query">
-        {config.label}
-      </label>
-      <input
-        id="not-found-query"
-        name="q"
-        type="search"
-        placeholder={config.placeholder}
-        minLength={2}
-      />
-      <button type="submit" aria-label={config.buttonLabel}>
-        <MagnifyingGlass aria-hidden="true" size={20} weight="bold" />
-      </button>
-    </form>
   );
 }
 

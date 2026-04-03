@@ -6,8 +6,8 @@ import { useEffect, useId, useState } from "react";
 import {
   List as MenuIcon,
   X as CloseIcon,
-  MagnifyingGlass,
 } from "@phosphor-icons/react/dist/ssr";
+import { SiteSearchForm, type SiteSearchConfig } from "@/app/ui/search/SiteSearchForm";
 import "./ui.css";
 
 export interface NavLink {
@@ -15,12 +15,7 @@ export interface NavLink {
   href: string;
 }
 
-export interface SearchConfig {
-  action: string;
-  label: string;
-  placeholder: string;
-  buttonLabel: string;
-}
+export type SearchConfig = SiteSearchConfig;
 
 interface PrimaryNavProps {
   logo: ReactNode;
@@ -89,10 +84,13 @@ export function PrimaryNav({ logo, links, search }: PrimaryNavProps) {
             </Link>
           ))}
         </nav>
-        <SearchForm
+        <SiteSearchForm
           config={search}
           className="site-header__search site-header__search--desktop"
+          inputClassName=""
+          buttonClassName="site-header__searchButton"
           inputId="global-search-desktop"
+          required
         />
         <button
           type="button"
@@ -128,10 +126,13 @@ export function PrimaryNav({ logo, links, search }: PrimaryNavProps) {
             </Link>
           ))}
         </nav>
-        <SearchForm
+        <SiteSearchForm
           config={search}
           className="site-header__search site-header__search--drawer"
+          inputClassName=""
+          buttonClassName="site-header__searchButton"
           inputId="global-search-mobile"
+          required
         />
       </div>
       <div
@@ -140,42 +141,5 @@ export function PrimaryNav({ logo, links, search }: PrimaryNavProps) {
         onClick={closeMenu}
       />
     </header>
-  );
-}
-
-interface SearchFormProps {
-  config: SearchConfig;
-  className?: string;
-  inputId?: string;
-}
-
-function SearchForm({
-  config,
-  className = "site-header__search",
-  inputId = "global-search",
-}: SearchFormProps) {
-  return (
-    <form
-      className={className}
-      action={config.action}
-      role="search"
-      aria-label={config.label}
-    >
-      <label htmlFor={inputId} className="sr-only">
-        {config.label}
-      </label>
-      <input
-        id={inputId}
-        name="q"
-        type="search"
-        required
-        placeholder={config.placeholder}
-        autoComplete="off"
-      />
-      <button type="submit" className="site-header__searchButton">
-        <MagnifyingGlass aria-hidden="true" size={20} weight="bold" />
-        <span className="sr-only">{config.buttonLabel}</span>
-      </button>
-    </form>
   );
 }
