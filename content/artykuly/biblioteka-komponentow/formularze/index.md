@@ -1,118 +1,93 @@
 ---
-title: 'Sekcje: Formularze'
+title: Sekcje w formularzach — jak i kiedy ich używać
 slug: sekcje-formularzy
 path: /artykuly/biblioteka-komponentow/sekcje-formularzy/
-draft: true
+draft: false
 template: default
 type: template
-date: '2026-01-14'
+date: "2026-04-03"
 hero:
-  heading: 'Sekcje: Formularze'
+  heading: "Sekcje: Formularze"
   subheading: Jak grupować pola, żeby formularze były czytelne i dostępne
 seo:
   title: Sekcje w formularzach — jak i kiedy używać
-  description: >-
-    Praktyczny przewodnik po sekcjach formularzy: fieldset, legend, role ARIA i
-    wzorce projektowe.
+  description: "Praktyczny przewodnik po sekcjach formularzy: fieldset, legend, role\
+    \ ARIA i wzorce projektowe."
   keywords:
-    - formularze
-    - fieldset
-    - legend
-    - accessibility
-    - formularz sekcje
+  - formularze
+  - fieldset
+  - legend
+  - accessibility
+  - sekcje formularzy
 meta:
   summaryBullets:
-    - >-
-      Werdykt: prosty wzorzec: fieldset + legend, gdy grupujesz powiązane
-      kontrolki.
-    - 'Dla kogo: zespoły UI/UX, frontend‑y, twórcy design systemów.'
-    - 'Start: sprawdź element <fieldset> na MDN i popraw brak legendy.'
+  - "Werdykt: prosty wzorzec fieldset + legend do grupowania powiązanych kontrolek."
+  - "Dla kogo: zespoły UI/UX, frontend‑y, twórcy design systemów."
+  - "Start: sprawdź fieldset i legend w MDN i wykonaj szybki test dostępności."
   primaryCta:
-    label: 'Dokumentacja MDN: fieldset'
+    label: "Dokumentacja MDN: fieldset"
     href: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
-  updatedAt: '2026-01-14'
+  updatedAt: "2026-04-03"
 taxonomy:
   categories:
-    - biblioteka komponentów
-    - formularze
+  - biblioteka komponentów
+  - formularze
   tags:
-    - evergreen
-    - biblioteka
+  - evergreen
+  - biblioteka
 ---
 
-## Obietnica decyzji i grupa docelowa
+## Werdykty decyzji
 
-**Krótko:** gdy grupujesz powiązane pola (radiobuttony, checkboxy, ustawienia), stosuj semanticzny <fieldset> z <legend> — to najprostszy sposób, żeby formularze były dostępne i łatwiejsze w utrzymaniu. Artykuł jest dla projektantów, frontend‑developerów i właścicieli design systemów, którym zależy na szybkim werdykcie i konkretnych krokach startowych.
+**Werdykt:** jeśli grupujesz powiązane kontrole (np. radiobuttony, checkboxy, ustawienia), użyj semantycznego fieldset z legend. To najprostszy sposób, by formularze były dostępne i łatwiejsze w utrzymaniu. W praktyce oznacza to jasny kontekst dla użytkowników wspomagających oraz dla testerów dostępności. Zasada ta znajduje potwierdzenie w materiałach MDN i w specyfikacjach dotyczących grupowania elementów formularza.
 
-## Szybkie pytania i natychmiastowy kierunek
+- Uwaga: brak legendy przy fieldset bywa zgłaszany jako problem zgodności z WCAG. W praktyce prowadzi to do utrudnień dla AT i może obniżać oceny dostępności. Nie zostawiaj pustej legendy; jeśli opis grupy nie jest potrzebny, rozważ inny sposób organizacji treści, zamiast pozostawiać fieldset bez podpisu.
 
-- Czy grupować radiobuttony lub checkboxy? — **Tak: fieldset + legend.**  
-- Czy zamiast fieldset można użyć nagłówka i div? — _Można_, ale wymaga dodatkowej pracy z ARIA i testami; fieldset jest zwykle prostszy i bezpieczniejszy.  
-- Czy brak legendy to problem? — **Tak**: brak legendy przy fieldset często jest traktowany jako błąd dostępności i warto to naprawić. ([[powermapper.com](https://www.powermapper.com](https://www.powermapper.com/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai)/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai))
+## Dla kogo to ma sens
 
-## Czym są sekcje formularzy (krótko)
-
-Sekcja formularza to logiczne grupowanie powiązanych kontrolek, np. dane kontaktowe, adres wysyłki, preferencje. W HTML istnieje natywny kontener <fieldset> z podpisem <legend>, który pełni rolę podpisu grupy i ma implicite rolę accessibility `group`. W praktyce czytniki ekranu ogłaszają, że kilka kontrolek należy do tej samej grupy, a legenda wyjaśnia ich kontekst. Zobacz dokumentację MDN: [<fieldset> — MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset). ([[developer.mozilla.org](https://developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai).org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai))
-
-### Jak zacząć (3‑minutowy start)
-
-1. Zidentyfikuj zestaw kontrolek o wspólnym celu (np. "Metody płatności").  
-2. Owiń je w `<fieldset>` i dodaj pierwsze dziecko `<legend>` z krótkim opisem (1–6 słów).  
-3. Szybki test: uruchom czytnik ekranu i sprawdź, czy legenda jest ogłoszona; jeśli nie, sprawdź strukturę DOM i pozycję legendy (musi być pierwszym dzieckiem). ([[developer.mozilla.org](https://developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai).org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai))
-
-## Fakt → Skutek → Werdykt: fieldset i legend
-
-Fakt: `<fieldset>` ma semantykę grupy i implicite rolę `group`. ([[developer.mozilla.org](https://developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai).org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai))  
-Skutek: czytniki ekranu i narzędzia wspomagające lepiej przedstawiają relację między kontrolkami.  
-Werdykt: **używaj fieldset+legend, gdy grupa wymaga opisu** — to minimalna praca za lepszą dostępność.
-
-Fakt: brak legendy przy `<fieldset>` jest często zgłaszany jako problem zgodności z WCAG (np. przez narzędzia automatyczne). ([[powermapper.com](https://www.powermapper.com](https://www.powermapper.com/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai)/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai))  
-Skutek: skanery i manualni testerzy mogą zwrócić uwagę, a część użytkowników korzystających z AT może nie zrozumieć celu grupy.  
-Werdykt: **nie zostawiaj pustej legendy**; jeśli opis grupy rzeczywiście nie jest potrzebny, rozważ usunięcie fieldset zamiast pozostawiania go bez legendy.
+- Zespoły UI/UX, frontendowi programiści, twórcy design systemów, którzy dążą do prostych, bezpiecznych rozwiązań. Fieldset i legenda to minimalny koszt implementacyjny z widocznymi korzyściami dla dostępności.
+- Projekty, w których grupa kontrolek ma wspólny kontekst i potrzebny jest zrozumiały podpis. Dzięki temu czytniki ekranu ogłaszają całą grupę jako jedną jednostkę, a legenda wyjaśnia kontekst.
 
 ## Alternatywy i kiedy ich użyć
 
-- Nagłówek + div: przydatne, gdy layout wymusza niestandardową strukturę, ale wtedy musisz dodać role/aria‑label i przetestować zachowanie.  
-- role="group" (ARIA): użyteczne przy custom‑widgetach, gdzie nie możesz użyć `<fieldset>`; jednak `role="group"` nie dostarcza wizualnego podpisu i nie zastępuje semantyki `<legend>`. ([[developer.mozilla.org](https://developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai).org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai))
+- Nagłówek + div: przydatne, gdy układ wymusza niestandardową strukturę, ale wtedy trzeba dodać role/aria-label i przetestować zachowanie.
+- `role="group"` (ARIA): użyteczne w niestandardowych widgetach, gdzie nie można użyć `<fieldset>`; jednak rolą `group` brakuje wizualnego podpisu i nie zastępuje semantyki `<fieldset>`.
 
 Tabela — porównanie wzorców
 
-| Wzorzec | Dostępność | Mini-werdykt |
+| Wzorzec | Dostępność | Wady i uwagi |
 | --- | --- | --- |
-| fieldset + legend | Najlepsza semantyka; czytniki ogłaszają grupę i podpis | **Rekomendowane** |
-| heading + div (bez ARIA) | Brak semantyki grupy dla AT | _Uwaga: wymaga dodatkowych poprawek_ |
-| div + role="group" + aria-label | Poprawia dostępność, ale wymaga testów | **Akceptowalne** gdy fieldset niemożliwy |
+| fieldset + legend | Najlepsza semantyka; czytniki ogłaszają grupę i podpis | Rekomendowany w większości przypadków; wymaga legendy |
+| heading + div (bez ARIA) | Brak semantyki grupy dla AT | Wymaga dodatkowego dopasowania ARIA i testów |
+| div + role="group" + aria-label | Poprawia dostępność, ale trzeba przetestować | Akceptowalne, gdy fieldset nie jest możliwy |
 
-## Plusy, typowe skargi i synteza
+## Jak podjąć decyzję
 
-Plusy:
-- mniej kodu JS, prostsza implementacja (czysty HTML).  
-- wsparcie dla `disabled` na poziomie całej grupy (łatwe wyłączanie).  
-- lepsze wyniki w testach dostępności i mniejsza liczba fałszywych zgłoszeń.
+- Jeśli grupa ukrywa wspólny cel i wymaga podpisu kontekstowego, wybierz fieldset + legend. To najprostszy sposób na zapewnienie semantyki i łatwości stosowania.  
+- W niestandardowych widgetach, gdzie legendy nie pokazują się w naturalny sposób, rozważ `role="group"` z `aria-labelledby`, ale przetestuj zachowanie na różnych czytnikach.  
+- Gdy opis grupy nie jest potrzebny, unikaj fieldset i użyj standardowego układu etykiet, pozostawiając logiczne grupowanie w obrębie dokumentu bez dodatkowego kontenera.
 
-Typowe skargi:
-- trudności ze stylowaniem domyślnej legendy — rozwiązuje to CSS (np. reset pozycji, padding).  
-- problemy w złożonych układach responsywnych — rozwiązanie: ukryć legendę wizualnie (dla AT zostawić ją dostępną) zamiast ją usuwać.
+### Szybki start (3-minutowy plan)
 
-Synteza: fieldset+legend to niski koszt implementacyjny w zamian za realne korzyści dostępnościowe; problemy wizualne rozwiązuje się CSS‑em, nie rezygnując z semantyki.
+1) Zidentyfikuj kontrolek o wspólnym celu (np. „Metody płatności”).  
+2) Owiń je w `<fieldset>` i dodaj `<legend>` z krótkim opisem (1–6 słów).  
+3) Uruchom prosty test z urządzeniami wspomagającymi — legenda powinna być czytelnie ogłaszana jako pierwsza w grupie.  
 
-## Werdykty per segment
+## Jak zacząć
 
-- Formularze prostych ustawień (toggle, checkboxy): **fieldset+legend** — prosty i bezpieczny wybór.  
-- Złożone, niestandardowe widgety (custom selecty): rozważ `role="group"` z `aria-labelledby`, testując zachowanie na czytnikach. ([[protocol.mozilla.org](https://protocol.mozilla](https://protocol.mozilla.org/components/detail/field-set?utm_source=openai).org/components/detail/field-set?utm_source=openai))  
-- Gdy opis grupy jest zbędny: nie używaj fieldset; użyj standardowych etykiet i flow dokumentu.
+- Otwórz najważniejsze formularze i sprawdź, czy każda grupa ma sensowny podpis w legendzie.  
+- Upewnij się, że legenda jest pierwszym dzieckiem `<fieldset>` i że opis odpowiada wspólnemu celowi grupy.  
+- Przetestuj z czytnikiem ekranu (NVDA, VoiceOver) oraz z automatycznymi skanerami WCAG w CI. Niewłaściwie podpisane grupy najczęściej wykazują błędy potwierdzane przez narzędzia do testów dostępności.
 
-## Jak sprawdzić zgodność (konkretne kroki)
+_Jeżeli korzystasz z niestandardowych komponentów, porównaj zachowanie z prostym, natywnym przykładem fieldset + legend i opieraj implementację na praktykach dostępności._
 
-1. Przejrzyj HTML i znajdź wszystkie `<fieldset>` — upewnij się, że każde ma `<legend>` jako pierwsze dziecko. ([[powermapper.com](https://www.powermapper.com](https://www.powermapper.com/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai)/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai))  
-2. Uruchom automatyczny skaner WCAG w CI (narzędzia raportujące brak legendy są powszechne). ([[powermapper.com](https://www.powermapper.com](https://www.powermapper.com/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai)/products/sortsite/rules/acchtmlfieldsetnolegend/?utm_source=openai))  
-3. Przetestuj z czytnikiem ekranu (NVDA na Windows, VoiceOver na macOS) — sprawdź, czy legenda jest ogłaszana i czy nawigacja po grupie jest zrozumiała.
+## Najczęstsze ryzyka
 
-Jeżeli masz wątpliwości co do poprawności role="group" w niestandardowym komponencie, porównaj zachowanie z naturalnym `<fieldset>` w prostym przykładzie i użyj poradników implementacyjnych (np. zasoby projektowe Mozilli). ([[protocol.mozilla.org](https://protocol.mozilla](https://protocol.mozilla.org/components/detail/field-set?utm_source=openai).org/components/detail/field-set?utm_source=openai))
+- Brak legendy w fieldset prowadzi do niskiej dostępności i błędnych interpretacji grupy przez AT. Zawsze dodawaj podpis.
+- Złożone układy responsywne mogą wymagać dodatkowych stylów CSS, jeśli chcesz wizualnie ukryć legendę, pozostawiając ją dostępną dla AT. To kwestia stylowania, nie semantyki.
 
-## Podsumowanie i prosty next step
+## Start/risk — praktyczne podsumowanie
 
-**Idealne dla:** zespołów, które chcą prostego kodu i lepszej dostępności — wybierz **fieldset + legend**.  
-**Będzie frustrować:** osoby, które chcą pełnej kontroli wizualnej bez modyfikacji CSS; to jednak kwestia stylowania, nie semantyki.
-
-Prosty krok: przeszukaj swoje kluczowe formularze pod kątem `<fieldset>` bez `<legend>` i popraw te elementy; jako punkt startowy przeczytaj dokumentację MDN: [MDN: fieldset](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset). ([[developer.mozilla.org](https://developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai).org/en-US/docs/Web/HTML/Element/fieldset?utm_source=openai))
+- Silny wybór dla prostych i bezpiecznych formularzy: fieldset + legenda. Zyskujesz prosty, przewidywalny sposób na zdefiniowanie grupy kontrolek i wpływ na lepsze testy dostępności. Polecane w większości scenariuszy.
+- W przypadku skomplikowanych, niestandardowych widgetów: rozważ ARIA i role, ale pamiętaj, że nie zawsze zastąpią legendę. Zawsze testuj na co najmniej dwóch czytnikach i w CI.
+- Sprawdzaj, czy każdy fieldset ma legendę, i w razie potrzeby prostuj istniejące formularze. To dobra praktyka do weryfikacji.
