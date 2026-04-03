@@ -1,6 +1,6 @@
 # ProjektBezKodu OVH Production Runbook
 
-Last verified on 2026-04-02 from the local workstation plus direct SSH inspection of the live OVH host.
+Last verified on 2026-04-03 from the local workstation plus direct SSH inspection of the live OVH host.
 
 This runbook is the source of truth for deploying ProjektBezKodu on the shared OVH host without colliding with the already deployed CafeBadge application.
 
@@ -19,7 +19,7 @@ Follow `docs/plans.md` conventions when updating this file: keep it self-contain
 - Local app port: `3001`
 - systemd unit: `projektbezkodu.service`
 - Nginx site: `/etc/nginx/sites-available/projektbezkodu.conf`
-- Deployed GitHub commit: `0a7c6be6`
+- Deployed GitHub commit: `703effd7`
 - HTTPS: active via Certbot on `projektbezkodu.pl` and `www.projektbezkodu.pl`
 - Current certificate expiry: `2026-07-01`
 
@@ -157,6 +157,6 @@ Success means:
 
 - Do not reuse CafeBadge service names, directories, Unix users, or ports.
 - Use GitHub as the source of truth for the server checkout. Push the deployment commit before cloning on the host.
-- The working deployment commit used for the first live rollout was `0a7c6be6`; update the runbook whenever a later deployment changes the live SHA.
+- The current live deployment commit is `703effd7`; update the runbook whenever a later deployment changes the live SHA.
 - The reverse proxy must forward `Host`, `X-Forwarded-Host`, `X-Forwarded-Proto`, and `X-Forwarded-For` because canonical redirects and newsletter redirects depend on them.
 - If the app fails on `127.0.0.1:3001`, fix the systemd service or build before changing Nginx.
