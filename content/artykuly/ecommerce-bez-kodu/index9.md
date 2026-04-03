@@ -1,32 +1,33 @@
 ---
-title: "Marketing automation dla sklepu: Make/Zapier + e-mail + SMS"
-description: Porzucony koszyk, post-purchase, segmentacja i kampanie reaktywacyjne
-  bez kodu.
+title: 'Marketing automation dla sklepu: Make/Zapier + e-mail + SMS'
+description: >-
+  Porzucony koszyk, post-purchase, segmentacja i kampanie reaktywacyjne bez
+  kodu.
 category: E-commerce bez kodu
 slug: ecommerce-bez-kodu-9
-path: /ecommerce-bez-kodu-9
+path: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-9/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
-    href: /ecommerce-bez-kodu-9
-  updatedAt: "2026-04-03"
+    href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-9/
+  updatedAt: '2026-04-03'
 seo:
   keywords:
-  - marketing automation ecommerce
-  - Make.com
-  - Zapier
-  - bez kodu
-  - e-mail marketing
-  - SMS marketing
-  - porzucony koszyk
-  - post-purchase
+    - marketing automation ecommerce
+    - Make.com
+    - Zapier
+    - bez kodu
+    - e-mail marketing
+    - SMS marketing
+    - porzucony koszyk
+    - post-purchase
 ---
 
 ## Werdykt w skrócie

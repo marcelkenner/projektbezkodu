@@ -1,31 +1,33 @@
 ---
 slug: hostingi-10
-title: "DigitalOcean App Platform: prosty PaaS pod web app i API"
-path: /hostingi-10
+title: 'DigitalOcean App Platform: prosty PaaS pod web app i API'
+path: /artykuly/hostingi/hostingi-10/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 category: hosting
 tags:
-- no-code
-- hosting
-- domeny
+  - no-code
+  - hosting
+  - domeny
 meta:
   summaryBullets:
-  - Co to jest DigitalOcean App Platform i kiedy warto z niej skorzystać
-  - Jak uruchomić prostą aplikację webową lub API bez zarządzania infrastrukturą
-  - Najważniejsze kroki i ryzyka na start
-  updatedAt: "2026-04-03"
+    - Co to jest DigitalOcean App Platform i kiedy warto z niej skorzystać
+    - >-
+      Jak uruchomić prostą aplikację webową lub API bez zarządzania
+      infrastrukturą
+    - Najważniejsze kroki i ryzyka na start
+  updatedAt: '2026-04-03'
   primaryCta:
     label: Przejdź do artykułu
-    href: /hostingi-10
+    href: /artykuly/hostingi/hostingi-10/
 seo:
   keywords:
-  - DigitalOcean App Platform
-  - PaaS
-  - deploy aplikacji
-  - web API hosting
-  - SSL i DNS
+    - DigitalOcean App Platform
+    - PaaS
+    - deploy aplikacji
+    - web API hosting
+    - SSL i DNS
 ---
 
 ## Werdykt w skrócie

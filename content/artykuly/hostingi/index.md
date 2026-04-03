@@ -2,7 +2,7 @@
 title: 'Hosting dla projektów no-code: jak wybrać najlepszą opcję na start'
 slug: hostingi
 path: /artykuly/hostingi/
-draft: true
+draft: false
 template: default
 type: hub
 category: hostingi

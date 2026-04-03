@@ -1,29 +1,29 @@
 ---
 slug: ecommerce-bez-kodu-7
-title: "Dostawy i fulfillment: integracje, cenniki i automatyzacje"
-path: /ecommerce-bez-kodu-7
+title: 'Dostawy i fulfillment: integracje, cenniki i automatyzacje'
+path: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-7/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 category: E-commerce bez kodu
 hero:
   heading: Dostawy i fulfillment w praktyce dla sklepów bez kodu
 seo:
   keywords:
-  - dostawy e-commerce bez kodu
-  - fulfillment integracje
-  - BaseLinker
-  - integracja Baselinker
-  - automatyzacja wysyłek
+    - dostawy e-commerce bez kodu
+    - fulfillment integracje
+    - BaseLinker
+    - integracja Baselinker
+    - automatyzacja wysyłek
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
-    href: /ecommerce-bez-kodu-7
-  updatedAt: "2026-04-03"
+    href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-7/
+  updatedAt: '2026-04-03'
 ---
 
 ## Werdykt w skrócie

@@ -1,28 +1,32 @@
 ---
-title: "Koszyk i checkout: 15 błędów, które zabijają sprzedaż"
+title: 'Koszyk i checkout: 15 błędów, które zabijają sprzedaż'
 description: Najczęstsze przeszkody w finalizacji zakupu i jak je naprawić bez kodowania.
 category: E-commerce bez kodu
 slug: ecommerce-bez-kodu-5
-path: /ecommerce-bez-kodu-5
+path: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-5/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 seo:
   keywords:
-  - e-commerce bez kodu
-  - koszyk i checkout
-  - błędy koszyka
-  - konwersja
-  - płatności bez kodu
+    - e-commerce bez kodu
+    - koszyk i checkout
+    - błędy koszyka
+    - konwersja
+    - płatności bez kodu
 meta:
   summaryBullets:
-  - "Werdykt: uprość koszyk i checkout, aby zmniejszyć odsetek porzuceń."
-  - "Dla kogo: przydatne dla sklepów no-code, które chcą zwiększyć konwersję bez programowania."
-  - "Start: od czego zacząć od razu, by efekt był widoczny w pierwszym tygodniu."
+    - 'Werdykt: uprość koszyk i checkout, aby zmniejszyć odsetek porzuceń.'
+    - >-
+      Dla kogo: przydatne dla sklepów no-code, które chcą zwiększyć konwersję
+      bez programowania.
+    - >-
+      Start: od czego zacząć od razu, by efekt był widoczny w pierwszym
+      tygodniu.
   primaryCta:
     label: Przejdź do artykułu
-    href: /ecommerce-bez-kodu-5
-  updatedAt: "2026-04-03"
+    href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-5/
+  updatedAt: '2026-04-03'
 ---
 
 ## Werdykt w skrócie

@@ -1,19 +1,19 @@
 ---
 slug: ecommerce-bez-kodu-4
-title: "Strona produktu, która konwertuje: checklista UX bez kodu"
-path: /ecommerce-bez-kodu-4
+title: 'Strona produktu, która konwertuje: checklista UX bez kodu'
+path: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-4/
 template: default
-date: "2026-04-03"
+date: '2026-04-03'
 draft: false
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
-  updatedAt: "2026-04-03"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
+  updatedAt: '2026-04-03'
   primaryCta:
     label: Przejdź do artykułu
-    href: /ecommerce-bez-kodu-4
+    href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-4/
 ---
 
 ## Werdykt w skrócie

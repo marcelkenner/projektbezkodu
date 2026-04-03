@@ -1,30 +1,30 @@
 ---
 slug: ecommerce-bez-kodu-6
-title: "Płatności w e-commerce bez kodu: Przelewy24, Stripe, PayPal i BNPL"
-path: /ecommerce-bez-kodu-6
+title: 'Płatności w e-commerce bez kodu: Przelewy24, Stripe, PayPal i BNPL'
+path: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-6/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 meta:
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sen i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sen i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
-    href: /ecommerce-bez-kodu-6
+    href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-6/
 primaryCta:
   label: Przejdź do artykułu
-  href: /ecommerce-bez-kodu-6
+  href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-6/
 seo:
   keywords:
-  - płatności w e-commerce
-  - Przelewy24
-  - Stripe
-  - PayPal
-  - BNPL Polska
-  - BLIK
+    - płatności w e-commerce
+    - Przelewy24
+    - Stripe
+    - PayPal
+    - BNPL Polska
+    - BLIK
 ---
 
 ## Werdykt w skrócie

@@ -1,27 +1,27 @@
 ---
 slug: hostingi-11
-title: "Firebase Hosting: hosting SPA + CDN + integracja z usługami Google"
-path: /hostingi-11
+title: 'Firebase Hosting: hosting SPA + CDN + integracja z usługami Google'
+path: /artykuly/hostingi/hostingi-11/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 meta:
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   summaryBullets:
-  - Dla kogo to jest? – praktyczne wskazówki, kiedy wybrać Firebase Hosting
-  - "Kiedy warto postawić na hosting SPA z CDN: najważniejsze kryteria"
-  - "Krok po kroku: jak szybko wdrożyć projekt"
+    - Dla kogo to jest? – praktyczne wskazówki, kiedy wybrać Firebase Hosting
+    - 'Kiedy warto postawić na hosting SPA z CDN: najważniejsze kryteria'
+    - 'Krok po kroku: jak szybko wdrożyć projekt'
   primaryCta:
     label: Przejdź do artykułu
-    href: /hostingi-11
+    href: /artykuly/hostingi/hostingi-11/
 seo:
   keywords:
-  - firebase hosting
-  - hosting SPA
-  - global CDN
-  - Google Cloud integration
-  - custom domain
-  - SSL
+    - firebase hosting
+    - hosting SPA
+    - global CDN
+    - Google Cloud integration
+    - custom domain
+    - SSL
 ---
 
 ## Werdykt w skrócie

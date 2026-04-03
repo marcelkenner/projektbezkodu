@@ -1,21 +1,21 @@
 ---
-title: "Skalowanie sklepu: kiedy no-code wystarcza, a kiedy trzeba zmienić stack"
-description: "Sygnały ostrzegawcze: performance, integracje, koszty, procesy i dane."
+title: 'Skalowanie sklepu: kiedy no-code wystarcza, a kiedy trzeba zmienić stack'
+description: 'Sygnały ostrzegawcze: performance, integracje, koszty, procesy i dane.'
 category: E-commerce bez kodu
 slug: ecommerce-bez-kodu-20
-path: /ecommerce-bez-kodu-20
+path: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-20/
 template: default
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 meta:
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - 'Werdykt: krótko i konkretnie'
+    - 'Dla kogo: kiedy to ma sens i kiedy nie'
+    - 'Start: co zrobić jako pierwsze'
   primaryCta:
     label: Przejdź do artykułu
-    href: /ecommerce-bez-kodu-20
+    href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-20/
 ---
 
 ## Werdykt w skrócie
