@@ -56,6 +56,11 @@ Routing behavior:
 - **Canonical path selection**
   - Prefer explicit `frontmatter.path`.
   - Otherwise derive `/folder/subfolder/` from the file location under `content/`.
+- **Article slug redirects**
+  - Published article pages may also register deterministic legacy redirects from `frontmatter.slug`.
+  - These redirects are article-only and only exist when one old URL maps to one published article.
+  - Supported legacy article forms are `/<slug>/`, `/artykuly/<category>/<slug>/`, and selected top-level category aliases such as `/cms/<slug>/`.
+  - If the slug is ambiguous or would collide with a real canonical route, the site keeps returning `404` instead of guessing.
 - **Legacy aliases**
   - If the derived path differs from the canonical one, it becomes an alias.
   - A “title-slug” alias may be added by rewriting the last segment to `slugify(frontmatter.title)` (kept for backwards compatibility).
@@ -131,6 +136,7 @@ Fixer note:
 - Always set `path` to the URL you want users (and Google) to index.
 - Avoid changing `path` after publishing (treat it as an ID, not a label).
 - Keep `slug` descriptive. Do not use placeholder values such as `index`, `index2`, or `index17`.
+- For published articles, treat `slug` as a legacy redirect key. Changing it can break old Google-discovered URLs that currently redirect to the canonical `path`.
 - Keep `hero.heading` and `seo.description` meaningful — they feed listing cards and metadata.
 - Before publishing new `/artykuly/...` pages, ensure category `index.md` files are hubs and any subcategory folder with deeper published articles also has a hub `index.md`.
 - Prefer descriptive filenames such as `architektura-no-code-stabilnosc.md` over numbered names such as `index6.md` when adding new article leaves.

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 
 import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
+import { LegacyArticleRedirectManager } from "@/app/lib/content/LegacyArticleRedirectManager";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 import Link from "next/link";
@@ -27,6 +28,7 @@ const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
 const breadcrumbComposer = new BreadcrumbComposer();
 const articleHubManager = new ArticleHubManager();
+const legacyArticleRedirectManager = new LegacyArticleRedirectManager();
 
 interface ContentPageProps {
   params: Promise<{
@@ -44,6 +46,14 @@ export async function generateMetadata({
   const { segments } = await params;
   const viewModel = coordinator.build(segments);
   if (!viewModel) {
+    const redirectPath = legacyArticleRedirectManager.resolve(segments);
+    if (redirectPath) {
+      return {
+        alternates: {
+          canonical: redirectPath,
+        },
+      };
+    }
     const legacyArticlePath = articleHubManager.resolveLegacyCategoryPath(
       segments,
     );
@@ -63,6 +73,10 @@ export default async function ContentPage({ params }: ContentPageProps) {
   const { segments } = await params;
   const viewModel = coordinator.build(segments);
   if (!viewModel) {
+    const redirectPath = legacyArticleRedirectManager.resolve(segments);
+    if (redirectPath) {
+      permanentRedirect(redirectPath);
+    }
     const legacyArticlePath = articleHubManager.resolveLegacyCategoryPath(
       segments,
     );

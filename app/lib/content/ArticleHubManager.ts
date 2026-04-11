@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 
+import { resolveArticleCategoryAlias } from "@/app/lib/content/articleCategoryAliases";
 import { readMarkdownFile } from "@/app/lib/frontmatter";
 import { articleTaxonomyCatalog } from "@/app/lib/content/articleTaxonomy";
 import { ArticleRepository, type ContentSummary } from "@/app/lib/content/repositories";
@@ -26,11 +27,6 @@ export interface ArticleHubPayload {
 
 const DEFAULT_BASE_PATH = path.join(process.cwd(), "content", "artykuly");
 
-const SLUG_ALIASES: Record<string, string> = {
-  cms: "cms-bez-kodu",
-  dostepnosc: "dostepnosc-cyfrowa",
-};
-
 export class ArticleHubManager {
   private readonly humanizer: SlugHumanizer;
 
@@ -50,7 +46,7 @@ export class ArticleHubManager {
       return [];
     }
     const [first, ...rest] = segments;
-    const resolvedFirst = SLUG_ALIASES[first] ?? first;
+    const resolvedFirst = resolveArticleCategoryAlias(first);
     return [resolvedFirst, ...rest];
   }
 

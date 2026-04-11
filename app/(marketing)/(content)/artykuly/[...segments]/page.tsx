@@ -3,6 +3,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 
 import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
 import { ArticleCategoryFolderDirectory } from "@/app/lib/content/ArticleCategoryFolderDirectory";
+import { LegacyArticleRedirectManager } from "@/app/lib/content/LegacyArticleRedirectManager";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ArticleRepository } from "@/app/lib/content/repositories";
 import { ArtykulyHubPage } from "../ArtykulyHubPage";
@@ -13,6 +14,7 @@ const hubManager = new ArticleHubManager();
 const categoryFolderDirectory = new ArticleCategoryFolderDirectory();
 const articleRepository = new ArticleRepository();
 const contentLibrary = new ContentLibrary();
+const legacyArticleRedirectManager = new LegacyArticleRedirectManager();
 const summaries = articleRepository.listSummaries();
 
 interface ArticleSegmentsPageProps {
@@ -77,6 +79,15 @@ export async function generateMetadata({
   if (!article) {
     const entry = contentLibrary.getEntry(["artykuly", ...resolved]);
     if (!entry || isHubType(entry.document.frontmatter.type)) {
+      const legacyArticlePath = legacyArticleRedirectManager.resolve([
+        "artykuly",
+        ...segments,
+      ]);
+      if (legacyArticlePath) {
+        return {
+          alternates: { canonical: legacyArticlePath },
+        };
+      }
       return {};
     }
     return buildArticleDetailMetadata(entry.document.slug);
@@ -105,6 +116,13 @@ export default async function ArticleSegmentsPage({
   if (!article) {
     const entry = contentLibrary.getEntry(["artykuly", ...resolved]);
     if (!entry || isHubType(entry.document.frontmatter.type)) {
+      const legacyArticlePath = legacyArticleRedirectManager.resolve([
+        "artykuly",
+        ...segments,
+      ]);
+      if (legacyArticlePath) {
+        permanentRedirect(legacyArticlePath);
+      }
       notFound();
     }
     if (entry.path !== pathname) {

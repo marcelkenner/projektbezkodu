@@ -79,7 +79,7 @@ The `/artykuly` listing aggregates markdown pages whose canonical `path` lives u
 - **Leaf pages** under `/artykuly/*` are anything that is not a hub (i.e. `type !== hub`) and not a draft; they appear in `/artykuly` listings and inside hub listings.
 - The footer “Kategorie” column lists every `content/artykuly/<folder>/index.md` as `/artykuly/<folder>/` (folder-name URLs may redirect to a different canonical `path` when front matter overrides it).
 
-Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL.
+Content routing: canonical URLs are taken from frontmatter `path` (normalized to a trailing-slash form). Legacy/title-slug paths remain supported and redirect to the canonical URL. Published article slugs can also act as deterministic legacy redirect keys for old search-engine-discovered URLs such as `/<article-slug>/`, `/artykuly/<category>/<article-slug>/`, and selected category aliases like `/cms/<article-slug>/`; if a slug is ambiguous or collides with a real canonical route, the site intentionally returns `404` instead of guessing.
 Site pages additionally recover malformed merged redirect targets (for example `/<canonical>/, /<canonical>/`) to avoid 404s when crawlers encounter broken `Location` values.
 Proxy also canonicalizes `www`/apex host variants via `Host` / `X-Forwarded-Host` and returns a `308` to the configured canonical host.
 `/narzedzia/<tool>/glowny/` is intentionally indexable (explicit `index,follow` policy) because it is treated as the main long-form guide URL for each tool.
