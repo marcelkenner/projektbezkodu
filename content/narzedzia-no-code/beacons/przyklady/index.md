@@ -1,7 +1,7 @@
 ---
 title: 'Przykłady, które działają: szybki przewodnik dla autorów dokumentacji'
 slug: przyklady
-path: /przyklady
+path: /narzedzia/beacons/przyklady/
 template: default
 draft: false
 date: '2026-01-14'

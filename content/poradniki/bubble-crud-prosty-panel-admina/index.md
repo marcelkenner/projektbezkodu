@@ -1,7 +1,7 @@
 ---
 title: 'Prosty panel admina w Bubble: CRUD, role i start'
 slug: bubble-crud-prosty-panel-admina
-path: /bubble-crud-prosty-panel-admina
+path: /poradniki/bubble-crud-prosty-panel-admina/
 template: default
 draft: false
 date: '2026-01-14'

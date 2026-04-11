@@ -1,7 +1,7 @@
 ---
 title: Integracja formularza z Slack przez Make — szybki przewodnik
 slug: make-integracja-formularz-do-slack
-path: /make-integracja-formularz-do-slack
+path: /poradniki/make-integracja-formularz-do-slack/
 template: default
 draft: false
 date: '2026-01-14'

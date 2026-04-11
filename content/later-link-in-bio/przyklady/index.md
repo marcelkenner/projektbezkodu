@@ -1,7 +1,7 @@
 ---
 title: 'Przykłady: jak pisać i używać przykładów w treści'
 slug: przyklady
-path: /przyklady
+path: /narzedzia/later-link-in-bio/przyklady/
 template: default
 draft: false
 date: '2026-01-14'

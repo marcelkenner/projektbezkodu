@@ -1,7 +1,7 @@
 ---
 title: 'Framer: komponenty i varianty'
 slug: framer-komponenty-i-varianty
-path: /framer-komponenty-i-varianty
+path: /poradniki/framer-komponenty-i-varianty/
 template: default
 draft: false
 date: '2026-01-14'

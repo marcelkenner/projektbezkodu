@@ -1,7 +1,7 @@
 ---
 title: Jak zbudować dashboard KPI w Google Sheets
 slug: google-sheets-dashboard-kpi
-path: /google-sheets-dashboard-kpi
+path: /poradniki/google-sheets-dashboard-kpi/
 template: default
 draft: false
 date: '2026-01-14'

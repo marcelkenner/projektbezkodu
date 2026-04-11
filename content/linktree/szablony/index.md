@@ -1,7 +1,7 @@
 ---
 title: Szablony — kiedy używać, jak zacząć, szybki werdykt
 slug: szablony
-path: /szablony
+path: /narzedzia/linktree/szablony/
 template: default
 draft: false
 date: '2026-01-14'

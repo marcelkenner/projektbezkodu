@@ -1,7 +1,7 @@
 ---
 title: 'Calendly — rezerwacje i automatyzacje: szybki przewodnik'
 slug: calendly-rezerwacje-i-automatyzacje
-path: /calendly-rezerwacje-i-automatyzacje
+path: /poradniki/calendly-rezerwacje-i-automatyzacje/
 template: default
 draft: false
 date: '2026-01-14'

@@ -28,6 +28,16 @@ Special rule for `content/artykuly/**`:
 - Published markdown stored under `content/artykuly/<category>/...` must keep its canonical URL under `/artykuly/<category>/...`.
 - `scripts/fix-artykuly-paths.mjs` normalizes those paths automatically and prefers the frontmatter `slug` when it has to derive a new article URL.
 
+Additional route-family rules:
+
+- Tutorials in `content/poradniki/**` must publish under `/poradniki/<slug>/`.
+- Comparisons in `content/porownania/**` must publish under `/porownania/<slug>/`.
+- Resources in `content/zasoby/**` must publish under `/zasoby/<slug>/`.
+- Templates in `content/szablony/**` must publish under `/szablony/<slug>/`.
+- Lead magnets in `content/do-pobrania/**` must publish under `/do-pobrania/<slug>/`.
+- Glossary terms in `content/glossary/**` must publish under `/glossary/<slug>/`.
+- Tool guides must publish under `/narzedzia/<tool>/...`, whether the source lives under `content/narzedzia-no-code/<tool>/**` or a top-level tool folder such as `content/instapage/**`.
+
 Implementation note:
 
 - `readMarkdownFile()` still normalizes a local fallback path from the slug for direct consumers.
@@ -108,7 +118,13 @@ Authoring patterns:
 ## 6) Validation (run before build)
 
 - `npm run content:lint` parses and validates frontmatter across `content/**`.
-- It also enforces `/artykuly` hub hierarchy: category roots must be hubs, subcategory roots with published descendants must be hubs, published article content under `content/artykuly/**` must keep canonical URLs under the matching `/artykuly/<category>/...` prefix, and article slugs cannot use placeholder values like `index2`.
+- It also enforces route-family canonicals for tutorials, comparisons, resources, templates, glossary terms, lead magnets, and tool guides.
+- It enforces `/artykuly` hub hierarchy: category roots must be hubs, subcategory roots with published descendants must be hubs, published article content under `content/artykuly/**` must keep canonical URLs under the matching `/artykuly/<category>/...` prefix, and article slugs cannot use placeholder values like `index2`.
+- `_examples` fixtures are excluded from these production-path checks.
+
+Fixer note:
+
+- `npm run content:public:paths` runs `scripts/fix-public-content-paths.mjs` and corrects explicit canonical paths for the route families above without touching `_examples`.
 
 ## 7) Authoring checklist
 

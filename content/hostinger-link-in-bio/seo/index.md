@@ -1,7 +1,7 @@
 ---
 title: 'SEO: szybki przewodnik decyzji dla właściciela strony'
 slug: seo
-path: /seo
+path: /narzedzia/hostinger-link-in-bio/seo/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ---
 title: 'Tally: formularz z logiką, multi‑step i płatnościami'
 slug: tally-formularz-z-logika-i-platnoscia
-path: /tally-formularz-z-logika-i-platnoscia
+path: /poradniki/tally-formularz-z-logika-i-platnoscia/
 template: default
 draft: false
 date: '2026-01-14'

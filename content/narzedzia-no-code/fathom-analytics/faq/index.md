@@ -1,7 +1,7 @@
 ---
 title: Envato Elements – FAQ
 slug: faq
-path: /narzedzia/envato-elements/faq/
+path: /narzedzia/fathom-analytics/faq/
 template: default
 seo:
   title: Envato Elements FAQ – licencja, anulowanie, YouTube, logo, AI, faktury

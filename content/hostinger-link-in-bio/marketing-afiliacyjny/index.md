@@ -1,7 +1,7 @@
 ---
 title: 'Marketing afiliacyjny: prosty przewodnik i werdykt'
 slug: marketing-afiliacyjny
-path: /marketing-afiliacyjny
+path: /narzedzia/hostinger-link-in-bio/marketing-afiliacyjny/
 template: default
 draft: false
 date: '2026-01-14'

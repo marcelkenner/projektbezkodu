@@ -1,7 +1,7 @@
 ---
 title: Aplikacja do zamówień w Glide — szybki przewodnik
 slug: glide-aplikacja-do-zamowien
-path: /glide-aplikacja-do-zamowien
+path: /poradniki/glide-aplikacja-do-zamowien/
 template: default
 draft: false
 date: '2026-01-14'

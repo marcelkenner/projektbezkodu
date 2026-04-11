@@ -1,7 +1,7 @@
 ---
 title: 'Marketing afiliacyjny: szybki przewodnik i werdykt'
 slug: marketing-afiliacyjny
-path: /marketing-afiliacyjny
+path: /narzedzia/later-link-in-bio/marketing-afiliacyjny/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ---
 title: 'Przykłady: jak pisać skuteczne przykłady w dokumentacji'
 slug: przyklady
-path: /przyklady
+path: /narzedzia/linktree/przyklady/
 template: default
 draft: false
 date: '2026-01-14'

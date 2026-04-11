@@ -1,7 +1,7 @@
 ---
 title: Ecommerce PL — szybki przewodnik i werdykt
 slug: ecommerce-pl
-path: /ecommerce-pl
+path: /narzedzia/linktree/ecommerce-pl/
 template: default
 draft: false
 date: '2026-01-14'

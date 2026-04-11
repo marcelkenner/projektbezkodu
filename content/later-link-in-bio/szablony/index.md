@@ -1,7 +1,7 @@
 ---
 title: Szablony — jak wybrać i zacząć
 slug: szablony
-path: /szablony
+path: /narzedzia/later-link-in-bio/szablony/
 template: default
 draft: false
 date: '2026-01-14'

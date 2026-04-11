@@ -1,7 +1,7 @@
 ---
 title: Glide
 slug: glide
-path: /narzedzia/glide/
+path: /narzedzia/flowbase/alternatywy/
 template: default
 type: tool
 date: '2026-01-08'

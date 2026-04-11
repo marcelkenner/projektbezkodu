@@ -1,7 +1,7 @@
 ---
 title: 'Alternatywy: jak wybrać i kiedy szukać innej opcji'
 slug: alternatywy
-path: /alternatywy
+path: /narzedzia/linktree/alternatywy/
 template: default
 draft: false
 type: article

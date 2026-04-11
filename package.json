@@ -12,6 +12,7 @@
     "content:narzedzia:hero": "node scripts/fix-narzedzia-hero-heading.mjs",
     "content:sections:hero": "node scripts/fix-section-hero-headings.mjs",
     "content:artykuly:paths": "node scripts/fix-artykuly-paths.mjs",
+    "content:public:paths": "node scripts/fix-public-content-paths.mjs",
     "content:fix:marketing-meta": "node scripts/fix-marketing-meta.mjs",
     "tokens:build": "node brand/tokens/scripts/build.mjs",
     "format": "npm run content:narzedzia:hero && npm run content:sections:hero && npm run content:artykuly:paths && prettier --write .",

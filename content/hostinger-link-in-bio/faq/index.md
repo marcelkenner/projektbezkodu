@@ -1,7 +1,7 @@
 ---
 title: 'FAQ: jak pisać i kiedy stosować'
 slug: faq
-path: /faq
+path: /narzedzia/hostinger-link-in-bio/faq/
 template: default
 draft: false
 date: '2026-01-14'

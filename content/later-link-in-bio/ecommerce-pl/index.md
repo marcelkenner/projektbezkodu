@@ -1,7 +1,7 @@
 ---
 title: 'E-commerce w Polsce: co działa, dla kogo i jak zacząć'
 slug: ecommerce-pl
-path: /ecommerce-pl
+path: /narzedzia/later-link-in-bio/ecommerce-pl/
 template: default
 draft: false
 type: article

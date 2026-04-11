@@ -1,7 +1,7 @@
 ---
 title: Automatyczne faktury z Zapier — przewodnik krok po kroku
 slug: zapier-automatyczne-faktury
-path: /zapier-automatyczne-faktury
+path: /poradniki/zapier-automatyczne-faktury/
 template: default
 draft: false
 date: '2026-01-14'

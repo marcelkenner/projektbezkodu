@@ -1,7 +1,7 @@
 ---
 title: ConvertKit (Kit) — recenzja dla twórców
 slug: recenzja
-path: /narzedzia/convertkit/recenzja/
+path: /narzedzia/kit/recenzja/
 draft: false
 template: article
 type: review

@@ -1,7 +1,7 @@
 ---
 title: 'FAQ: jak zrobić stronę z najczęściej zadawanymi pytaniami'
 slug: faq
-path: /faq
+path: /narzedzia/beacons/faq/
 template: default
 draft: false
 date: '2026-01-14'

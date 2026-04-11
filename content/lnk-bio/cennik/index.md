@@ -1,7 +1,7 @@
 ---
 title: 'Cennik: jak zrobić stronę z cenami, która sprzedaje'
 slug: cennik
-path: /cennik
+path: /narzedzia/lnk-bio/cennik/
 template: default
 draft: false
 date: '2026-01-14'

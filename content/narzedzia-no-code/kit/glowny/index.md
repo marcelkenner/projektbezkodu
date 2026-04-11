@@ -1,7 +1,7 @@
 ---
 title: ConvertKit (Kit) – email marketing dla twórców
 slug: convertkit
-path: /narzedzia/convertkit/
+path: /narzedzia/kit/
 draft: false
 template: article
 date: '2024-12-09'

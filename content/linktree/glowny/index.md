@@ -1,7 +1,7 @@
 ---
 title: 'Strona główna, która konwertuje: szybki przewodnik'
 slug: glowny
-path: /glowny
+path: /narzedzia/linktree/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ---
 title: Recenzja Fathom Analytics
 slug: fathom
-path: /narzedzia/fathom/recenzja/
+path: /narzedzia/fathom-analytics/recenzja/
 template: default
 type: review
 hero:

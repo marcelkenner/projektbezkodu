@@ -1,7 +1,7 @@
 ---
 title: Cennik — jak zaprojektować stronę cenową, która sprzedaje
 slug: cennik
-path: /cennik
+path: /narzedzia/hostinger-link-in-bio/cennik/
 template: default
 draft: false
 date: '2026-01-14'

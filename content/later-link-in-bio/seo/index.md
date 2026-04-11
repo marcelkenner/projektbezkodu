@@ -1,7 +1,7 @@
 ---
 title: 'SEO: szybkie decyzje dla właściciela strony'
 slug: seo
-path: /seo
+path: /narzedzia/later-link-in-bio/seo/
 template: default
 draft: false
 date: '2026-01-14'

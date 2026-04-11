@@ -1,7 +1,7 @@
 ---
 title: ConvertKit – alternatywy
 slug: alternatywy
-path: /narzedzia/convertkit/alternatywy/
+path: /narzedzia/kit/alternatywy/
 draft: false
 template: article
 date: '2026-01-14'

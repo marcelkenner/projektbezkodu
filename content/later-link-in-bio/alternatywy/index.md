@@ -1,7 +1,7 @@
 ---
 title: Alternatywy — kiedy to naprawdę alternatywa i jak używać słowa
 slug: alternatywy
-path: /alternatywy
+path: /narzedzia/later-link-in-bio/alternatywy/
 template: default
 draft: false
 date: '2026-01-14'

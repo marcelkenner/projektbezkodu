@@ -1,7 +1,7 @@
 ---
 title: 'Alternatywy Canvy: co wybrać zamiast (i kiedy Canva nadal wygrywa)'
 slug: canva-alternatywy
-path: /narzedzia/canvar/alternatywy/
+path: /narzedzia/canva/alternatywy/
 template: default
 type: alternatives
 date: '2026-01-02'

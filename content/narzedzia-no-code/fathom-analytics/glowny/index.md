@@ -1,7 +1,7 @@
 ---
 title: Fathom Analytics
 slug: fathom
-path: /narzedzia/fathom/
+path: /narzedzia/fathom-analytics/
 template: default
 type: tool
 hero:

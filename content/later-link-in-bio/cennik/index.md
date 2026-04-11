@@ -1,7 +1,7 @@
 ---
 title: Cennik — jak zaprojektować ceny które sprzedają
 slug: cennik
-path: /cennik
+path: /narzedzia/later-link-in-bio/cennik/
 template: default
 draft: false
 date: '2026-01-14'

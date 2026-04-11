@@ -1,7 +1,7 @@
 ---
 title: 'Integracje: kiedy warto łączyć narzędzia i jak zacząć'
 slug: integracje
-path: /integracje
+path: /narzedzia/beacons/integracje/
 template: default
 draft: false
 date: '2026-01-14'

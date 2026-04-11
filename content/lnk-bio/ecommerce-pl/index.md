@@ -1,7 +1,7 @@
 ---
 title: Ecommerce w Polsce — szybki przewodnik i werdykt
 slug: ecommerce-pl
-path: /ecommerce-pl
+path: /narzedzia/lnk-bio/ecommerce-pl/
 template: default
 draft: false
 date: '2026-01-14'

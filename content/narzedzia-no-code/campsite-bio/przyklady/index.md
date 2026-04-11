@@ -1,7 +1,7 @@
 ---
 title: 'Przykłady: kiedy i jak ich używać'
 slug: przyklady
-path: /przyklady
+path: /narzedzia/campsite-bio/przyklady/
 template: default
 draft: false
 date: '2026-01-14'

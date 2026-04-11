@@ -1,7 +1,7 @@
 ---
 title: 'GetResponse cennik: ile to kosztuje w 2026 i jaki plan ma sens'
 slug: getresponse-cennik
-path: /narzedzia/getresponse/cennik/
+path: /narzedzia/glide/recenzja/
 template: default
 type: narzedzie-cennik
 date: '2026-01-08'

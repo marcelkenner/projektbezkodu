@@ -1,7 +1,7 @@
 ---
 title: 'Recenzja: jak napisać recenzję zgodną z SEO i oczekiwaniami czytelników'
 slug: recenzja
-path: /recenzja
+path: /narzedzia/linktree/recenzja/
 template: default
 draft: false
 date: '2026-01-14'

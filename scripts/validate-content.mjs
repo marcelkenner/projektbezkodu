@@ -3,6 +3,11 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { pathToFileURL } from "url";
+import {
+  getExpectedCanonicalPath,
+  isExcludedFromContentPathAudit,
+  normalizePublicPath,
+} from "./content-path-rules.mjs";
 
 const IGNORED_DIRECTORIES = new Set([".git", "node_modules"]);
 const ARTICLE_EXPERIENCE_SEGMENTS = new Set([
@@ -74,6 +79,11 @@ export function runContentValidation({
       const entryPath = path.join(directory, entry.name);
 
       if (entry.isDirectory()) {
+        if (
+          isExcludedFromContentPathAudit(path.relative(contentRoot, entryPath))
+        ) {
+          continue;
+        }
         walkDirectory(entryPath);
         continue;
       }
@@ -102,10 +112,11 @@ export function runContentValidation({
   function applyFrontmatterRules(frontmatter, filePath) {
     const relativePath = path.relative(contentRoot, filePath);
     const [segment] = relativePath.split(path.sep);
-    if (!segment || !ARTICLE_EXPERIENCE_SEGMENTS.has(segment)) {
+    if (!segment) {
       return;
     }
 
+    const isArticleExperienceSegment = ARTICLE_EXPERIENCE_SEGMENTS.has(segment);
     if (segment === "artykuly") {
       validateArtykulyCanonicalPath(frontmatter, filePath);
       validateArticleIndexContracts(frontmatter, filePath);
@@ -113,6 +124,12 @@ export function runContentValidation({
     }
 
     if (isDraft(frontmatter) && !strictMode) {
+      return;
+    }
+
+    validateExpectedCanonicalPath(frontmatter, filePath);
+
+    if (!isArticleExperienceSegment) {
       return;
     }
 
@@ -363,15 +380,7 @@ export function runContentValidation({
   }
 
   function normalizeFrontmatterPath(rawPath) {
-    if (typeof rawPath !== "string") {
-      return null;
-    }
-    const trimmed = rawPath.trim();
-    if (!trimmed) {
-      return null;
-    }
-    const withoutDomain = trimmed.replace(/^https?:\/\/[^/]+/i, "");
-    return ensureWrappedSlashes(withoutDomain);
+    return normalizePublicPath(rawPath);
   }
 
   function derivePathFromSource(sourcePath) {
@@ -506,6 +515,24 @@ export function runContentValidation({
       );
       return null;
     }
+  }
+
+  function validateExpectedCanonicalPath(frontmatter, filePath) {
+    const relativePath = path.relative(contentRoot, filePath);
+    const explicitPath = normalizeFrontmatterPath(frontmatter?.path);
+    if (!explicitPath) {
+      return;
+    }
+
+    const expectedPath = getExpectedCanonicalPath(relativePath, frontmatter);
+    if (!expectedPath || explicitPath === expectedPath) {
+      return;
+    }
+
+    registerError(
+      filePath,
+      `Markdown at ${relativePath.split(path.sep).join("/")} must use canonical path ${expectedPath} (found ${explicitPath}).`,
+    );
   }
 }
 

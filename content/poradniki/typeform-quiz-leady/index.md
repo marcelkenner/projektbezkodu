@@ -1,7 +1,7 @@
 ---
 title: Quiz w Typeform do generowania leadów — praktyczny przewodnik
 slug: typeform-quiz-leady
-path: /typeform-quiz-leady
+path: /poradniki/typeform-quiz-leady/
 template: default
 draft: false
 type: guide

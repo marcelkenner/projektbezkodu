@@ -3,7 +3,7 @@ title: >-
   Webflow CMS: kategorie i tagowanie — kiedy użyć multi-reference, a kiedy
   reference
 slug: webflow-cms-kategorie-tagowanie
-path: /webflow-cms-kategorie-tagowanie
+path: /poradniki/webflow-cms-kategorie-tagowanie/
 template: default
 draft: false
 date: '2026-01-14'

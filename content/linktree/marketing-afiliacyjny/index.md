@@ -1,7 +1,7 @@
 ---
 slug: marketing-afiliacyjny
 title: 'Marketing afiliacyjny: szybki przewodnik i decyzja dla wydawcy lub małej firmy'
-path: /marketing-afiliacyjny
+path: /narzedzia/linktree/marketing-afiliacyjny/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ---
 title: 'Cennik: jak napisać ofertę cenową na stronie'
 slug: cennik
-path: /cennik
+path: /narzedzia/linktree/cennik/
 template: default
 draft: false
 date: '2026-01-14'

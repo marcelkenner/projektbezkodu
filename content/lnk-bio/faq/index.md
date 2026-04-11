@@ -1,7 +1,7 @@
 ---
 title: FAQ — kiedy warto mieć stronę pytań i odpowiedzi
 slug: faq
-path: /faq
+path: /narzedzia/lnk-bio/faq/
 template: default
 draft: false
 date: '2026-01-14'

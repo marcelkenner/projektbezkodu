@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 
+import { ArticleHubManager } from "@/app/lib/content/ArticleHubManager";
 import { ContentLibrary } from "@/app/lib/content/contentLibrary";
 import { ContentPageCoordinator } from "@/app/lib/content/contentPageCoordinator";
 import Link from "next/link";
@@ -25,6 +26,7 @@ import { ContentHero } from "@/app/ui/heroes/ContentHero";
 const library = new ContentLibrary();
 const coordinator = new ContentPageCoordinator(library);
 const breadcrumbComposer = new BreadcrumbComposer();
+const articleHubManager = new ArticleHubManager();
 
 interface ContentPageProps {
   params: Promise<{
@@ -42,6 +44,16 @@ export async function generateMetadata({
   const { segments } = await params;
   const viewModel = coordinator.build(segments);
   if (!viewModel) {
+    const legacyArticlePath = articleHubManager.resolveLegacyCategoryPath(
+      segments,
+    );
+    if (legacyArticlePath) {
+      return {
+        alternates: {
+          canonical: legacyArticlePath,
+        },
+      };
+    }
     return {};
   }
   return viewModel.getMetadata();
@@ -51,6 +63,12 @@ export default async function ContentPage({ params }: ContentPageProps) {
   const { segments } = await params;
   const viewModel = coordinator.build(segments);
   if (!viewModel) {
+    const legacyArticlePath = articleHubManager.resolveLegacyCategoryPath(
+      segments,
+    );
+    if (legacyArticlePath) {
+      permanentRedirect(legacyArticlePath);
+    }
     notFound();
   }
 

@@ -1,7 +1,7 @@
 ---
 title: 'Softr: jak zbudować katalog ogłoszeń (listy, filtry, logowanie, płatności)'
 slug: softr-katalog-ogloszen
-path: /softr-katalog-ogloszen
+path: /poradniki/softr-katalog-ogloszen/
 template: default
 draft: false
 type: article

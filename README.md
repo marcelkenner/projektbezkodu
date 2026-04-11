@@ -22,6 +22,7 @@ Next.js App Router workspace for projektbezkodu.pl. The stack pairs Tailwind v4 
 | `npm run lint`         | ESLint                                                                           |
 | `npm run test`         | Runs unit tests (Vitest)                                                         |
 | `npm run content:lint` | Scans every markdown file via `gray-matter` to catch invalid YAML before runtime |
+| `npm run content:public:paths` | Repairs explicit canonicals for tutorials, tools, resources, comparisons, templates, glossary terms, and lead magnets |
 | `npm run content:fix:marketing-meta` | Fills missing `meta.summaryBullets` + `meta.primaryCta` for marketing templates |
 | `npm run tokens:build` | Rebuilds design tokens (`brand/tokens/*`)                                        |
 | `npm run svg:optimize` | Optimises brand SVGs via SVGO                                                    |
@@ -87,7 +88,7 @@ SEO helpers: XML sitemap lives at `/sitemap.xml` (`app/sitemap.ts`) and aggregat
 
 Tool hubs: `/narzedzia/<tool>/` is a grid listing, while the tool’s main guide is readable at `/narzedzia/<tool>/glowny/` and sourced from `content/narzedzia-no-code/<tool>/glowny/index.md`.
 
-Because the generic renderer preloads every markdown file, a single malformed front matter block can break the site. Run `npm run content:lint` locally (it executes automatically on `npm run build`) to catch errors early. The script lists each offending file plus the YAML parser message so you know what to fix.
+Because the generic renderer preloads every markdown file, a single malformed front matter block can break the site. Run `npm run content:lint` locally (it executes automatically on `npm run build`) to catch errors early. The script lists each offending file plus the YAML parser message so you know what to fix, and it now rejects production pages whose canonical paths leave their route family (for example a tutorial outside `/poradniki/` or a tool page outside `/narzedzia/<tool>/...`). Use `npm run content:public:paths` when you want the repository to repair those explicit-path mistakes automatically.
 
 Newsletter forms (`/api/newsletter/*`) redirect using `Forwarded` / `X-Forwarded-*` headers when present; ensure your reverse proxy forwards them so redirects keep the public origin.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Alternatywy: jak wybierać i porównywać opcje'
 slug: alternatywy
-path: /alternatywy
+path: /narzedzia/lnk-bio/alternatywy/
 template: default
 draft: false
 date: '2026-01-14'

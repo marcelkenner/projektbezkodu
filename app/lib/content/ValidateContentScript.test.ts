@@ -444,4 +444,137 @@ describe("scripts/validate-content.mjs", () => {
       ),
     ).toBe(true);
   });
+
+  it("rejects tutorials whose explicit canonical path leaves the /poradniki/ route family", async () => {
+    const { root, contentRoot } = await createTempProject();
+    await writeMarkdown(
+      path.join(contentRoot, "poradniki", "webflow-forms", "index.md"),
+      [
+        "---",
+        "title: Webflow Forms",
+        "slug: webflow-forms",
+        "path: /webflow-forms/",
+        "template: tutorial",
+        "draft: false",
+        "meta:",
+        "  summaryBullets:",
+        "    - One",
+        "    - Two",
+        "    - Three",
+        "  primaryCta:",
+        "    label: Start",
+        "    href: /kontakt/",
+        "---",
+        "",
+        "# Tutorial",
+        "",
+      ].join("\n"),
+    );
+
+    const modulePath = path.resolve(__dirname, "../../../scripts/validate-content.mjs");
+    const { runContentValidation } = (await import(modulePath)) as {
+      runContentValidation: (options: {
+        projectRoot: string;
+        strictMode?: boolean;
+      }) => {
+        errors: Array<{ file: string; message: string }>;
+      };
+    };
+
+    const result = runContentValidation({ projectRoot: root });
+    expect(
+      result.errors.some(
+        (entry) =>
+          entry.file === "content/poradniki/webflow-forms/index.md" &&
+          entry.message.includes("must use canonical path /poradniki/webflow-forms/"),
+      ),
+    ).toBe(true);
+  });
+
+  it("rejects tool pages whose explicit canonical path leaves the /narzedzia/<tool>/ route family", async () => {
+    const { root, contentRoot } = await createTempProject();
+    await writeMarkdown(
+      path.join(contentRoot, "hostinger-link-in-bio", "recenzja", "index.md"),
+      [
+        "---",
+        "title: Hostinger Link in Bio",
+        "slug: recenzja",
+        "path: /recenzja/",
+        "template: article",
+        "type: article",
+        "draft: false",
+        "meta:",
+        "  summaryBullets:",
+        "    - One",
+        "    - Two",
+        "    - Three",
+        "  primaryCta:",
+        "    label: Start",
+        "    href: /kontakt/",
+        "---",
+        "",
+        "# Tool review",
+        "",
+      ].join("\n"),
+    );
+
+    const modulePath = path.resolve(__dirname, "../../../scripts/validate-content.mjs");
+    const { runContentValidation } = (await import(modulePath)) as {
+      runContentValidation: (options: {
+        projectRoot: string;
+        strictMode?: boolean;
+      }) => {
+        errors: Array<{ file: string; message: string }>;
+      };
+    };
+
+    const result = runContentValidation({ projectRoot: root });
+    expect(
+      result.errors.some(
+        (entry) =>
+          entry.file === "content/hostinger-link-in-bio/recenzja/index.md" &&
+          entry.message.includes(
+            "must use canonical path /narzedzia/hostinger-link-in-bio/recenzja/",
+          ),
+      ),
+    ).toBe(true);
+  });
+
+  it("ignores fixture content under content/_examples during canonical path audits", async () => {
+    const { root, contentRoot } = await createTempProject();
+    await writeMarkdown(
+      path.join(
+        contentRoot,
+        "_examples",
+        "fixtures",
+        "broken-tutorial",
+        "index.md",
+      ),
+      [
+        "---",
+        "title: Fixture tutorial",
+        "slug: fixture-tutorial",
+        "path: /broken-fixture/",
+        "template: tutorial",
+        "draft: false",
+        "---",
+        "",
+        "# Fixture",
+        "",
+      ].join("\n"),
+    );
+
+    const modulePath = path.resolve(__dirname, "../../../scripts/validate-content.mjs");
+    const { runContentValidation } = (await import(modulePath)) as {
+      runContentValidation: (options: {
+        projectRoot: string;
+        strictMode?: boolean;
+      }) => {
+        errors: Array<{ file: string; message: string }>;
+      };
+    };
+
+    const result = runContentValidation({ projectRoot: root });
+    expect(result.errors).toEqual([]);
+  });
 });

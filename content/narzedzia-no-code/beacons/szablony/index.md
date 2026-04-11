@@ -1,7 +1,7 @@
 ---
 title: Szablony — kiedy użyć, jak zacząć i co daje najszybszy efekt
 slug: szablony
-path: /szablony
+path: /narzedzia/beacons/szablony/
 template: default
 draft: false
 date: '2026-01-14'

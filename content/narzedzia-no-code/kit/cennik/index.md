@@ -1,7 +1,7 @@
 ---
 title: ConvertKit – cennik
 slug: cennik
-path: /narzedzia/convertkit/cennik/
+path: /narzedzia/kit/cennik/
 draft: false
 template: article
 type: review

@@ -1,7 +1,7 @@
 ---
 title: 'Notion: portal klienta — szybki poradnik'
 slug: notion-portal-klienta
-path: /notion-portal-klienta
+path: /poradniki/notion-portal-klienta/
 template: default
 draft: false
 type: article

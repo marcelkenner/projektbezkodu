@@ -1,7 +1,7 @@
 ---
 title: 'MailerLite: segmentacja i sekwencje — praktyczny przewodnik'
 slug: mailerlite-segmentacja-i-sekwencje
-path: /mailerlite-segmentacja-i-sekwencje
+path: /poradniki/mailerlite-segmentacja-i-sekwencje/
 template: default
 draft: false
 type: article

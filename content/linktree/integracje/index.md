@@ -1,7 +1,7 @@
 ---
 title: Integracje — przewodnik decyzyjny
 slug: integracje
-path: /integracje
+path: /narzedzia/linktree/integracje/
 template: default
 draft: false
 date: '2026-01-14'

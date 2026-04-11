@@ -185,4 +185,63 @@ describe("ArticleHubManager", () => {
       "/artykuly/seo/audyty/checklista-audytu/",
     ]);
   });
+
+  it("resolves legacy top-level category aliases to canonical hub and article paths", () => {
+    const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "pbk-hubs-"));
+    const hubIndex = path.join(tmpDir, "dostepnosc-cyfrowa", "index.md");
+    const articleLeaf = path.join(tmpDir, "dostepnosc-cyfrowa", "pdf.md");
+
+    writeFile(
+      hubIndex,
+      [
+        "---",
+        'title: "Dostępność cyfrowa"',
+        "slug: dostepnosc-cyfrowa",
+        "path: /artykuly/dostepnosc-cyfrowa/",
+        "template: default",
+        "type: hub",
+        "draft: false",
+        "---",
+        "",
+      ].join("\n"),
+    );
+
+    writeFile(
+      articleLeaf,
+      [
+        "---",
+        'title: "PDF i dokumenty"',
+        "slug: pdf-i-dokumenty-na-stronie-dostepne",
+        "path: /artykuly/dostepnosc-cyfrowa/pdf-i-dokumenty-na-stronie-jak-publikowac-tresci-w-sposob-dostepny/",
+        "template: default",
+        "type: article",
+        "draft: false",
+        "---",
+        "",
+      ].join("\n"),
+    );
+
+    const summariesProvider = new StubSummariesProvider([
+      {
+        slug: "pdf-i-dokumenty-na-stronie-dostepne",
+        title: "PDF i dokumenty",
+        path: "/artykuly/dostepnosc-cyfrowa/pdf-i-dokumenty-na-stronie-jak-publikowac-tresci-w-sposob-dostepny/",
+        description: "Leaf",
+        draft: false,
+      },
+    ]);
+
+    const manager = new ArticleHubManager(summariesProvider, tmpDir);
+    expect(manager.resolveLegacyCategoryPath(["dostepnosc"])).toBe(
+      "/artykuly/dostepnosc-cyfrowa/",
+    );
+    expect(
+      manager.resolveLegacyCategoryPath([
+        "dostepnosc",
+        "pdf-i-dokumenty-na-stronie-dostepne",
+      ]),
+    ).toBe(
+      "/artykuly/dostepnosc-cyfrowa/pdf-i-dokumenty-na-stronie-jak-publikowac-tresci-w-sposob-dostepny/",
+    );
+  });
 });

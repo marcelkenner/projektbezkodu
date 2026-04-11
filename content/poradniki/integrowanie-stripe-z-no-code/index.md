@@ -1,7 +1,7 @@
 ---
 title: 'Integracja Stripe z narzędziami no‑code: szybki przewodnik i werdykt'
 slug: integrowanie-stripe-z-no-code
-path: /integrowanie-stripe-z-no-code
+path: /poradniki/integrowanie-stripe-z-no-code/
 template: default
 draft: false
 type: guide

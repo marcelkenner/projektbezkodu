@@ -1,7 +1,7 @@
 ---
 title: Szablony
 slug: szablony
-path: /szablony
+path: /narzedzia/campsite-bio/szablony/
 template: default
 draft: false
 date: '2026-01-14'

@@ -1,7 +1,7 @@
 ---
 title: Alternatywy dla Fathom Analytics
 slug: alternatywy
-path: /narzedzia/fathom/alternatywy/
+path: /narzedzia/fathom-analytics/alternatywy/
 template: default
 type: alternatives
 hero:

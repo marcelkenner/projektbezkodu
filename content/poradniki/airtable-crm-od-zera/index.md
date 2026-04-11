@@ -1,7 +1,7 @@
 ---
 title: Airtable CRM od zera — prosty poradnik
 slug: airtable-crm-od-zera
-path: /airtable-crm-od-zera
+path: /poradniki/airtable-crm-od-zera/
 template: default
 draft: false
 date: '2026-01-14'

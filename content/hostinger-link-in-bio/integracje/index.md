@@ -1,7 +1,7 @@
 ---
 title: 'Integracje: kiedy je wdrożyć i jak nie popełnić błędu'
 slug: integracje
-path: /integracje
+path: /narzedzia/hostinger-link-in-bio/integracje/
 template: default
 draft: false
 date: '2026-01-14'

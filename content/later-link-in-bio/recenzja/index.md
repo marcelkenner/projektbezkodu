@@ -1,7 +1,7 @@
 ---
 title: 'Recenzja: krótki przewodnik i jednoznaczny werdykt'
 slug: recenzja
-path: /recenzja
+path: /narzedzia/later-link-in-bio/recenzja/
 template: default
 draft: false
 date: '2026-01-14'

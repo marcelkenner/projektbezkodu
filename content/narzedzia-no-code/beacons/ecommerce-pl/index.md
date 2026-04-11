@@ -1,7 +1,7 @@
 ---
 title: E-commerce w Polsce — szybki przewodnik dla sprzedawców
 slug: ecommerce-pl
-path: /ecommerce-pl
+path: /narzedzia/beacons/ecommerce-pl/
 template: default
 draft: false
 date: '2026-01-14'

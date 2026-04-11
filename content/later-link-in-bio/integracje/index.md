@@ -1,7 +1,7 @@
 ---
 title: 'Integracje: jak wybrać i zacząć — szybki przewodnik'
 slug: integracje
-path: /integracje
+path: /narzedzia/later-link-in-bio/integracje/
 template: default
 draft: false
 type: article

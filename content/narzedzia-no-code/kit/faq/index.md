@@ -1,7 +1,7 @@
 ---
 title: ConvertKit – FAQ dla twórców newsletterów
 slug: faq
-path: /narzedzia/convertkit/faq/
+path: /narzedzia/kit/faq/
 draft: false
 template: article
 date: '2026-01-14'

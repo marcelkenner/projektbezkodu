@@ -1,7 +1,7 @@
 ---
 title: 'Recenzja: jak czytać i ocenić recenzję produktu'
 slug: recenzja
-path: /recenzja
+path: /narzedzia/hostinger-link-in-bio/recenzja/
 template: default
 draft: false
 type: article

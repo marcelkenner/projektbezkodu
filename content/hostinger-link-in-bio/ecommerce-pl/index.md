@@ -1,7 +1,7 @@
 ---
 title: Ecommerce w Polsce — szybki werdykt i praktyczny start
 slug: ecommerce-pl
-path: /ecommerce-pl
+path: /narzedzia/hostinger-link-in-bio/ecommerce-pl/
 template: default
 draft: false
 date: '2026-01-14'

@@ -3,7 +3,7 @@ title: >-
   FAQ: jak zaprojektować stronę pytań i odpowiedzi, która pomaga użytkownikom (i
   nie szkodzi SEO)
 slug: faq
-path: /faq
+path: /narzedzia/later-link-in-bio/faq/
 template: default
 draft: false
 date: '2026-01-14'

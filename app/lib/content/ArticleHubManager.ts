@@ -28,6 +28,7 @@ const DEFAULT_BASE_PATH = path.join(process.cwd(), "content", "artykuly");
 
 const SLUG_ALIASES: Record<string, string> = {
   cms: "cms-bez-kodu",
+  dostepnosc: "dostepnosc-cyfrowa",
 };
 
 export class ArticleHubManager {
@@ -77,6 +78,36 @@ export class ArticleHubManager {
     }
     const summaries = this.repository.listSummaries();
     return summaries.find((summary) => summary.path === normalized) ?? null;
+  }
+
+  resolveLegacyCategoryPath(segments: string[]): string | null {
+    if (!segments.length) {
+      return null;
+    }
+
+    const resolvedSegments = this.resolveSegments(segments);
+    if (resolvedSegments.join("/") === segments.join("/")) {
+      return null;
+    }
+
+    const hub = this.getHub(resolvedSegments);
+    if (hub && resolvedSegments.length === 1) {
+      return hub.hub.href;
+    }
+
+    if (resolvedSegments.length !== 2) {
+      return null;
+    }
+
+    const [categorySlug, articleSlug] = resolvedSegments;
+    const canonicalPath = `/artykuly/${categorySlug}/${articleSlug}/`;
+    const directMatch = this.findArticleByPath(canonicalPath);
+    if (directMatch) {
+      return directMatch.path;
+    }
+
+    const article = this.findArticleBySlug(categorySlug, articleSlug);
+    return article?.path ?? null;
   }
 
   private listHubDescriptors(maxDepth: number): ArticleHubDescriptor[] {
@@ -165,6 +196,23 @@ export class ArticleHubManager {
       return false;
     }
     return type.trim().toLowerCase() === "hub";
+  }
+
+  private findArticleBySlug(
+    categorySlug: string,
+    articleSlug: string,
+  ): ContentSummary | null {
+    const categoryPrefix = `/artykuly/${categorySlug}/`;
+    return (
+      this.repository
+        .listSummaries()
+        .find(
+          (summary) =>
+            summary.slug === articleSlug &&
+            summary.path.startsWith(categoryPrefix) &&
+            summary.path !== categoryPrefix,
+        ) ?? null
+    );
   }
 
   private listArticles(prefixHref: string): ContentSummary[] {

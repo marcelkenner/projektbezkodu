@@ -1,7 +1,7 @@
 ---
 title: 'Przykłady: jak pisać je tak, żeby działały'
 slug: przyklady
-path: /przyklady
+path: /narzedzia/hostinger-link-in-bio/przyklady/
 template: default
 draft: false
 date: '2026-01-14'

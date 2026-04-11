@@ -1,7 +1,7 @@
 ---
 title: Główny — szybki przewodnik użycia i werdykt
 slug: glowny
-path: /glowny
+path: /narzedzia/hostinger-link-in-bio/
 template: default
 draft: false
 date: '2026-01-14'

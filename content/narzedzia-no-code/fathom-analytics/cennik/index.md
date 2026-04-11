@@ -1,7 +1,7 @@
 ---
 title: Cennik Fathom Analytics
 slug: cennik
-path: /narzedzia/fathom/cennik/
+path: /narzedzia/fathom-analytics/cennik/
 template: default
 type: pricing
 hero:

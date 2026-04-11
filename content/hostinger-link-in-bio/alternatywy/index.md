@@ -1,7 +1,7 @@
 ---
 title: Alternatywy — jak wybierać i kiedy szukać zamienników
 slug: alternatywy
-path: /alternatywy
+path: /narzedzia/hostinger-link-in-bio/alternatywy/
 template: default
 draft: false
 type: article

@@ -1,7 +1,7 @@
 ---
 title: 'Główna strona: jak zbudować stronę główną, która konwertuje'
 slug: glowny
-path: /glowny
+path: /narzedzia/later-link-in-bio/
 template: default
 draft: false
 type: article

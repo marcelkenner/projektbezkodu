@@ -1,7 +1,7 @@
 ---
 title: Szablony — kiedy warto ich używać i jak zacząć
 slug: szablony
-path: /szablony
+path: /narzedzia/hostinger-link-in-bio/szablony/
 template: default
 draft: false
 date: '2026-01-14'
