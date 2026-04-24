@@ -21,10 +21,14 @@ seo:
 meta:
   summaryBullets:
     - >-
-      Werdykt: krótko i konkretnie — polityka minimalizuje ryzyko i zostawia
-      autonomię.
-    - 'Dla kogo: startups, PM-y, dział prawny; kiedy to ma sens i kiedy nie.'
-    - 'Start: 5 minut — zidentyfikuj narzędzia, opisz zakazy i zatwierdź.'
+      Werdykt: krótka polityka AI porządkuje zakazy, odpowiedzialność i użycie
+      danych bez blokowania bezpiecznych eksperymentów.
+    - >-
+      Dla kogo: startupy, HR, IT i compliance; nie jako luźna notatka dla branż
+      regulowanych.
+    - >-
+      Start: wypisz narzędzia AI, trzy zakazy dla danych i właściciela przeglądu
+      polityki.
     - >-
       Aktualizacja: przegląd co 12 miesięcy lub przy wdrożeniu nowego systemu
       AI.

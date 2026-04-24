@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Breadcrumbs } from "@/app/ui";
 import type { BreadcrumbItem } from "@/app/lib/navigation/BreadcrumbComposer";
+import { getPriorityHeroImageAttributes } from "./priorityHeroImage";
 import styles from "./content-hero.module.css";
 
 interface HeroImage {
@@ -23,6 +24,8 @@ export function ContentHero({
   breadcrumbs,
   image,
 }: ContentHeroProps) {
+  const priorityHeroImageAttributes = getPriorityHeroImageAttributes();
+
   return (
     <div className={styles.hero}>
       <div className={styles.media} aria-hidden={true}>
@@ -33,8 +36,8 @@ export function ContentHero({
             width={image.width ?? 1600}
             height={image.height ?? 900}
             className={styles.image}
-            priority
             sizes="100vw"
+            {...priorityHeroImageAttributes}
           />
         ) : (
           <div className={styles.placeholder} />

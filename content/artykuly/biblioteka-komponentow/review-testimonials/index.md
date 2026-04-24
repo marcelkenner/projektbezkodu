@@ -1,39 +1,46 @@
 ---
-title: "Sekcje: Referencje i social proof"
+title: 'Sekcje: Referencje i social proof'
 slug: sekcje-referencje-social-proof
 path: /artykuly/biblioteka-komponentow/sekcje-referencje-social-proof/
 draft: false
 template: default
 type: template
-date: "2026-04-03"
+date: '2026-04-03'
 hero:
-  heading: "Sekcje: Referencje i social proof"
+  heading: 'Sekcje: Referencje i social proof'
   subheading: Wpis przygotowany do publikacji — krótkie wskazówki i praktyczne decyzje.
 seo:
-  title: "Sekcje: Referencje i social proof — szybki werdykt i jak zacząć"
-  description: Jak zaprojektować sekcję referencji, która konwertuje — krótki przewodnik
-    z typowymi błędami i natychmiastowym startem.
+  title: 'Sekcje: Referencje i social proof — szybki werdykt i jak zacząć'
+  description: >-
+    Jak zaprojektować sekcję referencji, która konwertuje — krótki przewodnik z
+    typowymi błędami i natychmiastowym startem.
   keywords:
-  - referencje
-  - social proof
-  - testimonials
-  - UX
-  - landing page
+    - referencje
+    - social proof
+    - testimonials
+    - UX
+    - landing page
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: social proof zaczynaj od krótkich cytatów z rezultatami, a
+      logotypy i case studies dokładaj później.
+    - >-
+      Dla kogo: SaaS, B2B, usługi profesjonalne i strony leadowe; nie dla
+      produktu bez realnych dowodów zaufania.
+    - >-
+      Start: zbierz minimalny zestaw cytatów, imion, stanowisk i liczb, a potem
+      umieść go przy głównym CTA.
   primaryCta:
     label: Przykłady i wskazówki
     href: https://blog.hubspot.com/marketing/social-proof-examples-landing-pages
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   author: Redakcja
   hasAffiliateLinks: false
 taxonomy:
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Werdykt w skrócie

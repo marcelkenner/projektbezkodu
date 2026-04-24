@@ -22,9 +22,15 @@ seo:
     aplikacji wewnętrznych i MVP produktów cyfrowych.
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Softr zostaje dla szybkich portali na Airtable, a Bubble lub
+      Retool wybierz przy logice, SQL, SSO i większej kontroli.
+    - >-
+      Dla kogo: portale, MVP i wewnętrzne CRUD-y; nie dla aplikacji z
+      wielopoziomowymi regułami i wymaganiem eksportu kodu.
+    - >-
+      Start: zrób 60-minutowy POC z tabelą, widokiem detalu, logowaniem i jedną
+      regułą uprawnień.
   primaryCta:
     label: Przejdź do artykułu
     href: /narzedzia/softr/alternatywy/

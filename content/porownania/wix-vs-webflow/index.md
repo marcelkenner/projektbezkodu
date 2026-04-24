@@ -24,7 +24,9 @@ meta:
     - >-
       Werdykt: Webflow — dla projektantów potrzebujących pełnej kontroli i
       skalowalnego CMS.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - >-
+      Start: przetestuj szablon Wix i starter Webflow, porównując koszt startu,
+      e-commerce, krzywą nauki i potrzeby CMS.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/wix-vs-webflow/

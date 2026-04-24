@@ -21,9 +21,15 @@ seo:
     minimalizm.
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: przy prostych stronach zostań przy Plausible, a Matomo lub GA4
+      wybierz dopiero dla e-commerce, segmentacji i surowych danych.
+    - >-
+      Dla kogo: blogi, małe firmy i zespoły privacy-first; nie dla pełnej
+      atrybucji, raw SQL i zaawansowanych lejków.
+    - >-
+      Start: wdroż skrypt alternatywy na jednej stronie testowej i porównuj
+      sesje, źródła oraz konwersje przez 7 dni.
   primaryCta:
     label: Przejdź do artykułu
     href: /narzedzia/plausible/alternatywy/

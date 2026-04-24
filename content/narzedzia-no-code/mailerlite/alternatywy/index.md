@@ -26,9 +26,15 @@ seo:
     - ConvertKit
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: zostań przy MailerLite dla prostoty i kosztów, a ActiveCampaign
+      lub ConvertKit wybierz dopiero przy CRM albo monetyzacji treści.
+    - >-
+      Dla kogo: małe listy, firmy z potrzebą automatyzacji i twórcy; nie dla
+      migracji bez sprawdzenia cen przy większej bazie.
+    - >-
+      Start: wyeksportuj CSV, zmapuj pola i przetestuj wysyłkę do 100-500
+      kontaktów przed przełączeniem formularzy.
   primaryCta:
     label: Zobacz cennik MailerLite
     href: https://www.mailerlite.com/pricing

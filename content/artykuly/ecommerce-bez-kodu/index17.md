@@ -22,9 +22,15 @@ seo:
     - Shopify
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: self-serve zwroty bez kodu mają sens, gdy chcesz zmniejszyć
+      liczbę maili i ręcznej obsługi.
+    - >-
+      Dla kogo: małe i średnie sklepy, szczególnie przy ponad 50 zamówieniach
+      dziennie; nie zawsze wymagają płatnej aplikacji.
+    - >-
+      Start: spisz zasady zwrotów, uruchom formularz i przetestuj cały proces na
+      jednym zamówieniu.
   primaryCta:
     label: Przeczytaj dokumentację Shopify
     href: https://help.shopify.com/en/manual/fulfillment/managing-orders/returns

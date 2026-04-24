@@ -22,7 +22,6 @@ import { RandomArticlesSection } from "../../../components/RandomArticlesSection
 import { BreadcrumbComposer } from "@/app/lib/navigation/BreadcrumbComposer";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { ToolGuideIndexingPolicy } from "@/app/lib/seo/ToolGuideIndexingPolicy";
-import "../../../artykuly/article.module.css";
 import { ContentHero } from "@/app/ui/heroes/ContentHero";
 
 const library = new ContentLibrary();

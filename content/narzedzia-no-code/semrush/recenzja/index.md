@@ -24,9 +24,15 @@ seo:
     - narzędzia SEO
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Semrush kupujesz dla pełnego stacku SEO, contentu, PPC i
+      raportów, nie jako najtańsze narzędzie do jednego zadania.
+    - >-
+      Dla kogo: agencje i zespoły full-service; nie dla freelancerów z małym
+      budżetem albo osób skupionych wyłącznie na backlinkach.
+    - >-
+      Start: uruchom 7-dniowy trial SEO Toolkit, dodaj projekt i porównaj Site
+      Audit z obecnymi danymi.
   primaryCta:
     label: Sprawdź cennik Semrush
     href: https://www.semrush.com/kb/140-how-much-does-semrush-cost

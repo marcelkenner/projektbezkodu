@@ -34,7 +34,9 @@ meta:
     - >-
       Szybkie starty: oba oferują 14-dniowe triale; MailerLite ma darmowy próg
       do 500 subskrybentów.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - >-
+      Dla kogo: GetResponse przy webinarach i automatyzacji sprzedaży;
+      MailerLite przy tanich landing page’ach, testach i prostym newsletterze.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/getresponse-vs-mailerlite/

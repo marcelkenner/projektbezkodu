@@ -25,8 +25,12 @@ meta:
       Werdykt: Dla większości małych i średnich serwisów wybierz Bunny; dla
       projektów potrzebujących zaawansowanego WAF/DDoS/edge compute —
       Cloudflare.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - >-
+      Dla kogo: Bunny dla prostego CDN i niskiego kosztu transferu; Cloudflare
+      dla aplikacji z WAF, Workers, R2 i globalnym ruchem.
+    - >-
+      Start: policz miesięczny transfer i sprawdź, czy naprawdę wykorzystasz
+      funkcje bezpieczeństwa lub edge compute Cloudflare.
   review:
     productName: Porównanie Bunnycdn i Cloudflare
     author: Redakcja

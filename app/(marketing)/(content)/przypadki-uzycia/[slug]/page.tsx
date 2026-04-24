@@ -19,6 +19,7 @@ import {
 import styles from "./case-study.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
+import { getPriorityHeroImageAttributes } from "@/app/ui/heroes/priorityHeroImage";
 
 const copy = getCopy("case-studies");
 const repository = new CaseStudyRepository();
@@ -82,6 +83,7 @@ export default async function CaseStudyPage({
       label,
       slug: TextNormalizer.slugify(label),
     })) ?? [];
+  const priorityHeroImageAttributes = getPriorityHeroImageAttributes();
 
   return (
     <section
@@ -133,8 +135,7 @@ export default async function CaseStudyPage({
                 alt={viewModel.getHeroImage()!.alt}
                 width={viewModel.getHeroImage()!.width}
                 height={viewModel.getHeroImage()!.height}
-                loading="lazy"
-                decoding="async"
+                {...priorityHeroImageAttributes}
               />
             ) : null}
           </div>

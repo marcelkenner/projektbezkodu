@@ -31,9 +31,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Semrush opłaca się zespołom potrzebującym centralnych raportów, a
+      solo projekty zwykle lepiej zaczną od Mangools, Ubersuggest lub SpyFu.
+    - >-
+      Dla kogo: agencje SEO, PPC i większy marketing; nie dla blogera, który
+      potrzebuje tylko keyword researchu albo taniego rank trackingu.
+    - >-
+      Start: wypisz trzy potrzeby, sprawdź limity projektów, eksportów i koszt
+      dodatkowego użytkownika w trialach.
   primaryCta:
     label: Sprawdź ceny Semrush
     href: https://www.semrush.com/kb/140-how-much-does-semrush-cost

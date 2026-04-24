@@ -26,9 +26,15 @@ seo:
     - migracja newslettera
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Kit ma sens dla twórców, którzy chcą newsletter, tagi, Commerce i
+      płatne produkty bez osobnego sklepu.
+    - >-
+      Dla kogo: autorzy, newslettery i proste produkty cyfrowe; nie dla
+      rozbudowanych lejków e-commerce bez zewnętrznego koszyka.
+    - >-
+      Start: porównaj Free z Creator, zaprojektuj tagi i zrób testowy import 10
+      kontaktów przed migracją listy.
   primaryCta:
     label: Zobacz stronę cenową
     href: https://kit.com/pricing

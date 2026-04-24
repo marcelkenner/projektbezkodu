@@ -23,9 +23,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: prosty cennik z 2-3 planami i jednym wyróżnionym wyborem jest
+      najlepszym pierwszym testem.
+    - >-
+      Dla kogo: małe SaaS, agencje i sklepy online; nie dla złożonych ofert B2B
+      bez opcji wyceny indywidualnej.
+    - >-
+      Start: ustal segmenty klientów, przygotuj trzy plany, dodaj CTA i mierz
+      wybór planów oraz konwersję.
   primaryCta:
     label: Przeczytaj poradnik HubSpot
     href: https://blog.hubspot.com/marketing/best-practices-pricing-page

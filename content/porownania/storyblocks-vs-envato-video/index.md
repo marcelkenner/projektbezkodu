@@ -28,7 +28,9 @@ meta:
     - >-
       Werdykt: Envato Elements — jeśli cenisz większą pulę assetów i licencję
       „lifetime” po rejestracji projektu.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - >-
+      Start: porównaj katalogi pod 3 realne projekty wideo i sprawdź, czy
+      potrzebujesz unlimited downloads czy jednego konta na różne assety.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/storyblocks-vs-envato-video/

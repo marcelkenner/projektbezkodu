@@ -15,9 +15,15 @@ hero:
     prywatności
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Plausible wygrywa prostotą i prywatnością, Matomo kontrolą
+      danych, a GA4 integracjami reklamowymi.
+    - >-
+      Dla kogo: małe strony i blogi z minimalnym śledzeniem; GA4 tylko gdy
+      naprawdę potrzebujesz ekosystemu Google.
+    - >-
+      Start: porównaj politykę prywatności narzędzia i uruchom 1-2 tygodniowy
+      test podstawowych metryk.
   primaryCta:
     label: Przejdź do artykułu
     href: /analityka-5

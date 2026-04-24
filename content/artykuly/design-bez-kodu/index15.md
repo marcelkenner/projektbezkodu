@@ -19,9 +19,15 @@ seo:
     - szybkie testy
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: szybki test użyteczności znajdzie proste bariery UX, ale daje
+      jakościowy feedback, nie statystykę.
+    - >-
+      Dla kogo: product ownerzy, małe zespoły i projektanci bez budżetu na pełne
+      badania; nie jako zamiennik badań ilościowych.
+    - >-
+      Start: wybierz jedno podstawowe zadanie, napisz scenariusz i przetestuj je
+      z 5 osobami.
   primaryCta:
     label: Przeczytaj przewodnik Guerrilla Testing
     href: https://maze.co/guides/usability-testing/guerilla

@@ -5,21 +5,29 @@ path: /artykuly/automation/
 template: default
 type: hub
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Automation w no-code
-  subheading: Scenariusze automatyzacji, bezpieczeństwo, monitoring i decyzje wdrożeniowe
+  subheading: >-
+    Scenariusze automatyzacji, bezpieczeństwo, monitoring i decyzje wdrożeniowe
     dla małych zespołów.
 seo:
   title: Automation w no-code | ProjektBezKodu
-  description: "Artykuły o automatyzacji w no-code: leady, CRM, monitoring, webhooki\
-    \ i bezpieczne wdrożenia."
+  description: >-
+    Artykuły o automatyzacji w no-code: leady, CRM, monitoring, webhooki i
+    bezpieczne wdrożenia.
 meta:
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: no-code automation oszczędza czas małym zespołom, jeśli ma
+      właściciela, monitoring i zasady dostępu.
+    - >-
+      Dla kogo: zespoły bez programistów łączące CRM, pocztę i arkusze; nie dla
+      nieopisanych procesów bez governance.
+    - >-
+      Start: wybierz jeden prosty przepływ, zbuduj MVP i od razu zapisz wejścia,
+      wyjątki oraz eskalację błędów.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/automation/

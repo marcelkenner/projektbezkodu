@@ -11,9 +11,15 @@ hero:
   subheading: Praktyczny przewodnik dla soloprzedsiębiorców i małych zespołów
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Canva daje najszybsze kreacje social, a Jitter więcej kontroli
+      nad timingiem i eksportem.
+    - >-
+      Dla kogo: solo firmy i social media managerowie; nie dla projektów
+      wymagających montażysty i compositingu.
+    - >-
+      Start: wrzuć jeden format 9:16 do Jittera i Canvy, porównaj czas produkcji
+      oraz jakość MP4.
   primaryCta:
     label: Sprawdź Canva - Animate
     href: https://www.canva.com/create/animated-videos/

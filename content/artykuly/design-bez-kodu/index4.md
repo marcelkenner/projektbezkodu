@@ -8,9 +8,15 @@ draft: false
 date: '2026-01-14'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: na start wystarczy lekki UI kit z hero, kartami, tabelą porównań,
+      CTA, FAQ i listingiem narzędzi.
+    - >-
+      Dla kogo: twórcy porównywarek, listingów i landingów no-code; nie dla
+      pełnego design systemu w pierwszym dniu.
+    - >-
+      Start: wybierz darmowy lub lekki kit, sprawdź licencję i złóż hero, trzy
+      karty, tabelę oraz CTA.
   primaryCta:
     label: Przejdź do artykułu
     href: https://www.framer.com/free-saas-ui-kit/

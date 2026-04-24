@@ -33,8 +33,12 @@ meta:
     - >-
       Werdykt: Relume dla zespołów potrzebujących spójnego design-systemu;
       Flowbase dla szybkich prototypów i dużej biblioteki komponentów.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - >-
+      Dla kogo: Relume dla agencji dbających o Style Guide i powtarzalność;
+      Flowbase dla freelancerów szukających wielu wariantów i FlowUI.
+    - >-
+      Start: skopiuj ten sam komponent z obu bibliotek do Webflow i sprawdź
+      nazwy klas, style oraz spójność z projektem.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/relume-vs-flowbase/

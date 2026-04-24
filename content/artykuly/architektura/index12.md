@@ -15,9 +15,15 @@ hero:
   subheading: Praktyczny przewodnik dla osób budujących automatyzacje bez kodu
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: retry bez idempotencji tworzy duplikaty, a bez DLQ i alertów
+      błędy giną w logach.
+    - >-
+      Dla kogo: krytyczne automatyzacje CRM, płatności i powiadomień; nie dla
+      jednorazowych flow o niskiej wartości.
+    - >-
+      Start: sprawdź retry w narzędziu, dodaj external_id, miejsce na failed
+      records i alert przy fali błędów.
   primaryCta:
     label: Dokumentacja Zapier — How to troubleshoot errors in Zaps
     href: >-

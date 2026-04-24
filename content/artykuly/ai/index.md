@@ -5,21 +5,29 @@ path: /artykuly/ai/
 template: default
 type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: AI w no-code
-  subheading: Praktyczne scenariusze, narzędzia i decyzje wdrożeniowe dla firm budujących
+  subheading: >-
+    Praktyczne scenariusze, narzędzia i decyzje wdrożeniowe dla firm budujących
     bez kodu.
 seo:
   title: AI w no-code | ProjektBezKodu
-  description: "Zbiór artykułów o AI w no-code: zastosowania, koszty, bezpieczeństwo\
-    \ i wdrożenia krok po kroku."
+  description: >-
+    Zbiór artykułów o AI w no-code: zastosowania, koszty, bezpieczeństwo i
+    wdrożenia krok po kroku.
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: AI w no-code działa najlepiej w jasno opisanych procesach i
+      krótkich pilotażach z KPI.
+    - >-
+      Dla kogo: MŚP, content i obsługa klienta; nie dla procesów bez zasad
+      prywatności i kontroli jakości.
+    - >-
+      Start: wybierz jeden powtarzalny proces, uruchom pilotaż 2-4 tygodnie i
+      ogranicz dane trafiające do AI.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/ai/

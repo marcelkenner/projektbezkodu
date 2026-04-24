@@ -24,9 +24,15 @@ meta:
   fileSize: 85 KB
   checksum: 3d5e82f79dc79a8cbad130ed0b5f45f9e3f991f2f046ba8f7b64fcfcfdd897a0
   summaryBullets:
-    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
-    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
-    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+    - >-
+      Zawiera: katalog Discordów, Slacków, newsletterów, podcastów i meetupów
+      no-code z filtrami aktywności.
+    - >-
+      Dla kogo: początkujący szukający wsparcia, zaawansowani twórcy i
+      moderatorzy zgłaszający społeczności.
+    - >-
+      Start: skopiuj widok Start Here w Notion i odfiltruj społeczności po
+      timezone oraz focus.
   primaryCta:
     label: Pobierz zasób
     href: https://files.projektbezkodu.pl/resources/pbk-community-directory.csv

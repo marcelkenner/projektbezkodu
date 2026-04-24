@@ -21,9 +21,15 @@ seo:
     - FAQ SEO
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: FAQ zwraca się, gdy skraca powtarzalne pytania klientów i jest
+      regularnie aktualizowany.
+    - >-
+      Dla kogo: sklepy, SaaS i usługi z pytaniami o zakup, zwroty lub funkcje;
+      nie dla małych stron bez zasobów utrzymania.
+    - >-
+      Start: wyciągnij 10 pytań z supportu, opublikuj trzy najważniejsze przy
+      produktach i resztę w centralnym FAQ.
   primaryCta:
     label: Jak pisać FAQ?
     href: >-

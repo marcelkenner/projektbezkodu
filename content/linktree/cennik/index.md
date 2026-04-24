@@ -21,9 +21,15 @@ seo:
     - strona cennik
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: publiczny cennik z 1-3 planami, CTA i jasnymi warunkami wystarcza
+      większości ofert online.
+    - >-
+      Dla kogo: freelancerzy, małe firmy i SaaS; nie dla modeli z wieloma
+      zależnymi cenami bez kalkulatora lub handlowca.
+    - >-
+      Start: wybierz model ceny, opisz 2-3 plany, dodaj politykę zwrotów i
+      sprawdź kliknięcia w CTA.
   primaryCta:
     label: Przeczytaj praktyczne wskazówki HubSpot
     href: https://blog.hubspot.com/marketing/best-practices-pricing-page

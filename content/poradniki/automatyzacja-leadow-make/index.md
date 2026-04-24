@@ -23,9 +23,15 @@ meta:
     - make
     - mailerlite
   summaryBullets:
-    - 'Zbudujesz: praktyczny proces krok po kroku.'
-    - 'Nauczysz się: konfiguracji, testów i wdrożenia.'
-    - 'Start: zacznij od sekcji „Jak zacząć”.'
+    - >-
+      Zbudujesz: scenariusz Make od formularza Webflow lub Typeform przez
+      enrichment po CRM, MailerLite i Slack.
+    - >-
+      Dla kogo: zespoły sprzedaży i marketingu kwalifikujące leady; nie dla
+      prostego formularza bez routingu i follow-upu.
+    - >-
+      Start: zaplanuj JSON webhooka z imieniem, e-mailem, źródłem, kampanią i
+      budżetem.
   primaryCta:
     label: Przejdź do poradnika
     href: /poradniki/automatyzacja-leadow-make/

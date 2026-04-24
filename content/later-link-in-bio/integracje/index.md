@@ -27,9 +27,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: no-code sprawdza się do prototypów, a natywne API wtedy, gdy
+      integracja staje się częścią produktu.
+    - >-
+      Dla kogo: PM-owie, marketing i małe firmy łączące dwie aplikacje; nie dla
+      dużej skali bez monitoringu kosztów i awarii.
+    - >-
+      Start: zapisz cel typu kontakt z formularza -> CRM, sprawdź marketplace
+      integracji i wykonaj test end-to-end.
   primaryCta:
     label: 'Przewodnik Zapier: build integration'
     href: https://docs.zapier.com/platform/quickstart/build-integration

@@ -22,9 +22,15 @@ seo:
     - profilowanie
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: automatyzuj tylko dane niezbędne do celu; decyzje o skutkach
+      prawnych zostaw z kontrolą człowieka.
+    - >-
+      Dla kogo: małe firmy i liderzy produktu od scoringu, routingu leadów i
+      rekomendacji; nie dla danych wrażliwych bez podstawy prawnej.
+    - >-
+      Start: wypisz dane potrzebne do jednego celu, usuń zbieranie na zapas i
+      udokumentuj podstawę przetwarzania.
   primaryCta:
     label: Przejdź do materiału UODO o minimalizacji
     href: https://uodo.gov.pl/pl/329/1451

@@ -4,36 +4,44 @@ slug: sekcje-faq
 path: /artykuly/biblioteka-komponentow/sekcje-faq/
 type: template
 tags:
-- evergreen
-- biblioteka komponentów
+  - evergreen
+  - biblioteka komponentów
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Sekcje: FAQ"
+  heading: 'Sekcje: FAQ'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 template: default
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: komponent FAQ ma sens dla powtarzalnych pytań i stabilnych
+      odpowiedzi używanych w wielu miejscach.
+    - >-
+      Dla kogo: zespoły z jednolitymi odpowiedziami i spójnym językiem produktu;
+      nie dla treści dynamicznych lub moderowanych przez użytkowników.
+    - >-
+      Start: opublikuj prosty anchor na 3–5 pytań, a dopiero potem dodaj
+      akordeon i JSON-LD.
   primaryCta:
     label: Dokumentacja FAQPage
-    href: https://developers.google.com/search/docs/appearance/structured-data/faqpage
-  updatedAt: "2026-01-15"
+    href: >-
+      https://developers.google.com/search/docs/appearance/structured-data/faqpage
+  updatedAt: '2026-01-15'
 seo:
   title: Sekcje FAQ — wzorzec dla biblioteki komponentów
-  description: "Jak zaprojektować i wdrożyć komponent FAQ w bibliotece komponentów:\
-    \ decyzja, SEO, dostępność i szybki start."
+  description: >-
+    Jak zaprojektować i wdrożyć komponent FAQ w bibliotece komponentów: decyzja,
+    SEO, dostępność i szybki start.
   keywords:
-  - FAQ
-  - biblioteka komponentów
-  - FAQPage
-  - projektowanie UI
+    - FAQ
+    - biblioteka komponentów
+    - FAQPage
+    - projektowanie UI
 taxonomy:
   categories:
-  - Design system
-  - Frontend
+    - Design system
+    - Frontend
 ---
 
 ## Werdykt w skrócie

@@ -4,7 +4,8 @@ title: >-
   się twoja wina
 category: regulamin
 draft: false
-slug: regulamin-i-odpowiedzialnosc-za-integracje-zapier-make-stripe-gdzie-konczy-sie-twoja-wina
+slug: >-
+  regulamin-i-odpowiedzialnosc-za-integracje-zapier-make-stripe-gdzie-konczy-sie-twoja-wina
 path: >-
   /artykuly/regulamin/regulamin-i-odpowiedzialnosc-za-integracje-zapier-make-stripe-gdzie-konczy-sie-twoja-wina/
 ---

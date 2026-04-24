@@ -1,6 +1,5 @@
-import Image from "next/image";
 import type { ReactNode } from "react";
-import { PrimaryNav, ToolOfWeekToastContainer } from "../ui";
+import { BrandLogo, PrimaryNav, ToolOfWeekToastContainer } from "../ui";
 import { Footer } from "../ui/server";
 import { getCopy } from "../lib/copy";
 import { getToolOfWeek } from "../lib/toolShowcase";
@@ -30,7 +29,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
           {skipLinkLabel}
         </a>
         <PrimaryNav
-          logo={<Logo />}
+          logo={<BrandLogo />}
           links={navigationLinks}
           search={searchConfig}
         />
@@ -39,19 +38,5 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
       </div>
       {toolOfWeek ? <ToolOfWeekToastContainer tool={toolOfWeek} /> : null}
     </>
-  );
-}
-
-function Logo() {
-  return (
-    <Image
-      className="site-header__wordmark"
-      src="/projektbezkodu_logo.png"
-      alt="ProjektBezKodu"
-      width={128}
-      height={38}
-      priority
-      sizes="(max-width: 768px) 120px, 128px"
-    />
   );
 }

@@ -1,23 +1,29 @@
 ---
-title: "Sekcje: Hero"
+title: 'Sekcje: Hero'
 slug: sekcje-hero
 path: /artykuly/biblioteka-komponentow/sekcje-hero/
 type: template
 tags:
-- evergreen
-- biblioteka
+  - evergreen
+  - biblioteka
 draft: true
-date: "2025-11-05"
+date: '2025-11-05'
 hero:
-  heading: "Sekcje: Hero"
+  heading: 'Sekcje: Hero'
   subheading: Wpis roboczy — uzupełnij krótki opis, żeby nagłówek nie był pusty.
 template: default
 meta:
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: hero jest opłacalne przy jasnym celu strony, jednym CTA i
+      kontrolowanych kosztach ładowania.
+    - >-
+      Dla kogo: strony sprzedaży, zapisu lub prezentacji produktu; nie dla
+      rozproszonych ofert i priorytetu szybkości bez lekkiej grafiki.
+    - >-
+      Start: napisz jedno hasło, wybierz jedną akcję i mierz wyniki przez co
+      najmniej dwa tygodnie.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/hero/

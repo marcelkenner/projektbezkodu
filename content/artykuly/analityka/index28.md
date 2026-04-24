@@ -24,10 +24,14 @@ seo:
 meta:
   summaryBullets:
     - >-
-      Werdykt: krótko i konkretnie — kiedy before/after wystarczy, kiedy
-      potrzebujesz DID
-    - 'Dla kogo: produkt, growth, analityka w firmach bez możliwości losowania'
-    - 'Start: pierwszy krok w 5 minut i co sprawdzić w danych'
+      Werdykt: before/after traktuj jako sygnał, a Difference-in-Differences
+      wybierz, gdy masz porównywalną grupę kontrolną.
+    - >-
+      Dla kogo: produkt, growth i analityka bez losowania użytkowników; nie do
+      ogłaszania przyczynowości z jednego pomiaru.
+    - >-
+      Start: narysuj 6-8 punktów przed i po zmianie oraz sprawdź, czy istnieje
+      segment kontrolny.
   primaryCta:
     label: Przeczytaj o Difference‑in‑Differences
     href: >-

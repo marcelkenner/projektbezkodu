@@ -7,9 +7,15 @@ draft: false
 date: '2026-01-15'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: prosty produkt no-code zwykle da się uruchomić w 2–8 tygodni,
+      jeśli zakres i integracje są ograniczone.
+    - >-
+      Dla kogo: zespoły sprawdzające hipotezę rynkową; nie dla natywnej
+      wydajności, HIPAA lub niestandardowych algorytmów.
+    - >-
+      Start: zapisz jedną hipotezę, jeden kluczowy przepływ i umów 5–10 testerów
+      na pierwszą wersję.
   primaryCta:
     label: Przejdź do artykułu
     href: https://makersden.io/blog/mvp-timeline-guide

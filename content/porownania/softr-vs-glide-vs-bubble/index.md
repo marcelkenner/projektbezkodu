@@ -26,8 +26,12 @@ meta:
     - >-
       Werdykt: wybór zależy od celu — prostota → Softr, mobilne MVP → Glide,
       niestandardowa logika → Bubble.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
+    - >-
+      Dla kogo: Softr dla dashboardów nad Airtable, Glide dla narzędzi
+      mobilnych, Bubble dla produktów z własnym API i płatnościami.
+    - >-
+      Start: porównaj limity rekordów, aktualizacji i kontroli backendu przed
+      wyborem buildera.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/softr-vs-glide-vs-bubble/

@@ -14,9 +14,15 @@ hero:
 template: default
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: biblioteka sekcji i wzorców opłaca się, gdy produkt rozwija
+      więcej niż jedna osoba lub interfejs będzie skalowany.
+    - >-
+      Dla kogo: zespoły z powtarzalnymi sekcjami i onboardingiem nowych osób;
+      nie dla jednej prostej strony bez właściciela biblioteki.
+    - >-
+      Start: wybierz 3 powtarzalne sekcje, opisz użycie i zrób pojedynczy
+      proof-of-concept w repo.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/

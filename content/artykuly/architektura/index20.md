@@ -11,9 +11,15 @@ hero:
   subheading: Praktyczne decyzje architektoniczne i pierwszy krok
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: rosnące MVP zwykle skaluj inkrementalnie przez SSOT,
+      obserwowalność i strangler pattern.
+    - >-
+      Dla kogo: produkty B2B, consumer i małe zespoły po walidacji; rewrite
+      tylko gdy architektura blokuje rozwój.
+    - >-
+      Start: wskaż jedną krytyczną encję, jej źródło prawdy i dodaj logowanie
+      użycia przed migracją.
   primaryCta:
     label: Przejdź do artykułu
     href: https://martinfowler.com/bliki/StranglerFigApplication.html

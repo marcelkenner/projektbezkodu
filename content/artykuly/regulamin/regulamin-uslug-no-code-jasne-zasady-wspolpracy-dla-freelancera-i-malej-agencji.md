@@ -4,7 +4,8 @@ title: >-
   agencji
 category: regulamin
 draft: false
-slug: regulamin-uslug-no-code-jasne-zasady-wspolpracy-dla-freelancera-i-malej-agencji
+slug: >-
+  regulamin-uslug-no-code-jasne-zasady-wspolpracy-dla-freelancera-i-malej-agencji
 path: >-
   /artykuly/regulamin/regulamin-uslug-no-code-jasne-zasady-wspolpracy-dla-freelancera-i-malej-agencji/
 ---

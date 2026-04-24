@@ -7,9 +7,15 @@ template: default
 draft: false
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: przy prostej treści projektuj mobile-first, a w narzędziach
+      desktop-first świadomie kontroluj breakpointy.
+    - >-
+      Dla kogo: projektanci landingów, twórcy no-code i małe serwisy; nie dla
+      układów z różną treścią bez osobnego planu widoczności.
+    - >-
+      Start: otwórz najmniejszy breakpoint, zostaw tylko treści krytyczne i
+      ustaw jednokolumnowy flow z dużym CTA.
   primaryCta:
     label: Przejdź do artykułu
     href: /design-bez-kodu-17

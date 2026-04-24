@@ -26,9 +26,15 @@ meta:
   updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: animacja pomaga konwersji tylko wtedy, gdy wyjaśnia akcję
+      użytkownika i nie pogarsza mobile performance.
+    - >-
+      Dla kogo: landing pages, SaaS onboarding i marketing; nie dla dashboardów
+      ani stron, gdzie ruch jest dekoracją.
+    - >-
+      Start: wybierz jedno CTA, dodaj subtelny efekt 150-400 ms i sprawdź LCP
+      oraz prefers-reduced-motion.
   primaryCta:
     label: Material Motion — zasady
     href: https://m1.material.io/motion/material-motion.html

@@ -27,9 +27,15 @@ seo:
     - operacje uploadu
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Uploadcare spina się dla MVP i mniejszych projektów, ale przy
+      setkach GB transferu trzeba porównać koszt z CDN + S3.
+    - >-
+      Dla kogo: mały SaaS, sklep i content site bez własnej infrastruktury; nie
+      dla dużych plików lub gwałtownie rosnącego ruchu bez kalkulacji.
+    - >-
+      Start: oszacuj storage, transfer i liczbę operacji miesięcznie, potem
+      dopasuj Free, Pro albo Business.
   primaryCta:
     label: Zobacz cennik Uploadcare
     href: https://uploadcare.com/pricing/

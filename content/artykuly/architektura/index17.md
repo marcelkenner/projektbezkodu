@@ -7,9 +7,15 @@ template: default
 draft: false
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: prosta walidacja może zostać w UI, ale płatności, role, sekrety i
+      długie zadania wymagają backendu.
+    - >-
+      Dla kogo: MVP i internal tools jako UI-first; nie dla skalującego SaaS,
+      fintechu ani danych wrażliwych bez serwera.
+    - >-
+      Start: wypisz auth, pliki, płatności, SLA i prywatne klucze; każdy wymóg
+      krytyczny przenieś do API.
   primaryCta:
     label: Przejdź do artykułu
     href: /architektura-17

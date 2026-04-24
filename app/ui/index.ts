@@ -10,6 +10,7 @@ export { FilterBar } from "./FilterBar";
 export { ContentFilterBar } from "./filters/ContentFilterBar";
 export { SiteSearchForm } from "./search/SiteSearchForm";
 export type { SiteSearchConfig } from "./search/SiteSearchForm";
+export { BrandLogo } from "./BrandLogo";
 export { PricingCard } from "./PricingCard";
 export { ComparisonTable } from "./ComparisonTable";
 export { Modal } from "./Modal";

@@ -27,9 +27,16 @@ seo:
     - Cloudflare Images
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Uploadcare zostaje sensowny przy szybkim uploadzie i prostym CDN,
+      ale Cloudinary, Cloudflare lub Filestack wygrywają przy mediach
+      specjalistycznych.
+    - >-
+      Dla kogo: product managerowie i devowie z prostym uploadem; nie dla
+      projektów z intensywnym wideo, DAM lub maksymalną optymalizacją kosztów.
+    - >-
+      Start: policz operacje, transfer i warianty transformacji, a potem
+      porównaj Uploadcare z Cloudinary oraz Cloudflare Images.
   primaryCta:
     label: Sprawdź cennik Uploadcare
     href: https://uploadcare.com/pricing/

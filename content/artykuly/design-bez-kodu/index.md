@@ -5,30 +5,37 @@ path: /artykuly/design-bez-kodu/
 template: default
 type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Design bez kodu
-  subheading: "Proces projektowy od briefu do wdrożenia: komponenty, prototypy i decyzjeUX."
+  subheading: 'Proces projektowy od briefu do wdrożenia: komponenty, prototypy i decyzjeUX.'
 seo:
   title: Design bez kodu | ProjektBezKodu
-  description: "Artykuły o projektowaniu bez kodu: brief, komponenty, prototypowanie\
-    \ i wdrożenie interfejsów."
+  description: >-
+    Artykuły o projektowaniu bez kodu: brief, komponenty, prototypowanie i
+    wdrożenie interfejsów.
   keywords:
-  - no-code
-  - prototypowanie
-  - projektowanie
-  - UX
+    - no-code
+    - prototypowanie
+    - projektowanie
+    - UX
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: design bez kodu dobrze służy szybkiej walidacji UX i interakcji
+      przed inwestycją w development.
+    - >-
+      Dla kogo: produkt, UX, PM i startupy MVP; nie dla bardzo niestandardowych
+      funkcji bez świadomości ograniczeń platform.
+    - >-
+      Start: określ cel prototypu, wymagany poziom interakcji i możliwość
+      przejścia do produkcyjnego wdrożenia.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/design-bez-kodu/
 primaryCta:
-  label: "Sprawdź: appmaster.io"
+  label: 'Sprawdź: appmaster.io'
   href: https://appmaster.io/blog/no-code-rapid-prototyping?utm_source=openai
 ---
 

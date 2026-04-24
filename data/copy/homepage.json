@@ -33,7 +33,7 @@
         },
         "secondaryCta": {
           "label": "Plan 30 dni z Webflow",
-          "href": "/sciezki/webflow-30-dni/"
+          "href": "/artykuly/sciezki/webflow-30-dni/"
         },
         "microcopy": "Niektóre linki do Webflow są afiliacyjne – polecamy tylko narzędzia, z których sami korzystamy.",
         "image": {
@@ -58,7 +58,7 @@
         },
         "secondaryCta": {
           "label": "Lista gotowych scenariuszy",
-          "href": "/narzedzia/automatyzacje/"
+          "href": "/artykuly/automation/"
         },
         "microcopy": "Blueprint zawiera linki afiliacyjne do Make. Korzystamy z tego samego scenariusza w produkcji.",
         "image": {
@@ -201,7 +201,7 @@
       {
         "title": "Materiały do pobrania",
         "description": "Briefy, checklisty i raporty, które aktualizujemy po każdym wdrożeniu.",
-        "href": "/do-pobrania/",
+        "href": "/do-pobrania/start-checklista/",
         "ctaLabel": "Pobierz materiały",
         "icon": "downloads"
       },

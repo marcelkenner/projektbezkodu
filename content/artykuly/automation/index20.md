@@ -27,9 +27,15 @@ seo:
     - workflow
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: freelancerom opłaca się workflow od zapytania do płatności, gdy
+      administracja zabiera ponad 2 godziny tygodniowo.
+    - >-
+      Dla kogo: osoby z 1–30 klientami miesięcznie i płatnościami online; nie
+      dla faktur bez kontroli i testów.
+    - >-
+      Start: zbuduj jeden formularz intake, jedną integrację płatności i
+      powiadomienie zamiast pełnej automatycznej księgowości.
   primaryCta:
     label: 'Przewodnik: automatyzuj faktury z Zapier'
     href: https://zapier.com/blog/automate-quickbooks-invoices-with-zapier/

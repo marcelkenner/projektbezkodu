@@ -7,9 +7,15 @@ draft: false
 date: '2026-01-15'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: no-code CMS wystarczy dla prostego sklepu do około 500–5 000 SKU,
+      ale wymaga planu przy większej skali.
+    - >-
+      Dla kogo: właściciele sklepów bez zespołu dev i standardowym checkoutem;
+      nie dla 10k SKU, custom pricingu i headless wymagań.
+    - >-
+      Start: policz SKU, warianty, reguły wysyłki i promocje, a potem porównaj
+      limity Webflow, Wix, Shopify i headless.
   primaryCta:
     label: Przejdź do artykułu
     href: https://webflow.com/updates/ecommerce-scale

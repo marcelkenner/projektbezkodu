@@ -31,9 +31,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Paperform jest mocny przy estetycznych formularzach
+      sprzedażowych, lecz limity submisji bolą przy większym ruchu.
+    - >-
+      Dla kogo: freelancerzy, agencje i małe firmy z prostą sprzedażą; nie dla
+      sklepów z setkami SKU i rozbudowanym magazynem.
+    - >-
+      Start: porównaj limity planów z prognozą ruchu, podłącz konto płatnicze i
+      przetestuj jedno zgłoszenie.
   primaryCta:
     label: Zobacz ceny Paperform
     href: https://paperform.co/pricing/

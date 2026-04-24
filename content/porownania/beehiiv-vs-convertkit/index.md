@@ -32,7 +32,9 @@ meta:
     - >-
       Werdykt: ConvertKit (Kit) sprawdzi się, jeśli zależy ci na prostocie
       automatyzacji i rozbudowanych integracjach.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - >-
+      Start: załóż trial w obu narzędziach i policz koszt dla obecnej oraz
+      planowanej liczby subskrybentów.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/beehiiv-vs-convertkit/

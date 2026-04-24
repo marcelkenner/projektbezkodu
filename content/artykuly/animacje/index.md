@@ -5,21 +5,29 @@ path: /artykuly/animacje/
 template: default
 type: hub
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Animacje w no-code
-  subheading: Wzorce motion, mikrointerakcje i decyzje UX, które pomagają zamiast
+  subheading: >-
+    Wzorce motion, mikrointerakcje i decyzje UX, które pomagają zamiast
     rozpraszać.
 seo:
   title: Animacje w no-code | ProjektBezKodu
-  description: "Artykuły o animacjach w no-code: UX, konwersja, dostępność i narzędzia\
-    \ do wdrożeń motion."
+  description: >-
+    Artykuły o animacjach w no-code: UX, konwersja, dostępność i narzędzia do
+    wdrożeń motion.
 meta:
-  updatedAt: "2026-04-02"
+  updatedAt: '2026-04-02'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: no-code animacje są użyteczne, gdy wspierają UX i cel biznesowy
+      zamiast ozdabiać ekran.
+    - >-
+      Dla kogo: projektanci i zespoły Webflow, Framer lub Lottie; nie dla
+      efektów wymagających pełnej kontroli kodu.
+    - >-
+      Start: wypisz scenariusze ruchu, wybierz Lottie/Webflow albo Framer i
+      przetestuj płynność na urządzeniach.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/animacje/

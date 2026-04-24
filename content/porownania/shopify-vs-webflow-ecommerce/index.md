@@ -21,9 +21,15 @@ meta:
   difficulty: średni
   duration: 5–10 min
   summaryBullets:
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
-    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+    - >-
+      Werdykt: Shopify jest bezpieczniejszy dla skalowania sklepu, a Webflow dla
+      marek z umiarkowanym katalogiem i mocnym naciskiem na design.
+    - >-
+      Dla kogo: Shopify dla dużego katalogu, logistyki i integracji; Webflow dla
+      pixel-perfect stron produktowych i nietypowego UX.
+    - >-
+      Start: policz SKU, wymagania operacyjne i potrzebne integracje, zanim
+      wybierzesz platformę sklepu.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/shopify-vs-webflow-ecommerce/

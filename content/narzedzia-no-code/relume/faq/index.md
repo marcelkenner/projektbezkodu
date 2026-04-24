@@ -13,9 +13,15 @@ hero:
 template: default
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Relume przyspiesza sitemapy, wireframe i eksport do
+      Figma/Webflow, ale nie zastępuje researchu ani projektanta.
+    - >-
+      Dla kogo: freelancerzy i małe agencje robiące dużo stron; nie dla zespołów
+      z gotowym własnym systemem komponentów.
+    - >-
+      Start: otwórz FAQ, sklonuj Style Guide i wygeneruj pierwszą sitemapę, żeby
+      przetestować eksport oraz style.
   primaryCta:
     label: Relume FAQ
     href: https://www.relume.io/resources/faqs

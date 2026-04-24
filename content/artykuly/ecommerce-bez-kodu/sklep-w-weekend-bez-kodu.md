@@ -27,9 +27,15 @@ meta:
   updatedAt: '2026-01-15'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: sklep w weekend jest realny dla prostego katalogu na SaaS, ale
+      nie dla ERP, wielu magazynów i złożonego checkoutu.
+    - >-
+      Dla kogo: osoby z gotowym produktem, zdjęciami i testem popytu; nie dla
+      firm potrzebujących głębokich integracji.
+    - >-
+      Start: wybierz Shopify albo Shoper, dodaj 10-20 produktów, podłącz
+      płatności i jedną dostawę, potem zrób testowe zamówienie.
   primaryCta:
     label: Checklista Shopify
     href: >-

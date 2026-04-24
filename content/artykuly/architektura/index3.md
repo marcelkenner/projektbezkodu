@@ -24,9 +24,15 @@ seo:
     - baza danych
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Airtable jest arkuszem do prototypów, Xano backendem no-code, a
+      Supabase wyborem dla SQL i Postgresa.
+    - >-
+      Dla kogo: Airtable dla non-tech i contentu, Xano dla API bez DevOps,
+      Supabase dla relacyjnych aplikacji.
+    - >-
+      Start: określ, czy potrzebujesz arkusza, wizualnej logiki API czy
+      transakcji SQL, i otwórz dokumentację limitów.
   primaryCta:
     label: Przejdź do dokumentacji Supabase
     href: https://supabase.com/docs/guides/database/overview

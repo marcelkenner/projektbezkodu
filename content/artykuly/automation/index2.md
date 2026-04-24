@@ -11,9 +11,15 @@ hero:
   subheading: Krótkie, praktyczne wskazówki dla małych firm i soloprzedsiębiorców
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: pierwszą automatyzację lead → CRM → follow-up zacznij od jednego
+      źródła i prostego szablonu.
+    - >-
+      Dla kogo: małe firmy z ręcznym przepisywaniem leadów; nie jako zamiennik
+      rozmowy sprzedażowej.
+    - >-
+      Start: wybierz jedno źródło leadów, mapuj pola CRM i wyślij testowy
+      follow-up przed włączeniem produkcji.
   primaryCta:
     label: Otwórz szablon Zapier
     href: >-

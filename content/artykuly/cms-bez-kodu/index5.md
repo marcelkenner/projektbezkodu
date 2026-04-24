@@ -22,9 +22,15 @@ seo:
     - API
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Airtable sprawdzi się jako prosty CMS, jeśli publikujesz przez
+      API lub integrację i akceptujesz ograniczenia SEO widoków.
+    - >-
+      Dla kogo: content, product i małe firmy z szybkim startem; nie dla
+      publicznych widoków jako głównej strategii SEO.
+    - >-
+      Start: zbuduj tabelę artykułów, widok redakcyjny i test publikacji przez
+      API albo no-code frontend.
   primaryCta:
     label: 'Airtable: View share docs'
     href: https://support.airtable.com/v1/docs/using-the-view-share-menu-in-airtable

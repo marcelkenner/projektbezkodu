@@ -21,9 +21,15 @@ seo:
     - Surfer SEO ceny
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Surfer opłaca się przy regularnej produkcji kilkudziesięciu
+      tekstów, ale jest drogi dla autora piszącego kilka artykułów miesięcznie.
+    - >-
+      Dla kogo: zespoły content 3+ osób, małe agencje i redakcje; nie dla
+      sporadycznych projektów o niskim budżecie.
+    - >-
+      Start: porównaj limity Essential i Scale, zrób 1-2 briefy w Content Editor
+      i policz koszt na artykuł.
   primaryCta:
     label: Sprawdź oferty Surfer
     href: https://surferseo.com/pricing/

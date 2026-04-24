@@ -1,39 +1,43 @@
 ---
-title: "Sekcje: Lista wpisów"
+title: 'Sekcje: Lista wpisów'
 slug: sekcje-lista-wpisow
 path: /artykuly/biblioteka-komponentow/sekcje-lista-wpisow/
 type: template
 tags:
-- evergreen
-- biblioteka-komponentow
-- UX
-- SEO
+  - evergreen
+  - biblioteka-komponentow
+  - UX
+  - SEO
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 hero:
-  heading: "Sekcje: Lista wpisów"
+  heading: 'Sekcje: Lista wpisów'
   subheading: Kompaktowy przewodnik po tym, jak zamienić blog w czytelny katalog treści.
 template: default
 meta:
   summaryBullets:
-  - "Werdykt w jednym zdaniu: Lista wpisów to najszybszy sposób na przekształcenie\
-    \ bloga w przejrzysty katalog treści."
-  - "Lead: Dla firmowego bloga, portalu edukacyjnego lub bazy wiedzy to praktyczny,\
-    \ codzienny helper."
-  - "Wstęp z pytaniami: Czy wolisz karty czy listę? Jakie potrzeby ma Twoja publiczność?"
-  updatedAt: "2026-04-03"
+    - >-
+      Werdykt w jednym zdaniu: Lista wpisów to najszybszy sposób na
+      przekształcenie bloga w przejrzysty katalog treści.
+    - >-
+      Lead: Dla firmowego bloga, portalu edukacyjnego lub bazy wiedzy to
+      praktyczny, codzienny helper.
+    - >-
+      Wstęp z pytaniami: Czy wolisz karty czy listę? Jakie potrzeby ma Twoja
+      publiczność?
+  updatedAt: '2026-04-03'
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/sekcje-lista-wpisow/
 seo:
   keywords:
-  - sekcje
-  - lista wpisów
-  - archiwum bloga
-  - katalog treści
-  - karty
-  - lista
-  - UX
+    - sekcje
+    - lista wpisów
+    - archiwum bloga
+    - katalog treści
+    - karty
+    - lista
+    - UX
 primaryCta:
   label: Przejdź do artykułu
   href: /artykuly/biblioteka-komponentow/sekcje-lista-wpisow/

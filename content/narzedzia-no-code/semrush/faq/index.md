@@ -26,9 +26,15 @@ seo:
     - Semrush limity
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Semrush jest dobry do trendów, konkurencji i pracy zespołowej,
+      ale nie zastępuje GA/GSC dla precyzyjnego ruchu małych stron.
+    - >-
+      Dla kogo: rosnące zespoły, agencje i SEO z wieloma projektami; nie dla
+      osób oczekujących dokładnych liczb zamiast estymat.
+    - >-
+      Start: podłącz GSC i Analytics, dodaj jeden projekt i zacznij od 10-20
+      najważniejszych fraz.
   primaryCta:
     label: Sprawdź ceny i subskrypcje
     href: https://www.semrush.com/kb/1011-subscriptions

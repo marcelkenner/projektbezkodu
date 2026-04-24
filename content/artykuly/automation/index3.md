@@ -15,9 +15,15 @@ hero:
       https://evolabs.dev/blog/ranking-narzedzi-do-automatyzacji-2025-pl-ktore-wybrac-dla-twojej-firmy/
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: mała firma najwięcej zyska na automatyzacji faktur, płatności,
+      follow-upów i rezerwacji bez angażowania IT.
+    - >-
+      Dla kogo: JDG, mikrofirmy i małe biura obsługi; nie dla firm z
+      rozbudowanym ERP bez sprawdzenia integracji.
+    - >-
+      Start: wybierz jedną rutynową czynność, policz miesięczną liczbę powtórzeń
+      i przetestuj gotową integrację.
   primaryCta:
     label: Przeczytaj ranking narzędzi
     href: >-

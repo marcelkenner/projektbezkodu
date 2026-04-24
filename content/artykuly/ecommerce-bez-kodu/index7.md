@@ -17,9 +17,15 @@ seo:
     - automatyzacja wysyłek
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: BaseLinker z jednym przewoźnikiem porządkuje etykiety, statusy i
+      śledzenie bez ręcznego przepisywania.
+    - >-
+      Dla kogo: sklepy wielokanałowe i firmy z kilkoma kurierami; nie dla
+      procesów, których nikt nie przetestuje end-to-end.
+    - >-
+      Start: opisz formaty paczek, wybierz pierwszego spedytora i uruchom
+      automatyczne tworzenie przesyłek po opłaceniu.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-7/

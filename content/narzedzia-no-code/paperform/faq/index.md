@@ -28,9 +28,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Paperform dobrze łączy formularze, płatności i integracje bez
+      własnej prowizji, ale nie zastąpi dużego e-commerce.
+    - >-
+      Dla kogo: freelancerzy, małe firmy i zespoły marketingu; nie dla
+      mikropłatności na dużą skalę ani złożonych magazynów.
+    - >-
+      Start: sprawdź cennik, podłącz Stripe lub PayPal w trybie testowym i
+      opublikuj próbny formularz płatności.
   primaryCta:
     label: Zobacz cennik Paperform
     href: https://paperform.co/pricing/

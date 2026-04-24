@@ -24,9 +24,15 @@ seo:
     - core web vitals
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: no-code CMS pod SEO ma sens przy szybkim starcie, jeśli daje
+      kontrolę URL, meta, sitemap, schema i wydajności.
+    - >-
+      Dla kogo: redakcje i marketing bez zespołu dev; nie dla pełnej kontroli
+      renderowania i zaawansowanego routingu.
+    - >-
+      Start: sprawdź redirecty, canonicale, Core Web Vitals i możliwość dodania
+      JSON-LD przed zakupem planu.
   primaryCta:
     label: Przejdź do artykułu
     href: /cms-bez-kodu-6

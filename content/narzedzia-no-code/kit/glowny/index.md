@@ -26,9 +26,15 @@ seo:
     - automatyzacje
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: ConvertKit jest praktyczny dla twórców sprzedających treści, ale
+      słabszy przy graficznych kampaniach i głębokiej analityce.
+    - >-
+      Dla kogo: soloprzedsiębiorcy, kursy, ebooki i newslettery; nie dla sklepów
+      z wieloma SKU ani zespołów od zaawansowanych testów A/B.
+    - >-
+      Start: utwórz formularz opt-in, ustaw sekwencję welcome + lead magnet i
+      sprawdź integracje przed importem kontaktów.
   primaryCta:
     label: Przejdź do artykułu
     href: https://convertkit.com

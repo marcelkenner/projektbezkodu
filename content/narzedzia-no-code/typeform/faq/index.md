@@ -26,9 +26,15 @@ seo:
     - limity odpowiedzi
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Typeform szybko wdraża estetyczne formularze, ale limity
+      odpowiedzi i wymagania RODO trzeba sprawdzić przed publikacją.
+    - >-
+      Dla kogo: marketerzy i product managerowie osadzający formularze na
+      stronie; nie dla wrażliwych danych bez przeglądu DPA.
+    - >-
+      Start: wybierz tryb embed, upewnij się że strona działa po HTTPS i
+      zweryfikuj limit odpowiedzi w planie.
   primaryCta:
     label: Centrum pomocy Typeform
     href: https://help.typeform.com/hc/en-us

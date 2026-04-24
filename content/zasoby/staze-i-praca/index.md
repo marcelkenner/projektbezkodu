@@ -26,9 +26,15 @@ meta:
   fileSize: 120 KB
   checksum: d0c0e3905b4c4a06ddcefec52b2a1cf264c4a4d592f0d9c3f97bd33f55857d66
   summaryBullets:
-    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
-    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
-    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+    - >-
+      Zawiera: arkusz ofert no-code, RSS, webhook Slack i filtry po narzędziach,
+      seniority oraz trybie pracy.
+    - >-
+      Dla kogo: osoby uczące się no-code, bootcampy i HR szukający kanałów
+      dotarcia do talentów.
+    - >-
+      Start: odfiltruj oferty po Webflow, Framer, Make lub Zapier i włącz
+      powiadomienia o zmianach arkusza.
   primaryCta:
     label: Pobierz zasób
     href: https://files.projektbezkodu.pl/resources/pbk-job-board.csv

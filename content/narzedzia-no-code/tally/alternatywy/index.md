@@ -27,9 +27,15 @@ seo:
     - Jotform
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Tally wygrywa prostotą i darmowymi limitami, ale Typeform,
+      Jotform albo Paperform są lepsze przy UX, compliance lub sprzedaży.
+    - >-
+      Dla kogo: freelancerzy, startupy i szybkie testy; nie dla zespołów
+      potrzebujących zaawansowanej analityki lub natywnych integracji ERP/CRM.
+    - >-
+      Start: zbuduj ten sam formularz w Tally i jednej alternatywie, a potem
+      porównaj czas, wygląd, integracje i koszt miesięczny.
   primaryCta:
     label: Przejdź do strony Tally
     href: https://tally.so/help/tally-a-free-typeform-alternative

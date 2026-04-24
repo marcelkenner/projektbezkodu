@@ -24,9 +24,15 @@ seo:
     - GDPR
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Plausible wybierz dla prywatności, prostego dashboardu i lekkiego
+      skryptu; nie dla pełnej atrybucji marketingowej.
+    - >-
+      Dla kogo: blogi, startupy i projekty EU-first; nie dla zespołów
+      oczekujących user-id, cross-device i rozbudowanych raportów GA.
+    - >-
+      Start: załóż trial, wklej skrypt w head strony i skonfiguruj pierwsze cele
+      lub custom events.
   primaryCta:
     label: Przejdź do Plausible
     href: https://plausible.io/

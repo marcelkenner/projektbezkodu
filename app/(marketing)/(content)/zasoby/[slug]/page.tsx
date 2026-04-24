@@ -22,6 +22,7 @@ import type { MarkdownDocument } from "@/app/lib/content/repositories";
 import { ResourceStructuredDataBuilder } from "@/app/lib/seo/ResourceStructuredDataBuilder";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
 import { TextNormalizer } from "@/app/lib/text/TextNormalizer";
+import { getPriorityHeroImageAttributes } from "@/app/ui/heroes/priorityHeroImage";
 import styles from "./resource-detail.module.css";
 
 const copy = getCopy("resources");
@@ -106,6 +107,7 @@ export default async function ResourceDetailPage({
   const hasAffiliateLinks = Boolean(
     document.frontmatter.meta?.hasAffiliateLinks,
   );
+  const priorityHeroImageAttributes = getPriorityHeroImageAttributes();
   const structuredData = resourceStructuredDataBuilder.build({
     title: viewModel.getTitle(),
     description: viewModel.getIntro(),
@@ -169,8 +171,7 @@ export default async function ResourceDetailPage({
                 alt={viewModel.getHeroImage()!.alt}
                 width={viewModel.getHeroImage()!.width}
                 height={viewModel.getHeroImage()!.height}
-                loading="lazy"
-                decoding="async"
+                {...priorityHeroImageAttributes}
               />
             ) : null}
             {viewModel.getMetaBadges().length ? (

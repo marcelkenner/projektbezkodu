@@ -5,36 +5,39 @@ path: /artykuly/biblioteka-komponentow/sekcje-formularzy/
 draft: false
 template: default
 type: template
-date: "2026-04-03"
+date: '2026-04-03'
 hero:
-  heading: "Sekcje: Formularze"
+  heading: 'Sekcje: Formularze'
   subheading: Jak grupować pola, żeby formularze były czytelne i dostępne
 seo:
   title: Sekcje w formularzach — jak i kiedy używać
-  description: "Praktyczny przewodnik po sekcjach formularzy: fieldset, legend, role\
-    \ ARIA i wzorce projektowe."
+  description: >-
+    Praktyczny przewodnik po sekcjach formularzy: fieldset, legend, role ARIA i
+    wzorce projektowe.
   keywords:
-  - formularze
-  - fieldset
-  - legend
-  - accessibility
-  - sekcje formularzy
+    - formularze
+    - fieldset
+    - legend
+    - accessibility
+    - sekcje formularzy
 meta:
   summaryBullets:
-  - "Werdykt: prosty wzorzec fieldset + legend do grupowania powiązanych kontrolek."
-  - "Dla kogo: zespoły UI/UX, frontend‑y, twórcy design systemów."
-  - "Start: sprawdź fieldset i legend w MDN i wykonaj szybki test dostępności."
+    - >-
+      Werdykt: prosty wzorzec fieldset + legend do grupowania powiązanych
+      kontrolek.
+    - 'Dla kogo: zespoły UI/UX, frontend‑y, twórcy design systemów.'
+    - 'Start: sprawdź fieldset i legend w MDN i wykonaj szybki test dostępności.'
   primaryCta:
-    label: "Dokumentacja MDN: fieldset"
+    label: 'Dokumentacja MDN: fieldset'
     href: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
 taxonomy:
   categories:
-  - biblioteka komponentów
-  - formularze
+    - biblioteka komponentów
+    - formularze
   tags:
-  - evergreen
-  - biblioteka
+    - evergreen
+    - biblioteka
 ---
 
 ## Werdykty decyzji

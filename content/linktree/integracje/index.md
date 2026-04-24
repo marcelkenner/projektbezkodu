@@ -23,9 +23,15 @@ seo:
     - Make
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Zapier i Make wybierz dla szybkiego startu, a n8n lub API wtedy,
+      gdy ważniejsza jest kontrola, koszt i self-hosting.
+    - >-
+      Dla kogo: małe zespoły produktowe i operacyjne; nie dla self-hostingu bez
+      osoby odpowiedzialnej za aktualizacje.
+    - >-
+      Start: sprawdź API lub webhooki aplikacji, zmapuj lead -> CRM i przetestuj
+      payload w Zapier albo Make.
   primaryCta:
     label: Jak działa Zapier — dokumentacja
     href: https://docs.zapier.com/platform/quickstart/how-zapier-works

@@ -36,9 +36,15 @@ meta:
     href: >-
       https://developers.google.com/search/docs/appearance/structured-data/faqpage
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: FAQ rób dla użyteczności i porządku informacji, a schema traktuj
+      jako ostrożny dodatek techniczny.
+    - >-
+      Dla kogo: strony z powtarzalnymi pytaniami i krótkimi odpowiedziami; nie
+      dla treści promocyjnych ani Q&A społeczności.
+    - >-
+      Start: zbierz 8-12 pytań z supportu, napisz odpowiedzi po 1-3 zdania i
+      przetestuj JSON-LD w Rich Results Test.
 taxonomy:
   categories:
     - SEO

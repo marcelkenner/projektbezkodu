@@ -23,9 +23,15 @@ seo:
     - opłacalność
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Typeform opłaca się dopiero po przeliczeniu kosztu na odpowiedź i
+      ryzyka zatrzymania formularzy po przekroczeniu limitu.
+    - >-
+      Dla kogo: małe kampanie do około 100 odpowiedzi i zespoły potrzebujące
+      analityki; nie dla dużego wolumenu bez kalkulacji TCO.
+    - >-
+      Start: policz odpowiedzi ze wszystkich formularzy, sprawdź Plan & billing
+      i porównaj Basic, Plus oraz alternatywy.
   primaryCta:
     label: Zobacz stronę cenową Typeform
     href: https://www.typeform.com/pricing/

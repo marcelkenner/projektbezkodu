@@ -26,14 +26,14 @@ seo:
 meta:
   summaryBullets:
     - >-
-      Jak analizuję ceny Leadpages?: Patrzę m.in. na: limity stron, liczbę domen
-      i testy A/B.
+      Werdykt: Leadpages opłaca się solo twórcom i małym firmom przy rocznym
+      rozliczeniu, ale Standard szybko blokują limity stron i domen.
     - >-
-      Który plan ma sens?: Dzielę rozwiązania według scenariuszy: solo twórca,
-      mała firma, agencja.
+      Dla kogo: proste landing page, kampanie i testy A/B w Pro; nie dla agencji
+      bez planu Custom albo pełnej kontroli hostingu.
     - >-
-      Start: co zrobić jako pierwsze: sprawdź tryb rozliczenia (monthly/yearly)
-      i skorzystaj z 14-dniowego triala.
+      Start: przełącz Monthly/Yearly, sprawdź limity landingów i domen, a w
+      trialu zbuduj jeden landing z potrzebną integracją.
   primaryCta:
     label: Zobacz cennik Leadpages
     href: https://www.leadpages.com/pricing

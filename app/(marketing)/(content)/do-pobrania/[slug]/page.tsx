@@ -13,6 +13,7 @@ import {
 import { LeadMagnetCatalog } from "@/app/lib/content/leadMagnetCatalog";
 import styles from "./../lead-magnet.module.css";
 import { defaultSiteUrlFactory } from "@/app/lib/url/SiteUrlFactory";
+import { getPriorityHeroImageAttributes } from "@/app/ui/heroes/priorityHeroImage";
 
 const catalog = new LeadMagnetCatalog();
 
@@ -65,6 +66,7 @@ export default async function LeadMagnetPage({
     ? leadMagnet.summaryBullets
     : leadMagnet.hero.bullets;
   const ctaGroup = leadMagnet.cta;
+  const priorityHeroImageAttributes = getPriorityHeroImageAttributes();
 
   return (
     <section className={`${styles.scope} lead-page`} id="content">
@@ -89,8 +91,7 @@ export default async function LeadMagnetPage({
             alt={leadMagnet.hero.image.alt}
             width={leadMagnet.hero.image.width}
             height={leadMagnet.hero.image.height}
-            loading="lazy"
-            decoding="async"
+            {...priorityHeroImageAttributes}
           />
         </div>
 

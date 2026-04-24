@@ -23,9 +23,15 @@ meta:
     - webflow
     - wordpress
   summaryBullets:
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
-    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+    - >-
+      Werdykt: Webflow upraszcza launch i utrzymanie, a WordPress daje większą
+      kontrolę, wtyczki i niższy próg kosztowy.
+    - >-
+      Dla kogo: Webflow dla marketingu i prostych stron bez zespołu tech;
+      WordPress dla niestandardowych projektów i dev teamów.
+    - >-
+      Start: zrób prototyp Webflow na subdomenie i porównaj go z kosztem
+      hostingu, wtyczek oraz utrzymania WordPressa.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/webflow-vs-wordpress/

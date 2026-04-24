@@ -32,7 +32,9 @@ meta:
     - >-
       Werdykt: Home.pl — jeśli chcesz prosty start z promocjami cenowymi i
       czytelnym cennikiem.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - >-
+      Start: porównaj cenę rejestracji i odnowienia domeny, pojemność hostingu
+      oraz warunki wsparcia premium.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/nazwa-pl-vs-home-pl/

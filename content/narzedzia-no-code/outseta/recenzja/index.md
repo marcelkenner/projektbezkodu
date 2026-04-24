@@ -26,9 +26,15 @@ seo:
     - membership
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Outseta to szybkie MVP z auth, subskrypcjami, CRM i helpdeskiem w
+      jednym, ale nie pełny stack enterprise.
+    - >-
+      Dla kogo: założyciele i małe zespoły budujące płatny dostęp; nie dla
+      niestandardowego billing, SSO i pełnej kontroli sesji.
+    - >-
+      Start: skonfiguruj produkt, Stripe i embedy logowania na stronie testowej,
+      potem sprawdź cennik oraz API/webhooki.
   primaryCta:
     label: Przejdź do artykułu
     href: /narzedzia/outseta/recenzja/

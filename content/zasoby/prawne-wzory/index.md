@@ -27,9 +27,15 @@ meta:
   checksum: b894bc2f1d0d1314a6d26f3117f5f58d1f6db5cd5735f6b1c3f0bef9a713d28b
   detailsHref: /zasoby/prawne-wzory/
   summaryBullets:
-    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
-    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
-    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+    - >-
+      Zawiera: umowę no-code, aneks praw autorskich, klauzule RODO, zgodę
+      marketingową i checklistę publikacji dokumentów.
+    - >-
+      Dla kogo: freelancerzy, agencje i firmy produktowe porządkujące
+      dokumentację Webflow lub Framer.
+    - >-
+      Start: skopiuj wersję Google Docs i uzupełnij placeholdery firmy, zakresu
+      projektu oraz SLA.
   primaryCta:
     label: Pobierz zasób
     href: https://files.projektbezkodu.pl/resources/pbk-wzory-dokumentow.zip

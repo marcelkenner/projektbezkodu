@@ -20,9 +20,15 @@ seo:
     - konwersja
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: najlepszy pierwszy cennik to jeden lub trzy plany z korzyściami,
+      widocznym CTA i krótkim FAQ.
+    - >-
+      Dla kogo: właściciele małych produktów, SaaS i marketing; nie dla ofert
+      enterprise bez uproszczenia lub ścieżki kontaktu.
+    - >-
+      Start: wybierz model cennika, napisz trzy korzyści dla każdego planu i
+      opublikuj wersję testową.
   primaryCta:
     label: Przeczytaj najlepsze praktyki
     href: https://blog.hubspot.com/marketing/best-practices-pricing-page

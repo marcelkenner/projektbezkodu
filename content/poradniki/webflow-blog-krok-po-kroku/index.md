@@ -22,9 +22,15 @@ meta:
   tools:
     - webflow
   summaryBullets:
-    - 'Zbudujesz: praktyczny proces krok po kroku.'
-    - 'Nauczysz się: konfiguracji, testów i wdrożenia.'
-    - 'Start: zacznij od sekcji „Jak zacząć”.'
+    - >-
+      Zbudujesz: blog Webflow oparty o kolekcje CMS, layouty artykułów, SEO i
+      publikację.
+    - >-
+      Dla kogo: zespoły chcące oddzielić treść od layoutu; nie dla bloga bez
+      potrzeby CMS i relacji między wpisami.
+    - >-
+      Start: wypisz typy treści i utwórz kolekcje artykułów, autorów, kategorii,
+      lead magnetów oraz FAQ.
   primaryCta:
     label: Przejdź do poradnika
     href: /poradniki/webflow-blog-krok-po-kroku/

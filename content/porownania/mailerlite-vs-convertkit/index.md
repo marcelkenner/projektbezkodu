@@ -18,9 +18,15 @@ meta:
   author: Redakcja
   updatedAt: '2026-01-14'
   summaryBullets:
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
-    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+    - >-
+      Werdykt: MailerLite wygrywa ceną, szablonami i szybkim landing page, a
+      ConvertKit monetyzacją i tagowaniem dla twórców.
+    - >-
+      Dla kogo: MailerLite dla małych firm i prostych kampanii; ConvertKit dla
+      newsletterów, produktów cyfrowych i skomplikowanych lejków.
+    - >-
+      Start: zbuduj lead magnet, landing page i autoresponder w obu narzędziach,
+      a potem porównaj koszt po wzroście listy.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/mailerlite-vs-convertkit/

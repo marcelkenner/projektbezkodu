@@ -8,9 +8,15 @@ draft: false
 date: '2026-01-14'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: w małym zespole Figma przestaje frustrować, gdy masz strukturę
+      plików, style i jedną bibliotekę komponentów.
+    - >-
+      Dla kogo: osoby współdzielące pliki produktowe z 1–10 osobami; nie dla
+      chaotycznej pracy bez konwencji nazewnictwa.
+    - >-
+      Start: utwórz plik Design System Master, dodaj style bazowe i trzy główne
+      komponenty.
   primaryCta:
     label: 'Figma: components i style'
     href: >-

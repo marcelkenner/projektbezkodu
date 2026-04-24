@@ -5,26 +5,33 @@ path: /artykuly/creative-tools/
 template: default
 type: hub
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 hero:
   heading: Creative tools bez kodu
   subheading: Grafika, wideo, audio i kreatywne workflow bez programowania.
 seo:
   title: Creative tools bez kodu | ProjektBezKodu
-  description: "Artykuły o kreatywnych narzędziach no-code: grafika, wideo, audio\
-    \ i automatyzacje pracy twórczej."
+  description: >-
+    Artykuły o kreatywnych narzędziach no-code: grafika, wideo, audio i
+    automatyzacje pracy twórczej.
   keywords:
-  - no-code
-  - narzędzia kreatywne
-  - grafika bez kodu
-  - wideo bez kodu
-  - automatyzacja pracy twórczej
+    - no-code
+    - narzędzia kreatywne
+    - grafika bez kodu
+    - wideo bez kodu
+    - automatyzacja pracy twórczej
 meta:
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: creative tools bez kodu przyspieszają grafikę, wideo, audio i
+      publikację, ale nie zastąpią złożonego backendu.
+    - >-
+      Dla kogo: freelancerzy, małe studia, marketing i UI/UX; nie dla projektów
+      wymagających pełnego programowania.
+    - >-
+      Start: wybierz, czy potrzebujesz strony, prototypu czy aplikacji, a potem
+      sprawdź koszty migracji treści.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/creative-tools/

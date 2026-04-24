@@ -26,9 +26,15 @@ seo:
     - stack
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Outseta wybierz dla szybkości all-in-one, a alternatywy wtedy,
+      gdy ważniejsza jest kontrola UI, danych albo community.
+    - >-
+      Dla kogo: membership, SaaS i społeczności; nie dla własnego stacku bez
+      zespołu dev albo utrzymania kilku usług.
+    - >-
+      Start: wypisz płatności, logowanie, CRM, e-mail i community, potem zrób
+      10-minutowy test Memberstack, Memberful lub Supabase + Stripe.
   updatedAt: '2026-01-14'
   primaryCta:
     label: Przeczytaj listę alternatyw

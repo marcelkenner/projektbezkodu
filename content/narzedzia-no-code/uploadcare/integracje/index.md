@@ -20,9 +20,15 @@ seo:
     szybciej włączysz upload i CDN do swojego projektu.
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Uploadcare przyspiesza upload i CDN dzięki gotowym integracjom,
+      jeśli prostota jest ważniejsza niż pełna kontrola infrastruktury.
+    - >-
+      Dla kogo: projekty React, Next.js, Webflow i WordPress; nie dla zespołów
+      wymagających własnych transformacji i kosztów pod pełną kontrolą.
+    - >-
+      Start: pobierz Public Key z Dashboardu i przetestuj widget w docelowym
+      stacku przed konfiguracją produkcyjną.
   primaryCta:
     label: Przejdź do artykułu
     href: /narzedzia/uploadcare/integracje/

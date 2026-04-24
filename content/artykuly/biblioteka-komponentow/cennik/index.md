@@ -1,37 +1,40 @@
 ---
-title: "Sekcje: Cennik"
+title: 'Sekcje: Cennik'
 slug: sekcje-cennik
 path: /artykuly/biblioteka-komponentow/sekcje-cennik/
 type: article
 tags:
-- evergreen
-- biblioteka
-- UX
-- SaaS
+  - evergreen
+  - biblioteka
+  - UX
+  - SaaS
 draft: false
-date: "2026-04-02"
+date: '2026-04-02'
 hero:
-  heading: "Sekcje: Cennik"
+  heading: 'Sekcje: Cennik'
   subheading: Praktyczny przewodnik po projektowaniu sekcji cen
 template: default
 meta:
   summaryBullets:
-  - "Werdykt w skrócie: Dobry cennik usuwa niepewność i kieruje decyzję, nie klikaniem\
-    \ w konfliktywne domysły."
-  - "Lead: Sekcja cen to filtr, który przyciąga właściwych klientów i oszczędza czas,\
-    \ zarówno klientom, jak i zespołowi."
-  - "Najważniejsze pytania: ile planów to zdrowa liczba i jak je porównać w sposób\
-    \ jasny i szybki."
+    - >-
+      Werdykt w skrócie: Dobry cennik usuwa niepewność i kieruje decyzję, nie
+      klikaniem w konfliktywne domysły.
+    - >-
+      Lead: Sekcja cen to filtr, który przyciąga właściwych klientów i oszczędza
+      czas, zarówno klientom, jak i zespołowi.
+    - >-
+      Najważniejsze pytania: ile planów to zdrowa liczba i jak je porównać w
+      sposób jasny i szybki.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/biblioteka-komponentow/sekcje-cennik/
 seo:
   keywords:
-  - cennik
-  - sekcje cenowe
-  - pricing page
-  - UX ceny
-  - porównanie planów
+    - cennik
+    - sekcje cenowe
+    - pricing page
+    - UX ceny
+    - porównanie planów
 ---
 
 ## Werdykt w skrócie

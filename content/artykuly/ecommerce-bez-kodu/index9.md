@@ -11,9 +11,15 @@ draft: false
 date: '2026-04-03'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Make lub Zapier mają sens, gdy zaczynasz od jednego scenariusza,
+      np. porzucony koszyk -> e-mail.
+    - >-
+      Dla kogo: marketing, obsługa klienta i sklepy na Shopify/WooCommerce; nie
+      dla wysyłek SMS bez zgód i limitów.
+    - >-
+      Start: połącz sklep z narzędziem e-mail, przetestuj porzucony koszyk i
+      dodaj SMS dopiero po stabilizacji.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-9/

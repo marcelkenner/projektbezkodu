@@ -27,9 +27,15 @@ seo:
     - recenzja
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Surfer przyspiesza optymalizację SEO, ale nie zastępuje redaktora
+      ani wiedzy eksperckiej.
+    - >-
+      Dla kogo: freelancerzy, małe zespoły i agencje publikujące regularnie;
+      ostrożnie przy tekstach technicznych i unikalnym stylu.
+    - >-
+      Start: podłącz GSC, przetestuj 2-3 artykuły w Content Editorze i obserwuj
+      wyniki przez 4-8 tygodni.
   primaryCta:
     label: Odwiedź stronę Surfer
     href: https://surferseo.com/

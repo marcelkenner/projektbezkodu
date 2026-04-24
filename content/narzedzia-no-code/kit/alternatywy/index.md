@@ -28,9 +28,15 @@ seo:
     - Substack
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: MailerLite wygrywa kosztem startu, beehiiv i Substack
+      monetyzacją, a ConvertKit zostaje dla automatyzacji twórców.
+    - >-
+      Dla kogo: solopreneurzy, płatne newslettery i sklepy z SMS; nie dla
+      migracji bez testu dostarczalności i kosztów przy 2-5k subskrybentów.
+    - >-
+      Start: wyeksportuj CSV, załóż darmowe konto alternatywy i wyślij ten sam
+      newsletter do próbki 100-500 adresów.
   primaryCta:
     label: Przejdź do artykułu
     href: https://convertkit.com

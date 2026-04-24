@@ -24,9 +24,15 @@ meta:
   fileSize: 1.2 MB
   checksum: f5a4af90b1f7a0d08f902a6b1a6a3c6c02fbd6c83fbf6b6a1f02dfd2609bcf25
   summaryBullets:
-    - 'Zawiera: kuratowane linki i materiały w jednym miejscu.'
-    - 'Dla kogo: osoby szukające sprawdzonych zasobów.'
-    - 'Start: pobierz plik i wybierz 1–2 pozycje na początek.'
+    - >-
+      Zawiera: 128 ikon SVG, komponenty React, JSON do Tailwind i warianty
+      znaków polskiego alfabetu.
+    - >-
+      Dla kogo: designerzy, zespoły produktowe i agencje brandingowe budujące
+      polskie projekty Webflow lub Framer.
+    - >-
+      Start: wgraj SVG do Asset Managera albo zaimportuj komponenty React z
+      paczki @pbk/icons.
   primaryCta:
     label: Pobierz zasób
     href: https://files.projektbezkodu.pl/resources/pbk-icons-pl.zip

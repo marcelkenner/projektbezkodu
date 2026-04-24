@@ -8,9 +8,15 @@ date: '2026-04-03'
 meta:
   updatedAt: '2026-04-03'
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sen i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: zacznij od Stripe z BLIK-iem i e-przelewami, a BNPL dodaj dopiero
+      po sprawdzeniu kosztów.
+    - >-
+      Dla kogo: sklepy bez programistów i sprzedawcy w Polsce; nie dla wdrożeń
+      bez kontroli prowizji i chargebacków.
+    - >-
+      Start: wybierz jedną-dwie bramki, zrób test transakcji, wypłat i zwrotów,
+      potem mierz koszt metod płatności.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-6/

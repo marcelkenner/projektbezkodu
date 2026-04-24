@@ -12,9 +12,15 @@ hero:
   heading: 'Uprawnienia i role: architektura dostępu w no-code'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: największym ryzykiem no-code access są konta admin dla wszystkich
+      i brak audit logów.
+    - >-
+      Dla kogo: zespoły z danymi produkcyjnymi, skalą lub audytem; prosty
+      prototyp może zacząć lżej, ale z ryzykiem.
+    - >-
+      Start: zrób inwentarz uprawnień, utwórz role Admin, Dev i User oraz
+      oddziel dev/test/prod.
   primaryCta:
     label: Przejdź do artykułu
     href: /architektura-9

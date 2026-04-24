@@ -23,9 +23,15 @@ seo:
     - automatyzacja
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: wbudowane Airtable Automations wystarczą dla procesu w jednym
+      base; integrator wybierz przy wielu systemach i retry.
+    - >-
+      Dla kogo: zespoły z prostymi triggerami w Airtable; nie dla workflow z
+      dużymi payloadami i złożoną transformacją.
+    - >-
+      Start: sprawdź, czy proces dotyczy jednego base, ustaw trigger i porównaj
+      limit uruchomień z planem Airtable.
   primaryCta:
     label: Dokumentacja Airtable Automations
     href: >-

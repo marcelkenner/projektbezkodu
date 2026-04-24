@@ -24,9 +24,15 @@ seo:
     - Surfer ceny
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Surfer pomaga przy regularnym SEO content, ale Content Score
+      traktuj jako checklistę, nie decyzję o publikacji.
+    - >-
+      Dla kogo: redakcje, agencje i copywriterzy z wieloma tekstami; nie dla
+      jednorazowych audytów i najtańszego workflow.
+    - >-
+      Start: uruchom Content Editor dla jednego keywordu i porównaj limity planu
+      z miesięczną liczbą tekstów.
   primaryCta:
     label: Strona z planami Surfer
     href: https://surferseo.com/pricing/

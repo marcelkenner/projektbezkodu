@@ -8,9 +8,15 @@ draft: false
 date: '2026-01-15'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: formularze potrzebują natychmiastowego feedbacku, a nie
+      dekoracyjnych przejść.
+    - >-
+      Dla kogo: SaaS onboarding, płatności i uploady; nie dla prostych
+      lead-genów z jednym lub dwoma polami.
+    - >-
+      Start: dodaj progress lub walidację inline do jednego krytycznego kroku i
+      mierz completion rate.
   primaryCta:
     label: Przejdź do artykułu
     href: https://design.google/library/making-motion-meaningful

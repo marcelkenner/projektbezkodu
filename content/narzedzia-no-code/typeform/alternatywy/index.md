@@ -34,9 +34,16 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Typeform zostaje wyborem dla konwersacyjnego UX, ale Tally,
+      Jotform i Paperform częściej wygrywają limitami, płatnościami lub
+      workflow.
+    - >-
+      Dla kogo: marketerzy potrzebujący dopracowanego doświadczenia respondenta;
+      nie dla kampanii z dużą liczbą odpowiedzi na darmowym planie.
+    - >-
+      Start: sprawdź miesięczny limit odpowiedzi i przetestuj 3-5 pytań w
+      Typeform oraz Tally albo Jotform.
   primaryCta:
     label: Porównanie Jotform vs Typeform
     href: https://zapier.com/blog/jotform-vs-typeform/

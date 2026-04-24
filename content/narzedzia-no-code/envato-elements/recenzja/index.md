@@ -31,9 +31,15 @@ meta:
   duration: 5 min
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Envato Elements opłaca się przy regularnym pobieraniu assetów,
+      ale wymaga pilnowania licencji projektowych.
+    - >-
+      Dla kogo: twórcy contentu, projektanci i małe agencje; nie dla rzadkich
+      zakupów ani masowej odsprzedaży zasobów.
+    - >-
+      Start: porównaj miesięczny koszt subskrypcji z wydatkami na stocki i
+      sprawdź zasady licencji dla nietypowego użycia.
   primaryCta:
     label: Zobacz cennik Envato Elements
     href: https://elements.envato.com/pricing

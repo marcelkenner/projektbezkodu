@@ -27,9 +27,15 @@ seo:
     - aplikacje z arkusza
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Glide jest świetny do MVP i narzędzi z arkusza, ale ryzykowny dla
+      systemów z ciągłym synciem i silną integralnością danych.
+    - >-
+      Dla kogo: zespoły tworzące katalogi, checklisty i CRM-lite; nie dla ERP,
+      płatności masowych i aplikacji compliance.
+    - >-
+      Start: wybierz Google Sheets, Airtable albo Glide Tables, zbuduj demo w
+      10-15 minut i sprawdź limity syncu planu.
   primaryCta:
     label: Odwiedź Glide
     href: https://www.glideapps.com

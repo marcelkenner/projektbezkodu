@@ -10,9 +10,15 @@ hero:
   subheading: Szybkie decyzje dla menedżerów produktów i liderów IT
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: w 2026 no-code przyspiesza prototypy i automatyzacje, ale nie
+      zastępuje inżynierii w krytycznych systemach.
+    - >-
+      Dla kogo: PM-owie, liderzy IT i operacje z ograniczonymi zasobami
+      technicznymi; nie dla wymagań wysokiego audytu i wydajności.
+    - >-
+      Start: wybierz jeden proces do prototypu, oceń governance danych i
+      sprawdź, gdzie AI realnie skraca pracę.
   primaryCta:
     label: Przejdź do raportu Zapier
     href: https://zapier.com/blog/no-code-report

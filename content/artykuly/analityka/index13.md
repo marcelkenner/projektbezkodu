@@ -26,9 +26,15 @@ seo:
   canonical: https://www.optimizely.com/optimization-glossary/ab-testing/
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: większości firm wystarczy A/B w CMS albo VWO; Optimizely ma sens
+      przy dużym ruchu i feature flagach.
+    - >-
+      Dla kogo: marketerzy i SMB z landingami; nie dla zespołów bez ruchu
+      pozwalającego zebrać wiarygodną próbę.
+    - >-
+      Start: zapisz jedną hipotezę, jeden KPI i sprawdź, czy obecna platforma ma
+      wbudowany test A/B.
   primaryCta:
     label: Przejdź do Optimizely — definicja A/B
     href: https://www.optimizely.com/optimization-glossary/ab-testing/

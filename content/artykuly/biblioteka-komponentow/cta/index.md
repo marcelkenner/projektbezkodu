@@ -4,29 +4,35 @@ slug: sekcje-cta
 path: /artykuly/biblioteka-komponentow/sekcje-cta/
 type: template
 tags:
-- evergreen
-- biblioteka
+  - evergreen
+  - biblioteka
 draft: false
-date: "2026-04-02"
+date: '2026-04-02'
 template: default
 hero:
-  heading: "Sekcje: CTA"
-  subheading: "Praktyczny przewodnik: gdzie, kiedy i jak ustawić wezwanie do działania"
+  heading: 'Sekcje: CTA'
+  subheading: 'Praktyczny przewodnik: gdzie, kiedy i jak ustawić wezwanie do działania'
 seo:
   title: Sekcje CTA — przewodnik projektowy i przykłady
-  description: "Jak zaprojektować sekcję CTA (button, banner, pop-up) która działa:\
-    \ szybki start, najlepsze miejsca, testy i gotowe przykłady."
+  description: >-
+    Jak zaprojektować sekcję CTA (button, banner, pop-up) która działa: szybki
+    start, najlepsze miejsca, testy i gotowe przykłady.
   keywords:
-  - CTA
-  - call to action
-  - sekcja CTA
-  - przyciski konwersji
+    - CTA
+    - call to action
+    - sekcja CTA
+    - przyciski konwersji
 meta:
   summaryBullets:
-  - "Werdykt: krótko i konkretnie — umieść prosty, jeden cel."
-  - "Dla kogo: przydatne dla product i growth, frustrujące dla stron z wieloma konkurencyjnymi\
-    \ celami."
-  - "Start: gotowy test A/B i jeden wariant live w 5–15 minut."
+    - >-
+      Werdykt: sekcja CTA działa najlepiej, gdy ma jeden cel konwersji, jeden
+      widoczny przycisk i krótki tekst.
+    - >-
+      Dla kogo: przydatne dla product i growth, frustrujące dla stron z wieloma
+      konkurencyjnymi celami.
+    - >-
+      Start: wybierz jeden cel, ustaw bezpośredni tekst akcji i mierz
+      wyświetlenia, kliknięcia oraz konwersje.
   primaryCta:
     label: Pobrać szablony CTA
     href: https://offers.hubspot.com/call-to-action-templates
@@ -34,9 +40,9 @@ updatedAt: '2026-04-02'
 author: Redakcja biblioteki komponentów
 taxonomy:
   categories:
-  - UX
-  - Design
-  - Conversion
+    - UX
+    - Design
+    - Conversion
 ---
 
 ## Werdykt w skrócie

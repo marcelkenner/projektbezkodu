@@ -23,7 +23,7 @@ Last updated: 2024-12-09 by Codex.
     "seeAllHref": "/artykuly"
   }
   ```
-- Categories are discovered from `content/artykuly/*/index.md` (folder name = slug, draft allowed; exclude `template: legal`/`article`). Labels default to the folder name (title-cased) to stay short; editors only curate `navigation.featuredCategories`, `footerHeading`, and see-all labels in copy—slugs must match folder names to avoid 404s.
+- Categories are discovered from published article hubs in `content/artykuly/*/index.md` (folder name = slug, `draft: false`, `type: hub`). Labels default to the folder name (title-cased) to stay short; editors only curate `navigation.featuredCategories`, `footerHeading`, and see-all labels in copy—slugs must match folder names to avoid 404s.
 - Keep a maximum of five featured categories to avoid crowding the navigation.
 
 ## 3. Primary Navigation Pattern
@@ -43,7 +43,7 @@ Last updated: 2024-12-09 by Codex.
 
 ## 4. Footer Pattern
 
-1. Footer builds the category column automatically from every `content/artykuly/*/index.md` entry (folder slug = `/artykuly/<slug>/`), laid out in a two-row grid on desktop. No manual link maintenance in `footer.json`.
+1. Footer builds the category column automatically from every published hub in `content/artykuly/*/index.md` (folder slug = `/artykuly/<slug>/`), laid out in a two-row grid on desktop. Draft hubs are excluded, and there is no manual link maintenance in `footer.json`.
 2. Keep featured categories in navigation copy; footer always shows the full list.
 3. Respect existing grid limits (three content columns + newsletter). The two-row category grid should prevent excessive vertical scroll.
 
@@ -51,7 +51,7 @@ Last updated: 2024-12-09 by Codex.
 
 - `data/copy/articles.json` now contains the `navigation` block with `menuLabel`, `featuredCategories`, `seeAllHref`, and `footerHeading`.
 - `PrimaryNav` renders a `<details>`-based drop-down fed by `articlesNav` from `app/(marketing)/layout.tsx`. On mobile it stacks; on desktop it becomes an anchored panel.
-- `Footer` injects a “Kategorie artykułów” column dynamically from the `content/artykuly` directory while still respecting navigation copy for headings/see-all links.
+- `Footer` injects a “Kategorie artykułów” column dynamically from published article hubs in `content/artykuly` while still respecting navigation copy for headings/see-all links.
 - `articleTaxonomyCatalog` now hydrates categories from markdown directories and applies copy overrides for labels/descriptions.
 
 ## 6. QA Checklist

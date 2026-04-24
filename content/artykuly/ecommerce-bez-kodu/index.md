@@ -5,26 +5,34 @@ path: /artykuly/ecommerce-bez-kodu/
 template: default
 type: hub
 draft: false
-date: "2026-04-03"
+date: '2026-04-03'
 hero:
   heading: E-commerce bez kodu
-  subheading: Platformy sklepowe, analityka, promocje i operacje dla sklepów budowanych
+  subheading: >-
+    Platformy sklepowe, analityka, promocje i operacje dla sklepów budowanych
     bez programowania.
 seo:
   title: E-commerce bez kodu | ProjektBezKodu
-  description: "Artykuły o e-commerce bez kodu: start sklepu, analityka, promocje,\
-    \ katalog i operacje."
+  description: >-
+    Artykuły o e-commerce bez kodu: start sklepu, analityka, promocje, katalog i
+    operacje.
   keywords:
-  - e-commerce bez kodu
-  - no-code sklep
-  - platformy no-code
-  - sklep internetowy bez programowania
+    - e-commerce bez kodu
+    - no-code sklep
+    - platformy no-code
+    - sklep internetowy bez programowania
 meta:
-  updatedAt: "2026-04-03"
+  updatedAt: '2026-04-03'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: e-commerce bez kodu szybko uruchamia sklep i pierwsze sprzedaże,
+      ale ogranicza personalizację i zaawansowane funkcje.
+    - >-
+      Dla kogo: startupy, małe firmy i testy popytu; nie dla sklepów
+      wymagających pełnej kontroli skali i logiki.
+    - >-
+      Start: sprawdź płatności, wysyłkę, SEO, integracje marketingowe i
+      możliwość migracji danych.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/ecommerce-bez-kodu/

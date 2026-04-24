@@ -30,11 +30,15 @@ meta:
     href: >-
       https://www.smashingmagazine.com/2024/06/how-improve-microcopy-ux-writing-tips-non-ux-writers/
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie — microcopy działa, ale trzeba testować.'
+    - >-
+      Werdykt: microcopy działa najlepiej przy CTA, formularzach i checkout, ale
+      każdą zmianę warto testować.
     - >-
       Dla kogo: ma sens od MVP po dojrzałe sklepy — największy ROI w
       formularzach i checkout.
-    - 'Start: zmierz, napisz wariant, uruchom A/B test w 1–2 tygodnie.'
+    - >-
+      Start: znajdź miejsce porzucenia, napisz jeden wariant i uruchom test A/B
+      na minimum tydzień.
 taxonomy:
   categories:
     - Design bez kodu

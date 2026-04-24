@@ -7,9 +7,15 @@ date: '2026-04-03'
 draft: false
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: strona produktu bez kodu konwertuje, jeśli ma jasny przekaz,
+      łatwą nawigację, mocne CTA i dowody zaufania.
+    - >-
+      Dla kogo: małe sklepy, freelancerzy, UX i marketing w platformach no-code;
+      nie dla skomplikowanych wariantów i logistyki.
+    - >-
+      Start: przetestuj kartę produktu, warianty, galerię, FAQ, dostawę, zwroty
+      i mobile na kilku produktach.
   updatedAt: '2026-04-03'
   primaryCta:
     label: Przejdź do artykułu

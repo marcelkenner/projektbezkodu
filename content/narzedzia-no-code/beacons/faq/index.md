@@ -29,9 +29,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: FAQ działa, gdy bazuje na realnych pytaniach i linkuje do pełnych
+      treści zamiast zastępować nawigację.
+    - >-
+      Dla kogo: małe sklepy, SaaS i redaktorzy z powtarzalnymi zgłoszeniami; nie
+      dla serwisów bez danych o pytaniach.
+    - >-
+      Start: wybierz pięć pytań z supportu lub Search Console, napisz krótkie
+      odpowiedzi i opublikuj je z linkami do szczegółów.
   primaryCta:
     label: Jak przygotować FAQ (poradnik)
     href: >-

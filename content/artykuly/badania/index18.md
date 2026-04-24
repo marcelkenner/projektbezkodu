@@ -28,8 +28,8 @@ meta:
   hasAffiliateLinks: false
   summaryBullets:
     - >-
-      Werdykt: krótko i konkretnie — dokumentacja musi być użyteczna, nie
-      kompletna za wszelką cenę.
+      Werdykt: dokumentuj produkcyjne automatyzacje, bazy i uprawnienia
+      użytecznie, nie kompletnie za wszelką cenę.
     - >-
       Dla kogo: ma sens dla projektów >1 właściciela, produkcyjnych
       automatyzacji i baz krytycznych.

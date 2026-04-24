@@ -22,9 +22,15 @@ seo:
     - UX przed publikacją
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: audit UI przed publikacją powinien blokować błędy w krytycznym
+      flow, dostępności, komunikatach i responsywności.
+    - >-
+      Dla kogo: landing, MVP i update bez dedykowanego QA; nie jako zamiennik
+      pełnych testów automatycznych.
+    - >-
+      Start: otwórz najważniejszy flow i sprawdź formularze, walidacje, focus,
+      błędy oraz komunikat sukcesu.
   primaryCta:
     label: WCAG checklist
     href: https://webaim.org/standards/wcag/checklist

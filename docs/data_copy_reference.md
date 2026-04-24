@@ -84,7 +84,7 @@ Each entry lists:
 - **Purpose**: Footer columns, microcopy, and copyright.
 - **Key Fields**: `columns`, `microcopy`, `copyright`.
 - **Primary Consumers**: `app/ui/Footer.tsx`.
-- **Notes**: Leaving the “Kategorie” column empty triggers automatic population from `articles.navigation.featuredCategories`.
+- **Notes**: Leaving the “Kategorie” column empty triggers automatic population from published article hubs under `content/artykuly/*/index.md`. Draft hubs are excluded so the footer does not emit homepage links that resolve to 404.
 
 ### `global.json`
 
@@ -105,7 +105,7 @@ Each entry lists:
 - **Purpose**: Everything on the homepage: nav copy, hero, social proof, sections, latest articles teaser, newsletter CTA.
 - **Key Fields**: `header`, `hero`, `socialProof`, `pillars`, `workflow`, `articles`, `newsletter`.
 - **Primary Consumers**: `app/(marketing)/layout.tsx`, `app/(legal)/layout.tsx`, `app/(marketing)/homepage/HeroSection.tsx`, `app/(marketing)/homepage/HomepageSections.tsx`.
-- **Notes**: `header.search` also powers skip links and search placeholders globally.
+- **Notes**: `header.search` also powers skip links and search placeholders globally. Every internal CTA href in this file must point to a published route; for lead magnets use a concrete slug page such as `/do-pobrania/start-checklista/`, because `/do-pobrania` itself is not a standalone listing page.
 
 ### `lead-magnets.json`
 

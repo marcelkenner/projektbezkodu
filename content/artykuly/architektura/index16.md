@@ -15,9 +15,15 @@ hero:
   subheading: Krótki przewodnik decyzji dla zespołów content marketingu i produktowych
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Webflow wygrywa szybkim designem, WordPress ekosystemem, a
+      headless CMS skalą i omnichannel.
+    - >-
+      Dla kogo: content marketing i produkt; headless tylko, gdy masz dev team,
+      budżet i potrzebę własnego frontendu.
+    - >-
+      Start: oceń priorytety design, workflow i omnichannel, a potem zrób POC na
+      trzech kluczowych stronach.
   primaryCta:
     label: Dokumentacja Webflow CMS
     href: https://webflow.com/cms

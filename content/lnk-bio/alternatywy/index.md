@@ -26,9 +26,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: przy szybkich decyzjach zacznij od macierzy, a przy regulacjach
+      lub dużym ryzyku użyj analizy wielokryterialnej.
+    - >-
+      Dla kogo: decyzje produktowe, zakupowe i projektowe; nie dla spraw o
+      rozległych skutkach bez danych i oceny ryzyka.
+    - >-
+      Start: zapisz cel, wybierz maksymalnie sześć opcji i oceń je po koszcie,
+      czasie oraz ryzyku.
   primaryCta:
     label: Przejdź do przewodnika ECHA
     href: https://echa.europa.eu/pl/assess-compare-and-select-alternatives

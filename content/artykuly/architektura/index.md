@@ -5,26 +5,33 @@ path: /artykuly/architektura/
 template: default
 type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Architektura no-code
-  subheading: Modele danych, integracje, governance i wzorce, które pomagają budować
+  subheading: >-
+    Modele danych, integracje, governance i wzorce, które pomagają budować
     stabilne systemy bez kodu.
 seo:
   title: Architektura no-code | ProjektBezKodu
-  description: "Artykuły o architekturze no-code: dobór narzędzi, integracje i skalowanie."
+  description: 'Artykuły o architekturze no-code: dobór narzędzi, integracje i skalowanie.'
   keywords:
-  - architektura no-code
-  - no-code architektura
-  - modele danych no-code
-  - integracje no-code
-  - governance no-code
+    - architektura no-code
+    - no-code architektura
+    - modele danych no-code
+    - integracje no-code
+    - governance no-code
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: architektura no-code przyspiesza wdrożenia, ale bez modelu danych
+      i governance szybko generuje ryzyko.
+    - >-
+      Dla kogo: zespoły biznesowe i citizen developers; nie dla projektów bez
+      kontroli danych, integracji i exit path.
+    - >-
+      Start: opisz cel biznesowy, kluczowe encje danych, integracje i
+      właścicieli uprawnień przed budową flow.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/architektura/

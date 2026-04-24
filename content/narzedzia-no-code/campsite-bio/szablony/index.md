@@ -7,9 +7,15 @@ draft: false
 date: '2026-01-14'
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: szablony oszczędzają czas przy powtarzalnych dokumentach i
+      stronach, ale przeszkadzają przy unikalnych projektach.
+    - >-
+      Dla kogo: zespoły tworzące raporty, oferty, CV i szybkie MVP; nie dla
+      prac, w których zmieniasz ponad 30-40% układu.
+    - >-
+      Start: wybierz typ szablonu, wstaw przykładowe treści i po jednym użyciu
+      oceń realną oszczędność czasu.
   primaryCta:
     label: Przejdź do artykułu
     href: /szablony

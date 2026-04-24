@@ -28,9 +28,15 @@ seo:
     - Zapier
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: formularz → ATS/arkusz → mail → task ma sens przy ponad 5
+      aplikacjach tygodniowo.
+    - >-
+      Dla kogo: zespoły rekrutacyjne w firmach 5–200 osób; nie dla hiringu bez
+      jasnych etapów i terminów.
+    - >-
+      Start: ustaw formularz z polami ATS, testowy mail do rekrutera i zadanie
+      dla hiring managera.
   primaryCta:
     label: Zobacz przykłady automatyzacji
     href: https://zapier.com/automation/recruitment-automation

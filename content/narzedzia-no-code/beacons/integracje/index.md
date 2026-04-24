@@ -12,9 +12,15 @@ hero:
     za IT
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: zacznij od Zapier lub Make, a webhooki albo custom API zostaw na
+      skalę, compliance i nietypowe przepływy.
+    - >-
+      Dla kogo: PM-owie, właściciele firm i IT z procesami formularz -> CRM; nie
+      dla dużego ruchu bez architektury własnej.
+    - >-
+      Start: wybierz jeden proces, sprawdź katalog integracji i monitoruj
+      pierwszy test przez 24-72 godziny.
   primaryCta:
     label: Przejrzyj katalog integracji (przykład)
     href: https://zapier.com/apps

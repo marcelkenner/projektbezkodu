@@ -28,9 +28,15 @@ seo:
     - plany Zapier
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Zapier jest dobry do umiarkowanych automatyzacji bez kodu, o ile
+      kontrolujesz liczbę akcji liczonych jako taski.
+    - >-
+      Dla kogo: początkujący i zespoły chcące szybko łączyć aplikacje; nie dla
+      setek tysięcy zadań miesięcznie lub niestandardowej logiki kodowej.
+    - >-
+      Start: sprawdź darmowy limit 100 tasków, zaprojektuj dwustopniowy Zap i
+      dodaj filtry przed akcjami kosztowymi.
   primaryCta:
     label: Sprawdź ograniczenia darmowego planu
     href: >-

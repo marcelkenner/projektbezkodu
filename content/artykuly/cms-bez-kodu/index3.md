@@ -24,9 +24,15 @@ seo:
     - ButterCMS
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: headless CMS bez kodu zmniejsza liczbę ticketów redakcyjnych, ale
+      nie usuwa potrzeby frontendu.
+    - >-
+      Dla kogo: marketing i produkt z potrzebą niezależnej publikacji; nie dla
+      e-commerce z niestandardową logiką.
+    - >-
+      Start: wybierz typ treści, zamodeluj pola w panelu i sprawdź sposób
+      pobierania treści przez API.
   primaryCta:
     label: Przejdź do artykułu
     href: https://directus.io/

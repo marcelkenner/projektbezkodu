@@ -26,9 +26,15 @@ seo:
     - formularze konwersacyjne
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Typeform ma przewagę, gdy ukończenie formularza i doświadczenie
+      respondenta są ważniejsze niż najniższy koszt.
+    - >-
+      Dla kogo: kampanie leadowe, ankiety i onboarding z naciskiem na UX; nie
+      dla prostych formularzy kontaktowych o dużym wolumenie.
+    - >-
+      Start: zbuduj krótki formularz 3-5 pytań, opublikuj go i porównaj
+      completion rate z obecnym rozwiązaniem.
   primaryCta:
     label: Odwiedź Typeform
     href: https://www.typeform.com

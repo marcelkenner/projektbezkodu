@@ -28,9 +28,15 @@ seo:
   canonical: https://www.make.com
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Make szybko usuwa ręczne kroki w procesach SMB, ale przy skali
+      trzeba kontrolować kredyty, interwały i liczbę modułów.
+    - >-
+      Dla kogo: freelancerzy, operacje i małe firmy łączące CRM, maile i
+      arkusze; nie dla enterprise bez budżetu na SLA.
+    - >-
+      Start: załóż darmowe konto, uruchom scenariusz z szablonu i po pierwszym
+      runie oceń koszt kredytów.
   primaryCta:
     label: Odwiedź stronę Make
     href: https://www.make.com/en/pricing

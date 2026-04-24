@@ -43,9 +43,15 @@ meta:
       - Wydajność WordPressa zależy od jakości motywu i pluginów.
       - Skalowanie Framera do bloga/glosariusza jest trudniejsze bez CMS.
   summaryBullets:
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
-    - 'Dla kogo: osoby wybierające narzędzie pod konkretny scenariusz.'
-    - 'Start: sprawdź tabelę i rekomendację na końcu.'
+    - >-
+      Werdykt: Framer wygrywa przy szybkim, atrakcyjnym landingu, a WordPress
+      przy rozbudowanym CMS, wtyczkach i kontroli serwera.
+    - >-
+      Dla kogo: Framer dla soloprzedsiębiorców i kampanii design-first;
+      WordPress dla blogów, portali i wielojęzycznych serwisów.
+    - >-
+      Start: jeśli priorytetem jest landing, opublikuj prototyp we Framerze;
+      jeśli CMS, wybierz hosting i zainstaluj WordPress.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/framer-vs-wordpress/

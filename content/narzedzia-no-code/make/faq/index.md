@@ -20,9 +20,15 @@ seo:
     i jak projektować stabilne scenariusze.
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Make jest dobry do szybkich automatyzacji, ale krytyczne procesy
+      wymagają planu limitów, logów i bezpieczeństwa.
+    - >-
+      Dla kogo: freelancerzy, małe sklepy i zespoły wdrożeniowe; nie dla
+      audytowanych procesów bez Enterprise lub eksportu logów.
+    - >-
+      Start: zbuduj webhook -> filtr -> Google Sheets na Free i przez 48 godzin
+      sprawdź zużycie kredytów oraz logi.
   primaryCta:
     label: Przejdź do artykułu
     href: /narzedzia/make/faq/

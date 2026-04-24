@@ -22,9 +22,15 @@ seo:
     - OAuth
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: największy zwrot daje ograniczenie scope tokenów, rotacja i
+      przeniesienie sekretów do managera.
+    - >-
+      Dla kogo: firmy z wieloma SaaS i dostępem do danych produkcyjnych; proste
+      POC nadal powinno ograniczać ważność tokenów.
+    - >-
+      Start: zinwentaryzuj automatyzacje, używane konta i tokeny, potem wyłącz
+      nieużywane dostępy.
   primaryCta:
     label: Przejdź do oficjalnych praktyk OAuth
     href: >-

@@ -33,7 +33,9 @@ meta:
     - >-
       Werdykt: Framer dla szybkich, animowanych landingów i prototypów, które
       mają wyglądać nowocześnie bez długiej konfiguracji.
-    - 'Werdykt: szybkie porównanie kluczowych różnic.'
+    - >-
+      Start: wybierz Framera dla prostego landingu, a Webflow od razu wtedy, gdy
+      planujesz CMS, SEO i skalowanie treści.
   primaryCta:
     label: Zobacz porównanie
     href: /porownania/webflow-vs-framer/

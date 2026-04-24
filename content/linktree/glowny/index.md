@@ -21,9 +21,15 @@ seo:
     - optymalizacja SEO
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: kampanie z jednym celem kieruj na landing page, a stronę główną
+      upraszczaj pod markę, SEO i jeden priorytetowy CTA.
+    - >-
+      Dla kogo: firmy porządkujące pierwszy kontakt z odwiedzającym; nie dla
+      szukania wzrostu bez pomiarów i testów.
+    - >-
+      Start: sprawdź above the fold, nagłówek, CTA i PageSpeed, potem dodaj
+      dowód społeczny blisko głównej akcji.
   primaryCta:
     label: Przeczytaj najlepsze praktyki
     href: https://unbounce.com/landing-page-articles/landing-page-best-practices/

@@ -18,7 +18,7 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
    - `seo` block for title/description.
    - `meta` for tutorials/comparisons (difficulty, duration, tools).
    - `taxonomy` for articles (categories + tags defined in copy JSON).
-3. Validate syntax with `npm run content:lint` (this runs automatically before `npm run build`). It parses every markdown file, warns when `meta.summaryBullets` / `meta.primaryCta` are missing in article-driven folders, and points to the exact line when YAML is invalid. Set `CONTENT_LINT_STRICT=true` or append `--strict` if you want the warnings to fail CI.
+3. Validate syntax with `npm run content:lint` (this runs automatically before `npm run build`). It parses every markdown file, warns when `meta.summaryBullets` / `meta.primaryCta` are missing in article-driven folders, and points to the exact line when YAML is invalid. It also rejects production canonicals that leave their route family (for example a tutorial outside `/poradniki/` or a tool page outside `/narzedzia/<tool>/...`). Set `CONTENT_LINT_STRICT=true` or append `--strict` if you want the warnings to fail CI.
 4. Callouts: to render a highlighted tip/warning box, start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]` (the marker is removed from output).
 5. Do not wrap article content in ` ```markdown ` fences. If you need a code block, use plain triple backticks or a real language such as ` ```ts ` or ` ```bash `.
 
@@ -38,6 +38,7 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 - Do not publish a leaf article at `content/artykuly/<kategoria>/index.md`; that file is reserved for the hub.
 - Avoid numbered filenames like `index6.md` for new article leaves. Use the article slug or another descriptive filename.
 - Use descriptive `slug` values as well. `slug: index2` and similar placeholders are invalid.
+- For published articles, do not change `slug` casually. `path` is still the canonical URL, but `slug` may now power deterministic legacy redirects from old Google-discovered URLs such as `/<slug>/` or `/cms/<slug>/`.
 - `npm run content:lint` now enforces the category hub contract, the `/artykuly/<kategoria>/...` canonical path prefix, and descriptive article slugs.
 - Routing details (canonical URLs, aliases/redirects, hub vs leaf) live in `docs/frontmatter_and_routing.md`.
 - Use `taxonomy.categories` and `taxonomy.tags` slugs from `data/copy/articles.json`.
@@ -46,10 +47,11 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
   2. Update `docs/brand/frontmatter_schema.md` and `docs/brand/metadata_mapping.md` if the field meaning changes.
   3. Inform devs so badges map correctly in `ArticleTaxonomyCatalog`.
 - Frontmatter `meta.tools` surface as neutral badges; ensure slugs match `data/tools.json`.
-- Featured categories drive navigation. Any change to `featuredCategories` in `data/copy/articles.json` updates both the main nav and footer (see `docs/brand/article_taxonomy_navigation.md` for limits and rollout steps). Coordinate with design before reordering.
+- Featured categories drive the main navigation only. The footer category column auto-populates from published article hubs under `content/artykuly/*/index.md`, so draft hubs never appear there. Coordinate with design before reordering `featuredCategories` in `data/copy/articles.json`.
 
 ## 5. Tutorials (`content/poradniki/**`)
 
+- Canonical `path` values must stay under `/poradniki/<slug>/`.
 - `meta.difficulty` controls the filter badge. Use consistent labels (e.g., `Łatwy`, `Średni`, `Zaawansowany`).
 - `meta.tools` feeds the filter dropdown; list the primary tool slugs (e.g., `webflow`, `framer`).
 - Filters autogenerate counts. After adding new tutorials, verify `/poradniki` displays the new options.
@@ -58,6 +60,7 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 
 ## 6. Resources (`content/zasoby/**`)
 
+- Canonical `path` values must stay under `/zasoby/<slug>/`.
 - Używaj `template: "resource"`. Wymagane pola w `meta`: `format`, `duration` lub `time`, `topics`, `license`, `downloadHref`, `fileSize`, `checksum`. Bez nich listing nie pokaże kompletu metadanych.
 - Treść sekcji trzymaj zgodnie z ASCII: „Co zawiera”, „Dla kogo”, „Jak korzystać”, „Licencja”, „Wersje”.
 - Jeśli zasób posiada grafikę hero, uzupełnij `hero.image` lub meta (`heroImageSrc`, `heroImageAlt`).
@@ -73,6 +76,7 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 
 ## 8. Comparisons (`content/porownania/**`)
 
+- Canonical `path` values must stay under `/porownania/<slug>/`.
 - Ensure summary text (first paragraph) clearly differentiates the tools; it becomes the listing excerpt.
 - Populate `meta.tools` for cross-linking in search results.
 - Double-check hero subheading for clarity – trafia do keyword listy wyszukiwarki.
@@ -81,6 +85,7 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 ## 9. Glossary (`content/glossary/**`)
 
 - Each entry needs `title`, `slug`, `path`, `hero.heading`.
+- Canonical `path` values must stay under `/glossary/<slug>/` (or `/glossary/` for the section root).
 - Keep definitions concise; the first paragraph becomes the list description.
 - The alphabetical navigation derives from the first letter of `title`. Avoid leading punctuation.
 - To verify search: visit `/glossary?q=<term>` and confirm results.
@@ -107,19 +112,27 @@ Last updated: 2026-04-02 by Codex. Keep this guide in sync with feature changes 
 - Po zmianach uruchom `npm run lint` i sprawdź, czy toast wyświetla się na stronie (prawy dolny róg, na desktopie).
 - Dodaj wzmiankę w kanale contentowym, jeśli planujesz rotację narzędzia – toast jest widoczny na każdej stronie marketingowej.
 
+## 12a. Tool Guides (`content/narzedzia-no-code/**` and top-level tool folders)
+
+- Canonical `path` values must stay under `/narzedzia/<tool>/...`.
+- The main guide lives at `/narzedzia/<tool>/` and may be sourced from `glowny/index.md`.
+- If a tool page accidentally publishes as `/faq/`, `/recenzja/`, or another bare path, run `source ~/.nvm/nvm.sh && npm run content:public:paths` to repair the canonical path safely.
+
 ## 13. Preview & QA Checklist
 
 1. Run `source ~/.nvm/nvm.sh && npm run lint && npm run content:lint`.
-2. Optionally `npm run build` to confirm the search index picks up new entries.
-3. Spot-check:
+2. If lint reports route-family path errors for tutorials, tools, resources, comparisons, templates, glossary terms, or lead magnets, run `source ~/.nvm/nvm.sh && npm run content:public:paths` and review the diff.
+3. Optionally `npm run build` to confirm the search index picks up new entries.
+4. Spot-check:
    - `/artykuly` – new badges show correct labels.
+   - one legacy article slug URL you expect search engines to know now returns `308` to the canonical article path.
    - `/poradniki` – filters include the new tutorial and counts update.
    - `/glossary` – search + anchors work for new terms.
    - `/szukaj?q=api` – glossary entries appear.
    - `/szukaj?q=meetupy` – the resource page under `/zasoby/wydarzenia-meetupy/` appears with the `Zasób` label.
    - `/szukaj?q=hotjar` – published tool pages such as `/narzedzia/hotjar/alternatywy/` and `/narzedzia/hotjar/cennik/` appear, while draft-only routes do not.
    - `/szukaj?q=webflow&typ=tutorial&sort=newest` – only tutorial results appear and URL filters stay selected.
-4. Capture any QA findings in `docs/operations/audit_checklist.md`.
+5. Capture any QA findings in `docs/operations/audit_checklist.md`.
 
 ## 14. Publishing Process
 

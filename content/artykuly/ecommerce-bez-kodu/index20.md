@@ -10,9 +10,15 @@ date: '2026-04-03'
 meta:
   updatedAt: '2026-04-03'
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: no-code wystarcza przy umiarkowanym ruchu, ale przy dużej skali,
+      integracjach i kosztach planuj migrację lub hybrydę.
+    - >-
+      Dla kogo: sklepy testujące ofertę i startujące szybko; nie dla złożonych
+      reguł B2B, ERP/CRM i niestandardowej realizacji zamówień.
+    - >-
+      Start: wyznacz limity SKU, zamówień, integracji i kosztów, a potem zmapuj
+      proces od katalogu do obsługi klienta.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/ecommerce-bez-kodu/ecommerce-bez-kodu-20/

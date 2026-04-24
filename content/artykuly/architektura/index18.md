@@ -24,9 +24,15 @@ seo:
     - architektura
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: lock-in ograniczasz przez otwarte eksporty danych, adaptery API i
+      ostrożne użycie funkcji dostawcy.
+    - >-
+      Dla kogo: zespoły planujące skalę lub migracje; nie jako ciężki multicloud
+      dla MVP bez zasobów.
+    - >-
+      Start: sprawdź pełny eksport CSV/JSON/Parquet i spisz 3-5 krytycznych
+      integracji do objęcia wrapperem.
   primaryCta:
     label: Przejdź do artykułu
     href: >-

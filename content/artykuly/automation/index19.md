@@ -11,9 +11,15 @@ hero:
   subheading: Szybkie decyzje, wzór startu i realne oszczędności czasu
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: automatyzuj brief, onboarding i checklisty, gdy chcesz skrócić
+      start projektu i ograniczyć pomyłki.
+    - >-
+      Dla kogo: agencje z powtarzalnym startem projektów; nie dla klientów
+      wymagających wielogodzinnej ręcznej konfiguracji.
+    - >-
+      Start: po podpisaniu umowy uruchom formularz, folder projektu, checklistę
+      i wiadomość powitalną.
   updatedAt: '2026-01-14'
   primaryCta:
     label: 'Przykład: onboarding w 5 minut (Zapier)'

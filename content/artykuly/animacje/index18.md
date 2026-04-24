@@ -19,9 +19,15 @@ meta:
   updatedAt: '2026-01-14'
   duration: 5 min
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: FlutterFlow wystarczy na animacje MVP, Bubble wymaga ostrożności
+      przy pluginach, a core animation wymaga kodu.
+    - >-
+      Dla kogo: founderzy mobilnych MVP i webowych prototypów; nie dla produktu,
+      którego wartością jest silnik animacji.
+    - >-
+      Start: dodaj Lottie do jednego ekranu i sprawdź działanie na urządzeniu
+      oraz błędy zewnętrznych skryptów.
   primaryCta:
     label: Dokumentacja FlutterFlow — Animacje
     href: https://docs.flutterflow.io/concepts/animations/

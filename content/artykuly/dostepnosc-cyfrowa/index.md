@@ -5,21 +5,27 @@ path: /artykuly/dostepnosc-cyfrowa/
 template: default
 type: hub
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: Dostępność cyfrowa w no-code
-  subheading: WCAG, testy i praktyczne poprawki dla stron i aplikacji budowanych bez
-    kodu.
+  subheading: WCAG, testy i praktyczne poprawki dla stron i aplikacji budowanych bez kodu.
 seo:
   title: Dostępność cyfrowa w no-code | ProjektBezKodu
-  description: "Artykuły o dostępności cyfrowej w no-code: WCAG, testy, kontrast,\
-    \ nawigacja i dokumenty."
+  description: >-
+    Artykuły o dostępności cyfrowej w no-code: WCAG, testy, kontrast, nawigacja
+    i dokumenty.
 meta:
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: dostępność w no-code jest realna, jeśli od początku projektujesz
+      pod WCAG 2.1 AA i regularnie testujesz.
+    - >-
+      Dla kogo: firmy, twórcy no-code i projekty edukacyjne wymagające
+      dostępności; nie dla zespołów liczących wyłącznie na gotowe bloki.
+    - >-
+      Start: sprawdź kontrast, teksty alternatywne, nawigację klawiaturą i
+      komunikaty błędów w wybranym builderze.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/dostepnosc-cyfrowa/

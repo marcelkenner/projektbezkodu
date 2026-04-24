@@ -27,9 +27,15 @@ meta:
   updatedAt: '2026-01-14'
   hasAffiliateLinks: false
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: zmieniaj rozwiązanie tylko wtedy, gdy alternatywa obniża koszt
+      lub ryzyko o około 20-30% i da się ją szybko sprawdzić.
+    - >-
+      Dla kogo: osoby porównujące zakupy, dostawców i plany; nie dla ciągłego
+      polowania na oferty bez testu migracji.
+    - >-
+      Start: wypisz koszt, czas i ryzyko, porównaj jedną alternatywę i zrób mały
+      pilot zamiast pełnej wymiany.
   primaryCta:
     label: Definicja w SJP
     href: https://sjp.pl/ALTERNATYWA

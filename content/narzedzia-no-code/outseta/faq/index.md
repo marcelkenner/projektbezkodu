@@ -27,9 +27,15 @@ seo:
   canonical: https://www.outseta.com/
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Outseta przyspiesza MVP z billingiem, CRM i helpdeskiem, ale
+      koszty prowizji i waluty trzeba policzyć razem ze Stripe.
+    - >-
+      Dla kogo: indie SaaS, bootstrapped startupy i subskrypcyjne społeczności;
+      nie dla złożonych operacji finansowych enterprise.
+    - >-
+      Start: załóż trial, połącz Stripe, przygotuj CSV importu i przetestuj
+      checkout oraz portal klienta.
   updatedAt: '2026-01-14'
   primaryCta:
     label: Zobacz cennik Outseta

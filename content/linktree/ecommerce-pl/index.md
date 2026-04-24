@@ -24,9 +24,15 @@ seo:
     - m-commerce
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: polski e-commerce nadal rośnie, ale opłaca się dopiero po
+      policzeniu marży, logistyki i zwrotów.
+    - >-
+      Dla kogo: marki niszowe i sklepy z minimum 15% marży po kosztach; nie dla
+      niskomarżowych ofert bez planu logistyki.
+    - >-
+      Start: wystaw 5-10 SKU na marketplace, ustaw budżet 300-500 zł i zmierz
+      CAC oraz marżę po wysyłce.
   primaryCta:
     label: Czytaj raport PwC
     href: >-

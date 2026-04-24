@@ -26,9 +26,15 @@ seo:
     - automatyzacja no-code
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: Zapier nadal wygrywa prostotą i katalogiem integracji, ale Make,
+      n8n albo Pipedream lepiej znoszą koszty, skalę lub kodowalną logikę.
+    - >-
+      Dla kogo: zespoły przekraczające limity zadań Zapiera; nie dla osób,
+      którym wystarczają proste Zapy bez utrzymania.
+    - >-
+      Start: wybierz jeden drogi lub złożony Zap i odtwórz go testowo w Make,
+      n8n albo Pipedream.
   primaryCta:
     label: Przeczytaj porównanie
     href: https://zapier.com/blog/pipedream-vs-zapier/

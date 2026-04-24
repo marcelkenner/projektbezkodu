@@ -5,21 +5,29 @@ path: /artykuly/badania/
 template: default
 type: hub
 draft: false
-date: "2026-01-14"
+date: '2026-01-14'
 hero:
   heading: Badania no-code
-  subheading: Raporty, trendy i przekrojowe analizy rynku narzędzi, procesów i wdrożeń
-    bez kodu.
+  subheading: >-
+    Raporty, trendy i przekrojowe analizy rynku narzędzi, procesów i wdrożeń bez
+    kodu.
 seo:
   title: Badania no-code | ProjektBezKodu
-  description: "Artykuły badawcze i raporty o no-code: trendy, ograniczenia, ROI i\
-    \ obserwacje z rynku."
+  description: >-
+    Artykuły badawcze i raporty o no-code: trendy, ograniczenia, ROI i
+    obserwacje z rynku.
 meta:
-  updatedAt: "2026-01-14"
+  updatedAt: '2026-01-14'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: no-code skraca wdrożenia i automatyzuje procesy, jeśli od
+      początku kontrolujesz zakres, ROI i ryzyko platformy.
+    - >-
+      Dla kogo: działy biznesowe, firmy z ograniczonym budżetem IT i zespoły
+      testujące MVP; nie jako jedyna metoda dla krytycznych systemów.
+    - >-
+      Start: zdefiniuj cel, kryteria sukcesu, koszty długoterminowe i plan
+      wyjścia z wybranej platformy.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/badania/

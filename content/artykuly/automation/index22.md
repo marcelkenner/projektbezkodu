@@ -27,9 +27,15 @@ seo:
     - Make
 meta:
   summaryBullets:
-    - 'Werdykt: krótko i konkretnie'
-    - 'Dla kogo: kiedy to ma sens i kiedy nie'
-    - 'Start: co zrobić jako pierwsze'
+    - >-
+      Werdykt: AI w no-code daje przewagę przy klasyfikacji, ekstrakcji i
+      szkicach, ale wymaga kontroli przy decyzjach krytycznych.
+    - >-
+      Dla kogo: zespoły automatyzujące zgłoszenia, maile i notatki; nie dla
+      samodzielnych decyzji prawnych, medycznych lub finansowych.
+    - >-
+      Start: wybierz najczęstszy typ zgłoszenia, zrób pilotaż i ręcznie sprawdź
+      dokładność oraz prywatność danych.
   primaryCta:
     label: Przeczytaj o Zapier Agents
     href: https://zapier.com/blog/introducing-zapier-ai-agents

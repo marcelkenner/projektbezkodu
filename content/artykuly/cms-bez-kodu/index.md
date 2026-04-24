@@ -5,21 +5,29 @@ path: /artykuly/cms-bez-kodu/
 template: default
 type: hub
 draft: false
-date: "2026-01-15"
+date: '2026-01-15'
 hero:
   heading: CMS bez kodu
-  subheading: Wybór narzędzia, architektura treści i codzienna praca z systemami CMS
-    bez programowania.
+  subheading: >-
+    Wybór narzędzia, architektura treści i codzienna praca z systemami CMS bez
+    programowania.
 seo:
   title: CMS bez kodu | ProjektBezKodu
-  description: "Artykuły o CMS-ach bez kodu: wybór narzędzia, struktura treści, media\
-    \ i bezpieczeństwo."
+  description: >-
+    Artykuły o CMS-ach bez kodu: wybór narzędzia, struktura treści, media i
+    bezpieczeństwo.
 meta:
-  updatedAt: "2026-01-15"
+  updatedAt: '2026-01-15'
   summaryBullets:
-  - "Werdykt: krótko i konkretnie"
-  - "Dla kogo: kiedy to ma sens i kiedy nie"
-  - "Start: co zrobić jako pierwsze"
+    - >-
+      Werdykt: CMS bez kodu wybierz, gdy ważniejszy jest szybki start i łatwa
+      edycja niż pełna elastyczność.
+    - >-
+      Dla kogo: małe i średnie firmy, content/product zespoły oraz MVP; nie dla
+      złożonej logiki i trudnych migracji.
+    - >-
+      Start: opisz model treści, wymagane integracje i plan eksportu danych
+      przed wyborem platformy.
   primaryCta:
     label: Przejdź do artykułu
     href: /artykuly/cms-bez-kodu/
